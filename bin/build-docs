@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+"""Render docs/ (the GitHub Pages site) from analysis/ppt2-syakegohan/games.csv.
+
+    bin/build-docs          write every page
+    bin/build-docs --check  re-render and byte-compare; fail on any difference (the CI gate)
+
+Every docs/*.html is a page this script renders. A file in docs/ that it does not render is drift,
+so a card that leaves the CSV cannot leave its page published.
+"""
+import sys
+from html import escape
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO))
+from pipeline import ppt2_page  # noqa: E402
+
+DOCS = REPO / "docs"
+MAIN_SITE = "https://yachi.github.io/tetrio-replay-report/"
+
+
+def render_index(c):
+    return "".join([
+        '<!doctype html><html lang="zh-HK"><head><meta charset="utf-8">',
+        "<title>PPT2 對戰數據</title>",
+        '<meta name="viewport" content="width=device-width, initial-scale=1">',
+        '<meta name="description" content="Puyo Puyo Tetris 2 對戰數據，由 YouTube 影片逐格抽出。">',
+        f"<style>{ppt2_page.CSS}</style></head><body><div class='wrap'>",
+        "<p class='kicker'>PUYO PUYO TETRIS 2 · 影片抽取</p>",
+        "<h1>PPT2 對戰數據</h1>",
+        "<p>由 YouTube 影片逐格抽出嘅 PPS、APM、APP、VS，分對手睇，每一局都有影片連結。"
+        "唔係 TETR.IO 數字。</p>",
+        f"<h2><a href='{escape(c['href'])}'>syakegohan（しゃけごはん）對戰數據</a></h2>",
+        f"<p>{c['games']} 局 · syakegohan {c['won']}–{c['lost']}</p>",
+        "<footer><p>數據同生成程式：<a href='https://github.com/yachi/ppt2-replay-report'>"
+        "github.com/yachi/ppt2-replay-report</a>。影片版權屬原作者，呢個網站只連去 YouTube。</p>",
+        f"<p><a href='{MAIN_SITE}'>TETR.IO 對戰報告</a></p></footer>",
+        "</div></body></html>",
+    ])
+
+
+def main(argv):
+    check = argv == ["--check"]
+    if argv and not check:
+        raise SystemExit("usage: bin/build-docs [--check]")
+    games = ppt2_page.load(REPO)
+    pages = ppt2_page.render_all(games)
+    if "index.html" in pages:
+        raise SystemExit("ppt2_page renders index.html, which this script owns")
+    pages["index.html"] = render_index(ppt2_page.card(games))
+    drift = []
+    for name, page in sorted(pages.items()):
+        dst = DOCS / name
+        if check:
+            if not dst.exists() or dst.read_text(encoding="utf-8") != page:
+                drift.append(f"docs/{name} differs from what {ppt2_page.DATA_REL} renders")
+        else:
+            dst.write_text(page, encoding="utf-8")
+            print(f"  rendered docs/{name} ({len(page.encode())} bytes)")
+    for stale in sorted(DOCS.glob("*.html")):
+        if stale.name not in pages:
+            if check:
+                drift.append(f"docs/{stale.name} is published but nothing renders it")
+            else:
+                stale.unlink()
+                print(f"  removed docs/{stale.name} (nothing renders it)")
+    if drift:
+        print("\n".join(f"FAIL {d}" for d in drift), file=sys.stderr)
+        print("run bin/build-docs and commit docs/", file=sys.stderr)
+        return 1
+    if check:
+        print(f"docs/ is current: {len(pages)} pages")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

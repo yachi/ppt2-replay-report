@@ -1,0 +1,59 @@
+<!doctype html><html lang="zh-HK"><head><meta charset="utf-8"><title>PPT2 對戰數據</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Puyo Puyo Tetris 2 對戰數據，由 YouTube 影片逐格抽出。"><style>
+*,*::before,*::after{box-sizing:border-box}
+:root{--bg:#f5f6fa;--card:#fff;--ink:#12141c;--muted:#6b7080;--line:rgba(18,20,28,.12);
+  --me:#0e8f9e;--opp:#7c3aed;--warn:#b45309;--accent:#0e8f9e}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a0c12;--card:#141824;
+  --ink:#eef1f8;--muted:#8f96ab;--line:rgba(255,255,255,.10);--me:#22d3ee;--opp:#a78bfa;
+  --warn:#fbbf24;--accent:#22d3ee}}
+:root[data-theme="dark"]{--bg:#0a0c12;--card:#141824;--ink:#eef1f8;--muted:#8f96ab;
+  --line:rgba(255,255,255,.10);--me:#22d3ee;--opp:#a78bfa;--warn:#fbbf24;--accent:#22d3ee}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"PingFang HK","Hiragino Sans CNS","Noto Sans HK","Microsoft JhengHei",
+    -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:clamp(2rem,6vw,4rem) 16px 5rem}
+.kicker{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.75rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(1.7rem,5vw,2.6rem);line-height:1.2;margin:.5rem 0 1rem}
+h2{font-size:1.05rem;margin:2.6rem 0 .9rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)}
+p,li{max-width:75ch}
+.muted{color:var(--muted)}
+.warn{border-left:3px solid var(--warn);padding:.6rem 1rem;background:var(--card);border-radius:8px}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums}
+th,td{padding:.4rem .6rem;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th{font-weight:600;color:var(--muted);position:sticky;top:0;background:var(--card)}
+td.l,th.l{text-align:left}
+tr.me td{color:var(--me);font-weight:600}
+tr.small td{color:var(--muted);font-style:italic}
+tr.ex td{color:var(--muted)}
+tr.sep td{border-top:2px solid var(--line)}
+.w{color:var(--me);font-weight:600} .lo{color:var(--opp)}
+a{color:var(--accent)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em}
+footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.2rem;
+  text-decoration:none;color:inherit;display:block;min-width:0;transition:border-color .15s ease}
+.card:hover{border-color:var(--accent)}
+.card .date{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.78rem;color:var(--muted)}
+.card .kind{font-size:.78rem;color:var(--warn)}
+.card .kind.live{color:var(--muted)}
+.card .title{font-weight:650;font-size:1.08rem;margin:.3rem 0 .1rem;overflow-wrap:anywhere}
+.card .vs{display:flex;align-items:baseline;gap:.5rem;margin:.5rem 0 .3rem;flex-wrap:wrap}
+.card .vs b{font-size:1.4rem;font-variant-numeric:tabular-nums}
+.card .meta{font-size:.82rem;color:var(--muted)}
+.card table{font-size:.8rem;margin-top:.5rem}
+.card th,.card td{padding:.2rem .35rem}
+.card th{position:static}
+.card.small{opacity:.75}
+.card.small .title,.card.small .vs,.card.small td{font-style:italic;color:var(--muted)}
+.me-c{color:var(--me)} .opp-c{color:var(--opp)}
+.trend{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.8rem;
+  display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))}
+.trend svg{width:100%;height:auto;display:block}
+.trend .ax{stroke:var(--line)} .trend .ln{stroke:var(--me);fill:none;stroke-width:1.6}
+.trend .pt{fill:var(--me);stroke:var(--me);stroke-width:1.4} .trend .pt.small{fill:var(--card)}
+.trend text{fill:var(--muted);font-size:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.trend text.cap{fill:var(--ink);font-size:11px;font-weight:600}
+nav.back{font-size:.9rem;margin-bottom:.4rem}
+</style></head><body><div class='wrap'><p class='kicker'>PUYO PUYO TETRIS 2 · 影片抽取</p><h1>PPT2 對戰數據</h1><p>由 YouTube 影片逐格抽出嘅 PPS、APM、APP、VS，分對手睇，每一局都有影片連結。唔係 TETR.IO 數字。</p><h2><a href='ppt2-syakegohan.html'>syakegohan（しゃけごはん）對戰數據</a></h2><p>191 局 · syakegohan 126–65</p><footer><p>數據同生成程式：<a href='https://github.com/yachi/ppt2-replay-report'>github.com/yachi/ppt2-replay-report</a>。影片版權屬原作者，呢個網站只連去 YouTube。</p><p><a href='https://yachi.github.io/tetrio-replay-report/'>TETR.IO 對戰報告</a></p></footer></div></body></html>

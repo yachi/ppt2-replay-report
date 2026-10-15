@@ -1,0 +1,31 @@
+# ppt2-replay-report
+
+Puyo Puyo Tetris 2 match data for syakegohan (しゃけごはん), read frame by frame from YouTube video.
+Site: <https://yachi.github.io/ppt2-replay-report/>
+
+PPT2 has no replay file, so every figure comes from the video. The figures are not TETR.IO figures:
+the PPT2 attack table is different. The TETR.IO reports are in
+[tetrio-replay-report](https://github.com/yachi/tetrio-replay-report).
+
+## Layout
+
+| path | what |
+|---|---|
+| `analysis/ppt2-syakegohan/games.csv` | one row for each player in each game: the data that every page renders |
+| `analysis/ppt2-syakegohan/event-corrections.json` | extractor events corrected by eye from the frames, applied before the tally |
+| `analysis/ppt2-syakegohan/hand-edits.csv` | cell corrections laid over the chain output, each with its source |
+| `pipeline/ppt2_page.py` | the renderer. It uses the Python standard library only |
+| `bin/build-docs` | writes `docs/`. With `--check`, it re-renders and byte-compares (the CI gate) |
+| `docs/` | the GitHub Pages site |
+| `extractor/` | the extraction chain, archived as it ran. Read `extractor/README.md` first |
+| `HISTORY.md` | the commit log of this report from its first home, tetrio-replay-report |
+
+## Commands
+
+```bash
+bin/build-docs            # render docs/ from games.csv
+bin/build-docs --check    # fail if docs/ differs from what games.csv renders
+python3 -m pipeline.ppt2_page --apply <chain games.csv>   # games.csv = chain output + hand-edits.csv
+```
+
+The video copyright belongs to the original authors. The site links to YouTube and copies no frame.
