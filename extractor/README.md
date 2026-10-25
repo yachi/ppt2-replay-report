@@ -6,7 +6,7 @@ This directory holds the source code that wrote the chain output under
 ## What you cannot do with it alone
 
 - **Rebuild from zero without the videos.** The repo holds no video, no frame image and no derived
-  feature file (`*.npz`, `*.pkl`). To start again, download the 17 videos listed in `games.csv`
+  feature file (`*.npz`, `*.pkl`). To start again, download the 18 videos listed in `games.csv`
   (column `video`) with `uvx yt-dlp -f "bv*[height<=480][ext=mp4]"`, then run extractors A and B.
 - **Run the scripts in place.** They contain absolute paths to the original work tree,
   `/private/tmp/claude-501/sk/...`. The code is kept byte for byte as it ran. It was not rewritten,
@@ -29,7 +29,8 @@ This directory holds the source code that wrote the chain output under
 
 `<set>` is one work tree per batch of videos: `Y`, `lg` and `cVO` are the three streams
 `YbMeCRhjG1k`, `lgszEWNFSx0` and `cVO2eGipjV0`. `B` holds the other videos. The four trees are
-near-copies, and some files differ from tree to tree.
+near-copies, and some files differ from tree to tree. `TJc` is a later port of `cVO` to the 2026-10-18
+video `TJcCRfhwNNI`; its README lists what it changes and how it was checked.
 
 ## How games.csv is made
 
