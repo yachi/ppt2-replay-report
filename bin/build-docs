@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Render docs/ (the GitHub Pages site) from analysis/ppt2-syakegohan/games.csv.
+"""Render docs/ (the GitHub Pages site) from every analysis/ppt2-<slug>/games.csv that exists.
 
     bin/build-docs          write every page
     bin/build-docs --check  re-render and byte-compare; fail on any difference (the CI gate)
 
 Every docs/*.html is a page this script renders. A file in docs/ that it does not render is drift,
-so a card that leaves the CSV cannot leave its page published.
+so a card that leaves the CSV cannot leave its page published. A subject in pipeline/subjects.py is
+rendered, and listed on the index, only once its games.csv exists.
 """
 import sys
 from html import escape
@@ -14,12 +15,14 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 from pipeline import ppt2_page  # noqa: E402
+from pipeline.subjects import SUBJECTS  # noqa: E402
 
 DOCS = REPO / "docs"
 MAIN_SITE = "https://yachi.github.io/tetrio-replay-report/"
 
 
-def render_index(c):
+def render_index(listed):
+    """`listed` is [(Subject, ppt2_page.card(...))] for every rendered subject, one section each."""
     return "".join([
         '<!doctype html><html lang="zh-HK"><head><meta charset="utf-8">',
         "<title>PPT2 對戰數據</title>",
@@ -30,8 +33,8 @@ def render_index(c):
         "<h1>PPT2 對戰數據</h1>",
         "<p>由 YouTube 影片逐格抽出嘅 PPS、APM、APP、VS，分對手睇，每一局都有影片連結。"
         "唔係 TETR.IO 數字。</p>",
-        f"<h2><a href='{escape(c['href'])}'>syakegohan（しゃけごはん）對戰數據</a></h2>",
-        f"<p>{c['games']} 局 · syakegohan {c['won']}–{c['lost']}</p>",
+        "".join(f"<h2><a href='{escape(c['href'])}'>{s.display}對戰數據</a></h2>"
+                f"<p>{c['games']} 局 · {s.me} {c['won']}–{c['lost']}</p>" for s, c in listed),
         "<footer><p>數據同生成程式：<a href='https://github.com/yachi/ppt2-replay-report'>"
         "github.com/yachi/ppt2-replay-report</a>。影片版權屬原作者，呢個網站只連去 YouTube。</p>",
         f"<p><a href='{MAIN_SITE}'>TETR.IO 對戰報告</a></p></footer>",
@@ -43,17 +46,28 @@ def main(argv):
     check = argv == ["--check"]
     if argv and not check:
         raise SystemExit("usage: bin/build-docs [--check]")
-    games = ppt2_page.load(REPO)
-    pages = ppt2_page.render_all(games)
-    if "index.html" in pages:
-        raise SystemExit("ppt2_page renders index.html, which this script owns")
-    pages["index.html"] = render_index(ppt2_page.card(games))
+    pages, source, listed = {}, {}, []
+    for s in SUBJECTS:
+        if not (REPO / s.data_rel).exists():
+            continue
+        games = ppt2_page.load(REPO, s)
+        for name, page in ppt2_page.render_all(games, s).items():
+            if name == "index.html":
+                raise SystemExit(f"ppt2_page renders index.html for {s.slug}, which this script owns")
+            if name in pages:
+                raise SystemExit(f"docs/{name} is rendered from both {source[name]} and {s.data_rel}")
+            pages[name], source[name] = page, s.data_rel
+        listed.append((s, ppt2_page.card(games, s)))
+    if not listed:
+        raise SystemExit("no subject has a games.csv")
+    pages["index.html"] = render_index(listed)
+    source["index.html"] = "the subjects' games.csv"
     drift = []
     for name, page in sorted(pages.items()):
         dst = DOCS / name
         if check:
             if not dst.exists() or dst.read_text(encoding="utf-8") != page:
-                drift.append(f"docs/{name} differs from what {ppt2_page.DATA_REL} renders")
+                drift.append(f"docs/{name} differs from what {source[name]} renders")
         else:
             dst.write_text(page, encoding="utf-8")
             print(f"  rendered docs/{name} ({len(page.encode())} bytes)")

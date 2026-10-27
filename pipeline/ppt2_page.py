@@ -1,11 +1,13 @@
-"""docs/ppt2-syakegohan.html — syakegohan's Puyo Puyo Tetris 2 games, measured from YouTube video.
+"""docs/ppt2-<slug>.html — one player's Puyo Puyo Tetris 2 games, measured from YouTube video.
 
 NOT PART OF THE TETR.IO CORPUS AND NOT IN THE PROOF CHAIN. There are no replay files: every count in
-`analysis/ppt2-syakegohan/games.csv` was read off video frames by two independently written
-extractors (NEXT-queue shifts; cell accounting), reconciled, and spot-checked by a third reader.
-Attack is COMPUTED from the clears with PPT2's attack table, never observed, so no figure here is
-comparable with a TETR.IO figure. The page says all of that in its own words, and carries no claim
-id, no ✓ and no `data-claim`.
+`analysis/ppt2-<slug>/games.csv` was read off video frames by two independently written
+extractors (NEXT-queue shifts; cell accounting) and reconciled. Attack is COMPUTED from the clears
+with PPT2's attack table, never observed, so no figure here is comparable with a TETR.IO figure. The
+page says all of that in its own words, and carries no claim id, no ✓ and no `data-claim`.
+
+Every function that prints a name, a path or a caveat takes the player's `Subject` record
+(`pipeline/subjects.py`); nothing about one player is written here.
 
 Rendered by `bin/build-docs`, so `--check` byte-compares it against this renderer and the committed
 CSV: the pooled figures are recomputed on every check and cannot drift from the rows they pool.
@@ -19,12 +21,8 @@ from collections import defaultdict
 from html import escape
 from pathlib import Path
 
-DATA_REL = "analysis/ppt2-syakegohan/games.csv"
-#: cells corrected by hand from the video, each with the chain value it replaced and its source
-HAND_REL = "analysis/ppt2-syakegohan/hand-edits.csv"
-PAGE = "ppt2-syakegohan.html"
-CHANNEL = "https://www.youtube.com/channel/UCjaIDXm6AZz1fMkBT-OU8Ag"
-ME = "syakegohan"
+from pipeline.subjects import by_slug
+
 MIN_GAMES = 10
 #: seconds of lead-in before a game's first piece in each video link
 LEAD_S = 3
@@ -34,8 +32,8 @@ SUMS = ("duration_s", "pieces", "lines_cleared", "attack", "garbage_cleared", "g
 MAXES = ("max_combo", "max_b2b")
 
 
-def _hand_edits(repo):
-    with open(Path(repo) / HAND_REL, encoding="utf-8", newline="") as fh:
+def _hand_edits(repo, s):
+    with open(Path(repo) / s.hand_rel, encoding="utf-8", newline="") as fh:
         return list(csv.DictReader(fh))
 
 
@@ -56,16 +54,16 @@ def apply_hand_edits(rows, edits):
     return rows
 
 
-def load(repo):
-    with open(Path(repo) / DATA_REL, encoding="utf-8", newline="") as fh:
+def load(repo, s):
+    with open(Path(repo) / s.data_rel, encoding="utf-8", newline="") as fh:
         rows = list(csv.DictReader(fh))
     # games.csv is the chain's output with the hand edits laid over it. A rebuild that writes the chain
     # output alone silently drops them (2026-10-15 did, all 24 rows), so the page refuses to render one.
-    for e in _hand_edits(repo):
+    for e in _hand_edits(repo, s):
         got = next((r[e["field"]] for r in rows if (r["id"], r["player"]) == (e["id"], e["player"])), None)
         if got != e["value"]:
-            raise ValueError(f"{DATA_REL}: {e['id']} {e['player']} {e['field']} is {got!r}, the hand edit says "
-                             f"{e['value']!r}; rebuild with python3 -m pipeline.ppt2_page --apply <chain.csv>")
+            raise ValueError(f"{s.data_rel}: {e['id']} {e['player']} {e['field']} is {got!r}, the hand edit says "
+                             f"{e['value']!r}; rebuild with python3 -m pipeline.ppt2_page --apply {s.slug} <chain.csv>")
     games = defaultdict(dict)
     for r in rows:
         games[r["id"]][r["player"]] = r
@@ -198,22 +196,24 @@ PLAYER_TABLE_HEAD = ("<tr><th class='l'>玩家</th><th>局數</th><th>贏</th>"
                      + "".join(f"<th>{h}</th>" for h in PLAYER_HEAD)
                      + "<th>全消</th><th>最長 REN</th><th>最長 B2B</th><th>平均局長 (秒)</th></tr>")
 
-GAME_HEAD = ("<tr><th class='l'>局</th><th class='l'>日期</th><th class='l'>影片</th><th class='l'>對手</th>"
-             "<th class='l'>開局</th><th class='l'>贏家</th><th>局長 (秒)</th>"
-             "<th>syake PPS</th><th>syake APM</th><th>syake APP</th>"
-             "<th>對手 PPS</th><th>對手 APM</th><th>對手 APP</th><th class='l'>備註</th></tr>")
+
+def _game_head(s):
+    return ("<tr><th class='l'>局</th><th class='l'>日期</th><th class='l'>影片</th><th class='l'>對手</th>"
+            "<th class='l'>開局</th><th class='l'>贏家</th><th>局長 (秒)</th>"
+            f"<th>{s.short} PPS</th><th>{s.short} APM</th><th>{s.short} APP</th>"
+            "<th>對手 PPS</th><th>對手 APM</th><th>對手 APP</th><th class='l'>備註</th></tr>")
 
 
 def _game_key(g):
     return (g["p1"]["dataset"], g["p1"]["video"], float(g["p1"]["start_s"]))
 
 
-def _game_row(gid, g):
+def _game_row(gid, g, s):
     """One row of the per-game table, with its YouTube link. ONE copy, shared by the overview's
     full list and every card page's list."""
     p1, p2 = g["p1"], g["p2"]
     ex = p1["excluded"] == "1"
-    winner = f"<span class='w'>{ME}</span>" if p1["won"] == "1" else f"<span class='lo'>{escape(p2['opponent'] or '對手')}</span>"
+    winner = f"<span class='w'>{s.me}</span>" if p1["won"] == "1" else f"<span class='lo'>{escape(p2['opponent'] or '對手')}</span>"
     t = float(p1["duration_s"])
 
     def st(r):
@@ -232,38 +232,36 @@ def _game_row(gid, g):
         f"<td class='l'>{escape('剔除：' + note) if ex else ''}</td></tr>")
 
 
-def _warn_box(small):
+def _warn_box(small, s):
     """The 點樣讀呢版 box. ONE copy: the overview and every card page print it, so the caveats about
     how these numbers were read off video cannot drift apart between pages. `small` is the HTML list
-    of opponents under MIN_GAMES that the page is about."""
+    of opponents under MIN_GAMES that the page is about. What the extractors do is written here; what
+    was counted, measured or checked on one player's dataset is that Subject's `notes`, at its slot."""
+    n = s.note
     return (
         "<div class='warn'><p><strong>點樣讀呢版：</strong></p><ul>"
         "<li><strong>唔係 TETR.IO 數字。</strong>PPT2 嘅攻擊表同 TETR.IO 唔同，APM、VS、APP 唔可以同"
         "呢個網站其他戰報比較。</li>"
         "<li><strong>冇 replay 檔。</strong>每個數都係由影片逐格讀出嚟：兩個獨立寫嘅抽取器"
-        "（一個睇 NEXT 列移位，一個數格仔），對數之後再由第三個讀者抽查。冇 claim 編號、冇 ✓。</li>"
+        f"（一個睇 NEXT 列移位，一個數格仔）{n('method')}。冇 claim 編號、冇 ✓。</li>"
         "<li><strong>攻擊係計出嚟，唔係睇到。</strong>由每次清行嘅種類用 PPT2 攻擊表計"
         "（B2B、REN、全消照計），抵銷咗嘅攻擊喺片入面睇唔到。全消同其他加成點疊係假設。</li>"
         "<li><strong>已知缺陷：最尾一粒。</strong>KO 以輸家個板開始傾側嗰格計，比爆頂遲大約半秒；"
-        "贏家喺 KO 格或之前鎖低嘅方塊同清行都計。KO 畫面好多時遮住 T-spin 字幕，所以補返嘅清行"
-        "逐局睇片（字幕同分數變化）先定種類。如果贏家最後一粒冇消行、又啱啱喺 KO 嗰格鎖低，"
-        "抽取器睇唔到；每局 KO 嗰幾格都睇片查過，搵到嘅已經人手改正。"
-        "局長由第一粒到 KO，同睇片量度相差唔多過 0.11 秒。</li>"
+        f"贏家喺 KO 格或之前鎖低嘅方塊同清行都計。{n('banner')}如果贏家最後一粒冇消行、又啱啱喺 KO 嗰格鎖低，"
+        f"抽取器睇唔到{n('ko')}。</li>"
         "<li><strong>人手改正。</strong>抽取器睇錯嘅清行（例如 hold 換粒當咗清行、全消冇認到、"
         "T-spin Mini 冇消行）逐格睇片改正：改咗嘅事件記喺 event-corrections.json，"
-        "改咗嘅格連出處記喺 hand-edits.csv。改過嘅清行清走幾多垃圾行都睇片數過，"
-        "淨係 i016（p1）人手改咗種類嗰粒 T-spin 未數，所以嗰個玩家局嘅清垃圾數同 DS 係下限。"
+        f"改咗嘅格連出處記喺 hand-edits.csv。{n('hand')}"
         "最長 REN 係片入面見到嘅 REN 字幕，抽取器斷開嘅位都係下限。</li>"
-        "<li><strong>開局時間同粒數。</strong>有六局嘅開始時間誤認咗 READY 畫面，已經睇片改返 GO，"
-        "條片連結同時間標記因此移後 1.2 至 1.4 秒。玩家停住一粒超過 4 秒嘅位，抽取器 A 讀唔到 NEXT 列，"
-        "抽取器 B 嘅估算會疊落 A 自己嘅數度；睇片查過嘅三個玩家局已經改返，"
-        "另外九個有同類空檔嘅玩家局未睇片，粒數可能多咗。</li>"
+        f"<li><strong>開局時間同粒數。</strong>{n('ready')}玩家停住一粒超過 4 秒嘅位，抽取器 A 讀唔到 NEXT 列，"
+        f"抽取器 B 嘅估算會疊落 A 自己嘅數度{n('gap')}。</li>"
+        + n("extra") +
         f"<li>局數少過 {MIN_GAMES} 嘅對手用斜體灰色：{small or '冇'}。只當例子睇，唔好拎嚟比較。</li>"
         "<li>所有比率都係「總和對總和」（例如 PPS = 總粒數 ÷ 總秒數），數字一律向下取。</li>"
         "</ul></div>")
 
 
-def render(games):
+def render(games, s):
     inc = {k: g for k, g in games.items() if g["p1"]["excluded"] == "0"}
     by_opp = defaultdict(list)
     for gid, g in inc.items():
@@ -276,14 +274,14 @@ def render(games):
     videos = sorted({(g["p1"]["dataset"], g["p1"]["video"]) for g in games.values()})
     n_small = [o for o in order if len(by_opp[o]) < MIN_GAMES]
 
-    t1 = [PLAYER_TABLE_HEAD, _player_row(f"{ME}（全部）", me_all, "me"), _player_row("全部對手", opp_all)]
+    t1 = [PLAYER_TABLE_HEAD, _player_row(f"{s.me}（全部）", me_all, "me"), _player_row("全部對手", opp_all)]
     for i, o in enumerate(order):
         cls = ("small " if len(by_opp[o]) < MIN_GAMES else "") + ("sep" if i == 0 else "")
         t1.append(_player_row(o, pool(g["p2"] for g in by_opp[o]), cls))
 
-    t2 = ["<tr><th class='l'>對手</th><th>局數</th><th>syakegohan 戰績</th>"
-          "<th>syake PPS</th><th>對手 PPS</th><th>syake APM</th><th>對手 APM</th>"
-          "<th>syake VS</th><th>對手 VS</th><th>syake APP</th><th>對手 APP</th></tr>"]
+    t2 = [f"<tr><th class='l'>對手</th><th>局數</th><th>{s.me} 戰績</th>"
+          + "".join(f"<th>{s.short} {k}</th><th>對手 {k}</th>" for k in ("PPS", "APM", "VS", "APP"))
+          + "</tr>"]
     for o in order:
         a, b = pool(g["p1"] for g in by_opp[o]), pool(g["p2"] for g in by_opp[o])
         ra, rb = rates(a), rates(b)
@@ -294,7 +292,7 @@ def render(games):
                             for k, dp in (("PPS", 3), ("APM", 2), ("VS", 2), ("APP", 3)))
                   + "</tr>")
 
-    t3 = [GAME_HEAD] + [_game_row(gid, games[gid]) for gid in sorted(games, key=lambda k: _game_key(games[k]))]
+    t3 = [_game_head(s)] + [_game_row(gid, games[gid], s) for gid in sorted(games, key=lambda k: _game_key(games[k]))]
 
     vids = "".join(
         f"<li><code>{escape(_date(d))}</code> · {'直播' if d.startswith('stream') else '上載'} · "
@@ -306,36 +304,34 @@ def render(games):
 
     return "".join([
         '<!doctype html><html lang="zh-HK"><head><meta charset="utf-8">',
-        "<title>syakegohan PPT2 數據</title>",
+        f"<title>{s.me} PPT2 數據</title>",
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
-        '<meta name="description" content="しゃけごはん（syakegohan）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，'
-        '由 YouTube 影片逐格抽出，每一局都有影片連結。">',
+        f'<meta name="description" content="{escape(s.description)}">',
         f"<style>{CSS}</style></head><body><div class='wrap'>",
         "<p class='kicker'>PUYO PUYO TETRIS 2 · 影片抽取 · 唔喺證明鏈入面</p>",
-        "<h1>syakegohan（しゃけごはん）PPT2 對戰數據</h1>",
-        f"<p>由 <a href='{CHANNEL}' target='_blank' rel='noopener'>syakegohan 個 YouTube 頻道</a> "
+        f"<h1>{s.display}PPT2 對戰數據</h1>",
+        f"<p>由 <a href='{s.channel}' target='_blank' rel='noopener'>{s.me} 個 YouTube 頻道</a> "
         f"{len(videos)} 條片入面搵到 <strong>{len(games)}</strong> 局 Tetris 對 Tetris，"
-        f"計入 <strong>{len(inc)}</strong> 局（剔除 {n_ex} 局）。syakegohan 戰績 "
+        f"計入 <strong>{len(inc)}</strong> 局（剔除 {n_ex} 局）。{s.me} 戰績 "
         f"<strong>{int(me_all['won'])}–{int(opp_all['won'])}</strong>，PPS {_fl(ra['PPS'], 3)} 對 "
         f"{_fl(rb['PPS'], 3)}、APM {_fl(ra['APM'], 2)} 對 {_fl(rb['APM'], 2)}、APP {_fl(ra['APP'], 3)} 對 "
         f"{_fl(rb['APP'], 3)}。每一局喺最尾個表都有影片連結，撳落去直接跳去嗰局開始之前 {LEAD_S} 秒。</p>",
-        _warn_box(small),
-        _cards_section(cards(games)),
+        _warn_box(small, s),
+        _cards_section(cards(games, s), s),
         "<h2>每個玩家（只計入選嘅局）</h2><div class='tw'><table>", "".join(t1), "</table></div>",
         "<p class='muted'>DS/粒 = 每粒清走幾多行垃圾；食/分 = 每分鐘有幾多行垃圾真係落咗喺自己個板；"
         "Tetris % 同 T-spin % 係佔所有清行次數嘅百分比；T-spin 唔計 Mini。</p>",
-        "<h2>syakegohan 對每個對手</h2><div class='tw'><table>", "".join(t2), "</table></div>",
+        f"<h2>{s.me} 對每個對手</h2><div class='tw'><table>", "".join(t2), "</table></div>",
         f"<h2>逐局（{len(games)} 局，連影片）</h2><div class='tw'><table>", "".join(t3), "</table></div>",
         "<h2>影片</h2><ul>", vids, "</ul>",
-        _footer(False),
+        _footer(s, False),
         "</div></body></html>",
     ])
 
 
 # ---- one card per (date, opponent) --------------------------------------------------------------
-#: every card page is docs/<CARD_PREFIX><YYYY-MM-DD>-<n>.html; bin/build-docs treats any other file
-#: under that prefix as drift. The overview PAGE does not match the prefix (no dash after it).
-CARD_PREFIX = "ppt2-syakegohan-"
+#: every card page is docs/<Subject.card_prefix><YYYY-MM-DD>-<n>.html; bin/build-docs treats any
+#: docs/*.html that no subject renders as drift.
 UNKNOWN = "對手未知"
 KIND = {"stream": "直播", "upload": "上載日期（唔一定係打嘅日子）"}
 _ISO = re.compile(r"\d{4}-\d{2}-\d{2}")
@@ -348,7 +344,7 @@ def _kind(dataset):
     return k
 
 
-def cards(games):
+def cards(games, s):
     """The games grouped by (dataset, opponent), ordered by date then by the group's first game in
     its video; `n` is the 1-based position within its DATE, so a stream and an upload posted the same
     day share one numbering and never one filename. Nothing about the groups is typed here: they are
@@ -370,7 +366,7 @@ def cards(games):
     for c in out:
         per_date[c["date"]] += 1
         c["n"] = per_date[c["date"]]
-        c["page"] = f"{CARD_PREFIX}{c['date']}-{c['n']}.html"
+        c["page"] = f"{s.card_prefix}{c['date']}-{c['n']}.html"
         c["small"] = len(c["inc"]) < MIN_GAMES
     return out
 
@@ -386,20 +382,20 @@ def _cell(r, k, dp):
 CARD_METRICS = (("PPS", 3), ("APM", 2), ("APP", 3))
 
 
-def _card_html(c, href_prefix=""):
+def _card_html(c, s, href_prefix=""):
     me, op = _r(c, "me"), _r(c, "opp")
     won = int(c["me"]["won"])
     n_inc, n_ex = len(c["inc"]), len(c["gids"]) - len(c["inc"])
     rows = "".join(
         f"<tr><td class='l {cls}'>{escape(who)}</td>"
         + "".join(f"<td>{_cell(r, k, dp)}</td>" for k, dp in CARD_METRICS) + "</tr>"
-        for who, r, cls in ((ME, me, "me-c"), ("對手", op, "opp-c")))
+        for who, r, cls in ((s.me, me, "me-c"), ("對手", op, "opp-c")))
     return (
         f"<a class='card{' small' if c['small'] else ''}' href='{escape(href_prefix + c['page'])}'>"
         f"<div class='date'>{escape(c['date'])} · #{c['n']}</div>"
         f"<div class='kind{' live' if c['kind'] == 'stream' else ''}'>{escape(KIND[c['kind']])}</div>"
         f"<div class='title'>{escape(c['label'])}</div>"
-        f"<div class='vs'><span class='me-c'>{ME}</span><b>{won}–{n_inc - won}</b>"
+        f"<div class='vs'><span class='me-c'>{s.me}</span><b>{won}–{n_inc - won}</b>"
         f"<span class='opp-c'>{escape(c['label'])}</span></div>"
         f"<div class='meta'>計入 {n_inc} 局 · 剔除 {n_ex} 局</div>"
         "<table><tr><th class='l'></th>" + "".join(f"<th>{k}</th>" for k, _ in CARD_METRICS)
@@ -407,7 +403,7 @@ def _card_html(c, href_prefix=""):
 
 
 def _trend_svg(cs, key, dp, caption):
-    """One small line chart of syakegohan's `key` per card, in date order. Inline SVG, no library;
+    """One small line chart of the subject's `key` per card, in date order. Inline SVG, no library;
     a card with no included game has no point. Hollow points are cards under MIN_GAMES."""
     pts = [(i, rates(c["me"])[key], c) for i, c in enumerate(cs) if c["inc"]]
     W, H, L, R, T, B = 360, 150, 40, 10, 22, 22
@@ -441,8 +437,8 @@ def _trend_svg(cs, key, dp, caption):
         f"<path class='ln' d='{path}'/>{dots}{ticks}</svg>")
 
 
-def _cards_section(cs):
-    grid = "".join(_card_html(c) for c in cs)
+def _cards_section(cs, s):
+    grid = "".join(_card_html(c, s) for c in cs)
     rows = []
     for i, c in enumerate(cs):
         me, op = _r(c, "me"), _r(c, "opp")
@@ -461,40 +457,40 @@ def _cards_section(cs):
         "上載係條片上載嘅日子，唔一定係打嘅日子。局數少過 "
         f"{MIN_GAMES} 嘅卡用斜體灰色。PPS、APM、APP 一樣係總和對總和、向下取。</p>",
         f"<div class='grid'>{grid}</div>",
-        "<h2>syakegohan 逐張卡嘅走勢</h2>",
-        "<div class='trend'>", _trend_svg(cs, "APP", 3, f"{ME} APP（每粒攻擊）"),
-        _trend_svg(cs, "PPS", 3, f"{ME} PPS（每秒粒數）"), "</div>",
+        f"<h2>{s.me} 逐張卡嘅走勢</h2>",
+        "<div class='trend'>", _trend_svg(cs, "APP", 3, f"{s.me} APP（每粒攻擊）"),
+        _trend_svg(cs, "PPS", 3, f"{s.me} PPS（每秒粒數）"), "</div>",
         "<p class='muted'>橫軸係卡嘅次序（按日期），號碼對返下面個表；空心點係局數少過 "
         f"{MIN_GAMES} 嘅卡；冇計入局嘅卡冇點。唔同對手、唔同日子，所以呢條線唔係「進步」嘅證據。</p>",
         "<div class='tw'><table><tr><th>#</th><th class='l'>日期</th><th class='l'>種類</th>"
-        "<th class='l'>對手</th><th>計入</th><th>syakegohan 戰績</th><th>syake PPS</th><th>syake APP</th>"
+        f"<th class='l'>對手</th><th>計入</th><th>{s.me} 戰績</th><th>{s.short} PPS</th><th>{s.short} APP</th>"
         "<th>對手 PPS</th><th>對手 APP</th></tr>", "".join(rows), "</table></div>",
     ])
 
 
-def _footer(back_overview):
+def _footer(s, back_overview):
     return (
         "<footer><p>PPT2 攻擊表：<a href='https://tetris.wiki/Puyo_Puyo_Tetris'>tetris.wiki/Puyo_Puyo_Tetris</a>；"
         "REN 加成：<a href='https://howtotetris.com/combos'>howtotetris.com/combos</a>。</p>"
-        f"<p>數據：<code>{DATA_REL}</code>；由 <code>pipeline/ppt2_page.py</code> 生成，"
+        f"<p>數據：<code>{s.data_rel}</code>；由 <code>pipeline/ppt2_page.py</code> 生成，"
         "<code>bin/build-docs --check</code> 每次都會重新計過再逐 byte 比較。影片版權屬原作者，"
         "呢版只連去 YouTube，冇轉載任何畫面。</p>"
-        + (f"<p><a href='{PAGE}'>← 返 syakegohan PPT2 總覽</a></p>" if back_overview else "")
+        + (f"<p><a href='{s.page}'>← 返 {s.me} PPT2 總覽</a></p>" if back_overview else "")
         + "<p><a href='index.html'>← 返主頁</a> · "
         "<a href='https://yachi.github.io/tetrio-replay-report/'>TETR.IO 對戰報告</a></p></footer>")
 
 
-def render_card(games, c):
+def render_card(games, c, s):
     me, op = _r(c, "me"), _r(c, "opp")
     won = int(c["me"]["won"])
     n_inc, n_ex = len(c["inc"]), len(c["gids"]) - len(c["inc"])
     small = f"{escape(c['label'])}（{n_inc} 局）" if c["small"] else ""
     if c["inc"]:
-        figures = (f"syakegohan 戰績 <strong>{won}–{n_inc - won}</strong>，PPS {_fl(me['PPS'], 3)} 對 "
+        figures = (f"{s.me} 戰績 <strong>{won}–{n_inc - won}</strong>，PPS {_fl(me['PPS'], 3)} 對 "
                    f"{_fl(op['PPS'], 3)}、APM {_fl(me['APM'], 2)} 對 {_fl(op['APM'], 2)}、APP "
                    f"{_fl(me['APP'], 3)} 對 {_fl(op['APP'], 3)}。")
         table = ("<h2>呢張卡嘅每個玩家（只計入選嘅局）</h2><div class='tw'><table>" + PLAYER_TABLE_HEAD
-                 + _player_row(ME, c["me"], "me") + _player_row(c["label"], c["opp"], "small" if c["small"] else "")
+                 + _player_row(s.me, c["me"], "me") + _player_row(c["label"], c["opp"], "small" if c["small"] else "")
                  + "</table></div>")
     else:
         figures = "呢張卡冇一局計入，所以冇戰績、冇比率。"
@@ -502,61 +498,63 @@ def render_card(games, c):
     videos = sorted({games[k]["p1"]["video"] for k in c["gids"]})
     vids = "、".join(f"<a href='https://www.youtube.com/watch?v={escape(v)}' target='_blank' rel='noopener'>"
                     f"{escape(v)}</a>" for v in videos)
-    title = f"syakegohan 對 {c['label']} · {c['date']}" + ("（上載日期）" if c["kind"] == "upload" else "")
+    title = f"{s.me} 對 {c['label']} · {c['date']}" + ("（上載日期）" if c["kind"] == "upload" else "")
     return "".join([
         '<!doctype html><html lang="zh-HK"><head><meta charset="utf-8">',
         f"<title>{escape(title)} · PPT2</title>",
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
         f'<meta name="description" content="{escape(title)}：PPT2 對戰數據，由 YouTube 影片逐格抽出。">',
         f"<style>{CSS}</style></head><body><div class='wrap'>",
-        f"<nav class='back'><a href='{PAGE}'>← syakegohan PPT2 總覽</a></nav>",
+        f"<nav class='back'><a href='{s.page}'>← {s.me} PPT2 總覽</a></nav>",
         "<p class='kicker'>PUYO PUYO TETRIS 2 · 影片抽取 · 唔喺證明鏈入面</p>",
         f"<h1>{escape(title)}</h1>",
         f"<p><strong>{escape(c['date'])}</strong> · {escape(KIND[c['kind']])} · 影片 {vids}。"
         f"呢張卡有 <strong>{len(c['gids'])}</strong> 局，計入 <strong>{n_inc}</strong> 局（剔除 {n_ex} 局）。"
         f"{figures}每一局喺下面個表都有影片連結，撳落去直接跳去嗰局開始之前 {LEAD_S} 秒。</p>",
-        _warn_box(small),
+        _warn_box(small, s),
         table,
-        f"<h2>逐局（{len(c['gids'])} 局，連影片）</h2><div class='tw'><table>", GAME_HEAD,
-        "".join(_game_row(k, games[k]) for k in c["gids"]), "</table></div>",
-        _footer(True),
+        f"<h2>逐局（{len(c['gids'])} 局，連影片）</h2><div class='tw'><table>", _game_head(s),
+        "".join(_game_row(k, games[k], s) for k in c["gids"]), "</table></div>",
+        _footer(s, True),
         "</div></body></html>",
     ])
 
 
-def render_all(games):
-    """{docs file name: html} for the overview and every card page — what bin/build-docs publishes,
-    and the whole of it: any other docs/ppt2-syakegohan-*.html is drift."""
-    out = {PAGE: render(games)}
-    for c in cards(games):
+def render_all(games, s):
+    """{docs file name: html} for the subject's overview and every card page — what bin/build-docs
+    publishes for it, and the whole of it: any other docs/ppt2-<slug>-*.html is drift."""
+    out = {s.page: render(games, s)}
+    for c in cards(games, s):
         if c["page"] in out:
             raise ValueError(f"two cards render {c['page']}")
-        out[c["page"]] = render_card(games, c)
+        out[c["page"]] = render_card(games, c, s)
     return out
 
 
-def card(games):
+def card(games, s):
     inc = [g for g in games.values() if g["p1"]["excluded"] == "0"]
     won = sum(g["p1"]["won"] == "1" for g in inc)
-    return {"href": PAGE, "games": len(inc), "won": won, "lost": len(inc) - won}
+    return {"href": s.page, "games": len(inc), "won": won, "lost": len(inc) - won}
 
 
 def _main(argv):
-    """`--apply <chain.csv>`: write games.csv as the extractor chain's output with the hand edits laid
-    over it. The chain that writes <chain games.csv> is archived under extractor/ (see extractor/README.md)."""
-    if len(argv) != 2 or argv[0] != "--apply":
-        raise SystemExit("usage: python3 -m pipeline.ppt2_page --apply <chain games.csv>")
+    """`--apply <slug> <chain.csv>`: write the subject's games.csv as the extractor chain's output with
+    its hand edits laid over it. The chain that writes <chain games.csv> is archived under extractor/
+    (see extractor/README.md)."""
+    if len(argv) != 3 or argv[0] != "--apply":
+        raise SystemExit("usage: python3 -m pipeline.ppt2_page --apply <slug> <chain games.csv>")
+    s = by_slug(argv[1])
     repo = Path(__file__).resolve().parent.parent
-    with open(argv[1], encoding="utf-8", newline="") as fh:
+    with open(argv[2], encoding="utf-8", newline="") as fh:
         reader = csv.DictReader(fh)
         rows = list(reader)
         cols = list(reader.fieldnames or ())
-    apply_hand_edits(rows, _hand_edits(repo))
-    with open(repo / DATA_REL, "w", encoding="utf-8", newline="") as fh:
+    apply_hand_edits(rows, _hand_edits(repo, s))
+    with open(repo / s.data_rel, "w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=cols, lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
-    load(repo)
+    load(repo, s)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,7 @@
 # ppt2-replay-report
 
-Puyo Puyo Tetris 2 match data for syakegohan (しゃけごはん), read frame by frame from YouTube video.
+Puyo Puyo Tetris 2 match data for syakegohan (しゃけごはん) and amemiya (たいようあめみや), read frame by frame
+from YouTube video.
 Site: <https://yachi.github.io/ppt2-replay-report/>
 
 PPT2 has no replay file, so every figure comes from the video. The figures are not TETR.IO figures:
@@ -11,11 +12,13 @@ the PPT2 attack table is different. The TETR.IO reports are in
 
 | path | what |
 |---|---|
-| `analysis/ppt2-syakegohan/games.csv` | one row for each player in each game: the data that every page renders |
-| `analysis/ppt2-syakegohan/event-corrections.json` | extractor events corrected by eye from the frames, applied before the tally |
-| `analysis/ppt2-syakegohan/hand-edits.csv` | cell corrections laid over the chain output, each with its source |
-| `pipeline/ppt2_page.py` | the renderer. It uses the Python standard library only |
-| `bin/build-docs` | writes `docs/`. With `--check`, it re-renders and byte-compares (the CI gate) |
+| `analysis/ppt2-<slug>/` | one directory for each player: `analysis/ppt2-syakegohan/` and `analysis/ppt2-amemiya/` (rendered once its `games.csv` exists) |
+| `analysis/ppt2-<slug>/games.csv` | one row for each player in each game: the data that the player's pages render |
+| `analysis/ppt2-<slug>/event-corrections.json` | extractor events corrected by eye from the frames, applied before the tally |
+| `analysis/ppt2-<slug>/hand-edits.csv` | cell corrections laid over the chain output, each with its source |
+| `pipeline/subjects.py` | one record for each player: name, channel, data paths, page names and the caveats measured on that player's data |
+| `pipeline/ppt2_page.py` | the renderer, shared by every player. It uses the Python standard library only |
+| `bin/build-docs` | writes `docs/` for every player whose `games.csv` exists, and the index. With `--check`, it re-renders and byte-compares (the CI gate) |
 | `docs/` | the GitHub Pages site |
 | `extractor/` | the extraction chain, archived as it ran. Read `extractor/README.md` first |
 | `HISTORY.md` | the commit log of this report from its first home, tetrio-replay-report |
@@ -23,9 +26,10 @@ the PPT2 attack table is different. The TETR.IO reports are in
 ## Commands
 
 ```bash
-bin/build-docs            # render docs/ from games.csv
-bin/build-docs --check    # fail if docs/ differs from what games.csv renders
-python3 -m pipeline.ppt2_page --apply <chain games.csv>   # games.csv = chain output + hand-edits.csv
+bin/build-docs            # render docs/ from every analysis/ppt2-<slug>/games.csv
+bin/build-docs --check    # fail if docs/ differs from what those games.csv files render
+python3 -m pipeline.ppt2_page --apply syakegohan <chain games.csv>   # games.csv = chain output + hand-edits.csv
+python3 -m pipeline.ppt2_page --apply amemiya <chain games.csv>
 ```
 
 The video copyright belongs to the original authors. The site links to YouTube and copies no frame.
