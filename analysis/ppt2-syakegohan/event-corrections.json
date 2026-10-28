@@ -624,5 +624,6216 @@
   ],
   "events": [],
   "source": "verify (combo2/verify/VERDICTS.txt): hold swap Z<->T 1559.17-1559.30, not a lock; the Z clears at 1559.30 with 1 REN (+486); verify/i015p2_1558f.png"
+ },
+ {
+  "id": "l032",
+  "side": "p2",
+  "op": "setpc",
+  "t": 2232.23,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "pc": 1,
+  "source": "b0 frame check, verified: b0 frame check, verified: fr/b0/pc_l032_p2_zz.png: O from HOLD drops 2232.47, 2-row white flash 2232.53 leaves an empty board, PERFECT CLEAR banner 2232.53-2234.0 (pc_l032_p2.png); this is the A double 2232.23 interval"
+ },
+ {
+  "id": "l032",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2232.67,
+  "t_end": 2232.67,
+  "events": [
+   {
+    "t": 2232.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2232.67,
+    "double",
+    2
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: fr/b0/pc_l032_p2_z.png: board empty after the PC at 2232.53; the I spawned 2232.60 lands flat (cyan bottom row 2232.90), score +38 drop points only (16052->16090); the white bar 2232.77-2232.80 is the PC effect, not a clear (retype to a plain lock, written as a one-event replace_window)"
+ },
+ {
+  "id": "l043",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3160.2,
+  "t_end": 3163.57,
+  "events": [
+   {
+    "t": 3160.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3160.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3161.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3162.63,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3163.57,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    3160.2,
+    null,
+    0
+   ],
+   [
+    3160.2,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: the two 3160.2 locks are kept; added after them (3 locks the chain lost in the tail; NEXT shifts 3161.83, 3162.63, 3163.57, 3164.60 by nq.py): piece spawned 3161.83 locks with no flash (126880->126884 soft drop only); fr/b0/l043_p2_tail10a.png, l043_p2_tail10b.png | T spawned 3162.63 goes to HOLD, the I from hold drops vertically into the col-4 well; 2-row white flash 3162.80 (blue row + first grey row), score 126884->127790 (+906 = double 900 at level 3 + 6 drop), no banner; fr/b0/l043_p2_clr1.png, l043_p2_clrz_crop.png | S spawned 3163.57 drops vertically at the right edge into the grey row; 2-row white flash 3163.87, 1 REN tag, score 127790->128847 (+1057 = double 900 + REN 150 + 7 drop), no banner; fr/b0/l043_p2_clr2.png, l043_p2_clrz2_crop.png"
+ },
+ {
+  "id": "l060",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4169.6,
+  "t_end": 4169.6,
+  "events": [
+   {
+    "t": 4169.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4169.6,
+    "tsmini",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: zero-line Mini T-SPIN: badge at 4169.6 but no white row 4169.3-4170.4, stack height unchanged; fr/b0/mini_l060_z.png, mini_l060_p1.png (retype to a plain lock, written as a one-event replace_window)"
+ },
+ {
+  "id": "l077",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5163.6,
+  "t_end": 5163.6,
+  "events": [
+   {
+    "t": 5163.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5163.6,
+    "tsmini",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: zero-line Mini T-SPIN: badge 5163.6, no white row 5163.4-5164.3, score 4104->4404 (+300 = Mini with no lines at level 3); fr/b0/mini_l077_p1.png (retype to a plain lock, written as a one-event replace_window)"
+ },
+ {
+  "id": "l044",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3185.57,
+  "t_end": 3193.43,
+  "events": [
+   {
+    "t": 3185.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3185.73,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3187,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3187.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3188.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3188.63,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3189.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3190.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3190.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3190.73,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3192.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3192.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3192.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3192.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3193.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3193.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3185.57,
+    "tsd",
+    2
+   ],
+   [
+    3186.37,
+    "BREAK",
+    2
+   ],
+   [
+    3186.63,
+    "tst",
+    4
+   ],
+   [
+    3187.9,
+    "BREAK",
+    4
+   ],
+   [
+    3190.17,
+    "quad",
+    4
+   ],
+   [
+    3190.4,
+    null,
+    0
+   ],
+   [
+    3191,
+    null,
+    0
+   ],
+   [
+    3191,
+    null,
+    0
+   ],
+   [
+    3191.23,
+    "tsd",
+    2
+   ],
+   [
+    3191.27,
+    null,
+    0
+   ],
+   [
+    3191.37,
+    "BREAK",
+    4
+   ],
+   [
+    3193,
+    null,
+    0
+   ],
+   [
+    3193.03,
+    "BREAK",
+    1
+   ],
+   [
+    3193.43,
+    null,
+    0
+   ],
+   [
+    3193.43,
+    null,
+    0
+   ],
+   [
+    3193.43,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: real play, not lag (fr/b0/gap_l044_p2.png, 5 fps 3186.2-3193.6, score rises throughout). Spawns = NEXT shifts from A's own per-frame queue read (A/feat/l044.npz, slot 5 read \".\" 3185.73-3186.6 stalled A) with corr/gapfix.py: 16 spawns 3185.57-3193.43 (whole game 21/21 clean 7-bags). Clears = 2-frame white rows in the same feature grid: 3186.27 rows 8-9 + accepted T-SPIN Double banner 3186.23 (piece spawned 3185.73); 3188.73 rows 5-8 + TETRIS text 3189.4-3190.0, score 21989->25613 (gc 0, grey rows below stay); 3191.30 rows 5-6 + T-SPIN Double banner 3191.23, score 25699->31099. Replaces B's splice: bogus tst 4 at 3186.63, quad 3190.17, B locks and 4 BREAKs (9 gap pieces)."
+ },
+ {
+  "id": "l020",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1595.6,
+  "t_end": 1617.57,
+  "events": [
+   {
+    "t": 1595.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1595.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1596.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1596.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1597.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1597.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1597.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1598.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1598.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1598.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1598.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1599.27,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1600.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1600.7,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1601.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1602.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1602.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1602.83,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1603.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1604.67,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1605.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1606.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1606.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1607.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1607.47,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1608.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1609.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1609.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1609.57,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1610.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1610.97,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1612.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1612.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1613.27,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1614.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1615.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1616.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1616.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1617.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1617.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1595.6,
+    null,
+    0
+   ],
+   [
+    1595.9,
+    "tsmini",
+    4
+   ],
+   [
+    1596.43,
+    "tsmini",
+    1
+   ],
+   [
+    1599.7,
+    "tsd",
+    2
+   ],
+   [
+    1608.03,
+    "tsd",
+    2
+   ],
+   [
+    1613.8,
+    "tsd",
+    2
+   ],
+   [
+    1617.57,
+    null,
+    0
+   ],
+   [
+    1617.57,
+    null,
+    0
+   ],
+   [
+    1617.57,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: real play, not lag (fr/b0/l020_p1_gap.png, 2 fps 1595.5-1617.5: score 57896->82003 rises throughout). Spawns = NEXT shifts in A/feat/l020.npz read with corr/gapfix.py: 40 spawns 1595.6-1617.57 (A stalled on the slot-4 re-read ZOIIL->ZOIJL at 1596.07, which is not a spawn; whole game 21/21 clean 7-bags). Clears = 2-frame white rows: TSD 1599.27 (banner 1599.7, +5411 B2B), quad 1600.70 (TETRIS, +3628), double 1602.83 (+929), singles 1603.87/1604.67/1605.60 (1-2-3 REN tags), TSD 1607.47 (banner 1608.03), single 1609.57 (+314), quad 1610.97 (TETRIS, +2417), single 1612.13 (1 REN, +466), TSD 1613.27 (banner 1613.8, +3600), singles 1614.60/1615.77 (2 REN, +618). Mini T-SPIN 1596.43 has no white row (+330 = zero-line Mini). Replaces the bogus tsmini 4 / tsmini 1 and the three banner-only TSDs."
+ },
+ {
+  "id": "l078",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5197.3,
+  "t_end": 5218.57,
+  "events": [
+   {
+    "t": 5198.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5198.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5198.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5199.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5199.4,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 5200.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5200.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5201.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5201.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5201.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5201.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5202.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5202.47,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 5203.43,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5204.43,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 5205.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5206.67,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5207.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5208.47,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5209.4,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5210.4,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5211.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5212.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5213.03,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 5214.03,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5214.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5215.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5216.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5217.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5217.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5217.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5217.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5218.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5218.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5197.3,
+    "BREAK",
+    3
+   ],
+   [
+    5197.77,
+    null,
+    0
+   ],
+   [
+    5197.77,
+    null,
+    0
+   ],
+   [
+    5197.77,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: real play, not lag (fr/b0/l078_p1_gap.png, 1 fps 5196.5-5227.5: score 16365->63470, REN tag climbs 1..14 REN 5204.5-5216.5). Spawns = NEXT shifts in A/feat/l078.npz with corr/gapfix.py: 34 spawns 5198.27-5218.57 (the TETRIS cut-in 5197.7-5198.2 garbled the queue to LIIII, giving A/B a fake triple shift at 5197.77; the real queue LJTLI holds to 5198.27; whole game 11/11 clean 7-bags). Clears = 2-frame white rows: quad 5199.40 (TETRIS, +3616), quad 5202.47 (TETRIS, +3600), then 14 consecutive clears 5203.43-5215.93 (singles, triple 5204.43 +1820, doubles 5208.47/5213.03) whose count matches the REN tag reaching 14 REN; no T-spin banner in the window. Replaces BREAK 5197.3 (3 gap pieces) and the three 5197.77 events."
+ },
+ {
+  "id": "l050",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3603.03,
+  "t_end": 3677.5,
+  "events": [
+   {
+    "t": 3603.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3603.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3603.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3603.93,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3605.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3606.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3607.43,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3608.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3609.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3609.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3609.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3610.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3610.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3610.9,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3612.17,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3612.97,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3613.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3614.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3614.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3614.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3614.93,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3615.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3616.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3616.47,
+    "kind": "tsmini",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3617.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3618.23,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3619.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3620.23,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3621.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3621.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3622,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3623.3,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3624.5,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 3625.57,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3626.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3626.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3627.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3627.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3627.87,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3629.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3629.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3629.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3630,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3630.37,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3631.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3632.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3633.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3634,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3634.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3635.83,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3636.7,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3637.47,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 3638.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3639.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3639.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3640.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3640.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3640.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3641.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3641.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3641.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3642.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3642.3,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3643.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3643.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3644.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3644.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3644.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3645.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3645.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3645.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3646.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3646.43,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3647.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3648.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3649.87,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3650.7,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3651.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3652.83,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3653.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3654.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3654.4,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 3655.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3655.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3656.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3656.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3656.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3657.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3657.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3657.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3657.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3658.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3658.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3658.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3659.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3659.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3659.7,
+    "kind": "tst",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3660.93,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3662.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3663.27,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3664.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3664.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3666.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3666.9,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 3668.03,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3669.03,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3669.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3669.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3670.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3670.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3670.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3671.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3671.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3671.6,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3674.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3674.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3674.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3675.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3675.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3675.67,
+    "kind": "tst",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3677.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3677.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3603.03,
+    "tst",
+    4
+   ],
+   [
+    3603.37,
+    null,
+    0
+   ],
+   [
+    3603.37,
+    null,
+    0
+   ],
+   [
+    3603.73,
+    null,
+    0
+   ],
+   [
+    3604.2,
+    null,
+    0
+   ],
+   [
+    3604.2,
+    null,
+    0
+   ],
+   [
+    3604.77,
+    "double",
+    2
+   ],
+   [
+    3605.8,
+    "single",
+    1
+   ],
+   [
+    3607.43,
+    "single",
+    1
+   ],
+   [
+    3607.77,
+    "double",
+    2
+   ],
+   [
+    3609.63,
+    "single",
+    1
+   ],
+   [
+    3610.1,
+    null,
+    0
+   ],
+   [
+    3610.27,
+    null,
+    0
+   ],
+   [
+    3610.63,
+    null,
+    0
+   ],
+   [
+    3610.77,
+    null,
+    0
+   ],
+   [
+    3611.2,
+    null,
+    0
+   ],
+   [
+    3611.6,
+    "tsd",
+    2
+   ],
+   [
+    3613,
+    "single",
+    1
+   ],
+   [
+    3613.27,
+    "BREAK",
+    1
+   ],
+   [
+    3614.8,
+    "BREAK",
+    4
+   ],
+   [
+    3616.47,
+    "BREAK",
+    2
+   ],
+   [
+    3616.93,
+    "tsmini",
+    1
+   ],
+   [
+    3618.37,
+    null,
+    0
+   ],
+   [
+    3618.9,
+    "quad",
+    4
+   ],
+   [
+    3620.57,
+    null,
+    0
+   ],
+   [
+    3620.86,
+    "tss",
+    1
+   ],
+   [
+    3621.7,
+    "single",
+    1
+   ],
+   [
+    3622.07,
+    null,
+    0
+   ],
+   [
+    3622.27,
+    null,
+    0
+   ],
+   [
+    3622.73,
+    "single",
+    1
+   ],
+   [
+    3624.57,
+    "double",
+    2
+   ],
+   [
+    3625.6,
+    "triple",
+    3
+   ],
+   [
+    3625.67,
+    "BREAK",
+    4
+   ],
+   [
+    3627.2,
+    "BREAK",
+    2
+   ],
+   [
+    3628.26,
+    "tsd",
+    2
+   ],
+   [
+    3628.73,
+    "BREAK",
+    2
+   ],
+   [
+    3630.3,
+    null,
+    0
+   ],
+   [
+    3630.33,
+    "BREAK",
+    2
+   ],
+   [
+    3631.87,
+    "BREAK",
+    3
+   ],
+   [
+    3634.07,
+    "BREAK",
+    1
+   ],
+   [
+    3635.6,
+    "BREAK",
+    2
+   ],
+   [
+    3637.27,
+    "BREAK",
+    5
+   ],
+   [
+    3638.93,
+    "single",
+    1
+   ],
+   [
+    3640.03,
+    null,
+    0
+   ],
+   [
+    3640.37,
+    null,
+    0
+   ],
+   [
+    3640.7,
+    null,
+    0
+   ],
+   [
+    3641.03,
+    null,
+    0
+   ],
+   [
+    3641.6,
+    null,
+    0
+   ],
+   [
+    3641.97,
+    null,
+    0
+   ],
+   [
+    3641.97,
+    null,
+    0
+   ],
+   [
+    3642.33,
+    null,
+    0
+   ],
+   [
+    3642.63,
+    null,
+    0
+   ],
+   [
+    3642.87,
+    "tsd",
+    2
+   ],
+   [
+    3644.03,
+    null,
+    0
+   ],
+   [
+    3644.63,
+    null,
+    0
+   ],
+   [
+    3644.97,
+    null,
+    0
+   ],
+   [
+    3645.67,
+    null,
+    0
+   ],
+   [
+    3645.67,
+    null,
+    0
+   ],
+   [
+    3645.7,
+    "BREAK",
+    1
+   ],
+   [
+    3646.9,
+    "tss",
+    1
+   ],
+   [
+    3647.77,
+    "single",
+    1
+   ],
+   [
+    3648.07,
+    "single",
+    1
+   ],
+   [
+    3649.27,
+    "single",
+    1
+   ],
+   [
+    3650.87,
+    "double",
+    2
+   ],
+   [
+    3651.33,
+    "single",
+    1
+   ],
+   [
+    3652.3,
+    "single",
+    1
+   ],
+   [
+    3653.2,
+    "double",
+    2
+   ],
+   [
+    3653.7,
+    "quad",
+    4
+   ],
+   [
+    3654.6,
+    "BREAK",
+    2
+   ],
+   [
+    3656.13,
+    "BREAK",
+    0
+   ],
+   [
+    3657.8,
+    null,
+    0
+   ],
+   [
+    3658.1,
+    null,
+    0
+   ],
+   [
+    3658.5,
+    null,
+    0
+   ],
+   [
+    3658.93,
+    "BREAK",
+    2
+   ],
+   [
+    3660.13,
+    "tst",
+    3
+   ],
+   [
+    3661.1,
+    "tst",
+    3
+   ],
+   [
+    3661.67,
+    "double",
+    2
+   ],
+   [
+    3662.6,
+    "BREAK",
+    2
+   ],
+   [
+    3664.97,
+    "single",
+    1
+   ],
+   [
+    3666.23,
+    "single",
+    1
+   ],
+   [
+    3667.07,
+    "single",
+    1
+   ],
+   [
+    3667.33,
+    "quad",
+    4
+   ],
+   [
+    3668.67,
+    "single",
+    1
+   ],
+   [
+    3669.23,
+    "BREAK",
+    1
+   ],
+   [
+    3670.87,
+    null,
+    0
+   ],
+   [
+    3670.87,
+    null,
+    0
+   ],
+   [
+    3671.57,
+    null,
+    0
+   ],
+   [
+    3671.57,
+    null,
+    0
+   ],
+   [
+    3671.8,
+    null,
+    0
+   ],
+   [
+    3672.23,
+    "tsd",
+    2
+   ],
+   [
+    3672.47,
+    "double",
+    2
+   ],
+   [
+    3673.57,
+    null,
+    0
+   ],
+   [
+    3674.07,
+    null,
+    0
+   ],
+   [
+    3674.07,
+    null,
+    0
+   ],
+   [
+    3674.6,
+    null,
+    0
+   ],
+   [
+    3674.83,
+    null,
+    0
+   ],
+   [
+    3675.23,
+    null,
+    0
+   ],
+   [
+    3675.23,
+    null,
+    0
+   ],
+   [
+    3675.53,
+    null,
+    0
+   ],
+   [
+    3675.97,
+    null,
+    0
+   ],
+   [
+    3676.47,
+    "tst",
+    3
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: real play, not lag (fr/b0/l050_p1_gap.png, 0.5 fps over 3602.5-3678; fr/b0/l050_p1_3603.png 10 fps: score rises every frame). Spawns = NEXT shifts in A/feat/l050.npz with corr/gapfix.py: 126 spawns 3603.03-3677.5; the revealed piece sequence of the whole game is 26/26 clean 7-bags, so no spawn is missed or doubled. Clears = 2-frame white rows, typed by the accepted banner scan (R/ban): Mini T-SPIN 3616.93, T-SPIN Single 3620.86/3646.9, TSD 3611.4/3628.26/3642.83/3661.63/3672.23, TST 3660.13/3676.33 (every \"banner without a clear\" flag finds its clear here). The chain's tst 4 at 3603.03 is bogus: no flash 3603.0-3604.6, the next clear is the plain double flashing 3604.67 (20835->21735 = +900). Replaces 17 BREAKs and B's spliced locks."
+ },
+ {
+  "id": "l050",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3649.47,
+  "t_end": 3689.6,
+  "events": [
+   {
+    "t": 3649.9,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3650.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3651.17,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3652.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3652.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3652.97,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3654,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3654.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3655,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3655.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3655.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3655.83,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3656.77,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3657.67,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3658.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3659.33,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3660.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3660.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3660.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3661.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3661.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3661.87,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3662.97,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3663.87,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 3664.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3665.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3665.67,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3666.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3666.83,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 3667.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3668.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3668.63,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3669.87,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 3670.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3671.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3671.33,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3672.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3672.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3674,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3674.93,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3675.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3676.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3677.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3678.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3678.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3679.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3679.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3679.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3680.03,
+    "kind": "tst",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3681.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3682.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3682.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3683.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3683.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3684.6,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3685.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3686.37,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 3687.4,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3688.27,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 3689.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3689.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3649.47,
+    null,
+    0
+   ],
+   [
+    3649.47,
+    null,
+    0
+   ],
+   [
+    3649.47,
+    "tst",
+    4
+   ],
+   [
+    3650.57,
+    "double",
+    2
+   ],
+   [
+    3650.57,
+    "triple",
+    3
+   ],
+   [
+    3650.73,
+    "BREAK",
+    2
+   ],
+   [
+    3652.27,
+    "BREAK",
+    9
+   ],
+   [
+    3653.93,
+    "BREAK",
+    3
+   ],
+   [
+    3655.63,
+    null,
+    0
+   ],
+   [
+    3656.13,
+    "double",
+    2
+   ],
+   [
+    3657.27,
+    "double",
+    2
+   ],
+   [
+    3658.57,
+    "single",
+    1
+   ],
+   [
+    3659.43,
+    "single",
+    1
+   ],
+   [
+    3660.53,
+    "double",
+    2
+   ],
+   [
+    3660.87,
+    null,
+    0
+   ],
+   [
+    3661.3,
+    null,
+    0
+   ],
+   [
+    3661.6,
+    null,
+    0
+   ],
+   [
+    3661.97,
+    null,
+    0
+   ],
+   [
+    3662.23,
+    null,
+    0
+   ],
+   [
+    3662.33,
+    "tsd",
+    2
+   ],
+   [
+    3663.23,
+    "triple",
+    3
+   ],
+   [
+    3664.17,
+    "triple",
+    3
+   ],
+   [
+    3665.6,
+    null,
+    0
+   ],
+   [
+    3666.3,
+    "single",
+    1
+   ],
+   [
+    3666.97,
+    null,
+    0
+   ],
+   [
+    3667.2,
+    "quad",
+    4
+   ],
+   [
+    3668.8,
+    null,
+    0
+   ],
+   [
+    3668.8,
+    null,
+    0
+   ],
+   [
+    3669.23,
+    "tsd",
+    2
+   ],
+   [
+    3671.07,
+    "triple",
+    3
+   ],
+   [
+    3671.57,
+    null,
+    0
+   ],
+   [
+    3671.57,
+    null,
+    0
+   ],
+   [
+    3671.93,
+    "double",
+    2
+   ],
+   [
+    3673.27,
+    null,
+    0
+   ],
+   [
+    3673.27,
+    null,
+    0
+   ],
+   [
+    3674.13,
+    null,
+    0
+   ],
+   [
+    3674.17,
+    "BREAK",
+    1
+   ],
+   [
+    3675.73,
+    "BREAK",
+    5
+   ],
+   [
+    3678.23,
+    "single",
+    1
+   ],
+   [
+    3678.3,
+    "BREAK",
+    1
+   ],
+   [
+    3679.87,
+    "BREAK",
+    6
+   ],
+   [
+    3680.43,
+    "tst",
+    3
+   ],
+   [
+    3680.87,
+    null,
+    0
+   ],
+   [
+    3680.87,
+    "tst",
+    4
+   ],
+   [
+    3681.73,
+    "single",
+    1
+   ],
+   [
+    3683.03,
+    "single",
+    1
+   ],
+   [
+    3683.53,
+    null,
+    0
+   ],
+   [
+    3683.87,
+    null,
+    0
+   ],
+   [
+    3684.1,
+    "single",
+    1
+   ],
+   [
+    3684.97,
+    "triple",
+    3
+   ],
+   [
+    3686.03,
+    "single",
+    1
+   ],
+   [
+    3687.43,
+    "triple",
+    3
+   ],
+   [
+    3688.33,
+    "single",
+    1
+   ],
+   [
+    3688.7,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: real play (score rises throughout, REN tags; fr/b0/l050_p1_gap.png shows both boards). Spawns = NEXT shifts in A/feat/l050.npz with corr/gapfix.py: 62 spawns 3649.47-3688.7 (gapfix's 4 k=2 L/O spawns at 3674.63/3674.8 are flicker; fr/v0/l050p2a.png shows S 3674.03 swapped with HOLD I for the single 3674.3, then L at 3674.97 with nothing in between; the 62-piece sequence is clean 7-bags at phase 2). Clears = 2-frame white rows + accepted banners: TSD 3662.16/3669.1, TST 3680.43; the 3649.47 \"quad vs TSD\" is a plain double (flash 3650.13, no banner) and the 3680.87 \"quad vs TST\" is the TST of the piece spawned 3680.03. TETRIS 3688.27 (flash 3688.6, 5 REN). v0 skeptic amendment: the KO is NOT 3689.467. That onset.py jump is the Arle cut-in art sliding over p1's board; p1's board first tilts at 3690.07 (fr/v0/l050ko4.png, l050ko3.png). Before it p2 locks the Z spawned 3689.37 (hard drop, 142268->142298 at 3689.60) and the O spawned 3689.60 (142324 by 3690.00; the T spawned 3689.93 is held at 3690.03 and the L from hold is still falling at the tilt); neither clears (fr/v0/l050ko2.png). Window extended to t_end 3689.6 with these 2 plain locks; was_old unchanged (no cseq event after 3688.7)."
+ },
+ {
+  "id": "l074",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5014.93,
+  "t_end": 5016.47,
+  "events": [
+   {
+    "t": 5014.93,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5016.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5016.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5014.93,
+    null,
+    0
+   ],
+   [
+    5015.07,
+    null,
+    0
+   ],
+   [
+    5015.07,
+    null,
+    0
+   ],
+   [
+    5015.07,
+    "tss",
+    1
+   ],
+   [
+    5016.47,
+    null,
+    0
+   ],
+   [
+    5016.47,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: b0 frame check, verified: fr/b0/l074_p1_5015.png (10 fps 5014.6-5017.1) + A/feat/l074.npz raw NEXT reads: real queue LOJIO 5014.93 -> OJIOJ 5016.27 -> JIOJT 5016.47 -> IOJTS 5016.80; the 5015.03-5015.17 reads (.OJIO/IOJIO, hold T->I flicker) are noise that A took as a triple shift (frame 545) and then a double shift at 5016.47. Board: T spins in 5015.1-5015.5, 1-row flash 5015.6 with T-SPIN Single banner 5015.54 (score 25496->29096 = TSS B2B at level 3), then L 5016.3, O 5016.6, I -> TETRIS flash 5017.1. So 2 spawns between 5014.93 and 5016.80, not 5; the TSS is the piece of the 5014.93 interval."
+ },
+ {
+  "id": "l002",
+  "side": "p1",
+  "op": "remove",
+  "t": 241.2,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: the B splice duplicates the A quad at 240.0. Only one quad flash in 240-243.8 (rows 6-9 at 241.10); NEXT shifts every 0.2-1.0 s (fr/b1/l002_p1_ns.png)."
+ },
+ {
+  "id": "l002",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 243.07,
+  "t_end": 243.07,
+  "was_old": [
+   [
+    243.07,
+    "BREAK",
+    1
+   ]
+  ],
+  "events": [
+   {
+    "t": 243.8,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   }
+  ],
+  "source": "b1 frame check, verified: b1 frame check: the B BREAK(1) is the TETRIS flashed at 244.17 (rows 8-11, 3 garbage) by the I spawned at 243.8; b0flash 236.5-246.5, fr/b1/l002_p1_ns.png."
+ },
+ {
+  "id": "l007",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 572,
+  "t_end": 625.8,
+  "events": [
+   {
+    "t": 572.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 572.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 572.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 573.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 573.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 573.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 574.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 574.37,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 575.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 576.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 577.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 578.17,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 579.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 579.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 580.03,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 581.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 581.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 581.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 582.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 582.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 583.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 583.67,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 584.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 585.27,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 586.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 586.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 586.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 587.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 587.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 587.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 587.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 588.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 588.4,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 589.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 589.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 590.3,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 591.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 591.47,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 592.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 593.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 593.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 593.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 594.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 594.8,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 595.83,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 596.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 597,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 597.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 597.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 597.57,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 599,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 600.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 600.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 600.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 601.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 601.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 601.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 602.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 602.23,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 603.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 603.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 604.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 604.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 604.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 605.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 606.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 606.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 607.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 607.33,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 608.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 608.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 609.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 609.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 609.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 609.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 610.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 610.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 610.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 610.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 611.27,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 612.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 613.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 613.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 613.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 614.07,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 615.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 615.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 616.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 616.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 616.5,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 617.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 617.97,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 619.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 619.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 619.8,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 620.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 621.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 621.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 621.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 622.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 622.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 622.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 623.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 623.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 623.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 625.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b1 frame check, verified: b1 frame check: A lost the NEXT read 572.17-625.8 and B coverage ended 599.37. Rebuilt from 30 fps NEXT shifts (corr/t1/q4.py: 146 spawns, 21 clean 7-bags) plus clear flashes (b0flash 571.5-626.2): 23 clears, 56 lines. Types from badges (fr/b1/banners_misc.png: TSD 584.2/589.0/612.1/618.7, TSS 598.45, plain double 592.0). Quads at 602.57/607.57/616.93 were missing; the BREAK splices are replaced. Event file: corr/t1/l007_win.json."
+ },
+ {
+  "id": "l010",
+  "side": "p1",
+  "op": "remove",
+  "t": 782.47,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: only one clear between the 781.8 clear and the PC (score 11519 -> 16487 once at 783.2); A double-logged it. fr/b1/l010_p1_bottom.png"
+ },
+ {
+  "id": "l010",
+  "side": "p1",
+  "op": "setpc",
+  "t": 783.43,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "pc": 1,
+  "source": "b1 frame check, verified: b1 frame check: PERFECT CLEAR banner 783.5-784.7; the board is empty after rows 0-1 clear at 783.23 (b0grey 783.15: only rows 0-1 filled). fr/b1/l010_p1_bottom.png, pc_l010_p1_782.8.png"
+ },
+ {
+  "id": "l018",
+  "side": "p1",
+  "op": "remove",
+  "t": 1486,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: one flash (row 15 at 1485.67) under the T-SPIN Single banner, score 77325 set once; the plain single double-logs the TSS at 1485.54. fr/b1/l018_p1_1485.3.png"
+ },
+ {
+  "id": "l018",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1487.47,
+  "t_end": 1487.47,
+  "was_old": [
+   [
+    1487.47,
+    "BREAK",
+    2
+   ]
+  ],
+  "events": [],
+  "source": "b1 frame check, verified: b1 frame check: the B BREAK(2) duplicates the TSD flashed at 1487.90 (T-SPIN Double banner, score 77330 -> 82730 once); dropping it keeps the B2B chain. fr/b1/l018_p1_1485.3.png"
+ },
+ {
+  "id": "l018",
+  "side": "p2",
+  "op": "remove",
+  "t": 1481,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: no 4-row flash near 1481.0 (flashes: single 1480.63, single 1481.60, double 1482.70, quad 1483.70, double 1484.70). The 1481.0 frame shows only an attack effect and the score holds at 56816; B splice phantom. fr/b1/l018_p2_1479.6.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "setpc",
+  "t": 2159.53,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "pc": 1,
+  "source": "b1 frame check, verified: b1 frame check: real PERFECT CLEAR (banner 2159.7-2160.9; the board is empty after the 3-row flash at 2159.67). fr/b1/pc_l030_p2_2159.3.png, pc_l030_p2_zoom.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "remove",
+  "t": 2159.73,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: double-log of the PC triple at 2159.53 (one 3-row flash at 2159.67, score 10972 -> 17872 once). fr/b1/pc_l030_p2_zoom.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "remove",
+  "t": 2160.07,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: no clear after the PC; the board stays empty until garbage at 2160.2. fr/b1/pc_l030_p2_2159.3.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "setpc",
+  "t": 2165.37,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "pc": 1,
+  "source": "b1 frame check, verified: b1 frame check: TETRIS PERFECT CLEAR (4-row flash at 2165.63, banner 2165.7-2166.9, board empty after). fr/b1/pc_l030_p2_2165.0.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "remove",
+  "t": 2165.7,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: double-log of the PC quad at 2165.37 (one flash, score 21941 -> 35177 once). fr/b1/pc_l030_p2_2165.0.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "remove",
+  "t": 2168.1,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: no clear 2167.5-2171.8 (b0flash); the board fills and the score moves only by small drop points. fr/b1/l030_p2_2167.6.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2175.6,
+  "t_end": 2178.87,
+  "was_old": [
+   [
+    2175.6,
+    "BREAK",
+    3
+   ],
+   [
+    2177.27,
+    "BREAK",
+    3
+   ],
+   [
+    2178.87,
+    "BREAK",
+    5
+   ]
+  ],
+  "events": [
+   {
+    "t": 2177.27,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 2177.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2178.63,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   }
+  ],
+  "source": "b1 frame check, verified: b1 frame check: the B BREAKs (3+3+5 lines) are two TETRISes: 4-row flash at 2177.57 (score 53981 -> 57607, 1 garbage row) and at 2178.83 (57635 -> 61269, 4 garbage rows). They are not consecutive: a non-clearing lock comes between them (v1/l030f.png 2178.4), and there is no REN badge at 2178.95 (v1/l030_ren.png), so a None lock is inserted at 2177.9. fr/b1/l030_p2_tailA.png, l030_p2_tailB.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "remove",
+  "t": 2181.57,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: one 2-row flash at 2181.47 (T-SPIN Double, score 61419 -> 66821 once); the plain double double-logs it. fr/b1/l030_p2_tailB.png"
+ },
+ {
+  "id": "l030",
+  "side": "p2",
+  "op": "remove",
+  "t": 2185.1,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: no flash after the TSS at 2184.33 up to the KO at 2186.23 (b0flash 2172.2-2186.4). fr/b1/l030_p2_tailB.png, ko_l030_both.png"
+ },
+ {
+  "id": "l039",
+  "side": "p2",
+  "op": "retype",
+  "t": 2796.1,
+  "was": [
+   "tst",
+   4,
+   0
+  ],
+  "kind": "tss",
+  "lines": 1,
+  "source": "b1 frame check, verified: b1 frame check: 1-row flash at 2796.87 under a T-SPIN Single + BACK to BACK badge (fr/b1/banners_misc.png 2796.95); the 4 lines belong to the TETRIS at 2798.17."
+ },
+ {
+  "id": "l039",
+  "side": "p2",
+  "op": "retype",
+  "t": 2798.4,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "source": "b1 frame check, verified: b1 frame check: 4-row flash at 2798.17 (rows 4-7, 2 garbage), BACK to BACK, no T-spin badge (fr/b1/banners_misc.png 2798.5)."
+ },
+ {
+  "id": "l048",
+  "side": "p2",
+  "op": "remove",
+  "t": 3495.97,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: the banner reads only 'Mini T-SPIN' (fr/b1/l048_p2_banner.png). No flash 3494.5-3498.2 and the stack height is unchanged (fr/b1/l048_p2_3495.4.png): a 0-line mini, not a clear."
+ },
+ {
+  "id": "l052",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3779.5,
+  "t_end": 3781.03,
+  "was_old": [
+   [
+    3779.5,
+    "BREAK",
+    5
+   ],
+   [
+    3781.03,
+    "BREAK",
+    1
+   ]
+  ],
+  "events": [],
+  "source": "b1 frame check, verified: b1 frame check: B BREAK(5) duplicates the A quad at 3778.57 (flash 3779.83, TETRIS). BREAK(1) is a phantom: no white rows 3780.13-3783.13 and the score only moves 44475 -> 44580. fr/b1/l052_p1_3779.4.png"
+ },
+ {
+  "id": "l052",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3782.97,
+  "t_end": 3782.97,
+  "was_old": [
+   [
+    3782.97,
+    "BREAK",
+    2
+   ]
+  ],
+  "events": [],
+  "source": "b1 frame check, verified: b1 frame check: B BREAK(2) duplicates the TSD flashed at 3783.13. fr/b1/l052_p1_3779.4.png"
+ },
+ {
+  "id": "l052",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3784.53,
+  "t_end": 3786.1,
+  "was_old": [
+   [
+    3784.53,
+    "BREAK",
+    4
+   ],
+   [
+    3786.1,
+    "BREAK",
+    0
+   ]
+  ],
+  "events": [
+   {
+    "t": 3784.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3784.53,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3786.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b1 frame check, verified: b1 frame check: BREAK(4)+BREAK(0) are one TETRIS (4-row flash at 3784.70, rows 10-13, no garbage). Non-clearing locks before it (3784.1-3784.5) and after it make it non-consecutive with the TSDs: there are no REN badges at 3784.85 or 3787.5, only BACK to BACK (v1/l052_ren*.png). So they are None locks, not BREAKs, which keeps B2B and resets REN."
+ },
+ {
+  "id": "l052",
+  "side": "p1",
+  "op": "remove",
+  "t": 3788.2,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: no flash between the TSD at 3787.33 and the quad at 3789.27; the score moves 59068 -> 59113 by soft drops only. fr/b1/l052_p1_3787.6.png"
+ },
+ {
+  "id": "l052",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3796.17,
+  "t_end": 3796.17,
+  "was_old": [
+   [
+    3796.17,
+    null,
+    0
+   ]
+  ],
+  "events": [
+   {
+    "t": 3796.17,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   }
+  ],
+  "source": "b1 frame check, verified: b1 frame check: the KO-piece TETRIS (I spawned 3795.73; 4 garbage rows flash at 3796.07, score 69380 -> 72110) locks before the p2 tilt at 3796.33. A logged it as a no-clear lock at 3796.17. fr/b1/l052_p1_ko.png"
+ },
+ {
+  "id": "l081",
+  "side": "p1",
+  "op": "remove",
+  "t": 5304.83,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b1 frame check, verified: b1 frame check: one 2-row flash at 5305.07, then the PERFECT CLEAR banner 5305.1-5306.3; A double-logged the double. fr/b1/pc_l081_p1_5304.6.png"
+ },
+ {
+  "id": "l081",
+  "side": "p1",
+  "op": "retype",
+  "t": 5305.13,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b1 frame check, verified: b1 frame check: this double is a PERFECT CLEAR (board empty after rows 0-1, b0grey 5304.95; banner 1.2 s). No T-spin badge; the cleared rows are colored, so gc is 0. fr/b1/pc_l081_p1_5304.6.png"
+ },
+ {
+  "id": "l083",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5427.97,
+  "t_end": 5444,
+  "events": [
+   {
+    "t": 5428.43,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5429.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5430.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5430.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5430.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5430.93,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5432.27,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5433.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5434.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5434.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5434.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5434.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5435.23,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5436.3,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5437.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5437.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5438.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5438.77,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5439.9,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5440.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5442.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5443.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5443.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5443.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b1 frame check, verified: b1 frame check: A lost the NEXT read 5427.97-5444.37 and B ended at 5427.73. Rebuilt from 30 fps NEXT shifts (q4: 132 spawns, clean 7-bags) plus flashes (b0flash 5426.5-5446): TSS 5429.13 and 5431.53 (T-SPIN Single badges), plain doubles 5432.70/5435.57/5436.53 (only a 1 REN badge), quad 5439.10, singles 5437.83/5440.27/5441.67/5442.63/5444.10. The tst(4) was the A quad at 5427.23 merged with the TSS banner. fr/b1/banners_misc.png, corr/t1/l083_win.json"
+ },
+ {
+  "id": "l012",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 936.2,
+  "t_end": 936.2,
+  "was_old": [
+   [
+    936.2,
+    null,
+    0
+   ]
+  ],
+  "events": [
+   {
+    "t": 936.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "source": "b2 frame check, verified: b2 frame check: the L spawned 936.20 drops into the one-cell gap of the grey garbage bottom row at 936.27; that row flashes white at 936.33 and the REN counter goes 2 REN -> 3 REN (REN chain quad 934.43 / single 935.37 / this). Score 55232 (935.6) -> 56018 (936.8), +786 = a single at REN 3. A logged it as a no-clear lock. This is also the source of the hidden-score '+854 at 938.43' catch-up. fr/b2/l012_p1_L.png, l012_p1_936.png, l012_p1_pre.png"
+ },
+ {
+  "id": "l037",
+  "side": "p2",
+  "op": "setpc",
+  "t": 2519.57,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "pc": 1,
+  "source": "b2 frame check, verified: b2 frame check: 2-row flash at 2519.53 empties the board; PERFECT CLEAR banner 2519.7-2520.8 (one banner, split by the scanner into 0.1 s + 0.7 s onsets); score 11240 (2519.5) -> 15776 (2519.7), PC bonus. fr/b2/pc_rej1.png rows 1-2"
+ },
+ {
+  "id": "l053",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3811.87,
+  "t_end": 3812.77,
+  "was_old": [
+   [
+    3811.87,
+    "double",
+    2
+   ],
+   [
+    3812.77,
+    "double",
+    2
+   ]
+  ],
+  "events": [
+   {
+    "t": 3811.87,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 3812.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b2 frame check, verified: b2 frame check: one 2-row flash (3812.70) in 3811.4-3813.4, made by the piece spawned 3811.87 (next NEXT shift 3812.77); it empties the board: PERFECT CLEAR banner 3812.9-3814.0, score 11245 -> 16045, REN 1 -> 2 REN (tsd 3809.67, single 3811.07, this). A double-logged it (3811.87 and 3812.77, 0.9 s apart, beyond pcmap's 0.65 s window); score 11226 -> 11245 only (soft drop) between 3811.6 and 3812.5, so no second double. The piece spawned 3812.77 locks without a clear. fr/b2/l053_p1_seq.png, pc_rej1.png rows 3-4"
+ },
+ {
+  "id": "l055",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3926.83,
+  "t_end": 3927.7,
+  "was_old": [
+   [
+    3926.83,
+    "double",
+    2
+   ],
+   [
+    3927.7,
+    "double",
+    2
+   ]
+  ],
+  "events": [
+   {
+    "t": 3926.83,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 3927.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b2 frame check, verified: b2 frame check: flashes in 3925.0-3928.2 only at 3925.60 (the 3925.33 double) and 3927.63 (2 rows, PERFECT CLEAR banner 3927.7-3928.7). The 3927.63 clear is the Z spawned 3926.83 (it drops into the gap at 3927.5; the next NEXT shift is 3927.70). A logged it twice (3926.83 double and 3927.7 PC double); the piece spawned 3927.70 locks without a clear. fr/b2/l055_p2_seq.png, pc_ok2.png row 5"
+ },
+ {
+  "id": "l063",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4411.87,
+  "was": [
+   "tst",
+   4,
+   0
+  ],
+  "source": "b2 frame check, verified: v2 skeptic frame check (fr/v2/l063.png, 4411.6-4415.4): only two clears. TETRIS flash 4412.07 (21755 -> 25371, banner 4412.6-4413.0) is the 4411.87 quad. T-SPIN Double flash 4414.6 (25390 -> 30790 = +5400, BACK to BACK shown) is the 4414.4 tsd. No flash and drop-only score at 4413.0-4414.0 and 4415.0-4415.4. The tst(4) at 4412.43 and B's BREAK 4 (4411.9), BREAK 3 (4413.47) and BREAK 1 (4415.27) gap lines are double counts. The BREAKs also wrongly reset the B2B that the screen shows on the TSD.",
+  "t_end": 4415.27,
+  "was_old": [
+   [
+    4411.87,
+    "quad",
+    4
+   ],
+   [
+    4411.9,
+    "BREAK",
+    4
+   ],
+   [
+    4412.43,
+    null,
+    0
+   ],
+   [
+    4412.43,
+    null,
+    0
+   ],
+   [
+    4412.43,
+    "tst",
+    4
+   ],
+   [
+    4413.47,
+    "BREAK",
+    3
+   ],
+   [
+    4414.4,
+    "tsd",
+    2
+   ],
+   [
+    4415.27,
+    "BREAK",
+    1
+   ]
+  ],
+  "events": [
+   {
+    "t": 4411.87,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 4412.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4412.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4414.4,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ]
+ },
+ {
+  "id": "l029",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2046.83,
+  "t_end": 2061.49,
+  "was_old": [
+   [
+    2046.83,
+    "tst",
+    4
+   ],
+   [
+    2047.5,
+    null,
+    0
+   ],
+   [
+    2047.5,
+    null,
+    0
+   ],
+   [
+    2047.9,
+    null,
+    0
+   ],
+   [
+    2048.1,
+    null,
+    0
+   ],
+   [
+    2048.57,
+    null,
+    0
+   ],
+   [
+    2048.57,
+    null,
+    0
+   ],
+   [
+    2048.77,
+    "quad",
+    4
+   ],
+   [
+    2050.1,
+    "single",
+    1
+   ],
+   [
+    2050.67,
+    "single",
+    1
+   ],
+   [
+    2051.67,
+    null,
+    0
+   ],
+   [
+    2051.7,
+    "BREAK",
+    6
+   ],
+   [
+    2053.5,
+    "double",
+    2
+   ],
+   [
+    2053.77,
+    null,
+    0
+   ],
+   [
+    2054.13,
+    null,
+    0
+   ],
+   [
+    2054.37,
+    "quad",
+    4
+   ],
+   [
+    2055.83,
+    null,
+    0
+   ],
+   [
+    2055.83,
+    null,
+    0
+   ],
+   [
+    2056.43,
+    null,
+    0
+   ],
+   [
+    2056.43,
+    null,
+    0
+   ],
+   [
+    2056.43,
+    null,
+    0
+   ],
+   [
+    2056.93,
+    null,
+    0
+   ],
+   [
+    2057.07,
+    null,
+    0
+   ],
+   [
+    2057.13,
+    "BREAK",
+    4
+   ],
+   [
+    2057.7,
+    "tsd",
+    2
+   ],
+   [
+    2058.67,
+    "BREAK",
+    1
+   ],
+   [
+    2060.2,
+    "BREAK",
+    2
+   ],
+   [
+    2060.54,
+    "tsd",
+    2
+   ]
+  ],
+  "events": [
+   {
+    "t": 2046.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2047.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2047.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2047.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2048.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2048.3,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 2049.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2050.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2051.23,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 2052.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2053.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2053.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2053.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2054,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 2055.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2055.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2055.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2056,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2056.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2056.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2056.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2057.23,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2058.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2058.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2059.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2059.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2059.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2060.03,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b2 frame check, verified: b2 frame check of gap 2046.83-2061.5 (lag, not a stall: NEXT shifts every 0.2-1.2 s, 28 spawns read by corr/b2spawn.py, 7-bag clean). Clears from row flashes + score + REN counter: TETRIS (flash 2048.67, rows 3-6 garbage, 17801 -> 21401), single (~2049.75, colour row, +480, 1 REN), single (2050.57, +625, 2 REN), TETRIS (2051.57, rows 1-2 garbage, +2882, 3 REN), single (2052.63, +933, 4 REN), TETRIS (2054.3, row 0 garbage, 26321 -> 28854, banner 2055.0), T-SPIN Double (2057.80, banner), T-SPIN Double (2060.67, banner). No clear 2046.6-2048.6 (score 17696 -> 17801 drops only): the spliced tst(4) at 2046.83 and the double at 2053.5 are not real. fr/b2/l029_p1_2047.png, l029_p1_w1.png, l029_gc.png"
+ },
+ {
+  "id": "l029",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2069.97,
+  "t_end": 2080.93,
+  "was_old": [
+   [
+    2069.97,
+    "tst",
+    4
+   ],
+   [
+    2070.07,
+    "single",
+    1
+   ],
+   [
+    2070.37,
+    null,
+    0
+   ],
+   [
+    2070.5,
+    null,
+    0
+   ],
+   [
+    2071.03,
+    null,
+    0
+   ],
+   [
+    2071.03,
+    null,
+    0
+   ],
+   [
+    2071.37,
+    "tss",
+    1
+   ],
+   [
+    2071.6,
+    "single",
+    1
+   ],
+   [
+    2072.6,
+    "triple",
+    3
+   ],
+   [
+    2073.9,
+    null,
+    0
+   ],
+   [
+    2074.17,
+    null,
+    0
+   ],
+   [
+    2074.57,
+    null,
+    0
+   ],
+   [
+    2074.57,
+    null,
+    0
+   ],
+   [
+    2074.93,
+    null,
+    0
+   ],
+   [
+    2075.07,
+    null,
+    0
+   ],
+   [
+    2080.93,
+    null,
+    0
+   ],
+   [
+    2080.93,
+    null,
+    0
+   ],
+   [
+    2080.93,
+    null,
+    0
+   ]
+  ],
+  "events": [
+   {
+    "t": 2069.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2070.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2070.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2070.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2070.8,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2072.13,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 2073.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2073.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2073.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2074.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2074.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2074.73,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 2075.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2076.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2076.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2076.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2077.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2077.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2077.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2078.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2078.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2078.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2078.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2078.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2079.27,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2080.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b2 frame check, verified: b2 frame check of gap 2069.97-2080.94 (lag, not a stall: 26 spawns read). Clears: T-SPIN Single (flash 2071.50, row 7 colour, banner 2071.5), triple (2072.50, rows 4-6 garbage, +1678, 1 REN), TETRIS (2074.97, rows 0-3 garbage, 62053 -> 64607, banner 2076.0), TETRIS (2079.80, colour rows, B2B, 64858 -> 68498, banner 2081.0). The spliced tst(4) 2069.97 and singles 2070.07 / 2071.6 have no flash and no score step (56680 -> 60375 is the 2069.5 TSS B2B, +3640). fr/b2/l029_p1_w2.png"
+ },
+ {
+  "id": "l062",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4300.8,
+  "t_end": 4327.77,
+  "was_old": [
+   [
+    4300.8,
+    "tst",
+    4
+   ],
+   [
+    4301.93,
+    "tsd",
+    2
+   ],
+   [
+    4303.57,
+    null,
+    0
+   ],
+   [
+    4303.57,
+    null,
+    0
+   ],
+   [
+    4312.17,
+    null,
+    0
+   ],
+   [
+    4312.17,
+    null,
+    0
+   ],
+   [
+    4312.17,
+    "single",
+    1
+   ],
+   [
+    4313.27,
+    "single",
+    1
+   ],
+   [
+    4314.47,
+    "single",
+    1
+   ],
+   [
+    4315.47,
+    "quad",
+    4
+   ],
+   [
+    4327.77,
+    null,
+    0
+   ],
+   [
+    4327.77,
+    null,
+    0
+   ],
+   [
+    4327.77,
+    "single",
+    1
+   ]
+  ],
+  "events": [
+   {
+    "t": 4300.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4301.4,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4302.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4302.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4303.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4303.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4303.63,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 4304.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4305.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4305.9,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4306.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4307.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4308.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4309.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4310.4,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4311.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4312.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4313.27,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4314.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4315.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4315.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4316.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4316.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4316.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4317,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4317.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4317.5,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4318.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4319,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4319.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4319.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4320.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4320.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4321,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 4322.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4323.67,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4324.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4325.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4326.47,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 4327.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b2 frame check, verified: b2 frame check of gaps 4300.80-4312.17 and 4315.47-4327.77 (lag, not a stall: 40 spawns read, bags clean). One flash per clear (corr/b0flash.py), rows/garbage from corr/rows.py: T-SPIN Double 4301.83 (banner 4301.96), TETRIS 4303.87, then an 11-piece single REN chain 4305.23-4314.77 with the REN counter stepping 1..10 REN on screen, TETRIS 4317.90, single 4320.37, double 4321.90, singles 4322.97/4323.83/4324.73/4325.80 (1-5 REN), double 4326.73, single 4328.07. Spliced tst(4) 4300.8 has no flash. fr/b2/l062_p1_w1.png, l062_z.png, l062_z2.png"
+ },
+ {
+  "id": "l072",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 4935.83,
+  "t_end": 4940,
+  "was_old": [
+   [
+    4935.83,
+    "tst",
+    3
+   ],
+   [
+    4936.23,
+    "BREAK",
+    3
+   ],
+   [
+    4936.47,
+    null,
+    0
+   ],
+   [
+    4936.47,
+    null,
+    0
+   ],
+   [
+    4937.56,
+    "tsd",
+    2
+   ],
+   [
+    4937.93,
+    "BREAK",
+    2
+   ]
+  ],
+  "events": [
+   {
+    "t": 4935.83,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4936.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4937.27,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4938.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4939.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4939.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b2 frame check, verified: b2 frame check of p2's last 4.7 s (lag, not a stall: NEXT shifts 4935.83, 4936.87, 4937.27, 4938.33, 4939.43, 4939.67, 4939.87, corr/b2spawn.py). Three clears, one flash each: triple 4936.13 (rows 13-15 colour, no T-SPIN banner beside p2's board, 31073 -> 32583; the T-SPIN Double on screen then is p1's), T-SPIN Double 4937.63 (banner left of p2's board, 32583 -> 36185), single 4938.77 (1 REN, 36188 -> 36638). The tst(3) typing and the B gap lines BREAK 3 (4936.23) and BREAK 2 (4937.93) double-count the triple and the TSD; the single was missing. fr/b2/l072_full.png, l072_p2_tail.png, ban_l072.png"
+ },
+ {
+  "id": "l040",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2831.53,
+  "t_end": 2831.53,
+  "was_old": [
+   [
+    2831.53,
+    null,
+    0
+   ]
+  ],
+  "events": [
+   {
+    "t": 2831.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "audit frame check: audit: REN counter 2->3 at 2831.67 with one-row flash, score 20106->20880 (+774 = 300 + 3REN 450 + drop) at 2831.63; the lock at 2831.53 is logged as no-clear. Video REN reaches 7 at 2836.0. fr/audit/m_l040x_p1_0.png, m_l040_p1_*.png"
+ },
+ {
+  "id": "l022",
+  "side": "p1",
+  "op": "add",
+  "t": 1698.3,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "audit frame check: audit: '1 REN' appears 1698.5 with a one-row flash (I piece on top row) between the double at 1697.3 (no REN) and the double at 1699.1 ('2 REN'); singles that follow show 3 REN / 4 REN; score 13082->14762 (+1680 = single c1 450 + double c2 1200 + drop) across the hidden-score span. No lock is logged between 1697.3 and 1699.1 (two locks share 1699.1). fr/audit/m_l022x_p1_0.png"
+ },
+ {
+  "id": "l001",
+  "side": "p1",
+  "op": "retype",
+  "t": 207.47,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l001a.png, l001b.png: the O dropped at 207.47 fills 2 colored rows (2-row white band 207.53-207.77, 1 REN label), score 35549->36599 (+1050 = double 900 + REN1 150); next double scores 1220 (REN2) as the chain has"
+ },
+ {
+  "id": "l014",
+  "side": "p2",
+  "op": "retype",
+  "t": 1222.1,
+  "was": [
+   "tsmini",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "source": "score round s0, verified: s0 score check, verified (sv0 recheck fr/sv0/l014a.png, l014b.png): the O spawned 1222.1 went to HOLD and the J came out (HOLD J->O at 1222.3). The vertical J dropped into the left well, 2-row flash 1222.5, 2 REN label, no T-SPIN banner, score 164080->165303 (+1223 = double 900 + REN2 300). Not a T-spin, so no B2B. The +300 at 1224.6 is a zero-line T-SPIN (banner at 1224.7), not a clear. The TSD (flash 1225.4) scores 165666->169266 (+3600, no B2B)"
+ },
+ {
+  "id": "l018",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1475.2,
+  "t_end": 1475.2,
+  "was_old": [
+   [
+    1475.2,
+    "single",
+    1
+   ]
+  ],
+  "events": [
+   {
+    "t": 1475.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l018a.png: after the 8 REN single at 1474.4 (66737) the green piece locks 1475.2 with no flash (66761, +24 drop) and nothing clears until the TST at 1477.8 (66888->71688 = 4800, REN 0); the 1475.2 single is a phantom, a no-clear lock"
+ },
+ {
+  "id": "l021",
+  "side": "p1",
+  "op": "retype",
+  "t": 1670.73,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 2,
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l021a.png, l021z.png: O to HOLD, J dropped vertically into the garbage well, 2-row flash over two grey garbage rows 1671.07, 2 REN label, score 35930->37130 (+1200 = double 900 + REN2 300)"
+ },
+ {
+  "id": "l032",
+  "side": "p1",
+  "op": "retype",
+  "t": 2236.3,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l032a.png, l032z.png: vertical S at the right clears one colored row and one garbage row (2-row flash 2236.67), 1 REN label, score 18101->19151 (+1050 = double 900 + REN1 150); gc 1 kept"
+ },
+ {
+  "id": "l037",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2531.3,
+  "t_end": 2532.57,
+  "was_old": [
+   [
+    2532.57,
+    null,
+    0
+   ],
+   [
+    2532.57,
+    "double",
+    2
+   ]
+  ],
+  "events": [
+   {
+    "t": 2531.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2532.57,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   }
+  ],
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l037a.png, l037b.png: L spawned 2531.37 goes to HOLD (T out), the T clears a colored row 2532.0 with 5 REN (+1074 = 1050), Z spawned 2532.6 goes to HOLD (L out), L clears 2 rows 2533.3 with 6 REN (27435->29257, +1822 = 1800). No lock between them; the chain lacked the REN5 single and had a no-clear lock there. The 2534.8 None+double (orange lock 2533.8, then T double 29294->30194 = 900, REN 0) is right"
+ },
+ {
+  "id": "l046",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3340.03,
+  "t_end": 3340.03,
+  "was_old": [
+   [
+    3340.03,
+    null,
+    0
+   ]
+  ],
+  "events": [
+   {
+    "t": 3340.03,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l046a.png: the piece spawned 3340.03 clears one row (1-row flash 3340.5, 2 REN label), score 37055->37677 (+622 = single 300 + REN2 300). It breaks B2B: the quad at 3341.5 scores 37677->40141 (+2464 = 2400, no B2B)"
+ },
+ {
+  "id": "l056",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3974.03,
+  "t_end": 3974.03,
+  "was_old": [
+   [
+    3974.03,
+    null,
+    0
+   ]
+  ],
+  "events": [
+   {
+    "t": 3974.03,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l056a.png, l056z.png: Z after the TSD fills the hole of the top garbage row, 1-row flash 3975.0, 1 REN label, score 27958->28408 (+450 = single 300 + REN1 150). It breaks B2B: the I from HOLD makes the quad at 3975.8 with 2 REN, 28408->31126 (+2718 = 2400 + REN2 300, no B2B)"
+ },
+ {
+  "id": "l058",
+  "side": "p2",
+  "op": "remove",
+  "t": 4103.13,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l058a.png: only the quad flash 4102.9-4103.5 (22036->25658); the next piece locks 4104.0 with +20 drop points and no flash; no clear until the TSD at 4105.8, which scores 5400 (B2B kept, 25678->31146). The 4103.13 double is a phantom"
+ },
+ {
+  "id": "l072",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4927.87,
+  "t_end": 4928.57,
+  "was_old": [
+   [
+    4927.87,
+    "quad",
+    4
+   ],
+   [
+    4928.57,
+    "quad",
+    4
+   ]
+  ],
+  "events": [
+   {
+    "t": 4927.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4928.57,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l072a.png, gc3.png: O locks 4927.8 (+24) and O 4928.1 (+22) without clearing, the I spawned ~4928.2 makes the one TETRIS flash 4928.5 (34880->38480 = 3600 B2B); no second quad (score flat to 38510 drop). The 4 cleared rows are colored; the grey garbage rows stay 2 high (gc 0). TSD 4931.4 then 5400 B2B as the chain has"
+ },
+ {
+  "id": "l074",
+  "side": "p1",
+  "op": "retype",
+  "t": 5026.23,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "source": "score round s0, verified: s0 score check, verified: fr/s0/l074a.png, l074z.png: 2-row flash over two colored rows 5026.43, no REN label, no T-SPIN banner, score 47566->48466 (+900 = double, REN 0)"
+ },
+ {
+  "id": "l012",
+  "side": "p1",
+  "op": "retype",
+  "t": 935.37,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 1,
+  "source": "score round s1, verified: s1 score check: S spawned 935.37 hard-drops, 2-row white flash 935.47 with '2 REN', score 54032->55232 (+1200 = double 900 + REN2 300); before the clear two grey rows (holes col 6 / col 4), after it one (hole col 4) -> 1 garbage row. fr/s1/l012a.png, l012b.png, z_l012b.png"
+ },
+ {
+  "id": "l018",
+  "side": "p1",
+  "op": "retype",
+  "t": 1444.63,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "gc": 4,
+  "source": "score round s1, verified: s1 score check: S spawned 1444.63 goes to HOLD, the I from hold drops into the right well; 4-row flash 1444.97 over the grey garbage block (no grey left after), TETRIS banner 1445.5, score 19016->21501 (+2485 = quad 2400 + drop). Makes the TSD 1447.27 back-to-back, which the score shows (21671->27071 = +5400). fr/s1/l018a.png"
+ },
+ {
+  "id": "l026",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1866.27,
+  "t_end": 1866.97,
+  "was_old": [
+   [
+    1866.27,
+    "quad",
+    4
+   ],
+   [
+    1866.97,
+    "quad",
+    4
+   ]
+  ],
+  "events": [
+   {
+    "t": 1866.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1866.53,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1866.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "score round s1, verified: s1 score check, sv1 verified: one TETRIS only. The I spawned 1866.27 is swapped into HOLD and the J comes out and locks with no flash (24161->24189, drop points only, 1866.40). The T spawned 1866.53 is held, and the I from hold drops in column 0 and locks 1866.80. There is a 4-row flash 1866.93 over coloured rows (the grey rows stay) and the score goes 24217->27817 (+3600 = b2b quad, no REN). The piece spawned 1866.97 lands on the grey rows with no flash (fr/sv1/l026b.png). fr/s1/l026a.png, l026b.png, fr/sv1/l026.png"
+ },
+ {
+  "id": "l035",
+  "side": "p1",
+  "op": "retype",
+  "t": 2450.4,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "source": "score round s1, verified: s1 score check: S spawned 2450.40, 2-row flash 2450.53 (two coloured rows above the garbage), '1 REN', score 14685->15753 (+1068 = double 900 + REN1 150); the next quad then scores non-b2b 2444 as the chain has. fr/s1/l035a.png, z_gc.png"
+ },
+ {
+  "id": "l047",
+  "side": "p2",
+  "op": "retype",
+  "t": 3403.57,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "source": "score round s1, verified: s1 score check: 2-row flash 3403.70 with '4 REN', score 12566->14094 (+1528 = double 900 + REN4 600); a single would be +900. fr/s1/l047a.png"
+ },
+ {
+  "id": "l054",
+  "side": "p2",
+  "op": "retype",
+  "t": 3855.57,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 2,
+  "source": "score round s1, verified: s1 score check: vertical L drops into the shared hole of the two grey rows (fr/s1/z_l054.png, 3855.80), 2-row flash 3855.87 with '4 REN', score 46150->47686 (+1536 = double 900 + REN4 600, read 3856.33 under the cut-in; 47824 by 3857.97 after 4 drops). fr/s1/l054a.png, l054b.png"
+ },
+ {
+  "id": "l072",
+  "side": "p1",
+  "op": "retype",
+  "t": 4937.57,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "source": "score round s1, verified: s1 score check: 2-row flash 4937.80 of the two coloured rows (3 grey rows stay), '2 REN', score 53432->54662 (+1230 = double 900 + REN2 300). fr/s1/l072a.png, z_l072.png"
+ },
+ {
+  "id": "l072",
+  "side": "p1",
+  "op": "retype",
+  "t": 4938.47,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "gc": 3,
+  "source": "score round s1, verified: s1 score check: I drops vertically into the 3-deep hole of the 3 grey rows (fr/s1/z_l072.png 4938.67), 3-row flash 4938.80 with '3 REN', no grey left after; score 54662->56646 (+1984 = triple 1500 + REN3 450), then 56820 drops only before p1's win banner 4940.6. fr/s1/l072a.png"
+ },
+ {
+  "id": "l082",
+  "side": "p1",
+  "op": "retype",
+  "t": 5380.1,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "gc": 4,
+  "source": "score round s1, verified: s1 score check: I spawned 5380.10 drops into the right well, 4-row flash 5380.37 over the 4 grey rows (no grey left after), TETRIS + BACK to BACK banner 5380.9, score 93715->97411 (+3696 = b2b quad 3600). Makes the TSD 5386.8 back-to-back as the score shows (+5405). fr/s1/l082a.png"
+ },
+ {
+  "id": "l050",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3647.9,
+  "t_end": 3647.9,
+  "was_old": [
+   [
+    3647.9,
+    "BREAK",
+    4
+   ]
+  ],
+  "events": [],
+  "source": "score round s1, verified: s1 frame check: the BREAK(4) duplicates the T-SPIN Single flashed 3647.9-3648.3 (one 1-row flash, score 90760->94360 once = b2b TSS 3600); no 4-row clear; the next clear is the triple flashed ~3649.2 (+1518, no REN; the None 3648.53 keeps the REN reset). Outside the existing l050 p2 window (3649.47-3689.6). fr/s1/l050brk.png"
  }
 ]
