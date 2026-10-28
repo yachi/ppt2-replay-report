@@ -251,8 +251,7 @@ def _warn_box(small, s):
         f"抽取器睇唔到{n('ko')}。</li>"
         "<li><strong>人手改正。</strong>抽取器睇錯嘅清行（例如 hold 換粒當咗清行、全消冇認到、"
         "T-spin Mini 冇消行）逐格睇片改正：改咗嘅事件記喺 event-corrections.json，"
-        f"改咗嘅格連出處記喺 hand-edits.csv。{n('hand')}"
-        "最長 REN 係片入面見到嘅 REN 字幕，抽取器斷開嘅位都係下限。</li>"
+        f"改咗嘅格連出處記喺 hand-edits.csv。{n('hand')}{n('ren')}</li>"
         f"<li><strong>開局時間同粒數。</strong>{n('ready')}玩家停住一粒超過 4 秒嘅位，抽取器 A 讀唔到 NEXT 列，"
         f"抽取器 B 嘅估算會疊落 A 自己嘅數度{n('gap')}。</li>"
         + n("extra") +

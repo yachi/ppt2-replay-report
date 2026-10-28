@@ -35,7 +35,7 @@ near-copies, and some files differ from tree to tree.
 
 1. The chain writes a chain `games.csv`. Before the tally, `apply/patch_overlay3.py` applies
    `analysis/ppt2-syakegohan/event-corrections.json` to the event sequences.
-2. `python3 -m pipeline.ppt2_page --apply <chain games.csv>` lays
+2. `python3 -m pipeline.ppt2_page --apply syakegohan <chain games.csv>` lays
    `analysis/ppt2-syakegohan/hand-edits.csv` over the chain output and writes the repo's `games.csv`.
 3. `bin/build-docs` renders `docs/` from that file.
 
@@ -50,3 +50,5 @@ near-copies, and some files differ from tree to tree.
 | D6 | i015 p2 `garbage_received_rows` is 2, but the frames show one grey row |
 
 The hand fixes for these rows are in `analysis/ppt2-syakegohan/`. See `HISTORY.md` at the repo root.
+
+The amemiya set is a port of `chain/cVO` and is archived separately under `amemiya/`. Read `amemiya/README.md`.

@@ -1,0 +1,574 @@
+--- orig/start/grid.py	2026-10-27 22:07:14
++++ start/grid.py	2026-10-27 22:10:06
+@@ -1,6 +1,6 @@
+ import subprocess, numpy as np, sys, json
+ W,H=854,480
+-X0,Y0,CW=142.5,389.0,15.7
++X0,Y0,CW=137.0,391.0,16.0  # [am port: was 142.5,389.0,15.7]
+ def grids(path,fps=10):
+     p=subprocess.Popen(['ffmpeg','-v','error','-i',path,'-vf',f'fps={fps}','-f','rawvideo','-pix_fmt','rgb24','-'],stdout=subprocess.PIPE)
+     xs=[int(X0+CW*(c+.5)) for c in range(10)]; ys=[int(Y0-CW*(r+.5)) for r in range(22)]
+--- orig/chain/cVO/w/A/feat.py	2026-10-27 22:07:14
++++ chain/am/w/A/feat.py	2026-10-27 22:09:51
+@@ -10,16 +10,16 @@
+ import subprocess, sys, json, numpy as np
+ 
+ W, H = 854, 480
+-CX0, CY0, CW_, CH_ = 85, 55, 690, 340          # crop box fed by ffmpeg
+-CELL = 15.7
+-BX = [142.5, 553.6]                             # board x0 (left, right) -- right calibrated from f_60 gridlines
+-BY = 389.0
++CX0, CY0, CW_, CH_ = 78, 50, 706, 348          # crop box fed by ffmpeg  [am port: old (85,55,690,340) scaled x1.0191]
++CELL = 16.0                                     # [am port: 15.7 -> 16.0, gridline fit on 4xcAmo-s-Tg frames 622/640/700]
++BX = [137.0, 556.0]                             # board x0 (left, right)  [am port: was 142.5, 553.6; gridline fit]
++BY = 391.0                                       # [am port: was 389.0]
+ DX = BX[1] - BX[0]                              # 411.1
+-NEXT_X = (318, 355)
+-NEXT_Y = [(76, 99), (108, 131), (142, 164), (175, 197), (208, 231)]
+-HOLD_X, HOLD_Y = (92, 132), (88, 112)
+-BORDER_X = [(138, 139, 302, 303), (550, 551, 714, 715)]
+-BORDER_Y = list(range(95, 385, 12))
++NEXT_X = (316, 354)                             # [am port: old geometry x1.0191 about the board]
++NEXT_Y = [(72, 96), (105, 128), (139, 162), (173, 195), (207, 230)]
++HOLD_X, HOLD_Y = (86, 126), (84, 109)
++BORDER_X = [(132, 133, 300, 301), (552, 553, 719, 720)]
++BORDER_Y = [int(round(16 / 15.7 * (y - 389) + 391)) for y in range(95, 385, 12)]
+ 
+ def _idx():
+     ys, xs = [], []
+--- orig/chain/cVO/w/A/analyze.py	2026-10-27 22:07:14
++++ chain/am/w/A/analyze.py	2026-10-27 22:38:45
+@@ -335,7 +335,7 @@
+             if (hz[i:i + 5] == hz[i]).all():
+                 hf = sp[0] + i
+                 # the spawn closest to the hold event
+-                cand = [q for q, s in enumerate(sp) if s >= hf - 1]
++                cand = [q for q, s in enumerate(sp) if q > 0 and s >= hf - 1]   # [am port] D1 fix: a hold before the 2nd spawn is not the hold-into-empty pull
+                 j = cand[0] if cand else 0
+                 if cand and sp[j] - hf <= 6 and j > 0:
+                     hold_empty_shift = j
+@@ -428,6 +428,8 @@
+             ev['garbage'] = gpost
+             if ts == 'tspin':
+                 key = {1: 'tss', 2: 'tsd', 3: 'tst'}.get(lines)
++                if key is None:   # [am port] a 4-row flash on a T lock crashed analyse() (k085 6218.8 s); B's rule: .get(n, 'tst')
++                    key = 'tst'; flag.append(f'T-spin with flash rows {lines}, typed tst')
+             elif ts == 'mini':
+                 key = 'tsmini'
+             else:
+--- orig/chain/cVO/w/A/run_all.py	2026-10-27 22:07:14
++++ chain/am/w/A/run_all.py	2026-10-27 22:10:49
+@@ -5,7 +5,7 @@
+ sys.path.insert(0, HERE)
+ import analyze as A
+ 
+-games = json.load(open('/private/tmp/claude-501/sk/metrics/more/cVO/games.json'))
++games = json.load(open('/private/tmp/claude-501/am/w/chain/am/games.json'))
+ FD = os.path.join(HERE, 'feat'); os.makedirs(FD, exist_ok=True)
+ PROG = os.path.join(HERE, 'progress.txt')
+ done = [0]
+--- orig/chain/cVO/w/B/extract_b.py	2026-10-27 22:07:14
++++ chain/am/w/B/extract_b.py	2026-10-27 22:10:49
+@@ -180,6 +180,9 @@
+         frontier = nxt
+         if len(frontier) > 80: frontier = frontier[:80]
+     return None
++# [am port] perf/solve_fast.py: bitboard drop-in, byte-identical output, ~52x faster (README)
++import sys as _sys; _sys.path.insert(0, '/private/tmp/claude-501/am/w/perf')
++from solve_fast import solve
+ def border_end(z, start, end_upper, t0):
+     """end of game: first frame (after start+3s) where a board's frame strip leaves its reference for >=10 frames"""
+     bd = z['borders'].astype(np.float32)  # n,2,2,25,3
+@@ -342,7 +345,7 @@
+                 gap_garbage=sum(g['garbage'] for g in res['gaps']), unclassified_lines=unclassified,
+                 resyncs=len(res['resyncs']), orphan_clear_lines=orphan_lines)
+ def run_game(g):
+-    z = np.load(f'/private/tmp/claude-501/sk/metrics/more/cVO/w/B/cells2/{g["id"]}.npz'); t0 = float(z['t0'])
++    z = np.load(f'/private/tmp/claude-501/am/w/chain/am/w/B/cells2/{g["id"]}.npz'); t0 = float(z['t0'])
+     cells = z['cells']; n = len(cells)
+     out = dict(id=g['id'], p1=None, p2=None, duration_s=None, winner=None, confidence=0.0, notes='')
+     if n < 60:
+@@ -377,7 +380,7 @@
+     out['notes'] = '; '.join(notes)
+     return out, details
+ if __name__ == '__main__':
+-    games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/sk/metrics/more/cVO/games.json'))}
++    games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/am/w/chain/am/games.json'))}
+     for gid in sys.argv[1:]:
+         o, d = run_game(games[gid])
+         print(json.dumps(o), flush=True)
+--- orig/chain/cVO/w/B/runner.py	2026-10-27 22:07:14
++++ chain/am/w/B/runner.py	2026-10-27 22:10:49
+@@ -1,7 +1,7 @@
+ import json, sys, traceback, time
+ import extract_b as X
+ out = sys.argv[1]; ids = sys.argv[2:]
+-games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/sk/metrics/more/cVO/games.json'))}
++games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/am/w/chain/am/games.json'))}
+ for gid in ids:
+     t = time.time()
+     try:
+--- orig/chain/cVO/w/B/sample.py	2026-10-27 22:07:14
++++ chain/am/w/B/sample.py	2026-10-27 22:10:49
+@@ -1,7 +1,8 @@
+ # Extractor B, stage 1: decode a game window at 30 fps and store per-cell mean RGB for both boards.
+ import subprocess, numpy as np, sys, json, os
+ W,H=854,480
+-X0={'p1':142.5,'p2':554.0}; Y0=389.0; CW=15.7
++S=16/15.7  # [am port] capture scale vs the archived geometry
++X0={'p1':137.0,'p2':556.0}; Y0=391.0; CW=16.0  # [am port: was 142.5/554.0, 389.0, 15.7; gridline fit]
+ def coords(x0):
+     xs=np.array([int(round(x0+CW*(c+.5))) for c in range(10)])
+     ys=np.array([int(round(Y0-CW*(r+.5))) for r in range(20)])
+@@ -12,7 +13,7 @@
+     p=subprocess.Popen(cmd,stdout=subprocess.PIPE)
+     C={k:coords(v) for k,v in X0.items()}
+     outs=[]; borders=[]
+-    BY=np.arange(85,381,12)
++    BY=np.array([int(round(S*(y-389)+391)) for y in range(85,381,12)])  # [am port: was np.arange(85,381,12)]
+     off=np.arange(-3,4)
+     while True:
+         b=p.stdout.read(W*H*3)
+@@ -28,7 +29,7 @@
+         outs.append(fr)
+         bd=np.zeros((2,2,BY.size,3),np.uint8)
+         for k,pl in enumerate(('p1','p2')):
+-            for side,xx in enumerate((int(X0[pl]-4),int(X0[pl]+157+3))):
++            for side,xx in enumerate((int(X0[pl]-4*S),int(X0[pl]+(157+3)*S))):  # [am port: offsets scaled]
+                 pt=a[BY[:,None]+np.array([-1,0,1])[None,:]][:,:,xx-1:xx+2]  # n,3,3,3
+                 bd[k,side]=pt.reshape(BY.size,9,3).mean(1).astype(np.uint8)
+         borders.append(bd)
+@@ -37,8 +38,8 @@
+     np.savez_compressed(os.path.join(outdir,g['id']+'.npz'),cells=arr,borders=np.stack(borders) if borders else np.zeros((0,2,2,25,3),np.uint8),t0=t0,fps=30)
+     return arr.shape
+ if __name__=='__main__':
+-    games={g['id']:g for g in json.load(open('/private/tmp/claude-501/sk/metrics/more/cVO/games.json'))}
+-    outdir='/private/tmp/claude-501/sk/metrics/more/cVO/w/B/cells2'
++    games={g['id']:g for g in json.load(open('/private/tmp/claude-501/am/w/chain/am/games.json'))}
++    outdir='/private/tmp/claude-501/am/w/chain/am/w/B/cells2'
+     for gid in sys.argv[1:]:
+         if os.path.exists(os.path.join(outdir,gid+'.npz')): continue
+         print(gid,sample(games[gid],outdir),flush=True)
+--- orig/chain/cVO/w/R/banner.py	2026-10-27 22:07:14
++++ chain/am/w/R/banner.py	2026-10-27 22:42:54
+@@ -1,7 +1,7 @@
+ # independent T-spin banner detector (referee). banner.py GID -> R/ban/GID.json
+ import sys,json,subprocess,numpy as np
+ from PIL import Image
+-G={g['id']:g for g in json.load(open('/private/tmp/claude-501/sk/metrics/more/cVO/games.json'))}
++G={g['id']:g for g in json.load(open('/private/tmp/claude-501/am/w/chain/am/games.json'))}
+ Y0,H=306,46
+ def strip(path,t0,t1):
+   cmd=['ffmpeg','-loglevel','error','-ss',str(t0),'-i',path,'-t',str(t1-t0),'-r','30','-vf',f'crop=854:{H}:0:{Y0}','-f','rawvideo','-pix_fmt','rgb24','-']
+@@ -9,8 +9,12 @@
+   n=len(raw)//(854*H*3); return np.frombuffer(raw,np.uint8)[:n*854*H*3].reshape(n,H,854,3).astype(np.float32)
+ def tpl(png,x0,y0,x1,y1):
+   return np.asarray(Image.open(png).convert('RGB'),np.float32)[y0:y1,x0:x1]
+-T_SPIN=tpl('R/fr/b2.png',482,322,511,336)            # '-SPIN' p2 coords
+-WORDS={'Single':tpl('R/fr/b_single.png',99,320,134,336),'Triple':tpl('R/fr/b2.png',511,320,546,336),'Double':tpl('R/fr/b3.png',511,320,546,336)}
++# [am port] templates re-cut from 4xcAmo-s-Tg frames (the archived R/fr/*.png are not in the repo):
++# b2.png = 168.72 s (k000 p2 T-SPIN Triple), b3.png = 179.68 s (k000 p1 T-SPIN Double),
++# b_single.png = 175.05 s (k000 p2 T-SPIN Single), b_mini2.png = 3205.48 s (k038 p2 Mini T-SPIN Single).
++# Boxes located on these frames; the banner sits ~6 px lower than the old layout x1.0191.
++T_SPIN=tpl('R/fr/b2.png',482,328,512,342)            # '-SPIN' p2 coords
++WORDS={'Single':tpl('R/fr/b_single.png',512,323,547,339),'Triple':tpl('R/fr/b2.png',512,325,547,341),'Double':tpl('R/fr/b3.png',92,325,127,341)}
+ def ncc(patch,t):
+   a=patch-patch.mean(); b=t-t.mean(); d=np.sqrt((a*a).sum()*(b*b).sum())+1e-6; return float((a*b).sum()/d)
+ def best(fr,t,x,y,r=4):
+@@ -24,10 +28,10 @@
+   return bs,bp
+ def run(gid,t0,t1):
+   g=G[gid]; F=strip(g['path'],t0,t1); out={}
+-  for p,off in (('p1',-412),('p2',0)):
++  for p,off in (('p1',-420),('p2',0)):   # [am port] p1 offset -412 -> -420
+     sc=[];pos=[]
+     for f in F:
+-      s,bp=best(f,T_SPIN,482+off,322); sc.append(s); pos.append(bp)
++      s,bp=best(f,T_SPIN,482+off,328); sc.append(s); pos.append(bp)
+     out[p]=dict(t0=t0,score=[round(s,3) for s in sc],pos=pos)
+   return out,F
+ if __name__=='__main__':
+--- orig/chain/cVO/w/R/banscan.py	2026-10-27 22:07:14
++++ chain/am/w/R/banscan.py	2026-10-27 22:42:54
+@@ -1,7 +1,7 @@
+ import sys,json,numpy as np
+ exec(open('R/banner.py').read().split('if __name__')[0])
+ A={j['id']:j for j in map(json.loads,open('A/games.jsonl'))}
+-MINI=tpl('R/fr/b_mini2.png',473,325,493,338)
++MINI=tpl('R/fr/b_mini2.png',473,326,495,340)  # [am port] re-cut, see banner.py
+ from numpy.lib.stride_tricks import sliding_window_view as sw
+ def series(F,t,x,y):
+   h,w=t.shape[:2]; tt=t-t.mean(); tn=np.sqrt((tt*tt).sum())
+@@ -19,11 +19,11 @@
+   chunk=20.0; tt=t0; parts={p:[] for p in('p1','p2')}; mparts={p:[] for p in('p1','p2')}; wparts={p:{k:[] for k in WORDS} for p in('p1','p2')}
+   while tt<t1:
+     F=strip(g['path'],tt,min(t1,tt+chunk))
+-    for p,off in (('p1',-412),('p2',0)):
+-      s,k=series(F,T_SPIN,482+off,322); parts[p].append(s)
+-      ms,_=series(F,MINI,473+off,325); mparts[p].append(ms)
++    for p,off in (('p1',-420),('p2',0)):   # [am port] positions re-located on this video (were 482,322 / 473,325 / 511,320; p1 -412)
++      s,k=series(F,T_SPIN,482+off,328); parts[p].append(s)
++      ms,_=series(F,MINI,473+off,326); mparts[p].append(ms)
+       for wn,wt in WORDS.items():
+-        ws,_=series(F,wt,511+off,320); wparts[p][wn].append(ws)
++        ws,_=series(F,wt,512+off,324); wparts[p][wn].append(ws)
+     tt+=chunk
+   np.savez(f'R/ban/{gid}.npz',t0=t0,**{p:np.concatenate(parts[p]) for p in parts},**{p+'_Mini':np.concatenate(mparts[p]) for p in parts},**{p+'_'+w:np.concatenate(wparts[p][w]) for p in wparts for w in WORDS})
+   print('done',gid,flush=True)
+--- orig/chain/cVO/w/R/ref.py	2026-10-27 22:07:15
++++ chain/am/w/R/ref.py	2026-10-27 22:10:49
+@@ -5,7 +5,7 @@
+ v,t0,t1,who,step,out=sys.argv[1],float(sys.argv[2]),float(sys.argv[3]),sys.argv[4],int(sys.argv[5]),sys.argv[6]
+ cols=int(sys.argv[7]) if len(sys.argv)>7 else 10
+ W,H=854,480
+-cmd=['ffmpeg','-loglevel','error','-ss',str(t0),'-i',f'/private/tmp/claude-501/sk/vid/{v}.mp4','-t',str(t1-t0),'-r','30','-f','rawvideo','-pix_fmt','rgb24','-']
++cmd=['ffmpeg','-loglevel','error','-ss',str(t0),'-i','/private/tmp/claude-501/am/video/full.mp4','-t',str(t1-t0),'-r','30','-f','rawvideo','-pix_fmt','rgb24','-']
+ raw=subprocess.run(cmd,capture_output=True).stdout
+ n=len(raw)//(W*H*3); fr=np.frombuffer(raw,np.uint8)[:n*W*H*3].reshape(n,H,W,3)
+ boxes={'p1':(85,60,362,392),'p2':(497,60,772,392)}
+--- orig/chain/lg/w/R/pcscan.py	2026-10-27 22:07:15
++++ chain/am/w/R/pcscan.py	2026-10-27 22:47:08
+@@ -2,12 +2,12 @@
+ import sys,json,subprocess,numpy as np
+ from PIL import Image
+ from numpy.lib.stride_tricks import sliding_window_view as sw
+-V='/private/tmp/claude-501/sk/vid/lgszEWNFSx0.mp4'
++V='/private/tmp/claude-501/am/video/full.mp4'  # [am port]
+ A={j['id']:j for j in map(json.loads,open('A/games.jsonl'))}
+ G={g['id']:g for g in json.load(open('../games.json'))}
+-TX0,TY0,TX1,TY1=158,158,282,188
++TX0,TY0,TX1,TY1=570,150,702,180   # [am port] 'PERFECT' word on p2, frame 828.6 s (k011); lg used p1 158,158,282,188
+ T=np.asarray(Image.open('../chk/t_pc.png').convert('RGB'),np.float32)[TY0:TY1,TX0:TX1]
+-OFF={'p1':0,'p2':411}; M=8
++OFF={'p1':-419,'p2':0}; M=8   # [am port] was {'p1':0,'p2':411}
+ def scan(gid):
+   g=G[gid]; t0=A[gid]['start_s']-0.5; t1=(A[gid]['end_s'] or g['end_upper_s'])+2.0
+   out={}
+--- orig/chain/cVO/w/tetrio/metrics.py	2026-10-27 22:07:15
++++ chain/am/w/tetrio/metrics.py	2026-10-27 22:57:52
+@@ -1,5 +1,5 @@
+-# TETR.IO-style metrics from the reconciled PPT2 counts (syakegohan, 108 games).
+-# Run from /private/tmp/claude-501/sk/metrics. Inputs: reconciled.jsonl, ../games.json, tetrio/seqs.pkl (tetrio/seqs.py).
++# TETR.IO-style metrics from the reconciled PPT2 counts (syakegohan, 108 games).  [am port: amemiya set 4xcAmo-s-Tg]
++# Run from /private/tmp/claude-501/am/w/chain/am/w. Inputs: reconciled.jsonl, ../games.json, tetrio/seqs.pkl (tetrio/seqs.py).
+ import json, pickle, math, collections, csv, sys
+ from scipy.stats import binomtest
+ 
+@@ -19,49 +19,21 @@
+     return tab[min(ren, len(tab) - 1)]
+ 
+ # ---------------- exclusions ----------------
+-UNRESOLVED = ['h031p2']
+-NOT_TRUST = []
++UNRESOLVED = json.load(open('R/unresolved.json'))   # [am port] = R/build.py's printed unres_pg list (cVO hard-coded it)
++NOT_TRUST = json.load(open('R/not_trust.json'))     # [am port] games whose A winner disagrees with the on-screen WIN counter
+ EXCL = sorted(set([u[:4] for u in UNRESOLVED] + NOT_TRUST))
+ 
+ # ---------------- PC-duplicate correction ----------------
+-# cVO2eGipjV0: A's pc flag sits on the phantom half of a double-logged PC on this video, so the old
+-# "drop a same-lines clear <=0.6 s after a pc-flagged clear" rule is replaced by a frame-adjudicated table
+-# keyed to the PERFECT CLEAR banner (R/pcscan.py + R/pcon.py, every banner checked by eye; see reconcile md).
+-PCDEC = {
+- ('h002','p2'): [(254.43,[254.1])],
+- ('h003','p2'): [(400.37,[400.2]),(401.63,[401.4])],
+- ('h006','p1'): [(614.77,[614.53])],
+- ('h007','p2'): [(646.4,[])],
+- ('h010','p2'): [(911.7,[911.33])],
+- ('h012','p2'): [(999.7,[999.33])],
+- ('h013','p2'): [(1085.87,[1085.67])],
+- ('h015','p1'): [(1249.37,[1248.93])],
+- ('h015','p2'): [(1249.03,[1248.73])],
+- ('h016','p1'): [(1429.6,[1428.43])],
+- ('h016','p2'): [(1429.53,[])],
+- ('h017','p1'): [(1479.13,[1478.57])],
+- ('h017','p2'): [(1479.77,[])],
+- ('h018','p1'): [(1515.4,[1514.97])],
+- ('h019','p2'): [(1577.93,[1577.7]),(1693.33,[1692.53])],
+- ('h020','p1'): [(2033.4,[2033.17])],
+- ('h021','p1'): [(2079.9,[2079.0])],
+- ('h029','p1'): [(2791.43,[2790.9]),(2798.1,[2797.73,2798.3])],
+- ('h029','p2'): [(2791.07,[2790.8])],
+- ('h030','p1'): [(2871.6,[]),(2912.3,[2911.57])],
+- ('h031','p1'): [(3212.47,[])],
+-}
+-CUR = [None]
++# [am port] cVO's PCDEC is a frame-adjudicated table for cVO2eGipjV0 only. This set uses lg's chain instead: pcfix()
++# (PERFECT CLEAR banner scan, below) then the generic rule of the B and lg trees: drop a same-lines clear <= 0.6 s
++# after a pc-flagged clear. Every PC event is listed in out/flags.json for a frame check.
+ def correct(seq, window=0.6):
+-    dec = PCDEC.get(CUR[0], [])
+-    pcs = {t for t, _ in dec}; drops = {d for _, ds in dec for d in ds}
+-    hit = set(); out = []; dropped = []
+-    for z in seq:
+-        if z[1] in (None, 'BREAK'): out.append(z); continue
+-        if any(abs(z[0] - d) < 0.02 for d in drops): dropped.append(z); hit.add(('d', z[0])); continue
+-        ispc = any(abs(z[0] - t) < 0.02 for t in pcs)
+-        if ispc: hit.add(('p', z[0]))
+-        out.append((z[0], z[1], z[2], ispc, z[4], z[5]))
+-    assert len(hit) == len(pcs) + len(drops), (CUR[0], hit, dec)
++    out = []; dropped = []
++    for i, z in enumerate(seq):
++        if out and z[1] not in (None, 'BREAK') and out[-1][3] and out[-1][1] not in (None, 'BREAK') \
++                and z[2] == out[-1][2] and z[0] - out[-1][0] <= window + 1e-9:
++            dropped.append(z); continue
++        out.append(z)
+     return out, dropped
+ 
+ def streaks(kinds):  # referee's rule (R/seqfn.py): REN = clears in a row - 1; B2B = difficult clears in a row - 1
+@@ -77,9 +49,9 @@
+ 
+ import json as _j
+ RENX = {}
+-for _g, _p, _t in _j.load(open('/private/tmp/claude-501/sk/endfix/combo/rerun/witnessed.json')): RENX.setdefault((_g, _p), set()).add(_t)
++pass  # [am port] witnessed.json (frame-witnessed partial-flash REN clears) is cVO/lg/B-specific: none for this set
+ CURX = [None]
+-KOTAB = {} if '/private/tmp/claude-501/sk/endfix/combo/rerun/kotab.json' == 'none' else _j.load(open('/private/tmp/claude-501/sk/endfix/combo/rerun/kotab.json'))
++KOTAB = {}  # [am port] kotab.json (post-KO drop table) is per-set hand data: none for this set
+ POSTKO_LOG = []
+ def postko(g, t):
+     if g not in KOTAB: return False
+@@ -87,7 +59,7 @@
+     return round((t - t0) * 30) > K
+ 
+ import json as _oj
+-OVL = _oj.load(open('/private/tmp/claude-501/sk/endfix/combo3/apply/corrections3.json'))
++OVL = []  # [am port] corrections3.json = event corrections from frame checks of the old set: none for this set
+ OVL_APPLIED = []
+ def _ovl_hits(cs, t):
+     return [i for i, z in enumerate(cs) if z[1] not in (None, 'BREAK') and round(z[0], 2) == round(t, 2)]
+@@ -145,6 +117,29 @@
+     mc, mb = streaks(['renx' if (k is None and org == 'A' and round(t, 2) in W) else k for t, k, n, pc, gc, org in seq])
+     return dict(clears=c, lines=lines, gclr=gclr, gap_lines=gap_lines, att=att, max_combo=mc, max_b2b=mb, ren1112=ren1112)
+ 
++# ---------------- PC fix, copied verbatim from chain/lg/w/tetrio/metrics.py [am port] ----------------
++# PC existence/count from the PERFECT CLEAR banner scan (R/pcscan.py -> R/pcban.json, segments >= 0.5 s).
++# The PC is the latest A clear in [banner-1.5, banner+0.3]; A clears of the same line count up to 1.0 s before it are
++# double-logs of the same clear (frame-verified i000 0.73 s, i008, i012 0.27 s and 0.86 s). A pc flags without a banner are cleared.
++PCB = json.load(open('R/pcban.json'))
++PCFIX_LOG = []
++def pcfix(g, p, seq):
++    bans = [t for t, d in PCB[g][p] if d >= 0.5]
++    seq = [list(z) for z in seq]; drop = set(); pcidx = set()
++    for tb in bans:
++        cand = [i for i, z in enumerate(seq) if z[1] not in (None, 'BREAK') and z[5] == 'A' and tb - 1.5 <= z[0] <= tb + 0.3 and i not in drop]
++        if not cand:
++            PCFIX_LOG.append((g, p, tb, 'NO A CLEAR')); continue
++        k = cand[-1]; pcidx.add(k)
++        for i in cand[:-1]:
++            if seq[i][2] == seq[k][2] and seq[k][0] - seq[i][0] <= 1.0 + 1e-9:
++                drop.add(i); PCFIX_LOG.append((g, p, tb, 'drop dup', tuple(seq[i][:3])))
++    for i, z in enumerate(seq):
++        newpc = i in pcidx
++        if bool(z[3]) != newpc: PCFIX_LOG.append((g, p, 'pc flag', tuple(z[:4]), '->', newpc))
++        z[3] = newpc
++    return [tuple(z) for i, z in enumerate(seq) if i not in drop], len(drop)
++
+ # controls: uncorrected tally reproduces reconciled (except g003 p2 hand override)
+ ctrl_bad = []
+ rows = []; dup_log = []; dup_log_any = []
+@@ -158,14 +153,14 @@
+             if v != rr[f]: ctrl_bad.append((g, p, f, v, rr[f]))
+         for k in BASE:
+             if raw['clears'][k] != rr['clears'][k]: ctrl_bad.append((g, p, k, raw['clears'][k], rr['clears'][k]))
+-        CUR[0] = (g, p)
+-        cseq, dropped = correct(seq)
+-        dropped_any = dropped
++        fseq, nfix = pcfix(g, p, seq)   # [am port] lg's banner-driven PC fix, then the generic duplicate rule (as lg)
++        cseq, dropped = correct(fseq)
++        _, dropped_any = correct(seq, window=99)
+         dup_log += [(g, p, z) for z in dropped]; dup_log_any += [(g, p, z) for z in dropped_any]
+         _n0 = len(cseq); cseq = [z for z in cseq if not postko(g, z[0])]; (POSTKO_LOG.append((g, p, _n0 - len(cseq))) if _n0 != len(cseq) else None)
+         cseq = overlay(g, p, cseq)
+         CURX[0] = (g, p); T = tally(cseq); CURX[0] = None
+-        rows.append(dict(id=g, player=p, T=T, n_dup=len(dropped), r=rr, dur=r['duration_s'], winner=r['winner']))
++        rows.append(dict(id=g, player=p, T=T, n_dup=len(dropped) + nfix, r=rr, dur=r['duration_s'], winner=r['winner']))
+ print('control mismatches (uncorrected tally vs reconciled):', ctrl_bad)
+ print('PC duplicates dropped (<=0.6 s):', len(dup_log), 'player-games', len({(g, p) for g, p, _ in dup_log}),
+       '| any-gap rule:', len(dup_log_any))
+@@ -191,7 +186,7 @@
+     loser = 'p1' if R[g]['p1']['topped_out'] else 'p2'
+     opp_recv_noko = opp_recv - (last_garb(g, o) if o == loser else 0)
+     gm = G[g]
+-    rec = dict(id=g, dataset=gm['dataset'], opener=gm['opener'], player=p, who='syakegohan' if p == 'p1' else gm['opponent'],
++    rec = dict(id=g, dataset=gm['dataset'], opener=gm['opener'], player=p, who='amemiya' if p == 'p1' else gm['opponent'],
+                won=int(R[g]['winner'] == p), duration_s=d, pieces=pieces, lines_cleared=T['lines'], gap_lines_untyped=T['gap_lines'],
+                garbage_received_rows=rr['garbage_received_rows'], garbage_cleared=T['gclr'],
+                **{k: T['clears'][k] for k in ['single', 'double', 'triple', 'quad', 'tss', 'tsd', 'tst', 'tsmini', 'pc']},
+@@ -212,5 +207,6 @@
+ _miss = [c for ci, c in enumerate(OVL) if c['id'] in R and ci not in {a[0] for a in OVL_APPLIED}]
+ assert not _miss, ('OVERLAY corrections not applied', _miss)
+ for _a in OVL_APPLIED: print('OVERLAY', _a)
+-_oj.dump([dict(index=a[0], id=a[1], side=a[2], op=a[3], before=a[4], after=a[5]) for a in OVL_APPLIED], open('/private/tmp/claude-501/sk/endfix/combo3/apply/c3/cVO/w/tetrio/overlay_applied.json', 'w'), indent=1)
++_oj.dump([dict(index=a[0], id=a[1], side=a[2], op=a[3], before=a[4], after=a[5]) for a in OVL_APPLIED], open('tetrio/overlay_applied.json', 'w'), indent=1)
++for x in PCFIX_LOG: print('PCFIX', x)
+ print('rows', len(out)); print('postko drops (g,p,n):', POSTKO_LOG, 'kotab games', len(KOTAB))
+--- orig/chain/pool/pool.py	2026-10-27 22:07:15
++++ chain/pool/pool.py	2026-10-27 22:33:55
+@@ -4,35 +4,17 @@
+ """
+ import csv, glob, json, os, collections
+ 
+-M = '/private/tmp/claude-501/sk/endfix/combo3/apply/c3/B/w'
+-OUT = '/private/tmp/claude-501/sk/endfix/combo3/apply/c3/pool'
++M = '/private/tmp/claude-501/am/w/chain/am/w'   # [am port] one set, no old rows
++OUT = '/private/tmp/claude-501/am/w/chain/pool'
+ 
+-# --- verify.md findings: games whose rows the checker found wrong ----------
+-# No opponent-name corrections: verify.md section 1 found 102/102 names correct.
+-CHECKER_EXCLUDE = {
+-    'i033': 'checker: p1 quad count 25 in rows, 26 in video (game-ending Tetris at ~3784.0 s dropped; '
+-            'recorded end falls before the final clear)',
+-    'j008': 'checker: p1 T-spin Triple 3 in rows, 4 in video (game-ending TST at ~1857.85 s dropped; '
+-            'recorded end falls before the final clear)',
+-}
++CHECKER_EXCLUDE = {}   # [am port] the i033/j008 checker findings belong to the old sets
+ 
+-old = list(csv.DictReader(open(f'{M}/metrics.csv')))
+-header = list(old[0].keys())
+-opp = json.load(open(f'{M}/opp/opponents.json'))
+-new = []
+-for f in sorted(glob.glob(f'{OUT}/rows_*.csv')):
+-    rs = list(csv.DictReader(open(f)))
+-    assert list(rs[0].keys()) == header, f
+-    new += rs
+-
+-for r in old:
+-    r['source'] = 'old'
+-    r['opponent'] = opp.get(r['id'], '')
+-newopp = {r['id']: r['who'] for r in new if r['player'] == 'p2'}
+-for r in new:
++rows = list(csv.DictReader(open(f'{M}/metrics.csv')))
++header = list(rows[0].keys())
++opp = {r['id']: r['who'] for r in rows if r['player'] == 'p2'}
++for r in rows:
+     r['source'] = 'new'
+-    r['opponent'] = newopp[r['id']]
+-rows = old + new
++    r['opponent'] = opp[r['id']]
+ 
+ exclusions = []  # (id, player, opponent, reason, source)
+ for r in rows:
+@@ -93,10 +75,10 @@
+ opps = sorted({r['opponent'] for r in p2}, key=lambda o: -sum(r['opponent'] == o for r in p2))
+ 
+ table = []  # (scope, player, metrics)
+-table.append(('all', 'syakegohan', pool(p1)))
++table.append(('all', 'amemiya', pool(p1)))
+ table.append(('all', 'all opponents', pool(p2)))
+ for o in opps:
+-    table.append((f'vs {o}', 'syakegohan', pool([r for r in p1 if r['opponent'] == o])))
++    table.append((f'vs {o}', 'amemiya', pool([r for r in p1 if r['opponent'] == o])))
+     table.append((f'vs {o}', o, pool([r for r in p2 if r['opponent'] == o])))
+ 
+ keys = list(table[0][2].keys())
+@@ -106,18 +88,6 @@
+     for s, p, m in table:
+         wr.writerow([s, p] + [round(m[k], 4) if isinstance(m[k], float) else m[k] for k in keys])
+ 
+-# --- self-check: old-only subset -------------------------------------------
+-op1 = pool([r for r in p1 if r['source'] == 'old'])
+-op2 = pool([r for r in p2 if r['source'] == 'old'])
+-checks = [('syakegohan PPS', op1['PPS'], 1.956, 3), ('syakegohan APM', op1['APM'], 91.26, 2),
+-          ('opponents PPS', op2['PPS'], 1.909, 3), ('opponents APM', op2['APM'], 89.05, 2)]
+-check_lines = []
+-allpass = True
+-for name, got, want, dp in checks:
+-    ok = round(got, dp) == want
+-    allpass &= ok
+-    check_lines.append(f'| {name} | {want} | {got:.{dp + 2}f} | {"PASS" if ok else "FAIL"} |')
+-
+ # --- markdown --------------------------------------------------------------
+ def fmt(m, k):
+     v = m[k]
+@@ -134,7 +104,7 @@
+         ('recv_rows_per_min', 'recv/min'), ('mean_game_s', 'mean s')]
+ 
+ L = []
+-L.append('# syakegohan vs opponents: pooled metrics, old + new games\n')
++L.append('# amemiya vs opponents: pooled metrics (4xcAmo-s-Tg)\n')
+ n_old = len({r['id'] for r in rows if r['source'] == 'old'}); n_new = len({r['id'] for r in rows if r['source'] == 'new'})
+ n_inc = len({r['id'] for r in inc})
+ n_inc_old = len({r['id'] for r in inc if r['source'] == 'old'}); n_inc_new = n_inc - n_inc_old
+@@ -155,8 +125,8 @@
+     L.append(f'| {s} | {p} | ' + ' | '.join(fmt(m, k) for k, _ in cols) + ' |')
+ L.append('')
+ 
+-L.append("## syakegohan's record per opponent\n")
+-L.append('| opponent | games | syakegohan W-L | win % | syake PPS / APM / VS | opp PPS / APM / VS | APP syake / opp |')
++L.append("## amemiya's record per opponent\n")
++L.append('| opponent | games | amemiya W-L | win % | amemiya PPS / APM / VS | opp PPS / APM / VS | APP amemiya / opp |')
+ L.append('|---|---|---|---|---|---|---|')
+ for o in ['all opponents'] + opps:
+     a = pool(p1) if o == 'all opponents' else pool([r for r in p1 if r['opponent'] == o])
+@@ -166,50 +136,11 @@
+              f"{a['APP']:.3f} / {b['APP']:.3f} |")
+ L.append('')
+ 
+-L.append('## Sample size: opponents with >= 10 included games\n')
+-cnt = collections.Counter(r['opponent'] for r in p2)
+-L.append('| opponent | included games | >= 10? |')
+-L.append('|---|---|---|')
+-for o in opps:
+-    L.append(f"| {o} | {cnt[o]} | {'yes' if cnt[o] >= 10 else '**no**'} |")
+-yes = [o for o in opps if cnt[o] >= 10]; no = [o for o in opps if cnt[o] < 10]
+-L.append(f'\n{len(yes)} of {len(opps)} opponent names reach 10: {", ".join(yes)}. '
+-         f'Below 10: {", ".join(f"{o} ({cnt[o]})" for o in no)}. '
+-         'Remakun needs at least 1 more included game (2 of its 11 found games, i002 and i004, are excluded as unresolved lower bounds; resolving either bound is the cheapest route to 10). '
+-         'いんたい has only 2 games and should be read as anecdote, or as part of あめみや　はいしん if that link is confirmed.\n')
+-
+-L.append('## Name variants that may be the same person (NOT merged)\n')
+-L.append('- **しょうがく5ねんせい / しょうがく6ねんせい**: only しょうがく6ねんせい occurs in the included rows '
+-         f"({cnt.get('しょうがく6ねんせい', 0)} games: old + new). The string しょうがく5ねんせい appears nowhere under /private/tmp/claude-501/sk/ (grep of every text file), so nothing to merge here; "
+-         'if a 5ねんせい nameplate turns up in other videos it is probably the same player one school year earlier (unverified).')
+-L.append(f"- **あめみや variants**: `あめみや　はいしん` (full-width space) is the only spelling in the rows "
+-         f"({cnt.get('あめみや　はいしん', 0)} games; 3 old + new). Old and new spell it identically (same code points), "
+-         'so pooling them under one name is a string match, not a merge. A grep of every text file under /private/tmp/claude-501/sk/ finds no other '
+-         'あめみや player spelling; the only other hit is the opener name あめみや砲 on the shiwehi page dumps, which is not a player.')
+-L.append(f"- **いんたい** ({cnt.get('いんたい', 0)} games, i018-i019) appears between two runs of あめみや　はいしん games in the same "
+-         'video (i011-i017, i020-i034). It may be the same account under a temporary name ("引退" = retired); '
+-         'the checker read the nameplate as いんたい in both games. Kept separate.')
+-L.append('')
+-
+ L.append('## Exclusions (every one listed)\n')
+ L.append('| game | player | opponent | source | reason |')
+ L.append('|---|---|---|---|---|')
+ for e in sorted(exclusions):
+     L.append(f'| {e[0]} | {e[1]} | {e[2]} | {e[4]} | {e[3]} |')
+-L.append('\nWhole games are excluded when either player\'s row is excluded, so no game contributes one side only. '
+-         'The 10 old excluded games have no opponent name recorded (opponents.json does not cover them). '
+-         'i033 and j008 were excluded on the checker\'s findings rather than patched by hand, as instructed.\n')
+-L.append('**Caveat from the checker**: in both i033 and j008 the recorded game end falls just before the final, '
+-         'winning clear, so that clear was dropped. Only 6 of 102 new games were checked; other games may also miss '
+-         'their last clear. Effect, if it is common: a downward bias in the winner\'s (usually syakegohan\'s) attack, lines and '
+-         'clear counts. Its size is unmeasured: 2 of the 6 checked games lost exactly one clear each.\n')
+-L.append('No opponent-name corrections were needed: the checker read all 102 new nameplates and found no disagreement.\n')
+-
+-L.append('## Self-check: old-only subset reproduces the original figures\n')
+-L.append('| figure | expected | old-only subset | result |')
+-L.append('|---|---|---|---|')
+-L += check_lines
+-L.append(f"\nOverall: **{'PASS' if allpass else 'FAIL'}** (old-only subset = {op1['games']} games).")
+-
++L.append('\nWhole games are excluded when either player\'s row is excluded, so no game contributes one side only.\n')
+ open(f'{OUT}/pooled.md', 'w').write('\n'.join(L) + '\n')
+ print('\n'.join(L))
+--- orig/apply/build_games_csv.py	2026-10-27 22:07:15
++++ apply/build_games_csv.py	2026-10-27 22:33:41
+@@ -1,13 +1,10 @@
+ # Verbatim copy of the inline heredoc that wrote analysis/ppt2-syakegohan/games.csv
+ # (main transcript 436947ab..., 2026-10-14T09:38:53Z), with ALLROWS and OUTCSV parameterised.
+ import csv,json,glob,sys
+-SK='/private/tmp/claude-501/sk'
+-ALLROWS=sys.argv[1] if len(sys.argv)>1 else f'{SK}/metrics/more/all_rows.csv'
+-OUTCSV=sys.argv[2] if len(sys.argv)>2 else 'analysis/ppt2-syakegohan/games.csv'
+-G={g['id']:g for g in json.load(open(f'{SK}/games.json'))}
+-for f in glob.glob(f'{SK}/metrics/more/games_*.json'):
+-    if 'winners' in f: continue
+-    for g in json.load(open(f)): G[g['id']]=g
++# [am port] games come from the one set's games.json; ALLROWS/OUTCSV are required arguments
++ALLROWS=sys.argv[1]
++OUTCSV=sys.argv[2]
++G={g['id']:g for g in json.load(open('/private/tmp/claude-501/am/w/chain/am/games.json'))}
+ R=list(csv.DictReader(open(ALLROWS)))
+ opp={r['id']:r['opponent'] for r in R if r['player']=='p2' and r['opponent']}
+ def op(s):

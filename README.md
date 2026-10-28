@@ -12,7 +12,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 
 | path | what |
 |---|---|
-| `analysis/ppt2-<slug>/` | one directory for each player: `analysis/ppt2-syakegohan/` and `analysis/ppt2-amemiya/` (rendered once its `games.csv` exists) |
+| `analysis/ppt2-<slug>/` | one directory for each player: `analysis/ppt2-syakegohan/` and `analysis/ppt2-amemiya/` |
 | `analysis/ppt2-<slug>/games.csv` | one row for each player in each game: the data that the player's pages render |
 | `analysis/ppt2-<slug>/event-corrections.json` | extractor events corrected by eye from the frames, applied before the tally |
 | `analysis/ppt2-<slug>/hand-edits.csv` | cell corrections laid over the chain output, each with its source |
@@ -21,6 +21,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 | `bin/build-docs` | writes `docs/` for every player whose `games.csv` exists, and the index. With `--check`, it re-renders and byte-compares (the CI gate) |
 | `docs/` | the GitHub Pages site |
 | `extractor/` | the extraction chain, archived as it ran. Read `extractor/README.md` first |
+| `extractor/amemiya/` | the amemiya chain, archived as it ran, with its frame-check and score-reader tools |
 | `HISTORY.md` | the commit log of this report from its first home, tetrio-replay-report |
 
 ## Commands
