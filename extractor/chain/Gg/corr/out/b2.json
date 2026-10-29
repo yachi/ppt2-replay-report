@@ -1,0 +1,1008 @@
+{
+ "decisions": [
+  {
+   "n": 2,
+   "id": "y006",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "gap 533.8 was continuous play: 15 hard drops, no TST there; fixed by the y006 p1 replace_window; no freeze."
+  },
+  {
+   "n": 9,
+   "id": "y030",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "no lag: play continues to the KO; the last lock (chain 2175.70 None) clears a single at 2175.75 (+455) -> retyped. No freeze. y030_d.png, y030_t.png. Note csv pieces 93 != chain events 88, so no pieces edit given."
+  },
+  {
+   "n": 11,
+   "id": "y043",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "no stall: continuous play 2793.3-2804.5; the stretch is fixed by the replace_window (8 locks, no clear) and 2799.77 double gc 2->0. y043_a/b.png"
+  },
+  {
+   "n": 15,
+   "id": "y006",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "the bag anomaly is the 531.4-541 stretch: phantom single 531.5 and tst 533.8, missing locks/single; replace_window. Other double-shift spots match score. Pieces csv 137 vs chain 124 is not event-derived, so no pieces edit (true +3 vs chain in that window)."
+  },
+  {
+   "n": 18,
+   "id": "y013",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "score-lock pattern 1070-1076 matches chain events."
+  },
+  {
+   "n": 20,
+   "id": "y043",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "double shift ~2795.5 is the Z lock + S/T hold swap; the window had a phantom tst and an extra None -> replace_window, pieces 68->66; 2806.7 and 2815.4 shifts match score ticks. y043_a.png"
+  },
+  {
+   "n": 21,
+   "id": "y006",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD at 529.45 (+5550) is the chain's 530.3 tsd."
+  },
+  {
+   "n": 22,
+   "id": "y006",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD 539.4 (+5400) = chain 539.44 tsd (kept in the window rewrite)."
+  },
+  {
+   "n": 23,
+   "id": "y006",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD 545.7 = chain 545.73 tsd."
+  },
+  {
+   "n": 24,
+   "id": "y006",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "579.37 T clears a single with no T-spin banner (+300); chain single is right. y006_p2c.png"
+  },
+  {
+   "n": 30,
+   "id": "y030",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "TSD 2153.1 (Double banner, +5405) = chain 2153.00 tsd; locks S,O,Z,L,J,I before it = chain's 6 Nones. y030_a.png, y030_r.png"
+  },
+  {
+   "n": 31,
+   "id": "y030",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "TSS 2157.73 (Single banner, +3600) = chain tss. y030_a.png"
+  },
+  {
+   "n": 32,
+   "id": "y030",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "TSD 2161.8-2162.1 (+3652) = chain 2161.80 tsd; but a single (2163.47) and 4 locks after it were missing -> added. y030_b.png, y030_e.png"
+  },
+  {
+   "n": 33,
+   "id": "y030",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "TSD 2171.14 (+5406, Double banner) = chain tsd. y030_d.png"
+  },
+  {
+   "n": 34,
+   "id": "y030",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "TST 2174.1 (+7200) real; 2174.23 triple is a duplicate -> removed; TST gc 0->1 (moderate). Also 2148.2 quad is really a single. y030_t.png, y030_q.png"
+  },
+  {
+   "n": 37,
+   "id": "y039",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "the 'T-SPIN' mini at 2530.9 cleared no line (+300, no flash): chain 2530.97 tsmini -> plain lock. y039_b.png"
+  },
+  {
+   "n": 38,
+   "id": "y043",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD 2797.7 (+5400) = chain 2797.70 tsd. y043_a.png"
+  },
+  {
+   "n": 39,
+   "id": "y043",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "no clear at 2793.3: the T-SPIN Double sticker is the 2792.2 TSD's; the logged 4-line tst is phantom (removed in window). y043_a.png"
+  },
+  {
+   "n": 44,
+   "id": "y001",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "board empty at 176.0 with PERFECT CLEAR banner; PC logged once (176.03 double pc1). y001_pc.png"
+  },
+  {
+   "n": 48,
+   "id": "y008",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "PC banner 698.8-700.1 is real; 698.77 double -> pc 1. y008_a.png"
+  },
+  {
+   "n": 55,
+   "id": "y049",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "I clears the last row to an empty board at 3084.4 (PERFECT CLEAR banner from 3084.4); chain 3084.43 single pc1 is right. y049_pc.png"
+  },
+  {
+   "n": 58,
+   "id": "y007",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "Z locks 682.03 (chain 681.93); J held, T never locks before KO. y007_ko.png"
+  },
+  {
+   "n": 59,
+   "id": "y009",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "S 811.15 and L 811.37 are in the chain; T not locked at KO. y009_ko.png"
+  },
+  {
+   "n": 63,
+   "id": "y013",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "J locks 1114.50 (4 chain Nones = 4 locks); T not locked at KO. y013_ko.png"
+  },
+  {
+   "n": 65,
+   "id": "y018",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "Z,O,J,I,L after the quad = chain's 5 Nones. y018_ko*.png"
+  },
+  {
+   "n": 71,
+   "id": "y041",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "J locks ~2691.2 (chain 2690.93); L held, T spawned and not locked at KO. y041_ko.png"
+  },
+  {
+   "n": 74,
+   "id": "y008",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "747.90 tsd is this TSD (+3600 at 748.43); 749.10 double before KO is logged. y008_ko.png"
+  },
+  {
+   "n": 77,
+   "id": "y029",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "S/L/T lock before KO = chain Nones; +63 is those three locks. y029_ko.png"
+  },
+  {
+   "n": 85,
+   "id": "y004",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "452.87 None is a single (S/Z, +450 at 453.07); 453.9 double real. y004_a/b.png"
+  },
+  {
+   "n": 87,
+   "id": "y006",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "p2 had a 2-row PC 532.2 and a quad PC 538.1; 531.73 single phantom, 538.17 quad duplicate; pieces 130->128. y006_p2a/b.png"
+  },
+  {
+   "n": 88,
+   "id": "y007",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "clears 608.7-617.2 match the chain; score reader noise. y007_a/b.png"
+  },
+  {
+   "n": 89,
+   "id": "y008",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "698.77 double is a PERFECT CLEAR (+4836). y008_a.png"
+  },
+  {
+   "n": 90,
+   "id": "y008",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "singles 724.4, 725.5, double 726.6 match. y008_b.png"
+  },
+  {
+   "n": 91,
+   "id": "y009",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "789.33 None -> single (+450, REN 1); max_combo 5->7 (7 REN banner). y009_789.png, y009_banner.png"
+  },
+  {
+   "n": 92,
+   "id": "y009",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "791.2-796.95 clears incl. Mini T-SPIN Single are consistent with the chain (~0.6 s early). y009_a/b.png"
+  },
+  {
+   "n": 94,
+   "id": "y013",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "1110.00 None -> single gc1 (8 REN, +1516); max_combo 7->9. y013_a.png"
+  },
+  {
+   "n": 101,
+   "id": "y018",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "6 locks + T match chain. y018_a.png"
+  },
+  {
+   "n": 102,
+   "id": "y020",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "J single 1539.0 and T single 1539.85 before KO match chain. y020_ko.png"
+  },
+  {
+   "n": 112,
+   "id": "y029",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "same as n77. y029_b.png"
+  },
+  {
+   "n": 116,
+   "id": "y034",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "clears 2406-2416 match score jumps one-to-one with REN steps; residual from a misread (11157) at 2406.8. y034_a.png"
+  },
+  {
+   "n": 117,
+   "id": "y039",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "tsmini 2530.97 is a 0-line mini (plain lock); TSD 2532.9 real (+3600, Double banner). y039_a.png"
+  }
+ ],
+ "event_corrections": [
+  {
+   "id": "y004",
+   "side": "p1",
+   "op": "retype",
+   "t": 452.87,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "red S/Z locks ~453.0, one-row clear flash 453.1-453.4, REN indicator appears, score 2927->3377 (+450) at 453.07; fr/b2/y004_a.png, y004_b.png"
+  },
+  {
+   "id": "y006",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 531.4,
+   "t_end": 541.0,
+   "events": [
+    {
+     "t": 531.97,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 532.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 532.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 533.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 533.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 533.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 534.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 534.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 534.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 534.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 535.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 535.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 535.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 536.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 536.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 536.63,
+     "kind": "BREAK",
+     "lines": 5,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 536.65,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 537.37,
+     "kind": "tst",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 538.23,
+     "kind": "BREAK",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 538.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 538.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 539.44,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 539.9,
+     "kind": "BREAK",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 540.43,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     531.5,
+     "single",
+     1
+    ],
+    [
+     531.97,
+     "double",
+     2
+    ],
+    [
+     532.4,
+     null,
+     0
+    ],
+    [
+     532.77,
+     null,
+     0
+    ],
+    [
+     533.13,
+     null,
+     0
+    ],
+    [
+     533.47,
+     null,
+     0
+    ],
+    [
+     533.8,
+     "tst",
+     3
+    ],
+    [
+     533.93,
+     null,
+     0
+    ],
+    [
+     534.6,
+     null,
+     0
+    ],
+    [
+     534.6,
+     null,
+     0
+    ],
+    [
+     535.27,
+     null,
+     0
+    ],
+    [
+     535.27,
+     null,
+     0
+    ],
+    [
+     535.4,
+     null,
+     0
+    ],
+    [
+     535.73,
+     null,
+     0
+    ],
+    [
+     536.03,
+     null,
+     0
+    ],
+    [
+     536.53,
+     null,
+     0
+    ],
+    [
+     536.63,
+     "BREAK",
+     5
+    ],
+    [
+     537.37,
+     "tst",
+     3
+    ],
+    [
+     538.23,
+     "BREAK",
+     2
+    ],
+    [
+     539.44,
+     "tsd",
+     2
+    ],
+    [
+     539.9,
+     "BREAK",
+     4
+    ]
+   ],
+   "source": "Frames 529.4-541.6: TSD 529.45 (+5550), Z single 530.45 (+600); J locks 531.3 with no clear (531.5 single is phantom); L clears 2 rows into a PERFECT CLEAR ~531.9 (banner 532.0, +4572); then 15 hard-dropped locks with no clear 532.40-536.63 (the 533.8 tst is phantom, no score jump); TST ~537.4; Z 538.4 and O 538.93 plain locks (missing); TSD 539.4 (+5400); S single on a coloured row 540.43 (+450, missing). BREAK markers kept at their times. fr/b2/y006_a.png..y006_i.png"
+  },
+  {
+   "id": "y006",
+   "side": "p2",
+   "op": "remove",
+   "t": 531.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 opener: S single 530.75, I lock ~531.7 (no clear), O lock gives the 2-row PC at 532.2 (+4572); no clear at 531.73. fr/b2/y006_p2a.png"
+  },
+  {
+   "id": "y006",
+   "side": "p2",
+   "op": "retype",
+   "t": 532.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "board empty after the 2-row clear at 532.2, score +4572 (same opener and same PC bonus as p1); fr/b2/y006_p2a.png"
+  },
+  {
+   "id": "y006",
+   "side": "p2",
+   "op": "retype",
+   "t": 537.83,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "I at 538.0 clears 4 coloured rows to an empty board, PERFECT CLEAR + TETRIS banners 538.2, single score jump +13200; fr/b2/y006_p2b.png"
+  },
+  {
+   "id": "y006",
+   "side": "p2",
+   "op": "remove",
+   "t": 538.17,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "source": "duplicate of the 537.83 quad PC: only one 4-row clear flash and one score jump at 538.1; fr/b2/y006_p2b.png"
+  },
+  {
+   "id": "y008",
+   "side": "p2",
+   "op": "retype",
+   "t": 698.77,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "board empty after the double, PERFECT CLEAR banner 698.8-700.1, +4836 at 698.83; fr/b2/y008_a.png"
+  },
+  {
+   "id": "y009",
+   "side": "p1",
+   "op": "retype",
+   "t": 789.33,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Z lock 789.45 clears one row (REN 1, +450 at 789.53); fr/b2/y009_789.png"
+  },
+  {
+   "id": "y013",
+   "side": "p1",
+   "op": "retype",
+   "t": 1110.0,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "Z lock 1109.4 clears a garbage row at 1109.55 (+1516, '8 REN' banner); fr/b2/y013_a.png, y013_ren_1109.65.png"
+  },
+  {
+   "id": "y030",
+   "side": "p2",
+   "op": "retype",
+   "t": 2148.2,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "L lock 2148.55 clears ONE coloured row (white band 1 row at 2148.7, +600); the only quad is the I at 2149.95 (= chain 2150.07 quad); fr/b2/y030_q.png"
+  },
+  {
+   "id": "y030",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2163.0,
+   "t_end": 2164.0,
+   "was_old": [],
+   "events": [
+    {
+     "t": 2163.25,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2163.47,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "after the 2162.07 TSD: Z locks 2163.25 (+16), I vertical locks 2163.4 and clears one coloured row (white band 2163.55-2163.7, +918/934 -> 54172); chain has no events here (BREAK stretch); fr/b2/y030_e.png"
+  },
+  {
+   "id": "y030",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2164.4,
+   "t_end": 2166.0,
+   "was_old": [],
+   "events": [
+    {
+     "t": 2164.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2165.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2165.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "plain locks missing from the chain: L ~2164.6, T ~2165.05, J ~2165.65 (I and O at 2166.1/2166.25 are the chain's 2166.47 Nones); fr/b2/y030_e.png"
+  },
+  {
+   "id": "y030",
+   "side": "p2",
+   "op": "retype",
+   "t": 2173.97,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": "tst",
+   "lines": 3,
+   "pc": 0,
+   "gc": 1,
+   "source": "TST 2174.05-2174.1 (Triple banner, +7200); grey garbage area is one row shorter at 2175.55 than at 2173.85 with no other clear between, so one cleared row looks like garbage (pixel reading, moderate confidence); fr/b2/y030_t.png"
+  },
+  {
+   "id": "y030",
+   "side": "p2",
+   "op": "remove",
+   "t": 2174.23,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "source": "duplicate of the 2173.97 TST: one 3-row clear and one score jump (+7200) only; fr/b2/y030_t.png, y030_d.png"
+  },
+  {
+   "id": "y030",
+   "side": "p2",
+   "op": "retype",
+   "t": 2175.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "last lock before the KO clears one coloured row (white band 2175.75, REN, 70437->70892 +455) just before the KO at 2175.9; fr/b2/y030_t.png, y030_d.png"
+  },
+  {
+   "id": "y039",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2530.95,
+   "t_end": 2531.0,
+   "was_old": [
+    [
+     2530.97,
+     "tsmini",
+     1
+    ]
+   ],
+   "events": [
+    {
+     "t": 2530.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "T placed 2530.9 with a T-SPIN (mini) sticker but NO line clear: the bottom rows hold only ~4 filled columns, no white flash, +300 only; it is a 0-line mini, a plain lock; fr/b2/y039_b.png, y039_a.png"
+  },
+  {
+   "id": "y043",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2793.25,
+   "t_end": 2795.8,
+   "was_old": [
+    [
+     2793.3,
+     null,
+     0
+    ],
+    [
+     2793.3,
+     "tst",
+     4
+    ],
+    [
+     2793.43,
+     null,
+     0
+    ],
+    [
+     2793.8,
+     null,
+     0
+    ],
+    [
+     2794.1,
+     null,
+     0
+    ],
+    [
+     2794.4,
+     null,
+     0
+    ],
+    [
+     2794.6,
+     null,
+     0
+    ],
+    [
+     2795.03,
+     null,
+     0
+    ],
+    [
+     2795.4,
+     null,
+     0
+    ],
+    [
+     2795.73,
+     null,
+     0
+    ]
+   ],
+   "events": [
+    {
+     "t": 2793.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2793.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2793.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2794.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2794.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2794.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2795.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2795.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "2793.0-2795.9: no clear at all (the 'T-SPIN Double' sticker is the 2792.2 TSD's lingering banner), so the 2793.30 tst[4] is phantom; 8 plain locks L,S,I,Z,J,L,O,Z with score ticks at 2793.20/.33/.70, 2794.03/.40/.77, 2795.10/.43; the S->hold/T-out swap at ~2795.5 is not a lock (chain had 9 Nones); next clear is the 2796.13 TSD; fr/b2/y043_a.png"
+  },
+  {
+   "id": "y043",
+   "side": "p1",
+   "op": "retype",
+   "t": 2799.77,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "S lock 2798.9 clears the two coloured rows above the bottom coloured row (white band 2799.05); grey garbage height unchanged 2798.9 vs 2799.5; fr/b2/y043_b.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "y006",
+   "player": "p2",
+   "field": "pieces",
+   "was": 130,
+   "value": 128,
+   "source": "two phantom/duplicate clear events removed (531.73 single, 538.17 quad); chain count otherwise matched csv; fr/b2/y006_p2a.png, y006_p2b.png"
+  },
+  {
+   "id": "y009",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 5,
+   "value": 7,
+   "source": "'7 REN' banner with the Mini T-SPIN Single ~796.95; fr/b2/y009_banner.png"
+  },
+  {
+   "id": "y013",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 9,
+   "source": "'9 REN' shown on the L single 1110.6; fr/b2/y013_ren_1110.65.png"
+  },
+  {
+   "id": "y043",
+   "player": "p1",
+   "field": "pieces",
+   "was": 68,
+   "value": 66,
+   "source": "2793.25-2795.8 window: 8 real locks vs 10 chain events (phantom tst + one extra None); fr/b2/y043_a.png"
+  }
+ ],
+ "freezes": []
+}

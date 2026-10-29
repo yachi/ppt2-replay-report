@@ -1,0 +1,431 @@
+{
+ "dup": {
+  "event_corrections": [
+   {
+    "id": "y004",
+    "side": "p2",
+    "op": "replace_window",
+    "t": 453.17,
+    "t_end": 453.53,
+    "events": [
+     {
+      "t": 453.17,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 453.53,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      453.17,
+      "triple",
+      3
+     ],
+     [
+      453.53,
+      "triple",
+      3
+     ]
+    ],
+    "source": "One triple PC, not two triples. L locks ~453.07 as a plain lock (p2 10922->10958, 3-row stack still there 453.1-453.3); J vertical locks ~453.40 (+36) and clears the 3 coloured rows (no grey), board empty with PERFECT CLEAR banner 453.5-453.8; one jump 10994->17894 at 453.47. Score drops 452.33/452.67/452.90/453.07/453.40 map 1:1 to chain 452.33/452.77/453.0/453.17/453.53, so 453.17 IS the L lock and the piece count does not change. fr/vpc/d2000.png",
+    "n": 2000
+   },
+   {
+    "id": "y004",
+    "side": "p2",
+    "op": "replace_window",
+    "t": 458.13,
+    "t_end": 459.87,
+    "events": [
+     {
+      "t": 458.13,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 458.37,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 458.57,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 459.8,
+      "kind": "double",
+      "lines": 2,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      458.13,
+      null,
+      0
+     ],
+     [
+      458.47,
+      "double",
+      2
+     ],
+     [
+      459.3,
+      "double",
+      2
+     ],
+     [
+      459.87,
+      "double",
+      2
+     ]
+    ],
+    "source": "Two clears, but the middle double is a phantom and the O lock was missing. Pieces after the 455.47 TSD by NEXT shifts/score drops: S 456.9, J 457.23, I 457.57, L 457.87, S 458.07, O 458.37 (+34, plain), Z ~458.5 clears 2 coloured rows (+936 at 458.57), then the T (spawn 459.3) drops flat into the 2-row gap ~459.75: both remaining coloured rows clear, board empty, PERFECT CLEAR banner 459.8-460.2+, 22866->27552 (+4686, same as other double PCs; no T-SPIN banner). Chain had no event for the O and a clear at 459.3 with no piece (T only spawned then), so the window keeps the same piece count (4 events -> 4). fr/vpc/d2001.png, d2001a.png, d2001b.png",
+    "n": 2001
+   }
+  ],
+  "cell_edits": [],
+  "no_change": [
+   {
+    "n": 2002,
+    "why": "Two real clears, not a double-log. O locks ~1593.05 clearing one coloured row (REN, 20537->22341 at 1593.10); then the T at ~1594.2 drops its stem into the top grey row and clears it (REN 10->11 banner at 1594.35, 22341->24302 by 1594.60). The 1593.45-1593.8 flashes are incoming garbage, score flat. Chain 1593.3 single gc0 / 1593.87 single gc1 match those two (times early). Not a PC. fr/vpc/d2002.png, d2002b.png, d2002c.png"
+   },
+   {
+    "n": 2003,
+    "why": "Two real singles: S locks ~2167.1 clearing a coloured row (54242->54542), then J (I swapped into hold) locks ~2168.15 clearing another coloured row (54558->55008, REN). Score rose twice. Chain times late but kinds/gc right. Not a PC. fr/vpc/d2003.png"
+   },
+   {
+    "n": 2004,
+    "why": "Two real singles: I vertical at col 0 (~2332.47, +10) clears the top grey row (+450 at 2332.63; chain 2333.33 gc1), then Z (~2333.37, +14) fills the coloured row and clears it (+600 at 2333.43; chain 2333.6 gc0). Later flashes 2333.7-2334.0 are garbage arriving, score flat. No None events missing (T held between). Not a PC. fr/vpc/d2004.png, d2004a.png, d2004b.png"
+   }
+  ]
+ },
+ "verdict": [
+  {
+   "ref": "e0",
+   "verdict": "keep",
+   "why": "y004 p2 468.7: I flat ~468.55 clears the last row, board empty, PERFECT CLEAR banner 468.7+, single jump to 42138. t/was match cseq. fr/vpc/v1003.png"
+  },
+  {
+   "ref": "e1",
+   "verdict": "keep",
+   "why": "y007 p2 603.93: I vertical clears last 2 coloured rows, board empty 603.9, PC banner, 11243->15781 once. t/was match. fr/vpc/v1008.png"
+  },
+  {
+   "ref": "e2",
+   "verdict": "amend",
+   "amended": {
+    "id": "y010",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 827.5,
+    "t_end": 828.03,
+    "events": [
+     {
+      "t": 828.03,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      827.5,
+      "triple",
+      3
+     ],
+     [
+      828.03,
+      "triple",
+      3
+     ]
+    ],
+    "source": "PC real (one jump 10814->17714, board empty 828.0, coloured rows) but turning 827.5 into a plain lock ADDS a piece: after the TSD (score +5400 at 826.60) only two pieces lock - S ~827.40 (+36) and L ~827.83 (+38, Z swapped into hold) - and the chain already has the S as None 827.33. 827.5 is a phantom with no piece; remove it, keep 828.03 as triple pc1 gc0. fr/vpc/v1010.png",
+    "n": 1010
+   },
+   "why": "PC real (one jump 10814->17714, board empty 828.0, coloured rows) but turning 827.5 into a plain lock ADDS a piece: after the TSD (score +5400 at 826.60) only two pieces lock - S ~827.40 (+36) and L ~827.83 (+38, Z swapped into hold) - and the chain already has the S as None 827.33. 827.5 is a phantom with no piece; remove it, keep 828.03 as triple pc1 gc0. fr/vpc/v1010.png"
+  },
+  {
+   "ref": "e3",
+   "verdict": "amend",
+   "amended": {
+    "id": "y011",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 960.8,
+    "t_end": 961.17,
+    "events": [
+     {
+      "t": 961.17,
+      "kind": "double",
+      "lines": 2,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      960.8,
+      "double",
+      2
+     ],
+     [
+      961.17,
+      "double",
+      2
+     ]
+    ],
+    "source": "PC real (11285->15935, board empty 961.1) but 960.8 has no piece: after the 958.47 TSD the locks are I 959.4, Z 959.7, S 959.83, L 960.10 (single, O to hold), J ~961.0 (PC) = 5; chain has 959.2/959.5/959.8 None + 959.93 single + 2 doubles = 6. Remove 960.8. fr/vpc/v1011.png",
+    "n": 1011
+   },
+   "why": "PC real (11285->15935, board empty 961.1) but 960.8 has no piece: after the 958.47 TSD the locks are I 959.4, Z 959.7, S 959.83, L 960.10 (single, O to hold), J ~961.0 (PC) = 5; chain has 959.2/959.5/959.8 None + 959.93 single + 2 doubles = 6. Remove 960.8. fr/vpc/v1011.png"
+  },
+  {
+   "ref": "e4",
+   "verdict": "amend",
+   "amended": {
+    "id": "y018",
+    "side": "p2",
+    "op": "replace_window",
+    "t": 1357.9,
+    "t_end": 1358.23,
+    "events": [
+     {
+      "t": 1358.23,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      1357.9,
+      "triple",
+      3
+     ],
+     [
+      1358.23,
+      "triple",
+      3
+     ]
+    ],
+    "source": "PC real (10952->17888, board empty 1358.2) but 1357.9 was NOT the O lock - the O went to hold at ~1356.9. After the TSD (+5550 at 1356.07) locks are S 1356.97, Z 1357.33, I 1357.67, L 1357.83, J ~1358.15 (PC) = 5; chain has 1356.8/1357.03/1357.37/1357.7 None + two triples = 6. Remove 1357.9. fr/vpc/v1015.png",
+    "n": 1015
+   },
+   "why": "PC real (10952->17888, board empty 1358.2) but 1357.9 was NOT the O lock - the O went to hold at ~1356.9. After the TSD (+5550 at 1356.07) locks are S 1356.97, Z 1357.33, I 1357.67, L 1357.83, J ~1358.15 (PC) = 5; chain has 1356.8/1357.03/1357.37/1357.7 None + two triples = 6. Remove 1357.9. fr/vpc/v1015.png"
+  },
+  {
+   "ref": "e5",
+   "verdict": "amend",
+   "amended": {
+    "id": "y019",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 1436.33,
+    "t_end": 1436.67,
+    "events": [
+     {
+      "t": 1436.67,
+      "kind": "double",
+      "lines": 2,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      1436.33,
+      "double",
+      2
+     ],
+     [
+      1436.67,
+      "double",
+      2
+     ]
+    ],
+    "source": "PC real (11259->15909, board empty 1436.6) but after the TSD (+5550 at 1434.23) the pieces are S 1435.4 (L held), L 1435.65 single (Z held), O 1436.57 PC = 3; chain 1435.03 None, 1435.5 single, 1436.33, 1436.67 = 4. 1436.33 has no piece; remove it. fr/vpc/v1018.png",
+    "n": 1018
+   },
+   "why": "PC real (11259->15909, board empty 1436.6) but after the TSD (+5550 at 1434.23) the pieces are S 1435.4 (L held), L 1435.65 single (Z held), O 1436.57 PC = 3; chain 1435.03 None, 1435.5 single, 1436.33, 1436.67 = 4. 1436.33 has no piece; remove it. fr/vpc/v1018.png"
+  },
+  {
+   "ref": "e6",
+   "verdict": "keep",
+   "why": "y028 p2 2001.07: T clears last 2 rows, board empty 2001.1, PC banner, ->11583 once, no T-SPIN banner. t/was match. fr/vpc/v1021.png"
+  },
+  {
+   "ref": "e7",
+   "verdict": "amend",
+   "amended": {
+    "id": "y029",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 2090.17,
+    "t_end": 2090.5,
+    "events": [
+     {
+      "t": 2090.5,
+      "kind": "double",
+      "lines": 2,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      2090.17,
+      "double",
+      2
+     ],
+     [
+      2090.5,
+      "double",
+      2
+     ]
+    ],
+    "source": "PC real (->16077 at 2090.33, board empty 2090.3) but after the 2088.05 TSD the pieces are L ~2088.97 (single, J to hold), J ~2090.05 (S to hold), O ~2090.25 (PC) = 3; chain 2088.77 single, 2089.67 None (the J), 2090.17, 2090.5 = 4. Remove 2090.17. fr/vpc/v1022.png",
+    "n": 1022
+   },
+   "why": "PC real (->16077 at 2090.33, board empty 2090.3) but after the 2088.05 TSD the pieces are L ~2088.97 (single, J to hold), J ~2090.05 (S to hold), O ~2090.25 (PC) = 3; chain 2088.77 single, 2089.67 None (the J), 2090.17, 2090.5 = 4. Remove 2090.17. fr/vpc/v1022.png"
+  },
+  {
+   "ref": "e8",
+   "verdict": "amend",
+   "amended": {
+    "id": "y035",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 2438.5,
+    "t_end": 2438.93,
+    "events": [
+     {
+      "t": 2438.93,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      2438.5,
+      "triple",
+      3
+     ],
+     [
+      2438.93,
+      "triple",
+      3
+     ]
+    ],
+    "source": "PC real (10967->17867, board empty 2438.9) but the +36 at 2438.77 is the PC piece itself. After the TSD (+5550 at 2437.27): J 2438.23 (L held), O 2438.40, L 2438.77 (Z held, PC) = 3; chain 2438.0/2438.33 None + two triples = 4. Remove 2438.5. fr/vpc/v1024.png",
+    "n": 1024
+   },
+   "why": "PC real (10967->17867, board empty 2438.9) but the +36 at 2438.77 is the PC piece itself. After the TSD (+5550 at 2437.27): J 2438.23 (L held), O 2438.40, L 2438.77 (Z held, PC) = 3; chain 2438.0/2438.33 None + two triples = 4. Remove 2438.5. fr/vpc/v1024.png"
+  },
+  {
+   "ref": "e9",
+   "verdict": "keep",
+   "why": "y036 p2 2462.73: T clears last 2 rows, board empty 2462.7, PC banner, ->11588 once. t/was match. fr/vpc/v1025.png"
+  },
+  {
+   "ref": "e10",
+   "verdict": "amend",
+   "amended": {
+    "id": "y041",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 2650.33,
+    "t_end": 2650.73,
+    "events": [
+     {
+      "t": 2650.73,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      2650.33,
+      "triple",
+      3
+     ],
+     [
+      2650.73,
+      "triple",
+      3
+     ]
+    ],
+    "source": "PC real (10987->17887, board empty 2650.7) but after the TSD (2648.5) the locks are I 2649.73 (L held), O 2649.90, L 2650.23 (S held), J 2650.60 (PC) = 4; chain 2649.2/2649.83/2650.0 None + two triples = 5. The 'plain lock 10915->10951' is the L the chain already has as 2650.0. Remove 2650.33. fr/vpc/v1027.png",
+    "n": 1027
+   },
+   "why": "PC real (10987->17887, board empty 2650.7) but after the TSD (2648.5) the locks are I 2649.73 (L held), O 2649.90, L 2650.23 (S held), J 2650.60 (PC) = 4; chain 2649.2/2649.83/2650.0 None + two triples = 5. The 'plain lock 10915->10951' is the L the chain already has as 2650.0. Remove 2650.33. fr/vpc/v1027.png"
+  },
+  {
+   "ref": "e11",
+   "verdict": "keep",
+   "why": "y046 p2 2907.6: O clears last 2 rows (red/blue/orange/green piece cells, no grey -> gc 0), board empty 2907.6, PC banner, 11092->15780 once. t/was match. fr/vpc/v1029.png"
+  },
+  {
+   "ref": "e12",
+   "verdict": "amend",
+   "amended": {
+    "id": "y048",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 2961.03,
+    "t_end": 2961.27,
+    "events": [
+     {
+      "t": 2961.27,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 1,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      2961.03,
+      "triple",
+      3
+     ],
+     [
+      2961.27,
+      "triple",
+      3
+     ]
+    ],
+    "source": "PC real (10978->17878, board empty 2961.2) but after the TSD (+5550 at 2958.83) locks are S 2959.83, O 2960.10, J 2960.43, I 2960.77, L 2961.13 (PC) = 5; chain 2959.57/2959.93/2960.2/2960.53 None + two triples = 6. Remove 2961.03. fr/vpc/v1031.png",
+    "n": 1031
+   },
+   "why": "PC real (10978->17878, board empty 2961.2) but after the TSD (+5550 at 2958.83) locks are S 2959.83, O 2960.10, J 2960.43, I 2960.77, L 2961.13 (PC) = 5; chain 2959.57/2959.93/2960.2/2960.53 None + two triples = 6. Remove 2961.03. fr/vpc/v1031.png"
+  },
+  {
+   "ref": "e13",
+   "verdict": "keep",
+   "why": "y049 p1 second PC is right AND the conversion is right here: after the 3084.40 single PC the locks are I 3084.53, O 3084.90, L 3085.17, J 3085.43, O(from hold, Z held) 3085.80 = 5, and the chain has 3084.63/3085.0/3085.27 None + 3085.53 + 3085.97 = 5, so 3085.53 really is the J lock. 14914->19414 once, board empty 3085.9, fresh PC banner. fr/vpc/v1032.png"
+  }
+ ]
+}

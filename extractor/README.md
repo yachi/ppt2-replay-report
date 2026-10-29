@@ -31,7 +31,8 @@ This directory holds the source code that wrote the chain output under
 `YbMeCRhjG1k`, `lgszEWNFSx0` and `cVO2eGipjV0`. `B` holds the other videos. The four trees are
 near-copies, and some files differ from tree to tree. `TJc` is a later port of `cVO` to the 2026-10-18
 video `TJcCRfhwNNI`; its README lists what it changes and how it was checked. `uP` is a port of `TJc` to the
-2026-10-28 video `uP3FeprmAGI`, with a score-sum check; its README lists the same. [PARALLEL.md](PARALLEL.md) describes how the `uP` run was parallelised: process pools for the chain, and workflow agents for the frame checks.
+2026-10-28 video `uP3FeprmAGI`, with a score-sum check; its README lists the same. [PARALLEL.md](PARALLEL.md) describes how the `uP` run was parallelised: process pools for the chain, and workflow agents for the frame checks. `Gg` is a port of `uP` to the 2026-10-29 video `Ggl5NeUAYEA` (Yuukun3798 vs uyeshota): the video is
+rescaled to the uP geometry first, and pieces are re-counted from the NEXT queue for every player-game; its README lists the rest.
 
 ## How games.csv is made
 

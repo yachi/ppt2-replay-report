@@ -101,7 +101,27 @@ AMEMIYA = Subject(
                  "但唔計入勝負同合計。</li>",
     })
 
-SUBJECTS = (SYAKEGOHAN, AMEMIYA)
+YUUKUN = Subject(
+    slug="yuukun", me="Yuukun3798", display="Yuukun3798（ゆうくん）", short="Yuukun",
+    channel="https://www.youtube.com/channel/UCZ15joSgXH2OYHSG40PYj1Q",
+    description="ゆうくん（Yuukun3798）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
+                "由 YouTube 影片逐格抽出，每一局都有影片連結。",
+    notes={
+        "method": "；抽取器標記嘅 123 個可疑位（80 個標記、43 個畫面分數升幅同清行對唔上嘅位）同 33 個好短嘅 "
+                  "PERFECT CLEAR 字幕，由讀者逐格睇片改正，再由另一批讀者逐個反駁核實",
+        "banner": "呢條片嘅 PERFECT CLEAR 字幕好多時俾角色動畫遮住，抽取器淨係見到 0.1 秒，"
+                  "所以每個咁嘅位都睇片查過（個板清空先算），全消由 7 個改到 39 個。",
+        "ko": "；18 個贏家最後一粒嘅位同 KO 前 1.5 秒內嘅分數上升都睇片查過",
+        "hand": "改咗 77 個事件、13 格（全部係粒數）。全部 102 個玩家局都用 NEXT 列逐次移位重新數過粒數"
+                "（每 7 粒都係完整一包），12 個同抽取器唔啱嘅已經改返，另外 y050 p2 最後一粒睇片見到喺 KO 之前鎖低，加返一粒。",
+        "ren": "最長 REN 由清行次序計，冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
+        "gap": "；呢類空檔嘅粒數已經用 NEXT 列重新數過。y021 有網絡延遲，遊戲凍住咗兩段"
+               "（1570.8–1582.4 秒同 1583.5–1592.9 秒，合共約 21 秒），局長包埋呢段時間，所以嗰局嘅 PPS、APM 偏低",
+        "extra": "<li><strong>斷線。</strong>第一組 FT15 打到 11-13（Yuukun3798 啱啱贏咗 y023）對手斷線，"
+                 "之後重新開過一組，由 0-0 打到 12-15。y023 喺斷線之前已經 KO，照計。</li>",
+    })
+
+SUBJECTS = (SYAKEGOHAN, AMEMIYA, YUUKUN)
 
 
 def by_slug(slug):
