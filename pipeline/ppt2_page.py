@@ -232,12 +232,17 @@ def _game_row(gid, g, s):
         f"<td class='l'>{escape('剔除：' + note) if ex else ''}</td></tr>")
 
 
-def _warn_box(small, s):
+def _warn_box(small, s, datasets):
     """The 點樣讀呢版 box. ONE copy: the overview and every card page print it, so the caveats about
     how these numbers were read off video cannot drift apart between pages. `small` is the HTML list
-    of opponents under MIN_GAMES that the page is about. What the extractors do is written here; what
-    was counted, measured or checked on one player's dataset is that Subject's `notes`, at its slot."""
+    of opponents under MIN_GAMES that the page is about; `datasets` are the dataset ids whose games
+    the page shows. What the extractors do is written here. What was counted, measured or checked on
+    the player's data as a whole is that Subject's `notes`, at its slot, on every page; what was
+    checked on ONE dataset is its `dataset_notes` entry, after the 'extra' slot and only on a page
+    that shows that dataset, in date order."""
     n = s.note
+    per_ds = "".join(s.dataset_notes[d] for d in sorted(datasets, key=lambda d: (_date(d), d))
+                     if d in s.dataset_notes)
     return (
         "<div class='warn'><p><strong>點樣讀呢版：</strong></p><ul>"
         "<li><strong>唔係 TETR.IO 數字。</strong>PPT2 嘅攻擊表同 TETR.IO 唔同，APM、VS、APP 唔可以同"
@@ -254,7 +259,7 @@ def _warn_box(small, s):
         f"改咗嘅格連出處記喺 hand-edits.csv。{n('hand')}{n('ren')}</li>"
         f"<li><strong>開局時間同粒數。</strong>{n('ready')}玩家停住一粒超過 4 秒嘅位，抽取器 A 讀唔到 NEXT 列，"
         f"抽取器 B 嘅估算會疊落 A 自己嘅數度{n('gap')}。</li>"
-        + n("extra") +
+        + n("extra") + per_ds +
         f"<li>局數少過 {MIN_GAMES} 嘅對手用斜體灰色：{small or '冇'}。只當例子睇，唔好拎嚟比較。</li>"
         "<li>所有比率都係「總和對總和」（例如 PPS = 總粒數 ÷ 總秒數），數字一律向下取。</li>"
         "</ul></div>")
@@ -315,7 +320,7 @@ def render(games, s):
         f"<strong>{int(me_all['won'])}–{int(opp_all['won'])}</strong>，PPS {_fl(ra['PPS'], 3)} 對 "
         f"{_fl(rb['PPS'], 3)}、APM {_fl(ra['APM'], 2)} 對 {_fl(rb['APM'], 2)}、APP {_fl(ra['APP'], 3)} 對 "
         f"{_fl(rb['APP'], 3)}。每一局喺最尾個表都有影片連結，撳落去直接跳去嗰局開始之前 {LEAD_S} 秒。</p>",
-        _warn_box(small, s),
+        _warn_box(small, s, {g["p1"]["dataset"] for g in games.values()}),
         _cards_section(cards(games, s), s),
         "<h2>每個玩家（只計入選嘅局）</h2><div class='tw'><table>", "".join(t1), "</table></div>",
         "<p class='muted'>DS/粒 = 每粒清走幾多行垃圾；食/分 = 每分鐘有幾多行垃圾真係落咗喺自己個板；"
@@ -510,7 +515,7 @@ def render_card(games, c, s):
         f"<p><strong>{escape(c['date'])}</strong> · {escape(KIND[c['kind']])} · 影片 {vids}。"
         f"呢張卡有 <strong>{len(c['gids'])}</strong> 局，計入 <strong>{n_inc}</strong> 局（剔除 {n_ex} 局）。"
         f"{figures}每一局喺下面個表都有影片連結，撳落去直接跳去嗰局開始之前 {LEAD_S} 秒。</p>",
-        _warn_box(small, s),
+        _warn_box(small, s, {c["dataset"]}),
         table,
         f"<h2>逐局（{len(c['gids'])} 局，連影片）</h2><div class='tw'><table>", _game_head(s),
         "".join(_game_row(k, games[k], s) for k in c["gids"]), "</table></div>",
@@ -521,7 +526,11 @@ def render_card(games, c, s):
 
 def render_all(games, s):
     """{docs file name: html} for the subject's overview and every card page — what bin/build-docs
-    publishes for it, and the whole of it: any other docs/ppt2-<slug>-*.html is drift."""
+    publishes for it, and the whole of it: any other docs/ppt2-<slug>-*.html is drift. So is a
+    `dataset_notes` key that no game's dataset matches: that note would print nowhere."""
+    orphan = set(s.dataset_notes) - {g["p1"]["dataset"] for g in games.values()}
+    if orphan:
+        raise ValueError(f"{s.slug}: dataset_notes for datasets not in games.csv: {sorted(orphan)}")
     out = {s.page: render(games, s)}
     for c in cards(games, s):
         if c["page"] in out:

@@ -1,11 +1,16 @@
 """The players the PPT2 pages are about: one record each, and the only place a player's name, channel,
 data paths, page names or dataset-specific caveats are written. `pipeline/ppt2_page.py` renders any
 record the same way; `bin/build-docs` renders every record whose games.csv exists, in this order.
+
+Caveats come at two levels. `notes` hold what is true of the player's data as a whole and print on
+every page of that player. `dataset_notes` hold what was measured or checked on ONE dataset (one
+games.csv `dataset` id, e.g. one stream) and print only on the pages that show that dataset's games.
 """
 from dataclasses import dataclass, field
 
-#: the slots of the 點樣讀呢版 box that hold what was measured or checked on ONE dataset. Each slot
-#: carries its own joining punctuation, so an empty slot leaves a clean generic sentence behind.
+#: the slots of the 點樣讀呢版 box that hold what was measured or checked on the player's data as a
+#: whole. Each slot carries its own joining punctuation, so an empty slot leaves a clean generic
+#: sentence behind. A caveat about one dataset only goes in `dataset_notes` instead.
 NOTE_SLOTS = ("method", "banner", "ko", "hand", "ren", "ready", "gap", "extra")
 
 
@@ -18,6 +23,9 @@ class Subject:
     channel: str
     description: str     # the overview's <meta name="description">
     notes: dict = field(default_factory=dict)  # NOTE_SLOTS -> HTML; missing slots are empty
+    # games.csv dataset id -> one HTML <li>; printed only where that dataset's games are shown. A key
+    # with no dataset in games.csv raises at render time (pipeline.ppt2_page.render_all)
+    dataset_notes: dict = field(default_factory=dict)
 
     def __post_init__(self):
         if set(self.notes) - set(NOTE_SLOTS):
@@ -60,10 +68,12 @@ SYAKEGOHAN = Subject(
         "ren": "最長 REN 係片入面見到嘅 REN 字幕，抽取器斷開嘅位都係下限。",
         "ready": "有六局嘅開始時間誤認咗 READY 畫面，已經睇片改返 GO，條片連結同時間標記因此移後 1.2 至 1.4 秒。",
         "gap": "；睇片查過嘅三個玩家局已經改返，另外九個有同類空檔嘅玩家局未睇片，粒數可能多咗",
-        "extra": "<li><strong>2026-10-28 對 ふられ。</strong>抽取器標記嘅 246 個可疑位由讀者逐格睇片改正，"
-                 "再由另一批讀者逐個反駁核實；之後用畫面分數嘅累計升幅逐段同清行次序對數，再改多 21 個事件。"
-                 "合共改咗 71 個事件、22 格。l007、l020、l029、l043、l062、l063、l078、l083 "
-                 "呢 8 局睇片都定唔到，當下限冇計。最尾一局（約 5494 秒）畫面凍結之後對手斷線，冇 KO，冇計入。</li>",
+    },
+    dataset_notes={
+        "stream-2026-10-28": "<li><strong>2026-10-28 對 ふられ。</strong>抽取器標記嘅 246 個可疑位由讀者逐格睇片改正，"
+                             "再由另一批讀者逐個反駁核實；之後用畫面分數嘅累計升幅逐段同清行次序對數，再改多 21 個事件。"
+                             "合共改咗 71 個事件、22 格。l007、l020、l029、l043、l062、l063、l078、l083 "
+                             "呢 8 局睇片都定唔到，當下限冇計。最尾一局（約 5494 秒）畫面凍結之後對手斷線，冇 KO，冇計入。</li>",
     })
 
 AMEMIYA = Subject(

@@ -39,7 +39,7 @@ re-read its own frames to refute each one.
    `steps.py` compare the running sum of score jumps with the points that the corrected event list predicts
    (guideline scoring, level 3), at points where the score stays still for 2 s. A merged jump keeps its sum,
    so the reader's merging of close clears does not cause a false spot. 26 spots of 450 points or more were
-   checked (`check/score/round2.js`). 21 events were fixed: doubles read as singles, phantom clears, missed REN
+   checked (`workflows/round2-score.js`; round 1 is `workflows/round1.js`, both as they ran). 21 events were fixed: doubles read as singles, phantom clears, missed REN
    singles and a quad read as a triple. The 9 spots that remain are timing artifacts at a window edge.
 
 The score templates (`check/ocr/C.npy`) are digit crops and are not committed. `check/ocr/collect.py`
