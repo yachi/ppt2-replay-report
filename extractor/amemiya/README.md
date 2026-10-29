@@ -12,6 +12,7 @@ An archive, like `../chain/`: the code is kept byte for byte as it ran, with abs
 | `check/ocr/`, `check/ocrall/` | the score reader, and the cross-check of score jumps against the chain's clear events |
 | `check/freezes.json` | the lag slow-motion windows (284.6 s in 10 games) |
 | `check/offline_games.json` | the 34 offline games the chain cannot read, not in games.csv |
+| `h3F/` | the same chain run on the second stream, h3FUsPBZmzE (2026-10-28, vs ふられ): its diffs, frame check and run report |
 
 ## How analysis/ppt2-amemiya/ was made
 
@@ -22,3 +23,5 @@ An archive, like `../chain/`: the code is kept byte for byte as it ran, with abs
    changes, so it is a check of the KO tail only, not of every clear.
 4. `chain/am/w/tetrio/metrics.py` reads `event-corrections.json` (106 events) and re-tallies;
    `python3 -m pipeline.ppt2_page --apply amemiya <chain.csv>` lays `hand-edits.csv` (76 cells) over it.
+
+`analysis/ppt2-amemiya/games.csv` now holds both streams; `h3F/README.md` says how to rebuild it with `--apply`.

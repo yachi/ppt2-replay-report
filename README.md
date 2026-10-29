@@ -21,7 +21,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 | `bin/build-docs` | writes `docs/` for every player whose `games.csv` exists, and the index. With `--check`, it re-renders and byte-compares (the CI gate) |
 | `docs/` | the GitHub Pages site |
 | `extractor/` | the extraction chain, archived as it ran. Read `extractor/README.md` first |
-| `extractor/amemiya/` | the amemiya chain, archived as it ran, with its frame-check and score-reader tools |
+| `extractor/amemiya/` | the amemiya chain, archived as it ran, with its frame-check and score-reader tools; `h3F/` is its run on the second stream |
 | `HISTORY.md` | the commit log of this report from its first home, tetrio-replay-report |
 
 ## Commands
