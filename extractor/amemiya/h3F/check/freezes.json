@@ -1,0 +1,40 @@
+{
+ "note": "Lag, stream-skip and rollback windows found by the frame check (verified). f052 had a p1-only stall and is not a freeze. Durations include these windows.",
+ "windows": [
+  {
+   "id": "f008",
+   "t0": 1991.13,
+   "t1": 1993.56,
+   "note": "Rollback/replay: both scores rewind at 1991.13, and the video replays 1988.7-1991.1 (offset +2.43 s) with identical boards until about 1993.56. Events in this window are duplicates. Image fr/g0/f008_rep.png",
+   "verify": "Both scores rewind at 1991.13, and the boards replay with a +2.43 s offset, identical until about 1993.6, so events in the window are duplicates."
+  },
+  {
+   "id": "f023",
+   "t0": 2855.93,
+   "t1": 2859.8,
+   "note": "Stream skipped game time between 2855.90 and 2855.93 (p1 +6396, p2 +10829); then both scores are frozen and the pieces move in slow motion (p2's T locks around 2857.2 with no score) until about 2859.8.",
+   "verify": "The skip is real: the boards change drastically between 2855.90 and 2855.93, and the scores jump. From then until about 2859.8 neither score changes, but the boards are not fully static: p1's I and p2's T move and lock slowly (fr/v1/f023b.png). That is still a lag stall."
+  },
+  {
+   "id": "f025",
+   "t0": 3052.8,
+   "t1": 3176,
+   "note": "Heavy slow-motion lag: both boards advance only a few cells per 5 s and scores change every few seconds; normal speed resumes ~3176. f025_lag1.png, f025_lag2.png",
+   "verify": "Score reader 3052.8-3176: only 12 score changes in 123 s, each 4-25 s apart (e.g. 3063.43, 3069.30, 3073.23, 3092.57, ... 3169.37), against the usual 2-3 per second before 3052.8 and after 3176.07. That is heavy lag on both boards."
+  },
+  {
+   "id": "f040",
+   "t0": 4233,
+   "t1": 4286.7,
+   "note": "Slow-motion lag: both boards crawl (pieces take 10-20 s to fall) and both scores are frozen between clears. p2 rollback ~4274.9-4276.3 (Z single shown, undone, redone at 4279.5). f040a.png, f040b.png, f040p2c.png",
+   "verify": "Both scores change only at clears from 4232.77 to 4286.67, each 10-20 s apart: p1 at 4244.43, 4265.37 and 4286.67; p2 at 4244.43, 4255.47, 4274.87 (rolled back at 4276.30, redone at 4279.50) and 4286.20. The frames show pieces hanging mid-board. From 4286.67 on, clears come every ~1 s again."
+  },
+  {
+   "id": "f042",
+   "t0": 4467.4,
+   "t1": 4505.9,
+   "note": "Slow-motion lag: both boards crawl and both scores are frozen between clears. f042p1a.png, f042p2a.png",
+   "verify": "Clears every ~1 s up to 4466.80/4469.57. After that, p1 clears come only at 4470.70, 4482.43 and 4494.57 and p2 clears only at 4480.67 and 4502.30, each ~10-20 s apart. Normal pace resumes at 4505.57-4506.03."
+  }
+ ]
+}
