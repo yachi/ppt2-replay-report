@@ -30,7 +30,8 @@ This directory holds the source code that wrote the chain output under
 `<set>` is one work tree per batch of videos: `Y`, `lg` and `cVO` are the three streams
 `YbMeCRhjG1k`, `lgszEWNFSx0` and `cVO2eGipjV0`. `B` holds the other videos. The four trees are
 near-copies, and some files differ from tree to tree. `TJc` is a later port of `cVO` to the 2026-10-18
-video `TJcCRfhwNNI`; its README lists what it changes and how it was checked.
+video `TJcCRfhwNNI`; its README lists what it changes and how it was checked. `uP` is a port of `TJc` to the
+2026-10-28 video `uP3FeprmAGI`, with a score-sum check; its README lists the same.
 
 ## How games.csv is made
 
