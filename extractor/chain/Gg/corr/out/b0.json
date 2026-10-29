@@ -1,0 +1,819 @@
+{
+ "decisions": [
+  {
+   "n": 16,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "unsure",
+   "note": "heavy screen shake and cut-ins break the NEXT reading; cell count suggests pieces may be undercounted in 836-869.6, not verified, no pieces edit"
+  },
+  {
+   "n": 17,
+   "id": "y010",
+   "player": "p2",
+   "verdict": "unsure",
+   "note": "screen shake and cut-ins break the queue reading; no verified edit"
+  },
+  {
+   "n": 50,
+   "id": "y010",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "double at ~827.6 emptied the board; PERFECT CLEAR banner 827.6-828.6; score +4686"
+  },
+  {
+   "n": 49,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "empty board and banner 834-835, score +3634 then +9600; chain PC correct"
+  },
+  {
+   "n": 3,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "836.0 tst is a phantom (score flat 836-839.6); missed single 844.77 and quad 847.27; the 850.47/852.3 doubles are one double at 851.47; pieces not verified"
+  },
+  {
+   "n": 28,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "the TETRIS/PC banner at 836 lingers from 833.7; no clear at 836.0, event removed (see n3)"
+  },
+  {
+   "n": 25,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD at 843.64, score +5400 at 843.73"
+  },
+  {
+   "n": 26,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD at 850.14, score +5400 at 850.27"
+  },
+  {
+   "n": 4,
+   "id": "y010",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "NEXT queue shows only L,J,I,O locked in 852.5-855.2: single, single, triple, single (REN scores +762,+914,+2268,+1222); pieces 226->223"
+  },
+  {
+   "n": 27,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD at 857.6, score +5400 at 857.67"
+  },
+  {
+   "n": 60,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "S still at the top at 944.00; it drops after the KO at 943.97"
+  },
+  {
+   "n": 75,
+   "id": "y010",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "+60 at 944.03 is the post-KO hard drop"
+  },
+  {
+   "n": 93,
+   "id": "y011",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "T at 974.53 cleared a single (flash 974.85, +478 at REN1)"
+  },
+  {
+   "n": 61,
+   "id": "y011",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "T still falling at 1012.07; not locked by KO"
+  },
+  {
+   "n": 51,
+   "id": "y012",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "triple PC with empty board confirmed"
+  },
+  {
+   "n": 52,
+   "id": "y012",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "second PC: double at ~1032.0 emptied the board, banner 1032.2-1033.2, +4574; the 1031.7 event was a lock with no clear"
+  },
+  {
+   "n": 62,
+   "id": "y012",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "L still falling at KO, no lock"
+  },
+  {
+   "n": 95,
+   "id": "y014",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "two consecutive B2B TSDs (+5409, +5550) match the chain"
+  },
+  {
+   "n": 97,
+   "id": "y016",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "one PERFECT CLEAR double at ~1196.7 (+4500, banner 1196.75-1198), not two doubles; pieces 226->225; TST at 1201.2 confirmed"
+  },
+  {
+   "n": 98,
+   "id": "y016",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "all clears match the score"
+  },
+  {
+   "n": 29,
+   "id": "y016",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "plain single (+450 REN1); the T-SPIN Double banner was lingering"
+  },
+  {
+   "n": 99,
+   "id": "y016",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "missed single at ~1292.7 (white bar, +626); 1294.17 tsmini confirmed"
+  },
+  {
+   "n": 66,
+   "id": "y019",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "J still at the top at 1489.10, no lock"
+  },
+  {
+   "n": 76,
+   "id": "y023",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "zero-line T-SPIN (+1200, no rows cleared); chain has 1706.37 None"
+  },
+  {
+   "n": 53,
+   "id": "y023",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "1706.4 quad PC rows were all coloured, no garbage (gc 4->0); missed earlier double PC at 1700.43 (banner 1700.4-1701.5, 11855->16513)"
+  },
+  {
+   "n": 0,
+   "id": "y023",
+   "player": "",
+   "verdict": "corrected",
+   "note": "p1 locked J ~1706.83, L ~1707.17 and O ~1707.43 before the KO at 1707.63; chain has two of the three; pieces 38->39. No dialog frame was read as play"
+  },
+  {
+   "n": 106,
+   "id": "y024",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "one triple PERFECT CLEAR at ~1798.5 (+1500 then +5400), not two triples; pieces 73->72"
+  },
+  {
+   "n": 107,
+   "id": "y024",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD +3600 matches the chain"
+  },
+  {
+   "n": 108,
+   "id": "y026",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "double at 1880.6 is a PC (+4838, board empty)"
+  },
+  {
+   "n": 113,
+   "id": "y033",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "one triple PC at ~2360.15 (+6900); real locks S, J, L; pieces 68->67"
+  },
+  {
+   "n": 114,
+   "id": "y033",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TST +4808 matches the chain"
+  },
+  {
+   "n": 115,
+   "id": "y033",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "score change matches the chain"
+  },
+  {
+   "n": 68,
+   "id": "y035",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "I locked ~2447.75 and is counted; L not locked by the KO at 2448.03"
+  },
+  {
+   "n": 78,
+   "id": "y035",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "+84 came from the score being hidden earlier, not a KO-tail clear"
+  },
+  {
+   "n": 72,
+   "id": "y042",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "O not locked at KO; lock count matches the chain"
+  },
+  {
+   "n": 54,
+   "id": "y045",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "double PC confirmed"
+  },
+  {
+   "n": 121,
+   "id": "y048",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "triple PC at 2960.63 (+1536 then +5400) and 2960.93 is a Z lock with no clear; 2966.0 is a T lock and 2966.37 is a quad PC (+13234)"
+  },
+  {
+   "n": 122,
+   "id": "y048",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "score change matches the chain"
+  },
+  {
+   "n": 42,
+   "id": "y048",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "plain J single, +1074 at REN5"
+  },
+  {
+   "n": 119,
+   "id": "y048",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "126630 was a misread of 128630; triple +1516 matches"
+  },
+  {
+   "n": 120,
+   "id": "y048",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "TSD +3635 and B2B TSD +5402 match; misread recovered"
+  }
+ ],
+ "event_corrections": [
+  {
+   "id": "y010",
+   "side": "p2",
+   "op": "retype",
+   "t": 827.47,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/b0/y010_p2_827.png"
+  },
+  {
+   "id": "y010",
+   "side": "p1",
+   "op": "remove",
+   "t": 836.0,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "source": "fr/b0/y010_p1_832.png"
+  },
+  {
+   "id": "y010",
+   "side": "p1",
+   "op": "add",
+   "t": 844.77,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b0/y010_p1_8435.png"
+  },
+  {
+   "id": "y010",
+   "side": "p1",
+   "op": "add",
+   "t": 847.27,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 3,
+   "source": "fr/b0/y010_quad847.png"
+  },
+  {
+   "id": "y010",
+   "side": "p1",
+   "op": "remove",
+   "t": 850.47,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "fr/b0/y010_p1_850.png"
+  },
+  {
+   "id": "y010",
+   "side": "p1",
+   "op": "remove",
+   "t": 852.3,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "fr/b0/y010_p1_850.png"
+  },
+  {
+   "id": "y010",
+   "side": "p1",
+   "op": "add",
+   "t": 851.47,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b0/y010_p1_850.png"
+  },
+  {
+   "id": "y010",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 852.5,
+   "t_end": 855.2,
+   "events": [
+    {
+     "t": 852.57,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 853.57,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 854.33,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 855.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     852.8,
+     null,
+     0
+    ],
+    [
+     852.8,
+     null,
+     0
+    ],
+    [
+     852.8,
+     "triple",
+     3
+    ],
+    [
+     853.33,
+     "single",
+     1
+    ],
+    [
+     853.53,
+     "single",
+     1
+    ],
+    [
+     853.87,
+     "double",
+     2
+    ],
+    [
+     853.87,
+     "single",
+     1
+    ],
+    [
+     854.27,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "fr/b0/y010_p2_8515.png"
+  },
+  {
+   "id": "y011",
+   "side": "p1",
+   "op": "retype",
+   "t": 974.53,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b0/y011_p1_974.png"
+  },
+  {
+   "id": "y012",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1031.7,
+   "t_end": 1032.07,
+   "events": [
+    {
+     "t": 1031.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1032.07,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1031.7,
+     "double",
+     2
+    ],
+    [
+     1032.07,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/b0/y012_p1_1031.png"
+  },
+  {
+   "id": "y016",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1196.43,
+   "t_end": 1196.73,
+   "events": [
+    {
+     "t": 1196.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1196.7,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1196.43,
+     null,
+     0
+    ],
+    [
+     1196.43,
+     "double",
+     2
+    ],
+    [
+     1196.73,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/b0/y016_p1_1196.png"
+  },
+  {
+   "id": "y016",
+   "side": "p2",
+   "op": "retype",
+   "t": 1292.37,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b0/y016_p2_1291.png"
+  },
+  {
+   "id": "y023",
+   "side": "p1",
+   "op": "retype",
+   "t": 1706.4,
+   "was": [
+    "quad",
+    4,
+    1
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/b0/y023_end.png"
+  },
+  {
+   "id": "y023",
+   "side": "p1",
+   "op": "retype",
+   "t": 1700.43,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/b0/y023_pc1700.png"
+  },
+  {
+   "id": "y024",
+   "side": "p1",
+   "op": "remove",
+   "t": 1798.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "source": "fr/b0/y024_p1_1798.png"
+  },
+  {
+   "id": "y024",
+   "side": "p1",
+   "op": "retype",
+   "t": 1798.33,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/b0/y024_p1_1798.png"
+  },
+  {
+   "id": "y026",
+   "side": "p2",
+   "op": "retype",
+   "t": 1880.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/b0/y026_p2_1880.png"
+  },
+  {
+   "id": "y033",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2359.4,
+   "t_end": 2360.23,
+   "events": [
+    {
+     "t": 2359.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2359.85,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2360.17,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2359.4,
+     null,
+     0
+    ],
+    [
+     2359.53,
+     "triple",
+     3
+    ],
+    [
+     2360.23,
+     null,
+     0
+    ],
+    [
+     2360.23,
+     "triple",
+     3
+    ]
+   ],
+   "source": "fr/b0/y033_p1_2359.png"
+  },
+  {
+   "id": "y048",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2960.63,
+   "t_end": 2960.93,
+   "events": [
+    {
+     "t": 2960.63,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 2960.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2960.63,
+     "triple",
+     3
+    ],
+    [
+     2960.93,
+     "single",
+     1
+    ]
+   ],
+   "source": "fr/b0/y048_p2_2960.png"
+  },
+  {
+   "id": "y048",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2966.0,
+   "t_end": 2966.37,
+   "events": [
+    {
+     "t": 2966.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2966.37,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2966.0,
+     "quad",
+     4
+    ],
+    [
+     2966.37,
+     "quad",
+     4
+    ]
+   ],
+   "source": "fr/b0/y048_p2_2966.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "y010",
+   "player": "p2",
+   "field": "pieces",
+   "was": 226,
+   "value": 223,
+   "source": "fr/b0/y010_p2_8515.png"
+  },
+  {
+   "id": "y016",
+   "player": "p1",
+   "field": "pieces",
+   "was": 226,
+   "value": 225,
+   "source": "fr/b0/y016_p1_1196.png"
+  },
+  {
+   "id": "y023",
+   "player": "p1",
+   "field": "garbage_cleared",
+   "was": 4,
+   "value": 0,
+   "source": "fr/b0/y023_end.png"
+  },
+  {
+   "id": "y023",
+   "player": "p1",
+   "field": "pieces",
+   "was": 38,
+   "value": 39,
+   "source": "fr/b0/y023_p1ko.png"
+  },
+  {
+   "id": "y024",
+   "player": "p1",
+   "field": "pieces",
+   "was": 73,
+   "value": 72,
+   "source": "fr/b0/y024_p1_1798.png"
+  },
+  {
+   "id": "y033",
+   "player": "p1",
+   "field": "pieces",
+   "was": 68,
+   "value": 67,
+   "source": "fr/b0/y033_p1_2359.png"
+  }
+ ],
+ "freezes": []
+}

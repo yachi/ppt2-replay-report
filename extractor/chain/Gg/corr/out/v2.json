@@ -1,0 +1,158 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score p1 2907 frozen 452.3-453.0, then +20 at 453.00 (drop) and +450 at 453.07 = one piece clearing one row; no other lock between the 451.63 quad and it, so chain 452.87 None is that piece. Next is +20/+1200 at 454.07/454.10 = chain 453.9 double. Matches exactly one cseq event."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Re-derived. fr/v2/y006_a.png: p1 board stays 2 rows high 531.2-531.8, J locks ~531.4 with no clear (no flash, rows unchanged), L completes both rows ~531.9, PERFECT CLEAR banner 532.0, score 11481->16053. Score shows exactly 15 hard-drop ticks 532.40,.67,533.03,.37,.70,534.03,.30,.67,.83,535.20,.50,.83,536.17,.37,.63 (+22..+38 each) and no clear jump before 537.80 (+4809 TST, fr/v2/y006_b.png: I locks 536.65, T from hold, Triple flash 537.55). Z lock 538.40 (+22), O lock ~538.9 (y006_b 538.90 frame), L held/T out 539.05, TSD 539.50 (+5400), S drop +30 at 540.37 then +450 single 540.43. was_old equals all 21 cseq events in [531.4,541.0] exactly. Note: chain p1 total is 124 events vs csv pieces 137; the window adds 3 locks net, no pieces cell edit was proposed (can't verify the rest of the game here)."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "fr/v2/y006_p2a.png: S single at 530.75 (+638 at 530.77), NEXT shifts once between 530.8 and 531.4 (I spawned, no lock), I locks ~531.7 with rows going 1->2 and no flash, L spawns 531.8. So real locks S, I, L(PC) vs chain 530.57 single, 531.37 None, 531.73 single, 532.2 double: the 531.37 None stands for the I lock and 531.73 single is a duplicate. Matches one cseq event."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v2/y006_a.png 532.1-532.3: p2 board empty, PERFECT CLEAR banner, score 11485->16057 (+4572, same as p1's opener PC). No grey rows on p2's board at 531.8, so gc 0 (chain had gc 1) is right."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "fr/v2/y006_p2c.png: I vertical 538.00, 4 coloured rows (no grey) cleared, PERFECT CLEAR banner 538.12-538.48, score 20125->33359 (+13234 incl. drop) at 538.10. gc 0 right."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Only one 4-row flash and one score jump (538.10) in fr/v2/y006_p2c.png; after the 535.6 TSD the real locks are J 536.66, Z 536.77, S ~537.1, T ~537.5, L 537.76, I 538.03 (PC) = 5 plain + PC, matching chain's 5 Nones + 537.83 quad, so 538.17 quad is the duplicate."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "fr/v2/y008_a.png: p2 board empty from 698.75, PERFECT CLEAR banner 698.75-699.50, score 11578 shown at 698.77 (prior 6742, i.e. +4836). PC confirmed."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score p1 +26 at 788.47 then +3600 at 788.50 (chain 788.23 quad), then +28 at 789.47 and +450 at 789.53 = one piece clearing a row; chain has exactly one event (789.33 None) between the quad and the 790.17 single."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score p1 +16 at 1109.43 then +1500 at 1109.50 = one piece + single with REN; '8 REN' banner at 1109.65 (fr/v2/y013_ren_1109.65.png). Chain has only the 1110.00 None between 1108.27 quad and 1110.4 single, so retype is right. gc 1 not independently pixel-checked (stack bottom is garbage after the gc-4 quad; plausible)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "fr/v2/y030_q.png: I held, L locks ~2148.55, one-row white band 2148.6, score 31464->32064 (+600, a TETRIS is ~2400 here). The only quad is the I at ~2149.85 (TETRIS banner 2150.3, +2433 at 2150.17) = chain 2150.07 quad, preceded by the Z lock ~2149.5 = chain 2150.07 None."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "fr/v2/y030_e.png: after the TSD (flash 2162.0) Z locks ~2163.2 (+34 -> 53272 at 2163.40), I vertical locks 2163.4, one coloured row (just above garbage) flashes 2163.6, score 54172. was_old [] is right (only BREAKs outside the window: 2162.5, 2164.23)."
+ },
+ {
+  "ref": "e11",
+  "verdict": "amend",
+  "amended": {
+   "events": [
+    {
+     "t": 2164.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2165.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  },
+  "why": "The J lock at 2165.63 did not happen. fr/v2/y030_j.png (2165.30-2166.50): T has just locked at 2165.30 (streaks), J falls 2165.38-2165.78, at 2165.86 HOLD shows J and an I is at the top: J was swapped into hold, not locked. I then locks 2166.10 (+14 -> 54216) and O 2166.26 (+18 -> 54234), which are the chain's two 2166.47 Nones. L lock ~2164.6 confirmed in fr/v2/y030_e.png. So only 2 missing locks (L, T); T time moved to its lock ~2165.27."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "Pixel cell read of p2 board at 2173.60 vs 2174.90 (fr/v2/g_2173.60.png, g_2174.90.png): before, the T slot is col 6 through two coloured rows and the top garbage row 'GGGGGG.GGG'; after, that garbage row is gone and the new top garbage row is 'GGG.GGGGGG' (garbage 9 rows -> 8). TST (Triple banner, +7200 at 2174.13) cleared 2 coloured + 1 garbage row: gc 1 confirmed."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "fr/v2/y030_t.png: one 3-row flash 2174.2-2174.7, one score jump (+7200 at 2174.13), next is J held/L at 2175.1. 2174.23 triple is the duplicate."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "fr/v2/y030_t.png: J held at 2175.1, L soft-dropped 2175.2-2175.5 (score +1/frame), one-row white band 2175.6-2175.8 (REN), 70892 shown 2175.6, KO 2175.9. One lock = chain 2175.70 None, clears 1 coloured row."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "fr/v2/y039_a.png: T spun into col 1 at ~2530.88 with a 'T-SPIN' sticker (no Single/Mini text), board only 4 columns wide in the bottom rows, no flash, score 96->396 (+300). Cell read 2530.70 vs 2531.15 shows no row removed. 0-line spin = plain lock."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "fr/v2/y043_a.png: L 2793.2, S 2793.33, I 2793.70, (T held/Z out 2793.9), Z 2794.03, J 2794.40, L 2794.77, O 2795.10, Z 2795.43 = 8 locks, score ticks match; no flash anywhere 2793.0-2795.9. WARNING for the coordinator: score.py reads p1 '12671' at 2795.67 (an apparent +1690) but fr/v2/y043_b.png shows p1's score panel is hidden by the name-bar animation then and 12670-12676 is p2's score; p1 goes 10981 -> 16390 at the 2796.50 TSD (+5409), so there is no clear at 2795.67. was_old equals all 10 cseq events in the window."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "Cell read p1 at 2798.70 vs 2799.50 (full_2798.70.png, full_2799.50.png): 7 garbage rows before and after; the cleared rows were coloured 'ccccc.cccc' rows above the garbage. Score +900 at 2798.97 (double). gc 0 right."
+ },
+ {
+  "ref": "c0",
+  "verdict": "amend",
+  "amended": {
+   "value": 129
+  },
+  "why": "Removing 531.73 and 538.17 takes 2 events off, but the chain is also one lock SHORT before the p2 TSD: fr/v2/y006_p2b.png shows 8 plain locks after the 532.2 PC (Z 532.78, O 533.14, I 533.53, L 533.67, Z 534.03, S 534.20, J 534.53, O 534.80; score ticks +38,+37,+34,+38,+32,+36,+36,+30) then S held and T soft-dropped into the TSD (+3600 at 535.60), while the chain has only 7 Nones (532.8..534.57) plus tsd 534.83. True count in this stretch = chain-2+1, so 130 -> 129. An add of a None at ~534.80 (t distinct from 534.83) would make the event list agree."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "'7 REN' banner at 796.85 (fr/v2/y009_ren_796.85.png); consistent with the chain after e7: quad 788.23 then 7 consecutive clears (789.33 s, 790.17 s, 791.83 s, 793.0 s, 793.8 s, 794.77 d, 795.9 tsmini) with no plain lock between."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "'9 REN' banner at 1110.65 (fr/v2/y013_ren_1110.65.png) and '8 REN' at 1109.65; max_combo 9."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "8 real locks in 2793.25-2795.8 vs 10 chain events (see e16); chain p1 event count 68 = csv 68, so 66."
+ },
+ {
+  "ref": "nochange:44",
+  "verdict": "ok",
+  "why": "y001 p1: fr/v2/nc_y001.png board empty with PERFECT CLEAR banner 176.0-176.3, score 11526->16514; logged once (176.03 double pc1)."
+ },
+ {
+  "ref": "nochange:58",
+  "verdict": "ok",
+  "why": "y007 p2: fr/v2/nc_y007.png L locks ~681.87, Z ~682.01, J swapped to hold 682.15, T still falling at KO 682.4; chain's last events 681.6/681.93 cover L and Z."
+ },
+ {
+  "ref": "nochange:102",
+  "verdict": "ok",
+  "why": "y020 p2: fr/v2/nc_y020.png T single flash 1539.86 (+1682 -> 62940) before KO 1539.93; earlier single +1530 at 1539.03; chain has two singles 1538.47/1539.63. Nothing missing."
+ },
+ {
+  "ref": "nochange:24",
+  "verdict": "ok",
+  "why": "y006 p2 579.37 single: score 88817 -> 89137 (+320 = single 300 + drop) over 578.5-579.8; no T-spin-sized jump."
+ },
+ {
+  "ref": "nochange:9",
+  "verdict": "problem",
+  "why": "y030 p2 note says no pieces edit because csv pieces 93 != chain 88 events; with e10 (+2), e11 as amended (+2) and e13 (-1) the chain becomes 91. The csv/chain mismatch is unexplained and not addressed; also the note's own e11 included a J lock that was really a hold swap (see e11)."
+ }
+]
