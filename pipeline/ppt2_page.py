@@ -349,9 +349,10 @@ def _kind(dataset):
 
 
 def cards(games, s):
-    """The games grouped by (dataset, opponent), ordered by date then by the group's first game in
-    its video; `n` is the 1-based position within its DATE, so a stream and an upload posted the same
-    day share one numbering and never one filename. Nothing about the groups is typed here: they are
+    """The games grouped by (dataset, opponent), ordered by date, then dataset name (so on one date a
+    stream comes before an upload, and an upload added later does not take a published stream card's
+    filename), then by the group's first game in its video; `n` is the 1-based position within its
+    DATE, so a stream and an upload posted the same day share one numbering and never one filename. Nothing about the groups is typed here: they are
     whatever games.csv holds when this runs."""
     groups = defaultdict(list)
     for gid, g in games.items():
@@ -365,7 +366,7 @@ def cards(games, s):
                     "label": opp or UNKNOWN, "gids": gids, "inc": inc,
                     "me": pool(games[k]["p1"] for k in inc), "opp": pool(games[k]["p2"] for k in inc),
                     "first": float(games[gids[0]]["p1"]["start_s"])})
-    out.sort(key=lambda c: (c["date"], c["first"], c["dataset"], c["opponent"]))
+    out.sort(key=lambda c: (c["date"], c["dataset"], c["first"], c["opponent"]))
     per_date = defaultdict(int)
     for c in out:
         per_date[c["date"]] += 1

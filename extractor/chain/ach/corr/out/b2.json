@@ -1,0 +1,485 @@
+{
+ "event_corrections": [
+  {
+   "id": "m049",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 103.6,
+   "t_end": 104.05,
+   "events": [
+    {
+     "t": 103.63,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 2
+    },
+    {
+     "t": 104.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     104.0,
+     "triple",
+     3
+    ]
+   ],
+   "source": "nextcount p2 shows spawns 103.20,103.367,103.633,104.00 (chain lacks 103.63); score p2 drops at 103.53/103.87 then the clear jump at 103.93, so the clearing piece is the 103.63 spawn and 104.0 is a plain lock (score rises only by drop points after). Clear type/pc/gc copied from the chain event, unchanged. /tmp/claude-0/ak/corr/fr/g2/m049p2.txt"
+  },
+  {
+   "id": "m049",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 152.37,
+   "t_end": 166.17,
+   "events": [
+    {
+     "t": 152.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 152.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 153.27,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 155.23,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 156.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 156.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 157.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 157.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 158.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 158.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 160.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 160.53,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 161.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 162.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 163.53,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 164.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     152.37,
+     "quad",
+     4
+    ],
+    [
+     153.67,
+     "quad",
+     4
+    ],
+    [
+     153.7,
+     null,
+     0
+    ],
+    [
+     153.7,
+     "tst",
+     4
+    ],
+    [
+     154.93,
+     null,
+     0
+    ],
+    [
+     155.0,
+     "BREAK",
+     3
+    ],
+    [
+     155.77,
+     "tsd",
+     2
+    ],
+    [
+     156.57,
+     "BREAK",
+     3
+    ],
+    [
+     158.4,
+     "BREAK",
+     3
+    ],
+    [
+     160.0,
+     "BREAK",
+     1
+    ],
+    [
+     160.93,
+     "tsd",
+     2
+    ],
+    [
+     161.73,
+     "BREAK",
+     3
+    ],
+    [
+     163.33,
+     "BREAK",
+     4
+    ]
+   ],
+   "source": "nextcount p2 152.367-165.9: 28 queue spawns (holds are swaps), last piece (spawn 165.9) locks at 166.13 (+20) before KO 166.17. Score p2 shows exactly 7 clears: 153.40 +3600 (TETRIS by the I spawned 153.267; sheet /tmp/claude-0/ak/corr/fr/g2/m049a.png 153.4-154.4 TETRIS banner, no clear at 152.37), 155.80 +5400 TSD (T out of hold, spawn 155.23), 157.80 +3600 TETRIS (I out of hold, spawn 157.5), 160.97 +5400 TSD (T spawn 160.53), 162.00 +450 single REN1 (spawn 161.7), 162.90 +600 single REN2 (spawn 162.63), 164.20 +2874 TETRIS REN3 by I (spawn 163.53) into the garbage well; frames /tmp/claude-0/ak/corr/fr/g2/m049b.png. Chain had duplicate quad/tst-4 at 153.67/153.7, B's BREAK estimates, and missed 21 locks. gc values estimated from frames (157.5 quad ~2 garbage rows, 162.63 single the top garbage row, 163.53 four garbage rows)."
+  },
+  {
+   "id": "m051",
+   "side": "p2",
+   "op": "retype",
+   "t": 211.17,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Mini T-spin with NO line: T locks 211.13, score +300 (mini zero-line, 100x3), board unchanged and next spawn 0.03 s later (no clear delay); sheet /tmp/claude-0/ak/corr/fr/g2/m051.png 210.9-211.75 shows the T-SPIN banner but no row cleared."
+  },
+  {
+   "id": "m052",
+   "side": "p1",
+   "op": "retype",
+   "t": 326.73,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T locks 326.67 with score +300 (mini zero-line T-spin), no row cleared and the I spawns immediately; sheet /tmp/claude-0/ak/corr/fr/g2/m052.png 326.2-327.05."
+  },
+  {
+   "id": "m053",
+   "side": "p1",
+   "op": "retype",
+   "t": 350.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "No clear when the L (350.1) locked: score flat 10901 from 349.87 to 350.70; the J spawned 350.4 fills two rows (crops /tmp/claude-0/ak/corr/fr/g2/m053pc.png 349.9/350.3/350.63; sheet /tmp/claude-0/ak/corr/fr/g2/m053a.png) and the board empties at 350.7 (PC banner 350.8, PC flag left as is); one score jump +5180 at 350.70."
+  },
+  {
+   "id": "m053",
+   "side": "p1",
+   "op": "retype",
+   "t": 350.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Piece spawned 350.73 (Z) locks on an empty board with no clear: score only drop points 351.17-351.40 (16114, 16152); sheet /tmp/claude-0/ak/corr/fr/g2/m053a.png 350.8-351.6. The double belongs to the 350.4 J (retyped above)."
+  },
+  {
+   "id": "m053",
+   "side": "p1",
+   "op": "retype",
+   "t": 363.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "Score 27676 -> 28726 at 363.20 = +1050 = double 900 + REN1 150; crops /tmp/claude-0/ak/corr/fr/g2/m053d.png show both colored rows above the garbage (362.95) gone at 363.6; sheet /tmp/claude-0/ak/corr/fr/g2/m053b.png 363.25 1 REN."
+  },
+  {
+   "id": "m056",
+   "side": "p2",
+   "op": "retype",
+   "t": 545.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "Score p2 29443 -> 30493 at 545.65 = +1050 = double + REN1 after the 544.43 TETRIS; following singles score +626 (REN2) and +770 (REN3) as expected; sheet /tmp/claude-0/ak/corr/fr/g2/m056.png 545.3-546.15 shows a two-row clear band at 545.65."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "m049",
+   "player": "p2",
+   "field": "pieces",
+   "was": 135,
+   "value": 139,
+   "source": "nextcount p2 94.6-166.3 (/tmp/claude-0/ak/corr/fr/g2/m049p2.txt): 140 queue shifts up to the KO (95.2 first T, last 165.9; next spawn 166.233 is after KO), no double shifts; the T in hold at the KO never locked -> 139 locks; the 165.9 piece locks at 166.13 (score +20) before KO 166.17. Matches the chain events before 152.3 (110) + the 103.63 add (1) + the 28 in the replaced tail."
+  }
+ ],
+ "items": [
+  {
+   "n": 58,
+   "verdict": "no change",
+   "why": "p1 152.97 is a plain double: score +1218 at 153.43 = double 900 + REN2 300 (after quad 150.7 and TSS 151.63 +3750); the banner is the lingering TSS banner."
+  },
+  {
+   "n": 59,
+   "verdict": "corrected",
+   "why": "the bad bag at frame 1821 (~155.9 s) falls in the tail the chain lost; nextcount shows clean single shifts there; fixed by the 152.37-166.17 replace_window (and a missed spawn at 103.63 added), pieces 135->139."
+  },
+  {
+   "n": 60,
+   "verdict": "corrected",
+   "why": "153.67 quad / 153.7 tst-4 were duplicates; the one TETRIS (+3600 at 153.40) is the I spawned 153.27 (m049a.png); the T-SPIN Double banner is the lingering 151.6 TSD; replaced in the 152.37-166.17 window."
+  },
+  {
+   "n": 61,
+   "verdict": "corrected",
+   "why": "the TSD banner at ~160.97 is real (score +5400) and is the T spawned 160.53, not 160.93; included in the replace_window."
+  },
+  {
+   "n": 62,
+   "verdict": "corrected",
+   "why": "counted the tail: 25 spawns 154.2-165.9 plus 3 before, all locked by the KO; 7 clears from the score (TSD, TETRIS, TSD, single, single, TETRIS REN3); replace_window plus pieces 139."
+  },
+  {
+   "n": 63,
+   "verdict": "no change",
+   "why": "+71 is three locks' drop points hidden while the score was covered (194.7-195.87); no clear on the board (m050.png), last spawn 195.733 did not lock by KO 195.77."
+  },
+  {
+   "n": 64,
+   "verdict": "corrected",
+   "why": "Mini T-spin at 211.13 cleared no line (score +300, board unchanged, m051.png); retyped the 211.17 tsmini to a plain lock."
+  },
+  {
+   "n": 65,
+   "verdict": "corrected",
+   "why": "same as item 64: the -600 is the chain counting a 1-line mini where the score shows a zero-line mini (+300)."
+  },
+  {
+   "n": 66,
+   "verdict": "corrected",
+   "why": "Mini T-spin at 326.67 cleared no line (+300, no clear delay, m052.png); retyped 326.73 tsmini to a plain lock."
+  },
+  {
+   "n": 67,
+   "verdict": "corrected",
+   "why": "chain had a phantom single at 350.4 plus a double at 350.73; frames show only one clear, the J spawned 350.4 clearing two rows into the perfect clear at 350.7 (m053pc.png); retyped both."
+  },
+  {
+   "n": 68,
+   "verdict": "corrected",
+   "why": "the -1050 is the 350.73 double, which is not a clear (fixed with item 67); 354.13 +3600 TSD matches."
+  },
+  {
+   "n": 69,
+   "verdict": "corrected",
+   "why": "the 363.03 clear is a double (+1050 = 900 + REN1; rows gone in m053d.png), not a single; the 260xx readings at 361.2 were score-panel misreads during the shake."
+  },
+  {
+   "n": 70,
+   "verdict": "no change",
+   "why": "S spawned 384.767 and did not lock by KO 384.9: score stays 62158 through 385.2."
+  },
+  {
+   "n": 71,
+   "verdict": "no change",
+   "why": "468.97 is a real TST: three rows cleared at 469.5 with Triple banner and +7200 (TST B2B) (m055.png); the TSS banner reading is wrong."
+  },
+  {
+   "n": 72,
+   "verdict": "corrected",
+   "why": "545.4 clear is a double: +1050 at 545.65 (double + REN1), m056.png; later singles +626/+770 fit REN2/REN3."
+  }
+ ]
+}

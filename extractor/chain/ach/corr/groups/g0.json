@@ -1,0 +1,227 @@
+[
+ {
+  "id": "m003",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Single banner at 202.5 s, no A clear matched (added by R/build.py)",
+  "t_s": 202.5,
+  "n": 0,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 207.43 s, no A clear matched (added by R/build.py)",
+  "t_s": 207.43,
+  "n": 1,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 210.43 s, no A clear matched (added by R/build.py)",
+  "t_s": 210.43,
+  "n": 2,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "18.57 s from the last spawn to the KO",
+  "t_s": 217.67,
+  "n": 3,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "6 of 15 bags not a permutation (spawn index [63, 70, 77, 84, 91, 98]); anomalies ['double shift k=2 at frame 1818']",
+  "t_s": 137.4,
+  "n": 4,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 29.73 s from 166.07 s; B events spliced (D2/D3)",
+  "t_s": 166.07,
+  "n": 5,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Single at 166.07 s",
+  "t_s": 166.07,
+  "n": 6,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 183.7 s, no A clear matched (added by R/build.py)",
+  "t_s": 183.7,
+  "n": 7,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 188.17 s, no A clear matched (added by R/build.py)",
+  "t_s": 188.17,
+  "n": 8,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m003",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Single banner at 192.6 s, no A clear matched (added by R/build.py)",
+  "t_s": 192.6,
+  "n": 9,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m004",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 310.53 s typed as a plain clear",
+  "t_s": 310.53,
+  "n": 10,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m006",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 509.7,
+  "n": 11,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m007",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.57 s before the KO)",
+  "t_s": 545.3,
+  "n": 12,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m008",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 583.0,
+  "n": 13,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m010",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +92 at 654.93 s (KO 654.97 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 654.93,
+  "n": 14,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m010",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 654.97,
+  "n": 15,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m011",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 698.4,
+  "n": 16,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m013",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 771.93 s",
+  "t_s": 771.93,
+  "n": 17,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m015",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 4217 ending at t=869.06 (window from 859.2); chain clears there explain all but -583; chain clears near: [[859.93, 300, 'single'], [862.3, 450, 'single'], [863.37, 600, 'single'], [864.37, 750, 'single'], [865.27, 900, 'single'], [866.13, 1050, 'single'], [867.0, 1200, 'single'], [867.93, 1950, 'double'], [868.9, 1500, 'single']]",
+  "t_s": 869.06,
+  "n": 18,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m015",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 876.67,
+  "n": 19,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m016",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 1830 ending at t=946.23 (window from 942.43); chain clears there explain all but -570; chain clears near: [[942.2, 1050, 'double'], [944.23, 3600, 'tsd'], [945.97, 3600, 'quad']]",
+  "t_s": 946.23,
+  "n": 20,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m016",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 953.73,
+  "n": 21,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m017",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 710 ending at t=977.13 (window from 971.2); chain clears there explain all but -490; chain clears near: [[972.03, 600, 'single'], [973.57, 1350, 'double'], [975.3, 2400, 'quad'], [976.37, 1050, 'tsmini']]",
+  "t_s": 977.13,
+  "n": 22,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m018",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 1034.33 s typed as a plain clear",
+  "t_s": 1034.33,
+  "n": 23,
+  "video": "FAsKhtwulHA"
+ },
+ {
+  "id": "m019",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -3750 ending at t=1092.27 (window from 1088.47); chain clears there explain all but -3750; chain clears near: [[1088.03, 3600, 'quad'], [1088.6, 3750, 'quad'], [1091.73, 5400, 'tsd']]",
+  "t_s": 1092.27,
+  "n": 24,
+  "video": "FAsKhtwulHA"
+ }
+]

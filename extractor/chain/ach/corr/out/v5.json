@@ -1,0 +1,55 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "m104 p2: L locks at the bottom ~463.3 with a white row flash, score 21719 by 463.70 (+786 vs 20933 = single REN3) (/tmp/claude-0/ak/corr/fr/v45/m104.png)."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "m104 p2: Z locks ~464.1 with a row flash 464.1-464.3, score 22655 by 464.50 (+936 = single REN4), before the 464.77 KO (/tmp/claude-0/ak/corr/fr/v45/m104.png)."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "m105 p2: T spawned 496.50 held, I out of hold locks on top ~496.7 with no row cleared; TSD at ~497.2 (Double/BACK banner) and 23524 -> 28941 (+5417 = B2B TSD, no REN), so no clear preceded it (/tmp/claude-0/ak/corr/fr/v45/m105.png)."
+ },
+ {
+  "ref": "e3",
+  "verdict": "amend",
+  "amended": {
+   "gc": 1
+  },
+  "why": "m111 p1: T spawned 782.73 held, J from hold drops its stem into the hole of the top garbage row and locks ~782.85 before the 782.90 KO; the row that flashes white at 782.87-783.07 is that garbage row (coloured row above stays), 3 REN banner, +778 at 783.27 -> single with gc 1, not 0 (/tmp/claude-0/ak/corr/fr/v45/m111z.png, m111.png)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "m112 p2: J spawned 826.53 held, S out locks ~826.67 (+22), then +1350 at 826.73 (double REN3; single would be 750), two coloured rows flash white at 826.75 above unchanged garbage, so gc 0 (/tmp/claude-0/ak/corr/fr/v45/m112.png)."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "m114 p1: the I spawned 991.83 makes the PERFECT CLEAR (banner 992.10); the S spawned 992.17 is held and Z out locks ~992.5 with no clear (score only drop points 14747 -> 14976 until the TSD at 995.97) (/tmp/claude-0/ak/corr/fr/v45/m114.png). Note the 991.83 single itself should carry pc=1."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "m116 p1: T spawned 1101.93 scores +5550 at 1102.40 (B2B TSD); I spawned 1103.17 locks with +20 at 1103.43, nothing else clears until the 1105.97 jump; window holds exactly the two old 1103.43 events."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "m104 p2: tsd 460.03, quad 461.4 (+3750 = B2B quad REN1), singles at 462.33/463.13/463.93 (+638/+786/+936 = REN2/3/4) -> max REN 4."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "m111 p1: nextcount 760.8-782.95 = 52 spawns, the last (T 782.73) held, so 51 locks incl. the J that locked ~782.85 before the 782.90 KO."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "m111 p1: 3 REN banner at 782.95 and +778 = single REN3 after the 781.10 quad and 781.97 single."
+ }
+]
