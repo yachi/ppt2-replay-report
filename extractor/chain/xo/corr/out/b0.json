@@ -1,0 +1,357 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "u049",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3144.5,
+   "t_end": 3147.0,
+   "events": [
+    {
+     "t": 3145.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3145.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3145.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3146.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3144.77,
+     null,
+     0
+    ],
+    [
+     3144.77,
+     null,
+     0
+    ],
+    [
+     3144.77,
+     "single",
+     1
+    ],
+    [
+     3146.73,
+     null,
+     0
+    ],
+    [
+     3146.73,
+     null,
+     0
+    ]
+   ],
+   "source": "After the B2B tetris (score +3600 at 3144.40) the clear animation runs to ~3145.2 and no piece spawns until the T at 3145.27 (/tmp/claude-0/xo/corr/fr/g0/u049a.png). Then only 4 locks before the KO: T (score +12 at 3145.37), O (+10 at 3145.50), L (+10 at 3146.07), T (+14 at 3146.50) whose lock clears one coloured row (+300 at 3146.57, white bar at 3146.54, /tmp/claude-0/xo/corr/fr/g0/u049b.png). The I spawned at 3147.3 never locks (garbage rise tops p1 out, score flat to KO). nextcount shifts 3145.233/3145.467/3145.600/3146.167/3147.300. Chain had 5 events (one duplicate)."
+  },
+  {
+   "n": 9,
+   "id": "u085",
+   "side": "p2",
+   "op": "remove",
+   "t": 5444.37,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "source": "Score +1800 at 5444.93 = triple 1500 + REN2 300 (not TST/TSD/quad); frames 5444.90-5445.05 show an I dropped vertically into the garbage well clearing 3 white garbage rows (/tmp/claude-0/xo/corr/fr/g0/u085a.png). The next clear is +1500 at 5446.90 (L into the well, triple, 5447.0). Only 2 clears there but the chain has tst@5444.37 + triple@5445.7 + triple@5447.0; the tst is the extra (the 5445.7 triple gc3 is this I-triple)."
+  },
+  {
+   "n": 13,
+   "id": "u085",
+   "side": "p2",
+   "op": "remove",
+   "t": 5467.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "Score: +5400 (B2B TSD) at 5467.40 and the next jump is +5400 at 5471.87, still B2B; nothing in between, so no plain double (which would also break B2B). Phantom double right after the tsd banner."
+  },
+  {
+   "n": 8,
+   "id": "u085",
+   "side": "p2",
+   "op": "add",
+   "t": 5474.0,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score +1220 at 5474.07 = double 900 + REN2 300 after the B2B TSS (+3750 at 5473.20); frame 5474.15 shows a 2-row white clear band of coloured rows after the S lock (/tmp/claude-0/xo/corr/fr/g0/u085b.png). No chain clear (only BREAKs) there."
+  },
+  {
+   "n": 8,
+   "id": "u085",
+   "side": "p2",
+   "op": "add",
+   "t": 5475.05,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score +750 at 5475.20 = single 300 + REN3 450; frames 5475.20-5475.35 show a 1-row clear of a coloured row after the L (/tmp/claude-0/xo/corr/fr/g0/u085b.png). Missing in chain."
+  },
+  {
+   "n": 8,
+   "id": "u085",
+   "side": "p2",
+   "op": "retype",
+   "t": 5481.03,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "Score +2400 at 5481.20 (plain tetris, B2B then resumes: +3600 at 5483.63); frames 5480.98-5481.18 show the I spawned ~5481.0 placed vertically, clearing 2 coloured + 2 garbage rows (/tmp/claude-0/xo/corr/fr/g0/u085c.png). Chain had only None locks there (two Nones at 5481.03; retype one)."
+  },
+  {
+   "n": 8,
+   "id": "u085",
+   "side": "p2",
+   "op": "add",
+   "t": 5497.4,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score +450 at 5497.60 (single+REN1), +600 at 5498.47 (single+REN2), +750 at 5499.27 (single+REN3), +900 at 5500.17 (single+REN4). Frames show single-row clears at 5497.70, 5498.45, 5499.35 (/tmp/claude-0/xo/corr/fr/g0/u085d.png). Chain has singles only at 5498.3 and 5500.27; this adds the I single at ~5497.6."
+  },
+  {
+   "n": 8,
+   "id": "u085",
+   "side": "p2",
+   "op": "add",
+   "t": 5499.05,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "See previous: the L spawned 5499.05 clears one coloured row at 5499.35 (+750 = single+REN3), /tmp/claude-0/xo/corr/fr/g0/u085d.png. Missing in chain (BREAK only)."
+  },
+  {
+   "n": 8,
+   "id": "u085",
+   "side": "p2",
+   "op": "add",
+   "t": 5513.32,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score +3614 at 5513.47 = B2B tetris 3600; frames 5513.32-5513.65 show the I spawned 5513.32 dropped vertically at the left, 4-row white band of coloured rows, BACK to BACK (/tmp/claude-0/xo/corr/fr/g0/u085e.png). Chain had only BREAK 5513.17."
+  },
+  {
+   "n": 22,
+   "id": "u085",
+   "side": "p2",
+   "op": "retype",
+   "t": 5522.87,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score rose only +300 at 5522.83: a mini T-spin single would be 600 (900 B2B after the B2B TSDs); 300 = zero-line mini T-spin at level 3. Frames 5522.84-5523.17 show the T-SPIN tag and the stack pushed up by garbage, no row clear (/tmp/claude-0/xo/corr/fr/g0/u085f.png)."
+  },
+  {
+   "n": 23,
+   "id": "u095",
+   "side": "p1",
+   "op": "retype",
+   "t": 6017.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score +3750 at 6017.27 = B2B tetris 3600 + REN1 150 (double+REN would be 1050); frames 6017.15-6017.30 show an I dropped vertically at the right and a 4-row white band of coloured rows with TETRIS / BACK to BACK (/tmp/claude-0/xo/corr/fr/g0/u095.png). Explains the score spot."
+  },
+  {
+   "n": 27,
+   "id": "u119",
+   "side": "p2",
+   "op": "retype",
+   "t": 7394.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score +1050 at 7394.67 = double 900 + REN1 150 (single+REN1 = 450); frame 7394.65 shows a 2-row white clear band of the two bottom coloured rows (/tmp/claude-0/xo/corr/fr/g0/u119p2.png)."
+  },
+  {
+   "n": 28,
+   "id": "u130",
+   "side": "p2",
+   "op": "retype",
+   "t": 7913.4,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Score +5550 at 7914.10 = B2B TSD 5400 + REN1 150 (after the TST +4800 at 7912.67); frames 7913.8-7914.05 show the T rotated into the slot, 2-row clear, Double + BACK to BACK tags (/tmp/claude-0/xo/corr/fr/g0/u130.png)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 1,
+   "id": "u049",
+   "player": "p1",
+   "field": "pieces",
+   "was": 170,
+   "value": 169,
+   "source": "duplicate lock removed in the 3144.5-3147.0 window: 4 real locks vs 5 chain events (/tmp/claude-0/xo/corr/fr/g0/u049a.png, u049b.png)."
+  },
+  {
+   "n": 3,
+   "id": "u053",
+   "player": "p1",
+   "field": "pieces",
+   "was": 37,
+   "value": 38,
+   "source": "Z spawned 3489.04 hard-dropped on the KO frame: in /tmp/claude-0/xo/corr/fr/g0/u053b.png the 3489.27 frame shows the Z locked, score 23497->23509 (+12 drop points, no clear) and p2's board starting to tilt; score.py also reads +12 at 3489.27. No chain event for that spawn."
+  },
+  {
+   "n": 24,
+   "id": "u104",
+   "player": "p2",
+   "field": "pieces",
+   "was": 64,
+   "value": 65,
+   "source": "T spawned 6703.30 soft-dropped (+1 per frame to 6703.80), rotated into the slot and locks with the lock flash at 6703.97 = KO frame (p1 tilting), no clear, queue does not advance afterwards (/tmp/claude-0/xo/corr/fr/g0/u104.png, u104b.png). No chain event after 6703.03. Moderate confidence: lock flash and KO tilt in the same frame."
+  },
+  {
+   "n": 26,
+   "id": "u119",
+   "player": "p1",
+   "field": "pieces",
+   "was": 59,
+   "value": 60,
+   "source": "Blue J (swapped from hold at 7400.50) hard-dropped at 7400.63, score 36237->36259 (+22, no clear), the same frame p2's board tilts (KO) (/tmp/claude-0/xo/corr/fr/g0/u119b.png). Chain's last event is spawn 7400.17."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "u029 p1: last piece (L) spawned 1893.77 still at the top at the KO frame 1893.90; score unchanged (58047) after 1893.67 (/tmp/claude-0/xo/corr/fr/g0/u029.png). Nothing to add."
+  },
+  {
+   "n": 2,
+   "why": "u049 p2: lock +6 at 3147.64, spawn 3147.74, then hold; score flat to 3148.2. The KO-frame piece did not lock."
+  },
+  {
+   "n": 4,
+   "why": "u062 p1: last lock +22 at 3950.13, spawn 3950.23; score flat to 3950.63 after KO 3950.40. Not locked."
+  },
+  {
+   "n": 5,
+   "why": "u079 p2: last lock +28 at 5102.73, spawn 5102.77; score flat (48451) through KO 5103.10. Not locked."
+  },
+  {
+   "n": 6,
+   "why": "u080 p2: score +450 at 5135.90 = plain single + REN1 after the quad (a TSS would be 2400+). Chain's single is right."
+  },
+  {
+   "n": 7,
+   "why": "u085 p2 bad bag: inside the 76-s gap window; spawns could not be recounted reliably (chain has only BREAKs in many spots). Clear errors fixed under n=8/9/13/22; piece count left as is."
+  },
+  {
+   "n": 10,
+   "why": "TSD at 5457.43/5457.6 confirmed: score +5400 (B2B TSD) at 5457.50; chain already has the tsd."
+  },
+  {
+   "n": 11,
+   "why": "TSD confirmed: +5400 at 5459.93; chain tsd 5459.86 present."
+  },
+  {
+   "n": 12,
+   "why": "TSD confirmed: +5400 at 5463.70; chain tsd 5463.8 present."
+  },
+  {
+   "n": 14,
+   "why": "TSD confirmed: +5400 at 5471.87; chain tsd 5471.8 present."
+  },
+  {
+   "n": 15,
+   "why": "TSS confirmed: +3750 at 5473.20 = B2B TSS 3600 + REN1; chain tss 5473.26 present."
+  },
+  {
+   "n": 16,
+   "why": "TSD confirmed: +5400 at 5487.60; chain tsd 5487.7 present."
+  },
+  {
+   "n": 17,
+   "why": "TSD confirmed: +5400 at 5496.43; chain tsd 5496.53 present."
+  },
+  {
+   "n": 18,
+   "why": "TSD confirmed: +3600 at 5506.53 (non-B2B TSD after singles); chain tsd 5506.43 present."
+  },
+  {
+   "n": 19,
+   "why": "TSD confirmed: +5550 at 5507.83 = B2B TSD + REN1; chain tsd 5507.86 present."
+  },
+  {
+   "n": 20,
+   "why": "TSD confirmed: +5400 at 5511.40; chain tsd 5511.33 present."
+  },
+  {
+   "n": 21,
+   "why": "TSD confirmed: +5400 at 5515.80; chain tsd 5515.73 present."
+  },
+  {
+   "n": 25,
+   "why": "u110 p1: the +76 is hard-drop points (+38 at 7005.27, +32 at 7005.53, +34 at 7005.87), no clear."
+  },
+  {
+   "n": 29,
+   "why": "u130 p2 score spot explained by the double->tsd retype at 7913.4 (n=28): +5550 at 7914.10; +5400 at 7917.30 (tsd) and +3750 at 7918.20 (B2B quad+REN1) match the chain."
+  }
+ ]
+}

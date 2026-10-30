@@ -108,7 +108,28 @@ AMEMIYA = Subject(
                  "但唔計入勝負同合計。</li>",
     })
 
-SUBJECTS = (SYAKEGOHAN, AMEMIYA)
+UYESHOTA = Subject(
+    slug="uyeshota", me="uyeshota", display="uyeshota（ういしょうた）", short="uyeshota",
+    channel="https://www.youtube.com/channel/UCJKPOtogWFgNnkcanFbImPw",
+    description="ういしょうた（uyeshota）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
+                "由 YouTube 影片逐格抽出，每一局都有影片連結。",
+    notes={
+        "method": "；抽取器標記嘅可疑位同分數對唔上嘅位（176 個）由六個讀者逐格睇片改正，"
+                  "再由另外六個讀者逐個反駁核實",
+        "ko": "。抽取器標記嘅 54 粒贏家 KO 粒逐粒睇片查過，喺 KO 嗰格之後先落地嘅唔計（反駁讀者因此剔走 5 粒遲一格嘅）",
+        "hand": "改咗 70 個事件、26 格（全部係粒數），另外剔走 2 局。",
+        "ren": "最長 REN 由清行次序計（連續清行次數減一），冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
+        "extra": "<li><strong>冇計入嘅局。</strong>u093、u094 剔走：ゆうくん 兩局都將每粒疊喺同一行，"
+                 "兩秒左右自己頂死（等於棄權），畫面 WIN 計數照計，但呢版唔計入勝負同合計，兩局仍然列喺卡度。</li>",
+    },
+    dataset_notes={
+        "stream-2026-10-30": "<li><strong>2026-10-30 直播（てとぼ　レート3500↑）。</strong>六組 15 先：對 いんたい 15-9，"
+                             "對 ゆうくん 13-15、15-9、15-4，對 お 15-9、15-5，合共 139 局，勝負全部同畫面 WIN 計數對過。"
+                             "PERFECT CLEAR 字幕 61 個逐個睇過，短過門檻嘅 81 個閃光亦睇過，冇俾特效遮住嘅 PC。"
+                             "用 NEXT 隊列重數全部 274 個玩家局嘅粒數，251 個同表一樣，11 個差一粒，8 個係 NEXT 隊列讀唔清嘅局，4 個差多過一粒（u006 ゆうくん 少 3 粒、u023 uyeshota 多 2 粒、u076 uyeshota 少 2 粒、u085 ゆうくん 少 14 粒），冇跟住改，呢幾個玩家局嘅粒數可能有錯。</li>",
+    })
+
+SUBJECTS = (SYAKEGOHAN, AMEMIYA, UYESHOTA)
 
 
 def by_slug(slug):

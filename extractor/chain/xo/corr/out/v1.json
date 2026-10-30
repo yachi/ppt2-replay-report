@@ -1,0 +1,14 @@
+[
+ {"ref":"e0","verdict":"keep","why":"u000 p2: score +900 at 162.23 after the O at 161.83 broke REN = double; vertical I clears two garbage rows under the blue stack row, blue row still present after (fr/v1/e0.png 162.0-162.6)"},
+ {"ref":"e1","verdict":"keep","why":"u015 p2: +600 at 973.43 = single REN2 continuing tsd 970.57 -> quad 971.9; then +774 (REN3) and +1528 (double REN4) fit only if 973.13 cleared one line"},
+ {"ref":"e2","verdict":"keep","why":"u096 p1: +2550 at 6083.97 (quad REN1) then +600 at 6085.03 = single REN2 for the 6084.77 lock; next lock 6085.77 no clear; tsd at 6087.20 is +3600 (B2B broken by this single)"},
+ {"ref":"e3","verdict":"keep","why":"u096 p2: T into slot, Double banner with BACK at 6065.5; +5550 at 6065.43 = B2B TSD 5400 + REN 150; a plain double cannot score that (fr/v1/e3.png)"},
+ {"ref":"e4","verdict":"keep","why":"u100 p1: nextcount spawns 6257.533 (Z, held 6257.667 -> I out), 6258.767 (O), 6259.233 (J); score +2550 at 6257.93 (quad REN1), +14 drop at 6259.13 (O, no clear), +300 at 6259.50 (single, REN broken) = 3 locks, not 6"},
+ {"ref":"e5","verdict":"keep","why":"u113 p2: nextcount 7110.8-7127.43 gives exactly 22 spawns (holds at 7111.2, 7112.2, 7123.833, 7124.267 are swaps); score jumps +612 7111.43 single REN2, +4050 7112.53 TSD+REN3 (non-B2B), +3600 7114.60 B2B quad, +450/+624/+774 singles, +3600 7120.67 TSD, +3750 B2B quad REN1, +1800 triple REN2, +2400 7127.73 quad; all match the proposed sequence. Spot-checked quad at 7114.5: 4-row bar over 1 colour row + 3 garbage rows, gc3 (fr/v1/e5a.png)"},
+ {"ref":"e6","verdict":"keep","why":"u122 p2: T spun in, T-spin Single banner + BACK at 7553.2; +3750 = B2B TSS 3600 + REN 150 after the TST (fr/v1/e6.png)"},
+ {"ref":"e7","verdict":"keep","why":"u126 p2: T stood in right column, 2-row bar (orange row + garbage row) at 7739.9-7740.1, no T-spin banner; +1050 = double 900 + REN 150 (fr/v1/e7.png)"},
+ {"ref":"e8","verdict":"keep","why":"u135 p1: one-row bar, T-SPIN Single + BACK banner at 8265.6; +3600 = B2B TSS, a TST would be 7200 (fr/v1/e8.png)"},
+ {"ref":"e9","verdict":"keep","why":"u138 p2: T placed vertically at right at 8391.05 with SPIN badge, garbage/stack rows unchanged 8390.85 vs 8391.45; +300 = zero-line mini; following triple +1518 has no REN (fr/v1/e9.png)"},
+ {"ref":"c0","verdict":"keep","why":"u100 p1: my own whole-game nextcount (6235.0-6377.3): 274 shifts, all k=1, first shift 6235.667 is the first spawn; 8 unk gaps of 0.27 s each with identical queue before/after; 274 spawned - 1 in hold - Z active at KO (spawned 6377.033) = 272; equals chain 275 minus the 3 phantom locks of e4"},
+ {"ref":"c1","verdict":"keep","why":"u113 p2: nextcount 7094.5-7134.6: 66 shifts all k=1, no unk; 66 - 1 in hold - Z (spawned 7134.267) still at top through 7134.46 and dropped 7134.50 after KO 7134.47 (fr/v1/c1.png) = 64"}
+]

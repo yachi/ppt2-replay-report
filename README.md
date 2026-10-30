@@ -1,6 +1,6 @@
 # ppt2-replay-report
 
-Puyo Puyo Tetris 2 match data for syakegohan (しゃけごはん) and amemiya (たいようあめみや), read frame by frame
+Puyo Puyo Tetris 2 match data for syakegohan (しゃけごはん), amemiya (たいようあめみや) and uyeshota (ういしょうた), read frame by frame
 from YouTube video.
 Site: <https://yachi.github.io/ppt2-replay-report/>
 
@@ -12,7 +12,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 
 | path | what |
 |---|---|
-| `analysis/ppt2-<slug>/` | one directory for each player: `analysis/ppt2-syakegohan/` and `analysis/ppt2-amemiya/` |
+| `analysis/ppt2-<slug>/` | one directory for each player: `analysis/ppt2-syakegohan/`, `analysis/ppt2-amemiya/` and `analysis/ppt2-uyeshota/` |
 | `analysis/ppt2-<slug>/games.csv` | one row for each player in each game: the data that the player's pages render |
 | `analysis/ppt2-<slug>/event-corrections.json` | extractor events corrected by eye from the frames, applied before the tally |
 | `analysis/ppt2-<slug>/hand-edits.csv` | cell corrections laid over the chain output, each with its source |
