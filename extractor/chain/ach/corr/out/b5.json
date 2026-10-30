@@ -1,0 +1,30 @@
+{"event_corrections":[
+{"id":"m104","side":"p2","op":"retype","t":463.13,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g5/m104a.png: L lands at bottom ~463.2 and its row flashes white at 463.4 (REN banner); score 20933->21719 (+786 = single at REN3 750 + drop) read at 463.77"},
+{"id":"m104","side":"p2","op":"retype","t":463.93,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g5/m104a.png: Z locks at bottom ~464.2, row flash 464.2-464.4; score 21719->22655 (+936 = single at REN4 900 + drop) read by 464.57, before the KO at 464.77"},
+{"id":"m105","side":"p2","op":"retype","t":496.5,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g5/m105a.png: the piece spawned 496.5 (T held, I released) locks on top of the stack at ~496.7 with no row cleared; the only clear is the TSD at 497.24 (Double + BACK to BACK banner); score 23524->28941 = +5417 = B2B TSD 5400 with no REN bonus, so no clear preceded it"},
+{"id":"m111","side":"p1","op":"add","t":782.8,"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g5/m111a.png: T spawns 782.73 and is held (782.80), the J from hold drops and locks at 782.87 clearing the bottom coloured row (white row flash 782.87-783.07, 3REN banner); KO is 782.90; score 35487->36265 (+778 = single at REN3 750 + drop) read 783.27"},
+{"id":"m112","side":"p2","op":"retype","t":826.53,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"score 47242->48592 at 826.73 = +1350 = double 900 + REN3 450 (a single would be 750); fr/g5/m112a.png shows a two-row white band at 826.77, and the garbage height under it is unchanged after (8 rows), so gc 0"},
+{"id":"m114","side":"p1","op":"retype","t":992.2,"was":["single",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"the 991.83 I made the clear (PERFECT CLEAR banner from 992.10, fr/g5/m114a.png); after it the score only rises by drop points (14747->14783 at 992.53, ->14823 at 992.77) until the TSD at 995.97, so the piece spawned 992.17 (hold swap, Z released) locked without clearing. Spawns from nextcount.py 991.83, 992.17, 992.63, 992.87 match the chain's events 1:1"},
+{"id":"m116","side":"p1","op":"replace_window","t":1101.0,"t_end":1103.45,"events":[{"t":1101.93,"kind":"tsd","lines":2,"pc":0,"gc":0},{"t":1103.17,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[1103.43,"tsd",2],[1103.43,null,0]],"source":"nextcount.py: T spawns 1101.93 (soft-drop ticks 1101.97-1102.30), T-SPIN Double banner 1102.4 and score 10860->16410 (+5550 = B2B TSD 5400 + REN 150) at 1102.40; I spawns 1103.17 and locks with only +20 drop points at 1103.43; no clear anywhere 1102.5-1105.9. The chain's tsd at 1103.43 is this TSD mistimed and its duplicate None at 1103.43 is the I. Spawn count 1101.93-1105.5 (10) equals the chain's event count there, so pieces unchanged"}
+],
+"cell_edits":[
+{"id":"m104","player":"p2","field":"max_combo","was":2,"value":4,"source":"tsd 460.03, quad 461.4, singles 462.33/463.13/463.93 are 5 consecutive clearing pieces; score steps +638/+786/+936 are single at REN 2/3/4"},
+{"id":"m111","player":"p1","field":"pieces","was":50,"value":51,"source":"J from hold locks at 782.87 before KO 782.90 (fr/g5/m111a.png)"},
+{"id":"m111","player":"p1","field":"max_combo","was":2,"value":3,"source":"3REN banner at 782.93 and +778 = single at REN3 (fr/g5/m111a.png)"}
+],
+"items":[
+{"n":142,"verdict":"corrected","why":"The +1722 is two REN singles at 463.4 and 464.2 (score +786 and +936), both before the 464.77 KO, which the chain logged as plain locks 463.13/463.93 (fr/g5/m104a.png)."},
+{"n":143,"verdict":"corrected","why":"Same window as 142: the unexplained points are the two missed REN singles; retyped 463.13 and 463.93 to single, max_combo 2->4."},
+{"n":144,"verdict":"corrected","why":"The TSD is the chain's 497.23 event (banner, +5417 at 497.47); the 496.5 'double' is an I lock with no clear (fr/g5/m105a.png), retyped to None."},
+{"n":145,"verdict":"corrected","why":"Score explains TSD (B2B, no REN) +5417 and triple+REN1 +1650 at 498.20 only, so the phantom double at 496.5 is removed (retyped None)."},
+{"n":146,"verdict":"no change","why":"fr/g5/m107b.png: the J spawned 595.40 is still at the top (only its ghost outline lower) at the 595.57 KO; score flat at 43541."},
+{"n":147,"verdict":"no change","why":"fr/g5/m109a.png: three rows clear at 666.10 with a Triple + BACK banner and score 5391->12591 (+7200 = B2B TST); the 'Single' banner read was wrong."},
+{"n":148,"verdict":"corrected","why":"The J out of hold locks at 782.87 clearing one row (3REN, +778) before the 782.90 KO; added single at 782.8, pieces 50->51, max_combo 2->3 (fr/g5/m111a.png)."},
+{"n":149,"verdict":"no change","why":"+138 by 908.70 is accumulated drop points over the locks 907.23-908.57 (score obscured before); no clear; last lock (+34 at 908.80) is already the chain's 908.57 event."},
+{"n":150,"verdict":"corrected","why":"The 826.53 clear scored +1350 = double at REN3, and fr/g5/m112a.png shows two rows clearing at 826.77; retyped single->double."},
+{"n":151,"verdict":"corrected","why":"The 992.2 'single' is a plain lock (only +34/+40 drop points after the 991.83 PC clear, fr/g5/m114a.png); retyped to None. The PC itself is left to the PC review."},
+{"n":152,"verdict":"no change","why":"fr/g5/m115a.png: O spawned 1084.30 is held at 1084.37 and the I it releases is still at the top at the 1084.43 KO; nothing locks."},
+{"n":153,"verdict":"corrected","why":"The 1102.4 T-SPIN Double banner is a real TSD (+5550 at 1102.40) by the T spawned 1101.93; the chain logged it at 1103.43 with a duplicate lock; replaced the window with tsd 1101.93 + I lock 1103.17."},
+{"n":154,"verdict":"corrected","why":"Score steps 1102.40-1111.30 match the chain's clears once the TSD is at 1101.93/1102.40 instead of 1103.43; the -5451 was the mistimed TSD plus score misreads (17858/23264 values are digit misreads)."},
+{"n":155,"verdict":"no change","why":"fr/g5/m116a.png: the O spawned 1155.77 sits at the top until the 1156.30 KO (yellow outline is its ghost); score flat 103200."}
+]}

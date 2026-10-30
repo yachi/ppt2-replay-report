@@ -1,0 +1,70 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "m084 p1: Z locks at the right edge ~638.53 and the top garbage row flashes, '2 REN' shown, score 84377->84977 (+600 = single REN2) at 638.60 (/tmp/claude-0/ak/corr/fr/v45/m084.png)."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "m093 p2: T enters the slot ~1073.2 with a T-SPIN banner but the stack height is unchanged (no row cleared); score 324->624 (+300, zero-line Mini) at 1073.23, then only drop points (/tmp/claude-0/ak/corr/fr/v45/m093.png)."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "m096 p2: after the B2B quad (+3600 at 77.83) the next clear scores +1066 at 78.80 (double REN1 1050; a single would be 450) and the next +618 at 80.13 (single REN2); two coloured rows above unchanged garbage at 78.7 (/tmp/claude-0/ak/corr/fr/v45/m096.png)."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "m097 p2: vertical I into the 4-row garbage well ~122.5, all four garbage rows flash, TETRIS banner 123.1, score 9484->12518 (+3034 = quad REN4) at 123.03; a triple cannot score that (/tmp/claude-0/ak/corr/fr/v45/m097b.png)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "amend",
+  "amended": {
+   "t_end": 125.93
+  },
+  "why": "m097 p1 content confirmed: nextcount real shifts 122.87 (L held, O out), 123.27 T -> TSS (banner ~123.9, coloured row cleared, +3600 B2B at 123.87), then Z/L/T/O/J/S at 124.50/124.77/125.03/125.30/125.57/125.93 with only drop points; the 122.37 3-shift is a misread (queue LTZLT -> TZLTO is one shift). t_end widened to 125.93 so the window contains its new events (no other chain p1 events in 122.33-125.93; next is 126.10 = Z spawn) (/tmp/claude-0/ak/corr/fr/v45/m097a.png)."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "m100 p2: spawns only at 274.87 (T), 275.17 (J), 275.47 (Z held, O out), 275.67 (T); score 27834 (274.20) -> 31474 (276.27) = +3640, one non-B2B TSD only (two would be >=7200)."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "m100 p2: spawns 276.83/277.97/278.30/279.10/280.13/281.20/281.47/281.60 (8 pieces); +906 at 279.77 (double, no REN) then +2558 at 280.77 (quad REN1), frames show the S double flash ~279.4 before the I tetris ~280.4 (/tmp/claude-0/ak/corr/fr/v45/m100a.png)."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "m100 p2: no spawns between 318.93 and 319.87 or 319.87 and 320.87 (nextcount), so the 319.53/319.73/320.43 locks are phantoms; score 91789 (318.57) -> 93461 (320.30) -> 94222 (321.40, +761 single REN3) -> 95134 (322.20, +912 single REN4) -> 97563 (323.97, TSS alone), so I 319.87 double, Z 320.87 single, J 321.67 single, I 322.50 no clear."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "m100 p2: O spawns 324.50 and is held (hold O 324.60), J out of hold locks ~324.55 at the top (/tmp/claude-0/ak/corr/fr/v45/m100b.png)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "m100 p2: S spawns 324.97 and locks ~325.0 at the top; then L 325.27 and L 325.53 (the chain's 325.57/325.93) lock before the 326.23 KO; score only +12 drop points to 97575 (/tmp/claude-0/ak/corr/fr/v45/m100b.png)."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "m097 p1: nextcount 108-148.7 gives 86 shifts incl. the bogus 3-shift at 122.37 -> 83 real spawns, minus the piece left in hold and the Z spawned 148.27 still falling at the 148.6 KO = 81 locks (/tmp/claude-0/ak/corr/fr/v45/m097end.png)."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "m100 p2: nextcount 244.6-326.4 = 155 single shifts (no multi-shifts; unk windows bridge consistently) = 154 locks + 1 piece in hold; last L 325.53 locked before the 326.23 KO; matches 167 -4 -3 -8 +2."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "m100 p2: triple 317.97 then single, double, single, single each REN-connected: +761 at 321.40 = single REN3, +912 at 322.20 = single REN4, so max REN 4 (> chain's 3)."
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "m034 p2: one double only (single +600 at 533.13, one +4984 jump at 534.73, nothing else to 536); nextcount: O spawned 533.80 and held (J out -> PC double), S spawned 534.77 and held (O out, no clear). Which of the two chain entries carries the double is cosmetic; counts are right."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "m035 p1: nextcount 587-610.5 gives 43 spawns (the k=2 at 587.867 includes the Z spawned ~586.8, outside the window, seen in fr/v01/m035a.png) matching the 43 events; the 15 score jumps 589.40..610.73 match the 15 proposed clears in order and kind (incl. REN1..5 at 606.13..610.73); the old 587.23 'tst' duplicates the 586.77 quad (586.97 +3600, TETRIS banner)."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "m035 p1: fr/v01/m035ko.png: L out of hold at 671.97, single clear with '2 REN' at 672.10 (+600), before the 672.33 KO."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "m041 p1: one +4650 jump at 854.87 after the 854.07 single; nextcount Z spawned (unk 854.33-854.87) and held (O out = the double), S spawned 855.13 with no clear."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "m041 p1: one +13200 jump at 861.27; nextcount L spawned 861.0 and held (I out = TETRIS PC), next spawns in 861.3-861.9 with no further jump (+drop only)."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "m045 p1: score shows one TETRIS (1100.47 +3654; fr/v01/m045a.png: L placed ~1099.67, J held at 1099.9, I in) then TSD 1102.90, TSD 1106.00, TETRIS REN1 1106.97, TSD 1112.57 = 5 clears; nextcount spawns 1099.6-KO = 2 + 23 + 6 (resync, 7-bag: L O S I Z T then J) = 31 incl. one at 1113.53 that cannot lock before the 1113.57 KO, so 30 events."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "m035 p1: chain has 214 events and no BREAKs; the window drops 48 -> 43 (nextcount) and the 672.10 KO single adds 1: 210."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "m035 p1: 605.10 TSD (non-REN after locks at 603.3-604.43) then 606.13 +450, 607.20 +600, 608.70 +1361, 609.63 +916, 610.73 +2272 = REN1..REN5; 612.50 +1605 triple has no REN bonus."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "m045 p1: nextcount 1033.4-1099.6 gives 115 shifts + resyncs 4+4+5 (5 by 7-bag) = 128 spawns, minus the first hold into empty (1033.73) = 127 locks, then 30 in the window = 157."
+ }
+]

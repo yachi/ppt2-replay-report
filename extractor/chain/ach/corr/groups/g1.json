@@ -1,0 +1,236 @@
+[
+ {
+  "id": "m024",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 36.73 s",
+  "t_s": 36.73,
+  "n": 32,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m028",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 497 ending at t=235.6 (window from 218.97); chain clears there explain all but 497; chain clears near: [[220.73, 5400, 'tsd'], [222.0, 1050, 'double'], [222.9, 1200, 'double'], [223.87, 750, 'single'], [224.6, 1500, 'double'], [225.73, 1050, 'single'], [226.97, 1200, 'single'], [227.9, 1350, 'single'], [228.9, 1500, 'triple'], [230.27, 1500, 'triple'], [233.5, 2400, 'quad'], [235.03, 3600, 'tss']]",
+  "t_s": 235.6,
+  "n": 33,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m030",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 315.67 s",
+  "t_s": 315.67,
+  "n": 34,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m033",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 515.73,
+  "n": 35,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m034",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 532.24 s, no A clear matched (added by R/build.py)",
+  "t_s": 532.24,
+  "n": 36,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m034",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 540.4 s",
+  "t_s": 540.4,
+  "n": 37,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "14 of 26 bags not a permutation (spawn index [35, 42, 49, 56, 84, 91, 98, 112, 119, 126, 140, 147, 161, 175]); anomalies ['double shift k=3 at frame 454', 'double shift k=3 at frame 1045', 'double shift k=2 at frame 1110']",
+  "t_s": 574.37,
+  "n": 38,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 19.70 s from 587.23 s; B events spliced (D2/D3)",
+  "t_s": 587.23,
+  "n": 39,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 587.23 s",
+  "t_s": 587.23,
+  "n": 40,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -6583 ending at t=595.34 (window from 586.94); chain clears there explain all but -6583; chain clears near: [[586.77, 3600, 'quad'], [587.23, 7200, 'tst'], [590.33, 1500, 'triple'], [590.6, 1050, 'double'], [592.93, 2400, 'quad'], [594.07, 1050, 'double']]",
+  "t_s": 595.34,
+  "n": 41,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 1812 ending at t=598.7 (window from 595.34); chain clears there explain all but -588; chain clears near: [[595.83, 600, 'single']]",
+  "t_s": 598.7,
+  "n": 42,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -3600 ending at t=603.07 (window from 600.7); chain clears there explain all but -3600; chain clears near: [[600.97, 3600, 'quad'], [602.97, 5400, 'tsd']]",
+  "t_s": 603.07,
+  "n": 43,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 604.97 s, no A clear matched (added by R/build.py)",
+  "t_s": 604.97,
+  "n": 44,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +630 at 672.07 s (KO 672.33 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 672.07,
+  "n": 45,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 730 ending at t=672.07 (window from 666.24); chain clears there explain all but -470; chain clears near: [[668.0, 5400, 'tsd'], [669.73, 5400, 'tsd'], [671.1, 3750, 'quad']]",
+  "t_s": 672.07,
+  "n": 46,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m035",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 672.33,
+  "n": 47,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m036",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 691.43,
+  "n": 48,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m041",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -1200 ending at t=858.26 (window from 854.86); chain clears there explain all but -1200; chain clears near: [[854.73, 1050, 'double'], [854.93, 1200, 'double'], [857.53, 3600, 'tsd']]",
+  "t_s": 858.26,
+  "n": 49,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m041",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 863.37,
+  "n": 50,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m042",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 907.87,
+  "n": 51,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m044",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 1024.43,
+  "n": 52,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m045",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 1102.86 s, no A clear matched (added by R/build.py)",
+  "t_s": 1102.86,
+  "n": 53,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m045",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 1105.96 s, no A clear matched (added by R/build.py)",
+  "t_s": 1105.96,
+  "n": 54,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m045",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 1112.13 s, no A clear matched (added by R/build.py)",
+  "t_s": 1112.13,
+  "n": 55,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m045",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "13.87 s from the last spawn to the KO",
+  "t_s": 1113.57,
+  "n": 56,
+  "video": "IJGqwSdiKwk"
+ },
+ {
+  "id": "m047",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 53.73,
+  "n": 57,
+  "video": "-zR8CNrXdCI"
+ }
+]
