@@ -1,0 +1,23 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 +1500 417.97 (ren8), +1650 434.27 (ren9), +1800 443.63 (ren10), +2550 444.57 (double ren11), +2100 445.47 (ren12); nextcount shifts only 418.63, 434.90 (hold 443.10), 444.30, 445.30. Chain 443.9/444.3/445.3 map to the last three, so 430.0 and 435.07 singles and the 418.43 BREAK are phantoms."},
+{"ref":"e1","verdict":"keep","why":"p2 score: +1500 416.83, +1650 436.20, +1810 442.20, +1978 443.20, +2126 444.00, +2277 444.87, +2426 445.90 = unbroken ren8..ren14 singles; nextcount shifts 417.47, 436.83, 442.83, 443.83, 444.63, 445.50 only. 417.6 single, 437.07 double, 437.1 BREAK, 442.5 single are phantoms."},
+{"ref":"e2","verdict":"keep","why":"p2 +1066 at 699.33 after quad +3600 at 698.37 = double 900 + ren1 150 + drops (single ren1 would be ~450); next +1200 at 700.47 = double ren2."},
+{"ref":"e3","verdict":"keep","why":"p2 +926 at 1112.43 = double 900 + 26 drops (ren0); next +476 at 1113.40 = single ren1."},
+{"ref":"e4","verdict":"keep","why":"score.py 3221.5-3233.7: drop-only locks 3222.57..3224.53 (8), +3600 3224.90, 7 locks 3226.13-3227.93, +3600 3228.33, locks 3230.30/3230.60/3231.37, +3600 3231.80, lock 3232.90, +3600 3233.70 (TSS B2B). No TST. gc checked in fr/v3/u051q.png, u051q2.png, u051q3.png: first I spans 3 colored + top garbage row, second wholly in garbage, third 3 colored + 1 garbage -> gc 1,4,1. nextcount gives ~24 spawns in the window vs 23 here (one shift at 3221.833 read k=3, uncertain), so piece count is a lower bound as stated."},
+{"ref":"e5","verdict":"keep","why":"score.py: locks 3239.17,3239.47,3239.80,3240.03, single +300 3240.23, lock 3241.37, double +900 3241.77, triple +1650 (ren1) 3242.70, locks 3243.53/3243.77/3244.03, triple +1500 3244.40, lock 3245.40, double +900 3246.37 = 14 pieces; nextcount shows exactly 14 spawns 3238.967-3245.5. Chain events before the window (double 3234.93 + 4 singles) match score clears 3234.70-3238.27, so the added early locks are not duplicates. gc read from u051c.png agrees (0,1,2,2,2)."},
+{"ref":"e6","verdict":"keep","why":"p1 +2400 quad 4822.93 (ren0), +1050 at 4824.03 = double + ren1; then +600 single ren2."},
+{"ref":"e7","verdict":"keep","why":"nextcount spawn 4882.433 (L); score +32 at 4882.60 = KO frame (end_s 4882.6); fr/v3/u075ko.png shows L at rest and score 153711 at 4882.60. Chain has only 4881.63/4881.9/4882.2."},
+{"ref":"e8","verdict":"keep","why":"p2 +3600 at 4782.77 then +3750 at 4783.83 = TETRIS B2B 3600 + ren1 150; a double would be ~1050."},
+{"ref":"e9","verdict":"keep","why":"p2 quad +2400 4806.27, then +1068 at 4807.30 = double ren1 + drops; flash band at 4807.30 sits in two colored rows above the garbage (g3/u075p2b.png), gc 0."},
+{"ref":"e10","verdict":"keep","why":"p1 quad +3600 at 7785.30 then +5550 at 7786.43 = TSD B2B 5400 + ren1 150 (TSS B2B would be 3750)."},
+{"ref":"e11","verdict":"keep","why":"nextcount p1 8317-8320.2: shifts 8317.20 (single, +1050 8317.73), 8318.40 (S, held 8318.50), 8318.767; only lock is +2 at 8318.67 (O from hold, seen at top right in fr/v3/u136p1.png 8318.60). No further spawn before KO 8320.13, so the 8318.77 piece never locked. One lock, not five."},
+{"ref":"e12","verdict":"keep","why":"nextcount p2 spawn 8319.767; score +34 at 8320.10 <= KO 8320.13; chain stops at 8319.6."},
+{"ref":"c0","verdict":"keep","why":"follows e0: two phantom clears removed, nextcount shows only spawns 418.63 and 434.90 in the window."},
+{"ref":"c1","verdict":"keep","why":"score REN ladder reaches ren12 at 445.47 (+2100 single = 300+1800); chain max_combo uses the REN number (its 8 = the ren8 at 417.97)."},
+{"ref":"c2","verdict":"keep","why":"follows e1: three phantom clears removed; nextcount spawns 417.47, 436.83, 442.83 only."},
+{"ref":"c3","verdict":"keep","why":"+2426 at 445.90 = single 300 + ren14 2100 + drops."},
+{"ref":"c4","verdict":"keep","why":"+10 from e4 (+4) and e5 (+6) agrees with score and nextcount (14 spawns in window 2); window 1 may hold one more (nextcount ~24 vs 23), so 152 is a lower bound."},
+{"ref":"c5","verdict":"keep","why":"follows e7."},
+{"ref":"c6","verdict":"keep","why":"follows e11: 4 phantom locks removed."},
+{"ref":"c7","verdict":"keep","why":"follows e12."}
+]

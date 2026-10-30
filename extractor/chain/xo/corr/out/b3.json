@@ -1,0 +1,834 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "u006",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 418.43,
+   "t_end": 435.07,
+   "events": [
+    {
+     "t": 418.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     418.43,
+     "BREAK",
+     3
+    ],
+    [
+     418.77,
+     "single",
+     1
+    ],
+    [
+     430.0,
+     "single",
+     1
+    ],
+    [
+     435.07,
+     "single",
+     1
+    ]
+   ],
+   "source": "Online stall 418.3-434.2: both boards frozen (/tmp/claude-0/xo/corr/fr/g3/u006a.png). p1 score: +1500 at 417.97 (single ren8), then only +1650 at 434.27 (single ren9, the Z spawned 418.63), next +1800 at 443.63 (ren10, the T from hold; O spawned 434.90 was held at 443.10, no lock). REN chain unbroken to 12 REN banner at 445.6-446.4 (/tmp/claude-0/xo/corr/fr/g3/u006b.png). So 430.0 and 435.07 singles are phantoms and the 418.43 BREAK is false."
+  },
+  {
+   "n": 3,
+   "id": "u006",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 417.6,
+   "t_end": 442.5,
+   "events": [
+    {
+     "t": 436.83,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     417.6,
+     "single",
+     1
+    ],
+    [
+     436.83,
+     "single",
+     1
+    ],
+    [
+     437.07,
+     "double",
+     2
+    ],
+    [
+     437.1,
+     "BREAK",
+     2
+    ],
+    [
+     442.5,
+     "single",
+     1
+    ]
+   ],
+   "source": "Same stall (/tmp/claude-0/xo/corr/fr/g3/u006a.png). p2 score: +1500 at 416.83 (ren8), +1650 at 436.20 (ren9, the L spawned 417.47), +1810 at 442.20 (ren10, the I spawned 436.83), +1978 at 443.20 (ren11, T spawned 442.83). No double and no REN break; nextcount shifts only at 417.47, 436.83, 442.83. 417.6 single, 437.07 double, 437.1 BREAK, 442.5 single are phantoms."
+  },
+  {
+   "n": 6,
+   "id": "u011",
+   "side": "p2",
+   "op": "retype",
+   "t": 699.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "score +1066 at 699.33 = double 900 + ren1 150 (+drops); two-row flash in colored rows at 699.4 (/tmp/claude-0/xo/corr/fr/g3/u011.png). Next +1200 at 700.47 = double ren2 consistent."
+  },
+  {
+   "n": 7,
+   "id": "u017",
+   "side": "p2",
+   "op": "retype",
+   "t": 1112.27,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "score +926 at 1112.43 = double 900 + drops (ren0 after the 1112.0 lock); two-row flash 1112.5-1112.6 in colored rows (/tmp/claude-0/xo/corr/fr/g3/u017.png); then singles at +476/+600/+750 = ren1/2/3 consistent."
+  },
+  {
+   "n": 11,
+   "id": "u051",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3221.77,
+   "t_end": 3233.63,
+   "events": [
+    {
+     "t": 3222.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3222.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3223.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3223.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3223.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3223.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3224.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3224.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3224.87,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 3226.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3226.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3226.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3227.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3227.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3227.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3227.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3228.27,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 3230.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3230.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3231.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3231.7,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 3232.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3233.63,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3221.77,
+     null,
+     0
+    ],
+    [
+     3221.77,
+     null,
+     0
+    ],
+    [
+     3221.77,
+     "tst",
+     4
+    ],
+    [
+     3223.07,
+     null,
+     0
+    ],
+    [
+     3223.2,
+     null,
+     0
+    ],
+    [
+     3223.33,
+     null,
+     0
+    ],
+    [
+     3223.77,
+     null,
+     0
+    ],
+    [
+     3224.13,
+     null,
+     0
+    ],
+    [
+     3224.5,
+     null,
+     0
+    ],
+    [
+     3224.5,
+     null,
+     0
+    ],
+    [
+     3225.0,
+     "quad",
+     4
+    ],
+    [
+     3225.5,
+     "quad",
+     4
+    ],
+    [
+     3225.53,
+     "BREAK",
+     1
+    ],
+    [
+     3227.07,
+     "BREAK",
+     0
+    ],
+    [
+     3229.77,
+     "quad",
+     4
+    ],
+    [
+     3230.57,
+     null,
+     0
+    ],
+    [
+     3230.9,
+     null,
+     0
+    ],
+    [
+     3231.8,
+     null,
+     0
+    ],
+    [
+     3231.9,
+     "quad",
+     4
+    ],
+    [
+     3233.37,
+     null,
+     0
+    ],
+    [
+     3233.63,
+     "tss",
+     1
+    ]
+   ],
+   "source": "Score after the 3221.50 TETRIS (+2850, ren3): hard-drop locks at 3222.57,3222.90,3223.03,3223.43,3223.77,3223.97,3224.13,3224.53, TETRIS B2B +3600 at 3224.90; locks 3226.13..3227.93 (7), TETRIS B2B 3228.33; locks 3230.30,3230.60,3231.37, TETRIS B2B 3231.80; lock 3232.90, T soft-dropped to TSS B2B +3600 at 3233.70 (banner 'T-Spin Single' 3234.15). Banners in /tmp/claude-0/xo/corr/fr/g3/u051a.png show 3 TETRIS + TSS, no TST; the 3221.77 tst and one of the 3225.0/3225.5 quads are phantoms. gc from I position: 3224.85 I covers 3 colored + 1 garbage row, 3228.30 I entirely in garbage, 3231.75 I mostly colored (/tmp/claude-0/xo/corr/fr/g3/u051q.png). Times are score lock times. Lock count is a lower bound (score only sees hard drops)."
+  },
+  {
+   "n": 10,
+   "id": "u051",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3239.53,
+   "t_end": 3245.5,
+   "events": [
+    {
+     "t": 3239.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3239.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3239.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3240.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3240.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3241.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3241.77,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 3242.67,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 3243.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3243.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3244.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3244.4,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 3245.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3245.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     3239.53,
+     null,
+     0
+    ],
+    [
+     3239.77,
+     null,
+     0
+    ],
+    [
+     3240.1,
+     null,
+     0
+    ],
+    [
+     3240.33,
+     "BREAK",
+     3
+    ],
+    [
+     3242.23,
+     "double",
+     2
+    ],
+    [
+     3242.37,
+     "BREAK",
+     4
+    ],
+    [
+     3244.07,
+     null,
+     0
+    ],
+    [
+     3244.37,
+     null,
+     0
+    ],
+    [
+     3244.5,
+     "triple",
+     3
+    ],
+    [
+     3245.5,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score: locks 3239.17,3239.47,3239.80,3240.03; single +300 at 3240.23; lock 3241.37; double +900 3241.77; triple +1650 (ren1) 3242.70; locks 3243.53,3243.77,3244.03; triple +1500 3244.40; lock 3245.40; double +900 3246.37. Flashes at 3240.50 (1 row), 3242.10 (2), 3242.90 (3), 3244.50 (3), 3246.50 (2) in /tmp/claude-0/xo/corr/fr/g3/u051b.png; chain missed the single and the 3242.70 triple. gc from /tmp/claude-0/xo/corr/fr/g3/u051c.png: single bottom colored row; double = colored row + top garbage row (I at col 2); triple = 1 colored + 2 garbage (L into col-0 holes); triple at 3244.4 = 1 colored + 2 garbage (J into col-8 holes); double 3246.37 = 2 garbage rows (L into col-5 holes). First four locks happened 3239.17-3240.03; times shifted into the window."
+  },
+  {
+   "n": 17,
+   "id": "u075",
+   "side": "p1",
+   "op": "retype",
+   "t": 4823.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "score +1050 at 4824.03 = double 900 + ren1 150 (previous quad +2400 had no ren); two-row flash in colored rows at 4824.10 (/tmp/claude-0/xo/corr/fr/g3/u075p1.png); following singles +600/750/900/1050 = ren2..5."
+  },
+  {
+   "n": 18,
+   "id": "u075",
+   "side": "p1",
+   "op": "add",
+   "t": 4882.43,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount: spawn 4881.90, 4882.20 (held 4882.233, swapped piece locks 4882.33 +32), new spawn 4882.43 (orange L) locks at 4882.60 (+32) = KO frame; L at rest at 4882.60 (/tmp/claude-0/xo/corr/fr/g3/u075ko.png). Chain has no event for it."
+  },
+  {
+   "n": 19,
+   "id": "u075",
+   "side": "p2",
+   "op": "retype",
+   "t": 4783.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 0,
+   "source": "score +3750 at 4783.83 = TETRIS B2B 3600 + ren1 150; I dropped into left column 4783.65-4783.80, 4-row flash 4783.95-4784.25 in colored rows, TETRIS banner (/tmp/claude-0/xo/corr/fr/g3/u075p2.png)."
+  },
+  {
+   "n": 20,
+   "id": "u075",
+   "side": "p2",
+   "op": "retype",
+   "t": 4807.1,
+   "was": [
+    "single",
+    1,
+    1
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "score +1068 at 4807.30 = double 900 + ren1 150 (+drops); two-row flash in colored rows above the garbage at 4807.3-4807.5 (/tmp/claude-0/xo/corr/fr/g3/u075p2b.png); next +600 = single ren2."
+  },
+  {
+   "n": 24,
+   "id": "u127",
+   "side": "p1",
+   "op": "retype",
+   "t": 7786.1,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0,
+   "source": "T into slot 7786.2-7786.4, two colored rows flash 7786.5, 'T-Spin Double' + BACK to BACK banners (/tmp/claude-0/xo/corr/fr/g3/u127.png); score +5550 at 7786.43 = TSD B2B 5400 + ren1 150."
+  },
+  {
+   "n": 27,
+   "id": "u136",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 8318.13,
+   "t_end": 8318.77,
+   "events": [
+    {
+     "t": 8318.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     8318.13,
+     null,
+     0
+    ],
+    [
+     8318.13,
+     null,
+     0
+    ],
+    [
+     8318.13,
+     null,
+     0
+    ],
+    [
+     8318.77,
+     null,
+     0
+    ],
+    [
+     8318.77,
+     null,
+     0
+    ]
+   ],
+   "source": "After the I single (+1050 at 8317.73) p1 is topped out: nextcount shift 8318.40 (S), held 8318.50, O from hold locks at 8318.67 (+2); next piece (shift 8318.77) never locks before KO 8320.13 (score flat, /tmp/claude-0/xo/corr/fr/g3/u136p1.png). Only one lock, chain has five."
+  },
+  {
+   "n": 28,
+   "id": "u136",
+   "side": "p2",
+   "op": "add",
+   "t": 8319.8,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount spawn 8319.767; yellow O locks at 8320.10 (score +34), before KO 8320.13 (/tmp/claude-0/xo/corr/fr/g3/u136ko.png). No chain event."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 1,
+   "id": "u006",
+   "player": "p1",
+   "field": "pieces",
+   "was": 227,
+   "value": 225,
+   "source": "two phantom locks removed in 418.43-435.07 (see replace_window); nextcount shows only shifts at 418.63 and 434.90 and a hold at 443.10 in the window"
+  },
+  {
+   "n": 1,
+   "id": "u006",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 8,
+   "value": 12,
+   "source": "score jumps 409.23..445.47 are an unbroken REN run single,TSD,triple,s,s,d,s,s,s,s,s,d,s (+150/step); banner '12 REN' at 445.6-446.4 /tmp/claude-0/xo/corr/fr/g3/u006b.png"
+  },
+  {
+   "n": 3,
+   "id": "u006",
+   "player": "p2",
+   "field": "pieces",
+   "was": 243,
+   "value": 240,
+   "source": "three phantom locks removed in 417.6-442.5 (nextcount: shifts 417.47, 436.83, 442.83 only)"
+  },
+  {
+   "n": 3,
+   "id": "u006",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 12,
+   "value": 14,
+   "source": "REN continues through the stall: +150 per step up to +2426 at 445.90 (single ren14); banner '14 REN' at 446.0-446.4 /tmp/claude-0/xo/corr/fr/g3/u006b.png"
+  },
+  {
+   "n": 11,
+   "id": "u051",
+   "player": "p1",
+   "field": "pieces",
+   "was": 142,
+   "value": 152,
+   "source": "window 3221.77-3233.63: 23 score-visible locks vs 19 chain locks (+4); window 3239.53-3245.5: 14 vs 8 (+6). Lower bound: score only shows hard-dropped locks."
+  },
+  {
+   "n": 18,
+   "id": "u075",
+   "player": "p1",
+   "field": "pieces",
+   "was": 252,
+   "value": 253,
+   "source": "L locked on KO frame 4882.60 (score +32), u075ko.png"
+  },
+  {
+   "n": 27,
+   "id": "u136",
+   "player": "p1",
+   "field": "pieces",
+   "was": 49,
+   "value": 45,
+   "source": "4 phantom locks at 8318.13/8318.77 removed; nextcount 47 shifts minus held S and unlocked last spawn = 45"
+  },
+  {
+   "n": 28,
+   "id": "u136",
+   "player": "p2",
+   "field": "pieces",
+   "was": 51,
+   "value": 52,
+   "source": "O locked 8320.10 <= KO 8320.13, u136ko.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "417.87 clear is a plain single: score +1500 at 417.97 = 300 + ren8 1200; only '8 REN' banner at 418.2 (u006a.png). Chain type already single."
+  },
+  {
+   "n": 2,
+   "why": "covered by n1 replace_window (435.07 phantom removed)."
+  },
+  {
+   "n": 4,
+   "why": "covered by n3 replace_window; after 442.83 chain matches score (443.20,444.00,444.87,445.90 ren singles)."
+  },
+  {
+   "n": 5,
+   "why": "u007 p2 last Z locks at 497.23 (score +32), two frames after KO 497.17; at 497.20 it is still falling (u007.png). Not counted."
+  },
+  {
+   "n": 8,
+   "why": "u017 p2 locks at 1130.70/1130.90/1131.10 match chain spawns 1130.43/1130.73/1130.93; score unchanged 1131.10->1131.67, no lock by KO 1131.4."
+  },
+  {
+   "n": 9,
+   "why": "u042 p1 last lock at 2699.20 (spawn 2698.97 in chain); score unchanged after, no lock by KO 2699.4."
+  },
+  {
+   "n": 12,
+   "why": "chain quad at 3221.3 is right (TETRIS banner, +2850 = quad + ren3); the 'tst' at 3221.77 is a phantom and is removed by the n11 replace_window."
+  },
+  {
+   "n": 13,
+   "why": "3252.4-3257.8 p1 slowly gravity-dropped an L (no score, u051d.png), shift at 3257.9; chain 3252.53/3257.4 cover it, last lock vs KO ambiguous, left as is."
+  },
+  {
+   "n": 14,
+   "why": "u054 p2 3528.97 is a plain double: score +900 at 3529.63 (TSD would be >=3600)."
+  },
+  {
+   "n": 15,
+   "why": "u059 p1 locks 3779.80/3780.14/3780.34 match chain spawns; score unchanged after 3780.34 to KO 3780.57."
+  },
+  {
+   "n": 16,
+   "why": "u072 p2 last lock 4613.33 (spawn 4613.2 in chain); score unchanged to KO 4613.7."
+  },
+  {
+   "n": 21,
+   "why": "u076 p1: nextcount reads 86 clean k=1 shifts over the game (no double shifts) = chain pieces 86; every score clear 4927-4962 matches a chain clear type. The bag anomalies are extractor A misreads."
+  },
+  {
+   "n": 22,
+   "why": "u086 p1: TSS B2B +3600 at 5580.17; next O spawned 5580.80 and was held 5580.93; no lock by KO 5581.1."
+  },
+  {
+   "n": 23,
+   "why": "u117 p1: last lock +36 at 7297.24 = chain 7297.03 spawn; score unchanged to KO 7297.47."
+  },
+  {
+   "n": 25,
+   "why": "explained by the n24 retype (tss->tsd)."
+  },
+  {
+   "n": 26,
+   "why": "u127 p1: after lock 7795.60 the next piece is still soft-dropping (+1/frame) through 7796.10; not locked by KO 7796.07."
+  }
+ ]
+}

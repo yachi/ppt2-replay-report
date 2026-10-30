@@ -31,7 +31,7 @@ This directory holds the source code that wrote the chain output under
 `YbMeCRhjG1k`, `lgszEWNFSx0` and `cVO2eGipjV0`. `B` holds the other videos. The four trees are
 near-copies, and some files differ from tree to tree. `TJc` is a later port of `cVO` to the 2026-10-18
 video `TJcCRfhwNNI`; its README lists what it changes and how it was checked. `uP` is a port of `TJc` to the
-2026-10-28 video `uP3FeprmAGI`, with a score-sum check; its README lists the same. `ach` is a port of `uP` to five uploads of 2026-10-28 against あちみつ (`FAsKhtwulHA`, `IJGqwSdiKwk`, `-zR8CNrXdCI`, `b-o1kjuoygk`, `pUZUSoR6VSU`); its README lists what it changes, the hidden-PC check and the NEXT-queue recount. [PARALLEL.md](PARALLEL.md) describes how the `uP` run was parallelised: process pools for the chain, and workflow agents for the frame checks.
+2026-10-28 video `uP3FeprmAGI`, with a score-sum check; its README lists the same. `ach` is a port of `uP` to five uploads of 2026-10-28 against あちみつ (`FAsKhtwulHA`, `IJGqwSdiKwk`, `-zR8CNrXdCI`, `b-o1kjuoygk`, `pUZUSoR6VSU`); its README lists what it changes, the hidden-PC check and the NEXT-queue recount. `xo` is a port of `ach` to uyeshota's 2026-10-30 stream `XoaWLJowuCQ` (six FT15 sets, 139 games); its README lists the same, and the two forfeit games counted by hand. [PARALLEL.md](PARALLEL.md) describes how the `uP` run was parallelised: process pools for the chain, and workflow agents for the frame checks.
 
 ## How games.csv is made
 

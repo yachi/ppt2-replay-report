@@ -1,0 +1,592 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "u000",
+   "side": "p2",
+   "op": "retype",
+   "t": 161.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 2,
+   "source": "p2 I vertical at 162.2 clears 2 garbage rows (board 162.17 vs 162.70, /tmp/claude-0/xo/corr/fr/g1/n0b.png, /tmp/claude-0/xo/corr/fr/g1/n0.png); score +900 at 162.23 = double (REN already broken by the O at ~162.0), not a single (300)"
+  },
+  {
+   "n": 2,
+   "id": "u015",
+   "side": "p2",
+   "op": "retype",
+   "t": 973.13,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "J at right clears one stack row at 973.5 (white bar 973.5-973.7, REN label, /tmp/claude-0/xo/corr/fr/g1/n2.png); score +600 at 973.43 = single REN2; chain logged this lock as no clear"
+  },
+  {
+   "n": 7,
+   "id": "u096",
+   "side": "p1",
+   "op": "retype",
+   "t": 6084.77,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "piece locked ~6085.0 clears one stack row (white bar 6085.0-6085.3, '2 REN' label, /tmp/claude-0/xo/corr/fr/g1/n7.png); score +600 at 6085.03 = single REN2; this single also breaks B2B, which is why the tsd at 6086.83 scores 3600 not 5400 (item 8)"
+  },
+  {
+   "n": 9,
+   "id": "u096",
+   "side": "p2",
+   "op": "retype",
+   "t": 6064.57,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "T into slot, 'T-SPIN Double' banner + BACK at 6065.5 (/tmp/claude-0/xo/corr/fr/g1/n9.png); score +5550 at 6065.43 = B2B TSD 5400 + REN1"
+  },
+  {
+   "n": 10,
+   "id": "u100",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6257.53,
+   "t_end": 6259.23,
+   "events": [
+    {
+     "t": 6257.9,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 6258.74,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6259.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6257.53,
+     null,
+     0
+    ],
+    [
+     6257.9,
+     null,
+     0
+    ],
+    [
+     6257.9,
+     null,
+     0
+    ],
+    [
+     6257.9,
+     "quad",
+     4
+    ],
+    [
+     6259.23,
+     null,
+     0
+    ],
+    [
+     6259.23,
+     "single",
+     1
+    ]
+   ],
+   "source": "6257.5 Z spawns and is held, I comes out of hold and makes the quad at 6257.9; O spawns 6258.74 (no clear), J spawns 6259.2 -> single (/tmp/claude-0/xo/corr/fr/g1/n10a.png; nextcount shifts 6257.503, hold 6257.637, 6258.737, 6259.203). Chain logged 6 locks for 3 pieces"
+  },
+  {
+   "n": 14,
+   "id": "u113",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7110.8,
+   "t_end": 7127.43,
+   "events": [
+    {
+     "t": 7111.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7112.03,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7113.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7113.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7113.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7114.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7114.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 7115.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7116.36,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7117.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7117.96,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7118.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7118.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7120.13,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7121.4,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 7122.46,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 7123.46,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7123.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7124.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7124.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7124.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7127.43,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     7110.8,
+     null,
+     0
+    ],
+    [
+     7110.8,
+     null,
+     0
+    ],
+    [
+     7110.8,
+     "tst",
+     4
+    ],
+    [
+     7111.07,
+     "single",
+     1
+    ],
+    [
+     7111.7,
+     "tss",
+     1
+    ],
+    [
+     7112.63,
+     "double",
+     2
+    ],
+    [
+     7113.67,
+     null,
+     0
+    ],
+    [
+     7114.17,
+     null,
+     0
+    ],
+    [
+     7114.37,
+     null,
+     0
+    ],
+    [
+     7114.7,
+     "quad",
+     4
+    ],
+    [
+     7116.43,
+     "single",
+     1
+    ],
+    [
+     7117.33,
+     "single",
+     1
+    ],
+    [
+     7118.13,
+     "single",
+     1
+    ],
+    [
+     7118.83,
+     null,
+     0
+    ],
+    [
+     7119.17,
+     null,
+     0
+    ],
+    [
+     7120.57,
+     null,
+     0
+    ],
+    [
+     7120.73,
+     "tsd",
+     2
+    ],
+    [
+     7121.1,
+     "triple",
+     3
+    ],
+    [
+     7121.5,
+     "quad",
+     4
+    ],
+    [
+     7122.53,
+     "quad",
+     4
+    ],
+    [
+     7123.87,
+     null,
+     0
+    ],
+    [
+     7124.3,
+     null,
+     0
+    ],
+    [
+     7124.6,
+     null,
+     0
+    ],
+    [
+     7127.43,
+     "quad",
+     4
+    ]
+   ],
+   "covers": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "source": "Frames 7109.8-7127.6 (/tmp/claude-0/xo/corr/fr/g1/u113a.png..u113e.png) with nextcount spawns: L held/O single (7109.97, kept), T held/L single at 7111.6, J held/T TSD at 7112.6 (+4050); Z,T,J,O no clear then I quad at 7114.6 (gc3); S,Z,L singles (score +450/+624/+774 at 7115.73/7116.53/7117.37); O,S,Z no clear (garbage rises ~7120); T TSD 7120.6 (+3600, gc1), I quad 7121.6 (+3750), L triple 7122.8 (+1800 = 1500+REN2); J, J, Z, S, L no clear (L hangs until ~7127.4), I quad 7127.7 (+2400). The 7110.8 'tst'/T-SPIN Double banner is the lingering 7108.83 TSD banner; 7111.7 tss + 7112.63 double were one TSD. Covers items 13-20. 24 chain events -> 22"
+  },
+  {
+   "n": 22,
+   "id": "u122",
+   "side": "p2",
+   "op": "retype",
+   "t": 7552.53,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "source": "'T-SPIN Single' banner + BACK at 7553.2 (/tmp/claude-0/xo/corr/fr/g1/n22.png); score +3750 = B2B TSS 3600 + REN1"
+  },
+  {
+   "n": 23,
+   "id": "u126",
+   "side": "p2",
+   "op": "retype",
+   "t": 7739.57,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 1,
+   "source": "T stood in right column clears 2 rows (one stack row, one garbage row; bar 7739.9-7740.1, /tmp/claude-0/xo/corr/fr/g1/n23.png), no T-spin banner; score +1050 at 7739.87 = double 900 + REN1"
+  },
+  {
+   "n": 24,
+   "id": "u135",
+   "side": "p1",
+   "op": "retype",
+   "t": 8265.17,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "gc": 0,
+   "source": "T-SPIN Single banner + BACK, one-row white bar at 8265.6 (/tmp/claude-0/xo/corr/fr/g1/n24.png); score +3600 at 8265.60 = B2B TSS (a TST would be 7200). Also explains item 25"
+  },
+  {
+   "n": 29,
+   "id": "u138",
+   "side": "p2",
+   "op": "retype",
+   "t": 8391.07,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T placed at 8391.0 with only the small T-SPIN badge; rows unchanged before/after (8391.00 vs 8391.20, /tmp/claude-0/xo/corr/fr/g1/n29.png); score +300 = zero-line Mini T-spin; following triple scores 1518 (no REN), so no line was cleared"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 10,
+   "id": "u100",
+   "player": "p1",
+   "field": "pieces",
+   "was": 275,
+   "value": 272,
+   "source": "nextcount: init + 273 shifts, all k=1; minus first hold-into-empty, piece in hold at end and the Z active at KO (not locked, /tmp/claude-0/xo/corr/fr/g1/n11.png) = 272; chain's 3 extra locks are at 6257.53-6257.9 (/tmp/claude-0/xo/corr/fr/g1/n10a.png)"
+  },
+  {
+   "n": 13,
+   "id": "u113",
+   "player": "p2",
+   "field": "pieces",
+   "was": 67,
+   "value": 64,
+   "source": "nextcount: init + 65 shifts (all k=1) = 66 spawned; minus piece in hold at end and the Z still at the top at KO 7134.47 (hard-dropped at 7134.50, /tmp/claude-0/xo/corr/fr/g1/n21.png) = 64; agrees with the n=14 window count"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "+300 at 1021.33 is a zero-line Mini T-spin (small T-SPIN badge, no row removed, fr/g1/n1.png); chain None lock is right"
+  },
+  {
+   "n": 3,
+   "why": "T still falling (soft-drop points rising) at KO 2449.73, fr/g1/n3.png"
+  },
+  {
+   "n": 4,
+   "why": "J still at the top at KO, score unchanged, fr/g1/n4.png"
+  },
+  {
+   "n": 5,
+   "why": "T at the top after a hold swap at KO, fr/g1/n5.png"
+  },
+  {
+   "n": 6,
+   "why": "Z at the top at KO, fr/g1/n6.png"
+  },
+  {
+   "n": 8,
+   "why": "tsd at 6086.83 is real; it scores 3600 because the single fixed in n=7 broke B2B"
+  },
+  {
+   "n": 11,
+   "why": "Z at the top at KO 6377.17, fr/g1/n11.png"
+  },
+  {
+   "n": 12,
+   "why": "T still soft-dropping through KO 6958.93, fr/g1/n12.png"
+  },
+  {
+   "n": 15,
+   "why": "T-SPIN Double banner at 7110.8 lingers from the 7108.83 TSD; fixed in n=14 window"
+  },
+  {
+   "n": 16,
+   "why": "fixed in n=14 replace_window"
+  },
+  {
+   "n": 17,
+   "why": "fixed in n=14 replace_window"
+  },
+  {
+   "n": 18,
+   "why": "real TSD at 7120.6, placed at t 7120.13 in n=14 window"
+  },
+  {
+   "n": 19,
+   "why": "fixed in n=14 replace_window"
+  },
+  {
+   "n": 20,
+   "why": "fixed in n=14 replace_window"
+  },
+  {
+   "n": 21,
+   "why": "Z still at the top on the KO frame; hard drop lands at 7134.50, after KO, fr/g1/n21.png"
+  },
+  {
+   "n": 25,
+   "why": "explained by the n=24 retype (tst->tss)"
+  },
+  {
+   "n": 26,
+   "why": "J at the top at KO 8285.77, fr/g1/n26.png"
+  },
+  {
+   "n": 27,
+   "why": "+1200 at 8285.07 is a zero-line T-spin (T-SPIN badge, garbage rises, no row removed, fr/g1/n27.png); chain None at 8284.67 is right"
+  },
+  {
+   "n": 28,
+   "why": "score frozen from 8399.63 through KO; last piece not locked"
+  }
+ ]
+}

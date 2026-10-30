@@ -1,0 +1,1503 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "u039",
+   "side": "p1",
+   "op": "retype",
+   "t": 2535.57,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "score +3750 at 2535.80 (=TETRIS 2400x1.5 B2B +150 REN1), BACK to BACK + TETRIS banners; vertical I into left garbage well clears 4 garbage rows at 2535.77 (/tmp/claude-0/xo/corr/fr/g5/n1.png, /tmp/claude-0/xo/corr/fr/g5/n1b.png)"
+  },
+  {
+   "n": 5,
+   "id": "u044",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2770.37,
+   "t_end": 2773.53,
+   "events": [
+    {
+     "t": 2770.37,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2771.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2771.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2772.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2772.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2772.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2773.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2773.47,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     2770.37,
+     "quad",
+     4
+    ],
+    [
+     2771.0,
+     null,
+     0
+    ],
+    [
+     2771.0,
+     null,
+     0
+    ],
+    [
+     2771.0,
+     "tst",
+     4
+    ],
+    [
+     2772.0,
+     "quad",
+     4
+    ],
+    [
+     2773.53,
+     null,
+     0
+    ],
+    [
+     2773.53,
+     null,
+     0
+    ]
+   ],
+   "source": "score: only two clears in 2770.4-2776.6, +3750 at 2770.60 and +3600 at 2773.70 (both TETRIS B2B, TETRIS banners); 8 spawns (nextcount) / 8 hard-drop locks between them; no T-spin triple, no clear at 2771-2772; second I goes into the garbage well at 2773.65 (/tmp/claude-0/xo/corr/fr/g5/n5.png)"
+  },
+  {
+   "n": 8,
+   "id": "u061",
+   "side": "p2",
+   "op": "add",
+   "t": 3884.8,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "L spawned 3884.80 (NEXT shift), hard-dropped and locked ON the KO frame 3885.13 (score +8 at 3885.13, lock flash), no line full (/tmp/claude-0/xo/corr/fr/g5/n8.png)"
+  },
+  {
+   "n": 11,
+   "id": "u092",
+   "side": "p1",
+   "op": "add",
+   "t": 5820.0,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "L spawned 5820.00, hard-dropped and locked on KO frame 5820.10 (score +20 at 5820.10), no line cleared (/tmp/claude-0/xo/corr/fr/g5/n11.png)"
+  },
+  {
+   "n": 12,
+   "id": "u092",
+   "side": "p2",
+   "op": "remove",
+   "t": 5813.17,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "5813.07-5819.47: only one spawn (J, held at 5813.93, S out); the S falls by gravity untouched until it locks ~5819.4, score frozen at 18124; no other piece (/tmp/claude-0/xo/corr/fr/g5/n12.png, nextcount)"
+  },
+  {
+   "n": 12,
+   "id": "u092",
+   "side": "p2",
+   "op": "remove",
+   "t": 5813.3,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "5813.07-5819.47: only one spawn (J, held at 5813.93, S out); the S falls by gravity untouched until it locks ~5819.4, score frozen at 18124; no other piece (/tmp/claude-0/xo/corr/fr/g5/n12.png, nextcount)"
+  },
+  {
+   "n": 12,
+   "id": "u092",
+   "side": "p2",
+   "op": "remove",
+   "t": 5818.97,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "5813.07-5819.47: only one spawn (J, held at 5813.93, S out); the S falls by gravity untouched until it locks ~5819.4, score frozen at 18124; no other piece (/tmp/claude-0/xo/corr/fr/g5/n12.png, nextcount)"
+  },
+  {
+   "n": 17,
+   "id": "u101",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 6445.9,
+   "t_end": 6467.0,
+   "events": [
+    {
+     "t": 6446.4,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 6447.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6448.33,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6449.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6450.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6450.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6450.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6451.07,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6452.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6452.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6453.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6453.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6453.63,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 6454.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6455.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6455.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6455.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6455.9,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6457.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6458.13,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6459.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6459.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6459.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6460.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6460.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6460.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6461.03,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6461.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6462.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6462.7,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6463.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6464.17,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6465.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6465.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6465.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6465.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6466.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6445.97,
+     "BREAK",
+     4
+    ],
+    [
+     6446.4,
+     "triple",
+     3
+    ],
+    [
+     6447.0,
+     null,
+     0
+    ],
+    [
+     6447.0,
+     null,
+     0
+    ],
+    [
+     6448.43,
+     "single",
+     1
+    ],
+    [
+     6448.8,
+     "single",
+     1
+    ],
+    [
+     6449.9,
+     "single",
+     1
+    ],
+    [
+     6450.93,
+     null,
+     0
+    ],
+    [
+     6450.93,
+     null,
+     0
+    ],
+    [
+     6451.3,
+     null,
+     0
+    ],
+    [
+     6451.4,
+     "tsd",
+     2
+    ],
+    [
+     6451.8,
+     "double",
+     2
+    ],
+    [
+     6453.5,
+     null,
+     0
+    ],
+    [
+     6453.5,
+     null,
+     0
+    ],
+    [
+     6453.5,
+     null,
+     0
+    ],
+    [
+     6454.2,
+     "triple",
+     3
+    ],
+    [
+     6455.33,
+     null,
+     0
+    ],
+    [
+     6455.7,
+     null,
+     0
+    ],
+    [
+     6456.1,
+     null,
+     0
+    ],
+    [
+     6456.1,
+     null,
+     0
+    ],
+    [
+     6456.3,
+     "tsd",
+     2
+    ],
+    [
+     6456.6,
+     "double",
+     2
+    ],
+    [
+     6457.9,
+     "single",
+     1
+    ],
+    [
+     6458.47,
+     "double",
+     2
+    ],
+    [
+     6459.83,
+     "BREAK",
+     2
+    ],
+    [
+     6461.5,
+     "BREAK",
+     1
+    ],
+    [
+     6462.94,
+     "tsd",
+     2
+    ],
+    [
+     6463.37,
+     null,
+     0
+    ],
+    [
+     6463.43,
+     "BREAK",
+     5
+    ],
+    [
+     6465.07,
+     "BREAK",
+     0
+    ]
+   ],
+   "source": "rebuilt from NEXT-queue spawns (nextcount, 37 locks) and score jumps: single+REN3/4/5 at 6447.73/6448.60/6450.40, TSD +3600 6451.63, triple +1500 6453.90, TSD 6456.50, single 6457.53, double 6458.37, double +900 6461.17, TSD 6463.17, double +900 6464.33 (I in col 5, 1 garbage row), 5 locks to 6466.27; no double after any TSD (chain duplicates), spawn 6466.37 never locked (/tmp/claude-0/xo/corr/fr/g5/n17a.png, n17b.png, n17c.png, n17z.png)"
+  },
+  {
+   "n": 20,
+   "id": "u111",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7015.4,
+   "t_end": 7035.07,
+   "events": [
+    {
+     "t": 7015.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7015.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7015.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7016.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7016.87,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7017.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7018.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7018.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7018.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7019.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7019.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7019.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7020.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7020.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7020.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7020.8,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7022.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7022.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7022.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7023.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7023.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7023.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7023.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7024.4,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7025.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 7026.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7027.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7027.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7027.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7028.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7028.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7028.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7029.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7029.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7029.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7030.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7031.27,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 7032.47,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7033.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7033.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7033.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7034.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7034.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7035.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7015.4,
+     "tst",
+     4
+    ],
+    [
+     7015.47,
+     null,
+     0
+    ],
+    [
+     7016.1,
+     null,
+     0
+    ],
+    [
+     7016.1,
+     null,
+     0
+    ],
+    [
+     7016.83,
+     null,
+     0
+    ],
+    [
+     7016.93,
+     null,
+     0
+    ],
+    [
+     7017.87,
+     "double",
+     2
+    ],
+    [
+     7018.37,
+     null,
+     0
+    ],
+    [
+     7018.73,
+     null,
+     0
+    ],
+    [
+     7019.03,
+     null,
+     0
+    ],
+    [
+     7019.4,
+     null,
+     0
+    ],
+    [
+     7019.87,
+     null,
+     0
+    ],
+    [
+     7019.87,
+     null,
+     0
+    ],
+    [
+     7020.8,
+     null,
+     0
+    ],
+    [
+     7020.8,
+     null,
+     0
+    ],
+    [
+     7020.8,
+     null,
+     0
+    ],
+    [
+     7021.0,
+     null,
+     0
+    ],
+    [
+     7021.23,
+     "tsd",
+     2
+    ],
+    [
+     7021.3,
+     null,
+     0
+    ],
+    [
+     7021.4,
+     "BREAK",
+     3
+    ],
+    [
+     7023.0,
+     "BREAK",
+     1
+    ],
+    [
+     7024.57,
+     "BREAK",
+     3
+    ],
+    [
+     7024.7,
+     "tsd",
+     2
+    ],
+    [
+     7027.5,
+     "double",
+     2
+    ],
+    [
+     7027.5,
+     "quad",
+     4
+    ],
+    [
+     7028.03,
+     null,
+     0
+    ],
+    [
+     7028.43,
+     null,
+     0
+    ],
+    [
+     7028.43,
+     null,
+     0
+    ],
+    [
+     7028.9,
+     null,
+     0
+    ],
+    [
+     7028.9,
+     null,
+     0
+    ],
+    [
+     7029.23,
+     null,
+     0
+    ],
+    [
+     7029.6,
+     null,
+     0
+    ],
+    [
+     7029.87,
+     null,
+     0
+    ],
+    [
+     7030.53,
+     "quad",
+     4
+    ],
+    [
+     7031.73,
+     "quad",
+     4
+    ],
+    [
+     7033.03,
+     "double",
+     2
+    ],
+    [
+     7033.97,
+     null,
+     0
+    ],
+    [
+     7034.37,
+     null,
+     0
+    ],
+    [
+     7034.43,
+     null,
+     0
+    ],
+    [
+     7034.93,
+     null,
+     0
+    ],
+    [
+     7035.07,
+     null,
+     0
+    ]
+   ],
+   "source": "rebuilt from NEXT-queue spawns (nextcount, 44 spawns 7015.4-7035.07) and score jumps: the chain's tst@7015.4 has no score jump and no clear in frames (/tmp/claude-0/xo/corr/fr/g5/n21.png); clears per score: double, TSD, TSD +5400 B2B 7024.77, quad +3750 REN1, double +1226 REN2, quad, quad B2B, double"
+  },
+  {
+   "n": 23,
+   "id": "u115",
+   "side": "p1",
+   "op": "retype",
+   "t": 7190.3,
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "score +1050 = double 900 + REN1 150; two-row clear flash (/tmp/claude-0/xo/corr/fr/g5/n23.png)"
+  },
+  {
+   "n": 24,
+   "id": "u115",
+   "side": "p1",
+   "op": "retype",
+   "t": 7224.6,
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 1,
+   "source": "score +5550 = TSD B2B 5400 + REN1 150"
+  },
+  {
+   "n": 27,
+   "id": "u133",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 8046.3,
+   "t_end": 8055.93,
+   "events": [
+    {
+     "t": 8046.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8046.83,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8047.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8048.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8049.53,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8050.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8051.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8051.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8052.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8052.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8052.63,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8053.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8053.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8054.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8054.27,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     8046.37,
+     null,
+     0
+    ],
+    [
+     8046.67,
+     null,
+     0
+    ],
+    [
+     8046.97,
+     null,
+     0
+    ],
+    [
+     8047.0,
+     "tsd",
+     2
+    ],
+    [
+     8047.37,
+     "double",
+     2
+    ],
+    [
+     8048.93,
+     "single",
+     1
+    ],
+    [
+     8049.7,
+     "single",
+     1
+    ],
+    [
+     8050.47,
+     "single",
+     1
+    ],
+    [
+     8050.8,
+     "single",
+     1
+    ],
+    [
+     8051.9,
+     null,
+     0
+    ],
+    [
+     8052.17,
+     null,
+     0
+    ],
+    [
+     8052.5,
+     null,
+     0
+    ],
+    [
+     8052.7,
+     null,
+     0
+    ],
+    [
+     8052.97,
+     "double",
+     2
+    ],
+    [
+     8053.93,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "chain's double@8047.37 duplicates the TSD (one +3600 jump); double @8054.27 missed (score jump, 2-row flash); spawn 8055.3 never locked before KO (/tmp/claude-0/xo/corr/fr/g5/n27.png, n27b.png)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 8,
+   "id": "u061",
+   "player": "p2",
+   "field": "pieces",
+   "was": 104,
+   "value": 105,
+   "source": "KO-frame lock above; full-game NEXT count 105 shifts +1 initial -1 held = 105"
+  },
+  {
+   "n": 11,
+   "id": "u092",
+   "player": "p1",
+   "field": "pieces",
+   "was": 48,
+   "value": 49,
+   "source": "KO-frame lock; full-game NEXT count 49 shifts +1 -1 held = 49"
+  },
+  {
+   "n": 12,
+   "id": "u092",
+   "player": "p2",
+   "field": "pieces",
+   "was": 37,
+   "value": 34,
+   "source": "full-game NEXT count 35 shifts +1 -1 held -1 unlocked last spawn 5819.47 = 34; 3 phantom B locks removed"
+  },
+  {
+   "n": 17,
+   "id": "u101",
+   "player": "p2",
+   "field": "pieces",
+   "was": 144,
+   "value": 146,
+   "source": "full-game NEXT count: 147 shifts (shift at 6447.07 k=3 is a resync glitch = 0) +1 initial -1 held -1 unlocked last spawn = 146; unk intervals have continuous queues"
+  },
+  {
+   "n": 17,
+   "id": "u101",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 3,
+   "value": 6,
+   "source": "score: single +300 6444.27, double +1050 (REN1) 6445.67, triple +1800 (REN2) 6446.70, single +750 (REN3) 6447.73, +900 (REN4) 6448.60, +1050 (REN5) 6450.40: 6 consecutive clears"
+  },
+  {
+   "n": 20,
+   "id": "u111",
+   "player": "p2",
+   "field": "pieces",
+   "was": 81,
+   "value": 77,
+   "source": "full-game NEXT count 78 shifts +1 initial -1 held -1 unlocked = 77; unk intervals have continuous queues"
+  },
+  {
+   "n": 20,
+   "id": "u111",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 2,
+   "value": 3,
+   "source": "score: TSD 7024.77, quad +3750 (REN1), double +1226 (REN2): 3 consecutive clears"
+  },
+  {
+   "n": 27,
+   "id": "u133",
+   "player": "p2",
+   "field": "pieces",
+   "was": 64,
+   "value": 63,
+   "source": "full-game NEXT count 64 shifts +1 initial -1 held -1 unlocked = 63"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "O piece still at top (ghost below) through KO 1735.7; no lock, NEXT unchanged (/tmp/claude-0/xo/corr/fr/g5/n0.png)"
+  },
+  {
+   "n": 2,
+   "why": "+1200 at 2748.20 is a zero-line T-SPIN (banner reads only 'T-SPIN', no Single/Double) by the T of chain lock 2746.6 (S swapped for held T); a non-clear lock is already logged (/tmp/claude-0/xo/corr/fr/g5/n2.png, n2b.png)"
+  },
+  {
+   "n": 3,
+   "why": "T still soft-dropping at KO 2748.97 (score +1/frame through 2749.03, piece moving); not locked (/tmp/claude-0/xo/corr/fr/g5/n3.png)"
+  },
+  {
+   "n": 4,
+   "why": "bad bag caused by a misread 3-step shift at 2770.90 (queue JOZJO -> OZJOT over the window is 1 spawn); full-game NEXT count = 148 = csv, so no piece edit; events fixed under n=5"
+  },
+  {
+   "n": 6,
+   "why": "the T-SPIN Single banner at 2771.0 is the lingering banner of the TSS at 2769.7; real clear is a TETRIS (banner visible 2771.15-2771.9); fixed by the n=5 replace_window"
+  },
+  {
+   "n": 7,
+   "why": "J at top through KO 3171.97, not locked (/tmp/claude-0/xo/corr/fr/g5/n7.png)"
+  },
+  {
+   "n": 9,
+   "why": "clear at 4700.87 scores +1500 = single 300 + REN8 1200 (a TSS would be 3600); plain single is right"
+  },
+  {
+   "n": 10,
+   "why": "O at top with ghost below through KO 4980.8; not locked (/tmp/claude-0/xo/corr/fr/g5/n10.png)"
+  },
+  {
+   "n": 13,
+   "why": "L still at top at KO 6467.0 (/tmp/claude-0/xo/corr/fr/g5/n13.png)"
+  },
+  {
+   "n": 14,
+   "why": "banner TSD at 6451.4 is real (score +3600); the chain's tsd is kept, its duplicate double and the lost tail are fixed by the n=17 replace_window"
+  },
+  {
+   "n": 15,
+   "why": "banner TSD at 6456.3 is real (score +3600); the chain's tsd is kept, its duplicate double and the lost tail are fixed by the n=17 replace_window"
+  },
+  {
+   "n": 16,
+   "why": "banner TSD at 6462.94 is real (score +3600); the chain's tsd is kept, its duplicate double and the lost tail are fixed by the n=17 replace_window"
+  },
+  {
+   "n": 18,
+   "why": "Z soft-dropped to rest by 6564.00 (score +1/frame to 140710, then frozen), no lock flash, no NEXT shift, no clear before the やった banner; still active at KO (/tmp/claude-0/xo/corr/fr/g5/n18.png)"
+  },
+  {
+   "n": 19,
+   "why": "slot-5 reread ~7036.9; full NEXT queue continuous across the bag; piece count handled by n=20 cell edit"
+  },
+  {
+   "n": 21,
+   "why": "no clear at 7015.4 (no score jump, board unchanged, /tmp/claude-0/xo/corr/fr/g5/n21.png); fixed by n=20 replace_window"
+  },
+  {
+   "n": 22,
+   "why": "TSD at 7024.7 is real (score +5400 = TSD B2B); kept in n=20 window"
+  },
+  {
+   "n": 25,
+   "why": "T still soft-dropping at KO, not locked (/tmp/claude-0/xo/corr/fr/g5/n25.png)"
+  },
+  {
+   "n": 26,
+   "why": "TSD real (+3600 at 8047.13); its duplicate double is fixed by the n=27 replace_window"
+  },
+  {
+   "n": 28,
+   "why": "T soft-dropped to rest by 8363.50 (score +1/frame to 52208 then frozen), no lock flash, no NEXT shift before the やった banner; still active at KO (/tmp/claude-0/xo/corr/fr/g5/n28.png)"
+  }
+ ]
+}
