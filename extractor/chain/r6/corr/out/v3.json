@@ -1,0 +1,280 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "2025.3-2027.3 (fr/v3/n025b.png): only Z, S and J (double ~2027.05) locked after the TSD; chain has 4 events, so 2026.03 is the excess; score 10809 flat to 2026.4"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "PERFECT CLEAR banner from 2028.3 over an empty board after the I single (fr/v3/n025a.png); +2886"
+ },
+ {
+  "ref": "e2",
+  "verdict": "amend",
+  "why": "no clear 2028.6-2030.7 (score 14741->14988 drops), but 2029.3 is a real lock: O, O, Z placed ~2028.6, ~2029.0, ~2029.25 (fr/v3/n025a.png, fr/v3/n025c.png); chain already undercounts locks here (O,O,Z,S,L,J,I before the TSD vs 3 chain locks), so retype to a plain lock, do not remove",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e3",
+  "verdict": "amend",
+  "why": "only one clear 2031-2033.4 (TSD +3612, then 18600->18691 drops), but the chain undercounts locks in this window (fr/v3/n025c.png: 8 real locks 2028.6-2031.7 vs 4 chain events), and 2031.77 is the piece after the TSD; retype to a plain lock",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e4",
+  "verdict": "amend",
+  "why": "no second clear after the TSD at 2039.0 (35087 flat to 2040.0), but a blue J locks at ~2040.0 (+24) and a red Z at ~2040.3 (+24) before the I (fr/v3/n025d.png); 2039.3 is the J's lock, so retype to a plain lock",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e5",
+  "verdict": "amend",
+  "why": "the TETRIS is real (vertical I, 4 rows white 2040.6, 35135->38763) but the I spawned ~2040.3 and is the chain's existing None at 2040.33; adding a new event double-counts that lock. Retype 2040.33 instead (fr/v3/n025d.png)",
+  "amended": {
+   "op": "retype",
+   "t": 2040.33,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2
+  }
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score 44404->48004 (+3600, B2B quad) at 2047.03; no chain clear there"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score +5550 at 2880.1 (TSD B2B + REN); no chain event 2877.87-2881.07"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "+600 at 2880.97 = single 300 + REN; T-SPIN banner lingered"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "one 2-line clear leaving an empty board, PERFECT CLEAR banner 2882.4 (fr/v3/n031a.png); +4612"
+ },
+ {
+  "ref": "e10",
+  "verdict": "amend",
+  "why": "only one clear (the PC double) is right, but 2882.37 is a real lock: after the PC an I spawned, went to hold, and the held red Z was placed ~2882.6, then J ~2882.85 (fr/v3/n031a.png). Locks I, O, L(PC), Z, J match the 5 chain events 2881.6-2882.7; retype to a plain lock rather than remove",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "one +3600 at 2990.63, nothing else until the triple 2993.4; drop increments show 5 locks 2991.9-2993.4 against 6 chain events, so removing the extra is fine"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "+464 at 3355.3 after the quad (3354.1 +3600) and before the TSD"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "I spawned 3357.15 and cleared one garbage row at 3357.45 (+766 = single + REN3); the L then made the double (+1522 at 3358.63) = chain double 3357.93 (fr/v3/n035a.png)"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "+2400 at 3824.87 (TSS without B2B); a TST would be far more"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "+3767 by 3826.4 = quad B2B + REN; no chain event 3824.27-3826.87"
+ },
+ {
+  "ref": "e16",
+  "verdict": "amend",
+  "why": "no clear 3833.6-3836.0 (score 122663 flat apart from drops) is right, but hard-drop increments at 3834.07, 3834.43, 3834.77, 3834.9, 3835.23 show 5 locks before the TSD while the chain has only 3833.87, 3834.2, 3836.1; 3834.2 is a real lock, retype to plain",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "+5400 at 3847.73 = TSD B2B (TST B2B would be 7200)"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "+750 then +3000 by 3848.73 = quad B2B + REN; no chain event 3847.1-3849.13"
+ },
+ {
+  "ref": "e19",
+  "verdict": "amend",
+  "why": "no clear 4516.7-4519.2 (10791 flat but drops) is right, but drop increments at 4517.83, 4518.23, 4518.37, 4518.73 give 4 locks plus the triple piece = 5, matching chain 4517.43, 4517.87, 4518.33, 4518.47, 4518.83; 4517.43 is a real lock, retype to plain",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e20",
+  "verdict": "amend",
+  "why": "triple is real (+1508 at 4655.2, 3 white rows), but locks 4653.9-4655.2 are O, T, Z (L held), I = 4 against 5 chain events (duplicates at 4654.07 and 4655.03) (fr/v3/n051a.png); the I spawned ~4655.0, so retype one 4655.03 None instead of adding a sixth event",
+  "amended": {
+   "op": "retype",
+   "t": 4655.03,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "+1300 at 5259.5 (single + REN); no chain event between tss 5258.27 and 5260.03; TSD later scored 3600"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "+450 at 5274.3 after quad 5273.0 (+3600); no chain event 5272.7-5274.7"
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "only one +3664 between 5457.6 and 5458.57; chain quad 5458.13 covers it"
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "2 rows clear leaving an empty board, PERFECT CLEAR banner 5520.6 (fr/v3/n059a.png); 406836 (5519.07) -> 411405"
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "after the PC: S held, I placed with no clear, 411405->411443 drops (fr/v3/n059a.png)"
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "only one jump 6865.07-6865.93 (+5412, the TSD); none at 6864.6"
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "TETRIS banner 6872.05 on white garbage rows, 33573 by 6872.35 (fr/v3/n075a.png)"
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "O spawned and held, S out of hold placed right, single at 6873.4, 34196 (fr/v3/n075a.png)"
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "one jump 34367->37991 by 6877.3; no second clear"
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "T placed bottom-left 6895.32, one garbage row white 6895.44-6895.7 (fr/v3/n075b.png)"
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "S placed 6896.25, no clear, 66000->66032 (fr/v3/n075b.png)"
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "I laid flat 6896.55, no clear, 66032->66062 (fr/v3/n075b.png)"
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "TETRIS + PERFECT CLEAR at 7096.2, empty board, 68495->85274 (fr/v3/n077a.png)"
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "after the PC, O held, L placed with no clear (85274->85311) (fr/v3/n077a.png)"
+ },
+ {
+  "ref": "e35",
+  "verdict": "keep",
+  "why": "S still at the top at 7229.20 (79174); on 7229.23 it is down (79212) on the same frame the opponent board tilts (fr/v3/n079a.png). The tilt reads at 7229.23 rather than end_s 7229.20, so the lock is on the KO frame; one-frame call, accepted"
+ },
+ {
+  "ref": "e36",
+  "verdict": "keep",
+  "why": "T set high-left 7815.1, no row cleared, T-SPIN label, +300 at 7815.3 = zero-line mini (fr/v3/n088a.png)"
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "+3618 at 7873.07 = quad B2B; a TST B2B would be 7200"
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "T into the slot 7874.4, one white row 7874.9, score 24348->28016 (+3668, TSS B2B; the 26018 reading is a 8/6 misread) (fr/v3/n089a.png)"
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "+1362 at 7887.67 after the chain single (37991 at 7886.77); no chain event 7886.17-7887.93"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "B2B run confirmed by scores: TSD 2031.7 at 3612 (no B2B, run start) then TSD 2035 +5429, TSD 2037 +5407, TSD 2039 +5400, quad 2040.6 +3652, TSD 2045 +5408, quad 2047 +3600, TSS 2049.4 +3600, quad 2051.8 +3722 = 8 B2B clears, which matches the chain's convention (was 2 = two B2B TSDs after the TST)"
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "S hard-dropped on the KO frame (see e35)"
+ }
+]

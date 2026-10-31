@@ -1,0 +1,513 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "PC triple at 1460.87 confirmed: board empty after (fr/v1/n018.png)"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "second spawn is an I locking with no clear (fr/v1/n018.png)"
+ },
+ {
+  "ref": "e2",
+  "verdict": "amend",
+  "why": "nextcount confirms 15 spawns, TSD ~2479.1 (+5416), double 2482.03 (+900), quad 2483.7; but the double cleared one garbage row (3 grey rows before, 2 after, well filled the top grey row) so its gc is 1 not 0 (fr/v1/n029c.png)",
+  "amended": {
+   "n": 46,
+   "id": "n029",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2476.9,
+   "t_end": 2484.2,
+   "events": [
+    {
+     "t": 2477.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2477.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2478.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2478.3,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2479.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2479.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2480.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2481.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2481.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2481.65,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2482.03,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 2482.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2483.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2483.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2483.7,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     2476.97,
+     null,
+     0
+    ],
+    [
+     2477.53,
+     "tst",
+     4
+    ],
+    [
+     2478.27,
+     null,
+     0
+    ],
+    [
+     2478.27,
+     null,
+     0
+    ],
+    [
+     2478.27,
+     null,
+     0
+    ],
+    [
+     2478.43,
+     "BREAK",
+     3
+    ],
+    [
+     2479.0,
+     "tsd",
+     2
+    ],
+    [
+     2479.97,
+     "BREAK",
+     0
+    ],
+    [
+     2481.9,
+     "BREAK",
+     2
+    ],
+    [
+     2483.87,
+     null,
+     0
+    ],
+    [
+     2483.87,
+     null,
+     0
+    ],
+    [
+     2484.1,
+     "quad",
+     4
+    ]
+   ],
+   "source": "6rUc3cXsjbo nextcount 15 shifts 2477.23-2483.7; O spawned/held, T out -> TSD +5400 at 2479.13; double +900 at 2482.20; quad +2516 at 2484.47 (/tmp/claude-0/r6/corr/fr/g1/n029a.png)"
+  }
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "+1518 at 2526.5 = I triple gc0, then TSD +3628 at 2528.5"
+ },
+ {
+  "ref": "e4",
+  "verdict": "amend",
+  "why": "TETRIS +3600 at 2532.2 is right, but it cleared one grey row: the top garbage row (hole col 2) is gone after (fr/v1/n029h.png)",
+  "amended": {
+   "n": 49,
+   "id": "n029",
+   "side": "p2",
+   "op": "retype",
+   "t": 2531.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 1,
+   "source": "6rUc3cXsjbo TETRIS +3600 at 2532.2; no jump for 2533.03; only TSD at 2538.87 then TSD 2542.8, drop scores show 10 locks (/tmp/claude-0/r6/corr/fr/g1/n029c.png)"
+  }
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "no score jump 2532.2-2534.5"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "the 'double' at 2538.97 is garbage rising at 2539.3: no score change, no new piece; next piece is the J at 2539.65 (fr/v1/n029f.png)"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "only drop points 2544.8-2548.0"
+ },
+ {
+  "ref": "e8",
+  "verdict": "amend",
+  "why": "REN runs TST 7207 (REN0), TST 7350 (REN1), single +600 (REN2), double +1368 (REN3), single +922 (REN4), double +1672 (REN5): no non-clearing piece between the second TST and the single, frames show T TST then T single (fr/v1/n029i.png), so 2549.17 is a duplicate spawn, not a no-clear lock",
+  "amended": {
+   "n": 50,
+   "id": "n029",
+   "side": "p2",
+   "op": "remove",
+   "t": 2549.17,
+   "was": [
+    "triple",
+    3,
+    0
+   ]
+  }
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score jumps and REN steps in 2549-2556 agree with the proposal"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "score jumps and REN steps in 2549-2556 agree with the proposal"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "score jumps and REN steps in 2549-2556 agree with the proposal"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score jumps and REN steps in 2549-2556 agree with the proposal"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "score jumps and REN steps in 2549-2556 agree with the proposal"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "+2276 total = double REN1 + double REN2, followed by single REN3 +765"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "same as e14"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "REN arithmetic +766/+916/+2290 needs a single at 2657.7"
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "2684.0 quad +2400; +1050 at 2685.5 = B2B mini REN1; +3928 B2B quad REN2; 2685.6 is the held S (no lock); singles +778/+932, quad +2462, double +928 consistent"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "2684.0 quad +2400; +1050 at 2685.5 = B2B mini REN1; +3928 B2B quad REN2; 2685.6 is the held S (no lock); singles +778/+932, quad +2462, double +928 consistent"
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "2684.0 quad +2400; +1050 at 2685.5 = B2B mini REN1; +3928 B2B quad REN2; 2685.6 is the held S (no lock); singles +778/+932, quad +2462, double +928 consistent"
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "2684.0 quad +2400; +1050 at 2685.5 = B2B mini REN1; +3928 B2B quad REN2; 2685.6 is the held S (no lock); singles +778/+932, quad +2462, double +928 consistent"
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "2684.0 quad +2400; +1050 at 2685.5 = B2B mini REN1; +3928 B2B quad REN2; 2685.6 is the held S (no lock); singles +778/+932, quad +2462, double +928 consistent"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "2684.0 quad +2400; +1050 at 2685.5 = B2B mini REN1; +3928 B2B quad REN2; 2685.6 is the held S (no lock); singles +778/+932, quad +2462, double +928 consistent"
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "single +461 = REN1 after triple +1531"
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "TSS +2412 follows"
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "at KO the O was held and the I came out of hold; the I is locked (442470) on the 2816.07 frame (fr/v1/n029l.png)"
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "no TST at 2936.43; only TSD +5457 at 2940.47"
+ },
+ {
+  "ref": "e27",
+  "verdict": "amend",
+  "why": "O none, T TST +7200 (REN0), L held/J out double +1070 (REN1), I triple +1822 (REN2): only 4 spawns for 5 chain events, so 2942.63 is an extra event to delete, not a no-clear lock (fr/v1/n031d.png)",
+  "amended": {
+   "n": 59,
+   "id": "n031",
+   "side": "p2",
+   "op": "remove",
+   "t": 2942.63,
+   "was": [
+    "triple",
+    3,
+    0
+   ]
+  }
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "clears 2949-2958 (singles 2949.9/2950.9/2951.9, double 2952.9, single 2954.9, quad 2956.4, double 2957.9) give the same totals"
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "same as e28"
+ },
+ {
+  "ref": "e30",
+  "verdict": "amend",
+  "why": "the quad is right but the I filled a 4-deep garbage well: about 13 grey rows before, 9 after, no coloured row cleared; gc 4 not 0 (fr/v1/n031b.png)",
+  "amended": {
+   "n": 59,
+   "id": "n031",
+   "side": "p2",
+   "op": "add",
+   "t": 2956.0,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "6rUc3cXsjbo TSD banner belongs to tsd 2940.03 (+5418); TST +7200 at 2942.37 only; +450@2949.83, +928@2953.27, quad +2400@2956.33, TETRIS@2962.6, +914@2966.33, +1668@2967.77 (/tmp/claude-0/r6/corr/fr/g1/n031a.png) (gc uncertain)"
+  }
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "quad +2400 at 2962.37; gc 1 not refuted"
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "+914 for one line after a no-clear lock = B2B mini"
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "triple REN1 +1668"
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "seven consecutive REN singles (+750 ... +1686), so 4070.2 must have cleared"
+ },
+ {
+  "ref": "e35",
+  "verdict": "keep",
+  "why": "triple at 4350.8, no TST, quad +2420 at 4353.6 (fr/v1/n048a.png)"
+ },
+ {
+  "ref": "e36",
+  "verdict": "amend",
+  "why": "a single does clear in this stretch, but only one: the J spawned 4364.17 locks with no clear (score shows only hard-drop points 43505->43589 from 4363.8 to 4365.0), the S at 4364.6 locks with no clear, and the Z spawned 4364.73 (chain BREAK) makes the single (flash 4365.1, score count-up from 4365.37) (fr/v1/n048c.png). Adding a single while keeping the chain's 4364.17 single would double-count it",
+  "amended": {
+   "n": 65,
+   "id": "n048",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4364.0,
+   "t_end": 4364.8,
+   "events": [
+    {
+     "t": 4364.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4364.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4364.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "J at ~4368.0 clears two rows (white 4368.2-4368.4), score 43836 -> 44790 (fr/v1/n048d.png)"
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "only one T-spin jump here (+3675 TSD at 4639.97); a TST would add 4800"
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "I vertical at the right clears 4: before 2 coloured + 5 garbage rows, after 1 coloured + 2 garbage rows, so 1 coloured + 3 garbage; gc 3 confirmed; +3600 B2B (fr/v1/n051z.png, n051a.png)"
+ },
+ {
+  "ref": "e40",
+  "verdict": "keep",
+  "why": "TSD +5400 at 4644.27 and TSD +5400 at 4646.43 are both B2B, so no double between them"
+ },
+ {
+  "ref": "e41",
+  "verdict": "keep",
+  "why": "+3801 at 4698.47 = single + PC bonus; PC banner"
+ },
+ {
+  "ref": "e42",
+  "verdict": "keep",
+  "why": "L at 4705.2 clears two rows (white 4705.35), score 24164 -> 25248, B2B break (fr/v1/n053b.png)"
+ },
+ {
+  "ref": "e43",
+  "verdict": "keep",
+  "why": "+1224 at 4960.10 = double REN2 after TSS/TSD; the later +775/+924/+1680 are REN3/4/5, which need it"
+ },
+ {
+  "ref": "e44",
+  "verdict": "keep",
+  "why": "one +2734 jump (quad REN2) at 6654.30; two quads would add twice"
+ },
+ {
+  "ref": "e45",
+  "verdict": "keep",
+  "why": "I quad 6669.2 (+3750, 4 coloured rows), then J locks without a clear, O held (fr/v1/n070a.png)"
+ },
+ {
+  "ref": "e46",
+  "verdict": "keep",
+  "why": "I vertical in the left well at 6670.7 clears 4 garbage rows (well col 0 open through the top 4 grey rows), +3600 at 6670.80 (fr/v1/n070a.png)"
+ },
+ {
+  "ref": "e47",
+  "verdict": "keep",
+  "why": "56903 + 1226 (double REN2) + 1375 (double REN3) = 59504 exactly, read at 7294.00; a single would land ~58900"
+ },
+ {
+  "ref": "e48",
+  "verdict": "keep",
+  "why": "nextcount p2 7918.2-7929.6 gives 19 shifts at the listed times; score 25572 -> 27173 across the hidden 7918.6-7921.1 is the triple only, so the chain's 7919.3 quad is not real; quad +2480 non-B2B at 7922.83 with garbage 5->4 rows (gc1, fr/v1/n090b.png); TSD +5400, TSD +5407, triple +1680 (REN1) clearing 3 of 7 grey rows (gc3), double I at 7929.4 clearing 2 of 4 grey rows (gc2), locked before KO 7929.53 (fr/v1/n090a.png)"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "the I comes out of hold and is locked on the 2816.07 KO frame, so pieces 659 -> 660 (fr/v1/n029l.png)"
+ }
+]

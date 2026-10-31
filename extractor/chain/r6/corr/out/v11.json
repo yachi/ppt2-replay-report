@@ -1,0 +1,304 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "p2 score 638-648: only one TSD jump (+5550 at 644.13); the L spawned ~644.9 made the +300 single at 645.4 and the Z after it locked clean, so the 644.87 tsd is a phantom (single/None shifted one spawn, counts right). fr/v11/n007.png"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "PERFECT CLEAR banner over an empty board at 646.8, two bottom rows cleared, +4500 at 646.63. fr/v11/n007.png"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Only two TSS-sized jumps after the TST (1827.33 +3750, 1830.90 +3609) against three chain tss; nothing between 1827.4 and 1830.8 but drops, so 1827.97 is the phantom."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "1908.6 L spawned and locked flat; I spawned ~1909.2, TETRIS at 1909.5 (+3662, banner at 1910.1). One quad and no triple/TST in 1908-1913; with e9 the clear counts are right (time sits one spawn late, harmless). fr/v11/n023a.png"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "TETRIS banner and 4-row band at 1918.2-1919.0, +3632 at 1918.43; no chain clear there; garbage row unchanged so gc0. fr/v11/n023b.png"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "I vertical 1922.2, 4-row band 1922.4, TETRIS banner 1922.8, +3686; no chain clear. fr/v11/n023c.png"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "1933.2 one-row band with 'Single'+BACK banner, +3600 = TSS B2B, not TSD (5400). fr/v11/n023d.png"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "+1072 at 1934.47 (double REN1 1050 + drops), clear band at 1934.2. fr/v11/n023d.png"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "+626 at 1935.53 (single REN2 600 + drops), band at 1935.2. fr/v11/n023d.png"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "No triple-sized jump anywhere 1907.9-1913.2; the 1908.57 spawn is the L placed without a clear (see e3). fr/v11/n023a.png"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "Score REN chain: tss 2072.83 (+3750 REN1), tss 2075.80 (+3600), quad +3758 (REN1), quad +3900 (REN2), then +1350 at 2078.47 = double REN3 (900+450); a single would be 750."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "Singles at REN2..REN5 score 600/775/925/1079 (single + 150/REN step); a Mini would be 1350. Also the quad at 2132.07 scored 2400 with no B2B, which a tsmini (B2B-keeping) would not allow."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "O spawned ~2175.95 and locked with no clear; only one TETRIS (+2420 at 2177.10, no REN bonus, so a clean lock preceded it). fr/v11/n026c.png"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "I from 2176.55 dropped vertically into the garbage well at 2176.7; the 4 rows cleared at 2176.85 are all garbage rows; TETRIS banner 2177.3. fr/v11/n026c.png"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "4-row band 3172.1 and TETRIS banner 3172.7, +3624 (B2B quad); no T placed. gc2 kept as chain had it (band reaches into the garbage top). fr/v11/n034a.png"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "TETRIS banner 3177.5-3177.7, score 75167->78767 (+3600, read in two steps 76767 then 78767); no chain clear there; garbage height unchanged, gc0. fr/v11/n034b.png"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "TSD +5550 (REN1) at 3185.40 is followed by the quad at +3900 = REN2, so no double came between them."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "Score jumps 3191.23 +470, 3192.10 +622, 3193.37 +772, 3194.23 +2122, 3195.00 +2276, 3196.03 +1228 are exactly single/single/single/triple/triple/single at REN1-6; was_old matches the chain window exactly. gc values not re-measured."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "3205.6 double (+1050), 3207.4 T locked with a 'SPIN' label (zero-line), I vertical 3207.8 into the garbage well, 4-row band in the garbage at 3208.0, TETRIS banner 3208.6; 119383->123044. fr/v11/n034c.png"
+ },
+ {
+  "ref": "e19",
+  "verdict": "amend",
+  "why": "REN chain 450/600/778/920/1072/1224/2576/1500 = singles REN1-6, triple REN7, single REN8, so 5189.9 is a single; but the one row cleared at ~5189.9 is the coloured surface row above the garbage, so gc must be 0, not the chain's 2 (a single cannot clear 2 garbage rows). fr/v11/n058a.png",
+  "amended": {
+   "kind": "single",
+   "lines": 1,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "Score after the TETRIS (5556.20 +3684): TSD +5400 at 5557.83, TSD +5550 (REN1) at 5559.20, quad 5560.87; only two TSDs against the chain's three."
+ },
+ {
+  "ref": "e21",
+  "verdict": "amend",
+  "why": "T into the right-side slot 5571.9-5572.2, two-row band 5572.35, 'BACK' banner, +5400 = TSD B2B. The two rows are coloured rows above the garbage (garbage height unchanged), so gc should be 0, not the chain's 4. fr/v11/n060a.png",
+  "amended": {
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "Only one T-spin jump between the quad (7047.17 +2418) and 7051.5: +5550 at 7048.33 (TSD B2B REN1)."
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "+5550 at 7048.33 = TSD B2B + REN1; a TST would be 7200+."
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "After the TST (7054.73 +7200) the next jump is +900 at 7056.50 (plain double), then the quad +2444 with no B2B, consistent with a double between."
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "Frames: L triple at 7066.6 (+1500, 3 coloured rows, gc0), one-row clear at 7067.75 with REN label, T and O locked clean, I vertical tetris 7069.6 (+2400, no REN, no B2B), TSS with Single+BACK at 7073.3 (+3600), tetris 7075.0 (+3656). No double after the TSD and no TST. was_old matches the chain exactly. gc of the singles/quads are estimates. fr/v11/n077c.png, fr/v11/n077d.png"
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "I into the left well at 7078.9, 4-row band 7079.1, TETRIS banner 7079.7, +3620; garbage unchanged (gc0); no chain clear. fr/v11/n077g.png"
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "Score unreadable 7098.9-7100.4 but frames show a one-row band with 'Single' and REN at 7099.2 after the TSS band at 7098.5, then a ~3-row band at 7100.2; 70965->73223 = single REN1 (450) + triple REN2 (1800). fr/v11/n077e.png"
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "~3-row band at 7100.2 (see e27). gc2 is an estimate. fr/v11/n077e.png"
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "Two-row band at 7111.35 (+914, double with no REN) and one-row band at 7113.1 (+~300) before the KO at 7114.37; both rows coloured, gc0. fr/v11/n077f.png"
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "+472 at 7133.73 = single REN1 after the TSD."
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "+1800 at 7134.63 = triple REN2 (score then reads 18515 steadily)."
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "10815->16215 = +5400 = TSD B2B (TST B2B would be 7200)."
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "Jumps: quad 7271.90 (+3767), quad 7274.60 (+3622, no REN so a clean lock between); nothing at the 7273.0 spawn."
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "+3782 at 7318.43 = quad B2B + REN1 (triple REN1 would be 1650)."
+ },
+ {
+  "ref": "e35",
+  "verdict": "keep",
+  "why": "After the quad (8169.27 +3600) the next jump is the TSD +5400 at 8172.00; nothing for the 8169.67 tst."
+ },
+ {
+  "ref": "e36",
+  "verdict": "keep",
+  "why": "I vertical 8173.0, 4-row band 8173.2 above the garbage, TETRIS banner 8173.6, +3750 (B2B+REN1). fr/v11/n094c.png"
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "I vertical into the right garbage well 8174.6, band 8174.8, TETRIS 8175.2, +3600; the I's lower 3 cells sat in garbage rows, gc3. fr/v11/n094c.png"
+ },
+ {
+  "ref": "e38",
+  "verdict": "amend",
+  "why": "Tetris is real: I vertical at 8238.1, band 8238.25, TETRIS banner 8238.75 at the KO frame, 150148->153774. But the four rows cleared are the coloured rows above the garbage; the garbage block is unchanged after, so gc is 0, not 1. fr/v11/n094e.png",
+  "amended": {
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "TETRIS banner at 8184.3 with '4 REN', +3014 = quad + REN4 (600). Note the same window holds more unlogged clears; see the n501 'missed' entry. fr/v11/n094b.png"
+ },
+ {
+  "ref": "e40",
+  "verdict": "keep",
+  "why": "4-row band 8200.1-8200.3 above the garbage, +3600 (87153->90753); no chain clear. fr/v11/n094f.png"
+ },
+ {
+  "ref": "e41",
+  "verdict": "keep",
+  "why": "Clean jumps 96298->97198->98135->99075->99418 (+900, +937, +940, +343): three non-REN doubles and a single; no triple-sized (1500) jump."
+ },
+ {
+  "ref": "e42",
+  "verdict": "keep",
+  "why": "I vertical into the left garbage well 8220.8, 4-row band, TETRIS banner 8221.4, +2400 (B2B broken by the earlier triple). fr/v11/n094d.png"
+ },
+ {
+  "ref": "e43",
+  "verdict": "keep",
+  "why": "T into the slot at 8222.2, one-row band 8222.4, 'Single'+BACK banner, +3600 = TSS B2B. fr/v11/n094d.png"
+ },
+ {
+  "ref": "e44",
+  "verdict": "keep",
+  "why": "No +300 after the TSS (8234.40 +3600); the next jump is TSD +5400 at 8236.57, still B2B, so no single in between."
+ },
+ {
+  "ref": "n501",
+  "verdict": "missed",
+  "why": "p1 score +3600 at 8191.77 (67173->70773) with no chain clear between the 8189.3 TSD and the 8193.27 TSD: T swapped to HOLD, I dropped vertically at 8191.65, 4-row band 8191.8, TETRIS banner at 8192.25, BACK shown. gc estimated (garbage top drops ~2 rows). fr/v11/n094a.png",
+  "proposal": {
+   "id": "n094",
+   "side": "p1",
+   "op": "add",
+   "t": 8191.6,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "I vertical 8191.65, 4-row band 8191.8, TETRIS banner 8192.25, score 67173->70773 at 8191.77; gc estimated; fr/v11/n094a.png"
+  }
+ },
+ {
+  "ref": "n501",
+  "verdict": "missed",
+  "why": "8178-8187 holds a REN chain the chain logs only as the tsmini (plus e39's quad): zero-line T-spin +1200 at 8178.0 (SPIN label), double +900 at 8179.07, mini TSS +759 (REN1 label) at 8181.2, single +600 at 8181.43 ('2 REN'), single +763 at 8182.73 ('3 REN'), quad REN4 (e39), single +1050 at 8184.40 ('5 REN'), then a ~3-row band at 8186.1 (+1540 read across OCR noise; weakest of these). OCR in 8184.9-8189.7 alternates between 57xxx and 6xxxx readings, so only the jumps above are trusted. fr/v11/n094b.png",
+  "proposal": {
+   "id": "n094",
+   "side": "p1",
+   "op": "add_multi",
+   "events": [
+    {
+     "t": 8178.9,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8181.55,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8182.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8184.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8185.9,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "score jumps 8179.07 +900, 8181.43 +600, 8182.73 +763, 8184.40 +1050, 8186.23 +1540 with REN 2/3/5 labels; triple at 8186 least certain; gc estimates; fr/v11/n094b.png"
+  }
+ }
+]

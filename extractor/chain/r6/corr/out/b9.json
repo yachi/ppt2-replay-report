@@ -1,0 +1,1134 @@
+{
+ "event_corrections": [
+  {
+   "n": 380,
+   "id": "n008",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 685.0,
+   "t_end": 687.25,
+   "events": [
+    {
+     "t": 685.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 687.2,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     685.17,
+     "tsd",
+     2
+    ],
+    [
+     685.97,
+     "tst",
+     3
+    ],
+    [
+     686.83,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "score: +4800 TST at 683.7, then ONE +5552 TSD at 685.2 (the 685.17 tsd's clear), no jump for a 685.97 TST (T-SPIN Triple banner lingering), then +1500 and +5400 at 687.4 = triple PERFECT CLEAR (banner at 687.7) fr/g9/n008a.png fr/g9/n008b.png"
+  },
+  {
+   "n": 378,
+   "id": "n008",
+   "side": "p2",
+   "op": "retype",
+   "t": 693.23,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "I locks 693.25, TETRIS + PERFECT CLEAR banner 693.7; score +3620 then +9600 (B2B tetris PC) fr/g9/n008b.png"
+  },
+  {
+   "n": 378,
+   "id": "n008",
+   "side": "p2",
+   "op": "retype",
+   "t": 693.47,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate of the 693.23 tetris PC: only one quad-sized score jump at 693.4 fr/g9/n008b.png"
+  },
+  {
+   "n": 383,
+   "id": "n008",
+   "side": "p2",
+   "op": "retype",
+   "t": 695.57,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no score jump for any T-spin near 695.6-697 (next jump +7200 TST at 700.1); banner lingered"
+  },
+  {
+   "n": 382,
+   "id": "n008",
+   "side": "p2",
+   "op": "add",
+   "t": 706.68,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +3600 (B2B tetris) at 706.8, vertical I clears 4, TETRIS banner fr/g9/n008c.png"
+  },
+  {
+   "n": 382,
+   "id": "n008",
+   "side": "p2",
+   "op": "add",
+   "t": 716.2,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +3600 (B2B tetris) at 716.4, TETRIS banner fr/g9/n008d.png"
+  },
+  {
+   "n": 385,
+   "id": "n009",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 745.0,
+   "t_end": 748.2,
+   "events": [
+    {
+     "t": 745.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 745.07,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 746.03,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 747.2,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 748.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     745.07,
+     null,
+     0
+    ],
+    [
+     745.07,
+     "triple",
+     3
+    ],
+    [
+     747.7,
+     null,
+     0
+    ],
+    [
+     747.7,
+     null,
+     0
+    ],
+    [
+     748.07,
+     "single",
+     1
+    ]
+   ],
+   "source": "score jumps +974, +2286, +772 fit a REN of double c0, single c1, triple c2, single c3; clear bands seen at 745.5, 746.5, 747.5 fr/g9/n009a.png fr/g9/n009b.png; gc keeps the chain's total of 4, not verified per clear"
+  },
+  {
+   "n": 387,
+   "id": "n009",
+   "side": "p2",
+   "op": "retype",
+   "t": 792.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "score REN sequence +900 (double c0), +469 (single c1), +600 (single c2), +1360 (double c3), +921 (single c4) fr/g9/n009c.png"
+  },
+  {
+   "n": 387,
+   "id": "n009",
+   "side": "p2",
+   "op": "retype",
+   "t": 794.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "same REN score sequence: this is the double c3 (+1360) fr/g9/n009c.png"
+  },
+  {
+   "n": 387,
+   "id": "n009",
+   "side": "p2",
+   "op": "retype",
+   "t": 795.87,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "same REN score sequence: single c4 (+921) fr/g9/n009c.png"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "side": "p1",
+   "op": "retype",
+   "t": 1029.77,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "score +911 (double) and the flash at 1029.67 removes 2 garbage rows; the tetris is the 1030.17 one (+2429, TETRIS at 1030.78) fr/g9/n013a.png"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "side": "p1",
+   "op": "add",
+   "t": 1032.74,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "gap window: clear seen in frames and score +900 at 1033.0 fr/g9/n013a.png fr/g9/n013b.png (gc of the 1033-1034 clears not verified)"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "side": "p1",
+   "op": "add",
+   "t": 1033.87,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "gap window: clear seen in frames and score +468 (single c1) fr/g9/n013a.png fr/g9/n013b.png (gc of the 1033-1034 clears not verified)"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "side": "p1",
+   "op": "add",
+   "t": 1035.1,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "gap window: clear seen in frames and score +1211 (double c2) fr/g9/n013a.png fr/g9/n013b.png (gc of the 1033-1034 clears not verified)"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "side": "p1",
+   "op": "add",
+   "t": 1036.67,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "gap window: clear seen in frames and score +337 fr/g9/n013a.png fr/g9/n013b.png (gc of the 1033-1034 clears not verified)"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "side": "p1",
+   "op": "add",
+   "t": 1037.4,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "gap window: clear seen in frames and score +450 fr/g9/n013a.png fr/g9/n013b.png (gc of the 1033-1034 clears not verified)"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "side": "p1",
+   "op": "add",
+   "t": 1038.43,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "gap window: clear seen in frames and score +2700 = tetris + REN, TETRIS banner 1038.9 fr/g9/n013a.png fr/g9/n013b.png (gc of the 1033-1034 clears not verified)"
+  },
+  {
+   "n": 390,
+   "id": "n013",
+   "side": "p1",
+   "op": "retype",
+   "t": 1049.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: no +300 near 1050, only one TETRIS (1049.9, the 1049.6 quad) fr/g9/n013c.png"
+  },
+  {
+   "n": 393,
+   "id": "n015",
+   "side": "p1",
+   "op": "retype",
+   "t": 1149.03,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "PERFECT CLEAR banner with empty board at ~1149.3 by the J; score +1500 then +5400 fr/g9/n015.png"
+  },
+  {
+   "n": 393,
+   "id": "n015",
+   "side": "p1",
+   "op": "retype",
+   "t": 1149.37,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate of the 1149.03 triple PC; only one triple score jump fr/g9/n015.png"
+  },
+  {
+   "n": 394,
+   "id": "n022",
+   "side": "p1",
+   "op": "retype",
+   "t": 1743.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 3,
+   "source": "vertical I clears 3 garbage rows at 1743.6; score +2584 = triple + REN c7 fr/g9/n022.png"
+  },
+  {
+   "n": 396,
+   "id": "n039",
+   "side": "p2",
+   "op": "retype",
+   "t": 3540.7,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "zero-line mini T-spin: score +300 only, board unchanged after the lock fr/g9/n039.png"
+  },
+  {
+   "n": 398,
+   "id": "n056",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 5021.55,
+   "t_end": 5022.6,
+   "events": [
+    {
+     "t": 5021.6,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 5022.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5021.8,
+     null,
+     0
+    ],
+    [
+     5021.8,
+     null,
+     0
+    ],
+    [
+     5021.8,
+     null,
+     0
+    ]
+   ],
+   "source": "TETRIS by the I spawned 5021.6: +2400 at 5021.7, garbage 4->3 rows; the J spawned 5022.53 hard-drops and locks 5022.83 before the KO (+30) fr/g9/n056.png fr/g9/n056b.png"
+  },
+  {
+   "n": 402,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5751.9,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: TSD banner lingering, no TST-sized score jump fr/g9/n061a.png"
+  },
+  {
+   "n": 401,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5754.17,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate of the 5753.67 tetris (one quad jump) fr/g9/n061a.png"
+  },
+  {
+   "n": 401,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5759.77,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: no double score jump fr/g9/n061a.png"
+  },
+  {
+   "n": 401,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5763.83,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: no double score jump fr/g9/n061a.png"
+  },
+  {
+   "n": 403,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5777.36,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate: one TST jump +7205 fr/g9/n061a.png"
+  },
+  {
+   "n": 403,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5782.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: no single score jump fr/g9/n061a.png"
+  },
+  {
+   "n": 403,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5786.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: no double score jump fr/g9/n061a.png"
+  },
+  {
+   "n": 401,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5764.5,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 3,
+   "source": "TETRIS banner 5765.4, score +3600 (B2B tetris) fr/g9/n061b.png; gc not verified"
+  },
+  {
+   "n": 403,
+   "id": "n061",
+   "side": "p2",
+   "op": "retype",
+   "t": 5781.43,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "score +618 = single c2"
+  },
+  {
+   "n": 404,
+   "id": "n065",
+   "side": "p2",
+   "op": "retype",
+   "t": 6000.56,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score: +4800 TST 5999.0, ONE +5550 TSD (B2B c1) at 6000.6, +600 single c2 at 6001.6 (I from hold, swapped for the S spawned 6001.33), then S drops into 2 rows -> PERFECT CLEAR at 6003.1, score +5006 = double c3 + double-PC bonus; board empty at 6003.1 fr/g9/n065b.png"
+  },
+  {
+   "n": 404,
+   "id": "n065",
+   "side": "p2",
+   "op": "retype",
+   "t": 6002.23,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "score: +4800 TST 5999.0, ONE +5550 TSD (B2B c1) at 6000.6, +600 single c2 at 6001.6 (I from hold, swapped for the S spawned 6001.33), then S drops into 2 rows -> PERFECT CLEAR at 6003.1, score +5006 = double c3 + double-PC bonus; board empty at 6003.1 fr/g9/n065a.png"
+  },
+  {
+   "n": 404,
+   "id": "n065",
+   "side": "p2",
+   "op": "retype",
+   "t": 6003.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: board empty after the 6002.23 PC, no score jump fr/g9/n065a.png"
+  },
+  {
+   "n": 404,
+   "id": "n065",
+   "side": "p2",
+   "op": "retype",
+   "t": 6003.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: board empty after the 6002.23 PC, no score jump fr/g9/n065a.png"
+  },
+  {
+   "n": 407,
+   "id": "n066",
+   "side": "p2",
+   "op": "retype",
+   "t": 6077.53,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "TSS (B2B) scored +3750 at 6076.8; then J,O,Z,J,L locked with no clear and the vertical I at ~6078.6 cleared 4 coloured rows -> PERFECT CLEAR 6078.9, score +13370 = B2B tetris 3600 + B2B tetris PC 9600 + drops; no grey rows fr/g9/n066a.png"
+  },
+  {
+   "n": 407,
+   "id": "n066",
+   "side": "p2",
+   "op": "retype",
+   "t": 6078.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "TSS (B2B) scored +3750 at 6076.8; then J,O,Z,J,L locked with no clear and the vertical I at ~6078.6 cleared 4 coloured rows -> PERFECT CLEAR 6078.9, score +13370 = B2B tetris 3600 + B2B tetris PC 9600 + drops; no grey rows fr/g9/n066a.png"
+  },
+  {
+   "n": 407,
+   "id": "n066",
+   "side": "p2",
+   "op": "retype",
+   "t": 6078.93,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "TSS (B2B) scored +3750 at 6076.8; then J,O,Z,J,L locked with no clear and the vertical I at ~6078.6 cleared 4 coloured rows -> PERFECT CLEAR 6078.9, score +13370 = B2B tetris 3600 + B2B tetris PC 9600 + drops; no grey rows fr/g9/n066a.png"
+  },
+  {
+   "n": 409,
+   "id": "n066",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 6169.2,
+   "t_end": 6176.5,
+   "events": [
+    {
+     "t": 6169.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6170.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6170.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6170.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6171.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6171.37,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6172.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6173.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6173.4,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 6174.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6174.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6175.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6169.23,
+     "tst",
+     3
+    ],
+    [
+     6170.07,
+     null,
+     0
+    ],
+    [
+     6170.23,
+     null,
+     0
+    ],
+    [
+     6170.7,
+     null,
+     0
+    ],
+    [
+     6171.13,
+     null,
+     0
+    ],
+    [
+     6171.37,
+     "tsd",
+     2
+    ],
+    [
+     6171.87,
+     "double",
+     2
+    ],
+    [
+     6173.17,
+     null,
+     0
+    ],
+    [
+     6173.37,
+     "BREAK",
+     4
+    ],
+    [
+     6174.93,
+     "BREAK",
+     0
+    ],
+    [
+     6176.47,
+     "BREAK",
+     4
+    ]
+   ],
+   "source": "Z, J, S, Z lock with no clear 6169.4-6170.8 (no score jump; 6168.4 +3600 is the 6167.77 tetris), T into the slot -> one TSD +5400 at 6171.6; then L held, O and L placed with no clear, vertical I clears 2 grey + 1 row (triple, +1524 c0) at 6173.5, S/J placed, a single at 6175.2, and a horizontal I at 6176.0 makes a single PERFECT CLEAR (banner 6176.2), +3905 for the last two fr/g9/n066b.png fr/g9/n066c.png; spawn times of the non-clearing pieces approximate"
+  },
+  {
+   "n": 412,
+   "id": "n091",
+   "side": "p2",
+   "op": "retype",
+   "t": 7944.93,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score: +4800 TST at 7944.2, then one +5550 (B2B TSD + REN 1) at 7945.7; the T spawns 7945.0 and fills the slot, next piece (J) appears 7946.5 fr/g9/n091.png"
+  },
+  {
+   "n": 412,
+   "id": "n091",
+   "side": "p2",
+   "op": "retype",
+   "t": 7945.33,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate: score: +4800 TST at 7944.2, then one +5550 (B2B TSD + REN 1) at 7945.7; the T spawns 7945.0 and fills the slot, next piece (J) appears 7946.5 fr/g9/n091.png"
+  },
+  {
+   "n": 413,
+   "id": "n093",
+   "side": "p2",
+   "op": "add",
+   "t": 8103.3,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "missed single: L (spawned ~8103.3, I held) clears one row at 8103.6, score +914 = single REN c4, before the I triple (+2266 = triple c5) fr/g9/n093c.png; gc 0 from the coloured row, not certain"
+  },
+  {
+   "n": 414,
+   "id": "n093",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 8112.2,
+   "t_end": 8112.9,
+   "events": [
+    {
+     "t": 8112.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8112.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8112.8,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     8112.23,
+     "quad",
+     4
+    ]
+   ],
+   "source": "after the 8111.2 triple, S (8112.35) and L (8112.5) lock with no clear, then the I (8112.8) drops into the left well: TETRIS 8113.1; score +2458 = tetris c0 (REN broken), not c4 fr/g9/n093b.png"
+  },
+  {
+   "n": 417,
+   "id": "n093",
+   "side": "p2",
+   "op": "retype",
+   "t": 8124.43,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "one T-spin in the window: T (spawned ~8124.1, held, used ~8125.2) clears 2 coloured rows at 8125.5, T-SPIN Double banner, score +3600 (no B2B after the doubles) fr/g9/n093a.png"
+  },
+  {
+   "n": 416,
+   "id": "n093",
+   "side": "p2",
+   "op": "retype",
+   "t": 8125.7,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate: the only TSD scored at 8125.37-8125.53, before this spawn time fr/g9/n093a.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 382,
+   "id": "n008",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 3,
+   "value": 9,
+   "source": "B2B-bonus score jumps run unbroken from the B2B tetris PC at 693.4 through the tetris at 716.4: 693.4 PC, 700.1 TST 7200, 701.4 TSD 5400, 703.8 mini, 706.8 quad 3600, 709/711.6/714 TSD 5400, 716.4 quad 3600 = 9 B2B clears (mini scored with B2B) fr/g9/n008c.png fr/g9/n008d.png"
+  },
+  {
+   "n": 387,
+   "id": "n009",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 2,
+   "value": 4,
+   "source": "REN of 5 consecutive clears 792-796 (score +900,+469,+600,+1360,+921 = combo steps 0..4) fr/g9/n009c.png"
+  },
+  {
+   "n": 389,
+   "id": "n012",
+   "player": "p1",
+   "field": "pieces",
+   "was": 135,
+   "value": 136,
+   "source": "the O's ghost turns solid at 1002.067 (the KO frame) and a new O spawns: one more lock, no clear fr/g9/n012.png fr/g9/n012b.png"
+  },
+  {
+   "n": 391,
+   "id": "n013",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 1,
+   "value": 2,
+   "source": "two B2B runs of 2 bonuses each: quad 1038.9 -> TSD 1042.1 (5400) -> quad 1043 (3600); TSD 1046 -> quad 1049.6 -> TSD 1052.6"
+  },
+  {
+   "n": 401,
+   "id": "n061",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 5,
+   "value": 10,
+   "source": "B2B-bonus score jumps run unbroken from 5753.7 through 5779.7 (10 B2B clears) fr/g9/n061a.png fr/g9/n061b.png"
+  },
+  {
+   "n": 413,
+   "id": "n093",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 4,
+   "value": 5,
+   "source": "REN run TSD 8097.9 (+3600 c0), quad +3762 (c1), single +616 (c2), single +760 (c3), single +914 (c4), triple +2266 (c5) fr/g9/n093c.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 379,
+   "why": "684.43 TSD is right: score +5552 = TSD; the T-SPIN Triple banner was the 683.7 TST's, lingering"
+  },
+  {
+   "n": 381,
+   "why": "covered by the n=380 replace_window (685.97 was not a TST; lingering banner)"
+  },
+  {
+   "n": 384,
+   "why": "703.74 mini is real: score +900 at 703.8 (B2B mini)"
+  },
+  {
+   "n": 386,
+   "why": "same timing artifact (-442/+444 swap across the window edge); fixed by the n=385 replace_window"
+  },
+  {
+   "n": 388,
+   "why": "no further lock visible before the KO at 797.73"
+  },
+  {
+   "n": 392,
+   "why": "same PC double-log as n=393 (score spot before it); fixed there"
+  },
+  {
+   "n": 395,
+   "why": "no piece-count fix visible from frames; bag anomaly not resolvable"
+  },
+  {
+   "n": 397,
+   "why": "bag anomaly; no countable fix from frames"
+  },
+  {
+   "n": 399,
+   "why": "38 s tail not recountable: nextcount has unknown spans and a resync"
+  },
+  {
+   "n": 400,
+   "why": "bag anomaly; no countable fix"
+  },
+  {
+   "n": 405,
+   "why": "5999.73 TSD is right: +5550 = B2B TSD + REN 1; the T-SPIN Triple banner was the 5998.3 TST's"
+  },
+  {
+   "n": 406,
+   "why": "types right: +990 double c0, 3652 TSD, 1650 triple c1, 622 single c2, 374 single c0, 918 double c0, 1672 triple c1, 900 double c0; +521 is soft/hard-drop points"
+  },
+  {
+   "n": 408,
+   "why": "6076.03 TSS is right: score +3750 = B2B TSS + REN 1; T-SPIN Triple banner was the 6074.6 TST's"
+  },
+  {
+   "n": 410,
+   "why": "covered by the n=409 replace_window (6169.23 was a no-clear Z; the TSD is 6171.37)"
+  },
+  {
+   "n": 411,
+   "why": "6182.07 TSS is right: score +3600 after a non-B2B tetris (+2492 at 6179.9) = B2B TSS; a B2B TSD would be 5400"
+  },
+  {
+   "n": 415,
+   "why": "explained by the n=417 fix: the 8124.43 clear was a non-B2B TSD (+3600 at 8125.5), not a TST"
+  },
+  {
+   "n": 418,
+   "why": "after the 8124.43 fix the window holds quad B2B (+3614) and single c0 (+300); the rest is the TSD scoring just before t0 and B-spliced spawn times running ~1 s late"
+  },
+  {
+   "n": 419,
+   "why": "types right: single c1 +450 (scored 8132.05, chain time late), triple c0 +1514"
+  }
+ ]
+}
