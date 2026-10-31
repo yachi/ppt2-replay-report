@@ -30,6 +30,8 @@ LEAD_S = 3
 SUMS = ("duration_s", "pieces", "lines_cleared", "attack", "garbage_cleared", "garbage_received_rows",
         "single", "double", "triple", "quad", "tss", "tsd", "tst", "tsmini", "pc")
 MAXES = ("max_combo", "max_b2b")
+#: lines a Perfect Clear adds to the attack, as the chain's tetrio/metrics.py tallies it
+PC_SEND = 10
 
 
 def _hand_edits(repo, s):
@@ -83,6 +85,10 @@ def _fl(x, dp):
     return f"{math.floor(x * q + 1e-9) / q:.{dp}f}"
 
 
+def _opt(x, dp):
+    return "—" if x is None else _fl(x, dp)
+
+
 def pool(rows):
     s = defaultdict(float)
     for r in rows:
@@ -92,6 +98,9 @@ def pool(rows):
             s[k] = max(s[k], float(r[k]))
         s["games"] += 1
         s["won"] += r["won"] == "1"
+        side = "w" if r["won"] == "1" else "l"  # for the PC rate in won and in lost games
+        s["pc_" + side] += float(r["pc"])
+        s["dur_" + side] += float(r["duration_s"])
     return s
 
 
@@ -106,6 +115,10 @@ def rates(s):
         "QPM": s["quad"] / m, "TSPM": tspins / m, "TSDPM": s["tsd"] / m,
         "QPCT": 100 * s["quad"] / clears, "TSPCT": 100 * tspins / clears,
         "RECV": 60 * s["garbage_received_rows"] / t, "MEAN": t / s["games"],
+        # the PC bonus (PC_SEND = 10 lines in the chain's metrics.py) as a share of all attack
+        "PCATT": 100 * PC_SEND * s["pc"] / s["attack"] if s["attack"] else 0.0,
+        "PCPM_W": 60 * s["pc_w"] / s["dur_w"] if s["dur_w"] else None,
+        "PCPM_L": 60 * s["pc_l"] / s["dur_l"] if s["dur_l"] else None,
     }
 
 
@@ -188,20 +201,27 @@ def _player_row(name, s, cls=""):
     r = rates(s)
     cells = "".join(f"<td>{_fl(r[k], dp)}</td>" for k, dp in PLAYER_COLS)
     return (f"<tr class='{cls}'><td class='l'>{escape(name)}</td><td>{int(s['games'])}</td>"
-            f"<td>{int(s['won'])}</td>{cells}<td>{int(s['pc'])}</td><td>{int(s['max_combo'])}</td>"
+            f"<td>{int(s['won'])}</td>{cells}<td>{int(s['pc'])}</td><td>{_fl(r['PCATT'], 1)}</td>"
+            f"<td>{_opt(r['PCPM_W'], 2)}</td><td>{_opt(r['PCPM_L'], 2)}</td><td>{int(s['max_combo'])}</td>"
             f"<td>{int(s['max_b2b'])}</td><td>{_fl(r['MEAN'], 1)}</td></tr>")
 
 
+#: how to read the player table's PC columns; ONE copy, for the overview and every card page
+PC_PLAYER_NOTE = ("全消佔攻擊 % = 全消加成（每次 10 行）佔總攻擊嘅百分比；全消/分（贏局／輸局）= 只計嗰個玩家"
+                  "贏咗／輸咗嘅局，全消總數 ÷ 嗰啲局嘅總分鐘。全消同贏局只係一齊出現，唔代表全消令佢贏；"
+                  "冇做全消字幕掃描嘅資料集全消可能偏少。")
+
 PLAYER_TABLE_HEAD = ("<tr><th class='l'>玩家</th><th>局數</th><th>贏</th>"
                      + "".join(f"<th>{h}</th>" for h in PLAYER_HEAD)
-                     + "<th>全消</th><th>最長 REN</th><th>最長 B2B</th><th>平均局長 (秒)</th></tr>")
+                     + "<th>全消</th><th>全消佔攻擊 %</th><th>全消/分（贏局）</th><th>全消/分（輸局）</th><th>最長 REN</th><th>最長 B2B</th><th>平均局長 (秒)</th></tr>")
 
 
 def _game_head(s):
     return ("<tr><th class='l'>局</th><th class='l'>日期</th><th class='l'>影片</th><th class='l'>對手</th>"
             "<th class='l'>開局</th><th class='l'>贏家</th><th>局長 (秒)</th>"
             f"<th>{s.short} PPS</th><th>{s.short} APM</th><th>{s.short} APP</th>"
-            "<th>對手 PPS</th><th>對手 APM</th><th>對手 APP</th><th class='l'>備註</th></tr>")
+            f"<th>對手 PPS</th><th>對手 APM</th><th>對手 APP</th><th>{s.short} 全消</th><th>對手 全消</th>"
+            "<th class='l'>備註</th></tr>")
 
 
 def _game_key(g):
@@ -221,6 +241,14 @@ def _game_row(gid, g, s):
             return "<td>—</td><td>—</td><td>—</td>"
         return (f"<td>{_fl(float(r['pieces']) / t, 3)}</td><td>{_fl(60 * float(r['attack']) / t, 2)}</td>"
                 f"<td>{_fl(float(r['attack']) / float(r['pieces']), 3)}</td>")
+    unscanned = p1["dataset"] in s.pc_unscanned
+
+    def pc(r):
+        """The game's PC count. Not a rate, so an excluded game prints it too: with a `≥` when that
+        player's row is a lower bound, and `*` when the dataset had no PERFECT CLEAR banner scan."""
+        lb = ex and "lower bound" in r["reason"]
+        mark = "<sup title='呢個資料集冇做 PERFECT CLEAR 字幕掃描，全消可能漏數'>*</sup>" if unscanned else ""
+        return f"<td>{'≥' if lb else ''}{int(r['pc'])}{mark}</td>"
     note = "；".join(sorted({x for x in (p1["reason"], p2["reason"]) if x})) if ex else ""
     return (
         f"<tr class='{'ex' if ex else ''}'><td class='l'><code>{escape(gid)}</code></td>"
@@ -228,8 +256,18 @@ def _game_row(gid, g, s):
         f"<td class='l'><a href='{escape(_video(p1))}' target='_blank' rel='noopener'>"
         f"{escape(p1['video'])} @ {int(float(p1['start_s']) // 60)}:{int(float(p1['start_s']) % 60):02d}</a></td>"
         f"<td class='l'>{escape(p2['opponent'] or '（冇讀名）')}</td><td class='l'>{escape(p1['opener'] or '—')}</td>"
-        f"<td class='l'>{winner}</td><td>{_fl(t, 1)}</td>{st(p1)}{st(p2)}"
+        f"<td class='l'>{winner}</td><td>{_fl(t, 1)}</td>{st(p1)}{st(p2)}{pc(p1)}{pc(p2)}"
         f"<td class='l'>{escape('剔除：' + note) if ex else ''}</td></tr>")
+
+
+def _pc_legend(s, datasets):
+    """The line under a per-game table that says how to read its 全消 columns. ONE copy, for the
+    overview and every card page; the `*` sentence prints only where a marked dataset is shown."""
+    miss = sorted((d for d in datasets if d in s.pc_unscanned), key=lambda d: (_date(d), d))
+    star = ("<sup>*</sup> = 呢個資料集（" + "、".join(escape(d) for d in miss) + "）抽取時冇做 PERFECT CLEAR "
+            "字幕掃描，全消靠抽取器自己嘅判斷同人手改正，冇逐個同字幕對過，所以可能偏少。") if miss else ""
+    return ("<p class='muted'>全消 = 嗰局嗰個玩家打咗幾多次 Perfect Clear。剔除咗嘅局都照印全消數，"
+            "標 ≥ 嘅係嗰個玩家局睇唔晒、數字係下限。" + star + "</p>")
 
 
 def _warn_box(small, s, datasets):
@@ -324,9 +362,11 @@ def render(games, s):
         _cards_section(cards(games, s), s),
         "<h2>每個玩家（只計入選嘅局）</h2><div class='tw'><table>", "".join(t1), "</table></div>",
         "<p class='muted'>DS/粒 = 每粒清走幾多行垃圾；食/分 = 每分鐘有幾多行垃圾真係落咗喺自己個板；"
-        "Tetris % 同 T-spin % 係佔所有清行次數嘅百分比；T-spin 唔計 Mini。</p>",
+        "Tetris % 同 T-spin % 係佔所有清行次數嘅百分比；T-spin 唔計 Mini。"
+        + PC_PLAYER_NOTE + "</p>",
         f"<h2>{s.me} 對每個對手</h2><div class='tw'><table>", "".join(t2), "</table></div>",
         f"<h2>逐局（{len(games)} 局，連影片）</h2><div class='tw'><table>", "".join(t3), "</table></div>",
+        _pc_legend(s, {g["p1"]["dataset"] for g in games.values()}),
         "<h2>影片</h2><ul>", vids, "</ul>",
         _footer(s, False),
         "</div></body></html>",
@@ -496,7 +536,7 @@ def render_card(games, c, s):
                    f"{_fl(me['APP'], 3)} 對 {_fl(op['APP'], 3)}。")
         table = ("<h2>呢張卡嘅每個玩家（只計入選嘅局）</h2><div class='tw'><table>" + PLAYER_TABLE_HEAD
                  + _player_row(s.me, c["me"], "me") + _player_row(c["label"], c["opp"], "small" if c["small"] else "")
-                 + "</table></div>")
+                 + "</table></div>" + f"<p class='muted'>{PC_PLAYER_NOTE}</p>")
     else:
         figures = "呢張卡冇一局計入，所以冇戰績、冇比率。"
         table = ""
@@ -520,6 +560,7 @@ def render_card(games, c, s):
         table,
         f"<h2>逐局（{len(c['gids'])} 局，連影片）</h2><div class='tw'><table>", _game_head(s),
         "".join(_game_row(k, games[k], s) for k in c["gids"]), "</table></div>",
+        _pc_legend(s, {c["dataset"]}),
         _footer(s, True),
         "</div></body></html>",
     ])
@@ -529,9 +570,12 @@ def render_all(games, s):
     """{docs file name: html} for the subject's overview and every card page — what bin/build-docs
     publishes for it, and the whole of it: any other docs/ppt2-<slug>-*.html is drift. So is a
     `dataset_notes` key that no game's dataset matches: that note would print nowhere."""
-    orphan = set(s.dataset_notes) - {g["p1"]["dataset"] for g in games.values()}
+    have = {g["p1"]["dataset"] for g in games.values()}
+    orphan = set(s.dataset_notes) - have
     if orphan:
         raise ValueError(f"{s.slug}: dataset_notes for datasets not in games.csv: {sorted(orphan)}")
+    if s.pc_unscanned - have:
+        raise ValueError(f"{s.slug}: pc_unscanned datasets not in games.csv: {sorted(s.pc_unscanned - have)}")
     out = {s.page: render(games, s)}
     for c in cards(games, s):
         if c["page"] in out:
