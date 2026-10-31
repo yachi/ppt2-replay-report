@@ -16,6 +16,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 | `analysis/ppt2-<slug>/games.csv` | one row for each player in each game: the data that the player's pages render |
 | `analysis/ppt2-<slug>/event-corrections.json` | extractor events corrected by eye from the frames, applied before the tally |
 | `analysis/ppt2-<slug>/hand-edits.csv` | cell corrections laid over the chain output, each with its source |
+| `analysis/piece-pairing/` | the piece-pairing study pages (`lookup/`, `triples/`), wrapped and rendered by `bin/build-docs` as `ppt2-lookup.html` and `ppt2-triples.html` |
 | `pipeline/subjects.py` | one record for each player: name, channel, data paths, page names and the caveats measured on that player's data |
 | `pipeline/ppt2_page.py` | the renderer, shared by every player. It uses the Python standard library only |
 | `bin/build-docs` | writes `docs/` for every player whose `games.csv` exists, and the index. With `--check`, it re-renders and byte-compares (the CI gate) |
