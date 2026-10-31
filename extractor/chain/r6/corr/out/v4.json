@@ -1,0 +1,536 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "L at ~646.2 locks without clear; board stays 2 rows."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "PC double confirmed: score 11501->16468."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Only the single at 740.33 then PC double ~742.05; the 4 pieces between (O,I,J,J) clear nothing."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Score +450 single 767.57, +3900 TSD 768.77, +750 single 769.73; spawns 767.267/768.233/769.6 match."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "I clears 2 grey rows, +1533 = double at REN4; gc=2 seen in fr/v4/n009c.png."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "+1090 = single REN5."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "O lock without clear breaks REN, then L single +402 at ~795.15."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "T PC double at REN1, exactly +4650."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "No clear after the PC."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "130 shifts minus first hold-into-empty minus unlocked I spawned 797.73 = 128."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "TST +4800, TSD +5555, double +900, PC single +2881, then 7 non-clearing locks L,Z,O,J,I,S,O; 15 spawns = 15 events."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "TSS ~2115.8 (+2400) then B2B TETRIS +3600 at 2118.8 with BACK banner; no TST."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "+940 = double REN0."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "Single jump +2431 = TSS."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "Consistent with frames and score."
+ },
+ {
+  "ref": "e14",
+  "verdict": "amend",
+  "why": "The piece right after the TSD is an I that locks with no clear; the +300 single (REN0, ~2136.0) is the L whose chain event is 2135.97 (separate missed retype n177).",
+  "amended": {
+   "kind": null,
+   "lines": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "No score jump between 96573 and 96679."
+ },
+ {
+  "ref": "e16",
+  "verdict": "amend",
+  "why": "Quad at 2142.33 scores +3774 = B2B + REN1, so the TSS and the quad are consecutive clears; 2140.93 is a phantom event and should be removed rather than retyped.",
+  "amended": {
+   "op": "remove",
+   "was": [
+    "single",
+    1,
+    0
+   ]
+  }
+ },
+ {
+  "ref": "e17",
+  "verdict": "amend",
+  "why": "Only one TETRIS (~2153.8); 2154.4 is the J spawned 2154.667 locking ~2155.1 with no clear. Chain is short of pieces here, so retype to a non-clearing piece instead of removing.",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "+3648 = B2B quad (note: one of the duplicate None at 2157.03 may be the same I)."
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "+3646 B2B quad."
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "Only +118 (drops) between 2166.8 and 2168.8."
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "Frames show one B2B TSS at 4915.2, +3600; no quad."
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "Double ~4916.9, +975."
+ },
+ {
+  "ref": "e23",
+  "verdict": "amend",
+  "why": "Double (+1074, REN1) is real, but its piece is the chain's existing 6231.47 None event: 9 spawns after the quad = 9 chain events, so an add would create an extra piece.",
+  "amended": {
+   "op": "retype",
+   "t": 6231.47,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "+3922 = second B2B quad at REN2."
+ },
+ {
+  "ref": "e25",
+  "verdict": "amend",
+  "why": "Single (+480 at 6339.47, REN1) is real but the O spawned 6338.967 is the chain's 6339.87 None event; spawns and chain events both 6.",
+  "amended": {
+   "op": "retype",
+   "t": 6339.87,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "+1050 confirmed."
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "+300 = zero-line mini; later TSS still B2B."
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "+2884 = quad REN3 (2400+450+34); next TSD +5400 B2B."
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "Only one TST (+4800 at 6938.83)."
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "+300 single."
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "+1050 double REN1 plus +3600 PC bonus; board empty."
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "+3750 B2B quad + REN; next TSD +5400 B2B."
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "+612 single REN2; spawn 7436.7 unmatched in chain (7437.53 duplicate may be an extra piece)."
+ },
+ {
+  "ref": "e34",
+  "verdict": "amend",
+  "why": "Single (+450, REN1, 7818.87) is real but its Z (spawn 7818.633) is the chain's 7819.27 None event (5 spawns = 5 events; 7819.27 the only one off spawn times).",
+  "amended": {
+   "op": "retype",
+   "t": 7819.27,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1
+  }
+ },
+ {
+  "ref": "e35",
+  "verdict": "reject",
+  "why": "p1's board is already tilted at 8056.36 (fr/v4/n092b.png; KO end_s 8056.43). The J is still at the top at 8056.46 and lands (+10) only at 8056.53, after the KO; the T was held, not locked."
+ },
+ {
+  "ref": "c1",
+  "verdict": "reject",
+  "why": "Same as e35: the extra piece lands after the KO frame, so it does not count."
+ },
+ {
+  "ref": "e36",
+  "verdict": "keep",
+  "why": "Single +3686 jump (B2B quad); T at 8262.2 held (8262.267) so the I comes out; next spawn 8263.4, one piece in window."
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "Score 52319->52947 at 8281.47: +600 after drops = single at REN2."
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "54329 at 8282.63: +1382 = double REN3 (900+450+32)."
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "55263 at 8283.53: +934 = single REN4 (300+600+34); spawn 8283.0 has no chain piece (only a BREAK), so add is correct."
+ },
+ {
+  "ref": "e40",
+  "verdict": "keep",
+  "why": "+3605 jump at 8359.27 = B2B TSD (3600), not TST."
+ },
+ {
+  "ref": "e41",
+  "verdict": "keep",
+  "why": "+3750 at 8359.80 = B2B quad + REN, before KO 8360.77. The two 8360.47 None events are later pieces, not this I, so add (not retype) is right."
+ },
+ {
+  "ref": "n177",
+  "verdict": "missed",
+  "why": "Companion to e14: the single at ~2136.0 (+300 REN0) belongs to the L, chain event 2135.97, recorded as no clear.",
+  "proposal": {
+   "id": "n026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2135.97,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "n180",
+  "verdict": "missed",
+  "why": "Frames + score: after TSD 4919.07 (43543): two non-clearing locks; +900 double REN0 (4921.00); +2575 TETRIS REN1 from held I clearing 4 garbage rows (4922.53, banner in fr/v4/n055b.png); singles REN2..REN8 (+600,+778,+928,+1080,+1227,+1382,+1530 at 4923.30-4929.13; REN counter seen in fr/v4/n055c.png); +2250 double REN9 (4929.60); 8 hard-drop locks without clear (4930.50-4931.90); piece spawned 4932.0 still soft-dropping at KO 4932.43. Chain records only BREAKs plus 2 singles + double here. gc on singles from ~4925.67 and on the final double are estimates (~1 per single, double ~1-2). Implies pieces cell for n055 p1 +11 over chain (chain_games 100).",
+  "proposal": {
+   "id": "n055",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4919.97,
+   "t_end": 4932.2,
+   "was_old": [
+    [
+     4919.97,
+     null,
+     0
+    ],
+    [
+     4920.0,
+     "BREAK",
+     3
+    ],
+    [
+     4921.87,
+     "BREAK",
+     4
+    ],
+    [
+     4923.4,
+     "BREAK",
+     3
+    ],
+    [
+     4924.97,
+     "BREAK",
+     2
+    ],
+    [
+     4926.67,
+     "BREAK",
+     2
+    ],
+    [
+     4928.27,
+     "single",
+     1
+    ],
+    [
+     4929.63,
+     "single",
+     1
+    ],
+    [
+     4930.4,
+     "double",
+     2
+    ],
+    [
+     4930.83,
+     null,
+     0
+    ],
+    [
+     4931.2,
+     null,
+     0
+    ],
+    [
+     4931.23,
+     null,
+     0
+    ],
+    [
+     4931.93,
+     null,
+     0
+    ],
+    [
+     4931.93,
+     null,
+     0
+    ],
+    [
+     4931.93,
+     null,
+     0
+    ],
+    [
+     4932.2,
+     null,
+     0
+    ]
+   ],
+   "events": [
+    {
+     "t": 4919.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4920.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4920.67,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4921.83,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 4923.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4923.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4924.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4925.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4926.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4927.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4928.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4929.43,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4930.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4930.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4930.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4931.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4931.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4931.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4931.75,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4931.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ }
+]

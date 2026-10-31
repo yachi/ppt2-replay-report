@@ -1,0 +1,470 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "p2 score 10909->11847 at 1025.77 (+938) is the 1025.57 double; nothing at 1025.1; the TSD +5550 landed at 1024.37 (tsd 1023.6)"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "I fills a 6-cell row, PERFECT CLEAR banner and empty board 1026.9-1027.4, score 11817->14734 (/tmp/claude-0/r6/corr/fr/v10/a1.png)"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "only one clear 1031-1034: +5459 at 1033.67 (TSD B2B), which is the 1033.27 tsd"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "no score jump 1031.83-1033.0 beyond drop points"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "24394->29795 at 1037.50 is the 1037.43 TSD; next jump 1039.30 is the quad; nothing for 1037.7"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "33543->38943 at 1041.63 is the 1041.57 TSD; next jump 1044.90 (TSD 1044.63)"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "44477->45377 at 1045.87, +900 = non-B2B double"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "+456 at 1132.50 before KO 1133.73 = single+REN1 after the 1131.17 double (+924); chain has no event there"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "83022->84076 (+1054 = double+REN1) after the TSS at 1120.5; the REN chain d(+1054) s(+610) s(+760) s(+916) adds up"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "86362 at 1125.80 is +916 from 85446 = single + REN4 (300+600)"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "86362->86680 (+318) at 1127.57 = single with REN reset"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "86692->88342 (+1650) at 1127.93 = triple+REN1"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "75670 at 1114.33 to 75738 at 1117.07: drop points only"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "same: no jump until the quad at 1117.83"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "one +5400 at 2331.30 between the 2329.3 quad and 2332.83; single TSD"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "same window: only one clear, so one of the two chain events must go"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "+3600 at 2332.83 (quad B2B)"
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "+3600 at 2335.93"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "only one T-spin-sized jump near 2338.9-2340 (TSS 2339.67)"
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "+900 at 2352.63"
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "2367.43 +3600 (quad 2367.13) then 2369.70 +5400 (tsd 2369.8); nothing for the tst"
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "no extra jump 2367.43-2369.6"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "+3600 at 2375.03"
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "no jump 2375.03-2379.13"
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "+3600 at 2379.17"
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "next jump 2382.33 is the 2382.43 tsd"
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "213526->218937 at 2386.40 (+5411) is the 2386.0 TSD; no other clear"
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "+3600 at 2387.40"
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "jumps +5400 2389.63 (tsd), +3600 2392.70, +3750 2393.80 (quad B2B REN1): two quads after the TSD"
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "no jump 2393.80-2400.20"
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "2400.33-2402.70 drop points only"
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "same; the next real clear is the 2403.17 TST (+~7200, readings at 2402.97-2403.77 are misreads)"
+ },
+ {
+  "ref": "e32",
+  "verdict": "amend",
+  "why": "single is real (T after hold, white row ~3081.35, 61645->62416 = +750 single REN3), but it is the piece the chain logged as None at 3081.7: spawns L 3079.77 (double), I held/T out 3080.9 (single), J 3081.9 (double 3082.03, vertical J into the well). An add would make a phantom piece and leave a None breaking the REN (/tmp/claude-0/r6/corr/fr/v10/d1.png)",
+  "amended": {
+   "op": "retype",
+   "t": 3081.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "I clears last row, PERFECT CLEAR banner, empty board; 11861->14749 (/tmp/claude-0/r6/corr/fr/v10/f1.png)"
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "the S spawned ~4814.7 locks on the empty board at ~4814.9 without a clear (/tmp/claude-0/r6/corr/fr/v10/f1.png); retype keeps its lock"
+ },
+ {
+  "ref": "e35",
+  "verdict": "amend",
+  "why": "Z spawned 5037.7 was held but O came out of hold and locked at ~5037.85 making the double PERFECT CLEAR (white rows, banner, 11536->16492). So 5037.7 is a real piece: it is the PC. The J at 5036.93 cleared the single (+600 at 5037.07) (/tmp/claude-0/r6/corr/fr/v10/g1.png, /tmp/claude-0/r6/corr/fr/v10/g2.png)",
+  "amended": {
+   "op": "retype",
+   "t": 5037.7,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e36",
+  "verdict": "amend",
+  "why": "5037.93 is the S spawn (green at top at 5037.95), which locks at ~5038.3 on the empty board with no clear; the PC belongs to 5037.7 (/tmp/claude-0/r6/corr/fr/v10/g1.png)",
+  "amended": {
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e37",
+  "verdict": "amend",
+  "why": "the single is real (S into the top garbage row hole at 5170.35, white row, +472 = single+REN1), but the chain already has three Nones at 5171.27 for S, T(from hold) and O, then J's double at 5171.6; an add makes a 4th piece. Replace the three Nones (/tmp/claude-0/r6/corr/fr/v10/h1.png)",
+  "amended": {
+   "op": "replace_window",
+   "t": 5170.0,
+   "t_end": 5171.3,
+   "events": [
+    {
+     "t": 5170.05,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 5170.95,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5171.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5171.27,
+     null,
+     0
+    ],
+    [
+     5171.27,
+     null,
+     0
+    ],
+    [
+     5171.27,
+     null,
+     0
+    ]
+   ]
+  }
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "no jump 5176.40-5179.03"
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "+3600 at 5179.07"
+ },
+ {
+  "ref": "e40",
+  "verdict": "keep",
+  "why": "next jump 5181.70 = the 5181.26 TSD"
+ },
+ {
+  "ref": "e41",
+  "verdict": "amend",
+  "why": "the TETRIS (I spawned 5183.0, 4 garbage rows white 5183.3, +3600 at 5183.27) happens BEFORE 5183.87, so it belongs on the 5182.13 BREAK, not the 5183.87 one; this also keeps a BREAK between it and the 5186.27 quad (+3600 exactly, no REN) (/tmp/claude-0/r6/corr/fr/v10/h2.png)",
+  "amended": {
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4
+  }
+ },
+ {
+  "ref": "e42",
+  "verdict": "amend",
+  "why": "see e41: no clear after 5183.27 until the 5186.27 quad (5186.47 +3600)",
+  "amended": {
+   "kind": "BREAK",
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e43",
+  "verdict": "amend",
+  "why": "single is real (O placed right 6289.8, coloured row white 6289.95, +342; quad then +2574 = non-B2B+REN1), but pieces after the TSS are L held/J out, O, I: J and O are the two chain Nones at 6289.2 and I is the 6289.6 quad. Retype one None instead of adding a 4th piece (/tmp/claude-0/r6/corr/fr/v10/i1.png)",
+  "amended": {
+   "op": "replace_window",
+   "t": 6289.2,
+   "t_end": 6289.55,
+   "events": [
+    {
+     "t": 6289.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6289.45,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6289.2,
+     null,
+     0
+    ],
+    [
+     6289.2,
+     null,
+     0
+    ]
+   ]
+  }
+ },
+ {
+  "ref": "e44",
+  "verdict": "keep",
+  "why": "S at 6322.68, three rows white at 6322.8 (/tmp/claude-0/r6/corr/fr/v10/i2.png)"
+ },
+ {
+  "ref": "e45",
+  "verdict": "keep",
+  "why": "L held, I from hold into the garbage well, TETRIS banner 6324.4; chain has no event for that I (/tmp/claude-0/r6/corr/fr/v10/i2.png); triple+quad(REN1)=4050 = 155201->159279 less drops"
+ },
+ {
+  "ref": "e46",
+  "verdict": "keep",
+  "why": "+468 at 6336.13 right after the quad = single+REN1"
+ },
+ {
+  "ref": "e47",
+  "verdict": "keep",
+  "why": "+1070 at 6341.03 = double+REN1, not single"
+ },
+ {
+  "ref": "e48",
+  "verdict": "keep",
+  "why": "+2400 at 6405.37 = TSS without B2B (a TSD would be 3600)"
+ },
+ {
+  "ref": "e49",
+  "verdict": "keep",
+  "why": "T locks at 6510.47 with T-SPIN badge and no white row; 102097->102469 (+372) (/tmp/claude-0/r6/corr/fr/v10/j1.png)"
+ },
+ {
+  "ref": "e50",
+  "verdict": "keep",
+  "why": "+5553 at 6766.13 = TSD B2B+REN1 after the TST"
+ },
+ {
+  "ref": "e51",
+  "verdict": "keep",
+  "why": "6782.00 +3636 (quad) then 6784.03 +5400 (one TSD); no room for a tst"
+ },
+ {
+  "ref": "e52",
+  "verdict": "keep",
+  "why": "no jump besides the quad"
+ },
+ {
+  "ref": "e53",
+  "verdict": "keep",
+  "why": "no jump 6784.03-6785.97"
+ },
+ {
+  "ref": "e54",
+  "verdict": "keep",
+  "why": "+1544 at 6785.97 = triple"
+ },
+ {
+  "ref": "e55",
+  "verdict": "keep",
+  "why": "exact duplicate at t 6786.4; only one clear there"
+ },
+ {
+  "ref": "e56",
+  "verdict": "keep",
+  "why": "6786.07-6788.67 drop points only"
+ },
+ {
+  "ref": "e57",
+  "verdict": "keep",
+  "why": "same"
+ },
+ {
+  "ref": "e58",
+  "verdict": "keep",
+  "why": "45676->48114 (+2438) at 6789.07-6789.17 = non-B2B quad; keeping it before the 6790.5 TSD matches that TSD's +5550 (B2B+REN1)"
+ },
+ {
+  "ref": "e59",
+  "verdict": "keep",
+  "why": "no jump 6790.53-6794.13"
+ },
+ {
+  "ref": "e60",
+  "verdict": "keep",
+  "why": "+450 at 6795.47 = single+REN1"
+ },
+ {
+  "ref": "e61",
+  "verdict": "keep",
+  "why": "T placed 6796.4, white row 6796.5, 57856->58456 (+600); chain has no event for that T (J before = 6795.17, S/Z after = 6797.23) (/tmp/claude-0/r6/corr/fr/v10/l2.png)"
+ },
+ {
+  "ref": "e62",
+  "verdict": "keep",
+  "why": "+1500 at 6799.00"
+ },
+ {
+  "ref": "e63",
+  "verdict": "keep",
+  "why": "+1552 by 6801.10 = triple"
+ },
+ {
+  "ref": "e64",
+  "verdict": "keep",
+  "why": "5247->9098 between 7181.5 and 7183.8 is one TSS B2B(+REN); nothing else before the 7184.43 quad; retype keeps the piece, which the spawn count 7182.1-7184.3 (7 shifts vs 7 chain entries) needs"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "score steps after the 3077.27 TSS run REN1..REN10 (+1050,+1200,+750,+1500,+1050,+1200,+1350,+2100,+1650,+1800); seqfn max_combo = run-1 = 10 once the 3081.7 None is a single (e32 amended)"
+ },
+ {
+  "ref": "n422",
+  "verdict": "missed",
+  "why": "red Z fills the notch in the top garbage row at ~1046.75, row white 1046.80, score 45377->45873 (+496 = single+REN1 after the 1045.87 double); the chain has no event between the 1045.87 BREAK and the 1047.43 BREAK (/tmp/claude-0/r6/corr/fr/v10/a5.png)",
+  "proposal": {
+   "id": "n013",
+   "side": "p2",
+   "op": "add",
+   "t": 1046.5,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "Z into garbage notch, white row 1046.80, +496 (/tmp/claude-0/r6/corr/fr/v10/a5.png)"
+  }
+ }
+]

@@ -1,0 +1,287 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e26",
+  "verdict": "amend",
+  "why": "At 5710.48 the S went to hold and the I came out (fr/v5/q.png); only the I locked, clearing the single PC, so this event is a duplicate.",
+  "amended": {
+   "op": "remove"
+  }
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e29",
+  "verdict": "amend",
+  "why": "Score hard-drop increments show 7 locks 5714.0-5716.70 (5714.90, 5715.27, 5715.72, 5715.84, 5716.17, 5716.33, 5716.70) against 8 chain events; only one I quad PC, at 5716.8.",
+  "amended": {
+   "op": "remove"
+  }
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e31",
+  "verdict": "amend",
+  "why": "Two coloured rows remained after the 5730.6 double; O (5731.55), O (5731.75), T (5731.95) made a double PC, score +4573 (fr/v5/s.png); a single PC would be ~2850.",
+  "amended": {
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e35",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e36",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e40",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e41",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e42",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e43",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "e44",
+  "verdict": "keep",
+  "why": "Checked against frames/score; no contradiction found."
+ },
+ {
+  "ref": "n216",
+  "verdict": "missed",
+  "why": "n005 p2: score flat at 204250 from 368.93 to 370.57; +4838 at 372.47 (the 372.23 TST); 209254->209417 (+163) until 374.4; +7257 at 376.20 (the 375.93 TST). Frames fr/v5/c.png show clears only at ~372.2 and ~376.2, so the 369.8 tst, 372.77 quad and 374.03 double are phantom clears.",
+  "proposal": {
+   "edits": [
+    {
+     "t": 369.8,
+     "op": "retype",
+     "was": [
+      "tst",
+      3,
+      0
+     ],
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 372.77,
+     "op": "retype",
+     "was": [
+      "quad",
+      4,
+      0
+     ],
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 374.03,
+     "op": "retype",
+     "was": [
+      "double",
+      2,
+      0
+     ],
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,649 @@
+[
+{
+"id": "n014",
+"player": "p1",
+"field_or_issue": "bad bag",
+"detail": "5 of 16 bags not a permutation (spawn index [77, 84, 91, 98, 105]); anomalies ['double shift k=2 at frame 346', 'double shift k=2 at frame 431', 'double shift k=2 at frame 452', 'double shift k=2 at frame 692', 'double shift k=2 at frame 741', 'double shift k=2 at frame 1043', 'double shift k=2 at frame 1064', 'double shift k=2 at frame 1096', 'double shift k=3 at frame 1174', 'double shift k=3 at frame 1755']",
+"t_s": 1062.37,
+"n": 252
+},
+{
+"id": "n014",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 19.37 s from 1099.23 s; B events spliced (D2/D3)",
+"t_s": 1099.23,
+"n": 253
+},
+{
+"id": "n014",
+"player": "p1",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 1099.23 s",
+"t_s": 1099.23,
+"n": 254
+},
+{
+"id": "n020",
+"player": "p1",
+"field_or_issue": "gap window > 4 s (tail)",
+"detail": "25.70 s from the last spawn to the KO",
+"t_s": 1640.83,
+"n": 255
+},
+{
+"id": "n021",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n021",
+"player": "p2",
+"t0": 1675.27,
+"t1": 1679.53,
+"step": 607,
+"unexplained": -593,
+"near": [
+[
+1678.1,
+3600,
+"quad"
+]
+]
+},
+"t_s": 1675.27,
+"n": 256
+},
+{
+"id": "n021",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n021",
+"player": "p2",
+"t0": 1679.53,
+"t1": 1681.9,
+"step": -1174,
+"unexplained": -1174,
+"near": [
+[
+1681.63,
+3600,
+"quad"
+]
+]
+},
+"t_s": 1679.53,
+"n": 257
+},
+{
+"id": "n021",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n021",
+"player": "p2",
+"t0": 1706.53,
+"t1": 1713.1,
+"step": -981,
+"unexplained": -981,
+"near": [
+[
+1708.83,
+3600,
+"quad"
+],
+[
+1709.73,
+1050,
+"double"
+],
+[
+1710.73,
+300,
+"single"
+],
+[
+1711.7,
+2550,
+"quad"
+]
+]
+},
+"t_s": 1706.53,
+"n": 258
+},
+{
+"id": "n037",
+"player": "p2",
+"field_or_issue": "bad bag",
+"detail": "6 of 10 bags not a permutation (spawn index [21, 28, 35, 42, 49, 56]); anomalies ['double shift k=2 at frame 304', 'queue resync at frame 1191: (6, 5, 3, 2, 3)->(5, 7, 3, 4, 5)', 'double shift k=2 at frame 1791', 'queue slot-5 re-read at frame 1829: L->O', 'double shift k=2 at frame 1874']",
+"t_s": 3402.77,
+"n": 259
+},
+{
+"id": "n037",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 28.70 s from 3411.60 s; B events spliced (D2/D3)",
+"t_s": 3411.6,
+"n": 260
+},
+{
+"id": "n037",
+"player": "p2",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Single at 3411.6 s",
+"t_s": 3411.6,
+"n": 261
+},
+{
+"id": "n037",
+"player": "p2",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 1 lines (single) vs banner T-SPIN Triple at 3468.13 s",
+"t_s": 3468.13,
+"n": 262
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "bad bag",
+"detail": "10 of 33 bags not a permutation (spawn index [161, 168, 175, 182, 189, 196, 203, 210, 217, 224]); anomalies ['double shift k=2 at frame 338', 'double shift k=2 at frame 722', 'double shift k=2 at frame 767', 'double shift k=3 at frame 1041', 'double shift k=2 at frame 1457', 'queue slot-5 re-read at frame 1625: I->Z', 'double shift k=2 at frame 1735', 'double shift k=2 at frame 2232', 'queue slot-5 re-read at frame 2236: I->J', 'double shift k=3 at frame 2293', 'double shift k=3 at frame 2444', 'double shift k=3 at frame 2618', 'double shift k=2 at frame 2668', 'double shift k=3 at frame 2904', 'double shift k=2 at frame 3052', 'double shift k=3 at frame 3560', 'double shift k=2 at frame 3713', 'double shift k=2 at frame 3817']",
+"t_s": 3946.13,
+"n": 263
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n042",
+"player": "p2",
+"t0": 3954.3,
+"t1": 3956.53,
+"step": 1800,
+"unexplained": -600,
+"near": [
+[
+3955.97,
+3600,
+"tsd"
+]
+]
+},
+"t_s": 3954.3,
+"n": 264
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n042",
+"player": "p2",
+"t0": 3984.03,
+"t1": 3986.7,
+"step": 1800,
+"unexplained": -600,
+"near": [
+[
+3983.77,
+1050,
+"double"
+],
+[
+3985.5,
+3600,
+"tsd"
+]
+]
+},
+"t_s": 3984.03,
+"n": 265
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n042",
+"player": "p2",
+"t0": 3997.56,
+"t1": 3999.66,
+"step": -582,
+"unexplained": -582,
+"near": [
+[
+3997.93,
+450,
+"single"
+],
+[
+3998.3,
+600,
+"single"
+]
+]
+},
+"t_s": 3997.56,
+"n": 266
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n042",
+"player": "p2",
+"t0": 4024.26,
+"t1": 4027.83,
+"step": -6245,
+"unexplained": -6245,
+"near": [
+[
+4025.67,
+5400,
+"tsd"
+],
+[
+4027.13,
+5550,
+"tsd"
+],
+[
+4027.2,
+1200,
+"double"
+]
+]
+},
+"t_s": 4024.26,
+"n": 267
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.03 s from 4027.13 s; B events spliced (D2/D3)",
+"t_s": 4027.13,
+"n": 268
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n042",
+"player": "p2",
+"t0": 4027.83,
+"t1": 4030.46,
+"step": 2850,
+"unexplained": 450,
+"near": [
+[
+4028.5,
+750,
+"single"
+]
+]
+},
+"t_s": 4027.83,
+"n": 269
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n042",
+"player": "p2",
+"t0": 4030.46,
+"t1": 4033.43,
+"step": -3600,
+"unexplained": -3600,
+"near": [
+[
+4030.57,
+3600,
+"tsd"
+],
+[
+4032.83,
+5400,
+"tsd"
+]
+]
+},
+"t_s": 4030.46,
+"n": 270
+},
+{
+"id": "n042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n042",
+"player": "p2",
+"t0": 4033.43,
+"t1": 4038.33,
+"step": 819,
+"unexplained": -381,
+"near": [
+[
+4035.7,
+3600,
+"quad"
+],
+[
+4037.4,
+300,
+"single"
+]
+]
+},
+"t_s": 4033.43,
+"n": 271
+},
+{
+"id": "n043",
+"player": "p2",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 1 lines (tss) vs banner T-SPIN Triple at 4099.57 s",
+"t_s": 4099.57,
+"n": 272
+},
+{
+"id": "n043",
+"player": "p2",
+"field_or_issue": "KO-tail score jump",
+"detail": "score +456 at 4164.83 s (KO 4166.13 s) with no chain clear event (tetrio/cseq.json) matched",
+"t_s": 4164.83,
+"n": 273
+},
+{
+"id": "n043",
+"player": "p2",
+"field_or_issue": "gap window > 4 s (tail)",
+"detail": "35.40 s from the last spawn to the KO",
+"t_s": 4166.13,
+"n": 274
+},
+{
+"id": "n052",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n052",
+"player": "p2",
+"t0": 4676.43,
+"t1": 4680.96,
+"step": -3878,
+"unexplained": -3878,
+"near": [
+[
+4676.63,
+3900,
+"quad"
+],
+[
+4680.77,
+3600,
+"quad"
+]
+]
+},
+"t_s": 4676.43,
+"n": 275
+},
+{
+"id": "n052",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+"t_s": 4682.83,
+"n": 276
+},
+{
+"id": "n069",
+"player": "p1",
+"field_or_issue": "bad bag",
+"detail": "1 of 21 bags not a permutation (spawn index [126]); anomalies ['double shift k=2 at frame 94', 'double shift k=2 at frame 300', 'double shift k=2 at frame 379', 'double shift k=2 at frame 546', 'double shift k=2 at frame 790', 'queue slot-5 re-read at frame 1000: I->J', 'double shift k=2 at frame 1599', 'double shift k=2 at frame 1624', 'queue slot-5 re-read at frame 1765: I->J', 'double shift k=2 at frame 1922', 'queue resync at frame 2011: (2, 8, 3, 5, 2)->(3, 5, 4, 7, 6)']",
+"t_s": 6554.27,
+"n": 277
+},
+{
+"id": "n069",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n069",
+"player": "p1",
+"t0": 6598.5,
+"t1": 6604.64,
+"step": 820,
+"unexplained": -380,
+"near": [
+[
+6598.2,
+1050,
+"double"
+],
+[
+6601.93,
+3600,
+"tsd"
+],
+[
+6603.8,
+300,
+"single"
+]
+]
+},
+"t_s": 6598.5,
+"n": 278
+},
+{
+"id": "n069",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n069",
+"player": "p1",
+"t0": 6604.64,
+"t1": 6616.57,
+"step": 3088,
+"unexplained": -512,
+"near": [
+[
+6606.87,
+900,
+"double"
+],
+[
+6608.13,
+450,
+"single"
+],
+[
+6608.97,
+1200,
+"double"
+],
+[
+6609.9,
+750,
+"single"
+],
+[
+6610.83,
+900,
+"single"
+],
+[
+6611.57,
+1050,
+"single"
+],
+[
+6613.2,
+1200,
+"single"
+],
+[
+6614.3,
+2550,
+"triple"
+],
+[
+6616.17,
+300,
+"single"
+]
+]
+},
+"t_s": 6604.64,
+"n": 279
+},
+{
+"id": "n069",
+"player": "p2",
+"field_or_issue": "bad bag",
+"detail": "12 of 18 bags not a permutation (spawn index [42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119]); anomalies ['double shift k=2 at frame 79', 'double shift k=2 at frame 324', 'double shift k=3 at frame 887', 'double shift k=2 at frame 1578', 'double shift k=2 at frame 2051']",
+"t_s": 6554.27,
+"n": 280
+},
+{
+"id": "n069",
+"player": "p2",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Double at 6560.5 s",
+"t_s": 6560.5,
+"n": 281
+},
+{
+"id": "n069",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 9.27 s from 6572.40 s; B events spliced (D2/D3)",
+"t_s": 6572.4,
+"n": 282
+},
+{
+"id": "n069",
+"player": "p2",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 6572.4 s",
+"t_s": 6572.4,
+"n": 283
+},
+{
+"id": "n069",
+"player": "p2",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Single at 6628.33 s",
+"t_s": 6628.33,
+"n": 284
+},
+{
+"id": "n069",
+"player": "p2",
+"field_or_issue": "gap window > 4 s (tail)",
+"detail": "4.27 s from the last spawn to the KO",
+"t_s": 6632.6,
+"n": 285
+},
+{
+"id": "n070",
+"player": "p1",
+"field_or_issue": "KO-tail score jump",
+"detail": "score +1052 at 6670.4 s (KO 6671.4 s) with no chain clear event (tetrio/cseq.json) matched",
+"t_s": 6670.4,
+"n": 286
+},
+{
+"id": "n084",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "n084",
+"player": "p2",
+"t0": 7623.03,
+"t1": 7626.4,
+"step": -742,
+"unexplained": -742,
+"near": [
+[
+7622.83,
+900,
+"double"
+],
+[
+7623.77,
+450,
+"single"
+],
+[
+7625.07,
+600,
+"single"
+],
+[
+7626.1,
+900,
+"double"
+]
+]
+},
+"t_s": 7623.03,
+"n": 287
+},
+{
+"id": "n090",
+"player": "p1",
+"field_or_issue": "bad bag",
+"detail": "1 of 8 bags not a permutation (spawn index [49]); anomalies ['double shift k=2 at frame 495', 'double shift k=3 at frame 956']",
+"t_s": 7898.2,
+"n": 288
+},
+{
+"id": "n096",
+"player": "p1",
+"field_or_issue": "bad bag",
+"detail": "16 of 36 bags not a permutation (spawn index [84, 105, 119, 126, 147, 154, 161, 168, 175, 182, 196, 203, 210, 224, 231, 238]); anomalies ['double shift k=3 at frame 523', 'double shift k=2 at frame 878', 'double shift k=2 at frame 917', 'double shift k=2 at frame 959', 'double shift k=2 at frame 1155', 'double shift k=3 at frame 1288', 'double shift k=3 at frame 1381', 'double shift k=2 at frame 1624', 'queue resync at frame 2040: (4, 5, 6, 6, 3)->(2, 6, 3, 7, 4)', 'double shift k=2 at frame 2822', 'double shift k=2 at frame 3110', 'double shift k=2 at frame 3170', 'double shift k=2 at frame 3351', 'double shift k=2 at frame 3374', 'double shift k=2 at frame 3549', 'double shift k=2 at frame 3876', 'double shift k=2 at frame 3890', 'double shift k=2 at frame 4230']",
+"t_s": 8367.5,
+"n": 289
+},
+{
+"id": "n096",
+"player": "p1",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 8404.43 s",
+"t_s": 8404.43,
+"n": 290
+},
+{
+"id": "n096",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 12.80 s from 8420.50 s; B events spliced (D2/D3)",
+"t_s": 8420.5,
+"n": 291
+},
+{
+"id": "n096",
+"player": "p1",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 8420.5 s",
+"t_s": 8420.5,
+"n": 292
+},
+{
+"id": "n096",
+"player": "p1",
+"field_or_issue": "T-spin without a banner",
+"detail": "A tsd at 8467.33 s typed as a plain clear",
+"t_s": 8467.33,
+"n": 293
+}
+]

@@ -1,0 +1,846 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "n000",
+   "side": "p1",
+   "op": "retype",
+   "t": 75.23,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo score +5400 at 75.57 = TSD with B2B (TST w/ B2B would be 7200)"
+  },
+  {
+   "n": 2,
+   "id": "n000",
+   "side": "p1",
+   "op": "retype",
+   "t": 102.97,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "video 6rUc3cXsjbo score +1366 at 103.53 = single+REN7; single-row clear flash (fr/g0/n000a.png)"
+  },
+  {
+   "n": 3,
+   "id": "n000",
+   "side": "p1",
+   "op": "retype",
+   "t": 103.97,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "video 6rUc3cXsjbo score +3624 at 104.27; TETRIS banner 104.5-105.25; 4-row flash (n000a)"
+  },
+  {
+   "n": 4,
+   "id": "n000",
+   "side": "p1",
+   "op": "add",
+   "t": 104.9,
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo score +3600 at 105.47 = TSS with B2B, REN broken; BACK to BACK banner; T locked ~105.3 before KO 105.77 (n000a). Total piece count not pinned, so no pieces cell edit"
+  },
+  {
+   "n": 7,
+   "id": "n015",
+   "side": "p2",
+   "op": "retype",
+   "t": 1147.87,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "video 6rUc3cXsjbo no score jump 1147.13-1150.13 (drop points only); nextcount spawn 1147.867 so the lock is real (n015b)"
+  },
+  {
+   "n": 10,
+   "id": "n027",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2208.63,
+   "t_end": 2209.47,
+   "events": [
+    {
+     "t": 2208.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2208.83,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2208.63,
+     "tst",
+     4
+    ],
+    [
+     2208.77,
+     null,
+     0
+    ],
+    [
+     2208.77,
+     null,
+     0
+    ],
+    [
+     2208.77,
+     null,
+     0
+    ],
+    [
+     2209.1,
+     null,
+     0
+    ],
+    [
+     2209.47,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "video 6rUc3cXsjbo I placed flat with no clear, garbage rose 2208.78; T spawned 2208.83 and made a TSD ~2209.3; score +3611 at 2209.73 = one TSD without B2B (n027a)"
+  },
+  {
+   "n": 12,
+   "id": "n029",
+   "side": "p1",
+   "op": "retype",
+   "t": 2477.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "video 6rUc3cXsjbo score 39890->41126 (+1236) = double+REN2+drops; '2 REN' banner 2478.1 (n029a)"
+  },
+  {
+   "n": 13,
+   "id": "n029",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2603.1,
+   "t_end": 2610.1,
+   "events": [
+    {
+     "t": 2603.13,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2603.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2604.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2606.3,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2606.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 2607.43,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 2608.07,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 2609.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2610.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2603.1,
+     null,
+     0
+    ],
+    [
+     2604.0,
+     "single",
+     1
+    ],
+    [
+     2604.8,
+     "single",
+     1
+    ],
+    [
+     2606.3,
+     "double",
+     2
+    ],
+    [
+     2607.3,
+     "tst",
+     3
+    ],
+    [
+     2607.77,
+     "single",
+     1
+    ],
+    [
+     2608.47,
+     "triple",
+     3
+    ],
+    [
+     2610.1,
+     "double",
+     2
+    ]
+   ],
+   "source": "video 6rUc3cXsjbo score jumps after the quad +1078,+628,+776,+1522,+1074,+2428,+1984 = double,single,single,double,single,triple,double at REN1-7; '7 REN' on frames (n029b); spawns from nextcount"
+  },
+  {
+   "n": 15,
+   "id": "n029",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2615.77,
+   "t_end": 2623.27,
+   "events": [
+    {
+     "t": 2615.77,
+     "kind": "tst",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2616.93,
+     "kind": "tsmini",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2618.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2619.87,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2620.77,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2621.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2621.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2622.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2622.53,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     2615.77,
+     "tst",
+     3
+    ],
+    [
+     2615.77,
+     null,
+     0
+    ],
+    [
+     2616.2,
+     "triple",
+     3
+    ],
+    [
+     2617.24,
+     "tsmini",
+     1
+    ],
+    [
+     2617.7,
+     "single",
+     1
+    ],
+    [
+     2619.3,
+     "single",
+     1
+    ],
+    [
+     2620.13,
+     "triple",
+     3
+    ],
+    [
+     2621.83,
+     "tsd",
+     2
+    ],
+    [
+     2622.07,
+     null,
+     0
+    ],
+    [
+     2622.5,
+     null,
+     0
+    ],
+    [
+     2622.9,
+     null,
+     0
+    ],
+    [
+     2623.27,
+     "double",
+     2
+    ]
+   ],
+   "source": "video 6rUc3cXsjbo score +4800 TST, +1050 mini B2B+REN1, +624, +1974, +1526 double REN4, +3600 TSD REN broken; no jump for a triple at 2616.2 or double at 2623.27 (n029c)"
+  },
+  {
+   "n": 17,
+   "id": "n029",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2648.0,
+   "t_end": 2649.1,
+   "events": [
+    {
+     "t": 2648.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 2649.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     2649.1,
+     null,
+     0
+    ],
+    [
+     2649.1,
+     "single",
+     1
+    ]
+   ],
+   "source": "video 6rUc3cXsjbo nextcount spawn 2648.1; vertical I clears a garbage row 2648.4 with '5 REN' (n029e); six REN singles REN3-8 confirmed by score"
+  },
+  {
+   "n": 19,
+   "id": "n029",
+   "side": "p1",
+   "op": "retype",
+   "t": 2674.63,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo score +3620 at 2674.97 = quad with B2B; vertical I and TETRIS banner (n029f)"
+  },
+  {
+   "n": 20,
+   "id": "n029",
+   "side": "p1",
+   "op": "retype",
+   "t": 2677.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "video 6rUc3cXsjbo score +5400 at 2677.33 = TSD with B2B; T into the slot (n029f)"
+  },
+  {
+   "n": 22,
+   "id": "n029",
+   "side": "p1",
+   "op": "retype",
+   "t": 2790.37,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "video 6rUc3cXsjbo score +2400 at 2790.60 = quad without B2B; vertical I into garbage well; TETRIS banner (n029g)"
+  },
+  {
+   "n": 27,
+   "id": "n041",
+   "side": "p2",
+   "op": "retype",
+   "t": 3830.23,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "video 6rUc3cXsjbo one garbage row cleared ~3830.5, score +300 at 3830.40; no 4-line clear and no T-spin (n041b)"
+  },
+  {
+   "n": 27,
+   "id": "n041",
+   "side": "p2",
+   "op": "add",
+   "t": 3832.0,
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 3,
+   "source": "video 6rUc3cXsjbo three garbage rows cleared ~3832.3, score +1496 at 3832.50 (n041b)"
+  },
+  {
+   "n": 28,
+   "id": "n041",
+   "side": "p2",
+   "op": "retype",
+   "t": 3938.4,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "video 6rUc3cXsjbo I spawned ~3938.2 and cleared 4 garbage rows; TETRIS banner; score +3776 at 3938.67 = quad B2B+REN1+drops (n041a)"
+  },
+  {
+   "n": 28,
+   "id": "n041",
+   "side": "p2",
+   "op": "add",
+   "t": 3939.25,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo O locked before KO 3939.8, score +24 at 3939.40 (n041a)"
+  },
+  {
+   "n": 28,
+   "id": "n041",
+   "side": "p2",
+   "op": "add",
+   "t": 3939.55,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo L locked before KO 3939.8, score +20 at 3939.70 (n041a)"
+  },
+  {
+   "n": 33,
+   "id": "n043",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4117.63,
+   "t_end": 4119.9,
+   "events": [
+    {
+     "t": 4117.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4117.85,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4118.05,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4118.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4118.75,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4119.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4119.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     4117.63,
+     null,
+     0
+    ],
+    [
+     4117.63,
+     "tst",
+     4
+    ],
+    [
+     4118.0,
+     null,
+     0
+    ],
+    [
+     4118.0,
+     null,
+     0
+    ],
+    [
+     4118.17,
+     null,
+     0
+    ],
+    [
+     4118.2,
+     "BREAK",
+     3
+    ],
+    [
+     4119.9,
+     "BREAK",
+     5
+    ]
+   ],
+   "source": "video 6rUc3cXsjbo score only drop points 4116.8-4119.07 (no clear at 4117.63); pieces S,Z,L,O and one more stacked 4117.9-4119.0 (nextcount shifts 4117.63, 3 by 4118.33, 2 by 4119.0); vertical I into right well ~4119.3 with 4-row flash and TETRIS banner 4119.9-4120.4, score up at 4119.13-4119.30; white garbage top drops ~2 rows (n043a)"
+  },
+  {
+   "n": 34,
+   "id": "n063",
+   "side": "p1",
+   "op": "add",
+   "t": 5926.47,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo O dropped into the bottom-right corner and locked ~5926.47 with no clear, score +38 drop points 5926.40->5926.50; visible locked in the yatta frames (n063a)"
+  },
+  {
+   "n": 35,
+   "id": "n073",
+   "side": "p1",
+   "op": "retype",
+   "t": 6733.33,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo O fills the two-row stack at ~6733.4, 2-row clear and PERFECT CLEAR banner 6733.6-6734.4; score +4840 at 6733.50 (n073a)"
+  },
+  {
+   "n": 35,
+   "id": "n073",
+   "side": "p1",
+   "op": "retype",
+   "t": 6733.57,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "video 6rUc3cXsjbo the next piece (vertical I at right ~6733.8) clears nothing: board was empty, score +32 drop points only 6733.97-6734.00 (n073a)"
+  },
+  {
+   "n": 36,
+   "id": "n073",
+   "side": "p1",
+   "op": "add",
+   "t": 6751.3,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo S spawned 6751.2 and locked beside the L ~6751.3 (score +26), visible in the yatta frames after KO 6751.27 (n073b)"
+  },
+  {
+   "n": 39,
+   "id": "n076",
+   "side": "p1",
+   "op": "add",
+   "t": 7032.35,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "video 6rUc3cXsjbo vertical L ~7032.3 clears the top garbage row (flash 7032.45), score +450 at 7032.40 = single+REN1 (n076a)"
+  },
+  {
+   "n": 40,
+   "id": "n083",
+   "side": "p2",
+   "op": "add",
+   "t": 7572.75,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo piece placed ~7572.7 clears the top row (flash 7572.98), score +302 at 7572.90 (n083a)"
+  },
+  {
+   "n": 40,
+   "id": "n083",
+   "side": "p2",
+   "op": "add",
+   "t": 7573.7,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "video 6rUc3cXsjbo T placed ~7573.66 clears a row (flash 7573.83), score +452 = single+REN1, so no non-clearing lock between the two (n083a)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 9,
+   "id": "n027",
+   "player": "p1",
+   "field": "pieces",
+   "was": 56,
+   "value": 53,
+   "source": "video 6rUc3cXsjbo nextcount 19 spawns 2208.63-2219.37 where the chain has 22; with the n10 window fix (n027a)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "Triple jump at the window edge (49766->51416 at 76.73); quad +2487 at 78.80 matches the chain"
+  },
+  {
+   "n": 5,
+   "why": "Tail piece count cannot be pinned from the frames"
+  },
+  {
+   "n": 6,
+   "why": "TSD at 1146.3 is right (+5550 = TSD B2B + REN1); T-SPIN Triple banner is left over from the TST at 1144.9"
+  },
+  {
+   "n": 8,
+   "why": "5 spawns and 5 chain locks in 2221.5-2222.7"
+  },
+  {
+   "n": 11,
+   "why": "47 bad bags; cannot be resolved by counting"
+  },
+  {
+   "n": 14,
+   "why": "Gap window covered by the n13 and n15 window fixes"
+  },
+  {
+   "n": 16,
+   "why": "Mini is real (+1050 at 2617.60-2617.73)"
+  },
+  {
+   "n": 18,
+   "why": "Explained by the n19 quad correction"
+  },
+  {
+   "n": 21,
+   "why": "Explained by the n22 quad correction"
+  },
+  {
+   "n": 23,
+   "why": "No clears after the TSD at 3391; score drops fit about 6-9 locks and the frames cannot pin the count"
+  },
+  {
+   "n": 24,
+   "why": "Unexplained part was the reader leaking p2's score; p1's own series fits every chain clear"
+  },
+  {
+   "n": 25,
+   "why": "Bad bags in a heavily B-spliced window; cannot be resolved by counting"
+  },
+  {
+   "n": 26,
+   "why": "Gap window: remaining clears match score (TSD +3600 at 3839.13, two quads +3628/+3632); the timing of the double cannot be pinned; disputed clear fixed under n27"
+  },
+  {
+   "n": 29,
+   "why": "Tail: end clears fixed under n28; pre-KO piece count cannot be pinned"
+  },
+  {
+   "n": 30,
+   "why": "Bad bags; cannot be resolved by counting"
+  },
+  {
+   "n": 31,
+   "why": "Chain TSD is right: score +5550 at 4084.37 = TSD B2B + REN1; T-SPIN Triple banner left over from the TST at 4082.2 (+4800 at 4082.93)"
+  },
+  {
+   "n": 32,
+   "why": "Gap window covered by the n33 window fix"
+  },
+  {
+   "n": 37,
+   "why": "Residual is score-reader noise (digit misreads 44xxx/43xxx); TSD +5400, quad +3750, single +600 match the chain"
+  },
+  {
+   "n": 38,
+   "why": "The +478 is the REN single at ~7032.35 added under n39"
+  },
+  {
+   "n": 41,
+   "why": "Tail clears added under n40; no further locks before KO shown"
+  }
+ ]
+}

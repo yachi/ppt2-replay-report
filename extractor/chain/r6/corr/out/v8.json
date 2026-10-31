@@ -1,0 +1,197 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "fr/v8/n004.png: board empty + PERFECT CLEAR at 213.3 after the I spawned ~213.0 (nearest chain event 212.83); score 11254->15904 (+4650 = double PC + REN), single jump"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "no further clear after the PC: score 15904->15940 (+36 drop) at 213.73; 213.37 piece is the held-swap S that locks without clear"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score 141688->~145412 (+3724) then TSD +5400 at 334.5 still B2B: quad B2B, a triple would give 2250 and break B2B"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v8/n005b.png: Z held, I dropped vertically into left column, 4 coloured rows cleared, BACK to BACK, 345389->348989 (+3600); garbage row stays (gc0)"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "fr/v8/n005a.png: S locks 489.5 (no clear), T held / O locks 489.8 (no clear), I into well 489.9 -> TETRIS 490.0-490.5, 359539->361939 (+2400, no B2B after the 487.9 single); only one quad"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "p2 score 65336->65786 (+450 single REN1) ->67014 (+1228 double REN2) ->67790 (+776 single REN3), no jump around 993.3-994.9; matches single,double,single,None"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "fr/v8/n012.png: I single flash 996.4, T double flash 997.0-997.4, I spawns 997.75 for the triple; score 67892->69250 (+1358 = 300+1050) ->71062 (+1812 triple REN2) ->72428 (+1366 double REN3); piece count unchanged"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "nextcount: spawns at 1186.067 and 1186.300 not in chain; score drops 38 (1186.2) and 74 (1186.5) before the chain's first event 1186.6"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "as e7"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "fr/v8/n016.png: J placed ~1194.9 empties board, PERFECT CLEAR 1195.0; 11116->15766 (+4650 double PC REN1)"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "after the PC no further clear: 15766->15950 small drops only"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "fr/v8/n017a.png: I at 1212.3 clears the last row, PERFECT CLEAR 1212.4-1212.8; 11842->14730 (+2888)"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "T at 1212.5 held, O dropped, no clear: 14731->14769 drop only"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "fr/v8/n017b.png, n017c.png: true score 44980 (reader misread 40xxx); O held, T from hold TSD 2 rows +BACK, ->50433 (+~5430 TSD B2B); S locks 1242.0; I 1242.3 TETRIS ->54075 (+3600). 3 pieces"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "fr/v8/n017d.png: I at 1247.2 -> TETRIS banner 1248.0 with BACK; 57790->61717 (+3600 quad B2B + ~300 zero-line mini from the T at 1246.8)"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "fr/v8/n017e.png: T(1416.9) no clear, L triple (+1500 exactly, 290296->291796), O, S, S no clear, Z single (+378), T held/I quad (+2568 = 2400+REN1); 7 pieces matches"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "fr/v8/n017f.png: I held/Z out -> single 1424.65 (298431->298895, +450 REN1); J spawn swapped with held I -> I double 1425.55 (->300111, +1200 REN2); 2 pieces"
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "score 304206->304821 (+600 single REN2) at 1429.5, nothing at 1430.3 (+10 drops); spawns 1429.23 and 1430.17"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "fr/v8/n022b.png: after the TSD, O (spawn ~1753.4, locks 1753.9), Z (locks ~1754.1), I quad 1754.6 (40403->44027 +3600 B2B); 3 pieces"
+ },
+ {
+  "ref": "e19",
+  "verdict": "amend",
+  "why": "fr/v8/n022a.png, n022c.png: only ONE clear (TETRIS 1746.6, 25615->29247 +3600 B2B; the 1745.77 TSD banner is the 1744.47 TSD lingering, scored 1745.03). But only TWO pieces in the window: no spawn between the TSD and 1745.77 (NEXT unchanged T,I,S,L,Z 1745.0-1745.7, stack shift at 1745.5-1745.7 is the clear collapse); T spawned 1745.8 and was held, J came out and locked ~1746.2 (+28 drop), then I at 1746.4 quad. Proposal's 3 events add a phantom piece.",
+  "amended": {
+   "events": [
+    {
+     "t": 1745.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1746.7,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "fr/v8/n047a.png: PC single confirmed (11871->14708, +2837). Note the PC piece is the first I (spawn ~4309.9, chain 4309.83 None); the 4310.13 event is the second I that locks without clear. Counts identical, so retyping 4310.13 is acceptable; strictly 4309.83 single pc1 / 4310.13 None"
+ },
+ {
+  "ref": "e21",
+  "verdict": "reject",
+  "why": "fr/v8/n047b.png, n047c.png (both boards): S held, Z still at the top at 4325.16; the Z locks at 4325.20 (score 34723->34743), one frame after the KO frame 4325.17, so it does not count"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "p2 score 10817->16368 at 4889.67 (+5551 = TSD B2B + REN1) from the 4888.93 piece; 4889.77 piece adds only drops (16368->16400)"
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "as e22: +5551 is a TSD with B2B, not a TST (7200)"
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "fr/v8/n059a.png: TSD 2 rows at 5339.9, 175584->180964 (+5380 TSD B2B)"
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "fr/v8/n059a.png: next I (spawned 5340.6, chain logs it 5341.17) vertical into well, TETRIS 5340.9 with 4 white rows, 180986->184736 (+3750 quad B2B REN1); no piece between TSD and I"
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "fr/v8/n059b.png: S locks ~5376.3, I spawns 5376.5 locks right edge 5376.8 (no clear), T spawns 5376.9 -> TSD 5377.3 (225868->231284 +5416), next O spawns 5378.1; window holds 2 pieces, the other 4 chain events are phantoms"
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "p2 score 25277->26177 (+900) at 5829.5 = plain double; TSD before was +3606 at 5828.17"
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "46248->47185 (+937 = mini TSS B2B 900) then 47185->50888 (+3703 quad still B2B): no single in between (a single would break B2B)"
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "60679->66079 (+5400) at 5859.8: TSD with B2B, not a double (900)"
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "fr/v8/n093.png: PERFECT CLEAR 8097.96-8098.6; 56692->57292 (+600 single REN2) ->59692 (+2400 PC bonus)"
+ },
+ {
+  "ref": "e31",
+  "verdict": "amend",
+  "why": "no clear at 8098.0 (59692 -> only drops after), but the event is a real piece: after the PC I, S spawned and was held, Z came out and locked ~8098.2 (fr/v8/n093.png), O spawned 8098.28, J 8098.6 -> 4 pieces for the 4 chain events 8097.73/8098.0/8098.23/8098.6. Removing it drops a real lock; retype to None instead.",
+  "amended": {
+   "op": "retype",
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "2 spawns at 1186.067/1186.300 missing from chain (nextcount + drop points), 23 -> 25"
+ },
+ {
+  "ref": "c1",
+  "verdict": "reject",
+  "why": "the extra Z locks at 4325.20, after the KO frame 4325.17 (fr/v8/n047c.png); pieces stay 50"
+ }
+]
