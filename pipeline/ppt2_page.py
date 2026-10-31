@@ -30,6 +30,8 @@ LEAD_S = 3
 SUMS = ("duration_s", "pieces", "lines_cleared", "attack", "garbage_cleared", "garbage_received_rows",
         "single", "double", "triple", "quad", "tss", "tsd", "tst", "tsmini", "pc")
 MAXES = ("max_combo", "max_b2b")
+#: lines a Perfect Clear adds to the attack, as the chain's tetrio/metrics.py tallies it
+PC_SEND = 10
 
 
 def _hand_edits(repo, s):
@@ -83,6 +85,10 @@ def _fl(x, dp):
     return f"{math.floor(x * q + 1e-9) / q:.{dp}f}"
 
 
+def _opt(x, dp):
+    return "—" if x is None else _fl(x, dp)
+
+
 def pool(rows):
     s = defaultdict(float)
     for r in rows:
@@ -92,6 +98,9 @@ def pool(rows):
             s[k] = max(s[k], float(r[k]))
         s["games"] += 1
         s["won"] += r["won"] == "1"
+        side = "w" if r["won"] == "1" else "l"  # for the PC rate in won and in lost games
+        s["pc_" + side] += float(r["pc"])
+        s["dur_" + side] += float(r["duration_s"])
     return s
 
 
@@ -106,6 +115,10 @@ def rates(s):
         "QPM": s["quad"] / m, "TSPM": tspins / m, "TSDPM": s["tsd"] / m,
         "QPCT": 100 * s["quad"] / clears, "TSPCT": 100 * tspins / clears,
         "RECV": 60 * s["garbage_received_rows"] / t, "MEAN": t / s["games"],
+        # the PC bonus (PC_SEND = 10 lines in the chain's metrics.py) as a share of all attack
+        "PCATT": 100 * PC_SEND * s["pc"] / s["attack"] if s["attack"] else 0.0,
+        "PCPM_W": 60 * s["pc_w"] / s["dur_w"] if s["dur_w"] else None,
+        "PCPM_L": 60 * s["pc_l"] / s["dur_l"] if s["dur_l"] else None,
     }
 
 
@@ -188,13 +201,19 @@ def _player_row(name, s, cls=""):
     r = rates(s)
     cells = "".join(f"<td>{_fl(r[k], dp)}</td>" for k, dp in PLAYER_COLS)
     return (f"<tr class='{cls}'><td class='l'>{escape(name)}</td><td>{int(s['games'])}</td>"
-            f"<td>{int(s['won'])}</td>{cells}<td>{int(s['pc'])}</td><td>{int(s['max_combo'])}</td>"
+            f"<td>{int(s['won'])}</td>{cells}<td>{int(s['pc'])}</td><td>{_fl(r['PCATT'], 1)}</td>"
+            f"<td>{_opt(r['PCPM_W'], 2)}</td><td>{_opt(r['PCPM_L'], 2)}</td><td>{int(s['max_combo'])}</td>"
             f"<td>{int(s['max_b2b'])}</td><td>{_fl(r['MEAN'], 1)}</td></tr>")
 
 
+#: how to read the player table's PC columns; ONE copy, for the overview and every card page
+PC_PLAYER_NOTE = ("全消佔攻擊 % = 全消加成（每次 10 行）佔總攻擊嘅百分比；全消/分（贏局／輸局）= 只計嗰個玩家"
+                  "贏咗／輸咗嘅局，全消總數 ÷ 嗰啲局嘅總分鐘。全消同贏局只係一齊出現，唔代表全消令佢贏；"
+                  "冇做全消字幕掃描嘅資料集全消可能偏少。")
+
 PLAYER_TABLE_HEAD = ("<tr><th class='l'>玩家</th><th>局數</th><th>贏</th>"
                      + "".join(f"<th>{h}</th>" for h in PLAYER_HEAD)
-                     + "<th>全消</th><th>最長 REN</th><th>最長 B2B</th><th>平均局長 (秒)</th></tr>")
+                     + "<th>全消</th><th>全消佔攻擊 %</th><th>全消/分（贏局）</th><th>全消/分（輸局）</th><th>最長 REN</th><th>最長 B2B</th><th>平均局長 (秒)</th></tr>")
 
 
 def _game_head(s):
@@ -343,7 +362,8 @@ def render(games, s):
         _cards_section(cards(games, s), s),
         "<h2>每個玩家（只計入選嘅局）</h2><div class='tw'><table>", "".join(t1), "</table></div>",
         "<p class='muted'>DS/粒 = 每粒清走幾多行垃圾；食/分 = 每分鐘有幾多行垃圾真係落咗喺自己個板；"
-        "Tetris % 同 T-spin % 係佔所有清行次數嘅百分比；T-spin 唔計 Mini。</p>",
+        "Tetris % 同 T-spin % 係佔所有清行次數嘅百分比；T-spin 唔計 Mini。"
+        + PC_PLAYER_NOTE + "</p>",
         f"<h2>{s.me} 對每個對手</h2><div class='tw'><table>", "".join(t2), "</table></div>",
         f"<h2>逐局（{len(games)} 局，連影片）</h2><div class='tw'><table>", "".join(t3), "</table></div>",
         _pc_legend(s, {g["p1"]["dataset"] for g in games.values()}),
@@ -516,7 +536,7 @@ def render_card(games, c, s):
                    f"{_fl(me['APP'], 3)} 對 {_fl(op['APP'], 3)}。")
         table = ("<h2>呢張卡嘅每個玩家（只計入選嘅局）</h2><div class='tw'><table>" + PLAYER_TABLE_HEAD
                  + _player_row(s.me, c["me"], "me") + _player_row(c["label"], c["opp"], "small" if c["small"] else "")
-                 + "</table></div>")
+                 + "</table></div>" + f"<p class='muted'>{PC_PLAYER_NOTE}</p>")
     else:
         figures = "呢張卡冇一局計入，所以冇戰績、冇比率。"
         table = ""
