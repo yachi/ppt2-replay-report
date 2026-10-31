@@ -201,7 +201,8 @@ def _game_head(s):
     return ("<tr><th class='l'>局</th><th class='l'>日期</th><th class='l'>影片</th><th class='l'>對手</th>"
             "<th class='l'>開局</th><th class='l'>贏家</th><th>局長 (秒)</th>"
             f"<th>{s.short} PPS</th><th>{s.short} APM</th><th>{s.short} APP</th>"
-            "<th>對手 PPS</th><th>對手 APM</th><th>對手 APP</th><th class='l'>備註</th></tr>")
+            f"<th>對手 PPS</th><th>對手 APM</th><th>對手 APP</th><th>{s.short} 全消</th><th>對手 全消</th>"
+            "<th class='l'>備註</th></tr>")
 
 
 def _game_key(g):
@@ -221,6 +222,14 @@ def _game_row(gid, g, s):
             return "<td>—</td><td>—</td><td>—</td>"
         return (f"<td>{_fl(float(r['pieces']) / t, 3)}</td><td>{_fl(60 * float(r['attack']) / t, 2)}</td>"
                 f"<td>{_fl(float(r['attack']) / float(r['pieces']), 3)}</td>")
+    unscanned = p1["dataset"] in s.pc_unscanned
+
+    def pc(r):
+        """The game's PC count. Not a rate, so an excluded game prints it too: with a `≥` when that
+        player's row is a lower bound, and `*` when the dataset had no PERFECT CLEAR banner scan."""
+        lb = ex and "lower bound" in r["reason"]
+        mark = "<sup title='呢個資料集冇做 PERFECT CLEAR 字幕掃描，全消可能漏數'>*</sup>" if unscanned else ""
+        return f"<td>{'≥' if lb else ''}{int(r['pc'])}{mark}</td>"
     note = "；".join(sorted({x for x in (p1["reason"], p2["reason"]) if x})) if ex else ""
     return (
         f"<tr class='{'ex' if ex else ''}'><td class='l'><code>{escape(gid)}</code></td>"
@@ -228,8 +237,18 @@ def _game_row(gid, g, s):
         f"<td class='l'><a href='{escape(_video(p1))}' target='_blank' rel='noopener'>"
         f"{escape(p1['video'])} @ {int(float(p1['start_s']) // 60)}:{int(float(p1['start_s']) % 60):02d}</a></td>"
         f"<td class='l'>{escape(p2['opponent'] or '（冇讀名）')}</td><td class='l'>{escape(p1['opener'] or '—')}</td>"
-        f"<td class='l'>{winner}</td><td>{_fl(t, 1)}</td>{st(p1)}{st(p2)}"
+        f"<td class='l'>{winner}</td><td>{_fl(t, 1)}</td>{st(p1)}{st(p2)}{pc(p1)}{pc(p2)}"
         f"<td class='l'>{escape('剔除：' + note) if ex else ''}</td></tr>")
+
+
+def _pc_legend(s, datasets):
+    """The line under a per-game table that says how to read its 全消 columns. ONE copy, for the
+    overview and every card page; the `*` sentence prints only where a marked dataset is shown."""
+    miss = sorted((d for d in datasets if d in s.pc_unscanned), key=lambda d: (_date(d), d))
+    star = ("<sup>*</sup> = 呢個資料集（" + "、".join(escape(d) for d in miss) + "）抽取時冇做 PERFECT CLEAR "
+            "字幕掃描，全消靠抽取器自己嘅判斷同人手改正，冇逐個同字幕對過，所以可能偏少。") if miss else ""
+    return ("<p class='muted'>全消 = 嗰局嗰個玩家打咗幾多次 Perfect Clear。剔除咗嘅局都照印全消數，"
+            "標 ≥ 嘅係嗰個玩家局睇唔晒、數字係下限。" + star + "</p>")
 
 
 def _warn_box(small, s, datasets):
@@ -327,6 +346,7 @@ def render(games, s):
         "Tetris % 同 T-spin % 係佔所有清行次數嘅百分比；T-spin 唔計 Mini。</p>",
         f"<h2>{s.me} 對每個對手</h2><div class='tw'><table>", "".join(t2), "</table></div>",
         f"<h2>逐局（{len(games)} 局，連影片）</h2><div class='tw'><table>", "".join(t3), "</table></div>",
+        _pc_legend(s, {g["p1"]["dataset"] for g in games.values()}),
         "<h2>影片</h2><ul>", vids, "</ul>",
         _footer(s, False),
         "</div></body></html>",
@@ -520,6 +540,7 @@ def render_card(games, c, s):
         table,
         f"<h2>逐局（{len(c['gids'])} 局，連影片）</h2><div class='tw'><table>", _game_head(s),
         "".join(_game_row(k, games[k], s) for k in c["gids"]), "</table></div>",
+        _pc_legend(s, {c["dataset"]}),
         _footer(s, True),
         "</div></body></html>",
     ])
@@ -529,9 +550,12 @@ def render_all(games, s):
     """{docs file name: html} for the subject's overview and every card page — what bin/build-docs
     publishes for it, and the whole of it: any other docs/ppt2-<slug>-*.html is drift. So is a
     `dataset_notes` key that no game's dataset matches: that note would print nowhere."""
-    orphan = set(s.dataset_notes) - {g["p1"]["dataset"] for g in games.values()}
+    have = {g["p1"]["dataset"] for g in games.values()}
+    orphan = set(s.dataset_notes) - have
     if orphan:
         raise ValueError(f"{s.slug}: dataset_notes for datasets not in games.csv: {sorted(orphan)}")
+    if s.pc_unscanned - have:
+        raise ValueError(f"{s.slug}: pc_unscanned datasets not in games.csv: {sorted(s.pc_unscanned - have)}")
     out = {s.page: render(games, s)}
     for c in cards(games, s):
         if c["page"] in out:

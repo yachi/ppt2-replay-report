@@ -26,6 +26,10 @@ class Subject:
     # games.csv dataset id -> one HTML <li>; printed only where that dataset's games are shown. A key
     # with no dataset in games.csv raises at render time (pipeline.ppt2_page.render_all)
     dataset_notes: dict = field(default_factory=dict)
+    # games.csv dataset ids whose chain ran NO PERFECT CLEAR banner scan (R/pcscan.py): the pc column
+    # there is extractor A's flag plus the event corrections, so a PC the flag missed stays missed. The
+    # per-game table marks those cells. A key with no dataset in games.csv raises at render time
+    pc_unscanned: frozenset = frozenset()
 
     def __post_init__(self):
         if set(self.notes) - set(NOTE_SLOTS):
@@ -89,7 +93,11 @@ SYAKEGOHAN = Subject(
                              "閃得太短，88 段短閃逐段睇過，55 個係真；再加分數大跳嘅位搵返 2 個。"
                              "合共改咗 551 個事件、10 格。n005、n011、n022、n026、n059、n083、n095 呢 7 局"
                              "有一段睇片都定唔到，當下限。用 NEXT 隊列重數全部 194 個玩家局嘅粒數，38 個同表一樣，21 個差一粒，123 個係 NEXT 隊列讀唔清嘅局（360p 太矇），12 個差多過一粒（冇睇片核對），冇跟住改，呢 12 個玩家局嘅粒數可能有錯。</li>",
-    })
+    },
+    # chain trees Y (YbMeCRhjG1k) and B (every other video of these datasets) carry no R/pcscan.py;
+    # cVO, lg, TJc, uP, ach, r6 and both amemiya runs and xo do
+    pc_unscanned=frozenset({"stream-2026-09-21", "stream-2026-10-12", "upload-2026-07-14",
+                            "upload-2026-08-20", "upload-2026-09-13"}))
 
 AMEMIYA = Subject(
     slug="amemiya", me="amemiya", display="amemiya（たいようあめみや）", short="amemiya",
