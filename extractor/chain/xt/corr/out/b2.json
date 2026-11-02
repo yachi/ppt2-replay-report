@@ -1,0 +1,312 @@
+{
+ "event_corrections": [
+  {
+   "n": 16,
+   "id": "v019",
+   "side": "p1",
+   "op": "retype",
+   "t": 1742.7,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "fr/g2/v019a.png, fr/g2/v019b.png: the white band after the lock is 2 rows high; the score rose +1050 at 1743.00 (double 900 + REN1 150)"
+  },
+  {
+   "n": 20,
+   "id": "v023",
+   "side": "p1",
+   "op": "retype",
+   "t": 1956.5,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 4,
+   "source": "fr/g2/v023a.png: a second TETRIS banner at 1956.47-1956.61; score +4050 (B2B tetris 3600 + REN 450); the gray garbage rows are gone after it"
+  },
+  {
+   "n": 21,
+   "id": "v023",
+   "side": "p1",
+   "op": "add",
+   "t": 1985.07,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g2/v023ko.png: the O spawns at 1985.07 and locks at 1985.27 (score 83651->83665), before KO at 1985.3"
+  },
+  {
+   "n": 34,
+   "id": "v040",
+   "side": "p1",
+   "op": "retype",
+   "t": 3788.3,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "fr/g2/v040a.png, fr/g2/v040b.png: the vertical I in column 9 leaves a 2-row white band; score +1050 at 3788.63; garbage row count unchanged"
+  },
+  {
+   "n": 36,
+   "id": "v040",
+   "side": "p2",
+   "op": "retype",
+   "t": 3805.03,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g2/b40.png: banner reads 'Mini T-SPIN' with no 'Single'; score +300 at 3805.39 (zero-line mini)"
+  },
+  {
+   "n": 53,
+   "id": "v058",
+   "side": "p2",
+   "op": "retype",
+   "t": 4680.47,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g2/b58.png: zero-line Mini T-SPIN banner; score +300 at 4680.40; the next quad scores +3600 with no REN step"
+  },
+  {
+   "n": 60,
+   "id": "v066",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 5056.93,
+   "t_end": 5057.13,
+   "events": [
+    {
+     "t": 5056.93,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 3
+    },
+    {
+     "t": 5057.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5057.13,
+     "triple",
+     3
+    ]
+   ],
+   "source": "nextcount p1: the L spawns at 5056.933 and the perfect clear scores at 5057.07; the 5057.13 spawn is the held L swapping in the O, with no clear (fr/g2/v066ko.png). Pieces unchanged at 23"
+  },
+  {
+   "n": 71,
+   "id": "v075",
+   "side": "p2",
+   "op": "retype",
+   "t": 5477.33,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "fr/g2/v075a.png: the O clears a row at 5477.47; score +626 (single + REN2)"
+  },
+  {
+   "n": 76,
+   "id": "v082",
+   "side": "p1",
+   "op": "retype",
+   "t": 5886.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 2,
+   "source": "fr/g2/v082a.png, fr/g2/v082b.png: TETRIS + BACK to BACK banner; score +3750; garbage drops from 8 rows to 6"
+  },
+  {
+   "n": 77,
+   "id": "v082",
+   "side": "p1",
+   "op": "retype",
+   "t": 5946.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "fr/g2/v082d.png: the white band at 5947.00 covers two coloured (non-garbage) rows; score 113239->114289 = +1050 (double 900 + REN1 150), where the chain's single predicts 450"
+  },
+  {
+   "n": 75,
+   "id": "v082",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 5965.3,
+   "t_end": 5965.63,
+   "events": [
+    {
+     "t": 5965.3,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5965.3,
+     null,
+     0
+    ],
+    [
+     5965.53,
+     null,
+     0
+    ],
+    [
+     5965.53,
+     null,
+     0
+    ],
+    [
+     5965.53,
+     null,
+     0
+    ],
+    [
+     5965.63,
+     null,
+     0
+    ],
+    [
+     5965.63,
+     null,
+     0
+    ],
+    [
+     5965.63,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "fr/g2/v082e.png: the T spawns at 5965.30 and is the only piece until the O at ~5966.74; NEXT stays OZJOZ from 5965.3 to 5966.6; T-spin Double + B2B scored +5400 at 5966.10. The six events at 5965.53/5965.63 are phantoms (the extractor's double shifts k=3 at frames 2896/2899). nextcount over the game (fr/g2/nc_v082.txt): 263 shifts, and every other chain event pairs with a shift"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 21,
+   "id": "v023",
+   "player": "p1",
+   "field": "pieces",
+   "was": 97,
+   "value": 98,
+   "source": "fr/g2/v023ko.png: the final O locked at 1985.27, before KO at 1985.3"
+  },
+  {
+   "n": 71,
+   "id": "v075",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 6,
+   "value": 9,
+   "source": "fr/g2/v075a.png + score.py: REN runs through 10 consecutive clears from 5475.17 to 5484.13; the last single scored +1650 (300+9*150)"
+  },
+  {
+   "n": 75,
+   "id": "v082",
+   "player": "p1",
+   "field": "pieces",
+   "was": 269,
+   "value": 263,
+   "source": "fr/g2/nc_v082.txt: 263 queue shifts over 5871.17-6018.3; chain 269 includes 6 phantom events at 5965.53/5965.63 (fr/g2/v082e.png)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 9,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 11,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 27,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 31,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 35,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 47,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 83,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 93,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 95,
+   "why": "the final piece had not locked by the KO frame; the chain is already right"
+  },
+  {
+   "n": 54,
+   "why": "same event as n53 (v058 p2 4680.47 zero-line mini); corrected there"
+  },
+  {
+   "n": 59,
+   "why": "the +75 is drop points from the O and S locks after the perfect clear, not a missed clear"
+  },
+  {
+   "n": 84,
+   "why": "v087 p2: 22 locks and 3 singles; scores +300/+304/+454 fit max_combo 1; the O spawn was blocked at top-out; 0 attack is genuine"
+  },
+  {
+   "n": 2,
+   "why": "v004 p1: nextcount gives 86 shifts over 413.73-460.1, equal to the chain's 86 events and pieces=86; the bag anomaly is a misread of order, not a count error"
+  }
+ ]
+}
