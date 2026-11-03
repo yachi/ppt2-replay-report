@@ -1,0 +1,313 @@
+{
+ "event_corrections": [
+  {
+   "n": 18,
+   "id": "v020",
+   "side": "p2",
+   "op": "retype",
+   "t": 1825.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score 55059->56121 at 1825.67 (+1062 = double REN1 1050 + drop 12) right after the 1824.27 quad; frames fr/g3/v020_ab.png (1825.62 vs 1826.3): 4 colored rows above garbage become 2, both cleared rows colored"
+  },
+  {
+   "n": 24,
+   "id": "v026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2132.3,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +1050 at 2132.57 after the B2B quad (+3622 at 2131.5) = double REN1; next REN chain (2133.5 double +900 REN0, singles +478/+600/+780) consistent; fr/g3/v026_ab.png 2132.47 vs 2133.0: 4 colored rows -> 2"
+  },
+  {
+   "n": 37,
+   "id": "v041",
+   "side": "p2",
+   "op": "retype",
+   "t": 3876.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +450 at 3876.33 (single REN1, not double 1050), no further rise to KO; fr/g3/v041p2.png: garbage fills board to one colored row at top, only that one row flashes/clears at 3876.35"
+  },
+  {
+   "n": 43,
+   "id": "v049",
+   "side": "p1",
+   "op": "retype",
+   "t": 4226.97,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +3750 at 4227.17 = B2B tetris REN1 (3600+150); hold I played into col-3 well; TETRIS banner + '1 REN'; fr/g3/v049_ab.png 4226.95 vs 4228.1: 6 colored rows -> 2, garbage unchanged"
+  },
+  {
+   "n": 55,
+   "id": "v060",
+   "side": "p1",
+   "op": "retype",
+   "t": 4772.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +1076 at 4772.40 (double REN1 1050 + drop) after the quad; fr/g3/v060_ab.png 4772.25 vs 4772.95: two bottom colored rows (red row, red/green/purple row) cleared by the T hard-dropped (no spin banner)"
+  },
+  {
+   "n": 69,
+   "id": "v070",
+   "side": "p2",
+   "op": "retype",
+   "t": 5255.93,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "banner reads only 'Mini T-SPIN' (no 'Single'), fr/g3/v070_ban.png; score +300 at 5255.87 = zero-line mini (single mini would be 600/900); fr/g3/v070_ab.png: stack rises exactly by the 2 incoming garbage rows (cyan top 10->12 rows), no row cleared. The T itself is the 5255.13 spawn (already a plain lock); 5255.93 is the next piece (J spawn, hold swap), a plain lock"
+  },
+  {
+   "n": 72,
+   "id": "v080",
+   "side": "p2",
+   "op": "retype",
+   "t": 5820.37,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +1072 at 5820.63 (double REN1 1050 + drop) after the 5819.27 quad; fr/g3/v080_ab.png 5820.5 vs 5821.2: 3 colored rows above garbage -> 1"
+  },
+  {
+   "n": 80,
+   "id": "v084",
+   "side": "p2",
+   "op": "retype",
+   "t": 6082.3,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "banner reads only 'Mini T-SPIN' (no 'Single'), fr/g3/v084_ab.png; score +300 at 6082.97 = zero-line mini T-spin; garbage then floods the board, no line clear"
+  },
+  {
+   "n": 85,
+   "id": "v089",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6298.9,
+   "t_end": 6301.1,
+   "events": [
+    {
+     "t": 6299.2,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 6300.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6301.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6298.93,
+     null,
+     0
+    ],
+    [
+     6298.93,
+     null,
+     0
+    ],
+    [
+     6298.93,
+     "quad",
+     4
+    ],
+    [
+     6301.03,
+     null,
+     0
+    ],
+    [
+     6301.03,
+     null,
+     0
+    ],
+    [
+     6301.03,
+     null,
+     0
+    ]
+   ],
+   "source": "nextcount: only 3 spawns in the window (6299.200, 6300.633, 6301.033) and NEXT spawn order is a clean 7-bag throughout (155 queue shifts); score: quad +2850 at 6299.80 (REN3), drop-only +12 at 6300.93 and +12 at 6301.30. Chain had triplicated events at 6298.93 and 6301.03; cumulative chain count = shifts-1 everywhere up to 6298.4 and 3 over at the end. gc 3 kept from chain"
+  },
+  {
+   "n": 86,
+   "id": "v089",
+   "side": "p1",
+   "op": "retype",
+   "t": 6275.6,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +30 drop at 6275.83 then +450 at 6275.90 = single REN1 after the 6274.43 quad (+2400); fr/g3/v089_ab.png 6275.8 vs 6276.4: one colored row cleared. This single also breaks B2B, which explains n87 (quad at 6280.1 scored +2400, not 3600)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 43,
+   "id": "v049",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": "3",
+   "value": "8",
+   "source": "with 4226.97 a quad, difficult clears tst,tss,tsd,quad,quad,tsd,quad,tsd,quad are consecutive; every score step B2B-consistent (tss +3600, tsd +5400, quad +3600/+3750, tsd +5400, quad +3750)"
+  },
+  {
+   "n": 61,
+   "id": "v067",
+   "player": "p1",
+   "field": "pieces",
+   "was": "116",
+   "value": "117",
+   "source": "fr/g3/v067.png: soft-dropped T reaches its slot with lock flash at 5125.17 (KO frame), score soft-drop increments end at 5125.17; fr/g3/v067_late.png shows it locked solid. No line clear visible (board froze)"
+  },
+  {
+   "n": 69,
+   "id": "v070",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": "1",
+   "value": "0",
+   "source": "only B2B-eligible clear is the 5253.57 TSD once the 5255.93 tsmini is a zero-line mini (no clear)"
+  },
+  {
+   "n": 85,
+   "id": "v089",
+   "player": "p1",
+   "field": "pieces",
+   "was": "156",
+   "value": "153",
+   "source": "155 NEXT shifts in 6219.5-6306.45, minus hold-into-empty at 6219.967, minus the 6305.733 spawn not locked by KO = 153 (chain triplicated events at 6298.93 and 6301.03)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 3,
+   "why": "+76 at 478.0 is drop points of locks during the PC/quad effect (digits obscured 477.7-477.93); following steps +36/+34 are also locks; no clear"
+  },
+  {
+   "n": 4,
+   "why": "last spawn 478.80 not locked by KO 478.93: p1 score stays 22499 through 479.2"
+  },
+  {
+   "n": 5,
+   "why": "15 locks confirmed by score drop steps and NEXT shifts (17 shifts - 1 hold-into-empty - final L spawned 478.30 never locks); two singles (+334, +300) correct; garbage topped out p2 (fr/g3/v005p2.png)"
+  },
+  {
+   "n": 17,
+   "why": "piece spawned 1848.70 not locked by KO 1848.8: score unchanged 93550"
+  },
+  {
+   "n": 23,
+   "why": "fr/g3/v026p1.png: T hard-dropped vertically into a well, only lingering TETRIS banner + REN counter, no T-spin banner; score +900 = single REN4 (300+600), sequence 600/2850/900/1050/1200 fits singles in a REN"
+  },
+  {
+   "n": 32,
+   "why": "spawn 3652.03 then hold swap 3652.10; KO 3652.23; score unchanged 97917 after: no lock"
+  },
+  {
+   "n": 40,
+   "why": "fr/g3/v044p1.png: O still hovering at 4061.03 (KO frame, p2 already tilting), locks at 4061.07 (score +18) one frame after KO"
+  },
+  {
+   "n": 44,
+   "why": "fr/g3/v049ko.png: L spawned 4238.67 still at top at 4238.87; score 40626 unchanged"
+  },
+  {
+   "n": 58,
+   "why": "fr/g3/v063.png: L spawned 4955.33 still near the top at 4956.4; score 92932 unchanged"
+  },
+  {
+   "n": 73,
+   "why": "spawn 5833.67 not locked by KO 5833.77; score 83640 unchanged"
+  },
+  {
+   "n": 79,
+   "why": "fr/g3/v084p2.png tilt begins at sheet time 6083.64, fr/g3/v084p1.png shows the O lock at sheet 6083.67 (score +28 at 6083.70): one frame after KO, not counted"
+  },
+  {
+   "n": 87,
+   "why": "unexplained -1200 is B2B: the missed single at 6275.6 (corrected under n86) breaks B2B, so the 6280.1 quad scores +2400 non-B2B; quad itself is real"
+  },
+  {
+   "n": 88,
+   "why": "clears all correct (tsd 3600, double 900, single 450 REN1, single 600 REN2, quad 2850 REN3 at 6299.80); the +466 came from the chain's phantom duplicate locks at 6298.93 breaking REN, fixed by the n85 replace_window"
+  }
+ ]
+}

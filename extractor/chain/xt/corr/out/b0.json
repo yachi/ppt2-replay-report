@@ -1,0 +1,37 @@
+{"event_corrections":[
+{"n":6,"id":"v007","side":"p1","op":"retype","t":546.97,"was":["double",2,0],"kind":"quad","lines":4,"pc":0,"gc":0,"source":"fr/g0/v007a.png: I dropped into well at 547.00, 4-row clear with TETRIS + REN + BACK to BACK at 547.10; score +3750 at 547.10 (B2B tetris 3600 + REN1 150), not a double (1050)"},
+{"n":13,"id":"v017","side":"p1","op":"replace_window","t":1640.0,"t_end":1640.0,"events":[],"was_old":[[1640.0,null,0],[1640.0,null,0],[1640.0,"quad",4]],"source":"fr/g0/v017a.png + nextcount: only one TETRIS (I from hold, score +2400 at 1639.83); next spawn is 1640.73 (S), no lock or score jump between 1639.9 and 1640.9; the three 1640.0 events are phantoms (whole-game NEXT count gives 183 locks)"},
+{"n":14,"id":"v017","side":"p2","op":"retype","t":1622.3,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":2,"source":"fr/g0/v017c.png, fr/g0/v017d.png: vertical I fills col-6 hole of the top two garbage rows at 1622.47, 2-row flash; score +1976 at 1622.50 = double 900 + REN7 1050 (+drops), a single would be 1350"},
+{"n":45,"id":"v050","side":"p2","op":"retype","t":4271.4,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g0/v050a.png: L locks at 4271.70 with a one-row flash; score +620 at 4271.70 = single 300 + REN2 300 (+20 drop); following singles score 770/920 = REN3/REN4"},
+{"n":56,"id":"v062","side":"p1","op":"remove","t":4857.53,"was":[null,0,0],"source":"fr/g0/v062g.png: after the lock at 4857.27 the T (from hold) hovers until hard drop at 4861.53 (score 15599 unchanged 4857.27-4861.53); NEXT shifts 4857.37 then 4861.63 only; 4857.53 is a duplicate of 4857.5"},
+{"n":56,"id":"v062","side":"p1","op":"replace_window","t":4851.93,"t_end":4852.23,"events":[{"t":4851.93,"kind":"double","lines":2,"pc":1,"gc":0},{"t":4852.23,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[4852.23,"double",2]],"source":"nextcount v062 p1: spawns 4851.933 (I) and 4852.233 (J); score +1050/+3600 (double PC) at 4852.13-4852.20 before the J spawn, so the double PC is the 4851.93 piece and the J spawned 4852.23 is a separate lock (next spawn 4852.60) missing from the chain"},
+{"n":63,"id":"v069","side":"p1","op":"replace_window","t":5221.6,"t_end":5223.7,"events":[{"t":5222.07,"kind":null,"lines":0,"pc":0,"gc":0},{"t":5222.57,"kind":null,"lines":0,"pc":0,"gc":0},{"t":5222.83,"kind":null,"lines":0,"pc":0,"gc":0},{"t":5223.13,"kind":"tss","lines":1,"pc":0,"gc":0}],"was_old":[[5221.6,null,0],[5221.6,null,0],[5221.6,"tst",4],[5222.8,null,0],[5223.0,null,0],[5223.37,null,0],[5223.7,"tss",1]],"source":"fr/g0/v069a.png + score: only the TETRIS at 5221.23 (+2400); no clear near 5221.6-5222.7 (TST is phantom; 5221.567/5221.867 queue shifts are effect misreads, real spawn 5222.07); locks at 5222.47 (+18, Z from hold), 5222.73 (+16), 5223.03 (+16), then T soft-dropped into B2B TSS +3600 at 5223.83; 4 locks, not 7"},
+{"n":68,"id":"v069","side":"p1","op":"retype","t":5228.27,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"score: only one jump around 5228, +5400 at 5228.20 (B2B TSD, the 5228.07 tsd); no further jump until 5232.10 (+900 double). The 5228.27 double is the same clear logged again; the event is kept as a plain lock because locks 5229.23/5229.53/5229.70/5231.17 + double piece need 5 events after the TSD"},
+{"n":90,"id":"v091","side":"p1","op":"retype","t":6390.83,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/v091a.png: T spun into place and locked ~6390.72 with a small Mini T-SPIN banner but no row cleared (stack height unchanged); score +300 at 6390.77 = zero-line Mini T-spin (a mini single would be 600, x1.5 B2B = 900)"},
+{"n":91,"id":"v091","side":"p2","op":"add","t":6407.2,"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/v091k.png: O spawned 6407.20 is hard-dropped and resting at bottom-left on the KO frame 6407.47 (score 51361->51383), no line cleared"},
+{"n":96,"id":"v100","side":"p1","op":"retype","t":7391.53,"was":["double",2,0],"kind":"quad","lines":4,"pc":0,"gc":0,"source":"fr/g0/v100a.png: T held at 7391.53, I from hold into right well, 4-row clear with TETRIS + REN + BACK to BACK at 7391.80; score +3750 (B2B tetris + REN1)"}
+],
+"cell_edits":[
+{"n":6,"id":"v007","player":"p1","field":"max_b2b","was":"3","value":6,"source":"with 546.97 a quad the B2B run is tsd 540.97, quad, quad, tsd, tss, tsd, quad 560.13 (scores +3600 non-B2B TSD at 541.77, then +3600,+3750,+5400,+3600,+5400,+3600 all B2B) = 7 difficult clears -> 6"},
+{"n":12,"id":"v017","player":"p1","field":"pieces","was":"186","value":183,"source":"whole-game nextcount: 186 shifts incl. a 2-count misread at 1578.23 (resynced) -> 184 real; first piece J held at 1550.0, last spawn 1647.9 not locked (KO), I in hold at end -> 183 locks; the chain's three 1640.0 events are phantoms"},
+{"n":56,"id":"v062","player":"p1","field":"pieces","was":"66","value":65,"source":"whole-game nextcount: 67 spawns, piece spawned 4875.97 hard-dropped at 4876.13 (after KO 4876.10, fr/g0/v062k.png), one piece in hold -> 65 locks"},
+{"n":62,"id":"v069","player":"p1","field":"pieces","was":"81","value":79,"source":"whole-game nextcount: 87 shifts minus two k=3 misreads at 5221.57/5221.87 = 81 spawns; last spawn 5241.57 not locked, one piece in hold -> 79 locks (chain had 3 extra events at 5221.6-5223.7)"},
+{"n":91,"id":"v091","player":"p2","field":"pieces","was":"82","value":83,"source":"O locked on the KO frame 6407.47 (fr/g0/v091k.png)"},
+{"n":96,"id":"v100","player":"p1","field":"max_b2b","was":"5","value":9,"source":"with 7391.53 a quad the B2B run is tss 7376.37, quad, tsd, quad, tss, quad, quad, tsd, quad, quad (all B2B scores, +5400/+3600/+3600 at 7398.07/7399.27/7400.53) = 10 -> 9"}
+],
+"no_change":[
+{"n":0,"why":"fr/g0/v001a.png: I spawned 274.20 locks 274.44 (in chain as 274.23); J from hold swap at 274.57 still falling at KO 274.67, no lock"},
+{"n":7,"why":"window ends before the TSD's score (+5400 B2B at 552.07); remaining mismatch is the 546.97 double, fixed under n6"},
+{"n":25,"why":"score shows only drop points, no clears; 22 locks (NEXT count 24 shifts, first piece held, last spawn 2187.07 not locked by KO, hold occupied) = chain 22"},
+{"n":28,"why":"last lock O at 2359.73 (+38); S spawned 2359.83 held, J out, no score change until KO 2360.23; true count 36 = csv"},
+{"n":29,"why":"score +900 at 2354.57 = plain double (TSD would be 3600); chain type correct"},
+{"n":38,"why":"fr/g0/v042k.png: T soft-dropped to the floor at 3947.04 but still in lock delay at KO 3947.07, no NEXT shift"},
+{"n":41,"why":"score still rising by soft-drop points after KO 4117.0, piece not locked by KO, no NEXT shift"},
+{"n":48,"why":"score still rising by soft-drop points after KO 4417.1, piece not locked, no NEXT shift"},
+{"n":57,"why":"fr/g0/v062k.png: Z hard-dropped at 4876.13, one frame after KO 4876.10 -> not counted (pieces fix under n56)"},
+{"n":64,"why":"gap window resolved by n63 replace_window and n68 retype; 5225-5231 locks match score drop points"},
+{"n":65,"why":"T-SPIN Single banner belongs to the TSS at 5223.83; the 5221.6 'quad'/tst is removed under n63, the real 4-line clear is the 5220.97 quad (+2400)"},
+{"n":66,"why":"quad (+3600 at 5225.80) and TSD (+5400 at 5228.20, just after window) both real"},
+{"n":67,"why":"TSD at 5228.07 is real (+5400 B2B at 5228.20); its duplicate double is fixed under n68"},
+{"n":97,"why":"tsd/quad/quad score +5400/+3600/+3600 as B2B; mismatch came from the 7391.53 double, fixed under n96"}
+]}

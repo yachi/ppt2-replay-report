@@ -1,0 +1,16 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p2 +3600 at 1824.57 (B2B quad) then +1062 at 1825.67 = double REN1 (1050) + 12 drop; a single REN1 would be 450"},
+{"ref":"e1","verdict":"keep","why":"score.py: p2 +3622 at 2131.50 (quad), +24 drop then +1050 at 2132.57 = double REN1; single would be 450"},
+{"ref":"e2","verdict":"keep","why":"score.py: p2 +300 at 3875.37 (the 3874.5 single), +450 at 3876.33 = single REN1, nothing more to KO 3877.6; a double REN1 would be 1050"},
+{"ref":"e3","verdict":"keep","why":"score.py: p1 +3600 at 4226.13 (B2B quad) then +3750 at 4227.17 = B2B tetris REN1; a double would be 1050"},
+{"ref":"e4","verdict":"keep","why":"score.py: p1 +3600 at 4771.33 then +26 drop and +1050 at 4772.40 = double REN1"},
+{"ref":"e5","verdict":"keep","why":"score.py: p2 +300 at 5255.87 = zero-line Mini T-spin at level 3 (mini single 600); fr/g3/v070_ab.png: rows above the 2 new garbage rows unchanged, no row cleared"},
+{"ref":"e6","verdict":"keep","why":"score.py: p2 +3600 at 5819.53 then +1072 at 5820.63 = double REN1 + drop"},
+{"ref":"e7","verdict":"keep","why":"fr/g3/v084_ab.png banner reads 'Mini T-SPIN' with no line word; score.py p2 +300 at 6082.97 = zero-line mini; no later clear before KO 6083.67"},
+{"ref":"e8","verdict":"keep","why":"nextcount p1 6296-6306.5: spawns 6298.367, 6299.200, 6300.633, 6301.033, 6301.400 (one shift each, incl. across the 0.27 s unk window); score: single +600 at 6298.53, quad +2850 (REN3) at 6299.80, drop-only +12 at 6300.93 and 6301.30. Chain's triplicated 6298.93/6301.03 events are spurious; proposed 3 events match"},
+{"ref":"e9","verdict":"keep","why":"score.py: p1 +2400 at 6274.73 (quad), +30 drop at 6275.83 then +450 at 6275.90 = single REN1 on the 6275.6 piece"},
+{"ref":"c0","verdict":"keep","why":"score.py p1 jumps 4216.70 +4800 (tst), 4220.00 +3600 (tss B2B), 4222.17 +5400, 4226.13 +3600, 4227.17 +3750, 4230.80 +5400, 4232.47 +3600, 4236.60 +5400, 4237.57 +3750: nine consecutive difficult clears, all B2B-scored after the first -> max_b2b 8"},
+{"ref":"c1","verdict":"keep","why":"fr/v3/v067.png: soft-dropped T lands at 5125.14 (score +1 per frame up to 76636 at 5125.14-5125.17) and its lock flash shows at 5125.17, the KO frame (p2 board tilts that frame). No line flash across a row. Lock at/before end_s counts -> 117"},
+{"ref":"c2","verdict":"keep","why":"with the 5255.93 mini a zero-line T-spin (no clear), p2's only difficult clear is the 5253.57 TSD -> no B2B bonus, max_b2b 0"},
+{"ref":"c3","verdict":"keep","why":"nextcount p1 6219-6306.5: 155 shifts; one piece stays in HOLD at the end and the L spawned 6305.733 is still at the top unlocked through KO 6306.40 (fr/v3/v089ko.png, score unchanged 98173) -> 153 locks; matches removing the 3 triplicated events"}
+]

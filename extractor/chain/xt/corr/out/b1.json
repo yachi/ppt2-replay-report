@@ -1,0 +1,221 @@
+{
+ "event_corrections": [
+  {
+   "n": 46,
+   "id": "v051",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4343.6,
+   "t_end": 4343.97,
+   "events": [
+    {
+     "t": 4343.63,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 4343.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     4343.97,
+     "triple",
+     3
+    ]
+   ],
+   "source": "score.py 4342.4-4345: locks 4342.57,4342.93,4343.13,4343.53, lock+PC triple 4343.87-93 (+1500,+5400), plain lock 4344.83 (+38); nextcount spawns 4342.467,4342.667,4343.033,4343.233,4343.633,4343.967,4344.933. Chain has no event for the 4343.633 spawn and puts the PC triple on the 4343.97 spawn, which actually locked plain at 4344.83 (S from hold after Z held 4344.533). Sheet /tmp/claude-0/xt/corr/fr/g1/v051.png: J into last gap -> PERFECT CLEAR 4343.89, S placed 4344.8, I spawned 4344.93 still at top at KO 4345.43 (KO piece not locked). Crop /tmp/claude-0/xt/corr/fr/g1/v051b.png 4343.80: cleared rows all coloured pieces, no grey garbage -> gc 0 (chain had 3)."
+  },
+  {
+   "n": 19,
+   "id": "v021",
+   "side": "p2",
+   "op": "retype",
+   "t": 1897.5,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "score.py: p2 +2 lock 1897.73 then +300 at 1897.80 (plain single; mini T-spin single would be 600); nextcount: piece spawned 1897.500 is J (JISJO>ISJOI), hold held T throughout 1897.2-1898.5; sheet /tmp/claude-0/xt/corr/fr/g1/v021b.png 1897.72 vertical blue J clears one row, no banner (/tmp/claude-0/xt/corr/fr/g1/v021ban2.png at 1898.0). KO-tail +300 at 1899.97 is a zero-line Mini T-SPIN (banner 'Mini T-SPIN' without Single, /tmp/claude-0/xt/corr/fr/g1/v021ban.png; no row cleared, /tmp/claude-0/xt/corr/fr/g1/v021top.png) of the T taken from hold at 1898.6, i.e. the chain's 1898.43 None lock; no clear missed."
+  },
+  {
+   "n": 49,
+   "id": "v054",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4498.23,
+   "t_end": 4499.8,
+   "events": [
+    {
+     "t": 4498.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4499.8,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     4498.23,
+     null,
+     0
+    ],
+    [
+     4498.23,
+     null,
+     0
+    ],
+    [
+     4498.23,
+     "double",
+     2
+    ],
+    [
+     4499.8,
+     null,
+     0
+    ],
+    [
+     4499.8,
+     "double",
+     2
+    ]
+   ],
+   "source": "Duplicate events: nextcount 4497.4-4500.4 shows spawns 4497.367 (T, TSD lock 4497.77), 4498.500 (Z, double 4498.90 +1050), 4499.800 (J held -> S out, double 4500.17 +1200); score shows no lock between them. Sheet /tmp/claude-0/xt/corr/fr/g1/v054a.png 4497.6-4500.32: after the TSD only garbage rises, Z placed ~4498.8 double, S placed ~4500.15 double. Chain logged 2 extra Nones at 4498.23 and 1 at 4499.8 (the bad-bag indices 147/154/161 sit right after them). gc kept as chain's."
+  },
+  {
+   "n": 78,
+   "id": "v083",
+   "side": "p1",
+   "op": "retype",
+   "t": 6042.9,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 0,
+   "source": "score.py: +3750 at 6043.07 = TETRIS b2b 3600 + REN 150 (a double would be ~1050); nextcount spawn 6042.900 is I (ISJLT>SJLTO). Sheet /tmp/claude-0/xt/corr/fr/g1/v083.png 6042.89-6043.10: I vertical into the right well, fresh TETRIS banner + REN + BACK to BACK, four coloured rows cleared above the white garbage."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 46,
+   "id": "v051",
+   "player": "p1",
+   "field": "pieces",
+   "was": 56,
+   "value": 57,
+   "source": "one lock missing (the 4343.633 spawn); see the replace_window, score.py locks 4342.57..4344.83 and nextcount spawns."
+  },
+  {
+   "n": 49,
+   "id": "v054",
+   "player": "p1",
+   "field": "pieces",
+   "was": 162,
+   "value": 159,
+   "source": "three duplicate None locks at 4498.23 (x2) and 4499.8 (x1); nextcount and /tmp/claude-0/xt/corr/fr/g1/v054a.png."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "winner KO piece: score.py: p1 locks 402.74,403.07,403.24 = chain locks 402.6,402.87,403.2; no score change after 403.24 through KO 403.57 (403.80 unchanged) -> last spawn not locked."
+  },
+  {
+   "n": 8,
+   "why": "winner KO piece: p2 last lock +8 at 601.70 (chain 601.43); no change after it through KO 602.43."
+  },
+  {
+   "n": 10,
+   "why": "winner KO piece: p1 last lock +36 at 805.70 (chain 805.5); score unchanged to 806.20, KO 805.93."
+  },
+  {
+   "n": 15,
+   "why": "winner KO piece: p1 locks 1710.10,1710.43,1710.73 = chain; next piece soft-dropping (+1 per frame 1710.97-1711.13), still moving at KO 1711.10 -> not locked."
+  },
+  {
+   "n": 22,
+   "why": "winner KO piece: p2 locks 2097.97,2098.24,2098.54; score 73882 unchanged after through 2099.10 (KO 2098.87)."
+  },
+  {
+   "n": 26,
+   "why": "winner KO piece: p1 locks 2310.76..2311.60 = 4 chain locks; next piece soft-dropping +1/frame through 2311.86, past KO 2311.83 -> not locked."
+  },
+  {
+   "n": 30,
+   "why": "winner KO piece: p1 locks 2385.13 and 2385.43 = chain 2385.03, 2385.17; score unchanged 2385.43-2386.07 (KO 2385.8)."
+  },
+  {
+   "n": 33,
+   "why": "winner KO piece: p1 last lock +20 at 3747.07 (chain 3746.87); unchanged through 3747.67 (KO 3747.3)."
+  },
+  {
+   "n": 39,
+   "why": "winner KO piece: p1 locks 3996.57, 3996.74 = chain; next piece soft-dropping +1/frame through the KO frame 3997.27, then score frozen -> not locked."
+  },
+  {
+   "n": 42,
+   "why": "winner KO piece: p1 last lock +22 at 4160.87 (chain 4160.63); unchanged through 4161.37 (KO 4161.1)."
+  },
+  {
+   "n": 52,
+   "why": "winner KO piece: p2 last clear 4509.40 (chain double 4509.1); score 111683 unchanged through 4510.57 (KO 4510.3)."
+  },
+  {
+   "n": 70,
+   "why": "winner KO piece: p1 locks 5426.86, 5427.23 = chain 5426.63, 5426.97; unchanged through 5427.93 (KO 5427.63)."
+  },
+  {
+   "n": 74,
+   "why": "winner KO piece: p1 last lock+single 5863.90/5863.97 (chain 5863.93); unchanged through 5865.07 (KO 5864.87)."
+  },
+  {
+   "n": 81,
+   "why": "winner KO piece: p2 TST 6105.60 (chain 6105.03); following piece soft-dropping +1/frame 6106.47-6106.67 (KO frame), score frozen after -> not locked."
+  },
+  {
+   "n": 82,
+   "why": "winner KO piece: p2 locks 6176.70,6176.93,6177.30,6177.60 = 4 chain locks; next piece soft-dropping through and past KO 6177.93 -> not locked."
+  },
+  {
+   "n": 89,
+   "why": "winner KO piece: p2 locks 6353.37, 6353.80 = chain; next piece soft-dropping +1/frame up to KO 6354.47 -> not locked."
+  },
+  {
+   "n": 92,
+   "why": "winner KO piece: p2 locks 6457.60, 6457.90 = chain 6457.27, 6457.67; unchanged through 6458.53 (KO 6458.3)."
+  },
+  {
+   "n": 94,
+   "why": "winner KO piece: p1 locks 6565.63,6565.93,6566.27,6566.53 = 4 chain locks; unchanged through 6567.13 (KO 6566.8)."
+  },
+  {
+   "n": 50,
+   "why": "score +750 at 4492.90 = single 300 + REN3 450 (part of a 5-single REN 4491.33..4495.03 +450/+600/+750/+900/+1050); a TSS would be >= 2400. Plain single is right."
+  },
+  {
+   "n": 51,
+   "why": "clear sequence matches the score (TSD 4497.77 +3600, double +1050, double +1200, single +300 after REN break at 4501.17 lock, double +1050); the 470 is REN bonuses (+300 REN2 at 4500.20) not modelled by the spot. Duplicate locks in this window are fixed under n49."
+  }
+ ]
+}

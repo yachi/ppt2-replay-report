@@ -1,0 +1,20 @@
+[
+{"ref":"e0","verdict":"keep","why":"score +3750 at 547.10 (B2B tetris 3600 + REN1 150); a double would be 1050"},
+{"ref":"e1","verdict":"keep","why":"score: one +2400 at 1639.83 only, nothing until drop points 1640.93; NEXT shifts 1639.533 then 1640.733 (chain's 2nd 1641.03 is that spawn); the three 1640.0 events have no spawn"},
+{"ref":"e2","verdict":"keep","why":"+1976 at 1622.50 = double 900 + REN7 1050 + drop; fr/v0/v017p2.png shows two rows flashing at 1622.50"},
+{"ref":"e3","verdict":"keep","why":"+620 at 4271.70 = single 300 + REN2 300 + drop; subsequent 770/920 = REN3/REN4; spawn 4271.400 matches"},
+{"ref":"e4","verdict":"keep","why":"spawns 4856.3,4856.633,4856.933,4857.067,4857.367 (I held 4857.5, T out) then 4861.633: 5 locks (score 4856.53/.83/.97/4857.27/4861.53) for 6 chain events; 4857.53 is the extra"},
+{"ref":"e5","verdict":"keep","why":"spawn 4851.933 missing from chain; +36 drop 4852.13 then +1050 (double+REN1) and +3600 PC bonus at 4852.17-.20 before the 4852.233 spawn; every spawn 4852.233..4854.767 has its own lock"},
+{"ref":"e6","verdict":"keep","why":"k=3 shifts at 5221.567/.867 return the queue to TLOTL (spurious); real spawns 5222.067 (T held, Z out), 5222.567, 5222.833, 5223.133 with locks +18 5222.47, +16 5222.73, +16 5223.03, TSS +3600 5223.83; no clear between 5221.23 and 5223.83"},
+{"ref":"e7","verdict":"keep","why":"only one jump after 5228.07 (+5400 at 5228.20); spawns 5229.067,.333,.633,.8,5231.267 match locks 5229.23,.53,.70,5231.17 and the double at 5232.10; chain's 5228.27 is the 5229.067 spawn's lock, no clear"},
+{"ref":"e8","verdict":"keep","why":"+300 at 6390.77 = zero-line Mini T-spin (mini single after the TST would be 900 B2B); the triple at 6392.70 scores +1500 with no REN bonus. See n90 for the max_b2b consequence"},
+{"ref":"e9","verdict":"keep","why":"fr/v0/v091end.png: on the KO frame 6407.47 (p1 board tilting) the O already rests bottom-left of p2's board and the score reads 51383 (+22)"},
+{"ref":"e10","verdict":"keep","why":"+3750 at 7391.80 = B2B tetris + REN1; a double would be 1050"},
+{"ref":"c0","verdict":"keep","why":"B2B run scores: TSD +3600 (541.77, non-B2B), then +3600,+3750,+5400,+3600(tss 555.70),+5400,+3600; double +900 at 561.80 breaks = 7 clears -> 6"},
+{"ref":"c1","verdict":"keep","why":"nextcount 1549.5-1648.6: 186 shift lines, the k=2 at 1578.233 resynced back to the same queue (no spawn) -> 185 spawns; I in hold at end; last spawn 1647.9 never locked (fr/v0/v017end.png: block-out, score flat to KO) -> 183. Alignment leaves exactly the three 1640.0 chain events unmatched"},
+{"ref":"c2","verdict":"keep","why":"67 spawns, T in hold at end, last spawn 4875.967 hard-dropped at 4876.17 (score +28), after the KO tilt 4876.10 (fr/v0/v062end.png) -> 65"},
+{"ref":"c3","verdict":"keep","why":"83 shift lines minus the two spurious k=3 lines = 81 spawns; I in hold at end (5240.633); last spawn 5241.567 no score change before KO -> 79; chain 82 non-BREAK events -3 from e6 = 79"},
+{"ref":"c4","verdict":"keep","why":"O locked on the KO frame 6407.47 (fr/v0/v091end.png)"},
+{"ref":"c5","verdict":"keep","why":"scores tss +2400 (7376.93 non-B2B) then +3750,+5400,+3600,+3750,+3600,+3750,+5400,+3600,+3600 all B2B = 10 clears -> 9"},
+{"ref":"n90","verdict":"missed","why":"with the 6390.83 tsmini made a zero-line spin (e8), the chain's longest B2B run tst 6378.2 (+4800 non-B2B), tsd (+5550), tsd (+5400), quad (+3600), tst (+7200) is 5 difficult clears = 4 B2B steps; the csv's 5 counted the tsmini as a 6th; the triple at 6392.4 breaks it","proposal":{"id":"v091","player":"p1","field":"max_b2b","was":"5","value":4,"source":"score.py 6377-6393: +4800 6378.70, +5550 6380.37, +5400 6381.77, +3600 6385.17, +7200 6388.77, +300 (zero-line mini) 6390.77, +1500 plain triple 6392.70"}}
+]
