@@ -1,0 +1,87 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "Re-derived: nextcount p1 5259-5289 gives 41 spawns 5262.000-5287.033 inside the window (47 shifts, 4 before, 2 after), matching the 41 proposed events; score jumps map 1:1 (+600..+1500 singles REN2-8, +2250 double REN9 at 5269.17, +1800 single REN10, +900 double 5272.47, +3600 TSD 5274.80, +5400 TSD 5276.73, +3600 quad 5277.97, +5400 TSD 5280.93, +3600 quad 5284.23) and 5 drop-point locks 5285.30-5287.23. Frames: 5277.97 I clears 4 grey garbage rows (/tmp/claude-0/tx/corr/fr/v3/q70.png); 5284.23 I clears 3 stack rows + 1 grey row (/tmp/claude-0/tx/corr/fr/v3/q70b.png)."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Spawn->clear pairs: 5405.80->5406.33, 5406.967->5414.33 (pause), 5415.000->5415.23, 5415.833->5416.17, 5416.80->5417.50, 5418.133->5418.63. No spawn at 5407.2 (nextcount p2). Phantom."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Same as e1: no spawn near 5414.7; the 5406.967 piece clears at 5414.33 after the pause. Phantom."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Score +900 at 5451.27 (17775->18675), REN reset by S lock 5451.10 (+12); next +450 single REN1. Frames 5451.0-5451.5 show the O clearing a red and a blue stack row (/tmp/claude-0/tx/corr/fr/v3/e73.png)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "Score +28 at 5620.07 is the 5619.93 piece; the next Z locks at 5620.67, the KO frame itself (37402->37430, /tmp/claude-0/tx/corr/fr/v3/f75.png). Counts."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "p1 score through the lag: +900 5651.43, +1050 5669.77, +1200 5687.23, +1350 5688.50, no drop points between; nextcount spawns 5650.867, 5652.167, 5670.433, 5687.967 only. Window events 5652.17/5670.43/5687.97 singles is right."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "p2 score: +900 5652.17, +1050 5667.47, +1200 5684.93, +1350 5686.17; spawns 5651.833, 5652.833, 5668.067, 5685.6 (hold-only at 5682.2). Only 5668.07 single belongs in the window."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "Score +2250 at 5909.27 after +3600 quad REN8 at 5908.17; single REN9 would be 1650, double 900+1350=2250; next +1800 = single REN10."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "+5400 TSD B2B 5961.57, +3750 quad B2B+REN1 5962.60, +1200 at 5963.77 = double 900+REN2 300 (single 600), +2850 quad REN3 5964.93, +900 single REN4. Consistent with double."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "nextcount p1 5249.4-5334.5: 144 shifts by KO 5334.10 (first at game start 5250.133) = 144 spawns, minus hold into empty 5250.40, minus last piece spawned 5334.000 with no score change before KO (last lock +34 at 5333.90) = 142. Chain 125 non-BREAK events -24 old window +41 new = 142, agrees."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Follows from e1/e2 (two phantom singles); spawn/clear pairing confirmed."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "p2 REN singles from +450 up to +2550 at 5418.63 = 300+15*150 -> REN15; chain 17 included the two phantoms."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "Z locks on the KO frame 5620.67 (see e4): 56 -> 57."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "72 shifts by KO 5701.93 (first at 5628.333 game start), minus hold into empty 5628.933 = 71; the hold at 5701.733 is a swap; J locks at 5701.93 (+6, /tmp/claude-0/tx/corr/fr/v3/k76.png)."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "p1 clears 5647.57 (+300) through 5694.30 (+2250 = 300+13*150), 14 consecutive clears with spawns matching (incl. quad +4050 5692.30) -> REN13."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "73 p2 shifts by KO, minus hold into empty 5628.8 = 72, minus piece spawned 5701.300 that never locks (no p2 score change after 5700.63) = 71."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "p2 clears 5647.70 (+300) ... 5692.73 (+2100 = 300+12*150), 13 consecutive clears -> REN12."
+ }
+]

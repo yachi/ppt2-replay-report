@@ -1,0 +1,152 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py 368-380.5: REN singles +2400@369.87 (REN14), +2550@375.20, +2700@376.20, +2850@377.43, triple +4200@378.33 (REN18); nextcount spawns 370.53, 375.87(+hold), 376.90, 378.07: four clears, so 375.47 single and 375.90 quad are phantoms."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py 862.3-868.7: +1800 REN10 single @862.30, plain lock 863.07, single +300 @863.57, plain 864.50, single 864.93, plain 865.90, triple +1500 @866.27, plain 867.40/867.73/868.30, quad 868.67; nextcount 10 spawns 862.93-868.40. Pattern N S N S N T N N N Q matches the proposal; no T-spin score."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py: p1 +3750 @900.27 = 2400*1.5+150 (B2B tetris REN1), after a plain +2400 quad @899.13; a double would be ~1050."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "p2 score: triple +1660@897.77 (REN1), +1214@898.63 (double REN2), +764@899.67 (single REN3), plain locks 900.60, 900.90, 902.13; REN unbroken so no lock at 898.07. nextcount p2 spawns 897.57, 898.43, 899.33, 900.30, 900.60, 901.00, 902.23 (not locked by KO)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score: double +900@1045.50, lock+quad +2550@1046.50 (REN1, no lock between), plain lock +12@1047.57, double +900@1047.93; nextcount spawns 1045.20, 1046.23 (hold), 1047.30, 1047.67."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nextcount spawn 1053.633, score +6@1053.93 lock, no clear."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "spawn 1054.03 then hold 1054.20 and the next shift at 1054.70 prove a lock between (score +2@1054.53)."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "hold O @1054.70 then shift @1054.90 prove the T locked (score +2@1054.80); nothing after until KO 1055.53."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "Frames 1178.73/1178.77/1178.80 (/tmp/claude-0/tx/corr/fr/v0/k3.png): L ghost at 1178.73, L locked and 35188 in the same frame the p2 board tilts. No clear."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score deltas 1203.20..1288.30 rise +150 per clear 300..3300 then 3900/3300/3300 (REN bonus capped), 24 clears, no plain lock; nextcount spawns 1209.50,1214.80,1215.63,1216.87,1218.23,1230.80,1247.03,1268.10,1277.63,1278.53: none near 1240.33 or 1277.20."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "p2 score +1800@1217.17 (REN10), +1950@1238.53, +2100@1270.30, +2250@1277.83, +2400@1278.77; nextcount p2 spawns 1217.80, 1239.20, (hold 1259.37), 1270.97, (hold 1277.43), 1278.47: 1233.27, 1254.53, 1269.87, 1278.07 phantoms."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "p1 +1950@1326.30 (REN11) then +2100@1343.43 (REN12): one clear, no plain lock between; nextcount spawns 1326.17, 1326.93, 1344.07."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "same as e11: no spawn between 1326.93 and 1344.07."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "p2 nextcount spawns 1327.30, 1328.27, 1335.17, 1346.30; score +2412@1327.57, +1950@1334.57, +2100@1345.63 consecutive REN steps."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "same: one spawn (1335.17) between 1328.27 and 1346.30."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "same: only 1335.17 and 1346.30 spawns feed the 1345.63 and 1346.93 clears."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "two phantom events removed (see e0); spawn count agrees."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "REN steps +150 continuous to triple +4200@378.33 = 1500+150*18; no plain lock 369.87-378.33."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "+1800@862.30 = REN10, plain lock 863.07 breaks it; no higher REN elsewhere in the game's score."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "two phantom Nones at 898.07 (see e3)."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "-1 (e4) +3 (e5-e7) = 74."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "L locked on the KO frame (e8)."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "two phantom singles removed (e9)."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "24 consecutive clears 1203.20-1288.30 without a reset to 300: REN 23."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "four phantoms removed (e10)."
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "REN1 +486@1204.50 .. double +3300@1280.57 (900+2400 = REN16), then +900 plain double @1282.37."
+ },
+ {
+  "ref": "c10",
+  "verdict": "keep",
+  "why": "two phantoms removed (e11,e12)."
+ },
+ {
+  "ref": "c11",
+  "verdict": "keep",
+  "why": "REN0 +300@1312.57 .. +2550@1346.67 (REN15), lock 1347.57 then +300."
+ },
+ {
+  "ref": "c12",
+  "verdict": "keep",
+  "why": "three phantoms removed (e13-e15)."
+ },
+ {
+  "ref": "c13",
+  "verdict": "keep",
+  "why": "p2 REN climbs to +2550@1349.13 (REN15), plain locks 1350.03.., +300@1350.67."
+ }
+]

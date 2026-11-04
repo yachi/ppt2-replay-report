@@ -1,0 +1,915 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "w003",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 370.63,
+   "t_end": 376.9,
+   "events": [
+    {
+     "t": 370.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 375.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 376.9,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     370.63,
+     "single",
+     1
+    ],
+    [
+     375.47,
+     "single",
+     1
+    ],
+    [
+     375.87,
+     "single",
+     1
+    ],
+    [
+     375.9,
+     "quad",
+     4
+    ],
+    [
+     376.9,
+     "single",
+     1
+    ]
+   ],
+   "source": "score.py 369-380.3: p1 score flat 369.87-375.07 (piece held ~4.5 s), then clears +2550@375.20,+2700@376.20,+2850@377.43 (REN singles 15,16,17),+4200@378.33 (triple REN18); nextcount spawns 370.53,375.87,376.90,378.07 = one piece per clear. Chain's 375.47 single and 375.90 quad are phantoms (no score jump). Sheet /tmp/claude-0/tx/corr/fr/g0/w003a.png"
+  },
+  {
+   "n": 5,
+   "id": "w012",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 863.0,
+   "t_end": 868.13,
+   "events": [
+    {
+     "t": 863.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 863.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 863.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 864.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 865.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 866.23,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 866.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 867.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 868.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     863.0,
+     "tst",
+     4
+    ],
+    [
+     863.4,
+     null,
+     0
+    ],
+    [
+     863.77,
+     "single",
+     1
+    ],
+    [
+     864.87,
+     null,
+     0
+    ],
+    [
+     865.7,
+     "single",
+     1
+    ],
+    [
+     866.23,
+     null,
+     0
+    ],
+    [
+     866.37,
+     "triple",
+     3
+    ],
+    [
+     867.73,
+     null,
+     0
+    ],
+    [
+     868.13,
+     null,
+     0
+    ]
+   ],
+   "source": "score.py: after +1800@862.30 (REN10 single) the Z locks @863.07 (+26) with no clear; S locks 863.43 -> +300 single @863.57; O 864.50 none; I 864.90 -> +300 @864.93; 865.90 none; 866.23 -> +1500 triple @866.27; three plain locks; quad @868.67. nextcount: 10 spawns 862.93-868.40 = 10 chain events. No T-spin at 863 (no banner, no jump). Sheet /tmp/claude-0/tx/corr/fr/g0/w012a.png. Answers items 3,4,5."
+  },
+  {
+   "n": 7,
+   "id": "w012",
+   "side": "p1",
+   "op": "retype",
+   "t": 900.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +3750 @900.27 = 2400*1.5+150 (B2B TETRIS, REN1); sheet /tmp/claude-0/tx/corr/fr/g0/w012b.png shows a second TETRIS banner with BACK to BACK at 900.35, 4 coloured rows cleared (garbage below untouched). Same game as item 7; 871-890.9 window itself matches the score exactly."
+  },
+  {
+   "n": 8,
+   "id": "w012",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 898.07,
+   "t_end": 901.17,
+   "events": [
+    {
+     "t": 898.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 898.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 900.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 900.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 901.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     898.07,
+     null,
+     0
+    ],
+    [
+     898.07,
+     null,
+     0
+    ],
+    [
+     898.5,
+     "triple",
+     3
+    ],
+    [
+     898.93,
+     "double",
+     2
+    ],
+    [
+     900.5,
+     "single",
+     1
+    ],
+    [
+     900.9,
+     null,
+     0
+    ],
+    [
+     901.17,
+     null,
+     0
+    ]
+   ],
+   "source": "p2 score: +1660@897.77 triple(REN1), +1214@898.63 = double+REN2, +764@899.67 = single+REN3, then plain locks 900.60, 900.90, 902.13; nextcount spawns 897.57,898.43,899.33,900.30,900.60,901.00 (+902.23 unlocked at KO). Two None at 898.07 are phantoms (nextcount 'unk' 898.03-898.27). Sheet /tmp/claude-0/tx/corr/fr/g0/w012c.png: band 2 rows @898.65, 1 row @899.70. Covers item 9 (tail): nothing locked 902.23-KO."
+  },
+  {
+   "n": 11,
+   "id": "w015",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1045.9,
+   "t_end": 1048.03,
+   "events": [
+    {
+     "t": 1046.6,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 1047.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1048.03,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     1045.9,
+     null,
+     0
+    ],
+    [
+     1045.9,
+     null,
+     0
+    ],
+    [
+     1046.6,
+     "quad",
+     4
+    ],
+    [
+     1048.03,
+     "double",
+     2
+    ]
+   ],
+   "source": "score: double +900@1045.50, no lock until quad +2550@1046.50 (REN1, so no lock between), plain lock +12@1047.57, then +16 lock & double +900@1047.93 (no REN). Chain had two phantom Nones before the quad and missed the 1047.57 lock (spawn 1047.30 in nextcount)."
+  },
+  {
+   "n": 13,
+   "id": "w015",
+   "side": "p1",
+   "op": "add",
+   "t": 1053.63,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount spawn 1053.633 (Z), locks @1053.93 (+6) no clear; sheet /tmp/claude-0/tx/corr/fr/g0/w015a.png"
+  },
+  {
+   "n": 13,
+   "id": "w015",
+   "side": "p1",
+   "op": "add",
+   "t": 1054.03,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "spawn 1054.033 (T, held; S out), S locks ~1054.53 (+2), no clear; /tmp/claude-0/tx/corr/fr/g0/w015a.png"
+  },
+  {
+   "n": 13,
+   "id": "w015",
+   "side": "p1",
+   "op": "add",
+   "t": 1054.7,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "spawn 1054.70 (O held, T out), T locks ~1054.80 (+2) no clear; next spawn 1054.90 never locks before KO 1055.53; /tmp/claude-0/tx/corr/fr/g0/w015a.png"
+  },
+  {
+   "n": 15,
+   "id": "w019",
+   "side": "p1",
+   "op": "add",
+   "t": 1178.5,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "spawn 1178.50 (L); frame 1178.77 (=KO, p2 board tilting) shows the L locked and score 35154->35188; no clear. /tmp/claude-0/tx/corr/fr/g0/w019a.png"
+  },
+  {
+   "n": 16,
+   "id": "w020",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1214.13,
+   "t_end": 1277.73,
+   "events": [
+    {
+     "t": 1214.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1215.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1216.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1218.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1230.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1247.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1268.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1277.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1214.13,
+     "BREAK",
+     2
+    ],
+    [
+     1214.8,
+     "single",
+     1
+    ],
+    [
+     1215.67,
+     "single",
+     1
+    ],
+    [
+     1216.87,
+     "single",
+     1
+    ],
+    [
+     1217.6,
+     "BREAK",
+     1
+    ],
+    [
+     1218.23,
+     "single",
+     1
+    ],
+    [
+     1220.03,
+     "BREAK",
+     0
+    ],
+    [
+     1223.6,
+     "BREAK",
+     0
+    ],
+    [
+     1227.13,
+     "BREAK",
+     0
+    ],
+    [
+     1229.7,
+     "BREAK",
+     1
+    ],
+    [
+     1230.93,
+     "single",
+     1
+    ],
+    [
+     1240.33,
+     "single",
+     1
+    ],
+    [
+     1247.2,
+     "single",
+     1
+    ],
+    [
+     1252.27,
+     "BREAK",
+     0
+    ],
+    [
+     1254.7,
+     "BREAK",
+     0
+    ],
+    [
+     1261.5,
+     "BREAK",
+     0
+    ],
+    [
+     1263.97,
+     "BREAK",
+     0
+    ],
+    [
+     1266.4,
+     "BREAK",
+     2
+    ],
+    [
+     1267.93,
+     "BREAK",
+     2
+    ],
+    [
+     1268.2,
+     "single",
+     1
+    ],
+    [
+     1277.2,
+     "single",
+     1
+    ],
+    [
+     1277.73,
+     "single",
+     1
+    ]
+   ],
+   "source": "Slow REN battle (sheet /tmp/claude-0/tx/corr/fr/g0/w020a.png). p1 score rises by exactly +150 per clear 1203.20..1285.17 (300,450..3300) with no lock lacking a clear -> REN never broke; every spawn (nextcount 1209.5,1214.8,1215.63,1216.87,1218.23,1230.80,1247.03,1268.10,1277.63,...) clears one line. 1240.33 and 1277.20 singles are phantoms; all BREAKs false. Covers items 16-20."
+  },
+  {
+   "n": 21,
+   "id": "w020",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1217.03,
+   "t_end": 1278.07,
+   "events": [
+    {
+     "t": 1217.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1239.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1270.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1217.03,
+     "BREAK",
+     2
+    ],
+    [
+     1217.8,
+     "single",
+     1
+    ],
+    [
+     1233.27,
+     "single",
+     1
+    ],
+    [
+     1239.2,
+     "single",
+     1
+    ],
+    [
+     1254.53,
+     null,
+     0
+    ],
+    [
+     1259.47,
+     "BREAK",
+     2
+    ],
+    [
+     1269.87,
+     "single",
+     1
+    ],
+    [
+     1270.97,
+     "single",
+     1
+    ],
+    [
+     1278.07,
+     "single",
+     1
+    ]
+   ],
+   "source": "p2 score REN singles +1650@1216.33,+1800@1217.17,+1950@1238.53,+2100@1270.30,+2250@1277.83,+2400@1278.77,+2550@1279.67, double+REN16 +3300@1280.57; nextcount spawns 1217.80,1239.20,1270.97,1278.47 only. 1233.27, 1269.87, 1278.07 singles and 1254.53 None are phantoms; BREAKs false. Covers items 21-23."
+  },
+  {
+   "n": 24,
+   "id": "w021",
+   "side": "p1",
+   "op": "remove",
+   "t": 1327.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score: +1950@1326.30 (REN11) then next jump +2100@1343.43 (REN12), +2250@1344.83...; nextcount spawns 1326.93 then 1344.07, so no piece between: phantom. Covers items 24,25."
+  },
+  {
+   "n": 24,
+   "id": "w021",
+   "side": "p1",
+   "op": "remove",
+   "t": 1340.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score: +1950@1326.30 (REN11) then next jump +2100@1343.43 (REN12), +2250@1344.83...; nextcount spawns 1326.93 then 1344.07, so no piece between: phantom. Covers items 24,25."
+  },
+  {
+   "n": 26,
+   "id": "w021",
+   "side": "p2",
+   "op": "remove",
+   "t": 1328.3,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "p2 score: +2412@1327.57 (double REN10), +1950@1334.57 (REN11), +2100@1345.63 (REN12), +2250@1346.93; nextcount spawns 1327.30,1328.27,1335.17,1346.30 only: phantom. Covers items 26-29."
+  },
+  {
+   "n": 26,
+   "id": "w021",
+   "side": "p2",
+   "op": "remove",
+   "t": 1332.2,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score: +2412@1327.57 (double REN10), +1950@1334.57 (REN11), +2100@1345.63 (REN12), +2250@1346.93; nextcount spawns 1327.30,1328.27,1335.17,1346.30 only: phantom. Covers items 26-29."
+  },
+  {
+   "n": 28,
+   "id": "w021",
+   "side": "p2",
+   "op": "remove",
+   "t": 1345.37,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score: +2412@1327.57 (double REN10), +1950@1334.57 (REN11), +2100@1345.63 (REN12), +2250@1346.93; nextcount spawns 1327.30,1328.27,1335.17,1346.30 only: phantom. Covers items 26-29."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 0,
+   "id": "w003",
+   "player": "p1",
+   "field": "pieces",
+   "was": 64,
+   "value": 62,
+   "source": "two phantom events removed (375.47, 375.90); nextcount spawns 370.53-379.87 = 8 pieces vs chain 10"
+  },
+  {
+   "n": 0,
+   "id": "w003",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 14,
+   "value": 18,
+   "source": "REN never broke: +2400@369.87 (REN14) then +2550/+2700/+2850 singles and +4200 triple @378.33 = 1500+150*18; chain's BREAK at 370.3 is false"
+  },
+  {
+   "n": 5,
+   "id": "w012",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 11,
+   "value": 10,
+   "source": "REN ran 850.97(REN1) .. 862.30 (+1800 = 300+150*10) and broke at the 863.07 no-clear lock; chain's REN 11 came from the phantom TST"
+  },
+  {
+   "n": 8,
+   "id": "w012",
+   "player": "p2",
+   "field": "pieces",
+   "was": 115,
+   "value": 113,
+   "source": "two phantom None locks at 898.07 removed; spawn count 896.37-902.23 per nextcount"
+  },
+  {
+   "n": 13,
+   "id": "w015",
+   "player": "p1",
+   "field": "pieces",
+   "was": 72,
+   "value": 74,
+   "source": "-1 (net phantom lock near 1045.9, item 11) +3 (unlogged locks 1053.93,1054.53,1054.80 before KO)"
+  },
+  {
+   "n": 15,
+   "id": "w019",
+   "player": "p1",
+   "field": "pieces",
+   "was": 48,
+   "value": 49,
+   "source": "winner's L locked on the KO frame 1178.77"
+  },
+  {
+   "n": 16,
+   "id": "w020",
+   "player": "p1",
+   "field": "pieces",
+   "was": 74,
+   "value": 72,
+   "source": "phantom singles 1240.33, 1277.20 removed (19 spawns 1209.5-1287.97 = 19 clears)"
+  },
+  {
+   "n": 16,
+   "id": "w020",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 12,
+   "value": 23,
+   "source": "24 consecutive clears 1203.20..1288.30 (score +150 per step to 3300 at REN20, then capped 3300/3900); no break"
+  },
+  {
+   "n": 21,
+   "id": "w020",
+   "player": "p2",
+   "field": "pieces",
+   "was": 79,
+   "value": 75,
+   "source": "four phantom events removed (1233.27,1254.53,1269.87,1278.07)"
+  },
+  {
+   "n": 21,
+   "id": "w020",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 10,
+   "value": 16,
+   "source": "REN continuous 1204.50(REN1)..1280.57 (double +900+2400 = REN16); first no-clear lock 1281.80"
+  },
+  {
+   "n": 24,
+   "id": "w021",
+   "player": "p1",
+   "field": "pieces",
+   "was": 90,
+   "value": 88,
+   "source": "phantom singles 1327.17, 1340.10 removed"
+  },
+  {
+   "n": 24,
+   "id": "w021",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 17,
+   "value": 15,
+   "source": "REN peaked at +2550@1346.67 (REN15); lock 1347.57 without clear breaks it; chain's 17 included two phantoms"
+  },
+  {
+   "n": 26,
+   "id": "w021",
+   "player": "p2",
+   "field": "pieces",
+   "was": 89,
+   "value": 86,
+   "source": "phantoms 1328.30 double, 1332.20, 1345.37 singles removed"
+  },
+  {
+   "n": 26,
+   "id": "w021",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 18,
+   "value": 15,
+   "source": "REN peaked +2550@1349.13 (REN15), break at 1350.03 lock; chain 18 included 3 phantoms"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "w006 KO: last lock +26@481.53; piece spawned 481.63 was held and did not lock by KO 481.73 (score unchanged)"
+  },
+  {
+   "n": 2,
+   "why": "w009 KO: last lock 760.07 (chain 759.9); piece spawned 760.17 never locked before KO 761.40 (score flat)"
+  },
+  {
+   "n": 3,
+   "why": "explained by the item-5 window fix (phantom TST at 863.0)"
+  },
+  {
+   "n": 4,
+   "why": "count in gap 863-877.2 matches nextcount (21 spawns 872.07-879.27, 6 for 869.47-870.63) and chain; type fixes in item 5"
+  },
+  {
+   "n": 6,
+   "why": "+2400 @868.67 is a plain non-B2B TETRIS, as the chain has"
+  },
+  {
+   "n": 7,
+   "why": "871.26-890.9: every chain clear matches the score jump (5400 B2B TSD, 3600 B2B quad, REN singles/doubles, 3600 TSD...)"
+  },
+  {
+   "n": 9,
+   "why": "p2 loser; after 902.13 lock the piece spawned 902.23 did not lock before KO 902.87; handled in item 8"
+  },
+  {
+   "n": 10,
+   "why": "w014 p2 994.9: +1050 @995.23 = single+REN5, not a TSS (would be 3150); chain single correct"
+  },
+  {
+   "n": 12,
+   "why": "w015 p1 TSS at 1050.97 is real: +2400 @1051.00 after soft drop, non-B2B"
+  },
+  {
+   "n": 14,
+   "why": "w016 p2 KO 1082.83: spawn 1082.63, no lock (score +1 soft drop only at 1082.93, after KO)"
+  },
+  {
+   "n": 17,
+   "why": "covered by item 16 window"
+  },
+  {
+   "n": 18,
+   "why": "covered by item 16 window"
+  },
+  {
+   "n": 19,
+   "why": "covered by item 16 window"
+  },
+  {
+   "n": 20,
+   "why": "covered by item 16 window"
+  },
+  {
+   "n": 22,
+   "why": "covered by item 21 window"
+  },
+  {
+   "n": 23,
+   "why": "1270.97-1288.7 p2 chain matches spawns and score (doubles 1280.57/1282.37, TSD 1285.17, doubles 1286.10/1287.33)"
+  },
+  {
+   "n": 25,
+   "why": "covered by item 24 removals"
+  },
+  {
+   "n": 27,
+   "why": "covered by item 26 removals"
+  },
+  {
+   "n": 29,
+   "why": "covered by item 28 removal"
+  }
+ ]
+}

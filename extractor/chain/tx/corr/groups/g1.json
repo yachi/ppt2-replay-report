@@ -1,0 +1,662 @@
+[
+{
+"id": "w022",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+"t_s": 1393.0,
+"n": 30
+},
+{
+"id": "w023",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w023",
+"player": "p1",
+"t0": 1423.17,
+"t1": 1431.14,
+"step": -1396,
+"unexplained": -1396,
+"near": [
+[
+1423.87,
+750,
+"single"
+],
+[
+1427.37,
+900,
+"single"
+],
+[
+1427.9,
+1050,
+"single"
+],
+[
+1428.87,
+1200,
+"single"
+],
+[
+1429.7,
+1350,
+"single"
+],
+[
+1430.6,
+1500,
+"single"
+]
+]
+},
+"t_s": 1423.17,
+"n": 31
+},
+{
+"id": "w023",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.03 s from 1423.87 s; B events spliced (D2/D3)",
+"t_s": 1423.87,
+"n": 32
+},
+{
+"id": "w023",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w023",
+"player": "p1",
+"t0": 1431.14,
+"t1": 1455.97,
+"step": -1950,
+"unexplained": -1950,
+"near": [
+[
+1431.83,
+1650,
+"single"
+],
+[
+1450.53,
+1800,
+"single"
+]
+]
+},
+"t_s": 1431.14,
+"n": 33
+},
+{
+"id": "w023",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 24.97 s from 1431.83 s; B events spliced (D2/D3)",
+"t_s": 1431.83,
+"n": 34
+},
+{
+"id": "w023",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w023",
+"player": "p1",
+"t0": 1455.97,
+"t1": 1466.67,
+"step": -4164,
+"unexplained": -4164,
+"near": [
+[
+1456.8,
+1950,
+"single"
+],
+[
+1460.6,
+2100,
+"single"
+],
+[
+1461.1,
+2250,
+"single"
+],
+[
+1462.63,
+2400,
+"single"
+],
+[
+1464.13,
+2550,
+"single"
+],
+[
+1465.77,
+2700,
+"single"
+]
+]
+},
+"t_s": 1455.97,
+"n": 35
+},
+{
+"id": "w023",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.30 s from 1456.80 s; B events spliced (D2/D3)",
+"t_s": 1456.8,
+"n": 36
+},
+{
+"id": "w023",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w023",
+"player": "p1",
+"t0": 1466.67,
+"t1": 1474.67,
+"step": -788,
+"unexplained": -788,
+"near": [
+[
+1467.47,
+2850,
+"single"
+],
+[
+1469.53,
+3000,
+"single"
+],
+[
+1471.13,
+900,
+"double"
+],
+[
+1472.57,
+900,
+"double"
+],
+[
+1473.47,
+1050,
+"double"
+],
+[
+1474.4,
+600,
+"single"
+]
+]
+},
+"t_s": 1466.67,
+"n": 37
+},
+{
+"id": "w023",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 26.23 s from 1430.87 s; B events spliced (D2/D3)",
+"t_s": 1430.87,
+"n": 38
+},
+{
+"id": "w025",
+"player": "p1",
+"field_or_issue": "KO-tail score jump",
+"detail": "score +636 at 1599.07 s (KO 1600.17 s) with no chain clear event (tetrio/cseq.json) matched",
+"t_s": 1599.07,
+"n": 39
+},
+{
+"id": "w029",
+"player": "p1",
+"field_or_issue": "bad bag",
+"detail": "7 of 14 bags not a permutation (spawn index [49, 56, 63, 70, 77, 84, 91]); anomalies ['double shift k=3 at frame 882', 'double shift k=2 at frame 1135', 'double shift k=2 at frame 1181']",
+"t_s": 1727.7,
+"n": 40
+},
+{
+"id": "w029",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 5.70 s from 1754.90 s; B events spliced (D2/D3)",
+"t_s": 1754.9,
+"n": 41
+},
+{
+"id": "w032",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+"t_s": 2057.33,
+"n": 42
+},
+{
+"id": "w032",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w032",
+"player": "p2",
+"t0": 1960.8,
+"t1": 1980.37,
+"step": 354,
+"unexplained": 354,
+"near": [
+[
+1966.7,
+300,
+"single"
+],
+[
+1967.43,
+450,
+"single"
+],
+[
+1968.2,
+600,
+"single"
+],
+[
+1969.07,
+750,
+"single"
+],
+[
+1969.97,
+900,
+"single"
+],
+[
+1970.8,
+1050,
+"single"
+],
+[
+1972.07,
+1200,
+"single"
+],
+[
+1972.97,
+3450,
+"quad"
+],
+[
+1974.03,
+1500,
+"single"
+],
+[
+1974.8,
+1650,
+"single"
+],
+[
+1975.7,
+1800,
+"single"
+],
+[
+1976.73,
+1950,
+"single"
+],
+[
+1977.6,
+2100,
+"single"
+],
+[
+1978.5,
+2850,
+"double"
+],
+[
+1979.37,
+2400,
+"single"
+],
+[
+1980.2,
+2550,
+"single"
+]
+]
+},
+"t_s": 1960.8,
+"n": 43
+},
+{
+"id": "w033",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w033",
+"player": "p1",
+"t0": 2098.83,
+"t1": 2108.86,
+"step": -3906,
+"unexplained": -3906,
+"near": [
+[
+2098.6,
+900,
+"single"
+],
+[
+2099.5,
+1050,
+"single"
+],
+[
+2099.6,
+2400,
+"triple"
+],
+[
+2099.63,
+1950,
+"double"
+],
+[
+2104.2,
+1500,
+"single"
+],
+[
+2105.27,
+1650,
+"single"
+],
+[
+2106.17,
+1800,
+"single"
+],
+[
+2107.17,
+1950,
+"single"
+],
+[
+2108.77,
+2100,
+"single"
+]
+]
+},
+"t_s": 2098.83,
+"n": 44
+},
+{
+"id": "w033",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.70 s from 2099.50 s; B events spliced (D2/D3)",
+"t_s": 2099.5,
+"n": 45
+},
+{
+"id": "w033",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 19.07 s from 2109.57 s; B events spliced (D2/D3)",
+"t_s": 2109.57,
+"n": 46
+},
+{
+"id": "w033",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w033",
+"player": "p2",
+"t0": 2094.86,
+"t1": 2107.36,
+"step": 5200,
+"unexplained": 400,
+"near": [
+[
+2094.73,
+300,
+"single"
+],
+[
+2095.53,
+450,
+"single"
+],
+[
+2098.17,
+2700,
+"quad"
+],
+[
+2100.2,
+300,
+"single"
+],
+[
+2101.03,
+450,
+"single"
+],
+[
+2102.63,
+600,
+"single"
+],
+[
+2103.7,
+750,
+"single"
+],
+[
+2104.8,
+900,
+"single"
+],
+[
+2105.67,
+1050,
+"single"
+],
+[
+2106.6,
+1200,
+"single"
+]
+]
+},
+"t_s": 2094.86,
+"n": 47
+},
+{
+"id": "w033",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w033",
+"player": "p2",
+"t0": 2107.36,
+"t1": 2125.26,
+"step": -900,
+"unexplained": -900,
+"near": [
+[
+2108.03,
+1350,
+"single"
+],
+[
+2120.73,
+1500,
+"single"
+]
+]
+},
+"t_s": 2107.36,
+"n": 48
+},
+{
+"id": "w033",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 17.90 s from 2108.03 s; B events spliced (D2/D3)",
+"t_s": 2108.03,
+"n": 49
+},
+{
+"id": "w034",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+"t_s": 2301.0,
+"n": 50
+},
+{
+"id": "w035",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w035",
+"player": "p1",
+"t0": 2360.63,
+"t1": 2369.33,
+"step": -1142,
+"unexplained": -1142,
+"near": [
+[
+2360.23,
+3600,
+"tsd"
+],
+[
+2362.6,
+300,
+"single"
+],
+[
+2363.47,
+1650,
+"triple"
+],
+[
+2364.8,
+2700,
+"quad"
+],
+[
+2365.97,
+900,
+"double"
+],
+[
+2366.57,
+1050,
+"double"
+],
+[
+2367.27,
+600,
+"single"
+],
+[
+2369.07,
+1500,
+"triple"
+]
+]
+},
+"t_s": 2360.63,
+"n": 51
+},
+{
+"id": "w038",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+"t_s": 2637.17,
+"n": 52
+},
+{
+"id": "w039",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.50 s before the KO)",
+"t_s": 2663.73,
+"n": 53
+},
+{
+"id": "w042",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": {
+"id": "w042",
+"player": "p2",
+"t0": 2785.13,
+"t1": 2802.5,
+"step": 2900,
+"unexplained": 500,
+"near": [
+[
+2784.73,
+3600,
+"quad"
+],
+[
+2793.37,
+3600,
+"quad"
+],
+[
+2794.47,
+1050,
+"double"
+],
+[
+2796.3,
+900,
+"double"
+],
+[
+2797.33,
+1650,
+"triple"
+],
+[
+2798.4,
+600,
+"single"
+],
+[
+2799.33,
+1350,
+"double"
+],
+[
+2800.43,
+900,
+"single"
+],
+[
+2802.4,
+2400,
+"quad"
+]
+]
+},
+"t_s": 2785.13,
+"n": 54
+}
+]
