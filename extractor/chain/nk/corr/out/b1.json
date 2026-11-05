@@ -1,0 +1,28 @@
+{"event_corrections":[
+{"n":18,"id":"y022","side":"p1","op":"retype","t":2567.2,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"I spawned 2567.20 laid flat on the stack top and cleared one row at 2567.30, '1 REN' banner appears (fr/g1/i18.png); score +450 at 2567.33 (300+150 REN). The following TSD scores +3600 (no B2B), so B2B was broken by this single."},
+{"n":19,"id":"y022","side":"p2","op":"add","t":2608.7,"kind":null,"lines":0,"pc":0,"gc":0,"source":"Z spawned 2608.70 (nextcount shift) hard-dropped and locked on frame 2609.00 = end_s, score 105944->105974, no clear; p1 board tilts ~2609.07 (fr/g1/i19.png)"},
+{"n":20,"id":"y025","side":"p2","op":"retype","t":2799.33,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"T spawned 2799.33 dropped vertically into col0 at 2799.77, one garbage row cleared (garbage rows 4->3, stack above shifted down one; fr/g1/i20.png, i20b.png); '5 REN' banner at 2799.93 (fr/g1/i20d.png), no T-spin banner; score +1080 at 2799.80. Next TSD scored +3600 (no B2B, fr/g1/i20c.png), consistent with a plain single breaking B2B."},
+{"n":21,"id":"y025","side":"p2","op":"remove","t":2822.3,"was":[null,0,0],"source":"Gap window: NEXT queue shows no spawn between 2821.97 and 2827.30; the O spawned 2821.97 falls slowly and locks ~2827.2 (score +18 at 2827.20), one piece only (fr/g1/i21.png). 2822.30 is a phantom B spawn."},
+{"n":24,"id":"y029","side":"p1","op":"add","t":3180.53,"kind":null,"lines":0,"pc":0,"gc":0,"source":"O spawned 3180.53 (nextcount shift) hard-dropped, locked by frame 3180.87 (score 41597->41617), before end_s 3180.90; no clear (fr/g1/i24.png)"},
+{"n":26,"id":"y031","side":"p2","op":"retype","t":3307.83,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":2,"source":"Orange L dropped vertically in col0 at ~3308.1; two garbage rows flash and only 2 L cells remain (fr/g1/i26b.png, i26c.png, i26d.png); score +1218 at 3308.13 = double 900 + REN2 300 (a single would be ~600)."},
+{"n":29,"id":"y035","side":"p2","op":"retype","t":3651.03,"was":["tss",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Only one TSS score jump (+3750 at 3650.43 = TSS B2B + REN1), belonging to the T spawned 3649.70; the piece spawned 3651.03 is the O (queue LSJZI>SJZIO, O swapped from hold at 3651.23) and locks at 3651.50 with +36 drop points only, no clear. Next jump is the quad +3600 at 3654.90. Also answers item 30 (the TSS banner at 3650.44 is the 3649.70 T's)."},
+{"n":31,"id":"y038","side":"p1","op":"add","t":3827.5,"kind":null,"lines":0,"pc":0,"gc":0,"source":"Piece spawned 3827.50 (nextcount shift, hold swap 3827.57) locked by frame 3827.83 = end_s (score 56528->56558), no clear; p2 board tilts from 3827.87 (fr/g1/i31.png)"},
+{"n":32,"id":"y040","side":"p2","op":"retype","t":3938.67,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":1,"source":"L dropped vertically in col9 at 3939.00, two-row flash bar (fr/g1/i32.png, i32b.png); score +1076 at 3939.00 = double 900 + REN1 150 + drop (single REN1 would be 450); next TSD +3900 = 3600 + REN2."}
+],
+"cell_edits":[
+{"n":19,"id":"y022","player":"p2","field":"pieces","was":172,"value":173,"source":"Z spawned 2608.70 locked on KO frame 2609.00 (fr/g1/i19.png)"},
+{"n":20,"id":"y025","player":"p2","field":"max_combo","was":4,"value":5,"source":"'5 REN' banner at 2799.93 (fr/g1/i20d.png): quad 2793.53, single, double, single, quad, single = 6 consecutive clears"},
+{"n":21,"id":"y025","player":"p2","field":"pieces","was":67,"value":66,"source":"phantom spawn 2822.30 removed; one O occupies 2821.97-2827.2 (fr/g1/i21.png)"},
+{"n":24,"id":"y029","player":"p1","field":"pieces","was":68,"value":69,"source":"O spawned 3180.53 locked 3180.87 <= end_s 3180.90 (fr/g1/i24.png)"},
+{"n":31,"id":"y038","player":"p1","field":"pieces","was":85,"value":86,"source":"piece spawned 3827.50 locked 3827.83 = end_s (fr/g1/i31.png)"}
+],
+"no_change":[
+{"n":17,"why":"S spawned 1603.50 (chain's last event) hard-drops at 1603.97; the O spawned 1603.97 is still at the top through and after KO 1604.17 (fr/g1/i17.png)"},
+{"n":22,"why":"Score +900 at 2997.70 = plain single in a REN chain (+600,+750,+900,+1650 steps of 150); a TSS would be >=2400"},
+{"n":23,"why":"Score +450 at 3050.77 = plain single REN1, then double +1200 REN2; consistent with plain clears, no mini"},
+{"n":25,"why":"All 16 clears match the REN-chain score steps (450,600,...,2568 then plain double 900); the 364 residue is drop points (~22 per piece)"},
+{"n":27,"why":"+1200 at 3531.73 is a zero-line T-SPIN (banner 'T-SPIN', no row removed, fr/g1/i27.png); the T is the chain's lock 3531.33, no clear to add"},
+{"n":28,"why":"T-SPIN Triple banner at 3649.7 lingers from the TST (+4800 at 3648.97); the T spawned 3649.70 really is a TSS (+3750 at 3650.43). Correction for the duplicate is item 29."},
+{"n":30,"why":"The TSS banner at 3650.44 belongs to the chain's tss at 3649.70; the duplicate tss at 3651.03 is retyped to None under item 29"},
+{"n":33,"why":"I spawned 3978.10 does not lock by end_s 3978.23: score stays 76123 through 3978.53"}
+]}

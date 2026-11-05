@@ -153,7 +153,32 @@ UYESHOTA = Subject(
                              "贏家 KO 粒 46 粒逐粒查過。改咗 37 個事件、10 格。用 NEXT 隊列重數全部 208 個玩家局嘅粒數，200 個同表一樣，5 個差一粒，3 個係 NEXT 隊列讀唔清嘅局。</li>",
     })
 
-SUBJECTS = (SYAKEGOHAN, AMEMIYA, UYESHOTA)
+NARIKURA = Subject(
+    slug="narikura", me="narikura", display="narikura（ナリクラ）", short="narikura",
+    channel="https://www.youtube.com/channel/UCeoooykLPHUq4pMFYF7tiYg",
+    description="ナリクラ（narikura）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
+                "由 YouTube 影片逐格抽出，每一局都有影片連結。",
+    notes={
+        "method": "；抽取器標記嘅可疑位同分數對唔上嘅位由讀者逐格睇片改正，再由另一批讀者逐個反駁核實",
+        "ko": "。抽取器標記嘅贏家 KO 粒逐粒睇片查過，喺 KO 嗰格之後先落地嘅唔計",
+        "hand": "改咗 21 個事件、6 格（5 格係粒數，1 格係最長 REN）。",
+        "ren": "最長 REN 由清行次序計（連續清行次數減一），冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
+    },
+    dataset_notes={
+        "stream-2026-11-04": "<li><strong>2026-11-04 直播（全世界パズルリーグ，先拎兩局）。</strong>"
+                             "28 場 Tetris 對戰：對 にくうどん 1-2、0-2、0-2、1-2，對 かにずし 2-0，對 のこ 2-0，"
+                             "對 ずみ 2-1，對 マサムネ 2-1，對 sa 0-2，對 harukun101 0-2，對 あ 2-0，對 パルスィ 2-0，"
+                             "對 まきょぽん 2-0、2-1、2-0、0-2，對 ゆづり〜ん 2-0、2-1、0-2、0-2、0-2，對 まきょぽん 0-2，"
+                             "對 ピロ 2-1，對 ayt 2-1，對 ゆづり〜ん 1-2、2-0、1-2，對 テトリスおもろすぎ 2-1；"
+                             "ナリクラ 贏 15 場，合共 67 局，ナリクラ 34-33，勝負全部同畫面 WIN 計數對過。"
+                             "同場直播嘅 ぷよぷよ 對局唔計。"
+                             "PERFECT CLEAR 字幕 17 個逐個睇過，短過門檻嘅 32 組閃光亦睇過，冇俾特效遮住嘅 PC。"
+                             "可疑位同分數對唔上嘅位合共 51 個，由三個讀者睇片、另外三個讀者反駁"
+                             "（剔走 2 個提議：一粒喺 KO 之後一格先落地，冇補多）；贏家 KO 粒 22 粒逐粒查過。"
+                             "改咗 21 個事件、6 格。用 NEXT 隊列重數全部 134 個玩家局嘅粒數，122 個同表一樣，9 個差一粒，2 個係 NEXT 隊列讀唔清嘅局，1 個差多過一粒（y022 harukun101 少 2 粒），冇跟住改，嗰個玩家局嘅粒數可能有錯。</li>",
+    })
+
+SUBJECTS = (SYAKEGOHAN, AMEMIYA, UYESHOTA, NARIKURA)
 
 
 def by_slug(slug):
