@@ -178,7 +178,32 @@ NARIKURA = Subject(
                              "改咗 21 個事件、6 格。用 NEXT 隊列重數全部 134 個玩家局嘅粒數，122 個同表一樣，9 個差一粒，2 個係 NEXT 隊列讀唔清嘅局，1 個差多過一粒（y022 harukun101 少 2 粒），冇跟住改，嗰個玩家局嘅粒數可能有錯。</li>",
     })
 
-SUBJECTS = (SYAKEGOHAN, AMEMIYA, UYESHOTA, NARIKURA)
+YUKUN = Subject(
+    slug="yukun", me="yukun", display="yukun（ゆうくん）", short="yukun",
+    channel="https://www.youtube.com/channel/UCZ15joSgXH2OYHSG40PYj1Q",
+    description="ゆうくん（yukun）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
+                "由 YouTube 影片逐格抽出，每一局都有影片連結。",
+    notes={
+        "method": "；抽取器標記嘅可疑位同分數對唔上嘅位由讀者逐格睇片改正，再由另一批讀者逐個反駁核實",
+        "ko": "。抽取器標記嘅贏家 KO 粒逐粒睇片查過，喺 KO 嗰格之後先落地嘅唔計",
+        "hand": "改咗 38 個事件（包括 7 個俾特效遮住嘅 PERFECT CLEAR）、15 格（8 格係粒數，7 格係最長 REN 同最長 B2B）。",
+        "ren": "最長 REN 由清行次序計（連續清行次數減一），冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
+        "extra": "<li><strong>鏡頭格遮住字幕。</strong>直播鏡頭格遮住咗右邊玩家 T-SPIN 字幕嘅左半，"
+                 "所以右邊嘅 T-spin 字幕淨係認得出 IN 兩個字；成段片冇見過 Mini 字幕，"
+                 "Mini T-spin 只係喺逐格睇片嘅位先會改返。</li>",
+    },
+    dataset_notes={
+        "stream-2026-11-06": "<li><strong>2026-11-06 直播（VSどらえもんガチ連戦 30先）。</strong>"
+                             "一組先拎 30 局，對 どらえもん 28-30，合共 58 局，勝負全部同畫面 WIN 計數對過。"
+                             "開組之前嗰局 COM 同埋之後嘅全世界パズルリーグ 對局唔計。"
+                             "PERFECT CLEAR 字幕 12 個逐個睇過；短過門檻嘅 22 組閃光亦睇過，"
+                             "當中 7 組係俾 cut-in 或者清行特效遮住咗嘅真 PC，已經改返。"
+                             "可疑位同分數對唔上嘅位合共 63 個，由三個讀者睇片、另外三個讀者反駁"
+                             "（冇剔走提議，改正咗 1 個，補多 1 個：一粒喺 KO 之後一格先落地，唔計）；贏家 KO 粒 18 粒逐粒查過。"
+                             "改咗 38 個事件、15 格。用 NEXT 隊列重數全部 116 個玩家局嘅粒數，108 個同表一樣，4 個差一粒，3 個係 NEXT 隊列讀唔清嘅局，1 個差多過一粒（z034 ゆうくん 少 2 粒），冇跟住改，嗰個玩家局嘅粒數可能有錯。</li>",
+    })
+
+SUBJECTS = (SYAKEGOHAN, AMEMIYA, UYESHOTA, NARIKURA, YUKUN)
 
 
 def by_slug(slug):
