@@ -1,0 +1,28 @@
+{"event_corrections":[
+{"n":2,"id":"z001","side":"p2","op":"retype","t":329.57,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":1,"source":"fr/g0/s2.png 329.9-331.0: T placed into slot, banner 'T-SPIN Double' + BACK to BACK + REN at 330.2; score 43021->48571 (+5550 = TSD 3600x1.5 + REN 150), a plain double would be ~1050"},
+{"n":9,"id":"z012","side":"p2","op":"retype","t":921.13,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g0/s9b.png 921.13-921.4: Z hard-dropped at 921.26, the top stack row turns white (clear flash) and the REN label appears; score 20242->20710 (+468 = single 300 + REN 150 + drop). Cleared row was coloured stack, not garbage. Separately: the chain's 921.87 double is a J that locks at 922.13 (s9c.png), one frame after end_s 922.1 though p1's tilt is only clear at 922.13-922.17; left unchanged"},
+{"n":11,"id":"z017","side":"p2","op":"retype","t":1078.6,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":1,"source":"fr/g0/s11.png: T into slot, banner 'T-SPIN Double' + BACK to BACK + REN at 1079.3; score 30311->35861 (+5550 = TSD B2B + REN)"},
+{"n":15,"id":"z023","side":"p1","op":"retype","t":1278.53,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"fr/g0/s15.png and fr/g0/b15.png (zoom at 1279.2): banner reads 'Mini T-SPIN Single'; score +2100 at 1279.00, far above a REN single, so a T-spin, and the banner says Mini (not a full TSS as flagged)"},
+{"n":17,"id":"z026","side":"p2","op":"retype","t":1374.13,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"score.py 1373.8-1376: 5290->10840 at 1374.67 (+5550 = TSD 3600x1.5 B2B after the TST + REN 150); a plain double would be ~1050"},
+{"n":19,"id":"z027","side":"p1","op":"retype","t":1426.23,"was":["single",1,0],"kind":"tss","lines":1,"pc":0,"gc":0,"source":"fr/g0/s19.png: banner 'T-SPIN Single' + BACK to BACK at 1426.95 (not Mini); score 5239->8989 (+3750 = TSS 2400x1.5 + REN 150)"}
+],
+"cell_edits":[],
+"no_change":[
+{"n":0,"why":"z000 p1: the two TSDs (264.4, 267.17) raised the score 20167->26567 (265.07) and 26672->31072 (267.83), +10800 total = 2x5400; the window start just splits the pair (+1000/-1000). Both clears are right."},
+{"n":1,"why":"fr/g0/s1.png: the O spawned at 339.83 is still at the top at KO 340.1 (queue unchanged); no lock."},
+{"n":3,"why":"fr/g0/s3.png: the last T is still unlocked at 374.77 (no spawn and no queue shift through 374.87); not counted."},
+{"n":4,"why":"fr/g0/s4.png: the T spawned ~419.0 was still moving and never locked before the KO at 419.6 (queue unchanged)."},
+{"n":5,"why":"z003 p2 +114 at 418.6 is a misread: 29612 for 1 frame, then 29512 (+14 from 29498 = drop points). No clear."},
+{"n":6,"why":"z006 p2: the reader misread 54208 as 64208 at 570.73 (checked fr/g0/f6.png at 571.0 = 00054208). From the true value every chain clear matches: quad +3626, TSD B2B +5400, doubles, single, TSS +2550."},
+{"n":7,"why":"fr/g0/s7.png, s7b.png: the I locked ~642.17 (counted at 641.9); the next Z lands at 642.47, after KO 642.43, so it is not counted."},
+{"n":8,"why":"fr/g0/s8.png: O spawned 792.13 and was held; the L out of hold landed at 792.47, after KO 792.37."},
+{"n":10,"why":"fr/g0/s10.png: the J was held and the O came out ~974.07; the O never locked before KO 974.13."},
+{"n":12,"why":"fr/g0/s12.png: the T spawned 1081.47 is still falling at 1081.60 and lands at 1081.63, one frame after KO 1081.6; no line clear."},
+{"n":13,"why":"z018 p1 +64 at 1102.53: hard-drop points (20456->20490->20528) as the T and Z after the PC locked without clearing (fr/g0/s13.png). nextcount over the whole game gives 30 spawns = 29 locks (one piece left in hold), which equals the chain's 29 pieces."},
+{"n":14,"why":"z018 p1 +101 at 1102.93: misread (20664 for one frame, then 20565 = +1 soft drop); the T locks at ~1103.15 with no clear (fr/g0/s13.png). It is already counted (1102.87)."},
+{"n":16,"why":"fr/g0/s16.png: the L spawned 1322.17 is still at the top at KO 1322.4; no lock."},
+{"n":18,"why":"fr/g0/s18.png: the L spawned 1411.76 is still falling at KO 1412.03; no lock."},
+{"n":20,"why":"z027 p1: score shows two TSDs, +5400 at 1434.70 and +5550 at 1435.93, and nextcount spawns T 1434.167, T 1435.433, I 1436.667 (quad +3900 at 1436.87). The chain has tsd 1434.17, tsd 1436.43 (the added one = the 1435.43 T, mistimed) and quad 1436.67. Count and types are right."},
+{"n":21,"why":"fr/g0/s21.png: the L spawned 1507.93 was held and the Z out of hold was still falling at KO 1508.13; no lock."},
+{"n":22,"why":"z027 p2: reader misread 75224/75230 as 76214/76224 near 1488.0 (fr/g0/s22.png shows 00075230). True: double +910 at ~1488.8, triple +1664 (1500+REN 150) by 1490.3, TSD +3600 at 1492.67. All match the chain."}
+]}

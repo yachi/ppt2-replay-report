@@ -1,0 +1,532 @@
+{
+ "event_corrections": [
+  {
+   "n": 23,
+   "id": "z028",
+   "side": "p2",
+   "op": "retype",
+   "t": 1524.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0,
+   "source": "score 5431->10981 (+5550 = TSD B2B with REN1); T-SPIN Double and BACK to BACK banners at ~1525.0; /tmp/claude-0/aj/corr/fr/g1/z028a.png"
+  },
+  {
+   "n": 24,
+   "id": "z029",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1568.67,
+   "t_end": 1569.53,
+   "was_old": [
+    [
+     1568.67,
+     "double",
+     2
+    ],
+    [
+     1569.53,
+     null,
+     0
+    ]
+   ],
+   "events": [
+    {
+     "t": 1568.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1568.93,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "nextcount spawns 1568.67 and 1568.93; O locked ~1568.9 with no clear (19561->19583), so REN broke; O from hold made a double ~1569.17 (+922 = double REN0); /tmp/claude-0/aj/corr/fr/g1/z029a.png"
+  },
+  {
+   "n": 25,
+   "id": "z030",
+   "side": "p2",
+   "op": "add",
+   "t": 1649.03,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "S spawned 1649.03 went to hold; O from hold locked ~1649.43 (score 40450->40482), before KO 1649.5; /tmp/claude-0/aj/corr/fr/g1/z030a.png"
+  },
+  {
+   "n": 29,
+   "id": "z032",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1718.17,
+   "t_end": 1726.9,
+   "was_old": [
+    [
+     1718.17,
+     "single",
+     1
+    ],
+    [
+     1718.2,
+     "single",
+     1
+    ],
+    [
+     1726.33,
+     "single",
+     1
+    ],
+    [
+     1726.9,
+     "single",
+     1
+    ]
+   ],
+   "events": [
+    {
+     "t": 1718.03,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1726.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "nextcount spawns 1717.1, 1718.03, 1726.7, 1728.0; I spawned 1718.03 hovered, held ~1722.6, J out locked ~1726.07 single (+1650 = REN9); ~1727.35 single +1800 = REN10; ~1728.5 double +2550 = REN11; /tmp/claude-0/aj/corr/fr/g1/z032a.png"
+  },
+  {
+   "n": 31,
+   "id": "z032",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1709.8,
+   "t_end": 1730.07,
+   "was_old": [
+    [
+     1709.8,
+     null,
+     0
+    ],
+    [
+     1710.83,
+     null,
+     0
+    ],
+    [
+     1711.67,
+     null,
+     0
+    ],
+    [
+     1712.7,
+     null,
+     0
+    ],
+    [
+     1713.7,
+     null,
+     0
+    ],
+    [
+     1714.57,
+     "single",
+     1
+    ],
+    [
+     1715.47,
+     "single",
+     1
+    ],
+    [
+     1716.47,
+     "single",
+     1
+    ],
+    [
+     1716.53,
+     "single",
+     1
+    ],
+    [
+     1727.8,
+     "single",
+     1
+    ],
+    [
+     1728.27,
+     "single",
+     1
+    ],
+    [
+     1730.07,
+     null,
+     0
+    ]
+   ],
+   "events": [
+    {
+     "t": 1709.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1710.83,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1711.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1712.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1713.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1714.57,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1715.47,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1716.47,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1728.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1729.57,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "every piece from 1706.57 cleared a single REN (1706.57 REN0 ... 1716.47 REN10, scores +150 per step, e.g. +1686 REN9, +1800 at 1727.63 REN10, +1978 REN11, +2116 REN12, +2250 REN13); O spawned 1716.47 held, Z out hovered until ~1727.6 and cleared a single, no garbage; nextcount spawns 1716.47, 1728.27, 1729.57, 1730.33, 1731.1, 1731.9; /tmp/claude-0/aj/corr/fr/g1/z032b.png /tmp/claude-0/aj/corr/fr/g1/z032c.png /tmp/claude-0/aj/corr/fr/g1/z032d.png"
+  },
+  {
+   "n": 33,
+   "id": "z034",
+   "side": "p1",
+   "op": "add",
+   "t": 1845.57,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "I spawned 1845.57 locked 1845.80 = KO frame (score 35886->35906); nextcount 54 spawns; /tmp/claude-0/aj/corr/fr/g1/z034k.png"
+  },
+  {
+   "n": 34,
+   "id": "z036",
+   "side": "p1",
+   "op": "retype",
+   "t": 1954.8,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "O cleared two rows ~1955.0, +1066 = double REN1 after the quad (+2400), REN banner; explains following TSS +2462 non-B2B; /tmp/claude-0/aj/corr/fr/g1/z036a.png /tmp/claude-0/aj/corr/fr/g1/z036s.png"
+  },
+  {
+   "n": 35,
+   "id": "z037",
+   "side": "p2",
+   "op": "retype",
+   "t": 2013.67,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "T landed flat cleared one row ~2013.97, +1974 = single REN11 after quad REN10; /tmp/claude-0/aj/corr/fr/g1/z037a.png"
+  },
+  {
+   "n": 37,
+   "id": "z041",
+   "side": "p2",
+   "op": "retype",
+   "t": 2154.23,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "gc": 0,
+   "source": "score 5253->9006 (+3753 = TSS B2B REN1); /tmp/claude-0/aj/corr/fr/g1/z041p2a.png"
+  },
+  {
+   "n": 38,
+   "id": "z041",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2218.03,
+   "t_end": 2219.33,
+   "was_old": [
+    [
+     2218.03,
+     "quad",
+     4
+    ],
+    [
+     2218.77,
+     "double",
+     2
+    ],
+    [
+     2219.33,
+     "single",
+     1
+    ]
+   ],
+   "events": [
+    {
+     "t": 2218.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2218.2,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 2219.33,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "source": "S locked ~2218.15 no clear (+18); L spawned 2218.2 held, I out made quad ~2218.5 (+3600 B2B); ~2219.7 single +450 = REN1; then double 2220.43 +1200 = REN2; /tmp/claude-0/aj/corr/fr/g1/z041b.png"
+  },
+  {
+   "n": 43,
+   "id": "z046",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2402.87,
+   "t_end": 2406.2,
+   "was_old": [
+    [
+     2402.87,
+     null,
+     0
+    ],
+    [
+     2402.87,
+     null,
+     0
+    ],
+    [
+     2406.2,
+     "double",
+     2
+    ]
+   ],
+   "events": [],
+   "source": "T spawned 2402.53 hovered until ~2406.0, plain double (+916); O spawned 2406.9 held, T from hold made TSD REN1 (+3760); nextcount spawns 2402.53, 2406.9 only; /tmp/claude-0/aj/corr/fr/g1/z046a.png"
+  },
+  {
+   "n": 45,
+   "id": "z046",
+   "side": "p2",
+   "op": "retype",
+   "t": 2410.87,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "gc": 0,
+   "source": "I held, Z from hold locked ~2411.27 with no clear (+14); the triple at ~2411.6 (+1500 REN0) is the next piece's (2411.7 event); /tmp/claude-0/aj/corr/fr/g1/z046b.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 24,
+   "id": "z029",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 7,
+   "value": 6,
+   "source": "REN broke at the O ~1568.9; longest run single 1561.77 .. double 1567.5 = 7 clears; /tmp/claude-0/aj/corr/fr/g1/z029a.png"
+  },
+  {
+   "n": 25,
+   "id": "z030",
+   "player": "p2",
+   "field": "pieces",
+   "was": 58,
+   "value": 59,
+   "source": "added O lock 1649.43 before KO; /tmp/claude-0/aj/corr/fr/g1/z030a.png"
+  },
+  {
+   "n": 30,
+   "id": "z032",
+   "player": "p1",
+   "field": "pieces",
+   "was": 68,
+   "value": 66,
+   "source": "duplicate events 1718.17/1718.2 and 1726.33/1726.9 are single pieces per nextcount; /tmp/claude-0/aj/corr/fr/g1/z032a.png"
+  },
+  {
+   "n": 29,
+   "id": "z032",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 13,
+   "value": 11,
+   "source": "scores show REN9/10/11 at 1726.07/1727.35/1728.5; /tmp/claude-0/aj/corr/fr/g1/z032a.png"
+  },
+  {
+   "n": 31,
+   "id": "z032",
+   "player": "p2",
+   "field": "pieces",
+   "was": 58,
+   "value": 56,
+   "source": "nextcount spawns; duplicates removed; /tmp/claude-0/aj/corr/fr/g1/z032c.png"
+  },
+  {
+   "n": 31,
+   "id": "z032",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 5,
+   "value": 15,
+   "source": "single REN chain 1706.57 REN0 through 1731.9 REN15, scores +150 per step; /tmp/claude-0/aj/corr/fr/g1/z032b.png /tmp/claude-0/aj/corr/fr/g1/z032d.png"
+  },
+  {
+   "n": 33,
+   "id": "z034",
+   "player": "p1",
+   "field": "pieces",
+   "was": 53,
+   "value": 54,
+   "source": "I locked on KO frame 1845.80; nextcount 54 spawns; /tmp/claude-0/aj/corr/fr/g1/z034k.png"
+  },
+  {
+   "n": 35,
+   "id": "z037",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 10,
+   "value": 11,
+   "source": "single at ~2013.97 is REN11; /tmp/claude-0/aj/corr/fr/g1/z037a.png"
+  },
+  {
+   "n": 44,
+   "id": "z046",
+   "player": "p1",
+   "field": "pieces",
+   "was": 74,
+   "value": 71,
+   "source": "window 2402.53-2406.9 holds two spawns, not five events; /tmp/claude-0/aj/corr/fr/g1/z046a.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 26,
+   "why": "6xxx readings are OCR misreads of 5xxx; TSD +5400 B2B correct (/tmp/claude-0/aj/corr/fr/g1/z031s.png)"
+  },
+  {
+   "n": 27,
+   "why": "J still falling at KO 1681.6 (/tmp/claude-0/aj/corr/fr/g1/z031k.png)"
+  },
+  {
+   "n": 28,
+   "why": "crop shows 5366 not 6366; TST +4800 and TSS B2B +3600 correct (/tmp/claude-0/aj/corr/fr/g1/z031s.png)"
+  },
+  {
+   "n": 32,
+   "why": "T at 1772.07 plain single, +600 = single REN2, 2 REN banner, no T-SPIN banner (/tmp/claude-0/aj/corr/fr/g1/z033a.png /tmp/claude-0/aj/corr/fr/g1/z033s.png)"
+  },
+  {
+   "n": 36,
+   "why": "crops confirm every chain clear (/tmp/claude-0/aj/corr/fr/g1/z041s.png)"
+  },
+  {
+   "n": 39,
+   "why": "+100 was a one-frame misread (105674 then 105574)"
+  },
+  {
+   "n": 40,
+   "why": "plain drop points; 16600 misread of 16500 (/tmp/claude-0/aj/corr/fr/g1/z043s.png)"
+  },
+  {
+   "n": 41,
+   "why": "L spawned 2285.2 locked ~2285.45 already in chain; I held, T soft-dropping at KO (/tmp/claude-0/aj/corr/fr/g1/z043k.png)"
+  },
+  {
+   "n": 42,
+   "why": "L held, J still falling at KO (/tmp/claude-0/aj/corr/fr/g1/z044k.png)"
+  }
+ ]
+}
