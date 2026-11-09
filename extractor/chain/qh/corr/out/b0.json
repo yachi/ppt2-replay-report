@@ -1,0 +1,41 @@
+{"event_corrections":[
+ {"n":4,"id":"q008","side":"p1","op":"retype","t":482.53,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"fr/g0/n4.png: after the B2B TETRIS (score 18791->22391 at 481.73) the next piece (spawn 482.53, held/swapped, locked at right ~482.9) clears one row: white line flash 483.2, '1 REN' banner from 483.0, no T-SPIN banner. Score p1 22391 -> 22911 (+520 = single 300 + 1 REN 150 + drops). This plain single broke B2B, which is why the TSD at 484.87 scored only +3633 (non-B2B 3600) instead of the chain's predicted 5400. Chain max_b2b may need a re-derive."},
+ {"n":21,"id":"q033","side":"p2","op":"retype","t":2455.63,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"fr/g0/n21.png: the S spawned 2455.63 (NEXT S->T at 2455.63) locks in the top row ~2455.93 and clears it (white row flash 2455.97, REN banner from 2456.03). Score p2 180589 -> 181039 at 2455.96 (+450 = single 300 + 1 REN 150). Before KO 2457.27. Cleared row is coloured stack, not garbage."},
+ {"n":15,"id":"q022","side":"p1","op":"add","t":1600.27,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g0/n15.png: the L spawned ~1600.27 is hard-dropped and locked ON the KO frame 1600.47 (lock streak at 1600.47 frame; score 86570 -> 86601 (+31 drop points only) at 1600.47). No row completed, no clear flash. Chain's last p1 event is 1600.0."}
+],
+"cell_edits":[
+ {"n":15,"id":"q022","player":"p1","field":"pieces","was":128,"value":129,
+  "source":"fr/g0/n15.png + score.py: L locked at 1600.47 = KO frame (score +31 at 1600.47), not in chain (last event 1600.0)."}
+],
+"no_change":[
+ {"n":0,"why":"fr/g0/n0.png: q001 p2's last piece (Z, spawned ~134.43) still falling at KO 134.57; score.py shows no drop after 134.37."},
+ {"n":1,"why":"fr/g0/n1.png: q003 p1's S hard-drops at 238.03 (score +6 at 238.03), one frame after KO 238.0; at 238.00 it is still above."},
+ {"n":2,"why":"score.py: q006 p1 piece spawned 374.73 is soft-dropping (+1 per frame 374.83-375.0) through KO 374.93; not locked."},
+ {"n":3,"why":"fr/g0/n3.png: q007 p2's I lies on the stack and is still being rotated at 459.63-459.66 (lock delay); NEXT unchanged, no lock by KO 459.67."},
+ {"n":5,"why":"score.py: q008 p2 +300 at 496.07 = plain single; chain 'single' at 495.93 is right, not a TSS (2400)."},
+ {"n":6,"why":"score.py: q010 p2 last hard drop +20 at 808.37 (before the 808.40 spawn); nothing after up to KO 808.63, piece still falling."},
+ {"n":7,"why":"score.py: q011 p1 last hard drop +30 at 832.13; next change +1 at 833.00 after KO 832.97; no lock at KO."},
+ {"n":8,"why":"fr/g0/n8.png: q012 p2 banner at 860.2 reads 'T-SPIN Single' + BACK to BACK, one row flashes, score +3600 (B2B TSS). Chain tss is right; the Triple banner was misread."},
+ {"n":9,"why":"score.py: q012 p1 +1050 at 905.20 = double 900 + 1 REN 150; plain double is right."},
+ {"n":10,"why":"score.py: q012 p2 +7200 at 923.03 = B2B TST; chain tst is right (the Single banner was p1's: p1 +3750 at 922.77)."},
+ {"n":11,"why":"score.py: q015 p1 piece spawned 1193.44 soft-dropping (+1/frame) through KO 1193.57; not locked."},
+ {"n":12,"why":"score.py: q019 p1 +450 at 1418.23 = single 300 + REN 150 after the quad; plain single, not TSS."},
+ {"n":13,"why":"score.py: q019 p2 last drop +18 at 1456.57 before the 1456.67 spawn; no change by KO 1456.77."},
+ {"n":14,"why":"score.py: q020 p1 last drop +28 at 1484.13; no change through KO 1484.4."},
+ {"n":16,"why":"fr/g0/n16.png: q030 p1's I (spawn ~2212.04) is still at the top at 2212.20 (KO) and hard-drops at 2212.24, after KO."},
+ {"n":17,"why":"q030 p1: score obscured 2211.0-2212.3; 99015 (2211.00) -> 99214 (2212.50) = +199 drop points over the L/I drops, no clear. The '+1117' is a misread across the obscured span; fr/g0/n16.png shows no clear flash."},
+ {"n":18,"why":"fr/g0/n18.png: q031 p1's S locks at 2244.10 and clears a row at 2244.13, one frame after KO 2244.07, so it does not count."},
+ {"n":19,"why":"score.py: q032 p2 18221 -> 23033 (+4812) = non-B2B TST 4800 + drops; chain tst is right."},
+ {"n":20,"why":"score.py: q033 p1 +7200 at 2449.07 = B2B TST; chain tst is right."},
+ {"n":22,"why":"q035 p1: '+76' is two hard drops (+38 at 2555.00 and +38 at 2555.33) after the PC quad; fr/g0/n22.png, fr/g0/n22b.png show S and L locking, no clear. csv pieces 41 matches the NEXT shifts (43) less the held Z and active J at KO. The chain event list lacks an event for one of the I/S/L locks around 2554.6-2555.1, but the counts are unaffected."},
+ {"n":23,"why":"score.py: q037 p1 piece spawned 2694.27 soft-dropping (+1/frame) through KO 2694.47; not locked."},
+ {"n":24,"why":"fr/g0/n24.png: q039 p2 +1200 at 2848.83 is a zero-line T-spin ('T-SPIN' banner, T in its slot, no row completes, stack rises); not a line clear."},
+ {"n":25,"why":"score.py: q042 p1 score flat 90700 from 2988.10 through KO 2988.6; piece spawned 2988.33 not locked."},
+ {"n":26,"why":"fr/g0/n26.png: q044 p1's Z (spawned ~3053.47) is still near the top at KO 3053.6."},
+ {"n":27,"why":"fr/g0/n27.png: the Mini T-SPIN Single at ~3135.75 (T at left wall, one row cleared, REN + BACK to BACK; score +1068 = B2B mini 900 + REN 150 + drops) is already in the chain as tsmini at 3134.87."},
+ {"n":28,"why":"score.py: q049 p2 last drop +20 at 3357.53 before the 3357.63 spawn; nothing by KO 3357.93."},
+ {"n":29,"why":"score.py: q050 p1 piece spawned 3382.73 soft-dropping (+1/frame) through KO 3383.13; not locked."}
+]}

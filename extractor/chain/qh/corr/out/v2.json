@@ -1,0 +1,12 @@
+[
+ {"ref":"e0","verdict":"keep","why":"p2 score 9008 from 5878.87 to 9110 at 5881.00 (drop points only), then +3600 quad at 5881.77; the 5879.53 piece (L, held at 5879.77) made no clear. One TSS only."},
+ {"ref":"e1","verdict":"keep","why":"p1 score 33999->37599 once at 6130.40, next jump +3750 at 6131.77 (tss). Only one quad between 6129.5 and 6131.7; the 6130.03 piece (L held, T out) did not clear."},
+ {"ref":"e2","verdict":"keep","why":"nextcount: T came out of hold at 6609.0 (+3600 TSD) and the 6610.33 spawn is a T; score 20477->26027 (+5550) at 6611.10 = TSD b2b + REN1, a plain double would be ~1050."},
+ {"ref":"e3","verdict":"keep","why":"nextcount: J spawn 7344.533 is the only piece between the triple (L, 7343.57) and Z (7345.50), so the chain's 7345.2 lock is that J. Score 351879->352959 (+1080, double+REN1). /tmp/claude-0/qh/corr/fr/v2/q119g.png: two-row flash at 7344.65 in the grey garbage rows with the J's leg in the hole column, so gc 2."},
+ {"ref":"e4","verdict":"keep","why":"end_s 7346.40. ffmpeg frames (/tmp/claude-0/qh/corr/fr/v2/w5.png, x5.png): I ghost at 7346.334/.367, I locked with drop trails at 7346.400, and p2's board first moves on that same 7346.400 frame; in the sheet base too the lock is at 7346.40 (/tmp/claude-0/qh/corr/fr/v2/q119k.png). The lock is on the KO frame, not after it. Row has coloured piece cells (gc 0); score 354191->354975 (+784 single+REN3)."},
+ {"ref":"c0","verdict":"keep","why":"Recomputed from cseq with 5879.53 as a plain lock: max REN 2->1 (tst,tss)."},
+ {"ref":"c1","verdict":"keep","why":"Recomputed from cseq with the fix: max_b2b 10->9."},
+ {"ref":"c2","verdict":"keep","why":"O spawned 5937.40, ghost through 5937.567 and locked (score 20763->20799) on the frame where p2's board first tilts (ffmpeg base 5937.600 for both; sheet base 5937.57 = end_s). /tmp/claude-0/qh/corr/fr/v2/k3.png, t4.png, q097.png. Lock on the KO frame counts: 33->34."},
+ {"ref":"c3","verdict":"keep","why":"Recomputed from cseq with 6130.03 as a plain lock: max_b2b 6->5."},
+ {"ref":"c4","verdict":"keep","why":"Follows e4: the I locked on the KO frame, 473->474."}
+]
