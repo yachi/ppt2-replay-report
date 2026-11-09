@@ -1,0 +1,105 @@
+<!doctype html><html lang="zh-Hant-HK"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>syakegohan 擺位組合</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f6f2;--card:#fff;--ink:#1d1d1f;--mut:#6b6b70;--line:#e3e1db;--acc:#3b5bdb;--up:#2b8a3e;--down:#c92a2a;--cell:#eceae4;--c:13px;
+--I:#2cb5c4;--J:#3a5bd0;--L:#e8862a;--O:#e2b714;--S:#4bb04f;--T:#a249c2;--Z:#d9423b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141416;--card:#1e1e22;--ink:#ececef;--mut:#9a9aa2;--line:#2f2f35;--acc:#7c95ff;--up:#69db7c;--down:#ff8787;--cell:#2a2a30}}
+:root[data-theme="dark"]{--bg:#141416;--card:#1e1e22;--ink:#ececef;--mut:#9a9aa2;--line:#2f2f35;--acc:#7c95ff;--up:#69db7c;--down:#ff8787;--cell:#2a2a30}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Noto Sans HK",system-ui,sans-serif;
+padding:24px max(16px,env(safe-area-inset-right)) 48px max(16px,env(safe-area-inset-left))}
+main{max-width:880px;margin:0 auto}
+h1{font-size:26px;margin:0 0 4px;font-weight:800}h2{font-size:19px;margin:36px 0 8px}
+.sub{color:var(--mut);margin:0 0 20px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:16px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.kpi b{display:block;font-size:24px;font-weight:800}.kpi span{color:var(--mut);font-size:13px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.take li{margin:4px 0}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px;}
+@media (max-width:520px){th:nth-child(4),tr:not(.ex) td:nth-child(4){display:none}}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+th{color:var(--mut);font-weight:600;font-size:12px}
+td.n{text-align:right;font-variant-numeric:tabular-nums}.mut{color:var(--mut)}
+td.ty{font-weight:600;white-space:nowrap}
+tr.up td.ty{color:var(--up)}tr.down td.ty{color:var(--down)}
+.bar{position:relative;height:10px;background:var(--cell);border-radius:5px;min-width:120px}
+.bar .r{position:absolute;left:0;top:0;bottom:0;background:var(--acc);border-radius:5px}
+.bar .u{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--ink)}
+.legend{font-size:12px;color:var(--mut);margin:6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;align-items:center;gap:8px}
+.bd{display:grid;gap:2px;grid-auto-rows:var(--c)}
+.bd i{width:var(--c);height:var(--c);border-radius:2px;background:transparent}
+.bd i[class]{background:var(--x)}
+.bd i.b{background:transparent;box-shadow:inset 0 0 0 2.5px var(--x)}
+.bd.real{--c:7px;gap:1px;grid-template-columns:repeat(10,var(--c));background:var(--cell);padding:2px;border-radius:3px}
+.bd.real i{border-radius:1px}.bd.real i.g{background:var(--mut);opacity:.45}.bd.real i.b{box-shadow:inset 0 0 0 1.5px var(--x)}
+.two{display:flex;gap:12px;align-items:flex-end}
+figure.sm{gap:10px}figure.sm .bd.real{--c:6px}
+.p-I{--x:var(--I)}.p-J{--x:var(--J)}.p-L{--x:var(--L)}.p-O{--x:var(--O)}.p-S{--x:var(--S)}.p-T{--x:var(--T)}.p-Z{--x:var(--Z)}
+tr.ex td{border-bottom:2px solid var(--line);padding:4px 8px 12px}
+.exs{display:flex;flex-wrap:wrap;gap:8px}
+figure.sm{--c:10px;padding:8px;flex-direction:row;align-items:center}
+figure.sm .tri{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 10px}
+.tri h3{margin:0 0 8px;font-size:16px;display:flex;gap:10px;align-items:baseline}.tri h3 span{color:var(--mut);font-size:13px;font-weight:400}
+.spins .bd.real,.spins figure.sm .bd.real{--c:9px}
+.tri figure.sm figcaption span{display:block}
+.tri figure.sm{background:var(--bg)}
+figcaption{text-align:left}
+.tri{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 10px}
+.tri h3{margin:0 0 8px;font-size:16px;display:flex;gap:10px;align-items:baseline}.tri h3 span{color:var(--mut);font-size:13px;font-weight:400}
+.tri figure.sm figcaption span{display:block}
+.tri figure.sm{background:var(--bg)}
+figcaption{text-align:center;font-size:13px}figcaption b{display:block}
+figcaption span{color:var(--mut);font-size:12px}
+a{color:var(--acc)}
+ul.tt{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:6px}
+ul.tt li{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;display:flex;justify-content:space-between}
+.note{color:var(--mut);font-size:13px}
+</style></head><body><main>
+<h1>syakegohan 最常擺埋一齊嘅方塊</h1>
+<p class="sub">片源：<a href="https://youtu.be/uP3FeprmAGI" target="_blank" rel="noopener">uP3FeprmAGI</a>（對ふられ，84 局，syakegohan 係左邊）。淨計中盤（每局第 15 粒之後）。</p>
+
+<div class="kpis">
+<div class="kpi"><b>{{PAIRS}}</b><span>連續兩粒（可比較）</span></div>
+<div class="kpi"><b>{{TOUCH}}</b><span>兩粒貼埋（{{TR}}%）</span></div>
+<div class="kpi"><b>38%</b><span>隨機合法擺位會貼埋嘅比率</span></div>
+<div class="kpi"><b>{{TRIP}}</b><span>連續三粒一路貼住</span></div>
+</div>
+
+<div class="box take"><b>重點</b><ul>
+<li>整體嚟講佢唔會特別多貼埋擺（36% 對隨機 38%），但有三對明顯係刻意：<b>J+Z</b>、<b>S+L</b>、<b>S+T</b>，貼埋嘅比率高過隨機 10 至 17 個百分點。</li>
+<li>最常見嘅三個形狀（L 托 S、J 托 Z、O 靠 J）同之前 uyeshota、amemiya 兩條片量到嘅頭三位一樣。</li>
+<li>三粒組合冇固定習慣：最多嘅類型 J+L+Z 得 12 次，完全一樣嘅三粒形狀最多出現 2 次。</li>
+</ul></div>
+
+<h2>兩粒：邊對最常貼埋</h2>
+<p class="note">「貼埋」＝同一個人連住擺嘅兩粒有格邊相接，第一粒冇消行、中間冇垃圾行。藍條係實際貼埋率，黑線係同一盤面上隨機揀合法位置會貼埋嘅比率。綠色＝高過隨機 5 個百分點或以上，紅色＝低 5 個或以上。鏡像（J↔L、S↔Z）當同一個形。只列連續出現 50 次或以上嘅組合。每行下面係嗰個組合最常見嘅形狀（最多三個，出現少過 3 次嘅唔畫），同第一次出現時嘅實戰盤面（灰色係原本嘅堆疊，第一個 link 就係嗰次）。呢度唔摺鏡像，所以 J+Z 同 L+S 各自有自己嘅圖。</p>
+<div class="box tw"><table><thead><tr><th>組合</th><th style="text-align:right">貼埋次數</th><th style="text-align:right">連續出現</th><th>貼埋率</th><th style="text-align:right">實際</th><th style="text-align:right">隨機</th></tr></thead>
+<tbody>{{ROWS}}</tbody></table></div>
+
+<h2>兩粒：最常見嘅形狀</h2>
+<p class="note">實心＝先擺嗰粒，空心框＝跟住擺嗰粒。右邊係第一次出現時嘅實戰盤面（灰色係原本嘅堆疊）。時間 link 去片入面其中幾次（提早 2 秒），第一個 link 就係個盤面嗰次。</p>
+<div class="grid">{{PM}}</div>
+
+<h2>三粒：類型</h2>
+<p class="note">連續三粒，每粒都貼住上一粒，共 {{TRIP}} 組。下面每個類型（出現 6 次或以上）畫三個實戰例子，每個都係唔同形狀；完全一樣嘅三粒形狀最多得 2 次，所以呢啲係例子，唔係習慣。實心、空心、實心交替表示第一、二、三粒。</p>
+<div class="tris">{{TEX}}</div>
+
+
+<h2>T 以外嘅 spin</h2>
+<p class="note">定義：最後個位置喺嗰個方向淨係左右移同落都去唔到，一定要喺堆疊下面轉一轉先入到（即係轉入窿或者踢入去）。中盤 T 以外 {{SPOF}} 粒入面得 {{SPN}} 粒係咁。每個都係實戰盤面，方塊用實心畫。因為每個形狀都唔同，所以全部列晒做例子。呢個係由盤面推出嚟，冇睇片確認佢真係有轉。</p>
+<div class="tris spins">{{SP}}</div>
+
+<h2>連開局一齊計</h2>
+<p class="note">計埋開局（第 1 粒起）有 {{APAIRS}} 對連續兩粒，{{ATOUCH}} 對貼埋；最多嘅係 {{ALLT}}。開局定式令 J+O、L+O 升上去。</p>
+
+<h2>限制</h2>
+<p class="note">得一條片、一個對手。每粒方塊嘅位置係由片段畫面自動讀出嚟再用引擎核對過（唔通過核對嘅唔計），但冇逐格人手睇過。隨機比率係同一個盤面所有合法擺位平均，唔代表一個識玩嘅人會點擺。</p>
+</main></body></html>
