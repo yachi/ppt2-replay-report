@@ -1,0 +1,1016 @@
+{
+ "decisions": [
+  {
+   "n": 43,
+   "id": "y000",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "Real PERFECT CLEAR: quad at ~130.03-130.1 empties the board; banner visible 130.1-131.4 (fr/b1/y000_p2_129b.png). Chain had it as two quads (129.73, 130.1) + a double 130.4, pc 0. Replaced window: 129.73 lock, 130.1 quad pc=1, 130.4 lock. Piece count unchanged."
+  },
+  {
+   "n": 82,
+   "id": "y000",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "Same fix as item 43: the 130.4 double is the Z lock after the PC (score 22428->22466 drops only, fr/b1/y000_p2_129b.png). The TSD jump 22659->28059 is at 132.83 (chain logs it 132.07, type right). After removing the phantom double the residual goes away."
+  },
+  {
+   "n": 80,
+   "id": "y000",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "The 145.3 double is a b2b TETRIS (I into the well, flash 145.47, score +3600; fr/b1/y000_p1_145.png, y000_p1_143.png). Retyped to quad gc3. The score reader misread 3/8 digits 143.5-144.5 (35842 etc.); frames show 29669 (143.5) -> 33309 (144.7) for the 144.2 quad."
+  },
+  {
+   "n": 81,
+   "id": "y000",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "fr/b1/y000_p1_148.png: clears at ~148.75 (I double), ~149.8 (2 REN), ~151.0 (3 REN) = chain 148.5 double, 149.47 double, 150.6 single (times a little early). Frame scores 42406 -> 43482 (148.8) -> 44713 (150.2) -> 45495 (151.4). The reader values 47192/48392/50074 are misreads; with those removed the 145.5-151.23 rise matches. (147.03 TSD +5400 at 147.67.)"
+  },
+  {
+   "n": 83,
+   "id": "y002",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "Missed REN single: the L lock at ~227.45 clears a garbage row (fr/b1/y002_p2_226.png), score +1536 at 227.9. Retyped the 227.1 lock to single gc1 (piece count unchanged). The REN run (218.97..226.17) continues one clear longer; max_combo not changed (10 is not reached by this run)."
+  },
+  {
+   "n": 84,
+   "id": "y002",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "Score digits are blank/unread over most of 258.9-286.33 (REN banners/effects), so the 535 residual over ~32000 of rise is within the room-scoring uncertainty. Spot-checked the tail (fr/b1/y002_p2_285.png): clears at ~285.4 (133161) and ~286.35 (135019) match chain 285.17 / 286.13 singles; no other jumps."
+  },
+  {
+   "n": 56,
+   "id": "y002",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "After the 286.13 single p2 locks O (~287.2), Z (~287.35), Z (~287.6), I (~287.87) = the 4 chain locks. Then T to hold, S out of hold, S locks at 288.15 (score 135159->135193, fr/b1/y002_p2_287.png). p1 board tilts at 288.13 (fr/b1/y002_p1_ko.png; 288.10 still flat), so the S lock is one frame after the KO frame and is correctly not counted."
+  },
+  {
+   "n": 45,
+   "id": "y003",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Real PC: J completes a 3-row stack at 305.03, board empty + PERFECT CLEAR banner 305.10-306.4, score +6900 (fr/b1/y003_p1_305.png, y003_both_304.png). Chain had it as two triples 0.3 s apart with pc 0; replaced: 304.87 triple pc=1, 305.17 plain lock."
+  },
+  {
+   "n": 46,
+   "id": "y003",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "p2 has one PC: an I completes the last row ~305.75, board empty, banner grows from 305.8 and stays to ~306.8 (fr/b1/y003_both_304.png); score 11847 -> 15035 at 305.80. The 306.0 onset is the same banner; chain already has 305.8 single pc=1."
+  },
+  {
+   "n": 47,
+   "id": "y003",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "Confirmed: PC = the single at 305.8 (board empty, PERFECT CLEAR banner 305.8-306.8, score +3188), logged once (fr/b1/y003_both_304.png)."
+  },
+  {
+   "n": 1,
+   "id": "y003",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Gap 322.0-328.7 is not lag (boards run normally, scores move). Real sequence (fr/b1/y003_p1_321.png, y003_p1_323.png, y003_p1_326.png): L,S,O,J locks, T plain double 323.43 (+900), Z,L,Z,S,O,I locks, TST 326.43 (+4800), S,O,Z,J,L locks, TSD 329.47. Removed the phantom 322.0 tst and a duplicated lock; added a missed lock after the TST; pieces 268->267. 323.53 double and 324.5-325.87 locks confirmed (6 = 6). No freeze."
+  },
+  {
+   "n": 14,
+   "id": "y003",
+   "player": "p1",
+   "verdict": "unsure",
+   "note": "Whole-game bag flag (anomalies at frames 314..3566 = ~306.8..415.2 s). Not recounted over all 140 s. Checked 303.8-307.4 (locks match drop-score steps 12=12, plus the PC fix at 304.87) and 320.4-329.5 (net -1 piece, see the gap item 1 fix). Other anomaly spots (~318.4, 330.9, 336.3, 380.0, 415.2) not checked."
+  },
+  {
+   "n": 86,
+   "id": "y005",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "The p1 score is covered by the bottom character bar most of 499-510 and the reader interleaves another number (33040, 38603, 44164... = p2-sized values). Using only readable p1 frames (fr/b1/y005_both_502.png): 23424 (499.03 quad) -> 24496 (single) -> 26097 (503.07, triple) -> 27181 (504.73) -> 27947 (505.53) -> 28857 (506.47) -> 29168 (508.23) -> 30226 (508.30, double). REN banners 1/2/3/4 REN at 503.9/504.4/505.4/506.4 and 1 REN at 508.4 match the chain singles 503.5..505.83, lock 506.87, single 507.23, double 508.0. Residual came from misreads."
+  },
+  {
+   "n": 57,
+   "id": "y005",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "fr/b1/y005_ko.png: p2 O locks ~513.77 (score 57116->57146), the next Z spawns and is still at the top of the board at 514.10; p1 board tilts ~514.13 (KO). No piece locked by the KO frame; nothing to add."
+  },
+  {
+   "n": 96,
+   "id": "y015",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Two triples 0.2 s apart were one triple PERFECT CLEAR (+6900 at 1179.23, banner, empty board; fr/b1/y015_p1_1179.png). Replaced: 1179.1 triple pc=1 gc0, 1179.3 plain lock. TST +4800 (1175.77) and TSD +5550 (1177.40) confirmed. Note: no grey garbage visible on p1 board anywhere 1174.6-1179.2, so the old gc 2 on the duplicate triple was wrong too."
+  },
+  {
+   "n": 64,
+   "id": "y015",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "fr/b1/y015_p1_1179.png: last p1 lock ~1180.05 (score 17983); the next S is still falling at 1180.4 and only its ghost is on the floor at 1180.5 when p2 tilts; score unchanged. Nothing locked by the KO frame 1180.43."
+  },
+  {
+   "n": 100,
+   "id": "y017",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "The score reader interleaves p2 values (17323/21866/25506 belong to... mixed series); readable p1 frame scores show six clears 1328.8-1334.3 after the TSD and the REN counter goes 1..6 (fr/b1/y017_p1_1328.png, y017_both_1328.png). Chain had the first REN clear (~1328.8, +1066, double-sized) as a plain lock at 1329.1: retyped to double gc0 (piece count unchanged); max_combo 4 -> 6. Lines type of that clear inferred from score size, not from a banner."
+  },
+  {
+   "n": 7,
+   "id": "y021",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "Gap 1570.73-1584.1 is network lag (both boards slow motion, see freezes 1570.8-1582.4). p2 plays one J (lock ~1583.4, 6 REN). Removed phantom lock 1576.5, BREAK 1583.77 (and BREAK 1569.63: REN never broke), pieces 88->86 with item 8, max_combo 5->8. fr/b1/y021_both_1569.png, y021_both_1571.png, y021_both_1582.png"
+  },
+  {
+   "n": 8,
+   "id": "y021",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "Gap 1584.13-1590.2 is the second lag stretch (freeze 1583.5-1592.9): one J creeps from 1584.4 to its lock ~1589.6 (7 REN, +1350), then Z hold, I quad 8 REN 1592.6. Phantom lock 1589.23 removed in the same replace_window as item 7. fr/b1/y021_both_1588.png"
+  },
+  {
+   "n": 5,
+   "id": "y021",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "Events in the gap are right: 1572.53 single = the 8 REN clear (~1571.9, 17387->18887), next clear is the 1582.43 single (Z lock ~1582.4, 9 REN). Gap is network lag; freeze 1570.8-1582.4 reported. fr/b1/y021_both_1569.png, y021_both_1571.png"
+  },
+  {
+   "n": 103,
+   "id": "y021",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "The -1800 rise is the score reader interleaving p2-sized numbers (19546/20464/21530 are p2s). Frames: p1 17371 -> 18887 (1571.87, 8 REN) -> 20537 (1582.40, 9 REN); matches chain 1572.53 and 1582.43 singles. fr/b1/y021_both_1571.png, y021_both_1582.png"
+  },
+  {
+   "n": 6,
+   "id": "y021",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Gap 1583.1-1593.9 is lag (freeze 1583.5-1592.9): p1 O hovers 1583.2-1593.0 and is the only piece; 10 REN clear at 1593.1. Removed the 1583.1 single (duplicate of 1582.43), pieces 73->72. fr/b1/y021_both_1582.png, y021_both_1588.png"
+  },
+  {
+   "n": 104,
+   "id": "y021",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Negative rise is reader interleave; p1 frame scores 20537 (to 1593.07) -> 22341 (1593.10) -> 24302 (1594.60) -> 27617 (1595.17 triple) -> 29885 (1596.07) -> 32305 (1596.87): five clears = chain 1593.3, 1593.87, 1595.0, 1596.0, 1596.87. The only fix here is the duplicate 1583.1 single (removed, item 6)."
+  },
+  {
+   "n": 105,
+   "id": "y021",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "1608.07 single is a double: T lock ~1608.3, 2-row flash, +1064 (REN 1), same size as the next REN-2 double +1218 (fr/b1/y021_p1_1607.png). Quad 1606.77 = +3600 at 1607.23 confirmed. Retyped 1608.07 to double."
+  },
+  {
+   "n": 67,
+   "id": "y021",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "fr/b1/y021_ko.png: p2 Z locks ~1613.07 (58943->58955; = chain lock 1612.8, chain runs ~0.3 s early here), the next J is still falling at 1613.40 (soft-drop +1) when p1 tilts ~1613.33-1613.40. Nothing locked by the KO frame."
+  },
+  {
+   "n": 109,
+   "id": "y027",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Reader interleaves p2 numbers (21736.., 33330, 42606, 51728). p1 frame scores (fr/b1/y027_p1_1966.png): 22668 -> 24168 (triple) -> 24534 (single) -> 26976 (quad) -> 27354 (single) -> 31283 (single+TSD) -> 31741 (single) -> 32949 (double) -> 35361 (quad) -> 35821 (+450 at 1981.03, no chain clear) -> 36761 (double) -> 39320 (quad). Missed single: the O lock ~1981.0 (fr/b1/y027_p1_1980.png), retyped the 1980.9 lock to single. max_combo unchanged (quad+single = REN 1)."
+  },
+  {
+   "n": 110,
+   "id": "y028",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Two REN singles were logged as plain locks (2068.03 T, flash 2067.8, +1800; 2071.73 I, flash 2071.8, +2424; fr/b1/y028_p1_2066.png). Retyped both; REN is continuous 2057.03-2073.07, max_combo 9 -> 16. Readers values like 76060/81526/87089 are interleaved misreads."
+  },
+  {
+   "n": 111,
+   "id": "y028",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "p2 score steps 2043.5-2058.7 match the chain clears one for one: TSD +5400 (2046.07), double +1072, triple +1826, triple +1500, double +1076, triple +1520, double +1076, TSS +2400 (2058.73). The 478 residual is the room-scoring difference; 77519 at 2057.83 is a misread."
+  },
+  {
+   "n": 10,
+   "id": "y032",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "The gap at 2321.4 holds three real locks (L, S, Z; I held) between the TSD at 2321.0 and the TSD at 2324.10; the tst and BREAKs there are phantoms, and the 2325.03 double is a phantom too. Replaced both windows; pieces 231 -> 232."
+  },
+  {
+   "n": 36,
+   "id": "y032",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "Neither a quad nor a TST at 2321.4: the T-SPIN DOUBLE banner belongs to the TSD flashed at 2321.0 (+5400), and nothing clears again until 2324.10. Removed the tst (same window as n10)."
+  },
+  {
+   "n": 35,
+   "id": "y032",
+   "player": "p1",
+   "verdict": "no change",
+   "note": "The 2331.4 TSD is real: p1 score +3600 at 2331.47 (non-b2b TSD), T-SPIN DOUBLE banner, two rows clear. The co-timed BREAK is a marker, not a clear."
+  },
+  {
+   "n": 19,
+   "id": "y032",
+   "player": "p1",
+   "verdict": "unsure",
+   "note": "The bag check is extractor B's piece-identity reading (spawn indices 105-189 off by a shift); it changes no counted event, and the opening frames do not settle which bags are wrong. Nothing corrected."
+  },
+  {
+   "n": 69,
+   "id": "y037",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "One more p2 piece before the KO: an orange L locks ~2501.83 (+22) after the S at 2501.47; the T that spawns at 2501.9 never locks. Added the lock; pieces 42 -> 43."
+  },
+  {
+   "n": 118,
+   "id": "y040",
+   "player": "p1",
+   "verdict": "corrected",
+   "note": "The residual is a missed single: quad at ~2599.1 (+3622), then the L at 2599.7 clears one row (+450, REN 1, flash ~2599.97), then the double at ~2601.0 (+1200, REN 2). Retyped 2599.7 None -> single; the quad and the double are right."
+  },
+  {
+   "n": 70,
+   "id": "y040",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "fr/b1/y040_p2_ko.png: the last p2 lock is the red Z at ~2635.13 (+18, chain 2635.07); the cyan I that spawns ~2635.3 is still at the top when the game ends 2635.33 and never locks. Nothing missed."
+  },
+  {
+   "n": 40,
+   "id": "y044",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "Real TSD: fr/b1/y044_p2_2850.png shows the T dropped into the slot, two rows flash white 2850.5-2850.65, Double banner; p2 score 33714 -> 37314 (+3600) at 2850.40. The chain tsd at 2850.36 is right; extractor A just missed the flash."
+  },
+  {
+   "n": 41,
+   "id": "y044",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "Real b2b TSD: fr/b1/y044_p2_2859.png, two rows flash 2859.55-2859.85 with Double + Back to Back banners; p2 score 45050 -> 50450 (+5400) at 2859.57. The chain tsd at 2859.5 is right."
+  },
+  {
+   "n": 12,
+   "id": "y044",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "Not a freeze: fr/b1/y044_p2_tail.png shows continuous play after the 2859.5 TSD: J ~2860.7 (soft drop), then lock steps at 2861.23, 2861.60, 2861.83, 2862.10, 2862.40, 2862.83, then garbage rises and p2 tops out at 2863.53. With S 2858.73 and L 2859.07 before the TSD (fr/b1/y044_p2_2858.png) that is 9 plain locks from 2858.6, the same count as the chain's 9 plain events there, only timed differently. The 17.9 s gap is extractor A's spawn detector, not missing pieces."
+  },
+  {
+   "n": 79,
+   "id": "y047",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "The +302 is a missed single: the L locking ~2943.25 clears one row (white flash 2943.30-2943.55). Retyped chain 2943.07 None -> single."
+  },
+  {
+   "n": 13,
+   "id": "y047",
+   "player": "p2",
+   "verdict": "no change",
+   "note": "No missing pieces in the tail: after the 2941.6 double, p2 locks at ~2942.07, 2942.40, 2942.67, ~2943.25 (single) and ~2943.7 (Z, +20), matching the chain's four plain events plus the retyped single; then garbage rises and p2 tops out at 2944.53 (fr/b1/y047_p2_tail.png)."
+  },
+  {
+   "n": 73,
+   "id": "y050",
+   "player": "p2",
+   "verdict": "corrected",
+   "note": "The winner's last piece did lock: a purple T lands on the left L stack ~3120.40 (+22), just before the KO at 3120.43. Added it; pieces 49 -> 50."
+  }
+ ],
+ "event_corrections": [
+  {
+   "id": "y000",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 129.73,
+   "t_end": 130.4,
+   "events": [
+    {
+     "t": 129.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 130.1,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 130.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     129.73,
+     "quad",
+     4
+    ],
+    [
+     130.1,
+     "quad",
+     4
+    ],
+    [
+     130.4,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames 129.6-130.8 (fr/b1/y000_p2_129b.png, y000_p2_129.png): orange L locks ~129.7 with no clear (column 2 still open at 129.8-130.0), I drops into that column, 4-row clear flash ~130.03, board EMPTY at 130.1 with PERFECT CLEAR + TETRIS + Back to Back banners on screen 130.1-131.4. Only one I: score 9018 (127.97) -> 22390 (130.07), one jump. Red Z then locks flat on the empty floor ~130.45 (red cells bottom-left at 130.6), no clear; score 22428->22466 drops only. So the chain quad 129.73 is the L lock, the 130.1 quad is a PC, and the 130.4 double is the Z lock (no clear)."
+  },
+  {
+   "id": "y000",
+   "side": "p1",
+   "op": "retype",
+   "t": 145.3,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 3,
+   "source": "fr/b1/y000_p1_145.png (frame by frame 145.17-145.57): after the S lock (145.13) a vertical I drops into the column-4 well through the top stack row and the garbage (cyan cells inside the grey at 145.40-145.44); a 4-row white flash with TETRIS + Back to Back at 145.47. Score 33347 -> 36947 (+3600 at 145.47), the same size as the b2b quad at 144.67 (29669->33309). No double anywhere 145.1-145.6. gc 3 estimated: the flash covers one stack row and three grey rows."
+  },
+  {
+   "id": "y002",
+   "side": "p2",
+   "op": "retype",
+   "t": 227.1,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "fr/b1/y002_p2_226.png: the orange L (out of hold at 227.3) locks ~227.45 on the right and clears the last grey garbage row (white flash 227.5-227.7, REN banner still up); grey row gone by 227.9. Score 63642 (226.8) -> 65178 (227.9), +1536, one step above the previous REN single (+1386). The chain logged this lock as a plain lock at 227.1; the next locks (O held, S at ~228.3) are the 228.07/228.3 events."
+  },
+  {
+   "id": "y003",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 304.87,
+   "t_end": 305.17,
+   "events": [
+    {
+     "t": 304.87,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 305.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     304.87,
+     "triple",
+     3
+    ],
+    [
+     305.17,
+     "triple",
+     3
+    ]
+   ],
+   "source": "fr/b1/y003_p1_305.png (frame by frame 304.90-305.17): p1 holds S, the blue J drops into the last gap of a 3-row stack at 305.03, white flash 305.10, board empty with PERFECT CLEAR banner growing 305.10-305.17 and on screen to ~306.4 (fr/b1/y003_both_304.png). One score jump only: 10992 -> 17892 at 305.10 (+6900); the other p1 score steps 303.9-307.3 are all +30..+38 drops (12 locks for the chain 303.77..306.97 events). So the 304.87 triple is the PC (pc=1) and the 305.17 triple is the next plain lock (score +38 at 305.37)."
+  },
+  {
+   "id": "y003",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 321.6,
+   "t_end": 323.53,
+   "events": [
+    {
+     "t": 321.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 322.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 322.55,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 322.85,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 323.53,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     321.6,
+     null,
+     0
+    ],
+    [
+     322.0,
+     "tst",
+     3
+    ],
+    [
+     322.13,
+     null,
+     0
+    ],
+    [
+     322.7,
+     null,
+     0
+    ],
+    [
+     323.07,
+     null,
+     0
+    ],
+    [
+     323.07,
+     null,
+     0
+    ],
+    [
+     323.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/b1/y003_p1_320.png, y003_p1_321.png: after the I quad (score +3600 at 320.80, TETRIS banner to ~321.7) p1 locks L ~321.75 (+14), T to hold / S ~322.2 (+16), O ~322.55 (+24), J ~322.85 (+12), then T out of hold locks ~323.35 for a plain double (white 2-row flash 323.5, score 39226 -> 40126 = +900; a TSD would be thousands). No TST anywhere: score 39135 (321.5) -> 39226 (323.3) is drops only. Chain had a phantom B-spliced tst at 322.0 and a duplicated lock at 323.07 (two extra pieces)."
+  },
+  {
+   "id": "y003",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 327.3,
+   "t_end": 328.65,
+   "events": [
+    {
+     "t": 327.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 327.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 327.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 328.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 328.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     327.8,
+     null,
+     0
+    ],
+    [
+     327.8,
+     null,
+     0
+    ],
+    [
+     328.13,
+     null,
+     0
+    ],
+    [
+     328.43,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/b1/y003_p1_326.png: after the TST (score +4800 at 326.43) p1 locks S ~327.3 (+22), O ~327.5 (+20), Z ~327.93 (+17), J ~328.2 (+16), L ~328.6 (+14), then J held / T out and TSD (+5400 at 329.47, chain 328.7). Five plain locks; the chain had four (two at 327.8)."
+  },
+  {
+   "id": "y015",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1179.1,
+   "t_end": 1179.3,
+   "events": [
+    {
+     "t": 1179.1,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1179.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1179.1,
+     "triple",
+     3
+    ],
+    [
+     1179.3,
+     "triple",
+     3
+    ]
+   ],
+   "source": "fr/b1/y015_p1_1179.png: J locks 1179.0 (10933), red Z locks ~1179.17 (10969) and completes all 3 rows; board empty with PERFECT CLEAR banner from 1179.3 to past the KO; one jump only, 10969 -> 17869 at 1179.23 (+6900, same size as the triple PC in y003). Then plain locks L ~1179.5 (17907), O ~1179.8 (17945), J ~1180.05 (17983) = chain 1179.3/1179.7/1179.97. The 1179.3 triple is a duplicate of the PC and is the L lock. No grey garbage cells in the cleared rows (fr/b1/y015_p1_1177.png, y015_p1_1175.png), so gc 0."
+  },
+  {
+   "id": "y017",
+   "side": "p1",
+   "op": "retype",
+   "t": 1329.1,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y017_p1_1328.png, y017_both_1328.png: after the TSD (10851 -> ~16257 at ~1327.55) p1 clears on every piece through the Mini T-SPIN Single: white clear bars at 1328.8, 1330.0, 1330.8, 1331.6, 1332.8, 1334.2 and readable p1 scores 16257 (1328.6) -> 17323 (1328.8) -> 18539 (1330.2) -> 19309 (1331.2) -> 20225 (1332.0) -> 21282 (1333.2) -> 22788 (1334.4) = six clears, and the REN counter reaches 6 REN beside the Mini T-SPIN Single banner at 1334.4. The chain has only five clears there plus a plain lock at 1329.1; that lock is the first REN clear. +1066 at REN 1 is double-sized (REN singles here run +770/+916/+1057 at REN 3/4/5)."
+  },
+  {
+   "id": "y021",
+   "side": "p1",
+   "op": "remove",
+   "t": 1583.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 REN goes 8 REN (clear ~1571.9, score 17387->18887) -> 9 REN (Z lock ~1582.4, 18887->20537) -> 10 REN (O lock ~1593.0, 20537->22341 at 1593.10). Only the Z (1573-1582.4) and then the O (1583.2-1593.0) are played between; score 20537 frozen 1582.40-1593.07. The 1583.1 single is a B-splice duplicate of the 1582.43 single. fr/b1/y021_both_1582.png, y021_both_1569.png, y021_both_1588.png"
+  },
+  {
+   "id": "y021",
+   "side": "p1",
+   "op": "retype",
+   "t": 1608.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y021_p1_1607.png: T placed upright at the left ~1608.3, white 2-row clear 1608.4-1608.6 (one stack row with blue/green/orange + the row above go); score 41255 -> 42319 (+1064) at 1608.37, the same size as the following REN-2 double (L lock ~1609.4, 2-row flash, 42319 -> 43537 = +1218). A REN-1 single would be ~+450. gc not readable (left 0)."
+  },
+  {
+   "id": "y021",
+   "side": "p2",
+   "op": "remove",
+   "t": 1569.63,
+   "was": [
+    "BREAK",
+    3,
+    0
+   ],
+   "source": "p2 clears 1565.37..1570.73 are consecutive: 5 REN banner at the 1570.43 clear (score 20464->21530), then 6 REN at 1583.4, 7 REN at 1589.6, 8 REN at 1592.6 (fr/b1/y021_both_1569.png, y021_both_1582.png, y021_both_1588.png). No REN break here."
+  },
+  {
+   "id": "y021",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1576.5,
+   "t_end": 1589.73,
+   "events": [
+    {
+     "t": 1584.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1589.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1576.5,
+     null,
+     0
+    ],
+    [
+     1583.77,
+     "BREAK",
+     4
+    ],
+    [
+     1584.13,
+     "single",
+     1
+    ],
+    [
+     1589.23,
+     null,
+     0
+    ],
+    [
+     1589.73,
+     "single",
+     1
+    ]
+   ],
+   "source": "Lag stretch. p2 J creeps 1571.0-1583.4 and locks for the 6 REN clear (21530->23330 at 1583.40); next J spawns 1584.4, creeps, locks ~1589.6 for the 7 REN clear (23330->24680 at 1589.63); Z to hold, I quad 8 REN at 1592.6 (chain 1590.23). REN counter 5->6->7->8 with no break, NEXT queue shifts only at those locks, scores frozen between: the 1576.5 and 1589.23 plain locks and the 1583.77 BREAK are B-splice phantoms. fr/b1/y021_both_1569.png, y021_both_1582.png, y021_both_1588.png"
+  },
+  {
+   "id": "y027",
+   "side": "p1",
+   "op": "retype",
+   "t": 1980.9,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y027_p1_1980.png: after the 1979.9 quad (35361 at 1980.5) the yellow O locks ~1981.0 and a 1-row white clear flash runs 1981.1-1981.5 with the REN label; score 35371 -> 35821 at 1981.03 (+450, the REN-1 single size seen after the other quads this game). The chain logged that O as a plain lock at 1980.9; the next lock (L, 1981.7) is the 1981.7 event."
+  },
+  {
+   "id": "y028",
+   "side": "p1",
+   "op": "retype",
+   "t": 2068.03,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y028_p1_2066.png: T placed flat in the middle ~2067.5, 1-row white clear flash 2067.8, score 92542 -> 94360 (+1818 at 2067.57/2067.8), exactly the next step of the REN single ladder (+1650 at 2066.47, +1800 here, then double +2550, +2100, +2250, +2400, +2550, +2700). The chain logged this T as a plain lock at 2068.03."
+  },
+  {
+   "id": "y028",
+   "side": "p1",
+   "op": "retype",
+   "t": 2071.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y028_p1_2066.png: I dropped vertical at the right wall ~2071.5, clear flash 2071.8, score 101329 -> 103753 (+2424 at 2071.47-2071.8), the REN-14 single step between +2250 (2070.47) and +2550 (2072.43). Chain logged it as a plain lock at 2071.73."
+  },
+  {
+   "id": "y032",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2321.03,
+   "t_end": 2323.4,
+   "events": [
+    {
+     "t": 2322.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2322.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2323.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2321.03,
+     "BREAK",
+     3
+    ],
+    [
+     2321.4,
+     "tst",
+     4
+    ],
+    [
+     2322.67,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "Frames 2319-2324.2 (fr/b1/y032_p1_2319.png, y032_p1_2321.png): p1 score +5400 at 2321.0 (the TSD, banner T-SPIN DOUBLE) then only drop points (+10,+18,+10) until the next TSD +5400 at 2324.10. No 4-line clear and no TST in 2321.0-2324.1. The three locks between are L ~2322.43, S ~2322.97, Z ~2323.37 (I held). The tst and both BREAK markers are phantoms."
+  },
+  {
+   "id": "y032",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2325.03,
+   "t_end": 2326.27,
+   "events": [
+    {
+     "t": 2325.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2325.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2325.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2325.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2326.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2325.03,
+     "double",
+     2
+    ],
+    [
+     2325.33,
+     null,
+     0
+    ],
+    [
+     2325.83,
+     null,
+     0
+    ],
+    [
+     2326.27,
+     null,
+     0
+    ],
+    [
+     2326.27,
+     null,
+     0
+    ],
+    [
+     2326.27,
+     null,
+     0
+    ]
+   ],
+   "source": "Frame-by-frame fr/b1/y032_p1_2325.png: after the TSD at 2324.10 the score rises only by drop points (+12,+16,+14,+10,+8) at ~2325.13, 2325.33 (O), 2325.60 (vertical I), 2325.73, 2326.07, then +3600 for the TETRIS at ~2326.43. No double between 2324.1 and 2326.43. Five locks, not six events."
+  },
+  {
+   "id": "y037",
+   "side": "p2",
+   "op": "add",
+   "t": 2501.83,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y037_p2_ko.png: green S locks ~2501.45 (score 31143->31169), then orange L drops and locks flat on top ~2501.85 (31169->31191 at 2501.83, L cells on the stack at 2501.90); the next T spawns at 2501.9 and the game ends 2501.97 with no clear. The L lock is not in the chain."
+  },
+  {
+   "id": "y040",
+   "side": "p1",
+   "op": "retype",
+   "t": 2599.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y040_p1_2598.png: orange L falls ~2599.7 and locks top right ~2599.93 (score 36831->36845), one row clears with REN shown (37295 at 2599.97, +450 = REN-1 single), stack one row lower at 2600.1. The cleared row is coloured stack, not garbage."
+  },
+  {
+   "id": "y047",
+   "side": "p2",
+   "op": "retype",
+   "t": 2943.07,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y047_p2_tail.png: orange L at the top 2943.05 locks ~2943.25 and one coloured stack row flashes white 2943.30-2943.55; p2 score 11564 (2941.70) -> 11866 (2943.57) = +302, a REN-0 single plus drop points. The next piece (Z) locks ~2943.7 (+20, chain 2943.4); garbage then tops p2 out at 2944.53."
+  },
+  {
+   "id": "y050",
+   "side": "p2",
+   "op": "add",
+   "t": 3120.4,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/b1/y050_p2_ko.png: orange L locks vertical at the left ~3120.07 (+28, chain 3119.8); purple T spawns 3120.1, falls and locks on top of that L ~3120.40 (37523 -> 37545, purple cells on the stack from 3120.40 on, no clear). The game ends at 3120.43. The T lock is not in the chain."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "y003",
+   "player": "p1",
+   "field": "pieces",
+   "was": 268,
+   "value": 267,
+   "source": "Net of the two y003 p1 window fixes: 321.6-323.53 has 4 locks + the double where the chain had 6 + double (-2); 327.3-328.65 has 5 locks where the chain had 4 (+1). Counted from spawns/NEXT shifts and drop-score steps, fr/b1/y003_p1_320.png, y003_p1_321.png, y003_p1_326.png. Rest of the game not recounted."
+  },
+  {
+   "id": "y017",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 4,
+   "value": 6,
+   "source": "6 REN banner beside the Mini T-SPIN Single at 1334.4 (fr/b1/y017_both_1328.png); TSD + 6 consecutive clears 1327.55-1334.3, see the 1329.1 retype."
+  },
+  {
+   "id": "y021",
+   "player": "p1",
+   "field": "pieces",
+   "was": 73,
+   "value": 72,
+   "source": "The removed 1583.1 single was a duplicate, not a piece: only the Z (lock ~1582.4) and the O (lock ~1593.0) are played 1572-1593 (fr/b1/y021_both_1569.png). Rest of the game not recounted."
+  },
+  {
+   "id": "y021",
+   "player": "p2",
+   "field": "pieces",
+   "was": 88,
+   "value": 86,
+   "source": "Two phantom plain locks (1576.5, 1589.23) in the lag stretch: only the J (lock ~1583.4) and the next J (lock ~1589.6) are played 1571-1592 before the Z hold / I quad (fr/b1/y021_both_1569.png, y021_both_1588.png). Rest of the game not recounted."
+  },
+  {
+   "id": "y021",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 5,
+   "value": 8,
+   "source": "8 REN banner beside p2 TETRIS at 1592.6-1593.6 (fr/b1/y021_both_1588.png); REN banners 5 (1570.4), 6 (1583.4), 7 (1589.6), 8 (1592.6), no break."
+  },
+  {
+   "id": "y028",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 9,
+   "value": 16,
+   "source": "Score ladder 2057.43-2073.43: +300,+450,+600,+750,(mini),+1050,..,+1650,+1800,+2550 (double),+2100,+2250,+2400,+2550,+2700 = 17 consecutive clears (REN 0..16) with no plain lock between 2057.03 and 2073.07 once the two missed singles (2068.03, 2071.73) are in. fr/b1/y028_p1_2066.png"
+  },
+  {
+   "id": "y032",
+   "player": "p1",
+   "field": "pieces",
+   "was": 231,
+   "value": 232,
+   "source": "Net of the two y032 p1 windows: 2321.03-2323.4 adds 3 locks for 1 counted tst (BREAKs carry no piece), +2; 2325.03-2326.27 has 5 locks for 6 events, -1. Lock times read from score drop-point steps in fr/b1/y032_p1_2321.png and y032_p1_2325.png; the 2325 count could be off by one where two small steps merge."
+  },
+  {
+   "id": "y037",
+   "player": "p2",
+   "field": "pieces",
+   "was": 42,
+   "value": 43,
+   "source": "Added the L lock at 2501.83 (fr/b1/y037_p2_ko.png, score +22)."
+  },
+  {
+   "id": "y050",
+   "player": "p2",
+   "field": "pieces",
+   "was": 49,
+   "value": 50,
+   "source": "Added the KO-frame T lock at 3120.4 (fr/b1/y050_p2_ko.png, score +22)."
+  }
+ ],
+ "freezes": [
+  {
+   "id": "y021",
+   "t0": 1570.8,
+   "t1": 1582.4,
+   "note": "Network lag: both boards in slow motion. p1 I hovers 1571.0-1571.6 (8 REN clear ~1571.9), then the Z hovers/creeps 1573-1582.3 and locks ~1582.4; p2 J creeps from 1571.0 and locks ~1583.4. p1 score 18887 frozen 1571.87-1582.40, p2 21530 frozen 1570.43-1583.40. fr/b1/y021_both_1569.png, y021_both_1571.png, y021_both_1582.png"
+  },
+  {
+   "id": "y021",
+   "t0": 1583.5,
+   "t1": 1592.9,
+   "note": "Second lag stretch: p1 O spawns 1583.2 and hovers until ~1593.0 (score 20537 frozen 1582.40-1593.07); p2 J spawns 1584.4 and creeps until ~1589.6, Z then hovers 1590.6-1592.2 before the I quad 1592.6 (p2 score 23330 frozen 1583.40-1589.63, 24680 to 1592.33). fr/b1/y021_both_1569.png, y021_both_1582.png, y021_both_1588.png"
+  }
+ ]
+}

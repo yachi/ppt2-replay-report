@@ -1,0 +1,327 @@
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/apply/build_games_csv.py ./apply/build_games_csv.py
+--- ../uP/apply/build_games_csv.py	2026-10-29 20:55:32.045596931 +0000
++++ ./apply/build_games_csv.py	2026-10-29 22:21:23.878371767 +0000
+@@ -4,7 +4,7 @@
+ # [am port, uP paths] games come from the one set's games.json; ALLROWS/OUTCSV are required arguments
+ ALLROWS=sys.argv[1]
+ OUTCSV=sys.argv[2]
+-G={g['id']:g for g in json.load(open('/private/tmp/claude-501/uP/w/chain/sy/games.json'))}
++G={g['id']:g for g in json.load(open('/private/tmp/claude-501/Gg/w/chain/yu/games.json'))}
+ R=list(csv.DictReader(open(ALLROWS)))
+ opp={r['id']:r['opponent'] for r in R if r['player']=='p2' and r['opponent']}
+ def op(s):
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/drive.sh ./drive.sh
+--- ../uP/drive.sh	2026-10-29 20:55:32.046228981 +0000
++++ ./drive.sh	2026-10-29 22:21:23.887790376 +0000
+@@ -1,27 +1,27 @@
+ #!/bin/bash
+ # drive.sh <set>  — the archived chain, in order: A features+events, B cells+solve, R events/gaps/bags/part/banners/fusion/build, tetrio metrics
+-# [uP port] paths -> /private/tmp/claude-501/uP/w/chain/$1/w; every per-game step runs as a 9-process pool (xargs -P 9),
++# [uP port] paths -> /private/tmp/claude-501/Gg/w/chain/$1/w; every per-game step runs as a 9-process pool (xargs -P 4),
+ # one pool at a time; pcscan ids come from games.json instead of TJc's literal k000..k063 list (R/pcon.py globs R/pcban/*.json).
+ set -e
+-W=/private/tmp/claude-501/uP/w/chain/$1/w; cd $W; export PYTHONDONTWRITEBYTECODE=1
++W=/private/tmp/claude-501/Gg/w/chain/$1/w; cd $W; export PYTHONDONTWRITEBYTECODE=1
+ IDS=$(python3 -c "import json;print(' '.join(g['id'] for g in json.load(open('../games.json'))))")
+ mkdir -p A/feat B/cells2 R/ev R/ban R/pcban B/shard
+-[ -f A/games.jsonl ] || python3 A/run_all.py > A/run_all.out 2>&1          # ThreadPoolExecutor(9) of feat.py subprocesses
+-echo $IDS | tr ' ' '\n' | xargs -P 9 -n 1 python3 B/sample.py > B/sample.out 2>&1
++[ -f A/games.jsonl ] || python3 A/run_all.py > A/run_all.out 2>&1          # ThreadPoolExecutor(4) of feat.py subprocesses
++echo $IDS | tr ' ' '\n' | xargs -P 4 -n 1 python3 B/sample.py > B/sample.out 2>&1
+ if [ ! -f B/games.jsonl ]; then
+-  (cd B && echo $IDS | tr ' ' '\n' | xargs -P 9 -I{} sh -c '[ -s shard/{}.jsonl ] || python3 runner.py shard/{}.jsonl {}' > runner.out 2>&1)
++  (cd B && echo $IDS | tr ' ' '\n' | xargs -P 4 -I{} sh -c '[ -s shard/{}.jsonl ] || python3 runner.py shard/{}.jsonl {}' > runner.out 2>&1)
+   for g in $IDS; do cat B/shard/$g.jsonl; done > B/games.jsonl                  # games.json order, as the serial runner wrote it
+ fi
+-for g in $IDS; do [ -f R/ev/$g.pkl ] || echo $g; done | xargs -P 9 -n 1 python3 R/evrun.py > R/evrun.out 2>&1
++for g in $IDS; do [ -f R/ev/$g.pkl ] || echo $g; done | xargs -P 4 -n 1 python3 R/evrun.py > R/evrun.out 2>&1
+ python3 R/gapchk.py > R/gapchk.out 2>&1
+ python3 R/bagchk.py > R/bagchk.out 2>&1
+ python3 R/part.py > R/part.out 2>&1
+-for g in $IDS; do [ -f R/ban/$g.npz ] || echo $g; done | xargs -P 9 -n 1 python3 R/banscan.py > R/banscan.out 2>&1
++for g in $IDS; do [ -f R/ban/$g.npz ] || echo $g; done | xargs -P 4 -n 1 python3 R/banscan.py > R/banscan.out 2>&1
+ python3 R/kofinal.py > R/kofinal.out 2>&1   # port addition: the winner's last piece at the KO (README)
+ python3 R/fuse.py > R/fuse.out 2>&1
+ python3 R/build.py > R/build.out 2>&1
+ python3 tetrio/seqs.py > tetrio/seqs.out 2>&1
+-echo $IDS | tr ' ' '\n' | xargs -P 9 -n 10 python3 R/pcscan.py > R/pcscan.out 2>&1   # PC banners; candidates checked by eye (check/pcsheet.py)
++echo $IDS | tr ' ' '\n' | xargs -P 2 -n 1 python3 R/pcscan.py > R/pcscan.out 2>&1   # PC banners; candidates checked by eye (check/pcsheet.py)
+ python3 R/pcmap.py > ../pcmap.out            # writes ../pcdec.json, pasted into tetrio/metrics.py PCDEC (TJc's table must be replaced)
+ python3 tetrio/metrics.py > tetrio/metrics.out 2>&1
+ echo DONE; tail -3 tetrio/metrics.out
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/mkgames.py ./mkgames.py
+--- ../uP/mkgames.py	2026-10-29 20:55:32.046229373 +0000
++++ ./mkgames.py	2026-10-29 22:21:23.897164389 +0000
+@@ -1,43 +1,32 @@
+-# [uP port, new file] games.json for chain/sy (TJc format, ids l000..) from seg/par.py's segf_games.json,
+-# with the WIN counter at start+3 s read by eye from seg/np/np_*.png (Read tool), and set-final winners read by eye
++# [Gg port of uP's mkgames.py] games.json for chain/yu (ids y000..) from seg/par.py's segf_games.json,
++# with the WIN counter at start+3 s read by eye from seg/np/sheet*.png (Read tool), and the two set-final winners read by eye
+ # from the KO frames (gate/e_*.png). Winner of game k = the side whose counter rose by 1 at game k+1 (same set).
+ import json
+-S = json.load(open('/private/tmp/claude-501/uP/w/seg/segf_games.json'))
+-C = ['0-0','1-0','1-1','2-1','2-2','3-2','3-3','4-3','0-0','1-0',
+-     '2-0','3-0','3-1','4-1','0-0','1-0','1-1','1-2','0-0','0-1',
+-     '0-2','1-2','1-3','1-4','2-4','3-4','4-4','0-0','0-1','1-1',
+-     '2-1','2-2','2-3','2-4','0-0','0-1','0-2','0-3','0-4','1-4',
+-     '2-4','3-4','4-4','0-0','1-0','2-0','3-0','3-1','3-2','4-2',
+-     '4-3','4-4','0-0','1-0','2-0','2-1','2-2','3-2','4-2','4-3',
+-     '4-4','0-0','1-0','2-0','3-0','4-0','4-1','0-0','1-0','1-1',
+-     '2-1','3-1','3-2','4-2','0-0','0-1','0-2','0-3','0-4','1-4',
+-     '2-4','3-4','4-4','0-0','0-1']
+-assert len(C) == len(S) == 85
++S = json.load(open('/private/tmp/claude-501/Gg/w/seg2/segf_games.json'))   # seg2 = the segmenter re-run on the remapped video
++assert S[0]['start'] < 31; S = S[1:]   # 30.1-119.5 is the room-setup menu (gate/e_35.png), not a game
++C = ['0-0','0-1','1-1','1-2','2-2','2-3','2-4','3-4','3-5','3-6',
++     '3-7','4-7','4-8','5-8','6-8','6-9','7-9','7-10','8-10','8-11',
++     '9-11','9-12','9-13','10-13','0-0','0-1','1-1','1-2','1-3','2-3',
++     '2-4','2-5','2-6','2-7','3-7','4-7','5-7','5-8','5-9','6-9',
++     '6-10','6-11','6-12','6-13','7-13','8-13','8-14','9-14','10-14','11-14',
++     '12-14']
++assert len(C) == len(S) == 51
+ C = [tuple(map(int, c.split('-'))) for c in C]
+-# set finals read on KO frames (counter shows 5 / WINNER banner): k -> winner (1 = p1 syakegohan, 2 = p2)
+-KO = {26: 2, 42: 1, 51: 1, 60: 2, 82: 1}
+-END = {17: 1358.0,   # KO and やった! by 1357.2, then 通信中 dialog and disconnect (set aborted at 2-2); window cut before the dialog
+-       84: 5520.0}   # last game froze at ~5520 (score stuck 5520-5527.5), then disconnect: no KO, no winner
++# set finals read on KO frames: k -> winner (1 = p1 Yuukun3798, 2 = p2 uyeshota)
++KO = {23: 1,   # やった! on the left at 1717.5 with 11-13, then 通信中 at 1718.0 and the opponent disconnects (FT15 set aborted at 11-13)
++      50: 2}   # the counter reads 12-15 on the last frame of the game (3132.1): uyeshota takes the set 15-12
++END = {23: 1717.6}   # window cut before the 通信中 dialog
+ win = []
+-for k in range(85):
+-    a = C[k]; b = C[k + 1] if k + 1 < 85 else None
+-    if b is not None and b != (0, 0):
+-        d = (b[0] - a[0], b[1] - a[1]); assert d in ((1, 0), (0, 1)), (k, a, b); win.append(1 if d == (1, 0) else 2)
+-    elif k in KO: win.append(KO[k])
+-    elif k == 17: win.append(1)            # 1-2 -> 2-2 on the KO frame at 1357.2, then the disconnect
+-    elif k == 84: win.append(None)
+-    else:
+-        assert 4 in a and a != (4, 4), (k, a); win.append(1 if a[0] == 4 else 2)   # 4-x final: only the side on 4 can end the set
++for k in range(51):
++    a = C[k]; b = C[k + 1] if k + 1 < 51 else None
++    if k in KO: win.append(KO[k]); continue
++    d = (b[0] - a[0], b[1] - a[1]); assert d in ((1, 0), (0, 1)), (k, a, b); win.append(1 if d == (1, 0) else 2)
+ out = []
+ for k, q in enumerate(S):
+-    out.append(dict(id=f'l{k:03d}', video='uP3FeprmAGI', path='/private/tmp/claude-501/uP/video/uP3FeprmAGI.mp4',
+-                    start_s=q['start'], end_upper_s=END.get(k, q['end']), dataset='stream-2026-10-28', opener='', opponent='ふられ',
++    out.append(dict(id=f'y{k:03d}', video='Ggl5NeUAYEA', path='/private/tmp/claude-501/Gg/video/Ggl5NeUAYEA.mp4',
++                    start_s=q['start'], end_upper_s=END.get(k, q['end']), dataset='stream-2026-10-29', opener='', opponent='uyeshota',
+                     win_counter_at_start=f'{C[k][0]}-{C[k][1]}', counter_winner=win[k]))
+ json.dump(out, open('games.json', 'w'), ensure_ascii=False)
+-sets = []; cur = []
+-for k in range(85):
+-    cur.append(k)
+-    if k + 1 == 85 or C[k + 1] == (0, 0): sets.append(cur); cur = []
+-for s in sets:
+-    w = [win[k] for k in s]; print(f'l{s[0]:03d}-l{s[-1]:03d}', len(s), 'games', w.count(1), '-', w.count(2), 'None' if None in w else '')
+-print('total', len(out), 'syakegohan', win.count(1), 'opp', win.count(2), 'no winner', win.count(None))
++for s in (range(0, 24), range(24, 51)):
++    w = [win[k] for k in s]; print(f'y{s[0]:03d}-y{s[-1]:03d}', len(w), 'games', w.count(1), '-', w.count(2))
++print('total', len(out), 'Yuukun3798', win.count(1), 'opp', win.count(2))
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/pool/pool.py ./pool/pool.py
+--- ../uP/pool/pool.py	2026-10-29 20:55:32.046229373 +0000
++++ ./pool/pool.py	2026-10-29 22:21:23.907317710 +0000
+@@ -4,8 +4,8 @@
+ """
+ import csv, glob, json, os, collections
+ 
+-M = '/private/tmp/claude-501/uP/w/chain/sy/w'   # [am port] one set, no old rows
+-OUT = '/private/tmp/claude-501/uP/w/chain/pool'
++M = '/private/tmp/claude-501/Gg/w/chain/yu/w'   # [am port] one set, no old rows
++OUT = '/private/tmp/claude-501/Gg/w/chain/pool'
+ 
+ CHECKER_EXCLUDE = {}   # [am port] the i033/j008 checker findings belong to the old sets
+ 
+@@ -75,10 +75,10 @@
+ opps = sorted({r['opponent'] for r in p2}, key=lambda o: -sum(r['opponent'] == o for r in p2))
+ 
+ table = []  # (scope, player, metrics)
+-table.append(('all', 'syakegohan', pool(p1)))
++table.append(('all', 'Yuukun3798', pool(p1)))
+ table.append(('all', 'all opponents', pool(p2)))
+ for o in opps:
+-    table.append((f'vs {o}', 'syakegohan', pool([r for r in p1 if r['opponent'] == o])))
++    table.append((f'vs {o}', 'Yuukun3798', pool([r for r in p1 if r['opponent'] == o])))
+     table.append((f'vs {o}', o, pool([r for r in p2 if r['opponent'] == o])))
+ 
+ keys = list(table[0][2].keys())
+@@ -104,7 +104,7 @@
+         ('recv_rows_per_min', 'recv/min'), ('mean_game_s', 'mean s')]
+ 
+ L = []
+-L.append('# syakegohan vs opponents: pooled metrics (uP3FeprmAGI)\n')
++L.append('# Yuukun3798 vs opponents: pooled metrics (Ggl5NeUAYEA)\n')
+ n_old = len({r['id'] for r in rows if r['source'] == 'old'}); n_new = len({r['id'] for r in rows if r['source'] == 'new'})
+ n_inc = len({r['id'] for r in inc})
+ n_inc_old = len({r['id'] for r in inc if r['source'] == 'old'}); n_inc_new = n_inc - n_inc_old
+@@ -125,8 +125,8 @@
+     L.append(f'| {s} | {p} | ' + ' | '.join(fmt(m, k) for k, _ in cols) + ' |')
+ L.append('')
+ 
+-L.append("## syakegohan's record per opponent\n")
+-L.append('| opponent | games | syakegohan W-L | win % | syakegohan PPS / APM / VS | opp PPS / APM / VS | APP syakegohan / opp |')
++L.append("## Yuukun3798's record per opponent\n")
++L.append('| opponent | games | Yuukun3798 W-L | win % | Yuukun3798 PPS / APM / VS | opp PPS / APM / VS | APP Yuukun3798 / opp |')
+ L.append('|---|---|---|---|---|---|---|')
+ for o in ['all opponents'] + opps:
+     a = pool(p1) if o == 'all opponents' else pool([r for r in p1 if r['opponent'] == o])
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/w/A/run_all.py ./w/A/run_all.py
+--- ../uP/w/A/run_all.py	2026-10-29 20:55:32.048465634 +0000
++++ ./w/A/run_all.py	2026-10-29 22:21:23.921661172 +0000
+@@ -5,7 +5,7 @@
+ sys.path.insert(0, HERE)
+ import analyze as A
+ 
+-games = json.load(open('/private/tmp/claude-501/uP/w/chain/sy/games.json'))
++games = json.load(open('/private/tmp/claude-501/Gg/w/chain/yu/games.json'))
+ FD = os.path.join(HERE, 'feat'); os.makedirs(FD, exist_ok=True)
+ PROG = os.path.join(HERE, 'progress.txt')
+ done = [0]
+@@ -46,11 +46,11 @@
+ if __name__ == '__main__':   # [uP run] guard: the analyse stage uses a spawn process pool
+   for g in games:
+     dur(g['path'])
+-  with ThreadPoolExecutor(9) as ex:   # [uP port: was 2; 9 ffmpeg+feat subprocesses]
++  with ThreadPoolExecutor(4) as ex:   # [uP port: was 2; 9 ffmpeg+feat subprocesses]
+     list(ex.map(one, games))
+   T1 = time.time()
+   from concurrent.futures import ProcessPoolExecutor
+-  with ProcessPoolExecutor(9) as ex:  # [uP run] analyse() was a serial loop; 9 processes, results kept in games.json order
++  with ProcessPoolExecutor(4) as ex:  # [uP run] analyse() was a serial loop; 9 processes, results kept in games.json order
+     rows = list(ex.map(ana, games))
+   with open(PROG, 'a') as f:
+     f.write(f'{time.strftime("%H:%M:%S")} analyse {len(rows)}/{len(games)} pool9 {time.time()-T1:.1f}s\n')
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/w/B/extract_b.py ./w/B/extract_b.py
+--- ../uP/w/B/extract_b.py	2026-10-29 20:55:32.048465634 +0000
++++ ./w/B/extract_b.py	2026-10-29 22:21:23.926878730 +0000
+@@ -189,11 +189,11 @@
+     match = (dist < 60).mean(axis=(2, 3))  # n,2 fraction of frame points matching
+     res = {}
+     for p in range(2):
+-        bad = match[:, p] < 0.5
++        bad = match[:, p] < 0.2   # [Gg port] was 0.5 for >=10 frames: this capture's frame border glows during play
+         run = 0; endf = None
+         for i in range(i0 + 90, i1):
+             run = run + 1 if bad[i] else 0
+-            if run >= 10: endf = i - 9; break
++            if run >= 15: endf = i - 14; break   # [Gg port] was 10; 0.2/15 agrees with A's KO within 0.14 s on 51/51
+         res[p] = endf
+     return res, match
+ def ffill(cls):
+@@ -342,7 +342,7 @@
+                 gap_garbage=sum(g['garbage'] for g in res['gaps']), unclassified_lines=unclassified,
+                 resyncs=len(res['resyncs']), orphan_clear_lines=orphan_lines)
+ def run_game(g):
+-    z = np.load(f'/private/tmp/claude-501/uP/w/chain/sy/w/B/cells2/{g["id"]}.npz'); t0 = float(z['t0'])
++    z = np.load(f'/private/tmp/claude-501/Gg/w/chain/yu/w/B/cells2/{g["id"]}.npz'); t0 = float(z['t0'])
+     cells = z['cells']; n = len(cells)
+     out = dict(id=g['id'], p1=None, p2=None, duration_s=None, winner=None, confidence=0.0, notes='')
+     if n < 60:
+@@ -381,7 +381,7 @@
+ except ImportError:
+     pass
+ if __name__ == '__main__':
+-    games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/uP/w/chain/sy/games.json'))}
++    games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/Gg/w/chain/yu/games.json'))}
+     for gid in sys.argv[1:]:
+         o, d = run_game(games[gid])
+         print(json.dumps(o), flush=True)
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/w/B/runner.py ./w/B/runner.py
+--- ../uP/w/B/runner.py	2026-10-29 20:55:32.048808014 +0000
++++ ./w/B/runner.py	2026-10-29 22:21:23.932315418 +0000
+@@ -1,7 +1,7 @@
+ import json, sys, traceback, time
+ import extract_b as X
+ out = sys.argv[1]; ids = sys.argv[2:]
+-games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/uP/w/chain/sy/games.json'))}
++games = {g['id']: g for g in json.load(open('/private/tmp/claude-501/Gg/w/chain/yu/games.json'))}
+ for gid in ids:
+     t = time.time()
+     try:
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/w/B/sample.py ./w/B/sample.py
+--- ../uP/w/B/sample.py	2026-10-29 20:55:32.048808014 +0000
++++ ./w/B/sample.py	2026-10-29 22:21:23.937335211 +0000
+@@ -37,8 +37,8 @@
+     np.savez_compressed(os.path.join(outdir,g['id']+'.npz'),cells=arr,borders=np.stack(borders) if borders else np.zeros((0,2,2,25,3),np.uint8),t0=t0,fps=30)
+     return arr.shape
+ if __name__=='__main__':
+-    games={g['id']:g for g in json.load(open('/private/tmp/claude-501/uP/w/chain/sy/games.json'))}
+-    outdir='/private/tmp/claude-501/uP/w/chain/sy/w/B/cells2'
++    games={g['id']:g for g in json.load(open('/private/tmp/claude-501/Gg/w/chain/yu/games.json'))}
++    outdir='/private/tmp/claude-501/Gg/w/chain/yu/w/B/cells2'
+     for gid in sys.argv[1:]:
+         if os.path.exists(os.path.join(outdir,gid+'.npz')): continue
+         print(gid,sample(games[gid],outdir),flush=True)
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/w/R/banner.py ./w/R/banner.py
+--- ../uP/w/R/banner.py	2026-10-29 20:55:32.049142172 +0000
++++ ./w/R/banner.py	2026-10-29 22:21:23.961858343 +0000
+@@ -1,7 +1,7 @@
+ # independent T-spin banner detector (referee). banner.py GID -> R/ban/GID.json
+ import sys,json,subprocess,numpy as np
+ from PIL import Image
+-G={g['id']:g for g in json.load(open('/private/tmp/claude-501/uP/w/chain/sy/games.json'))}
++G={g['id']:g for g in json.load(open('/private/tmp/claude-501/Gg/w/chain/yu/games.json'))}
+ Y0,H=306,46
+ def strip(path,t0,t1):
+   cmd=['ffmpeg','-loglevel','error','-ss',str(t0),'-i',path,'-t',str(t1-t0),'-r','30','-vf',f'crop=854:{H}:0:{Y0}','-f','rawvideo','-pix_fmt','rgb24','-']
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/w/R/ref.py ./w/R/ref.py
+--- ../uP/w/R/ref.py	2026-10-29 20:55:32.049142172 +0000
++++ ./w/R/ref.py	2026-10-29 22:21:24.036004409 +0000
+@@ -5,7 +5,7 @@
+ v,t0,t1,who,step,out=sys.argv[1],float(sys.argv[2]),float(sys.argv[3]),sys.argv[4],int(sys.argv[5]),sys.argv[6]
+ cols=int(sys.argv[7]) if len(sys.argv)>7 else 10
+ W,H=854,480
+-cmd=['ffmpeg','-loglevel','error','-ss',str(t0),'-i',f'/private/tmp/claude-501/uP/video/{v}.mp4','-t',str(t1-t0),'-r','30','-f','rawvideo','-pix_fmt','rgb24','-']
++cmd=['ffmpeg','-loglevel','error','-ss',str(t0),'-i',f'/private/tmp/claude-501/Gg/video/{v}.mp4','-t',str(t1-t0),'-r','30','-f','rawvideo','-pix_fmt','rgb24','-']
+ raw=subprocess.run(cmd,capture_output=True).stdout
+ n=len(raw)//(W*H*3); fr=np.frombuffer(raw,np.uint8)[:n*W*H*3].reshape(n,H,W,3)
+ boxes={'p1':(85,60,362,392),'p2':(497,60,772,392)}
+diff -ru -x README.md -x '*.json' -x corr -x ocr -x seg -x check -x workflows -x diffs.txt -x checks_uP.py -x checks_yu.py ../uP/w/tetrio/metrics.py ./w/tetrio/metrics.py
+--- ../uP/w/tetrio/metrics.py	2026-10-29 20:55:32.049142172 +0000
++++ ./w/tetrio/metrics.py	2026-10-29 22:21:24.062955000 +0000
+@@ -28,7 +28,7 @@
+ # "drop a same-lines clear <=0.6 s after a pc-flagged clear" rule is replaced by a frame-adjudicated table
+ # keyed to the PERFECT CLEAR banner (R/pcscan.py + R/pcon.py). TJcCRfhwNNI: every banner candidate checked by eye on
+ # contact sheets; the clear and its double-logged halves are matched by ../../pcmap.py.
+-PCDEC = {(g, p): [(t, ds) for t, ds in v] for g, p, v in json.load(open('../pcdec.json'))}   # [uP run] R/pcmap.py output for uP3FeprmAGI (TJc pasted its table)
++PCDEC = {(g, p): [(t, ds) for t, ds in v] for g, p, v in json.load(open('../pcdec.json'))}   # [uP run] R/pcmap.py output for Ggl5NeUAYEA (TJc pasted its table)
+ CUR = [None]
+ def correct(seq, window=0.6):
+     dec = PCDEC.get(CUR[0], [])
+@@ -56,7 +56,7 @@
+ 
+ import json as _j
+ RENX = {}
+-for _g, _p, _t in _j.load(open('/private/tmp/claude-501/uP/w/chain/sy/witnessed.json')): RENX.setdefault((_g, _p), set()).add(_t)
++for _g, _p, _t in _j.load(open('/private/tmp/claude-501/Gg/w/chain/yu/witnessed.json')): RENX.setdefault((_g, _p), set()).add(_t)
+ CURX = [None]
+ KOTAB = {} if True else _j.load(open('/private/tmp/claude-501/sk/endfix/combo/rerun/kotab.json'))
+ POSTKO_LOG = []
+@@ -67,7 +67,7 @@
+ 
+ import json as _oj
+ import os as _os
+-_OVLF = '/private/tmp/claude-501/uP/corr/event-corrections.json'
++_OVLF = '/private/tmp/claude-501/Gg/corr/event-corrections.json'
+ OVL = _oj.load(open(_OVLF)) if _os.path.exists(_OVLF) else []  # [uP run] this set's frame-check corrections (amemiya port's approach)
+ CSEQ = {}
+ OVL_APPLIED = []
+@@ -175,7 +175,7 @@
+     loser = 'p1' if R[g]['p1']['topped_out'] else 'p2'
+     opp_recv_noko = opp_recv - (last_garb(g, o) if o == loser else 0)
+     gm = G[g]
+-    rec = dict(id=g, dataset=gm['dataset'], opener=gm['opener'], player=p, who='syakegohan' if p == 'p1' else gm['opponent'],
++    rec = dict(id=g, dataset=gm['dataset'], opener=gm['opener'], player=p, who='Yuukun3798' if p == 'p1' else gm['opponent'],
+                won=int(R[g]['winner'] == p), duration_s=d, pieces=pieces, lines_cleared=T['lines'], gap_lines_untyped=T['gap_lines'],
+                garbage_received_rows=rr['garbage_received_rows'], garbage_cleared=T['gclr'],
+                **{k: T['clears'][k] for k in ['single', 'double', 'triple', 'quad', 'tss', 'tsd', 'tst', 'tsmini', 'pc']},
+@@ -196,6 +196,6 @@
+ _miss = [c for ci, c in enumerate(OVL) if c['id'] in R and ci not in {a[0] for a in OVL_APPLIED}]
+ assert not _miss, ('OVERLAY corrections not applied', _miss)
+ for _a in OVL_APPLIED: print('OVERLAY', _a)
+-_oj.dump([dict(index=a[0], id=a[1], side=a[2], op=a[3], before=a[4], after=a[5]) for a in OVL_APPLIED], open('/private/tmp/claude-501/uP/w/chain/sy/w/tetrio/overlay_applied.json', 'w'), indent=1)
++_oj.dump([dict(index=a[0], id=a[1], side=a[2], op=a[3], before=a[4], after=a[5]) for a in OVL_APPLIED], open('/private/tmp/claude-501/Gg/w/chain/yu/w/tetrio/overlay_applied.json', 'w'), indent=1)
+ print('rows', len(out)); print('postko drops (g,p,n):', POSTKO_LOG, 'kotab games', len(KOTAB))
+ _oj.dump(CSEQ, open('tetrio/cseq.json', 'w'))  # [uP run] the exact event list tally() saw, per player-game (pre = before the overlay)
