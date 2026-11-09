@@ -1,0 +1,16 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 +450 at 2567.33 (single 300 + REN1 150) between the quad +2400 (2566.27) and the TSD +3600 at 2569.07 (no B2B), so a plain single, not a mini (~750)."},
+{"ref":"e1","verdict":"keep","why":"nextcount p2 shift 2608.70 (ZLOTZ>LOTZS); fr/v1/e1.png shows the hard-drop streak then score 105944->105974 on the frame stamped ~2609.00 with the piece locked, before the KO banner; no clear. score.py logs the change at 2609.03, one frame later, so this is borderline but the sheet supports a lock on the KO frame."},
+{"ref":"e2","verdict":"keep","why":"score +1080 at 2799.80 = single 300 + REN5 750 + drops; the REN run reads 2412,450,1200,770,3030,1080; the TSD after scores +3600 (no B2B), which fits a plain single."},
+{"ref":"e3","verdict":"keep","why":"nextcount p2: shifts at 2821.967 and 2827.300 only; fr/v1/e3.png shows one O slowly falling 2821.9-2827.4 and locking (+18 at 2827.20). 2822.30 is a phantom."},
+{"ref":"e4","verdict":"keep","why":"nextcount p1 shift 3180.533 (O); score 41597->41617 (+20 drop points) by 3180.90 = end_s per score.py; no clear."},
+{"ref":"e5","verdict":"keep","why":"score: TSD +3600, double +900, quad +2550 (REN1), then +1218 at 3308.13 = double 900 + REN2 300 + 18 (single would be ~600). fr/v1/e5.png flash spans two rows."},
+{"ref":"e6","verdict":"keep","why":"nextcount: shift 3651.033 LSJZI>SJZIO then hold L at 3651.233 (O out of hold); score 9007 -> 9043 at 3651.50, +36 drop points only; only one TSS jump (+3750 at 3650.43)."},
+{"ref":"e7","verdict":"keep","why":"nextcount p1 shift 3827.500 then hold T at 3827.567 (S out); score 56528->56558 at 3827.83 = end_s, no clear."},
+{"ref":"e8","verdict":"keep","why":"score +1076 at 3939.00 = double 900 + REN1 150 + drops (single REN1 = 450); next TSD +3900 = REN2. fr/v1/e8.png: the flash covers the own row and one garbage row, so gc 1 fits."},
+{"ref":"c0","verdict":"keep","why":"same as e1: Z spawned 2608.70 locked on the KO frame (fr/v1/e1.png); borderline by one frame against score.py's 2609.03."},
+{"ref":"c1","verdict":"keep","why":"REN steps from score: quad REN0, single REN1, double REN2, single REN3, quad REN4, single REN5 (+1080 = 300+750+drops) = max_combo 5."},
+{"ref":"c2","verdict":"keep","why":"phantom spawn 2822.30 confirmed by nextcount (no shift 2821.97-2827.30) and fr/v1/e3.png; 67 -> 66."},
+{"ref":"c3","verdict":"keep","why":"O spawned 3180.53 locked by 3180.90 = end_s."},
+{"ref":"c4","verdict":"keep","why":"S (swapped from hold) locked at 3827.83 = end_s."}
+]

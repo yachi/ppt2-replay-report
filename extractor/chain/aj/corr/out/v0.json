@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p2 43021->48671 at 330.17 (+5650), far above a plain double (~900+REN); consistent with B2B TSD after the 328.37 TST. Banner seen by checker; T-spin Double confirmed by the jump."},
+{"ref":"e1","verdict":"keep","why":"score.py: p2 20242->20710 at 921.27 (+468 = single 300 + 1 REN 150 + drop); fr/v0/z12.png shows '1 REN' label on p2 side through 921.9-922.1. nextcount shift at 921.133 matches the piece."},
+{"ref":"e2","verdict":"keep","why":"score.py: p2 30311->36861 at 1079.33 (+6550), far above any plain double; TSD after the 1077.23 TST (B2B) with REN bonus."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/f1279.1.png: p1 banner reads 'Mini T-SPIN Single' with '10 REN'; score 27226->29326 (+2100 = Mini single 600 + 10 REN x150). Not a full TSS."},
+{"ref":"e4","verdict":"keep","why":"score.py: p2 5290->10840 at 1374.67 (+5550 = TSD B2B 5400 + REN 150); a plain double would be ~1050."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/f1427.0.png: p1 banner 'T-SPIN Single' (no Mini prefix) + BACK to BACK + 1 REN; score settles at 8989 (from ~5239/6239 with flicker), a large jump consistent with a B2B TSS."},
+{"ref":"n9","verdict":"missed","why":"fr/v0/k3.png: p1's board is already tilting at 922.067 and 922.100 (end_s 922.1), more at 922.133. p2's vertical I (chain event 921.87 double) only locks/flashes at 922.13 (score +20 drop at 922.13, +1200 at 922.17; fr/v0/z12.png), i.e. after the KO frame, so per the rule it does not count.","proposal":{"id":"z012","side":"p2","op":"remove","t":921.87,"was":["double",2,0],"source":"fr/v0/k3.png (p1 tilt visible from 922.067), fr/v0/z12.png (p2 I locks with clear flash at 922.13, score 20710->20730->21930 at 922.13/922.17), end_s 922.1"}},
+{"ref":"n9","verdict":"missed","why":"Same lock: removing the post-KO piece lowers z012 p2's piece count by one (the chain counted the 921.87 spawn's lock).","proposal":{"id":"z012","player":"p2","field":"pieces","was":41,"value":40,"source":"fr/v0/z12.png, fr/v0/k3.png: the I spawned 921.87 locks at 922.13, after KO end_s 922.1"}}
+]

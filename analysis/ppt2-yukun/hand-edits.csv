@@ -1,0 +1,9 @@
+id,player,field,was,value,source
+z012,p2,pieces,41,40,"v0 skeptic, missed by b0: fr/v0/z12.png, fr/v0/k3.png: the I spawned 921.87 locks at 922.13, after KO end_s 922.1"
+z030,p2,pieces,58,59,"b1 frame check, verified: added O lock 1649.43 before KO; corr/fr/g1/z030a.png"
+z032,p1,pieces,68,66,"b1 frame check, verified: duplicate events 1718.17/1718.2 and 1726.33/1726.9 are single pieces per nextcount; corr/fr/g1/z032a.png"
+z032,p2,pieces,58,56,"b1 frame check, verified: nextcount spawns; duplicates removed; corr/fr/g1/z032c.png"
+z034,p1,pieces,53,54,"b1 frame check, verified: I locked on KO frame 1845.80; nextcount 54 spawns; corr/fr/g1/z034k.png"
+z046,p1,pieces,74,71,"b1 frame check, verified: window 2402.53-2406.9 holds two spawns, not five events; corr/fr/g1/z046a.png"
+z048,p1,pieces,74,72,"b2 frame check, verified: two phantom clears/locks at 2485.33 and 2485.4; real: L held, only the I locked before the 2490.53 spawn (nextcount + frames n48a/n48b)."
+z048,p2,pieces,81,80,"b2 frame check, verified: phantom lock at 2486.3: T spawned 2486.30 was held (2490.43), only the J from hold locked before the 2491.33 spawn."
