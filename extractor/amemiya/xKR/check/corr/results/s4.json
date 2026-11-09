@@ -1,0 +1,798 @@
+{
+ "verdicts": [
+  {
+   "ref": "event_fixes[0]",
+   "verdict": "keep",
+   "note": "x103.png (s4): Z locks 6550.93 into the top grey row's hole, flash 6550.97 = KO frame; score +1200 at 6550.97 (single+REN). gc1 grey row confirmed."
+  },
+  {
+   "ref": "event_fixes[1]",
+   "verdict": "keep",
+   "note": "cseq match exact; pcs.png panel 1 (6568.25): 3 rows all coloured, PC; +6900 total at 6568.37-40."
+  },
+  {
+   "ref": "event_fixes[2]",
+   "verdict": "keep",
+   "note": "cseq match exact; pcs.png panel 2 (6574.45): 4 coloured rows; score +13200 at 6574.63 once."
+  },
+  {
+   "ref": "event_fixes[3]",
+   "verdict": "keep",
+   "note": "score.py: +5400 b2b TSD 6601.03, +3600 b2b tetris 6602.53, KO 6603.17; no chain event 6601.77-6603.17."
+  },
+  {
+   "ref": "event_fixes[4]",
+   "verdict": "keep",
+   "note": "x105.png (s4): 2-row flash 6714.87, +3600 at 6714.90 = KO frame 6714.9; TSD, coloured rows."
+  },
+  {
+   "ref": "event_fixes[5]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g4-307",
+    "id": "x106",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 6746.2,
+    "t_end": 6753.57,
+    "events": [
+     {
+      "t": 6746.2,
+      "kind": "quad",
+      "lines": 4,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 6747.77,
+      "kind": "tsd",
+      "lines": 2,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 6748.97,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 6750.0,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 6750.93,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 1
+     },
+     {
+      "t": 6751.77,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 1
+     },
+     {
+      "t": 6752.53,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 6752.9,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 6753.2,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 6753.37,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      6746.2,
+      "tst",
+      4
+     ],
+     [
+      6746.47,
+      "BREAK",
+      4
+     ],
+     [
+      6746.73,
+      null,
+      0
+     ],
+     [
+      6746.73,
+      null,
+      0
+     ],
+     [
+      6747.77,
+      "tsd",
+      2
+     ],
+     [
+      6748.0,
+      "BREAK",
+      4
+     ],
+     [
+      6749.57,
+      "BREAK",
+      3
+     ],
+     [
+      6751.27,
+      "BREAK",
+      2
+     ]
+    ],
+    "source": "x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80. gc of the singles read from row colour at the flash (x106z.png); the L single cleared a coloured row."
+   },
+   "note": "was_old exact and the 10 events match score.py (quad +2400 6746.47, TSD +5550 6747.80, double +1200 6748.97, singles +750/+900/+1050, plain locks 6752.53/6752.90/6753.20/6753.37 < KO 6753.57). But the J double at 6748.97 cleared TWO grey rows: x106dbl.png (s4, 6748.90 vs 6749.10) the J goes down col 1 into grey rows 1-2, the white bar covers both grey rows and the coloured row above (green/red/blue) stays. gc 1 -> 2. L single coloured (gc0), T and J singles each clear the top grey row (gc1) confirmed in x106sing.png."
+  },
+  {
+   "ref": "event_fixes[6]",
+   "verdict": "keep",
+   "note": "score.py: locks 6769.60/6769.77/6770.10/6770.27 and one +300 at 6770.30 in window; was_old exact."
+  },
+  {
+   "ref": "event_fixes[7]",
+   "verdict": "keep",
+   "note": "pcs.png panel 3 (6769.0): coloured rows only, PC."
+  },
+  {
+   "ref": "event_fixes[8]",
+   "verdict": "keep",
+   "note": "score.py: TSS +2400 at 6824.83 < KO 6825.17; chain Nones 6822.83-6823.93 map 1:1 to score locks 6822.97-6824.20."
+  },
+  {
+   "ref": "event_fixes[9]",
+   "verdict": "keep",
+   "note": "x109.png (s4): T locks 6861.37 (+30) before KO 6861.40, REN 13->14; flash/score +2400 only at 6861.43, one frame after end_s. Kept because the lock (which decides the clear) is at/before KO, per the KO-frame rule; note the flash itself is 0.03 s after end_s."
+  },
+  {
+   "ref": "event_fixes[10]",
+   "verdict": "keep",
+   "note": "score.py: J lock 6893.53, +1500 (REN8 single) 6893.57 < KO 6893.7."
+  },
+  {
+   "ref": "event_fixes[11]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g4-321",
+    "id": "x112",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 6978.18,
+    "t_end": 6985.6,
+    "events": [
+     {
+      "t": 6984.1,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 6984.57,
+      "kind": "quad",
+      "lines": 4,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 6985.6,
+      "kind": "quad",
+      "lines": 4,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      6978.2,
+      null,
+      0
+     ],
+     [
+      6978.43,
+      null,
+      0
+     ],
+     [
+      6984.13,
+      "quad",
+      4
+     ],
+     [
+      6985.37,
+      "double",
+      2
+     ]
+    ],
+    "source": "x112a.png/x112b.png + score: p1 Z locks 6978.10 (chain None 6978.17; Nones run ~0.1 s after the score's hard-drop ticks all game), then nothing locks until after the lag; O tops out the catch-up at 6984.4, I into right well -> TETRIS 6984.57 (+16 drop, +3600 b2b, BACK banner), next I (NEXT shifts once) into same well -> second TETRIS 6985.60 (+3750 = tetris b2b + REN1, TETRIS banner 6985.35-6985.95)"
+   },
+   "note": "Event 6985.6 lay outside t_end 6985.4 -> t_end 6985.6 (no chain event in (6985.4,6985.6]; was_old unchanged). Content right: x112p1b.png/x112p1.png (s4): the O falls in slow motion 6978.2-6983.3 and locks ~6984.0-6984.2 with no score (NEXT shifts L,I,S.. -> I,S,L.. by 6984.20), the L is swapped for the held I, the +16 at 6984.43 is the I's own hard drop and +3600 b2b tetris 6984.57; NEXT then shifts once (I spawns 6985.33), +14 6985.57, +3750 6985.60. So 3 pieces (O, I, I) as the reader has; I moved the O's None to 6984.1. Old window held 4 pieces -> pieces cell added."
+  },
+  {
+   "ref": "event_fixes[12]",
+   "verdict": "keep",
+   "note": "score.py p2: only one +3600 between 6977.53 (TSS) and 6985.43 (at 6983.07); chain had quads 6979.27 and 6982.67 -> one is a duplicate."
+  },
+  {
+   "ref": "event_fixes[13]",
+   "verdict": "keep",
+   "note": "x112q.png (s4): I into col-8 well, 4 grey rows clear, +4200 at 6994.00 < KO 6994.77."
+  },
+  {
+   "ref": "event_fixes[14]",
+   "verdict": "keep",
+   "note": "score.py: J 7045.27, +900 (REN4 single) 7045.30 < KO 7045.5."
+  },
+  {
+   "ref": "event_fixes[15]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g4-327",
+    "id": "x115",
+    "side": "p2",
+    "op": "replace_window",
+    "t": 7095.0,
+    "t_end": 7101.3,
+    "events": [
+     {
+      "t": 7095.87,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7096.17,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7096.57,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7096.87,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7097.23,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7097.57,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7097.73,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7098.13,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7098.77,
+      "kind": "tsd",
+      "lines": 2,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7099.8,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7099.93,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7100.33,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7100.63,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7100.97,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 7101.27,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      7095.3,
+      null,
+      0
+     ],
+     [
+      7095.3,
+      null,
+      0
+     ],
+     [
+      7095.3,
+      "tsd",
+      2
+     ],
+     [
+      7095.73,
+      "single",
+      1
+     ],
+     [
+      7096.17,
+      null,
+      0
+     ],
+     [
+      7096.57,
+      null,
+      0
+     ],
+     [
+      7096.87,
+      null,
+      0
+     ],
+     [
+      7097.1,
+      null,
+      0
+     ],
+     [
+      7097.57,
+      null,
+      0
+     ],
+     [
+      7097.83,
+      null,
+      0
+     ],
+     [
+      7098.1,
+      null,
+      0
+     ],
+     [
+      7098.27,
+      null,
+      0
+     ],
+     [
+      7098.7,
+      "tsd",
+      2
+     ],
+     [
+      7099.0,
+      "double",
+      2
+     ],
+     [
+      7100.1,
+      null,
+      0
+     ],
+     [
+      7100.27,
+      null,
+      0
+     ],
+     [
+      7100.73,
+      null,
+      0
+     ],
+     [
+      7100.73,
+      null,
+      0
+     ],
+     [
+      7101.07,
+      null,
+      0
+     ]
+    ],
+    "source": "x115a.png/x115b.png + score.py p2: after the REN single (+900 at 7094.93) there is NO clear until the TSD at 7098.77 (+3600, Double banner, 2 coloured rows) and none after it until the I TETRIS at 7101.50 (+3700, BACK banner, 4-row flash). NEXT heads 7095.7-7098.5 show spawns J,O,T,J,O,L,I,Z,S with T held (L out) and S held (T out) -> 8 plain locks (score ticks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73,~7098.1); after the TSD spawns J,O,Z,S,L,T,I with Z then T held -> 6 plain locks (7099.80,7099.93,7100.33,7100.63,7100.97,7101.27) then the I. The 7099.1 flash is the TSD's effect, score unchanged."
+   },
+   "note": "Event 7101.27 lay outside t_end 7101.2 -> t_end 7101.3 (next chain event 7101.37 quad stays outside; was_old unchanged). Content confirmed by score.py p2: hard-drop locks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73, soft-drop ending ~7098.1, TSD +3600 7098.77, then locks 7099.80,7099.93,7100.33,7100.63,7100.97,7101.27, I tetris 7101.50; no other score jumps (old tsd 7095.3, single 7095.73, double 7099.0 have none)."
+  },
+  {
+   "ref": "event_fixes[16]",
+   "verdict": "keep",
+   "note": "x120.png (s4): one green coloured row clears 7472.7, 'Single' tag, +2400 at 7472.73 (TSS)."
+  },
+  {
+   "ref": "event_fixes[17]",
+   "verdict": "keep",
+   "note": "score.py: +3600 b2b tetris 7546.27 (51614 is a misread of 51514)."
+  },
+  {
+   "ref": "event_fixes[18]",
+   "verdict": "keep",
+   "note": "score.py: T soft drop 7547.57-7547.80, +5400 b2b TSD at 7547.97 = KO frame."
+  },
+  {
+   "ref": "event_fixes[19]",
+   "verdict": "keep",
+   "note": "pcs.png panel 4 (7711.15): coloured rows, PC; +6936 at 7711.23."
+  },
+  {
+   "ref": "event_fixes[20]",
+   "verdict": "keep",
+   "note": "score.py: no clear jump after 7711.23 (only +38 locks 7711.73/7711.77 and 7712.13); the double pc1 is not a clear."
+  },
+  {
+   "ref": "event_fixes[21]",
+   "verdict": "keep",
+   "note": "score.py: +18 7779.23, +300 7779.27 < KO 7779.73."
+  },
+  {
+   "ref": "event_fixes[22]",
+   "verdict": "keep",
+   "note": "score.py: +1830 at 7819.90 (30+300+REN10 1500) < KO 7820.03."
+  },
+  {
+   "ref": "event_fixes[23]",
+   "verdict": "keep",
+   "note": "Net-zero with event_fixes[24]: score.py p2 real singles 7850.33/7855.00/7856.37/7857.80/7859.13/7860.20 (6) vs chain singles 7849.9/7850.97/7855.63/7857.03/7858.47/7859.8 (6) with 3 Nones+single after, matching locks 7861.30/7861.67/7862.07/7862.83. The chain was only time-skewed (7850.97 is the 7855.00 single logged early), not a duplicate; the remove+add pair leaves counts and REN unchanged, so harmless. Keep as a pair only."
+  },
+  {
+   "ref": "event_fixes[24]",
+   "verdict": "keep",
+   "note": "See event_fixes[23]: +2100 REN12 at 7860.20 real; pair is count-neutral."
+  },
+  {
+   "ref": "event_fixes[25]",
+   "verdict": "keep",
+   "note": "score.py: +20 7864.67, +2700 REN16 7864.73 < KO 7865.33."
+  },
+  {
+   "ref": "event_fixes[26]",
+   "verdict": "keep",
+   "note": "score.py: +28 7919.63, +3600 b2b tetris 7919.67 < KO 7920.2."
+  },
+  {
+   "ref": "event_fixes[27]",
+   "verdict": "keep",
+   "note": "score.py: +14 7954.87, +2100 REN12 7954.93 < KO 7955.7; next +14 at 7955.73 is after KO."
+  },
+  {
+   "ref": "cell_edits[0]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[1]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[2]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[3]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[4]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[5]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[6]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g4-307",
+    "id": "x106",
+    "player": "p1",
+    "field": "pieces",
+    "was": 58,
+    "value": 55,
+    "source": "x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80; 8 pieces after the T that A last read at 6746.74 (J,L,T,J + 4 plain locks)"
+   },
+   "note": "Counted every lock in score.py 6722-6754 (s4/x106score.txt): 45 locks before the I at 6746.33 (equal to the chain's 45 events before 6746.19), then I, T, J, L, T, J and 4 plain locks = 55 by KO 6753.57. 66 assumes csv 58 is right up to A's last read, which it is not (event list has 49)."
+  },
+  {
+   "ref": "cell_edits[7]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g4-307",
+    "id": "x106",
+    "player": "p1",
+    "field": "garbage_cleared",
+    "was": 8,
+    "value": 12,
+    "source": "window gc 2 -> 5; x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80"
+   },
+   "note": "Pre-window gc 6 + window quad 2 + double 2 (not 1, x106dbl.png) + L single 0 + T single 1 + J single 1 = 12."
+  },
+  {
+   "ref": "cell_edits[8]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[9]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[10]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[11]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[12]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[13]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[14]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[15]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[16]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[17]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[18]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[19]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g4-326",
+    "id": "x115",
+    "player": "p2",
+    "field": "pieces",
+    "was": 323,
+    "value": 319,
+    "source": "x115a.png/x115b.png + score.py p2: after the REN single (+900 at 7094.93) there is NO clear until the TSD at 7098.77 (+3600, Double banner, 2 coloured rows) and none after it until the I TETRIS at 7101.50 (+3700, BACK banner, 4-row flash). NEXT heads 7095.7-7098.5 show spawns J,O,T,J,O,L,I,Z,S with T held (L out) and S held (T out) -> 8 plain locks (score ticks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73,~7098.1); after the TSD spawns J,O,Z,S,L,T,I with Z then T held -> 6 plain locks (7099.80,7099.93,7100.33,7100.63,7100.97,7101.27) then the I. The 7099.1 flash is the TSD's effect, score unchanged.; window held 19 chain events for 15 real pieces (quad kept outside the window); the bag phase break from spawn 77 on fits the same 4 extra spawns"
+   },
+   "note": "chain_games.csv x115 p2 pieces is 323, not 311. The window replaces 19 piece events with 15 (verified by score.py), so -4 -> 319."
+  },
+  {
+   "ref": "cell_edits[20]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check (x115 p1: score locks 7232.37/.70/7233.03/.37 map to chain Nones 7232.13-7233.13; +18 at 7233.53 < KO 7233.63 is uncounted)"
+  },
+  {
+   "ref": "cell_edits[21]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check (x116 p2: x116.png s4 shows I lock 7274.23-ish, S 7274.37, I vertical 7274.57 before KO 7274.73; 4 locks after the TSD vs 3 chain Nones)"
+  },
+  {
+   "ref": "cell_edits[22]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[23]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[24]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[25]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check (x122: +16 at 7600.13 = KO frame)"
+  },
+  {
+   "ref": "cell_edits[26]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check (x123: locks 7693.63/7693.97/7694.23 vs 2 chain Nones, KO 7694.3)"
+  },
+  {
+   "ref": "cell_edits[27]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[28]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[29]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[30]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[31]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[32]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[33]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[34]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "cell_edits[35]",
+   "verdict": "keep",
+   "note": "was matches csv; supported by the matching event fix's score/frames check"
+  },
+  {
+   "ref": "freezes[0]",
+   "verdict": "keep",
+   "note": "x112p1b.png (s4): p1 O hangs/creeps 6978.2-6983.3, both scores frozen (p1 6978.10-6984.43, p2 6978.70-6983.07)."
+  }
+ ],
+ "added": [
+  {
+   "id": "x112",
+   "player": "p1",
+   "field": "pieces",
+   "was": 102,
+   "value": 101,
+   "source": "x112 p1 replace_window: chain Nones 6977.4/6977.73/6977.9/6978.17 match score locks 6977.30/6977.63/6977.80/6978.10 (Z); the window's old 4 piece events (Nones 6978.2, 6978.43, quad, double) are really 3 pieces (O locks ~6984.1 with no score after slow fall, I tetris 6984.57, I tetris 6985.60) per x112p1b.png/x112p1.png (s4): NEXT shifts once 6983.9->6984.20 (O out), the L is swapped for the held I, NEXT shifts once more at 6985.33. So -1 piece."
+  }
+ ],
+ "spot_checks": [
+  {
+   "n": "g4-360",
+   "note": "kotail x127 p1 +1200 at 7919.47: x127p1.png (s4) piece locks ~7919.40 with SPIN tag, no white bar, garbage rises 7919.47; no clear. Agree no change."
+  },
+  {
+   "n": "g4-332",
+   "note": "kotail x116 p2: frames show 47530 at 7274.43 (47630 misread), +32 hard drop; agree no change (the +1 piece is cell_edits[21])."
+  },
+  {
+   "n": "g4-324",
+   "note": "x113 p1: score locks 7025.03, 7025.23; only a +1 soft drop at 7025.57 = KO; no further lock. Agree."
+  },
+  {
+   "n": "g4-344",
+   "note": "x119 p2: score jump 58894->68394 only at 7395.90, after KO 7395.83; agree no change."
+  },
+  {
+   "n": "g4-334",
+   "note": "x118 p2: single +6900 jump 7312.63, one PC; agree."
+  },
+  {
+   "n": "g4-296",
+   "note": "x104 p2: two separate PC score jumps 6568.37-40 and 6574.63, pcs.png shows both boards coloured; agree."
+  },
+  {
+   "n": "g4-310",
+   "note": "x107 p2: one +6900 at 6769.10; agree dup drop."
+  },
+  {
+   "n": "g4-312",
+   "note": "x107 p2: +2400 at ~7771.23 (6771.23) single PC; agree."
+  },
+  {
+   "n": "g4-343",
+   "note": "not re-run; reader's +900 plain double reasoning consistent with scoring used elsewhere (TSD 3600/5400)."
+  },
+  {
+   "n": "g4-305",
+   "note": "x106 p1 score.py: +4800 at 6728.57 = TST; agree no change."
+  }
+ ]
+}

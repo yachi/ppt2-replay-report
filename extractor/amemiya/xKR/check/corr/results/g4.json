@@ -1,0 +1,1462 @@
+{
+ "items": [
+  {
+   "n": "g4-294",
+   "verdict": "fix",
+   "note": "p2 Z locks 6550.93 filling the top garbage row hole, single flash 6550.96, score 39277->40477 (+1200 single+REN); KO tilt 6550.97, so it counts. Added single gc1."
+  },
+  {
+   "n": "g4-295",
+   "verdict": "fix",
+   "note": "Same piece: the Z spawned ~6550.77 and locked 6550.93 (before KO 6550.97) with a clear; pieces 65->66."
+  },
+  {
+   "n": "g4-296",
+   "verdict": "no change",
+   "note": "Two real PCs, each logged once: triple PC 6568.40 (score +1500+5400, PERFECT CLEAR banner, empty board 6568.4-6568.9, x104a.png) and tetris PC 6574.63 (+13200, empty board, x104b.png). Only the gc on both is wrong, see g4-298/g4-302."
+  },
+  {
+   "n": "g4-297",
+   "verdict": "no change",
+   "note": "The PC belongs to the 6568.43 event (kept as pc=1); the 6568.03 one was correctly dropped/unflagged. Board empty after 6568.40 (x104a.png)."
+  },
+  {
+   "n": "g4-298",
+   "verdict": "fix",
+   "note": "PC triple at 6568.43 confirmed, but the three cleared rows are all coloured piece cells (no grey garbage) in x104a.png 6568.2-6568.3; gc 3->0."
+  },
+  {
+   "n": "g4-299",
+   "verdict": "no change",
+   "note": "Dup drop correct: one PC triple only (one score jump, x104a.png)."
+  },
+  {
+   "n": "g4-300",
+   "verdict": "no change",
+   "note": "The PC is the 6574.7 event; dropping the 6574.33 flag is right (x104b.png)."
+  },
+  {
+   "n": "g4-301",
+   "verdict": "no change",
+   "note": "Dup drop correct: one tetris PC, score +13200 once at 6574.63."
+  },
+  {
+   "n": "g4-302",
+   "verdict": "fix",
+   "note": "Tetris PC 6574.7 confirmed (PERFECT CLEAR, empty board 6574.7-6575.1, x104b.png) but all four rows were coloured pieces, no garbage; gc 4->0."
+  },
+  {
+   "n": "g4-303",
+   "verdict": "fix",
+   "note": "p2 I locks vertically into the garbage well ~6602.50, TETRIS banner 6603.1, 4 grey rows flash 6602.6-6603.0, score 75259->78859 (+3600 = tetris with B2B after the 6600.57 TSD); KO 6603.17. Added quad gc4, pieces 89->90, max_b2b 5->6."
+  },
+  {
+   "n": "g4-304",
+   "verdict": "fix",
+   "note": "p2 T locks ~6714.83 (T-SPIN Double banner at 6714.9), two coloured rows flash 6714.9, score 113394->116994 (+3600 TSD); KO frame 6714.9. Added tsd gc0, pieces 170->171."
+  },
+  {
+   "n": "g4-305",
+   "verdict": "no change",
+   "note": "Clear at 6728.07 is a T-Spin Triple: 'Triple' banner and 3-row flash 6728.7 (x106c.png), score 466->5266 (+4800 = TST). The TSS banner reading is wrong."
+  },
+  {
+   "n": "g4-306",
+   "verdict": "fix",
+   "note": "6746.2 is an I into the left well: TETRIS banner 6747.1-6747.7, 4-row flash 6746.5 (x106a.png), score +2400 at 6746.47 (plain tetris). Chain had it as tst 4 lines -> quad gc2."
+  },
+  {
+   "n": "g4-307",
+   "verdict": "fix",
+   "note": "Tail after the last read spawn: TSD 6747.80 (+5550, ok), then J double 6748.97 (+1200 = double+REN), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050), then 4 plain locks 6752.53/6752.90/6753.20/6753.37 before KO 6753.57 (x106b.png, score). Chain had only BREAKs and two phantom Nones at 6746.73 (no lock between the I at 6746.33 and the T at 6747.80). Window replaced; pieces 58->66, garbage_cleared 8->11."
+  },
+  {
+   "n": "g4-308",
+   "verdict": "fix",
+   "note": "Both PCs are real and each logged once (triple PC 6769.10, single PC 6771.30, PERFECT CLEAR + empty board, x107a.png). Between them the chain has two singles but only one clear happened (score +300 at 6770.30 only); window fixed."
+  },
+  {
+   "n": "g4-309",
+   "verdict": "no change",
+   "note": "PC is the 6769.17 triple; unflagging 6768.87 is right."
+  },
+  {
+   "n": "g4-310",
+   "verdict": "no change",
+   "note": "Dup drop correct: one triple PC, one score jump 6769.10."
+  },
+  {
+   "n": "g4-311",
+   "verdict": "fix",
+   "note": "6769.17 triple PC confirmed, but its 3 rows were coloured piece cells (x107a.png 6768.90), gc 1->0."
+  },
+  {
+   "n": "g4-312",
+   "verdict": "no change",
+   "note": "6771.23 single PC confirmed: I fills the last row, PERFECT CLEAR 6771.4, empty board, +2400."
+  },
+  {
+   "n": "g4-313",
+   "verdict": "no change",
+   "note": "One real PC: I completes the single row 6811.6, PERFECT CLEAR 6811.6-6812.1, board empty (x108a.png); score +2850 (single+PC+REN) once."
+  },
+  {
+   "n": "g4-314",
+   "verdict": "no change",
+   "note": "6809.0 is a TST: score 490->5299 (+4800 = TST, a TSS is 2400); the TSS banner read is wrong."
+  },
+  {
+   "n": "g4-315",
+   "verdict": "no change",
+   "note": "6811.53 single PC confirmed (x108a.png)."
+  },
+  {
+   "n": "g4-316",
+   "verdict": "fix",
+   "note": "p1 T-Spin Single 6824.9 (before KO 6825.17) missing from the chain; added tss gc0, pieces 38->39."
+  },
+  {
+   "n": "g4-317",
+   "verdict": "no change",
+   "note": "6837.33 is a TST: score 447->5262 (+4800 = TST); TSS banner read wrong."
+  },
+  {
+   "n": "g4-318",
+   "verdict": "fix",
+   "note": "p1 14-REN single: T locks 6861.37, flash 6861.40 = KO frame (tilt visible from 6861.44); counts. Added single gc0, pieces 52->53, max_combo 13->14."
+  },
+  {
+   "n": "g4-319",
+   "verdict": "no change",
+   "note": "6875.37 is a TST: score +4800 at 6876.20 (TST); TSS banner read wrong."
+  },
+  {
+   "n": "g4-320",
+   "verdict": "fix",
+   "note": "p1 J single (REN 8) locks 6893.53, flash 6893.54, before KO 6893.7; added single gc0, pieces 50->51, max_combo 7->8."
+  },
+  {
+   "n": "g4-321",
+   "verdict": "fix",
+   "note": "p1 gap 6978.2-6984.1 is lag (freeze 6978.7-6983.0). Chain has two phantom Nones (6978.2 duplicates the Z at 6978.17; 6978.43) and typed the second tetris at 6985.37 as a double. Real: O lock ~6984.43, I TETRIS 6984.57, I TETRIS 6985.60 (b2b). Window replaced; max_b2b 2->4 (tsd 6968.8, quad 6970.57, quad, quad, tsd 6989.8 all chained; +5400 TSD b2b at 6989.80). Pieces net unchanged with g4-323."
+  },
+  {
+   "n": "g4-322",
+   "verdict": "fix",
+   "note": "p2 gap: quad 6979.27 is a B duplicate of the single tetris at 6983.07 (chain quad 6982.67); removed, pieces 126->125. Same lag window as g4-321."
+  },
+  {
+   "n": "g4-323",
+   "verdict": "fix",
+   "note": "p1 second tetris 6994.00 (b2b after 6992.6) missing; added quad gc4 before KO 6994.77. Pieces: +1 here, -1 from g4-321's window, so 102 stays; garbage_cleared 24->28."
+  },
+  {
+   "n": "g4-324",
+   "verdict": "no change",
+   "note": "x113.png: S locks 7025.2 (counted, chain None 7025.13); then Z is held 7025.33 and the T is still falling at 7025.6 (score +1 soft drop only), so no piece locks by KO 7025.57."
+  },
+  {
+   "n": "g4-325",
+   "verdict": "fix",
+   "note": "p1 J single (REN 4) at 7045.30 before KO 7045.5 missing; added single gc0, pieces 28->29, max_combo 3->4."
+  },
+  {
+   "n": "g4-326",
+   "verdict": "fix",
+   "note": "The bag break starts at spawn 77 = this splice window (7095.3): chain has 4 phantom events (2 extra Nones + a phantom tsd stacked at 7095.30, a phantom single 7095.73, a phantom double 7099.0). Removing 4 spawns realigns the 7-bag phase (an offset of 4 explains 33/45 bad bags). Pieces 311->307."
+  },
+  {
+   "n": "g4-327",
+   "verdict": "fix",
+   "note": "Gap 7095.3-7100.7 replaced from the frames: 8 locks, TSD 7098.77, 6 locks, then the quad 7101.37/7101.47 (kept). No lag (scores tick normally)."
+  },
+  {
+   "n": "g4-328",
+   "verdict": "fix",
+   "note": "x115c.png 7233.40-7233.70: p1 I spawns 7233.47 and hard-drops into the right well at 7233.53 (score 211786->211804, +18, no clear); O spawns 7233.63 with no lock before KO (yatta 7233.70). Chain Nones 7232.47/7232.8/7233.13 map to score locks 7232.70/7233.03/7233.37, so the 7233.53 lock is uncounted"
+  },
+  {
+   "n": "g4-329",
+   "verdict": "no change",
+   "note": "x116a.png 7249.50-7250.27: one 2-line PERFECT CLEAR (score 6719->11553 at 7249.77, empty board, single PC banner through 7250.27); chain now holds exactly one PC, the 7249.97 double pc1, and no 7249.77 duplicate; csv pc 1"
+  },
+  {
+   "n": "g4-330",
+   "verdict": "no change",
+   "note": "x116a.png 7249.50-7250.27: one 2-line PERFECT CLEAR (score 6719->11553 at 7249.77, empty board, single PC banner through 7250.27); chain now holds exactly one PC, the 7249.97 double pc1, and no 7249.77 duplicate; csv pc 1 (dup dropped correctly)"
+  },
+  {
+   "n": "g4-331",
+   "verdict": "no change",
+   "note": "x116a.png 7249.50-7250.27: one 2-line PERFECT CLEAR (score 6719->11553 at 7249.77, empty board, single PC banner through 7250.27); chain now holds exactly one PC, the 7249.97 double pc1, and no 7249.77 duplicate; csv pc 1 (pc flag on 7249.97 correct)"
+  },
+  {
+   "n": "g4-332",
+   "verdict": "no change",
+   "note": "x116b.png 7273.90-7274.78: screen score 47470 -> 47498 (J, 7274.22) -> 47530 (S, 7274.38) -> 47558 (I, 7274.62); score.py's 47630 at 7274.40 is a misread of 47530, so the +132 is a +32 hard drop with no clear"
+  },
+  {
+   "n": "g4-333",
+   "verdict": "fix",
+   "note": "x116b.png: p2 (winner) locks Z 7273.87, J 7274.23, S 7274.38 and I 7274.60 (dropped into col 7, no clear) before KO 7274.73 (yatta 7274.78; next S spawned 7274.70, not locked). Chain has only 3 Nones after the 7272.2 tsd (7273.67/7273.97/7274.33), so the I is uncounted"
+  },
+  {
+   "n": "g4-334",
+   "verdict": "no change",
+   "note": "x118a.png 7311.90-7313.00: p2 drops the J vertically into column 1 at ~7312.6, clearing the last 3 rows; score 10958->17858 at 7312.63, empty board, one PERFECT CLEAR banner through 7313.0. Chain holds one PC, the 7312.7 triple pc1, with no 7312.37 duplicate; csv pc 1"
+  },
+  {
+   "n": "g4-335",
+   "verdict": "no change",
+   "note": "x118a.png 7311.90-7313.00: p2 drops the J vertically into column 1 at ~7312.6, clearing the last 3 rows; score 10958->17858 at 7312.63, empty board, one PERFECT CLEAR banner through 7313.0. Chain holds one PC, the 7312.7 triple pc1, with no 7312.37 duplicate; csv pc 1 (pc flag off the dropped 7312.37 entry is correct)"
+  },
+  {
+   "n": "g4-336",
+   "verdict": "no change",
+   "note": "x118a.png 7311.90-7313.00: p2 drops the J vertically into column 1 at ~7312.6, clearing the last 3 rows; score 10958->17858 at 7312.63, empty board, one PERFECT CLEAR banner through 7313.0. Chain holds one PC, the 7312.7 triple pc1, with no 7312.37 duplicate; csv pc 1 (dup dropped correctly)"
+  },
+  {
+   "n": "g4-337",
+   "verdict": "no change",
+   "note": "x118a.png 7311.90-7313.00: p2 drops the J vertically into column 1 at ~7312.6, clearing the last 3 rows; score 10958->17858 at 7312.63, empty board, one PERFECT CLEAR banner through 7313.0. Chain holds one PC, the 7312.7 triple pc1, with no 7312.37 duplicate; csv pc 1 (pc flag on 7312.7 correct)"
+  },
+  {
+   "n": "g4-338",
+   "verdict": "no change",
+   "note": "x119a.png 7360.30-7361.40: p2 places the T at ~7360.8 (6885->6923, drop), the 2 rows clear and the board is empty with one PERFECT CLEAR banner (score 11573 at 7360.9) held through 7361.4; chain holds one PC, the 7360.9 double pc1, and no 7360.43/7361.03 entries; csv pc 1"
+  },
+  {
+   "n": "g4-340",
+   "verdict": "no change",
+   "note": "x119a.png 7360.30-7361.40: p2 places the T at ~7360.8 (6885->6923, drop), the 2 rows clear and the board is empty with one PERFECT CLEAR banner (score 11573 at 7360.9) held through 7361.4; chain holds one PC, the 7360.9 double pc1, and no 7360.43/7361.03 entries; csv pc 1 (pc flag off 7360.43 correct)"
+  },
+  {
+   "n": "g4-341",
+   "verdict": "no change",
+   "note": "x119a.png 7360.30-7361.40: p2 places the T at ~7360.8 (6885->6923, drop), the 2 rows clear and the board is empty with one PERFECT CLEAR banner (score 11573 at 7360.9) held through 7361.4; chain holds one PC, the 7360.9 double pc1, and no 7360.43/7361.03 entries; csv pc 1 (pc flag on 7360.9 correct)"
+  },
+  {
+   "n": "g4-342",
+   "verdict": "no change",
+   "note": "x119a.png 7360.30-7361.40: p2 places the T at ~7360.8 (6885->6923, drop), the 2 rows clear and the board is empty with one PERFECT CLEAR banner (score 11573 at 7360.9) held through 7361.4; chain holds one PC, the 7360.9 double pc1, and no 7360.43/7361.03 entries; csv pc 1 (dup dropped correctly)"
+  },
+  {
+   "n": "g4-339",
+   "verdict": "no change",
+   "note": "x119b.png 7359.30-7360.00: p1 T goes vertically into the slot and 3 rows clear ('Triple' side tag), score 507->5307 (+4800 = TST, not b2b); chain tst at 7359.13 is right, the TSS banner read is wrong"
+  },
+  {
+   "n": "g4-343",
+   "verdict": "no change",
+   "note": "score.py: p1 61554-60654 = +900 at 7394.33, a plain double (a TSD would be +3600/+5400); chain 'double' at 7394.17 is right"
+  },
+  {
+   "n": "g4-344",
+   "verdict": "no change",
+   "note": "x119c.png 7395.10-7395.98: p2's last lock is the double before 7395.00 (58894); after its clear animation the Z spawns 7395.74 and is still in the air at the KO frame 7395.83 (yatta 7395.90). score.py's 68394 at 7395.90 is a KO-effect misread (back to 58894 at 7396.07)"
+  },
+  {
+   "n": "g4-345",
+   "verdict": "no change",
+   "note": "score.py: p1 588->5388 at 7410.33 (+4800 = TST, not b2b) for the chain tst at 7409.7; the TSS banner read is wrong (same pattern as g4-305/g4-339)"
+  },
+  {
+   "n": "g4-346",
+   "verdict": "fix",
+   "note": "x120a.png 7471.90-7472.78: p1 spins the T into column 8 and ONE coloured row clears (the green row above the grey garbage; side tag 'Single'), score 67319->69719 (+2400 = TSS, not b2b). Chain event 7471.83 reads tst 4 lines gc 4, which is impossible; the banner T-SPIN Single was right"
+  },
+  {
+   "n": "g4-347",
+   "verdict": "fix",
+   "note": "x121a.png 7545.90-7546.78: p2 drops an I vertically into the column-7 well, 4 rows flash (one coloured row and 3 grey garbage rows), TETRIS banner and BACK side tag, score 47914->51514 (+3600 = b2b tetris). The chain's 'tst 4' is a quad; gc 3 stays"
+  },
+  {
+   "n": "g4-348",
+   "verdict": "fix",
+   "note": "x121b.png 7547.50-7548.16: after the Z (chain None 7547.07) the T spins into the slot and locks by 7547.92 (flash, score 51539); 2 coloured rows above the garbage clear, side tags Double and BACK, score 56939 (+5400 = b2b TSD) at 7547.98; KO frame 7547.97, so the clear counts. Chain has no event for it"
+  },
+  {
+   "n": "g4-349",
+   "verdict": "fix",
+   "note": "x122a.png 7599.85-7600.25: after the 7598.73 double, p1's O spawns 7599.88 and locks at 7600.11 (score 48533->48549, no clear), on/just before the KO frame 7600.13 (yatta 7600.21); chain has no event after the double"
+  },
+  {
+   "n": "g4-350",
+   "verdict": "fix",
+   "note": "x123a.png 7693.90-7694.34: p1 locks the L at 7693.94 (87919->87935) and the J at 7694.22 (->87953, no clear) before the KO frame 7694.3 (yatta 7694.34). Chain Nones 7693.4/7693.73 are the locks at 7693.63 and 7693.94, so the J is uncounted"
+  },
+  {
+   "n": "g4-351",
+   "verdict": "fix",
+   "note": "x124a.png 7710.75-7711.85: p2 drops the J vertically into column 1 and the last 3 rows clear into an empty board with the PERFECT CLEAR banner (score 10757->17693 at 7711.23); the next two pieces are an O (7711.65, +38) and an S (7711.75, +38) with no clear. So the PC is the 7711.23 triple; the 7711.57 'double pc1' is the O's lock, not a clear"
+  },
+  {
+   "n": "g4-352",
+   "verdict": "fix",
+   "note": "x124a.png 7710.75-7711.85: p2 drops the J vertically into column 1 and the last 3 rows clear into an empty board with the PERFECT CLEAR banner (score 10757->17693 at 7711.23); the next two pieces are an O (7711.65, +38) and an S (7711.75, +38) with no clear. So the PC is the 7711.23 triple; the 7711.57 'double pc1' is the O's lock, not a clear"
+  },
+  {
+   "n": "g4-353",
+   "verdict": "fix",
+   "note": "x124b.png 7778.76-7779.74: after the Z (7778.84, chain None 7778.6) p2 drops an L vertically into column 10 at ~7779.25 and the coloured row above the garbage clears (white bar 7779.29), score 78716->79034 (+18 drop +300 single), before the KO frame 7779.73. Chain has no event for it"
+  },
+  {
+   "n": "g4-354",
+   "verdict": "no change",
+   "note": "x125a.png 7796.60-7797.70: p2 lays the I flat on the last row at ~7797.25, the board empties and the PERFECT CLEAR banner shows from 7797.30 (score 12272->15610); chain holds one PC, the 7797.33 single pc1; csv pc 1"
+  },
+  {
+   "n": "g4-355",
+   "verdict": "no change",
+   "note": "x125a.png 7796.60-7797.70: p2 lays the I flat on the last row at ~7797.25, the board empties and the PERFECT CLEAR banner shows from 7797.30 (score 12272->15610); chain holds one PC, the 7797.33 single pc1; csv pc 1 (pc flag on 7797.33 correct)"
+  },
+  {
+   "n": "g4-356",
+   "verdict": "fix",
+   "note": "x125b.png 7819.00-7820.10: p2's J clears a row at 7819.15 (chain single 7818.83), then the O spawns 7819.80 and locks into the centre gap at ~7819.87, clearing the coloured blue row (white bar 7819.90; the yellow/cyan row and the garbage stay), score 34786->36616 (+30 drop +300 single +1500 = REN 10) before the KO frame 7820.03. Chain has no event for it"
+  },
+  {
+   "n": "g4-357",
+   "verdict": "fix",
+   "note": "x126a.png 7850.40-7855.35 + score.py: p2 clears a row at 7850.33 (REN7, +1350; chain single 7849.9), then holds one L in the air from 7851.3 to ~7854.95 (score 17811 flat 7850.33-7854.93, no lock) and locks it at ~7854.95 for a single (+22 +1500 = REN8). So only one piece locks in the gap; the chain's 7850.97 single is a spliced duplicate (with it, 7855.63 would be REN9, but the score bonus is REN8). Not lag: p1 keeps scoring through it"
+  },
+  {
+   "n": "g4-358",
+   "verdict": "fix",
+   "note": "x126c.png 7864.40-7865.39: p1 drops the I vertically into column 9, locking at 7864.67 (+20), and the coloured row above the garbage clears (white bar 7864.76), +2700 = 300 + REN16 (150x16) at 7864.73, after the 7863.73 REN15 single (chain 7863.57); KO frame 7865.33, so it counts. Chain has no event for it"
+  },
+  {
+   "n": "g4-359",
+   "verdict": "no change",
+   "note": "score.py: p1 clears at 7888.10 +300, 7888.93 +450, 7889.77 +600, 7890.77 +750: plain singles at REN0..REN3 (150 per REN); a TSS would be +2400 or more. Chain 'single' at 7889.57 is right"
+  },
+  {
+   "n": "g4-360",
+   "verdict": "no change",
+   "note": "x127b.png 7918.90-7919.89: p1 spins the T into the right side (soft drop 7919.08-7919.27, 'SPIN' side tag) and it locks at ~7919.4 with NO rows cleared (no white bar; stack unchanged), +1200 = a T-spin with zero lines (400x3), not a clear. The same +1200 shape is at 7918.27. Score locks from 7917 (7917.13, 7917.30, 7917.47, 7918.27, 7918.57, 7918.77, 7919.40) match the chain's 7 Nones from 7916.8, so nothing is missing"
+  },
+  {
+   "n": "g4-361",
+   "verdict": "fix",
+   "note": "x127c.png 7919.00-7920.20: after the J (7919.17) and Z (7919.30), which are the chain Nones 7918.83/7919.2, p2's I drops vertically into the column-1 well at ~7919.65 (+28) and 4 grey garbage rows clear, TETRIS banner with BACK tag, +3600 = b2b tetris at 7919.67, before the KO frame 7920.2. Chain has no event for it"
+  },
+  {
+   "n": "g4-362",
+   "verdict": "fix",
+   "note": "x128a.png 7954.60-7955.70: after the REN11 single (+1950 at 7954.07, chain 7954.0) p1's S locks at 7954.87 (+14) and the coloured row above the garbage clears (white bar 7955.00), +2100 = 300 + REN12 at 7954.93, before the KO frame 7955.7. The next I is swapped into hold and the T is still in the air at 7955.70; its +14 lock reads at 7955.73, after the KO frame, so it is not counted. Chain has no event for the S"
+  }
+ ],
+ "event_fixes": [
+  {
+   "n": "g4-294",
+   "id": "x103",
+   "side": "p2",
+   "op": "add",
+   "t": 6550.96,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x103.png: Z locks 6550.93, white flash row (top garbage row) 6550.96, score 39277->40477 at 6550.97; KO 6550.97"
+  },
+  {
+   "n": "g4-298",
+   "id": "x104",
+   "side": "p2",
+   "op": "retype",
+   "t": 6568.43,
+   "was": [
+    "triple",
+    3,
+    1
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "x104a.png 6568.2: the 3 cleared rows are red/orange/yellow/blue piece cells, no grey garbage; PERFECT CLEAR 6568.4"
+  },
+  {
+   "n": "g4-302",
+   "id": "x104",
+   "side": "p2",
+   "op": "retype",
+   "t": 6574.7,
+   "was": [
+    "quad",
+    4,
+    1
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "x104b.png 6574.4: 4 rows all coloured piece cells, no grey garbage; PERFECT CLEAR 6574.7"
+  },
+  {
+   "n": "g4-303",
+   "id": "x104",
+   "side": "p2",
+   "op": "add",
+   "t": 6602.6,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17"
+  },
+  {
+   "n": "g4-304",
+   "id": "x105",
+   "side": "p2",
+   "op": "add",
+   "t": 6714.9,
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "x105.png: T spun in at 6714.8, 2-row flash and Double banner 6714.9, score +3600 at 6714.90 (TSD, no B2B), KO frame 6714.9"
+  },
+  {
+   "n": "g4-307",
+   "id": "x106",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6746.2,
+   "t_end": 6753.57,
+   "events": [
+    {
+     "t": 6746.2,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 6747.77,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6748.97,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6750.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6750.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6751.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 6752.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6752.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6753.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6753.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6746.2,
+     "tst",
+     4
+    ],
+    [
+     6746.47,
+     "BREAK",
+     4
+    ],
+    [
+     6746.73,
+     null,
+     0
+    ],
+    [
+     6746.73,
+     null,
+     0
+    ],
+    [
+     6747.77,
+     "tsd",
+     2
+    ],
+    [
+     6748.0,
+     "BREAK",
+     4
+    ],
+    [
+     6749.57,
+     "BREAK",
+     3
+    ],
+    [
+     6751.27,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80. gc of the singles read from row colour at the flash (x106z.png); the L single cleared a coloured row."
+  },
+  {
+   "n": "g4-308",
+   "id": "x107",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 6769.5,
+   "t_end": 6770.95,
+   "events": [
+    {
+     "t": 6769.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6769.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6770.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6770.3,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6769.5,
+     "single",
+     1
+    ],
+    [
+     6769.8,
+     null,
+     0
+    ],
+    [
+     6770.13,
+     "single",
+     1
+    ],
+    [
+     6770.9,
+     null,
+     0
+    ]
+   ],
+   "source": "x107a.png + score: triple PC 6769.10 (+6900, empty board), then J lock 6769.60 (+39), O 6769.77, O 6770.10 (two O's side by side bottom right), L 6770.27 -> single flash 6770.30 (+300, the only score jump between the PCs), I 6771.20 -> single PC 6771.30 (+2400, empty board 6771.4)"
+  },
+  {
+   "n": "g4-311",
+   "id": "x107",
+   "side": "p2",
+   "op": "retype",
+   "t": 6769.17,
+   "was": [
+    "triple",
+    3,
+    1
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "x107a.png 6768.90: the 3 rows are blue/red/green/cyan/yellow piece cells, no grey garbage"
+  },
+  {
+   "n": "g4-316",
+   "id": "x108",
+   "side": "p1",
+   "op": "add",
+   "t": 6824.9,
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x108b.png: T spun into the slot 6824.8, 'Single' (T-Spin Single) banner 6824.9-6825.2, coloured row flash 6824.9, score 22432->24832 (+2400 = TSS, B2B broken by the REN singles); KO 6825.17"
+  },
+  {
+   "n": "g4-318",
+   "id": "x109",
+   "side": "p1",
+   "op": "add",
+   "t": 6861.4,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x109a.png: p1 T locks 6861.37 (score 29327->29357 hard drop), coloured row flash 6861.40 with 14 REN, score ->31757 (+2400 = single 300 + REN 14 bonus); p2 board starts to tilt 6861.44 (KO frame 6861.40)"
+  },
+  {
+   "n": "g4-320",
+   "id": "x110",
+   "side": "p1",
+   "op": "add",
+   "t": 6893.54,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x110a.png: J locks 6893.53 (score 17908->17940), coloured row flash 6893.54 with REN, score ->19440 (+1500 = single 300 + REN 8 bonus); KO 6893.7"
+  },
+  {
+   "n": "g4-321",
+   "id": "x112",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6978.18,
+   "t_end": 6985.4,
+   "events": [
+    {
+     "t": 6984.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6984.57,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 6985.6,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6978.2,
+     null,
+     0
+    ],
+    [
+     6978.43,
+     null,
+     0
+    ],
+    [
+     6984.13,
+     "quad",
+     4
+    ],
+    [
+     6985.37,
+     "double",
+     2
+    ]
+   ],
+   "source": "x112a.png/x112b.png + score: p1 Z locks 6978.10 (chain None 6978.17; Nones run ~0.1 s after the score's hard-drop ticks all game), then nothing locks until after the lag; O tops out the catch-up at 6984.4, I into right well -> TETRIS 6984.57 (+16 drop, +3600 b2b, BACK banner), next I (NEXT shifts once) into same well -> second TETRIS 6985.60 (+3750 = tetris b2b + REN1, TETRIS banner 6985.35-6985.95)"
+  },
+  {
+   "n": "g4-322",
+   "id": "x112",
+   "side": "p2",
+   "op": "remove",
+   "t": 6979.27,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "source": "x112a.png: only one TETRIS on p2 between the TSS (+3600 b2b at 6977.53, T-SPIN Single/BACK to BACK banner 6978.0) and 6985.43: the I creeps down the right well during the lag and clears 4 at 6983.07 (+3600, flash 6983.4, TETRIS banner 6984.0)"
+  },
+  {
+   "n": "g4-323",
+   "id": "x112",
+   "side": "p1",
+   "op": "add",
+   "t": 6994.0,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "x112c.png: p1 I drops into the garbage well 6993.9, 4 grey rows flash 6994.0, TETRIS + BACK banners, score 70836->75060 (+4200 = tetris b2b + REN); KO 6994.77"
+  },
+  {
+   "n": "g4-325",
+   "id": "x114",
+   "side": "p1",
+   "op": "add",
+   "t": 7045.3,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x114.png: J locks 7045.27 (+14), coloured row flash 7045.30 with REN, score 12658->13558 (+900 = single 300 + REN 4 bonus 600, after +600/+750 for the two previous REN singles); KO 7045.5"
+  },
+  {
+   "n": "g4-327",
+   "id": "x115",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7095.0,
+   "t_end": 7101.2,
+   "events": [
+    {
+     "t": 7095.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7096.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7096.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7096.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7097.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7097.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7097.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7098.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7098.77,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7099.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7099.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7100.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7100.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7100.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7101.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7095.3,
+     null,
+     0
+    ],
+    [
+     7095.3,
+     null,
+     0
+    ],
+    [
+     7095.3,
+     "tsd",
+     2
+    ],
+    [
+     7095.73,
+     "single",
+     1
+    ],
+    [
+     7096.17,
+     null,
+     0
+    ],
+    [
+     7096.57,
+     null,
+     0
+    ],
+    [
+     7096.87,
+     null,
+     0
+    ],
+    [
+     7097.1,
+     null,
+     0
+    ],
+    [
+     7097.57,
+     null,
+     0
+    ],
+    [
+     7097.83,
+     null,
+     0
+    ],
+    [
+     7098.1,
+     null,
+     0
+    ],
+    [
+     7098.27,
+     null,
+     0
+    ],
+    [
+     7098.7,
+     "tsd",
+     2
+    ],
+    [
+     7099.0,
+     "double",
+     2
+    ],
+    [
+     7100.1,
+     null,
+     0
+    ],
+    [
+     7100.27,
+     null,
+     0
+    ],
+    [
+     7100.73,
+     null,
+     0
+    ],
+    [
+     7100.73,
+     null,
+     0
+    ],
+    [
+     7101.07,
+     null,
+     0
+    ]
+   ],
+   "source": "x115a.png/x115b.png + score.py p2: after the REN single (+900 at 7094.93) there is NO clear until the TSD at 7098.77 (+3600, Double banner, 2 coloured rows) and none after it until the I TETRIS at 7101.50 (+3700, BACK banner, 4-row flash). NEXT heads 7095.7-7098.5 show spawns J,O,T,J,O,L,I,Z,S with T held (L out) and S held (T out) -> 8 plain locks (score ticks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73,~7098.1); after the TSD spawns J,O,Z,S,L,T,I with Z then T held -> 6 plain locks (7099.80,7099.93,7100.33,7100.63,7100.97,7101.27) then the I. The 7099.1 flash is the TSD's effect, score unchanged."
+  },
+  {
+   "n": "g4-346",
+   "id": "x120",
+   "side": "p1",
+   "op": "retype",
+   "t": 7471.83,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x120a.png 7471.90-7472.78: p1 spins the T into column 8 and ONE coloured row clears (the green row above the grey garbage; side tag 'Single'), score 67319->69719 (+2400 = TSS, not b2b). Chain event 7471.83 reads tst 4 lines gc 4, which is impossible; the banner T-SPIN Single was right"
+  },
+  {
+   "n": "g4-347",
+   "id": "x121",
+   "side": "p2",
+   "op": "retype",
+   "t": 7546.17,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 3,
+   "source": "x121a.png 7545.90-7546.78: p2 drops an I vertically into the column-7 well, 4 rows flash (one coloured row and 3 grey garbage rows), TETRIS banner and BACK side tag, score 47914->51514 (+3600 = b2b tetris). The chain's 'tst 4' is a quad; gc 3 stays"
+  },
+  {
+   "n": "g4-348",
+   "id": "x121",
+   "side": "p2",
+   "op": "add",
+   "t": 7547.9,
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "x121b.png 7547.50-7548.16: after the Z (chain None 7547.07) the T spins into the slot and locks by 7547.92 (flash, score 51539); 2 coloured rows above the garbage clear, side tags Double and BACK, score 56939 (+5400 = b2b TSD) at 7547.98; KO frame 7547.97, so the clear counts. Chain has no event for it"
+  },
+  {
+   "n": "g4-352",
+   "id": "x124",
+   "side": "p2",
+   "op": "retype",
+   "t": 7711.23,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "x124a.png 7710.75-7711.85: p2 drops the J vertically into column 1 and the last 3 rows clear into an empty board with the PERFECT CLEAR banner (score 10757->17693 at 7711.23); the next two pieces are an O (7711.65, +38) and an S (7711.75, +38) with no clear. So the PC is the 7711.23 triple; the 7711.57 'double pc1' is the O's lock, not a clear"
+  },
+  {
+   "n": "g4-352",
+   "id": "x124",
+   "side": "p2",
+   "op": "retype",
+   "t": 7711.57,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "x124a.png 7710.75-7711.85: p2 drops the J vertically into column 1 and the last 3 rows clear into an empty board with the PERFECT CLEAR banner (score 10757->17693 at 7711.23); the next two pieces are an O (7711.65, +38) and an S (7711.75, +38) with no clear. So the PC is the 7711.23 triple; the 7711.57 'double pc1' is the O's lock, not a clear"
+  },
+  {
+   "n": "g4-353",
+   "id": "x124",
+   "side": "p2",
+   "op": "add",
+   "t": 7779.2,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x124b.png 7778.76-7779.74: after the Z (7778.84, chain None 7778.6) p2 drops an L vertically into column 10 at ~7779.25 and the coloured row above the garbage clears (white bar 7779.29), score 78716->79034 (+18 drop +300 single), before the KO frame 7779.73. Chain has no event for it"
+  },
+  {
+   "n": "g4-356",
+   "id": "x125",
+   "side": "p2",
+   "op": "add",
+   "t": 7819.85,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x125b.png 7819.00-7820.10: p2's J clears a row at 7819.15 (chain single 7818.83), then the O spawns 7819.80 and locks into the centre gap at ~7819.87, clearing the coloured blue row (white bar 7819.90; the yellow/cyan row and the garbage stay), score 34786->36616 (+30 drop +300 single +1500 = REN 10) before the KO frame 7820.03. Chain has no event for it"
+  },
+  {
+   "n": "g4-357",
+   "id": "x126",
+   "side": "p2",
+   "op": "remove",
+   "t": 7850.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "x126a.png 7850.40-7855.35 + score.py: p2 clears a row at 7850.33 (REN7, +1350; chain single 7849.9), then holds one L in the air from 7851.3 to ~7854.95 (score 17811 flat 7850.33-7854.93, no lock) and locks it at ~7854.95 for a single (+22 +1500 = REN8). So only one piece locks in the gap; the chain's 7850.97 single is a spliced duplicate (with it, 7855.63 would be REN9, but the score bonus is REN8). Not lag: p1 keeps scoring through it"
+  },
+  {
+   "n": "g4-357",
+   "id": "x126",
+   "side": "p2",
+   "op": "add",
+   "t": 7860.2,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x126b.png 7859.95-7860.94: p2's T goes vertically into column 10 and locks at 7860.13 (+22), clearing the coloured blue/red row (white bar 7860.22), +2100 = 300 + REN12 (150x12) at 7860.20. The chain has no clear there (7859.8 single, then Nones 7860.83/7861.4/7861.77); score locks 7860.13, 7861.30, 7861.67, 7862.07, 7862.80, 7863.9 are six pieces against five chain events from 7860.83 on, so the T's single is missing. The REN12 bonus also needs 13 straight clears, which the chain only reaches with this one once the 7850.97 duplicate is gone; max_combo 12 stays, pieces 60 net unchanged"
+  },
+  {
+   "n": "g4-358",
+   "id": "x126",
+   "side": "p1",
+   "op": "add",
+   "t": 7864.6,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x126c.png 7864.40-7865.39: p1 drops the I vertically into column 9, locking at 7864.67 (+20), and the coloured row above the garbage clears (white bar 7864.76), +2700 = 300 + REN16 (150x16) at 7864.73, after the 7863.73 REN15 single (chain 7863.57); KO frame 7865.33, so it counts. Chain has no event for it"
+  },
+  {
+   "n": "g4-361",
+   "id": "x127",
+   "side": "p2",
+   "op": "add",
+   "t": 7919.6,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "x127c.png 7919.00-7920.20: after the J (7919.17) and Z (7919.30), which are the chain Nones 7918.83/7919.2, p2's I drops vertically into the column-1 well at ~7919.65 (+28) and 4 grey garbage rows clear, TETRIS banner with BACK tag, +3600 = b2b tetris at 7919.67, before the KO frame 7920.2. Chain has no event for it"
+  },
+  {
+   "n": "g4-362",
+   "id": "x128",
+   "side": "p1",
+   "op": "add",
+   "t": 7954.85,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x128a.png 7954.60-7955.70: after the REN11 single (+1950 at 7954.07, chain 7954.0) p1's S locks at 7954.87 (+14) and the coloured row above the garbage clears (white bar 7955.00), +2100 = 300 + REN12 at 7954.93, before the KO frame 7955.7. The next I is swapped into hold and the T is still in the air at 7955.70; its +14 lock reads at 7955.73, after the KO frame, so it is not counted. Chain has no event for the S"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": "g4-295",
+   "id": "x103",
+   "player": "p2",
+   "field": "pieces",
+   "was": 65,
+   "value": 66,
+   "source": "x103.png: Z locks 6550.93, white flash row (top garbage row) 6550.96, score 39277->40477 at 6550.97; KO 6550.97"
+  },
+  {
+   "n": "g4-294",
+   "id": "x103",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 9,
+   "value": 10,
+   "source": "x103.png: Z locks 6550.93, white flash row (top garbage row) 6550.96, score 39277->40477 at 6550.97; KO 6550.97"
+  },
+  {
+   "n": "g4-303",
+   "id": "x104",
+   "player": "p2",
+   "field": "pieces",
+   "was": 89,
+   "value": 90,
+   "source": "x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17"
+  },
+  {
+   "n": "g4-303",
+   "id": "x104",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 5,
+   "value": 6,
+   "source": "x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17; b2b run tss 6588.17, quad, tsd, quad, quad, tsd 6600.57, now + this quad"
+  },
+  {
+   "n": "g4-298",
+   "id": "x104",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 15,
+   "value": 12,
+   "source": "-3 (PC triple gc0) -4 (PC tetris gc0) +4 (missed tetris 6602.6). x104a.png 6568.2: the 3 cleared rows are red/orange/yellow/blue piece cells, no grey garbage; PERFECT CLEAR 6568.4; x104b.png 6574.4: 4 rows all coloured piece cells, no grey garbage; PERFECT CLEAR 6574.7; x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17"
+  },
+  {
+   "n": "g4-304",
+   "id": "x105",
+   "player": "p2",
+   "field": "pieces",
+   "was": 170,
+   "value": 171,
+   "source": "x105.png: T spun in at 6714.8, 2-row flash and Double banner 6714.9, score +3600 at 6714.90 (TSD, no B2B), KO frame 6714.9"
+  },
+  {
+   "n": "g4-307",
+   "id": "x106",
+   "player": "p1",
+   "field": "pieces",
+   "was": 58,
+   "value": 66,
+   "source": "x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80; 8 pieces after the T that A last read at 6746.74 (J,L,T,J + 4 plain locks)"
+  },
+  {
+   "n": "g4-307",
+   "id": "x106",
+   "player": "p1",
+   "field": "garbage_cleared",
+   "was": 8,
+   "value": 11,
+   "source": "window gc 2 -> 5; x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80"
+  },
+  {
+   "n": "g4-311",
+   "id": "x107",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 9,
+   "value": 8,
+   "source": "triple PC 6769.17 gc 1->0 (x107a.png)"
+  },
+  {
+   "n": "g4-316",
+   "id": "x108",
+   "player": "p1",
+   "field": "pieces",
+   "was": 38,
+   "value": 39,
+   "source": "x108b.png: T spun into the slot 6824.8, 'Single' (T-Spin Single) banner 6824.9-6825.2, coloured row flash 6824.9, score 22432->24832 (+2400 = TSS, B2B broken by the REN singles); KO 6825.17"
+  },
+  {
+   "n": "g4-318",
+   "id": "x109",
+   "player": "p1",
+   "field": "pieces",
+   "was": 52,
+   "value": 53,
+   "source": "x109a.png: p1 T locks 6861.37 (score 29327->29357 hard drop), coloured row flash 6861.40 with 14 REN, score ->31757 (+2400 = single 300 + REN 14 bonus); p2 board starts to tilt 6861.44 (KO frame 6861.40)"
+  },
+  {
+   "n": "g4-318",
+   "id": "x109",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 13,
+   "value": 14,
+   "source": "x109a.png: p1 T locks 6861.37 (score 29327->29357 hard drop), coloured row flash 6861.40 with 14 REN, score ->31757 (+2400 = single 300 + REN 14 bonus); p2 board starts to tilt 6861.44 (KO frame 6861.40); REN counter reads 14"
+  },
+  {
+   "n": "g4-320",
+   "id": "x110",
+   "player": "p1",
+   "field": "pieces",
+   "was": 50,
+   "value": 51,
+   "source": "x110a.png: J locks 6893.53 (score 17908->17940), coloured row flash 6893.54 with REN, score ->19440 (+1500 = single 300 + REN 8 bonus); KO 6893.7"
+  },
+  {
+   "n": "g4-320",
+   "id": "x110",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 8,
+   "source": "x110a.png: J locks 6893.53 (score 17908->17940), coloured row flash 6893.54 with REN, score ->19440 (+1500 = single 300 + REN 8 bonus); KO 6893.7; 9th consecutive single after the 6885.53 run start"
+  },
+  {
+   "n": "g4-321",
+   "id": "x112",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 2,
+   "value": 4,
+   "source": "x112a.png/x112b.png + score: p1 Z locks 6978.10 (chain None 6978.17; Nones run ~0.1 s after the score's hard-drop ticks all game), then nothing locks until after the lag; O tops out the catch-up at 6984.4, I into right well -> TETRIS 6984.57 (+16 drop, +3600 b2b, BACK banner), next I (NEXT shifts once) into same well -> second TETRIS 6985.60 (+3750 = tetris b2b + REN1, TETRIS banner 6985.35-6985.95); b2b run tsd 6968.8 (+3600), quad 6970.57 (+3600 b2b), quad 6984.57, quad 6985.60 (+3750), tsd 6989.80 (+5400 b2b), broken by triple 6990.90 (+1650)"
+  },
+  {
+   "n": "g4-322",
+   "id": "x112",
+   "player": "p2",
+   "field": "pieces",
+   "was": 126,
+   "value": 125,
+   "source": "x112a.png: only one TETRIS on p2 between the TSS (+3600 b2b at 6977.53, T-SPIN Single/BACK to BACK banner 6978.0) and 6985.43: the I creeps down the right well during the lag and clears 4 at 6983.07 (+3600, flash 6983.4, TETRIS banner 6984.0); the duplicate clear stood for no extra piece"
+  },
+  {
+   "n": "g4-323",
+   "id": "x112",
+   "player": "p1",
+   "field": "garbage_cleared",
+   "was": 24,
+   "value": 28,
+   "source": "x112c.png: p1 I drops into the garbage well 6993.9, 4 grey rows flash 6994.0, TETRIS + BACK banners, score 70836->75060 (+4200 = tetris b2b + REN); KO 6994.77"
+  },
+  {
+   "n": "g4-325",
+   "id": "x114",
+   "player": "p1",
+   "field": "pieces",
+   "was": 28,
+   "value": 29,
+   "source": "x114.png: J locks 7045.27 (+14), coloured row flash 7045.30 with REN, score 12658->13558 (+900 = single 300 + REN 4 bonus 600, after +600/+750 for the two previous REN singles); KO 7045.5"
+  },
+  {
+   "n": "g4-325",
+   "id": "x114",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 3,
+   "value": 4,
+   "source": "x114.png: J locks 7045.27 (+14), coloured row flash 7045.30 with REN, score 12658->13558 (+900 = single 300 + REN 4 bonus 600, after +600/+750 for the two previous REN singles); KO 7045.5"
+  },
+  {
+   "n": "g4-326",
+   "id": "x115",
+   "player": "p2",
+   "field": "pieces",
+   "was": 311,
+   "value": 307,
+   "source": "x115a.png/x115b.png + score.py p2: after the REN single (+900 at 7094.93) there is NO clear until the TSD at 7098.77 (+3600, Double banner, 2 coloured rows) and none after it until the I TETRIS at 7101.50 (+3700, BACK banner, 4-row flash). NEXT heads 7095.7-7098.5 show spawns J,O,T,J,O,L,I,Z,S with T held (L out) and S held (T out) -> 8 plain locks (score ticks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73,~7098.1); after the TSD spawns J,O,Z,S,L,T,I with Z then T held -> 6 plain locks (7099.80,7099.93,7100.33,7100.63,7100.97,7101.27) then the I. The 7099.1 flash is the TSD's effect, score unchanged.; window held 19 chain events for 15 real pieces (quad kept outside the window); the bag phase break from spawn 77 on fits the same 4 extra spawns"
+  },
+  {
+   "n": "g4-328",
+   "id": "x115",
+   "player": "p1",
+   "field": "pieces",
+   "was": 299,
+   "value": 300,
+   "source": "x115c.png 7233.40-7233.70: p1 I spawns 7233.47 and hard-drops into the right well at 7233.53 (score 211786->211804, +18, no clear); O spawns 7233.63 with no lock before KO (yatta 7233.70). Chain Nones 7232.47/7232.8/7233.13 map to score locks 7232.70/7233.03/7233.37, so the 7233.53 lock is uncounted"
+  },
+  {
+   "n": "g4-333",
+   "id": "x116",
+   "player": "p2",
+   "field": "pieces",
+   "was": 76,
+   "value": 77,
+   "source": "x116b.png: p2 (winner) locks Z 7273.87, J 7274.23, S 7274.38 and I 7274.60 (dropped into col 7, no clear) before KO 7274.73 (yatta 7274.78; next S spawned 7274.70, not locked). Chain has only 3 Nones after the 7272.2 tsd (7273.67/7273.97/7274.33), so the I is uncounted"
+  },
+  {
+   "n": "g4-346",
+   "id": "x120",
+   "player": "p1",
+   "field": "garbage_cleared",
+   "was": 50,
+   "value": 46,
+   "source": "x120a.png 7471.90-7472.78: p1 spins the T into column 8 and ONE coloured row clears (the green row above the grey garbage; side tag 'Single'), score 67319->69719 (+2400 = TSS, not b2b). Chain event 7471.83 reads tst 4 lines gc 4, which is impossible; the banner T-SPIN Single was right; the cleared row is coloured, so the 4 gc on the bad event go"
+  },
+  {
+   "n": "g4-348",
+   "id": "x121",
+   "player": "p2",
+   "field": "pieces",
+   "was": 66,
+   "value": 67,
+   "source": "x121b.png 7547.50-7548.16: after the Z (chain None 7547.07) the T spins into the slot and locks by 7547.92 (flash, score 51539); 2 coloured rows above the garbage clear, side tags Double and BACK, score 56939 (+5400 = b2b TSD) at 7547.98; KO frame 7547.97, so the clear counts. Chain has no event for it"
+  },
+  {
+   "n": "g4-348",
+   "id": "x121",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 10,
+   "value": 11,
+   "source": "x121b.png 7547.50-7548.16: after the Z (chain None 7547.07) the T spins into the slot and locks by 7547.92 (flash, score 51539); 2 coloured rows above the garbage clear, side tags Double and BACK, score 56939 (+5400 = b2b TSD) at 7547.98; KO frame 7547.97, so the clear counts. Chain has no event for it; it extends the unbroken run of 11 b2b clears (7520.97 tst .. 7546.17 quad) to 12"
+  },
+  {
+   "n": "g4-349",
+   "id": "x122",
+   "player": "p1",
+   "field": "pieces",
+   "was": 77,
+   "value": 78,
+   "source": "x122a.png 7599.85-7600.25: after the 7598.73 double, p1's O spawns 7599.88 and locks at 7600.11 (score 48533->48549, no clear), on/just before the KO frame 7600.13 (yatta 7600.21); chain has no event after the double"
+  },
+  {
+   "n": "g4-350",
+   "id": "x123",
+   "player": "p1",
+   "field": "pieces",
+   "was": 134,
+   "value": 135,
+   "source": "x123a.png 7693.90-7694.34: p1 locks the L at 7693.94 (87919->87935) and the J at 7694.22 (->87953, no clear) before the KO frame 7694.3 (yatta 7694.34). Chain Nones 7693.4/7693.73 are the locks at 7693.63 and 7693.94, so the J is uncounted"
+  },
+  {
+   "n": "g4-353",
+   "id": "x124",
+   "player": "p2",
+   "field": "pieces",
+   "was": 137,
+   "value": 138,
+   "source": "x124b.png 7778.76-7779.74: after the Z (7778.84, chain None 7778.6) p2 drops an L vertically into column 10 at ~7779.25 and the coloured row above the garbage clears (white bar 7779.29), score 78716->79034 (+18 drop +300 single), before the KO frame 7779.73. Chain has no event for it"
+  },
+  {
+   "n": "g4-356",
+   "id": "x125",
+   "player": "p2",
+   "field": "pieces",
+   "was": 63,
+   "value": 64,
+   "source": "x125b.png 7819.00-7820.10: p2's J clears a row at 7819.15 (chain single 7818.83), then the O spawns 7819.80 and locks into the centre gap at ~7819.87, clearing the coloured blue row (white bar 7819.90; the yellow/cyan row and the garbage stay), score 34786->36616 (+30 drop +300 single +1500 = REN 10) before the KO frame 7820.03. Chain has no event for it"
+  },
+  {
+   "n": "g4-356",
+   "id": "x125",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 9,
+   "value": 10,
+   "source": "x125b.png 7819.00-7820.10: p2's J clears a row at 7819.15 (chain single 7818.83), then the O spawns 7819.80 and locks into the centre gap at ~7819.87, clearing the coloured blue row (white bar 7819.90; the yellow/cyan row and the garbage stay), score 34786->36616 (+30 drop +300 single +1500 = REN 10) before the KO frame 7820.03. Chain has no event for it; it is the 11th consecutive clear (7809.07..7818.83 + this), REN 10 by the score"
+  },
+  {
+   "n": "g4-358",
+   "id": "x126",
+   "player": "p1",
+   "field": "pieces",
+   "was": 56,
+   "value": 57,
+   "source": "x126c.png 7864.40-7865.39: p1 drops the I vertically into column 9, locking at 7864.67 (+20), and the coloured row above the garbage clears (white bar 7864.76), +2700 = 300 + REN16 (150x16) at 7864.73, after the 7863.73 REN15 single (chain 7863.57); KO frame 7865.33, so it counts. Chain has no event for it"
+  },
+  {
+   "n": "g4-358",
+   "id": "x126",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 15,
+   "value": 16,
+   "source": "x126c.png 7864.40-7865.39: p1 drops the I vertically into column 9, locking at 7864.67 (+20), and the coloured row above the garbage clears (white bar 7864.76), +2700 = 300 + REN16 (150x16) at 7864.73, after the 7863.73 REN15 single (chain 7863.57); KO frame 7865.33, so it counts. Chain has no event for it; the score bonus is REN16"
+  },
+  {
+   "n": "g4-361",
+   "id": "x127",
+   "player": "p2",
+   "field": "pieces",
+   "was": 79,
+   "value": 80,
+   "source": "x127c.png 7919.00-7920.20: after the J (7919.17) and Z (7919.30), which are the chain Nones 7918.83/7919.2, p2's I drops vertically into the column-1 well at ~7919.65 (+28) and 4 grey garbage rows clear, TETRIS banner with BACK tag, +3600 = b2b tetris at 7919.67, before the KO frame 7920.2. Chain has no event for it"
+  },
+  {
+   "n": "g4-361",
+   "id": "x127",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 17,
+   "value": 21,
+   "source": "x127c.png 7919.00-7920.20: after the J (7919.17) and Z (7919.30), which are the chain Nones 7918.83/7919.2, p2's I drops vertically into the column-1 well at ~7919.65 (+28) and 4 grey garbage rows clear, TETRIS banner with BACK tag, +3600 = b2b tetris at 7919.67, before the KO frame 7920.2. Chain has no event for it"
+  },
+  {
+   "n": "g4-362",
+   "id": "x128",
+   "player": "p1",
+   "field": "pieces",
+   "was": 44,
+   "value": 45,
+   "source": "x128a.png 7954.60-7955.70: after the REN11 single (+1950 at 7954.07, chain 7954.0) p1's S locks at 7954.87 (+14) and the coloured row above the garbage clears (white bar 7955.00), +2100 = 300 + REN12 at 7954.93, before the KO frame 7955.7. The next I is swapped into hold and the T is still in the air at 7955.70; its +14 lock reads at 7955.73, after the KO frame, so it is not counted. Chain has no event for the S"
+  },
+  {
+   "n": "g4-362",
+   "id": "x128",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 11,
+   "value": 12,
+   "source": "x128a.png 7954.60-7955.70: after the REN11 single (+1950 at 7954.07, chain 7954.0) p1's S locks at 7954.87 (+14) and the coloured row above the garbage clears (white bar 7955.00), +2100 = 300 + REN12 at 7954.93, before the KO frame 7955.7. The next I is swapped into hold and the T is still in the air at 7955.70; its +14 lock reads at 7955.73, after the KO frame, so it is not counted. Chain has no event for the S; the score bonus is REN12"
+  }
+ ],
+ "freezes": [
+  {
+   "id": "x112",
+   "t0": 6978.7,
+   "t1": 6983.0,
+   "note": "lag: p1's O and p2's I creep down in slow motion (x112a.png 6979.2-6982.8); p2 score frozen 6978.70-6983.07, p1 score frozen 6978.10-6984.43; garbage and catch-up land at once after"
+  }
+ ],
+ "exclude": []
+}

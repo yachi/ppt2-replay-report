@@ -1,0 +1,812 @@
+{
+ "items": [
+  {
+   "n": "g2-149",
+   "verdict": "no change",
+   "note": "x055 p2: one PERFECT CLEAR at ~3767.8, board empty after, logged once in chain (pc x055pc.png; J clears 3 rows, score 10978->17878)"
+  },
+  {
+   "n": "g2-150",
+   "verdict": "no change",
+   "note": "x055 p2: one PERFECT CLEAR at ~3767.8, board empty after, logged once in chain (pc x055pc.png; J clears 3 rows, score 10978->17878)"
+  },
+  {
+   "n": "g2-151",
+   "verdict": "no change",
+   "note": "x055 p2: one PERFECT CLEAR at ~3767.8, board empty after, logged once in chain (pc x055pc.png; J clears 3 rows, score 10978->17878)"
+  },
+  {
+   "n": "g2-152",
+   "verdict": "no change",
+   "note": "x055 p2: one PERFECT CLEAR at ~3767.8, board empty after, logged once in chain (pc x055pc.png; J clears 3 rows, score 10978->17878)"
+  },
+  {
+   "n": "g2-153",
+   "verdict": "no change",
+   "note": "x055 p1 TSD flashes ~3801.85 (score +5400 at 3801.87); chain logs it as tsd at 3801.07 (chain t ~0.8 s early, same offset as the 3798.37 tsd whose score lands 3799.07); lock count 3799.8-3803.1 = 8 = chain (x055end2.png)"
+  },
+  {
+   "n": "g2-154",
+   "verdict": "no change",
+   "note": "x055 p2 +1200 at 3802.3 is a T-SPIN with zero lines (T-SPIN banner, no row cleared, garbage top unchanged 3802.17/3802.27/3802.6, x055p2tspin.png); chain None at 3802.43 is right"
+  },
+  {
+   "n": "g2-155",
+   "verdict": "no change",
+   "note": "x055 p1 O spawned ~3803.16 and is still at the top at KO 3803.3 (x055end3.png); not locked"
+  },
+  {
+   "n": "g2-156",
+   "verdict": "no change",
+   "note": "x056 p2: one PERFECT CLEAR at ~3822.5, board empty after, logged once in chain (pc_x056a.png; single PC, score 12298->15598)"
+  },
+  {
+   "n": "g2-157",
+   "verdict": "no change",
+   "note": "x056 p2: one PERFECT CLEAR at ~3822.5, board empty after, logged once in chain (pc_x056a.png; single PC, score 12298->15598)"
+  },
+  {
+   "n": "g2-158",
+   "verdict": "no change",
+   "note": "x056 p2: one PERFECT CLEAR at ~3822.5, board empty after, logged once in chain (pc_x056a.png; single PC, score 12298->15598)"
+  },
+  {
+   "n": "g2-159",
+   "verdict": "no change",
+   "note": "x056 p2: one PERFECT CLEAR at ~3822.5, board empty after, logged once in chain (pc_x056a.png; single PC, score 12298->15598)"
+  },
+  {
+   "n": "g2-160",
+   "verdict": "no change",
+   "note": "x056 p2: one PERFECT CLEAR at ~3828.7, board empty after, logged once in chain (pc_x056b.png; quad PC, score 19669->32869)"
+  },
+  {
+   "n": "g2-161",
+   "verdict": "no change",
+   "note": "x056 p2: one PERFECT CLEAR at ~3828.7, board empty after, logged once in chain (pc_x056b.png; quad PC, score 19669->32869)"
+  },
+  {
+   "n": "g2-162",
+   "verdict": "no change",
+   "note": "x056 p2: one PERFECT CLEAR at ~3828.7, board empty after, logged once in chain (pc_x056b.png; quad PC, score 19669->32869)"
+  },
+  {
+   "n": "g2-163",
+   "verdict": "fix",
+   "note": "x056 p1 T locks ~3900.15 clearing a single (REN 6, score 79504->80704 at 3900.20), before KO 3900.6; chain has no event (x056end.png). add single, pieces +1, max_combo 5->6"
+  },
+  {
+   "n": "g2-164",
+   "verdict": "fix",
+   "note": "x058 p1: after the tetris at ~3982.95 only J (lock 3984.20) and Z (lock 3984.50) lock before the L double (3984.77); chain has 5 Nones 3983.83/3984.10x3/3984.30 -> 3 phantoms explain the bag shift from spawn 35 (x058a.png); pieces 102->99"
+  },
+  {
+   "n": "g2-165",
+   "verdict": "no change",
+   "note": "x058 p2: one PERFECT CLEAR at ~3978.2, logged once (pc_x058.png)"
+  },
+  {
+   "n": "g2-166",
+   "verdict": "no change",
+   "note": "x058 p2: one PERFECT CLEAR at ~3978.2, board empty after, logged once in chain (pc_x058.png; triple PC, score 10798->17734)"
+  },
+  {
+   "n": "g2-167",
+   "verdict": "no change",
+   "note": "x058 p2: one PERFECT CLEAR at ~3978.2, board empty after, logged once in chain (pc_x058.png; triple PC, score 10798->17734)"
+  },
+  {
+   "n": "g2-168",
+   "verdict": "no change",
+   "note": "x058 p2: one PERFECT CLEAR at ~3978.2, board empty after, logged once in chain (pc_x058.png; triple PC, score 10798->17734)"
+  },
+  {
+   "n": "g2-169",
+   "verdict": "fix",
+   "note": "x059 p2 S locks ~4050.9 filling the top garbage row hole and clearing it (REN 11 single, score 22045->23995 at 4050.93), before KO 4051.23; chain has no event (x059end.png, x059zoom.png)"
+  },
+  {
+   "n": "g2-170",
+   "verdict": "fix",
+   "note": "x060 p2 L locks ~4087.05 filling the top garbage row and clearing it (flash 4087.12, score 22686->23786 at 4087.10), before KO 4087.47; chain's last clear is the 4085.67 single (score 4086.03) (x060end.png)"
+  },
+  {
+   "n": "g2-171",
+   "verdict": "no change",
+   "note": "x061 p2: one PERFECT CLEAR at ~4104.6, board empty after, logged once in chain (pc_x061.png; triple PC, score 10938->17874)"
+  },
+  {
+   "n": "g2-172",
+   "verdict": "no change",
+   "note": "x061 p2: one PERFECT CLEAR at ~4104.6, board empty after, logged once in chain (pc_x061.png; triple PC, score 10938->17874)"
+  },
+  {
+   "n": "g2-173",
+   "verdict": "no change",
+   "note": "x061 p2: one PERFECT CLEAR at ~4104.6, board empty after, logged once in chain (pc_x061.png; triple PC, score 10938->17874)"
+  },
+  {
+   "n": "g2-174",
+   "verdict": "no change",
+   "note": "x061 p2: one PERFECT CLEAR at ~4104.6, board empty after, logged once in chain (pc_x061.png; triple PC, score 10938->17874)"
+  },
+  {
+   "n": "g2-175",
+   "verdict": "no change",
+   "note": "x061 p1 +300 at 4211.33 is p1's single (flash at the top of its board 4211.38, x061end.png); it is the chain's p1 single at 4210.50 (no other p1 clear 4208.5-4212.7; chain t ~0.8 s early). Count right"
+  },
+  {
+   "n": "g2-176",
+   "verdict": "no change",
+   "note": "x061 p2 '+100' at 4211.97 is a score-reader misread: the frames at 4212.02 and 4212.18 show 00159536 unchanged (x061end.png)"
+  },
+  {
+   "n": "g2-177",
+   "verdict": "fix",
+   "note": "x061 p2 4 REN single at ~4212.34 (garbage-row flash 4212.34-4212.50, 4 REN banner, score 159536->160461), before KO 4212.67; chain's last p2 clear is the 3 REN single at 4211.17 (x061end.png)"
+  },
+  {
+   "n": "g2-178",
+   "verdict": "no change",
+   "note": "x062 p1: the clear after the T at ~4226.2 is a T-SPIN Triple: 3 rows, score 471->5271 (+4800 = TST, a TSS would be 2400) (x062a.png); banner read as Single is a misread"
+  },
+  {
+   "n": "g2-179",
+   "verdict": "fix",
+   "note": "x062 p1 J locks ~4258.44 clearing a coloured row (flash 4258.60, score 35496->38196 = single REN 16), before KO 4259.27; the O that spawned 4259.24 never locked. Chain's last clear is 4257.27 (x062end.png)"
+  },
+  {
+   "n": "g2-180",
+   "verdict": "no change",
+   "note": "x063 p2: one PERFECT CLEAR at ~4273.9, board empty after, logged once in chain (pc_x063.png; double PC by the T, PERFECT CLEAR banner, no T-SPIN banner, score 6895->11581)"
+  },
+  {
+   "n": "g2-181",
+   "verdict": "no change",
+   "note": "x063 p2: one PERFECT CLEAR at ~4273.9, board empty after, logged once in chain (pc_x063.png; double PC by the T, PERFECT CLEAR banner, no T-SPIN banner, score 6895->11581)"
+  },
+  {
+   "n": "g2-182",
+   "verdict": "no change",
+   "note": "x063 p2: one PERFECT CLEAR at ~4273.9, board empty after, logged once in chain (pc_x063.png; double PC by the T, PERFECT CLEAR banner, no T-SPIN banner, score 6895->11581)"
+  },
+  {
+   "n": "g2-183",
+   "verdict": "no change",
+   "note": "x063 p2: one PERFECT CLEAR at ~4273.9, board empty after, logged once in chain (pc_x063.png; double PC by the T, PERFECT CLEAR banner, no T-SPIN banner, score 6895->11581)"
+  },
+  {
+   "n": "g2-184",
+   "verdict": "fix",
+   "note": "x063 p1 J locks 4284.10 (score +20) and clears a single (flash 4284.10-4284.20, score +1650 at 4284.17 = REN 9), on/before the KO frame 4284.17; chain has no event (x063end.png). Also the chain None at 4277.47 is a single: S lock ~4277.6 with a clear flash at 4277.70 and score +600 (REN 2) at 4277.63 (x063b.png)"
+  },
+  {
+   "n": "g2-185",
+   "verdict": "fix",
+   "note": "x063 p1 last J locked 4284.10, before the KO frame 4284.17: +1 piece, given under g2-184"
+  },
+  {
+   "n": "g2-186",
+   "verdict": "no change",
+   "note": "x064 p1: the clear at ~4296.6 is a T-SPIN Triple: score +4800 at 4297.17 (a TSS would be +2400); 'Single' banner read is a misread; chain tst right"
+  },
+  {
+   "n": "g2-187",
+   "verdict": "no change",
+   "note": "x065 p2: one PERFECT CLEAR at ~4337.8, board empty after, logged once in chain (pc_x065.png; triple PC, score 20290->27190)"
+  },
+  {
+   "n": "g2-188",
+   "verdict": "no change",
+   "note": "x065 p2: one PERFECT CLEAR at ~4337.8, board empty after, logged once in chain (pc_x065.png; triple PC, score 20290->27190)"
+  },
+  {
+   "n": "g2-189",
+   "verdict": "no change",
+   "note": "x065 p2: one PERFECT CLEAR at ~4337.8, board empty after, logged once in chain (pc_x065.png; triple PC, score 20290->27190)"
+  },
+  {
+   "n": "g2-190",
+   "verdict": "no change",
+   "note": "x065 p2: one PERFECT CLEAR at ~4337.8, board empty after, logged once in chain (pc_x065.png; triple PC, score 20290->27190)"
+  },
+  {
+   "n": "g2-191",
+   "verdict": "no change",
+   "note": "x065 p1: 4 singles with score jumps 4335.90/4337.20/4338.13/4339.63 = chain singles 4335.8/4336.57/4337.83/4338.77 (chain t ~0.8 s early); +750 at 4339.6 is the 3 REN single already in chain (banner 4339.7). Count matches"
+  },
+  {
+   "n": "g2-192",
+   "verdict": "no change",
+   "note": "x065 p2 '+130' at 4340.14 is a score-reader misread: frames show 27473 -> 27503 (+30, soft drop), no row clears"
+  },
+  {
+   "n": "g2-193",
+   "verdict": "no change",
+   "note": "x065 p2 '+88' at 4341.17 is after KO 4340.97 / a misread; no clear before KO"
+  },
+  {
+   "n": "g2-194",
+   "verdict": "fix",
+   "note": "x066 p2 vertical S locks ~4370.30 filling the coloured row and the hole of the top garbage row; both rows flash 4370.33-4370.40, score 20417->22667 (+2250 = double REN 9), on/before KO frame 4370.37; chain has no event (x066end.png, x066zoom.png)"
+  },
+  {
+   "n": "g2-195",
+   "verdict": "fix",
+   "note": "x066 p2 last S locked ~4370.30, before/on the KO frame 4370.37, and cleared a double: +1 piece and the clear, given under g2-194"
+  },
+  {
+   "n": "g2-196",
+   "verdict": "no change",
+   "note": "x067 p1: the clear at ~4384.3 is a T-SPIN Triple: score +4800 at 4384.93; 'Single' banner read is a misread; chain tst right"
+  },
+  {
+   "n": "g2-197",
+   "verdict": "fix",
+   "note": "x067 p1: S locks 4402.03 with no clear (= chain None at 4401.73), then Z locks ~4402.27 clearing the coloured row (flash 4402.30, +300 single REN 0) before KO 4402.9; the J at 4403.00 is after KO (x067end.png)"
+  },
+  {
+   "n": "g2-198",
+   "verdict": "no change",
+   "note": "x068 p2: the clear at 4429.43 scores +300 at 4430.27 = a plain single (a TSS would be 2400); chain type right (x068a.png)"
+  },
+  {
+   "n": "g2-199",
+   "verdict": "fix",
+   "note": "x068 p1 vertical I locks 4440.80 (+20) in the hole of the top garbage row, clearing that row and 2 coloured rows: +1800 at 4440.83 = triple REN 2 after the B2B quad (+3750 REN 1); board after has 7 garbage rows, not 8; before KO 4441.53. Chain has no event (x068z.png, x068ba.png)"
+  },
+  {
+   "n": "g2-200",
+   "verdict": "no change",
+   "note": "x069 p1: the clear at ~4454.4 is a T-SPIN Triple: score +4800 at 4455.16 (a TSS would be +2400); 'Single' banner read is a misread; chain tst right"
+  },
+  {
+   "n": "g2-201",
+   "verdict": "no change",
+   "note": "x069 p1 +7200 at 4500.87 is the chain's B2B tst at 4500.17 (T spun 4500.4, 3 rows flash 4501.0; 7200 = 4800 x1.5); chain t ~0.7 s early (x069end.png)"
+  },
+  {
+   "n": "g2-202",
+   "verdict": "fix",
+   "note": "x069 p1 vertical I dropped into the left well column locks ~4501.90 (+20) and clears 4 garbage rows (flash 4501.93-4502.1), score +3750 at 4501.97 = B2B quad REN 1, before KO 4502.17; chain has no event after the 4500.17 tst (x069end.png, x069q.png)"
+  },
+  {
+   "n": "g2-203",
+   "verdict": "no change",
+   "note": "x070 p2: one PERFECT CLEAR at ~4519.0, board empty after, logged once in chain (pc_x070.png; double PC, score 10042->14692)"
+  },
+  {
+   "n": "g2-205",
+   "verdict": "no change",
+   "note": "x070 p2: one PERFECT CLEAR at ~4519.0, board empty after, logged once in chain (pc_x070.png; double PC, score 10042->14692)"
+  },
+  {
+   "n": "g2-206",
+   "verdict": "no change",
+   "note": "x070 p2: one PERFECT CLEAR at ~4519.0, board empty after, logged once in chain (pc_x070.png; double PC, score 10042->14692)"
+  },
+  {
+   "n": "g2-207",
+   "verdict": "no change",
+   "note": "x070 p2: one PERFECT CLEAR at ~4519.0, board empty after, logged once in chain (pc_x070.png; double PC, score 10042->14692)"
+  },
+  {
+   "n": "g2-204",
+   "verdict": "fix",
+   "note": "x070 p2: the clear at 4514.83 (score at 4515.63) is a T-SPIN Single with back-to-back: T rotated into the bottom slot, one row cleared, 'Single' + BACK labels, score 5238->8988 (+3750 = 2400x1.5 + 150 REN 1; a plain single would be +450) (x070tss.png). Retype single -> tss"
+  },
+  {
+   "n": "g2-208",
+   "verdict": "fix",
+   "note": "x070 p2 J dropped vertically into the col-3 hole of the top two garbage rows locks ~4557.55 and clears both (white flash 4557.6-4557.8), score 64232->66662 (+2430 = double REN 10 + drop), before KO 4558.07; chain's last clear is the 4556.43 double (x070end.png)"
+  },
+  {
+   "n": "g2-209",
+   "verdict": "no change",
+   "note": "x071 p2: one PERFECT CLEAR at ~4574.6, board empty after, logged once in chain (pc_x071.png; triple PC, score 10936->17871)"
+  },
+  {
+   "n": "g2-211",
+   "verdict": "no change",
+   "note": "x071 p2: one PERFECT CLEAR at ~4574.6, board empty after, logged once in chain (pc_x071.png; triple PC, score 10936->17871)"
+  },
+  {
+   "n": "g2-212",
+   "verdict": "no change",
+   "note": "x071 p2: one PERFECT CLEAR at ~4574.6, board empty after, logged once in chain (pc_x071.png; triple PC, score 10936->17871)"
+  },
+  {
+   "n": "g2-213",
+   "verdict": "no change",
+   "note": "x071 p2: one PERFECT CLEAR at ~4574.6, board empty after, logged once in chain (pc_x071.png; triple PC, score 10936->17871)"
+  },
+  {
+   "n": "g2-210",
+   "verdict": "no change",
+   "note": "x071 p1: the clear at ~4570.3 is a T-SPIN Triple: score +4800 at 4571.03; 'Single' banner read is a misread; chain tst right"
+  },
+  {
+   "n": "g2-214",
+   "verdict": "no change",
+   "note": "x071 p2 last locks: I ~4606.03, T ~4606.33, Z ~4606.68 (= chain Nones 4605.87/4606.13/4606.43, ~0.2 s early); the J that spawned 4606.8 is still at the top at KO 4606.83 and never locks (x071end.png). Count right"
+  },
+  {
+   "n": "g2-215",
+   "verdict": "no change",
+   "note": "x071 p2 '+100' at 4607.1 is after KO 4606.83 and a misread: frames 4606.7-4607.1 show 00054567 unchanged (x071end.png)"
+  },
+  {
+   "n": "g2-216",
+   "verdict": "no change",
+   "note": "x072 p1: the clear at ~4620.2 is a T-SPIN Triple: score +4800 at 4620.90; 'Single' banner read is a misread; chain tst right"
+  },
+  {
+   "n": "g2-217",
+   "verdict": "no change",
+   "note": "x072 p2: after the quad (+2400 at 4693.40) the only clear is the S that drifts down and locks ~4696.5 clearing one row (+450 = single REN 1 at 4696.53); score is flat 4693.43-4696.50, so this is the chain's single logged at 4694.2 (chain t ~2.3 s early here, count right) (x072p2.png)"
+  },
+  {
+   "n": "g2-218",
+   "verdict": "no change",
+   "note": "x072 p1 +3600 at 4696.90 is the chain tsd at 4696.1 (T into the slot, 2 rows flash 4696.8-4697.1; non-B2B TSD = 3600); the next J spawns 4697.7 and is still falling at KO 4697.93 (x072p1.png)"
+  }
+ ],
+ "event_fixes": [
+  {
+   "n": "g2-163",
+   "id": "x056",
+   "side": "p1",
+   "op": "add",
+   "t": 3900.17,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x056end.png: T spawn 3900.05, flash on the coloured row 3900.20, score 79504->80704 (+1200 = single REN 6; previous REN singles +450..+1050 at 3895.53/3896.60/3897.67/3898.43/3899.30). KO 3900.6"
+  },
+  {
+   "n": "g2-164",
+   "id": "x058",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3983.8,
+   "t_end": 3984.35,
+   "events": [
+    {
+     "t": 3984.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3984.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3983.83,
+     null,
+     0
+    ],
+    [
+     3984.1,
+     null,
+     0
+    ],
+    [
+     3984.1,
+     null,
+     0
+    ],
+    [
+     3984.1,
+     null,
+     0
+    ],
+    [
+     3984.3,
+     null,
+     0
+    ]
+   ],
+   "source": "x058a.png: after the TETRIS no piece until J spawn 3983.88; J locks 3984.20 (score 19915->19931), Z spawns 3984.38 locks 3984.50 (->19945), L spawns 3984.62 and clears the double (->20861 at 3984.80). Score frozen 19915 3982.97-3984.20"
+  },
+  {
+   "n": "g2-169",
+   "id": "x059",
+   "side": "p2",
+   "op": "add",
+   "t": 4050.9,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x059end.png/x059zoom.png: S lock 4050.90 into the hole of the top garbage row, that row flashes 4050.92-4051.1, score +1950 (= single REN 11; previous +1800 at 4050.10). KO 4051.23"
+  },
+  {
+   "n": "g2-170",
+   "id": "x060",
+   "side": "p2",
+   "op": "add",
+   "t": 4087.1,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x060end.png: L spawn 4086.76, lock ~4087.05 into the right-column hole of the top garbage row, that row flashes 4087.12-4087.36, score +1100 at 4087.10. KO 4087.47"
+  },
+  {
+   "n": "g2-177",
+   "id": "x061",
+   "side": "p2",
+   "op": "add",
+   "t": 4212.34,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x061end.png: p2 piece locks ~4212.3, top garbage row flashes 4212.34-4212.50 with the 4 REN banner, score 159536 -> 160461 at 4212.37 (+900 + drop = single REN 4). KO 4212.67"
+  },
+  {
+   "n": "g2-179",
+   "id": "x062",
+   "side": "p1",
+   "op": "add",
+   "t": 4258.5,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x062end.png: J spawn 4258.12, lock ~4258.44, coloured row flashes 4258.60-4258.92, score +2700 at 4258.57 (REN singles +2100/+2250/+2400/+2550 at 4254.87/4255.67/4256.53/4257.43 are the chain's 4254.73..4257.27). KO 4259.27"
+  },
+  {
+   "n": "g2-184",
+   "id": "x063",
+   "side": "p1",
+   "op": "add",
+   "t": 4284.13,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x063end.png: J spawn 4284.00, lock 4284.10 (score 22659->22679), coloured row flash 4284.10-4284.20, score -> 24329 at 4284.17 (+1650 = single REN 9). KO frame 4284.17"
+  },
+  {
+   "n": "g2-184",
+   "id": "x063",
+   "side": "p1",
+   "op": "retype",
+   "t": 4277.47,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x063b.png: S locks ~4277.6 and a row flashes 4277.70 under the lingering TETRIS banner; score 14597->15197 at 4277.63 (+600 = single REN 2 after the REN-1 quad +3750 at 4276.63). Score jumps 4277.63/4278.43/4279.83/4280.70/4281.50/4282.33/4283.27/4284.17 = 8 clears after the quad; chain had 6 + this None"
+  },
+  {
+   "n": "g2-194",
+   "id": "x066",
+   "side": "p2",
+   "op": "add",
+   "t": 4370.33,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "x066end.png/x066zoom.png: S lock ~4370.30, two rows (one coloured, one garbage) flash 4370.33-4370.40, score 20417->22667 (+2250 = 900+150*9). KO frame 4370.37"
+  },
+  {
+   "n": "g2-197",
+   "id": "x067",
+   "side": "p1",
+   "op": "add",
+   "t": 4402.3,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x067end.png: Z lock ~4402.27, coloured row flashes 4402.30, score +300 (+26 drop). KO 4402.9"
+  },
+  {
+   "n": "g2-199",
+   "id": "x068",
+   "side": "p1",
+   "op": "add",
+   "t": 4440.83,
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 1,
+   "source": "x068z.png/x068ba.png: I spawn ~4440.68, lock 4440.80 (score 32598->32618), +1800 at 4440.83 (= 1500+150*2, triple REN 2); garbage rows 8 -> 7 and the top-garbage-row hole was the I's column. KO 4441.53"
+  },
+  {
+   "n": "g2-202",
+   "id": "x069",
+   "side": "p1",
+   "op": "add",
+   "t": 4501.93,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "x069q.png: I spawn 4501.6, rotated into the col-0 well of 4 garbage rows, lock ~4501.90 (64857->64877), the 4 garbage rows flash white 4501.93-4502.10, score -> 68627 at 4501.97 (+3750 = 3600 B2B quad + 150 REN 1). KO 4502.17"
+  },
+  {
+   "n": "g2-204",
+   "id": "x070",
+   "side": "p2",
+   "op": "retype",
+   "t": 4514.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x070tss.png: T spun into the floor slot 4515.5-4515.6, bottom row flashes, Single + BACK(-to-back) labels, score +3750 at 4515.63 right after the opening TST (+4800 at 4514.10)"
+  },
+  {
+   "n": "g2-208",
+   "id": "x070",
+   "side": "p2",
+   "op": "add",
+   "t": 4557.57,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "x070end.png: J spawn 4557.4, lock ~4557.55 in the col-3 hole of the top 2 garbage rows, both flash 4557.6-4557.8, score +2430 at 4557.57 (900+150*10 +30 drop). KO 4558.07; the 4557.9 flash changes no score"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": "g2-163",
+   "id": "x056",
+   "player": "p1",
+   "field": "pieces",
+   "was": 153,
+   "value": 154,
+   "source": "T lock at 3900.15 missing from chain, before KO 3900.6 (x056end.png)"
+  },
+  {
+   "n": "g2-163",
+   "id": "x056",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 5,
+   "value": 6,
+   "source": "score increments +450,+600,+750,+900,+1050,+1200 for 6 consecutive REN singles after the 3894.23 double = REN 6"
+  },
+  {
+   "n": "g2-164",
+   "id": "x058",
+   "player": "p1",
+   "field": "pieces",
+   "was": 102,
+   "value": 99,
+   "source": "3 phantom locks at 3983.83-3984.30 (x058a.png, score 3982.5-3985.8)"
+  },
+  {
+   "n": "g2-169",
+   "id": "x059",
+   "player": "p2",
+   "field": "pieces",
+   "was": 37,
+   "value": 38,
+   "source": "S lock 4050.90 missing, before KO"
+  },
+  {
+   "n": "g2-169",
+   "id": "x059",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 10,
+   "value": 11,
+   "source": "tst, tsd and 10 singles in a row (score +1950 = 300+150*11)"
+  },
+  {
+   "n": "g2-169",
+   "id": "x059",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 0,
+   "value": 1,
+   "source": "the 4050.9 single clears the top garbage row (x059zoom.png); earlier REN singles clear coloured rows only (x059ren.png)"
+  },
+  {
+   "n": "g2-170",
+   "id": "x060",
+   "player": "p2",
+   "field": "pieces",
+   "was": 50,
+   "value": 51,
+   "source": "L lock 4087.05 missing from chain, before KO 4087.47"
+  },
+  {
+   "n": "g2-170",
+   "id": "x060",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 4,
+   "value": 5,
+   "source": "the 4087.1 single clears a garbage row (x060end.png)"
+  },
+  {
+   "n": "g2-177",
+   "id": "x061",
+   "player": "p2",
+   "field": "pieces",
+   "was": 216,
+   "value": 217,
+   "source": "lock ~4212.3 missing, before KO"
+  },
+  {
+   "n": "g2-177",
+   "id": "x061",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 48,
+   "value": 49,
+   "source": "4212.34 single clears the top garbage row (x061end.png)"
+  },
+  {
+   "n": "g2-179",
+   "id": "x062",
+   "player": "p1",
+   "field": "pieces",
+   "was": 64,
+   "value": 65,
+   "source": "J lock 4258.44 missing, before KO"
+  },
+  {
+   "n": "g2-179",
+   "id": "x062",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 15,
+   "value": 16,
+   "source": "score +2700 = 300+150*16 for the added single; the previous +2550 was REN 15"
+  },
+  {
+   "n": "g2-184",
+   "id": "x063",
+   "player": "p1",
+   "field": "pieces",
+   "was": 33,
+   "value": 34,
+   "source": "J lock 4284.10 missing (x063end.png)"
+  },
+  {
+   "n": "g2-184",
+   "id": "x063",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 5,
+   "value": 9,
+   "source": "quad +3750 (REN1), singles +600..+1050 (REN2-5), double +1800 (REN6), singles +1350/+1500/+1650 (REN7-9), no break"
+  },
+  {
+   "n": "g2-194",
+   "id": "x066",
+   "player": "p2",
+   "field": "pieces",
+   "was": 41,
+   "value": 42,
+   "source": "S lock ~4370.30 missing, before/on KO frame"
+  },
+  {
+   "n": "g2-194",
+   "id": "x066",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 2,
+   "value": 3,
+   "source": "the 4370.33 double clears the top garbage row (x066zoom.png)"
+  },
+  {
+   "n": "g2-194",
+   "id": "x066",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 8,
+   "value": 9,
+   "source": "+2250 = double at REN 9, continuing the REN-8 chain"
+  },
+  {
+   "n": "g2-197",
+   "id": "x067",
+   "player": "p1",
+   "field": "pieces",
+   "was": 38,
+   "value": 39,
+   "source": "Z lock ~4402.27 missing, before KO 4402.9"
+  },
+  {
+   "n": "g2-199",
+   "id": "x068",
+   "player": "p1",
+   "field": "pieces",
+   "was": 54,
+   "value": 55,
+   "source": "I lock 4440.80 missing, before KO"
+  },
+  {
+   "n": "g2-199",
+   "id": "x068",
+   "player": "p1",
+   "field": "garbage_cleared",
+   "was": 10,
+   "value": 11,
+   "source": "the 4440.83 triple clears the top garbage row (x068ba.png)"
+  },
+  {
+   "n": "g2-202",
+   "id": "x069",
+   "player": "p1",
+   "field": "pieces",
+   "was": 86,
+   "value": 87,
+   "source": "I lock ~4501.90 missing, before KO"
+  },
+  {
+   "n": "g2-202",
+   "id": "x069",
+   "player": "p1",
+   "field": "garbage_cleared",
+   "was": 26,
+   "value": 30,
+   "source": "the 4501.93 quad clears 4 garbage rows (x069q.png)"
+  },
+  {
+   "n": "g2-202",
+   "id": "x069",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 3,
+   "value": 4,
+   "source": "chain run quad 4493.37, tsd 4494.53, quad 4497.13, tst 4500.17 (b2b 3) + this B2B quad (score 3750 has the x1.5) = b2b 4"
+  },
+  {
+   "n": "g2-208",
+   "id": "x070",
+   "player": "p2",
+   "field": "pieces",
+   "was": 94,
+   "value": 95,
+   "source": "J lock ~4557.55 missing, before KO"
+  },
+  {
+   "n": "g2-208",
+   "id": "x070",
+   "player": "p2",
+   "field": "garbage_cleared",
+   "was": 8,
+   "value": 10,
+   "source": "the 4557.57 double clears 2 garbage rows (x070end.png)"
+  },
+  {
+   "n": "g2-208",
+   "id": "x070",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 9,
+   "value": 10,
+   "source": "previous double +2250 at 4556.67 = REN 9; this +2400 = REN 10"
+  }
+ ],
+ "freezes": [],
+ "exclude": []
+}

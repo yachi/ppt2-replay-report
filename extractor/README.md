@@ -53,4 +53,4 @@ video `TJcCRfhwNNI`; its README lists what it changes and how it was checked. `u
 
 The hand fixes for these rows are in `analysis/ppt2-syakegohan/`. See `HISTORY.md` at the repo root.
 
-The amemiya set is a port of `chain/cVO` and is archived separately under `amemiya/`. Read `amemiya/README.md`.
+The amemiya set is a port of `chain/cVO` and is archived separately under `amemiya/`. Read `amemiya/README.md`; its `h3F/` (2026-10-28) and `xKR/` (2026-11-02, `xKRq6okdeUI`, 128 games against uyeshota, いっせい and ゆうくん) are the same chain run on two more streams.

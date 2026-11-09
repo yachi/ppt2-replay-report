@@ -1,0 +1,1218 @@
+[
+ {
+  "id": "x003",
+  "player": "p2",
+  "field": "pieces",
+  "was": 69,
+  "value": 70,
+  "source": "b0 frame check, verified: the tetris I (lock ~363.6) is not in the event list (last event 363.30 is the T, visible at 363.30-363.45); 70 locks by KO 364.17"
+ },
+ {
+  "id": "x004",
+  "player": "p1",
+  "field": "pieces",
+  "was": 69,
+  "value": 70,
+  "source": "b0 frame check, verified: I lock at 412.60 <= KO 412.63; chain last event 412.10"
+ },
+ {
+  "id": "x007",
+  "player": "p2",
+  "field": "pieces",
+  "was": 48,
+  "value": 49,
+  "source": "b0 frame check, verified: L lock ~592.65 missing from events (last 591.47 = the J single, flash 591.93)"
+ },
+ {
+  "id": "x007",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 6,
+  "value": 7,
+  "source": "b0 frame check, verified: the added double continues the REN run ending at 591.47 (REN banner at 592.77); only if max_combo is not re-tallied from events"
+ },
+ {
+  "id": "x008",
+  "player": "p2",
+  "field": "pieces",
+  "was": 321,
+  "value": 320,
+  "source": "b0 frame check, verified: the I (lock ~784.6) is not in events (last 783.07 TSD); no other lock between (board unchanged 783.84-784.47); also -2 for the two duplicate 744.70 phantom locks (g0-030), so 321+1-2=320"
+ },
+ {
+  "id": "x009",
+  "player": "p1",
+  "field": "pieces",
+  "was": 85,
+  "value": 86,
+  "source": "b0 frame check, verified: J lock ~841.1 missing (last event 839.77); only that piece between"
+ },
+ {
+  "id": "x010",
+  "player": "p1",
+  "field": "pieces",
+  "was": 179,
+  "value": 180,
+  "source": "b0 frame check, verified: L lock ~959.6 missing (last event 958.57 = the S single)"
+ },
+ {
+  "id": "x010",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 16,
+  "value": 17,
+  "source": "b0 frame check, verified: the added single continues the run ending 958.57 (REN banner 959.68); only if max_combo is not re-tallied from events"
+ },
+ {
+  "id": "x011",
+  "player": "p1",
+  "field": "pieces",
+  "was": 87,
+  "value": 85,
+  "source": "b0 frame check, verified: two phantom locks at 1009.93 (explains the bad bags at spawns 77 and 84); 1016.3-1018.6 checked: O, Z, L locks match chain 1017.0/1017.33/1017.67 (x011c.png)"
+ },
+ {
+  "id": "x011",
+  "player": "p2",
+  "field": "pieces",
+  "was": 94,
+  "value": 96,
+  "source": "b0 frame check, verified: J (1017.69) and Z (~1017.9) both missing from events (last 1017.43)"
+ },
+ {
+  "id": "x013",
+  "player": "p2",
+  "field": "pieces",
+  "was": 87,
+  "value": 88,
+  "source": "b0 frame check, verified: S lock 1177.85 missing"
+ },
+ {
+  "id": "x013",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 2,
+  "value": 3,
+  "source": "b0 frame check, verified: chain end run REN 2; added double extends it to 3"
+ },
+ {
+  "id": "x014",
+  "player": "p1",
+  "field": "pieces",
+  "was": 45,
+  "value": 46,
+  "source": "b0 frame check, verified: L lock 1213.2 missing"
+ },
+ {
+  "id": "x014",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 9,
+  "value": 10,
+  "source": "b0 frame check, verified: chain end run REN 9; added single extends it to 10"
+ },
+ {
+  "id": "x015",
+  "player": "p2",
+  "field": "pieces",
+  "was": 127,
+  "value": 128,
+  "source": "b0 frame check, verified: L lock 1283.47 missing"
+ },
+ {
+  "id": "x016",
+  "player": "p2",
+  "field": "pieces",
+  "was": 99,
+  "value": 100,
+  "source": "b0 frame check, verified: S lock 1340.77 missing"
+ },
+ {
+  "id": "x016",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 2,
+  "value": 3,
+  "source": "b0 frame check, verified: chain end run REN 2; added single extends to 3"
+ },
+ {
+  "id": "x018",
+  "player": "p2",
+  "field": "pieces",
+  "was": 70,
+  "value": 71,
+  "source": "b0 frame check, verified: I lock 1501.03 missing"
+ },
+ {
+  "id": "x018",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 7,
+  "value": 8,
+  "source": "b0 frame check, verified: chain end run REN 7; added single extends to 8"
+ },
+ {
+  "id": "x019",
+  "player": "p1",
+  "field": "pieces",
+  "was": 72,
+  "value": 73,
+  "source": "b0 frame check, verified: J lock 1550.2 missing (S was held, not locked)"
+ },
+ {
+  "id": "x021",
+  "player": "p1",
+  "field": "pieces",
+  "was": 32,
+  "value": 33,
+  "source": "b0 frame check, amended: Z ~1652.3 and S 1652.6 missing | skeptic amend: Only the S (1652.6) is missing; the Z at ~1652.3 was already counted (see event_fixes[15]). 32+1=33."
+ },
+ {
+  "id": "x005",
+  "player": "p1",
+  "field": "max_b2b",
+  "was": 2,
+  "value": 1,
+  "source": "b0 frame check, verified: after fix the difficult run is tst 424.37, tsd 430.9 (2 clears) -> max_b2b 1; phantom tsmini removed"
+ },
+ {
+  "id": "x023",
+  "player": "p1",
+  "field": "pieces",
+  "was": 51,
+  "value": 52,
+  "source": "b1 frame check, verified: S lock at 1729.60 before KO 1729.77 not in chain (last chain event 1729.2 is the Z lock at 1729.27). /tmp/claude-0/xk/corr/xk/g1/x023a.png"
+ },
+ {
+  "id": "x025",
+  "player": "p1",
+  "field": "pieces",
+  "was": 184,
+  "value": 189,
+  "source": "b1 frame check, verified: chain has 53 lock events in [1895.5,1923.93]; frames show 58 (NEXT shifts + score lock increments) -> +5. /tmp/claude-0/xk/corr/xk/g1/x025a.png"
+ },
+ {
+  "id": "x025",
+  "player": "p2",
+  "field": "pieces",
+  "was": 209,
+  "value": 207,
+  "source": "b1 frame check, verified: chain 8 events in [1919.0,1923.93], frames/score show 6 locks -> -2. /tmp/claude-0/xk/corr/xk/g1/x025g.png"
+ },
+ {
+  "id": "x026",
+  "player": "p1",
+  "field": "pieces",
+  "was": 49,
+  "value": 50,
+  "source": "b1 frame check, verified: O lock 1959.23 before KO 1959.63 not in chain (last chain event 1958.2). /tmp/claude-0/xk/corr/xk/g1/x026a.png"
+ },
+ {
+  "id": "x026",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 14,
+  "value": 15,
+  "source": "b1 frame check, verified: the added 1959.27 single continues the REN (+2550 vs +2400 for the previous single, +150 = one more REN step at level 3). /tmp/claude-0/xk/corr/xk/g1/x026a.png"
+ },
+ {
+  "id": "x027",
+  "player": "p2",
+  "field": "pieces",
+  "was": 174,
+  "value": 175,
+  "source": "b1 frame check, verified: I lock 2062.33 before KO 2062.37 not in chain (last chain clear 2061.13, no later event). /tmp/claude-0/xk/corr/xk/g1/x027b.png"
+ },
+ {
+  "id": "x032",
+  "player": "p2",
+  "field": "pieces",
+  "was": 98,
+  "value": 99,
+  "source": "b1 frame check, verified: L lock 2366.49 before KO 2367.27 missing from chain. /tmp/claude-0/xk/corr/xk/g1/x032a.png"
+ },
+ {
+  "id": "x034",
+  "player": "p1",
+  "field": "pieces",
+  "was": 37,
+  "value": 38,
+  "source": "b1 frame check, amended: net 0: the duplicate 2421.5 triple was counted as a piece and the Z locked at 2422.37 (before KO 2422.43) was not. True total stays 37. /tmp/claude-0/xk/corr/xk/g1/x034a.png | skeptic amend: Triple removal rejected (only one triple in cseq) while the Z add is kept: 37 -> 38."
+ },
+ {
+  "id": "x036",
+  "player": "p1",
+  "field": "pieces",
+  "was": 191,
+  "value": 188,
+  "source": "b1 frame check, verified: 3 phantom None locks at 2523.83/2524.07; queue shifts 189 incl. the topout spawn at 2583.77 vs 191 events. /tmp/claude-0/xk/corr/xk/g1/x036a.png"
+ },
+ {
+  "id": "x036",
+  "player": "p2",
+  "field": "pieces",
+  "was": 208,
+  "value": 210,
+  "source": "b1 frame check, verified: two winner locks 2584.08 and 2584.42 before KO 2584.5 not in the chain (queue shifts 2584.17, 2584.47). /tmp/claude-0/xk/corr/xk/g1/x036b.png"
+ },
+ {
+  "id": "x038",
+  "player": "p1",
+  "field": "pieces",
+  "was": 79,
+  "value": 80,
+  "source": "b1 frame check, verified: L lock + single 2670.33/2670.36 before KO 2670.43. /tmp/claude-0/xk/corr/xk/g1/x038a.png"
+ },
+ {
+  "id": "x039",
+  "player": "p1",
+  "field": "pieces",
+  "was": 46,
+  "value": 47,
+  "source": "b1 frame check, verified: I lock 2705.30 before KO. /tmp/claude-0/xk/corr/xk/g1/x039a.png"
+ },
+ {
+  "id": "x039",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 13,
+  "value": 14,
+  "source": "b1 frame check, verified: previous single 2704.40 scored +2250 = 300 + 13 REN; this triple is REN 14 (+2100 REN bonus). /tmp/claude-0/xk/corr/xk/g1/x039a.png"
+ },
+ {
+  "id": "x042",
+  "player": "p1",
+  "field": "pieces",
+  "was": 48,
+  "value": 49,
+  "source": "b1 frame check, verified: T lock 2907.64 before KO 2908.07. /tmp/claude-0/xk/corr/xk/g1/x042a.png"
+ },
+ {
+  "id": "x042",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 12,
+  "value": 13,
+  "source": "b1 frame check, verified: REN bonuses +1650/+1800/+1950 on the last three singles (2905.97, 2906.77, 2907.67) = REN 11, 12, 13. /tmp/claude-0/xk/corr/xk/g1/x042a.png"
+ },
+ {
+  "id": "x043",
+  "player": "p2",
+  "field": "pieces",
+  "was": 49,
+  "value": 47,
+  "source": "b1 frame check, verified: NEXT shifts: 48 real spawns (the 2941.9 3-step shift is a misread) with the O left in hold at the end -> 47 locks; the event list held 2 phantom Nones at 2941.93. /tmp/claude-0/xk/corr/xk/g1/x043b.png /tmp/claude-0/xk/corr/xk/g1/x043c.png"
+ },
+ {
+  "id": "x044",
+  "player": "p1",
+  "field": "pieces",
+  "was": 60,
+  "value": 61,
+  "source": "b1 frame check, verified: T lock 2987.14 before KO 2987.27. /tmp/claude-0/xk/corr/xk/g1/x044a.png"
+ },
+ {
+  "id": "x044",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 17,
+  "value": 18,
+  "source": "b1 frame check, verified: REN bonus on the 2987.20 single = 2700 = REN 18 (2985.27 +2700 = REN 16, 2986.10 +2850 = REN 17). /tmp/claude-0/xk/corr/xk/g1/x044a.png"
+ },
+ {
+  "id": "x045",
+  "player": "p1",
+  "field": "pieces",
+  "was": 62,
+  "value": 63,
+  "source": "b1 frame check, verified: TSD T lock 3026.52 before KO 3026.67. /tmp/claude-0/xk/corr/xk/g1/x045b.png"
+ },
+ {
+  "id": "x046",
+  "player": "p1",
+  "field": "pieces",
+  "was": 119,
+  "value": 120,
+  "source": "b1 frame check, verified: Z lock 3106.80 before KO 3106.93. /tmp/claude-0/xk/corr/xk/g1/x046c.png"
+ },
+ {
+  "id": "x047",
+  "player": "p2",
+  "field": "pieces",
+  "was": 143,
+  "value": 144,
+  "source": "b1 frame check, verified: I lock ~3184.98 before KO 3185.53. /tmp/claude-0/xk/corr/xk/g1/x047c.png"
+ },
+ {
+  "id": "x047",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 10,
+  "value": 11,
+  "source": "b1 frame check, verified: REN bonus of the 3185.03 triple is 1650 = REN 11 (3182.93 +1650 single = REN 9, 3184.00 +1824 = REN 10). /tmp/claude-0/xk/corr/xk/g1/x047c.png"
+ },
+ {
+  "id": "x048",
+  "player": "p1",
+  "field": "pieces",
+  "was": 67,
+  "value": 68,
+  "source": "b1 frame check, amended: J lock 3225.60 and I lock ~3225.93 by KO 3225.97. /tmp/claude-0/xk/corr/xk/g1/x048a.png | skeptic amend: Only the I add is kept (J already in chain): 67 -> 68."
+ },
+ {
+  "id": "x051",
+  "player": "p2",
+  "field": "pieces",
+  "was": 108,
+  "value": 109,
+  "source": "b1 frame check, verified: J lock 3482.10 before KO 3482.93. /tmp/claude-0/xk/corr/xk/g1/x051a.png"
+ },
+ {
+  "id": "x051",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 6,
+  "value": 7,
+  "source": "b1 frame check, verified: REN bonuses 150,300,450,600,750,900 on the clears 3476.07-3481.23 and 1050 on this double = REN 7. /tmp/claude-0/xk/corr/xk/g1/x051a.png"
+ },
+ {
+  "source": "b1 frame check, verified: Z swapped out of hold 3563.1 locks ~3563.2 and clears one coloured row; score +600 at 3563.27 (single+REN); KO 3563.87. /tmp/claude-0/xk/corr/xk/g1/x052a.png",
+  "id": "x052",
+  "player": "p1",
+  "field": "pieces",
+  "was": 127,
+  "value": 128
+ },
+ {
+  "source": "b1 frame check, verified: O to hold ~3594.95, S hard-dropped, lock flash and +24 drop score at 3595.04, before KO 3595.07; no clear. /tmp/claude-0/xk/corr/xk/g1/x053c.png",
+  "id": "x053",
+  "player": "p1",
+  "field": "pieces",
+  "was": 36,
+  "value": 37
+ },
+ {
+  "id": "x054",
+  "player": "p1",
+  "field": "pieces",
+  "was": 265,
+  "value": 255,
+  "source": "b1 frame check, verified: Event tally after the fixes: 236 non-BREAK chain events, -10 replaced in 3664-3686.5, +29 rebuilt, -1 phantom tst 3611.23, -1 duplicate double 3652.73, +1 None 3653.53, +1 double 3752.2 = 255. The NEXT-shift counter gives 258 shifts but is noisy on REN flashes. /tmp/claude-0/xk/corr/xk/g1/x054d.png"
+ },
+ {
+  "id": "x054",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 4,
+  "value": 10,
+  "source": "b1 frame check, verified: REN 1..10 on the clears 3665.03-3674.70 (bonus 150..1500), started by the quad 3663.77. /tmp/claude-0/xk/corr/xk/g1/x054b.png"
+ },
+ {
+  "id": "x056",
+  "player": "p1",
+  "field": "pieces",
+  "was": 153,
+  "value": 154,
+  "source": "b2 frame check, verified: T lock at 3900.15 missing from chain, before KO 3900.6 (x056end.png)"
+ },
+ {
+  "id": "x056",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 5,
+  "value": 6,
+  "source": "b2 frame check, verified: score increments +450,+600,+750,+900,+1050,+1200 for 6 consecutive REN singles after the 3894.23 double = REN 6"
+ },
+ {
+  "id": "x058",
+  "player": "p1",
+  "field": "pieces",
+  "was": 102,
+  "value": 99,
+  "source": "b2 frame check, verified: 3 phantom locks at 3983.83-3984.30 (x058a.png, score 3982.5-3985.8)"
+ },
+ {
+  "id": "x059",
+  "player": "p2",
+  "field": "pieces",
+  "was": 37,
+  "value": 38,
+  "source": "b2 frame check, verified: S lock 4050.90 missing, before KO"
+ },
+ {
+  "id": "x059",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 10,
+  "value": 11,
+  "source": "b2 frame check, verified: tst, tsd and 10 singles in a row (score +1950 = 300+150*11)"
+ },
+ {
+  "id": "x059",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 0,
+  "value": 1,
+  "source": "b2 frame check, verified: the 4050.9 single clears the top garbage row (x059zoom.png); earlier REN singles clear coloured rows only (x059ren.png)"
+ },
+ {
+  "id": "x060",
+  "player": "p2",
+  "field": "pieces",
+  "was": 50,
+  "value": 51,
+  "source": "b2 frame check, verified: L lock 4087.05 missing from chain, before KO 4087.47"
+ },
+ {
+  "id": "x060",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 4,
+  "value": 5,
+  "source": "b2 frame check, verified: the 4087.1 single clears a garbage row (x060end.png)"
+ },
+ {
+  "id": "x061",
+  "player": "p2",
+  "field": "pieces",
+  "was": 216,
+  "value": 217,
+  "source": "b2 frame check, verified: lock ~4212.3 missing, before KO"
+ },
+ {
+  "id": "x061",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 48,
+  "value": 49,
+  "source": "b2 frame check, verified: 4212.34 single clears the top garbage row (x061end.png)"
+ },
+ {
+  "id": "x062",
+  "player": "p1",
+  "field": "pieces",
+  "was": 64,
+  "value": 65,
+  "source": "b2 frame check, verified: J lock 4258.44 missing, before KO"
+ },
+ {
+  "id": "x062",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 15,
+  "value": 16,
+  "source": "b2 frame check, verified: score +2700 = 300+150*16 for the added single; the previous +2550 was REN 15"
+ },
+ {
+  "id": "x063",
+  "player": "p1",
+  "field": "pieces",
+  "was": 33,
+  "value": 34,
+  "source": "b2 frame check, verified: J lock 4284.10 missing (x063end.png)"
+ },
+ {
+  "id": "x063",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 5,
+  "value": 9,
+  "source": "b2 frame check, verified: quad +3750 (REN1), singles +600..+1050 (REN2-5), double +1800 (REN6), singles +1350/+1500/+1650 (REN7-9), no break"
+ },
+ {
+  "id": "x066",
+  "player": "p2",
+  "field": "pieces",
+  "was": 41,
+  "value": 42,
+  "source": "b2 frame check, verified: S lock ~4370.30 missing, before/on KO frame"
+ },
+ {
+  "id": "x066",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 2,
+  "value": 3,
+  "source": "b2 frame check, verified: the 4370.33 double clears the top garbage row (x066zoom.png)"
+ },
+ {
+  "id": "x066",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 8,
+  "value": 9,
+  "source": "b2 frame check, verified: +2250 = double at REN 9, continuing the REN-8 chain"
+ },
+ {
+  "id": "x067",
+  "player": "p1",
+  "field": "pieces",
+  "was": 38,
+  "value": 39,
+  "source": "b2 frame check, verified: Z lock ~4402.27 missing, before KO 4402.9"
+ },
+ {
+  "id": "x068",
+  "player": "p1",
+  "field": "pieces",
+  "was": 54,
+  "value": 55,
+  "source": "b2 frame check, verified: I lock 4440.80 missing, before KO"
+ },
+ {
+  "id": "x068",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 10,
+  "value": 11,
+  "source": "b2 frame check, verified: the 4440.83 triple clears the top garbage row (x068ba.png)"
+ },
+ {
+  "id": "x069",
+  "player": "p1",
+  "field": "pieces",
+  "was": 86,
+  "value": 87,
+  "source": "b2 frame check, verified: I lock ~4501.90 missing, before KO"
+ },
+ {
+  "id": "x069",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 26,
+  "value": 30,
+  "source": "b2 frame check, verified: the 4501.93 quad clears 4 garbage rows (x069q.png)"
+ },
+ {
+  "id": "x069",
+  "player": "p1",
+  "field": "max_b2b",
+  "was": 3,
+  "value": 4,
+  "source": "b2 frame check, verified: chain run quad 4493.37, tsd 4494.53, quad 4497.13, tst 4500.17 (b2b 3) + this B2B quad (score 3750 has the x1.5) = b2b 4"
+ },
+ {
+  "id": "x070",
+  "player": "p2",
+  "field": "pieces",
+  "was": 94,
+  "value": 95,
+  "source": "b2 frame check, verified: J lock ~4557.55 missing, before KO"
+ },
+ {
+  "id": "x070",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 8,
+  "value": 10,
+  "source": "b2 frame check, verified: the 4557.57 double clears 2 garbage rows (x070end.png)"
+ },
+ {
+  "id": "x070",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 9,
+  "value": 10,
+  "source": "b2 frame check, verified: previous double +2250 at 4556.67 = REN 9; this +2400 = REN 10"
+ },
+ {
+  "id": "x073",
+  "player": "p2",
+  "field": "pieces",
+  "was": 29,
+  "value": 31,
+  "source": "b3 frame check, verified: x073c.png/x073b.png: post-PC locks T 4715.12, Z 4715.35, S 4715.6, L 4715.93 (score 16368->16402), T 4716.10 (16402->16434); KO tilt/やった 4716.23-4716.30. Chain has 3 locks after the PC, misses L and T"
+ },
+ {
+  "id": "x076",
+  "player": "p1",
+  "field": "pieces",
+  "was": 294,
+  "value": 290,
+  "source": "b3 frame check, amended: window 5004.3-5040.23 holds 4 real pieces (Z, L, Z, I; I and J were held) against 6 chain piece events; plus the missed O single at 5050.95: 294-6+4+1 | skeptic amend: Event changes (-6+4 in window, +1 O single) are right, but the arithmetic used the CSV 294, which is a 'manual' value 3 above the cseq tally (291). After the fixes the event list holds 290 pieces (None locks + clears). Amended to the event tally; if the coordinator trusts the manual 294 base instead, 293 is its equivalent."
+ },
+ {
+  "id": "x076",
+  "player": "p2",
+  "field": "pieces",
+  "was": 356,
+  "value": 340,
+  "source": "b3 frame check, amended: 5005.57-5039.4 holds 4 real pieces (O, S, I, T) against 8 chain piece events (-4); tail 5047-5051.67 holds 7 pieces against 2 (+5): 356-4+5 | skeptic amend: Window -4, tail +5 is right on the frames, but CSV 356 (manual) is 17 above the cseq tally 339; after the fixes the event list holds 340. Amended to the event tally; the 17-piece base gap is unexplained and worth a look (no long event gaps outside the lag windows)."
+ },
+ {
+  "id": "x077",
+  "player": "p2",
+  "field": "pieces",
+  "was": 58,
+  "value": 59,
+  "source": "b3 frame check, verified: the last REN single piece locks at 5087.03 (score +1350 on the KO frame); chain has no event for it"
+ },
+ {
+  "id": "x078",
+  "player": "p2",
+  "field": "pieces",
+  "was": 110,
+  "value": 111,
+  "source": "b3 frame check, verified: x078a.png: O spawns 5153.03, lands at right 5153.23 (score 83916->83946, plain lock); KO 5153.4; L lands 5153.47 (after KO)"
+ },
+ {
+  "id": "x079",
+  "player": "p1",
+  "field": "pieces",
+  "was": 39,
+  "value": 40,
+  "source": "b3 frame check, verified: the Z of the 5190.9 single is not in the chain"
+ },
+ {
+  "id": "x079",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 4,
+  "value": 5,
+  "source": "b3 frame check, verified: six consecutive REN singles 5186.3-5190.9 (scores +300..+1050 in steps of 150 = REN0..REN5)"
+ },
+ {
+  "id": "x083",
+  "player": "p1",
+  "field": "pieces",
+  "was": 54,
+  "value": 55,
+  "source": "b3 frame check, verified: x083a.png: TSD T locked on KO frame 5386.93, not in chain"
+ },
+ {
+  "id": "x083",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 11,
+  "value": 12,
+  "source": "b3 frame check, verified: x083a.png: TSD at 5386.93 continues REN 11 to 12 (+150x12 in the +5400 jump)"
+ },
+ {
+  "id": "x086",
+  "player": "p1",
+  "field": "pieces",
+  "was": 45,
+  "value": 46,
+  "source": "b3 frame check, verified: x086a.png: L locked 5537.57 before KO 5537.77, not in chain"
+ },
+ {
+  "id": "x086",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 5,
+  "value": 6,
+  "source": "b3 frame check, verified: x086a.png: +1230 at 5537.57 includes REN6 bonus (900)"
+ },
+ {
+  "id": "x087",
+  "player": "p1",
+  "field": "pieces",
+  "was": 66,
+  "value": 67,
+  "source": "b3 frame check, verified: x087a.png: L locked 5581.0, before KO 5581.57, not in chain"
+ },
+ {
+  "id": "x088",
+  "player": "p2",
+  "field": "pieces",
+  "was": 118,
+  "value": 118,
+  "source": "b3 frame check, amended: x088b.png: J locked ~5650.55, before KO 5651.03, not in chain | skeptic amend: The J triple is a real extra piece, but CSV 118 is 1 above the cseq tally 117; after the add the event list holds 118."
+ },
+ {
+  "id": "x088",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 18,
+  "value": 20,
+  "source": "b3 frame check, verified: x088b.png: the 5650.55 triple clears two garbage rows (hole column 9)"
+ },
+ {
+  "id": "x090",
+  "player": "p1",
+  "field": "pieces",
+  "was": 90,
+  "value": 91,
+  "source": "b3 frame check, verified: x090a.png: S locked ~5738.6, before KO 5739.23, not in chain"
+ },
+ {
+  "id": "x090",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 20,
+  "value": 22,
+  "source": "b3 frame check, verified: x090a.png: the 5738.6 double clears two garbage rows (coloured rows above remain)"
+ },
+ {
+  "id": "x091",
+  "player": "p1",
+  "field": "pieces",
+  "was": 65,
+  "value": 66,
+  "source": "b3 frame check, verified: x091a.png: I locked 5781.15 before KO 5781.17"
+ },
+ {
+  "id": "x091",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 7,
+  "value": 9,
+  "source": "b3 frame check, verified: x091a.png: the quad's lower two rows are garbage rows with the col-7 hole"
+ },
+ {
+  "id": "x091",
+  "player": "p1",
+  "field": "max_b2b",
+  "was": 1,
+  "value": 2,
+  "source": "b3 frame check, verified: x091a.png: Back-to-Back banner on the quad after the B2B TSD at 5778.47"
+ },
+ {
+  "id": "x092",
+  "player": "p1",
+  "field": "pieces",
+  "was": 50,
+  "value": 51,
+  "source": "b3 frame check, verified: x092a.png: L locked ~5816.85 before KO 5817.73, not in chain"
+ },
+ {
+  "id": "x092",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 12,
+  "value": 13,
+  "source": "b3 frame check, verified: x092a.png: 13 REN banner at 5817.1"
+ },
+ {
+  "id": "x093",
+  "player": "p1",
+  "field": "pieces",
+  "was": 269,
+  "value": 266,
+  "source": "b3 frame check, verified: x093a.png/x093b.png: 5 real locks where the chain has 8; R/bag.json p1 seq valid in every bag once the 3 spawns at 105-107 are dropped"
+ },
+ {
+  "id": "x094",
+  "player": "p1",
+  "field": "pieces",
+  "was": 31,
+  "value": 32,
+  "source": "b3 frame check, verified: x094a.png: J locked 5998.87, KO 5998.9"
+ },
+ {
+  "id": "x095",
+  "player": "p1",
+  "field": "pieces",
+  "was": 54,
+  "value": 47,
+  "source": "b3 frame check, amended: reconciled.jsonl note: A had 47 outside the window and +7 were spliced; x095a.png shows one piece (the T double) locked in 6018.07-6022.14 | skeptic amend: One piece in the window is right (REN unbroken), but cseq outside the window holds 46 pieces, not A's 47; after the fix the event list holds 47. Amended to the event tally (48 if A's own 47 outside is trusted)."
+ },
+ {
+  "id": "x095",
+  "player": "p1",
+  "field": "garbage_received_rows",
+  "was": 42,
+  "value": 26,
+  "source": "b3 frame check, verified: reconciled.jsonl note: +16 garbage spliced from B in the window; x095a.png garbage top unchanged 6018.2-6021.0 and the REN (no non-clearing lock) holds garbage out until 6029.2"
+ },
+ {
+  "id": "x095",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 6,
+  "value": 9,
+  "source": "b3 frame check, verified: score jumps 6015.87 TSD, 6017.27 +3750 (REN1), 6021.40 +1200 (REN2), 6022.30 +750, 6023.10 +900, 6023.93 +1050, 6024.87 +1200, 6026.20 +1350, 6027.10 +1500, 6028.47 +2250 (double REN9)"
+ },
+ {
+  "id": "x098",
+  "player": "p1",
+  "field": "pieces",
+  "was": 53,
+  "value": 52,
+  "source": "b3 frame check, verified: chain 53 events less the 2 phantom singles at 6127.23/6127.27 plus the REN15 single at 6148.2"
+ },
+ {
+  "id": "x098",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 14,
+  "value": 15,
+  "source": "b3 frame check, verified: score +2550 at 6148.23 = single + REN15"
+ },
+ {
+  "id": "x098",
+  "player": "p2",
+  "field": "pieces",
+  "was": 71,
+  "value": 65,
+  "source": "b3 frame check, verified: chain 68 piece events less phantom single 6127.33 and duplicate doubles 6137.1/6137.13; REN unbroken 6124.93-6141.90 so each piece is a scored clear"
+ },
+ {
+  "id": "x098",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 6,
+  "value": 8,
+  "source": "b3 frame check, verified: score +3600 at 6141.90 = quad 2400 + REN8 1200"
+ },
+ {
+  "id": "x098",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 4,
+  "value": 3,
+  "source": "b3 frame check, verified: x098b.png: both doubles (6136.4, 6140.5) clear coloured rows; the dropped 6137.13 double had gc 1"
+ },
+ {
+  "id": "x101",
+  "player": "p1",
+  "field": "pieces",
+  "was": 88,
+  "value": 89,
+  "source": "b3 frame check, verified: x101a.png: J at 6330.55 locked before KO 6331.37; chain has no event for it"
+ },
+ {
+  "id": "x101",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 1,
+  "value": 2,
+  "source": "b3 frame check, verified: score +450 (REN1) at 6329.87 then +600 (REN2) at 6330.70"
+ },
+ {
+  "id": "x102",
+  "player": "p1",
+  "field": "pieces",
+  "was": 102,
+  "value": 95,
+  "source": "b3 frame check, verified: 24 locks before 6464.07 (match chain), 35 in the rebuilt window, 34 after (chain 35 minus phantom 6482.0), +2 at 6505.03/6505.80"
+ },
+ {
+  "id": "x102",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 18,
+  "value": 28,
+  "source": "b3 frame check, verified: window gc 13 (TSD 1, triple 2, double 2, quad 4, quad 4) + chain gc outside it 14 + 6505.03 single 1"
+ },
+ {
+  "id": "x102",
+  "player": "p1",
+  "field": "max_b2b",
+  "was": 1,
+  "value": 3,
+  "source": "b3 frame check, verified: four consecutive B2B quads: 6470.77 (+2700, no B2B), 6472.73, 6478.90 and 6481.20 each +3600 = 2400x1.5"
+ },
+ {
+  "id": "x076",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 11,
+  "value": 14,
+  "source": "b3 frame check, added by skeptic: score REN run unbroken: single 5002.4 REN0, double +1050 REN1 5003.53, triple +1800 REN2 5005.50, single +750 REN3 5019.20, +900 5040.13 ... +2700 double REN12 5048.10, +2250 REN13 5049.90, +2400 REN14 5050.97 (14 REN banner per the reader). CSV 11 predates the window fix."
+ },
+ {
+  "id": "x077",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 3,
+  "value": 7,
+  "source": "b3 frame check, added by skeptic: With the 5084.3 lock retyped to a single the REN is unbroken: +768 REN3 5082.90, +916 REN4 5083.77, TSS +3150 REN5 5085.23, double +1800 REN6 5086.10, single +1350 REN7 5087.03 (KO frame)."
+ },
+ {
+  "id": "x103",
+  "player": "p2",
+  "field": "pieces",
+  "was": 65,
+  "value": 66,
+  "source": "b4 frame check, verified: x103.png: Z locks 6550.93, white flash row (top garbage row) 6550.96, score 39277->40477 at 6550.97; KO 6550.97"
+ },
+ {
+  "id": "x103",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 9,
+  "value": 10,
+  "source": "b4 frame check, verified: x103.png: Z locks 6550.93, white flash row (top garbage row) 6550.96, score 39277->40477 at 6550.97; KO 6550.97"
+ },
+ {
+  "id": "x104",
+  "player": "p2",
+  "field": "pieces",
+  "was": 89,
+  "value": 90,
+  "source": "b4 frame check, verified: x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17"
+ },
+ {
+  "id": "x104",
+  "player": "p2",
+  "field": "max_b2b",
+  "was": 5,
+  "value": 6,
+  "source": "b4 frame check, verified: x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17; b2b run tss 6588.17, quad, tsd, quad, quad, tsd 6600.57, now + this quad"
+ },
+ {
+  "id": "x104",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 15,
+  "value": 12,
+  "source": "b4 frame check, verified: -3 (PC triple gc0) -4 (PC tetris gc0) +4 (missed tetris 6602.6). x104a.png 6568.2: the 3 cleared rows are red/orange/yellow/blue piece cells, no grey garbage; PERFECT CLEAR 6568.4; x104b.png 6574.4: 4 rows all coloured piece cells, no grey garbage; PERFECT CLEAR 6574.7; x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17"
+ },
+ {
+  "id": "x105",
+  "player": "p2",
+  "field": "pieces",
+  "was": 170,
+  "value": 171,
+  "source": "b4 frame check, verified: x105.png: T spun in at 6714.8, 2-row flash and Double banner 6714.9, score +3600 at 6714.90 (TSD, no B2B), KO frame 6714.9"
+ },
+ {
+  "id": "x106",
+  "player": "p1",
+  "field": "pieces",
+  "was": 58,
+  "value": 55,
+  "source": "b4 frame check, amended: x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80; 8 pieces after the T that A last read at 6746.74 (J,L,T,J + 4 plain locks) | skeptic amend: Counted every lock in score.py 6722-6754 (s4/x106score.txt): 45 locks before the I at 6746.33 (equal to the chain's 45 events before 6746.19), then I, T, J, L, T, J and 4 plain locks = 55 by KO 6753.57. 66 assumes csv 58 is right up to A's last read, which it is not (event list has 49)."
+ },
+ {
+  "id": "x106",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 8,
+  "value": 12,
+  "source": "b4 frame check, amended: window gc 2 -> 5; x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80 | skeptic amend: Pre-window gc 6 + window quad 2 + double 2 (not 1, x106dbl.png) + L single 0 + T single 1 + J single 1 = 12."
+ },
+ {
+  "id": "x107",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 9,
+  "value": 8,
+  "source": "b4 frame check, verified: triple PC 6769.17 gc 1->0 (x107a.png)"
+ },
+ {
+  "id": "x108",
+  "player": "p1",
+  "field": "pieces",
+  "was": 38,
+  "value": 39,
+  "source": "b4 frame check, verified: x108b.png: T spun into the slot 6824.8, 'Single' (T-Spin Single) banner 6824.9-6825.2, coloured row flash 6824.9, score 22432->24832 (+2400 = TSS, B2B broken by the REN singles); KO 6825.17"
+ },
+ {
+  "id": "x109",
+  "player": "p1",
+  "field": "pieces",
+  "was": 52,
+  "value": 53,
+  "source": "b4 frame check, verified: x109a.png: p1 T locks 6861.37 (score 29327->29357 hard drop), coloured row flash 6861.40 with 14 REN, score ->31757 (+2400 = single 300 + REN 14 bonus); p2 board starts to tilt 6861.44 (KO frame 6861.40)"
+ },
+ {
+  "id": "x109",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 13,
+  "value": 14,
+  "source": "b4 frame check, verified: x109a.png: p1 T locks 6861.37 (score 29327->29357 hard drop), coloured row flash 6861.40 with 14 REN, score ->31757 (+2400 = single 300 + REN 14 bonus); p2 board starts to tilt 6861.44 (KO frame 6861.40); REN counter reads 14"
+ },
+ {
+  "id": "x110",
+  "player": "p1",
+  "field": "pieces",
+  "was": 50,
+  "value": 51,
+  "source": "b4 frame check, verified: x110a.png: J locks 6893.53 (score 17908->17940), coloured row flash 6893.54 with REN, score ->19440 (+1500 = single 300 + REN 8 bonus); KO 6893.7"
+ },
+ {
+  "id": "x110",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 7,
+  "value": 8,
+  "source": "b4 frame check, verified: x110a.png: J locks 6893.53 (score 17908->17940), coloured row flash 6893.54 with REN, score ->19440 (+1500 = single 300 + REN 8 bonus); KO 6893.7; 9th consecutive single after the 6885.53 run start"
+ },
+ {
+  "id": "x112",
+  "player": "p1",
+  "field": "max_b2b",
+  "was": 2,
+  "value": 4,
+  "source": "b4 frame check, verified: x112a.png/x112b.png + score: p1 Z locks 6978.10 (chain None 6978.17; Nones run ~0.1 s after the score's hard-drop ticks all game), then nothing locks until after the lag; O tops out the catch-up at 6984.4, I into right well -> TETRIS 6984.57 (+16 drop, +3600 b2b, BACK banner), next I (NEXT shifts once) into same well -> second TETRIS 6985.60 (+3750 = tetris b2b + REN1, TETRIS banner 6985.35-6985.95); b2b run tsd 6968.8 (+3600), quad 6970.57 (+3600 b2b), quad 6984.57, quad 6985.60 (+3750), tsd 6989.80 (+5400 b2b), broken by triple 6990.90 (+1650)"
+ },
+ {
+  "id": "x112",
+  "player": "p2",
+  "field": "pieces",
+  "was": 126,
+  "value": 125,
+  "source": "b4 frame check, verified: x112a.png: only one TETRIS on p2 between the TSS (+3600 b2b at 6977.53, T-SPIN Single/BACK to BACK banner 6978.0) and 6985.43: the I creeps down the right well during the lag and clears 4 at 6983.07 (+3600, flash 6983.4, TETRIS banner 6984.0); the duplicate clear stood for no extra piece"
+ },
+ {
+  "id": "x112",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 24,
+  "value": 28,
+  "source": "b4 frame check, verified: x112c.png: p1 I drops into the garbage well 6993.9, 4 grey rows flash 6994.0, TETRIS + BACK banners, score 70836->75060 (+4200 = tetris b2b + REN); KO 6994.77"
+ },
+ {
+  "id": "x114",
+  "player": "p1",
+  "field": "pieces",
+  "was": 28,
+  "value": 29,
+  "source": "b4 frame check, verified: x114.png: J locks 7045.27 (+14), coloured row flash 7045.30 with REN, score 12658->13558 (+900 = single 300 + REN 4 bonus 600, after +600/+750 for the two previous REN singles); KO 7045.5"
+ },
+ {
+  "id": "x114",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 3,
+  "value": 4,
+  "source": "b4 frame check, verified: x114.png: J locks 7045.27 (+14), coloured row flash 7045.30 with REN, score 12658->13558 (+900 = single 300 + REN 4 bonus 600, after +600/+750 for the two previous REN singles); KO 7045.5"
+ },
+ {
+  "id": "x115",
+  "player": "p2",
+  "field": "pieces",
+  "was": 323,
+  "value": 319,
+  "source": "b4 frame check, amended: x115a.png/x115b.png + score.py p2: after the REN single (+900 at 7094.93) there is NO clear until the TSD at 7098.77 (+3600, Double banner, 2 coloured rows) and none after it until the I TETRIS at 7101.50 (+3700, BACK banner, 4-row flash). NEXT heads 7095.7-7098.5 show spawns J,O,T,J,O,L,I,Z,S with T held (L out) and S held (T out) -> 8 plain locks (score ticks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73,~7098.1); after the TSD spawns J,O,Z,S,L,T,I with Z then T held -> 6 plain locks (7099.80,7099.93,7100.33,7100.63,7100.97,7101.27) then the I. The 7099.1 flash is the TSD's effect, score unchanged.; window held 19 chain events for 15 real pieces (quad kept outside the window); the bag phase break from spawn 77 on fits the same 4 extra spawns | skeptic amend: chain_games.csv x115 p2 pieces is 323, not 311. The window replaces 19 piece events with 15 (verified by score.py), so -4 -> 319."
+ },
+ {
+  "id": "x115",
+  "player": "p1",
+  "field": "pieces",
+  "was": 299,
+  "value": 300,
+  "source": "b4 frame check, verified: x115c.png 7233.40-7233.70: p1 I spawns 7233.47 and hard-drops into the right well at 7233.53 (score 211786->211804, +18, no clear); O spawns 7233.63 with no lock before KO (yatta 7233.70). Chain Nones 7232.47/7232.8/7233.13 map to score locks 7232.70/7233.03/7233.37, so the 7233.53 lock is uncounted"
+ },
+ {
+  "id": "x116",
+  "player": "p2",
+  "field": "pieces",
+  "was": 76,
+  "value": 77,
+  "source": "b4 frame check, verified: x116b.png: p2 (winner) locks Z 7273.87, J 7274.23, S 7274.38 and I 7274.60 (dropped into col 7, no clear) before KO 7274.73 (yatta 7274.78; next S spawned 7274.70, not locked). Chain has only 3 Nones after the 7272.2 tsd (7273.67/7273.97/7274.33), so the I is uncounted"
+ },
+ {
+  "id": "x120",
+  "player": "p1",
+  "field": "garbage_cleared",
+  "was": 50,
+  "value": 46,
+  "source": "b4 frame check, verified: x120a.png 7471.90-7472.78: p1 spins the T into column 8 and ONE coloured row clears (the green row above the grey garbage; side tag 'Single'), score 67319->69719 (+2400 = TSS, not b2b). Chain event 7471.83 reads tst 4 lines gc 4, which is impossible; the banner T-SPIN Single was right; the cleared row is coloured, so the 4 gc on the bad event go"
+ },
+ {
+  "id": "x121",
+  "player": "p2",
+  "field": "pieces",
+  "was": 66,
+  "value": 67,
+  "source": "b4 frame check, verified: x121b.png 7547.50-7548.16: after the Z (chain None 7547.07) the T spins into the slot and locks by 7547.92 (flash, score 51539); 2 coloured rows above the garbage clear, side tags Double and BACK, score 56939 (+5400 = b2b TSD) at 7547.98; KO frame 7547.97, so the clear counts. Chain has no event for it"
+ },
+ {
+  "id": "x121",
+  "player": "p2",
+  "field": "max_b2b",
+  "was": 10,
+  "value": 11,
+  "source": "b4 frame check, verified: x121b.png 7547.50-7548.16: after the Z (chain None 7547.07) the T spins into the slot and locks by 7547.92 (flash, score 51539); 2 coloured rows above the garbage clear, side tags Double and BACK, score 56939 (+5400 = b2b TSD) at 7547.98; KO frame 7547.97, so the clear counts. Chain has no event for it; it extends the unbroken run of 11 b2b clears (7520.97 tst .. 7546.17 quad) to 12"
+ },
+ {
+  "id": "x122",
+  "player": "p1",
+  "field": "pieces",
+  "was": 77,
+  "value": 78,
+  "source": "b4 frame check, verified: x122a.png 7599.85-7600.25: after the 7598.73 double, p1's O spawns 7599.88 and locks at 7600.11 (score 48533->48549, no clear), on/just before the KO frame 7600.13 (yatta 7600.21); chain has no event after the double"
+ },
+ {
+  "id": "x123",
+  "player": "p1",
+  "field": "pieces",
+  "was": 134,
+  "value": 135,
+  "source": "b4 frame check, verified: x123a.png 7693.90-7694.34: p1 locks the L at 7693.94 (87919->87935) and the J at 7694.22 (->87953, no clear) before the KO frame 7694.3 (yatta 7694.34). Chain Nones 7693.4/7693.73 are the locks at 7693.63 and 7693.94, so the J is uncounted"
+ },
+ {
+  "id": "x124",
+  "player": "p2",
+  "field": "pieces",
+  "was": 137,
+  "value": 138,
+  "source": "b4 frame check, verified: x124b.png 7778.76-7779.74: after the Z (7778.84, chain None 7778.6) p2 drops an L vertically into column 10 at ~7779.25 and the coloured row above the garbage clears (white bar 7779.29), score 78716->79034 (+18 drop +300 single), before the KO frame 7779.73. Chain has no event for it"
+ },
+ {
+  "id": "x125",
+  "player": "p2",
+  "field": "pieces",
+  "was": 63,
+  "value": 64,
+  "source": "b4 frame check, verified: x125b.png 7819.00-7820.10: p2's J clears a row at 7819.15 (chain single 7818.83), then the O spawns 7819.80 and locks into the centre gap at ~7819.87, clearing the coloured blue row (white bar 7819.90; the yellow/cyan row and the garbage stay), score 34786->36616 (+30 drop +300 single +1500 = REN 10) before the KO frame 7820.03. Chain has no event for it"
+ },
+ {
+  "id": "x125",
+  "player": "p2",
+  "field": "max_combo",
+  "was": 9,
+  "value": 10,
+  "source": "b4 frame check, verified: x125b.png 7819.00-7820.10: p2's J clears a row at 7819.15 (chain single 7818.83), then the O spawns 7819.80 and locks into the centre gap at ~7819.87, clearing the coloured blue row (white bar 7819.90; the yellow/cyan row and the garbage stay), score 34786->36616 (+30 drop +300 single +1500 = REN 10) before the KO frame 7820.03. Chain has no event for it; it is the 11th consecutive clear (7809.07..7818.83 + this), REN 10 by the score"
+ },
+ {
+  "id": "x126",
+  "player": "p1",
+  "field": "pieces",
+  "was": 56,
+  "value": 57,
+  "source": "b4 frame check, verified: x126c.png 7864.40-7865.39: p1 drops the I vertically into column 9, locking at 7864.67 (+20), and the coloured row above the garbage clears (white bar 7864.76), +2700 = 300 + REN16 (150x16) at 7864.73, after the 7863.73 REN15 single (chain 7863.57); KO frame 7865.33, so it counts. Chain has no event for it"
+ },
+ {
+  "id": "x126",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 15,
+  "value": 16,
+  "source": "b4 frame check, verified: x126c.png 7864.40-7865.39: p1 drops the I vertically into column 9, locking at 7864.67 (+20), and the coloured row above the garbage clears (white bar 7864.76), +2700 = 300 + REN16 (150x16) at 7864.73, after the 7863.73 REN15 single (chain 7863.57); KO frame 7865.33, so it counts. Chain has no event for it; the score bonus is REN16"
+ },
+ {
+  "id": "x127",
+  "player": "p2",
+  "field": "pieces",
+  "was": 79,
+  "value": 80,
+  "source": "b4 frame check, verified: x127c.png 7919.00-7920.20: after the J (7919.17) and Z (7919.30), which are the chain Nones 7918.83/7919.2, p2's I drops vertically into the column-1 well at ~7919.65 (+28) and 4 grey garbage rows clear, TETRIS banner with BACK tag, +3600 = b2b tetris at 7919.67, before the KO frame 7920.2. Chain has no event for it"
+ },
+ {
+  "id": "x127",
+  "player": "p2",
+  "field": "garbage_cleared",
+  "was": 17,
+  "value": 21,
+  "source": "b4 frame check, verified: x127c.png 7919.00-7920.20: after the J (7919.17) and Z (7919.30), which are the chain Nones 7918.83/7919.2, p2's I drops vertically into the column-1 well at ~7919.65 (+28) and 4 grey garbage rows clear, TETRIS banner with BACK tag, +3600 = b2b tetris at 7919.67, before the KO frame 7920.2. Chain has no event for it"
+ },
+ {
+  "id": "x128",
+  "player": "p1",
+  "field": "pieces",
+  "was": 44,
+  "value": 45,
+  "source": "b4 frame check, verified: x128a.png 7954.60-7955.70: after the REN11 single (+1950 at 7954.07, chain 7954.0) p1's S locks at 7954.87 (+14) and the coloured row above the garbage clears (white bar 7955.00), +2100 = 300 + REN12 at 7954.93, before the KO frame 7955.7. The next I is swapped into hold and the T is still in the air at 7955.70; its +14 lock reads at 7955.73, after the KO frame, so it is not counted. Chain has no event for the S"
+ },
+ {
+  "id": "x128",
+  "player": "p1",
+  "field": "max_combo",
+  "was": 11,
+  "value": 12,
+  "source": "b4 frame check, verified: x128a.png 7954.60-7955.70: after the REN11 single (+1950 at 7954.07, chain 7954.0) p1's S locks at 7954.87 (+14) and the coloured row above the garbage clears (white bar 7955.00), +2100 = 300 + REN12 at 7954.93, before the KO frame 7955.7. The next I is swapped into hold and the T is still in the air at 7955.70; its +14 lock reads at 7955.73, after the KO frame, so it is not counted. Chain has no event for the S; the score bonus is REN12"
+ },
+ {
+  "id": "x112",
+  "player": "p1",
+  "field": "pieces",
+  "was": 102,
+  "value": 101,
+  "source": "b4 frame check, added by skeptic: x112 p1 replace_window: chain Nones 6977.4/6977.73/6977.9/6978.17 match score locks 6977.30/6977.63/6977.80/6978.10 (Z); the window's old 4 piece events (Nones 6978.2, 6978.43, quad, double) are really 3 pieces (O locks ~6984.1 with no score after slow fall, I tetris 6984.57, I tetris 6985.60) per x112p1b.png/x112p1.png (s4): NEXT shifts once 6983.9->6984.20 (O out), the L is swapped for the held I, NEXT shifts once more at 6985.33. So -1 piece."
+ }
+]

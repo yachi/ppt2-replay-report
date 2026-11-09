@@ -1,0 +1,3632 @@
+[
+{
+"kind": "flag",
+"id": "x000",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 200.1,
+"group": 0,
+"n": "g0-000"
+},
+{
+"kind": "flag",
+"id": "x000",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x000', 'p2', 'pc flag', (209.23, 'double', 2, False), '->', True)",
+"t": 209.23,
+"group": 0,
+"n": "g0-001"
+},
+{
+"kind": "flag",
+"id": "x001",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 217.8,
+"group": 0,
+"n": "g0-002"
+},
+{
+"kind": "flag",
+"id": "x001",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x001', 'p2', 'pc flag', (228.13, 'single', 1, False), '->', True)",
+"t": 228.13,
+"group": 0,
+"n": "g0-003"
+},
+{
+"kind": "flag",
+"id": "x001",
+"player": "p2",
+"issue": "A T-spin with no banner",
+"detail": "A tsd at 257.17 s typed as a plain clear",
+"t": 257.17,
+"group": 0,
+"n": "g0-004"
+},
+{
+"kind": "flag",
+"id": "x002",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 273.1,
+"group": 0,
+"n": "g0-005"
+},
+{
+"kind": "flag",
+"id": "x002",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x002', 'p2', 'pc flag', (282.07, 'triple', 3, False), '->', True)",
+"t": 282.07,
+"group": 0,
+"n": "g0-006"
+},
+{
+"kind": "flag",
+"id": "x003",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 332.83 s",
+"t": 332.83,
+"group": 0,
+"n": "g0-007"
+},
+{
+"kind": "kotail",
+"id": "x003",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3620 at 363.64 s; KO frame 364.17; last chain clear 359.6",
+"t": 363.64,
+"group": 0,
+"n": "g0-008"
+},
+{
+"kind": "flag",
+"id": "x004",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 371.1,
+"group": 0,
+"n": "g0-009"
+},
+{
+"kind": "flag",
+"id": "x004",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x004', 'p2', 'pc flag', (380.03, 'double', 2, True), '->', False)",
+"t": 380.03,
+"group": 0,
+"n": "g0-010"
+},
+{
+"kind": "flag",
+"id": "x004",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x004', 'p2', 'pc flag', (380.5, 'double', 2, False), '->', True)",
+"t": 380.5,
+"group": 0,
+"n": "g0-011"
+},
+{
+"kind": "flag",
+"id": "x004",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x004', 'p2', 380.63, 'drop dup', (380.03, 'double', 2))",
+"t": 380.63,
+"group": 0,
+"n": "g0-012"
+},
+{
+"kind": "flag",
+"id": "x004",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.23 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 412.63,
+"group": 0,
+"n": "g0-013"
+},
+{
+"kind": "kotail",
+"id": "x004",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3616 at 412.7 s; KO frame 412.63; last chain clear 410.6",
+"t": 412.7,
+"group": 0,
+"n": "g0-014"
+},
+{
+"kind": "flag",
+"id": "x005",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 418.9,
+"group": 0,
+"n": "g0-015"
+},
+{
+"kind": "flag",
+"id": "x005",
+"player": "p1",
+"issue": "banner without A clear",
+"detail": "T-SPIN Double banner at 430.86 s, no A clear matched (added by R/build.py)",
+"t": 430.86,
+"group": 0,
+"n": "g0-016"
+},
+{
+"kind": "flag",
+"id": "x005",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x005', 'p2', 'pc flag', (434.63, 'triple', 3, True), '->', False)",
+"t": 434.63,
+"group": 0,
+"n": "g0-017"
+},
+{
+"kind": "flag",
+"id": "x005",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x005', 'p2', 'pc flag', (434.9, 'triple', 3, False), '->', True)",
+"t": 434.9,
+"group": 0,
+"n": "g0-018"
+},
+{
+"kind": "flag",
+"id": "x005",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x005', 'p2', 435.03, 'drop dup', (434.63, 'triple', 3))",
+"t": 435.03,
+"group": 0,
+"n": "g0-019"
+},
+{
+"kind": "flag",
+"id": "x006",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 450.9 s",
+"t": 450.9,
+"group": 0,
+"n": "g0-020"
+},
+{
+"kind": "flag",
+"id": "x007",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 568.6,
+"group": 0,
+"n": "g0-021"
+},
+{
+"kind": "flag",
+"id": "x007",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x007', 'p2', 'pc flag', (577.63, 'triple', 3, True), '->', False)",
+"t": 577.63,
+"group": 0,
+"n": "g0-022"
+},
+{
+"kind": "flag",
+"id": "x007",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x007', 'p2', 'pc flag', (577.97, 'triple', 3, False), '->', True)",
+"t": 577.97,
+"group": 0,
+"n": "g0-023"
+},
+{
+"kind": "flag",
+"id": "x007",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x007', 'p2', 578.1, 'drop dup', (577.63, 'triple', 3))",
+"t": 578.1,
+"group": 0,
+"n": "g0-024"
+},
+{
+"kind": "kotail",
+"id": "x007",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1968 at 592.7 s; KO frame 593.5; last chain clear 591.47",
+"t": 592.7,
+"group": 0,
+"n": "g0-025"
+},
+{
+"kind": "flag",
+"id": "x008",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 600.7,
+"group": 0,
+"n": "g0-026"
+},
+{
+"kind": "flag",
+"id": "x008",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x008', 'p2', 'pc flag', (609.73, 'triple', 3, True), '->', False)",
+"t": 609.73,
+"group": 0,
+"n": "g0-027"
+},
+{
+"kind": "flag",
+"id": "x008",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x008', 'p2', 'pc flag', (609.97, 'triple', 3, False), '->', True)",
+"t": 609.97,
+"group": 0,
+"n": "g0-028"
+},
+{
+"kind": "flag",
+"id": "x008",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x008', 'p2', 610.1, 'drop dup', (609.73, 'triple', 3))",
+"t": 610.1,
+"group": 0,
+"n": "g0-029"
+},
+{
+"kind": "flag",
+"id": "x008",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 8.50 s from 744.70 s; B events spliced (D2/D3)",
+"t": 744.7,
+"group": 0,
+"n": "g0-030"
+},
+{
+"kind": "flag",
+"id": "x008",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 6.67 s from 747.00 s; B events spliced (D2/D3)",
+"t": 747.0,
+"group": 0,
+"n": "g0-031"
+},
+{
+"kind": "kotail",
+"id": "x008",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3784 at 784.67 s; KO frame 785.17; last chain clear 783.07",
+"t": 784.67,
+"group": 0,
+"n": "g0-032"
+},
+{
+"kind": "kotail",
+"id": "x009",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1068 at 841.17 s; KO frame 841.6; last chain clear 839.77",
+"t": 841.17,
+"group": 0,
+"n": "g0-033"
+},
+{
+"kind": "flag",
+"id": "x010",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 850.2,
+"group": 0,
+"n": "g0-034"
+},
+{
+"kind": "flag",
+"id": "x010",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x010', 'p2', 'pc flag', (858.7, 'double', 2, False), '->', True)",
+"t": 858.7,
+"group": 0,
+"n": "g0-035"
+},
+{
+"kind": "kotail",
+"id": "x010",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2882 at 959.6 s; KO frame 960.07; last chain clear 958.57",
+"t": 959.6,
+"group": 0,
+"n": "g0-036"
+},
+{
+"kind": "flag",
+"id": "x011",
+"player": "p1",
+"issue": "bad bag score",
+"detail": "2 of 13 bags not a permutation (spawn index [77, 84])",
+"t": 966.3,
+"group": 0,
+"n": "g0-037"
+},
+{
+"kind": "kotail",
+"id": "x011",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +324 at 1017.9 s; KO frame 1018.57; last chain clear 1015.7",
+"t": 1017.9,
+"group": 0,
+"n": "g0-038"
+},
+{
+"kind": "flag",
+"id": "x013",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1127.6,
+"group": 0,
+"n": "g0-039"
+},
+{
+"kind": "flag",
+"id": "x013",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1133.6 s",
+"t": 1133.6,
+"group": 0,
+"n": "g0-040"
+},
+{
+"kind": "flag",
+"id": "x013",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x013', 'p2', 'pc flag', (1138.5, 'double', 2, False), '->', True)",
+"t": 1138.5,
+"group": 0,
+"n": "g0-041"
+},
+{
+"kind": "kotail",
+"id": "x013",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1380 at 1177.87 s; KO frame 1178.4; last chain clear 1176.6",
+"t": 1177.87,
+"group": 0,
+"n": "g0-042"
+},
+{
+"kind": "flag",
+"id": "x014",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1185.6,
+"group": 0,
+"n": "g0-043"
+},
+{
+"kind": "flag",
+"id": "x014",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x014', 'p2', 'pc flag', (1194.63, 'triple', 3, False), '->', True)",
+"t": 1194.63,
+"group": 0,
+"n": "g0-044"
+},
+{
+"kind": "kotail",
+"id": "x014",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1823 at 1213.2 s; KO frame 1213.33; last chain clear 1211.93",
+"t": 1213.2,
+"group": 0,
+"n": "g0-045"
+},
+{
+"kind": "flag",
+"id": "x015",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1219.4,
+"group": 0,
+"n": "g0-046"
+},
+{
+"kind": "flag",
+"id": "x015",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x015', 'p2', 'pc flag', (1228.43, 'triple', 3, True), '->', False)",
+"t": 1228.43,
+"group": 0,
+"n": "g0-047"
+},
+{
+"kind": "flag",
+"id": "x015",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x015', 'p2', 1228.76, 'drop dup', (1228.43, 'triple', 3))",
+"t": 1228.76,
+"group": 0,
+"n": "g0-048"
+},
+{
+"kind": "flag",
+"id": "x015",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x015', 'p2', 'pc flag', (1228.77, 'triple', 3, False), '->', True)",
+"t": 1228.77,
+"group": 0,
+"n": "g0-049"
+},
+{
+"kind": "kotail",
+"id": "x015",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1432 at 1283.5 s; KO frame 1283.57; last chain clear 1281.4",
+"t": 1283.5,
+"group": 0,
+"n": "g0-050"
+},
+{
+"kind": "flag",
+"id": "x016",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1290.5,
+"group": 0,
+"n": "g0-051"
+},
+{
+"kind": "flag",
+"id": "x016",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x016', 'p2', 'pc flag', (1300.7, 'double', 2, False), '->', True)",
+"t": 1300.7,
+"group": 0,
+"n": "g0-052"
+},
+{
+"kind": "kotail",
+"id": "x016",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +774 at 1340.8 s; KO frame 1340.93; last chain clear 1339.73",
+"t": 1340.8,
+"group": 0,
+"n": "g0-053"
+},
+{
+"kind": "flag",
+"id": "x017",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1347.8,
+"group": 0,
+"n": "g0-054"
+},
+{
+"kind": "flag",
+"id": "x017",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x017', 'p2', 'pc flag', (1357.27, 'double', 2, False), '->', True)",
+"t": 1357.27,
+"group": 0,
+"n": "g0-055"
+},
+{
+"kind": "flag",
+"id": "x017",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x017', 'p2', 1357.4, 'drop dup', (1357.13, 'double', 2))",
+"t": 1357.4,
+"group": 0,
+"n": "g0-056"
+},
+{
+"kind": "flag",
+"id": "x018",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1464.7,
+"group": 0,
+"n": "g0-057"
+},
+{
+"kind": "flag",
+"id": "x018",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x018', 'p2', 'pc flag', (1473.53, 'triple', 3, True), '->', False)",
+"t": 1473.53,
+"group": 0,
+"n": "g0-058"
+},
+{
+"kind": "flag",
+"id": "x018",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x018', 'p2', 'pc flag', (1473.9, 'triple', 3, False), '->', True)",
+"t": 1473.9,
+"group": 0,
+"n": "g0-059"
+},
+{
+"kind": "flag",
+"id": "x018",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x018', 'p2', 1474.03, 'drop dup', (1473.53, 'triple', 3))",
+"t": 1474.03,
+"group": 0,
+"n": "g0-060"
+},
+{
+"kind": "kotail",
+"id": "x018",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2034 at 1501.0 s; KO frame 1501.17; last chain clear 1499.67",
+"t": 1501.0,
+"group": 0,
+"n": "g0-061"
+},
+{
+"kind": "flag",
+"id": "x019",
+"player": "p2",
+"issue": "PC count",
+"detail": "2 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1508.1,
+"group": 0,
+"n": "g0-062"
+},
+{
+"kind": "flag",
+"id": "x019",
+"player": "",
+"issue": "B truncated",
+"detail": "B end detector fired > 1.5 s before A; B values not used",
+"t": 1508.1,
+"group": 0,
+"n": "g0-063"
+},
+{
+"kind": "flag",
+"id": "x019",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x019', 'p2', 'pc flag', (1518.6, 'double', 2, False), '->', True)",
+"t": 1518.6,
+"group": 0,
+"n": "g0-064"
+},
+{
+"kind": "flag",
+"id": "x019",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x019', 'p2', 'pc flag', (1525.4, 'quad', 4, True), '->', False)",
+"t": 1525.4,
+"group": 0,
+"n": "g0-065"
+},
+{
+"kind": "flag",
+"id": "x019",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x019', 'p2', 1525.74, 'drop dup', (1525.4, 'quad', 4))",
+"t": 1525.74,
+"group": 0,
+"n": "g0-066"
+},
+{
+"kind": "flag",
+"id": "x019",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x019', 'p2', 'pc flag', (1525.77, 'quad', 4, False), '->', True)",
+"t": 1525.77,
+"group": 0,
+"n": "g0-067"
+},
+{
+"kind": "kotail",
+"id": "x019",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2418 at 1550.2 s; KO frame 1550.87; last chain clear 1549.13",
+"t": 1550.2,
+"group": 0,
+"n": "g0-068"
+},
+{
+"kind": "flag",
+"id": "x020",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1564.47 s",
+"t": 1564.47,
+"group": 0,
+"n": "g0-069"
+},
+{
+"kind": "flag",
+"id": "x020",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 1625.53,
+"group": 0,
+"n": "g0-070"
+},
+{
+"kind": "kotail",
+"id": "x021",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1974 at 1652.6 s; KO frame 1653.33; last chain clear 1651.33",
+"t": 1652.6,
+"group": 0,
+"n": "g0-071"
+},
+{
+"kind": "flag",
+"id": "x022",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.10 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 1693.17,
+"group": 0,
+"n": "g0-072"
+},
+{
+"kind": "kotail",
+"id": "x023",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +328 at 1729.67 s; KO frame 1729.77; last chain clear 1728.2",
+"t": 1729.67,
+"group": 1,
+"n": "g1-073"
+},
+{
+"kind": "flag",
+"id": "x025",
+"player": "p1",
+"issue": "banner without A clear",
+"detail": "T-SPIN Double banner at 1900.84 s, no A clear matched (added by R/build.py)",
+"t": 1900.84,
+"group": 1,
+"n": "g1-074"
+},
+{
+"kind": "flag",
+"id": "x025",
+"player": "p1",
+"issue": "banner without A clear",
+"detail": "T-SPIN Double banner at 1908.54 s, no A clear matched (added by R/build.py)",
+"t": 1908.54,
+"group": 1,
+"n": "g1-075"
+},
+{
+"kind": "flag",
+"id": "x025",
+"player": "p1",
+"issue": "banner without A clear",
+"detail": "T-SPIN Double banner at 1915.7 s, no A clear matched (added by R/build.py)",
+"t": 1915.7,
+"group": 1,
+"n": "g1-076"
+},
+{
+"kind": "flag",
+"id": "x025",
+"player": "p1",
+"issue": "banner without A clear",
+"detail": "T-SPIN Double banner at 1921.74 s, no A clear matched (added by R/build.py)",
+"t": 1921.74,
+"group": 1,
+"n": "g1-077"
+},
+{
+"kind": "kotail",
+"id": "x025",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1200 at 1923.23 s; KO frame 1923.93; last chain clear 1920.43",
+"t": 1923.23,
+"group": 1,
+"n": "g1-078"
+},
+{
+"kind": "flag",
+"id": "x025",
+"player": "p1",
+"issue": "gap window > 4 s (tail)",
+"detail": "28.23 s from the last spawn to the KO",
+"t": 1923.93,
+"group": 1,
+"n": "g1-079"
+},
+{
+"kind": "flag",
+"id": "x025",
+"player": "p2",
+"issue": "gap window > 4 s (tail)",
+"detail": "4.57 s from the last spawn to the KO",
+"t": 1923.93,
+"group": 1,
+"n": "g1-080"
+},
+{
+"kind": "kotail",
+"id": "x026",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2572 at 1959.26 s; KO frame 1959.63; last chain clear 1958.2",
+"t": 1959.26,
+"group": 1,
+"n": "g1-081"
+},
+{
+"kind": "flag",
+"id": "x027",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 1965.8,
+"group": 1,
+"n": "g1-082"
+},
+{
+"kind": "flag",
+"id": "x027",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x027', 'p2', 'pc flag', (1975.73, 'double', 2, False), '->', True)",
+"t": 1975.73,
+"group": 1,
+"n": "g1-083"
+},
+{
+"kind": "kotail",
+"id": "x027",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1812 at 2062.4 s; KO frame 2062.37; last chain clear 2061.13",
+"t": 2062.4,
+"group": 1,
+"n": "g1-084"
+},
+{
+"kind": "flag",
+"id": "x028",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 2069.3,
+"group": 1,
+"n": "g1-085"
+},
+{
+"kind": "flag",
+"id": "x028",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x028', 'p2', 'pc flag', (2078.13, 'triple', 3, True), '->', False)",
+"t": 2078.13,
+"group": 1,
+"n": "g1-086"
+},
+{
+"kind": "flag",
+"id": "x028",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x028', 'p2', 2078.5, 'drop dup', (2078.13, 'triple', 3))",
+"t": 2078.5,
+"group": 1,
+"n": "g1-087"
+},
+{
+"kind": "flag",
+"id": "x028",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x028', 'p2', 'pc flag', (2078.5, 'triple', 3, False), '->', True)",
+"t": 2078.5,
+"group": 1,
+"n": "g1-088"
+},
+{
+"kind": "flag",
+"id": "x030",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 2232.73,
+"group": 1,
+"n": "g1-089"
+},
+{
+"kind": "flag",
+"id": "x031",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 2239.7,
+"group": 1,
+"n": "g1-090"
+},
+{
+"kind": "flag",
+"id": "x031",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x031', 'p2', 'pc flag', (2250.4, 'double', 2, False), '->', True)",
+"t": 2250.4,
+"group": 1,
+"n": "g1-091"
+},
+{
+"kind": "flag",
+"id": "x032",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2320.6 s",
+"t": 2320.6,
+"group": 1,
+"n": "g1-092"
+},
+{
+"kind": "flag",
+"id": "x032",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2343.47 s",
+"t": 2343.47,
+"group": 1,
+"n": "g1-093"
+},
+{
+"kind": "kotail",
+"id": "x032",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1226 at 2366.47 s; KO frame 2367.27; last chain clear 2365.27",
+"t": 2366.47,
+"group": 1,
+"n": "g1-094"
+},
+{
+"kind": "kotail",
+"id": "x032",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +774 at 2367.37 s; KO frame 2367.27; last chain clear 2365.27",
+"t": 2367.37,
+"group": 1,
+"n": "g1-095"
+},
+{
+"kind": "flag",
+"id": "x033",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2380.73 s",
+"t": 2380.73,
+"group": 1,
+"n": "g1-096"
+},
+{
+"kind": "flag",
+"id": "x034",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 2399.3,
+"group": 1,
+"n": "g1-097"
+},
+{
+"kind": "flag",
+"id": "x034",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2406.57 s",
+"t": 2406.57,
+"group": 1,
+"n": "g1-098"
+},
+{
+"kind": "flag",
+"id": "x034",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x034', 'p2', 'pc flag', (2409.93, 'single', 1, False), '->', True)",
+"t": 2409.93,
+"group": 1,
+"n": "g1-099"
+},
+{
+"kind": "flag",
+"id": "x034",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 2422.43,
+"group": 1,
+"n": "g1-100"
+},
+{
+"kind": "flag",
+"id": "x035",
+"player": "p1",
+"issue": "A T-spin with no banner",
+"detail": "A tss at 2447.63 s typed as a plain clear",
+"t": 2447.63,
+"group": 1,
+"n": "g1-101"
+},
+{
+"kind": "kotail",
+"id": "x035",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +306 at 2459.9 s; KO frame 2461.2; last chain clear 2459.07",
+"t": 2459.9,
+"group": 1,
+"n": "g1-102"
+},
+{
+"kind": "kotail",
+"id": "x035",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +100 at 2460.0 s; KO frame 2461.2; last chain clear 2459.07",
+"t": 2460.0,
+"group": 1,
+"n": "g1-103"
+},
+{
+"kind": "flag",
+"id": "x035",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.13 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 2461.2,
+"group": 1,
+"n": "g1-104"
+},
+{
+"kind": "flag",
+"id": "x036",
+"player": "p1",
+"issue": "bad bag score",
+"detail": "14 of 28 bags not a permutation (spawn index [98, 105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182, 189])",
+"t": 2467.4,
+"group": 1,
+"n": "g1-105"
+},
+{
+"kind": "flag",
+"id": "x036",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 2467.4,
+"group": 1,
+"n": "g1-106"
+},
+{
+"kind": "flag",
+"id": "x036",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2472.77 s",
+"t": 2472.77,
+"group": 1,
+"n": "g1-107"
+},
+{
+"kind": "flag",
+"id": "x036",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x036', 'p2', 'pc flag', (2582.27, 'triple', 3, False), '->', True)",
+"t": 2582.27,
+"group": 1,
+"n": "g1-108"
+},
+{
+"kind": "flag",
+"id": "x037",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.23 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 2618.57,
+"group": 1,
+"n": "g1-109"
+},
+{
+"kind": "flag",
+"id": "x038",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2631.9 s",
+"t": 2631.9,
+"group": 1,
+"n": "g1-110"
+},
+{
+"kind": "kotail",
+"id": "x038",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +5550 at 2669.53 s; KO frame 2670.43; last chain clear 2668.77",
+"t": 2669.53,
+"group": 1,
+"n": "g1-111"
+},
+{
+"kind": "kotail",
+"id": "x038",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +630 at 2670.36 s; KO frame 2670.43; last chain clear 2668.77",
+"t": 2670.36,
+"group": 1,
+"n": "g1-112"
+},
+{
+"kind": "flag",
+"id": "x038",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 2670.43,
+"group": 1,
+"n": "g1-113"
+},
+{
+"kind": "kotail",
+"id": "x039",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3630 at 2705.36 s; KO frame 2705.53; last chain clear 2704.23",
+"t": 2705.36,
+"group": 1,
+"n": "g1-114"
+},
+{
+"kind": "flag",
+"id": "x040",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 2711.8,
+"group": 1,
+"n": "g1-115"
+},
+{
+"kind": "flag",
+"id": "x040",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x040', 'p2', 'pc flag', (2722.83, 'single', 1, False), '->', True)",
+"t": 2722.83,
+"group": 1,
+"n": "g1-116"
+},
+{
+"kind": "flag",
+"id": "x040",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 2740.97,
+"group": 1,
+"n": "g1-117"
+},
+{
+"kind": "kotail",
+"id": "x042",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2286 at 2907.67 s; KO frame 2908.07; last chain clear 2906.67",
+"t": 2907.67,
+"group": 1,
+"n": "g1-118"
+},
+{
+"kind": "flag",
+"id": "x043",
+"player": "p2",
+"issue": "bad bag score",
+"detail": "1 of 8 bags not a permutation (spawn index [49])",
+"t": 2916.3,
+"group": 1,
+"n": "g1-119"
+},
+{
+"kind": "kotail",
+"id": "x043",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2554 at 2942.7 s; KO frame 2944.17; last chain clear 2941.93",
+"t": 2942.7,
+"group": 1,
+"n": "g1-120"
+},
+{
+"kind": "kotail",
+"id": "x043",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +306 at 2943.97 s; KO frame 2944.17; last chain clear 2941.93",
+"t": 2943.97,
+"group": 1,
+"n": "g1-121"
+},
+{
+"kind": "kotail",
+"id": "x044",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3023 at 2987.2 s; KO frame 2987.27; last chain clear 2986.1",
+"t": 2987.2,
+"group": 1,
+"n": "g1-122"
+},
+{
+"kind": "flag",
+"id": "x045",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 3024.47 s",
+"t": 3024.47,
+"group": 1,
+"n": "g1-123"
+},
+{
+"kind": "kotail",
+"id": "x045",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +5400 at 3026.54 s; KO frame 3026.67; last chain clear 3024.47",
+"t": 3026.54,
+"group": 1,
+"n": "g1-124"
+},
+{
+"kind": "flag",
+"id": "x046",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 3041.6,
+"group": 1,
+"n": "g1-125"
+},
+{
+"kind": "flag",
+"id": "x046",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x046', 'p2', 'pc flag', (3051.97, 'double', 2, False), '->', True)",
+"t": 3051.97,
+"group": 1,
+"n": "g1-126"
+},
+{
+"kind": "flag",
+"id": "x046",
+"player": "p1",
+"issue": "A T-spin with no banner",
+"detail": "A tss at 3100.73 s typed as a plain clear",
+"t": 3100.73,
+"group": 1,
+"n": "g1-127"
+},
+{
+"kind": "flag",
+"id": "x046",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.13 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 3106.93,
+"group": 1,
+"n": "g1-128"
+},
+{
+"kind": "flag",
+"id": "x047",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 3112.7,
+"group": 1,
+"n": "g1-129"
+},
+{
+"kind": "flag",
+"id": "x047",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x047', 'p2', 'pc flag', (3123.1, 'single', 1, True), '->', False)",
+"t": 3123.1,
+"group": 1,
+"n": "g1-130"
+},
+{
+"kind": "flag",
+"id": "x047",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x047', 'p2', 3123.47, 'drop dup', (3123.1, 'single', 1))",
+"t": 3123.47,
+"group": 1,
+"n": "g1-131"
+},
+{
+"kind": "flag",
+"id": "x047",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x047', 'p2', 'pc flag', (3123.47, 'single', 1, False), '->', True)",
+"t": 3123.47,
+"group": 1,
+"n": "g1-132"
+},
+{
+"kind": "flag",
+"id": "x047",
+"player": "p1",
+"issue": "A T-spin with no banner",
+"detail": "A tss at 3128.9 s typed as a plain clear",
+"t": 3128.9,
+"group": 1,
+"n": "g1-133"
+},
+{
+"kind": "kotail",
+"id": "x047",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3176 at 3185.03 s; KO frame 3185.53; last chain clear 3183.53",
+"t": 3185.03,
+"group": 1,
+"n": "g1-134"
+},
+{
+"kind": "flag",
+"id": "x048",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.23 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 3225.97,
+"group": 1,
+"n": "g1-135"
+},
+{
+"kind": "flag",
+"id": "x050",
+"player": "",
+"issue": "B truncated",
+"detail": "B end detector fired > 1.5 s before A; B values not used",
+"t": 3368.5,
+"group": 1,
+"n": "g1-136"
+},
+{
+"kind": "flag",
+"id": "x051",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 3424.93 s",
+"t": 3424.93,
+"group": 1,
+"n": "g1-137"
+},
+{
+"kind": "kotail",
+"id": "x051",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1970 at 3482.13 s; KO frame 3482.93; last chain clear 3480.77",
+"t": 3482.13,
+"group": 1,
+"n": "g1-138"
+},
+{
+"kind": "kotail",
+"id": "x052",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +600 at 3563.27 s; KO frame 3563.87; last chain clear 3562.23",
+"t": 3563.27,
+"group": 1,
+"n": "g1-139"
+},
+{
+"kind": "flag",
+"id": "x053",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 3576.67 s",
+"t": 3576.67,
+"group": 1,
+"n": "g1-140"
+},
+{
+"kind": "flag",
+"id": "x053",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.13 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 3595.07,
+"group": 1,
+"n": "g1-141"
+},
+{
+"kind": "flag",
+"id": "x054",
+"player": "p1",
+"issue": "bad bag score",
+"detail": "14 of 19 bags not a permutation (spawn index [21, 28, 35, 42, 49, 56, 63, 77, 91, 98, 105, 112, 119, 126])",
+"t": 3601.9,
+"group": 1,
+"n": "g1-142"
+},
+{
+"kind": "flag",
+"id": "x054",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 3608.53 s",
+"t": 3608.53,
+"group": 1,
+"n": "g1-143"
+},
+{
+"kind": "flag",
+"id": "x054",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 71.83 s from 3611.23 s; B events spliced (D2/D3)",
+"t": 3611.23,
+"group": 1,
+"n": "g1-144"
+},
+{
+"kind": "flag",
+"id": "x054",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Triple at 3611.23 s",
+"t": 3611.23,
+"group": 1,
+"n": "g1-145"
+},
+{
+"kind": "flag",
+"id": "x054",
+"player": "p1",
+"issue": "banner without A clear",
+"detail": "Mini T-SPIN Single banner at 3621.97 s, no A clear matched (added by R/build.py)",
+"t": 3621.97,
+"group": 1,
+"n": "g1-146"
+},
+{
+"kind": "flag",
+"id": "x054",
+"player": "p1",
+"issue": "banner without A clear",
+"detail": "T-SPIN Double banner at 3652.5 s, no A clear matched (added by R/build.py)",
+"t": 3652.5,
+"group": 1,
+"n": "g1-147"
+},
+{
+"kind": "kotail",
+"id": "x054",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1368 at 3752.23 s; KO frame 3752.6; last chain clear 3751.37",
+"t": 3752.23,
+"group": 1,
+"n": "g1-148"
+},
+{
+"kind": "flag",
+"id": "x055",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 3758.7,
+"group": 2,
+"n": "g2-149"
+},
+{
+"kind": "flag",
+"id": "x055",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x055', 'p2', 'pc flag', (3767.47, 'triple', 3, True), '->', False)",
+"t": 3767.47,
+"group": 2,
+"n": "g2-150"
+},
+{
+"kind": "flag",
+"id": "x055",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x055', 'p2', 'pc flag', (3767.83, 'triple', 3, False), '->', True)",
+"t": 3767.83,
+"group": 2,
+"n": "g2-151"
+},
+{
+"kind": "flag",
+"id": "x055",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x055', 'p2', 3767.97, 'drop dup', (3767.47, 'triple', 3))",
+"t": 3767.97,
+"group": 2,
+"n": "g2-152"
+},
+{
+"kind": "kotail",
+"id": "x055",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +5400 at 3801.87 s; KO frame 3803.3; last chain clear 3801.07",
+"t": 3801.87,
+"group": 2,
+"n": "g2-153"
+},
+{
+"kind": "kotail",
+"id": "x055",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1200 at 3802.3 s; KO frame 3803.3; last chain clear 3799.03",
+"t": 3802.3,
+"group": 2,
+"n": "g2-154"
+},
+{
+"kind": "flag",
+"id": "x055",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 3803.3,
+"group": 2,
+"n": "g2-155"
+},
+{
+"kind": "flag",
+"id": "x056",
+"player": "p2",
+"issue": "PC count",
+"detail": "2 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 3810.5,
+"group": 2,
+"n": "g2-156"
+},
+{
+"kind": "flag",
+"id": "x056",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x056', 'p2', 'pc flag', (3822.03, 'single', 1, True), '->', False)",
+"t": 3822.03,
+"group": 2,
+"n": "g2-157"
+},
+{
+"kind": "flag",
+"id": "x056",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x056', 'p2', 3822.53, 'drop dup', (3822.03, 'single', 1))",
+"t": 3822.53,
+"group": 2,
+"n": "g2-158"
+},
+{
+"kind": "flag",
+"id": "x056",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x056', 'p2', 'pc flag', (3822.53, 'single', 1, False), '->', True)",
+"t": 3822.53,
+"group": 2,
+"n": "g2-159"
+},
+{
+"kind": "flag",
+"id": "x056",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x056', 'p2', 'pc flag', (3828.3, 'quad', 4, True), '->', False)",
+"t": 3828.3,
+"group": 2,
+"n": "g2-160"
+},
+{
+"kind": "flag",
+"id": "x056",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x056', 'p2', 'pc flag', (3828.67, 'quad', 4, False), '->', True)",
+"t": 3828.67,
+"group": 2,
+"n": "g2-161"
+},
+{
+"kind": "flag",
+"id": "x056",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x056', 'p2', 3828.8, 'drop dup', (3828.3, 'quad', 4))",
+"t": 3828.8,
+"group": 2,
+"n": "g2-162"
+},
+{
+"kind": "kotail",
+"id": "x056",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1228 at 3900.2 s; KO frame 3900.6; last chain clear 3899.1",
+"t": 3900.2,
+"group": 2,
+"n": "g2-163"
+},
+{
+"kind": "flag",
+"id": "x058",
+"player": "p1",
+"issue": "bad bag score",
+"detail": "10 of 15 bags not a permutation (spawn index [35, 42, 49, 56, 63, 70, 77, 84, 91, 98])",
+"t": 3969.1,
+"group": 2,
+"n": "g2-164"
+},
+{
+"kind": "flag",
+"id": "x058",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 3969.1,
+"group": 2,
+"n": "g2-165"
+},
+{
+"kind": "flag",
+"id": "x058",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x058', 'p2', 'pc flag', (3977.8, 'triple', 3, True), '->', False)",
+"t": 3977.8,
+"group": 2,
+"n": "g2-166"
+},
+{
+"kind": "flag",
+"id": "x058",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x058', 'p2', 'pc flag', (3978.23, 'triple', 3, False), '->', True)",
+"t": 3978.23,
+"group": 2,
+"n": "g2-167"
+},
+{
+"kind": "flag",
+"id": "x058",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x058', 'p2', 3978.37, 'drop dup', (3977.8, 'triple', 3))",
+"t": 3978.37,
+"group": 2,
+"n": "g2-168"
+},
+{
+"kind": "kotail",
+"id": "x059",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1976 at 4050.93 s; KO frame 4051.23; last chain clear 4049.7",
+"t": 4050.93,
+"group": 2,
+"n": "g2-169"
+},
+{
+"kind": "kotail",
+"id": "x060",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1127 at 4087.07 s; KO frame 4087.47; last chain clear 4085.67",
+"t": 4087.07,
+"group": 2,
+"n": "g2-170"
+},
+{
+"kind": "flag",
+"id": "x061",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4094.5,
+"group": 2,
+"n": "g2-171"
+},
+{
+"kind": "flag",
+"id": "x061",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x061', 'p2', 'pc flag', (4104.43, 'triple', 3, True), '->', False)",
+"t": 4104.43,
+"group": 2,
+"n": "g2-172"
+},
+{
+"kind": "flag",
+"id": "x061",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x061', 'p2', 'pc flag', (4104.67, 'triple', 3, False), '->', True)",
+"t": 4104.67,
+"group": 2,
+"n": "g2-173"
+},
+{
+"kind": "flag",
+"id": "x061",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x061', 'p2', 4104.8, 'drop dup', (4104.43, 'triple', 3))",
+"t": 4104.8,
+"group": 2,
+"n": "g2-174"
+},
+{
+"kind": "kotail",
+"id": "x061",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +300 at 4211.3 s; KO frame 4212.67; last chain clear 4210.5",
+"t": 4211.3,
+"group": 2,
+"n": "g2-175"
+},
+{
+"kind": "kotail",
+"id": "x061",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +100 at 4211.97 s; KO frame 4212.67; last chain clear 4211.17",
+"t": 4211.97,
+"group": 2,
+"n": "g2-176"
+},
+{
+"kind": "kotail",
+"id": "x061",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +825 at 4212.34 s; KO frame 4212.67; last chain clear 4211.17",
+"t": 4212.34,
+"group": 2,
+"n": "g2-177"
+},
+{
+"kind": "flag",
+"id": "x062",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4225.8 s",
+"t": 4225.8,
+"group": 2,
+"n": "g2-178"
+},
+{
+"kind": "kotail",
+"id": "x062",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2700 at 4258.54 s; KO frame 4259.27; last chain clear 4257.27",
+"t": 4258.54,
+"group": 2,
+"n": "g2-179"
+},
+{
+"kind": "flag",
+"id": "x063",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4265.4,
+"group": 2,
+"n": "g2-180"
+},
+{
+"kind": "flag",
+"id": "x063",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x063', 'p2', 'pc flag', (4273.43, 'double', 2, True), '->', False)",
+"t": 4273.43,
+"group": 2,
+"n": "g2-181"
+},
+{
+"kind": "flag",
+"id": "x063",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x063', 'p2', 4273.93, 'drop dup', (4273.43, 'double', 2))",
+"t": 4273.93,
+"group": 2,
+"n": "g2-182"
+},
+{
+"kind": "flag",
+"id": "x063",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x063', 'p2', 'pc flag', (4274.0, 'double', 2, False), '->', True)",
+"t": 4274.0,
+"group": 2,
+"n": "g2-183"
+},
+{
+"kind": "kotail",
+"id": "x063",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1670 at 4284.14 s; KO frame 4284.17; last chain clear 4283.13",
+"t": 4284.14,
+"group": 2,
+"n": "g2-184"
+},
+{
+"kind": "flag",
+"id": "x063",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.10 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 4284.17,
+"group": 2,
+"n": "g2-185"
+},
+{
+"kind": "flag",
+"id": "x064",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4296.57 s",
+"t": 4296.57,
+"group": 2,
+"n": "g2-186"
+},
+{
+"kind": "flag",
+"id": "x065",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4322.6,
+"group": 2,
+"n": "g2-187"
+},
+{
+"kind": "flag",
+"id": "x065",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x065', 'p2', 'pc flag', (4337.47, 'triple', 3, True), '->', False)",
+"t": 4337.47,
+"group": 2,
+"n": "g2-188"
+},
+{
+"kind": "flag",
+"id": "x065",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x065', 'p2', 4337.86, 'drop dup', (4337.47, 'triple', 3))",
+"t": 4337.86,
+"group": 2,
+"n": "g2-189"
+},
+{
+"kind": "flag",
+"id": "x065",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x065', 'p2', 'pc flag', (4337.87, 'triple', 3, False), '->', True)",
+"t": 4337.87,
+"group": 2,
+"n": "g2-190"
+},
+{
+"kind": "kotail",
+"id": "x065",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +750 at 4339.6 s; KO frame 4340.97; last chain clear 4338.77",
+"t": 4339.6,
+"group": 2,
+"n": "g2-191"
+},
+{
+"kind": "kotail",
+"id": "x065",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +130 at 4340.14 s; KO frame 4340.97; last chain clear 4337.87",
+"t": 4340.14,
+"group": 2,
+"n": "g2-192"
+},
+{
+"kind": "kotail",
+"id": "x065",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +88 at 4341.17 s; KO frame 4340.97; last chain clear 4337.87",
+"t": 4341.17,
+"group": 2,
+"n": "g2-193"
+},
+{
+"kind": "kotail",
+"id": "x066",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2270 at 4370.3 s; KO frame 4370.37; last chain clear 4369.23",
+"t": 4370.3,
+"group": 2,
+"n": "g2-194"
+},
+{
+"kind": "flag",
+"id": "x066",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 4370.37,
+"group": 2,
+"n": "g2-195"
+},
+{
+"kind": "flag",
+"id": "x067",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4384.3 s",
+"t": 4384.3,
+"group": 2,
+"n": "g2-196"
+},
+{
+"kind": "kotail",
+"id": "x067",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +326 at 4402.3 s; KO frame 4402.9; last chain clear 4400.63",
+"t": 4402.3,
+"group": 2,
+"n": "g2-197"
+},
+{
+"kind": "flag",
+"id": "x068",
+"player": "p2",
+"issue": "A T-spin with no banner",
+"detail": "A tss at 4429.43 s typed as a plain clear",
+"t": 4429.43,
+"group": 2,
+"n": "g2-198"
+},
+{
+"kind": "kotail",
+"id": "x068",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1820 at 4440.83 s; KO frame 4441.53; last chain clear 4439.7",
+"t": 4440.83,
+"group": 2,
+"n": "g2-199"
+},
+{
+"kind": "flag",
+"id": "x069",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4454.43 s",
+"t": 4454.43,
+"group": 2,
+"n": "g2-200"
+},
+{
+"kind": "kotail",
+"id": "x069",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +7200 at 4500.84 s; KO frame 4502.17; last chain clear 4500.17",
+"t": 4500.84,
+"group": 2,
+"n": "g2-201"
+},
+{
+"kind": "kotail",
+"id": "x069",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3770 at 4501.94 s; KO frame 4502.17; last chain clear 4500.17",
+"t": 4501.94,
+"group": 2,
+"n": "g2-202"
+},
+{
+"kind": "flag",
+"id": "x070",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4508.2,
+"group": 2,
+"n": "g2-203"
+},
+{
+"kind": "flag",
+"id": "x070",
+"player": "p2",
+"issue": "A T-spin with no banner",
+"detail": "A tss at 4514.83 s typed as a plain clear",
+"t": 4514.83,
+"group": 2,
+"n": "g2-204"
+},
+{
+"kind": "flag",
+"id": "x070",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x070', 'p2', 'pc flag', (4518.1, 'double', 2, True), '->', False)",
+"t": 4518.1,
+"group": 2,
+"n": "g2-205"
+},
+{
+"kind": "flag",
+"id": "x070",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x070', 'p2', 'pc flag', (4519.07, 'double', 2, False), '->', True)",
+"t": 4519.07,
+"group": 2,
+"n": "g2-206"
+},
+{
+"kind": "flag",
+"id": "x070",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x070', 'p2', 4519.2, 'drop dup', (4518.1, 'double', 2))",
+"t": 4519.2,
+"group": 2,
+"n": "g2-207"
+},
+{
+"kind": "kotail",
+"id": "x070",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2430 at 4557.54 s; KO frame 4558.07; last chain clear 4556.43",
+"t": 4557.54,
+"group": 2,
+"n": "g2-208"
+},
+{
+"kind": "flag",
+"id": "x071",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4565.0,
+"group": 2,
+"n": "g2-209"
+},
+{
+"kind": "flag",
+"id": "x071",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4570.33 s",
+"t": 4570.33,
+"group": 2,
+"n": "g2-210"
+},
+{
+"kind": "flag",
+"id": "x071",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x071', 'p2', 'pc flag', (4574.23, 'triple', 3, True), '->', False)",
+"t": 4574.23,
+"group": 2,
+"n": "g2-211"
+},
+{
+"kind": "flag",
+"id": "x071",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x071', 'p2', 'pc flag', (4574.63, 'triple', 3, False), '->', True)",
+"t": 4574.63,
+"group": 2,
+"n": "g2-212"
+},
+{
+"kind": "flag",
+"id": "x071",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x071', 'p2', 4574.77, 'drop dup', (4574.23, 'triple', 3))",
+"t": 4574.77,
+"group": 2,
+"n": "g2-213"
+},
+{
+"kind": "flag",
+"id": "x071",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.23 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 4606.83,
+"group": 2,
+"n": "g2-214"
+},
+{
+"kind": "kotail",
+"id": "x071",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +100 at 4607.1 s; KO frame 4606.83; last chain clear 4601.77",
+"t": 4607.1,
+"group": 2,
+"n": "g2-215"
+},
+{
+"kind": "flag",
+"id": "x072",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4620.23 s",
+"t": 4620.23,
+"group": 2,
+"n": "g2-216"
+},
+{
+"kind": "kotail",
+"id": "x072",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +452 at 4696.53 s; KO frame 4697.93; last chain clear 4694.2",
+"t": 4696.53,
+"group": 2,
+"n": "g2-217"
+},
+{
+"kind": "kotail",
+"id": "x072",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3600 at 4696.9 s; KO frame 4697.93; last chain clear 4696.1",
+"t": 4696.9,
+"group": 2,
+"n": "g2-218"
+},
+{
+"kind": "flag",
+"id": "x073",
+"player": "p2",
+"issue": "PC count",
+"detail": "2 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4703.9,
+"group": 3,
+"n": "g3-219"
+},
+{
+"kind": "flag",
+"id": "x073",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x073', 'p2', 'pc flag', (4713.33, 'double', 2, False), '->', True)",
+"t": 4713.33,
+"group": 3,
+"n": "g3-220"
+},
+{
+"kind": "kotail",
+"id": "x073",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3600 at 4714.86 s; KO frame 4716.23; last chain clear 4713.43",
+"t": 4714.86,
+"group": 3,
+"n": "g3-221"
+},
+{
+"kind": "flag",
+"id": "x073",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x073', 'p2', 'pc flag', (4714.87, 'double', 2, False), '->', True)",
+"t": 4714.87,
+"group": 3,
+"n": "g3-222"
+},
+{
+"kind": "flag",
+"id": "x073",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 4716.23,
+"group": 3,
+"n": "g3-223"
+},
+{
+"kind": "flag",
+"id": "x074",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4723.1,
+"group": 3,
+"n": "g3-224"
+},
+{
+"kind": "flag",
+"id": "x074",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4730.9 s",
+"t": 4730.9,
+"group": 3,
+"n": "g3-225"
+},
+{
+"kind": "flag",
+"id": "x074",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x074', 'p2', 'pc flag', (4732.17, 'double', 2, True), '->', False)",
+"t": 4732.17,
+"group": 3,
+"n": "g3-226"
+},
+{
+"kind": "flag",
+"id": "x074",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x074', 'p2', 'pc flag', (4732.67, 'double', 2, False), '->', True)",
+"t": 4732.67,
+"group": 3,
+"n": "g3-227"
+},
+{
+"kind": "flag",
+"id": "x074",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x074', 'p2', 4732.8, 'drop dup', (4732.17, 'double', 2))",
+"t": 4732.8,
+"group": 3,
+"n": "g3-228"
+},
+{
+"kind": "flag",
+"id": "x075",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 4768.0,
+"group": 3,
+"n": "g3-229"
+},
+{
+"kind": "flag",
+"id": "x075",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x075', 'p2', 'pc flag', (4776.77, 'double', 2, False), '->', True)",
+"t": 4776.77,
+"group": 3,
+"n": "g3-230"
+},
+{
+"kind": "kotail",
+"id": "x075",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +132 at 4831.2 s; KO frame 4832.07; last chain clear 4829.7",
+"t": 4831.2,
+"group": 3,
+"n": "g3-231"
+},
+{
+"kind": "flag",
+"id": "x076",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 13.93 s from 5006.07 s; B events spliced (D2/D3)",
+"t": 5006.07,
+"group": 3,
+"n": "g3-232"
+},
+{
+"kind": "flag",
+"id": "x076",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 13.60 s from 5006.27 s; B events spliced (D2/D3)",
+"t": 5006.27,
+"group": 3,
+"n": "g3-233"
+},
+{
+"kind": "flag",
+"id": "x076",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 21.00 s from 5019.87 s; B events spliced (D2/D3)",
+"t": 5019.87,
+"group": 3,
+"n": "g3-234"
+},
+{
+"kind": "flag",
+"id": "x076",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 20.20 s from 5020.00 s; B events spliced (D2/D3)",
+"t": 5020.0,
+"group": 3,
+"n": "g3-235"
+},
+{
+"kind": "kotail",
+"id": "x076",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2416 at 5050.94 s; KO frame 5051.67; last chain clear 5048.9",
+"t": 5050.94,
+"group": 3,
+"n": "g3-236"
+},
+{
+"kind": "flag",
+"id": "x076",
+"player": "p2",
+"issue": "gap window > 4 s (tail)",
+"detail": "4.53 s from the last spawn to the KO",
+"t": 5051.67,
+"group": 3,
+"n": "g3-237"
+},
+{
+"kind": "flag",
+"id": "x077",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 5057.7,
+"group": 3,
+"n": "g3-238"
+},
+{
+"kind": "flag",
+"id": "x077",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x077', 'p2', 'pc flag', (5067.3, 'double', 2, False), '->', True)",
+"t": 5067.3,
+"group": 3,
+"n": "g3-239"
+},
+{
+"kind": "kotail",
+"id": "x077",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1374 at 5087.03 s; KO frame 5087.03; last chain clear 5085.9",
+"t": 5087.03,
+"group": 3,
+"n": "g3-240"
+},
+{
+"kind": "flag",
+"id": "x078",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.10 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 5153.4,
+"group": 3,
+"n": "g3-241"
+},
+{
+"kind": "kotail",
+"id": "x079",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1074 at 5190.9 s; KO frame 5191.23; last chain clear 5189.83",
+"t": 5190.9,
+"group": 3,
+"n": "g3-242"
+},
+{
+"kind": "flag",
+"id": "x080",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 5197.4,
+"group": 3,
+"n": "g3-243"
+},
+{
+"kind": "flag",
+"id": "x080",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x080', 'p2', 'pc flag', (5207.67, 'double', 2, False), '->', True)",
+"t": 5207.67,
+"group": 3,
+"n": "g3-244"
+},
+{
+"kind": "flag",
+"id": "x080",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 5219.4 s",
+"t": 5219.4,
+"group": 3,
+"n": "g3-245"
+},
+{
+"kind": "kotail",
+"id": "x080",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +452 at 5259.1 s; KO frame 5260.4; last chain clear 5258.23",
+"t": 5259.1,
+"group": 3,
+"n": "g3-246"
+},
+{
+"kind": "flag",
+"id": "x080",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 5260.4,
+"group": 3,
+"n": "g3-247"
+},
+{
+"kind": "flag",
+"id": "x081",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 5276.0 s",
+"t": 5276.0,
+"group": 3,
+"n": "g3-248"
+},
+{
+"kind": "flag",
+"id": "x081",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 5302.77,
+"group": 3,
+"n": "g3-249"
+},
+{
+"kind": "flag",
+"id": "x082",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 5347.63,
+"group": 3,
+"n": "g3-250"
+},
+{
+"kind": "flag",
+"id": "x083",
+"player": "p2",
+"issue": "banner without A clear",
+"detail": "Mini T-SPIN Single banner at 5369.24 s, no A clear matched (added by R/build.py)",
+"t": 5369.24,
+"group": 3,
+"n": "g3-251"
+},
+{
+"kind": "flag",
+"id": "x083",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 1 lines (single) vs banner T-SPIN Double at 5385.2 s",
+"t": 5385.2,
+"group": 3,
+"n": "g3-252"
+},
+{
+"kind": "kotail",
+"id": "x083",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +5400 at 5386.93 s; KO frame 5386.93; last chain clear 5385.2",
+"t": 5386.93,
+"group": 3,
+"n": "g3-253"
+},
+{
+"kind": "flag",
+"id": "x084",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 5400.6 s",
+"t": 5400.6,
+"group": 3,
+"n": "g3-254"
+},
+{
+"kind": "kotail",
+"id": "x086",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1230 at 5537.57 s; KO frame 5537.77; last chain clear 5536.57",
+"t": 5537.57,
+"group": 3,
+"n": "g3-255"
+},
+{
+"kind": "flag",
+"id": "x087",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 5550.57 s",
+"t": 5550.57,
+"group": 3,
+"n": "g3-256"
+},
+{
+"kind": "kotail",
+"id": "x087",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +467 at 5581.0 s; KO frame 5581.57; last chain clear 5579.17",
+"t": 5581.0,
+"group": 3,
+"n": "g3-257"
+},
+{
+"kind": "flag",
+"id": "x088",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 5588.0,
+"group": 3,
+"n": "g3-258"
+},
+{
+"kind": "flag",
+"id": "x088",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x088', 'p2', 'pc flag', (5597.5, 'double', 2, True), '->', False)",
+"t": 5597.5,
+"group": 3,
+"n": "g3-259"
+},
+{
+"kind": "flag",
+"id": "x088",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x088', 'p2', 'pc flag', (5597.9, 'double', 2, False), '->', True)",
+"t": 5597.9,
+"group": 3,
+"n": "g3-260"
+},
+{
+"kind": "flag",
+"id": "x088",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x088', 'p2', 5598.0, 'drop dup', (5597.5, 'double', 2))",
+"t": 5598.0,
+"group": 3,
+"n": "g3-261"
+},
+{
+"kind": "kotail",
+"id": "x088",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1522 at 5650.6 s; KO frame 5651.03; last chain clear 5648.9",
+"t": 5650.6,
+"group": 3,
+"n": "g3-262"
+},
+{
+"kind": "flag",
+"id": "x089",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 5657.9,
+"group": 3,
+"n": "g3-263"
+},
+{
+"kind": "flag",
+"id": "x089",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x089', 'p2', 'pc flag', (5674.27, 'double', 2, False), '->', True)",
+"t": 5674.27,
+"group": 3,
+"n": "g3-264"
+},
+{
+"kind": "kotail",
+"id": "x090",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1076 at 5738.63 s; KO frame 5739.23; last chain clear 5737.1",
+"t": 5738.63,
+"group": 3,
+"n": "g3-265"
+},
+{
+"kind": "flag",
+"id": "x091",
+"player": "",
+"issue": "B truncated",
+"detail": "B end detector fired > 1.5 s before A; B values not used",
+"t": 5745.2,
+"group": 3,
+"n": "g3-266"
+},
+{
+"kind": "flag",
+"id": "x091",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 5751.87 s",
+"t": 5751.87,
+"group": 3,
+"n": "g3-267"
+},
+{
+"kind": "flag",
+"id": "x091",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.13 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 5781.17,
+"group": 3,
+"n": "g3-268"
+},
+{
+"kind": "kotail",
+"id": "x091",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3618 at 5781.2 s; KO frame 5781.17; last chain clear 5778.47",
+"t": 5781.2,
+"group": 3,
+"n": "g3-269"
+},
+{
+"kind": "kotail",
+"id": "x092",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1200 at 5816.43 s; KO frame 5817.73; last chain clear 5815.8",
+"t": 5816.43,
+"group": 3,
+"n": "g3-270"
+},
+{
+"kind": "kotail",
+"id": "x092",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2878 at 5816.9 s; KO frame 5817.73; last chain clear 5815.67",
+"t": 5816.9,
+"group": 3,
+"n": "g3-271"
+},
+{
+"kind": "flag",
+"id": "x093",
+"player": "p1",
+"issue": "bad bag score",
+"detail": "24 of 39 bags not a permutation (spawn index [105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182, 189, 196, 203, 210, 217, 224, 231, 238, 245, 252, 259, 266])",
+"t": 5823.8,
+"group": 3,
+"n": "g3-272"
+},
+{
+"kind": "flag",
+"id": "x094",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 5985.87 s",
+"t": 5985.87,
+"group": 3,
+"n": "g3-273"
+},
+{
+"kind": "flag",
+"id": "x094",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 5998.9,
+"group": 3,
+"n": "g3-274"
+},
+{
+"kind": "flag",
+"id": "x095",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6011.57 s",
+"t": 6011.57,
+"group": 3,
+"n": "g3-275"
+},
+{
+"kind": "flag",
+"id": "x095",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.07 s from 6018.07 s; B events spliced (D2/D3)",
+"t": 6018.07,
+"group": 3,
+"n": "g3-276"
+},
+{
+"kind": "flag",
+"id": "x096",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6048.4 s",
+"t": 6048.4,
+"group": 3,
+"n": "g3-277"
+},
+{
+"kind": "flag",
+"id": "x097",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 6072.5,
+"group": 3,
+"n": "g3-278"
+},
+{
+"kind": "flag",
+"id": "x097",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x097', 'p2', 6081.03, 'drop dup', (6081.0, 'double', 2))",
+"t": 6081.03,
+"group": 3,
+"n": "g3-279"
+},
+{
+"kind": "flag",
+"id": "x097",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x097', 'p2', 'pc flag', (6081.17, 'double', 2, False), '->', True)",
+"t": 6081.17,
+"group": 3,
+"n": "g3-280"
+},
+{
+"kind": "kotail",
+"id": "x097",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1200 at 6096.3 s; KO frame 6097.6; last chain clear 6095.17",
+"t": 6096.3,
+"group": 3,
+"n": "g3-281"
+},
+{
+"kind": "flag",
+"id": "x098",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 12.60 s from 6127.23 s; B events spliced (D2/D3)",
+"t": 6127.23,
+"group": 3,
+"n": "g3-282"
+},
+{
+"kind": "flag",
+"id": "x098",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 7.93 s from 6127.33 s; B events spliced (D2/D3)",
+"t": 6127.33,
+"group": 3,
+"n": "g3-283"
+},
+{
+"kind": "flag",
+"id": "x098",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.13 s from 6137.10 s; B events spliced (D2/D3)",
+"t": 6137.1,
+"group": 3,
+"n": "g3-284"
+},
+{
+"kind": "kotail",
+"id": "x098",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2568 at 6148.23 s; KO frame 6148.53; last chain clear 6147.27",
+"t": 6148.23,
+"group": 3,
+"n": "g3-285"
+},
+{
+"kind": "kotail",
+"id": "x099",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +5500 at 6216.36 s; KO frame 6217.73; last chain clear 6215.6",
+"t": 6216.36,
+"group": 3,
+"n": "g3-286"
+},
+{
+"kind": "flag",
+"id": "x100",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 6276.93,
+"group": 3,
+"n": "g3-287"
+},
+{
+"kind": "kotail",
+"id": "x101",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +610 at 6330.67 s; KO frame 6331.37; last chain clear 6329.57",
+"t": 6330.67,
+"group": 3,
+"n": "g3-288"
+},
+{
+"kind": "flag",
+"id": "x102",
+"player": "p1",
+"issue": "bad bag score",
+"detail": "1 of 10 bags not a permutation (spawn index [28])",
+"t": 6449.0,
+"group": 3,
+"n": "g3-289"
+},
+{
+"kind": "flag",
+"id": "x102",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6455.53 s",
+"t": 6455.53,
+"group": 3,
+"n": "g3-290"
+},
+{
+"kind": "flag",
+"id": "x102",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 16.73 s from 6464.07 s; B events spliced (D2/D3)",
+"t": 6464.07,
+"group": 3,
+"n": "g3-291"
+},
+{
+"kind": "flag",
+"id": "x102",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 6464.07 s",
+"t": 6464.07,
+"group": 3,
+"n": "g3-292"
+},
+{
+"kind": "kotail",
+"id": "x102",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1058 at 6505.04 s; KO frame 6505.97; last chain clear 6503.87",
+"t": 6505.04,
+"group": 3,
+"n": "g3-293"
+},
+{
+"kind": "kotail",
+"id": "x103",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1208 at 6550.94 s; KO frame 6550.97; last chain clear 6549.9",
+"t": 6550.94,
+"group": 4,
+"n": "g4-294"
+},
+{
+"kind": "flag",
+"id": "x103",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 6550.97,
+"group": 4,
+"n": "g4-295"
+},
+{
+"kind": "flag",
+"id": "x104",
+"player": "p2",
+"issue": "PC count",
+"detail": "2 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 6557.9,
+"group": 4,
+"n": "g4-296"
+},
+{
+"kind": "flag",
+"id": "x104",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x104', 'p2', 'pc flag', (6568.03, 'triple', 3, True), '->', False)",
+"t": 6568.03,
+"group": 4,
+"n": "g4-297"
+},
+{
+"kind": "flag",
+"id": "x104",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x104', 'p2', 'pc flag', (6568.43, 'triple', 3, False), '->', True)",
+"t": 6568.43,
+"group": 4,
+"n": "g4-298"
+},
+{
+"kind": "flag",
+"id": "x104",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x104', 'p2', 6568.56, 'drop dup', (6568.03, 'triple', 3))",
+"t": 6568.56,
+"group": 4,
+"n": "g4-299"
+},
+{
+"kind": "flag",
+"id": "x104",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x104', 'p2', 'pc flag', (6574.33, 'quad', 4, True), '->', False)",
+"t": 6574.33,
+"group": 4,
+"n": "g4-300"
+},
+{
+"kind": "flag",
+"id": "x104",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x104', 'p2', 6574.7, 'drop dup', (6574.33, 'quad', 4))",
+"t": 6574.7,
+"group": 4,
+"n": "g4-301"
+},
+{
+"kind": "flag",
+"id": "x104",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x104', 'p2', 'pc flag', (6574.7, 'quad', 4, False), '->', True)",
+"t": 6574.7,
+"group": 4,
+"n": "g4-302"
+},
+{
+"kind": "kotail",
+"id": "x104",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3618 at 6602.5 s; KO frame 6603.17; last chain clear 6600.57",
+"t": 6602.5,
+"group": 4,
+"n": "g4-303"
+},
+{
+"kind": "kotail",
+"id": "x105",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3600 at 6714.9 s; KO frame 6714.9; last chain clear 6712.37",
+"t": 6714.9,
+"group": 4,
+"n": "g4-304"
+},
+{
+"kind": "flag",
+"id": "x106",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6728.07 s",
+"t": 6728.07,
+"group": 4,
+"n": "g4-305"
+},
+{
+"kind": "flag",
+"id": "x106",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 6746.2 s",
+"t": 6746.2,
+"group": 4,
+"n": "g4-306"
+},
+{
+"kind": "flag",
+"id": "x106",
+"player": "p1",
+"issue": "gap window > 4 s (tail)",
+"detail": "6.83 s from the last spawn to the KO",
+"t": 6753.57,
+"group": 4,
+"n": "g4-307"
+},
+{
+"kind": "flag",
+"id": "x107",
+"player": "p2",
+"issue": "PC count",
+"detail": "2 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 6759.3,
+"group": 4,
+"n": "g4-308"
+},
+{
+"kind": "flag",
+"id": "x107",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x107', 'p2', 'pc flag', (6768.87, 'triple', 3, True), '->', False)",
+"t": 6768.87,
+"group": 4,
+"n": "g4-309"
+},
+{
+"kind": "flag",
+"id": "x107",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x107', 'p2', 6769.17, 'drop dup', (6768.87, 'triple', 3))",
+"t": 6769.17,
+"group": 4,
+"n": "g4-310"
+},
+{
+"kind": "flag",
+"id": "x107",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x107', 'p2', 'pc flag', (6769.17, 'triple', 3, False), '->', True)",
+"t": 6769.17,
+"group": 4,
+"n": "g4-311"
+},
+{
+"kind": "flag",
+"id": "x107",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x107', 'p2', 'pc flag', (6771.23, 'single', 1, False), '->', True)",
+"t": 6771.23,
+"group": 4,
+"n": "g4-312"
+},
+{
+"kind": "flag",
+"id": "x108",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 6802.0,
+"group": 4,
+"n": "g4-313"
+},
+{
+"kind": "flag",
+"id": "x108",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6809.0 s",
+"t": 6809.0,
+"group": 4,
+"n": "g4-314"
+},
+{
+"kind": "flag",
+"id": "x108",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x108', 'p2', 'pc flag', (6811.53, 'single', 1, False), '->', True)",
+"t": 6811.53,
+"group": 4,
+"n": "g4-315"
+},
+{
+"kind": "kotail",
+"id": "x108",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2400 at 6824.8 s; KO frame 6825.17; last chain clear 6821.93",
+"t": 6824.8,
+"group": 4,
+"n": "g4-316"
+},
+{
+"kind": "flag",
+"id": "x109",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6837.33 s",
+"t": 6837.33,
+"group": 4,
+"n": "g4-317"
+},
+{
+"kind": "kotail",
+"id": "x109",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2430 at 6861.43 s; KO frame 6861.4; last chain clear 6860.13",
+"t": 6861.43,
+"group": 4,
+"n": "g4-318"
+},
+{
+"kind": "flag",
+"id": "x110",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6875.37 s",
+"t": 6875.37,
+"group": 4,
+"n": "g4-319"
+},
+{
+"kind": "kotail",
+"id": "x110",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1532 at 6893.57 s; KO frame 6893.7; last chain clear 6892.43",
+"t": 6893.57,
+"group": 4,
+"n": "g4-320"
+},
+{
+"kind": "flag",
+"id": "x112",
+"player": "p1",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 5.93 s from 6978.20 s; B events spliced (D2/D3)",
+"t": 6978.2,
+"group": 4,
+"n": "g4-321"
+},
+{
+"kind": "flag",
+"id": "x112",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.57 s from 6979.27 s; B events spliced (D2/D3)",
+"t": 6979.27,
+"group": 4,
+"n": "g4-322"
+},
+{
+"kind": "kotail",
+"id": "x112",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +4224 at 6993.97 s; KO frame 6994.77; last chain clear 6992.6",
+"t": 6993.97,
+"group": 4,
+"n": "g4-323"
+},
+{
+"kind": "flag",
+"id": "x113",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.23 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 7025.57,
+"group": 4,
+"n": "g4-324"
+},
+{
+"kind": "kotail",
+"id": "x114",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +914 at 7045.3 s; KO frame 7045.5; last chain clear 7044.3",
+"t": 7045.3,
+"group": 4,
+"n": "g4-325"
+},
+{
+"kind": "flag",
+"id": "x115",
+"player": "p2",
+"issue": "bad bag score",
+"detail": "33 of 45 bags not a permutation (spawn index [77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182, 189, 196, 203, 210, 217, 231, 238, 245, 252, 259, 266, 273, 280, 287, 294, 301, 308])",
+"t": 7051.3,
+"group": 4,
+"n": "g4-326"
+},
+{
+"kind": "flag",
+"id": "x115",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 5.43 s from 7095.30 s; B events spliced (D2/D3)",
+"t": 7095.3,
+"group": 4,
+"n": "g4-327"
+},
+{
+"kind": "flag",
+"id": "x115",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.17 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 7233.63,
+"group": 4,
+"n": "g4-328"
+},
+{
+"kind": "flag",
+"id": "x116",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 7239.6,
+"group": 4,
+"n": "g4-329"
+},
+{
+"kind": "flag",
+"id": "x116",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x116', 'p2', 7249.8, 'drop dup', (7249.77, 'double', 2))",
+"t": 7249.8,
+"group": 4,
+"n": "g4-330"
+},
+{
+"kind": "flag",
+"id": "x116",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x116', 'p2', 'pc flag', (7249.97, 'double', 2, False), '->', True)",
+"t": 7249.97,
+"group": 4,
+"n": "g4-331"
+},
+{
+"kind": "kotail",
+"id": "x116",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +132 at 7274.4 s; KO frame 7274.73; last chain clear 7272.2",
+"t": 7274.4,
+"group": 4,
+"n": "g4-332"
+},
+{
+"kind": "flag",
+"id": "x116",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.23 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 7274.73,
+"group": 4,
+"n": "g4-333"
+},
+{
+"kind": "flag",
+"id": "x118",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 7301.5,
+"group": 4,
+"n": "g4-334"
+},
+{
+"kind": "flag",
+"id": "x118",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x118', 'p2', 'pc flag', (7312.37, 'triple', 3, True), '->', False)",
+"t": 7312.37,
+"group": 4,
+"n": "g4-335"
+},
+{
+"kind": "flag",
+"id": "x118",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x118', 'p2', 7312.7, 'drop dup', (7312.37, 'triple', 3))",
+"t": 7312.7,
+"group": 4,
+"n": "g4-336"
+},
+{
+"kind": "flag",
+"id": "x118",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x118', 'p2', 'pc flag', (7312.7, 'triple', 3, False), '->', True)",
+"t": 7312.7,
+"group": 4,
+"n": "g4-337"
+},
+{
+"kind": "flag",
+"id": "x119",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 7352.3,
+"group": 4,
+"n": "g4-338"
+},
+{
+"kind": "flag",
+"id": "x119",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 7359.13 s",
+"t": 7359.13,
+"group": 4,
+"n": "g4-339"
+},
+{
+"kind": "flag",
+"id": "x119",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x119', 'p2', 'pc flag', (7360.43, 'double', 2, True), '->', False)",
+"t": 7360.43,
+"group": 4,
+"n": "g4-340"
+},
+{
+"kind": "flag",
+"id": "x119",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x119', 'p2', 'pc flag', (7360.9, 'double', 2, False), '->', True)",
+"t": 7360.9,
+"group": 4,
+"n": "g4-341"
+},
+{
+"kind": "flag",
+"id": "x119",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x119', 'p2', 7361.03, 'drop dup', (7360.43, 'double', 2))",
+"t": 7361.03,
+"group": 4,
+"n": "g4-342"
+},
+{
+"kind": "flag",
+"id": "x119",
+"player": "p1",
+"issue": "A T-spin with no banner",
+"detail": "A tsd at 7394.17 s typed as a plain clear",
+"t": 7394.17,
+"group": 4,
+"n": "g4-343"
+},
+{
+"kind": "flag",
+"id": "x119",
+"player": "p2",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.10 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 7395.83,
+"group": 4,
+"n": "g4-344"
+},
+{
+"kind": "flag",
+"id": "x120",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 7409.7 s",
+"t": 7409.7,
+"group": 4,
+"n": "g4-345"
+},
+{
+"kind": "flag",
+"id": "x120",
+"player": "p1",
+"issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Single at 7471.83 s",
+"t": 7471.83,
+"group": 4,
+"n": "g4-346"
+},
+{
+"kind": "flag",
+"id": "x121",
+"player": "p2",
+"issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 7546.17 s",
+"t": 7546.17,
+"group": 4,
+"n": "g4-347"
+},
+{
+"kind": "kotail",
+"id": "x121",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +5325 at 7547.94 s; KO frame 7547.97; last chain clear 7546.17",
+"t": 7547.94,
+"group": 4,
+"n": "g4-348"
+},
+{
+"kind": "flag",
+"id": "x122",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.20 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 7600.13,
+"group": 4,
+"n": "g4-349"
+},
+{
+"kind": "flag",
+"id": "x123",
+"player": "p1",
+"issue": "KO-frame last piece",
+"detail": "winner last spawn 0.23 s before the KO frame; the last piece may lock on the KO frame (not counted)",
+"t": 7694.3,
+"group": 4,
+"n": "g4-350"
+},
+{
+"kind": "flag",
+"id": "x124",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 7700.2,
+"group": 4,
+"n": "g4-351"
+},
+{
+"kind": "flag",
+"id": "x124",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x124', 'p2', 'pc flag', (7711.57, 'double', 2, False), '->', True)",
+"t": 7711.57,
+"group": 4,
+"n": "g4-352"
+},
+{
+"kind": "kotail",
+"id": "x124",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +318 at 7779.26 s; KO frame 7779.73; last chain clear 7777.53",
+"t": 7779.26,
+"group": 4,
+"n": "g4-353"
+},
+{
+"kind": "flag",
+"id": "x125",
+"player": "p2",
+"issue": "PC count",
+"detail": "1 PC(s) in the row: frame-check (A double-logs PCs on this video)",
+"t": 7786.8,
+"group": 4,
+"n": "g4-354"
+},
+{
+"kind": "flag",
+"id": "x125",
+"player": "p2",
+"issue": "PC banner fix",
+"detail": "PCFIX ('x125', 'p2', 'pc flag', (7797.33, 'single', 1, False), '->', True)",
+"t": 7797.33,
+"group": 4,
+"n": "g4-355"
+},
+{
+"kind": "kotail",
+"id": "x125",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1830 at 7819.9 s; KO frame 7820.03; last chain clear 7818.83",
+"t": 7819.9,
+"group": 4,
+"n": "g4-356"
+},
+{
+"kind": "flag",
+"id": "x126",
+"player": "p2",
+"issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.67 s from 7850.97 s; B events spliced (D2/D3)",
+"t": 7850.97,
+"group": 4,
+"n": "g4-357"
+},
+{
+"kind": "kotail",
+"id": "x126",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2720 at 7864.73 s; KO frame 7865.33; last chain clear 7863.57",
+"t": 7864.73,
+"group": 4,
+"n": "g4-358"
+},
+{
+"kind": "flag",
+"id": "x127",
+"player": "p1",
+"issue": "A T-spin with no banner",
+"detail": "A tss at 7889.57 s typed as a plain clear",
+"t": 7889.57,
+"group": 4,
+"n": "g4-359"
+},
+{
+"kind": "kotail",
+"id": "x127",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +1200 at 7919.47 s; KO frame 7920.2; last chain clear 7914.73",
+"t": 7919.47,
+"group": 4,
+"n": "g4-360"
+},
+{
+"kind": "kotail",
+"id": "x127",
+"player": "p2",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +3628 at 7919.67 s; KO frame 7920.2; last chain clear 7917.73",
+"t": 7919.67,
+"group": 4,
+"n": "g4-361"
+},
+{
+"kind": "kotail",
+"id": "x128",
+"player": "p1",
+"issue": "score jump in the last 1.5 s before KO with no chain clear within 0.6 s",
+"detail": "score +2114 at 7954.93 s; KO frame 7955.7; last chain clear 7954.0",
+"t": 7954.93,
+"group": 4,
+"n": "g4-362"
+}
+]

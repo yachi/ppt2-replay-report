@@ -1,0 +1,299 @@
+{
+ "verdicts": [
+  {
+   "ref": "event_fixes[0]",
+   "verdict": "keep",
+   "note": "score 79504->80704 (+1200) at 3900.20, after +1050 at 3899.30 (chain single 3899.1); KO 3900.6; t 3900.17 no collision"
+  },
+  {
+   "ref": "event_fixes[1]",
+   "verdict": "amend",
+   "note": "NEXT shifts only at ~3983.8 (J), ~3984.3 (Z), ~3984.6 (L); score +16 3984.20, +14 3984.50, +16 3984.77 then +900 double 3984.80; hold S unchanged (s2/x058.png). 3 phantom Nones confirmed. Amended only t_end 3984.35->3984.55 so the new 3984.5 lock lies inside the window; was_old unchanged (no chain event in 3984.35-3984.55)",
+   "amended": {
+    "n": "g2-164",
+    "id": "x058",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 3983.8,
+    "t_end": 3984.55,
+    "events": [
+     {
+      "t": 3984.2,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3984.5,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      3983.83,
+      null,
+      0
+     ],
+     [
+      3984.1,
+      null,
+      0
+     ],
+     [
+      3984.1,
+      null,
+      0
+     ],
+     [
+      3984.1,
+      null,
+      0
+     ],
+     [
+      3984.3,
+      null,
+      0
+     ]
+    ],
+    "source": "x058a.png: after the TETRIS no piece until J spawn 3983.88; J locks 3984.20 (score 19915->19931), Z spawns 3984.38 locks 3984.50 (->19945), L spawns 3984.62 and clears the double (->20861 at 3984.80). Score frozen 19915 3982.97-3984.20"
+   }
+  },
+  {
+   "ref": "event_fixes[2]",
+   "verdict": "keep",
+   "note": "p2 +1800 at 4050.10 = 9th REN single (REN10, chain 4049.7), +1950 at 4050.93 = REN11; KO 4051.23"
+  },
+  {
+   "ref": "event_fixes[3]",
+   "verdict": "keep",
+   "note": "s2/x060.png: L locks into the top garbage row, it flashes white 4087.08, sheet score 22560->23786 (score.py misread a digit), KO 4087.47. One row, garbage: single gc1 right (the +1226 size does not fit the REN pattern, but the row count is clear)"
+  },
+  {
+   "ref": "event_fixes[4]",
+   "verdict": "keep",
+   "note": "score 158786->159536 (+750 REN3) 4211.47, then ->160461 at 4212.37 (+900 incl. drop correction = REN4); KO 4212.67"
+  },
+  {
+   "ref": "event_fixes[5]",
+   "verdict": "keep",
+   "note": "+2550 at 4257.43 (REN15) then +2700 at 4258.57 (REN16); KO 4259.27"
+  },
+  {
+   "ref": "event_fixes[6]",
+   "verdict": "keep",
+   "note": "J lock +20 at 4284.10, +1650 at 4284.17 = KO frame; REN9 single, counts (up to and including KO frame)"
+  },
+  {
+   "ref": "event_fixes[7]",
+   "verdict": "keep",
+   "note": "p1 score flat 14575 from quad (+3750 at 4276.63) to +22 at 4277.60 then +600 at 4277.63: the only lock in that interval is the clearing S, so the chain None at 4277.47 is that piece; retype is right and pieces unaffected"
+  },
+  {
+   "ref": "event_fixes[8]",
+   "verdict": "keep",
+   "note": "s2/x066.png: S lock 4370.30, coloured row + top garbage row flash 4370.35; +2250 = double REN9 after +2118 double at 4369.47; KO 4370.37"
+  },
+  {
+   "ref": "event_fixes[9]",
+   "verdict": "keep",
+   "note": "S lock +24 at 4402.03 (= chain None 4401.73), Z +26 at 4402.27, +300 single at 4402.30; KO 4402.9"
+  },
+  {
+   "ref": "event_fixes[10]",
+   "verdict": "keep",
+   "note": "s2/x068.png: vertical I locks 4440.81, +1800 = triple REN2 (no B2B) after B2B quad +3750 at 4439.83; KO 4441.53"
+  },
+  {
+   "ref": "event_fixes[11]",
+   "verdict": "keep",
+   "note": "s2/x069.png: I into the left well, 4 garbage rows flash 4501.95, +3750 = B2B quad REN1 after B2B TST +7200 at 4500.87; KO 4502.17"
+  },
+  {
+   "ref": "event_fixes[12]",
+   "verdict": "keep",
+   "note": "TST +4800 at 4514.00, then +3750 at 4515.63 = B2B TSS (3600) + REN1 150; plain single would be +450"
+  },
+  {
+   "ref": "event_fixes[13]",
+   "verdict": "keep",
+   "note": "s2/x070.png: J into col-3 hole, two garbage rows flash 4557.56-4557.84, +2430 = double REN10 (+30 drop) after +2250 REN9 at 4556.67; KO 4558.07"
+  },
+  {
+   "ref": "cell_edits[0]",
+   "verdict": "keep",
+   "note": "was=153 matches chain_games.csv; KO-tail T lock 3900.15 confirmed"
+  },
+  {
+   "ref": "cell_edits[1]",
+   "verdict": "keep",
+   "note": "was=5 matches chain_games.csv; REN6 from +1200"
+  },
+  {
+   "ref": "cell_edits[2]",
+   "verdict": "keep",
+   "note": "was=102 matches chain_games.csv; 3 phantom Nones (s2/x058.png)"
+  },
+  {
+   "ref": "cell_edits[3]",
+   "verdict": "keep",
+   "note": "was=37 matches chain_games.csv; S lock 4050.90"
+  },
+  {
+   "ref": "cell_edits[4]",
+   "verdict": "keep",
+   "note": "was=10 matches chain_games.csv; REN11 (+1950)"
+  },
+  {
+   "ref": "cell_edits[5]",
+   "verdict": "keep",
+   "note": "was=0 matches chain_games.csv; single clears top garbage row (reader zoom; not refuted)"
+  },
+  {
+   "ref": "cell_edits[6]",
+   "verdict": "keep",
+   "note": "was=50 matches chain_games.csv; L lock 4087.05"
+  },
+  {
+   "ref": "cell_edits[7]",
+   "verdict": "keep",
+   "note": "was=4 matches chain_games.csv; garbage row cleared 4087.08 (s2/x060.png)"
+  },
+  {
+   "ref": "cell_edits[8]",
+   "verdict": "keep",
+   "note": "was=216 matches chain_games.csv; lock ~4212.3"
+  },
+  {
+   "ref": "cell_edits[9]",
+   "verdict": "keep",
+   "note": "was=48 matches chain_games.csv; top garbage row (not refuted)"
+  },
+  {
+   "ref": "cell_edits[10]",
+   "verdict": "keep",
+   "note": "was=64 matches chain_games.csv; J 4258.44"
+  },
+  {
+   "ref": "cell_edits[11]",
+   "verdict": "keep",
+   "note": "was=15 matches chain_games.csv; REN16 (+2700)"
+  },
+  {
+   "ref": "cell_edits[12]",
+   "verdict": "keep",
+   "note": "was=33 matches chain_games.csv; J 4284.10"
+  },
+  {
+   "ref": "cell_edits[13]",
+   "verdict": "keep",
+   "note": "was=5 matches chain_games.csv; REN chain tsd..last single = REN9 by score, no break"
+  },
+  {
+   "ref": "cell_edits[14]",
+   "verdict": "keep",
+   "note": "was=41 matches chain_games.csv; S 4370.30"
+  },
+  {
+   "ref": "cell_edits[15]",
+   "verdict": "keep",
+   "note": "was=2 matches chain_games.csv; one of two rows is garbage (s2/x066.png)"
+  },
+  {
+   "ref": "cell_edits[16]",
+   "verdict": "keep",
+   "note": "was=8 matches chain_games.csv; REN9 double"
+  },
+  {
+   "ref": "cell_edits[17]",
+   "verdict": "keep",
+   "note": "was=38 matches chain_games.csv; Z 4402.27"
+  },
+  {
+   "ref": "cell_edits[18]",
+   "verdict": "keep",
+   "note": "was=54 matches chain_games.csv; I 4440.80"
+  },
+  {
+   "ref": "cell_edits[19]",
+   "verdict": "keep",
+   "note": "was=10 matches chain_games.csv; triple clears one garbage row (8->7)"
+  },
+  {
+   "ref": "cell_edits[20]",
+   "verdict": "keep",
+   "note": "was=86 matches chain_games.csv; I 4501.90"
+  },
+  {
+   "ref": "cell_edits[21]",
+   "verdict": "keep",
+   "note": "was=26 matches chain_games.csv; 4 garbage rows (s2/x069.png)"
+  },
+  {
+   "ref": "cell_edits[22]",
+   "verdict": "keep",
+   "note": "was=3 matches chain_games.csv; quad 4493.37, tsd, quad, tst, quad = b2b 4"
+  },
+  {
+   "ref": "cell_edits[23]",
+   "verdict": "keep",
+   "note": "was=94 matches chain_games.csv; J 4557.55"
+  },
+  {
+   "ref": "cell_edits[24]",
+   "verdict": "keep",
+   "note": "was=8 matches chain_games.csv; 2 garbage rows (s2/x070.png)"
+  },
+  {
+   "ref": "cell_edits[25]",
+   "verdict": "keep",
+   "note": "was=9 matches chain_games.csv; REN10 (+2430)"
+  }
+ ],
+ "added": [],
+ "spot_checks": [
+  {
+   "n": "g2-153",
+   "note": "x055 p1 +5400 at 3801.87 confirmed; chain tsd 3801.07 (early t). no change ok"
+  },
+  {
+   "n": "g2-154",
+   "note": "x055 p2 +1200 at 3802.30 with no row lost = zero-line T-spin (400x3); chain None right"
+  },
+  {
+   "n": "g2-155",
+   "note": "x055 p1 last scores +8 3802.83, +12 3803.00 = chain Nones 3802.6/3802.93; nothing further before KO 3803.3"
+  },
+  {
+   "n": "g2-178",
+   "note": "x062 p1 +4800 at 4226.47 = TST; chain tst 4225.8 right"
+  },
+  {
+   "n": "g2-192",
+   "note": "x065 p2 score after 4340.17 flickers 27503/27563/27663 (digit misreads); only +30 drop steps, no clear"
+  },
+  {
+   "n": "g2-193",
+   "note": "x065 p2 later jumps at/after KO 4340.97 are misreads"
+  },
+  {
+   "n": "g2-214",
+   "note": "x071 p2 drops +24/+22/+24/+20/+18 at 4605.77-4606.70, chain Nones 4605.87/4606.13/4606.43 plus earlier; no clear before KO 4606.83"
+  },
+  {
+   "n": "g2-215",
+   "note": "x071 p2 '?' digits after KO 4606.83; 54567->54667 read at 4607.10 is after KO"
+  },
+  {
+   "n": "g2-217",
+   "note": "s2/x072.png: p2 S hangs near the top 4694.8-4696.5, flat 101378, single +450 at 4696.53; chain has exactly one single after the quad. no change ok"
+  },
+  {
+   "n": "g2-218",
+   "note": "x072 p1 +3600 at 4696.90 = chain tsd 4696.1; next piece not locked by KO 4697.93"
+  }
+ ]
+}
