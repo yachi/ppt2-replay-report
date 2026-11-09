@@ -1,0 +1,887 @@
+{
+ "event_corrections": [
+  {
+   "n": 5,
+   "id": "a009",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1385.47,
+   "t_end": 1389.43,
+   "events": [
+    {
+     "t": 1385.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1385.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1385.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1386.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1386.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1386.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1387.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1387.63,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1388.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1389.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1389.43,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    }
+   ],
+   "was_old": [
+    [
+     1385.47,
+     "tsd",
+     2
+    ],
+    [
+     1389.43,
+     null,
+     0
+    ],
+    [
+     1389.43,
+     null,
+     0
+    ],
+    [
+     1389.43,
+     null,
+     0
+    ],
+    [
+     1389.43,
+     "quad",
+     4
+    ]
+   ],
+   "source": "nextcount p1 1352-1432.6 (fr/g0/nc9.txt) counts 154 spawns vs the chain's 148; every 5 s bin matches except 1382-1392 where the chain holds 5 events for 11 NEXT shifts (1385.46,.63,.93,1386.33,.70,.93,1387.30,.63,1388.80,1389.10,1389.43). Score (fr/g0/s9.txt) shows 11 lock drop-point steps in 1385.5-1389.5 and only two clears: +5400 B2B T-SPIN Double at 1388.03 (T spawned 1387.63; banner 'T-SPIN Double/BACK to BACK' in fr/g0/b9a.png at 1388.15) and +3600 quad at 1389.67; 1385.3-1386 has drop points only, so the chain's tsd at 1385.47 is mistimed"
+  },
+  {
+   "n": 10,
+   "id": "a012",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1566.03,
+   "t_end": 1580.33,
+   "events": [
+    {
+     "t": 1566.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1566.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1566.44,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1566.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1567.14,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1568.14,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1568.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1568.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1568.84,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1569.0,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1570.64,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1571.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1571.44,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1571.74,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1572.04,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1572.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1572.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1572.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1573.24,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1573.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1573.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1574.04,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1574.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1574.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1574.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1574.94,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1575.1,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1576.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1576.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1576.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1577.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1577.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1577.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1578.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1578.74,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1579.04,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1580.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1580.3,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1566.03,
+     null,
+     0
+    ],
+    [
+     1566.23,
+     null,
+     0
+    ],
+    [
+     1567.33,
+     null,
+     0
+    ],
+    [
+     1567.33,
+     null,
+     0
+    ],
+    [
+     1567.33,
+     "tst",
+     4
+    ],
+    [
+     1567.4,
+     "quad",
+     4
+    ],
+    [
+     1568.73,
+     null,
+     0
+    ],
+    [
+     1568.9,
+     null,
+     0
+    ],
+    [
+     1569.13,
+     null,
+     0
+    ],
+    [
+     1569.2,
+     null,
+     0
+    ],
+    [
+     1570.03,
+     "tsd",
+     2
+    ],
+    [
+     1571.4,
+     null,
+     0
+    ],
+    [
+     1572.07,
+     null,
+     0
+    ],
+    [
+     1572.07,
+     null,
+     0
+    ],
+    [
+     1572.83,
+     null,
+     0
+    ],
+    [
+     1572.83,
+     null,
+     0
+    ],
+    [
+     1572.83,
+     null,
+     0
+    ],
+    [
+     1573.1,
+     null,
+     0
+    ],
+    [
+     1573.5,
+     null,
+     0
+    ],
+    [
+     1573.7,
+     null,
+     0
+    ],
+    [
+     1573.9,
+     null,
+     0
+    ],
+    [
+     1574.2,
+     null,
+     0
+    ],
+    [
+     1574.63,
+     null,
+     0
+    ],
+    [
+     1574.73,
+     null,
+     0
+    ],
+    [
+     1574.97,
+     null,
+     0
+    ],
+    [
+     1575.23,
+     null,
+     0
+    ],
+    [
+     1575.23,
+     null,
+     0
+    ],
+    [
+     1575.5,
+     "quad",
+     4
+    ],
+    [
+     1576.8,
+     null,
+     0
+    ],
+    [
+     1577.1,
+     null,
+     0
+    ],
+    [
+     1577.37,
+     null,
+     0
+    ],
+    [
+     1577.7,
+     null,
+     0
+    ],
+    [
+     1577.73,
+     null,
+     0
+    ],
+    [
+     1577.73,
+     null,
+     0
+    ],
+    [
+     1577.73,
+     null,
+     0
+    ],
+    [
+     1577.73,
+     null,
+     0
+    ],
+    [
+     1578.4,
+     null,
+     0
+    ],
+    [
+     1578.7,
+     null,
+     0
+    ],
+    [
+     1579.07,
+     null,
+     0
+    ],
+    [
+     1580.13,
+     null,
+     0
+    ],
+    [
+     1580.33,
+     "triple",
+     3
+    ]
+   ],
+   "source": "38 real pieces in 1565.9-1580.3 vs 41 chain events. Spawns from NEXT shifts (fr/g0/nc12.txt; its queue jumps OLIT?->TJZSS between 1572.04 and 1573.24, i.e. 3 shifts unread: O,L,I) and one hard-drop score step per lock (fr/g0/s12.txt: 10 locks 1566.13-1569.93, 8 in 1571.10-1573.17, 20 in 1573.33-1580.90). Clears from the score: +3600 B2B quad at 1567.30 only (I dropped vertical into the col-5 well, 4 coloured rows, no garbage; fr/g0/q12.png 1567.25-1567.35, no T-SPIN banner, only BACK to BACK) so the chain's tst at 1567.33 is a phantom double-log of the quad; +5400 B2B TSD at 1569.93 clearing the bottom garbage row + one (fr/g0/d12.png); +3600 B2B quad at 1575.40 (the held I, swapped out at 1575.17); +1512 triple at 1580.90. Times are spawn times read from the NEXT queue"
+  },
+  {
+   "n": 16,
+   "id": "a014",
+   "side": "p1",
+   "op": "retype",
+   "t": 1699.63,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score p1 (fr/g0/s14.txt): after the +5400 B2B TSD at 1698.90 the next clears are +3600 at 1702.13 and +3600 at 1704.07 only; 1699.8-1702.0 has drop-point steps only (+26,+30,+24,+26,+24,+18,+24,+30). 12 spawns (NEXT shifts 1699.60-1703.87, fr/g0/nc14.txt) = 12 locks = 12 chain events 1699.63-1704.37, but the chain has three quads (1699.63, 1702.23, 1704.37) for two; the real quads are the held I swapped out at 1701.77 (lock 1702.03) and the I spawned 1703.87 (lock 1703.93), matching the chain's 1702.23 and 1704.37. The 1699.63 event is a plain lock"
+  },
+  {
+   "n": 17,
+   "id": "a015",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1798.16,
+   "t_end": 1798.87,
+   "events": [
+    {
+     "t": 1798.16,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1798.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     1798.2,
+     "quad",
+     4
+    ],
+    [
+     1798.87,
+     "quad",
+     4
+    ]
+   ],
+   "source": "score p1 (fr/g0/s15.txt): one clear only, +3700 B2B quad at 1798.70, then nothing but drop points until +3624 at 1804.27. NEXT shifts (fr/g0/nc15.txt): S spawned 1798.16 (locked 1798.40, no clear), I spawned 1798.50 (the quad at 1798.70). The chain labels both the S (1798.20) and the I (1798.87) as quads; the S is a plain lock. Garbage meter 3 -> 1 row across the quad (fr/g0/q15.png), so the quad cleared 2 garbage rows"
+  },
+  {
+   "n": 20,
+   "id": "a016",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1894.67,
+   "t_end": 1895.03,
+   "events": [
+    {
+     "t": 1894.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1894.83,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     1894.67,
+     "quad",
+     4
+    ],
+    [
+     1895.03,
+     "quad",
+     4
+    ]
+   ],
+   "source": "fr/g0/q20.png 1893.90-1895.03: the T locks left at 1894.57 with no clear, the O spawns 1894.63 and locks 1894.77 beside it (no clear), the I spawns 1894.83 and drops vertical into the garbage well, clearing the four white garbage rows at 1894.97. Score p2 14358 -> 16758 at 1894.97 (+2400, the only clear until +5400 B2B TSD at 1896.67). The chain labels both the O (1894.67, gc 4) and the I (1895.03) as quads; the O is a plain lock"
+  },
+  {
+   "n": 25,
+   "id": "a020",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2035.2,
+   "t_end": 2045.17,
+   "events": [
+    {
+     "t": 2035.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2035.2,
+     null,
+     0
+    ],
+    [
+     2035.23,
+     null,
+     0
+    ],
+    [
+     2035.5,
+     null,
+     0
+    ],
+    [
+     2045.17,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g0/g25.png 2033.95-2035.95 and fr/g0/g23.png 2035.85-2045.60: p2 places Z, I, L and the held S by 2035.0 (score 142), then the T spawned 2035.20 hangs near the top-right and drifts down for ten seconds, locking at ~2045.5 (pink flash at 2045.60, score still 142); the next spawn is the O at 2045.63. NEXT shifts (fr/g0/nc25.txt) 2033.5-2045.6: S 2033.90 (held), Z 2034.03, I 2034.33, L 2034.67, J 2034.93 (held, S out), T 2035.20 = 5 locks, against the chain's 8 events 2034.03-2045.17. The window 2035.20-2045.17 holds one piece, the T"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 3,
+   "id": "a006",
+   "player": "p1",
+   "field": "pieces",
+   "was": 81,
+   "value": 82,
+   "source": "k3.png 1280.15-1280.68: the Z spawned 1280.22 (last spawn, not in cseq; last chain event 1279.87) hard-dropped and locked vertical at the right wall at 1280.48 (score 52107->52141, drop points only, no clear), before the KO frame 1280.50"
+  },
+  {
+   "n": 5,
+   "id": "a009",
+   "player": "p1",
+   "field": "pieces",
+   "was": 148,
+   "value": 154,
+   "source": "same window: 6 locks missing from the chain in 1385.5-1389.4 (11 spawns and 11 lock score steps vs 5 chain events); whole-game NEXT shifts 154 vs chain 148, all other 5 s bins equal"
+  },
+  {
+   "n": 9,
+   "id": "a012",
+   "player": "p1",
+   "field": "pieces",
+   "was": 133,
+   "value": 127,
+   "source": "NEXT shifts over the whole game 124 (fr/g0/nc12.txt, first shift = first spawn, last = the I of the final double) plus 3 unread shifts at 1572.04-1573.24 (queue OLIT? -> TJZSS) = 127 spawns, all locked; the chain holds 130 events of which 3 are surplus in 1566-1580 (see the n=10 window: 41 events for 38 locks, counted from hard-drop score steps); 5 s bins of chain events vs shifts agree everywhere else"
+  },
+  {
+   "n": 12,
+   "id": "a012",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 6,
+   "value": 5,
+   "source": "on-screen score: tst 1558.60 +4800 (no B2B), then B2B tsd +5400 1561.87, tsd +5400 1565.10, quad +3600 1567.30, tsd +5400 1569.93, quad +3600 1575.40, broken by the triple at 1580.90 (+1512): 5 B2B bonuses. The chain's 6 counts the phantom tst at 1567.33 (removed in n=10)"
+  },
+  {
+   "n": 6,
+   "id": "a011",
+   "player": "p1",
+   "field": "pieces",
+   "was": 171,
+   "value": 172,
+   "source": "fr/g0/k6.png 1546.00-1546.60: the O spawned 1546.07 was held at 1546.17 and the L came out of hold; the L hard-dropped to the left column and locked on the KO frame 1546.33 (at the bottom-left with the drop trail at 1546.33, unchanged at 1546.37). Not in cseq (last events 1545.73, 1545.87 = the Z and J). No clear: score 137923 (1545.23) -> 137991 (1546.57) = +68 = three hard drops"
+  },
+  {
+   "n": 16,
+   "id": "a014",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 8,
+   "value": 9,
+   "source": "score p1 (fr/g0/s14.txt): quad +3478 at 1696.77 (after singles, no B2B), then nine B2B-scored clears in a row: TSD +5400 1698.90, quad +3600 1702.13, quad +3600 1704.07, TSD +5400 1706.87, TSD +5400 1711.80, TSS +3600 1716.80, TSS +3629 1718.80, TSS +3600 1720.83, quad +3600 1724.67, broken by the single at 1726.03 (+470) = 9 B2B bonuses"
+  },
+  {
+   "n": 15,
+   "id": "a014",
+   "player": "p1",
+   "field": "pieces",
+   "was": 162,
+   "value": 163,
+   "source": "fr/g0/e14.png 1762.75-1763.55: the T (front of NEXT at 1762.75, gone at 1762.85; NEXT shift 1762.77 in fr/g0/nc14.txt) sits in the top rows of the full stack from 1762.85 and locks there, the board tilting at the KO 1763.47 (lock out, no clear, score 104091 unchanged). It is the 163rd NEXT shift and has no chain event (last event 1761.90)"
+  },
+  {
+   "n": 25,
+   "id": "a020",
+   "player": "p2",
+   "field": "pieces",
+   "was": 64,
+   "value": 61,
+   "source": "whole-game NEXT shifts p2 = 63 (fr/g0/nc25.txt, 2033.90-2078.50); less the J spawned 2078.50 (0.07 s before the KO, never locks) and the piece left in hold at the end = 61 locks. The chain's 64 holds 3 surplus events, all in the idle window 2035.20-2045.17 (chain 8 events vs 5 real locks there; every 5 s bin from 2048.5 to 2078.5 has chain = shifts)"
+  },
+  {
+   "n": 27,
+   "id": "a022",
+   "player": "p1",
+   "field": "pieces",
+   "was": 147,
+   "value": 148,
+   "source": "fr/g0/k27.png 2190.85-2191.45: the O (chain 2190.80) locks at 2190.98 (+26); the L spawned 2191.08 (NEXT shift 2191.100) is held at 2191.15 and the J comes out of hold, is moved left and hard-dropped onto the left stack at 2191.28 with its drop trail, score 101773 -> 101789 (+16, no clear) at 2191.28, before the KO 2191.33 (banner from 2191.35). Not in cseq (last event 2190.80); no clear, so no event added"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "a001 p1: frames 909.40-909.90 (fr/g0/k0.png): the I hard-dropped at 909.53 (+24 drop pts, the chain's 909.33 event); the Z spawned 909.60 is still at the top at the KO 909.73 and after; no lock to add"
+  },
+  {
+   "n": 1,
+   "why": "a002 p1: k1.png 986.75-987.35: the Z spawned ~986.85 is still at the top at the KO 987.17 and later; score unchanged 102906; nothing locked"
+  },
+  {
+   "n": 2,
+   "why": "a003 p1: k2.png 1032.85-1033.38: the J spawned ~1032.98 is still falling (soft-drop +1s) at the KO 1033.23; not locked"
+  },
+  {
+   "n": 4,
+   "why": "a007 p1: k4.png 1317.45-1317.98: the L spawned 1317.53 was held at 1317.70 and the T from hold is still at the top at the KO 1317.73; last lock was the O with the double (+900 at 1317.00), already the chain's 1316.53 event"
+  },
+  {
+   "n": 11,
+   "why": "a012 p1 1567.33: resolved by the n=10 replace_window: the clear is a B2B quad (+3600, I vertical in the well, fr/g0/q12.png); there is no T-SPIN Double there, the chain's tst at the same t is a phantom and is dropped in n=10"
+  },
+  {
+   "n": 13,
+   "why": "a012 p1 1569.9-1575.37: the only clear is the +5400 B2B TSD at 1569.93 (chain tsd 1570.03); the window mismatch is window-edge timing; the events are rewritten by the n=10 replace_window, nothing else to change"
+  },
+  {
+   "n": 14,
+   "why": "a012 p1 1575.37-1580.87: real clears are the +3600 B2B quad at 1575.40 and the triple +1512 at 1580.90 (just past the window end); both kept in the n=10 replace_window; no further change"
+  },
+  {
+   "n": 7,
+   "why": "a011 p1: the +68 (137923 at 1545.23 -> 137991 at 1546.57; panel hidden 1545.5-1546.4) is the drop points of the Z, J and the KO-frame L, no clear (k6.png: no row cleared). The KO-frame L is added as a piece in the n=6 cell edit"
+  },
+  {
+   "n": 8,
+   "why": "a011 p2 1500.8: plain single, not a T-spin: the T went in flat with its stem into the garbage hole (fr/g0/t8.png 1501.10-1501.20; only the stem's row cleared, corners above the T empty), score +758 at 1501.17 = single 300 + REN3 450 + 8 drop (REN chain tss 1497.0 +2400, single +456, quad +2710, this single); a Mini TSS would not fit"
+  },
+  {
+   "n": 18,
+   "why": "a015 p1: fr/g0/k18.png 1873.40-1873.93: the J spawned 1873.60 (NEXT shift 1873.600) is still in the air at the KO 1873.93, being moved right with its ghost at the stack; it never locks, so no KO piece to add (the Z spawned 1873.43 is the chain's last event and locked ~1873.53)"
+  },
+  {
+   "n": 19,
+   "why": "a015 p1: the +85 (140099 at 1872.10 -> 140184 read at 1874.00) is the hard-drop points of the Z, L and Z locked 1872.8-1873.55 (k18.png, no row cleared after the 1872.10 TSS); not a clear"
+  },
+  {
+   "n": 21,
+   "why": "a016 p2: fr/g0/k21.png 1910.85-1911.38: the Z spawned 1910.87 is being soft-dropped (score +1 per row, 37714 -> 37726) and is still mid-air above the stack at 1911.38, the last frame before the KO 1911.4; it never locks, so no KO piece"
+  },
+  {
+   "n": 22,
+   "why": "a019 p2: fr/g0/k22.png 2024.30-2024.83: the L spawned 2024.20 was held at 2024.33 and the held I locked flat at 2024.37 (+27 drop, no clear) = the chain's 2024.20 event; the S spawned 2024.50 is still at the top-right of the field at 2024.63-2024.70 when the KO banner appears, and never locks. No KO piece to add"
+  },
+  {
+   "n": 23,
+   "why": "a020 p1: the gap is real idle time, not an unread queue: fr/g0/g23.png 2033.60-2045.60 shows p1's first L (spawned at GO, 2033.90) falling slowly for 11 s and locking at the bottom-left ~2044.85, score 0 throughout; the next piece spawns 2045.33. Whole-game NEXT shifts (fr/g0/nc23.txt) 59 vs chain 58 events with every 5 s bin equal through 2063 (later bins differ by +-1 and cancel; the surplus shift is the loser's topout/held piece)"
+  },
+  {
+   "n": 24,
+   "why": "a020 p1 2060.17: plain single, not a T-spin Mini: fr/g0/t24.png 2060.10-2060.67 shows only the '3 REN' banner (no T-SPIN text), the T locked flat-side down in the row with its stem up, and the score +762 (16749 -> 17511) = single 300 + REN3 450 + 12 drop; a Mini TSS would be 600+"
+  },
+  {
+   "n": 26,
+   "why": "a020 p2: the +113 (47728 at 2076.63 -> 47841 read at 2078.70/2078.93, the panel unread between) is the hard-drop points of the I, Z, T and J spawned 2077.33-2078.17 (NEXT shifts fr/g0/nc25.txt), all locked before the KO 2078.57 and all already chain events; no clear. The J spawned 2078.50 cannot lock in the 0.07 s before the KO"
+  },
+  {
+   "n": 28,
+   "why": "a022 p2: the +300 at 2189.90 is a zero-line T-spin (mini) of the T taken out of hold when the L spawned 2189.40 was held (2189.60): fr/g0/t28.png 2189.60-2190.13 shows the T rotated into the top-right slot, locking 2189.87 with a 'T-SPIN' banner and no row removed (score 104214 -> 104514, 300 = mini T-spin with no lines at level 3, no drop points). It cleared nothing, and the lock is already the chain's 2189.40 event"
+  }
+ ]
+}

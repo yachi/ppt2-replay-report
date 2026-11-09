@@ -1,0 +1,253 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "nextcount p2 a084: 44 spawns (clean bag), S spawned 17289.03 held at 17289.87 releasing T; score +300 at 17290.77 (<= KO 17290.9) = zero-line mini T-spin lock; chain has 42 events, so one T lock is missing"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Z spawned 18216.30 clears a row: white flash 18216.4, 2 REN banner, score 86301->86901 (+600 single REN2); fr/v3/k101.png"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score REN steps +1650 (18406.63), +1800 (18407.70), +1950 (18412.37), +2100 (18413.83): only one clear between 18408.37 and 18413.03; the T spawned 18408.37 is held at 18412.10 and the J out of hold clears. No spawn for 18408.57/18412.70; BREAK phantom (REN keeps rising)"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "after the hidden PC (score 35169 at 18012.73) the score shows 14 drop-point locks then a B2B quad +3600 at 18018.73; nextcount has 14 spawns 18012.77-18018.43; with the 2 chain Nones at 18013.53 that needs 12 Nones + quad in the window, as proposed (its first two t's are not spawn times but the count is right); the quad at 18013.9 is not supported by any score jump"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score: quad 18022.27, locks +23/+22/+25 at 18023.33/.50/.87, TSD +5414 at 18024.83; spawns 18023.10, .43, .60, .97 -> 3 plain + TSD"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nextcount spawns 16968.17-16969.63 (6), O held 16969.67 releasing I; score 28445->32045 (+3600 B2B quad) at 16969.80; no T-spin there"
+ },
+ {
+  "ref": "e6",
+  "verdict": "amend",
+  "why": "17 spawns 16970.63-16978.40 confirmed (fr/v3/nc80.txt, bags clean). But the clear from the L spawned 16974.60 is a DOUBLE, not a single: score 33053->34108 (+1055 = double 900 + REN1 150 + 5), the white flash at 16975.13 is two rows tall and clears the coloured row with the col-1 gap plus the top garbage row (fr/v3/f80cmp.png). The quad then scores +2432 (non-B2B, no REN) as expected. Double at 16973.5 (+900) and quad gc 3 confirmed (fr/v3/g80.png)",
+  "amended": {
+   "events": [
+    {
+     "t": 16970.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16972.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16972.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16973.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16973.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16974.6,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 16975.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16976.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16976.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 16977.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16977.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16978.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16978.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "no spawn between 16978.70 and 16980.10 in nextcount; TSS +3750 follows"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score 17060.2-17064.1 rises only by drop points (10808->10968); T held at 17060.50, released when J held at 17064.07, TSD at 17064.43"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score 36237->36987 (+750 = single 300 + REN3 450) at 17081.50 after the Z spawned 17081.13 was held; TSD then +3600 (non-B2B) 37087->40687"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "last spawns 17868.67, 17869.57 (L), 17870.40; +2570 at 17869.80 is the L's single; no spawn at 17870.13, the J at 17870.40 never locks (score flat to KO)"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "spawns S 17909.23, Z 17909.40, O 17909.57 held (I out); locks at 17909.47, then +17 drop and +2400 quad at 17909.97 (non-B2B after the triple); one quad only; TSS +3760 at 17911.30 from the T spawned 17910.80"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "T spawned 17936.33 held (S out locks plain), score 61728->61777; I spawned 17936.73 gives the only double +910 at 17937.50; TSD +3756 (REN1)"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "44 spawns, 1 piece (S) in hold at the end, T locked at 17290.77 -> 43"
+ },
+ {
+  "ref": "c1",
+  "verdict": "amend",
+  "why": "the Z add is right but the O spawned 18217.07 never appears on the board (stack pushed to the top by garbage, fr/v3/h101.png) and never locks; the chain's None at 18217.13 is a phantom. 157 spawns (clean bags, fr/v3/nc101.txt) - I in hold - unlocked O = 155, i.e. the count stays 155 once the Z is added and the phantom removed",
+  "amended": {
+   "value": 155
+  }
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "score steps +2250,+2400,+2552,+2704,+2854 at 18414.37-18417.97: last single is REN17; 18 consecutive clears from 18396.27"
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "59 spawns (clean bags), T in hold at the end, spawn 18418.50 not locked by KO 18418.67 -> 57"
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "194 spawns, clean 7-bags (fr/v3/nc99.txt), last spawn 18097.27 unlocked, one piece in hold -> 192"
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "72 spawns, clean 7-bags at offset 0 (fr/v3/nc80.txt); last I spawned 16983.73 locks with +3600 at 16983.97 <= KO 16984.2; one in hold -> 71"
+ },
+ {
+  "ref": "c6",
+  "verdict": "amend",
+  "why": "the KO tilt is end_s 17198.2 (games.jsonl; tilt visible 17198.2-17198.3, fr/v3/k82.png), not 17197.47. 271 spawns to 17198.13, clean 7-bags (fr/v3/nc82.txt). Locks after 17197.47 at 17197.50 (+18), 17197.73 (+16), 17198.03 (+14) all before the KO; the piece spawned 17198.13 does not lock; Z in hold. 271 - 1 held - 1 unlocked = 269",
+  "amended": {
+   "value": 269
+  }
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "last REN clear 17948.73 scores +1970 = 300 + 11x150 + 20; run double, TSD, 3 singles, double, 6 singles = 12 clears = REN11"
+ },
+ {
+  "ref": "n106",
+  "verdict": "missed",
+  "why": "a101 p1: the chain None at 18217.13 (the O spawned 18217.07) is a phantom: the O never reaches the board before the KO 18217.8 (fr/v3/h101.png, fr/v3/k101.png)",
+  "proposal": {
+   "id": "a101",
+   "side": "p1",
+   "op": "remove",
+   "t": 18217.13,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "O spawned 18217.07 never placed; board topped out by garbage; fr/v3/h101.png"
+  }
+ }
+]

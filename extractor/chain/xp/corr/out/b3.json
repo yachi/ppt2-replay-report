@@ -1,0 +1,805 @@
+{
+ "event_corrections": [
+  {
+   "n": 95,
+   "id": "a084",
+   "side": "p2",
+   "op": "add",
+   "t": 17289.03,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T swapped out of hold when the S was held at 17289.87 locked ~17290.3 as a zero-line mini T-spin: T-SPIN banner and score +300 (23333->23633); fr/g3/a084p2.png, a084p2b.png, f_17290.*.png"
+  },
+  {
+   "n": 106,
+   "id": "a101",
+   "side": "p1",
+   "op": "add",
+   "t": 18216.3,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Z spawned 18216.3 clears a single with the '2 REN' banner, score +600 at 18216.77; fr/g3/a101p1.png"
+  },
+  {
+   "n": 114,
+   "id": "a107",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 18408.37,
+   "t_end": 18412.77,
+   "events": [
+    {
+     "t": 18408.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     18408.37,
+     "single",
+     1
+    ],
+    [
+     18408.57,
+     "single",
+     1
+    ],
+    [
+     18412.7,
+     null,
+     0
+    ],
+    [
+     18412.77,
+     "BREAK",
+     4
+    ]
+   ],
+   "source": "nextcount spawns (nc_a107p2.txt, clean 7-bags) and score REN steps show one single in this window; the other single, the None and the BREAK are phantoms; fr/g3/a107p2.png, ren.png"
+  },
+  {
+   "n": 103,
+   "id": "a099",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 18013.7,
+   "t_end": 18018.83,
+   "events": [
+    {
+     "t": 18013.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18013.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18013.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18014.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18014.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18014.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18014.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18015.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18015.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18015.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18016.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18016.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18018.83,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     18013.9,
+     "quad",
+     4
+    ],
+    [
+     18015.23,
+     "BREAK",
+     0
+    ],
+    [
+     18018.83,
+     "quad",
+     4
+    ]
+   ],
+   "source": "nextcount spawns 18013.7-18016.6 (nc_a099p1.txt, perfect 7-bags) are 12 plain locks, score shows only drop points until the quad at 18018.83; the quad at 18013.9 is a duplicate; fr/g3/a099a.png"
+  },
+  {
+   "n": 104,
+   "id": "a099",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 18023.87,
+   "t_end": 18023.97,
+   "events": [
+    {
+     "t": 18023.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18023.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18023.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 18023.97,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     18023.87,
+     null,
+     0
+    ],
+    [
+     18023.87,
+     null,
+     0
+    ],
+    [
+     18023.97,
+     null,
+     0
+    ],
+    [
+     18023.97,
+     null,
+     0
+    ],
+    [
+     18023.97,
+     null,
+     0
+    ],
+    [
+     18023.97,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "only 4 spawns in this span per nextcount (nc_a099p1.txt); two phantom None locks; fr/g3/a099a.png"
+  },
+  {
+   "n": 90,
+   "id": "a080",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 16968.17,
+   "t_end": 16969.8,
+   "events": [
+    {
+     "t": 16968.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16968.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16968.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16969.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16969.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16969.63,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     16968.17,
+     "tst",
+     4
+    ],
+    [
+     16968.4,
+     null,
+     0
+    ],
+    [
+     16968.9,
+     null,
+     0
+    ],
+    [
+     16968.9,
+     null,
+     0
+    ],
+    [
+     16969.8,
+     null,
+     0
+    ],
+    [
+     16969.8,
+     null,
+     0
+    ]
+   ],
+   "source": "spawns J,Z,I(held, S out),Z,T,O(held, I out) per nc_a080p1.txt; the I from hold goes into the well and a 4-row flash at 16969.83, score +3600 (28445->32045) = B2B quad after the B2B TSD at 16966.37 (5400); the T-SPIN Double banner was the earlier TSD's; fr/g3/a080a.png"
+  },
+  {
+   "n": 89,
+   "id": "a080",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 16969.9,
+   "t_end": 16978.97,
+   "events": [
+    {
+     "t": 16970.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16971.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16972.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16972.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16973.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16973.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16974.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16975.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16976.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16976.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 16977.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16977.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16978.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16978.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     16969.9,
+     "BREAK",
+     4
+    ],
+    [
+     16971.43,
+     "BREAK",
+     1
+    ],
+    [
+     16973.3,
+     null,
+     0
+    ],
+    [
+     16973.53,
+     "BREAK",
+     3
+    ],
+    [
+     16975.23,
+     "BREAK",
+     2
+    ],
+    [
+     16976.77,
+     "BREAK",
+     5
+    ],
+    [
+     16978.33,
+     null,
+     0
+    ],
+    [
+     16978.63,
+     null,
+     0
+    ],
+    [
+     16978.97,
+     null,
+     0
+    ]
+   ],
+   "source": "the NEXT queue was readable here: 17 spawns 16970.63-16978.4 in clean 7-bags (nc_a080p1.txt). Clears: J double (2-row flash, +900 at 16973.87), L single (1-row flash 16975.3, REN banner), I vertical in column 3 quad with TETRIS banner at ~16976.7 clearing the orange/yellow row and 3 garbage rows; fr/g3/a080b.png, a080q.png"
+  },
+  {
+   "n": 89,
+   "id": "a080",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 16980.17,
+   "t_end": 16980.17,
+   "events": [
+    {
+     "t": 16980.17,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     16980.17,
+     null,
+     0
+    ],
+    [
+     16980.17,
+     null,
+     0
+    ],
+    [
+     16980.17,
+     null,
+     0
+    ],
+    [
+     16980.17,
+     "tss",
+     1
+    ]
+   ],
+   "source": "no spawn between the T swapped out at 16978.77 (TSD 16979.37) and the T spawned 16980.10 (TSS +3750 at 16980.60), nc_a080p1.txt; the three Nones are phantoms"
+  },
+  {
+   "n": 92,
+   "id": "a082",
+   "side": "p1",
+   "op": "retype",
+   "t": 17061.27,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score 17060.5-17064.1 rises only by drop points (10835->10968); the TSD is the one logged at 17064.43 after the T came out of hold at 17064.07 (nc_a082p1.txt); lock count in the window matches the 18 spawns"
+  },
+  {
+   "n": 93,
+   "id": "a082",
+   "side": "p2",
+   "op": "retype",
+   "t": 17081.13,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "Z spawned ~17081.03 is held, L out of hold hard-dropped clears the bottom garbage row at 17081.37, score +776 (36211->36987) = single at REN3; that breaks B2B so the TSD at 17083.4 scores 3600 (37087->40687), not 5400; fr/g3/a082p2.png"
+  },
+  {
+   "n": 100,
+   "id": "a096",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 17870.13,
+   "t_end": 17870.13,
+   "events": [
+    {
+     "t": 17869.57,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     17870.13,
+     "single",
+     1
+    ]
+   ],
+   "source": "the L spawned 17869.57 (nextcount) stands up and clears one coloured row at 17869.78, +2570 = single at REN15; the next J (17870.40) does not lock by the KO 17870.43; same piece, chain time was late; fr/g3/a096p2.png"
+  },
+  {
+   "n": 101,
+   "id": "a097",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 17909.4,
+   "t_end": 17910.13,
+   "events": [
+    {
+     "t": 17909.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 17909.57,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     17909.4,
+     "quad",
+     4
+    ],
+    [
+     17910.13,
+     "quad",
+     4
+    ]
+   ],
+   "source": "spawns I,O,J,I(held,T out),S,Z,O(held,I out),T (nextcount); only one quad: the I out of hold in the right well, 4-row flash 17910.01, +2400 (35958->38358, non-B2B after the triple); the Z at 17909.4 is a plain lock; the T at 17910.8 is a B2B TSS +3750; fr/g3/a097p1.png"
+  },
+  {
+   "n": 102,
+   "id": "a097",
+   "side": "p2",
+   "op": "retype",
+   "t": 17936.33,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score 17934.7-17937.5 has no clear (61728->61777) and then one double +910 (REN0) from the I spawned 17936.73; TSD then scores +3756 (REN1) and the singles step up to +1950 (REN11) at 17948.73, i.e. one REN step less than the chain; spawns per nextcount"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 95,
+   "id": "a084",
+   "player": "p2",
+   "field": "pieces",
+   "was": 42,
+   "value": 43,
+   "source": "one T lock (mini T-spin, no lines) missing from the chain at ~17290.3; fr/g3/a084p2b.png"
+  },
+  {
+   "n": 106,
+   "id": "a101",
+   "player": "p1",
+   "field": "pieces",
+   "was": 155,
+   "value": 156,
+   "source": "the Z lock at 18216.3 is missing from the chain; fr/g3/a101p1.png"
+  },
+  {
+   "n": 114,
+   "id": "a107",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 12,
+   "value": 17,
+   "source": "score rises by +150 steps up to the '17 REN' banner; fr/g3/ren.png"
+  },
+  {
+   "n": 114,
+   "id": "a107",
+   "player": "p2",
+   "field": "pieces",
+   "was": 61,
+   "value": 57,
+   "source": "59 spawns in clean 7-bags (nc_a107p2.txt), less 1 left in hold and 1 not locked at KO"
+  },
+  {
+   "n": 104,
+   "id": "a099",
+   "player": "p1",
+   "field": "pieces",
+   "was": 191,
+   "value": 192,
+   "source": "194 spawns in a perfect 7-bag sequence (nc_a099p1.txt), less 1 in hold and 1 unlocked at KO"
+  },
+  {
+   "n": 88,
+   "id": "a080",
+   "player": "p1",
+   "field": "pieces",
+   "was": 79,
+   "value": 71,
+   "source": "nextcount reads 72 spawns that partition into clean 7-bags at offset 0 (nc_a080p1.txt), less 1 left in hold; the event fixes above also net to 71"
+  },
+  {
+   "n": 91,
+   "id": "a082",
+   "player": "p1",
+   "field": "pieces",
+   "was": 288,
+   "value": 267,
+   "source": "nextcount over the whole game reads 268 spawns, clean 7-bags at offset 0 (nc_a082p1.txt); the last J (17197.30) locks by the KO frame 17197.47 (score +18, fr/g3/a082end.png); less 1 left in hold"
+  },
+  {
+   "n": 102,
+   "id": "a097",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 12,
+   "value": 11,
+   "source": "last clear of the REN run at 17948.73 scores +1970 = single 300 + 11x150; the chain's 12 counted the phantom double at 17936.33"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 94,
+   "why": "7 locks match the score; the spawn at 17290.8 did not lock by the KO"
+  },
+  {
+   "n": 96,
+   "why": "4 locks match; the spawn at 17505.0 did not lock"
+  },
+  {
+   "n": 97,
+   "why": "the clear at 17458.43 scores +1500 = single 300 + REN8; the next is +1650 (REN9); a TSS would be 2400+; plain single is right"
+  },
+  {
+   "n": 98,
+   "why": "the last piece was still soft-dropping at the KO"
+  },
+  {
+   "n": 99,
+   "why": "3 locks; the T was held and the I had not locked by the KO"
+  },
+  {
+   "n": 105,
+   "why": "the spawn at 18097.267 did not lock (score flat)"
+  },
+  {
+   "n": 107,
+   "why": "the last piece was soft-dropping at the KO"
+  },
+  {
+   "n": 108,
+   "why": "+71 is drop points only, no clear"
+  },
+  {
+   "n": 109,
+   "why": "+5550 is a B2B TSD with REN1; the TST banner is left over from the TST at 18288.53"
+  },
+  {
+   "n": 110,
+   "why": "the O spawned at 18318.77 was still at the top at the KO"
+  },
+  {
+   "n": 111,
+   "why": "4 locks; the last spawn never locked"
+  },
+  {
+   "n": 112,
+   "why": "the TSD is real (+5400 at 18371.17)"
+  },
+  {
+   "n": 113,
+   "why": "2 locks after the TSD; the O was not locked at the KO"
+  },
+  {
+   "n": 115,
+   "why": "the spawn at 18418.5 did not lock"
+  }
+ ]
+}

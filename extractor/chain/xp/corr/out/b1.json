@@ -1,0 +1,838 @@
+{
+ "event_corrections": [
+  {
+   "n": 57,
+   "id": "a049",
+   "side": "p1",
+   "op": "add",
+   "t": 3715.17,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/a049ko.png,a049ko2.png: I hard-dropped at 3715.40 (score 70340->70362, +22) before KO 3715.43, no clear"
+  },
+  {
+   "n": 39,
+   "id": "a039",
+   "side": "p1",
+   "op": "add",
+   "t": 3034.47,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/a039s.png, a039nc.txt: O spawned ~3034.47 and locked ~3034.57 (score 0->38); chain's first event 3034.73 is the I"
+  },
+  {
+   "n": 45,
+   "id": "a044",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3462.63,
+   "t_end": 3476.87,
+   "events": [
+    [
+     3462.63,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3462.8,
+     "tsd",
+     2,
+     0,
+     0
+    ],
+    [
+     3464.1,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3464.37,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3464.67,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3465.7,
+     "tsd",
+     2,
+     0,
+     0
+    ],
+    [
+     3466.9,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3467.17,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3467.53,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3467.8,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3468.0,
+     "quad",
+     4,
+     0,
+     0
+    ],
+    [
+     3469.07,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3469.27,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3469.63,
+     "tsd",
+     2,
+     0,
+     0
+    ],
+    [
+     3470.83,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3471.23,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3471.5,
+     "quad",
+     4,
+     0,
+     0
+    ],
+    [
+     3472.43,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3472.77,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3472.93,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3473.1,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3473.43,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3473.77,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3474.13,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3474.3,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3474.63,
+     "quad",
+     4,
+     0,
+     0
+    ],
+    [
+     3475.6,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3475.9,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3476.07,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3476.3,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3476.57,
+     null,
+     0,
+     0,
+     0
+    ]
+   ],
+   "was_old": [
+    [
+     3462.63,
+     null,
+     0
+    ],
+    [
+     3462.63,
+     "tst",
+     4
+    ],
+    [
+     3462.73,
+     "BREAK",
+     2
+    ],
+    [
+     3463.3,
+     "tsd",
+     2
+    ],
+    [
+     3464.57,
+     null,
+     0
+    ],
+    [
+     3464.87,
+     null,
+     0
+    ],
+    [
+     3466.03,
+     null,
+     0
+    ],
+    [
+     3466.27,
+     "tsd",
+     2
+    ],
+    [
+     3467.4,
+     null,
+     0
+    ],
+    [
+     3468.0,
+     null,
+     0
+    ],
+    [
+     3468.0,
+     null,
+     0
+    ],
+    [
+     3468.23,
+     null,
+     0
+    ],
+    [
+     3468.33,
+     "quad",
+     4
+    ],
+    [
+     3469.7,
+     null,
+     0
+    ],
+    [
+     3469.97,
+     null,
+     0
+    ],
+    [
+     3470.13,
+     "tsd",
+     2
+    ],
+    [
+     3471.53,
+     null,
+     0
+    ],
+    [
+     3471.7,
+     null,
+     0
+    ],
+    [
+     3471.77,
+     "BREAK",
+     3
+    ],
+    [
+     3473.3,
+     "BREAK",
+     3
+    ],
+    [
+     3474.83,
+     "BREAK",
+     5
+    ],
+    [
+     3476.07,
+     null,
+     0
+    ],
+    [
+     3476.07,
+     null,
+     0
+    ],
+    [
+     3476.07,
+     null,
+     0
+    ],
+    [
+     3476.3,
+     null,
+     0
+    ],
+    [
+     3476.57,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g1/a044ban.png + score: +5400@3463.33,+5400@3466.17,+3600@3468.23,+5400@3470.07,+3600@3471.60,+3600@3474.70; banners TSD,TSD,4rows,TSD,4rows,4rows; nextcount 31 spawns matching hard-drop increments"
+  },
+  {
+   "n": 49,
+   "id": "a045",
+   "side": "p1",
+   "op": "add",
+   "t": 3520.07,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/a045.png: I spawned 3520.07, hard-dropped 3520.20 (+20), single +600 with 2 REN banner 3520.23, before KO 3520.37"
+  },
+  {
+   "n": 50,
+   "id": "a046",
+   "side": "p2",
+   "op": "remove",
+   "t": 3540.87,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "fr/g1/a046g.png: T spawned 3540.667 and held; J from hold stayed active until ~3545.60, score flat 11066 from 3540.57 to 3545.60"
+  },
+  {
+   "n": 51,
+   "id": "a046",
+   "side": "p2",
+   "op": "retype",
+   "t": 3587.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g1/a046s.png: +900@3586.83, then none until +912@3588.63 (no REN), +1056@3589.97 (REN1): only one clear, REN double at 3587.03 phantom"
+  },
+  {
+   "n": 54,
+   "id": "a047",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 3607.77,
+   "t_end": 3615.53,
+   "events": [
+    [
+     3607.77,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3608.1,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3608.53,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3608.9,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3609.1,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3609.47,
+     "tsd",
+     2,
+     0,
+     0
+    ],
+    [
+     3610.9,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3611.27,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3611.53,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3612.03,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3612.33,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3612.5,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3612.87,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3613.13,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3613.5,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3613.73,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3614.1,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3614.4,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3614.8,
+     null,
+     0,
+     0,
+     0
+    ],
+    [
+     3615.53,
+     "tsd",
+     2,
+     0,
+     0
+    ]
+   ],
+   "was_old": [
+    [
+     3607.77,
+     "tsd",
+     2
+    ],
+    [
+     3608.4,
+     null,
+     0
+    ],
+    [
+     3608.97,
+     null,
+     0
+    ],
+    [
+     3609.43,
+     null,
+     0
+    ],
+    [
+     3609.43,
+     null,
+     0
+    ],
+    [
+     3609.7,
+     null,
+     0
+    ],
+    [
+     3610.3,
+     "tsd",
+     2
+    ],
+    [
+     3611.57,
+     null,
+     0
+    ],
+    [
+     3611.77,
+     null,
+     0
+    ],
+    [
+     3612.27,
+     null,
+     0
+    ],
+    [
+     3612.47,
+     null,
+     0
+    ],
+    [
+     3612.83,
+     null,
+     0
+    ],
+    [
+     3613.1,
+     null,
+     0
+    ],
+    [
+     3613.4,
+     null,
+     0
+    ],
+    [
+     3613.73,
+     null,
+     0
+    ],
+    [
+     3613.9,
+     null,
+     0
+    ],
+    [
+     3614.3,
+     null,
+     0
+    ],
+    [
+     3614.7,
+     null,
+     0
+    ],
+    [
+     3615.07,
+     null,
+     0
+    ],
+    [
+     3615.53,
+     null,
+     0
+    ],
+    [
+     3615.53,
+     null,
+     0
+    ],
+    [
+     3615.53,
+     null,
+     0
+    ],
+    [
+     3615.53,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "nextcount spawn seq valid 7-bags IOTJLSZ|IJTZLSO|...; score flat 3607.13-3610.13 (drops only, spawn at 3607.77 was L); TSD jumps +5400 at 3610.20 and 3616.47"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 57,
+   "id": "a049",
+   "player": "p1",
+   "field": "pieces",
+   "was": 103,
+   "value": 104,
+   "source": "I lock before KO, fr/g1/a049ko2.png"
+  },
+  {
+   "n": 39,
+   "id": "a039",
+   "player": "p1",
+   "field": "pieces",
+   "was": 62,
+   "value": 63,
+   "source": "missing O lock ~3034.57, fr/g1/a039s.png"
+  },
+  {
+   "n": 46,
+   "id": "a044",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 3,
+   "value": 8,
+   "source": "B2B run TSS 3451.77, TSD 3454.67, TSD 3459.3, then six B2B clears in n=45 window (score +5400/+3600 each): 9 consecutive"
+  },
+  {
+   "n": 49,
+   "id": "a045",
+   "player": "p1",
+   "field": "pieces",
+   "was": 76,
+   "value": 77,
+   "source": "I lock 3520.20, fr/g1/a045.png"
+  },
+  {
+   "n": 50,
+   "id": "a046",
+   "player": "p2",
+   "field": "pieces",
+   "was": 99,
+   "value": 98,
+   "source": "phantom lock at 3540.87 (hold), fr/g1/a046g.png"
+  },
+  {
+   "n": 54,
+   "id": "a047",
+   "player": "p2",
+   "field": "pieces",
+   "was": 48,
+   "value": 45,
+   "source": "47 spawns - 1 in hold at end - 1 active J at KO 3620.333 never locked, fr/g1/a047ko.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 29,
+   "why": "a023 p1: KO-frame L at top, no lock (fr/g1/a023ko.png)"
+  },
+  {
+   "n": 30,
+   "why": "a023 p2 2215.87: only 4 REN banner, no T-SPIN; +913 = single+REN+drops (fr/g1/a023p2b.png)"
+  },
+  {
+   "n": 31,
+   "why": "a027: J soft-dropped resting at KO, lock unprovable"
+  },
+  {
+   "n": 32,
+   "why": "a028: L falling at KO, no score change"
+  },
+  {
+   "n": 33,
+   "why": "a031 p2: L at top at KO"
+  },
+  {
+   "n": 34,
+   "why": "a032: L at top at KO"
+  },
+  {
+   "n": 35,
+   "why": "a033: I at top at KO"
+  },
+  {
+   "n": 36,
+   "why": "a034: T soft-dropped resting, no lock shown"
+  },
+  {
+   "n": 37,
+   "why": "a036: T soft-dropped resting, no lock shown"
+  },
+  {
+   "n": 38,
+   "why": "a037: J at top at KO"
+  },
+  {
+   "n": 40,
+   "why": "a039: Z at top at KO, score +1 soft drop only"
+  },
+  {
+   "n": 41,
+   "why": "a040: T at top at KO"
+  },
+  {
+   "n": 42,
+   "why": "a041: T soft-dropped resting, no lock shown"
+  },
+  {
+   "n": 43,
+   "why": "a042: Z spawning at top at KO"
+  },
+  {
+   "n": 44,
+   "why": "a044 bad bag: piece count consistent; events resolved by n=45 window"
+  },
+  {
+   "n": 47,
+   "why": "a044: resolved inside n=45 replace_window"
+  },
+  {
+   "n": 48,
+   "why": "a044: resolved inside n=45 replace_window"
+  },
+  {
+   "n": 52,
+   "why": "a047 p1: T mid-air at KO"
+  },
+  {
+   "n": 53,
+   "why": "a047 p2 bad bag: bags valid per nextcount; fixed by n=54 window"
+  },
+  {
+   "n": 55,
+   "why": "a047 p2 score_spot: explained by phantom TSD fixed in n=54 window"
+  },
+  {
+   "n": 56,
+   "why": "a049 p1 bad bag: nextcount over 3659.6-3715.5 shows only single shifts (108) with brief unreadable gaps; anomaly is NEXT-reading noise, no frame evidence of a missing/extra lock (fr/g1/a049nc.txt)"
+  }
+ ]
+}

@@ -1,0 +1,867 @@
+{
+ "event_corrections": [
+  {
+   "n": 58,
+   "id": "a050",
+   "side": "p1",
+   "op": "retype",
+   "t": 3746.9,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "the quad was logged twice; the I spawned 3747.6 cleared 4 (TETRIS, one +3750 step), the 3746.9 piece only dropped (fr/g2/a050a.png, a050b.png)"
+  },
+  {
+   "n": 58,
+   "id": "a050",
+   "side": "p1",
+   "op": "retype",
+   "t": 3747.6,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "the quad was logged twice; the I spawned 3747.6 cleared 4 (TETRIS, one +3750 step), the 3746.9 piece only dropped (fr/g2/a050a.png, a050b.png)"
+  },
+  {
+   "n": 62,
+   "id": "a054",
+   "side": "p2",
+   "op": "remove",
+   "t": 3914.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "only one single in 3909-3916: no one-row flash and no +1200 step for the 3914.4 piece; 66 real pieces (fr/g2/a054p2.png)"
+  },
+  {
+   "n": 64,
+   "id": "a055",
+   "side": "p2",
+   "op": "retype",
+   "t": 3970.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "double logged twice; the 3970.03 piece dropped, the 3970.63 piece cleared the double, so the REN run peaks at 6 (fr/g2/a055p2.png)"
+  },
+  {
+   "n": 64,
+   "id": "a055",
+   "side": "p2",
+   "op": "retype",
+   "t": 3970.63,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "double logged twice; the 3970.03 piece dropped, the 3970.63 piece cleared the double, so the REN run peaks at 6 (fr/g2/a055p2.png)"
+  },
+  {
+   "n": 66,
+   "id": "a057",
+   "side": "p2",
+   "op": "retype",
+   "t": 4028.33,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "quad logged twice; one TETRIS only, from the I spawned 4028.97 (fr/g2/a057p2.png)"
+  },
+  {
+   "n": 66,
+   "id": "a057",
+   "side": "p2",
+   "op": "retype",
+   "t": 4028.97,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "quad logged twice; one TETRIS only, from the I spawned 4028.97 (fr/g2/a057p2.png)"
+  },
+  {
+   "n": 68,
+   "id": "a059",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4146.9,
+   "t_end": 4153.83,
+   "events": [
+    {
+     "t": 4146.9,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 4147.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4148.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4148.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4148.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4149.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4150.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4151.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4152.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 4153.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4153.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     4146.9,
+     "triple",
+     3
+    ],
+    [
+     4146.97,
+     "BREAK",
+     4
+    ],
+    [
+     4148.53,
+     "BREAK",
+     1
+    ],
+    [
+     4150.2,
+     "BREAK",
+     2
+    ],
+    [
+     4151.9,
+     "BREAK",
+     3
+    ],
+    [
+     4153.83,
+     null,
+     0
+    ],
+    [
+     4153.83,
+     null,
+     0
+    ],
+    [
+     4153.83,
+     null,
+     0
+    ]
+   ],
+   "source": "BREAK window rebuilt from NEXT shifts and score steps (fr/g2/a059gap.png, a059c.png, a059nc.txt, a059end.png): score 39279->39579 (+300)->40052 (+450)->40665 (+613)->41429 (+764) = four singles at REN0-3 after the triple; other spawns drop points only; 85 real pieces"
+  },
+  {
+   "n": 69,
+   "id": "a059",
+   "side": "p2",
+   "op": "retype",
+   "t": 4119.67,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "the 4119.67 triple was a PERFECT CLEAR (+6936, PERFECT CLEAR banner 4120.1); the 4120.13 entry is the same clear logged twice (fr/g2/a059p2.png)"
+  },
+  {
+   "n": 69,
+   "id": "a059",
+   "side": "p2",
+   "op": "retype",
+   "t": 4120.13,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "the 4119.67 triple was a PERFECT CLEAR (+6936, PERFECT CLEAR banner 4120.1); the 4120.13 entry is the same clear logged twice (fr/g2/a059p2.png)"
+  },
+  {
+   "n": 70,
+   "id": "a060",
+   "side": "p1",
+   "op": "add",
+   "t": 4196.33,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "a piece spawned 4196.33 cleared a single (one-row flash 4196.73, score +310 to 30740), missing from the chain (fr/g2/a060.png)"
+  },
+  {
+   "n": 71,
+   "id": "a062",
+   "side": "p1",
+   "op": "add",
+   "t": 4252.77,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "the J spawned 4252.77 locked on frame 4252.90 = end_s (fr/g2/a062.png)"
+  },
+  {
+   "n": 72,
+   "id": "a064",
+   "side": "p1",
+   "op": "add",
+   "t": 16138.97,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "a single at REN9 (+1674) from the piece spawned 16138.97 is missing (fr/g2/a064.png)"
+  },
+  {
+   "n": 74,
+   "id": "a070",
+   "side": "p1",
+   "op": "retype",
+   "t": 16367.43,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "the 16367.43 piece cleared nothing; the 16368.97 I cleared 4 (TETRIS banner, +3750), not a triple (fr/g2/a070.png, a070b.png)"
+  },
+  {
+   "n": 74,
+   "id": "a070",
+   "side": "p1",
+   "op": "retype",
+   "t": 16368.97,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 1,
+   "source": "the 16367.43 piece cleared nothing; the 16368.97 I cleared 4 (TETRIS banner, +3750), not a triple (fr/g2/a070.png, a070b.png)"
+  },
+  {
+   "n": 76,
+   "id": "a074",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 16548.83,
+   "t_end": 16551.77,
+   "events": [
+    {
+     "t": 16548.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16549.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16549.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16549.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16550.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16550.17,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16551.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16551.77,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     16548.83,
+     "tsd",
+     2
+    ],
+    [
+     16551.77,
+     null,
+     0
+    ],
+    [
+     16551.77,
+     null,
+     0
+    ],
+    [
+     16551.77,
+     null,
+     0
+    ],
+    [
+     16551.77,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "window rebuilt from NEXT shifts and score (fr/g2/a074a-d.png, a074nc.txt): no clear in 16548.8-16549.8; TSD +3600 (no B2B) at 16550.77 from the T spawned 16550.17; B2B TSD +5400 at 16552.43 from the 16551.77 T; 64 real pieces (66 shifts, -1 hold into empty, -1 final L never locked)"
+  },
+  {
+   "n": 78,
+   "id": "a075",
+   "side": "p1",
+   "op": "add",
+   "t": 16592.9,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "the I spawned 16592.9 was held; the O from hold hard-dropped and locked at frame 16593.07 = end_s (+16) (fr/g2/a075.png)"
+  },
+  {
+   "n": 80,
+   "id": "a076",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 16709.73,
+   "t_end": 16718.73,
+   "events": [
+    {
+     "t": 16709.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16710.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16711.43,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16712.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16713.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16713.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16713.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16713.87,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 16715.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16715.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16715.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16716.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16716.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16716.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16716.87,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16718.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16718.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 16718.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     16709.73,
+     "tst",
+     4
+    ],
+    [
+     16709.93,
+     null,
+     0
+    ],
+    [
+     16709.93,
+     null,
+     0
+    ],
+    [
+     16710.03,
+     "BREAK",
+     1
+    ],
+    [
+     16711.67,
+     "BREAK",
+     3
+    ],
+    [
+     16711.9,
+     "tsd",
+     2
+    ],
+    [
+     16713.33,
+     "BREAK",
+     4
+    ],
+    [
+     16714.87,
+     "BREAK",
+     3
+    ],
+    [
+     16716.4,
+     "BREAK",
+     2
+    ],
+    [
+     16717.17,
+     "tss",
+     1
+    ],
+    [
+     16718.1,
+     "BREAK",
+     1
+    ],
+    [
+     16718.73,
+     null,
+     0
+    ],
+    [
+     16718.73,
+     null,
+     0
+    ],
+    [
+     16718.73,
+     null,
+     0
+    ],
+    [
+     16718.73,
+     "single",
+     1
+    ]
+   ],
+   "source": "BREAK window rebuilt from NEXT shifts and score (fr/g2/a076a-e.png): the 16709.73 'tst' was a J with no clear; TSD +3609 at ~16712.4 from the T out of hold (spawn 16711.43, TSD banner); B2B TETRIS +3600 at 16714.2 (I out of hold, 16713.87); B2B T-Spin Single +3600 at 16717.4 (16716.87); single at 16718.73"
+  },
+  {
+   "n": 86,
+   "id": "a078",
+   "side": "p1",
+   "op": "retype",
+   "t": 16813.43,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no +900 between the TSD at 16813.3 (69803) and 69817 at 16814.3, so 16813.43 cleared nothing; pieces 16815.97-16818.0 are I (via T-hold), Z, O, S, J, L, L, T = 8 vs the chain's 9 (fr/g2/a078a.png, a078b.png)"
+  },
+  {
+   "n": 86,
+   "id": "a078",
+   "side": "p1",
+   "op": "remove",
+   "t": 16816.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "no +900 between the TSD at 16813.3 (69803) and 69817 at 16814.3, so 16813.43 cleared nothing; pieces 16815.97-16818.0 are I (via T-hold), Z, O, S, J, L, L, T = 8 vs the chain's 9 (fr/g2/a078a.png, a078b.png)"
+  },
+  {
+   "n": 87,
+   "id": "a078",
+   "side": "p1",
+   "op": "remove",
+   "t": 16810.13,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "source": "only two spawns in 16809.1-16811.13: the I (single +600) and the T, held; the L from hold cleared the triple at 16810.5 (+1972); the TSD banner belongs to 16813.3, so the 16810.13 'tst' is phantom (fr/g2/a078a.png)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 61,
+   "id": "a054",
+   "player": "p2",
+   "field": "pieces",
+   "was": 67,
+   "value": 66,
+   "source": "only one single in 3909-3916: no one-row flash and no +1200 step for the 3914.4 piece; 66 real pieces (fr/g2/a054p2.png)"
+  },
+  {
+   "n": 64,
+   "id": "a055",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 7,
+   "value": 6,
+   "source": "double logged twice; the 3970.03 piece dropped, the 3970.63 piece cleared the double, so the REN run peaks at 6 (fr/g2/a055p2.png)"
+  },
+  {
+   "n": 68,
+   "id": "a059",
+   "player": "p1",
+   "field": "pieces",
+   "was": 95,
+   "value": 85,
+   "source": "BREAK window rebuilt from NEXT shifts and score steps (fr/g2/a059gap.png, a059c.png, a059nc.txt, a059end.png): score 39279->39579 (+300)->40052 (+450)->40665 (+613)->41429 (+764) = four singles at REN0-3 after the triple; other spawns drop points only; 85 real pieces"
+  },
+  {
+   "n": 70,
+   "id": "a060",
+   "player": "p1",
+   "field": "pieces",
+   "was": 52,
+   "value": 53,
+   "source": "a piece spawned 4196.33 cleared a single (one-row flash 4196.73, score +310 to 30740), missing from the chain (fr/g2/a060.png)"
+  },
+  {
+   "n": 71,
+   "id": "a062",
+   "player": "p1",
+   "field": "pieces",
+   "was": 35,
+   "value": 36,
+   "source": "the J spawned 4252.77 locked on frame 4252.90 = end_s (fr/g2/a062.png)"
+  },
+  {
+   "n": 72,
+   "id": "a064",
+   "player": "p1",
+   "field": "pieces",
+   "was": 56,
+   "value": 57,
+   "source": "a single at REN9 (+1674) from the piece spawned 16138.97 is missing (fr/g2/a064.png)"
+  },
+  {
+   "n": 72,
+   "id": "a064",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 8,
+   "value": 9,
+   "source": "a single at REN9 (+1674) from the piece spawned 16138.97 is missing (fr/g2/a064.png)"
+  },
+  {
+   "n": 76,
+   "id": "a074",
+   "player": "p1",
+   "field": "pieces",
+   "was": 61,
+   "value": 64,
+   "source": "window rebuilt from NEXT shifts and score (fr/g2/a074a-d.png, a074nc.txt): no clear in 16548.8-16549.8; TSD +3600 (no B2B) at 16550.77 from the T spawned 16550.17; B2B TSD +5400 at 16552.43 from the 16551.77 T; 64 real pieces (66 shifts, -1 hold into empty, -1 final L never locked)"
+  },
+  {
+   "n": 78,
+   "id": "a075",
+   "player": "p1",
+   "field": "pieces",
+   "was": 56,
+   "value": 57,
+   "source": "the I spawned 16592.9 was held; the O from hold hard-dropped and locked at frame 16593.07 = end_s (+16) (fr/g2/a075.png)"
+  },
+  {
+   "n": 79,
+   "id": "a076",
+   "player": "p1",
+   "field": "pieces",
+   "was": 245,
+   "value": 231,
+   "source": "nextcount over the whole game (fr/g2/a076nc.txt): 233 shifts -1 hold into empty -1 last J (16731.3) never locked = 231 = 222 non-BREAK chain events + 9 added by the n80 window; csv 245 included B estimates"
+  },
+  {
+   "n": 85,
+   "id": "a078",
+   "player": "p1",
+   "field": "pieces",
+   "was": 208,
+   "value": 206,
+   "source": "nextcount (fr/g2/a078nc.txt): 208 shifts -1 hold into empty -1 last Z (16867.967) never locked (board buried 16868.08) = 206"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 59,
+   "why": "the S/Z was still falling at KO 3890.27 (fr/g2/a053.png)"
+  },
+  {
+   "n": 60,
+   "why": "last spawn 3943.40; no score change before KO 3943.57, so no lock"
+  },
+  {
+   "n": 63,
+   "why": "frames show no piece locking by the KO frame"
+  },
+  {
+   "n": 65,
+   "why": "frames show no piece locking by the KO frame (fr/g2/a057.png)"
+  },
+  {
+   "n": 67,
+   "why": "the bad-bag stretch is the BREAK window fixed under n68"
+  },
+  {
+   "n": 73,
+   "why": "the T was still in lock delay at KO (fr/g2/a068.png)"
+  },
+  {
+   "n": 75,
+   "why": "S spawned 16480.667, score stayed 43011 through KO 16480.8; the +26 at 16480.57 belongs to the 16480.37 piece already in the chain"
+  },
+  {
+   "n": 77,
+   "why": "the O locked 16557.15 (in chain); the J spawned 16557.2 was still at the top at KO 16557.3 (fr/g2/a074p2.png)"
+  },
+  {
+   "n": 81,
+   "why": "covered by n80: the 'tst 4' at 16709.73 was a J with no clear; the real TSD is at 16711.43"
+  },
+  {
+   "n": 82,
+   "why": "the T-spin Single is real (one-row flash, B2B +3600); kept in the n80 window as tss gc 0"
+  },
+  {
+   "n": 83,
+   "why": "O and Z locked (+20, +14); the J spawned 16731.3 never locked, score unchanged through KO 16731.43"
+  },
+  {
+   "n": 84,
+   "why": "the L spawned 16760.067, score held at 25368 through 16760.30, after KO 16760.27"
+  }
+ ]
+}
