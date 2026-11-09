@@ -1,0 +1,782 @@
+{
+ "verdicts": [
+  {
+   "ref": "event_fixes[0]",
+   "verdict": "keep",
+   "note": "x023 p1 lock +28 at 1729.63, +300 at 1729.70, KO 1729.77; chain 1729.2 is the prior Z."
+  },
+  {
+   "ref": "event_fixes[1]",
+   "verdict": "keep",
+   "note": "x025 p1 score lock-by-lock gives 58 locks; clears quad 1897.83, double 1899.53, TSD 1901.03 (+3750), triple 1902.40, quad 1906.13, TSD 1908.77 (+5400 B2B), quad 1913.77, TSD 1915.93, quad 1918.87, TSD 1922.00, quad 1923.20; was_old matches cseq."
+  },
+  {
+   "ref": "event_fixes[2]",
+   "verdict": "keep",
+   "note": "x025 p2 locks 1920.00, quad 1920.27, 1921.33, 1922.57, 1922.80, zero-line T-spin +1200 1923.23; was_old matches."
+  },
+  {
+   "ref": "event_fixes[3]",
+   "verdict": "keep",
+   "note": "x026 p1 +22 1959.23 then +2550 1959.27 (single + REN15)."
+  },
+  {
+   "ref": "event_fixes[4]",
+   "verdict": "amend",
+   "note": "Lock +12 visible at 2062.37 (the KO frame), +1800 at 2062.43 is after KO; put t at the lock/KO frame 2062.37 so the add is not after KO end.",
+   "amended": {
+    "n": "g1-084",
+    "id": "x027",
+    "side": "p2",
+    "op": "add",
+    "t": 2062.37,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0,
+    "source": "winner p2: vertical I locks at 2062.33 (score 96608->96620) completing 3 player rows; flash 2062.40, 2 REN, score ->98420 (+1800 = triple 1500 + REN 300). The lock is before the KO frame 2062.37 (p1 board starts tilting 2062.40); the flash is the same piece one frame later. /tmp/claude-0/xk/corr/xk/g1/x027b.png"
+   }
+  },
+  {
+   "ref": "event_fixes[5]",
+   "verdict": "keep",
+   "note": "x032 p2 +1226 at 2366.50, before KO 2367.27."
+  },
+  {
+   "ref": "event_fixes[6]",
+   "verdict": "reject",
+   "note": "REJECT: cseq holds only ONE triple at 2421.5 (no duplicate); score +3300 at 2421.50 is that real I triple. Removing it deletes a real clear."
+  },
+  {
+   "ref": "event_fixes[7]",
+   "verdict": "keep",
+   "note": "x034 p1 Z +32 at 2422.37, KO 2422.43; not in chain."
+  },
+  {
+   "ref": "event_fixes[8]",
+   "verdict": "reject",
+   "note": "REJECT: post-tetris locks L 2459.93, Z 2460.23, O 2460.57, J 2460.97; chain Nones 2459.67/2460.03/2460.33/2460.67 are their spawn-time entries (chain logs at NEXT shift, ~0.3 s before lock). The J is already counted."
+  },
+  {
+   "ref": "event_fixes[9]",
+   "verdict": "keep",
+   "note": "x036 p1 only an O locks (2524.03), double +1050 at 2524.10, coloured rows (gc0)."
+  },
+  {
+   "ref": "event_fixes[10]",
+   "verdict": "keep",
+   "note": "x036 p2 J soft-dropped locks ~2584.1, not in chain (chain 2582.67/2582.9/2583.2 map to earlier locks); KO 2584.5."
+  },
+  {
+   "ref": "event_fixes[11]",
+   "verdict": "keep",
+   "note": "x036 p2 S from hold +34 at 2584.38-2584.40, before KO 2584.5."
+  },
+  {
+   "ref": "event_fixes[12]",
+   "verdict": "reject",
+   "note": "REJECT: chain 2617.37/2617.53/2617.7/2618.03 are spawn times of O, Z, I, J whose locks are 2617.53, 2617.68, 2618.03, 2618.33. The J at 2618.3 is already in the chain."
+  },
+  {
+   "ref": "event_fixes[13]",
+   "verdict": "keep",
+   "note": "x038 p1 +30 2670.33, +600 2670.37 (single+REN), KO 2670.43."
+  },
+  {
+   "ref": "event_fixes[14]",
+   "verdict": "keep",
+   "note": "x039 p1 +3600 at 2705.37 = triple 1500 + REN14 2100; gc3 not contradicted."
+  },
+  {
+   "ref": "event_fixes[15]",
+   "verdict": "reject",
+   "note": "REJECT: post-TSD locks 2739.57, 2739.97, 2740.37, 2740.70 = 4; chain has 4 spawn-timed Nones 2739.3/2739.67/2740.07/2740.47. Z already counted."
+  },
+  {
+   "ref": "event_fixes[16]",
+   "verdict": "keep",
+   "note": "x042 p1 +36 2907.67, +2250 2907.70 (single+REN13), KO 2908.07."
+  },
+  {
+   "ref": "event_fixes[17]",
+   "verdict": "amend",
+   "note": "Events 2943.67 and 2944.0 lie outside [2941.93, 2943.4]; t_end raised to 2944.0. was_old unchanged (no cseq event in (2943.4, 2944.0]). Score confirms double +2554 2942.73, Z +4 2943.70, single +306 2944.00, KO 2944.17.",
+   "amended": {
+    "n": "g1-119",
+    "id": "x043",
+    "side": "p2",
+    "op": "replace_window",
+    "t": 2941.93,
+    "t_end": 2944.0,
+    "events": [
+     {
+      "t": 2941.93,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 2943.67,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 2944.0,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      2941.93,
+      null,
+      0
+     ],
+     [
+      2941.93,
+      null,
+      0
+     ],
+     [
+      2941.93,
+      "double",
+      2
+     ],
+     [
+      2943.4,
+      null,
+      0
+     ],
+     [
+      2943.4,
+      null,
+      0
+     ]
+    ],
+    "source": "After the 2941.57 single the next piece is the J spawned 2942.15 (NEXT 2942.17), locked upright at right ~2942.55, double with score 23153->25707 at 2942.73 (900 + 11 REN 1650). Z spawns 2943.37 and locks 2943.67 (+4, no clear). O spawns, is held, S comes out of hold and locks 2943.97 clearing the coloured row above the garbage (white 2944.0-2944.2), score 25711->26017 (+306, REN broken). KO 2944.17. Two phantom Nones at 2941.93; the 2943.4 pair were the Z and the S single. Kept the chain's gc 2 for the double. /tmp/claude-0/xk/corr/xk/g1/x043b.png /tmp/claude-0/xk/corr/xk/g1/x043c.png"
+   }
+  },
+  {
+   "ref": "event_fixes[18]",
+   "verdict": "keep",
+   "note": "x044 p1 +22 2987.17, +3000 2987.23 (single+REN18)."
+  },
+  {
+   "ref": "event_fixes[19]",
+   "verdict": "keep",
+   "note": "x045 p1 +3600 at 3024.63 = B2B tetris, not TST; was matches cseq."
+  },
+  {
+   "ref": "event_fixes[20]",
+   "verdict": "keep",
+   "note": "x045 p1 +5400 at 3026.57 (B2B TSD), KO 3026.67."
+  },
+  {
+   "ref": "event_fixes[21]",
+   "verdict": "keep",
+   "note": "x046 p1 chain singles 3104.97/3105.77 are clears 3105.03/3106.07; Z +26 at 3106.83 absent; KO 3106.93."
+  },
+  {
+   "ref": "event_fixes[22]",
+   "verdict": "keep",
+   "note": "x047 p2 +3176 at 3185.03, KO 3185.53."
+  },
+  {
+   "ref": "event_fixes[23]",
+   "verdict": "reject",
+   "note": "REJECT: J from hold locks 3225.63 but chain None 3225.4 is its spawn-time entry; only 8 post-TSD locks vs 7 chain Nones, so one add (the I, [24]) suffices."
+  },
+  {
+   "ref": "event_fixes[24]",
+   "verdict": "keep",
+   "note": "x048 p1 I vertical at left wall locks 3225.93, KO 3225.97; post-TSD score shows 8 locks (3223.30, 3223.80, 3223.97, 3224.60, 3224.93, 3225.30, 3225.63, 3225.93) vs 7 spawn-timed chain Nones, so this is the one missing."
+  },
+  {
+   "ref": "event_fixes[25]",
+   "verdict": "reject",
+   "note": "REJECT: post-tetris locks J 3409.90, S 3410.07, O 3410.37, L 3410.63; chain Nones 3409.63/3409.93/3410.13/3410.4 are their spawn times. L already counted."
+  },
+  {
+   "ref": "event_fixes[26]",
+   "verdict": "keep",
+   "note": "x051 p2 +20 3482.10, +1950 3482.13 = double 900 + REN7 1050; gc2 not contradicted."
+  },
+  {
+   "ref": "event_fixes[27]",
+   "verdict": "keep",
+   "note": "x052 p1 +26 3563.20, +600 3563.30 (single+REN2), KO 3563.87."
+  },
+  {
+   "ref": "event_fixes[28]",
+   "verdict": "keep",
+   "note": "x053 p1 locks 3593.97, 3594.47, 3594.83, 3595.07 vs 3 chain Nones; last lock at KO frame."
+  },
+  {
+   "ref": "event_fixes[29]",
+   "verdict": "amend",
+   "note": "Structure confirmed lock-by-lock (29 events; every REN bonus checks to REN10 at 3674.70; TSD +3600 at 3687.17 non-B2B; was_old matches). gc corrected from zoomed frames: 3668.93/3671.57/3673.53/3674.70/3683.63 cleared 2 grey rows (gc 1->2), triple 3678.23 cleared 1 coloured + 2 grey (gc 1->2), single 3679.73 cleared a grey row (gc 0->1).",
+   "amended": {
+    "n": "g1-144",
+    "id": "x054",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 3664.0,
+    "t_end": 3686.5,
+    "events": [
+     {
+      "t": 3665.03,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3666.07,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3667.13,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3668.13,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3668.93,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 3670.63,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 1
+     },
+     {
+      "t": 3671.57,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 3672.6,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 1
+     },
+     {
+      "t": 3673.53,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 3674.7,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 3675.67,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3676.0,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3676.83,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3677.2,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3677.47,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3677.83,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3678.23,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 3679.27,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3679.73,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 1
+     },
+     {
+      "t": 3680.93,
+      "kind": "single",
+      "lines": 1,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3681.77,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 1
+     },
+     {
+      "t": 3682.67,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 1
+     },
+     {
+      "t": 3683.63,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 3684.67,
+      "kind": "double",
+      "lines": 2,
+      "pc": 0,
+      "gc": 2
+     },
+     {
+      "t": 3685.67,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3685.87,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3686.2,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3686.33,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 3686.43,
+      "kind": "tsd",
+      "lines": 2,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      3665.13,
+      "double",
+      2
+     ],
+     [
+      3666.9,
+      "single",
+      1
+     ],
+     [
+      3667.57,
+      "triple",
+      3
+     ],
+     [
+      3668.93,
+      "BREAK",
+      1
+     ],
+     [
+      3670.57,
+      "BREAK",
+      3
+     ],
+     [
+      3672.2,
+      "BREAK",
+      3
+     ],
+     [
+      3673.9,
+      "BREAK",
+      4
+     ],
+     [
+      3676.43,
+      "double",
+      2
+     ],
+     [
+      3676.7,
+      "BREAK",
+      3
+     ],
+     [
+      3678.47,
+      "BREAK",
+      4
+     ],
+     [
+      3680.03,
+      "BREAK",
+      3
+     ],
+     [
+      3681.7,
+      "BREAK",
+      10
+     ],
+     [
+      3683.07,
+      null,
+      0
+     ],
+     [
+      3683.07,
+      null,
+      0
+     ],
+     [
+      3683.07,
+      "double",
+      2
+     ],
+     [
+      3686.43,
+      null,
+      0
+     ],
+     [
+      3686.43,
+      null,
+      0
+     ],
+     [
+      3686.43,
+      "tsd",
+      2
+     ]
+    ],
+    "source": "REN downstack the chain lost (8 BREAK markers from B). Rebuilt lock by lock from p1 score: each clear jump fits a REN bonus exactly (D+150@3665.03 ... D+1500 REN10 @3674.70; then plain lock 3675.67, S 300, 4 plain, triple 1500, plain, S 300, S+150, D+300, D+450, D+600, D+750 @3684.67), plain locks = hard-drop score increments with no clear; 3685.6-3687.2 frames show Z, L, O, Z locking then T-spin Double (+3600 at 3687.17, kept at the chain t 3686.43). Clear types are certain from the score; gc per clear is ESTIMATED from single frames (vertical pieces into the garbage hole) and is approximate. Not lag: both boards run. /tmp/claude-0/xk/corr/xk/g1/x054a.png /tmp/claude-0/xk/corr/xk/g1/x054b.png /tmp/claude-0/xk/corr/xk/g1/x054c.png /tmp/claude-0/xk/corr/xk/g1/x054d.png"
+   }
+  },
+  {
+   "ref": "event_fixes[30]",
+   "verdict": "keep",
+   "note": "x054 TSS +3750 at 3610.53, then +26 plain at 3611.37: no TST."
+  },
+  {
+   "ref": "event_fixes[31]",
+   "verdict": "keep",
+   "note": "x054 3611.4 is a plain lock (+26), no clear."
+  },
+  {
+   "ref": "event_fixes[32]",
+   "verdict": "keep",
+   "note": "x054 3652.63 is the TSD (+5400); no separate double."
+  },
+  {
+   "ref": "event_fixes[33]",
+   "verdict": "keep",
+   "note": "x054 locks 3653.53, 3653.77, 3654.17, 3654.47 then quad; chain had 3 Nones."
+  },
+  {
+   "ref": "event_fixes[34]",
+   "verdict": "keep",
+   "note": "x054 +18 3752.17, +1350 3752.23 = double+REN3, KO 3752.6; gc not frame-checked."
+  },
+  {
+   "ref": "cell_edits[0]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x023."
+  },
+  {
+   "ref": "cell_edits[1]",
+   "verdict": "keep",
+   "note": "Delta +5 (53 non-BREAK old -> 58) consistent with the window replacement."
+  },
+  {
+   "ref": "cell_edits[2]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x025."
+  },
+  {
+   "ref": "cell_edits[3]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x026."
+  },
+  {
+   "ref": "cell_edits[4]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x026."
+  },
+  {
+   "ref": "cell_edits[5]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x027."
+  },
+  {
+   "ref": "cell_edits[6]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x032."
+  },
+  {
+   "ref": "cell_edits[7]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g1-100",
+    "id": "x034",
+    "player": "p1",
+    "field": "pieces",
+    "was": 37,
+    "value": 38,
+    "source": "net 0: the duplicate 2421.5 triple was counted as a piece and the Z locked at 2422.37 (before KO 2422.43) was not. True total stays 37. /tmp/claude-0/xk/corr/xk/g1/x034a.png"
+   },
+   "note": "Triple removal rejected (only one triple in cseq) while the Z add is kept: 37 -> 38."
+  },
+  {
+   "ref": "cell_edits[8]",
+   "verdict": "reject",
+   "note": "x035 add rejected (J already in chain). Value stays 54."
+  },
+  {
+   "ref": "cell_edits[9]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x036."
+  },
+  {
+   "ref": "cell_edits[10]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x036."
+  },
+  {
+   "ref": "cell_edits[11]",
+   "verdict": "reject",
+   "note": "x037 add rejected (J already in chain). Value stays 51."
+  },
+  {
+   "ref": "cell_edits[12]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x038."
+  },
+  {
+   "ref": "cell_edits[13]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x039."
+  },
+  {
+   "ref": "cell_edits[14]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x039."
+  },
+  {
+   "ref": "cell_edits[15]",
+   "verdict": "reject",
+   "note": "x040 add rejected (Z already in chain). Value stays 52."
+  },
+  {
+   "ref": "cell_edits[16]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x042."
+  },
+  {
+   "ref": "cell_edits[17]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x042."
+  },
+  {
+   "ref": "cell_edits[18]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x043."
+  },
+  {
+   "ref": "cell_edits[19]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x044."
+  },
+  {
+   "ref": "cell_edits[20]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x044."
+  },
+  {
+   "ref": "cell_edits[21]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x045."
+  },
+  {
+   "ref": "cell_edits[22]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x046."
+  },
+  {
+   "ref": "cell_edits[23]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x047."
+  },
+  {
+   "ref": "cell_edits[24]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x047."
+  },
+  {
+   "ref": "cell_edits[25]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g1-135",
+    "id": "x048",
+    "player": "p1",
+    "field": "pieces",
+    "was": 67,
+    "value": 68,
+    "source": "J lock 3225.60 and I lock ~3225.93 by KO 3225.97. /tmp/claude-0/xk/corr/xk/g1/x048a.png"
+   },
+   "note": "Only the I add is kept (J already in chain): 67 -> 68."
+  },
+  {
+   "ref": "cell_edits[26]",
+   "verdict": "reject",
+   "note": "x050 add rejected (L already in chain). Value stays 75."
+  },
+  {
+   "ref": "cell_edits[27]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x051."
+  },
+  {
+   "ref": "cell_edits[28]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x051."
+  },
+  {
+   "ref": "cell_edits[29]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x052."
+  },
+  {
+   "ref": "cell_edits[30]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x053."
+  },
+  {
+   "ref": "cell_edits[31]",
+   "verdict": "keep",
+   "note": "Event tally after fixes 236-10+29-1-1+1+1 = 255 (matches). Note csv 265 basis is unclear (not equal to cseq events+BREAK offsets); kept on event arithmetic."
+  },
+  {
+   "ref": "cell_edits[32]",
+   "verdict": "keep",
+   "note": "Consistent with the kept event fix(es) for x054."
+  }
+ ],
+ "added": [],
+ "spot_checks": [
+  {
+   "n": "g1-078",
+   "note": "x025 p2 zero-line T-spin +1200 confirmed."
+  },
+  {
+   "n": "g1-095",
+   "note": "x032 p2 +34 at 2367.37 is after KO 2367.27: correctly left out."
+  },
+  {
+   "n": "g1-108",
+   "note": "PC portion checked, agrees."
+  },
+  {
+   "n": "g1-111",
+   "note": "Reader's reasoning about chain logging early agrees with spawn-time logging; no change correct."
+  },
+  {
+   "n": "g1-120",
+   "note": "x043 p1 no change confirmed by score."
+  },
+  {
+   "n": "g1-121",
+   "note": "x043 confirmed."
+  },
+  {
+   "n": "g1-140",
+   "note": "x054 TST +4800 at 3609.13 confirmed."
+  },
+  {
+   "n": "g1-143",
+   "note": "x054 confirmed."
+  },
+  {
+   "n": "g1-145",
+   "note": "x054 confirmed."
+  },
+  {
+   "n": "g1-147",
+   "note": "x054 confirmed."
+  }
+ ]
+}

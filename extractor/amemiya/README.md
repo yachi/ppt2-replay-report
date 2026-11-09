@@ -13,6 +13,7 @@ An archive, like `../chain/`: the code is kept byte for byte as it ran, with abs
 | `check/freezes.json` | the lag slow-motion windows (284.6 s in 10 games) |
 | `check/offline_games.json` | the 34 offline games the chain cannot read, not in games.csv |
 | `h3F/` | the same chain run on the second stream, h3FUsPBZmzE (2026-10-28, vs ふられ): its diffs, frame check and run report |
+| `xKR/` | the same chain run on xKRq6okdeUI (2026-11-02, vs uyeshota, いっせい and ゆうくん): its diffs, frame check and run report |
 
 ## How analysis/ppt2-amemiya/ was made
 
@@ -24,4 +25,4 @@ An archive, like `../chain/`: the code is kept byte for byte as it ran, with abs
 4. `chain/am/w/tetrio/metrics.py` reads `event-corrections.json` (106 events) and re-tallies;
    `python3 -m pipeline.ppt2_page --apply amemiya <chain.csv>` lays `hand-edits.csv` (76 cells) over it.
 
-`analysis/ppt2-amemiya/games.csv` now holds both streams; `h3F/README.md` says how to rebuild it with `--apply`.
+`analysis/ppt2-amemiya/games.csv` holds the 10-27, 10-28 and 11-02 runs (and the later streams archived under `../chain/`); `h3F/README.md` says how to rebuild it with `--apply`.

@@ -1,0 +1,3906 @@
+[
+ {
+  "id": "x001",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 227.8,
+  "t_end": 228.13,
+  "events": [
+   {
+    "t": 227.8,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 228.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    227.8,
+    "triple",
+    3
+   ],
+   [
+    228.13,
+    "single",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: score.py 226.8-229: p2 10765->17701 at 227.77 is the only clear jump; 228.27 17701->17737 is a lock. x001pc.png: 3 rows of stack at 227.50/227.70, empty board + PERFECT CLEAR at 227.90, a green piece lands 228.30 without clearing. No garbage rows in the cleared stack."
+ },
+ {
+  "id": "x003",
+  "side": "p2",
+  "op": "add",
+  "t": 363.67,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x003ko.png: cyan I vertical in the col-6 well at 363.60, 4-row flash 363.75, TETRIS + BACK banner 364.20; score.py p2 40200->43800 at 363.67 (+20 drop at 363.60). grows.py p2 363.5 vs 364.4: 8 -> 7 garbage rows. KO tilt 364.17."
+ },
+ {
+  "id": "x004",
+  "side": "p1",
+  "op": "add",
+  "t": 412.63,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 2,
+  "source": "b0 frame check, amended: x004ko.png: I falling 412.47-412.53, locked in col 9 at 412.60 (+16 drop at 412.63), 4-row white flash + BACK to BACK banner at 412.67 while p2 starts to tilt (KO 412.63); score 37785->41385 at 412.70. grows.py p1: 11 garbage rows at 412.5, 9 after (413.2) -> gc 2. | skeptic amend: The I locked in col 9 at 412.60 (drop +16 at 412.63, the KO frame), so the clear counts. Flash 412.67 and score 412.70 come after KO 412.63; the add's t should be at or before end_s, so 412.63 (no existing cseq event at that t). Kind quad, gc 2 kept."
+ },
+ {
+  "id": "x007",
+  "side": "p2",
+  "op": "add",
+  "t": 592.7,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b0 frame check, verified: x007ko.png: L falls 592.56 in col 1, 2-row flash at 592.77 (garbage top 2 rows), 2 orange cells left above the garbage 593.40; score.py p2 +18 at 592.63, +1950 at 592.70; grows.py 11 -> 9 garbage rows (592.5 / 593.3). No other piece locks before KO 593.5 (hold O, board unchanged 592.98-593.40)."
+ },
+ {
+  "id": "x008",
+  "side": "p2",
+  "op": "add",
+  "t": 784.7,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x008ko.png: hold I->L swap 784.26-784.47, 4-row flash from the floor 784.68 with BACK banner; score.py +3784 at 784.70; the col-1 well reaches the 1 garbage row at the floor (grows.py 784.5 row0 = G), so gc 1."
+ },
+ {
+  "id": "x009",
+  "side": "p1",
+  "op": "add",
+  "t": 841.17,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: x009ko.png: I held / J out 840.82, J at right 841.08, one-row flash on the orange/yellow/green row (not garbage) 841.21; score.py +16 at 841.13 then +1050 at 841.17."
+ },
+ {
+  "id": "x010",
+  "side": "p1",
+  "op": "add",
+  "t": 959.63,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x010ko.png: L at 959.55 in the hole, one-row flash 959.68-959.81 on the garbage top, garbage 3 rows -> 2; score.py +32 at 959.60, +2850 at 959.63 (REN banner). The 957.53 quad (+4650 at 957.73) and 958.57 single (+2700 at 958.83) are both real (x010b.png)."
+ },
+ {
+  "id": "x011",
+  "side": "p2",
+  "op": "add",
+  "t": 1017.93,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x011ko.png: blue J stacked at right 1017.69, red Z left-middle with one-row flash 1017.95; score.py p2 +8 at 1017.70 (J), +24 at 1017.90, +300 at 1017.93; grows.py 7 -> 6 garbage rows (1017.85 / 1018.5)."
+ },
+ {
+  "id": "x011",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1009.93,
+  "t_end": 1009.93,
+  "events": [
+   {
+    "t": 1009.93,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    1009.93,
+    null,
+    0
+   ],
+   [
+    1009.93,
+    null,
+    0
+   ],
+   [
+    1009.93,
+    "double",
+    2
+   ]
+  ],
+  "source": "b0 frame check, verified: x011b.png 1008.75-1010.40: pieces O, O (from hold), J, Z, I (double); score.py drop points at 1008.97, 1009.37, 1009.53, 1009.83, 1010.17 and the clear at 1010.30 only = 5 locks. Chain has 1008.73, 1009.23, 1009.47, 1009.63 + three events at 1009.93 (two None + double): the two None at 1009.93 are phantoms."
+ },
+ {
+  "id": "x013",
+  "side": "p2",
+  "op": "add",
+  "t": 1177.87,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x013ko.png flash 1177.85, score.py +1380 at 1177.87, garbage rows 4->3"
+ },
+ {
+  "id": "x014",
+  "side": "p1",
+  "op": "add",
+  "t": 1213.2,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: x014ko.png L 1212.92-1213.08, flash 1213.24, score.py +1800 at 1213.20"
+ },
+ {
+  "id": "x015",
+  "side": "p2",
+  "op": "add",
+  "t": 1283.53,
+  "kind": "triple",
+  "lines": 3,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x015ko.png L vertical 1283.47, flash 1283.60, score.py +1500 at 1283.53, garbage 10->9"
+ },
+ {
+  "id": "x016",
+  "side": "p2",
+  "op": "add",
+  "t": 1340.8,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x016ko.png S fills garbage hole, flash 1340.77, score.py +774"
+ },
+ {
+  "id": "x018",
+  "side": "p2",
+  "op": "add",
+  "t": 1501.03,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: x018ko.png I vertical col 5, flash 1501.04, score.py +2000"
+ },
+ {
+  "id": "x019",
+  "side": "p1",
+  "op": "add",
+  "t": 1550.23,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b0 frame check, verified: x019d.png J into garbage hole, two-row garbage flash 1550.22-1550.30, score.py +2400 at 1550.23, grows.py garbage 11->9"
+ },
+ {
+  "id": "x021",
+  "side": "p1",
+  "op": "add",
+  "t": 1652.6,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: x021ko.png S from hold, flash 1652.58, score.py +1950 at 1652.60, grows.py garbage 7->6"
+ },
+ {
+  "id": "x005",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 430.03,
+  "t_end": 430.9,
+  "events": [
+   {
+    "t": 430.25,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 430.9,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    430.03,
+    "tsd",
+    2
+   ],
+   [
+    430.37,
+    "tsmini",
+    2
+   ]
+  ],
+  "source": "b0 frame check, verified: x005b.png/x005c.png: score.py +300 at 430.30 (zero-line T-spin), +5400 at 430.93; grows.py rows unchanged 430.1-430.45; 2-row flash 431.0, garbage 5 rows kept"
+ },
+ {
+  "id": "x008",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 744.7,
+  "t_end": 744.7,
+  "events": [
+   {
+    "t": 744.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    744.7,
+    null,
+    0
+   ],
+   [
+    744.7,
+    null,
+    0
+   ],
+   [
+    744.7,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: x008h.png 744.1-746.0: only Z, O, L lock 744.2-744.65 (score.py +24 744.23, +26 744.40, +22 744.63); S then hangs at spawn"
+ },
+ {
+  "id": "x011",
+  "side": "p2",
+  "op": "add",
+  "t": 1017.7,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, added by skeptic: b2.png: J locks at 1017.70 (score +8), before the Z single at 1017.93. No cseq event between 1017.43 and 1017.93. This matches the reader's own pieces edit 94->96 (cell_edits[9]), which counts both the J and the Z."
+ },
+ {
+  "id": "x023",
+  "side": "p1",
+  "op": "add",
+  "t": 1729.67,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: green S locks 1729.60 (score 32782->32810), row clear flash 1729.67 score 32810->33110 (+300); KO tilt 1729.77. /tmp/claude-0/xk/corr/xk/g1/x023a.png"
+ },
+ {
+  "id": "x025",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1895.5,
+  "t_end": 1923.93,
+  "events": [
+   {
+    "t": 1895.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1896.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1896.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1896.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1896.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1897.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1897.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1897.83,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1898.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1899.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1899.53,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1901.03,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1901.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1902.4,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1903.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1903.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1903.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1904.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1904.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1905.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1905.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1905.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1905.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1906.13,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1907.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1907.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1907.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1908.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1908.77,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1909.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1910.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1910.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1910.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1910.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1911.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1911.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1911.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1912.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1912.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1913.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1913.77,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1915.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1915.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1915.93,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1917.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1917.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1918.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1918.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1918.87,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1919.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1920.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1920.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1920.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1920.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1921.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1922.0,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1923.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1923.2,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   }
+  ],
+  "was_old": [
+   [
+    1896.57,
+    null,
+    0
+   ],
+   [
+    1896.93,
+    null,
+    0
+   ],
+   [
+    1896.93,
+    null,
+    0
+   ],
+   [
+    1897.4,
+    null,
+    0
+   ],
+   [
+    1897.77,
+    null,
+    0
+   ],
+   [
+    1897.77,
+    null,
+    0
+   ],
+   [
+    1897.93,
+    "quad",
+    4
+   ],
+   [
+    1899.43,
+    null,
+    0
+   ],
+   [
+    1899.43,
+    null,
+    0
+   ],
+   [
+    1899.73,
+    "double",
+    2
+   ],
+   [
+    1900.84,
+    "tsd",
+    2
+   ],
+   [
+    1901.13,
+    "double",
+    2
+   ],
+   [
+    1902.37,
+    null,
+    0
+   ],
+   [
+    1902.5,
+    "triple",
+    3
+   ],
+   [
+    1903.83,
+    null,
+    0
+   ],
+   [
+    1904.13,
+    null,
+    0
+   ],
+   [
+    1904.37,
+    null,
+    0
+   ],
+   [
+    1904.6,
+    null,
+    0
+   ],
+   [
+    1904.97,
+    null,
+    0
+   ],
+   [
+    1905.23,
+    null,
+    0
+   ],
+   [
+    1905.53,
+    null,
+    0
+   ],
+   [
+    1905.7,
+    null,
+    0
+   ],
+   [
+    1906.0,
+    null,
+    0
+   ],
+   [
+    1906.23,
+    "quad",
+    4
+   ],
+   [
+    1907.7,
+    null,
+    0
+   ],
+   [
+    1907.7,
+    null,
+    0
+   ],
+   [
+    1908.33,
+    null,
+    0
+   ],
+   [
+    1908.33,
+    null,
+    0
+   ],
+   [
+    1908.54,
+    "tsd",
+    2
+   ],
+   [
+    1908.9,
+    "double",
+    2
+   ],
+   [
+    1910.0,
+    null,
+    0
+   ],
+   [
+    1910.4,
+    null,
+    0
+   ],
+   [
+    1910.63,
+    null,
+    0
+   ],
+   [
+    1911.27,
+    null,
+    0
+   ],
+   [
+    1911.27,
+    null,
+    0
+   ],
+   [
+    1912.03,
+    null,
+    0
+   ],
+   [
+    1912.03,
+    null,
+    0
+   ],
+   [
+    1912.03,
+    null,
+    0
+   ],
+   [
+    1912.37,
+    null,
+    0
+   ],
+   [
+    1912.57,
+    null,
+    0
+   ],
+   [
+    1913.67,
+    null,
+    0
+   ],
+   [
+    1913.87,
+    "quad",
+    4
+   ],
+   [
+    1915.37,
+    null,
+    0
+   ],
+   [
+    1915.53,
+    null,
+    0
+   ],
+   [
+    1915.7,
+    "tsd",
+    2
+   ],
+   [
+    1916.07,
+    "double",
+    2
+   ],
+   [
+    1917.5,
+    null,
+    0
+   ],
+   [
+    1918.17,
+    null,
+    0
+   ],
+   [
+    1918.97,
+    "quad",
+    4
+   ],
+   [
+    1919.47,
+    "quad",
+    4
+   ],
+   [
+    1920.4,
+    "BREAK",
+    0
+   ],
+   [
+    1921.74,
+    "tsd",
+    2
+   ],
+   [
+    1922.8,
+    "quad",
+    4
+   ],
+   [
+    1922.8,
+    "double",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: NEXT queue read by own tracker (58 spawns 1895.63-1923.10, 7-bag consistent) + score: 58 lock increments (hard-drop +10..34 or soft-drop runs) 1895.77-1923.13. Clears by score jump (level 3): quad 1897.83 +2400, double 1899.53 +900, TSD 1901.03 +3750 (T-SPIN Double, frame /tmp/claude-0/xk/corr/xk/g1/x025d.png, one garbage row), triple 1902.40 +1500, quad 1906.13 +2400, TSD 1908.77 +5400 (b2b), quad 1913.77 +3600, TSD 1915.93 +5400, quad 1918.87 +3600 (4 player rows, /tmp/claude-0/xk/corr/xk/g1/x025b.png), TSD 1922.00 +5400, quad 1923.20 +3600 (4 garbage rows, /tmp/claude-0/xk/corr/xk/g1/x025c.png), KO 1923.93, no lock after. Chain double-logged each TSD (R/build tsd + A double at 1901.13/1908.9/1916.07), had a dup quad 1919.47 and a phantom double 1922.8; one score jump each. gc kept from the A event of each pair."
+ },
+ {
+  "id": "x025",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1919.0,
+  "t_end": 1923.93,
+  "events": [
+   {
+    "t": 1920.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1920.27,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1921.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1922.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1922.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1923.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1919.37,
+    null,
+    0
+   ],
+   [
+    1919.37,
+    null,
+    0
+   ],
+   [
+    1919.8,
+    "single",
+    1
+   ],
+   [
+    1920.43,
+    "quad",
+    4
+   ],
+   [
+    1921.8,
+    null,
+    0
+   ],
+   [
+    1922.77,
+    null,
+    0
+   ],
+   [
+    1923.3,
+    null,
+    0
+   ],
+   [
+    1923.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: p2 score: only clears are single +300 at 1918.97 (chain 1918.7) and quad +2408 at 1920.27; no score change between 1918.97 and 1920.00, so the chain's 1919.8 single and the two 1919.37 locks are B splice duplicates. Locks by score/frames: S 1920.00 (+12), I 1920.27 quad (from hold), Z 1921.33 (+8), J 1922.57, S 1922.80 (+8), T 1923.10 (zero-line T-spin +1200 at 1923.23); nothing after to KO 1923.93. /tmp/claude-0/xk/corr/xk/g1/x025g.png /tmp/claude-0/xk/corr/xk/g1/x025e.png /tmp/claude-0/xk/corr/xk/g1/x025f.png"
+ },
+ {
+  "id": "x026",
+  "side": "p1",
+  "op": "add",
+  "t": 1959.27,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: O locks 1959.23 (score 31485->31507) and clears one player row (flash 1959.23-1959.43), score ->34057 (+2550 = single + REN 15, continuing the REN of the 1958.2 single +2400); KO 1959.63. /tmp/claude-0/xk/corr/xk/g1/x026a.png"
+ },
+ {
+  "id": "x027",
+  "side": "p2",
+  "op": "add",
+  "t": 2062.37,
+  "kind": "triple",
+  "lines": 3,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, amended: winner p2: vertical I locks at 2062.33 (score 96608->96620) completing 3 player rows; flash 2062.40, 2 REN, score ->98420 (+1800 = triple 1500 + REN 300). The lock is before the KO frame 2062.37 (p1 board starts tilting 2062.40); the flash is the same piece one frame later. /tmp/claude-0/xk/corr/xk/g1/x027b.png | skeptic amend: Lock +12 visible at 2062.37 (the KO frame), +1800 at 2062.43 is after KO; put t at the lock/KO frame 2062.37 so the add is not after KO end."
+ },
+ {
+  "id": "x032",
+  "side": "p2",
+  "op": "add",
+  "t": 2366.49,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p2: orange L locks 2366.49 into the left side, two player rows (above the garbage) flash 2366.49-2366.73, '2 REN' banner, score 69000->70226 (+1200 = double 900 + REN 300 + 26 drop); before KO 2367.27; chain has nothing after the 2365.27 quad. /tmp/claude-0/xk/corr/xk/g1/x032a.png /tmp/claude-0/xk/corr/xk/g1/c2366.9.png"
+ },
+ {
+  "id": "x034",
+  "side": "p1",
+  "op": "add",
+  "t": 2422.37,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p1: red Z locks 2422.37 (score 31168->31200, no clear) before KO 2422.43; chain has no event after 2421.5. /tmp/claude-0/xk/corr/xk/g1/x034a.png"
+ },
+ {
+  "id": "x036",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2523.83,
+  "t_end": 2524.07,
+  "events": [
+   {
+    "t": 2524.07,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2523.83,
+    null,
+    0
+   ],
+   [
+    2524.07,
+    null,
+    0
+   ],
+   [
+    2524.07,
+    null,
+    0
+   ],
+   [
+    2524.07,
+    "double",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: Between NEXT shifts 2523.83 (O spawns) and 2524.90 (S spawns) only the O locks (frame 2524.0, bottom-left) and clears a double (flash 2524.1, score 55861->56911 = 900+150 REN). The I before it was the 2522.63 tetris (score +3600 at 2522.97). Three None events here are phantoms. /tmp/claude-0/xk/corr/xk/g1/x036a.png"
+ },
+ {
+  "id": "x036",
+  "side": "p2",
+  "op": "add",
+  "t": 2584.08,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p2: J lands bottom-left by 2584.08 (no clear), I spawns 2584.15; KO tilt 2584.5. Chain ends at 2583.2. /tmp/claude-0/xk/corr/xk/g1/x036b.png"
+ },
+ {
+  "id": "x036",
+  "side": "p2",
+  "op": "add",
+  "t": 2584.42,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p2: S (out of hold) hard-dropped, score 140788->140822 at 2584.40, no clear; KO tilt 2584.5. Chain ends at 2583.2. /tmp/claude-0/xk/corr/xk/g1/x036b.png"
+ },
+ {
+  "id": "x038",
+  "side": "p1",
+  "op": "add",
+  "t": 2670.36,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p1: L locks at right 2670.33, score 57278->57908 at 2670.36 (single 300 + 2 REN 300 + drop 30), cleared row is the lowest player row above the garbage; KO 2670.43. /tmp/claude-0/xk/corr/xk/g1/x038a.png"
+ },
+ {
+  "id": "x039",
+  "side": "p1",
+  "op": "add",
+  "t": 2705.36,
+  "kind": "triple",
+  "lines": 3,
+  "pc": 0,
+  "gc": 3,
+  "source": "b1 frame check, verified: winner p1: vertical I locks 2705.30 in the well, 3 grey garbage rows flash 2705.37-2705.57, score 29806->33406 (+3600 = 1500 + REN 14) at 2705.36, KO 2705.53. /tmp/claude-0/xk/corr/xk/g1/x039a.png"
+ },
+ {
+  "id": "x042",
+  "side": "p1",
+  "op": "add",
+  "t": 2907.67,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p1: T locks bottom middle 2907.64, bottom row flashes white 2907.67-2907.87, score 26817->29067 (+2250 = 300 + REN 13), KO 2908.07. /tmp/claude-0/xk/corr/xk/g1/x042a.png"
+ },
+ {
+  "id": "x043",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2941.93,
+  "t_end": 2944.0,
+  "events": [
+   {
+    "t": 2941.93,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 2943.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2944.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2941.93,
+    null,
+    0
+   ],
+   [
+    2941.93,
+    null,
+    0
+   ],
+   [
+    2941.93,
+    "double",
+    2
+   ],
+   [
+    2943.4,
+    null,
+    0
+   ],
+   [
+    2943.4,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, amended: After the 2941.57 single the next piece is the J spawned 2942.15 (NEXT 2942.17), locked upright at right ~2942.55, double with score 23153->25707 at 2942.73 (900 + 11 REN 1650). Z spawns 2943.37 and locks 2943.67 (+4, no clear). O spawns, is held, S comes out of hold and locks 2943.97 clearing the coloured row above the garbage (white 2944.0-2944.2), score 25711->26017 (+306, REN broken). KO 2944.17. Two phantom Nones at 2941.93; the 2943.4 pair were the Z and the S single. Kept the chain's gc 2 for the double. /tmp/claude-0/xk/corr/xk/g1/x043b.png /tmp/claude-0/xk/corr/xk/g1/x043c.png | skeptic amend: Events 2943.67 and 2944.0 lie outside [2941.93, 2943.4]; t_end raised to 2944.0. was_old unchanged (no cseq event in (2943.4, 2944.0]). Score confirms double +2554 2942.73, Z +4 2943.70, single +306 2944.00, KO 2944.17."
+ },
+ {
+  "id": "x044",
+  "side": "p1",
+  "op": "add",
+  "t": 2987.2,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b1 frame check, verified: winner p1: T locks in the right garbage hole 2987.14-2987.19, top grey row flashes white 2987.25, score 39785->42785 at 2987.20, KO 2987.27. /tmp/claude-0/xk/corr/xk/g1/x044a.png"
+ },
+ {
+  "id": "x045",
+  "side": "p1",
+  "op": "retype",
+  "t": 3024.47,
+  "was": [
+   "tst",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 4,
+  "source": "b1 frame check, verified: I dropped vertical into the well 3024.47-3024.53, four grey garbage rows flash 3024.60-3024.94, TETRIS banner (still up at 3025.85) with BACK, score 30154->33754 (+3600 = 2400 x1.5). /tmp/claude-0/xk/corr/xk/g1/x045a.png /tmp/claude-0/xk/corr/xk/g1/x045b.png"
+ },
+ {
+  "id": "x045",
+  "side": "p1",
+  "op": "add",
+  "t": 3026.54,
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p1: T soft-dropped 3026.07-3026.45, locks with T-spin, two player rows flash white 3026.60, 'Double' + BACK banners, score +5400 at 3026.54; KO 3026.67. /tmp/claude-0/xk/corr/xk/g1/x045b.png"
+ },
+ {
+  "id": "x046",
+  "side": "p1",
+  "op": "add",
+  "t": 3106.8,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p1: Z locks 3106.80 (+26, no clear), I spawns 3106.93 = KO frame. Chain ends 3105.77. /tmp/claude-0/xk/corr/xk/g1/x046c.png"
+ },
+ {
+  "id": "x047",
+  "side": "p2",
+  "op": "add",
+  "t": 3185.03,
+  "kind": "triple",
+  "lines": 3,
+  "pc": 0,
+  "gc": 3,
+  "source": "b1 frame check, verified: winner p2: I locks vertical in the right well, three garbage rows flash 3185.05-3185.50, score +3176 at 3185.03, KO 3185.53. /tmp/claude-0/xk/corr/xk/g1/x047c.png"
+ },
+ {
+  "id": "x048",
+  "side": "p1",
+  "op": "add",
+  "t": 3225.93,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: winner p1: I (out of hold, T held 3225.80) drops upright at the left wall, score 33773->33777 at 3225.95, lock flash 3225.95; next spawn 3226.0; KO 3225.97. /tmp/claude-0/xk/corr/xk/g1/x048a.png"
+ },
+ {
+  "id": "x051",
+  "side": "p2",
+  "op": "add",
+  "t": 3482.13,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b1 frame check, verified: winner p2: J locks upright at the left wall 3482.10, two grey rows flash 3482.2-3482.4, score +1950 at 3482.13; KO 3482.93 (the I spawned 3482.86 does not lock). /tmp/claude-0/xk/corr/xk/g1/x051a.png"
+ },
+ {
+  "source": "b1 frame check, verified: Z swapped out of hold 3563.1 locks ~3563.2 and clears one coloured row; score +600 at 3563.27 (single+REN); KO 3563.87. /tmp/claude-0/xk/corr/xk/g1/x052a.png",
+  "op": "add",
+  "id": "x052",
+  "t": 3563.2,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "side": "p1"
+ },
+ {
+  "source": "b1 frame check, verified: O to hold ~3594.95, S hard-dropped, lock flash and +24 drop score at 3595.04, before KO 3595.07; no clear. /tmp/claude-0/xk/corr/xk/g1/x053c.png",
+  "op": "add",
+  "id": "x053",
+  "t": 3595.04,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "side": "p1"
+ },
+ {
+  "id": "x054",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3664.0,
+  "t_end": 3686.5,
+  "events": [
+   {
+    "t": 3665.03,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3666.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3667.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3668.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3668.93,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3670.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3671.57,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3672.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3673.53,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3674.7,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3675.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3676.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3676.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3677.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3677.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3677.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3678.23,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3679.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3679.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3680.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3681.77,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3682.67,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 3683.63,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3684.67,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 3685.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3685.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3686.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3686.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3686.43,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3665.13,
+    "double",
+    2
+   ],
+   [
+    3666.9,
+    "single",
+    1
+   ],
+   [
+    3667.57,
+    "triple",
+    3
+   ],
+   [
+    3668.93,
+    "BREAK",
+    1
+   ],
+   [
+    3670.57,
+    "BREAK",
+    3
+   ],
+   [
+    3672.2,
+    "BREAK",
+    3
+   ],
+   [
+    3673.9,
+    "BREAK",
+    4
+   ],
+   [
+    3676.43,
+    "double",
+    2
+   ],
+   [
+    3676.7,
+    "BREAK",
+    3
+   ],
+   [
+    3678.47,
+    "BREAK",
+    4
+   ],
+   [
+    3680.03,
+    "BREAK",
+    3
+   ],
+   [
+    3681.7,
+    "BREAK",
+    10
+   ],
+   [
+    3683.07,
+    null,
+    0
+   ],
+   [
+    3683.07,
+    null,
+    0
+   ],
+   [
+    3683.07,
+    "double",
+    2
+   ],
+   [
+    3686.43,
+    null,
+    0
+   ],
+   [
+    3686.43,
+    null,
+    0
+   ],
+   [
+    3686.43,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b1 frame check, amended: REN downstack the chain lost (8 BREAK markers from B). Rebuilt lock by lock from p1 score: each clear jump fits a REN bonus exactly (D+150@3665.03 ... D+1500 REN10 @3674.70; then plain lock 3675.67, S 300, 4 plain, triple 1500, plain, S 300, S+150, D+300, D+450, D+600, D+750 @3684.67), plain locks = hard-drop score increments with no clear; 3685.6-3687.2 frames show Z, L, O, Z locking then T-spin Double (+3600 at 3687.17, kept at the chain t 3686.43). Clear types are certain from the score; gc per clear is ESTIMATED from single frames (vertical pieces into the garbage hole) and is approximate. Not lag: both boards run. /tmp/claude-0/xk/corr/xk/g1/x054a.png /tmp/claude-0/xk/corr/xk/g1/x054b.png /tmp/claude-0/xk/corr/xk/g1/x054c.png /tmp/claude-0/xk/corr/xk/g1/x054d.png | skeptic amend: Structure confirmed lock-by-lock (29 events; every REN bonus checks to REN10 at 3674.70; TSD +3600 at 3687.17 non-B2B; was_old matches). gc corrected from zoomed frames: 3668.93/3671.57/3673.53/3674.70/3683.63 cleared 2 grey rows (gc 1->2), triple 3678.23 cleared 1 coloured + 2 grey (gc 1->2), single 3679.73 cleared a grey row (gc 0->1)."
+ },
+ {
+  "id": "x054",
+  "side": "p1",
+  "op": "remove",
+  "t": 3611.23,
+  "was": [
+   "tst",
+   4,
+   0
+  ],
+  "source": "b1 frame check, verified: No clear after the TSS (score +3750 at 3610.53) until 3654: 3611.0-3611.2 flash is garbage rising, score flat at 8941, then O locks 3611.37 (+26). The tst,4 is a phantom. /tmp/claude-0/xk/corr/xk/g1/x054e.png"
+ },
+ {
+  "id": "x054",
+  "side": "p1",
+  "op": "retype",
+  "t": 3611.4,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: That single is the O plain lock at 3611.37 (score +26 only, no clear flash). /tmp/claude-0/xk/corr/xk/g1/x054e.png"
+ },
+ {
+  "id": "x054",
+  "side": "p1",
+  "op": "remove",
+  "t": 3652.73,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b1 frame check, verified: Only one clear at 3652.55-3652.7 (T-SPIN Double, +5400 B2B at 3652.63); next score change is the O drop 3653.53. The double duplicates the tsd. /tmp/claude-0/xk/corr/xk/g1/x054f.png"
+ },
+ {
+  "id": "x054",
+  "side": "p1",
+  "op": "add",
+  "t": 3653.53,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: After the TSD: O 3653.53, Z 3653.77, T 3654.17, J 3654.47 lock, then I quad 3654.6. Chain has 3 Nones before the quad; one missing. /tmp/claude-0/xk/corr/xk/g1/x054g.png"
+ },
+ {
+  "id": "x054",
+  "side": "p1",
+  "op": "add",
+  "t": 3752.2,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 1,
+  "source": "b1 frame check, verified: L from hold dropped upright into the garbage hole 3752.15, two rows flash 3752.3 (top coloured row + one garbage row), score +1350 at 3752.23 = double + REN3; KO 3752.6. /tmp/claude-0/xk/corr/xk/g1/x054i.png"
+ },
+ {
+  "id": "x056",
+  "side": "p1",
+  "op": "add",
+  "t": 3900.17,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: x056end.png: T spawn 3900.05, flash on the coloured row 3900.20, score 79504->80704 (+1200 = single REN 6; previous REN singles +450..+1050 at 3895.53/3896.60/3897.67/3898.43/3899.30). KO 3900.6"
+ },
+ {
+  "id": "x058",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3983.8,
+  "t_end": 3984.55,
+  "events": [
+   {
+    "t": 3984.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3984.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3983.83,
+    null,
+    0
+   ],
+   [
+    3984.1,
+    null,
+    0
+   ],
+   [
+    3984.1,
+    null,
+    0
+   ],
+   [
+    3984.1,
+    null,
+    0
+   ],
+   [
+    3984.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b2 frame check, amended: x058a.png: after the TETRIS no piece until J spawn 3983.88; J locks 3984.20 (score 19915->19931), Z spawns 3984.38 locks 3984.50 (->19945), L spawns 3984.62 and clears the double (->20861 at 3984.80). Score frozen 19915 3982.97-3984.20 | skeptic amend: NEXT shifts only at ~3983.8 (J), ~3984.3 (Z), ~3984.6 (L); score +16 3984.20, +14 3984.50, +16 3984.77 then +900 double 3984.80; hold S unchanged (s2/x058.png). 3 phantom Nones confirmed. Amended only t_end 3984.35->3984.55 so the new 3984.5 lock lies inside the window; was_old unchanged (no chain event in 3984.35-3984.55)"
+ },
+ {
+  "id": "x059",
+  "side": "p2",
+  "op": "add",
+  "t": 4050.9,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: x059end.png/x059zoom.png: S lock 4050.90 into the hole of the top garbage row, that row flashes 4050.92-4051.1, score +1950 (= single REN 11; previous +1800 at 4050.10). KO 4051.23"
+ },
+ {
+  "id": "x060",
+  "side": "p2",
+  "op": "add",
+  "t": 4087.1,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: x060end.png: L spawn 4086.76, lock ~4087.05 into the right-column hole of the top garbage row, that row flashes 4087.12-4087.36, score +1100 at 4087.10. KO 4087.47"
+ },
+ {
+  "id": "x061",
+  "side": "p2",
+  "op": "add",
+  "t": 4212.34,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: x061end.png: p2 piece locks ~4212.3, top garbage row flashes 4212.34-4212.50 with the 4 REN banner, score 159536 -> 160461 at 4212.37 (+900 + drop = single REN 4). KO 4212.67"
+ },
+ {
+  "id": "x062",
+  "side": "p1",
+  "op": "add",
+  "t": 4258.5,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: x062end.png: J spawn 4258.12, lock ~4258.44, coloured row flashes 4258.60-4258.92, score +2700 at 4258.57 (REN singles +2100/+2250/+2400/+2550 at 4254.87/4255.67/4256.53/4257.43 are the chain's 4254.73..4257.27). KO 4259.27"
+ },
+ {
+  "id": "x063",
+  "side": "p1",
+  "op": "add",
+  "t": 4284.13,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: x063end.png: J spawn 4284.00, lock 4284.10 (score 22659->22679), coloured row flash 4284.10-4284.20, score -> 24329 at 4284.17 (+1650 = single REN 9). KO frame 4284.17"
+ },
+ {
+  "id": "x063",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4277.47,
+  "source": "b2 frame check, verified: x063b.png: S locks ~4277.6 and a row flashes 4277.70 under the lingering TETRIS banner; score 14597->15197 at 4277.63 (+600 = single REN 2 after the REN-1 quad +3750 at 4276.63). Score jumps 4277.63/4278.43/4279.83/4280.70/4281.50/4282.33/4283.27/4284.17 = 8 clears after the quad; chain had 6 + this None",
+  "t_end": 4277.47,
+  "events": [
+   {
+    "t": 4277.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4277.47,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "x066",
+  "side": "p2",
+  "op": "add",
+  "t": 4370.33,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: x066end.png/x066zoom.png: S lock ~4370.30, two rows (one coloured, one garbage) flash 4370.33-4370.40, score 20417->22667 (+2250 = 900+150*9). KO frame 4370.37"
+ },
+ {
+  "id": "x067",
+  "side": "p1",
+  "op": "add",
+  "t": 4402.3,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: x067end.png: Z lock ~4402.27, coloured row flashes 4402.30, score +300 (+26 drop). KO 4402.9"
+ },
+ {
+  "id": "x068",
+  "side": "p1",
+  "op": "add",
+  "t": 4440.83,
+  "kind": "triple",
+  "lines": 3,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: x068z.png/x068ba.png: I spawn ~4440.68, lock 4440.80 (score 32598->32618), +1800 at 4440.83 (= 1500+150*2, triple REN 2); garbage rows 8 -> 7 and the top-garbage-row hole was the I's column. KO 4441.53"
+ },
+ {
+  "id": "x069",
+  "side": "p1",
+  "op": "add",
+  "t": 4501.93,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 4,
+  "source": "b2 frame check, verified: x069q.png: I spawn 4501.6, rotated into the col-0 well of 4 garbage rows, lock ~4501.90 (64857->64877), the 4 garbage rows flash white 4501.93-4502.10, score -> 68627 at 4501.97 (+3750 = 3600 B2B quad + 150 REN 1). KO 4502.17"
+ },
+ {
+  "id": "x070",
+  "side": "p2",
+  "op": "retype",
+  "t": 4514.83,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tss",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: x070tss.png: T spun into the floor slot 4515.5-4515.6, bottom row flashes, Single + BACK(-to-back) labels, score +3750 at 4515.63 right after the opening TST (+4800 at 4514.10)"
+ },
+ {
+  "id": "x070",
+  "side": "p2",
+  "op": "add",
+  "t": 4557.57,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b2 frame check, verified: x070end.png: J spawn 4557.4, lock ~4557.55 in the col-3 hole of the top 2 garbage rows, both flash 4557.6-4557.8, score +2430 at 4557.57 (900+150*10 +30 drop). KO 4558.07; the 4557.9 flash changes no score"
+ },
+ {
+  "id": "x073",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4713.43,
+  "t_end": 4714.9,
+  "events": [
+   {
+    "t": 4713.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4714.87,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4713.43,
+    "tss",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: score p1 5473->5489 at 4713.33 (no clear); 5505->9105 (+3600) at 4714.87 with T-SPIN Single + BACK to BACK banner and line flash on p1 board (x073a.png, frames 4714.9-4715.3). The L lock ~4713.8 then the T into the slot; the chain's 4713.43 tss is that piece's plain lock"
+ },
+ {
+  "id": "x076",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5004.3,
+  "t_end": 5040.23,
+  "events": [
+   {
+    "t": 5004.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5005.58,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5019.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5040.16,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    5004.3,
+    "triple",
+    3
+   ],
+   [
+    5006.27,
+    "single",
+    1
+   ],
+   [
+    5006.33,
+    "triple",
+    3
+   ],
+   [
+    5018.77,
+    "single",
+    1
+   ],
+   [
+    5019.87,
+    "single",
+    1
+   ],
+   [
+    5034.47,
+    null,
+    0
+   ],
+   [
+    5034.6,
+    "BREAK",
+    3
+   ],
+   [
+    5040.23,
+    "BREAK",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: x076b.png: Z lands 5004.28 no clear, L falls and triple flash 5005.58 (score 197256->199084, +1800 = triple+REN2); I held at 5006.57. x076c.png: Z falls in slow motion 5007.5-5018.5, single at 5019.0 (+750, 3 REN banner). x076d.png: J falls 5021-5035, held at ~5036 (NEXT queue J L S Z I unchanged 5021-5039, p1 score frozen 199834 5019.2-5040.1). x076e.png: I clears single flash 5040.16 (+900 = REN4), flash on top garbage row (gc 1 is my best reading of the band position; uncertain)"
+ },
+ {
+  "id": "x076",
+  "side": "p1",
+  "op": "add",
+  "t": 5050.95,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b3 frame check, verified: x076f.png: O drops into the garbage hole at col 1 (ghost 5050.63), single flash 5050.92-5051.21 with 14 REN banner, score 216350->218750 (+2400 = 300+REN14) at 5050.97; KO tilt 5051.67"
+ },
+ {
+  "id": "x076",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5005.57,
+  "t_end": 5039.4,
+  "events": [
+   {
+    "t": 5005.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5006.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5019.1,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5039.4,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5005.57,
+    null,
+    0
+   ],
+   [
+    5006.07,
+    "quad",
+    4
+   ],
+   [
+    5006.2,
+    null,
+    0
+   ],
+   [
+    5006.57,
+    null,
+    0
+   ],
+   [
+    5006.57,
+    null,
+    0
+   ],
+   [
+    5008.3,
+    "BREAK",
+    2
+   ],
+   [
+    5016.3,
+    "BREAK",
+    0
+   ],
+   [
+    5018.73,
+    "BREAK",
+    5
+   ],
+   [
+    5020.0,
+    "tsd",
+    2
+   ],
+   [
+    5020.63,
+    "BREAK",
+    1
+   ],
+   [
+    5037.4,
+    null,
+    0
+   ],
+   [
+    5037.67,
+    "BREAK",
+    2
+   ],
+   [
+    5039.4,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: x076h.png: O and S lock 5005.5/5006.5; T held at ~5008 (HOLD T), I falls in slow motion 5008.85-5019, TETRIS banner + Back to Back 5020.45, score 211750->215350 (+3600 = tetris x1.5) at 5019.20; no score jump at 5006.07 (only the 5004.73 tetris). NEXT queue J S Z I T unchanged 5007.4-5019.0. x076i.png: J held at ~5025, T falls slowly, TSD +5550 at 5039.47; queue S Z I T L unchanged 5020.5-5038.5, so no lock at 5037.4"
+ },
+ {
+  "id": "x076",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5047.13,
+  "t_end": 5050.95,
+  "events": [
+   {
+    "t": 5047.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5047.88,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5048.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5048.32,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5048.95,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5050.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5050.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5047.13,
+    null,
+    0
+   ],
+   [
+    5047.13,
+    null,
+    0
+   ],
+   [
+    5048.0,
+    "BREAK",
+    2
+   ],
+   [
+    5049.53,
+    "BREAK",
+    1
+   ]
+  ],
+  "source": "b3 frame check, amended: x076g.png: after the 5046.83 tetris p2 locks S (~5047.4), L (5047.88), O (5048.1), Z (5048.32), T into the right side -> 2-row flash 5048.98, score 229144->230044 (+900 double). x076f.png: O held (HOLD O 5050.05), L locks on top (~5050.2, score +6), T spawns and locks at the top 5050.93 (+2) before the 5051.67 tilt. Times of the last two locks approximate | skeptic amend: Piece sequence confirmed (xk/s3/x076p2tail.png: S, L 5047.90 +18, O 5048.10 +18, Z 5048.33 +10, T double +900 5048.90, O +6 5050.20 (hold stays L, so it is the O that locks, not L), T +2 5050.93, KO 5051.67), but the 5050.9 event lay outside [t,t_end]: t_end extended to 5050.95 (no chain events in 5049.53-5050.95, so was_old unchanged) and the 5049.5 lock moved to its score time 5050.2."
+ },
+ {
+  "id": "x077",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5084.3,
+  "t_end": 5084.3,
+  "events": [
+   {
+    "t": 5084.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5084.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b3 frame check, amended: x077a.png: single flash 5084.10 (score 39035->39951, +916 = 300+REN4, at 5083.77), then T into the slot with T-SPIN Single banner, flash 5085.6, +3150 at 5085.23. The chain's 5084.3 'lock' is that third REN single | skeptic amend: Reading is right (score +916 single REN4 at 5083.77, TSS +3150 = 2400+REN5 at 5085.23), but both new events lay outside the replace window [5084.3,5084.43]. Same effect as a retype of the 5084.3 None lock to single, leaving the 5084.43 tss in place."
+ },
+ {
+  "id": "x077",
+  "side": "p2",
+  "op": "add",
+  "t": 5087.03,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x077a.png 5087.10: one-row flash on p2 board; score 44952->46302 (+1350 = 300+REN7) at 5087.03, the KO frame (p1 tilt); counted as on/before KO"
+ },
+ {
+  "id": "x079",
+  "side": "p1",
+  "op": "add",
+  "t": 5190.9,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x079a.png: J held 5190.8, Z hard-dropped, one-row flash 5190.90-5191.10; score +1050 at 5190.90 (REN singles +300,+450,+600,+750,+900,+1050 from 5186.50); KO 5191.23"
+ },
+ {
+  "id": "x083",
+  "side": "p2",
+  "op": "retype",
+  "t": 5369.37,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: x083c.png 5369.20-5369.33: mini T-spin banner, +300 score (5651->5951), no row removed (left stack height unchanged)"
+ },
+ {
+  "id": "x083",
+  "side": "p1",
+  "op": "retype",
+  "t": 5385.2,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: x083a.png 5384.9-5385.5: one-row flash, score +1950 at 5385.47 = single+REN11"
+ },
+ {
+  "id": "x083",
+  "side": "p1",
+  "op": "add",
+  "t": 5386.93,
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x083a.png 5386.5-5387.1: T placed into slot on the KO frame, Double banner, score 20435->25835 (+5400 = TSD + REN12)"
+ },
+ {
+  "id": "x086",
+  "side": "p1",
+  "op": "add",
+  "t": 5537.57,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x086a.png 5536.97-5537.70: L locks at 5537.57 with one-row clear flash, score +1230"
+ },
+ {
+  "id": "x087",
+  "side": "p1",
+  "op": "add",
+  "t": 5581.0,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x087a.png 5580.73-5581.14: L from hold locks at right, one-row clear flash, REN banner, score +467 at 5581.0"
+ },
+ {
+  "id": "x088",
+  "side": "p2",
+  "op": "add",
+  "t": 5650.55,
+  "kind": "triple",
+  "lines": 3,
+  "pc": 0,
+  "gc": 2,
+  "source": "b3 frame check, verified: x088b.png 5650.47-5650.70: J into right well, three-row clear flash (one stack row + two garbage rows), score +1522 at 5650.6"
+ },
+ {
+  "id": "x090",
+  "side": "p1",
+  "op": "add",
+  "t": 5738.6,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b3 frame check, verified: x090a.png 5738.44-5739.07: S into col-0 garbage hole, two-row clear flash at garbage level, REN banner, score +1076"
+ },
+ {
+  "id": "x091",
+  "side": "p1",
+  "op": "add",
+  "t": 5781.15,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 2,
+  "source": "b3 frame check, verified: x091a.png 5781.07-5781.40: I into col-7 well, four-row white band, BACK(-to-back) banner, score +3600 at 5781.24"
+ },
+ {
+  "id": "x092",
+  "side": "p1",
+  "op": "add",
+  "t": 5816.85,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x092a.png 5816.7-5817.1: L locks, two-row white band, 13 REN banner, score +2850 at 5816.9"
+ },
+ {
+  "id": "x093",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5879.47,
+  "t_end": 5880.85,
+  "was_old": [
+   [
+    5879.47,
+    null,
+    0
+   ],
+   [
+    5879.77,
+    null,
+    0
+   ],
+   [
+    5879.77,
+    null,
+    0
+   ],
+   [
+    5879.77,
+    null,
+    0
+   ],
+   [
+    5880.0,
+    null,
+    0
+   ],
+   [
+    5880.23,
+    null,
+    0
+   ],
+   [
+    5880.4,
+    null,
+    0
+   ],
+   [
+    5880.77,
+    "quad",
+    4
+   ]
+  ],
+  "events": [
+   {
+    "t": 5879.88,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5880.12,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5880.28,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5880.65,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5880.82,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   }
+  ],
+  "source": "b3 frame check, amended: x093a.png/x093b.png/x093c.png 5877.5-5881.0 with score lock jumps 5879.90 +12, 5880.13 +24, 5880.30 +26, 5880.67 +24, 5880.83 +28 then +3600; NEXT queue shifts one slot per piece, the 5879.8 flash over NEXT is where A read 3 extra spawns | skeptic amend: 5 pieces confirmed (xk/s3/x093.png: J 5879.88, I from hold 5880.13, Z 5880.30, S 5880.67, I quad 5880.83/+3600 5880.97; the 5879.46 I was held), but the quad event 5880.82 lay outside t_end 5880.77: t_end extended to 5880.85 (no chain events in 5880.77-5880.85, was_old unchanged)."
+ },
+ {
+  "id": "x095",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6017.4,
+  "t_end": 6021.77,
+  "was_old": [
+   [
+    6017.4,
+    "BREAK",
+    8
+   ],
+   [
+    6018.07,
+    "double",
+    2
+   ],
+   [
+    6021.57,
+    null,
+    0
+   ],
+   [
+    6021.77,
+    "BREAK",
+    7
+   ]
+  ],
+  "events": [
+   {
+    "t": 6021.2,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "source": "b3 frame check, verified: x095a.png 6017.0-6021.4 every 0.4 s: one T placed (hold swap at 6018.2), two-row clear at 6021.4, score +18 then +1200 at 6021.23-6021.40; REN continues through the window (score sequence +3750, +1200, +750, +900, +1050, +1200, +1350, +1500, +2250)"
+ },
+ {
+  "id": "x098",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6127.23,
+  "t_end": 6127.27,
+  "was_old": [
+   [
+    6127.23,
+    "single",
+    1
+   ],
+   [
+    6127.27,
+    "single",
+    1
+   ]
+  ],
+  "events": [],
+  "source": "b3 frame check, verified: x098a.png 6126.6-6139.4 every 1.16 s: p1 T creeps down in lag, score frozen 19725 from 6126.47 to 6139.17; one clear (REN7) only"
+ },
+ {
+  "id": "x098",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6126.93,
+  "t_end": 6137.13,
+  "was_old": [
+   [
+    6126.93,
+    "BREAK",
+    3
+   ],
+   [
+    6127.33,
+    "single",
+    1
+   ],
+   [
+    6134.27,
+    "single",
+    1
+   ],
+   [
+    6135.27,
+    "double",
+    2
+   ],
+   [
+    6137.1,
+    "double",
+    2
+   ],
+   [
+    6137.13,
+    "double",
+    2
+   ]
+  ],
+  "events": [
+   {
+    "t": 6134.55,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6136.35,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b3 frame check, verified: x098a.png/x098b.png and score: p2 frozen 26179 6126.67-6134.67, then +1050 (single REN5) 6134.67, +1822 (double REN6) 6136.40, then frozen 29051 until 6140.50; white band at 6136.45 over coloured rows"
+ },
+ {
+  "id": "x098",
+  "side": "p1",
+  "op": "add",
+  "t": 6148.2,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: score p1 34849->34867->37417 at 6148.20-6148.23 (single + REN15), KO 6148.53"
+ },
+ {
+  "id": "x101",
+  "side": "p1",
+  "op": "add",
+  "t": 6330.6,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x101a.png: J locks ~6330.55, white band over coloured row 6330.69; score 60760->61360 (+600 = single + REN2)"
+ },
+ {
+  "id": "x102",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6464.07,
+  "t_end": 6481.2,
+  "was_old": [
+   [
+    6464.07,
+    null,
+    0
+   ],
+   [
+    6464.07,
+    null,
+    0
+   ],
+   [
+    6464.07,
+    "tst",
+    4
+   ],
+   [
+    6465.0,
+    null,
+    0
+   ],
+   [
+    6465.37,
+    null,
+    0
+   ],
+   [
+    6465.63,
+    null,
+    0
+   ],
+   [
+    6466.03,
+    null,
+    0
+   ],
+   [
+    6466.13,
+    null,
+    0
+   ],
+   [
+    6466.2,
+    "BREAK",
+    3
+   ],
+   [
+    6466.24,
+    "tsd",
+    2
+   ],
+   [
+    6467.8,
+    "BREAK",
+    3
+   ],
+   [
+    6469.4,
+    "BREAK",
+    4
+   ],
+   [
+    6471.37,
+    "BREAK",
+    3
+   ],
+   [
+    6473.33,
+    "BREAK",
+    3
+   ],
+   [
+    6474.93,
+    "BREAK",
+    1
+   ],
+   [
+    6477.37,
+    null,
+    0
+   ],
+   [
+    6477.37,
+    null,
+    0
+   ],
+   [
+    6477.83,
+    null,
+    0
+   ],
+   [
+    6477.97,
+    null,
+    0
+   ],
+   [
+    6478.7,
+    null,
+    0
+   ],
+   [
+    6478.7,
+    null,
+    0
+   ],
+   [
+    6479.03,
+    null,
+    0
+   ],
+   [
+    6479.03,
+    null,
+    0
+   ],
+   [
+    6479.07,
+    "BREAK",
+    6
+   ],
+   [
+    6480.63,
+    "BREAK",
+    2
+   ],
+   [
+    6480.8,
+    null,
+    0
+   ],
+   [
+    6480.8,
+    null,
+    0
+   ],
+   [
+    6480.8,
+    "quad",
+    4
+   ]
+  ],
+  "events": [
+   {
+    "t": 6464.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6464.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6465.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6465.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6466.1,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 6467.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6468.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6468.67,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 6469.73,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 6470.73,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 6471.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6472.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6472.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6472.67,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 6473.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6473.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6474.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6474.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6474.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6474.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6475.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6475.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6475.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6476.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6477.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6477.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6477.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6477.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6478.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6478.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6478.87,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6480.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6480.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6480.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6481.13,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "source": "b3 frame check, verified: x102a-g.png + score: A lost the NEXT read 6464.07-6480.8 (double shifts k=3 at frames 497/999 = 6464.07/6480.8). Reconstructed lock by lock from the NEXT/hold queue and +2/cell hard-drop increments: TSD 6466.30 (+3600, Double banner, clears 1 coloured + 1 grey row), single REN1 6467.40 (+450), T lock 6468.4, triple 6468.73 (+1500, 1 coloured + 2 grey), double 6469.77 (+1050 = 900+REN1, 2 grey), quad 6470.77 (+2700 = 2400+REN2, 4 grey), Z/S/T locks, quad 6472.73 (+3600 B2B, 4 grey), 16 plain locks building the stack, quad 6478.90 (+3600 B2B, coloured rows), O/S/Z locks, quad 6481.20 (+3600 B2B, coloured rows). Chain tst(4 lines) at 6464.07 has no score jump and is phantom; spliced BREAKs are not clears."
+ },
+ {
+  "id": "x102",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6482.0,
+  "source": "b3 frame check, verified: x102h.png: after the 6481.20 quad only L (6482.50 +14), Z (6482.73 +10) and J (6483.17, triple) lock before 6483.30; chain has 6482.0 twice, 6482.6 and the triple",
+  "t_end": 6482.0,
+  "events": [
+   {
+    "t": 6482.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6482.0,
+    null,
+    0
+   ],
+   [
+    6482.0,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "x102",
+  "side": "p1",
+  "op": "add",
+  "t": 6505.03,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b3 frame check, verified: x102j.png: I locks 6505.03, white band over the top grey row 6505.05; score +1050 (single + REN5) at 6505.07"
+ },
+ {
+  "id": "x102",
+  "side": "p1",
+  "op": "add",
+  "t": 6505.8,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: x102j.png: T locks at 6505.80 (+10), before KO 6505.97"
+ },
+ {
+  "id": "x073",
+  "side": "p2",
+  "op": "add",
+  "t": 4715.92,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, added by skeptic: xk/s3/x073b.png: L locks 4715.90 (score 16368->16402); missing None lock behind cell_edits[0]"
+ },
+ {
+  "id": "x073",
+  "side": "p2",
+  "op": "add",
+  "t": 4716.1,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, added by skeptic: xk/s3/x073b.png: T locks 4716.11 (16402->16434) before KO 4716.23; missing None lock behind cell_edits[0]"
+ },
+ {
+  "id": "x078",
+  "side": "p2",
+  "op": "add",
+  "t": 5153.23,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, added by skeptic: score p2 +30 at 5153.23 (O lock), KO 5153.4; chain's last lock 5153.0 is the +24 at 5152.97; backs cell_edits[4]"
+ },
+ {
+  "id": "x094",
+  "side": "p1",
+  "op": "add",
+  "t": 5998.88,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, added by skeptic: score p1 +36 hard drop at 5998.90 = KO frame 5998.9, after the 5997.87 quad (chain 5997.63); backs cell_edits[22]"
+ },
+ {
+  "id": "x103",
+  "side": "p2",
+  "op": "add",
+  "t": 6550.96,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b4 frame check, verified: x103.png: Z locks 6550.93, white flash row (top garbage row) 6550.96, score 39277->40477 at 6550.97; KO 6550.97"
+ },
+ {
+  "id": "x104",
+  "side": "p2",
+  "op": "retype",
+  "t": 6568.43,
+  "was": [
+   "triple",
+   3,
+   1
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b4 frame check, verified: x104a.png 6568.2: the 3 cleared rows are red/orange/yellow/blue piece cells, no grey garbage; PERFECT CLEAR 6568.4"
+ },
+ {
+  "id": "x104",
+  "side": "p2",
+  "op": "retype",
+  "t": 6574.7,
+  "was": [
+   "quad",
+   4,
+   1
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 0,
+  "source": "b4 frame check, verified: x104b.png 6574.4: 4 rows all coloured piece cells, no grey garbage; PERFECT CLEAR 6574.7"
+ },
+ {
+  "id": "x104",
+  "side": "p2",
+  "op": "add",
+  "t": 6602.6,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 4,
+  "source": "b4 frame check, verified: x104c.png: I locks into right garbage well 6602.50, 4 grey rows flash 6602.6, TETRIS banner 6603.1, BACK banner; score 75259->78859 at 6602.53; KO 6603.17"
+ },
+ {
+  "id": "x105",
+  "side": "p2",
+  "op": "add",
+  "t": 6714.9,
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x105.png: T spun in at 6714.8, 2-row flash and Double banner 6714.9, score +3600 at 6714.90 (TSD, no B2B), KO frame 6714.9"
+ },
+ {
+  "id": "x106",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6746.2,
+  "t_end": 6753.57,
+  "events": [
+   {
+    "t": 6746.2,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 6747.77,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6748.97,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 6750.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6750.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 6751.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 6752.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6752.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6753.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6753.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6746.2,
+    "tst",
+    4
+   ],
+   [
+    6746.47,
+    "BREAK",
+    4
+   ],
+   [
+    6746.73,
+    null,
+    0
+   ],
+   [
+    6746.73,
+    null,
+    0
+   ],
+   [
+    6747.77,
+    "tsd",
+    2
+   ],
+   [
+    6748.0,
+    "BREAK",
+    4
+   ],
+   [
+    6749.57,
+    "BREAK",
+    3
+   ],
+   [
+    6751.27,
+    "BREAK",
+    2
+   ]
+  ],
+  "source": "b4 frame check, amended: x106a.png/x106b.png/x106z.png and score.py: I tetris 6746.47 (+2400), TSD 6747.80 (+5550, REN+Double+BACK), J double 6748.97 (+1200), L single 6750.00 (+750), T single 6750.93 (+900), J single 6751.77 (+1050); plain hard-drop locks 6752.53 +24, 6752.90 +26, 6753.20 +22, 6753.37 +24; KO 6753.57; no lock between 6746.47 and 6747.80. gc of the singles read from row colour at the flash (x106z.png); the L single cleared a coloured row. | skeptic amend: was_old exact and the 10 events match score.py (quad +2400 6746.47, TSD +5550 6747.80, double +1200 6748.97, singles +750/+900/+1050, plain locks 6752.53/6752.90/6753.20/6753.37 < KO 6753.57). But the J double at 6748.97 cleared TWO grey rows: x106dbl.png (s4, 6748.90 vs 6749.10) the J goes down col 1 into grey rows 1-2, the white bar covers both grey rows and the coloured row above (green/red/blue) stays. gc 1 -> 2. L single coloured (gc0), T and J singles each clear the top grey row (gc1) confirmed in x106sing.png."
+ },
+ {
+  "id": "x107",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6769.5,
+  "t_end": 6770.95,
+  "events": [
+   {
+    "t": 6769.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6769.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6770.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6770.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6769.5,
+    "single",
+    1
+   ],
+   [
+    6769.8,
+    null,
+    0
+   ],
+   [
+    6770.13,
+    "single",
+    1
+   ],
+   [
+    6770.9,
+    null,
+    0
+   ]
+  ],
+  "source": "b4 frame check, verified: x107a.png + score: triple PC 6769.10 (+6900, empty board), then J lock 6769.60 (+39), O 6769.77, O 6770.10 (two O's side by side bottom right), L 6770.27 -> single flash 6770.30 (+300, the only score jump between the PCs), I 6771.20 -> single PC 6771.30 (+2400, empty board 6771.4)"
+ },
+ {
+  "id": "x107",
+  "side": "p2",
+  "op": "retype",
+  "t": 6769.17,
+  "was": [
+   "triple",
+   3,
+   1
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b4 frame check, verified: x107a.png 6768.90: the 3 rows are blue/red/green/cyan/yellow piece cells, no grey garbage"
+ },
+ {
+  "id": "x108",
+  "side": "p1",
+  "op": "add",
+  "t": 6824.9,
+  "kind": "tss",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x108b.png: T spun into the slot 6824.8, 'Single' (T-Spin Single) banner 6824.9-6825.2, coloured row flash 6824.9, score 22432->24832 (+2400 = TSS, B2B broken by the REN singles); KO 6825.17"
+ },
+ {
+  "id": "x109",
+  "side": "p1",
+  "op": "add",
+  "t": 6861.4,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x109a.png: p1 T locks 6861.37 (score 29327->29357 hard drop), coloured row flash 6861.40 with 14 REN, score ->31757 (+2400 = single 300 + REN 14 bonus); p2 board starts to tilt 6861.44 (KO frame 6861.40)"
+ },
+ {
+  "id": "x110",
+  "side": "p1",
+  "op": "add",
+  "t": 6893.54,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x110a.png: J locks 6893.53 (score 17908->17940), coloured row flash 6893.54 with REN, score ->19440 (+1500 = single 300 + REN 8 bonus); KO 6893.7"
+ },
+ {
+  "id": "x112",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6978.18,
+  "t_end": 6985.6,
+  "events": [
+   {
+    "t": 6984.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 6984.57,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 6985.6,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6978.2,
+    null,
+    0
+   ],
+   [
+    6978.43,
+    null,
+    0
+   ],
+   [
+    6984.13,
+    "quad",
+    4
+   ],
+   [
+    6985.37,
+    "double",
+    2
+   ]
+  ],
+  "source": "b4 frame check, amended: x112a.png/x112b.png + score: p1 Z locks 6978.10 (chain None 6978.17; Nones run ~0.1 s after the score's hard-drop ticks all game), then nothing locks until after the lag; O tops out the catch-up at 6984.4, I into right well -> TETRIS 6984.57 (+16 drop, +3600 b2b, BACK banner), next I (NEXT shifts once) into same well -> second TETRIS 6985.60 (+3750 = tetris b2b + REN1, TETRIS banner 6985.35-6985.95) | skeptic amend: Event 6985.6 lay outside t_end 6985.4 -> t_end 6985.6 (no chain event in (6985.4,6985.6]; was_old unchanged). Content right: x112p1b.png/x112p1.png (s4): the O falls in slow motion 6978.2-6983.3 and locks ~6984.0-6984.2 with no score (NEXT shifts L,I,S.. -> I,S,L.. by 6984.20), the L is swapped for the held I, the +16 at 6984.43 is the I's own hard drop and +3600 b2b tetris 6984.57; NEXT then shifts once (I spawns 6985.33), +14 6985.57, +3750 6985.60. So 3 pieces (O, I, I) as the reader has; I moved the O's None to 6984.1. Old window held 4 pieces -> pieces cell added."
+ },
+ {
+  "id": "x112",
+  "side": "p2",
+  "op": "remove",
+  "t": 6979.27,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "b4 frame check, verified: x112a.png: only one TETRIS on p2 between the TSS (+3600 b2b at 6977.53, T-SPIN Single/BACK to BACK banner 6978.0) and 6985.43: the I creeps down the right well during the lag and clears 4 at 6983.07 (+3600, flash 6983.4, TETRIS banner 6984.0)"
+ },
+ {
+  "id": "x112",
+  "side": "p1",
+  "op": "add",
+  "t": 6994.0,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 4,
+  "source": "b4 frame check, verified: x112c.png: p1 I drops into the garbage well 6993.9, 4 grey rows flash 6994.0, TETRIS + BACK banners, score 70836->75060 (+4200 = tetris b2b + REN); KO 6994.77"
+ },
+ {
+  "id": "x114",
+  "side": "p1",
+  "op": "add",
+  "t": 7045.3,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x114.png: J locks 7045.27 (+14), coloured row flash 7045.30 with REN, score 12658->13558 (+900 = single 300 + REN 4 bonus 600, after +600/+750 for the two previous REN singles); KO 7045.5"
+ },
+ {
+  "id": "x115",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 7095.0,
+  "t_end": 7101.3,
+  "events": [
+   {
+    "t": 7095.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7096.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7096.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7096.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7097.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7097.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7097.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7098.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7098.77,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7099.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7099.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7100.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7100.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7100.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7101.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    7095.3,
+    null,
+    0
+   ],
+   [
+    7095.3,
+    null,
+    0
+   ],
+   [
+    7095.3,
+    "tsd",
+    2
+   ],
+   [
+    7095.73,
+    "single",
+    1
+   ],
+   [
+    7096.17,
+    null,
+    0
+   ],
+   [
+    7096.57,
+    null,
+    0
+   ],
+   [
+    7096.87,
+    null,
+    0
+   ],
+   [
+    7097.1,
+    null,
+    0
+   ],
+   [
+    7097.57,
+    null,
+    0
+   ],
+   [
+    7097.83,
+    null,
+    0
+   ],
+   [
+    7098.1,
+    null,
+    0
+   ],
+   [
+    7098.27,
+    null,
+    0
+   ],
+   [
+    7098.7,
+    "tsd",
+    2
+   ],
+   [
+    7099.0,
+    "double",
+    2
+   ],
+   [
+    7100.1,
+    null,
+    0
+   ],
+   [
+    7100.27,
+    null,
+    0
+   ],
+   [
+    7100.73,
+    null,
+    0
+   ],
+   [
+    7100.73,
+    null,
+    0
+   ],
+   [
+    7101.07,
+    null,
+    0
+   ]
+  ],
+  "source": "b4 frame check, amended: x115a.png/x115b.png + score.py p2: after the REN single (+900 at 7094.93) there is NO clear until the TSD at 7098.77 (+3600, Double banner, 2 coloured rows) and none after it until the I TETRIS at 7101.50 (+3700, BACK banner, 4-row flash). NEXT heads 7095.7-7098.5 show spawns J,O,T,J,O,L,I,Z,S with T held (L out) and S held (T out) -> 8 plain locks (score ticks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73,~7098.1); after the TSD spawns J,O,Z,S,L,T,I with Z then T held -> 6 plain locks (7099.80,7099.93,7100.33,7100.63,7100.97,7101.27) then the I. The 7099.1 flash is the TSD's effect, score unchanged. | skeptic amend: Event 7101.27 lay outside t_end 7101.2 -> t_end 7101.3 (next chain event 7101.37 quad stays outside; was_old unchanged). Content confirmed by score.py p2: hard-drop locks 7095.87,7096.17,7096.57,7096.87,7097.23,7097.57,7097.73, soft-drop ending ~7098.1, TSD +3600 7098.77, then locks 7099.80,7099.93,7100.33,7100.63,7100.97,7101.27, I tetris 7101.50; no other score jumps (old tsd 7095.3, single 7095.73, double 7099.0 have none)."
+ },
+ {
+  "id": "x120",
+  "side": "p1",
+  "op": "retype",
+  "t": 7471.83,
+  "was": [
+   "tst",
+   4,
+   0
+  ],
+  "kind": "tss",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x120a.png 7471.90-7472.78: p1 spins the T into column 8 and ONE coloured row clears (the green row above the grey garbage; side tag 'Single'), score 67319->69719 (+2400 = TSS, not b2b). Chain event 7471.83 reads tst 4 lines gc 4, which is impossible; the banner T-SPIN Single was right"
+ },
+ {
+  "id": "x121",
+  "side": "p2",
+  "op": "retype",
+  "t": 7546.17,
+  "was": [
+   "tst",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 3,
+  "source": "b4 frame check, verified: x121a.png 7545.90-7546.78: p2 drops an I vertically into the column-7 well, 4 rows flash (one coloured row and 3 grey garbage rows), TETRIS banner and BACK side tag, score 47914->51514 (+3600 = b2b tetris). The chain's 'tst 4' is a quad; gc 3 stays"
+ },
+ {
+  "id": "x121",
+  "side": "p2",
+  "op": "add",
+  "t": 7547.9,
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x121b.png 7547.50-7548.16: after the Z (chain None 7547.07) the T spins into the slot and locks by 7547.92 (flash, score 51539); 2 coloured rows above the garbage clear, side tags Double and BACK, score 56939 (+5400 = b2b TSD) at 7547.98; KO frame 7547.97, so the clear counts. Chain has no event for it"
+ },
+ {
+  "id": "x124",
+  "side": "p2",
+  "op": "retype",
+  "t": 7711.23,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b4 frame check, verified: x124a.png 7710.75-7711.85: p2 drops the J vertically into column 1 and the last 3 rows clear into an empty board with the PERFECT CLEAR banner (score 10757->17693 at 7711.23); the next two pieces are an O (7711.65, +38) and an S (7711.75, +38) with no clear. So the PC is the 7711.23 triple; the 7711.57 'double pc1' is the O's lock, not a clear"
+ },
+ {
+  "id": "x124",
+  "side": "p2",
+  "op": "retype",
+  "t": 7711.57,
+  "was": [
+   "double",
+   2,
+   1
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x124a.png 7710.75-7711.85: p2 drops the J vertically into column 1 and the last 3 rows clear into an empty board with the PERFECT CLEAR banner (score 10757->17693 at 7711.23); the next two pieces are an O (7711.65, +38) and an S (7711.75, +38) with no clear. So the PC is the 7711.23 triple; the 7711.57 'double pc1' is the O's lock, not a clear"
+ },
+ {
+  "id": "x124",
+  "side": "p2",
+  "op": "add",
+  "t": 7779.2,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x124b.png 7778.76-7779.74: after the Z (7778.84, chain None 7778.6) p2 drops an L vertically into column 10 at ~7779.25 and the coloured row above the garbage clears (white bar 7779.29), score 78716->79034 (+18 drop +300 single), before the KO frame 7779.73. Chain has no event for it"
+ },
+ {
+  "id": "x125",
+  "side": "p2",
+  "op": "add",
+  "t": 7819.85,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x125b.png 7819.00-7820.10: p2's J clears a row at 7819.15 (chain single 7818.83), then the O spawns 7819.80 and locks into the centre gap at ~7819.87, clearing the coloured blue row (white bar 7819.90; the yellow/cyan row and the garbage stay), score 34786->36616 (+30 drop +300 single +1500 = REN 10) before the KO frame 7820.03. Chain has no event for it"
+ },
+ {
+  "id": "x126",
+  "side": "p2",
+  "op": "remove",
+  "t": 7850.97,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b4 frame check, verified: x126a.png 7850.40-7855.35 + score.py: p2 clears a row at 7850.33 (REN7, +1350; chain single 7849.9), then holds one L in the air from 7851.3 to ~7854.95 (score 17811 flat 7850.33-7854.93, no lock) and locks it at ~7854.95 for a single (+22 +1500 = REN8). So only one piece locks in the gap; the chain's 7850.97 single is a spliced duplicate (with it, 7855.63 would be REN9, but the score bonus is REN8). Not lag: p1 keeps scoring through it"
+ },
+ {
+  "id": "x126",
+  "side": "p2",
+  "op": "add",
+  "t": 7860.2,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x126b.png 7859.95-7860.94: p2's T goes vertically into column 10 and locks at 7860.13 (+22), clearing the coloured blue/red row (white bar 7860.22), +2100 = 300 + REN12 (150x12) at 7860.20. The chain has no clear there (7859.8 single, then Nones 7860.83/7861.4/7861.77); score locks 7860.13, 7861.30, 7861.67, 7862.07, 7862.80, 7863.9 are six pieces against five chain events from 7860.83 on, so the T's single is missing. The REN12 bonus also needs 13 straight clears, which the chain only reaches with this one once the 7850.97 duplicate is gone; max_combo 12 stays, pieces 60 net unchanged"
+ },
+ {
+  "id": "x126",
+  "side": "p1",
+  "op": "add",
+  "t": 7864.6,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x126c.png 7864.40-7865.39: p1 drops the I vertically into column 9, locking at 7864.67 (+20), and the coloured row above the garbage clears (white bar 7864.76), +2700 = 300 + REN16 (150x16) at 7864.73, after the 7863.73 REN15 single (chain 7863.57); KO frame 7865.33, so it counts. Chain has no event for it"
+ },
+ {
+  "id": "x127",
+  "side": "p2",
+  "op": "add",
+  "t": 7919.6,
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 4,
+  "source": "b4 frame check, verified: x127c.png 7919.00-7920.20: after the J (7919.17) and Z (7919.30), which are the chain Nones 7918.83/7919.2, p2's I drops vertically into the column-1 well at ~7919.65 (+28) and 4 grey garbage rows clear, TETRIS banner with BACK tag, +3600 = b2b tetris at 7919.67, before the KO frame 7920.2. Chain has no event for it"
+ },
+ {
+  "id": "x128",
+  "side": "p1",
+  "op": "add",
+  "t": 7954.85,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: x128a.png 7954.60-7955.70: after the REN11 single (+1950 at 7954.07, chain 7954.0) p1's S locks at 7954.87 (+14) and the coloured row above the garbage clears (white bar 7955.00), +2100 = 300 + REN12 at 7954.93, before the KO frame 7955.7. The next I is swapped into hold and the T is still in the air at 7955.70; its +14 lock reads at 7955.73, after the KO frame, so it is not counted. Chain has no event for the S"
+ }
+]

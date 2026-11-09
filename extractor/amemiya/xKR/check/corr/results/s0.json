@@ -1,0 +1,280 @@
+{
+ "verdicts": [
+  {
+   "ref": "event_fixes[0]",
+   "verdict": "keep",
+   "note": "a1: board 3 rows at 227.70, PERFECT CLEAR 227.80, +6936 at 227.77; S at 228.27 +36 no clear. was_old exact."
+  },
+  {
+   "ref": "event_fixes[1]",
+   "verdict": "keep",
+   "note": "T 363.40, I from hold 363.60, 4-row flash 363.70, +3600 B2B, before KO 364.17."
+  },
+  {
+   "ref": "event_fixes[2]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g0-014",
+    "id": "x004",
+    "side": "p1",
+    "op": "add",
+    "t": 412.63,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2,
+    "source": "x004ko.png: I falling 412.47-412.53, locked in col 9 at 412.60 (+16 drop at 412.63), 4-row white flash + BACK to BACK banner at 412.67 while p2 starts to tilt (KO 412.63); score 37785->41385 at 412.70. grows.py p1: 11 garbage rows at 412.5, 9 after (413.2) -> gc 2."
+   },
+   "note": "The I locked in col 9 at 412.60 (drop +16 at 412.63, the KO frame), so the clear counts. Flash 412.67 and score 412.70 come after KO 412.63; the add's t should be at or before end_s, so 412.63 (no existing cseq event at that t). Kind quad, gc 2 kept."
+  },
+  {
+   "ref": "event_fixes[3]",
+   "verdict": "keep",
+   "note": "L into col 0-1 at 592.6, 2 garbage rows flash, +1950, before KO 593.5."
+  },
+  {
+   "ref": "event_fixes[4]",
+   "verdict": "keep",
+   "note": "I into col-2 well, 1 garbage row among 4, +3784, before KO 785.17."
+  },
+  {
+   "ref": "event_fixes[5]",
+   "verdict": "keep",
+   "note": "J fills col 9, +1050, before KO 841.6."
+  },
+  {
+   "ref": "event_fixes[6]",
+   "verdict": "keep",
+   "note": "L into col-3 hole, garbage top row clears, +2850, before KO 960.07."
+  },
+  {
+   "ref": "event_fixes[7]",
+   "verdict": "keep",
+   "note": "Z clears garbage top row, +300."
+  },
+  {
+   "ref": "event_fixes[8]",
+   "verdict": "keep",
+   "note": "Real locks O 1008.97, O 1009.37, J 1009.53, Z 1009.83, I 1010.17 (+900 double 1010.30); chain had 2 extra None. was_old exact."
+  },
+  {
+   "ref": "event_fixes[9]",
+   "verdict": "keep",
+   "note": "S into col 1-2, +1380, before KO 1178.4."
+  },
+  {
+   "ref": "event_fixes[10]",
+   "verdict": "keep",
+   "note": "L clears coloured row, +1800, before KO 1213.33."
+  },
+  {
+   "ref": "event_fixes[11]",
+   "verdict": "keep",
+   "note": "Second L from hold, vertical col 7, locks 1283.43-1283.50, +1500 at 1283.53; flash 1283.57 = KO frame."
+  },
+  {
+   "ref": "event_fixes[12]",
+   "verdict": "keep",
+   "note": "S from hold clears garbage top row, +774, before KO 1340.93."
+  },
+  {
+   "ref": "event_fixes[13]",
+   "verdict": "keep",
+   "note": "I vertical col 5 clears bottom row, +2000, before KO 1501.17."
+  },
+  {
+   "ref": "event_fixes[14]",
+   "verdict": "keep",
+   "note": "J from hold into col-6 garbage hole, 2 garbage rows, +2400, before KO 1550.87."
+  },
+  {
+   "ref": "event_fixes[15]",
+   "verdict": "reject",
+   "note": "This Z is not a new lock. It locked at 1650.47 together with the chain's 1650.4 single and is still on the stack after the 1651.63 quad. No score bump near 1652.3."
+  },
+  {
+   "ref": "event_fixes[16]",
+   "verdict": "keep",
+   "note": "S from hold fills garbage top-row hole, +1950, before KO 1653.33."
+  },
+  {
+   "ref": "event_fixes[17]",
+   "verdict": "reject",
+   "note": "After the TSD 1623.67 there are exactly 3 locks: Z +18 at 1624.57, S +18 at 1624.97, T from hold +18 at 1625.30. The chain already has 3 events (1624.4, 1624.6, 1625.03), so the add double-counts the T."
+  },
+  {
+   "ref": "event_fixes[18]",
+   "verdict": "keep",
+   "note": "Zero-line T-spin +300 at 430.30 (no clear), then TSD +5400 at 430.93, 2-row flash 431.0. was_old exact; 431.7 outside window."
+  },
+  {
+   "ref": "event_fixes[19]",
+   "verdict": "keep",
+   "note": "Locks J 743.53, Z 744.23, O 744.40, L 744.63; next S spawns 744.75 and lands ~753.1 (lag), which the chain's 744.93 event stands for. was_old exact."
+  },
+  {
+   "ref": "cell_edits[0]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[1]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[2]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[3]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[4]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[5]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[6]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[7]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[8]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[9]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[10]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[11]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[12]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[13]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[14]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[15]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[16]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[17]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[18]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[19]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "cell_edits[20]",
+   "verdict": "amend",
+   "amended": {
+    "n": "g0-071",
+    "id": "x021",
+    "player": "p1",
+    "field": "pieces",
+    "was": 32,
+    "value": 33,
+    "source": "Z ~1652.3 and S 1652.6 missing"
+   },
+   "note": "Only the S (1652.6) is missing; the Z at ~1652.3 was already counted (see event_fixes[15]). 32+1=33."
+  },
+  {
+   "ref": "cell_edits[21]",
+   "verdict": "reject",
+   "note": "The T at 1625.30 is already the chain's 1625.03 event; the piece count 136 stands."
+  },
+  {
+   "ref": "cell_edits[22]",
+   "verdict": "keep",
+   "note": "was matches chain_games.csv; the value matches the frames and kept fixes (combo edits checked by recomputing the end-of-game clear run)."
+  },
+  {
+   "ref": "freezes[0]",
+   "verdict": "keep",
+   "note": "Both scores frozen 746.23-753.10. The falling pieces still creep and rotate, so this is network slow motion rather than a hard freeze; the window is right."
+  }
+ ],
+ "added": [
+  {
+   "id": "x011",
+   "side": "p2",
+   "op": "add",
+   "t": 1017.7,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "b2.png: J locks at 1017.70 (score +8), before the Z single at 1017.93. No cseq event between 1017.43 and 1017.93. This matches the reader's own pieces edit 94->96 (cell_edits[9]), which counts both the J and the Z."
+  }
+ ],
+ "spot_checks": [
+  {
+   "n": "x000",
+   "note": "Real, complete game. x000.png: READY (レディ) at 199.5, GO ~200.5, both scores start at 0. p2 scores T-spin +4800 at 206.13, +1532 at 208.23, PERFECT CLEAR +4750 at 209.20. p1 triple +1500 at 209.43, then p1 board tilts ~210.8 while p2 shows the やった victory pose. About 10 s and 23 pieces each at about 2.3 pps is plausible for a fast opener KO under garbage. csv counts (p1 1 triple, 16 garbage rows received; p2 tsd/triple/double/pc) fit the score jumps."
+  },
+  {
+   "n": "g0-007/020/040/069",
+   "note": "TST items: p1 jumps of about +4800 confirm TST rather than TSS. No change is right."
+  },
+  {
+   "n": "g0-072 x022 p1",
+   "note": "Score locks 1692.37/.57/.77/.97 against chain events 1692.33/.47/.67/.87 with KO 1693.17. Consistent; no missing KO-tail piece."
+  },
+  {
+   "n": "g0-004 x001 p2 257.17",
+   "note": "Plain double +1226, no banner. No change is right."
+  },
+  {
+   "n": "x001 p2 PC items",
+   "note": "Reader's notes match a1.png; the PC is single-logged."
+  }
+ ]
+}

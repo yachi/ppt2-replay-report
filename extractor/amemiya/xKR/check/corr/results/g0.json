@@ -1,0 +1,925 @@
+{
+ "items": [
+  {
+   "n": "g0-000",
+   "verdict": "no change",
+   "note": "x000 is a real whole game: READY at 199.40, empty boards/score 0 at 200.80, p2 TST 206.13 (+4800), triple 208.23, PC 209.20 (PERFECT CLEAR banner, empty board), p1 board tilts 210.8 (x000a.png). One PC, single-logged."
+  },
+  {
+   "n": "g0-001",
+   "verdict": "no change",
+   "note": "PC at 209.23 confirmed: score 6919->11669 at 209.20, PERFECT CLEAR banner and empty p2 board 209.2 (x000a.png). Only one PC event."
+  },
+  {
+   "n": "g0-002",
+   "verdict": "no change",
+   "note": "one PC in x001 p2 (227.77); see g0-003 for the event fix"
+  },
+  {
+   "n": "g0-005",
+   "verdict": "no change",
+   "note": "PC triple 282.07: one score jump 10797->17733, banner + empty board 282.45 (pcA.png)"
+  },
+  {
+   "n": "g0-006",
+   "verdict": "no change",
+   "note": "confirmed, 282.07 triple is the PC (pcA.png)"
+  },
+  {
+   "n": "g0-009",
+   "verdict": "no change",
+   "note": "one PC in x004 p2 at 380.5 (score 6917->11667 at 380.43-47, banner+empty board 380.90 pcA.png); triple 379.0 is separate (+1532 at 379.33)"
+  },
+  {
+   "n": "g0-010",
+   "verdict": "no change",
+   "note": "380.03 not a PC: no score jump there; correctly demoted"
+  },
+  {
+   "n": "g0-011",
+   "verdict": "no change",
+   "note": "380.5 PC double confirmed (pcA.png 380.90)"
+  },
+  {
+   "n": "g0-012",
+   "verdict": "no change",
+   "note": "dup dropped correctly: only one jump 380.43"
+  },
+  {
+   "n": "g0-015",
+   "verdict": "no change",
+   "note": "one PC x005 p2 at 434.9 (score 20271->27171 at 434.83-87 one clear; banner+empty 435.30 pcA.png)"
+  },
+  {
+   "n": "g0-017",
+   "verdict": "no change",
+   "note": "434.63 not a PC: single jump at 434.83"
+  },
+  {
+   "n": "g0-018",
+   "verdict": "no change",
+   "note": "434.9 PC triple confirmed"
+  },
+  {
+   "n": "g0-019",
+   "verdict": "no change",
+   "note": "dup correctly dropped"
+  },
+  {
+   "n": "g0-021",
+   "verdict": "no change",
+   "note": "one PC x007 p2 577.97 (10984->17884 at 577.90-93; banner+empty 578.35 pcA.png)"
+  },
+  {
+   "n": "g0-022",
+   "verdict": "no change",
+   "note": "577.63 correctly not a PC"
+  },
+  {
+   "n": "g0-023",
+   "verdict": "no change",
+   "note": "577.97 PC triple confirmed"
+  },
+  {
+   "n": "g0-024",
+   "verdict": "no change",
+   "note": "dup correctly dropped"
+  },
+  {
+   "n": "g0-026",
+   "verdict": "no change",
+   "note": "one PC x008 p2 609.97 (10916->17852 at 609.90-93; banner+empty 610.35 pcA.png)"
+  },
+  {
+   "n": "g0-027",
+   "verdict": "no change",
+   "note": "609.73 correctly not a PC"
+  },
+  {
+   "n": "g0-028",
+   "verdict": "no change",
+   "note": "609.97 PC triple confirmed"
+  },
+  {
+   "n": "g0-029",
+   "verdict": "no change",
+   "note": "dup correctly dropped"
+  },
+  {
+   "n": "g0-034",
+   "verdict": "no change",
+   "note": "one PC x010 p2 858.7 (6887->11673 at 858.73; banner+empty 859.10 pcA.png); triple 857.53 separate (+1532 at 857.70)"
+  },
+  {
+   "n": "g0-035",
+   "verdict": "no change",
+   "note": "858.7 PC double confirmed"
+  },
+  {
+   "n": "g0-039",
+   "verdict": "no change",
+   "note": "one PC x013 p2 1138.5 (6717->11655 at 1138.53; banner+empty 1138.90 pcA.png)"
+  },
+  {
+   "n": "g0-041",
+   "verdict": "no change",
+   "note": "1138.5 PC double confirmed"
+  },
+  {
+   "n": "g0-043",
+   "verdict": "no change",
+   "note": "one PC x014 p2 1194.63 (10787->17723 at 1194.60; banner+empty 1195.00 pcB.png)"
+  },
+  {
+   "n": "g0-044",
+   "verdict": "no change",
+   "note": "1194.63 PC triple confirmed"
+  },
+  {
+   "n": "g0-046",
+   "verdict": "no change",
+   "note": "one PC x015 p2 1228.77 (10834->17734 at 1228.70; banner+empty 1229.15 pcB.png)"
+  },
+  {
+   "n": "g0-047",
+   "verdict": "no change",
+   "note": "1228.43 correctly not a PC"
+  },
+  {
+   "n": "g0-048",
+   "verdict": "no change",
+   "note": "dup correctly dropped"
+  },
+  {
+   "n": "g0-049",
+   "verdict": "no change",
+   "note": "1228.77 PC triple confirmed"
+  },
+  {
+   "n": "g0-051",
+   "verdict": "no change",
+   "note": "one PC x016 p2 1300.7 (11235->15921 at 1300.73; banner+empty 1301.10 pcB.png); single 1299.63 separate (+338 at 1299.77)"
+  },
+  {
+   "n": "g0-052",
+   "verdict": "no change",
+   "note": "1300.7 PC double confirmed"
+  },
+  {
+   "n": "g0-054",
+   "verdict": "no change",
+   "note": "one PC x017 p2 1357.27 (one clear 9752->14702 at 1357.20-27; banner+empty 1357.65 pcB.png)"
+  },
+  {
+   "n": "g0-055",
+   "verdict": "no change",
+   "note": "1357.27 PC double confirmed"
+  },
+  {
+   "n": "g0-056",
+   "verdict": "no change",
+   "note": "1357.13 dup correctly dropped (single jump)"
+  },
+  {
+   "n": "g0-057",
+   "verdict": "no change",
+   "note": "one PC x018 p2 1473.9 (10976->17876 at 1473.83-87; banner+empty 1474.30 pcB.png)"
+  },
+  {
+   "n": "g0-058",
+   "verdict": "no change",
+   "note": "1473.53 correctly not a PC"
+  },
+  {
+   "n": "g0-059",
+   "verdict": "no change",
+   "note": "1473.9 PC triple confirmed"
+  },
+  {
+   "n": "g0-060",
+   "verdict": "no change",
+   "note": "dup correctly dropped"
+  },
+  {
+   "n": "g0-062",
+   "verdict": "no change",
+   "note": "two PCs x019 p2: 1518.6 double (11655->16055, banner+empty 1519.00) and 1525.77 quad (20142->33342 at 1525.70, banner+empty 1526.15 pcB.png); each single-logged"
+  },
+  {
+   "n": "g0-064",
+   "verdict": "no change",
+   "note": "1518.6 PC double confirmed"
+  },
+  {
+   "n": "g0-065",
+   "verdict": "no change",
+   "note": "1525.4 correctly not a PC"
+  },
+  {
+   "n": "g0-066",
+   "verdict": "no change",
+   "note": "dup correctly dropped"
+  },
+  {
+   "n": "g0-067",
+   "verdict": "no change",
+   "note": "1525.77 PC quad confirmed"
+  },
+  {
+   "n": "g0-003",
+   "verdict": "fix",
+   "note": "x001 p2: the PC is the 3-line clear at 227.77 (score 10765->17701 one jump, board 3 rows at 227.70, empty with PERFECT CLEAR at 227.90). The 228.13 \"single pc\" is a plain lock (S lands ~228.2, +36 to 17737). Move pc to 227.8 triple, 228.13 -> plain lock."
+  },
+  {
+   "n": "g0-007",
+   "verdict": "no change",
+   "note": "x003 p1 332.83 is a real TST: 3 rows flash, \"T-SPIN Triple\" banner (tst.png), score +4800 (=TST, same as p2 TSTs; TSS would be +2400). Banner reader misread the word."
+  },
+  {
+   "n": "g0-020",
+   "verdict": "no change",
+   "note": "x006 p1 450.9 is a real TST: 3 rows flash, \"T-SPIN Triple\" banner (tst.png), score +4800 (=TST, same as p2 TSTs; TSS would be +2400). Banner reader misread the word."
+  },
+  {
+   "n": "g0-040",
+   "verdict": "no change",
+   "note": "x013 p1 1133.6 is a real TST: 3 rows flash, \"T-SPIN Triple\" banner (tst.png), score +4800 (=TST, same as p2 TSTs; TSS would be +2400). Banner reader misread the word."
+  },
+  {
+   "n": "g0-069",
+   "verdict": "no change",
+   "note": "x020 p1 1564.47 is a real TST: 3 rows flash, \"T-SPIN Triple\" banner (tst.png), score +4800 (=TST, same as p2 TSTs; TSS would be +2400). Banner reader misread the word."
+  },
+  {
+   "n": "g0-008",
+   "verdict": "fix",
+   "note": "x003 p2: I into the well at ~363.6 clears 4 rows (TETRIS + Back to Back banner, flash 363.75), score 40200->43800 at 363.67, before KO 364.17. Chain had no event and no lock for that I. Garbage rows 8->7."
+  },
+  {
+   "n": "g0-013",
+   "verdict": "fix",
+   "note": "x004 p1: last I locked at 412.60 (in the right column, x004ko.png), KO frame 412.63 -> counts; it cleared 4 (TETRIS, Back to Back) with flash 412.67, score +3600 at 412.70."
+  },
+  {
+   "n": "g0-014",
+   "verdict": "fix",
+   "note": "same clear as g0-013: x004 p1 tetris from the I locked 412.60, score 37785->41385"
+  },
+  {
+   "n": "g0-025",
+   "verdict": "fix",
+   "note": "x007 p2: orange L placed hook-down into col 1 at ~592.65, clears 2 garbage rows (flash 592.77, REN), score 33671->35621 at 592.70, KO 593.5. Chain events stop at 591.47."
+  },
+  {
+   "n": "g0-032",
+   "verdict": "fix",
+   "note": "x008 p2: after the TSD (flash 783.63) the L is held and the I drops into the col-1 well: TETRIS + Back to Back, flash 784.68, score 239351->243135 at 784.70, before KO 785.17."
+  },
+  {
+   "n": "g0-033",
+   "verdict": "fix",
+   "note": "x009 p1: J locks at the right ~841.1 and clears the coloured row (flash 841.21), score 54679->55729 at 841.17, KO 841.6. Chain events stop at 839.77."
+  },
+  {
+   "n": "g0-036",
+   "verdict": "fix",
+   "note": "x010 p1: orange L vertical into the col-3 hole at 959.55 clears the top garbage row (flash 959.68, REN), score 136766->139616 at 959.63, KO 960.07. Chain events stop at 958.57."
+  },
+  {
+   "n": "g0-037",
+   "verdict": "fix",
+   "note": "x011 p1: two phantom locks at 1009.93. Real locks 1008.9-1010.3 are O 1008.97, O 1009.37, J 1009.53, Z 1009.83, I 1010.17 (double 1010.30) = 5; chain has 7 events there (6 locks + double, three at 1009.93). Rest of game checks out to the topout."
+  },
+  {
+   "n": "g0-038",
+   "verdict": "fix",
+   "note": "x011 p2: J locks 1017.69 and Z locks ~1017.9 clearing one garbage row (flash 1017.95), score +24 then +300 at 1017.93, KO 1018.57. Chain events stop at 1017.43 (the S)."
+  },
+  {
+   "n": "g0-042",
+   "verdict": "fix",
+   "note": "x013 p2: S fills the col-1 hole, double (coloured row + garbage top row), flash 1177.85, score +1380 (REN) at 1177.87, garbage 4->3 rows, KO 1178.4. Missing from chain."
+  },
+  {
+   "n": "g0-045",
+   "verdict": "fix",
+   "note": "x014 p1: L placed left 1212.92-1213.08 clears the coloured row, flash 1213.24, score +20 then +1800 (REN) at 1213.20, KO 1213.33. Chain's 1211.93 single (T at 1212.20) is right; this last clear is missing."
+  },
+  {
+   "n": "g0-050",
+   "verdict": "fix",
+   "note": "x015 p2: second L vertical at right 1283.47 makes a triple (flash 1283.60, score +1500 at 1283.53, garbage 10->9), KO 1283.57. Missing from chain."
+  },
+  {
+   "n": "g0-053",
+   "verdict": "fix",
+   "note": "x016 p2: I held, S from hold fills the garbage top row's col-1 hole, flash 1340.77, score +774 (REN), KO 1340.93. Missing; chain's 1339.73 single is right."
+  },
+  {
+   "n": "g0-061",
+   "verdict": "fix",
+   "note": "x018 p2: O held, I vertical at col 5 clears bottom coloured row, flash 1501.04, score +34 then +2000 (REN), KO 1501.17. Missing from chain."
+  },
+  {
+   "n": "g0-063",
+   "verdict": "no change",
+   "note": "x019 B truncated: informational, A events used; checked x019 p1 end of game separately (g0-068)."
+  },
+  {
+   "n": "g0-068",
+   "verdict": "fix",
+   "note": "x019 p1: S held at ~1550.0, J from hold goes vertical into the garbage hole col 6, flash on two garbage rows 1550.22-1550.30, score +18 then +2400 (REN) at 1550.23, garbage 11->9 rows; KO 1550.87. Missing from chain (last 1549.13)."
+  },
+  {
+   "n": "g0-071",
+   "verdict": "fix",
+   "note": "x021 p1: after the 1651.33 quad, Z locks ~1652.3 with no clear, then O swapped for S from hold, S fills garbage hole: flash 1652.58 on garbage top row, score +24 then +1950 at 1652.60, garbage 7->6; KO 1653.33. Both locks missing from chain."
+  },
+  {
+   "n": "g0-070",
+   "verdict": "fix",
+   "note": "x020 p2: chain's last lock 1625.03 is the S; T from hold locks ~1625.30 (score +18, no clear) and is missing. The L that spawned after is still at the top on the KO frame 1625.53 (not locked)."
+  },
+  {
+   "n": "g0-072",
+   "verdict": "no change",
+   "note": "x022 p1: J lock ~1692.95 (score +16) = chain 1692.87; the O after it is still falling at the KO frame 1693.17, score unchanged after. Nothing to add."
+  },
+  {
+   "n": "g0-004",
+   "verdict": "no change",
+   "note": "x001 p2: the clear at 257.17 scores +1226 at 257.47 (TSDs in this game score +3600..+5400), no T-SPIN banner (TETRIS banner from the 256.17 quad still showing); a plain double, as the chain has."
+  },
+  {
+   "n": "g0-016",
+   "verdict": "fix",
+   "note": "x005 p1: first T placed vertically at top right with a zero-line T-spin (+300 at 430.30, T-SPIN icon, no rows clear by grows.py); second T (from hold) into the slot = TSD, score +5400 (B2B) at 430.93, banner 430.86, flash 431.0, 2 rows. Chain had tsd 430.03 + tsmini 430.37 (4 lines) for these two locks."
+  },
+  {
+   "n": "g0-030",
+   "verdict": "fix",
+   "note": "x008 p2: real locks Z ~744.2, O ~744.4, L ~744.65 (score drop pts +24,+26,+22), S spawns 744.75 and hangs there; then both boards freeze ~747.7-753.1; S lands ~753.1, T TSD 753.85 (+5400). Chain has three locks at 744.70 (two duplicate phantoms). 744.93 kept as the S."
+  },
+  {
+   "n": "g0-031",
+   "verdict": "fix",
+   "note": "x008 p1: locks 745.2 single, 745.9 single, O 747.0, then game frozen 747.7-753.1 (L hangs at top), L 753.5, Z 753.8, I quad 754.3: matches chain. Only a freeze to report."
+  }
+ ],
+ "event_fixes": [
+  {
+   "n": "g0-003",
+   "id": "x001",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 227.8,
+   "t_end": 228.13,
+   "events": [
+    {
+     "t": 227.8,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 228.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     227.8,
+     "triple",
+     3
+    ],
+    [
+     228.13,
+     "single",
+     1
+    ]
+   ],
+   "source": "score.py 226.8-229: p2 10765->17701 at 227.77 is the only clear jump; 228.27 17701->17737 is a lock. x001pc.png: 3 rows of stack at 227.50/227.70, empty board + PERFECT CLEAR at 227.90, a green piece lands 228.30 without clearing. No garbage rows in the cleared stack."
+  },
+  {
+   "n": "g0-008",
+   "id": "x003",
+   "side": "p2",
+   "op": "add",
+   "t": 363.67,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 1,
+   "source": "x003ko.png: cyan I vertical in the col-6 well at 363.60, 4-row flash 363.75, TETRIS + BACK banner 364.20; score.py p2 40200->43800 at 363.67 (+20 drop at 363.60). grows.py p2 363.5 vs 364.4: 8 -> 7 garbage rows. KO tilt 364.17."
+  },
+  {
+   "n": "g0-014",
+   "id": "x004",
+   "side": "p1",
+   "op": "add",
+   "t": 412.67,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "x004ko.png: I falling 412.47-412.53, locked in col 9 at 412.60 (+16 drop at 412.63), 4-row white flash + BACK to BACK banner at 412.67 while p2 starts to tilt (KO 412.63); score 37785->41385 at 412.70. grows.py p1: 11 garbage rows at 412.5, 9 after (413.2) -> gc 2."
+  },
+  {
+   "n": "g0-025",
+   "id": "x007",
+   "side": "p2",
+   "op": "add",
+   "t": 592.7,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "x007ko.png: L falls 592.56 in col 1, 2-row flash at 592.77 (garbage top 2 rows), 2 orange cells left above the garbage 593.40; score.py p2 +18 at 592.63, +1950 at 592.70; grows.py 11 -> 9 garbage rows (592.5 / 593.3). No other piece locks before KO 593.5 (hold O, board unchanged 592.98-593.40)."
+  },
+  {
+   "n": "g0-032",
+   "id": "x008",
+   "side": "p2",
+   "op": "add",
+   "t": 784.7,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 1,
+   "source": "x008ko.png: hold I->L swap 784.26-784.47, 4-row flash from the floor 784.68 with BACK banner; score.py +3784 at 784.70; the col-1 well reaches the 1 garbage row at the floor (grows.py 784.5 row0 = G), so gc 1."
+  },
+  {
+   "n": "g0-033",
+   "id": "x009",
+   "side": "p1",
+   "op": "add",
+   "t": 841.17,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x009ko.png: I held / J out 840.82, J at right 841.08, one-row flash on the orange/yellow/green row (not garbage) 841.21; score.py +16 at 841.13 then +1050 at 841.17."
+  },
+  {
+   "n": "g0-036",
+   "id": "x010",
+   "side": "p1",
+   "op": "add",
+   "t": 959.63,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x010ko.png: L at 959.55 in the hole, one-row flash 959.68-959.81 on the garbage top, garbage 3 rows -> 2; score.py +32 at 959.60, +2850 at 959.63 (REN banner). The 957.53 quad (+4650 at 957.73) and 958.57 single (+2700 at 958.83) are both real (x010b.png)."
+  },
+  {
+   "n": "g0-038",
+   "id": "x011",
+   "side": "p2",
+   "op": "add",
+   "t": 1017.93,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x011ko.png: blue J stacked at right 1017.69, red Z left-middle with one-row flash 1017.95; score.py p2 +8 at 1017.70 (J), +24 at 1017.90, +300 at 1017.93; grows.py 7 -> 6 garbage rows (1017.85 / 1018.5)."
+  },
+  {
+   "n": "g0-037",
+   "id": "x011",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1009.93,
+   "t_end": 1009.93,
+   "events": [
+    {
+     "t": 1009.93,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     1009.93,
+     null,
+     0
+    ],
+    [
+     1009.93,
+     null,
+     0
+    ],
+    [
+     1009.93,
+     "double",
+     2
+    ]
+   ],
+   "source": "x011b.png 1008.75-1010.40: pieces O, O (from hold), J, Z, I (double); score.py drop points at 1008.97, 1009.37, 1009.53, 1009.83, 1010.17 and the clear at 1010.30 only = 5 locks. Chain has 1008.73, 1009.23, 1009.47, 1009.63 + three events at 1009.93 (two None + double): the two None at 1009.93 are phantoms."
+  },
+  {
+   "n": "g0-042",
+   "id": "x013",
+   "side": "p2",
+   "op": "add",
+   "t": 1177.87,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "x013ko.png flash 1177.85, score.py +1380 at 1177.87, garbage rows 4->3"
+  },
+  {
+   "n": "g0-045",
+   "id": "x014",
+   "side": "p1",
+   "op": "add",
+   "t": 1213.2,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x014ko.png L 1212.92-1213.08, flash 1213.24, score.py +1800 at 1213.20"
+  },
+  {
+   "n": "g0-050",
+   "id": "x015",
+   "side": "p2",
+   "op": "add",
+   "t": 1283.53,
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 1,
+   "source": "x015ko.png L vertical 1283.47, flash 1283.60, score.py +1500 at 1283.53, garbage 10->9"
+  },
+  {
+   "n": "g0-053",
+   "id": "x016",
+   "side": "p2",
+   "op": "add",
+   "t": 1340.8,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x016ko.png S fills garbage hole, flash 1340.77, score.py +774"
+  },
+  {
+   "n": "g0-061",
+   "id": "x018",
+   "side": "p2",
+   "op": "add",
+   "t": 1501.03,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "x018ko.png I vertical col 5, flash 1501.04, score.py +2000"
+  },
+  {
+   "n": "g0-068",
+   "id": "x019",
+   "side": "p1",
+   "op": "add",
+   "t": 1550.23,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "x019d.png J into garbage hole, two-row garbage flash 1550.22-1550.30, score.py +2400 at 1550.23, grows.py garbage 11->9"
+  },
+  {
+   "n": "g0-071",
+   "id": "x021",
+   "side": "p1",
+   "op": "add",
+   "t": 1652.3,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "x021ko.png Z lands ~1652.3, grows.py no clear"
+  },
+  {
+   "n": "g0-071",
+   "id": "x021",
+   "side": "p1",
+   "op": "add",
+   "t": 1652.6,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "x021ko.png S from hold, flash 1652.58, score.py +1950 at 1652.60, grows.py garbage 7->6"
+  },
+  {
+   "n": "g0-070",
+   "id": "x020",
+   "side": "p2",
+   "op": "add",
+   "t": 1625.3,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "x020ko.png/x020b.png T from hold locks ~1625.30, score.py +18"
+  },
+  {
+   "n": "g0-016",
+   "id": "x005",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 430.03,
+   "t_end": 430.9,
+   "events": [
+    {
+     "t": 430.25,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 430.9,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     430.03,
+     "tsd",
+     2
+    ],
+    [
+     430.37,
+     "tsmini",
+     2
+    ]
+   ],
+   "source": "x005b.png/x005c.png: score.py +300 at 430.30 (zero-line T-spin), +5400 at 430.93; grows.py rows unchanged 430.1-430.45; 2-row flash 431.0, garbage 5 rows kept"
+  },
+  {
+   "n": "g0-030",
+   "id": "x008",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 744.7,
+   "t_end": 744.7,
+   "events": [
+    {
+     "t": 744.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     744.7,
+     null,
+     0
+    ],
+    [
+     744.7,
+     null,
+     0
+    ],
+    [
+     744.7,
+     null,
+     0
+    ]
+   ],
+   "source": "x008h.png 744.1-746.0: only Z, O, L lock 744.2-744.65 (score.py +24 744.23, +26 744.40, +22 744.63); S then hangs at spawn"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": "g0-008",
+   "id": "x003",
+   "player": "p2",
+   "field": "pieces",
+   "was": 69,
+   "value": 70,
+   "source": "the tetris I (lock ~363.6) is not in the event list (last event 363.30 is the T, visible at 363.30-363.45); 70 locks by KO 364.17"
+  },
+  {
+   "n": "g0-013",
+   "id": "x004",
+   "player": "p1",
+   "field": "pieces",
+   "was": 69,
+   "value": 70,
+   "source": "I lock at 412.60 <= KO 412.63; chain last event 412.10"
+  },
+  {
+   "n": "g0-025",
+   "id": "x007",
+   "player": "p2",
+   "field": "pieces",
+   "was": 48,
+   "value": 49,
+   "source": "L lock ~592.65 missing from events (last 591.47 = the J single, flash 591.93)"
+  },
+  {
+   "n": "g0-025",
+   "id": "x007",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 6,
+   "value": 7,
+   "source": "the added double continues the REN run ending at 591.47 (REN banner at 592.77); only if max_combo is not re-tallied from events"
+  },
+  {
+   "n": "g0-032",
+   "id": "x008",
+   "player": "p2",
+   "field": "pieces",
+   "was": 321,
+   "value": 320,
+   "source": "the I (lock ~784.6) is not in events (last 783.07 TSD); no other lock between (board unchanged 783.84-784.47); also -2 for the two duplicate 744.70 phantom locks (g0-030), so 321+1-2=320"
+  },
+  {
+   "n": "g0-033",
+   "id": "x009",
+   "player": "p1",
+   "field": "pieces",
+   "was": 85,
+   "value": 86,
+   "source": "J lock ~841.1 missing (last event 839.77); only that piece between"
+  },
+  {
+   "n": "g0-036",
+   "id": "x010",
+   "player": "p1",
+   "field": "pieces",
+   "was": 179,
+   "value": 180,
+   "source": "L lock ~959.6 missing (last event 958.57 = the S single)"
+  },
+  {
+   "n": "g0-036",
+   "id": "x010",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 16,
+   "value": 17,
+   "source": "the added single continues the run ending 958.57 (REN banner 959.68); only if max_combo is not re-tallied from events"
+  },
+  {
+   "n": "g0-037",
+   "id": "x011",
+   "player": "p1",
+   "field": "pieces",
+   "was": 87,
+   "value": 85,
+   "source": "two phantom locks at 1009.93 (explains the bad bags at spawns 77 and 84); 1016.3-1018.6 checked: O, Z, L locks match chain 1017.0/1017.33/1017.67 (x011c.png)"
+  },
+  {
+   "n": "g0-038",
+   "id": "x011",
+   "player": "p2",
+   "field": "pieces",
+   "was": 94,
+   "value": 96,
+   "source": "J (1017.69) and Z (~1017.9) both missing from events (last 1017.43)"
+  },
+  {
+   "n": "g0-042",
+   "id": "x013",
+   "player": "p2",
+   "field": "pieces",
+   "was": 87,
+   "value": 88,
+   "source": "S lock 1177.85 missing"
+  },
+  {
+   "n": "g0-042",
+   "id": "x013",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 2,
+   "value": 3,
+   "source": "chain end run REN 2; added double extends it to 3"
+  },
+  {
+   "n": "g0-045",
+   "id": "x014",
+   "player": "p1",
+   "field": "pieces",
+   "was": 45,
+   "value": 46,
+   "source": "L lock 1213.2 missing"
+  },
+  {
+   "n": "g0-045",
+   "id": "x014",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 9,
+   "value": 10,
+   "source": "chain end run REN 9; added single extends it to 10"
+  },
+  {
+   "n": "g0-050",
+   "id": "x015",
+   "player": "p2",
+   "field": "pieces",
+   "was": 127,
+   "value": 128,
+   "source": "L lock 1283.47 missing"
+  },
+  {
+   "n": "g0-053",
+   "id": "x016",
+   "player": "p2",
+   "field": "pieces",
+   "was": 99,
+   "value": 100,
+   "source": "S lock 1340.77 missing"
+  },
+  {
+   "n": "g0-053",
+   "id": "x016",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 2,
+   "value": 3,
+   "source": "chain end run REN 2; added single extends to 3"
+  },
+  {
+   "n": "g0-061",
+   "id": "x018",
+   "player": "p2",
+   "field": "pieces",
+   "was": 70,
+   "value": 71,
+   "source": "I lock 1501.03 missing"
+  },
+  {
+   "n": "g0-061",
+   "id": "x018",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 7,
+   "value": 8,
+   "source": "chain end run REN 7; added single extends to 8"
+  },
+  {
+   "n": "g0-068",
+   "id": "x019",
+   "player": "p1",
+   "field": "pieces",
+   "was": 72,
+   "value": 73,
+   "source": "J lock 1550.2 missing (S was held, not locked)"
+  },
+  {
+   "n": "g0-071",
+   "id": "x021",
+   "player": "p1",
+   "field": "pieces",
+   "was": 32,
+   "value": 34,
+   "source": "Z ~1652.3 and S 1652.6 missing"
+  },
+  {
+   "n": "g0-070",
+   "id": "x020",
+   "player": "p2",
+   "field": "pieces",
+   "was": 136,
+   "value": 137,
+   "source": "T lock ~1625.30 missing"
+  },
+  {
+   "n": "g0-016",
+   "id": "x005",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 2,
+   "value": 1,
+   "source": "after fix the difficult run is tst 424.37, tsd 430.9 (2 clears) -> max_b2b 1; phantom tsmini removed"
+  }
+ ],
+ "freezes": [
+  {
+   "id": "x008",
+   "t0": 747.7,
+   "t1": 753.1,
+   "note": "both boards static (frame diff ~0 apart from background sparkle), p1 L and p2 S hang mid-air, both scores frozen 746.23-753.10; p2's S is already motionless from ~744.75"
+  }
+ ],
+ "exclude": []
+}

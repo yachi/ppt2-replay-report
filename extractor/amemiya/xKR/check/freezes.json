@@ -1,0 +1,47 @@
+{
+ "freezes": [
+  {
+   "id": "x008",
+   "t0": 747.7,
+   "t1": 753.1,
+   "note": "both boards static (frame diff ~0 apart from background sparkle), p1 L and p2 S hang mid-air, both scores frozen 746.23-753.10; p2's S is already motionless from ~744.75",
+   "source": "b0 frame check, verified: "
+  },
+  {
+   "id": "x076",
+   "t0": 5005.6,
+   "t1": 5019.1,
+   "note": "both boards in slow motion (pieces creep down), scores frozen p1 199084 / p2 211750",
+   "source": "b3 frame check, verified: "
+  },
+  {
+   "id": "x076",
+   "t0": 5019.3,
+   "t1": 5039.4,
+   "note": "slow motion again, scores frozen p1 199834 / p2 215350 until the p2 TSD 5039.47 and p1 single 5040.13",
+   "source": "b3 frame check, verified: "
+  },
+  {
+   "id": "x098",
+   "t0": 6127.4,
+   "t1": 6134.4,
+   "note": "x098a.png: both boards in slow motion (p1 T, p2 J creep), scores frozen",
+   "source": "b3 frame check, verified: "
+  },
+  {
+   "id": "x098",
+   "t0": 6137.3,
+   "t1": 6139.0,
+   "note": "x098a.png/x098b.png: both boards slow again (p1 T, p2 S creeping), scores frozen",
+   "source": "b3 frame check, verified: "
+  },
+  {
+   "id": "x112",
+   "t0": 6978.7,
+   "t1": 6983.0,
+   "note": "lag: p1's O and p2's I creep down in slow motion (x112a.png 6979.2-6982.8); p2 score frozen 6978.70-6983.07, p1 score frozen 6978.10-6984.43; garbage and catch-up land at once after",
+   "source": "b4 frame check, verified: "
+  }
+ ],
+ "exclude": []
+}
