@@ -3185,5 +3185,3568 @@
    0
   ],
   "source": "hidden-PC frame check: double-logged half of the hidden PC at 1240.67 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a009",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1385.47,
+  "t_end": 1389.43,
+  "events": [
+   {
+    "t": 1385.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1385.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1385.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1386.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1386.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1386.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1387.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1387.63,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1388.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1389.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1389.43,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   }
+  ],
+  "was_old": [
+   [
+    1385.47,
+    "tsd",
+    2
+   ],
+   [
+    1389.43,
+    null,
+    0
+   ],
+   [
+    1389.43,
+    null,
+    0
+   ],
+   [
+    1389.43,
+    null,
+    0
+   ],
+   [
+    1389.43,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b0 frame check, verified: nextcount p1 1352-1432.6 (fr/g0/nc9.txt) counts 154 spawns vs the chain's 148; every 5 s bin matches except 1382-1392 where the chain holds 5 events for 11 NEXT shifts (1385.46,.63,.93,1386.33,.70,.93,1387.30,.63,1388.80,1389.10,1389.43). Score (fr/g0/s9.txt) shows 11 lock drop-point steps in 1385.5-1389.5 and only two clears: +5400 B2B T-SPIN Double at 1388.03 (T spawned 1387.63; banner 'T-SPIN Double/BACK to BACK' in fr/g0/b9a.png at 1388.15) and +3600 quad at 1389.67; 1385.3-1386 has drop points only, so the chain's tsd at 1385.47 is mistimed"
+ },
+ {
+  "id": "a012",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1566.03,
+  "t_end": 1580.33,
+  "events": [
+   {
+    "t": 1566.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1566.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1566.44,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1566.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1567.14,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1568.14,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1568.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1568.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1568.84,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1569.0,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1570.64,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1571.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1571.44,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1571.74,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1572.04,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1572.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1572.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1572.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1573.24,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1573.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1573.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1574.04,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1574.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1574.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1574.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1574.94,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1575.1,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1576.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1576.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1576.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1577.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1577.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1577.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1578.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1578.74,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1579.04,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1580.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1580.3,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1566.03,
+    null,
+    0
+   ],
+   [
+    1566.23,
+    null,
+    0
+   ],
+   [
+    1567.33,
+    null,
+    0
+   ],
+   [
+    1567.33,
+    null,
+    0
+   ],
+   [
+    1567.33,
+    "tst",
+    4
+   ],
+   [
+    1567.4,
+    "quad",
+    4
+   ],
+   [
+    1568.73,
+    null,
+    0
+   ],
+   [
+    1568.9,
+    null,
+    0
+   ],
+   [
+    1569.13,
+    null,
+    0
+   ],
+   [
+    1569.2,
+    null,
+    0
+   ],
+   [
+    1570.03,
+    "tsd",
+    2
+   ],
+   [
+    1571.4,
+    null,
+    0
+   ],
+   [
+    1572.07,
+    null,
+    0
+   ],
+   [
+    1572.07,
+    null,
+    0
+   ],
+   [
+    1572.83,
+    null,
+    0
+   ],
+   [
+    1572.83,
+    null,
+    0
+   ],
+   [
+    1572.83,
+    null,
+    0
+   ],
+   [
+    1573.1,
+    null,
+    0
+   ],
+   [
+    1573.5,
+    null,
+    0
+   ],
+   [
+    1573.7,
+    null,
+    0
+   ],
+   [
+    1573.9,
+    null,
+    0
+   ],
+   [
+    1574.2,
+    null,
+    0
+   ],
+   [
+    1574.63,
+    null,
+    0
+   ],
+   [
+    1574.73,
+    null,
+    0
+   ],
+   [
+    1574.97,
+    null,
+    0
+   ],
+   [
+    1575.23,
+    null,
+    0
+   ],
+   [
+    1575.23,
+    null,
+    0
+   ],
+   [
+    1575.5,
+    "quad",
+    4
+   ],
+   [
+    1576.8,
+    null,
+    0
+   ],
+   [
+    1577.1,
+    null,
+    0
+   ],
+   [
+    1577.37,
+    null,
+    0
+   ],
+   [
+    1577.7,
+    null,
+    0
+   ],
+   [
+    1577.73,
+    null,
+    0
+   ],
+   [
+    1577.73,
+    null,
+    0
+   ],
+   [
+    1577.73,
+    null,
+    0
+   ],
+   [
+    1577.73,
+    null,
+    0
+   ],
+   [
+    1578.4,
+    null,
+    0
+   ],
+   [
+    1578.7,
+    null,
+    0
+   ],
+   [
+    1579.07,
+    null,
+    0
+   ],
+   [
+    1580.13,
+    null,
+    0
+   ],
+   [
+    1580.33,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b0 frame check, verified: 38 real pieces in 1565.9-1580.3 vs 41 chain events. Spawns from NEXT shifts (fr/g0/nc12.txt; its queue jumps OLIT?->TJZSS between 1572.04 and 1573.24, i.e. 3 shifts unread: O,L,I) and one hard-drop score step per lock (fr/g0/s12.txt: 10 locks 1566.13-1569.93, 8 in 1571.10-1573.17, 20 in 1573.33-1580.90). Clears from the score: +3600 B2B quad at 1567.30 only (I dropped vertical into the col-5 well, 4 coloured rows, no garbage; fr/g0/q12.png 1567.25-1567.35, no T-SPIN banner, only BACK to BACK) so the chain's tst at 1567.33 is a phantom double-log of the quad; +5400 B2B TSD at 1569.93 clearing the bottom garbage row + one (fr/g0/d12.png); +3600 B2B quad at 1575.40 (the held I, swapped out at 1575.17); +1512 triple at 1580.90. Times are spawn times read from the NEXT queue"
+ },
+ {
+  "id": "a014",
+  "side": "p1",
+  "op": "retype",
+  "t": 1699.63,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: score p1 (fr/g0/s14.txt): after the +5400 B2B TSD at 1698.90 the next clears are +3600 at 1702.13 and +3600 at 1704.07 only; 1699.8-1702.0 has drop-point steps only (+26,+30,+24,+26,+24,+18,+24,+30). 12 spawns (NEXT shifts 1699.60-1703.87, fr/g0/nc14.txt) = 12 locks = 12 chain events 1699.63-1704.37, but the chain has three quads (1699.63, 1702.23, 1704.37) for two; the real quads are the held I swapped out at 1701.77 (lock 1702.03) and the I spawned 1703.87 (lock 1703.93), matching the chain's 1702.23 and 1704.37. The 1699.63 event is a plain lock"
+ },
+ {
+  "id": "a015",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1798.16,
+  "t_end": 1798.87,
+  "events": [
+   {
+    "t": 1798.16,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1798.5,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   }
+  ],
+  "was_old": [
+   [
+    1798.2,
+    "quad",
+    4
+   ],
+   [
+    1798.87,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b0 frame check, verified: score p1 (fr/g0/s15.txt): one clear only, +3700 B2B quad at 1798.70, then nothing but drop points until +3624 at 1804.27. NEXT shifts (fr/g0/nc15.txt): S spawned 1798.16 (locked 1798.40, no clear), I spawned 1798.50 (the quad at 1798.70). The chain labels both the S (1798.20) and the I (1798.87) as quads; the S is a plain lock. Garbage meter 3 -> 1 row across the quad (fr/g0/q15.png), so the quad cleared 2 garbage rows"
+ },
+ {
+  "id": "a016",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1894.67,
+  "t_end": 1895.03,
+  "events": [
+   {
+    "t": 1894.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1894.83,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   }
+  ],
+  "was_old": [
+   [
+    1894.67,
+    "quad",
+    4
+   ],
+   [
+    1895.03,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b0 frame check, verified: fr/g0/q20.png 1893.90-1895.03: the T locks left at 1894.57 with no clear, the O spawns 1894.63 and locks 1894.77 beside it (no clear), the I spawns 1894.83 and drops vertical into the garbage well, clearing the four white garbage rows at 1894.97. Score p2 14358 -> 16758 at 1894.97 (+2400, the only clear until +5400 B2B TSD at 1896.67). The chain labels both the O (1894.67, gc 4) and the I (1895.03) as quads; the O is a plain lock"
+ },
+ {
+  "id": "a020",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2035.2,
+  "t_end": 2045.17,
+  "events": [
+   {
+    "t": 2035.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2035.2,
+    null,
+    0
+   ],
+   [
+    2035.23,
+    null,
+    0
+   ],
+   [
+    2035.5,
+    null,
+    0
+   ],
+   [
+    2045.17,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: fr/g0/g25.png 2033.95-2035.95 and fr/g0/g23.png 2035.85-2045.60: p2 places Z, I, L and the held S by 2035.0 (score 142), then the T spawned 2035.20 hangs near the top-right and drifts down for ten seconds, locking at ~2045.5 (pink flash at 2045.60, score still 142); the next spawn is the O at 2045.63. NEXT shifts (fr/g0/nc25.txt) 2033.5-2045.6: S 2033.90 (held), Z 2034.03, I 2034.33, L 2034.67, J 2034.93 (held, S out), T 2035.20 = 5 locks, against the chain's 8 events 2034.03-2045.17. The window 2035.20-2045.17 holds one piece, the T"
+ },
+ {
+  "id": "a049",
+  "side": "p1",
+  "op": "add",
+  "t": 3715.17,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/a049ko.png,a049ko2.png: I hard-dropped at 3715.40 (score 70340->70362, +22) before KO 3715.43, no clear"
+ },
+ {
+  "id": "a039",
+  "side": "p1",
+  "op": "add",
+  "t": 3034.47,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/a039s.png, a039nc.txt: O spawned ~3034.47 and locked ~3034.57 (score 0->38); chain's first event 3034.73 is the I"
+ },
+ {
+  "id": "a044",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3462.63,
+  "t_end": 3476.87,
+  "events": [
+   {
+    "t": 3462.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3462.8,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3464.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3464.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3464.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3465.7,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3466.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3467.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3467.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3467.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3468.0,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3469.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3469.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3469.63,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3470.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3471.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3471.5,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3472.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3472.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3472.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3473.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3473.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3473.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3474.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3474.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3474.63,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3475.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3475.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3476.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3476.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3476.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3462.63,
+    null,
+    0
+   ],
+   [
+    3462.63,
+    "tst",
+    4
+   ],
+   [
+    3462.73,
+    "BREAK",
+    2
+   ],
+   [
+    3463.3,
+    "tsd",
+    2
+   ],
+   [
+    3464.57,
+    null,
+    0
+   ],
+   [
+    3464.87,
+    null,
+    0
+   ],
+   [
+    3466.03,
+    null,
+    0
+   ],
+   [
+    3466.27,
+    "tsd",
+    2
+   ],
+   [
+    3467.4,
+    null,
+    0
+   ],
+   [
+    3468.0,
+    null,
+    0
+   ],
+   [
+    3468.0,
+    null,
+    0
+   ],
+   [
+    3468.23,
+    null,
+    0
+   ],
+   [
+    3468.33,
+    "quad",
+    4
+   ],
+   [
+    3469.7,
+    null,
+    0
+   ],
+   [
+    3469.97,
+    null,
+    0
+   ],
+   [
+    3470.13,
+    "tsd",
+    2
+   ],
+   [
+    3471.53,
+    null,
+    0
+   ],
+   [
+    3471.7,
+    null,
+    0
+   ],
+   [
+    3471.77,
+    "BREAK",
+    3
+   ],
+   [
+    3473.3,
+    "BREAK",
+    3
+   ],
+   [
+    3474.83,
+    "BREAK",
+    5
+   ],
+   [
+    3476.07,
+    null,
+    0
+   ],
+   [
+    3476.07,
+    null,
+    0
+   ],
+   [
+    3476.07,
+    null,
+    0
+   ],
+   [
+    3476.3,
+    null,
+    0
+   ],
+   [
+    3476.57,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: fr/g1/a044ban.png + score: +5400@3463.33,+5400@3466.17,+3600@3468.23,+5400@3470.07,+3600@3471.60,+3600@3474.70; banners TSD,TSD,4rows,TSD,4rows,4rows; nextcount 31 spawns matching hard-drop increments"
+ },
+ {
+  "id": "a045",
+  "side": "p1",
+  "op": "add",
+  "t": 3520.07,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/a045.png: I spawned 3520.07, hard-dropped 3520.20 (+20), single +600 with 2 REN banner 3520.23, before KO 3520.37"
+ },
+ {
+  "id": "a046",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3540.87,
+  "source": "b1 frame check, verified: fr/g1/a046g.png: T spawned 3540.667 and held; J from hold stayed active until ~3545.60, score flat 11066 from 3540.57 to 3545.60",
+  "t_end": 3540.87,
+  "events": [],
+  "was_old": [
+   [
+    3540.87,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a046",
+  "side": "p2",
+  "op": "retype",
+  "t": 3587.03,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "source": "b1 frame check, verified: fr/g1/a046s.png: +900@3586.83, then none until +912@3588.63 (no REN), +1056@3589.97 (REN1): only one clear, REN double at 3587.03 phantom"
+ },
+ {
+  "id": "a047",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3607.77,
+  "t_end": 3615.53,
+  "events": [
+   {
+    "t": 3607.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3608.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3608.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3608.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3609.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3609.47,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3610.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3611.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3611.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3612.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3612.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3612.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3612.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3613.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3613.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3613.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3614.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3614.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3614.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3615.53,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3607.77,
+    "tsd",
+    2
+   ],
+   [
+    3608.4,
+    null,
+    0
+   ],
+   [
+    3608.97,
+    null,
+    0
+   ],
+   [
+    3609.43,
+    null,
+    0
+   ],
+   [
+    3609.43,
+    null,
+    0
+   ],
+   [
+    3609.7,
+    null,
+    0
+   ],
+   [
+    3610.3,
+    "tsd",
+    2
+   ],
+   [
+    3611.57,
+    null,
+    0
+   ],
+   [
+    3611.77,
+    null,
+    0
+   ],
+   [
+    3612.27,
+    null,
+    0
+   ],
+   [
+    3612.47,
+    null,
+    0
+   ],
+   [
+    3612.83,
+    null,
+    0
+   ],
+   [
+    3613.1,
+    null,
+    0
+   ],
+   [
+    3613.4,
+    null,
+    0
+   ],
+   [
+    3613.73,
+    null,
+    0
+   ],
+   [
+    3613.9,
+    null,
+    0
+   ],
+   [
+    3614.3,
+    null,
+    0
+   ],
+   [
+    3614.7,
+    null,
+    0
+   ],
+   [
+    3615.07,
+    null,
+    0
+   ],
+   [
+    3615.53,
+    null,
+    0
+   ],
+   [
+    3615.53,
+    null,
+    0
+   ],
+   [
+    3615.53,
+    null,
+    0
+   ],
+   [
+    3615.53,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: nextcount spawn seq valid 7-bags IOTJLSZ|IJTZLSO|...; score flat 3607.13-3610.13 (drops only, spawn at 3607.77 was L); TSD jumps +5400 at 3610.20 and 3616.47"
+ },
+ {
+  "id": "a039",
+  "side": "p1",
+  "op": "add",
+  "t": 3061.83,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "v1 skeptic, missed by b1: fr/v1/a039ko.png, a039cmp.png; score +10@3061.97, +8@3062.10; nextcount k=2 shift at 3062.20 = I and Z spawned"
+ },
+ {
+  "id": "a039",
+  "side": "p1",
+  "op": "add",
+  "t": 3062.03,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "v1 skeptic, missed by b1: fr/v1/a039ko.png, a039cmp.png; score +10@3061.97, +8@3062.10; nextcount k=2 shift at 3062.20 = I and Z spawned"
+ },
+ {
+  "id": "a049",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3709.47,
+  "t_end": 3711.3,
+  "events": [
+   {
+    "t": 3709.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3709.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3710.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3710.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3710.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3710.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3711.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3711.3,
+    "kind": "tst",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3709.47,
+    null,
+    0
+   ],
+   [
+    3711.3,
+    null,
+    0
+   ],
+   [
+    3711.3,
+    null,
+    0
+   ],
+   [
+    3711.3,
+    "tst",
+    3
+   ]
+  ],
+  "source": "v1 skeptic, missed by b1: fr/v1/a049mid.png; nextcount shifts 3709.80,3710.03,3710.17,3710.67,3710.77,3711.10,3711.30; p1 score hard-drop steps 3709.70-3711.20, TST +7200 @3711.97"
+ },
+ {
+  "id": "a050",
+  "side": "p1",
+  "op": "retype",
+  "t": 3746.9,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: the quad was logged twice; the I spawned 3747.6 cleared 4 (TETRIS, one +3750 step), the 3746.9 piece only dropped (fr/g2/a050a.png, a050b.png)"
+ },
+ {
+  "id": "a050",
+  "side": "p1",
+  "op": "retype",
+  "t": 3747.6,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 4,
+  "source": "b2 frame check, verified: the quad was logged twice; the I spawned 3747.6 cleared 4 (TETRIS, one +3750 step), the 3746.9 piece only dropped (fr/g2/a050a.png, a050b.png)"
+ },
+ {
+  "id": "a054",
+  "side": "p2",
+  "op": "remove",
+  "t": 3914.4,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: only one single in 3909-3916: no one-row flash and no +1200 step for the 3914.4 piece; 66 real pieces (fr/g2/a054p2.png)"
+ },
+ {
+  "id": "a055",
+  "side": "p2",
+  "op": "retype",
+  "t": 3970.03,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: double logged twice; the 3970.03 piece dropped, the 3970.63 piece cleared the double, so the REN run peaks at 6 (fr/g2/a055p2.png)"
+ },
+ {
+  "id": "a055",
+  "side": "p2",
+  "op": "retype",
+  "t": 3970.63,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b2 frame check, verified: double logged twice; the 3970.03 piece dropped, the 3970.63 piece cleared the double, so the REN run peaks at 6 (fr/g2/a055p2.png)"
+ },
+ {
+  "id": "a057",
+  "side": "p2",
+  "op": "retype",
+  "t": 4028.33,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: quad logged twice; one TETRIS only, from the I spawned 4028.97 (fr/g2/a057p2.png)"
+ },
+ {
+  "id": "a057",
+  "side": "p2",
+  "op": "retype",
+  "t": 4028.97,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: quad logged twice; one TETRIS only, from the I spawned 4028.97 (fr/g2/a057p2.png)"
+ },
+ {
+  "id": "a059",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4146.9,
+  "t_end": 4153.83,
+  "events": [
+   {
+    "t": 4146.9,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 4147.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4148.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4148.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4148.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4149.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4150.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4151.1,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4152.17,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 4153.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4153.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4146.9,
+    "triple",
+    3
+   ],
+   [
+    4146.97,
+    "BREAK",
+    4
+   ],
+   [
+    4148.53,
+    "BREAK",
+    1
+   ],
+   [
+    4150.2,
+    "BREAK",
+    2
+   ],
+   [
+    4151.9,
+    "BREAK",
+    3
+   ],
+   [
+    4153.83,
+    null,
+    0
+   ],
+   [
+    4153.83,
+    null,
+    0
+   ],
+   [
+    4153.83,
+    null,
+    0
+   ]
+  ],
+  "source": "b2 frame check, verified: BREAK window rebuilt from NEXT shifts and score steps (fr/g2/a059gap.png, a059c.png, a059nc.txt, a059end.png): score 39279->39579 (+300)->40052 (+450)->40665 (+613)->41429 (+764) = four singles at REN0-3 after the triple; other spawns drop points only; 85 real pieces"
+ },
+ {
+  "id": "a059",
+  "side": "p2",
+  "op": "retype",
+  "t": 4119.67,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: the 4119.67 triple was a PERFECT CLEAR (+6936, PERFECT CLEAR banner 4120.1); the 4120.13 entry is the same clear logged twice (fr/g2/a059p2.png)"
+ },
+ {
+  "id": "a059",
+  "side": "p2",
+  "op": "retype",
+  "t": 4120.13,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: the 4119.67 triple was a PERFECT CLEAR (+6936, PERFECT CLEAR banner 4120.1); the 4120.13 entry is the same clear logged twice (fr/g2/a059p2.png)"
+ },
+ {
+  "id": "a060",
+  "side": "p1",
+  "op": "add",
+  "t": 4196.33,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: a piece spawned 4196.33 cleared a single (one-row flash 4196.73, score +310 to 30740), missing from the chain (fr/g2/a060.png)"
+ },
+ {
+  "id": "a062",
+  "side": "p1",
+  "op": "add",
+  "t": 4252.77,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: the J spawned 4252.77 locked on frame 4252.90 = end_s (fr/g2/a062.png)"
+ },
+ {
+  "id": "a064",
+  "side": "p1",
+  "op": "add",
+  "t": 16138.97,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: a single at REN9 (+1674) from the piece spawned 16138.97 is missing (fr/g2/a064.png)"
+ },
+ {
+  "id": "a070",
+  "side": "p1",
+  "op": "retype",
+  "t": 16367.43,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: the 16367.43 piece cleared nothing; the 16368.97 I cleared 4 (TETRIS banner, +3750), not a triple (fr/g2/a070.png, a070b.png)"
+ },
+ {
+  "id": "a070",
+  "side": "p1",
+  "op": "retype",
+  "t": 16368.97,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: the 16367.43 piece cleared nothing; the 16368.97 I cleared 4 (TETRIS banner, +3750), not a triple (fr/g2/a070.png, a070b.png)"
+ },
+ {
+  "id": "a074",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 16548.83,
+  "t_end": 16551.77,
+  "events": [
+   {
+    "t": 16548.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16549.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16549.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16549.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16550.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16550.17,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16551.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16551.77,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    16548.83,
+    "tsd",
+    2
+   ],
+   [
+    16551.77,
+    null,
+    0
+   ],
+   [
+    16551.77,
+    null,
+    0
+   ],
+   [
+    16551.77,
+    null,
+    0
+   ],
+   [
+    16551.77,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b2 frame check, verified: window rebuilt from NEXT shifts and score (fr/g2/a074a-d.png, a074nc.txt): no clear in 16548.8-16549.8; TSD +3600 (no B2B) at 16550.77 from the T spawned 16550.17; B2B TSD +5400 at 16552.43 from the 16551.77 T; 64 real pieces (66 shifts, -1 hold into empty, -1 final L never locked)"
+ },
+ {
+  "id": "a075",
+  "side": "p1",
+  "op": "add",
+  "t": 16592.9,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: the I spawned 16592.9 was held; the O from hold hard-dropped and locked at frame 16593.07 = end_s (+16) (fr/g2/a075.png)"
+ },
+ {
+  "id": "a076",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 16709.73,
+  "t_end": 16718.73,
+  "events": [
+   {
+    "t": 16709.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16710.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16711.43,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16712.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16713.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16713.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16713.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16713.87,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 16715.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16715.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16715.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16716.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16716.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16716.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16716.87,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16718.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16718.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16718.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    16709.73,
+    "tst",
+    4
+   ],
+   [
+    16709.93,
+    null,
+    0
+   ],
+   [
+    16709.93,
+    null,
+    0
+   ],
+   [
+    16710.03,
+    "BREAK",
+    1
+   ],
+   [
+    16711.67,
+    "BREAK",
+    3
+   ],
+   [
+    16711.9,
+    "tsd",
+    2
+   ],
+   [
+    16713.33,
+    "BREAK",
+    4
+   ],
+   [
+    16714.87,
+    "BREAK",
+    3
+   ],
+   [
+    16716.4,
+    "BREAK",
+    2
+   ],
+   [
+    16717.17,
+    "tss",
+    1
+   ],
+   [
+    16718.1,
+    "BREAK",
+    1
+   ],
+   [
+    16718.73,
+    null,
+    0
+   ],
+   [
+    16718.73,
+    null,
+    0
+   ],
+   [
+    16718.73,
+    null,
+    0
+   ],
+   [
+    16718.73,
+    "single",
+    1
+   ]
+  ],
+  "source": "b2 frame check, verified: BREAK window rebuilt from NEXT shifts and score (fr/g2/a076a-e.png): the 16709.73 'tst' was a J with no clear; TSD +3609 at ~16712.4 from the T out of hold (spawn 16711.43, TSD banner); B2B TETRIS +3600 at 16714.2 (I out of hold, 16713.87); B2B T-Spin Single +3600 at 16717.4 (16716.87); single at 16718.73"
+ },
+ {
+  "id": "a078",
+  "side": "p1",
+  "op": "retype",
+  "t": 16813.43,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: no +900 between the TSD at 16813.3 (69803) and 69817 at 16814.3, so 16813.43 cleared nothing; pieces 16815.97-16818.0 are I (via T-hold), Z, O, S, J, L, L, T = 8 vs the chain's 9 (fr/g2/a078a.png, a078b.png)"
+ },
+ {
+  "id": "a078",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 16816.73,
+  "source": "b2 frame check, verified: no +900 between the TSD at 16813.3 (69803) and 69817 at 16814.3, so 16813.43 cleared nothing; pieces 16815.97-16818.0 are I (via T-hold), Z, O, S, J, L, L, T = 8 vs the chain's 9 (fr/g2/a078a.png, a078b.png)",
+  "t_end": 16816.73,
+  "events": [
+   {
+    "t": 16816.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16816.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    16816.73,
+    null,
+    0
+   ],
+   [
+    16816.73,
+    null,
+    0
+   ],
+   [
+    16816.73,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a078",
+  "side": "p1",
+  "op": "remove",
+  "t": 16810.13,
+  "was": [
+   "tst",
+   4,
+   0
+  ],
+  "source": "b2 frame check, verified: only two spawns in 16809.1-16811.13: the I (single +600) and the T, held; the L from hold cleared the triple at 16810.5 (+1972); the TSD banner belongs to 16813.3, so the 16810.13 'tst' is phantom (fr/g2/a078a.png)"
+ },
+ {
+  "id": "a084",
+  "side": "p2",
+  "op": "add",
+  "t": 17289.03,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: T swapped out of hold when the S was held at 17289.87 locked ~17290.3 as a zero-line mini T-spin: T-SPIN banner and score +300 (23333->23633); fr/g3/a084p2.png, a084p2b.png, f_17290.*.png"
+ },
+ {
+  "id": "a101",
+  "side": "p1",
+  "op": "add",
+  "t": 18216.3,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Z spawned 18216.3 clears a single with the '2 REN' banner, score +600 at 18216.77; fr/g3/a101p1.png"
+ },
+ {
+  "id": "a107",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 18408.37,
+  "t_end": 18412.77,
+  "events": [
+   {
+    "t": 18408.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    18408.37,
+    "single",
+    1
+   ],
+   [
+    18408.57,
+    "single",
+    1
+   ],
+   [
+    18412.7,
+    null,
+    0
+   ],
+   [
+    18412.77,
+    "BREAK",
+    4
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount spawns (nc_a107p2.txt, clean 7-bags) and score REN steps show one single in this window; the other single, the None and the BREAK are phantoms; fr/g3/a107p2.png, ren.png"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 18013.7,
+  "t_end": 18018.83,
+  "events": [
+   {
+    "t": 18013.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18013.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18013.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18014.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18014.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18014.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18014.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18015.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18015.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18015.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18016.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18016.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18018.83,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    18013.9,
+    "quad",
+    4
+   ],
+   [
+    18015.23,
+    "BREAK",
+    0
+   ],
+   [
+    18018.83,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount spawns 18013.7-18016.6 (nc_a099p1.txt, perfect 7-bags) are 12 plain locks, score shows only drop points until the quad at 18018.83; the quad at 18013.9 is a duplicate; fr/g3/a099a.png"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 18023.87,
+  "t_end": 18023.97,
+  "events": [
+   {
+    "t": 18023.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18023.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18023.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 18023.97,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    18023.87,
+    null,
+    0
+   ],
+   [
+    18023.87,
+    null,
+    0
+   ],
+   [
+    18023.97,
+    null,
+    0
+   ],
+   [
+    18023.97,
+    null,
+    0
+   ],
+   [
+    18023.97,
+    null,
+    0
+   ],
+   [
+    18023.97,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: only 4 spawns in this span per nextcount (nc_a099p1.txt); two phantom None locks; fr/g3/a099a.png"
+ },
+ {
+  "id": "a080",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 16968.17,
+  "t_end": 16969.8,
+  "events": [
+   {
+    "t": 16968.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16968.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16968.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16969.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16969.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16969.63,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    16968.17,
+    "tst",
+    4
+   ],
+   [
+    16968.4,
+    null,
+    0
+   ],
+   [
+    16968.9,
+    null,
+    0
+   ],
+   [
+    16968.9,
+    null,
+    0
+   ],
+   [
+    16969.8,
+    null,
+    0
+   ],
+   [
+    16969.8,
+    null,
+    0
+   ]
+  ],
+  "source": "b3 frame check, verified: spawns J,Z,I(held, S out),Z,T,O(held, I out) per nc_a080p1.txt; the I from hold goes into the well and a 4-row flash at 16969.83, score +3600 (28445->32045) = B2B quad after the B2B TSD at 16966.37 (5400); the T-SPIN Double banner was the earlier TSD's; fr/g3/a080a.png"
+ },
+ {
+  "id": "a080",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 16969.9,
+  "t_end": 16978.97,
+  "events": [
+   {
+    "t": 16970.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16971.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16971.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16971.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16971.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16972.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16972.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16973.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16973.5,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16974.6,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 16975.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16976.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16976.3,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 16977.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16977.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16978.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 16978.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    16969.9,
+    "BREAK",
+    4
+   ],
+   [
+    16971.43,
+    "BREAK",
+    1
+   ],
+   [
+    16973.3,
+    null,
+    0
+   ],
+   [
+    16973.53,
+    "BREAK",
+    3
+   ],
+   [
+    16975.23,
+    "BREAK",
+    2
+   ],
+   [
+    16976.77,
+    "BREAK",
+    5
+   ],
+   [
+    16978.33,
+    null,
+    0
+   ],
+   [
+    16978.63,
+    null,
+    0
+   ],
+   [
+    16978.97,
+    null,
+    0
+   ]
+  ],
+  "source": "b3 frame check, amended by skeptic: the NEXT queue was readable here: 17 spawns 16970.63-16978.4 in clean 7-bags (nc_a080p1.txt). Clears: J double (2-row flash, +900 at 16973.87), L single (1-row flash 16975.3, REN banner), I vertical in column 3 quad with TETRIS banner at ~16976.7 clearing the orange/yellow row and 3 garbage rows; fr/g3/a080b.png, a080q.png"
+ },
+ {
+  "id": "a080",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 16980.17,
+  "t_end": 16980.17,
+  "events": [
+   {
+    "t": 16980.17,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    16980.17,
+    null,
+    0
+   ],
+   [
+    16980.17,
+    null,
+    0
+   ],
+   [
+    16980.17,
+    null,
+    0
+   ],
+   [
+    16980.17,
+    "tss",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: no spawn between the T swapped out at 16978.77 (TSD 16979.37) and the T spawned 16980.10 (TSS +3750 at 16980.60), nc_a080p1.txt; the three Nones are phantoms"
+ },
+ {
+  "id": "a082",
+  "side": "p1",
+  "op": "retype",
+  "t": 17061.27,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: score 17060.5-17064.1 rises only by drop points (10835->10968); the TSD is the one logged at 17064.43 after the T came out of hold at 17064.07 (nc_a082p1.txt); lock count in the window matches the 18 spawns"
+ },
+ {
+  "id": "a082",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 17081.13,
+  "source": "b3 frame check, verified: Z spawned ~17081.03 is held, L out of hold hard-dropped clears the bottom garbage row at 17081.37, score +776 (36211->36987) = single at REN3; that breaks B2B so the TSD at 17083.4 scores 3600 (37087->40687), not 5400; fr/g3/a082p2.png",
+  "t_end": 17081.13,
+  "events": [
+   {
+    "t": 17081.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    17081.13,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a096",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 17870.13,
+  "t_end": 17870.13,
+  "events": [
+   {
+    "t": 17869.57,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    17870.13,
+    "single",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: the L spawned 17869.57 (nextcount) stands up and clears one coloured row at 17869.78, +2570 = single at REN15; the next J (17870.40) does not lock by the KO 17870.43; same piece, chain time was late; fr/g3/a096p2.png"
+ },
+ {
+  "id": "a097",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 17909.4,
+  "t_end": 17910.13,
+  "events": [
+   {
+    "t": 17909.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 17909.57,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 2
+   }
+  ],
+  "was_old": [
+   [
+    17909.4,
+    "quad",
+    4
+   ],
+   [
+    17910.13,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b3 frame check, verified: spawns I,O,J,I(held,T out),S,Z,O(held,I out),T (nextcount); only one quad: the I out of hold in the right well, 4-row flash 17910.01, +2400 (35958->38358, non-B2B after the triple); the Z at 17909.4 is a plain lock; the T at 17910.8 is a B2B TSS +3750; fr/g3/a097p1.png"
+ },
+ {
+  "id": "a097",
+  "side": "p2",
+  "op": "retype",
+  "t": 17936.33,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: score 17934.7-17937.5 has no clear (61728->61777) and then one double +910 (REN0) from the I spawned 17936.73; TSD then scores +3756 (REN1) and the singles step up to +1950 (REN11) at 17948.73, i.e. one REN step less than the chain; spawns per nextcount"
+ },
+ {
+  "id": "a101",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 18217.13,
+  "source": "v3 skeptic, missed by b3: O spawned 18217.07 never placed; board topped out by garbage; fr/v3/h101.png",
+  "t_end": 18217.13,
+  "events": [],
+  "was_old": [
+   [
+    18217.13,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a004",
+  "side": "p2",
+  "op": "retype",
+  "t": 1049.07,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c3"
+ },
+ {
+  "id": "a007",
+  "side": "p2",
+  "op": "retype",
+  "t": 1297.2,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c5"
+ },
+ {
+  "id": "a007",
+  "side": "p2",
+  "op": "retype",
+  "t": 1296.33,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "hidden-PC frame check: this lock cleared nothing: the board keeps the same rows until the PC at 1297.20 (frame crops)"
+ },
+ {
+  "id": "a009",
+  "side": "p2",
+  "op": "retype",
+  "t": 1362.13,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c6"
+ },
+ {
+  "id": "a010",
+  "side": "p2",
+  "op": "retype",
+  "t": 1448.9,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c7"
+ },
+ {
+  "id": "a010",
+  "side": "p2",
+  "op": "remove",
+  "t": 1448.63,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 1448.90 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a010",
+  "side": "p2",
+  "op": "remove",
+  "t": 1449.17,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "hidden-PC frame check: phantom after the hidden PC at 1448.90: the board is empty, so nothing could clear (frame crops)"
+ },
+ {
+  "id": "a013",
+  "side": "p2",
+  "op": "retype",
+  "t": 1636.87,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c8"
+ },
+ {
+  "id": "a026",
+  "side": "p1",
+  "op": "retype",
+  "t": 2539.5,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 4,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c12"
+ },
+ {
+  "id": "a026",
+  "side": "p1",
+  "op": "remove",
+  "t": 2539.17,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 2539.50 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a027",
+  "side": "p2",
+  "op": "retype",
+  "t": 2560.63,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c13"
+ },
+ {
+  "id": "a029",
+  "side": "p1",
+  "op": "retype",
+  "t": 2708.33,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 1,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c14"
+ },
+ {
+  "id": "a029",
+  "side": "p1",
+  "op": "remove",
+  "t": 2708.03,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 2708.33 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a037",
+  "side": "p1",
+  "op": "retype",
+  "t": 2980.3,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c15"
+ },
+ {
+  "id": "a037",
+  "side": "p1",
+  "op": "retype",
+  "t": 2979.37,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "hidden-PC frame check: this lock cleared nothing: the board keeps the same rows until the PC at 2980.30 (frame crops)"
+ },
+ {
+  "id": "a038",
+  "side": "p1",
+  "op": "retype",
+  "t": 3004.07,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c16"
+ },
+ {
+  "id": "a040",
+  "side": "p2",
+  "op": "retype",
+  "t": 3079.57,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c17"
+ },
+ {
+  "id": "a040",
+  "side": "p2",
+  "op": "retype",
+  "t": 3078.57,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "hidden-PC frame check: this lock cleared nothing: the board keeps the same rows until the PC at 3079.57 (frame crops)"
+ },
+ {
+  "id": "a040",
+  "side": "p2",
+  "op": "retype",
+  "t": 3088.27,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p2 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c18"
+ },
+ {
+  "id": "a042",
+  "side": "p1",
+  "op": "retype",
+  "t": 3150.53,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c19"
+ },
+ {
+  "id": "a042",
+  "side": "p1",
+  "op": "remove",
+  "t": 3150.27,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 3150.53 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a043",
+  "side": "p1",
+  "op": "retype",
+  "t": 3398.17,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c20"
+ },
+ {
+  "id": "a043",
+  "side": "p1",
+  "op": "remove",
+  "t": 3397.93,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 3398.17 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a044",
+  "side": "p1",
+  "op": "retype",
+  "t": 3448.7,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c21"
+ },
+ {
+  "id": "a044",
+  "side": "p1",
+  "op": "remove",
+  "t": 3448.4,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 3448.70 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a066",
+  "side": "p1",
+  "op": "retype",
+  "t": 16219.97,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 3,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c24"
+ },
+ {
+  "id": "a066",
+  "side": "p1",
+  "op": "remove",
+  "t": 16219.63,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 16219.97 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a069",
+  "side": "p1",
+  "op": "retype",
+  "t": 16322.2,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c25"
+ },
+ {
+  "id": "a069",
+  "side": "p1",
+  "op": "remove",
+  "t": 16321.77,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 16322.20 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a078",
+  "side": "p1",
+  "op": "retype",
+  "t": 16784.3,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c28"
+ },
+ {
+  "id": "a078",
+  "side": "p1",
+  "op": "remove",
+  "t": 16783.83,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 16784.30 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a083",
+  "side": "p1",
+  "op": "retype",
+  "t": 17214.0,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 3,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c31"
+ },
+ {
+  "id": "a083",
+  "side": "p1",
+  "op": "remove",
+  "t": 17213.83,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 17214.00 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a088",
+  "side": "p1",
+  "op": "retype",
+  "t": 17451.97,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c32"
+ },
+ {
+  "id": "a088",
+  "side": "p1",
+  "op": "remove",
+  "t": 17451.5,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 17451.97 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a091",
+  "side": "p1",
+  "op": "retype",
+  "t": 17605.5,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c34"
+ },
+ {
+  "id": "a091",
+  "side": "p1",
+  "op": "remove",
+  "t": 17605.17,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 17605.50 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "retype",
+  "t": 18006.87,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c38"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "remove",
+  "t": 18006.33,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 18006.87 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "retype",
+  "t": 18012.77,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 1,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c39"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "remove",
+  "t": 18012.53,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "hidden-PC frame check: double-logged half of the hidden PC at 18012.77 (same clear logged twice; board empty after the PC)"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "remove",
+  "t": 18013.1,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "hidden-PC frame check: phantom after the hidden PC at 18012.77: the board is empty, so nothing could clear (frame crops)"
+ },
+ {
+  "id": "a099",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 18013.6,
+  "source": "hidden-PC frame check: phantom after the hidden PC at 18012.77: the board is empty, so nothing could clear (frame crops)",
+  "t_end": 18013.6,
+  "events": [],
+  "was_old": [
+   [
+    18013.6,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "a104",
+  "side": "p1",
+  "op": "retype",
+  "t": 18292.23,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "hidden-PC frame check: hidden PERFECT CLEAR banner on the p1 board right after this clear (pcmap rejected it: its onsets were split by clear effects); corr/pcclusters.json c40"
  }
 ]

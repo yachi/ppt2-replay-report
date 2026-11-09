@@ -1,0 +1,229 @@
+[
+ {
+  "id": "a080",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "2 of 8 bags not a permutation (spawn index [42, 49]); anomalies ['double shift k=2 at frame 409', 'quad shift k=4 at frame 911', 'double shift k=4 at frame 911', 'double shift k=2 at frame 994']",
+  "t_s": 16952.03,
+  "n": 88
+ },
+ {
+  "id": "a080",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 12.00 s from 16968.17 s; B events spliced (D2/D3)",
+  "t_s": 16968.17,
+  "n": 89
+ },
+ {
+  "id": "a080",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 16968.17 s",
+  "t_s": 16968.17,
+  "n": 90
+ },
+ {
+  "id": "a082",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "33 of 37 bags not a permutation (spawn index [28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182, 189, 196, 203, 210, 217, 224, 231, 238, 245, 252]); anomalies ['quad shift k=4 at frame 599', 'double shift k=4 at frame 599', 'double shift k=2 at frame 741', 'queue slot-5 re-read at frame 3212: J->I', 'queue I-misread corrected at shift k=1, frame 3238: slot 5 I->J', 'double shift k=2 at frame 3546', 'double shift k=2 at frame 3623', 'double shift k=2 at frame 3776', 'double shift k=2 at frame 4342']",
+  "t_s": 17051.43,
+  "n": 91
+ },
+ {
+  "id": "a082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.90 s from 17061.27 s; B events spliced (D2/D3)",
+  "t_s": 17061.27,
+  "n": 92
+ },
+ {
+  "id": "a082",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1700 vs the chain's clears between 17081.4 and 17083.93; unexplained -1700; chain clears near: [[17083.4, 5400, 'tsd']]",
+  "t_s": 17083.93,
+  "t0": 17081.4,
+  "n": 93
+ },
+ {
+  "id": "a084",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 17290.9,
+  "n": 94
+ },
+ {
+  "id": "a084",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +300 at 17290.76 s (KO 17290.9 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 17290.76,
+  "n": 95
+ },
+ {
+  "id": "a088",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 17505.1,
+  "n": 96
+ },
+ {
+  "id": "a088",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 17458.43 s typed as a plain clear",
+  "t_s": 17458.43,
+  "n": 97
+ },
+ {
+  "id": "a089",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 17547.9,
+  "n": 98
+ },
+ {
+  "id": "a095",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 17833.03,
+  "n": 99
+ },
+ {
+  "id": "a096",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +2570 at 17869.8 s (KO 17870.43 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 17869.8,
+  "n": 100
+ },
+ {
+  "id": "a097",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -3779 vs the chain's clears between 17905.6 and 17911.27; unexplained -3779; chain clears near: [[17905.3, 1050, 'double'], [17907.03, 1500, 'triple'], [17909.4, 2400, 'quad'], [17910.13, 3750, 'quad'], [17910.8, 3900, 'tss']]",
+  "t_s": 17911.27,
+  "t0": 17905.6,
+  "n": 101
+ },
+ {
+  "id": "a097",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -2548 vs the chain's clears between 17934.67 and 17948.7; unexplained -2548; chain clears near: [[17934.4, 1650, 'triple'], [17936.33, 900, 'double'], [17937.13, 1050, 'double'], [17937.73, 3900, 'tsd'], [17939.13, 750, 'single'], [17940.03, 900, 'single'], [17940.9, 1050, 'single'], [17942.5, 1800, 'double'], [17943.57, 1350, 'single'], [17944.57, 1500, 'single'], [17945.7, 1650, 'single'], [17946.53, 1800, 'single'], [17947.5, 1950, 'single'], [17948.47, 2100, 'single']]",
+  "t_s": 17948.7,
+  "t0": 17934.67,
+  "n": 102
+ },
+ {
+  "id": "a099",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "17 of 25 bags not a permutation (spawn index [42, 49, 56, 63, 70, 77, 84, 91, 105, 112, 119, 133, 140, 147, 154, 161, 168]); anomalies ['double shift k=2 at frame 520', 'quad shift k=4 at frame 833', 'double shift k=4 at frame 833', 'queue slot-5 re-read at frame 2074: I->J', 'double shift k=2 at frame 2595']",
+  "t_s": 17998.47,
+  "n": 103
+ },
+ {
+  "id": "a099",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.07 s from 18013.90 s; B events spliced (D2/D3)",
+  "t_s": 18013.9,
+  "n": 104
+ },
+ {
+  "id": "a099",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 18097.37,
+  "n": 105
+ },
+ {
+  "id": "a101",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +604 at 18216.77 s (KO 18217.8 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 18216.77,
+  "n": 106
+ },
+ {
+  "id": "a102",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 18244.87,
+  "n": 107
+ },
+ {
+  "id": "a103",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +71 at 18275.57 s (KO 18277.0 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 18275.57,
+  "n": 108
+ },
+ {
+  "id": "a104",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Triple at 18289.27 s",
+  "t_s": 18289.27,
+  "n": 109
+ },
+ {
+  "id": "a104",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 18318.97,
+  "n": 110
+ },
+ {
+  "id": "a105",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.57 s before the KO)",
+  "t_s": 18346.9,
+  "n": 111
+ },
+ {
+  "id": "a106",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 18371.1 s, no A clear matched (added by R/build.py)",
+  "t_s": 18371.1,
+  "n": 112
+ },
+ {
+  "id": "a106",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "5.50 s from the last spawn to the KO",
+  "t_s": 18374.37,
+  "n": 113
+ },
+ {
+  "id": "a107",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.67 s from 18408.37 s; B events spliced (D2/D3)",
+  "t_s": 18408.37,
+  "n": 114
+ },
+ {
+  "id": "a107",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 18418.67,
+  "n": 115
+ }
+]

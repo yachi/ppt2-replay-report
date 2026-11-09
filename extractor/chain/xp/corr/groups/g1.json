@@ -1,0 +1,236 @@
+[
+ {
+  "id": "a023",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 2223.23,
+  "n": 29
+ },
+ {
+  "id": "a023",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 2215.87 s typed as a plain clear",
+  "t_s": 2215.87,
+  "n": 30
+ },
+ {
+  "id": "a027",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+  "t_s": 2639.57,
+  "n": 31
+ },
+ {
+  "id": "a028",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 2692.73,
+  "n": 32
+ },
+ {
+  "id": "a031",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.50 s before the KO)",
+  "t_s": 2784.53,
+  "n": 33
+ },
+ {
+  "id": "a032",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 2837.0,
+  "n": 34
+ },
+ {
+  "id": "a033",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.47 s before the KO)",
+  "t_s": 2877.67,
+  "n": 35
+ },
+ {
+  "id": "a034",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.43 s before the KO)",
+  "t_s": 2911.47,
+  "n": 36
+ },
+ {
+  "id": "a036",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.67 s before the KO)",
+  "t_s": 2964.4,
+  "n": 37
+ },
+ {
+  "id": "a037",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 2985.63,
+  "n": 38
+ },
+ {
+  "id": "a039",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "9 of 9 bags not a permutation (spawn index [0, 7, 14, 21, 28, 35, 42, 49, 56]); anomalies ['double shift k=2 at frame 715', 'double shift k=2 at frame 752']",
+  "t_s": 3034.27,
+  "n": 39
+ },
+ {
+  "id": "a039",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.47 s before the KO)",
+  "t_s": 3062.23,
+  "n": 40
+ },
+ {
+  "id": "a040",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 3106.37,
+  "n": 41
+ },
+ {
+  "id": "a041",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 3139.13,
+  "n": 42
+ },
+ {
+  "id": "a042",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.43 s before the KO)",
+  "t_s": 3160.63,
+  "n": 43
+ },
+ {
+  "id": "a044",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "1 of 9 bags not a permutation (spawn index [56]); anomalies ['double shift k=2 at frame 596', 'double shift k=2 at frame 754', 'double shift k=2 at frame 772', 'double shift k=3 at frame 1175']",
+  "t_s": 3439.13,
+  "n": 44
+ },
+ {
+  "id": "a044",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 13.43 s from 3462.63 s; B events spliced (D2/D3)",
+  "t_s": 3462.63,
+  "n": 45
+ },
+ {
+  "id": "a044",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 3462.63 s",
+  "t_s": 3462.63,
+  "n": 46
+ },
+ {
+  "id": "a044",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 3466.1 s, no A clear matched (added by R/build.py)",
+  "t_s": 3466.1,
+  "n": 47
+ },
+ {
+  "id": "a044",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 3470.03 s, no A clear matched (added by R/build.py)",
+  "t_s": 3470.03,
+  "n": 48
+ },
+ {
+  "id": "a045",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +620 at 3520.2 s (KO 3520.37 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 3520.2,
+  "n": 49
+ },
+ {
+  "id": "a046",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 5.03 s from 3540.67 s; B events spliced (D2/D3)",
+  "t_s": 3540.67,
+  "n": 50
+ },
+ {
+  "id": "a046",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1014 vs the chain's clears between 3581.77 and 3589.97; unexplained -1014; chain clears near: [[3584.3, 2400, 'quad'], [3586.57, 900, 'double'], [3587.03, 1050, 'double'], [3588.1, 900, 'double'], [3589.0, 1050, 'double']]",
+  "t_s": 3589.97,
+  "t0": 3581.77,
+  "n": 51
+ },
+ {
+  "id": "a047",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 3620.97,
+  "n": 52
+ },
+ {
+  "id": "a047",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "2 of 5 bags not a permutation (spawn index [21, 28]); anomalies ['quad shift k=4 at frame 595', 'double shift k=4 at frame 595']",
+  "t_s": 3597.97,
+  "n": 53
+ },
+ {
+  "id": "a047",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.77 s from 3607.77 s; B events spliced (D2/D3)",
+  "t_s": 3607.77,
+  "n": 54
+ },
+ {
+  "id": "a047",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -5379 vs the chain's clears between 3610.17 and 3617.47; unexplained -5379; chain clears near: [[3610.3, 5400, 'tsd'], [3615.53, 5400, 'tsd'], [3617.37, 300, 'single']]",
+  "t_s": 3617.47,
+  "t0": 3610.17,
+  "n": 55
+ },
+ {
+  "id": "a049",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "1 of 15 bags not a permutation (spawn index [98]); anomalies ['double shift k=2 at frame 249', 'double shift k=3 at frame 1617']",
+  "t_s": 3659.63,
+  "n": 56
+ },
+ {
+  "id": "a049",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 3715.43,
+  "n": 57
+ }
+]
