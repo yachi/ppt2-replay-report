@@ -1,0 +1,502 @@
+{
+ "event_corrections": [
+  {
+   "id": "y004",
+   "side": "p2",
+   "op": "retype",
+   "t": 468.7,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "I laid flat ~468.55 completes the one row left after the 467.53 double; board empty at 468.70 with PERFECT CLEAR banner 468.7-469.5+; score 39250 -> 42138 (+2888). fr/bpc/1003.png",
+   "n": 1003
+  },
+  {
+   "id": "y007",
+   "side": "p2",
+   "op": "retype",
+   "t": 603.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "I vertical ~603.75 completes the last 2 rows; board empty 603.90 with PERFECT CLEAR banner 604.05-604.7; score 11243 -> 15781 (+4538). fr/bpc/1008.png",
+   "n": 1008
+  },
+  {
+   "id": "y010",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 827.5,
+   "t_end": 828.03,
+   "events": [
+    {
+     "t": 827.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 828.03,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     827.5,
+     "triple",
+     3
+    ],
+    [
+     828.03,
+     "triple",
+     3
+    ]
+   ],
+   "source": "One triple PC, not two triples: at 827.85 the 3-row stack is still there (827.5 was a plain lock, +36 at 827.40); I drops in ~827.9, board empty 828.00 with PERFECT CLEAR banner 828.0-829.3; one jump 10814 -> 17714 (+6900). Cleared rows all coloured, no grey garbage (gc 2 -> 0). fr/bpc/1010.png",
+   "n": 1010
+  },
+  {
+   "id": "y011",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 960.8,
+   "t_end": 961.17,
+   "events": [
+    {
+     "t": 960.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 961.17,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     960.8,
+     "double",
+     2
+    ],
+    [
+     961.17,
+     "double",
+     2
+    ]
+   ],
+   "source": "One double PC, not two doubles: 2-row stack still on the board at 960.95 (J falling; 960.8 is a lock, +36 at 961.00); board empty at 961.10 with PERFECT CLEAR banner 961.25-961.9; one jump 11285 -> 15935 (+4650). fr/bpc/1011.png",
+   "n": 1011
+  },
+  {
+   "id": "y018",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1357.9,
+   "t_end": 1358.23,
+   "events": [
+    {
+     "t": 1357.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1358.23,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1357.9,
+     "triple",
+     3
+    ],
+    [
+     1358.23,
+     "triple",
+     3
+    ]
+   ],
+   "source": "One triple PC: 3-row stack still there at 1358.05 (1357.9 was the O lock, 10916 -> 10952); J lock completes it, board empty 1358.20 with PERFECT CLEAR banner 1358.2-1359.0; one jump 10952 -> 17888 (+6936). Cleared rows all coloured (gc 2 -> 0). fr/bpc/1015.png",
+   "n": 1015
+  },
+  {
+   "id": "y019",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1436.33,
+   "t_end": 1436.67,
+   "events": [
+    {
+     "t": 1436.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1436.67,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1436.33,
+     "double",
+     2
+    ],
+    [
+     1436.67,
+     "double",
+     2
+    ]
+   ],
+   "source": "One double PC: 2-row stack still there at 1436.45 with the O falling (1436.33 was a plain lock); O locks ~1436.57 (+38), board empty 1436.60 with PERFECT CLEAR banner 1436.75-1437.4; one jump 11259 -> 15909 (+4650). fr/bpc/1018.png",
+   "n": 1018
+  },
+  {
+   "id": "y028",
+   "side": "p2",
+   "op": "retype",
+   "t": 2001.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "T ~2000.95 completes the last 2 rows; board empty 2001.10 with PERFECT CLEAR banner 2001.1-2002.3; score ~6897 -> 11583 (+4686). fr/bpc/1021.png",
+   "n": 1021
+  },
+  {
+   "id": "y029",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2090.17,
+   "t_end": 2090.5,
+   "events": [
+    {
+     "t": 2090.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2090.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2090.17,
+     "double",
+     2
+    ],
+    [
+     2090.5,
+     "double",
+     2
+    ]
+   ],
+   "source": "One double PC: 2-row stack still there at 2090.15 with the O falling (2090.17 was a plain lock); board empty 2090.30 with PERFECT CLEAR banner 2090.45-2091.1; one jump 10875/11503 -> 16077 at 2090.33. fr/bpc/1022.png",
+   "n": 1022
+  },
+  {
+   "id": "y035",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2438.5,
+   "t_end": 2438.93,
+   "events": [
+    {
+     "t": 2438.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2438.93,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2438.5,
+     "triple",
+     3
+    ],
+    [
+     2438.93,
+     "triple",
+     3
+    ]
+   ],
+   "source": "One triple PC: 3-row stack still there at 2438.75 (2438.5 was the T/L lock, 10931 -> 10967); board empty 2438.90 with PERFECT CLEAR banner 2438.9-2439.65; one jump 10967 -> 17867 (+6900). Rows all coloured (gc 3 -> 0). fr/bpc/1024.png",
+   "n": 1024
+  },
+  {
+   "id": "y036",
+   "side": "p2",
+   "op": "retype",
+   "t": 2462.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "T ~2462.6 completes the last 2 rows; board empty 2462.70 with PERFECT CLEAR banner 2462.85-2463.45; score 6902 -> 11588 (+4686). fr/bpc/1025.png",
+   "n": 1025
+  },
+  {
+   "id": "y041",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2650.33,
+   "t_end": 2650.73,
+   "events": [
+    {
+     "t": 2650.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2650.73,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2650.33,
+     "triple",
+     3
+    ],
+    [
+     2650.73,
+     "triple",
+     3
+    ]
+   ],
+   "source": "One triple PC: 3-row stack still there at 2650.55 (2650.33 was a plain lock, 10915 -> 10951); board empty 2650.70 with PERFECT CLEAR banner 2650.7-2651.45; one jump 10987 -> 17887 (+6900). Rows all coloured (gc 1 -> 0). fr/bpc/1027.png",
+   "n": 1027
+  },
+  {
+   "id": "y046",
+   "side": "p2",
+   "op": "retype",
+   "t": 2907.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O ~2907.5 completes the last 2 rows; board empty 2907.60 with PERFECT CLEAR banner 2907.6-2908.35; score 11092 -> 15780 (+4688). The cleared rows are coloured piece cells, not grey garbage (gc 2 -> 0). fr/bpc/1029.png",
+   "n": 1029
+  },
+  {
+   "id": "y048",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2961.03,
+   "t_end": 2961.27,
+   "events": [
+    {
+     "t": 2961.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2961.27,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2961.03,
+     "triple",
+     3
+    ],
+    [
+     2961.27,
+     "triple",
+     3
+    ]
+   ],
+   "source": "One triple PC: 3-row stack still there at 2961.05 (2961.03 was a lock); L locks ~2961.13 (+36), board empty 2961.20 with PERFECT CLEAR banner 2961.35-2962.5; one jump 10978 -> 17878 (+6900). Rows coloured (gc 3 -> 0). fr/bpc/1031.png",
+   "n": 1031
+  },
+  {
+   "id": "y049",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3085.53,
+   "t_end": 3085.97,
+   "events": [
+    {
+     "t": 3085.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3085.97,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3085.53,
+     "double",
+     2
+    ],
+    [
+     3085.97,
+     "double",
+     2
+    ]
+   ],
+   "source": "SECOND PC of the game (after the 3084.43 single PC): 2-row stack still there at 3085.70 (3085.53 was the J lock), O locks ~3085.85 (+38), board empty 3086.00 with a fresh large PERFECT CLEAR banner 3086.0-3086.75; one jump 14914 -> 19414 (+4500). fr/bpc/1032.png",
+   "n": 1032
+  }
+ ],
+ "cell_edits": [],
+ "freeze_windows": [],
+ "no_change": [
+  {
+   "n": 1000,
+   "why": "real quad PC at ~130.03-130.1 (board empty 130.15, PERFECT CLEAR banner, 9018 -> 22390); correction already proposed in b1.json (replace_window 129.73-130.4), dropped here as a duplicate. fr/bpc/1000.png, 1000b.png"
+  },
+  {
+   "n": 1001,
+   "why": "real PC but already counted: chain 176.03 double pc=1 (board empty 176.00, +4988); 177.4 onset is the same banner lingering with the character cut-in. fr/bpc/1001.png"
+  },
+  {
+   "n": 1002,
+   "why": "real triple PC at ~305.05 (board empty 305.10, +6900); already proposed in b1.json (replace_window 304.87-305.17), dropped as duplicate. fr/bpc/1002.png"
+  },
+  {
+   "n": 1004,
+   "why": "same PC as item 1003 (y004 p2 468.7 single PC); 470.1 is that banner lingering. fr/bpc/1003.png"
+  },
+  {
+   "n": 1005,
+   "why": "real double PC at ~531.97 (board empty 532.00, +4572); already proposed in b2.json (y006 p1 replace_window 531.4-541.0), dropped as duplicate. fr/bpc/1005.png"
+  },
+  {
+   "n": 1006,
+   "why": "real double PC at 532.2; already proposed in b2.json (retype 532.2 pc1, remove phantom 531.73), dropped as duplicate."
+  },
+  {
+   "n": 1007,
+   "why": "same y006 p2 532.2 PC banner lingering; covered by b2.json."
+  },
+  {
+   "n": 1009,
+   "why": "same PC as item 1008 (y007 p2 603.93 double PC); 605.3 is that banner lingering. fr/bpc/1008.png"
+  },
+  {
+   "n": 1012,
+   "why": "same PC as item 1011 (y011 p1 961.17 double PC); banner lingering. fr/bpc/1011.png"
+  },
+  {
+   "n": 1013,
+   "why": "real triple PC ~1179.2; already proposed in b1.json (replace_window 1179.1-1179.3), dropped as duplicate."
+  },
+  {
+   "n": 1014,
+   "why": "same y015 p1 PC banner lingering; covered by b1.json."
+  },
+  {
+   "n": 1016,
+   "why": "same PC as item 1015 (y018 p2 1358.23 triple PC); banner lingering. fr/bpc/1015.png"
+  },
+  {
+   "n": 1017,
+   "why": "not a PC: the 1413.67 clear is a TETRIS with ~14 rows of grey garbage still on the board (1412.4-1414.6); banner false positive. fr/bpc/1017.png"
+  },
+  {
+   "n": 1019,
+   "why": "same PC as item 1018 (y019 p1 1436.67 double PC); banner lingering. fr/bpc/1018.png"
+  },
+  {
+   "n": 1020,
+   "why": "not a PC: p1 board is a tall stack over grey garbage throughout 1914.7-1916.95 (TSS at ~1916.0, double ~1916.9); banner false positive. fr/bpc/1020.png"
+  },
+  {
+   "n": 1023,
+   "why": "same PC as item 1022 (y029 p1 2090.5 double PC); banner lingering. fr/bpc/1022.png"
+  },
+  {
+   "n": 1026,
+   "why": "same PC as item 1025 (y036 p2 2462.73 double PC); banner lingering. fr/bpc/1025.png"
+  },
+  {
+   "n": 1028,
+   "why": "same PC as item 1027 (y041 p1 2650.73 triple PC); banner lingering. fr/bpc/1027.png"
+  },
+  {
+   "n": 1030,
+   "why": "same PC as item 1029 (y046 p2 2907.6 double PC); banner lingering. fr/bpc/1029.png"
+  }
+ ]
+}

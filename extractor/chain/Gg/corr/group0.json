@@ -1,0 +1,356 @@
+[
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "21 of 28 bags not a permutation (spawn index [42, 49, 56, 63, 70, 77, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182, 189]); anomalies ['double shift k=2 at frame 342', 'queue resync at frame 1568: (5, 7, 8, 2, 2)->(5, 6, 7, 2, 3)', 'double shift k=3 at frame 2383', 'double shift k=2 at frame 3443']",
+  "t_s": 819.57,
+  "n": 16
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "20 of 31 bags not a permutation (spawn index [70, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182, 189, 196, 203, 210]); anomalies ['double shift k=3 at frame 1065', 'queue resync at frame 1188: (7, 6, 4, 6, 6)->(3, 8, 3, 7, 2)']",
+  "t_s": 819.57,
+  "n": 17
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.8 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 828.2,
+  "n": 50
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.0 s long; pcmap: PC = clear at 833.73 s, dropped double-logs [833.37]",
+  "t_s": 834.2,
+  "n": 49
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 33.57 s from 836.00 s; B events spliced (D2/D3)",
+  "t_s": 836.0,
+  "n": 3
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Triple at 836.0 s",
+  "t_s": 836.0,
+  "n": 28
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 843.64 s, no A clear matched (added by R/build.py)",
+  "t_s": 843.64,
+  "n": 25
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 850.14 s, no A clear matched (added by R/build.py)",
+  "t_s": 850.14,
+  "n": 26
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.10 s from 852.80 s; B events spliced (D2/D3)",
+  "t_s": 852.8,
+  "n": 4
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 857.57 s, no A clear matched (added by R/build.py)",
+  "t_s": 857.57,
+  "n": 27
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 943.97,
+  "n": 60
+ },
+ {
+  "kind": "flag",
+  "id": "y010",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +60 at 944.0 s (KO 943.97 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 944.0,
+  "n": 75
+ },
+ {
+  "kind": "score_spot",
+  "id": "y011",
+  "player": "p1",
+  "t_s": 978.46,
+  "detail": "score rose 712 between 969.93 and 978.46; the corrected chain events there predict 1200 (level-3 guideline scoring; residual -488). Chain clears nearby (t, predicted pts, kind): [[969.63, 1500, 'triple'], [973.33, 2400, 'quad'], [975.73, 300, 'single'], [976.77, 1050, 'double'], [977.73, 1200, 'double']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 93
+ },
+ {
+  "kind": "flag",
+  "id": "y011",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 1012.03,
+  "n": 61
+ },
+ {
+  "kind": "flag",
+  "id": "y012",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.1 s long; pcmap: PC = clear at 1028.47 s, dropped double-logs [1028.3]",
+  "t_s": 1028.8,
+  "n": 51
+ },
+ {
+  "kind": "flag",
+  "id": "y012",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 1033.2,
+  "n": 52
+ },
+ {
+  "kind": "flag",
+  "id": "y012",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 1044.73,
+  "n": 62
+ },
+ {
+  "kind": "score_spot",
+  "id": "y014",
+  "player": "p2",
+  "t_s": 1152.36,
+  "detail": "score rose 1809 between 1144.8 and 1152.36; the corrected chain events there predict 2400 (level-3 guideline scoring; residual -591). Chain clears nearby (t, predicted pts, kind): [[1150.13, 3600, 'tsd'], [1151.6, 5550, 'tsd']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 95
+ },
+ {
+  "kind": "score_spot",
+  "id": "y016",
+  "player": "p1",
+  "t_s": 1201.8,
+  "detail": "score rose -979 between 1196.67 and 1201.8; the corrected chain events there predict 0 (level-3 guideline scoring; residual -979). Chain clears nearby (t, predicted pts, kind): [[1196.43, 900, 'double'], [1196.73, 1050, 'double'], [1201.2, 4800, 'tst']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 97
+ },
+ {
+  "kind": "score_spot",
+  "id": "y016",
+  "player": "p2",
+  "t_s": 1213.63,
+  "detail": "score rose 433 between 1196.4 and 1213.63; the corrected chain events there predict 0 (level-3 guideline scoring; residual 433). Chain clears nearby (t, predicted pts, kind): [[1198.37, 5400, 'tsd'], [1200.2, 900, 'double'], [1201.0, 1050, 'double'], [1201.9, 600, 'single'], [1202.7, 750, 'single'], [1203.67, 900, 'single'], [1204.43, 2250, 'triple'], [1205.73, 300, 'single'], [1207.27, 300, 'single'], [1208.27, 1050, 'double'], [1209.23, 2700, 'quad'], [1211.13, 900, 'double']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 98
+ },
+ {
+  "kind": "flag",
+  "id": "y016",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 1232.07 s typed as a plain clear",
+  "t_s": 1232.07,
+  "n": 29
+ },
+ {
+  "kind": "score_spot",
+  "id": "y016",
+  "player": "p2",
+  "t_s": 1303.67,
+  "detail": "score rose 1870 between 1286.5 and 1303.67; the corrected chain events there predict 2400 (level-3 guideline scoring; residual -530). Chain clears nearby (t, predicted pts, kind): [[1286.2, 3600, 'quad'], [1289.87, 3600, 'tss'], [1291.2, 3750, 'quad'], [1293.23, 300, 'single'], [1294.17, 750, 'tsmini'], [1297.37, 5400, 'tsd'], [1298.67, 3750, 'quad'], [1299.63, 600, 'single'], [1300.43, 750, 'single'], [1301.43, 900, 'single']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 99
+ },
+ {
+  "kind": "flag",
+  "id": "y019",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 1489.07,
+  "n": 66
+ },
+ {
+  "kind": "flag",
+  "id": "y023",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1200 at 1706.33 s (KO 1707.63 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1706.33,
+  "n": 76
+ },
+ {
+  "kind": "flag",
+  "id": "y023",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.1 s long; pcmap: PC = clear at 1706.4 s, dropped double-logs [1706.0]",
+  "t_s": 1706.7,
+  "n": 53
+ },
+ {
+  "kind": "flag",
+  "id": "y023",
+  "player": "",
+  "field_or_issue": "game end at a disconnect",
+  "detail": "KO with Yuukun3798 winning by 1717.5 s, then a 通信中 dialog at 1718.0 and the opponent disconnects; end_upper_s cut 1719.6 -> 1717.6. Check the KO tail and that no dialog frame was read as play.",
+  "t_s": 1717.5,
+  "n": 0
+ },
+ {
+  "kind": "score_spot",
+  "id": "y024",
+  "player": "p1",
+  "t_s": 1798.54,
+  "detail": "score rose 5436 between 1796.3 and 1798.54; the corrected chain events there predict 6000 (level-3 guideline scoring; residual -564). Chain clears nearby (t, predicted pts, kind): [[1798.33, 1500, 'triple']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 106
+ },
+ {
+  "kind": "score_spot",
+  "id": "y024",
+  "player": "p1",
+  "t_s": 1802.17,
+  "detail": "score rose -1650 between 1798.54 and 1802.17; the corrected chain events there predict 0 (level-3 guideline scoring; residual -1650). Chain clears nearby (t, predicted pts, kind): [[1798.33, 1500, 'triple'], [1798.6, 1650, 'triple'], [1801.47, 3600, 'tsd']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 107
+ },
+ {
+  "kind": "score_spot",
+  "id": "y026",
+  "player": "p2",
+  "t_s": 1881.1,
+  "detail": "score rose 4050 between 1876.5 and 1881.1; the corrected chain events there predict 3600 (level-3 guideline scoring; residual 450). Chain clears nearby (t, predicted pts, kind): [[1878.13, 5400, 'tsd'], [1879.6, 450, 'single'], [1880.6, 900, 'double']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 108
+ },
+ {
+  "kind": "score_spot",
+  "id": "y033",
+  "player": "p1",
+  "t_s": 2360.16,
+  "detail": "score rose 5436 between None and 2360.16; the corrected chain events there predict 6000 (level-3 guideline scoring; residual -564). Chain clears nearby (t, predicted pts, kind): [[2356.03, 4800, 'tst'], [2357.43, 5550, 'tsd'], [2359.53, 1500, 'triple']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 113
+ },
+ {
+  "kind": "score_spot",
+  "id": "y033",
+  "player": "p1",
+  "t_s": 2368.16,
+  "detail": "score rose -1500 between 2360.16 and 2368.16; the corrected chain events there predict 0 (level-3 guideline scoring; residual -1500). Chain clears nearby (t, predicted pts, kind): [[2360.23, 1500, 'triple'], [2367.63, 4800, 'tst']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 114
+ },
+ {
+  "kind": "score_spot",
+  "id": "y033",
+  "player": "p2",
+  "t_s": 2380.0,
+  "detail": "score rose 472 between 2360.9 and 2380.0; the corrected chain events there predict 0 (level-3 guideline scoring; residual 472). Chain clears nearby (t, predicted pts, kind): [[2363.57, 3600, 'tss'], [2364.87, 1650, 'triple'], [2365.93, 600, 'single'], [2366.87, 750, 'single'], [2367.67, 900, 'single'], [2370.6, 3600, 'tsd'], [2371.87, 1050, 'double'], [2373.07, 600, 'single'], [2373.97, 750, 'single'], [2374.8, 1500, 'double'], [2375.7, 1050, 'single'], [2379.37, 900, 'double']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 115
+ },
+ {
+  "kind": "flag",
+  "id": "y035",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 2448.03,
+  "n": 68
+ },
+ {
+  "kind": "flag",
+  "id": "y035",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +84 at 2448.33 s (KO 2448.03 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 2448.33,
+  "n": 78
+ },
+ {
+  "kind": "flag",
+  "id": "y042",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 2778.6,
+  "n": 72
+ },
+ {
+  "kind": "flag",
+  "id": "y045",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.0 s long; pcmap: PC = clear at 2879.7 s, dropped double-logs []",
+  "t_s": 2880.2,
+  "n": 54
+ },
+ {
+  "kind": "score_spot",
+  "id": "y048",
+  "player": "p2",
+  "t_s": 2963.93,
+  "detail": "score rose 5164 between 2956.9 and 2963.93; the corrected chain events there predict 4800 (level-3 guideline scoring; residual 364). Chain clears nearby (t, predicted pts, kind): [[2958.57, 5400, 'tsd'], [2960.63, 1500, 'triple'], [2960.93, 450, 'single'], [2963.3, 3600, 'tsd']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 121
+ },
+ {
+  "kind": "score_spot",
+  "id": "y048",
+  "player": "p2",
+  "t_s": 2980.87,
+  "detail": "score rose -3379 between 2966.3 and 2980.87; the corrected chain events there predict 0 (level-3 guideline scoring; residual -3379). Chain clears nearby (t, predicted pts, kind): [[2966.0, 3600, 'quad'], [2966.37, 3750, 'quad'], [2971.03, 7200, 'tst'], [2972.67, 5400, 'tsd'], [2973.87, 450, 'single'], [2974.67, 600, 'single'], [2975.6, 750, 'single'], [2976.47, 900, 'single'], [2977.5, 1650, 'double'], [2980.23, 2400, 'quad']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 122
+ },
+ {
+  "kind": "flag",
+  "id": "y048",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 3040.73 s typed as a plain clear",
+  "t_s": 3040.73,
+  "n": 42
+ },
+ {
+  "kind": "score_spot",
+  "id": "y048",
+  "player": "p1",
+  "t_s": 3054.93,
+  "detail": "score rose -2000 between 3052.7 and 3054.93; the corrected chain events there predict 0 (level-3 guideline scoring; residual -2000). Chain clears nearby (t, predicted pts, kind): [[3052.4, 1500, 'triple'], [3054.5, 3600, 'tsd']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 119
+ },
+ {
+  "kind": "score_spot",
+  "id": "y048",
+  "player": "p1",
+  "t_s": 3056.97,
+  "detail": "score rose 2000 between 3054.93 and 3056.97; the corrected chain events there predict 2400 (level-3 guideline scoring; residual -400). Chain clears nearby (t, predicted pts, kind): [[3054.5, 3600, 'tsd'], [3056.37, 5400, 'tsd']]. NOTE: this video's scoring may differ from level 3; treat the residual as a hint only, check the clears in the frames.",
+  "n": 120
+ }
+]

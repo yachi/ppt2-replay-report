@@ -1,0 +1,182 @@
+[
+ {
+  "id": "y003",
+  "player": "p1",
+  "csv": 268,
+  "events": 264,
+  "value": 264,
+  "confidence": "high",
+  "source": "nextcount.py: 265 NEXT shifts in [296.30 (first spawn), KO 436.3], queue sequence fully read and 7-bag consistent (37 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 296.43 (S); final piece counted, locked: score 168188->183894 at 436.09 (its clear) before KO 436.3. Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [322.0]; chain events with no shift: [328.7]."
+ },
+ {
+  "id": "y006",
+  "player": "p1",
+  "csv": 137,
+  "events": 127,
+  "value": 125,
+  "confidence": "high",
+  "source": "nextcount.py: 127 NEXT shifts in [522.14 (first spawn), KO 587.7], queue sequence fully read and 7-bag consistent (18 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 522.60 (Z); minus the final piece: L spawned 587.44, hold-swapped for J at 587.55, J lands ~587.73 after KO 587.7 (fr/pc_count/e_y006.png). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [528.737, 570.437]; chain events with no shift: [548.03, 548.03, 571.53]."
+ },
+ {
+  "id": "y010",
+  "player": "p1",
+  "csv": 256,
+  "events": 237,
+  "value": 253,
+  "confidence": "high",
+  "source": "nextcount.py: 255 NEXT shifts in [819.54 (first spawn), KO 943.97], queue sequence fully read and 7-bag consistent (36 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 820.10 (Z); minus the final piece: S spawned 943.84, still falling at KO 943.97 (fr/pc_count/e_y010p1.png). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [827.303, 833.337, 840.67, 841.103, 841.503, 841.77, 842.07, 842.403, 842.737, 848.337, 848.637, 848.937, 849.27, 849.637, 850.97, 855.737, 861.137, 861.47, 896.203, 943.703]; chain events with no shift: [837.47, 857.33, 896.73]. Double-logged-PC question at 827.5: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y010",
+  "player": "p2",
+  "csv": 226,
+  "events": 218,
+  "value": 220,
+  "confidence": "high",
+  "source": "nextcount.py: 222 NEXT shifts in [819.54 (first spawn), KO 943.97], queue sequence fully read and 7-bag consistent (31 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 820.90 (T); minus the final piece: final piece spawned 943.04 not locked by KO 943.97 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [855.97, 856.703, 943.037]; chain events with no shift: []."
+ },
+ {
+  "id": "y012",
+  "player": "p1",
+  "csv": 57,
+  "events": 56,
+  "value": 57,
+  "confidence": "high",
+  "source": "nextcount.py: 59 NEXT shifts in [1020.00 (first spawn), KO 1044.73], queue sequence fully read and 7-bag consistent (8 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 1021.27 (Z); minus the final piece: final piece spawned 1044.40 not locked by KO 1044.73 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [1028.3, 1044.4]; chain events with no shift: []."
+ },
+ {
+  "id": "y021",
+  "player": "p2",
+  "csv": 88,
+  "events": 77,
+  "value": 77,
+  "confidence": "high",
+  "source": "nextcount.py: 79 NEXT shifts in [1549.73 (first spawn), KO 1613.33], queue sequence fully read and 7-bag consistent (11 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 1550.76 (Z); minus the final piece: final piece spawned 1613.06 not locked by KO 1613.33 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [1570.73, 1613.063]; chain events with no shift: [1589.73]. Lag freezes 1570.8-1582.4 and 1583.5-1592.9: queue static, no shifts counted there."
+ },
+ {
+  "id": "y023",
+  "player": "p1",
+  "csv": 38,
+  "events": 37,
+  "value": 38,
+  "confidence": "high",
+  "source": "nextcount.py: 40 NEXT shifts in [1691.23 (first spawn), KO 1707.63], queue sequence fully read and 7-bag consistent (5 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 1692.40 (J); minus the final piece: final piece spawned 1707.56 not locked by KO 1707.63 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [1705.997, 1707.563]; chain events with no shift: []."
+ },
+ {
+  "id": "y030",
+  "player": "p2",
+  "csv": 93,
+  "events": 91,
+  "value": 95,
+  "confidence": "high",
+  "source": "nextcount.py: 96 NEXT shifts in [2124.34 (first spawn), KO 2175.9], queue sequence fully read and 7-bag consistent (13 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2124.50 (S); final piece counted, locked: soft drop then +450 at 2175.58 before KO 2175.9. Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [2149.237, 2149.57, 2153.97, 2154.237, 2155.903, 2160.803, 2161.103, 2162.603, 2170.07, 2172.337, 2172.637, 2174.903]; chain events with no shift: [2152.97, 2153.0, 2157.4, 2170.83, 2171.14, 2173.77, 2173.97, 2175.7]."
+ },
+ {
+  "id": "y032",
+  "player": "p1",
+  "csv": 231,
+  "events": 230,
+  "value": 228,
+  "confidence": "high",
+  "source": "nextcount.py: 230 NEXT shifts in [2219.13 (first spawn), KO 2344.73], queue sequence fully read and 7-bag consistent (32 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2219.73 (Z); minus the final piece: final piece spawned 2344.06 not locked by KO 2344.73 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [2320.43, 2321.73, 2329.497, 2329.663, 2344.063]; chain events with no shift: [2275.0, 2275.0, 2330.23, 2331.1, 2331.3, 2339.83]."
+ },
+ {
+  "id": "y044",
+  "player": "p2",
+  "csv": 79,
+  "events": 66,
+  "value": 80,
+  "confidence": "high",
+  "source": "nextcount.py: 82 NEXT shifts in [2824.33 (first spawn), KO 2863.53], queue sequence fully read and 7-bag consistent (11 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2824.76 (S); minus the final piece: loser; J spawned 2862.90 never placed before KO 2863.53 (fr/pc_count/e_y044.png). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [2845.63, 2845.797, 2846.13, 2846.397, 2846.697, 2847.03, 2847.297, 2848.297, 2848.763, 2848.963, 2849.397, 2849.863, 2852.23, 2854.163, 2857.863, 2858.263, 2860.83, 2861.23]; chain events with no shift: [2852.83, 2859.3, 2859.5]."
+ },
+ {
+  "id": "y047",
+  "player": "p2",
+  "csv": 37,
+  "events": 31,
+  "value": 31,
+  "confidence": "high",
+  "source": "nextcount.py: 33 NEXT shifts in [2928.40 (first spawn), KO 2944.53], queue sequence fully read and 7-bag consistent (4 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2929.63 (Z); minus the final piece: final piece spawned 2943.90 not locked by KO 2944.53 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [2940.8, 2942.167]; chain events with no shift: [2939.9]."
+ },
+ {
+  "id": "y011",
+  "player": "p1",
+  "csv": 119,
+  "events": 118,
+  "value": 119,
+  "confidence": "high",
+  "source": "nextcount.py: 121 NEXT shifts in [951.93 (first spawn), KO 1012.03], queue sequence fully read and 7-bag consistent (17 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 952.10 (T); minus the final piece: final piece spawned 1011.36 not locked by KO 1012.03 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [960.797, 1011.363]; chain events with no shift: []. Double-logged-PC question at 960.8: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y018",
+  "player": "p2",
+  "csv": 134,
+  "events": 133,
+  "value": 134,
+  "confidence": "high",
+  "source": "nextcount.py: 136 NEXT shifts in [1349.70 (first spawn), KO 1416.07], queue sequence fully read and 7-bag consistent (19 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 1350.10 (Z); minus the final piece: final piece spawned 1415.97 not locked by KO 1416.07 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [1357.9, 1415.967]; chain events with no shift: []. Double-logged-PC question at 1357.9: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y019",
+  "player": "p1",
+  "csv": 119,
+  "events": 118,
+  "value": 119,
+  "confidence": "high",
+  "source": "nextcount.py: 121 NEXT shifts in [1426.83 (first spawn), KO 1489.07], queue sequence fully read and 7-bag consistent (17 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 1427.53 (O); minus the final piece: final piece spawned 1488.96 not locked by KO 1489.07 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [1436.33, 1488.963]; chain events with no shift: []. Double-logged-PC question at 1436.33: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y029",
+  "player": "p1",
+  "csv": 76,
+  "events": 75,
+  "value": 76,
+  "confidence": "high",
+  "source": "nextcount.py: 78 NEXT shifts in [2081.03 (first spawn), KO 2117.77], queue sequence fully read and 7-bag consistent (11 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2083.30 (T); minus the final piece: final piece spawned 2116.96 not locked by KO 2117.77 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [2090.163, 2116.697]; chain events with no shift: []. Double-logged-PC question at 2090.17: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y035",
+  "player": "p1",
+  "csv": 40,
+  "events": 39,
+  "value": 40,
+  "confidence": "high",
+  "source": "nextcount.py: 42 NEXT shifts in [2430.33 (first spawn), KO 2448.03], queue sequence fully read and 7-bag consistent (6 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2430.70 (S); minus the final piece: S spawned 2447.86, hold-swapped for L at 2448.02, nothing locks by KO 2448.03 (fr/pc_count/e_y035.png). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [2438.33, 2446.597]; chain events with no shift: []. Double-logged-PC question at 2438.5: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y041",
+  "player": "p1",
+  "csv": 96,
+  "events": 95,
+  "value": 96,
+  "confidence": "high",
+  "source": "nextcount.py: 98 NEXT shifts in [2641.70 (first spawn), KO 2691.57], queue sequence fully read and 7-bag consistent (14 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2641.80 (J); minus the final piece: loser; piece spawned 2690.57 never placed, garbage tops out (fr/pc_count/e_y041.png). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [2650.333, 2655.267, 2690.567]; chain events with no shift: [2656.57]. Double-logged-PC question at 2650.33: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y016",
+  "player": "p1",
+  "csv": 226,
+  "events": 226,
+  "value": 226,
+  "confidence": "high",
+  "source": "nextcount.py: 228 NEXT shifts in [1187.50 (first spawn), KO 1305.33], queue sequence fully read and 7-bag consistent (32 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 1187.70 (Z); minus the final piece: final piece spawned 1304.67 not locked by KO 1305.33 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [1206.167, 1288.933, 1304.2]; chain events with no shift: [1206.67, 1289.53]. Double-logged-PC question at 1196.43: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y024",
+  "player": "p1",
+  "csv": 73,
+  "events": 73,
+  "value": 73,
+  "confidence": "high",
+  "source": "nextcount.py: 75 NEXT shifts in [1788.54 (first spawn), KO 1824.67], queue sequence fully read and 7-bag consistent (10 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 1790.44 (J); minus the final piece: final piece spawned 1823.97 not locked by KO 1824.67 (no score change after it). Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Shifts with no chain event: [1790.37, 1804.103, 1823.97]; chain events with no shift: [1788.57, 1806.0]. Double-logged-PC question at 1798.33: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ },
+ {
+  "id": "y033",
+  "player": "p1",
+  "csv": 68,
+  "events": 68,
+  "value": 68,
+  "confidence": "high",
+  "source": "nextcount.py: 69 NEXT shifts in [2351.13 (first spawn), KO 2385.13], queue sequence fully read and 7-bag consistent (9 complete bags, 0 bad, aligned to the first piece); minus first hold into empty at 2351.93 (Z); final piece counted, locked: I hard-dropped, TETRIS 42845->46445 at 2384.45 before KO 2385.13; no spawn follows before KO. Validated on y005 p1 (68-2=66) and y020 p2 (74-1=73, final T locked 1539.83 before KO), both = csv. Double-logged-PC question at 2359.4: a NEXT shift sits at that time (a real spawn), so the first logged time has a piece behind it."
+ }
+]

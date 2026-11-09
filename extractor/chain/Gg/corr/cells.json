@@ -1,0 +1,146 @@
+{
+ "cells": [
+  {
+   "id": "y010",
+   "player": "p2",
+   "field": "pieces",
+   "was": 226,
+   "value": 221,
+   "source": "b0 frame check, amended by skeptic: NEXT-queue shift count over the whole game: 222 shifts 819.57-943.07, minus the first hold-into-empty (820.77) = 221; matches the chain event list shift-for-shift outside 849-858. Last piece (spawned 943.07) appears to lock at the ceiling before the KO 943.97; if not counted, 220. fr/v0/y010_end.png"
+  },
+  {
+   "id": "y023",
+   "player": "p1",
+   "field": "garbage_cleared",
+   "was": 4,
+   "value": 0,
+   "source": "b0 frame check, verified: fr/b0/y023_end.png"
+  },
+  {
+   "id": "y023",
+   "player": "p1",
+   "field": "pieces",
+   "was": 38,
+   "value": 39,
+   "source": "b0 frame check, verified: fr/b0/y023_p1ko.png"
+  },
+  {
+   "id": "y010",
+   "player": "p1",
+   "field": "pieces",
+   "was": 256,
+   "value": 253,
+   "source": "b0 skeptic (found by the reviewer): NEXT-queue shift count (my colour reader) over the whole game: 255 shifts 819.57-943.87; minus the first hold-into-empty (820.07, excluded by A as well) and the S spawned 943.87 that is still at the top at the KO 943.97 = 253. Outside the gap the shifts match A's events exactly (43 before 836.0, 148 after 869.6); inside 836.0-869.6 there are 62 spawns against the 64 B pieces spliced. The checker's suspicion of an 18-30 undercount comes from counting cseq events in the gap (47), not the 64 spliced into the totals. fr/v0/y010_p1_835.png, y010_p1_844.png, y010_p1_850.png, y010_end.png"
+  },
+  {
+   "id": "y003",
+   "player": "p1",
+   "field": "pieces",
+   "was": 268,
+   "value": 267,
+   "source": "b1 frame check, verified: Net of the two y003 p1 window fixes: 321.6-323.53 has 4 locks + the double where the chain had 6 + double (-2); 327.3-328.65 has 5 locks where the chain had 4 (+1). Counted from spawns/NEXT shifts and drop-score steps, fr/b1/y003_p1_320.png, y003_p1_321.png, y003_p1_326.png. Rest of the game not recounted."
+  },
+  {
+   "id": "y017",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 4,
+   "value": 6,
+   "source": "b1 frame check, verified: 6 REN banner beside the Mini T-SPIN Single at 1334.4 (fr/b1/y017_both_1328.png); TSD + 6 consecutive clears 1327.55-1334.3, see the 1329.1 retype."
+  },
+  {
+   "id": "y021",
+   "player": "p1",
+   "field": "pieces",
+   "was": 73,
+   "value": 72,
+   "source": "b1 frame check, verified: The removed 1583.1 single was a duplicate, not a piece: only the Z (lock ~1582.4) and the O (lock ~1593.0) are played 1572-1593 (fr/b1/y021_both_1569.png). Rest of the game not recounted."
+  },
+  {
+   "id": "y021",
+   "player": "p2",
+   "field": "pieces",
+   "was": 88,
+   "value": 85,
+   "source": "b1 frame check, amended by skeptic: Two phantom plain locks (1576.5, 1589.23) in the lag stretch: only the J (lock ~1583.4) and the next J (lock ~1589.6) are played 1571-1592 before the Z hold / I quad (fr/b1/y021_both_1569.png, y021_both_1588.png). Rest of the game not recounted."
+  },
+  {
+   "id": "y021",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 5,
+   "value": 8,
+   "source": "b1 frame check, verified: 8 REN banner beside p2 TETRIS at 1592.6-1593.6 (fr/b1/y021_both_1588.png); REN banners 5 (1570.4), 6 (1583.4), 7 (1589.6), 8 (1592.6), no break."
+  },
+  {
+   "id": "y028",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 9,
+   "value": 16,
+   "source": "b1 frame check, verified: Score ladder 2057.43-2073.43: +300,+450,+600,+750,(mini),+1050,..,+1650,+1800,+2550 (double),+2100,+2250,+2400,+2550,+2700 = 17 consecutive clears (REN 0..16) with no plain lock between 2057.03 and 2073.07 once the two missed singles (2068.03, 2071.73) are in. fr/b1/y028_p1_2066.png"
+  },
+  {
+   "id": "y032",
+   "player": "p1",
+   "field": "pieces",
+   "was": 231,
+   "value": 233,
+   "source": "b1 frame check, amended by skeptic: Net of the two y032 p1 windows: 2321.03-2323.4 adds 3 locks for 1 counted tst (BREAKs carry no piece), +2; 2325.03-2326.27 has 5 locks for 6 events, -1. Lock times read from score drop-point steps in fr/b1/y032_p1_2321.png and y032_p1_2325.png; the 2325 count could be off by one where two small steps merge."
+  },
+  {
+   "id": "y050",
+   "player": "p2",
+   "field": "pieces",
+   "was": 49,
+   "value": 50,
+   "source": "b1 frame check, verified: Added the KO-frame T lock at 3120.4 (fr/b1/y050_p2_ko.png, score +22)."
+  },
+  {
+   "id": "y006",
+   "player": "p2",
+   "field": "pieces",
+   "was": 130,
+   "value": 129,
+   "source": "b2 frame check, amended by skeptic: two phantom/duplicate clear events removed (531.73 single, 538.17 quad); chain count otherwise matched csv; fr/b2/y006_p2a.png, y006_p2b.png"
+  },
+  {
+   "id": "y009",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 5,
+   "value": 7,
+   "source": "b2 frame check, verified: '7 REN' banner with the Mini T-SPIN Single ~796.95; fr/b2/y009_banner.png"
+  },
+  {
+   "id": "y013",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 9,
+   "source": "b2 frame check, verified: '9 REN' shown on the L single 1110.6; fr/b2/y013_ren_1110.65.png"
+  },
+  {
+   "id": "y043",
+   "player": "p1",
+   "field": "pieces",
+   "was": 68,
+   "value": 66,
+   "source": "b2 frame check, verified: 2793.25-2795.8 window: 8 real locks vs 10 chain events (phantom tst + one extra None); fr/b2/y043_a.png"
+  }
+ ],
+ "freezes": [
+  {
+   "id": "y021",
+   "t0": 1570.8,
+   "t1": 1582.4,
+   "note": "Network lag: both boards in slow motion. p1 I hovers 1571.0-1571.6 (8 REN clear ~1571.9), then the Z hovers/creeps 1573-1582.3 and locks ~1582.4; p2 J creeps from 1571.0 and locks ~1583.4. p1 score 18887 frozen 1571.87-1582.40, p2 21530 frozen 1570.43-1583.40. fr/b1/y021_both_1569.png, y021_both_1571.png, y021_both_1582.png"
+  },
+  {
+   "id": "y021",
+   "t0": 1583.5,
+   "t1": 1592.9,
+   "note": "Second lag stretch: p1 O spawns 1583.2 and hovers until ~1593.0 (score 20537 frozen 1582.40-1593.07); p2 J spawns 1584.4 and creeps until ~1589.6, Z then hovers 1590.6-1592.2 before the I quad 1592.6 (p2 score 23330 frozen 1583.40-1589.63, 24680 to 1592.33). fr/b1/y021_both_1569.png, y021_both_1582.png, y021_both_1588.png"
+  }
+ ]
+}

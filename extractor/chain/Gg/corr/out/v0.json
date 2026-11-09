@@ -1,0 +1,318 @@
+{
+ "reviews": [
+  {
+   "kind": "event",
+   "index": 0,
+   "keep": true,
+   "reason": "T drops into the 2-row stack 827.2-827.4, flash 827.5 with PERFECT CLEAR banner, board empty 827.5-827.8 (O appears 827.9); p2 score 6902 -> 11588 (+4686). fr/v0/y010_p2_826.png. (The 827.13 None is the T's spawn shift, not a phantom.)"
+  },
+  {
+   "kind": "event",
+   "index": 1,
+   "keep": true,
+   "reason": "No clear at 836.0: board keeps every row 835.4-837.4 and p1 score creeps 35272/35300/35330/35358 (drops only) until 840.33. fr/v0/y010_p1_835.png"
+  },
+  {
+   "kind": "event",
+   "index": 2,
+   "keep": true,
+   "reason": "J locks ~844.75, one-row white bar 844.8-845.1, score 48105 -> 48569 (+464). fr/v0/y010_p1_844.png"
+  },
+  {
+   "kind": "event",
+   "index": 3,
+   "keep": true,
+   "reason": "4-row white block 847.2-847.6 then TETRIS banner 847.7; cleared block is the coloured row plus 3 grey rows, score 49176 -> 52044. fr/v0/y010_p1_844.png"
+  },
+  {
+   "kind": "event",
+   "index": 4,
+   "keep": true,
+   "reason": "850.3 TSD flash (2 rows) lasts to ~850.9; no second clear at 850.47, score 57538 flat 850.27-851.1. fr/v0/y010_p1_850.png"
+  },
+  {
+   "kind": "event",
+   "index": 5,
+   "keep": true,
+   "reason": "No clear around 852.3: board unchanged 852.0-853.8; score 58476 -> 58546 only. fr/v0/y010_p1_850.png"
+  },
+  {
+   "kind": "event",
+   "index": 6,
+   "keep": true,
+   "reason": "2-row white bar 851.5-851.9 above the garbage, score 57576 -> 58476 (+900). fr/v0/y010_p1_850.png"
+  },
+  {
+   "kind": "event",
+   "index": 7,
+   "keep": true,
+   "reason": "Clears confirmed: L single 852.5 (coloured row), J single 853.5, I triple 854.2 (3 grey rows), O single 855.1; scores 42326->43088->44002->46270->47492. Note: NEXT shifts at 853.13/854.00/854.87/855.67/856.00 mean the new list is one lock short between 855.2 and 856.2 (J spawned 855.67 has no event); the piece total is handled by my amended cell edit. fr/v0/y010_p2_852.png"
+  },
+  {
+   "kind": "event",
+   "index": 8,
+   "keep": true,
+   "reason": "T locks right ~974.7, one-row white bar 974.8-975.1, score 27912 -> 28362. fr/v0/y011_p1_974.png"
+  },
+  {
+   "kind": "event",
+   "index": 9,
+   "keep": true,
+   "reason": "Z locks 1031.4, J->hold/S played and locks ~1031.6 (no clear), T 1031.7-1031.9 clears 2 rows, PERFECT CLEAR banner, board empty 1032.0-1032.3, one jump 19068 -> 23642. NEXT-queue colour reader (my own, 30 fps, slots at x=320 p1 / 731 p2): every chain event in these windows sits exactly on a NEXT shift, i.e. one event per spawn; shifts 1031.47/1031.70/1032.07/1032.37 match the 4 events kept. fr/v0/y012_p1_1031.png"
+  },
+  {
+   "kind": "event",
+   "index": 10,
+   "keep": false,
+   "reason": "One clear only (L, 2 rows, PC at ~1196.67, +4500, board empty), but the window must keep 3 events: NEXT-queue colour reader (my own, 30 fps, slots at x=320 p1 / 731 p2): every chain event in these windows sits exactly on a NEXT shift, i.e. one event per spawn; shifts 1196.17 (Z, swapped for held O), 1196.43 (L), 1196.73 (S spawn). The proposed window drops the S spawn and loses a piece. fr/v0/y016_p1_1196.png",
+   "amended": {
+    "id": "y016",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 1196.43,
+    "t_end": 1196.73,
+    "events": [
+     {
+      "t": 1196.43,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 1196.67,
+      "kind": "double",
+      "lines": 2,
+      "pc": 1,
+      "gc": 0
+     },
+     {
+      "t": 1196.73,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      1196.43,
+      null,
+      0
+     ],
+     [
+      1196.43,
+      "double",
+      2
+     ],
+     [
+      1196.73,
+      "double",
+      2
+     ]
+    ],
+    "source": "one L double PC at 1196.67 (+4500, banner, empty board); NEXT shifts 1195.87/1196.17/1196.43/1196.73 = 4 spawns, so the window keeps 3 events. fr/v0/y016_p1_1196.png"
+   }
+  },
+  {
+   "kind": "event",
+   "index": 11,
+   "keep": true,
+   "reason": "O locks right ~1292.6, one-row white bar 1292.7-1293.1, p2 score 142589 -> 143215 (+626). fr/v0/y016_p2_1292.png"
+  },
+  {
+   "kind": "event",
+   "index": 12,
+   "keep": true,
+   "reason": "Vertical I at 1706.3 clears 4 rows that are all coloured (no grey), PERFECT CLEAR, empty board. fr/v0/y023_p1_1706.png"
+  },
+  {
+   "kind": "event",
+   "index": 13,
+   "keep": true,
+   "reason": "L locks ~1700.35 and clears both remaining rows, PERFECT CLEAR banner 1700.4-1701.0, board empty; p1 score 11527 -> 16513. fr/v0/y023_p1_1700.png"
+  },
+  {
+   "kind": "event",
+   "index": 14,
+   "keep": false,
+   "reason": "There is only one clear (triple PC ~1798.55, +1500/+5400), but 1798.6 is a real spawn: NEXT-queue colour reader (my own, 30 fps, slots at x=320 p1 / 731 p2): every chain event in these windows sits exactly on a NEXT shift, i.e. one event per spawn; shifts 1798.00 (J), 1798.33 (Z, swapped for held L, L makes the PC), 1798.60 (I spawn; I at top 1798.6). Removing it loses a piece; retype to a plain lock instead. fr/v0/y024_p1_1798.png",
+   "amended": {
+    "id": "y024",
+    "side": "p1",
+    "op": "retype",
+    "t": 1798.6,
+    "was": [
+     "triple",
+     3,
+     0
+    ],
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0,
+    "source": "1798.6 is the I's spawn (NEXT shift), no clear of its own; the only clear is the L's triple PC logged at 1798.33. fr/v0/y024_p1_1798.png"
+   }
+  },
+  {
+   "kind": "event",
+   "index": 15,
+   "keep": true,
+   "reason": "Triple PC: L locks ~1798.5, flash 1798.6 with PERFECT CLEAR, board empty, +1500 then +5400. fr/v0/y024_p1_1798.png"
+  },
+  {
+   "kind": "event",
+   "index": 16,
+   "keep": true,
+   "reason": "O drops 1880.4-1880.55 into the 2-row stack, PERFECT CLEAR banner from 1880.6, board empty, p2 11237 -> 16075. (1880.4 None is the O's spawn shift.) fr/v0/y026_p2_1880.png, y026_p2_1879.png"
+  },
+  {
+   "kind": "event",
+   "index": 17,
+   "keep": false,
+   "reason": "One clear (L from hold, triple PC ~2360.17, +6900, empty board), but NEXT-queue colour reader (my own, 30 fps, slots at x=320 p1 / 731 p2): every chain event in these windows sits exactly on a NEXT shift, i.e. one event per spawn; shifts 2359.03 (J->hold, O played), 2359.40 (S), 2359.53 (L->hold, J played), 2359.93 (Z->hold, L played -> PC), 2360.23 (L spawn). 5 spawns for 5 old events; the proposed window keeps only 4 and loses a piece.",
+   "amended": {
+    "id": "y033",
+    "side": "p1",
+    "op": "replace_window",
+    "t": 2359.4,
+    "t_end": 2360.23,
+    "events": [
+     {
+      "t": 2359.4,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 2359.53,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     },
+     {
+      "t": 2360.17,
+      "kind": "triple",
+      "lines": 3,
+      "pc": 1,
+      "gc": 0
+     },
+     {
+      "t": 2360.23,
+      "kind": null,
+      "lines": 0,
+      "pc": 0,
+      "gc": 0
+     }
+    ],
+    "was_old": [
+     [
+      2359.4,
+      null,
+      0
+     ],
+     [
+      2359.53,
+      "triple",
+      3
+     ],
+     [
+      2360.23,
+      null,
+      0
+     ],
+     [
+      2360.23,
+      "triple",
+      3
+     ]
+    ],
+    "source": "single triple PC at 2360.17 (+6900, banner, empty board); score lock bumps 2359.30/2359.43/2359.83/2360.10; NEXT shifts give 5 spawns 2359.03-2360.23 so the window keeps 4 events. fr/v0/y033_p1_2359.png"
+   }
+  },
+  {
+   "kind": "event",
+   "index": 18,
+   "keep": true,
+   "reason": "S locks 2960.45, L clears 3 rows -> PERFECT CLEAR (2960.6, +1536 then +5400), Z locks ~2961.0 with no clear (+38). Shifts 2960.63/2960.93 match. fr/v0/y048_p2_2960.png"
+  },
+  {
+   "kind": "event",
+   "index": 19,
+   "keep": true,
+   "reason": "J 2965.55, I->hold/T played 2965.85, next I vertical 2966.2 -> quad PC 2966.3 (+13234). Shifts 2964.67/2964.90/2965.30/2965.63/2966.00/2966.37 = 6 spawns for 6 events, so None+quad is the right count. fr/v0/y048_p2_2965.png, y048_p2_2964.png"
+  },
+  {
+   "kind": "cell",
+   "index": 0,
+   "keep": false,
+   "reason": "Whole-game NEXT-shift count for p2 (my reader, 819-944): 222 shifts; minus the hold-into-empty at 820.77 (which A also excludes) = 221 pieces including the piece spawned 943.07 that tops out at the ceiling 943.1-943.3 (if it is judged unlocked, 220). Chain events match shifts everywhere except the 852-856 stretch, where the old events over-count by one. 223 is not supported.",
+   "amended": {
+    "id": "y010",
+    "player": "p2",
+    "field": "pieces",
+    "was": 226,
+    "value": 221,
+    "source": "NEXT-queue shift count over the whole game: 222 shifts 819.57-943.07, minus the first hold-into-empty (820.77) = 221; matches the chain event list shift-for-shift outside 849-858. Last piece (spawned 943.07) appears to lock at the ceiling before the KO 943.97; if not counted, 220. fr/v0/y010_end.png"
+   }
+  },
+  {
+   "kind": "cell",
+   "index": 1,
+   "keep": false,
+   "reason": "Pieces unchanged: the 3 old events map to 3 real spawns (O via hold swap, L, S at 1196.73); see the amended window."
+  },
+  {
+   "kind": "cell",
+   "index": 2,
+   "keep": true,
+   "reason": "The only garbage-clearing candidate, the 1706.4 quad PC, cleared 4 coloured rows. fr/v0/y023_p1_1706.png"
+  },
+  {
+   "kind": "cell",
+   "index": 3,
+   "keep": true,
+   "reason": "J ~1706.85, L ~1707.2, O ~1707.45 all lock before the KO 1707.63 (O +38 at 1707.47); the S at 1707.6 is still at the top. fr/v0/y023_p1_1706.png"
+  },
+  {
+   "kind": "cell",
+   "index": 4,
+   "keep": false,
+   "reason": "Pieces unchanged: 1798.6 is the I's spawn, so the count stays 73 (see the amended retype)."
+  },
+  {
+   "kind": "cell",
+   "index": 5,
+   "keep": false,
+   "reason": "Pieces unchanged: NEXT shifts give 5 spawns for the 5 old events (see the amended window)."
+  }
+ ],
+ "missed": [
+  {
+   "id": "y023",
+   "side": "p1",
+   "op": "retype",
+   "t": 1700.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "1700.17 is the L's spawn shift; the L makes the double PC logged at 1700.43. No single in between: the board keeps the same two rows 1699.7-1700.2 (the 1699.8 white bar is the 1699.5 single's tail), NEXT shifts only at 1699.33/1700.17/1700.43 (S, L, I->hold). Singles count 2 -> 1, lines -1. fr/v0/y023_p1_1700.png"
+  },
+  {
+   "id": "y010",
+   "player": "p1",
+   "field": "pieces",
+   "was": 256,
+   "value": 253,
+   "source": "NEXT-queue shift count (my colour reader) over the whole game: 255 shifts 819.57-943.87; minus the first hold-into-empty (820.07, excluded by A as well) and the S spawned 943.87 that is still at the top at the KO 943.97 = 253. Outside the gap the shifts match A's events exactly (43 before 836.0, 148 after 869.6); inside 836.0-869.6 there are 62 spawns against the 64 B pieces spliced. The checker's suspicion of an 18-30 undercount comes from counting cseq events in the gap (47), not the 64 spliced into the totals. fr/v0/y010_p1_835.png, y010_p1_844.png, y010_p1_850.png, y010_end.png"
+  }
+ ]
+}
