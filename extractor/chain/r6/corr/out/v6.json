@@ -1,0 +1,205 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score 49964->53603 at 1099.27 is the one quad B2B (chain quad 1098.6); next jump +5400 TSD at 1101.13; no room for a tst"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score flat 64573 from 1104.03 to 1105.43 (drop points only); confirmed"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score 71362 -> ~72139 at 1107.77 (+777 = single REN3); confirmed"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "73068 -> 73216 by 1110.53, drop points only; confirmed"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "+2400 at 1111.47 (73290->75690) = non-B2B quad, distinct from the +3600 at 1113.23 (chain quad 1112.33); confirmed"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "v6/c1.png: red Z drops 1679.2-1679.4, one-row band 1679.6 with REN; 32057->32529; confirmed (chain has no lock for this Z)"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "v6/c2.png: orange L locks ~1710.6 with no clear (75775->75801); single at 1711.2 (+300) and 4-row clear ~1712.0; confirmed"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "v6/d1.png: T spawned 3411.60 (nextcount), one-row clear with T-spin Single label ~3412.65, 9150->12753 (+3603); confirmed"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "nextcount: I spawned 3412.63 and was held at once (S came out); only one spin clear; confirmed"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "v6/d1.png: TETRIS ~3414.6, 12753->16366 (+3613); confirmed"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "v6/d1.png: 2-row white band 3415.95, 16366->17292 (+906). Kind confirmed; note the chain's two None locks at 3414.7 may already hold this piece, so the add may overcount pieces by one"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "35486 (3425.83) -> 35608 (3427.73), drop points only; confirmed"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "35486 (3425.83) -> 35608 (3427.73), drop points only; confirmed"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "nextcount: S spawned 3429.90 and was held at 3430.03 (I came out); 39280 -> 43058 at 3430.67 is the quad B2B REN1 only; confirmed"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "score flat 48557 after the TSD at 3432.83 until 3436.1; confirmed"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "48557 -> 52395 at 3436.10 (quad B2B + REN/drops); nextcount shows I spawning ~3435.8; confirmed"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "474 -> 5298 at 3953.30 (TST non-B2B), 5298 -> 10860 at 3954.83 (+5562 = TSD B2B REN1); a double would be ~1050; confirmed"
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "48830 -> 56264 over both clears (+7434 = quad B2B + quad B2B REN1); a double REN1 would leave ~4650; confirmed"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "v6/e3.png: after the triple (+1522 at 3997.57) the J goes to hold at ~3998.4, T comes out and makes the only single at ~3998.95 (+468); no other piece; confirmed"
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "107309 -> 112798 at 4027.30 is the only TSD (+5489); no clear 4025-4027.2; confirmed"
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "+478 at 4027.83 = single REN1; confirmed"
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "113276 flat (drop points) until the TSD +3600 at 4030.47; confirmed"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "v6/f1.png: one-row band 4164.15-4164.3, score 106655 at 4164.60; confirmed"
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "v6/f1.png: second one-row clear ~4164.9, 106655 -> 107111 (+456 REN1), before KO 4166.13; confirmed"
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "11091 -> 16564 (TSD B2B) then +3626 at 4676.43 only; one TETRIS; confirmed"
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "v6/i1.png: one-row band at ~6599.2 with 2 REN label right after the double; confirmed (score digits misread 5/6)"
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "v6/i4.png: one-row band 6614.45-6614.65, 74444 -> 75822 (+1378 single REN7); confirmed"
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "v6/i4.png: vertical I at right, 3-row band 6615.5-6615.7, -> 78552 (+2730 triple REN8); confirmed"
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "440 -> 4156 at 6561.23 (+3605 = TSD non-B2B, game start so no B2B); confirmed"
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "28509/28665 -> 32265 at 6573.97 (+3600 quad B2B); confirmed"
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "37849 at 6577.40 then next jump +5569 at 6580.93 (TSD B2B, B2B kept); nextcount: no spawn between the TSD and T 6578.17; confirmed"
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "82540 -> 89822 by 6631.77 = TSS B2B + quad B2B only (two clears for three chain clears); T spawned 6628.57 = tss 6628.74; confirmed"
+ },
+ {
+  "ref": "e32",
+  "verdict": "amend",
+  "why": "v6/h4.png: the double (2-row band 6632.19, 89846->90746 +900) is made by the purple T that spawned 6631.84 (nextcount shift 6631.833), i.e. chain event 6631.87, not the Z spawned 6632.10",
+  "amended": {
+   "t": 6631.87
+  }
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "38382 -> 39296 (double) at 6669.13, -> 40348 at 6670.40 (+1052 double REN1); confirmed"
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "v6/k1.png: green S locks ~7623.95 with no clear after garbage rose; red Z makes the only single at ~7624.95 (+304); confirmed"
+ },
+ {
+  "ref": "e35",
+  "verdict": "keep",
+  "why": "v6/l3.png: blue I lands 8420.45 with no clear (65120->65131); TSD 8421.8; confirmed"
+ },
+ {
+  "ref": "e36",
+  "verdict": "keep",
+  "why": "v6/l3.png: I placed ~8422.55, 4-row band 8422.7, 70540 -> 74290; confirmed"
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "88835 -> 89774 at 8431.77 (+939, double without REN); no chain lock there; confirmed from score"
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "139799 -> 140723 at 8467.73 (+924 = single REN4); confirmed"
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "140723 -> 142399 at 8468.60 (+1676 = double REN5), then +1227 single REN6 at 8469.6 (chain single 8468.97); confirmed"
+ }
+]

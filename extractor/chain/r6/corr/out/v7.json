@@ -1,0 +1,340 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "amend",
+  "why": "Score p2 52.60 +906, 53.53 +1060, 54.47 +612, 55.33 +764 (single REN3), 56.77 +320: the REN3 single is missing from the chain and the two None locks at 55.6 are one too many. Confirmed. Only change: the new single's t 54.73 lies before the window start 55.0, so the window starts at 54.7 (no other old event in 54.7-55.0).",
+  "amended": {
+   "t": 54.7
+  }
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Score p2: TST +4800 at 1456.47, TSD+B2B+REN1 +5550 at 1458.07, +900 double at 1459.77, PERFECT CLEAR +2890 at 1460.97. fr/v7/n018.png: T TSD ~1458.1, Z/J locked 1459.0-1459.6, J clears two rows (flash 1459.9), O held at 1460.8, PERFECT CLEAR banner 1461.1 with an empty board. The 4-line tst at 1458.8 is a phantom. 6 pieces matches."
+ },
+ {
+  "ref": "e2",
+  "verdict": "amend",
+  "why": "fr/v7/n020b.png: vertical I in the col-2 well at 1626.42, 4-row white band 1626.55, TETRIS banner 1626.94, score 31445->35067 (+3622 quad B2B). The four cleared rows are all grey garbage rows (garbage shrinks from ~11 to ~7 rows; the red/orange coloured row above stays), so gc is 4, not 0.",
+  "amended": {
+   "gc": 4
+  }
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v7/n020.png: L placed, one-row flash 1632.15, score 38754->39212 (+458 single REN1). Confirmed."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "fr/v7/n020.png: Z out of hold (hold shows S at 1633.00), one-row flash 1633.17, score 39826 (+614 single REN2). Confirmed."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Score p2 +1060 at 1637.03 = double REN1 after the TSD (+3605 at 1636.27); no chain event for it. Confirmed by score."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "Score p2: 8991 at 2204.30 (the real TSS, +3750) then only +104 drop points until the quad at 2208.13 (+3608). The 2204.93 tss is a phantom."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v7/n027.png: L spawns 2220.45, held at 2220.75, T out of hold placed flat at the top right, two-row white band 2221.65-2221.8, score 21554->22458 (+904 = plain double). nextcount: shift 2220.433, hold L 2221.467. Confirmed."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "Score p2 +450 at 2264.73 after the quad at 2263.73 = single REN1; chain has none there and two Nones at 2265.33. gc not frame-checked."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "fr/v7/n028b.png: T spun into the slot at 2335.2-2335.35, one-row band 2335.47, 'Single' banner, score 139379->142979 (+3600 TSS+B2B). The row cleared is the top garbage row (its hole at col 2 is gone afterwards), so gc 1 is right."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "Score p2 +450 at 2432.30 = single REN1 after the TSD at 2431.33 (+3600); chain has two Nones at 2432.9. Confirmed by score."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "Score p1 23722 -> 27438 (TSS+B2B) -> 31207 (+3769 quad B2B REN1) -> 31835 (+628 REN2) -> 32613 (+778 REN3) -> 33542 (+929 REN4) -> 35822 (+2280 triple REN5) -> 37056 (+1234 REN6) -> 38439 (+1383 REN7): every step fits. fr/v7/n035a.png: after the quad, J/O/L lock 3245.9-3246.5, I held at 3246.7, T out does the TSS ~3247.4. nextcount 3244-3255: spawns 3245.17, 3245.43, 3245.8, k=3 at 3246.37, 3246.63, then one per REN clear. Counts and kinds right; the J/O/L t's are compressed but the count is right."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "Score p1 +2424 at 3310.90 = plain quad (single at 3309.17 broke B2B); TETRIS per checker. Kind confirmed by score; gc not frame-checked."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "Cropped score frames fr/v7/scores.png: 105441 (3313.7) -> 106955 at 3315.45 (+1514 = plain triple); the 110xxx readings in score.py there are misreads. fr/v7/n035b.png shows the multi-row flash ~3315.3."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "Score 106955 -> 109372 at 3316.75 (+2417 = the quad at 3316.4, TETRIS banner 3316.9-3317.3), then 109372 -> 109450 by 3318.6, drops only. The 3316.9 double is a phantom."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "fr/v7/n035b.png: 4-row band 3318.9, TETRIS banner 3319.3, score 109450 -> 113050 (+3600 quad B2B). Confirmed."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "Score p1 118555 -> 119475 at 3322.73 (+900 plain double), no chain event. Confirmed by score."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "Score p1 123237 -> 123862 at 3325.33 (+600? single REN2 after the TSD REN1 +3750), then double REN3 +1371 at 3326.60 (the chain's 3326.43). Confirmed by score."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "fr/v7/n039a.png: TETRIS 3564.2, one-row flash 3564.65, score 39143 -> 39627 (+484 single REN1). Chain has two Nones at 3565.27. Confirmed."
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "fr/v7/n039a.png: T held 3567.2, Z out of hold drops in at bottom left, ~2-row white band 3568.1, PERFECT CLEAR banner 3568.1-3568.7 over an empty board, score 39995 -> 44648 (+4650). Two lines fits the band."
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "fr/v7/n039a.png: after the PC the board is empty and pieces stack from 3568.1; score only drops until the TSD at 3575.00. Phantom double."
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "fr/v7/n039b.png: J triple at 3620.4, O spawns 3621.14 and is held, S out of hold bridges the right side, one coloured row flashes 3621.38-3621.6 (REN banner), score 90689 -> 91179 (+490 single REN1). The coloured row cleared, garbage intact: gc 0 right."
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "fr/v7/n044b.png: I dropped into the col-7 well at 4212.5, 4-row band 4212.62, TETRIS banner 4213.1, score 53636 -> 57270 (+3634 quad B2B, not TST 7200). The 4 rows include the 2 bottom grey garbage rows: gc 2 right."
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "fr/v7/n044.png: S placed at 4221.1, one-row band 4221.14-4221.5, score 68546 -> 68872 (+326 single). Confirmed."
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "fr/v7/n044.png: O spawns 4221.86 and is held, I out of hold dropped vertically, 4-row white band 4222.22, TETRIS banner 4222.58-4222.7, score 68872 -> 71450 (+2578 = quad 2400 + REN1). No T involved. gc left at the chain's 1 (not settled)."
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "fr/v7/n057.png: TETRIS (I) at 5058.8, the banner still showing at 5059.6-5060.2; a green piece clears one row at 5060.43-5060.7, score 32478 -> 32832 (+354 single). Kind right (the piece is green, not a Z; t unaffected)."
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "fr/v7/n057.png: a piece placed on the right at 5061.5 with no clear, score 32832 -> 32850. Phantom tss."
+ },
+ {
+  "ref": "e27",
+  "verdict": "amend",
+  "why": "The TSD is real (fr/v7/n057.png: T in the slot 5062.05, two-row band 5062.32, 'Double' banner, score 32856 -> 36456 = +3600), but adding it at 5061.75 double-counts the T: the chain already has a None lock at 5061.8, 0.05 s from the proposed spawn, which is that T (nextcount: no other spawn between 5061.27 and 5062.40; the chain's 5062.23 None is the next piece). Retype that None instead of adding a piece.",
+  "amended": {
+   "op": "retype",
+   "t": 5061.8,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 1
+  }
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "fr/v7/n064.png: 4-row band 5948.25, PERFECT CLEAR banner 5948.25-5949.6 over an empty board, score 19823 -> 33057. Confirmed PC quad."
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "fr/v7/n064.png: board empty after the PC, pieces stack from 5948.85 with only drop points (33097 -> 33205), the TETRIS banner lingers. Phantom quad."
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "fr/v7/n066.png: quad at 6142.6 (84691), then pieces stack with drops only (84691 -> 84771) until 6145.5. Phantom quad at 6142.77."
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "fr/v7/n066.png: T spun into the slot at 6145.04, one-row band 6145.52, 'Single' banner, score 84771 -> 88371 (+3600 TSS+B2B). The cleared row is the coloured one above the garbage: gc 0 right."
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "fr/v7/n085.png: vertical I at 7664.7, 3-row white band 7664.8 with one cyan I cell left above, score 44645 -> 46169 (+1524 triple; REN broken by the L locked at 7664.6). The cleared rows are coloured: gc 0 right."
+ },
+ {
+  "ref": "c0",
+  "verdict": "amend",
+  "why": "Re-ran nextcount p2 1461-1488.5: 42 shifts plus two k=4 resyncs = 50 spawns, against 30 chain piece events = +20; with the +3 from the 1457-1461 replace_window that gives 249, not 252 (the checker's own '~50 vs 30, +3' arithmetic). Uncertainty about ±3 from the unread gaps.",
+  "amended": {
+   "value": 249
+  }
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "nextcount p2 1623.6-1640.9: 25 shifts plus the TSD piece spawned 1623.6 = ~26-27 spawns against 15 chain events = +11-12. 89 is inside that."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Score: TSS +3634 at 1631.20, single +458 (REN1), single +614 (REN2) at 1632.15/1633.17 with the REN banner (fr/v7/n020.png). max_combo 2."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "One piece is added by the double at 2220.43 (nextcount shift 2220.433)."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "Window +9 checked (5 old piece events to 14 new). nextcount p1 3310.3-3328: 34 shifts against 12 chain events. The burst of 6 shifts at 3327.0-3327.93 looked like a misread, but fr/v7/n035c.png shows real pieces locking about every 0.1-0.2 s there (L, O, O, S, J, T). 290 stands."
+ },
+ {
+  "ref": "n327",
+  "verdict": "missed",
+  "why": "Gap item 327 (n057 p2, 7 s with no chain piece) is fixable. Score and frames show 4 missed clears (double, double, single, triple) and ~11 missed pieces in 5113.6-5120.2.",
+  "proposal": {
+   "id": "n057",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 5113.57,
+   "t_end": 5120.2,
+   "events": [
+    {
+     "t": 5114.53,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5115.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5115.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5116.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5116.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5116.77,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5117.83,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5118.83,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5119.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5119.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5120.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5113.57,
+     "BREAK",
+     4
+    ],
+    [
+     5115.17,
+     "BREAK",
+     3
+    ],
+    [
+     5117.2,
+     "BREAK",
+     3
+    ],
+    [
+     5118.87,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "Score p2 105158 at 5115.40 (+906, flash 5115.24), 106078 at 5117.08-5117.54 (+920 double, two-row band 5117.08), one-row flash 5118.46 (REN banner) = single REN1 +450, multi-row clear 5119.38 at 108350 = triple REN2 +1800 (106078+450+1800+drops = 108350); fr/v7/n057g.png. The chain's double at 5120.53 is the +900 at 5122.20. Chain has only BREAKs in 5113.57-5120.2, but nextcount p2 shows spawns at 5114.53, 5115.00, 5115.77, 5116.07, 5116.33, 5116.77, 5117.83, 5118.83, 5119.63, 5119.87, 5120.17. Each clearing piece is the one spawned before the shift that follows its flash. gc unread (set 0)."
+  }
+ },
+ {
+  "ref": "n327",
+  "verdict": "missed",
+  "why": "Piece count that goes with the window above: 11 new piece events where the chain had none.",
+  "proposal": {
+   "id": "n057",
+   "player": "p2",
+   "field": "pieces",
+   "was": 168,
+   "value": 179,
+   "source": "nextcount p2 5113-5120.2: 11 shifts (5114.53 ... 5120.17) where the chain has only BREAKs; +11. Estimate ±1."
+  }
+ }
+]

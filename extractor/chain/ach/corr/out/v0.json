@@ -1,0 +1,67 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "m003 p1: score 95090 at 202.53 (TSS b2b +3600) to 100787 at 207.83 (TSD b2b +5408) with no other jump >100 between, so the 203.33 'single' cleared nothing."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "m003 p1: +3600 at 208.97 = TETRIS b2b (a TST b2b would be 7200, and a TST cannot clear 4); nextcount shows T held at 208.73 and I out, so the 4-line clear is a quad."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "m003 p1: +5550 at 210.50 = TSD b2b 5400 + REN1 150 (double REN1 would be 1050), so the second clear of the trio is a TSD; the third (+1800 at 211.57) is triple REN2."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "m003 p2: nextcount gives exactly 61 spawns 166.07-195.8 matching the event times one for one, and the 16 score jumps (166.47 +2478 TETRIS, 170.13 +3605 TSS b2b, 171.13 +1059 dbl REN1, 172.10 +612 sgl REN2, 173.03 +2868 TETRIS REN3, 174.00 +900 sgl REN4, 176.13 +364 sgl, 178.13 +2400, 180.83 +3600, 183.07 +482 sgl REN1, 183.73 +3600 TSD, 184.83 +3750, 188.20 +5400, 189.23 +3750, 192.63 +3600, 195.00 +3600) match the 16 proposed clears in order, each followed by a clear-delay spawn gap."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "m015 p2: +1200 at 859.20 = double 900 + REN2 300 right after 858.20 TETRIS b2b REN1 (+3750); the later steps 861.67..869.07 (+750,+913,+1065,+1209,+1368,+1518,+1650,+2420,+1950) are REN3..REN11, which requires this double."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "m016 p1: +3750 at 942.43 = TETRIS b2b + REN1 after the 941.73 TETRIS (+3626); nextcount shows the I spawning 942.17, and the 944.90 TSD is +5400 (b2b intact)."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "m017 p1: frames fr/v01/m017a.png show the L placed 972.6 on a 3-row stack leaving 1 row by 972.9 with a '2 REN' banner; score 9034 -> 11625 by 974.13 = double REN2 1200 + double REN3 1350 + drops."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "m019 p2: only one +3600 jump (1088.47) between the 1086.93 TSD and the 1092.27 TSD; nextcount shows L spawned 1088.03 and held (Z out, +14 drop points only) and the I spawning 1088.37."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "m019 p2: fr/v01/m019.png: the TETRIS flash at 1088.5 spans 2 colored rows + 2 garbage rows; garbage stack ~12 rows at 1088.3, ~10 at 1089.1, so gc 2 on the real quad."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "m003 p1: 193.87 +3669 TSD (non-b2b, after the singles at 190.90/191.73), then 195.27 +3600, 198.37 +5400, 200.80 +3600, 202.53 +3600, 207.83 +5408, 208.97 +3600, 210.50 +5550 all b2b and 211.57 triple breaks it: 8 clears = 7 b2b."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "m003 p2: 183.73 +3600 TSD (non-b2b after the 183.07 single), then 10 consecutive b2b steps 184.83, 188.20, 189.23, 192.63, 195.00, 199.50, 201.73, 205.87, 207.37, 210.27, broken by the 213.67 +1500 triple: max_b2b 10."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "m015 p2: REN11 confirmed by the score steps 857.20..869.07 ending in +1950 = single 300 + REN11 1650."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "m019 p2: with the phantom removed the 1083.7..1097.8 run is 7 clears (score 1086.93, 1088.47, 1092.27, 1094.43, 1096.37, 1098.37 all b2b) = 6, equal to the 1057-1073.87 run."
+ }
+]

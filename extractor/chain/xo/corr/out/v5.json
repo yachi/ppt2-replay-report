@@ -1,0 +1,22 @@
+[
+{"ref":"e0","verdict":"keep","why":"p1 score 14423->18173 (+3750) at 2535.80 = TETRIS B2B 3600 + REN1 150 after the +2400 quad at 2534.73; vertical I falls into col-0 well of garbage rows at 2535.73, TETRIS/BACK banners (fr/v5/e0.png, e0b.png)"},
+{"ref":"e1","verdict":"keep","why":"p2 score: +3750 at 2770.60 and +3600 at 2773.70 only; plain locks at 2771.90, 2772.10, 2772.50, 2772.77, 2772.93, 2773.37 = 6 Nones between the two quads, as proposed; no TST"},
+{"ref":"e2","verdict":"keep","why":"L locks with flash at 3885.10 (+8, 82111->82119), KO tilt/yatta right after (fr/v5/e2.png); no row full"},
+{"ref":"e3","verdict":"keep","why":"L locks at 5820.10 (+20, lock flash), no clear, yatta at 5820.16 (fr/v5/e3.png)"},
+{"ref":"e4","verdict":"keep","why":"no NEXT shift 5813.07-5819.47; J held 5813.9, S drifts down by gravity and locks ~5819.3; score frozen 18124 (fr/v5/e4.png)"},
+{"ref":"e5","verdict":"keep","why":"same as e4: only one piece (the S) locks in 5813.07-5819.47"},
+{"ref":"e6","verdict":"keep","why":"same as e4: phantom lock"},
+{"ref":"e7","verdict":"keep","why":"37 spawns 6446.4-6466.0 match proposed times exactly (6447.1 k=3 is a glitch, resynced to the same queue); 37 locks by score; clears by score: triple+REN2 6446.70, singles REN3/4/5 at 6447.73/6448.60/6449.57, TSD 6451.63, triple 6453.90, TSD 6456.50, single+REN1 6457.53, double+REN2 6458.37, double 6461.17, TSD 6463.17, double 6464.33 (no REN; lock at 6464.13 between)"},
+{"ref":"e8","verdict":"keep","why":"spawn/lock pairing checked one by one against score: double 7017.07, TSD 7021.33, TSD B2B 7024.77, quad B2B+REN1 7025.73, double+REN2 7026.73, quad 7030.43, quad B2B+REN1 7031.63, double+REN2 7032.73; Nones match the plain-lock score steps; no clear at 7015.4"},
+{"ref":"e9","verdict":"keep","why":"+1050 at 7190.57 = double 900 + REN1 150; next +600 at 7191.63 = single + REN2 confirms the run"},
+{"ref":"e10","verdict":"keep","why":"+5550 at 7225.20 = TSD B2B 5400 + REN1 150 right after TST +4800 at 7223.80"},
+{"ref":"e11","verdict":"keep","why":"score: TSD 8047.13 then singles REN1-4 (8048.07..8050.70), locks 8051.70/8052.03/8052.17/8052.60, double 8052.87, then L lock 8053.81, I lock ~8054.0 (0 drop pts), O lock 8054.14, 2nd O held, T double +900 at 8054.57 (fr/v5/e10.png); J spawned 8055.3 topped out by garbage, never locked (fr/v5/e10b.png)"},
+{"ref":"c0","verdict":"keep","why":"KO-frame L lock (e2) not in chain; 104+1"},
+{"ref":"c1","verdict":"keep","why":"KO-frame L lock (e3) not in chain; 48+1"},
+{"ref":"c2","verdict":"keep","why":"3 phantom locks removed (e4-e6): 37-3=34"},
+{"ref":"c3","verdict":"amend","amended":{"value":145},"why":"the +1 initial double-counts: the game-start shift at 6385.167 (STLZO>TLZOI, first piece leaving the queue, same as u111's 7012.733 shift seen in fr/v5/c5.png) is already among the shifts. nextcount 6385.0-6467.0: 148 shift lines, one is the k=3 glitch at 6447.1 (resynced to identical queue) -> 147 real spawns incl. the first; -1 held at end (I, hold 6465.867) -1 unlocked spawn 6466.367 = 145. Cross-check: chain non-BREAK events 133 - 25 old + 37 new (e7) = 145"},
+{"ref":"c4","verdict":"amend","amended":{"value":5},"why":"the run is 6 consecutive clears (6444.27 single, 6445.67 double REN1, 6446.70 triple REN2, singles REN3/4/5), but csv max_combo counts REN steps (consecutive clears - 1; e.g. u000-u005 csv = run-1), so 5"},
+{"ref":"c5","verdict":"keep","why":"nextcount 7012.6-7048.8 = 79 shifts incl. game-start shift 7012.733 (J leaves queue, fr/v5/c5.png); -1 held at end (I) -1 unlocked 7048.067 spawn = 77; chain events 71 - 38 + 44 (e8) = 77 agrees"},
+{"ref":"c6","verdict":"reject","why":"score shows two runs of 3 consecutive clears (TSD 7024.77, quad REN1 7025.73, double REN2 7026.73; quad 7030.43, quad REN1 7031.63, double REN2 7032.73) = REN 2; csv max_combo counts REN steps (consecutive clears - 1), so the existing 2 is right"},
+{"ref":"c7","verdict":"keep","why":"nextcount 8024.5-8056.0 = 65 shifts incl. game-start shift 8024.667, no glitches; -1 held O at end -1 unlocked J spawn 8055.3 = 63"}
+]

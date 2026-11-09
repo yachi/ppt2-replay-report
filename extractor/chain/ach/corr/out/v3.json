@@ -1,0 +1,293 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "Full nextcount p1 1067.5-1159.2: opening J at ~1067.9 + 196 queue spawns by KO (k=2 at 1093.40 and 1112.77), O in hold, S spawns 1158.90 after KO -> 196 locks vs 190 chain events; 1076.20 and 1077.60 spawns are absent from the chain, and 1109.6-1112.77 holds 10 real spawns against 6 chain events. (The 1110.50 TETRIS is the I spawned 1110.40, not the 1109.6 T the chain credits; order of clears is unaffected.)"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Full nextcount p1 1067.5-1159.2: opening J at ~1067.9 + 196 queue spawns by KO (k=2 at 1093.40 and 1112.77), O in hold, S spawns 1158.90 after KO -> 196 locks vs 190 chain events; 1076.20 and 1077.60 spawns are absent from the chain, and 1109.6-1112.77 holds 10 real spawns against 6 chain events. (The 1110.50 TETRIS is the I spawned 1110.40, not the 1109.6 T the chain credits; order of clears is unaffected.)"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Full nextcount p1 1067.5-1159.2: opening J at ~1067.9 + 196 queue spawns by KO (k=2 at 1093.40 and 1112.77), O in hold, S spawns 1158.90 after KO -> 196 locks vs 190 chain events; 1076.20 and 1077.60 spawns are absent from the chain, and 1109.6-1112.77 holds 10 real spawns against 6 chain events. (The 1110.50 TETRIS is the I spawned 1110.40, not the 1109.6 T the chain credits; order of clears is unaffected.)"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Full nextcount p1 1067.5-1159.2: opening J at ~1067.9 + 196 queue spawns by KO (k=2 at 1093.40 and 1112.77), O in hold, S spawns 1158.90 after KO -> 196 locks vs 190 chain events; 1076.20 and 1077.60 spawns are absent from the chain, and 1109.6-1112.77 holds 10 real spawns against 6 chain events. (The 1110.50 TETRIS is the I spawned 1110.40, not the 1109.6 T the chain credits; order of clears is unaffected.)"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "Full nextcount p1 1067.5-1159.2: opening J at ~1067.9 + 196 queue spawns by KO (k=2 at 1093.40 and 1112.77), O in hold, S spawns 1158.90 after KO -> 196 locks vs 190 chain events; 1076.20 and 1077.60 spawns are absent from the chain, and 1109.6-1112.77 holds 10 real spawns against 6 chain events. (The 1110.50 TETRIS is the I spawned 1110.40, not the 1109.6 T the chain credits; order of clears is unaffected.)"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Full nextcount p1 1067.5-1159.2: opening J at ~1067.9 + 196 queue spawns by KO (k=2 at 1093.40 and 1112.77), O in hold, S spawns 1158.90 after KO -> 196 locks vs 190 chain events; 1076.20 and 1077.60 spawns are absent from the chain, and 1109.6-1112.77 holds 10 real spawns against 6 chain events. (The 1110.50 TETRIS is the I spawned 1110.40, not the 1109.6 T the chain credits; order of clears is unaffected.)"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "Score +1950 at 1123.67 = double 900 + REN7 1050 (single would be +1350); at 1123.40 two garbage rows with a col-3 hole and the vertical L fills both at 1123.63 (/tmp/claude-0/ak/corr/fr/v23/m066_1123.png), gc 2."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "Spawns 1215.90 (I) and 1216.20 are only 0.3 s apart, so the I cleared nothing; the only double (+900, REN0) scores at 1216.3 after the 1216.20 piece, which the chain logs as its 1216.5 double."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "16 spawns 1341.60-1349.23 and score jumps +5400 (1342.93 TSD B2B), +3600 (1344.40 TETRIS), +1050 (1345.37 double REN1), +3600 (1347.67 TSD) match; 1349.23 T goes to hold and the Z out of hold locks at 1349.50 after KO; gc checked on /tmp/claude-0/ak/corr/fr/v23/m068p1_gc.png (I in col 3 through 3 colored + 1 garbage row; J fills two garbage rows; T stem in the top garbage row)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "Score +1050 at 1302.53 after the 1302.0 TETRIS = double REN1, then +614 single REN2 and +3630 TSD; at 1302.42 the vertical I clears the two colored rows (/tmp/claude-0/ak/corr/fr/v23/m068c.png), gc 0."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "REN ladder 1331.42 TETRIS, +1050, +614, +765, +912, +1062, +1212, +1364, +2118 requires a double at REN1; at 1332.03 the vertical L fills col 5 of one colored row and the top garbage row (/tmp/claude-0/ak/corr/fr/v23/m068d.png)."
+ },
+ {
+  "ref": "e11",
+  "verdict": "amend",
+  "amended": {
+   "events": [
+    {
+     "t": 1441.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1441.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1442.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1442.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1442.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1443.0,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1444.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1444.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1446.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1446.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1446.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1447.23,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1448.27,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1449.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1449.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1450.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1451.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1452.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1453.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1454.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1455.0,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 1456.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1457.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    }
+   ]
+  },
+  "why": "27 spawns and the score ladder (TSD 1443.43, TSS B2B 1448.08, REN1-11 to 1457.30) check out, but two gc values are wrong: the 1443.0 TSD's stem goes into the top garbage row (garbage-row count 10 at 1442.6 -> 9 at 1444.3, /tmp/claude-0/ak/corr/fr/v23/m070b.png) and the 1451.6 single clears the top garbage row (13 rows at 1451.58 -> 12 at 1452.38, /tmp/claude-0/ak/corr/fr/v23/m070_gc.png); both gc 1."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "Score 17532 -> 21166 at 108.87 (+3634 = TETRIS 2400 + REN8 1200), TETRIS banner 108.85; four garbage rows go white at 108.40 and the board is empty of garbage after (/tmp/claude-0/ak/corr/fr/v23/m076a.png), gc 4."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "Score +1534 at 461.43 = single + REN8 (1500) after the REN7 +1384 at 460.33; the 460.60 O goes to hold and the T out of hold clears before the 461.50 spawn."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "Score +1052 at 489.40 (double REN1; a single would be +450) after the +300 single at 488.20, then +1802 triple REN2 at 490.30; the clearing piece is the L spawned 488.867."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Opening J (~1067.9, before the first queue read) + 196 queue spawns by KO 1158.87, O in hold, next spawn 1158.90 after KO -> 196 locks (the Z out of hold scores ~1158.6)."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Full nextcount p1 1270.9-1349.6: 162 single shifts by KO (opening Z at 1271.53 included, queue continuous); T in hold and the Z out of hold locks at 1349.50 after KO -> 160."
+ },
+ {
+  "ref": "c2",
+  "verdict": "amend",
+  "amended": {
+   "value": 80
+  },
+  "why": "Full nextcount p2 1415.3-1457.9: 81 shifts by KO and the opening L (1415.72, sheet /tmp/claude-0/ak/corr/fr/v23/m070s.png) IS the first of them (queue read at 1415.33 before start), so 81 drawn, T in hold, the 1457.0 piece locked (+1950 at 1457.30) -> 80; also 53 chain events before 1440.9 + the 27 in e11 = 80."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "Last clear +1950 at 1457.30 = single 300 + 11x150, a REN run from the 1447.23 TSS through 1457.0 with no break; chain max_combo counts REN number (m068 p2 REN8 -> 8), so 11."
+ }
+]

@@ -1,0 +1,236 @@
+[
+ {
+  "id": "m060",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 808.6,
+  "n": 90,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m062",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 911.4,
+  "n": 91,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m062",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +302 at 910.1 s (KO 911.4 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 910.1,
+  "n": 92,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m063",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 952.4,
+  "n": 93,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m064",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 1013.33,
+  "n": 94,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m065",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 1059.0,
+  "n": 95,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m066",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "13 of 28 bags not a permutation (spawn index [98, 105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182]); anomalies ['double shift k=3 at frame 1397', 'double shift k=2 at frame 1638', 'double shift k=2 at frame 1767']",
+  "t_s": 1067.93,
+  "n": 96,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m066",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 731 ending at t=1123.66 (window from 1113.36); chain clears there explain all but -469; chain clears near: [[1113.0, 2400, 'quad'], [1117.27, 3600, 'tss'], [1118.4, 450, 'single'], [1119.17, 600, 'single'], [1120.03, 750, 'single'], [1120.8, 900, 'single'], [1121.6, 1650, 'double'], [1122.5, 3300, 'quad'], [1123.5, 1350, 'single']]",
+  "t_s": 1123.66,
+  "n": 97,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m067",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -1296 ending at t=1219.67 (window from 1211.77); chain clears there explain all but -1296; chain clears near: [[1211.33, 900, 'tsmini'], [1213.07, 5400, 'tsd'], [1215.0, 300, 'single'], [1215.9, 1050, 'double'], [1216.5, 1200, 'double'], [1217.33, 2400, 'quad'], [1219.07, 3600, 'tss']]",
+  "t_s": 1219.67,
+  "n": 98,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m067",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1235.67 s",
+  "t_s": 1235.67,
+  "n": 99,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m068",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 1341.6 s",
+  "t_s": 1341.6,
+  "n": 100,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m068",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 1347.6 s, no A clear matched (added by R/build.py)",
+  "t_s": 1347.6,
+  "n": 101,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m068",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "7.83 s from the last spawn to the KO",
+  "t_s": 1349.43,
+  "n": 102,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m068",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 737 ending at t=1305.56 (window from 1294.06); chain clears there explain all but -463; chain clears near: [[1299.3, 1500, 'triple'], [1300.43, 1050, 'double'], [1301.5, 2400, 'quad'], [1302.43, 450, 'single'], [1303.27, 600, 'single'], [1304.7, 3600, 'tsd']]",
+  "t_s": 1305.56,
+  "n": 103,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m068",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 724 ending at t=1338.63 (window from 1327.63); chain clears there explain all but -476; chain clears near: [[1327.4, 600, 'single'], [1330.97, 2400, 'quad'], [1331.87, 450, 'single'], [1332.8, 600, 'single'], [1333.57, 750, 'single'], [1334.7, 900, 'single'], [1335.53, 1050, 'single'], [1336.33, 1200, 'single'], [1337.23, 1350, 'single'], [1338.1, 2100, 'double']]",
+  "t_s": 1338.63,
+  "n": 104,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m070",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 1440.9 s",
+  "t_s": 1440.9,
+  "n": 105,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m070",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Single banner at 1447.54 s, no A clear matched (added by R/build.py)",
+  "t_s": 1447.54,
+  "n": 106,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m070",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "16.70 s from the last spawn to the KO",
+  "t_s": 1457.6,
+  "n": 107,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m071",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +62 at 1576.83 s (KO 1576.57 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1576.83,
+  "n": 108,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m072",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 1620.1,
+  "n": 109,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m074",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 1712.2,
+  "n": 110,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m076",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 1800 ending at t=111.54 (window from 108.84); chain clears there explain all but -600; chain clears near: [[110.83, 3600, 'tsd']]",
+  "t_s": 111.54,
+  "n": 111,
+  "video": "b-o1kjuoygk"
+ },
+ {
+  "id": "m078",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "3 of 16 bags not a permutation (spawn index [84, 98, 105]); anomalies ['double shift k=2 at frame 287', 'double shift k=3 at frame 1218']",
+  "t_s": 168.87,
+  "n": 112,
+  "video": "b-o1kjuoygk"
+ },
+ {
+  "id": "m081",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 1763 ending at t=461.43 (window from 449.76); chain clears there explain all but 563; chain clears near: [[452.3, 3600, 'quad'], [453.3, 5550, 'tsd'], [454.7, 600, 'single'], [455.5, 750, 'single'], [456.33, 900, 'single'], [457.27, 1050, 'single'], [458.17, 1200, 'single'], [459.57, 1350, 'single']]",
+  "t_s": 461.43,
+  "n": 113,
+  "video": "b-o1kjuoygk"
+ },
+ {
+  "id": "m081",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 1840 ending at t=493.33 (window from 485.33); chain clears there explain all but -560; chain clears near: [[485.0, 300, 'single'], [486.9, 300, 'single'], [488.03, 300, 'single'], [488.83, 450, 'single'], [489.97, 1800, 'triple'], [491.57, 300, 'single'], [493.07, 1500, 'triple']]",
+  "t_s": 493.33,
+  "n": 114,
+  "video": "b-o1kjuoygk"
+ },
+ {
+  "id": "m081",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 430.97 s",
+  "t_s": 430.97,
+  "n": 115,
+  "video": "b-o1kjuoygk"
+ }
+]

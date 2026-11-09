@@ -26,6 +26,10 @@ class Subject:
     # games.csv dataset id -> one HTML <li>; printed only where that dataset's games are shown. A key
     # with no dataset in games.csv raises at render time (pipeline.ppt2_page.render_all)
     dataset_notes: dict = field(default_factory=dict)
+    # games.csv dataset ids whose chain ran NO PERFECT CLEAR banner scan (R/pcscan.py): the pc column
+    # there is extractor A's flag plus the event corrections, so a PC the flag missed stays missed. The
+    # per-game table marks those cells. A key with no dataset in games.csv raises at render time
+    pc_unscanned: frozenset = frozenset()
 
     def __post_init__(self):
         if set(self.notes) - set(NOTE_SLOTS):
@@ -74,7 +78,26 @@ SYAKEGOHAN = Subject(
                              "再由另一批讀者逐個反駁核實；之後用畫面分數嘅累計升幅逐段同清行次序對數，再改多 21 個事件。"
                              "合共改咗 71 個事件、22 格。l007、l020、l029、l043、l062、l063、l078、l083 "
                              "呢 8 局睇片都定唔到，當下限冇計。最尾一局（約 5494 秒）畫面凍結之後對手斷線，冇 KO，冇計入。</li>",
-    })
+        "upload-2026-10-28": "<li><strong>2026-10-28 上載，對 あちみつ（15先2セット先取，1回目 Part1–2、2回目 Part1–3）。</strong>"
+                             "五條片合共 117 局，勝負全部同畫面 WIN 計數對過。抽取器標記嘅可疑位同分數對唔上嘅位（132 個）"
+                             "由讀者逐格睇片改正，再由另一批讀者逐個反駁核實；PERFECT CLEAR 字幕逐個睇過，"
+                             "另外搵返 11 個俾特效遮住、抽取器漏咗嘅。合共改咗 73 個事件、10 格。"
+                             "m021、m058 呢 2 局睇片都定唔到，當下限冇計。"
+                             "用 NEXT 隊列重數全部玩家局嘅粒數，154 個同表一樣，52 個差一粒（多數係 KO 嗰粒），"
+                             "其餘 24 個係 NEXT 隊列讀唔清嘅局，冇跟住改。</li>",
+        "stream-2026-10-30": "<li><strong>2026-10-30 對 ふられ（5先，14 セット）。</strong>"
+                             "條片只得 360p，合共 97 局，勝負全部同畫面 WIN 計數對過。第 1 セット 4–3 嗰陣斷線，"
+                             "嗰局開波約 6 秒就冇咗，冇結果冇計；第 6 セット 2–3 之後斷線，冇再打落去。"
+                             "抽取器標記嘅可疑位同分數對唔上嘅位，376 個由畫面分數升幅自動核實，其餘 502 個"
+                             "由讀者逐格睇片改正，再由另一批讀者逐個反駁核實。360p 下 PERFECT CLEAR 字幕好多時"
+                             "閃得太短，88 段短閃逐段睇過，55 個係真；再加分數大跳嘅位搵返 2 個。"
+                             "合共改咗 551 個事件、10 格。n005、n011、n022、n026、n059、n083、n095 呢 7 局"
+                             "有一段睇片都定唔到，當下限。用 NEXT 隊列重數全部 194 個玩家局嘅粒數，38 個同表一樣，21 個差一粒，123 個係 NEXT 隊列讀唔清嘅局（360p 太矇），12 個差多過一粒（冇睇片核對），冇跟住改，呢 12 個玩家局嘅粒數可能有錯。</li>",
+    },
+    # chain trees Y (YbMeCRhjG1k) and B (every other video of these datasets) carry no R/pcscan.py;
+    # cVO, lg, TJc, uP, ach, r6 and both amemiya runs and xo do
+    pc_unscanned=frozenset({"stream-2026-09-21", "stream-2026-10-12", "upload-2026-07-14",
+                            "upload-2026-08-20", "upload-2026-09-13"}))
 
 AMEMIYA = Subject(
     slug="amemiya", me="amemiya", display="amemiya（たいようあめみや）", short="amemiya",
@@ -101,27 +124,98 @@ AMEMIYA = Subject(
                  "但唔計入勝負同合計。</li>",
     })
 
-YUUKUN = Subject(
-    slug="yuukun", me="Yuukun3798", display="Yuukun3798（ゆうくん）", short="Yuukun",
-    channel="https://www.youtube.com/channel/UCZ15joSgXH2OYHSG40PYj1Q",
-    description="ゆうくん（Yuukun3798）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
+UYESHOTA = Subject(
+    slug="uyeshota", me="uyeshota", display="uyeshota（ういしょうた）", short="uyeshota",
+    channel="https://www.youtube.com/channel/UCJKPOtogWFgNnkcanFbImPw",
+    description="ういしょうた（uyeshota）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
                 "由 YouTube 影片逐格抽出，每一局都有影片連結。",
     notes={
-        "method": "；抽取器標記嘅 123 個可疑位（80 個標記、43 個畫面分數升幅同清行對唔上嘅位）同 33 個好短嘅 "
-                  "PERFECT CLEAR 字幕，由讀者逐格睇片改正，再由另一批讀者逐個反駁核實",
-        "banner": "呢條片嘅 PERFECT CLEAR 字幕好多時俾角色動畫遮住，抽取器淨係見到 0.1 秒，"
-                  "所以每個咁嘅位都睇片查過（個板清空先算），全消由 7 個改到 39 個。",
-        "ko": "；18 個贏家最後一粒嘅位同 KO 前 1.5 秒內嘅分數上升都睇片查過",
-        "hand": "改咗 77 個事件、13 格（全部係粒數）。全部 102 個玩家局都用 NEXT 列逐次移位重新數過粒數"
-                "（每 7 粒都係完整一包），12 個同抽取器唔啱嘅已經改返，另外 y050 p2 最後一粒睇片見到喺 KO 之前鎖低，加返一粒。",
-        "ren": "最長 REN 由清行次序計，冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
-        "gap": "；呢類空檔嘅粒數已經用 NEXT 列重新數過。y021 有網絡延遲，遊戲凍住咗兩段"
-               "（1570.8–1582.4 秒同 1583.5–1592.9 秒，合共約 21 秒），局長包埋呢段時間，所以嗰局嘅 PPS、APM 偏低",
-        "extra": "<li><strong>斷線。</strong>第一組 FT15 打到 11-13（Yuukun3798 啱啱贏咗 y023）對手斷線，"
-                 "之後重新開過一組，由 0-0 打到 12-15。y023 喺斷線之前已經 KO，照計。</li>",
+        "method": "；抽取器標記嘅可疑位同分數對唔上嘅位由讀者逐格睇片改正，再由另一批讀者逐個反駁核實",
+        "ko": "。抽取器標記嘅贏家 KO 粒逐粒睇片查過，喺 KO 嗰格之後先落地嘅唔計",
+        "hand": "兩次直播合共改咗 107 個事件、36 格（全部係粒數），另外剔走 2 局。",
+        "ren": "最長 REN 由清行次序計（連續清行次數減一），冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
+        "extra": "<li><strong>冇計入嘅局。</strong>u093、u094 剔走：ゆうくん 兩局都將每粒疊喺同一行，"
+                 "兩秒左右自己頂死（等於棄權），畫面 WIN 計數照計，但呢版唔計入勝負同合計，兩局仍然列喺卡度。</li>",
+    },
+    dataset_notes={
+        "stream-2026-10-30": "<li><strong>2026-10-30 直播（てとぼ　レート3500↑）。</strong>六組 15 先：對 いんたい 15-9，"
+                             "對 ゆうくん 13-15、15-9、15-4，對 お 15-9、15-5，合共 139 局，勝負全部同畫面 WIN 計數對過。"
+                             "可疑位同分數對唔上嘅位合共 176 個，由六個讀者睇片、另外六個讀者反駁；"
+                             "贏家 KO 粒 54 粒逐粒查過，反駁讀者剔走 5 粒喺 KO 之後一格先落地嘅。改咗 70 個事件、26 格。"
+                             "PERFECT CLEAR 字幕 61 個逐個睇過，短過門檻嘅 81 個閃光亦睇過，冇俾特效遮住嘅 PC。"
+                             "用 NEXT 隊列重數全部 274 個玩家局嘅粒數，251 個同表一樣，11 個差一粒，8 個係 NEXT 隊列讀唔清嘅局，4 個差多過一粒（u006 ゆうくん 少 3 粒、u023 uyeshota 多 2 粒、u076 uyeshota 少 2 粒、u085 ゆうくん 少 14 粒），冇跟住改，呢幾個玩家局嘅粒數可能有錯。</li>",
+        "stream-2026-11-02": "<li><strong>2026-11-02 直播（15 先 ×4 回）。</strong>六組：對 あ 15-2，對 ふらいこん 15-2，"
+                             "對 ??? 15-0，對 おはゆれ 15-9，對 ろうがい 15-9，對 Solitar 2-0 同 5-0，合共 104 局，"
+                             "勝負全部同畫面 WIN 計數對過。直播主喺直播入面翻播自己條片嘅組數唔計（同一局只計一次）；"
+                             "對 Solitar 一局斷線冇結果、一局對電腦，都冇計入。"
+                             "PERFECT CLEAR 字幕 58 個逐個睇過，短過門檻嘅 39 組閃光亦睇過，冇俾特效遮住嘅 PC。"
+                             "可疑位同分數對唔上嘅位合共 98 個，由四個讀者睇片、另外四個讀者反駁（冇剔走提議，補多 2 個）；"
+                             "贏家 KO 粒 46 粒逐粒查過。改咗 37 個事件、10 格。用 NEXT 隊列重數全部 208 個玩家局嘅粒數，200 個同表一樣，5 個差一粒，3 個係 NEXT 隊列讀唔清嘅局。</li>",
     })
 
-SUBJECTS = (SYAKEGOHAN, AMEMIYA, YUUKUN)
+NARIKURA = Subject(
+    slug="narikura", me="narikura", display="narikura（ナリクラ）", short="narikura",
+    channel="https://www.youtube.com/channel/UCeoooykLPHUq4pMFYF7tiYg",
+    description="ナリクラ（narikura）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
+                "由 YouTube 影片逐格抽出，每一局都有影片連結。",
+    notes={
+        "method": "；抽取器標記嘅可疑位同分數對唔上嘅位由讀者逐格睇片改正，再由另一批讀者逐個反駁核實",
+        "ko": "。抽取器標記嘅贏家 KO 粒逐粒睇片查過，喺 KO 嗰格之後先落地嘅唔計",
+        "hand": "改咗 21 個事件、6 格（5 格係粒數，1 格係最長 REN）。",
+        "ren": "最長 REN 由清行次序計（連續清行次數減一），冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
+    },
+    dataset_notes={
+        "stream-2026-11-04": "<li><strong>2026-11-04 直播（全世界パズルリーグ，先拎兩局）。</strong>"
+                             "28 場 Tetris 對戰：對 にくうどん 1-2、0-2、0-2、1-2，對 かにずし 2-0，對 のこ 2-0，"
+                             "對 ずみ 2-1，對 マサムネ 2-1，對 sa 0-2，對 harukun101 0-2，對 あ 2-0，對 パルスィ 2-0，"
+                             "對 まきょぽん 2-0、2-1、2-0、0-2，對 ゆづり〜ん 2-0、2-1、0-2、0-2、0-2，對 まきょぽん 0-2，"
+                             "對 ピロ 2-1，對 ayt 2-1，對 ゆづり〜ん 1-2、2-0、1-2，對 テトリスおもろすぎ 2-1；"
+                             "ナリクラ 贏 15 場，合共 67 局，ナリクラ 34-33，勝負全部同畫面 WIN 計數對過。"
+                             "同場直播嘅 ぷよぷよ 對局唔計。"
+                             "PERFECT CLEAR 字幕 17 個逐個睇過，短過門檻嘅 32 組閃光亦睇過，冇俾特效遮住嘅 PC。"
+                             "可疑位同分數對唔上嘅位合共 51 個，由三個讀者睇片、另外三個讀者反駁"
+                             "（剔走 2 個提議：一粒喺 KO 之後一格先落地，冇補多）；贏家 KO 粒 22 粒逐粒查過。"
+                             "改咗 21 個事件、6 格。用 NEXT 隊列重數全部 134 個玩家局嘅粒數，122 個同表一樣，9 個差一粒，2 個係 NEXT 隊列讀唔清嘅局，1 個差多過一粒（y022 harukun101 少 2 粒），冇跟住改，嗰個玩家局嘅粒數可能有錯。</li>",
+    })
+
+YUKUN = Subject(
+    slug="yukun", me="yukun", display="yukun（ゆうくん）", short="yukun",
+    channel="https://www.youtube.com/channel/UCZ15joSgXH2OYHSG40PYj1Q",
+    description="ゆうくん（yukun）喺 ぷよぷよテトリス２ 嘅 Tetris 對戰數據，"
+                "由 YouTube 影片逐格抽出，每一局都有影片連結。",
+    notes={
+        "method": "；抽取器標記嘅可疑位同分數對唔上嘅位由讀者逐格睇片改正，再由另一批讀者逐個反駁核實",
+        "ko": "。抽取器標記嘅贏家 KO 粒逐粒睇片查過，喺 KO 嗰格之後先落地嘅唔計",
+        "hand": "兩次直播合共改咗 115 個事件（包括 2026-11-06 直播 7 個、2026-10-29 直播 32 個俾特效遮住嘅 PERFECT CLEAR）、"
+                "28 格（21 格係粒數，7 格係最長 REN 同最長 B2B）。",
+        "ren": "最長 REN 由清行次序計（連續清行次數減一），冇逐局對 REN 字幕，抽取器斷開嘅位係下限。",
+        "extra": "<li><strong>鏡頭格遮住字幕。</strong>2026-11-06 直播嘅鏡頭格遮住咗右邊玩家 T-SPIN 字幕嘅左半，"
+                 "所以右邊嘅 T-spin 字幕淨係認得出 IN 兩個字；成段片冇見過 Mini 字幕，"
+                 "Mini T-spin 只係喺逐格睇片嘅位先會改返。</li>",
+    },
+    dataset_notes={
+        "stream-2026-10-29": "<li><strong>2026-10-29 直播（對 uyeshota，15 先）。</strong>"
+                             "第一組打到 11-13（ゆうくん 啱啱贏咗 y023）對手斷線，之後重新開過一組，ゆうくん 12-15；"
+                             "合共 51 局，ゆうくん 23-28，勝負全部同畫面 WIN 計數對過。y023 喺斷線之前已經 KO，照計。"
+                             "呢條片嘅 PERFECT CLEAR 字幕好多時俾角色動畫遮住，抽取器淨係見到 0.1 秒，"
+                             "所以 33 個咁嘅位都睇片查過（個板清空先算），全消由 7 個改到 39 個。"
+                             "可疑位合共 123 個（80 個標記、43 個畫面分數升幅同清行對唔上嘅位），由三個讀者睇片、另外三個讀者反駁；"
+                             "贏家最後一粒嘅位同 KO 前 1.5 秒內嘅分數上升都睇片查過。改咗 77 個事件、13 格（全部係粒數）。"
+                             "用 NEXT 隊列重數全部 102 個玩家局嘅粒數（每 7 粒都係完整一包），12 個同抽取器唔啱嘅已經改返，"
+                             "另外 y050 uyeshota 最後一粒睇片見到喺 KO 之前鎖低，加返一粒。"
+                             "y021 有網絡延遲，遊戲凍住咗兩段（1570.8–1582.4 秒同 1583.5–1592.9 秒，合共約 21 秒），"
+                             "局長包埋呢段時間，所以嗰局嘅 PPS、APM 偏低。</li>",
+        "stream-2026-11-06": "<li><strong>2026-11-06 直播（VSどらえもんガチ連戦 30先）。</strong>"
+                             "一組先拎 30 局，對 どらえもん 28-30，合共 58 局，勝負全部同畫面 WIN 計數對過。"
+                             "開組之前嗰局 COM 同埋之後嘅全世界パズルリーグ 對局唔計。"
+                             "PERFECT CLEAR 字幕 12 個逐個睇過；短過門檻嘅 22 組閃光亦睇過，"
+                             "當中 7 組係俾 cut-in 或者清行特效遮住咗嘅真 PC，已經改返。"
+                             "可疑位同分數對唔上嘅位合共 63 個，由三個讀者睇片、另外三個讀者反駁"
+                             "（冇剔走提議，改正咗 1 個，補多 1 個：一粒喺 KO 之後一格先落地，唔計）；贏家 KO 粒 18 粒逐粒查過。"
+                             "改咗 38 個事件、15 格。用 NEXT 隊列重數全部 116 個玩家局嘅粒數，108 個同表一樣，4 個差一粒，3 個係 NEXT 隊列讀唔清嘅局，1 個差多過一粒（z034 ゆうくん 少 2 粒），冇跟住改，嗰個玩家局嘅粒數可能有錯。</li>",
+    })
+
+SUBJECTS = (SYAKEGOHAN, AMEMIYA, UYESHOTA, NARIKURA, YUKUN)
 
 
 def by_slug(slug):

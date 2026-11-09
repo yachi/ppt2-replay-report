@@ -1,0 +1,263 @@
+[
+ {
+  "id": "u026",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 1735.7,
+  "video": "XoaWLJowuCQ",
+  "n": 0
+ },
+ {
+  "id": "u039",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 3018 more than the chain's clears predict between 2529.87 and 2545.27 (unexplained -582); chain clears nearby: [[2529.63, 900, 'double'], [2534.4, 2400, 'quad'], [2535.57, 1050, 'double'], [2536.67, 600, 'single'], [2537.77, 1950, 'triple'], [2538.87, 900, 'single'], [2539.7, 1050, 'single'], [2540.7, 1200, 'single'], [2541.4, 1650, 'tsmini'], [2543.0, 1500, 'single'], [2544.0, 1650, 'single'], [2545.0, 1800, 'single']]",
+  "t_s": 2545.27,
+  "video": "XoaWLJowuCQ",
+  "n": 1
+ },
+ {
+  "id": "u043",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1200 at 2748.2 s (KO 2748.97 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 2748.2,
+  "video": "XoaWLJowuCQ",
+  "n": 2
+ },
+ {
+  "id": "u043",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.50 s before the KO)",
+  "t_s": 2748.97,
+  "video": "XoaWLJowuCQ",
+  "n": 3
+ },
+ {
+  "id": "u044",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "12 of 20 bags not a permutation (spawn index [35, 49, 56, 63, 70, 84, 91, 98, 105, 112, 119, 133]); anomalies ['double shift k=3 at frame 519', 'queue resync at frame 738: (7, 4, 2, 6, 6)->(2, 3, 4, 8, 7)', 'double shift k=2 at frame 1116']",
+  "t_s": 2755.9,
+  "video": "XoaWLJowuCQ",
+  "n": 4
+ },
+ {
+  "id": "u044",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.30 s from 2771.00 s; B events spliced (D2/D3)",
+  "t_s": 2771.0,
+  "video": "XoaWLJowuCQ",
+  "n": 5
+ },
+ {
+  "id": "u044",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Single at 2771.0 s",
+  "t_s": 2771.0,
+  "video": "XoaWLJowuCQ",
+  "n": 6
+ },
+ {
+  "id": "u050",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 3171.97,
+  "video": "XoaWLJowuCQ",
+  "n": 7
+ },
+ {
+  "id": "u061",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 3885.13,
+  "video": "XoaWLJowuCQ",
+  "n": 8
+ },
+ {
+  "id": "u074",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 4700.9 s typed as a plain clear",
+  "t_s": 4700.9,
+  "video": "XoaWLJowuCQ",
+  "n": 9
+ },
+ {
+  "id": "u077",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 4980.8,
+  "video": "XoaWLJowuCQ",
+  "n": 10
+ },
+ {
+  "id": "u092",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 5820.1,
+  "video": "XoaWLJowuCQ",
+  "n": 11
+ },
+ {
+  "id": "u092",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.40 s from 5813.07 s; B events spliced (D2/D3)",
+  "t_s": 5813.07,
+  "video": "XoaWLJowuCQ",
+  "n": 12
+ },
+ {
+  "id": "u101",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 6467.0,
+  "video": "XoaWLJowuCQ",
+  "n": 13
+ },
+ {
+  "id": "u101",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 6451.4 s, no A clear matched (added by R/build.py)",
+  "t_s": 6451.4,
+  "video": "XoaWLJowuCQ",
+  "n": 14
+ },
+ {
+  "id": "u101",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 6456.3 s, no A clear matched (added by R/build.py)",
+  "t_s": 6456.3,
+  "video": "XoaWLJowuCQ",
+  "n": 15
+ },
+ {
+  "id": "u101",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 6462.94 s, no A clear matched (added by R/build.py)",
+  "t_s": 6462.94,
+  "video": "XoaWLJowuCQ",
+  "n": 16
+ },
+ {
+  "id": "u101",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "20.00 s from the last spawn to the KO",
+  "t_s": 6467.0,
+  "video": "XoaWLJowuCQ",
+  "n": 17
+ },
+ {
+  "id": "u102",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.43 s before the KO)",
+  "t_s": 6563.97,
+  "video": "XoaWLJowuCQ",
+  "n": 18
+ },
+ {
+  "id": "u111",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "1 of 6 bags not a permutation (spawn index [7]); anomalies ['queue slot-5 re-read at frame 726: I->S']",
+  "t_s": 7012.73,
+  "video": "XoaWLJowuCQ",
+  "n": 19
+ },
+ {
+  "id": "u111",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 19.67 s from 7015.40 s; B events spliced (D2/D3)",
+  "t_s": 7015.4,
+  "video": "XoaWLJowuCQ",
+  "n": 20
+ },
+ {
+  "id": "u111",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 7015.4 s",
+  "t_s": 7015.4,
+  "video": "XoaWLJowuCQ",
+  "n": 21
+ },
+ {
+  "id": "u111",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 7024.7 s, no A clear matched (added by R/build.py)",
+  "t_s": 7024.7,
+  "video": "XoaWLJowuCQ",
+  "n": 22
+ },
+ {
+  "id": "u115",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 636 more than the chain's clears predict between 7184.64 and 7193.5 (unexplained -564); chain clears nearby: [[7187.03, 5400, 'tsd'], [7189.2, 3600, 'quad'], [7190.3, 450, 'single'], [7191.33, 600, 'single'], [7192.9, 2400, 'tss']]",
+  "t_s": 7193.5,
+  "video": "XoaWLJowuCQ",
+  "n": 23
+ },
+ {
+  "id": "u115",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 7224.6 s typed as a plain clear",
+  "t_s": 7224.6,
+  "video": "XoaWLJowuCQ",
+  "n": 24
+ },
+ {
+  "id": "u133",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 8055.93,
+  "video": "XoaWLJowuCQ",
+  "n": 25
+ },
+ {
+  "id": "u133",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 8047.0 s, no A clear matched (added by R/build.py)",
+  "t_s": 8047.0,
+  "video": "XoaWLJowuCQ",
+  "n": 26
+ },
+ {
+  "id": "u133",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "10.50 s from the last spawn to the KO",
+  "t_s": 8055.93,
+  "video": "XoaWLJowuCQ",
+  "n": 27
+ },
+ {
+  "id": "u137",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.43 s before the KO)",
+  "t_s": 8363.47,
+  "video": "XoaWLJowuCQ",
+  "n": 28
+ }
+]

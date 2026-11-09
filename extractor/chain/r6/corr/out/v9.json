@@ -1,0 +1,405 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "amend",
+  "why": "Types right (one TSD scored +5552 at 685.23 for the 684.43 T; 685.17 tsd and 685.97 tst phantoms; triple PC +1500+5400 at 687.43). But the window holds 5 locks, not 2: hard-drop steps +36 at 686.30, 686.60, 686.80, 687.03 and the PC lock 687.40, matching nextcount spawns 685.97 (O, held; I placed), 686.30 S, 686.60 J, 686.87 L (held; O placed), 687.20 Z (held; L placed = triple PC). fr/v9 score.py 680-690, nextcount p2 684-692",
+  "amended": {
+   "events": [
+    {
+     "t": 685.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 686.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 686.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 686.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 687.2,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "one +3620 then +9600 at 693.40/693.47 = B2B tetris PC"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "only one quad-sized jump; queue unreadable 692.8-696.2 so lock count there cannot be checked, retype-to-lock is reasonable"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "no jump 695-700 except +7208 TST at 700.10 (the 699.6 tst)"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "+3752 at 707.17 = B2B tetris + REN c1; note one of the 706.67 None locks may be the same I (piece count)"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "+3600 at 716.40 = B2B tetris; no other clear there"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "band heights fr/v9/n009a.png: 745.40 ~2 rows, 746.40 1 row, 747.40 ~3 rows, 748.40 1 row; score totals 12182->13156->15442->16214 fit double c0, single c1+triple c2, single c3"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v9/n009d.png: one-row band at 793.1 and another at ~793.4 (two singles), 2-row band at 795.1, single at 796.6; totals +947/+1069/+1360/+921 fit double,single,single,double,single REN"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "same: 2-row band at 795.1, +1360 = double c3"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "same: +921 = single c4; a double c4 would be 1500"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "crop reads p1 7386 -> 8297 (+911 double) -> 10726 (+2429 tetris) ; score.py p1 column interleaves bogus 18xxx/24xxx values here"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "10792->11692 +900 double c0; L spawned 1032.73 (crop reads fr/v9/n013s.png)"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "->12160 +468 single c1; T out of hold 1033.87 (crop reads fr/v9/n013s.png)"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "->13371 +1211 double c2; L out of hold 1035.1 (crop reads fr/v9/n013s.png)"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "->13708 +337 single c0 (S,O between broke REN); Z spawned 1036.67 (crop reads fr/v9/n013s.png)"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "->14170 +462 single c1; J spawned 1037.4, scored at lock 1037.67 (crop reads fr/v9/n013s.png)"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "->16896 +2726 tetris c2 (I out of hold 1038.43); 10 locks in 1032.2-1038.5 by nextcount match chain Nones + these adds (crop reads fr/v9/n013s.png)"
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "crop reads fr/v9/n013t.png: 30545 -> 34181 (B2B tetris) -> 34184 at 1050.8 -> 39623 (TSD); no +300"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "+1500 then +5400 at 1149.30/1149.33 = triple PC"
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "only one triple jump; a +30 hard-drop lock at 1149.57 fits the 1149.37 piece locking, so retype to lock is right"
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "crops fr/v9/n022s.png: 20440 -> 23024 = +2584 = triple c7 (2550)+34; REN deltas 626,1374,1528,2306 fit c2..c6"
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "fr/v9/n039.png: T-SPIN icon, +300 at 3540.67, no row removed"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "+2400 at 5021.70, J spawned 5022.53 and +30 lock at 5022.83 before KO 5022.87; spawns 5020.6-5022.53 = 6, matching the replacement. Chain pieces may need -1 (3 locks -> 2)"
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "crops fr/v9/n061s1.png: 54691 -> 58372 (TSD) -> 58430 -> 62060; no TST-sized jump"
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "only two quad jumps (5753.6 and 5755.8); 5755.80 jump precedes the 5755.97 spawn by the same lag as 5753.67, so 5754.17 is the extra"
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "71507 -> 71635 at 5761.5: drops only"
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "77152 -> 77224 at 5765.0: drops only"
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "fr/v9/n061s2.png: 95743 -> 102949 = one +7206 TST"
+ },
+ {
+  "ref": "e28",
+  "verdict": "keep",
+  "why": "+1386 between 5780.67 and 5782.90 = two singles c2+c3; a third single would add more"
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "+4706 = TSD c0 3600 + double c1 1050 + drops; second double would add ~1200"
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "77224 -> 80872 at 5765.4 = B2B tetris, no chain clear there"
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "+1386 = single c2 600 + single c3 750 +36; a double c2 would be 1200"
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "+6191 at 6001.73 = one B2B TSD c1 (5550) + single c2 (600)"
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "+5046 at 6003.53 = double c3 1350 + double PC 3600 + drops"
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "no clear score after 6003.53; spawns 6003.2 (double shift) keep lock count plausible"
+ },
+ {
+  "ref": "e35",
+  "verdict": "keep",
+  "why": "same as e34"
+ },
+ {
+  "ref": "e36",
+  "verdict": "keep",
+  "why": "+3750 at 6076.87 (one TSS), then +13370 at 6078.93 = B2B tetris 3600 + B2B tetris PC 9600 + drops; no second TSS jump"
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "same score; no triple-sized jump"
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "same"
+ },
+ {
+  "ref": "e39",
+  "verdict": "amend",
+  "why": "fr/v9/n066c.png, n066d.png: the clear at ~6175.1 is a DOUBLE (2-row white band; 3 rows at 6174.97, 1 row left at 6175.8), not a single, all coloured rows. Score fits: TSD +5400 at 6171.63, triple c0 +1524 at 6173.57, then +3905 = double c0 900 (REN broken by S/J placed after the triple) + single PC c1 (450+2400) + drops 155. Also three hard-drop locks (+34,+30,+32 at 6172.70, 6172.97, 6173.20) precede the triple, so one more None lock there.",
+  "amended": {
+   "events": [
+    {
+     "t": 6169.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6170.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6170.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6170.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6171.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6171.37,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6172.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6172.75,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6173.05,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6173.3,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 6174.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6174.8,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6175.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e40",
+  "verdict": "keep",
+  "why": "+4800 TST 7944.27, one +5550 (B2B TSD + REN c1) at 7945.73"
+ },
+ {
+  "ref": "e41",
+  "verdict": "amend",
+  "why": "Duplicate, but not a lock: TSD is REN c1 so no lock between TST and TSD, nextcount shows only one spawn (T, 7945.43) between the TST and the J at ~7946.47 (chain 7946.47 None, +30 at 7946.63). Retyping to None keeps a phantom piece; remove it.",
+  "amended": {
+   "op": "remove",
+   "t": 7945.33,
+   "was": [
+    "tsd",
+    2,
+    0
+   ]
+  }
+ },
+ {
+  "ref": "e42",
+  "verdict": "keep",
+  "why": "REN +616,+760,+914,+2266: one single missing. Spawns: L spawned 8103.07 (held I, L out) is the single at 8103.87 and the triple piece spawns 8104.17, so the chain's 8103.07 triple is really the single and the triple is ~8104.2; counts are right either way, order is not"
+ },
+ {
+  "ref": "e43",
+  "verdict": "keep",
+  "why": "+1970 triple c3 at 8111.83 then +2458 tetris c0 at 8113.47 (REN broken); spawns ~8112.2 (J held), 8112.43 L, 8112.77 I"
+ },
+ {
+  "ref": "e44",
+  "verdict": "keep",
+  "why": "one +3600 TSD at 8125.53, no TST jump"
+ },
+ {
+  "ref": "e45",
+  "verdict": "keep",
+  "why": "only one T-spin jump 8125-8128.7"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "B2B bonused clears 693.4,700.1,701.43,704.03,707.17,708.93,711.73,714.87,716.4 = 9"
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "REN c0..c4 confirmed 792-796.7"
+ },
+ {
+  "ref": "c2",
+  "verdict": "reject",
+  "why": "fr/v9/n012.png, n012z.png: the O spawned 1001.97; from 1002.03 to 1002.3 the bottom-left yellow is its translucent ghost (same look before and after KO), the active O stays at the top, NEXT queue unchanged (no new spawn) and the score never moves (91537, no drop points). No lock by the KO frame."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "p1 crops: tetris 1038.83 no bonus, TSD +5466 B2B, tetris +3768 B2B, single; TSD 3666 no bonus, tetris +3636 B2B, TSD +5439 B2B: runs of 2"
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "bonused: 5753.6,5755.8,5759.57,5763.4,5765.4,5767.9,5772.0,5772.97,5777.7,5779.7 = 10"
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "REN c0..c5 8097.9-8104.9 confirmed"
+ }
+]

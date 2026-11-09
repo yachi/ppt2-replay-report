@@ -1,0 +1,634 @@
+{
+ "event_corrections": [
+  {
+   "id": "m084",
+   "side": "p1",
+   "op": "retype",
+   "t": 638.3,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "Z spawned 638.40 (hold O swap), locked vertically at the right edge 638.53 completing the top garbage row (flash), score 84377->84977 (+600 = single REN2) at 638.60, '2 REN' shown; /tmp/claude-0/ak/corr/fr/g4/i117.png, /tmp/claude-0/ak/corr/fr/g4/i117b.png"
+  },
+  {
+   "id": "m093",
+   "side": "p2",
+   "op": "retype",
+   "t": 1073.3,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "The T spawned 1072.30 went into a slot ~1073.0 but no row cleared (stack height unchanged 1072.93 vs 1073.07); score 324->624 (+300 = zero-line Mini T-spin, not 600 for a Mini single); chain logged the T at 1072.30 as a plain lock and put the tsmini on the following S (spawn 1073.30, plain lock 1073.47, +30 drop points). Chain has no zero-line spin kind, so this is a plain lock; /tmp/claude-0/ak/corr/fr/g4/i128.png"
+  },
+  {
+   "id": "m096",
+   "side": "p2",
+   "op": "retype",
+   "t": 78.63,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score 97612->98678 (+1066 = double REN1 1050) at 78.80 then +618 (single REN2 600) at 80.13; a single REN1 would be 450; two coloured rows above the garbage at 78.73, one partial row left at 78.87; /tmp/claude-0/ak/corr/fr/g4/i130.png, /tmp/claude-0/ak/corr/fr/g4/i130b.png"
+  },
+  {
+   "id": "m097",
+   "side": "p2",
+   "op": "retype",
+   "t": 122.37,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "I placed vertical into the col-3 well of 4 garbage rows at ~122.5, TETRIS banner 123.0-123.2, all four garbage rows cleared; score 9484->12518 (+3034 = quad REN4 3000); makes the 129.37 TSD a B2B (+5413 at 130.33); /tmp/claude-0/ak/corr/fr/g4/i133.png"
+  },
+  {
+   "id": "m097",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 122.33,
+   "t_end": 122.33,
+   "events": [
+    {
+     "t": 122.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 123.27,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 124.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 124.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 125.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 125.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 125.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 125.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     122.33,
+     null,
+     0
+    ],
+    [
+     122.33,
+     null,
+     0
+    ],
+    [
+     122.33,
+     "tss",
+     1
+    ]
+   ],
+   "source": "NEXT queue unchanged L T Z L T from the quad (121.93) until 122.87 (the '3-shift' at 122.37 is a misread during the TETRIS flash). Real: L spawned 122.87 and held, O out of hold locked 123.2; T 123.27 -> TSS ~123.8 (banner, +3600 B2B at 123.87) clearing the coloured red/purple/orange row, not garbage; then Z 124.5, L 124.77, T 125.03, O 125.3, J 125.57, S 125.93 all plain (score only drop points to 12191 at 126.0), Z 126.10 is the chain's next event. nextcount shifts match every one; /tmp/claude-0/ak/corr/fr/g4/i131.png, /tmp/claude-0/ak/corr/fr/g4/i131b.png, /tmp/claude-0/ak/corr/fr/g4/i131c.png, /tmp/claude-0/ak/corr/fr/g4/nc131.txt"
+  },
+  {
+   "id": "m100",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 274.47,
+   "t_end": 276.06,
+   "events": [
+    {
+     "t": 274.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 275.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 275.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 275.67,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     274.47,
+     null,
+     0
+    ],
+    [
+     274.47,
+     null,
+     0
+    ],
+    [
+     274.47,
+     "tsd",
+     2
+    ],
+    [
+     275.5,
+     null,
+     0
+    ],
+    [
+     275.77,
+     null,
+     0
+    ],
+    [
+     276.0,
+     null,
+     0
+    ],
+    [
+     276.0,
+     null,
+     0
+    ],
+    [
+     276.06,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "Spawns (nextcount, confirmed on frames): T 274.87 locks right 275.1, J 275.17 locks 275.3, Z 275.47 held -> O out locks 275.6, T 275.67 -> TSD flash 276.0-276.2; only ONE TSD: score 27834 -> 31474 (+3640) at 276.27; chain had two TSDs and 8 locks for 4 pieces; /tmp/claude-0/ak/corr/fr/g4/i137a.png, /tmp/claude-0/ak/corr/fr/g4/nc100.txt"
+  },
+  {
+   "id": "m100",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 276.83,
+   "t_end": 281.6,
+   "events": [
+    {
+     "t": 276.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 277.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 278.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 279.1,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 280.13,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 281.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 281.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 281.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     278.13,
+     null,
+     0
+    ],
+    [
+     278.87,
+     null,
+     0
+    ],
+    [
+     279.33,
+     null,
+     0
+    ],
+    [
+     279.77,
+     null,
+     0
+    ],
+    [
+     279.77,
+     null,
+     0
+    ],
+    [
+     279.77,
+     "quad",
+     4
+    ],
+    [
+     279.77,
+     "double",
+     2
+    ],
+    [
+     281.47,
+     null,
+     0
+    ],
+    [
+     281.47,
+     null,
+     0
+    ],
+    [
+     281.47,
+     null,
+     0
+    ],
+    [
+     281.6,
+     null,
+     0
+    ]
+   ],
+   "source": "Spawns: J 276.83 held -> Z out locks 277.6; O 277.97 locks 278.1; L 278.3 held -> J out locks 278.5; S 279.1 -> double flash 279.4 (+906 at 279.77, no REN); I 280.13 -> TETRIS 280.6 (+2558 = quad REN1 at 280.77); J 281.2, L 281.47, T 281.6 held -> L out; then I 281.83 quad (kept). Double comes BEFORE the quad; 8 locks not 11; gc kept from the chain's own values; /tmp/claude-0/ak/corr/fr/g4/i137b.png, /tmp/claude-0/ak/corr/fr/g4/nc100.txt"
+  },
+  {
+   "id": "m100",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 319.53,
+   "t_end": 322.5,
+   "events": [
+    {
+     "t": 319.87,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 320.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 321.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 322.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     319.53,
+     null,
+     0
+    ],
+    [
+     319.53,
+     null,
+     0
+    ],
+    [
+     319.53,
+     null,
+     0
+    ],
+    [
+     319.73,
+     null,
+     0
+    ],
+    [
+     319.73,
+     null,
+     0
+    ],
+    [
+     319.73,
+     null,
+     0
+    ],
+    [
+     319.87,
+     "double",
+     2
+    ],
+    [
+     320.43,
+     null,
+     0
+    ],
+    [
+     320.43,
+     null,
+     0
+    ],
+    [
+     320.9,
+     "double",
+     2
+    ],
+    [
+     321.77,
+     "single",
+     1
+    ],
+    [
+     322.2,
+     "single",
+     1
+    ]
+   ],
+   "source": "No spawn between the T out of hold (318.93) and I 319.87, nor between 319.87 and Z 320.87 (nextcount) -> the 6+2 None locks are phantoms. Clears after the 317.97 triple: single (1 REN), double 320.2 (2 REN), Z single 321.1 (3 REN, +761 at 321.40, not a double), J single 322.0 (4 REN, +912 at 322.20); I 322.5 stands vertical at the right, no clear (score +2449 at 323.97 is the TSS alone, so no single REN5). REN banners 1-4 read at 319.5/320.4/321.3/322.2; /tmp/claude-0/ak/corr/fr/g4/i138a.png, /tmp/claude-0/ak/corr/fr/g4/i138ren.png"
+  },
+  {
+   "id": "m100",
+   "side": "p2",
+   "op": "add",
+   "t": 324.5,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "O spawned 324.50 and held (hold O at 324.6), J out of hold locked ~324.7; /tmp/claude-0/ak/corr/fr/g4/i139.png, nextcount shift 324.500"
+  },
+  {
+   "id": "m100",
+   "side": "p2",
+   "op": "add",
+   "t": 324.97,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "S spawned 324.97 locked ~325.1 (score only drop points to 97575 by KO); chain's 325.57/325.93 are the two L's (325.27, 325.53) and the board tops out at 326.23; /tmp/claude-0/ak/corr/fr/g4/i139.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "m097",
+   "player": "p1",
+   "field": "pieces",
+   "was": "76",
+   "value": "81",
+   "source": "nextcount spawns match chain except the 122.87-125.93 window where 5 locks were missing (8 real vs 3 chain, frames /tmp/claude-0/ak/corr/fr/g4/i131*.png); 84 shifts = 81 locks + initial O held + bogus 3-shift at 122.37 + Z active at KO (148.27, not locked, /tmp/claude-0/ak/corr/fr/g4/i132.png)"
+  },
+  {
+   "id": "m100",
+   "player": "p2",
+   "field": "pieces",
+   "was": "171",
+   "value": "154",
+   "source": "155 NEXT shifts (nextcount 244.6-326.4) = 154 locks + 1 piece left in hold; the last L (325.53) locked before the top-out. Chain (167 locks) double-counts in 274.47-281.6 (-7) and 319.53-322.5 (-8) and misses 2 locks 324.5/324.97 (+2), all frame-checked (/tmp/claude-0/ak/corr/fr/g4/i137a/b, i138a, i139.png)"
+  },
+  {
+   "id": "m100",
+   "player": "p2",
+   "field": "max_combo",
+   "was": "3",
+   "value": "4",
+   "source": "REN counter reads 1,2,3,4 REN at 319.5/320.4/321.3/322.2 (/tmp/claude-0/ak/corr/fr/g4/i138ren.png): triple then single, double, single, single"
+  }
+ ],
+ "items": [
+  {
+   "n": 116,
+   "verdict": "no change",
+   "why": "Score 33681->34581 (+900, plain double, no B2B) at 561.17 after the 559.17 TSD (+5400 at 559.83); a TSD would be >=3600."
+  },
+  {
+   "n": 117,
+   "verdict": "corrected",
+   "why": "The +632 is a single: Z (spawn 638.40 out of hold swap) completed the top garbage row at 638.53, +600 = single REN2 at 638.60 (/tmp/claude-0/ak/corr/fr/g4/i117.png, i117b.png); chain event 638.30 retyped None->single gc1."
+  },
+  {
+   "n": 118,
+   "verdict": "no change",
+   "why": "Next J spawned 639.23 and is still near the top at the KO 639.33; not locked (/tmp/claude-0/ak/corr/fr/g4/i117.png)."
+  },
+  {
+   "n": 119,
+   "verdict": "no change",
+   "why": "Last L locked ~693.4 with no score jump (66599->66642 only drop points); Z spawned ~693.6 still at the top at KO 693.67 (/tmp/claude-0/ak/corr/fr/g4/i119.png)."
+  },
+  {
+   "n": 120,
+   "verdict": "no change",
+   "why": "+1350 at 753.97 = single REN7 (300+1050) after doubles 746.77/747.8, singles and the quad; a Mini single would be 1650."
+  },
+  {
+   "n": 121,
+   "verdict": "no change",
+   "why": "p2 +3750 at 711.53 = TSS B2B (3600) + REN1; the T-SPIN Double banner is p1's TSD (+5409 at 711.40)."
+  },
+  {
+   "n": 122,
+   "verdict": "no change",
+   "why": "J (spawn 882.43) made the 882.33-logged single (+600 at 882.57); S spawned 883.20 still falling at KO 883.40 (/tmp/claude-0/ak/corr/fr/g4/i122.png)."
+  },
+  {
+   "n": 123,
+   "verdict": "no change",
+   "why": "L locked ~935.27; S spawned 935.40 still falling at KO 935.57 (/tmp/claude-0/ak/corr/fr/g4/i123.png)."
+  },
+  {
+   "n": 124,
+   "verdict": "no change",
+   "why": "p2 435->5278 (+4843 = TST) by 897.97; the T-SPIN Single banner is not p2's clear type."
+  },
+  {
+   "n": 125,
+   "verdict": "no change",
+   "why": "O spawned 975.90 still at the top at KO 976.07, score flat 50494 (/tmp/claude-0/ak/corr/fr/g4/i125.png)."
+  },
+  {
+   "n": 126,
+   "verdict": "no change",
+   "why": "The 993.63 clear is an L (not a T) completing 3 rows at 993.30 -> PERFECT CLEAR, +6900 at 993.50; plain triple is right (/tmp/claude-0/ak/corr/fr/g4/i126.png). PC itself not reviewed."
+  },
+  {
+   "n": 127,
+   "verdict": "no change",
+   "why": "After the PC: T locked, L held, Z spawned ~1086.0 and still falling at KO 1086.10 (/tmp/claude-0/ak/corr/fr/g4/i127.png)."
+  },
+  {
+   "n": 128,
+   "verdict": "corrected",
+   "why": "The T (spawn 1072.30) spun into a slot ~1073.0 with no line cleared, +300 (zero-line Mini T-spin); chain's tsmini 1-line at 1073.30 sits on the following S and is retyped to a plain lock (/tmp/claude-0/ak/corr/fr/g4/i128.png)."
+  },
+  {
+   "n": 129,
+   "verdict": "corrected",
+   "why": "The -491 is the phantom 600-point tsmini at 1073.3 (real +300 step at 1073.23, outside the window); every other step matches (900, 1050, 1950, 900, 1050, 300, 1650, 600). Fixed by the item-128 retype."
+  },
+  {
+   "n": 130,
+   "verdict": "corrected",
+   "why": "78.63 is a double REN1 (+1066 at 78.80) not a single (450); then single REN2 +618 at 80.13 and non-B2B quad +2478 at 82.10 match (/tmp/claude-0/ak/corr/fr/g4/i130.png, i130b.png)."
+  },
+  {
+   "n": 131,
+   "verdict": "corrected",
+   "why": "Bad bag comes from a bogus 3-shift during the 122.0 TETRIS flash; chain logged 3 locks at 122.33 where 8 real locks happened 122.87-125.93 (incl. the TSS at 123.27, gc 0): replace_window + pieces 76->81 (/tmp/claude-0/ak/corr/fr/g4/i131.png, i131b.png, i131c.png)."
+  },
+  {
+   "n": 132,
+   "verdict": "no change",
+   "why": "S locked ~148.2, Z spawned 148.27 still at the top at KO 148.60 (/tmp/claude-0/ak/corr/fr/g4/i132.png)."
+  },
+  {
+   "n": 133,
+   "verdict": "corrected",
+   "why": "The TSD at 129.37 is +5413 = B2B, because the 122.37 clear was a TETRIS of 4 garbage rows (+3034 = quad REN4), not a triple; retyped (/tmp/claude-0/ak/corr/fr/g4/i133.png)."
+  },
+  {
+   "n": 134,
+   "verdict": "no change",
+   "why": "L locked ~175.97; I spawned 176.10 and held, T out and still falling at KO 176.37 (/tmp/claude-0/ak/corr/fr/g4/i134.png)."
+  },
+  {
+   "n": 135,
+   "verdict": "no change",
+   "why": "I spawned 325.93 held, O out locked ~326.03 (chain 325.93); S spawned 326.13 still falling at KO 326.23 (/tmp/claude-0/ak/corr/fr/g4/i135.png)."
+  },
+  {
+   "n": 136,
+   "verdict": "corrected",
+   "why": "Bad bags come from chain double-counting (274.47-281.6, 319.53-322.5) and missing 2 locks at 324.5/324.97; nextcount's 155 shifts give 154 locks; pieces 171->154, see the three replace_windows and two adds."
+  },
+  {
+   "n": 137,
+   "verdict": "corrected",
+   "why": "Gap window 274.47-279.77: real locks T,J,O,T(TSD),Z,O,J,S(double),I(quad),J,L,L; one TSD not two, double before quad; replaced (/tmp/claude-0/ak/corr/fr/g4/i137a.png, i137b.png)."
+  },
+  {
+   "n": 138,
+   "verdict": "no change",
+   "why": "The TSS at 323.76 is real (T spawned 323.30, T-SPIN Single banner, +2449 at 323.97) and is already in the chain."
+  },
+  {
+   "n": 139,
+   "verdict": "corrected",
+   "why": "Tail: after the TSS, J(out of hold 324.50), S 324.97, L 325.27, L 325.53 all locked, no clears (score +12 to KO); chain had only 2 -> two adds (/tmp/claude-0/ak/corr/fr/g4/i139.png)."
+  },
+  {
+   "n": 140,
+   "verdict": "no change",
+   "why": "Z locked ~406.83; I spawned 406.97 held, O out still falling at KO 407.10 (/tmp/claude-0/ak/corr/fr/g4/i140.png)."
+  },
+  {
+   "n": 141,
+   "verdict": "no change",
+   "why": "L held at 434.57, T spawned 434.83 still falling at KO 435.03 (/tmp/claude-0/ak/corr/fr/g4/i141.png)."
+  }
+ ]
+}

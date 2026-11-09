@@ -1,0 +1,251 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "nextcount p2 spawns 103.20,103.367,103.633,104.00 and the p2 score jump (+6900) at 103.93 lands before the 104.00 spawn, so the clear is the 103.63 piece and 104.0 only adds drop points (+35 at 104.43)."
+ },
+ {
+  "ref": "e1",
+  "verdict": "amend",
+  "amended": {
+   "events": [
+    {
+     "t": 152.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 152.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 153.27,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 154.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 155.23,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 156.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 156.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 157.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 157.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 158.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 158.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 159.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 160.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 160.53,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 161.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 162.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 163.53,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 164.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 165.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  },
+  "why": "Spawns (28, 152.37-165.9) and the seven score jumps (153.43 TETRIS, 155.93 TSD, 157.80 TETRIS, 161.60 TSD, 162.00/162.90 singles REN1-2, 164.20 TETRIS REN3) check out, but the gc values do not: at 153.30 the I fills col 6 through two colored rows and two garbage rows (gc 2, not 0), and at 163.45 the I in col 0 fills one colored row plus three garbage rows (rows below have the hole in col 4), so gc 3, not 4 (/tmp/claude-0/ak/corr/fr/v23/m049_gc.png, m049_q.png)."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "T locks ~211.10 with +300 and the T-SPIN banner at 211.25, but every row is still on the board at 211.40-211.70 and the next spawn follows without clear delay (/tmp/claude-0/ak/corr/fr/v23/m051.png); no line cleared."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "T locks ~326.65 (+300, T-SPIN banner), rows unchanged at 326.80-327.25 (/tmp/claude-0/ak/corr/fr/v23/m052.png); no line cleared."
+ },
+ {
+  "ref": "e4",
+  "verdict": "amend",
+  "amended": {
+   "pc": 1,
+   "gc": 0
+  },
+  "why": "Correct that the J spawned 350.40 makes the clear (L at 350.15 locks with no clear, J clears the last two rows at 350.65, PERFECT CLEAR at 350.75, score +5180 at 350.70, /tmp/claude-0/ak/corr/fr/v23/m053a.png), but that clear IS the perfect clear: hidden_pc.json puts pc=1 on the 350.73 event this batch turns into a plain lock, so the PC must move to 350.4 or it is lost."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "The S spawned 350.73 locks on the empty board after the PC with drop points only (16114/16152 at 351.17-351.40); note this overrides hidden_pc.json's pc=1 retype of the same t, which e4 now carries."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "Score +1050 at 363.20 right after the 362.07 TETRIS is double+REN1 (a single would be +450); white band two rows tall at 363.23 (/tmp/claude-0/ak/corr/fr/v23/m053b.png)."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "Score +1050 at 545.63 after the 544.57 TETRIS = double+REN1; the next two singles score +626 and +770 (REN2, REN3), consistent only with a REN-1 double here."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Full nextcount p2 94.6-166.3: 140 single shifts up to 165.90 (first is the opening T, init read before start; next spawn 166.233 is after KO), queue continuous; T in hold at KO, the 165.90 piece locks with +20 at 166.13 < KO 166.17 -> 139."
+ }
+]

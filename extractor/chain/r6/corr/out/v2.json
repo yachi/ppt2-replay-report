@@ -1,0 +1,236 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: p2 only +61 (soft drop) between the double jump 1360.33 and the tetris jump 1363.03; no TST."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "fr/v2/a.png: second I into the well 1363.6-1363.8, BACK+TETRIS, score 208902->212678 (+3776)."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py p2: +1226 at 1365.03 (double+REN2), +778 at 1366.40 (single+REN3), then only drop points (214784..214834) until the TSD at 1369.10. Two clears, not three singles."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v2/b.png: I vertical 1373.65, TETRIS banner 1374.25, +3622 at 1374.10; no chain clear there."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "fr/v2/b.png: T into the slot 1375.15, ONE row clears 1375.30-1375.45; +3750 = TSS B2B+REN. Not a 4-line TST."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py: after +3750 at 1375.23 only drop points (231602/231636) until the TSD +5400 at 1378.73; no single."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "fr/v2/c.png: I vertical in the right column 1381.3-1381.4, four rows white 1381.5-1381.6, +3600 at 1381.43; rows cleared are the coloured stack, gc 0 is plausible."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v2/d.png: T in the slot 1386.9, one row white at 1387.1, 'Single' label; +3758 at 1387.27 = TSS B2B+REN."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "fr/v2/d.png: I vertical into the garbage well 1388.7, four garbage rows flash 1388.8-1389.1, +3673 at 1389.03."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "fr/v2/e.png: TSS clears at 1394.0 (+3600); the next piece (red Z, 1394.8) lands without a clear."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "fr/v2/e.png: T placed on the right 1395.6, one row clears 1395.8, +3638 at 1396.03 keeps B2B -> TSS."
+ },
+ {
+  "ref": "e11",
+  "verdict": "amend",
+  "amended": {
+   "gc": 1
+  },
+  "why": "fr/v2/f.png, g.png: two tetrises (+3600 at 1398.57, +3600 at 1399.77, TETRIS banners) - retype to quad is right. But the first one (1398.6) clears three coloured rows plus only the top garbage row: garbage goes from 6 rows (g_1398.45) to 5 rows (g_1399.10). gc 1, not 4; the chain's existing quad at 1399.17 (gc 4) is the second, all-garbage tetris."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "fr/v2/h.png: one row clears at 1588.95 (red Z at the left), +300 at 1588.93; single."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "fr/v2/h.png: blue J clears the last two rows 1589.85, empty board, PERFECT CLEAR banner 1590.0; +1084 then +3600 (1589.87-1589.90). Chain had nothing there."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "fr/v2/i.png: orange L placed on the right 1915.1, one (top garbage) row clears 1915.3, +450 at 1915.20 = single+REN1. No tetris."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "fr/v2/i.png: next piece (yellow O, 1915.9) lands with no clear; next jump is the double +930 at 1916.87 (two rows white 1916.9)."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "fr/v2/j.png: I vertical 1920.1, four garbage rows clear 1920.2-1920.6, +2564 at 1920.53."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "score.py: 130874 -> 131774 (+900) at 1921.53 = double; no chain clear between 1919.1 and 1926.83."
+ },
+ {
+  "ref": "e18",
+  "verdict": "amend",
+  "amended": {
+   "gc": 1
+  },
+  "why": "fr/v2/k.png: tetris confirmed (I vertical in column 6 at 1923.7, four rows flash 1923.8, +2400 at 1923.80). The cleared rows are the three coloured rows plus the top garbage row (the I reaches only one row into the garbage; garbage top moves down one row), so gc 1, not 4."
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "score.py: +450 at 1927.63 (single+REN1 after the 1926.43 tetris)."
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "score.py: +900 at 1929.73 = double."
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "Re-ran nextcount p1 3491.9-3531: TOTAL_SHIFTS 66, last draw 3530.2 (65 locks used, matches the 65 events). Re-derived p1 score jumps with fixed columns: +3850 3492.30 (tetris B2B+REN), +900 3496.80, +3635 3498.53 (TSD), +900 3499.63, +2442 3501.77 (TSS, B2B broken), +3673 3503.60 (quad B2B), +900 3505.67, +2439 3507.90 (quad), +3600 3509.93, +1666 3511.33 (triple+REN), +1220 3512.43 (double+REN2), +2408 3515.80, +3600 3517.87, +925 3519.97, +1965 3522.10, +3600 3524.27, +450/+600/+756/+1506 3525.40-3528.60 (REN single/single/single/double): 20 clears, one per proposed clear, types consistent. NOTE: no pieces cell edit was given; with this window the chain's event count goes 76 -> 106 (csv pieces 103)."
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "fr/v2/l.png: I goes to hold 4226.4, green S lands and one row clears 4226.4-4226.6 (+467 at 4227.60 = single, no spin)."
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "fr/v2/l.png: blue J placed 4227.0-4227.2, no clear; it is a separate piece the chain lacks. Needs a pieces +1 cell edit, which was not given."
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "fr/v2/l.png: T into the slot 4227.4, one row clears 4227.6, 'Single' label, +2400 at 4227.83 = TSS (B2B broken by the single)."
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "fr/v2/n.png: I vertical 4351.5, four rows clear 4351.6-4351.8 (1 coloured + 3 garbage), BACK banner, +3600 at 4351.53. Quad, gc 3."
+ },
+ {
+  "ref": "e26",
+  "verdict": "keep",
+  "why": "score.py: +5550 at 4352.83 = TSD B2B+REN1; no chain event between 4351.37 and 4354.8."
+ },
+ {
+  "ref": "e27",
+  "verdict": "keep",
+  "why": "fr/v2/m.png: the +1050 at 4402.63 is the T-spin mini (chain tsmini 4401.8); only one double clears in 4403-4405 (two rows white 4404.3), +934 at 4404.67, then TSS +2426 at 4406.47. The 4404.47 double has no jump."
+ },
+ {
+  "ref": "e28",
+  "verdict": "amend",
+  "amended": {
+   "gc": 1
+  },
+  "why": "fr/v2/o.png, p.png: orange L vertical into the well 4416.7, three rows clear, +1535 at 4416.90 = triple (not tetris). But the three rows are the two coloured rows plus only the top garbage row (whose hole at column 3 the L fills); the garbage below with its column-6 well is untouched (p_4416.55 vs p_4417.40). gc 1, not 2."
+ },
+ {
+  "ref": "e29",
+  "verdict": "keep",
+  "why": "fr/v2/o.png: I out of hold into the column-6 garbage well 4417.6, four garbage rows clear 4417.75-4417.9, +2566 at 4418.07 = tetris+REN1."
+ },
+ {
+  "ref": "e30",
+  "verdict": "keep",
+  "why": "score.py: nothing near 4800 anywhere in 4419-4422; +3600 at 4421.53 is the chain's tsd 4421.5."
+ },
+ {
+  "ref": "e31",
+  "verdict": "keep",
+  "why": "score.py: +1650 at 4422.40 = triple+REN1."
+ },
+ {
+  "ref": "e32",
+  "verdict": "keep",
+  "why": "score.py: +1229 at 4423.83 = double+REN2; then +1382 (double+REN3) and +934 match the chain's 4424.27/4425.27 doubles."
+ },
+ {
+  "ref": "e33",
+  "verdict": "keep",
+  "why": "score.py: TSD +3612 at 4436.70, next jump +5400 at 4440.03 (TSD with B2B intact); no double between."
+ },
+ {
+  "ref": "e34",
+  "verdict": "keep",
+  "why": "score.py p2: +450 at 4749.43 (single+REN1 after the tetris), then +609 at 4750.43 for the chain's single 4750.07; the 4749.07 lock is the first single."
+ },
+ {
+  "ref": "e35",
+  "verdict": "keep",
+  "why": "score.py: +343 at 4754.13 = single; the following +1060 (4754.97) and +904 (4756.20) are the chain's 4754.8 and 4755.6 doubles."
+ },
+ {
+  "ref": "e36",
+  "verdict": "keep",
+  "why": "score.py: +472 at 4764.63 (single+REN1). nextcount p2 4762-4765.7: S held 4762.867 (previous hold piece out), spawn 4763.267 then Z held 4763.467 (S out), spawns 4764.233/4764.467/4764.833/4765.267/4765.533 -> 7 locks after the 4762.37 double vs the chain's 6, so adding a lock is right. Needs a pieces +1 cell edit (not given)."
+ },
+ {
+  "ref": "e37",
+  "verdict": "keep",
+  "why": "score.py: +375 at 4778.60 (single) just before +2550 at 4778.87 (tetris+REN1); retyping one of the duplicate 4777.7 locks keeps the count."
+ },
+ {
+  "ref": "e38",
+  "verdict": "keep",
+  "why": "score.py p1: +3774 at 6788.67, then nothing until +5400 at 6792.03; no TST jump."
+ },
+ {
+  "ref": "e39",
+  "verdict": "keep",
+  "why": "score.py p1: +750/+3000 (6880.70/6880.93, the tetris B2B+REN1 split by OCR), then +600 at 6881.73 = single+REN2."
+ },
+ {
+  "ref": "e40",
+  "verdict": "keep",
+  "why": "fr/v2/q.png: one clear: the orange L drops into the gap 7697.2, three rows clear, PERFECT CLEAR banner and empty board 7697.35; +6900 at 7697.33, nothing else until 7701.00. (The piece is the orange L, not a red Z — Z is in hold — but the event itself is right.)"
+ },
+ {
+  "ref": "e41",
+  "verdict": "keep",
+  "why": "fr/v2/q.png: after the PC the next pieces fall onto the empty board (cyan I at the top 7697.95); no second triple or score jump."
+ },
+ {
+  "ref": "e42",
+  "verdict": "keep",
+  "why": "fr/v2/r.png: T into the slot 7740.0, one row white 7740.2, 'Single' + BACK, +3600 at 7740.17."
+ },
+ {
+  "ref": "e43",
+  "verdict": "keep",
+  "why": "fr/v2/r.png: I (from queue) into the garbage well 7740.8, four garbage rows clear 7741.0-7741.4, +3784 at 7741.47. Separate piece from the next I."
+ },
+ {
+  "ref": "e44",
+  "verdict": "keep",
+  "why": "fr/v2/r.png: second I (out of hold, J goes in) into the well 7741.8, four garbage rows clear 7742.0-7742.3 with TETRIS, +3900 at 7741.93."
+ }
+]

@@ -1,0 +1,263 @@
+[
+ {
+  "id": "u006",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 417.87 s typed as a plain clear",
+  "t_s": 417.87,
+  "video": "XoaWLJowuCQ",
+  "n": 0
+ },
+ {
+  "id": "u006",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 16.30 s from 418.77 s; B events spliced (D2/D3)",
+  "t_s": 418.77,
+  "video": "XoaWLJowuCQ",
+  "n": 1
+ },
+ {
+  "id": "u006",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 9.23 s from 435.07 s; B events spliced (D2/D3)",
+  "t_s": 435.07,
+  "video": "XoaWLJowuCQ",
+  "n": 2
+ },
+ {
+  "id": "u006",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 19.37 s from 417.47 s; B events spliced (D2/D3)",
+  "t_s": 417.47,
+  "video": "XoaWLJowuCQ",
+  "n": 3
+ },
+ {
+  "id": "u006",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.00 s from 436.83 s; B events spliced (D2/D3)",
+  "t_s": 436.83,
+  "video": "XoaWLJowuCQ",
+  "n": 4
+ },
+ {
+  "id": "u007",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 497.17,
+  "video": "XoaWLJowuCQ",
+  "n": 5
+ },
+ {
+  "id": "u011",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 655 more than the chain's clears predict between 693.17 and 702.2 (unexplained -545); chain clears nearby: [[698.23, 3600, 'quad'], [699.17, 450, 'single'], [700.03, 1200, 'double'], [701.7, 3600, 'tsd']]",
+  "t_s": 702.2,
+  "video": "XoaWLJowuCQ",
+  "n": 6
+ },
+ {
+  "id": "u017",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 782 more than the chain's clears predict between 1104.7 and 1116.67 (unexplained -418); chain clears nearby: [[1104.23, 1350, 'double'], [1106.33, 900, 'double'], [1108.13, 2400, 'quad'], [1109.27, 450, 'single'], [1110.97, 2400, 'quad'], [1112.27, 300, 'single'], [1113.17, 450, 'single'], [1114.07, 600, 'single'], [1114.9, 750, 'single'], [1116.5, 2400, 'quad']]",
+  "t_s": 1116.67,
+  "video": "XoaWLJowuCQ",
+  "n": 7
+ },
+ {
+  "id": "u017",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 1131.4,
+  "video": "XoaWLJowuCQ",
+  "n": 8
+ },
+ {
+  "id": "u042",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 2699.4,
+  "video": "XoaWLJowuCQ",
+  "n": 9
+ },
+ {
+  "id": "u051",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "3 of 15 bags not a permutation (spawn index [84, 91, 98]); anomalies ['double shift k=3 at frame 1367', 'queue resync at frame 2079: (5, 6, 2, 6, 6)->(2, 8, 3, 6, 8)']",
+  "t_s": 3178.4,
+  "video": "XoaWLJowuCQ",
+  "n": 10
+ },
+ {
+  "id": "u051",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 23.73 s from 3221.77 s; B events spliced (D2/D3)",
+  "t_s": 3221.77,
+  "video": "XoaWLJowuCQ",
+  "n": 11
+ },
+ {
+  "id": "u051",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Single at 3221.77 s",
+  "t_s": 3221.77,
+  "video": "XoaWLJowuCQ",
+  "n": 12
+ },
+ {
+  "id": "u051",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 5.40 s from 3252.53 s; B events spliced (D2/D3)",
+  "t_s": 3252.53,
+  "video": "XoaWLJowuCQ",
+  "n": 13
+ },
+ {
+  "id": "u054",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 3528.97 s typed as a plain clear",
+  "t_s": 3528.97,
+  "video": "XoaWLJowuCQ",
+  "n": 14
+ },
+ {
+  "id": "u059",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 3780.57,
+  "video": "XoaWLJowuCQ",
+  "n": 15
+ },
+ {
+  "id": "u072",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 4613.7,
+  "video": "XoaWLJowuCQ",
+  "n": 16
+ },
+ {
+  "id": "u075",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 696 more than the chain's clears predict between 4819.03 and 4827.8 (unexplained -504); chain clears nearby: [[4818.73, 900, 'double'], [4822.57, 2400, 'quad'], [4823.77, 450, 'single'], [4824.83, 600, 'single'], [4825.77, 750, 'single'], [4826.7, 900, 'single'], [4827.63, 1050, 'single']]",
+  "t_s": 4827.8,
+  "video": "XoaWLJowuCQ",
+  "n": 17
+ },
+ {
+  "id": "u075",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 4882.6,
+  "video": "XoaWLJowuCQ",
+  "n": 18
+ },
+ {
+  "id": "u075",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 2756 more than the chain's clears predict between 4776.67 and 4785.0 (unexplained 356); chain clears nearby: [[4782.5, 3600, 'quad'], [4783.6, 1050, 'double'], [4784.63, 600, 'single']]",
+  "t_s": 4785.0,
+  "video": "XoaWLJowuCQ",
+  "n": 19
+ },
+ {
+  "id": "u075",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 676 more than the chain's clears predict between 4803.2 and 4809.33 (unexplained -524); chain clears nearby: [[4802.93, 300, 'single'], [4806.1, 2400, 'quad'], [4807.1, 450, 'single'], [4808.0, 600, 'single'], [4809.13, 900, 'double']]",
+  "t_s": 4809.33,
+  "video": "XoaWLJowuCQ",
+  "n": 20
+ },
+ {
+  "id": "u076",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "6 of 13 bags not a permutation (spawn index [49, 56, 63, 70, 77, 84]); anomalies ['double shift k=2 at frame 499', 'double shift k=3 at frame 741']",
+  "t_s": 4910.53,
+  "video": "XoaWLJowuCQ",
+  "n": 21
+ },
+ {
+  "id": "u086",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 5581.1,
+  "video": "XoaWLJowuCQ",
+  "n": 22
+ },
+ {
+  "id": "u117",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 7297.47,
+  "video": "XoaWLJowuCQ",
+  "n": 23
+ },
+ {
+  "id": "u127",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (single) vs banner T-SPIN Double at 7786.1 s",
+  "t_s": 7786.1,
+  "video": "XoaWLJowuCQ",
+  "n": 24
+ },
+ {
+  "id": "u127",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose 1800 more than the chain's clears predict between 7780.87 and 7786.4 (unexplained -600); chain clears nearby: [[7785.1, 3600, 'quad'], [7786.1, 3750, 'tss']]",
+  "t_s": 7786.4,
+  "video": "XoaWLJowuCQ",
+  "n": 25
+ },
+ {
+  "id": "u127",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 7796.07,
+  "video": "XoaWLJowuCQ",
+  "n": 26
+ },
+ {
+  "id": "u136",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "1 of 8 bags not a permutation (spawn index [49]); anomalies ['double shift k=3 at frame 769', 'double shift k=3 at frame 788']",
+  "t_s": 8294.7,
+  "video": "XoaWLJowuCQ",
+  "n": 27
+ },
+ {
+  "id": "u136",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 8320.13,
+  "video": "XoaWLJowuCQ",
+  "n": 28
+ }
+]

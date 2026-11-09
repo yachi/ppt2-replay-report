@@ -1,0 +1,137 @@
+[
+ {
+  "id": "m049",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 152.97 s typed as a plain clear",
+  "t_s": 152.97,
+  "n": 58,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m049",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "1 of 17 bags not a permutation (spawn index [112]); anomalies ['double shift k=2 at frame 1821']",
+  "t_s": 95.2,
+  "n": 59,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m049",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 153.7 s",
+  "t_s": 153.7,
+  "n": 60,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m049",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 160.93 s, no A clear matched (added by R/build.py)",
+  "t_s": 160.93,
+  "n": 61,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m049",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "12.47 s from the last spawn to the KO",
+  "t_s": 166.17,
+  "n": 62,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m050",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +71 at 196.07 s (KO 195.77 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 196.07,
+  "n": 63,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m051",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 211.1 s, no A clear matched (added by R/build.py)",
+  "t_s": 211.1,
+  "n": 64,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m051",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -600 ending at t=211.13 (window from None); chain clears there explain all but -600; chain clears near: [[208.7, 3600, 'tsd'], [211.17, 900, 'tsmini']]",
+  "t_s": 211.13,
+  "n": 65,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m052",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 326.64 s, no A clear matched (added by R/build.py)",
+  "t_s": 326.64,
+  "n": 66,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m053",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 4345 ending at t=350.67 (window from None); chain clears there explain all but -455; chain clears near: [[346.2, 4800, 'tst'], [347.67, 5550, 'tsd'], [349.03, 600, 'single'], [350.4, 300, 'single']]",
+  "t_s": 350.67,
+  "n": 67,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m053",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -1050 ending at t=354.1 (window from 350.67); chain clears there explain all but -1050; chain clears near: [[350.4, 300, 'single'], [350.73, 1050, 'double'], [353.5, 3600, 'tsd']]",
+  "t_s": 354.1,
+  "n": 68,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m053",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 690 ending at t=363.17 (window from 357.2); chain clears there explain all but -510; chain clears near: [[356.97, 3600, 'quad'], [362.07, 3600, 'quad'], [363.03, 450, 'single']]",
+  "t_s": 363.17,
+  "n": 69,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m053",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 384.9,
+  "n": 70,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m055",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 468.97 s",
+  "t_s": 468.97,
+  "n": 71,
+  "video": "-zR8CNrXdCI"
+ },
+ {
+  "id": "m056",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 691 ending at t=547.6 (window from 542.0); chain clears there explain all but -509; chain clears near: [[541.53, 5400, 'tsd'], [544.43, 3600, 'quad'], [545.4, 450, 'single'], [546.37, 600, 'single'], [547.13, 750, 'single']]",
+  "t_s": 547.6,
+  "n": 72,
+  "video": "-zR8CNrXdCI"
+ }
+]

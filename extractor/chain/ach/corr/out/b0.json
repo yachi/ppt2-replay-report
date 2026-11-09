@@ -1,0 +1,918 @@
+{
+ "event_corrections": [
+  {
+   "id": "m003",
+   "side": "p1",
+   "op": "retype",
+   "t": 203.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/m003p1a.png 203.4-204.9: no line clear after the TSS (202.9); p1 score 95090 -> 95167 only drop points until the 207.83 TSD (+5408). Plain lock."
+  },
+  {
+   "id": "m003",
+   "side": "p1",
+   "op": "retype",
+   "t": 209.83,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "source": "fr/g0/m003p1a.png 209.4-209.9 TETRIS banner and 4-row flash; score +3600 at 208.97 (TETRIS b2b), no TST (TST b2b would be 7200)."
+  },
+  {
+   "id": "m003",
+   "side": "p1",
+   "op": "retype",
+   "t": 210.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "fr/g0/m003p1a.png 210.4-210.9 'T-SPIN Double ... BACK' banner; score +5550 at 210.50 = TSD b2b 5400 + REN1 150 (plain double REN1 would be 1050)."
+  },
+  {
+   "id": "m003",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 166.07,
+   "t_end": 195.8,
+   "events": [
+    {
+     "t": 166.07,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 166.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 167.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 167.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 167.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 167.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 168.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 168.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 168.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 169.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 169.2,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 170.43,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 171.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 172.37,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 173.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 174.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 175.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 175.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 176.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 176.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 176.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 176.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 177.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 177.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 177.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 177.87,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 178.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 179.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 179.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 179.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 180.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 180.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 180.7,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 181.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 182.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 182.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 183.2,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 184.47,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 185.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 185.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 186.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 186.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 187.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 187.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 187.6,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 188.93,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 190.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 190.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 190.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 190.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 191.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 191.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 191.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 191.97,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 193.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 193.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 193.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 194.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 194.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 194.7,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 195.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     166.07,
+     "tst",
+     4
+    ],
+    [
+     167.6,
+     "quad",
+     4
+    ],
+    [
+     167.67,
+     "BREAK",
+     0
+    ],
+    [
+     169.23,
+     "BREAK",
+     3
+    ],
+    [
+     169.7,
+     "tss",
+     1
+    ],
+    [
+     171.0,
+     "BREAK",
+     5
+    ],
+    [
+     172.57,
+     "BREAK",
+     5
+    ],
+    [
+     174.17,
+     "BREAK",
+     2
+    ],
+    [
+     175.77,
+     "BREAK",
+     1
+    ],
+    [
+     177.43,
+     "BREAK",
+     4
+    ],
+    [
+     179.0,
+     "BREAK",
+     1
+    ],
+    [
+     180.93,
+     "quad",
+     4
+    ],
+    [
+     182.5,
+     "single",
+     1
+    ],
+    [
+     183.2,
+     null,
+     0
+    ],
+    [
+     183.53,
+     null,
+     0
+    ],
+    [
+     183.7,
+     "tsd",
+     2
+    ],
+    [
+     183.9,
+     "double",
+     2
+    ],
+    [
+     184.93,
+     "quad",
+     4
+    ],
+    [
+     186.1,
+     null,
+     0
+    ],
+    [
+     186.63,
+     null,
+     0
+    ],
+    [
+     187.07,
+     null,
+     0
+    ],
+    [
+     187.87,
+     null,
+     0
+    ],
+    [
+     187.87,
+     null,
+     0
+    ],
+    [
+     187.97,
+     null,
+     0
+    ],
+    [
+     188.3,
+     "tsd",
+     2
+    ],
+    [
+     188.63,
+     "quad",
+     4
+    ],
+    [
+     190.4,
+     "BREAK",
+     0
+    ],
+    [
+     192.13,
+     null,
+     0
+    ],
+    [
+     192.13,
+     null,
+     0
+    ],
+    [
+     192.6,
+     "tss",
+     1
+    ],
+    [
+     193.53,
+     "single",
+     1
+    ],
+    [
+     193.83,
+     null,
+     0
+    ],
+    [
+     194.17,
+     null,
+     0
+    ],
+    [
+     194.63,
+     null,
+     0
+    ],
+    [
+     194.83,
+     null,
+     0
+    ],
+    [
+     195.0,
+     null,
+     0
+    ],
+    [
+     195.1,
+     "quad",
+     4
+    ],
+    [
+     195.8,
+     null,
+     0
+    ],
+    [
+     195.8,
+     null,
+     0
+    ]
+   ],
+   "source": "m003 p2 frames fr/g0/m003p2a.png..m003p2f.png (163.6-195.9) + score + nextcount (fr/g0/m003p2nc.txt, 61 spawns 166.07-195.8, no hidden spawns in unk stretches): clears seen = TETRIS 166.3 (banner 166.55, +2478), TSS b2b 170.0 (+3605), double REN1 171.0 (+1059), single REN2 172.0 (+612), TETRIS REN3 173.0 (+2868), single REN4 174.1 (+915), single 175.45 (+364, REN broken), TETRIS 178.5 (+2414), TETRIS b2b 181.1 (+3614), single REN1 182.1, TSD 184.1 (+3600), TETRIS b2b+REN1 185.1 (+3780), TSD b2b 188.4 (+5404), TETRIS b2b+REN1 189.4 (+3776), TSS b2b 192.9 (+3604), TETRIS b2b 195.4 (+3626); no single after the TSS (78908->79016 by 194.8). Each clear placed on the last spawn before it; other spawns are plain locks. 167.6 quad was a duplicate of the 166.3 TETRIS, 183.9 double a duplicate of the TSD, 193.53 single phantom; the 170-180 clears were missing. gc for the new clears 170-178.5 estimated from board (0 where unclear)."
+  },
+  {
+   "id": "m015",
+   "side": "p2",
+   "op": "retype",
+   "t": 859.03,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/m015p2b.png: the Z spawned 859.03 hard-drops at 859.13 and a 2-row white band shows at 859.2-859.47 (3 rows above -> 1 left); score 40340 -> 41540 (+1200 = double 900 + REN2 300) after the 858.2 TETRIS b2b REN1 (+3750) and 857.2 TSD (+5400). All later score steps fit REN3..REN11 (869.13 +1973 = single 300 + REN11 1650)."
+  },
+  {
+   "id": "m016",
+   "side": "p1",
+   "op": "retype",
+   "t": 942.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "source": "fr/g0/m016p1.png: second TETRIS at 942.5 (4-row band, TETRIS+REN banners) right after the 941.4 one; score 81754 -> 85504 (+3750 = TETRIS b2b 3600 + REN1 150); next TSD 944.90 +5400 is b2b, so B2B was not broken."
+  },
+  {
+   "id": "m017",
+   "side": "p1",
+   "op": "retype",
+   "t": 972.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "fr/g0/m017p1b.png 972.64-973.27: the L clears 2 rows (3 bottom rows -> 1, '2 REN' banner); score 9034 -> 10251 (+1217 = double 900 + REN2 300); next double REN3 brings 11625 (+1374)."
+  },
+  {
+   "id": "m019",
+   "side": "p2",
+   "op": "retype",
+   "t": 1088.03,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/m019p2.png 1087.6-1089.6: only one TETRIS (1088.47, I spawned 1088.37); the piece at 1088.03 (Z after hold) clears nothing; score shows one +3600 step (1089.27) for this window, not two."
+  },
+  {
+   "id": "m019",
+   "side": "p2",
+   "op": "retype",
+   "t": 1088.6,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 2,
+   "source": "same: the single real TETRIS (1088.47) takes 2 garbage rows (garbage stack ~10 rows before, ~8 after, fr/g0/m019p2.png); the gc2 sat on the phantom 1088.03 entry."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "m003",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 6,
+   "value": 7,
+   "source": "after the retypes at 209.83 (quad) and 210.6 (tsd), the B2B run 193.1 TSD .. 210.6 TSD is 8 clears; every one after the first scores x1.5 on screen (195.27 +3600, 198.37 +5400, 200.80 +3600, 202.53 +3600, 207.83 +5408, 208.97 +3600, 210.50 +5550)"
+  },
+  {
+   "id": "m003",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 5,
+   "value": 10,
+   "source": "with the 166.07-195.8 window rebuilt, the run 184.1 TSD .. 209.67 TSD is 11 B2B-type clears; score shows each after the first at x1.5 (185.1 +3780, 188.2 +5400, 189.2 +3750, 192.6 +3604, 195.0 +3626, 199.5 +5400, 201.7 +5400, 205.9 +3600, 207.8 +3632, 210.3 +5400)"
+  },
+  {
+   "id": "m015",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 8,
+   "value": 11,
+   "source": "the missed double at 859.03 joins the REN run 856.7 TSD .. 868.9 single into 12 consecutive clears; on-screen steps confirm REN11 (869.13 +1973 = 300+1650), fr/g0/m015p2.png, m015p2b.png"
+  },
+  {
+   "id": "m019",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 7,
+   "value": 6,
+   "source": "removing the phantom quad at 1088.03 (only one TETRIS on screen, fr/g0/m019p2.png) shortens the B2B run by one"
+  }
+ ],
+ "items": [
+  {
+   "n": 0,
+   "verdict": "no change",
+   "why": "TSS at 202.5 is real: 'T-SPIN Single BACK' at 202.9 and +3600 (TSS b2b) at 202.53 (fr/g0/m003p1a.png); the chain's 203.33 single right after it is phantom and retyped to a plain lock (listed under item 3)."
+  },
+  {
+   "n": 1,
+   "verdict": "no change",
+   "why": "TSD banner at 207.43 matches the chain's tsd 207.43 (frames 207.4-207.9 fr/g0/m003p1k2.png, +5408 at 207.83)."
+  },
+  {
+   "n": 2,
+   "verdict": "corrected",
+   "why": "The 210.43 TSD banner is the chain's 'double' at 210.6: 'T-SPIN Double BACK' at 210.4 and +5550 (TSD b2b + REN1); retyped to tsd, and the 'tst 4 lines' at 209.83 is the TETRIS at 209.4 (retyped quad)."
+  },
+  {
+   "n": 3,
+   "verdict": "corrected",
+   "why": "NEXT queue was readable through the tail (fr/g0/m003p1nc.txt, 158 shifts = CSV pieces 157 with first spawn/hold-in/unlocked last piece); score steps from 211 on (triple REN2, singles REN3-6, double REN7) match the chain; fixed 203.33 single->lock, 209.83 tst->quad, 210.6 double->tsd, max_b2b 6->7."
+  },
+  {
+   "n": 4,
+   "verdict": "no change",
+   "why": "Whole-game nextcount for p2 (fr/g0/m003p2ncall.txt, 162 shifts, no k=2 found near 198 s) matches CSV pieces 161; the bag anomalies come from the chain's gap splice, fixed by the item-5 window."
+  },
+  {
+   "n": 5,
+   "verdict": "corrected",
+   "why": "Rebuilt 166.07-195.8 from 61 nextcount spawns and the clears seen in fr/g0/m003p2a-f.png + score (16 clears incl. 6 TETRISes, 2 TSD, 2 TSS that the splice missed or duplicated); max_b2b 5->10."
+  },
+  {
+   "n": 6,
+   "verdict": "corrected",
+   "why": "No T-spin at 166.07: a TETRIS at 166.3-166.55 (4-row band, TETRIS banner, +2478, fr/g0/m003p2b.png); chain 'tst' becomes quad in the item-5 window and the duplicate 167.6 quad goes."
+  },
+  {
+   "n": 7,
+   "verdict": "corrected",
+   "why": "Real TSD at 184.1 ('Double' banner, +3600, fr/g0/m003p2e.png); the chain had both tsd 183.7 and double 183.9 for it — one TSD on the 183.2 spawn in the rebuilt window."
+  },
+  {
+   "n": 8,
+   "verdict": "no change",
+   "why": "TSD b2b at 188.4 ('Double BACK', +5404, fr/g0/m003p2f.png) followed by TETRIS 189.4 — both kept (as tsd/quad on spawns 187.6/188.93 in the rebuilt window)."
+  },
+  {
+   "n": 9,
+   "verdict": "corrected",
+   "why": "TSS b2b at 192.9 is real (+3604, fr/g0/m003p2f.png) but the chain's single at 193.53 after it is phantom (score +108 only before the 195.4 TETRIS); dropped in the rebuilt window."
+  },
+  {
+   "n": 10,
+   "verdict": "no change",
+   "why": "fr/g0/m004p2.png 310.6-312.0: T dropped vertically, single with REN banner only, no Mini banner; +616 at 311.23 = single REN2 (300+300), a Mini would be 900."
+  },
+  {
+   "n": 11,
+   "verdict": "no change",
+   "why": "fr/g0/m006p1.png: Z (held swap at 509.6) still falling at the KO 509.7, no lock, score unchanged 74658."
+  },
+  {
+   "n": 12,
+   "verdict": "no change",
+   "why": "fr/g0/m007p1.png: T soft-dropping (+1/row) and only touches the stack at 545.30 = KO frame; no lock delay elapsed, no clear."
+  },
+  {
+   "n": 13,
+   "verdict": "no change",
+   "why": "fr/g0/m008p2.png + fr/g0/m008ko.png: p1 board tilts at 582.97-583.0; p2's S hard-drop lands at 583.03 (+32), after the KO."
+  },
+  {
+   "n": 14,
+   "verdict": "no change",
+   "why": "fr/g0/m010p2.png: the +92 is the score becoming readable again after being hidden; no clear flash 654.6-655.07."
+  },
+  {
+   "n": 15,
+   "verdict": "no change",
+   "why": "fr/g0/m010p2.png: L spawned 654.87 still floating at the KO 654.97 (やった at 655.07), no lock."
+  },
+  {
+   "n": 16,
+   "verdict": "no change",
+   "why": "fr/g0/m011p2.png: J hard-drops at 698.47 (+13), after the KO frame 698.4; no clear."
+  },
+  {
+   "n": 17,
+   "verdict": "no change",
+   "why": "fr/g0/m013p2.png: 'T-SPIN Triple BACK' at 772.6 and +7200 (TST b2b); the chain's tst at 771.93 is right, the banner reader misread it."
+  },
+  {
+   "n": 18,
+   "verdict": "corrected",
+   "why": "fr/g0/m015p2b.png: the Z at 859.03 cleared a double (2-row band 859.2, +1200 = REN2), missing in the chain; retyped, max_combo 8->11 (REN11 confirmed by +1973 at 869.13)."
+  },
+  {
+   "n": 19,
+   "verdict": "no change",
+   "why": "fr/g0/m015ko.png: I spawned 876.43 still at the top at the KO 876.67, no lock."
+  },
+  {
+   "n": 20,
+   "verdict": "corrected",
+   "why": "fr/g0/m016p1.png: two TETRISes in a row (941.4 and 942.5); 942.2 'double' retyped quad (+3750 = TETRIS b2b + REN1); max_b2b unchanged (10)."
+  },
+  {
+   "n": 21,
+   "verdict": "no change",
+   "why": "fr/g0/m016ko.png: Z spawned 953.63, held at 953.73, T still falling at the KO; no lock."
+  },
+  {
+   "n": 22,
+   "verdict": "corrected",
+   "why": "fr/g0/m017p1b.png: the 972.03 piece cleared 2 rows ('2 REN', +1217 = double REN2); retyped single->double; quad 975.3 (+2469) and mini 976.37 (+1052 = Mini b2b + REN1) are right."
+  },
+  {
+   "n": 23,
+   "verdict": "no change",
+   "why": "fr/g0/m018p1.png: T hard-dropped flat (+28) into a plain single, '2 REN' banner only, +600 = single REN2 (a Mini with REN2 would be 900)."
+  },
+  {
+   "n": 24,
+   "verdict": "corrected",
+   "why": "fr/g0/m019p2.png: only one TETRIS (1088.47, +3600); 1088.03 quad retyped to a plain lock, the real one at 1088.6 gets gc 2; max_b2b 7->6."
+  }
+ ]
+}

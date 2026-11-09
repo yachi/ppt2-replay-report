@@ -1,0 +1,839 @@
+{
+ "event_corrections": [
+  {
+   "id": "m066",
+   "side": "p1",
+   "op": "add",
+   "t": 1076.2,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount p1 1067.9-1158.9: 196 spawns, the spawn sequence (incl. final queue) is a clean 7-bag at every bag; drawn 198 by KO (S spawned ~1158.8 unlocked at KO, O in hold) => 196 locks. Chain misses spawns 1076.20, 1077.60 and four of 1109.83-1112.77 (chain has 3x 1112.27 placeholders); frames /tmp/claude-0/ak/corr/fr/g3/m066b.png show fast placements after the 1110.6 TETRIS."
+  },
+  {
+   "id": "m066",
+   "side": "p1",
+   "op": "add",
+   "t": 1077.6,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount p1 1067.9-1158.9: 196 spawns, the spawn sequence (incl. final queue) is a clean 7-bag at every bag; drawn 198 by KO (S spawned ~1158.8 unlocked at KO, O in hold) => 196 locks. Chain misses spawns 1076.20, 1077.60 and four of 1109.83-1112.77 (chain has 3x 1112.27 placeholders); frames /tmp/claude-0/ak/corr/fr/g3/m066b.png show fast placements after the 1110.6 TETRIS."
+  },
+  {
+   "id": "m066",
+   "side": "p1",
+   "op": "add",
+   "t": 1110.07,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount p1 1067.9-1158.9: 196 spawns, the spawn sequence (incl. final queue) is a clean 7-bag at every bag; drawn 198 by KO (S spawned ~1158.8 unlocked at KO, O in hold) => 196 locks. Chain misses spawns 1076.20, 1077.60 and four of 1109.83-1112.77 (chain has 3x 1112.27 placeholders); frames /tmp/claude-0/ak/corr/fr/g3/m066b.png show fast placements after the 1110.6 TETRIS."
+  },
+  {
+   "id": "m066",
+   "side": "p1",
+   "op": "add",
+   "t": 1110.4,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount p1 1067.9-1158.9: 196 spawns, the spawn sequence (incl. final queue) is a clean 7-bag at every bag; drawn 198 by KO (S spawned ~1158.8 unlocked at KO, O in hold) => 196 locks. Chain misses spawns 1076.20, 1077.60 and four of 1109.83-1112.77 (chain has 3x 1112.27 placeholders); frames /tmp/claude-0/ak/corr/fr/g3/m066b.png show fast placements after the 1110.6 TETRIS."
+  },
+  {
+   "id": "m066",
+   "side": "p1",
+   "op": "add",
+   "t": 1111.4,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount p1 1067.9-1158.9: 196 spawns, the spawn sequence (incl. final queue) is a clean 7-bag at every bag; drawn 198 by KO (S spawned ~1158.8 unlocked at KO, O in hold) => 196 locks. Chain misses spawns 1076.20, 1077.60 and four of 1109.83-1112.77 (chain has 3x 1112.27 placeholders); frames /tmp/claude-0/ak/corr/fr/g3/m066b.png show fast placements after the 1110.6 TETRIS."
+  },
+  {
+   "id": "m066",
+   "side": "p1",
+   "op": "add",
+   "t": 1111.73,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount p1 1067.9-1158.9: 196 spawns, the spawn sequence (incl. final queue) is a clean 7-bag at every bag; drawn 198 by KO (S spawned ~1158.8 unlocked at KO, O in hold) => 196 locks. Chain misses spawns 1076.20, 1077.60 and four of 1109.83-1112.77 (chain has 3x 1112.27 placeholders); frames /tmp/claude-0/ak/corr/fr/g3/m066b.png show fast placements after the 1110.6 TETRIS."
+  },
+  {
+   "id": "m066",
+   "side": "p2",
+   "op": "retype",
+   "t": 1123.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 2,
+   "source": "score 78876->80826 (+1950) at 1123.67 = double 900 + REN7 1050 (single would be 1350); /tmp/claude-0/ak/corr/fr/g3/m066_1123.40.png shows two garbage rows with a hole in col 3 and the vertical L at 1123.63 (/tmp/claude-0/ak/corr/fr/g3/m066_1123.63.png) fills both"
+  },
+  {
+   "id": "m067",
+   "side": "p2",
+   "op": "retype",
+   "t": 1215.9,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "gc": 0,
+   "source": "score 45036 unchanged until 1216.2 (45040), then +908 at 1216.4 (one double, REN0) and +2422 TETRIS at 1217.8; only one double between the 1215.23 single and the tetris (/tmp/claude-0/ak/corr/fr/g3/m067a.png): the piece spawned 1215.9 (I laid in the row) cleared nothing; the double is the Z of the 1216.5 event"
+  },
+  {
+   "id": "m068",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1341.6,
+   "t_end": 1349.43,
+   "events": [
+    {
+     "t": 1341.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1341.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1342.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1342.47,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1343.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1343.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1344.27,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1345.2,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 1346.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1346.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1346.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1347.0,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1348.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1348.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1348.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1341.6,
+     "tst",
+     4
+    ],
+    [
+     1342.73,
+     "BREAK",
+     3
+    ],
+    [
+     1342.9,
+     "tsd",
+     2
+    ],
+    [
+     1344.5,
+     "BREAK",
+     7
+    ],
+    [
+     1346.17,
+     "BREAK",
+     0
+    ],
+    [
+     1347.6,
+     "tsd",
+     2
+    ],
+    [
+     1348.77,
+     "double",
+     2
+    ]
+   ],
+   "source": "nextcount p1 1339.3-1349.5 spawns 1341.60..1349.23 (16); score: +5400 TSD B2B 1342.93, +3600 TETRIS B2B 1344.40, +1050 double REN1 1345.37, +3600 TSD 1347.67, nothing else (1348.77 'double' and 1341.6 'tst 4' have no score jump); Z from hold drops at 1349.50, after KO (/tmp/claude-0/ak/corr/fr/g3/m068b.png). Garbage rows from /tmp/claude-0/ak/corr/fr/g3/m068_gc.png (6->5 after the quad, ->3 after the double, ~1 in the last TSD); /tmp/claude-0/ak/corr/fr/g3/m068a.png"
+  },
+  {
+   "id": "m068",
+   "side": "p2",
+   "op": "retype",
+   "t": 1302.43,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "score +1050 at 1302.53 right after the 1302.0 TETRIS (=double 900 + REN1), then +614 single REN2 at 1304.0 and +3630 TSD at 1305.57; vertical I completes two player rows (/tmp/claude-0/ak/corr/fr/g3/m068c.png)"
+  },
+  {
+   "id": "m068",
+   "side": "p2",
+   "op": "retype",
+   "t": 1331.87,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 1,
+   "source": "score +1050 at 1332.07 after the 1331.43 TETRIS (double REN1), then singles +614,+765,+912,+1062,+1212,+1364 and double +2118 (REN8) match the REN ladder only if this is a double; /tmp/claude-0/ak/corr/fr/g3/m068_1332.png: vertical L fills col 5 of one player row and the top garbage row"
+  },
+  {
+   "id": "m070",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1440.9,
+   "t_end": 1457.6,
+   "events": [
+    {
+     "t": 1441.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1441.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1442.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1442.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1442.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1443.0,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1444.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1444.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1445.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1446.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1446.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1446.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1447.23,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1448.27,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1449.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1449.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1450.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1451.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1452.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1453.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1454.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1455.0,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 1456.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1457.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     1440.9,
+     null,
+     0
+    ],
+    [
+     1440.9,
+     null,
+     0
+    ],
+    [
+     1440.9,
+     "tst",
+     4
+    ],
+    [
+     1442.0,
+     null,
+     0
+    ],
+    [
+     1442.47,
+     null,
+     0
+    ],
+    [
+     1442.73,
+     null,
+     0
+    ],
+    [
+     1443.2,
+     null,
+     0
+    ],
+    [
+     1443.2,
+     null,
+     0
+    ],
+    [
+     1443.34,
+     "tsd",
+     2
+    ],
+    [
+     1443.6,
+     "double",
+     2
+    ],
+    [
+     1444.63,
+     null,
+     0
+    ],
+    [
+     1445.57,
+     null,
+     0
+    ],
+    [
+     1445.57,
+     null,
+     0
+    ],
+    [
+     1445.97,
+     null,
+     0
+    ],
+    [
+     1446.1,
+     null,
+     0
+    ],
+    [
+     1446.5,
+     null,
+     0
+    ],
+    [
+     1446.93,
+     null,
+     0
+    ],
+    [
+     1447.0,
+     null,
+     0
+    ],
+    [
+     1447.27,
+     "BREAK",
+     3
+    ],
+    [
+     1447.54,
+     "tss",
+     1
+    ],
+    [
+     1448.87,
+     "BREAK",
+     3
+    ],
+    [
+     1450.87,
+     "single",
+     1
+    ],
+    [
+     1451.7,
+     "single",
+     1
+    ],
+    [
+     1452.5,
+     "single",
+     1
+    ],
+    [
+     1452.73,
+     "single",
+     1
+    ],
+    [
+     1454.23,
+     "single",
+     1
+    ],
+    [
+     1454.5,
+     "single",
+     1
+    ],
+    [
+     1454.93,
+     "quad",
+     4
+    ],
+    [
+     1457.1,
+     "single",
+     1
+    ]
+   ],
+   "source": "nextcount p2 1438.5-1457.8 spawn times (27 in window); score steps: +3600 TSD 1443.43 (no clear between 1440.6 triple and it), +3602 TSS B2B 1448.00, then an unbroken REN: +1056 double, +608,+758,+910,+1060,+1210,+1360,+1512 singles REN2-8, +3765 TETRIS REN9 1456.10, +1820 single REN10, +1971 single REN11 at 1457.60 (KO frame). Garbage: tetris clears 4 garbage rows, last two singles one each (/tmp/claude-0/ak/corr/fr/g3/m070a.png); REN singles clear player rows (gc 0 is my reading, not certain)"
+  },
+  {
+   "id": "m076",
+   "side": "p1",
+   "op": "retype",
+   "t": 108.1,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 4,
+   "source": "true score 17532 -> 21166 (+3634 = TETRIS 2400 + REN8 1200 + drops; /tmp/claude-0/ak/corr/fr/g3/m076_score.png, the reader's 21729/21759 are 1/7 misreads), and the next TSD scores +5400 (B2B), which a triple would have broken; I dropped into the left garbage well at 108.3 (/tmp/claude-0/ak/corr/fr/g3/m076a.png)"
+  },
+  {
+   "id": "m081",
+   "side": "p1",
+   "op": "retype",
+   "t": 460.6,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "true score 88766 -> 90300 (+1534 = single REN8 1500) at ~461.3, before the next spawn at 461.50 (/tmp/claude-0/ak/corr/fr/g3/m081_score.png); the REN ladder 600,750,...,1350 covers the six chain singles and this is the seventh"
+  },
+  {
+   "id": "m081",
+   "side": "p1",
+   "op": "retype",
+   "t": 488.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "score 116322 -> 117374 (+1052 = double REN1) at 489.4, then triple REN2 +1802; the +1200 at 487.93 is a zero-line T-spin (SPIN banner) and +300 at 488.20 the I single (/tmp/claude-0/ak/corr/fr/g3/m081a.png, two player rows flash at 489.14)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "m066",
+   "player": "p1",
+   "field": "pieces",
+   "was": 192,
+   "value": 196,
+   "source": "nextcount p1 1067.9-1158.9: 196 spawns, the spawn sequence (incl. final queue) is a clean 7-bag at every bag; drawn 198 by KO (S spawned ~1158.8 unlocked at KO, O in hold) => 196 locks. Chain misses spawns 1076.20, 1077.60 and four of 1109.83-1112.77 (chain has 3x 1112.27 placeholders); frames /tmp/claude-0/ak/corr/fr/g3/m066b.png show fast placements after the 1110.6 TETRIS."
+  },
+  {
+   "id": "m068",
+   "player": "p1",
+   "field": "pieces",
+   "was": 155,
+   "value": 160,
+   "source": "nextcount p1 1271.5-1349.5: 161 spawns, clean 7-bag throughout; 162 drawn, T in hold and Z unlocked at KO => 160 locks (= 145 chain events before 1341.6 + 15 in the replaced window)"
+  },
+  {
+   "id": "m070",
+   "player": "p2",
+   "field": "pieces",
+   "was": 87,
+   "value": 81,
+   "source": "nextcount p2 1415.6-1457.7: 81 spawns, clean 7-bag; 82 drawn incl. the first piece, one in hold, none in play at KO (the 1457.0 piece locked and cleared on the KO frame) => 81 locks"
+  },
+  {
+   "id": "m070",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 7,
+   "value": 11,
+   "source": "score ladder 1448.0-1457.6: TSS then 11 consecutive clearing locks, last single +1971 = 300 + REN11 1650"
+  }
+ ],
+ "items": [
+  {
+   "n": 90,
+   "verdict": "no change",
+   "why": "S spawned 808.47 and still falling at KO; NEXT unshifted (m060a.png)"
+  },
+  {
+   "n": 91,
+   "verdict": "no change",
+   "why": "O spawned 911.27 stays at the top through 911.57; no lock (m062a.png)"
+  },
+  {
+   "n": 92,
+   "verdict": "no change",
+   "why": "+1200 at 909.93 is a zero-line T-spin (SPIN banner), +300 at 910.10 is the L single already logged as the chain's 910.0 single (m062b.png)"
+  },
+  {
+   "n": 93,
+   "verdict": "no change",
+   "why": "L spawned 952.20 was held at 952.26; the T from hold never locked before KO (m063a.png)"
+  },
+  {
+   "n": 94,
+   "verdict": "no change",
+   "why": "L spawned 1013.23 is still falling at 1013.34; it lands/freezes only at 1013.37 as the tilt starts, no NEXT shift (m064a/b.png)"
+  },
+  {
+   "n": 95,
+   "verdict": "no change",
+   "why": "S spawned 1058.73 stays at the top through the KO; score unchanged (m065a.png)"
+  },
+  {
+   "n": 96,
+   "verdict": "corrected",
+   "why": "nextcount gives a clean 7-bag spawn sequence; 196 locks vs chain 192: six None-lock adds and pieces 192->196"
+  },
+  {
+   "n": 97,
+   "verdict": "corrected",
+   "why": "1123.5 single is a double (+1950 = 900 + REN7), both garbage rows"
+  },
+  {
+   "n": 98,
+   "verdict": "corrected",
+   "why": "the 1215.9 double is phantom: only one double (1216.4, +908) before the 1217.8 tetris"
+  },
+  {
+   "n": 99,
+   "verdict": "no change",
+   "why": "both TSTs real: +7200 at 1236.1 and +7359 at ~1237.4 with Triple/B2B banners (m067b.png); the TSS banner read was wrong"
+  },
+  {
+   "n": 100,
+   "verdict": "corrected",
+   "why": "replace_window 1341.6-1349.43: no clear at 1341.6; real clears TSD 1342.9, TETRIS 1344.4, double 1345.4, TSD 1347.7"
+  },
+  {
+   "n": 101,
+   "verdict": "corrected",
+   "why": "the 1347.6 TSD banner is the real TSD (+3600 at 1347.67), kept as tsd at 1347.0 in the window replacement"
+  },
+  {
+   "n": 102,
+   "verdict": "corrected",
+   "why": "tail counted: 15 locks in 1341.6-1349.43, pieces 155->160 (Z hold-drop at 1349.50 is after KO)"
+  },
+  {
+   "n": 103,
+   "verdict": "corrected",
+   "why": "1302.43 single is a double (REN1 +1050)"
+  },
+  {
+   "n": 104,
+   "verdict": "corrected",
+   "why": "1331.87 single is a double (REN1 +1050), L into player row + garbage row"
+  },
+  {
+   "n": 105,
+   "verdict": "corrected",
+   "why": "no 4-line clear at 1440.9; the TSD (+3600) is at 1443.4, covered by the window replacement"
+  },
+  {
+   "n": 106,
+   "verdict": "corrected",
+   "why": "TSS at 1447.54 is real (+3602 B2B at 1448.0); placed at spawn 1447.23 in the replacement"
+  },
+  {
+   "n": 107,
+   "verdict": "corrected",
+   "why": "tail rebuilt from spawns and the REN11 score ladder; pieces 87->81, max_combo 7->11"
+  },
+  {
+   "n": 108,
+   "verdict": "no change",
+   "why": "+62 is drop points of the T-swap piece (chain 1576.17 lock) shown after KO effects; no clear"
+  },
+  {
+   "n": 109,
+   "verdict": "no change",
+   "why": "T spawned ~1620.03 stays at the top; never locks (m072a.png)"
+  },
+  {
+   "n": 110,
+   "verdict": "no change",
+   "why": "S hard-drops at ~1712.24 but p1's board is already tilted at 1712.17 (m074_tilt.png), so after KO"
+  },
+  {
+   "n": 111,
+   "verdict": "corrected",
+   "why": "108.1 triple is a TETRIS REN8 (+3634, true digits 17532->21166), making the 110.83 TSD B2B (+5400)"
+  },
+  {
+   "n": 112,
+   "verdict": "no change",
+   "why": "nextcount gives a clean 7-bag sequence; 106 lock-caused spawns = chain's 106 pieces (Z locked 217.53 before KO, T spawned after; m078a.png); the bag flags are chain misreads under effects"
+  },
+  {
+   "n": 113,
+   "verdict": "corrected",
+   "why": "460.6 lock is a single (REN8 +1534, the seventh single of the ladder)"
+  },
+  {
+   "n": 114,
+   "verdict": "corrected",
+   "why": "488.83 single is a double (+1052 REN1); +1200 at 487.93 is a zero-line T-spin"
+  },
+  {
+   "n": 115,
+   "verdict": "no change",
+   "why": "+4806 at 431.73 = TST, Triple banner visible at 431.6 (m081b.png)"
+  }
+ ]
+}

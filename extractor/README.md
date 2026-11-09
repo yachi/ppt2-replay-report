@@ -6,7 +6,7 @@ This directory holds the source code that wrote the chain output under
 ## What you cannot do with it alone
 
 - **Rebuild from zero without the videos.** The repo holds no video, no frame image and no derived
-  feature file (`*.npz`, `*.pkl`). To start again, download the 18 videos listed in `games.csv`
+  feature file (`*.npz`, `*.pkl`). To start again, download the videos listed in `games.csv`
   (column `video`) with `uvx yt-dlp -f "bv*[height<=480][ext=mp4]"`, then run extractors A and B.
 - **Run the scripts in place.** They contain absolute paths to the original work tree,
   `/private/tmp/claude-501/sk/...`. The code is kept byte for byte as it ran. It was not rewritten,
@@ -31,8 +31,7 @@ This directory holds the source code that wrote the chain output under
 `YbMeCRhjG1k`, `lgszEWNFSx0` and `cVO2eGipjV0`. `B` holds the other videos. The four trees are
 near-copies, and some files differ from tree to tree. `TJc` is a later port of `cVO` to the 2026-10-18
 video `TJcCRfhwNNI`; its README lists what it changes and how it was checked. `uP` is a port of `TJc` to the
-2026-10-28 video `uP3FeprmAGI`, with a score-sum check; its README lists the same. [PARALLEL.md](PARALLEL.md) describes how the `uP` run was parallelised: process pools for the chain, and workflow agents for the frame checks. `Gg` is a port of `uP` to the 2026-10-29 video `Ggl5NeUAYEA` (Yuukun3798 vs uyeshota): the video is
-rescaled to the uP geometry first, and pieces are re-counted from the NEXT queue for every player-game; its README lists the rest.
+2026-10-28 video `uP3FeprmAGI`, with a score-sum check; its README lists the same. `ach` is a port of `uP` to five uploads of 2026-10-28 against あちみつ (`FAsKhtwulHA`, `IJGqwSdiKwk`, `-zR8CNrXdCI`, `b-o1kjuoygk`, `pUZUSoR6VSU`); its README lists what it changes, the hidden-PC check and the NEXT-queue recount. `xo` is a port of `ach` to uyeshota's 2026-10-30 stream `XoaWLJowuCQ` (six FT15 sets, 139 games); its README lists the same, and the two forfeit games counted by hand. `r6` is a port of `xo` to syakegohan's 2026-10-30 stream `6rUc3cXsjbo` against ふられ (fourteen FT5 sets, 97 games), a 360p archive; its README lists what 360p broke and how each rule was changed. `xt` is a port of `xo` to uyeshota's 2026-11-02 stream `XTveY1Z22jU` (seven sets, 104 games); its README lists the same, and how the sets the streamer replayed from his own archive were found and dropped. `nk` is a port of `xt` (by way of the amemiya `tx` run of 2026-11-03) to ナリクラ's 2026-11-04 stream `m2-MB304ydQ` (28 ranked first-to-2 matches, 67 games); its README lists the rescale, the per-side banner word templates and the other changes. `aj` is a port of `nk` to ゆうくん's 2026-11-06 stream `aajsP06utaU` (one first-to-30 set against どらえもん, 58 games); its README lists the rescale, the streamer's camera box over p2's banner, the NEXT-queue I-flash fix in A and the seven hidden PERFECT CLEARs. `Gg` is a port of `uP` to the 2026-10-29 stream `Ggl5NeUAYEA` (ゆうくん, as Yuukun3798, against uyeshota; two FT15 sets, 51 games): the video is rescaled to the uP geometry first, and pieces are re-counted from the NEXT queue for every player-game; its README lists the rest. [PARALLEL.md](PARALLEL.md) describes how the `uP` run was parallelised: process pools for the chain, and workflow agents for the frame checks.
 
 ## How games.csv is made
 

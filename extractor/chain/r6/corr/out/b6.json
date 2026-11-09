@@ -1,0 +1,660 @@
+{
+ "event_corrections": [
+  {
+   "n": 254,
+   "id": "n014",
+   "side": "p1",
+   "op": "retype",
+   "t": 1099.23,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/a1.png: one TETRIS only (I lock ~1098.9, BACK to BACK); score 49964->53603 (+3639 quad B2B) already matched by quad 1098.6; this tst is a duplicate"
+  },
+  {
+   "n": 253,
+   "id": "n014",
+   "side": "p1",
+   "op": "retype",
+   "t": 1104.13,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/a2.png: piece locks with no clear; score flat at 64573 between the two TSDs"
+  },
+  {
+   "n": 253,
+   "id": "n014",
+   "side": "p1",
+   "op": "retype",
+   "t": 1106.63,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "fr/g6/a2.png/a3.png: sequence TSD,TSD(+5550 REN1),double(+1200 REN2),single(+777 REN3),single(~+929 REN4); this clear is a 1-row single"
+  },
+  {
+   "n": 253,
+   "id": "n014",
+   "side": "p1",
+   "op": "retype",
+   "t": 1109.2,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/a3.png: no clear; score only drop points 73068->73216"
+  },
+  {
+   "n": 253,
+   "id": "n014",
+   "side": "p1",
+   "op": "retype",
+   "t": 1110.0,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/a3.png: TETRIS at ~1111.4, score 73290->75690 (+2400, non-B2B quad); no other event for it"
+  },
+  {
+   "n": 257,
+   "id": "n021",
+   "side": "p2",
+   "op": "add",
+   "t": 1679.2,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/c1.png: one-row clear with REN at ~1679.6; score 32057->32529 (+472 = single REN1); next quad +2451 (non-B2B) consistent"
+  },
+  {
+   "n": 258,
+   "id": "n021",
+   "side": "p2",
+   "op": "retype",
+   "t": 1709.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/c2.png: L locks ~1710.6 with no clear; real clears single ~1711.2 (+319) and quad REN1 ~1712.1 (75801->78754)"
+  },
+  {
+   "n": 261,
+   "id": "n037",
+   "side": "p2",
+   "op": "retype",
+   "t": 3411.6,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "source": "fr/g6/d1.png: one-row clear ~3412.7 after T; score 9150->12753 (+3602 = TSS B2B; TST would be 7200)"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "retype",
+   "t": 3412.6,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/d1.png: duplicate of the TSS at 3411.6; only one spin clear on screen"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "retype",
+   "t": 3413.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/d2.png: TETRIS ~3414.7, score 12753->16366 (+3613 quad B2B)"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "add",
+   "t": 3415.75,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "fr/g6/d3.png: 2-row clear, score 16378->17292 (+914 double); garbage top dropped 2 rows"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "retype",
+   "t": 3426.2,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/d4.png: pieces lock, no clear; score 35486->35680 drop points only"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "retype",
+   "t": 3426.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/d4.png: pieces lock, no clear; score 35486->35680 drop points only"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "remove",
+   "t": 3430.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g6/d4.png: the S was held, no clear; next +3778 is quad B2B REN1 straight after the TSS"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "retype",
+   "t": 3432.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/d5.png: O locks, score flat at 48557"
+  },
+  {
+   "n": 260,
+   "id": "n037",
+   "side": "p2",
+   "op": "add",
+   "t": 3435.6,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/d5.png: I into right column, TETRIS ~3436.1, score 48795->52395 (+3600 quad B2B)"
+  },
+  {
+   "n": 264,
+   "id": "n042",
+   "side": "p2",
+   "op": "retype",
+   "t": 3953.67,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "fr/g6/e1.png: T into slot, 2-row clear ~3954.4 with Double banner; score +5554 = TSD B2B + REN1; next TSD +5400 keeps B2B"
+  },
+  {
+   "n": 265,
+   "id": "n042",
+   "side": "p2",
+   "op": "retype",
+   "t": 3983.77,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/e2.png: second TETRIS at ~3984.1 (+3772 = quad B2B REN1), coloured rows only"
+  },
+  {
+   "n": 266,
+   "id": "n042",
+   "side": "p2",
+   "op": "remove",
+   "t": 3997.93,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g6/e3.png: J goes to HOLD (no lock); only one single after the triple (+1522): T single REN1 +468, kept as single 3998.3"
+  },
+  {
+   "n": 267,
+   "id": "n042",
+   "side": "p2",
+   "op": "retype",
+   "t": 4025.67,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/e4.png: Z locks with no clear; the TSD is at 4027.18 (+5426)"
+  },
+  {
+   "n": 267,
+   "id": "n042",
+   "side": "p2",
+   "op": "retype",
+   "t": 4027.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/e4.png: after the TSD a single REN1 at 4027.84 (+478)"
+  },
+  {
+   "n": 268,
+   "id": "n042",
+   "side": "p2",
+   "op": "retype",
+   "t": 4028.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/e4.png: I locks with no clear; no score jump"
+  },
+  {
+   "n": 273,
+   "id": "n043",
+   "side": "p2",
+   "op": "retype",
+   "t": 4163.87,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "fr/g6/f1.png: one-row clear ~4164.1, score 106339->106655 (~+316 single)"
+  },
+  {
+   "n": 274,
+   "id": "n043",
+   "side": "p2",
+   "op": "retype",
+   "t": 4164.07,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "fr/g6/f1.png: second one-row clear ~4164.9 with REN1, score 106655->107111 (+456), before the KO at 4166.13"
+  },
+  {
+   "n": 275,
+   "id": "n052",
+   "side": "p2",
+   "op": "retype",
+   "t": 4675.73,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/g1.png: 4675.0-4675.3 is the TSD clear (16542); a red Z locks ~4675.6 with no clear; only one TETRIS (4676.5, 16564->20190 +3626) = quad 4676.63 gc4"
+  },
+  {
+   "n": 278,
+   "id": "n069",
+   "side": "p1",
+   "op": "retype",
+   "t": 6599.07,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/i1.png/i2.png: Z locks and one-row white band ~6599.2 (2 REN); p1 board shows 62862 at 6598.8 and 63498 at 6599.65 (+636 = single REN2). NOTE: unexplained +10000 between 52862 (6598.4) and 62862 (6598.8) left alone"
+  },
+  {
+   "n": 279,
+   "id": "n069",
+   "side": "p1",
+   "op": "retype",
+   "t": 6614.3,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "fr/g6/i4.png: one-row clear ~6614.7 with 7 REN; p1 score 74444->75822 (+1378 = single REN7 1350)"
+  },
+  {
+   "n": 279,
+   "id": "n069",
+   "side": "p1",
+   "op": "add",
+   "t": 6615.3,
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 2,
+   "source": "fr/g6/i4.png: I vertical at right ~6615.34, 3-row white band 6615.52 (8 REN); 75822->78552 (+2730 = triple REN8 2700); no chain lock exists between 6614.3 and 6616.17; gc 2 read from band covering 1 coloured + 2 garbage rows"
+  },
+  {
+   "n": 281,
+   "id": "n069",
+   "side": "p2",
+   "op": "retype",
+   "t": 6560.5,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "fr/g6/h1.png: T placed ~6560.6, 2-row clear ~6561.0; score 551->4156 (+3605 = TSD; TST would be 4800); then TST +7350 and TSD +5700 match the two 6562.9 events"
+  },
+  {
+   "n": 283,
+   "id": "n069",
+   "side": "p2",
+   "op": "retype",
+   "t": 6572.4,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "fr/g6/h2.png: vertical I, TETRIS banner ~6574.6; score 28665->32265 (+3600 quad B2B)"
+  },
+  {
+   "n": 282,
+   "id": "n069",
+   "side": "p2",
+   "op": "remove",
+   "t": 6577.5,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "fr/g6/h3.png: only the TSD at 6577.4 (+5400 ->37849); no further clear, score flat until next TSD +5400 (B2B kept, so no double in between)"
+  },
+  {
+   "n": 284,
+   "id": "n069",
+   "side": "p2",
+   "op": "retype",
+   "t": 6628.33,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/h4.png: red Z locks ~6628.27 with no clear; the TSS (Single banner, 82578->86178 +3600 B2B) is tss 6628.74, TETRIS 6630.5 is quad 6630.43"
+  },
+  {
+   "n": 285,
+   "id": "n069",
+   "side": "p2",
+   "op": "retype",
+   "t": 6632.1,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/h4.png: purple piece at left ~6632.05, 2-row white band 6632.32; score 89834->90746 (+912 = double, no REN since I at 6631.78 locked without clear)"
+  },
+  {
+   "n": 286,
+   "id": "n070",
+   "side": "p1",
+   "op": "retype",
+   "t": 6670.53,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/j1.png: only lock between the double at 6669.2 and the O spawn ~6670.7 clears 2 rows (band 6670.02-6670.34); score 39296->40348 (+1052 = double REN1)"
+  },
+  {
+   "n": 287,
+   "id": "n084",
+   "side": "p2",
+   "op": "retype",
+   "t": 7623.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/k1.png: only one single (~7624.9, 52728->53032 +304) between the double and the 7626.1 double; green piece locks ~7624.3 with no clear"
+  },
+  {
+   "n": 292,
+   "id": "n096",
+   "side": "p1",
+   "op": "retype",
+   "t": 8420.5,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g6/l3.png: blue I lands ~8420.56 with no clear (65120->65131); TSD at 8421.8 (+5401) is tsd 8421.67"
+  },
+  {
+   "n": 291,
+   "id": "n096",
+   "side": "p1",
+   "op": "add",
+   "t": 8422.45,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/l3.png: I placed, 4-row white band 8422.64; score 70532->74290 (+3758 = quad B2B + REN1)"
+  },
+  {
+   "n": 291,
+   "id": "n096",
+   "side": "p1",
+   "op": "add",
+   "t": 8431.6,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g6/l4.png: J placed ~8431.6, 2-row white band 8431.6-8431.9; score 88858->89774 (+916 double); next TSD 8433.3 is +3600 (B2B broken), consistent. gc read as 0, low confidence"
+  },
+  {
+   "n": 293,
+   "id": "n096",
+   "side": "p1",
+   "op": "retype",
+   "t": 8467.33,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "fr/g6/l5.png: purple piece at left, ONE-row band 8467.48 (4 REN); score 139799->140723 (+924 = single REN4); no T-spin (TSS/TSD would be >=2400)"
+  },
+  {
+   "n": 293,
+   "id": "n096",
+   "side": "p1",
+   "op": "add",
+   "t": 8468.15,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "fr/g6/l5.png: orange L ~8468.1, 2-row band 8468.38 (5 REN); score 140723->142399 (+1676 = double REN5 1650); gc 1 low confidence"
+  }
+ ],
+ "cell_edits": [],
+ "no_change": [
+  {
+   "n": 252,
+   "why": "n014 p1 bad bag: queue read garbled, true piece count not determinable from frames; event fixes in 253/254"
+  },
+  {
+   "n": 255,
+   "why": "b1.png: score over 1629-1634 matches double,single,single,single,quad with REN and 1637.23 quad B2B, all in chain; pieces 75 = nextcount 75"
+  },
+  {
+   "n": 256,
+   "why": "TSS +2482 at 1677.37 and quad +3616 at 1678.77 are both in the chain"
+  },
+  {
+   "n": 259,
+   "why": "n037 p2 bad bag: nextcount has 19 unread gaps, unreliable; event fixes in 260/261"
+  },
+  {
+   "n": 262,
+   "why": "d6.png: T placed 3468.7, one-row clear, +3600 = TSS B2B; chain tss correct"
+  },
+  {
+   "n": 263,
+   "why": "n042 p2 bad bag from queue misreads; event fixes in 264-268, no pieces edit"
+  },
+  {
+   "n": 269,
+   "why": "resolved by 267/268; TSD 4030.47 (+3600, non-B2B) correct"
+  },
+  {
+   "n": 270,
+   "why": "tsd 4032.83 lands 4034.13 (+5435) just after the window; window holds only 3600"
+  },
+  {
+   "n": 271,
+   "why": "TSD 4034.1, quad B2B 4035.8 (+3600), single 4036.77 (+450), single 4038.1 (+650): count matches"
+  },
+  {
+   "n": 272,
+   "why": "35100->37562 (+2462) is a non-B2B TSS after a triple; TST would be 4800"
+  },
+  {
+   "n": 276,
+   "why": "g2.png: last locks S/Z/S by ~4682.6 (score stays 24134); the O is still at the top when the KO screen appears, so no KO-frame lock"
+  },
+  {
+   "n": 277,
+   "why": "n069 p1 bad bag: nextcount unreliable on this capture; event fixes in 278/279"
+  },
+  {
+   "n": 280,
+   "why": "n069 p2 bad bag: nextcount unreliable; event fixes in 281-285"
+  },
+  {
+   "n": 288,
+   "why": "n090 p1 bad bag: single double-shift anomaly, frames cannot fix piece count"
+  },
+  {
+   "n": 289,
+   "why": "n096 p1 bad bag: nextcount unreliable; event fixes in 291-293"
+  },
+  {
+   "n": 290,
+   "why": "l1.png/l2.png: T into slot, 2-row band 8405.1, p1 score 43819->47465 (+3646 = TSD without B2B after the plain triple at 8403.1); later frame shows T-SPIN Double label; chain tsd correct"
+  }
+ ]
+}

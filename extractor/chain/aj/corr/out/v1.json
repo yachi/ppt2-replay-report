@@ -1,0 +1,107 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "p2 score 5431->10981 at 1524.97 (+5550 = TSD 3600x1.5 B2B + REN1 150); next single +626 = REN2. A plain double REN1 would be +1050."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "p2 score 17739->19561 at 1568.30 (+1822 = double REN6, piece 1567.5); O spawned 1568.667 locked ~1568.93 with +22 only (REN break); L spawned 1568.933 held, O out, +922 at 1569.17 = double REN0. Spawns per nextcount 1568.667, 1568.933, 1569.867: no spawn at 1569.53."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Sheet /tmp/claude-0/aj/corr/fr/v1/z030.png: S spawned 1649.03 held, O from hold sits on the board from ~1649.43 with score 40450->40482 at 1649.47, before KO 1649.5."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "nextcount p1 spawns 1716.33, 1717.1, 1718.03, 1726.7, 1728.0 (holds 1717.27 J, 1723.17 I, 1727.23 S). p1 score clears: +1372 @1716.83 (REN7), +1520 @1717.77 (REN8), +1650 @1726.07 (REN9), +1800 @1727.37 (REN10), +2570 @1728.57 (double REN11). One clear per spawn: the 1718.03 I (held, J out) and 1726.7 S (held, I out) are the two singles; 1718.17/1718.2 and 1726.33/1726.9 are doubled entries."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "p2 score (fixed-column read) 12467 @1709.17 (REN2) -> 19435 @1715.37: +6968 = REN3..REN8 singles (750+900+1050+1200+1350+1500=6750) + ~216 drop points, exactly the 6 spawns 1709.8..1714.567, so all of them cleared. Then +1650 @1715.80 (REN9, 1715.467), +1816 @1727.63 (REN10, O spawned 1716.467 held, Z out), +1978 @1729.27 (REN11, 1728.267), +2116 @1730.07 (REN12, 1729.567), +2250 @1730.50, +2400 @1731.33, +2570 @1732.03. nextcount has no spawn at 1716.53, 1727.8 or 1730.07; 10 spawns in the window as proposed."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Sheet /tmp/claude-0/aj/corr/fr/v1/z034.png: I spawned 1845.57 is on the board at 1845.80 (KO frame) with score 35886->35906 at 1845.80; no further spawn."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "p1 score +2400 @1953.97 (quad REN0), +1050 @1955.03 (= double REN1; O spawned 1954.8), then TSS +2400-ish non-B2B @1957.27 and quad B2B +3618 @1958.77; the double is what breaks B2B before the TSS."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "p2 score 23037 -> 25012 @2013.97 (+1975) after the quad +3928 (REN10); +1950 = single REN11. T spawned 2013.667, KO 2014.63."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "p2 score 5266->9006 @2154.90 (+3740 = TSS B2B 3600 + REN1 150) after TST +4807 @2153.87; next single +624 (REN2)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "nextcount p2 spawns 2218.033 (S, +18 lock @2218.10, no clear), 2218.2 (L held @2218.3, I out: +3600 quad B2B @2218.53), 2219.333 (Z held, L out: +450 single REN1 @2219.77). No spawn at 2218.77; the double there is phantom. gc values not checked."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "nextcount p1: hold T @2401.8; spawns 2401.93, 2402.2, 2402.53 (T), next 2406.9 (O, held 2407.0, T out). Sheet /tmp/claude-0/aj/corr/fr/v1/z046.png: the 2402.53 T hovers 2402.8-2405.6, score frozen at 26538, then +~900 plain double @2406.10 (the chain's 2402.53 double), then TSD +3760 @2407.97 (the chain's 2406.9 tsd). The 2402.87 x2 Nones and the 2406.2 double have no spawn and no score change; removing them is right."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "p2 score: TSD +5400 @2410.17; I spawned 2410.867 held, Z out locked +14 @2411.27 (no clear); S spawned 2411.367 held, I out: +14 drop @2411.53 then +1500 triple REN0 @2411.60, which is the chain's 2411.7 event."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Run 1561.77..1567.5 is 7 clears = REN6, confirmed by +1822 (double REN6) @1568.30; O lock @1568.93 breaks it; no other run in the game reaches 7."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "O lock at ~1649.43 before KO 1649.5 (see e2)."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Two duplicate single events removed (see e3); 5 spawns for the 5 true clears 1716.33-1728.0."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "Score steps give REN7, 8, 9, 10 and the double +2570 = REN11; REN ends after it (+22 lock @1729.53)."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "12 old events vs 10 nextcount spawns in [1709.8,1730.07] (see e4)."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "REN0 +300 @1707.10, REN1 +486 @1708.13, REN2 +636 @1709.17, REN3-8 sum fits exactly, then +150 per step to +2570 @1732.03 = REN15, before KO 1732.63."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "I locked on the KO frame 1845.80 (see e5)."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "Single at 2013.97 is REN11 (+1975 after quad REN10 +3928)."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "nextcount p1: spawns 2401.93, 2402.2, 2402.53 (T), then none until 2406.9 (O, held 2407.0, T out). Sheet /tmp/claude-0/aj/corr/fr/v1/z046.png shows the 2402.53 T hovering 2402.8-2405.6 with the score frozen at 26538, then +900ish double @2406.10, TSD +3760 @2407.97. The three chain events 2402.87, 2402.87, 2406.2 have no spawn: 74 -> 71."
+ }
+]

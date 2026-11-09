@@ -1,0 +1,128 @@
+[
+ {
+  "id": "m104",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1722 at 465.04 s (KO 464.77 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 465.04,
+  "n": 142,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m104",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 1722 ending at t=465.04 (window from 462.44); chain clears there explain all but 522; chain clears near: [[462.33, 600, 'single']]",
+  "t_s": 465.04,
+  "n": 143,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m105",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 496.5 s typed as a plain clear",
+  "t_s": 496.5,
+  "n": 144,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m105",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 631 ending at t=498.2 (window from 492.93); chain clears there explain all but -569; chain clears near: [[496.5, 900, 'double'], [497.23, 3750, 'tsd'], [497.9, 1800, 'triple']]",
+  "t_s": 498.2,
+  "n": 145,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m107",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 595.57,
+  "n": 146,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m109",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 665.5 s",
+  "t_s": 665.5,
+  "n": 147,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m111",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +778 at 783.27 s (KO 782.9 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 783.27,
+  "n": 148,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m112",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +138 at 908.7 s (KO 908.87 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 908.7,
+  "n": 149,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m112",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step 644 ending at t=826.73 (window from 819.7); chain clears there explain all but -556; chain clears near: [[823.4, 3600, 'tsd'], [824.53, 5550, 'tsd'], [825.6, 3900, 'quad'], [826.53, 750, 'single']]",
+  "t_s": 826.73,
+  "n": 150,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m114",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -588 ending at t=995.97 (window from 992.13); chain clears there explain all but -588; chain clears near: [[991.83, 450, 'single'], [992.2, 600, 'single'], [995.03, 3600, 'tsd']]",
+  "t_s": 995.97,
+  "n": 151,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m115",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 1084.43,
+  "n": 152,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m116",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 1102.4 s, no A clear matched (added by R/build.py)",
+  "t_s": 1102.4,
+  "n": 153,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m116",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "on-screen score step -5451 ending at t=1111.27 (window from 1102.37); chain clears there explain all but -5451; chain clears near: [[1103.43, 5550, 'tsd'], [1105.5, 3600, 'quad'], [1106.87, 5400, 'tsd'], [1108.2, 450, 'single'], [1108.9, 600, 'single'], [1109.87, 750, 'single'], [1110.8, 3000, 'quad']]",
+  "t_s": 1111.27,
+  "n": 154,
+  "video": "pUZUSoR6VSU"
+ },
+ {
+  "id": "m116",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+  "t_s": 1156.3,
+  "n": 155,
+  "video": "pUZUSoR6VSU"
+ }
+]

@@ -31,7 +31,7 @@ feature file is committed.
 
 ## Corrections
 
-All event corrections and hand edits are in `analysis/ppt2-yuukun/`. The frame check is in `corr/`:
+All event corrections and hand edits are in `analysis/ppt2-yukun/` (the `y…` entries): ゆうくん's games from this stream sit beside his 2026-11-06 stream there, under the name `yukun`. The frame check is in `corr/`:
 
 1. `corr/items.json`: 123 items, the chain's 80 flags plus 43 score-sum spots (`corr/tools/score.py`).
    Three readers (`out/b0-2.json`) each frame-checked a group (`group0-2.json`) under `BRIEF.md`; three skeptics
@@ -49,4 +49,4 @@ All event corrections and hand edits are in `analysis/ppt2-yuukun/`. The frame c
    y050 p2 (its last piece is seen locking before the KO), are the 13 hand edits (`corr/tools/cells_final.py`).
    Gap windows (extractor B's spliced counts) account for most of them. Every final count fits the NEXT count.
 
-`chain_games.csv`, `flags.json` and `sanity.txt` are the chain output after the event fixes, before `hand-edits.csv`.
+`chain_games.csv`, `flags.json` and `sanity.txt` are the chain output after the event fixes, before `hand-edits.csv`. Their `who` column still reads `Yuukun3798`; in `analysis/ppt2-yukun/games.csv` it reads `yukun`.

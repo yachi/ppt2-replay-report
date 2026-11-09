@@ -1,0 +1,982 @@
+{
+ "event_corrections": [
+  {
+   "n": 336,
+   "id": "n004",
+   "side": "p2",
+   "op": "retype",
+   "t": 212.83,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g8/n004a.png"
+  },
+  {
+   "n": 336,
+   "id": "n004",
+   "side": "p2",
+   "op": "retype",
+   "t": 213.37,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n004a.png"
+  },
+  {
+   "n": 339,
+   "id": "n005",
+   "side": "p1",
+   "op": "retype",
+   "t": 331.5,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 1,
+   "source": "fr/g8/n005c.png s5c.png"
+  },
+  {
+   "n": 340,
+   "id": "n005",
+   "side": "p1",
+   "op": "retype",
+   "t": 474.2,
+   "was": [
+    "tsmini",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n005d.png n005e.png s5d.png"
+  },
+  {
+   "n": 341,
+   "id": "n005",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 489.6,
+   "t_end": 490.07,
+   "events": [
+    {
+     "t": 489.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 490.07,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 3
+    }
+   ],
+   "was_old": [
+    [
+     489.6,
+     "quad",
+     4
+    ],
+    [
+     490.07,
+     "quad",
+     4
+    ]
+   ],
+   "source": "fr/g8/n005f.png s5e.png"
+  },
+  {
+   "n": 344,
+   "id": "n012",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 989.77,
+   "t_end": 993.37,
+   "events": [
+    {
+     "t": 989.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 991.2,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 991.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 993.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     989.77,
+     "double",
+     2
+    ],
+    [
+     991.2,
+     "single",
+     1
+    ],
+    [
+     991.7,
+     "double",
+     2
+    ],
+    [
+     993.37,
+     "single",
+     1
+    ]
+   ],
+   "source": "fr/g8/n012a.png n012b.png s12.png"
+  },
+  {
+   "n": 344,
+   "id": "n012",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 996.0,
+   "t_end": 997.7,
+   "events": [
+    {
+     "t": 996.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 996.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 996.9,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 997.7,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     997.63,
+     null,
+     0
+    ],
+    [
+     997.63,
+     null,
+     0
+    ],
+    [
+     997.63,
+     "triple",
+     3
+    ],
+    [
+     997.67,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g8/n012c.png n012d.png s12.png"
+  },
+  {
+   "n": 345,
+   "id": "n016",
+   "side": "p1",
+   "op": "add",
+   "t": 1186.07,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n016a.png"
+  },
+  {
+   "n": 345,
+   "id": "n016",
+   "side": "p1",
+   "op": "add",
+   "t": 1186.3,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n016a.png"
+  },
+  {
+   "n": 345,
+   "id": "n016",
+   "side": "p1",
+   "op": "retype",
+   "t": 1194.5,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g8/n016c.png"
+  },
+  {
+   "n": 345,
+   "id": "n016",
+   "side": "p1",
+   "op": "retype",
+   "t": 1195.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n016c.png"
+  },
+  {
+   "n": 347,
+   "id": "n017",
+   "side": "p1",
+   "op": "retype",
+   "t": 1212.2,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g8/n017a.png s17a.png"
+  },
+  {
+   "n": 347,
+   "id": "n017",
+   "side": "p1",
+   "op": "retype",
+   "t": 1212.47,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n017a.png s17a.png"
+  },
+  {
+   "n": 348,
+   "id": "n017",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1240.53,
+   "t_end": 1242.93,
+   "events": [
+    {
+     "t": 1240.53,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1242.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1242.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1240.53,
+     "tst",
+     4
+    ],
+    [
+     1242.93,
+     null,
+     0
+    ],
+    [
+     1242.93,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g8/n017b.png n017c.png s17b.png"
+  },
+  {
+   "n": 350,
+   "id": "n017",
+   "side": "p1",
+   "op": "retype",
+   "t": 1247.17,
+   "was": [
+    "tsmini",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n017e.png n017d.png"
+  },
+  {
+   "n": 352,
+   "id": "n017",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1416.9,
+   "t_end": 1419.93,
+   "events": [
+    {
+     "t": 1416.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1417.53,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 3
+    },
+    {
+     "t": 1418.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1418.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1418.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1419.43,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1419.93,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     1416.9,
+     "triple",
+     3
+    ],
+    [
+     1417.53,
+     "triple",
+     3
+    ],
+    [
+     1418.13,
+     null,
+     0
+    ],
+    [
+     1418.63,
+     null,
+     0
+    ],
+    [
+     1418.83,
+     "single",
+     1
+    ],
+    [
+     1419.43,
+     "single",
+     1
+    ],
+    [
+     1419.93,
+     "quad",
+     4
+    ]
+   ],
+   "source": "fr/g8/n017h.png n017i.png s17d.png"
+  },
+  {
+   "n": 353,
+   "id": "n017",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1424.4,
+   "t_end": 1425.3,
+   "events": [
+    {
+     "t": 1424.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1425.3,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     1425.3,
+     null,
+     0
+    ],
+    [
+     1425.3,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g8/n017j.png n017k.png s17e.png"
+  },
+  {
+   "n": 354,
+   "id": "n017",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1429.3,
+   "t_end": 1430.3,
+   "events": [
+    {
+     "t": 1429.3,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1430.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1430.3,
+     null,
+     0
+    ],
+    [
+     1430.3,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g8/n017l.png n017m.png s17e.png"
+  },
+  {
+   "n": 356,
+   "id": "n022",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1753.17,
+   "t_end": 1755.2,
+   "events": [
+    {
+     "t": 1753.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1754.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1754.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1753.17,
+     "BREAK",
+     5
+    ],
+    [
+     1755.2,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "fr/g8/n022c.png s22b.png"
+  },
+  {
+   "n": 357,
+   "id": "n022",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1745.13,
+   "t_end": 1746.7,
+   "events": [
+    {
+     "t": 1745.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1745.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1746.7,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     1745.13,
+     "BREAK",
+     3
+    ],
+    [
+     1745.77,
+     "tst",
+     4
+    ],
+    [
+     1746.7,
+     "quad",
+     4
+    ]
+   ],
+   "source": "fr/g8/n022a.png n022b.png s22a.png"
+  },
+  {
+   "n": 359,
+   "id": "n047",
+   "side": "p2",
+   "op": "retype",
+   "t": 4310.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g8/n047a.png s47a.png"
+  },
+  {
+   "n": 360,
+   "id": "n047",
+   "side": "p2",
+   "op": "add",
+   "t": 4325.04,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n047b.png"
+  },
+  {
+   "n": 362,
+   "id": "n055",
+   "side": "p2",
+   "op": "retype",
+   "t": 4889.77,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n055a.png s55a.png"
+  },
+  {
+   "n": 363,
+   "id": "n055",
+   "side": "p2",
+   "op": "retype",
+   "t": 4888.93,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n055a.png s55a.png"
+  },
+  {
+   "n": 365,
+   "id": "n059",
+   "side": "p2",
+   "op": "retype",
+   "t": 5339.47,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n059a.png s59a.png"
+  },
+  {
+   "n": 365,
+   "id": "n059",
+   "side": "p2",
+   "op": "retype",
+   "t": 5341.17,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "fr/g8/n059b.png s59a.png"
+  },
+  {
+   "n": 367,
+   "id": "n059",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 5376.73,
+   "t_end": 5377.3,
+   "events": [
+    {
+     "t": 5376.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5377.0,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5376.73,
+     "tst",
+     4
+    ],
+    [
+     5376.73,
+     null,
+     0
+    ],
+    [
+     5376.73,
+     null,
+     0
+    ],
+    [
+     5377.23,
+     null,
+     0
+    ],
+    [
+     5377.27,
+     null,
+     0
+    ],
+    [
+     5377.3,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "fr/g8/n059c.png s59b.png"
+  },
+  {
+   "n": 372,
+   "id": "n062",
+   "side": "p2",
+   "op": "retype",
+   "t": 5828.83,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "fr/g8/n062a.png s62a.png"
+  },
+  {
+   "n": 373,
+   "id": "n062",
+   "side": "p2",
+   "op": "retype",
+   "t": 5847.8,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g8/n062b.png s62b.png"
+  },
+  {
+   "n": 374,
+   "id": "n062",
+   "side": "p2",
+   "op": "retype",
+   "t": 5859.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "fr/g8/s62c.png"
+  },
+  {
+   "n": 376,
+   "id": "n093",
+   "side": "p1",
+   "op": "retype",
+   "t": 8097.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g8/n093a.png s93a.png"
+  },
+  {
+   "n": 376,
+   "id": "n093",
+   "side": "p1",
+   "op": "remove",
+   "t": 8098.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g8/n093a.png s93a.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 345,
+   "id": "n016",
+   "player": "p1",
+   "field": "pieces",
+   "was": 23,
+   "value": 25,
+   "source": "fr/g8/n016a.png"
+  },
+  {
+   "n": 360,
+   "id": "n047",
+   "player": "p2",
+   "field": "pieces",
+   "was": 50,
+   "value": 51,
+   "source": "fr/g8/n047b.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 337,
+   "why": "true score was 26237 (misread 28237); clears add up"
+  },
+  {
+   "n": 338,
+   "why": "TSS, doubles and singles with REN add up; no change"
+  },
+  {
+   "n": 342,
+   "why": "last T still in the air at the KO frame"
+  },
+  {
+   "n": 343,
+   "why": "10 locks seen match the chain"
+  },
+  {
+   "n": 346,
+   "why": "I still in the air at the KO frame"
+  },
+  {
+   "n": 349,
+   "why": "covered by the n=348 replace_window (1240.53 tst -> tsd)"
+  },
+  {
+   "n": 351,
+   "why": "TSS, double+quad, quad B2B and S single all match frames; small REN residual unexplained"
+  },
+  {
+   "n": 355,
+   "why": "queue misreads (double shifts); count not resolvable from frames"
+  },
+  {
+   "n": 358,
+   "why": "+4800 = TST without B2B; chain correct"
+  },
+  {
+   "n": 361,
+   "why": "bad bag: queue misread, nothing visible to correct"
+  },
+  {
+   "n": 364,
+   "why": "bad bag: queue misread, nothing visible to correct"
+  },
+  {
+   "n": 366,
+   "why": "gap: no change beyond the n=367 replace_window"
+  },
+  {
+   "n": 368,
+   "why": "+3600 = TSS with B2B, one row, Single banner; chain correct"
+  },
+  {
+   "n": 369,
+   "why": "tail gap unresolved: overlay hides score, too long to count"
+  },
+  {
+   "n": 370,
+   "why": "bad bag: queue misread, nothing visible to correct"
+  },
+  {
+   "n": 371,
+   "why": "gap: no change beyond n=372/373 corrections"
+  },
+  {
+   "n": 375,
+   "why": "TETRIS banner at ~7992 (score 79471), doubles after; chain matches frames"
+  },
+  {
+   "n": 377,
+   "why": "Z locked ~8137.9 (chain 8137.67); O held, T in air at KO; nothing to add"
+  }
+ ]
+}

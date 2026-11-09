@@ -1,0 +1,95 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score p1 10939->16339 (+5400 B2B TSD, 2438.5) then 16347->21897 at 2440.37 (+5550 = B2B TSD 5400 + REN1); a plain double would be 1050 and break B2B. TSD confirmed."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "fr/v2/z048a.png: clear flash at 2484.77 (score 25385, the 2483.43 clear), then the L sits at the top, is held ~2486.2 and the I from hold hovers until it clears at 2489.95 (26445 = +1050, single REN5). Score 25385 flat 2484.8-2489.6; no lock between. 2485.33 phantom."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Same frames fr/v2/z048a.png: only one lock (the I, clearing at 2489.95) between the 2484.77 clear and the 2490.53 spawn; the chain's 2490.0 single covers it, so 2485.4 is a duplicate."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v2/z048b.png: p2 clear at ~2485.97 (26838->28188, the 2484.3 single REN7), T spawned 2486.3 hovers with score flat 28188 until held 2490.43 (nextcount), J from hold clears at 2490.78 (29716). No lock/clear for the T; 2486.3 phantom."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score p2 53293->56893 (+3600 TSD REN0, 2546.13) then 56905->62455 at 2548.13 (+5550 = B2B TSD + REN1). Plain double impossible (would be 1050)."
+ },
+ {
+  "ref": "e5",
+  "verdict": "amend",
+  "why": "The score arithmetic is right (one double too many between the REN break and the REN7 double: 138255->139169 is a single REN0 double), but the phantom is the O at 2762.63, not the S at 2763.37. fr/v2/z051a.png and fr/v2/z051b.png: O drops on the top right at 2762.7-2762.9 with no clear flash; the S (green) lands at ~2763.1 and the two bottom rows of its stack (its own row and the garbage row under it) flash white at 2763.2-2763.4, then 139169 appears at 2763.40. So 2762.63 -> no clear, 2763.37 stays a double and takes the garbage row (gc 1, which the chain had put on 2762.63). With that, REN0 at 2763.37 and singles REN1..REN6 then double REN7 fit 1056/754/904/1052/1206/1958 exactly, same as the checker's total.",
+  "amended": {
+   "op": "replace_window",
+   "t": 2762.63,
+   "t_end": 2763.37,
+   "events": [
+    {
+     "t": 2762.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2763.37,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     2762.63,
+     "double",
+     2
+    ],
+    [
+     2763.37,
+     "double",
+     2
+    ]
+   ]
+  }
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score p2 154189->161393 by 2772.40 (+7204 B2B TST, 2770.77 event) and 161400->168750 at 2773.37 (+7350 = B2B TST + REN1); a plain triple would be 1650. TST."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "With 2439.9 a TSD the difficult run tst 2430.63, tsd 2434.77, tsd 2438.5, tsd 2439.9 has only no-clear locks between; scores show B2B on the last three (+5400, +5550) -> max_b2b 3."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Frames z048a.png: L held, only the I locked between 2484.77 and 2490.53; two phantom locks -> 72."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Clear at 2489.95 scores +1050 = single REN5 (2478.7 tss REN0 ... 2483.43 REN4), and the run continues through 2499.1: 16 clears = REN15."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "z048b.png: the T spawned 2486.30 was held, not locked -> 80."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "Scores 28188 (+1378 REN7), 29716 (+1528 REN8), 31394 (REN9), 33826 (+2432 double REN10), REN broken after (None locks 2493.x) -> 10."
+ }
+]

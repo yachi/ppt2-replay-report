@@ -1,6 +1,6 @@
 # ppt2-replay-report
 
-Puyo Puyo Tetris 2 match data for syakegohan (しゃけごはん), amemiya (たいようあめみや) and Yuukun3798 (ゆうくん), read frame by frame
+Puyo Puyo Tetris 2 match data for syakegohan (しゃけごはん), amemiya (たいようあめみや), uyeshota (ういしょうた), narikura (ナリクラ) and yukun (ゆうくん), read frame by frame
 from YouTube video.
 Site: <https://yachi.github.io/ppt2-replay-report/>
 
@@ -12,10 +12,11 @@ the PPT2 attack table is different. The TETR.IO reports are in
 
 | path | what |
 |---|---|
-| `analysis/ppt2-<slug>/` | one directory for each player: `analysis/ppt2-syakegohan/`, `analysis/ppt2-amemiya/` and `analysis/ppt2-yuukun/` |
+| `analysis/ppt2-<slug>/` | one directory for each player: `analysis/ppt2-syakegohan/`, `analysis/ppt2-amemiya/`, `analysis/ppt2-uyeshota/`, `analysis/ppt2-narikura/` and `analysis/ppt2-yukun/` |
 | `analysis/ppt2-<slug>/games.csv` | one row for each player in each game: the data that the player's pages render |
 | `analysis/ppt2-<slug>/event-corrections.json` | extractor events corrected by eye from the frames, applied before the tally |
 | `analysis/ppt2-<slug>/hand-edits.csv` | cell corrections laid over the chain output, each with its source |
+| `analysis/piece-pairing/` | the piece-pairing study pages (`lookup/`, `triples/`), wrapped and rendered by `bin/build-docs` as `ppt2-lookup.html` and `ppt2-triples.html` |
 | `pipeline/subjects.py` | one record for each player: name, channel, data paths, page names and the caveats measured on that player's data |
 | `pipeline/ppt2_page.py` | the renderer, shared by every player. It uses the Python standard library only |
 | `bin/build-docs` | writes `docs/` for every player whose `games.csv` exists, and the index. With `--check`, it re-renders and byte-compares (the CI gate) |
@@ -31,7 +32,6 @@ bin/build-docs            # render docs/ from every analysis/ppt2-<slug>/games.c
 bin/build-docs --check    # fail if docs/ differs from what those games.csv files render
 python3 -m pipeline.ppt2_page --apply syakegohan <chain games.csv>   # games.csv = chain output + hand-edits.csv
 python3 -m pipeline.ppt2_page --apply amemiya <chain games.csv>
-python3 -m pipeline.ppt2_page --apply yuukun <chain games.csv>   # extractor/chain/Gg/chain_games.csv
 ```
 
 The video copyright belongs to the original authors. The site links to YouTube and copies no frame.

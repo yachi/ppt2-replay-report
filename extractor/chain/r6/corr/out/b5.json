@@ -1,0 +1,748 @@
+{
+ "event_corrections": [
+  {
+   "n": 211,
+   "id": "n005",
+   "side": "p2",
+   "op": "retype",
+   "t": 234.1,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "only one TSD near 233.4 (+5550); next clear is the quad (+3650 by 237.77); 234.10 tsd is a phantom (TST banner lingering). fr/g5/a.png"
+  },
+  {
+   "n": 213,
+   "id": "n005",
+   "side": "p2",
+   "op": "remove",
+   "t": 267.6,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "source": "duplicate of quad at 268.07: only one +3600 jump (267.97) between 265.2 and 272.3"
+  },
+  {
+   "n": 214,
+   "id": "n005",
+   "side": "p2",
+   "op": "retype",
+   "t": 285.3,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score 81429->86837 (+5408) = TSD B2B; TSD visible 285.6-285.8. fr/g5/b.png"
+  },
+  {
+   "n": 214,
+   "id": "n005",
+   "side": "p2",
+   "op": "add",
+   "t": 286.6,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "score 86837->90611 (+3774) quad; I into garbage well 286.64-286.88. fr/g5/b.png"
+  },
+  {
+   "n": 216,
+   "id": "n005",
+   "side": "p2",
+   "op": "add",
+   "t": 368.4,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "REN singles +1050,+1228,+1380 (REN5,6,7) need a single at ~368.5 that the chain lacks. fr/g5/e.png"
+  },
+  {
+   "n": 217,
+   "id": "n005",
+   "side": "p2",
+   "op": "retype",
+   "t": 497.63,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no score rise at 497.6. fr/g5/d.png"
+  },
+  {
+   "n": 217,
+   "id": "n005",
+   "side": "p2",
+   "op": "add",
+   "t": 506.1,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "+1062 = double + REN150. fr/g5/d.png"
+  },
+  {
+   "n": 217,
+   "id": "n005",
+   "side": "p2",
+   "op": "add",
+   "t": 508.6,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "+2422 quad no B2B, TETRIS banner 509.44. fr/g5/d.png"
+  },
+  {
+   "n": 218,
+   "id": "n005",
+   "side": "p2",
+   "op": "remove",
+   "t": 493.37,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "source": "duplicate of quad at 494.27: only one +3600 jump at 494.17"
+  },
+  {
+   "n": 219,
+   "id": "n006",
+   "side": "p1",
+   "op": "retype",
+   "t": 544.33,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "score 29017->30101 at 545.23 before KO 545.33; L locked ~545.0 and cleared bottom grey row. fr/g5/f.png"
+  },
+  {
+   "n": 221,
+   "id": "n011",
+   "side": "p2",
+   "op": "add",
+   "t": 921.0,
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 0,
+   "source": "I vertical 921.3, 3-row band 921.45, score +1522. fr/g5/h.png"
+  },
+  {
+   "n": 221,
+   "id": "n011",
+   "side": "p2",
+   "op": "add",
+   "t": 922.5,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "T placed 922.6, 1-row band 922.78, score +348. fr/g5/i.png"
+  },
+  {
+   "n": 222,
+   "id": "n021",
+   "side": "p1",
+   "op": "retype",
+   "t": 1690.7,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "score +1200 (double + REN2), '2 REN' banner, 2-row band ~1691.1. fr/g5/j.png"
+  },
+  {
+   "n": 225,
+   "id": "n034",
+   "side": "p1",
+   "op": "remove",
+   "t": 3156.87,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "source": "real clears: quad 3157.0 (+3677), triple 3159.87, triple 3161.27, quad 3163.63, TSS 3165.27; 3156.87 duplicates the 3157.0 quad. fr/g5/l.png"
+  },
+  {
+   "n": 225,
+   "id": "n034",
+   "side": "p1",
+   "op": "remove",
+   "t": 3161.3,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "source": "no quad at 3161.3; only the triple (+1670) there. fr/g5/l.png"
+  },
+  {
+   "n": 228,
+   "id": "n038",
+   "side": "p2",
+   "op": "retype",
+   "t": 3497.53,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no clear between TSS 3497.45 and quad ~3499.4 (26635->30335 = +3700 quad B2B). fr/g5/m.png"
+  },
+  {
+   "n": 229,
+   "id": "n038",
+   "side": "p2",
+   "op": "retype",
+   "t": 3530.03,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "O dropped ~3530.2, cleared one row, score +636 (single + REN), before KO 3530.87. fr/g5/n.png"
+  },
+  {
+   "n": 232,
+   "id": "n060",
+   "side": "p2",
+   "op": "add",
+   "t": 5607.3,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +3600 at 5607.47, I piece seen 5607.5; chain has no clear. Duplicate-looking quad 5593.63 is real (second quad 5594.9, fr/g5/p.png). fr/g5/q.png"
+  },
+  {
+   "n": 233,
+   "id": "n060",
+   "side": "p2",
+   "op": "retype",
+   "t": 5588.83,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no clear 5588.6-5590.2; the real TSD at 5590.4 is the chain's tsd 5590.50. fr/g5/o.png"
+  },
+  {
+   "n": 234,
+   "id": "n060",
+   "side": "p2",
+   "op": "retype",
+   "t": 5650.1,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "single band and 'Single' banner, +3600 = TSS B2B. fr/g5/r.png"
+  },
+  {
+   "n": 234,
+   "id": "n060",
+   "side": "p2",
+   "op": "add",
+   "t": 5650.8,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "188374->191572 = single 450 + quad 2700 REN arithmetic; a single is missing. fr/g5/r.png"
+  },
+  {
+   "n": 234,
+   "id": "n060",
+   "side": "p2",
+   "op": "retype",
+   "t": 5661.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "only one clear 5660.9-5665: quad (TETRIS banner) at ~5662.3, 204373->208003 (+3630, B2B); no clear at 5661.2. fr/g5/s.png"
+  },
+  {
+   "n": 234,
+   "id": "n060",
+   "side": "p2",
+   "op": "retype",
+   "t": 5663.1,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "the single clear here is a quad (+3630, TETRIS banner 5663.0); grey garbage rows remain after it. fr/g5/s.png"
+  },
+  {
+   "n": 234,
+   "id": "n060",
+   "side": "p2",
+   "op": "retype",
+   "t": 5663.1,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no second clear (score flat 208003 -> 208083 until the TSS at ~5664.8). fr/g5/s.png"
+  },
+  {
+   "n": 234,
+   "id": "n060",
+   "side": "p2",
+   "op": "retype",
+   "t": 5665.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no score rise after the TSS (211683 flat 5664.8-5665.7); board only rose by garbage. fr/g5/s.png"
+  },
+  {
+   "n": 235,
+   "id": "n060",
+   "side": "p2",
+   "op": "retype",
+   "t": 5638.63,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "no clear until an I vertical at ~5641.4: TETRIS banner, 171806->175406 (+3600 quad B2B); coloured rows, grey stays. No TSD/TST. fr/g5/t.png"
+  },
+  {
+   "n": 237,
+   "id": "n061",
+   "side": "p1",
+   "op": "retype",
+   "t": 5710.53,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "double at 5709.7 (+900) left one row; S placed ~5710.5 did not clear it (row still there 5710.66). fr/g5/v.png fr/g5/w.png"
+  },
+  {
+   "n": 237,
+   "id": "n061",
+   "side": "p1",
+   "op": "retype",
+   "t": 5710.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "I horizontal ~5710.9 clears the last row: PERFECT CLEAR banner 5710.98, 11843->14726. fr/g5/w.png"
+  },
+  {
+   "n": 238,
+   "id": "n061",
+   "side": "p1",
+   "op": "retype",
+   "t": 5716.47,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "one clear only: I vertical into left well ~5716.8, PERFECT CLEAR banner 5716.89, 18824->32024 in one jump. fr/g5/x.png"
+  },
+  {
+   "n": 238,
+   "id": "n061",
+   "side": "p1",
+   "op": "retype",
+   "t": 5716.9,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no second quad: board empty after the PC, next jump only at the TST 5721.77. fr/g5/x.png"
+  },
+  {
+   "n": 240,
+   "id": "n061",
+   "side": "p1",
+   "op": "retype",
+   "t": 5731.7,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "after the double at 5730.6 (+900) one row remains; O pieces placed 5731.5-5731.7 clear nothing. fr/g5/y.png"
+  },
+  {
+   "n": 240,
+   "id": "n061",
+   "side": "p1",
+   "op": "retype",
+   "t": 5732.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "T placed ~5731.9 completes the last row: PERFECT CLEAR banner 5732.18, 57220->61793. fr/g5/y.png"
+  },
+  {
+   "n": 243,
+   "id": "n084",
+   "side": "p1",
+   "op": "add",
+   "t": 7606.1,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "REN singles score +470,+600,+778,+929,+1080 (REN1-5) = five singles; chain has four, none between 7605.03 and 7607.2 ('2 REN' banner ~7606.6, top garbage row cleared). fr/g5/aa.png"
+  },
+  {
+   "n": 243,
+   "id": "n084",
+   "side": "p1",
+   "op": "retype",
+   "t": 7610.33,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 0,
+   "gc": 3,
+   "source": "I vertical in garbage well ~7610.5 clears 3 garbage rows; 33575->36009 (+2434 = triple + REN6 900). fr/g5/aa.png"
+  },
+  {
+   "n": 245,
+   "id": "n095",
+   "side": "p2",
+   "op": "retype",
+   "t": 8271.87,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "only one clear at ~8271.9: TSD, +5450 (5400 B2B + drop); no double. fr/g5/ac.png"
+  },
+  {
+   "n": 245,
+   "id": "n095",
+   "side": "p2",
+   "op": "retype",
+   "t": 8273.8,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "I from hold locked ~8274.4 into the well: TETRIS banner, 40410->44010 (+3600 B2B); the 2 grey garbage rows are gone after. Chain had this lock as None. fr/g5/ac.png"
+  },
+  {
+   "n": 245,
+   "id": "n095",
+   "side": "p2",
+   "op": "add",
+   "t": 8275.4,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "orange L at 8275.42 clears one row (band 8275.7), 44010->44496 (+486 = single REN1); chain has no lock 8273.8-8277.7. fr/g5/ac.png"
+  },
+  {
+   "n": 246,
+   "id": "n095",
+   "side": "p2",
+   "op": "retype",
+   "t": 8266.27,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no clear between the quad (8264.5) and the TSS at 8267.8 (+3600, single band); score only drop points. fr/g5/ab.png"
+  },
+  {
+   "n": 247,
+   "id": "n095",
+   "side": "p2",
+   "op": "retype",
+   "t": 8330.53,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "T placed ~8330.9 clears 2 coloured rows: 126465->131872 (+5407 = TSD B2B). fr/g5/ae.png"
+  },
+  {
+   "n": 247,
+   "id": "n095",
+   "side": "p2",
+   "op": "add",
+   "t": 8331.8,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "I vertical into the garbage well ~8332.0 clears 4 garbage rows: 131872->135648 (+3776 = quad B2B + REN). Chain has no lock until 8334.44. fr/g5/ae.png"
+  },
+  {
+   "n": 251,
+   "id": "n096",
+   "side": "p2",
+   "op": "add",
+   "t": 8505.5,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "after the quad, 5 hard-drop score increments (8505.57,8505.90,8506.20,8506.37,8506.57) before the TSD's T soft-drop; chain has 1 lock (8506.97). O, S, L, J, Z seen locking. fr/g5/af.png"
+  },
+  {
+   "n": 251,
+   "id": "n096",
+   "side": "p2",
+   "op": "add",
+   "t": 8505.8,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "after the quad, 5 hard-drop score increments (8505.57,8505.90,8506.20,8506.37,8506.57) before the TSD's T soft-drop; chain has 1 lock (8506.97). O, S, L, J, Z seen locking. fr/g5/af.png"
+  },
+  {
+   "n": 251,
+   "id": "n096",
+   "side": "p2",
+   "op": "add",
+   "t": 8506.1,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "after the quad, 5 hard-drop score increments (8505.57,8505.90,8506.20,8506.37,8506.57) before the TSD's T soft-drop; chain has 1 lock (8506.97). O, S, L, J, Z seen locking. fr/g5/af.png"
+  },
+  {
+   "n": 251,
+   "id": "n096",
+   "side": "p2",
+   "op": "add",
+   "t": 8506.4,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "after the quad, 5 hard-drop score increments (8505.57,8505.90,8506.20,8506.37,8506.57) before the TSD's T soft-drop; chain has 1 lock (8506.97). O, S, L, J, Z seen locking. fr/g5/af.png"
+  },
+  {
+   "n": 251,
+   "id": "n096",
+   "side": "p2",
+   "op": "add",
+   "t": 8508.2,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "after the TSD (8507.30, +5400) 4 hard drops (8508.33,8508.63,8508.90,8509.23: O,S,L,O) before KO 8509.5; chain has 3. Last T was still falling at KO. fr/g5/af.png"
+  }
+ ],
+ "cell_edits": [],
+ "no_change": [
+  {
+   "n": 210,
+   "why": "bad bag: queue reading unreliable at 360p (nextcount 404 shifts vs chain 547 / A 461); cannot recount pieces from frames"
+  },
+  {
+   "n": 212,
+   "why": "covered by the n213 removal (duplicate quad at 267.60)"
+  },
+  {
+   "n": 215,
+   "why": "two TSS at 316.6 and 318.6, each +3600 (TSS B2B); chain correct. fr/g5/c.png"
+  },
+  {
+   "n": 220,
+   "why": "bad bag: clears match the score (TST, triple, 4 singles, quad); piece count cannot be recounted reliably. fr/g5/g.png"
+  },
+  {
+   "n": 223,
+   "why": "T still falling at KO 1721.83-1721.95; nothing to add. fr/g5/k.png"
+  },
+  {
+   "n": 224,
+   "why": "bad bag: queue unreliable; no frame evidence of a piece-count error"
+  },
+  {
+   "n": 226,
+   "why": "jump at 3182.57 is +7200 = TST B2B; chain correct"
+  },
+  {
+   "n": 227,
+   "why": "+91 after KO is drop points only"
+  },
+  {
+   "n": 230,
+   "why": "fixed by the n229 correction (single at 3530.03)"
+  },
+  {
+   "n": 231,
+   "why": "bad bag: no frame evidence of a piece-count error"
+  },
+  {
+   "n": 236,
+   "why": "after the quad (5693.4) score shows 3 hard drops (5694.50, 5694.87, 5695.10) = chain's 3 locks 5694.2/5694.2/5694.6; red Z spawned 5695.2 and never locked before KO 5695.17. fr/g5/u.png"
+  },
+  {
+   "n": 239,
+   "why": "5721.77 +7200 = TST B2B, 5723.17 +5550 = TSD B2B + REN; TST banner was lingering, chain tsd correct"
+  },
+  {
+   "n": 241,
+   "why": "bad bag: no frame evidence of a piece-count error"
+  },
+  {
+   "n": 242,
+   "why": "window 7553-7569 is a REN chain under tall garbage; score covered most frames; settled deltas (+1659, +1814, +1535, +2484, +3600) suggest REN triples rather than the chain's gc4 quads, but rows per clear cannot be confirmed from frames; not corrected. fr/g5/z.png"
+  },
+  {
+   "n": 244,
+   "why": "bad bag: no frame evidence of a piece-count error"
+  },
+  {
+   "n": 248,
+   "why": "tail 8344-8358: chain has only BREAKs while the score rises ~10 times (+766,+1208,+1520,+931,+920,+900,+316,+1054,+602,+754) under a full garbage stack; clears are missing but the score is covered on most frames and the deltas cannot be split into clears confidently; not corrected. fr/g5/ad.png"
+  },
+  {
+   "n": 249,
+   "why": "bad bag: no frame evidence of a piece-count error"
+  },
+  {
+   "n": 250,
+   "why": "8455.90 +3600 after a non-B2B quad (+2400 at 8452.87) = TSS B2B (a TSD would be 5400); TSD banner is wrong/lingering, chain tss correct"
+  }
+ ]
+}

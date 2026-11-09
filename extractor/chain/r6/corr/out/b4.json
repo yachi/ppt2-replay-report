@@ -1,0 +1,1059 @@
+{
+ "event_corrections": [
+  {
+   "n": 168,
+   "id": "n007",
+   "side": "p1",
+   "op": "retype",
+   "t": 646.47,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "No score change around 646.5; board still 2 rows, REN banner jumps 2->3 at the next clear; image /tmp/claude-0/r6/corr/fr/g4/n007a.png",
+   "gc": 0
+  },
+  {
+   "n": 168,
+   "id": "n007",
+   "side": "p1",
+   "op": "retype",
+   "t": 647.27,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "PERFECT CLEAR banner ~647.1 and score 11501->16468 (PC double); board empty after; /tmp/claude-0/r6/corr/fr/g4/n007a.png",
+   "pc": 1,
+   "gc": 0
+  },
+  {
+   "n": 171,
+   "id": "n009",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 740.97,
+   "t_end": 742.13,
+   "events": [
+    {
+     "t": 740.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 741.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 741.53,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 742.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     740.97,
+     "double",
+     2
+    ],
+    [
+     741.13,
+     "single",
+     1
+    ],
+    [
+     741.53,
+     null,
+     0
+    ],
+    [
+     742.13,
+     "double",
+     2
+    ]
+   ],
+   "source": "No clears 740.97-741.8 (score flat); J makes PC double ~741.9, PERFECT CLEAR banner 742.12, score ->16081; nextcount spawns match chain count; /tmp/claude-0/r6/corr/fr/g4/n009a.png"
+  },
+  {
+   "n": 173,
+   "id": "n009",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 767.27,
+   "t_end": 769.53,
+   "events": [
+    {
+     "t": 767.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 768.23,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 769.53,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     767.27,
+     "tsd",
+     2
+    ],
+    [
+     769.53,
+     null,
+     0
+    ],
+    [
+     769.53,
+     "single",
+     1
+    ]
+   ],
+   "source": "Single ~767.6 (+450), TSD ~768.6 (+3900); triple at 775.57 correct (+1500, J into well ~775.8); /tmp/claude-0/r6/corr/fr/g4/n009f.png, /tmp/claude-0/r6/corr/fr/g4/n009e.png"
+  },
+  {
+   "n": 170,
+   "id": "n009",
+   "side": "p1",
+   "op": "retype",
+   "t": 792.63,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "I clears 2 grey garbage rows, score +1533 (900 + REN 600); /tmp/claude-0/r6/corr/fr/g4/n009_rows2.png",
+   "gc": 2
+  },
+  {
+   "n": 170,
+   "id": "n009",
+   "side": "p1",
+   "op": "retype",
+   "t": 793.6,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "Clear ~794.0, score +1090; /tmp/claude-0/r6/corr/fr/g4/n009_793.50.png",
+   "gc": 0
+  },
+  {
+   "n": 170,
+   "id": "n009",
+   "side": "p1",
+   "op": "retype",
+   "t": 794.83,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "L clears bottom row ~795.0; /tmp/claude-0/r6/corr/fr/g4/n009_rows.png, /tmp/claude-0/r6/corr/fr/g4/n009c.png",
+   "gc": 0
+  },
+  {
+   "n": 170,
+   "id": "n009",
+   "side": "p1",
+   "op": "retype",
+   "t": 795.7,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "T clears the last 2 rows, PERFECT CLEAR banner 796.07; /tmp/claude-0/r6/corr/fr/g4/n009_795.80.png",
+   "pc": 1
+  },
+  {
+   "n": 170,
+   "id": "n009",
+   "side": "p1",
+   "op": "retype",
+   "t": 796.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Phantom: no score jump after the PC at 796.07; /tmp/claude-0/r6/corr/fr/g4/n009_795.80.png",
+   "gc": 0
+  },
+  {
+   "n": 176,
+   "id": "n026",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2069.0,
+   "t_end": 2076.53,
+   "events": [
+    {
+     "t": 2069.0,
+     "kind": "tst",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2070.5,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2071.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2072.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2072.57,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2073.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2073.85,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 2074.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2074.65,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2075.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2075.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2075.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2075.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2076.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2076.53,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2069.0,
+     "tst",
+     3
+    ],
+    [
+     2069.0,
+     null,
+     0
+    ],
+    [
+     2069.3,
+     null,
+     0
+    ],
+    [
+     2069.87,
+     "tst",
+     3
+    ],
+    [
+     2070.4,
+     "tst",
+     3
+    ],
+    [
+     2071.33,
+     "tsd",
+     2
+    ],
+    [
+     2072.5,
+     "BREAK",
+     2
+    ],
+    [
+     2074.23,
+     "single",
+     1
+    ],
+    [
+     2075.03,
+     null,
+     0
+    ],
+    [
+     2075.6,
+     null,
+     0
+    ],
+    [
+     2075.6,
+     null,
+     0
+    ],
+    [
+     2075.67,
+     "BREAK",
+     0
+    ],
+    [
+     2076.53,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "Score: one TST (+4800 at 2069.7), TSD (+5550 ~2070.9), double ~2073.0, PC single (+2881, PERFECT CLEAR ~2074.2); 8 pieces counted between PC and TSD; /tmp/claude-0/r6/corr/fr/g4/n026a.png, /tmp/claude-0/r6/corr/fr/g4/n026b.png"
+  },
+  {
+   "n": 178,
+   "id": "n026",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2116.7,
+   "t_end": 2118.23,
+   "events": [
+    {
+     "t": 2116.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2117.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2117.74,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2118.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2118.24,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2116.7,
+     "tst",
+     4
+    ],
+    [
+     2117.73,
+     null,
+     0
+    ],
+    [
+     2117.73,
+     null,
+     0
+    ],
+    [
+     2118.23,
+     null,
+     0
+    ],
+    [
+     2118.23,
+     null,
+     0
+    ]
+   ],
+   "source": "TETRIS banner and 4 white rows at 2118.8, score +3600 (B2B after the TSS ~2116.0 = chain 2114.5 tss); no T-spin there; /tmp/claude-0/r6/corr/fr/g4/n026c.png"
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "add",
+   "t": 2120.3,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "O double ~2120.5, score +940; /tmp/claude-0/r6/corr/fr/g4/n026d.png"
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2130.6,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "source": "Score +2431 = TSS (not TSD); following quad is B2B; /tmp/claude-0/r6/corr/fr/g4/n026e.png",
+   "gc": 1
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2130.87,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "No separate single: one +2431 jump for the TSS; /tmp/claude-0/r6/corr/fr/g4/n026e.png",
+   "gc": 0
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2134.5,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "Score +300 at 2136.0 (single, REN broken), not a double (score.py 2132-2146)"
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2138.63,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "No score jump between 96573 (2137.97) and 96679 (2139.93) (score.py)",
+   "gc": 0
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2140.93,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Only the TSS (+2400 at 2140.83) then quad +3774 at 2142.33 is B2B, so no single in between (score.py)",
+   "gc": 0
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "remove",
+   "t": 2154.4,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "source": "Only one +3600 jump (2153.80) for the quads at 2153.9/2154.4: duplicate (score.py)"
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "add",
+   "t": 2157.3,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "I tetris at ~2157.4, TETRIS banner 2157.9, score +3648 (B2B) at 2157.73; chain has only a BREAK there; /tmp/claude-0/r6/corr/fr/g4/n026f.png"
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "add",
+   "t": 2164.6,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "I tetris ~2164.8 (TETRIS banner 2165.4), score 131803->135403 (+3600 B2B); chain has only BREAKs; /tmp/claude-0/r6/corr/fr/g4/n026g.png"
+  },
+  {
+   "n": 177,
+   "id": "n026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2167.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Score only +118 between 2166.8 and 2168.8 (drop points), no line clear (score.py)",
+   "gc": 0
+  },
+  {
+   "n": 179,
+   "id": "n055",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4914.5,
+   "t_end": 4915.13,
+   "events": [
+    {
+     "t": 4914.5,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4915.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     4914.5,
+     "tst",
+     4
+    ],
+    [
+     4915.13,
+     "tss",
+     1
+    ]
+   ],
+   "source": "One T-spin only: T-SPIN Single B2B at ~4915.2, score 35301->38901 (+3600); no quad, no second TSS; /tmp/claude-0/r6/corr/fr/g4/n055a.png, /tmp/claude-0/r6/corr/fr/g4/n055s.txt"
+  },
+  {
+   "n": 179,
+   "id": "n055",
+   "side": "p1",
+   "op": "add",
+   "t": 4916.6,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double at ~4916.9, score 38901->39876 (+975); /tmp/claude-0/r6/corr/fr/g4/n055a.png"
+  },
+  {
+   "n": 182,
+   "id": "n067",
+   "side": "p1",
+   "op": "add",
+   "t": 6231.0,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Second clear at ~6231.3 (white row flash, banner refresh), score +1074 (double + REN); explains why the 6233.77 quad scores 2400 (B2B broken); /tmp/claude-0/r6/corr/fr/g4/n067a.png"
+  },
+  {
+   "n": 183,
+   "id": "n067",
+   "side": "p1",
+   "op": "retype",
+   "t": 6323.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "source": "A second I goes into the same well and clears 4 grey rows at ~6323.85 (TETRIS banner), score +3910 = quad B2B + REN; /tmp/claude-0/r6/corr/fr/g4/n067b.png",
+   "gc": 4
+  },
+  {
+   "n": 185,
+   "id": "n067",
+   "side": "p1",
+   "op": "add",
+   "t": 6338.9,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "O spawned ~6338.9 clears the top coloured row at ~6339.45, score +450 (single + REN); chain has no event 6337.43-6339.87; /tmp/claude-0/r6/corr/fr/g4/n067c.png"
+  },
+  {
+   "n": 186,
+   "id": "n067",
+   "side": "p1",
+   "op": "retype",
+   "t": 6389.6,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "Score +1050 at 6389.73 = double + REN 150 (single would be 450) (score.py 6380-6410)"
+  },
+  {
+   "n": 189,
+   "id": "n067",
+   "side": "p1",
+   "op": "retype",
+   "t": 6408.47,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "T locks at ~6408.3 with no row cleared (board rows unchanged); score +300 = zero-line mini T-spin; next TSS 6412.9 still B2B (+3600); /tmp/claude-0/r6/corr/fr/g4/n067d.png",
+   "gc": 0
+  },
+  {
+   "n": 192,
+   "id": "n068",
+   "side": "p2",
+   "op": "retype",
+   "t": 6475.87,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "source": "I clears 4 garbage rows at ~6476.1 (TETRIS banner 6476.6), score +2884; the next TSD is B2B (+5400) which a triple would forbid; /tmp/claude-0/r6/corr/fr/g4/n068a.png",
+   "gc": 4
+  },
+  {
+   "n": 196,
+   "id": "n076",
+   "side": "p2",
+   "op": "retype",
+   "t": 6937.03,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Only one TST in the window (+4800 at 6938.8); score 386->462 around 6937.0 has no clear; /tmp/claude-0/r6/corr/fr/g4/n076a.png",
+   "gc": 0
+  },
+  {
+   "n": 196,
+   "id": "n076",
+   "side": "p2",
+   "op": "add",
+   "t": 6941.4,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Single at ~6941.5, score +300; /tmp/claude-0/r6/corr/fr/g4/n076a.png"
+  },
+  {
+   "n": 196,
+   "id": "n076",
+   "side": "p2",
+   "op": "add",
+   "t": 6942.3,
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "PERFECT CLEAR at ~6942.5, score +1050+3600 = 4650 (PC double + REN); board empty after; /tmp/claude-0/r6/corr/fr/g4/n076a.png"
+  },
+  {
+   "n": 198,
+   "id": "n078",
+   "side": "p1",
+   "op": "retype",
+   "t": 7138.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "source": "Score +3750 at 7138.30 = quad B2B + REN 150 (double would be ~1050); TSD after scores +5400 (B2B) (score.py 7137-7141)"
+  },
+  {
+   "n": 201,
+   "id": "n082",
+   "side": "p2",
+   "op": "add",
+   "t": 7436.7,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "Held-swap S placed at right ~7436.8 clears the top grey row (white flash 7436.85), score +600 (single + REN 300); chain has no event 7435.13-7437.53; /tmp/claude-0/r6/corr/fr/g4/n082a.png"
+  },
+  {
+   "n": 202,
+   "id": "n088",
+   "side": "p2",
+   "op": "add",
+   "t": 7818.7,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "Z spawned ~7818.7 clears the bottom grey row at 7818.85, score +450 (single + REN); chain has no event 7817.07-7819.27; /tmp/claude-0/r6/corr/fr/g4/n088a.png"
+  },
+  {
+   "n": 204,
+   "id": "n092",
+   "side": "p2",
+   "op": "add",
+   "t": 8056.2,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Winner's J hard-dropped and locked at ~8056.35, before the KO tilt 8056.43 (score 88799->88809 = drop points, no clear); /tmp/claude-0/r6/corr/fr/g4/n092ko.png"
+  },
+  {
+   "n": 207,
+   "id": "n095",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 8262.2,
+   "t_end": 8262.57,
+   "events": [
+    {
+     "t": 8262.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     8262.2,
+     "tst",
+     4
+    ],
+    [
+     8262.5,
+     null,
+     0
+    ],
+    [
+     8262.57,
+     "quad",
+     4
+    ]
+   ],
+   "source": "One clear only: T at 8262.2 is held (hold box shows T), I spawned 8262.3 clears 4 grey rows (TETRIS banner 8263.0), score +3686 (quad B2B); no TST; /tmp/claude-0/r6/corr/fr/g4/n095a.png"
+  },
+  {
+   "n": 206,
+   "id": "n095",
+   "side": "p1",
+   "op": "retype",
+   "t": 8280.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "I clears one coloured row at ~8281.4, score +600 (single + REN); /tmp/claude-0/r6/corr/fr/g4/n095b.png",
+   "gc": 0
+  },
+  {
+   "n": 206,
+   "id": "n095",
+   "side": "p1",
+   "op": "retype",
+   "t": 8281.63,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "L clears 2 coloured rows at ~8282.6, score +1382 (double + REN 450); /tmp/claude-0/r6/corr/fr/g4/n095b.png",
+   "gc": 0
+  },
+  {
+   "n": 206,
+   "id": "n095",
+   "side": "p1",
+   "op": "add",
+   "t": 8282.5,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "O clears a grey row at ~8283.4, score +934 (single + REN 600); chain has only a BREAK; /tmp/claude-0/r6/corr/fr/g4/n095b.png"
+  },
+  {
+   "n": 208,
+   "id": "n095",
+   "side": "p1",
+   "op": "retype",
+   "t": 8357.97,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "T-SPIN Double banner, score +3600 (TSD B2B) at 8358.7; /tmp/claude-0/r6/corr/fr/g4/n095c.png",
+   "gc": 0
+  },
+  {
+   "n": 209,
+   "id": "n095",
+   "side": "p1",
+   "op": "add",
+   "t": 8359.4,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "I spawned ~8359.4 clears 4 coloured rows at ~8359.65 (before KO 8360.77), score +3750 (quad B2B + REN); /tmp/claude-0/r6/corr/fr/g4/n095c.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 170,
+   "id": "n009",
+   "player": "p1",
+   "field": "pieces",
+   "was": 129,
+   "value": 128,
+   "source": "NEXT shifts 730-797.7 = 130, minus hold-into-empty at 733.8, minus I spawned 797.70 that never locked by KO = 128 = chain event count; /tmp/claude-0/r6/corr/fr/g4/n009ko.png"
+  },
+  {
+   "n": 204,
+   "id": "n092",
+   "player": "p2",
+   "field": "pieces",
+   "was": 108,
+   "value": 109,
+   "source": "KO-frame J locked (no clear) before KO; /tmp/claude-0/r6/corr/fr/g4/n092ko.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 169,
+   "why": "KO piece (green S spawned ~672.75) never hard-dropped: score stays 52183, only ghost visible; /tmp/claude-0/r6/corr/fr/g4/n007ko.png"
+  },
+  {
+   "n": 172,
+   "why": "Covered by the replace_window at 740.97-742.13 (item 171): same window; single at 740.2 correct (+600); /tmp/claude-0/r6/corr/fr/g4/n009a.png"
+  },
+  {
+   "n": 174,
+   "why": "Winner's last I spawned 797.70 and never locked before KO; /tmp/claude-0/r6/corr/fr/g4/n009ko.png"
+  },
+  {
+   "n": 175,
+   "why": "Bad bag: nextcount over the whole game is unreliable (159 shifts, 40 unreadable windows totalling 32 s; /tmp/claude-0/r6/corr/fr/g4/n026_nc.txt), so true piece count cannot be verified; event fixes given under items 176-178"
+  },
+  {
+   "n": 180,
+   "why": "Left unchanged: TSD 4919.03 confirmed (+3600); 4920-4930 score shows a long REN (+900,+2575,+600,+778,~+930,+1080,+1227,+1382,+1530,+2250; /tmp/claude-0/r6/corr/fr/g4/n055s.txt) that chain (only BREAKs then single/single/double) under-records, but pieces/clears not reconstructable piece-by-piece without guessing"
+  },
+  {
+   "n": 181,
+   "why": "Bad bag: piece count not verified; clear fixes given under 182-189"
+  },
+  {
+   "n": 184,
+   "why": "Explained by the retype of 6323.8 double->quad (item 183): B2B continues, so TSD 6326.07 scores +5400 and quad 6328.37 +3600 as observed"
+  },
+  {
+   "n": 187,
+   "why": "Explained by item 189 (6408.47 is a zero-line mini, +300); quad 6404.87 (+3600) and TST 6406.43 (+7200) correct"
+  },
+  {
+   "n": 188,
+   "why": "Score +7200 at 6407.07 = TST with B2B (TSS B2B would be 3600); chain tst 3 is right, banner read was wrong/lingering"
+  },
+  {
+   "n": 190,
+   "why": "Winner's last piece (T) still falling at KO tilt ~6428.1 and after; score unchanged; /tmp/claude-0/r6/corr/fr/g4/n067ko.png"
+  },
+  {
+   "n": 191,
+   "why": "Bad bag: piece count not verified; clear fix under 192"
+  },
+  {
+   "n": 193,
+   "why": "Score consistent with chain: TSS B2B +3600, quad B2B +3644, TSD B2B+REN +5550, singles +600, +772 with REN (score.py 6532-6543); the gap is the REN bonus only"
+  },
+  {
+   "n": 194,
+   "why": "Chain tsd is right: score +5550 at 6538.27 = TSD B2B + REN 150, not a double or TSS"
+  },
+  {
+   "n": 195,
+   "why": "Bad bag: piece count not verified; fixes under 196"
+  },
+  {
+   "n": 197,
+   "why": "Winner's last piece was still soft-dropping at KO 7033.77: score ticks +1 per frame through 7033.83, no lock (score.py)"
+  },
+  {
+   "n": 199,
+   "why": "Winner's last piece (O) spawned ~7167.25 and is still at the top at/after KO; not locked; /tmp/claude-0/r6/corr/fr/g4/n078ko.png"
+  },
+  {
+   "n": 200,
+   "why": "+66 is a score-reader artefact while the KO animation covers the digits; score is a steady 76828 before and after; /tmp/claude-0/r6/corr/fr/g4/n078ko.png"
+  },
+  {
+   "n": 203,
+   "why": "Explained by the single added at 7818.7 (item 202): it breaks B2B, so the quad at 7821.8 scores +2423 as observed"
+  },
+  {
+   "n": 205,
+   "why": "Bad bag: piece count not verified; fixes under 206-209"
+  }
+ ]
+}
