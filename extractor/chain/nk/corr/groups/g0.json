@@ -1,0 +1,138 @@
+[
+{
+"id": "y000",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+"t_s": 58.1,
+"n": 0
+},
+{
+"id": "y001",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+"t_s": 93.9,
+"n": 1
+},
+{
+"id": "y002",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+"t_s": 145.67,
+"n": 2
+},
+{
+"id": "y004",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+"t_s": 233.23,
+"n": 3
+},
+{
+"id": "y008",
+"player": "p2",
+"field_or_issue": "T-spin without a banner",
+"detail": "A tsd at 416.43 s typed as a plain clear",
+"t_s": 416.43,
+"n": 4
+},
+{
+"id": "y009",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+"t_s": 463.9,
+"n": 5
+},
+{
+"id": "y014",
+"player": "p2",
+"field_or_issue": "bad bag",
+"detail": "2 of 10 bags not a permutation (spawn index [56, 63]); anomalies ['double shift k=3 at frame 1038', 'double shift k=2 at frame 1381', 'queue resync at frame 2161: (6, 6, 6, 6, 6)->(5, 6, 8, 8, 4)']",
+"t_s": 1082.27,
+"n": 6
+},
+{
+"id": "y014",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 11.43 s from 1114.60 s; B events spliced (D2/D3)",
+"t_s": 1114.6,
+"n": 7
+},
+{
+"id": "y014",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 26.00 s from 1126.03 s; B events spliced (D2/D3)",
+"t_s": 1126.03,
+"n": 8
+},
+{
+"id": "y014",
+"player": "p2",
+"field_or_issue": "banner/type disagreement",
+"detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 1126.03 s",
+"t_s": 1126.03,
+"n": 9
+},
+{
+"id": "y014",
+"player": "p2",
+"field_or_issue": "banner without a clear",
+"detail": "T-SPIN Double banner at 1147.87 s, no A clear matched (added by R/build.py)",
+"t_s": 1147.87,
+"n": 10
+},
+{
+"id": "y015",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.43 s before the KO)",
+"t_s": 1239.77,
+"n": 11
+},
+{
+"id": "y017",
+"player": "p2",
+"field_or_issue": "banner without a clear",
+"detail": "T-SPIN Double banner at 1368.5 s, no A clear matched (added by R/build.py)",
+"t_s": 1368.5,
+"n": 12
+},
+{
+"id": "y017",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step -5664 over 1368.54-1371.64 s, unexplained -5664; chain clears near: [[1369.23, 5700, 'tsd'], [1371.27, 1500, 'triple']]",
+"t_s": 1368.54,
+"n": 13
+},
+{
+"id": "y017",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+"t_s": 1398.13,
+"n": 14
+},
+{
+"id": "y018",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 646 over 1425.74-1430.34 s, unexplained -554; chain clears near: [[1427.47, 5400, 'tsd'], [1429.17, 3600, 'quad'], [1430.13, 450, 'single']]",
+"t_s": 1425.74,
+"n": 15
+},
+{
+"id": "y019",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+"t_s": 1487.77,
+"n": 16
+}
+]

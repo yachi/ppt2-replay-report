@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"p2 score steps 1114-1152 (score.py, corr/fr/v0/y014s.txt) are exactly the 15 clears proposed (1115.30 +460 single+REN ... 1151.30 +900 double); nextcount p2 gives 61 shifts in 1114.3-1151.45 at the proposed event times one for one; was_old (49 locks + BREAKs) matches cseq in the window, and 110+12 = 122 = chain_games.csv pieces, so no cell edit needed. gc values for 1128.67/1130.54 are estimates, not checked."},
+{"ref":"e1","verdict":"keep","why":"p2 score 5264 -> 10814 at 417.23 (+5550 = TSD 3600x1.5 B2B +150 REN); preceding +4800 at 415.73 is the chain tst at 414.97, so the 416.43 piece is the TSD."},
+{"ref":"e2","verdict":"keep","why":"p2 score: only one TSD step (+5550 at 1368.57, piece 1367.63); from 1369.10 to 1371.60 only soft/hard-drop steps (+1s, +32 at 1370.40, 1370.80, 1371.17), then +1500 triple at 1371.67. No second TSD; the 1369.23 tsd is a duplicate."},
+{"ref":"e3","verdict":"keep","why":"p2 score 30671 -> 31721 at 1430.37 (+1050 = double 900 + REN 150); a single would be ~450. Previous steps +3600 at 1429.30 match the chain quad."},
+{"ref":"e4","verdict":"keep","why":"Frames corr/fr/v0/jstrip.png and y019.png: the L hard-drops and is locked at 1487.767 (p1 score 34632->34656 changes on that frame; p1 board/score unchanged after), which is the KO frame end_s 1487.77. Lock on the KO frame counts; no line cleared."},
+{"ref":"e5","verdict":"reject","why":"Pixel diffs of single ffmpeg frames: at 1398.133 (= end_s, KO) the p2 board changes (tilt onset, 15784 px) while the p1 board is identical to 1398.100 - the Z is still in the air (corr/fr/v0/kstrip.png frame 3). The Z lands, the score goes 29387->29401 and the やった banner appears only at 1398.167, one frame after the KO frame. A lock one frame after end_s does not count."},
+{"ref":"c0","verdict":"keep","why":"Follows e4: the L locks at 1487.767 = end_s, so p1 pieces 62 -> 63."},
+{"ref":"c1","verdict":"reject","why":"Follows e5: the Z locks at 1398.167, one frame after end_s 1398.13 (p1 unchanged at 1398.133, corr/fr/v0/kstrip.png); pieces stay 57."}
+]

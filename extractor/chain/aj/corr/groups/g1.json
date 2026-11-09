@@ -1,0 +1,195 @@
+[
+ {
+  "id": "z028",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 1524.2 s typed as a plain clear",
+  "t_s": 1524.2,
+  "n": 23
+ },
+ {
+  "id": "z029",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -928 vs the chain's clears between 1561.9 and 1569.17; unexplained -928; chain clears near: [[1561.77, 300, 'single'], [1562.53, 450, 'single'], [1563.4, 1200, 'double'], [1564.27, 2850, 'quad'], [1565.47, 900, 'single'], [1566.63, 1050, 'single'], [1567.5, 1800, 'double'], [1568.67, 1950, 'double']]",
+  "t_s": 1569.17,
+  "t0": 1561.9,
+  "n": 24
+ },
+ {
+  "id": "z030",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.47 s before the KO)",
+  "t_s": 1649.5,
+  "n": 25
+ },
+ {
+  "id": "z031",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -964 vs the chain's clears between 1664.94 and 1668.57; unexplained -964; chain clears near: [[1668.0, 5400, 'tsd']]",
+  "t_s": 1668.57,
+  "t0": 1664.94,
+  "n": 26
+ },
+ {
+  "id": "z031",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 1681.6,
+  "n": 27
+ },
+ {
+  "id": "z031",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1000 vs the chain's clears between 1668.84 and 1672.74; unexplained -1000; chain clears near: [[1672.03, 3600, 'tss']]",
+  "t_s": 1672.74,
+  "t0": 1668.84,
+  "n": 28
+ },
+ {
+  "id": "z032",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 8.73 s from 1718.17 s; B events spliced (D2/D3)",
+  "t_s": 1718.17,
+  "n": 29
+ },
+ {
+  "id": "z032",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -4322 vs the chain's clears between 1717.74 and 1728.54; unexplained -4322; chain clears near: [[1718.17, 1650, 'single'], [1718.2, 1800, 'single'], [1726.33, 1950, 'single'], [1726.9, 2100, 'single'], [1728.13, 2850, 'double']]",
+  "t_s": 1728.54,
+  "t0": 1717.74,
+  "n": 30
+ },
+ {
+  "id": "z032",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 11.80 s from 1716.47 s; B events spliced (D2/D3)",
+  "t_s": 1716.47,
+  "n": 31
+ },
+ {
+  "id": "z033",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 1772.07 s typed as a plain clear",
+  "t_s": 1772.07,
+  "n": 32
+ },
+ {
+  "id": "z034",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 1845.8,
+  "n": 33
+ },
+ {
+  "id": "z036",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1120 vs the chain's clears between 1955.03 and 1958.76; unexplained -1120; chain clears near: [[1956.8, 3600, 'tss'], [1958.23, 3600, 'quad']]",
+  "t_s": 1958.76,
+  "t0": 1955.03,
+  "n": 34
+ },
+ {
+  "id": "z037",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1975 at 2013.94 s (KO 2014.63 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 2013.94,
+  "n": 35
+ },
+ {
+  "id": "z041",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -9448 vs the chain's clears between 2181.73 and 2196.06; unexplained -9448; chain clears near: [[2181.43, 3600, 'quad'], [2183.23, 900, 'double'], [2184.3, 450, 'single'], [2185.33, 1200, 'double'], [2186.57, 1350, 'double'], [2188.8, 3600, 'tsd'], [2191.87, 900, 'double'], [2193.6, 2400, 'quad'], [2195.13, 300, 'single']]",
+  "t_s": 2196.06,
+  "t0": 2181.73,
+  "n": 36
+ },
+ {
+  "id": "z041",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 2154.23 s typed as a plain clear",
+  "t_s": 2154.23,
+  "n": 37
+ },
+ {
+  "id": "z041",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1272 vs the chain's clears between 2214.03 and 2221.0; unexplained -1272; chain clears near: [[2213.7, 2400, 'quad'], [2218.03, 3600, 'quad'], [2218.77, 1050, 'double'], [2219.33, 600, 'single'], [2220.43, 1350, 'double']]",
+  "t_s": 2221.0,
+  "t0": 2214.03,
+  "n": 38
+ },
+ {
+  "id": "z041",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +100 at 2242.9 s (KO 2244.3 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 2242.9,
+  "n": 39
+ },
+ {
+  "id": "z043",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +132 at 2284.36 s (KO 2285.7 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 2284.36,
+  "n": 40
+ },
+ {
+  "id": "z043",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 2285.7,
+  "n": 41
+ },
+ {
+  "id": "z044",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 2337.9,
+  "n": 42
+ },
+ {
+  "id": "z046",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.37 s from 2402.53 s; B events spliced (D2/D3)",
+  "t_s": 2402.53,
+  "n": 43
+ },
+ {
+  "id": "z046",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -973 vs the chain's clears between 2402.1 and 2407.96; unexplained -973; chain clears near: [[2402.53, 900, 'double'], [2406.2, 900, 'double'], [2406.9, 3750, 'tsd']]",
+  "t_s": 2407.96,
+  "t0": 2402.1,
+  "n": 44
+ },
+ {
+  "id": "z046",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1628 vs the chain's clears between 2411.6 and 2418.0; unexplained -1628; chain clears near: [[2411.7, 1800, 'triple'], [2413.0, 1500, 'triple'], [2416.53, 3600, 'tsd'], [2417.87, 1050, 'double']]",
+  "t_s": 2418.0,
+  "t0": 2411.6,
+  "n": 45
+ }
+]
