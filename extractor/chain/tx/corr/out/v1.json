@@ -1,0 +1,132 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py 1419-1476 p1: double 1420.23 then 15 singles +450..+2550 (REN1-15) at 1421.23,1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93; nextcount p1 spawns exactly 15 (1420.967..1469.533), none at 1427.37/1450.53/1460.6"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py 1419-1476 p1: double 1420.23 then 15 singles +450..+2550 (REN1-15) at 1421.23,1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93; nextcount p1 spawns exactly 15 (1420.967..1469.533), none at 1427.37/1450.53/1460.6"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py 1419-1476 p1: double 1420.23 then 15 singles +450..+2550 (REN1-15) at 1421.23,1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93; nextcount p1 spawns exactly 15 (1420.967..1469.533), none at 1427.37/1450.53/1460.6"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 1426.667,1427.533,1428.3,1429.167,1430.0,1430.867 then next 1457.1; score p2 clears 1426.93,1427.70,1428.57,1429.40,1430.27 then +1800 (REN10) at 1456.43, continuing +150 steps to double +3450 at 1469.40 (REN17): no break, no extra piece"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 1426.667,1427.533,1428.3,1429.167,1430.0,1430.867 then next 1457.1; score p2 clears 1426.93,1427.70,1428.57,1429.40,1430.27 then +1800 (REN10) at 1456.43, continuing +150 steps to double +3450 at 1469.40 (REN17): no break, no extra piece"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 1426.667,1427.533,1428.3,1429.167,1430.0,1430.867 then next 1457.1; score p2 clears 1426.93,1427.70,1428.57,1429.40,1430.27 then +1800 (REN10) at 1456.43, continuing +150 steps to double +3450 at 1469.40 (REN17): no break, no extra piece"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 1426.667,1427.533,1428.3,1429.167,1430.0,1430.867 then next 1457.1; score p2 clears 1426.93,1427.70,1428.57,1429.40,1430.27 then +1800 (REN10) at 1456.43, continuing +150 steps to double +3450 at 1469.40 (REN17): no break, no extra piece"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score p1 1599.07 +600 = single 300 + REN2 (after quad +3750 REN1 at 1598.07), between spawn 1598.867 and next 1599.70, so the 1598.87 piece cleared a single; 1599.87 +750 REN3 is the chain's 1599.7 single"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "re-derived: nextcount p1 1753.5-1770 gives 23 spawns 1755.3..1769.167 (unk gaps keep queue continuity), score shows the TSD B2B +5400 at 1754.53 from the 1753.97 piece, then per-piece locks/clears exactly as proposed (triple 1756.07, single 1757.57, triple 1759.03, quad+REN1 1760.23, double 1762.13, quad 1764.07, singles REN1-3 1765.13/1765.97/1766.97, double REN4 1767.90, single 1769.53); was_old checked equal to cseq (24 events)"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score p1 2094.23 +450 (REN1 after quad 2093.33) between spawns 2094.133 and 2094.9 -> that piece cleared a single"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "nextcount p1: only spawn 2099.5 between 2098.6 and 2104.2; score p1 only +1350 single (REN7) at 2103.47 there; no triple/double increments"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "nextcount p1: only spawn 2099.5 between 2098.6 and 2104.2; score p1 only +1350 single (REN7) at 2103.47 there; no triple/double increments"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score p2 2099.53 +750 (REN3) between spawns 2099.3 and 2100.2 -> 2099.3 piece cleared a single"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "nextcount p2: no spawn between 2108.033 and 2125.933; score p2 flat 2107.37-2125.27 (one clear +1950 at 2125.27 from the 2108.03 piece)"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "score p1: 2365.87 +16 and 2366.20 +10 locks without clear, double +900 at 2366.50, single +450 at 2367.60; spawns 2365.767,2365.967,2366.3,2367.233 -> 2365.97 piece did not clear"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "score p2 2794.73 +3772 = TETRIS B2B 3600 + REN1 150 + drop; nextcount: piece spawned 2794.467 is I (IOLSI>OLSIL); a double would score ~1050"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "nextcount p1 spawn 1392.70 (OZJOL>ZJOLT) absent from cseq (last 1392.47); score +1 soft drop 1392.93 then +14 hard-drop at 1393.00 = KO frame, no clear"
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "chain window had 18 single pieces and no None locks; 15 real spawns -> 110-3=107"
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "last REN single +2550 at 1469.93 = REN15; double 1471.40 +900 REN0"
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "3 phantom pieces (1430.97,1443.93,1456.00); one spawn 1430.867 to 1457.1"
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "p2 REN unbroken through stall: 1456.43 +1800 REN10 ... double 1469.40 +3450 = 900+17*150 -> REN17"
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "24 chain pieces in window vs 23 spawns -> 104"
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "two phantom pieces 2099.60/2099.63 -> 247"
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "phantom 2120.73 -> 281"
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "p2 score REN steps +150 unbroken 2094.87 (REN0) to double 2131.73 +3300 = 900+16*150 -> REN16; every spawn 2094.733..2131.467 maps to a clear"
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "score p2: tst 2772.67 +4800 (not B2B), then tsd 5400, tsd 5400, quad 3600, tsd 5400, quad 3600, quad 3600, quad 3772 all B2B with no other clear between -> 7 consecutive B2B"
+ }
+]

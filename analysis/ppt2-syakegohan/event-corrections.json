@@ -22558,5 +22558,542 @@
   "lines": 2,
   "pc": 1,
   "source": "hidden-PC frame check: PERFECT CLEAR banner on the p1 board from 5924.90 s (corr/pc strip, cluster c60); score jump +4688 at 5924.67 s fits a 2-line PC"
+ },
+ {
+  "id": "q008",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 482.53,
+  "source": "b0 frame check, verified: fr/g0/n4.png: after the B2B TETRIS (score 18791->22391 at 481.73) the next piece (spawn 482.53, held/swapped, locked at right ~482.9) clears one row: white line flash 483.2, '1 REN' banner from 483.0, no T-SPIN banner. Score p1 22391 -> 22911 (+520 = single 300 + 1 REN 150 + drops). This plain single broke B2B, which is why the TSD at 484.87 scored only +3633 (non-B2B 3600) instead of the chain's predicted 5400. Chain max_b2b may need a re-derive.",
+  "t_end": 482.53,
+  "events": [
+   {
+    "t": 482.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    482.53,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "q033",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2455.63,
+  "source": "b0 frame check, verified: fr/g0/n21.png: the S spawned 2455.63 (NEXT S->T at 2455.63) locks in the top row ~2455.93 and clears it (white row flash 2455.97, REN banner from 2456.03). Score p2 180589 -> 181039 at 2455.96 (+450 = single 300 + 1 REN 150). Before KO 2457.27. Cleared row is coloured stack, not garbage.",
+  "t_end": 2455.63,
+  "events": [
+   {
+    "t": 2455.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2455.63,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "q022",
+  "side": "p1",
+  "op": "add",
+  "t": 1600.27,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/n15.png: the L spawned ~1600.27 is hard-dropped and locked ON the KO frame 1600.47 (lock streak at 1600.47 frame; score 86570 -> 86601 (+31 drop points only) at 1600.47). No row completed, no clear flash. Chain's last p1 event is 1600.0."
+ },
+ {
+  "id": "q035",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2554.5,
+  "t_end": 2555.2,
+  "events": [
+   {
+    "t": 2554.57,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 2554.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2555.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2554.9,
+    "quad",
+    4
+   ]
+  ],
+  "source": "v0 skeptic, missed by b0: fr/v0/q035.png 2554.20-2555.33; nextcount.py p1 2553.5-2556.4 spawns 2554.567/2554.900/2555.100; score.py +13200 at 2554.83-2554.87, +38 at 2555.00, +38 at 2555.33."
+ },
+ {
+  "id": "q055",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3655.5,
+  "t_end": 3684.0,
+  "events": [
+   {
+    "t": 3657.03,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3665.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3673.37,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3655.83,
+    "BREAK",
+    1
+   ],
+   [
+    3657.03,
+    "single",
+    1
+   ],
+   [
+    3660.97,
+    "single",
+    1
+   ],
+   [
+    3665.63,
+    "single",
+    1
+   ],
+   [
+    3669.4,
+    null,
+    0
+   ],
+   [
+    3672.13,
+    "BREAK",
+    1
+   ],
+   [
+    3673.37,
+    "double",
+    2
+   ],
+   [
+    3677.6,
+    "double",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: nextcount: spawns only at 3657.03, 3665.53, 3673.23, 3684.93 (slow-motion lag); score shows one continuous REN 8->14: +1500@3656.27, +1650@3664.87, +1800@3672.57, +2550@3684.20 then +2700/+3450/+3000; no BREAK. /tmp/claude-0/qh/corr/fr/g1/q055a.png"
+ },
+ {
+  "id": "q055",
+  "side": "p2",
+  "op": "remove",
+  "t": 3682.77,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: no spawn between 3656.43 (hold at 3671.67) and 3683.87; real clears score at 3683.20 (+1800, REN10), 3686.60 (+1950), 3687.80 (+2100). nextcount + score.py"
+ },
+ {
+  "id": "q071",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4564.5,
+  "source": "b1 frame check, verified: T fills garbage-row hole ~4564.85, row flashes 4564.95-4565.2, score 73024->74260 (+1236 = single at REN6 + drop). /tmp/claude-0/qh/corr/fr/g1/q071b.png, q071c.png",
+  "t_end": 4564.5,
+  "events": [
+   {
+    "t": 4564.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    4564.5,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "q071",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4565.53,
+  "source": "b1 frame check, verified: J vertical into col 6, row flashes 4565.82-4565.95, score ->75646 (+1386 = REN7). /tmp/claude-0/qh/corr/fr/g1/q071c.png",
+  "t_end": 4565.53,
+  "events": [
+   {
+    "t": 4565.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4565.53,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "q076",
+  "side": "p2",
+  "op": "retype",
+  "t": 4796.73,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 2,
+  "source": "b1 frame check, verified: score 65840->66924 (+1084 = double 900 + REN1 150 + drop); T-SPIN Triple banner lingering from TST at 4795.4 (+4800). /tmp/claude-0/qh/corr/fr/g1/q076b.png"
+ },
+ {
+  "id": "q085",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5330.23,
+  "source": "b1 frame check, verified: one J spawns ~5330.15 and falls slowly until ~5334.1; hold T unchanged, NEXT queue unchanged, score 16132->16135 (soft drop) — only one piece in 5330.0-5334.1, so 5330.23 is a duplicate of 5330.0. /tmp/claude-0/qh/corr/fr/g1/q085.png",
+  "t_end": 5330.23,
+  "events": [],
+  "was_old": [
+   [
+    5330.23,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "q096",
+  "side": "p2",
+  "op": "retype",
+  "t": 5879.53,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Only one TSS: p2 score 5258->9008 (+3750, TSS b2b + REN1) at 5878.87 from the 5878.07 tss; after it 9008 stays until 9110 at 5881.0 (drop points only), then quad +3600 at 5881.77. Frames /tmp/claude-0/qh/corr/fr/g2/q096.png 5878.7-5881.9: one single-row clear at 5878.9, the 5879.53 spawn (L, held, J out) makes no clear. nextcount spawns match chain events, so piece count unchanged."
+ },
+ {
+  "id": "q100",
+  "side": "p1",
+  "op": "retype",
+  "t": 6130.03,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Only one TETRIS: /tmp/claude-0/qh/corr/fr/g2/q100b.png per-frame 6129.95-6130.55: L spawned 6130.02, held, T out and hard-dropped at col 0 at 6130.22 (+14, no clear); I spawned 6130.32, dropped vertical at 6130.36, 4 rows clear at 6130.39 (+3600 33999->37599). One TETRIS banner (/tmp/claude-0/qh/corr/fr/g2/q100.png). The 6130.5 quad is the real one."
+ },
+ {
+  "id": "q108",
+  "side": "p2",
+  "op": "retype",
+  "t": 6610.33,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: p2 score 20477->26027 (+5550) at 6611.10 = TSD b2b 5400 + REN1 150 (a plain double would be ~1050); previous tsd at 6609.97 +3600. score.py 6608-6614."
+ },
+ {
+  "id": "q119",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7345.2,
+  "source": "b2 frame check, verified: J spawned 7344.53 (the chain's 7345.2 piece; NEXT shows only J between the triple's piece and the Z) and cleared 2 rows at 7344.7, REN banner at 7344.9, p1 score 351879->352959 (+1080 = double 900 + REN1 150 + drops). The two garbage rows with the hole in col 3 are gone after it (/tmp/claude-0/qh/corr/fr/g2/q119.png, /tmp/claude-0/qh/corr/fr/g2/q119g.png 7344.45 vs 7345.4), so gc 2. Following Z double at 7345.7 shows '2 REN' and +1232 (REN2).",
+  "t_end": 7345.2,
+  "events": [
+   {
+    "t": 7345.2,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   }
+  ],
+  "was_old": [
+   [
+    7345.2,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "q119",
+  "side": "p1",
+  "op": "add",
+  "t": 7346.37,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: I spawned 7346.34, hard-dropped and locked on the frame before p2's board starts to tilt (~7346.40, /tmp/claude-0/qh/corr/fr/g2/q119k.png frames 4-5); its row of coloured pieces flashes white next frame, '3 REN' banner, p1 score 354191->354975 (+784 = single 300 + REN3 450 + drops). Lock is at/one frame before the KO tilt, so it counts. Lock and tilt are adjacent frames; if KO is taken one frame earlier this would be excluded."
+ },
+ {
+  "id": "q128",
+  "side": "p1",
+  "op": "retype",
+  "t": 8039.4,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: fr/g3/i93.png: T placed ~8040.0, two rows clear, banner 'T-SPIN Double' at 8040.0-8040.4; score 17296 -> 21064 at 8040.73 (+3768 = TSD 3600 + REN 150 + drops; a TSS would be ~2550)"
+ },
+ {
+  "id": "q131",
+  "side": "p2",
+  "op": "retype",
+  "t": 8294.7,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: fr/g3/i95.png + score: the real TSD is the 8293.13 piece (+5550 at 8293.97). The S spawned 8294.7 locks ~8294.85 with no clear: score only +36 (10789->10825); next clear is the single at 8295.73 (+300, no REN). The 8294.7 tsd is a duplicate of the banner"
+ },
+ {
+  "id": "q157",
+  "side": "p1",
+  "op": "retype",
+  "t": 10332.47,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: fr/g3/i105.png: one TETRIS only (4 rows white at 10332.4-10332.8); score 20568 -> 24228 (+3660 = one B2B quad); the second I (spawn 10332.3) stands vertically after the clear, score then only +26 per lock. The 25960 reading at 10331.87 is a misread under effects"
+ },
+ {
+  "id": "q160",
+  "side": "p1",
+  "op": "remove",
+  "t": 10596.63,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "source": "b3 frame check, verified: fr/g3/i108a.png, i108b.png, nextcount: only spawns 10592.467 and 10597.467 in the window (I hovered at col 0 for ~4 s, locked ~10596.5 for the one quad, +3750 = B2B quad + REN1). No spawn near 10596.63; 10598.25 shows '2 REN' with +600 single, and '12 REN' at 10608.0 after the 10607.7 double. The second quad is a phantom piece (B splice)"
+ },
+ {
+  "id": "q164",
+  "side": "p1",
+  "op": "add",
+  "t": 10974.4,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: fr/g3/i112.png: orange L spawned 10974.40 (nextcount shift) and locked at 10974.53 = KO frame (score 124191 -> 124207, lock flash cols 0-2), no line full"
+ },
+ {
+  "id": "q167",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 11093.2,
+  "t_end": 11093.65,
+  "events": [
+   {
+    "t": 11093.23,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 11093.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    11093.6,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b3 frame check, verified: fr/g3/i113.png + nextcount/score: spawns 11092.8, 11093.0, 11093.233 (S held, J out), 11093.6, 11093.9, 11094.233. The J from hold locks ~11093.42 (+36) and makes the triple PERFECT CLEAR (+1500, +5400, banner 11093.58); the S spawned 11093.6 then locks ~11093.8 without clear (+37). Chain had one piece missing and the PC on the wrong piece. KO piece (11094.533) is still soft-dropping at KO 11094.83: not counted"
+ },
+ {
+  "id": "q174",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 11402.3,
+  "t_end": 11404.3,
+  "events": [
+   {
+    "t": 11402.37,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 11402.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 11403.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 11403.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 11403.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 11403.87,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 11404.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    11402.37,
+    null,
+    0
+   ],
+   [
+    11402.63,
+    "double",
+    2
+   ],
+   [
+    11403.0,
+    null,
+    0
+   ],
+   [
+    11403.3,
+    null,
+    0
+   ],
+   [
+    11403.57,
+    null,
+    0
+   ],
+   [
+    11404.27,
+    "double",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: fr/g3/i115.png + nextcount p2: first PC (11402.65) is made by the J falling at 11402.5 (chain 11402.37 piece); then I (spawn 11402.633), O (11403.0), L (11403.3), J (11403.567), T spawned 11403.867 held -> O out, O completes the second double PC (white rows ~11404.3, +4500 = plain double PC, no T used: T in hold); Z spawned 11404.267. Chain was one piece short and both PCs one piece late. Second PC is a plain double, not a TSD"
  }
 ]

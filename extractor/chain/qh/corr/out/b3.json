@@ -1,0 +1,38 @@
+{"event_corrections":[
+{"n":93,"id":"q128","side":"p1","op":"retype","t":8039.4,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"fr/g3/i93.png: T placed ~8040.0, two rows clear, banner 'T-SPIN Double' at 8040.0-8040.4; score 17296 -> 21064 at 8040.73 (+3768 = TSD 3600 + REN 150 + drops; a TSS would be ~2550)"},
+{"n":95,"id":"q131","side":"p2","op":"retype","t":8294.7,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g3/i95.png + score: the real TSD is the 8293.13 piece (+5550 at 8293.97). The S spawned 8294.7 locks ~8294.85 with no clear: score only +36 (10789->10825); next clear is the single at 8295.73 (+300, no REN). The 8294.7 tsd is a duplicate of the banner"},
+{"n":105,"id":"q157","side":"p1","op":"retype","t":10332.47,"was":["quad",4,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g3/i105.png: one TETRIS only (4 rows white at 10332.4-10332.8); score 20568 -> 24228 (+3660 = one B2B quad); the second I (spawn 10332.3) stands vertically after the clear, score then only +26 per lock. The 25960 reading at 10331.87 is a misread under effects"},
+{"n":108,"id":"q160","side":"p1","op":"remove","t":10596.63,"was":["quad",4,0],"source":"fr/g3/i108a.png, i108b.png, nextcount: only spawns 10592.467 and 10597.467 in the window (I hovered at col 0 for ~4 s, locked ~10596.5 for the one quad, +3750 = B2B quad + REN1). No spawn near 10596.63; 10598.25 shows '2 REN' with +600 single, and '12 REN' at 10608.0 after the 10607.7 double. The second quad is a phantom piece (B splice)"},
+{"n":112,"id":"q164","side":"p1","op":"add","t":10974.4,"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g3/i112.png: orange L spawned 10974.40 (nextcount shift) and locked at 10974.53 = KO frame (score 124191 -> 124207, lock flash cols 0-2), no line full"},
+{"n":113,"id":"q167","side":"p1","op":"replace_window","t":11093.2,"t_end":11093.65,"events":[{"t":11093.23,"kind":"triple","lines":3,"pc":1,"gc":0},{"t":11093.6,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[11093.6,"triple",3]],"source":"fr/g3/i113.png + nextcount/score: spawns 11092.8, 11093.0, 11093.233 (S held, J out), 11093.6, 11093.9, 11094.233. The J from hold locks ~11093.42 (+36) and makes the triple PERFECT CLEAR (+1500, +5400, banner 11093.58); the S spawned 11093.6 then locks ~11093.8 without clear (+37). Chain had one piece missing and the PC on the wrong piece. KO piece (11094.533) is still soft-dropping at KO 11094.83: not counted"},
+{"n":115,"id":"q174","side":"p2","op":"replace_window","t":11402.3,"t_end":11404.3,"events":[{"t":11402.37,"kind":"double","lines":2,"pc":1,"gc":0},{"t":11402.63,"kind":null,"lines":0,"pc":0,"gc":0},{"t":11403.0,"kind":null,"lines":0,"pc":0,"gc":0},{"t":11403.3,"kind":null,"lines":0,"pc":0,"gc":0},{"t":11403.57,"kind":null,"lines":0,"pc":0,"gc":0},{"t":11403.87,"kind":"double","lines":2,"pc":1,"gc":0},{"t":11404.27,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[11402.37,null,0],[11402.63,"double",2],[11403.0,null,0],[11403.3,null,0],[11403.57,null,0],[11404.27,"double",2]],"source":"fr/g3/i115.png + nextcount p2: first PC (11402.65) is made by the J falling at 11402.5 (chain 11402.37 piece); then I (spawn 11402.633), O (11403.0), L (11403.3), J (11403.567), T spawned 11403.867 held -> O out, O completes the second double PC (white rows ~11404.3, +4500 = plain double PC, no T used: T in hold); Z spawned 11404.267. Chain was one piece short and both PCs one piece late. Second PC is a plain double, not a TSD"}
+],
+"cell_edits":[
+{"n":109,"id":"q160","player":"p1","field":"pieces","was":99,"value":98,"source":"phantom piece at 10596.63 (no spawn there per nextcount; see n108)"},
+{"n":108,"id":"q160","player":"p1","field":"max_combo","was":13,"value":12,"source":"'12 REN' on screen at 10608.0 after the 10607.7 double; chain counted the phantom quad"},
+{"n":112,"id":"q164","player":"p1","field":"pieces","was":165,"value":166,"source":"L locked on the KO frame 10974.53 (fr/g3/i112.png)"},
+{"n":113,"id":"q167","player":"p1","field":"pieces","was":23,"value":24,"source":"missing lock around 11093.2-11093.8 (fr/g3/i113.png, nextcount 7 spawns vs chain 5 in window, last unlocked)"},
+{"n":115,"id":"q174","player":"p2","field":"pieces","was":250,"value":251,"source":"missing lock (I/O/L/J/O between the two PCs, chain had 4) fr/g3/i115.png"}
+],
+"no_change":[
+{"n":90,"why":"q124 p1 7840.2: score +450 (300 single + 150 REN) at 7840.53, flat T, no T-spin banner (TETRIS banner lingering). Plain single is right (fr/g3/i90.png)"},
+{"n":91,"why":"q126 p1: O spawned 7970.97 is still falling after the KO at 7971.07 (fr/g3/i91.png)"},
+{"n":92,"why":"q127 p1 8006.83: score +7200 at 8007.47 = B2B TST; TSS banner belongs to another clear"},
+{"n":94,"why":"q131 p2 8293.13: +5550 at 8293.97 = B2B TSD + REN; Triple banner lingers from the 8292.43 TST (+4800)"},
+{"n":96,"why":"q135 p2 8652.77: +7208 at 8653.6 = B2B TST"},
+{"n":97,"why":"q135 p1 8658.8: increments ~1350/1508/1658/1810 rise by 150 per step = plain singles in a REN; a Mini would add ~300 more"},
+{"n":98,"why":"q137 p1 8884.93: +7200 at 8885.47 = B2B TST; chain already tst"},
+{"n":99,"why":"q138 p2: the +110 is drop points spread over the five locks after the 8932.3 double PC; no clear there"},
+{"n":100,"why":"q140 p2: Z spawned 9088.03 was held; L still at top at KO 9088.40 (fr/g3/i100.png)"},
+{"n":101,"why":"q145 p1: J spawned 9457.87 still falling at KO 9458.07 (score +1 soft drop only, fr/g3/i101.png)"},
+{"n":102,"why":"q152 p1: three locks match three score steps; the 10002.33 spawn did not lock by KO (score unchanged)"},
+{"n":103,"why":"q153 p1 10043.53: +1350 = single 300 + 7 REN (REN counter 6 -> 7 read on crop fr/g3/i103ren.png); plain single"},
+{"n":104,"why":"q156 p1 10289.8: +4800 at 10290.57 = TST (not B2B)"},
+{"n":106,"why":"q157 p2 10417.83: single+double together +1358 (300 + 900 + 150 REN); a Mini would give ~300 more"},
+{"n":107,"why":"q158 p1: S spawned 10531.87 still falling at KO 10532.2 (fr/g3/i107.png)"},
+{"n":109,"why":"handled under n108 (remove phantom quad) plus pieces cell edit"},
+{"n":110,"why":"q161 p1: +154 is drop points from several locks; the quad (I locks 10732.83, before KO 10732.87) is already in the chain (fr/g3/i110.png)"},
+{"n":111,"why":"q163 p2: J at top not locked by KO 10883.67 (fr/g3/i111.png)"},
+{"n":114,"why":"q170 p1: Z spawned 11277.80, score unchanged through 11278.07: no lock by KO 11277.93"},
+{"n":116,"why":"q174 p1: Z spawned 11519.80 held at 11519.867, only +1 soft-drop steps by KO 11519.93, score frozen after: no lock"}
+]}

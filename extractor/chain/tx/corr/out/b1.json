@@ -1,0 +1,639 @@
+{
+ "event_corrections": [
+  {
+   "n": 31,
+   "id": "w023",
+   "side": "p1",
+   "op": "remove",
+   "t": 1427.37,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py 1420-1476: REN singles at 1421.23(+450 REN1),1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93(+2550 REN15): 15 clears; nextcount 1419-1476 shows exactly 15 spawns 1420.967..1469.533 (hold swaps at 1428.97,1430.67,1441.1,1460.17 spawn nothing). Chain has 18 singles: extras at 1427.37 (no spawn; 1423.87 piece locks 1427.27), 1450.53 (Z spawned 1431.83 held at 1441.1, O from hold locks ~1456.0: one piece; sheet /tmp/claude-0/tx/corr/fr/g1/w023a.png), 1460.6 (hold swap at 1460.17 of the 1456.67 piece, lock 1460.43). Removing them also explains the -1396/-1950/-4164/-788 score spots (REN offset of 1-3)"
+  },
+  {
+   "n": 33,
+   "id": "w023",
+   "side": "p1",
+   "op": "remove",
+   "t": 1450.53,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py 1420-1476: REN singles at 1421.23(+450 REN1),1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93(+2550 REN15): 15 clears; nextcount 1419-1476 shows exactly 15 spawns 1420.967..1469.533 (hold swaps at 1428.97,1430.67,1441.1,1460.17 spawn nothing). Chain has 18 singles: extras at 1427.37 (no spawn; 1423.87 piece locks 1427.27), 1450.53 (Z spawned 1431.83 held at 1441.1, O from hold locks ~1456.0: one piece; sheet /tmp/claude-0/tx/corr/fr/g1/w023a.png), 1460.6 (hold swap at 1460.17 of the 1456.67 piece, lock 1460.43). Removing them also explains the -1396/-1950/-4164/-788 score spots (REN offset of 1-3)"
+  },
+  {
+   "n": 35,
+   "id": "w023",
+   "side": "p1",
+   "op": "remove",
+   "t": 1460.6,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py 1420-1476: REN singles at 1421.23(+450 REN1),1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93(+2550 REN15): 15 clears; nextcount 1419-1476 shows exactly 15 spawns 1420.967..1469.533 (hold swaps at 1428.97,1430.67,1441.1,1460.17 spawn nothing). Chain has 18 singles: extras at 1427.37 (no spawn; 1423.87 piece locks 1427.27), 1450.53 (Z spawned 1431.83 held at 1441.1, O from hold locks ~1456.0: one piece; sheet /tmp/claude-0/tx/corr/fr/g1/w023a.png), 1460.6 (hold swap at 1460.17 of the 1456.67 piece, lock 1460.43). Removing them also explains the -1396/-1950/-4164/-788 score spots (REN offset of 1-3)"
+  },
+  {
+   "n": 38,
+   "id": "w023",
+   "side": "p2",
+   "op": "remove",
+   "t": 1430.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms"
+  },
+  {
+   "n": 38,
+   "id": "w023",
+   "side": "p2",
+   "op": "remove",
+   "t": 1443.93,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms"
+  },
+  {
+   "n": 38,
+   "id": "w023",
+   "side": "p2",
+   "op": "remove",
+   "t": 1446.8,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms"
+  },
+  {
+   "n": 38,
+   "id": "w023",
+   "side": "p2",
+   "op": "remove",
+   "t": 1456.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms"
+  },
+  {
+   "n": 39,
+   "id": "w025",
+   "side": "p1",
+   "op": "retype",
+   "t": 1598.87,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "score +600 at 1599.07 (300 + REN2) from the piece spawned 1598.87 (hold swap 1598.97); frames /tmp/claude-0/tx/corr/fr/g1/w025.png 1598.83-1599.97 show the bottom grey garbage row cleared at 1599.10 with '2 REN' banner, then I clears another at 1599.83 '3 REN'"
+  },
+  {
+   "n": 41,
+   "id": "w029",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1754.9,
+   "t_end": 1769.17,
+   "events": [
+    {
+     "t": 1755.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1755.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1755.73,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 1756.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1757.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1758.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1758.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1758.7,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1759.8,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 1761.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1761.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1761.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1762.0,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1762.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1763.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1763.47,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 1764.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1765.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1766.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1767.6,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 1768.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1768.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1769.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1754.9,
+     null,
+     0
+    ],
+    [
+     1754.9,
+     null,
+     0
+    ],
+    [
+     1754.9,
+     "quad",
+     4
+    ],
+    [
+     1755.4,
+     null,
+     0
+    ],
+    [
+     1755.9,
+     null,
+     0
+    ],
+    [
+     1755.9,
+     null,
+     0
+    ],
+    [
+     1756.17,
+     "triple",
+     3
+    ],
+    [
+     1757.6,
+     null,
+     0
+    ],
+    [
+     1757.73,
+     "single",
+     1
+    ],
+    [
+     1758.8,
+     null,
+     0
+    ],
+    [
+     1758.97,
+     null,
+     0
+    ],
+    [
+     1759.13,
+     "triple",
+     3
+    ],
+    [
+     1760.33,
+     "quad",
+     4
+    ],
+    [
+     1760.6,
+     "double",
+     2
+    ],
+    [
+     1763.33,
+     null,
+     0
+    ],
+    [
+     1763.33,
+     "quad",
+     4
+    ],
+    [
+     1764.87,
+     null,
+     0
+    ],
+    [
+     1764.87,
+     null,
+     0
+    ],
+    [
+     1765.77,
+     "single",
+     1
+    ],
+    [
+     1766.73,
+     "single",
+     1
+    ],
+    [
+     1767.7,
+     "double",
+     2
+    ],
+    [
+     1768.67,
+     null,
+     0
+    ],
+    [
+     1768.93,
+     null,
+     0
+    ],
+    [
+     1769.17,
+     "single",
+     1
+    ]
+   ],
+   "source": "nextcount p1 1752-1770: 23 spawns in (1754.0,1769.2], all single shifts (no k=2), and score.py shows 23 drop-point locks in the same span; clears by score: 1756.07 triple +1500, 1757.57 single, 1759.03 triple, 1760.23 quad +2550(REN1), 1762.13 double, 1764.07 quad, 1765.13 single +450 (REN1), 1765.97 +600, 1766.97 +750, 1767.90 double +1500 (REN4), 1769.53 single. Chain (B-spliced) has a phantom quad at 1754.9 (TSD B2B at 1754.53 is the previous piece; next clear is the I triple, sheet /tmp/claude-0/tx/corr/fr/g1/w029a.png) and misses the single at 1765.13 (T spawned 1764.87, sheet /tmp/claude-0/tx/corr/fr/g1/w029b.png, grey height unchanged so gc 0). gc of other clears kept from chain"
+  },
+  {
+   "n": 44,
+   "id": "w033",
+   "side": "p1",
+   "op": "retype",
+   "t": 2094.13,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "score: quad B2B 2093.33 +3600 then 2094.23 +450 (REN1) from the piece spawned 2094.13 (I into well, one non-garbage row cleared, '1 REN', sheet /tmp/claude-0/tx/corr/fr/g1/w033a.png); REN singles continue to 2130.17 +2550 (REN15). nextcount: exactly one spawn 2099.50 between 2098.60 and 2104.20; score shows only +22 drop and +1350 single (2103.47) there -> chain's 2099.60 triple and 2099.63 double are phantoms"
+  },
+  {
+   "n": 45,
+   "id": "w033",
+   "side": "p1",
+   "op": "remove",
+   "t": 2099.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "source": "score: quad B2B 2093.33 +3600 then 2094.23 +450 (REN1) from the piece spawned 2094.13 (I into well, one non-garbage row cleared, '1 REN', sheet /tmp/claude-0/tx/corr/fr/g1/w033a.png); REN singles continue to 2130.17 +2550 (REN15). nextcount: exactly one spawn 2099.50 between 2098.60 and 2104.20; score shows only +22 drop and +1350 single (2103.47) there -> chain's 2099.60 triple and 2099.63 double are phantoms"
+  },
+  {
+   "n": 45,
+   "id": "w033",
+   "side": "p1",
+   "op": "remove",
+   "t": 2099.63,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "score: quad B2B 2093.33 +3600 then 2094.23 +450 (REN1) from the piece spawned 2094.13 (I into well, one non-garbage row cleared, '1 REN', sheet /tmp/claude-0/tx/corr/fr/g1/w033a.png); REN singles continue to 2130.17 +2550 (REN15). nextcount: exactly one spawn 2099.50 between 2098.60 and 2104.20; score shows only +22 drop and +1350 single (2103.47) there -> chain's 2099.60 triple and 2099.63 double are phantoms"
+  },
+  {
+   "n": 47,
+   "id": "w033",
+   "side": "p2",
+   "op": "retype",
+   "t": 2099.3,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "score p2: 2094.87 +300, 2097.53 +450, 2098.50 quad +2700 (REN2), 2099.53 +750 (REN3, from piece spawned 2099.30), 2100.43 +926 ... 2107.37 +1800 (REN10), 2125.27 +1950, 2127.50, 2128.80, 2129.80 double +3000 (REN14), 2130.83 +2550, 2131.73 double +3300 (REN16). nextcount: spawns 2108.03 then 2125.93, none at 2120.73; score flat 2107.37-2125.27; sheet /tmp/claude-0/tx/corr/fr/g1/w033b.png (grey stack height unchanged)"
+  },
+  {
+   "n": 48,
+   "id": "w033",
+   "side": "p2",
+   "op": "remove",
+   "t": 2120.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score p2: 2094.87 +300, 2097.53 +450, 2098.50 quad +2700 (REN2), 2099.53 +750 (REN3, from piece spawned 2099.30), 2100.43 +926 ... 2107.37 +1800 (REN10), 2125.27 +1950, 2127.50, 2128.80, 2129.80 double +3000 (REN14), 2130.83 +2550, 2131.73 double +3300 (REN16). nextcount: spawns 2108.03 then 2125.93, none at 2120.73; score flat 2107.37-2125.27"
+  },
+  {
+   "n": 51,
+   "id": "w035",
+   "side": "p1",
+   "op": "retype",
+   "t": 2365.97,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score 2365.7-2367.7: locks +16 2365.87, +10 2366.20 (no clear), +14 2366.43 with double +900 at 2366.50, single +450 at 2367.60; nextcount spawns 2365.767,2365.967,2366.30,2367.233 -> only the 2366.30 piece (chain 2366.57) doubles; the 2365.97 piece did not clear. Explains the -1142 score spot"
+  },
+  {
+   "n": 54,
+   "id": "w042",
+   "side": "p2",
+   "op": "retype",
+   "t": 2794.47,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +3772 at 2794.73 = TETRIS B2B 3600 + REN1 150 + drop; nextcount spawn 2794.467 is I (IOLSI>OLSIL); frames /tmp/claude-0/tx/corr/fr/g1/w042.png show the I dropped in the left column with TETRIS banner and REN, 4 coloured rows above the grey cleared"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 30,
+   "id": "w022",
+   "player": "p1",
+   "field": "pieces",
+   "was": 38,
+   "value": 39,
+   "source": "nextcount spawn at 1392.70 (queue OZJOL>ZJOLT) missing from cseq; that O hard-drops and locks on the KO frame 1393.00 (score 18652->18666 at 1393.00, no clear; sheet /tmp/claude-0/tx/corr/fr/g1/w022.png 1392.60-1393.13). Lock at/at KO frame counts; no clear so no event add needed"
+  },
+  {
+   "n": 32,
+   "id": "w023",
+   "player": "p1",
+   "field": "pieces",
+   "was": 110,
+   "value": 107,
+   "source": "3 phantom single pieces removed (1427.37,1450.53,1460.6); nextcount spawn count in 1419-1476 = 15 vs chain 18. score.py 1420-1476: REN singles at 1421.23(+450 REN1),1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93(+2550 REN15): 15 clears; nextcount"
+  },
+  {
+   "n": 34,
+   "id": "w023",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 18,
+   "value": 15,
+   "source": "last REN single at 1469.93 scores +2550 = 300+15*150 -> REN15; double at 1471.40 +900 (REN0). Chain's 18 came from the 3 phantom singles"
+  },
+  {
+   "n": 38,
+   "id": "w023",
+   "player": "p2",
+   "field": "pieces",
+   "was": 125,
+   "value": 122,
+   "source": "3 phantom pieces (1430.97,1443.93,1456.00) in the stalled window; one real piece 1430.87->lock 1456.43. p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN"
+  },
+  {
+   "n": 38,
+   "id": "w023",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 11,
+   "value": 17,
+   "source": "REN never broke across the stall: score +1800 at 1456.43 continues REN; double at 1469.40 scores +3450 = 900+17*150 -> REN17 (nextcount: 7 spawns 1457.1-1469.03, 7 clears)"
+  },
+  {
+   "n": 40,
+   "id": "w029",
+   "player": "p1",
+   "field": "pieces",
+   "was": 105,
+   "value": 104,
+   "source": "window 1754.9-1769.17: chain 24 pieces vs 23 real spawns/locks (nextcount + score drop points). nextcount p1 1752-1770: 23 spawns in (1754.0,1769.2], all single shifts (no k=2), and score.py shows 23 drop-point locks"
+  },
+  {
+   "n": 45,
+   "id": "w033",
+   "player": "p1",
+   "field": "pieces",
+   "was": 249,
+   "value": 247,
+   "source": "two phantom pieces at 2099.60/2099.63 (one spawn 2099.50 by nextcount, one lock 2103.43)"
+  },
+  {
+   "n": 49,
+   "id": "w033",
+   "player": "p2",
+   "field": "pieces",
+   "was": 282,
+   "value": 281,
+   "source": "phantom piece 2120.73 (no spawn between 2108.03 and 2125.93; one lock 2125.27)"
+  },
+  {
+   "n": 49,
+   "id": "w033",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 13,
+   "value": 16,
+   "source": "REN unbroken 2094.87-2131.73: double at 2131.73 +3300 = 900+16*150 -> REN16"
+  },
+  {
+   "n": 54,
+   "id": "w042",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 6,
+   "value": 7,
+   "source": "with 2794.47 a quad the B2B run tsd 2782.5, quad 2784.73, 2793.37, 2794.47 joins the earlier run: 8 consecutive B2B-type clears ending at 2794.47 (scores 5400,3600,3600,3750 all B2B) -> max_b2b 7"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 42,
+   "why": "spawn 2057.23 (nextcount); score shows only +1 soft-drop steps 2057.30-2057.40 through the KO 2057.33, no hard drop/lock by KO"
+  },
+  {
+   "n": 43,
+   "why": "real clear increments 300,450,618,750,900,1050,1220,3470,1524,1674,1800,1950,2100,2876,2426,2550 match chain's 300..2550 sequence; the +354 is hard-drop points landing on the clear frames"
+  },
+  {
+   "n": 46,
+   "why": "2109.57 piece locks at 2127.90 single (+2250 REN13), next spawn 2128.63; nextcount shows no spawn in between, chain matches"
+  },
+  {
+   "n": 50,
+   "why": "O spawned 2300.47 still at the top through the KO 2301.0 (sheet /tmp/claude-0/tx/corr/fr/g1/w034.png), score unchanged: no lock"
+  },
+  {
+   "n": 52,
+   "why": "piece spawned 2636.63 is still soft-dropping (+1 per frame 2636.83-2637.20) at the KO 2637.17; earlier pieces 2636.10/2636.30 locked (+32 2636.30, +30 2636.63) and are counted"
+  },
+  {
+   "n": 53,
+   "why": "piece spawned 2663.13 soft-dropping (+1 per frame through 2663.67), no lock by KO 2663.73"
+  },
+  {
+   "n": 36,
+   "why": "gap 1456.80-1461.10: real spawns 1456.67 and 1461.10 (hold swap 1460.17); the only fix there is removing the phantom single 1460.6, given under n=35"
+  },
+  {
+   "n": 37,
+   "why": "1466.67-1474.67: clears 2250,2400,2550 (REN13-15), doubles 900,900,1050, single 600 all match the chain once the three phantom REN singles (n=31,33,35) are removed; residual -788 is that REN offset"
+  }
+ ]
+}

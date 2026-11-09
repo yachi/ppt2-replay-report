@@ -1,0 +1,315 @@
+{
+ "event_corrections": [
+  {
+   "n": 34,
+   "id": "q055",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3655.5,
+   "t_end": 3684.0,
+   "events": [
+    {
+     "t": 3657.03,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3665.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3673.37,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3655.83,
+     "BREAK",
+     1
+    ],
+    [
+     3657.03,
+     "single",
+     1
+    ],
+    [
+     3660.97,
+     "single",
+     1
+    ],
+    [
+     3665.63,
+     "single",
+     1
+    ],
+    [
+     3669.4,
+     null,
+     0
+    ],
+    [
+     3672.13,
+     "BREAK",
+     1
+    ],
+    [
+     3673.37,
+     "double",
+     2
+    ],
+    [
+     3677.6,
+     "double",
+     2
+    ]
+   ],
+   "source": "nextcount: spawns only at 3657.03, 3665.53, 3673.23, 3684.93 (slow-motion lag); score shows one continuous REN 8->14: +1500@3656.27, +1650@3664.87, +1800@3672.57, +2550@3684.20 then +2700/+3450/+3000; no BREAK. /tmp/claude-0/qh/corr/fr/g1/q055a.png"
+  },
+  {
+   "n": 33,
+   "id": "q055",
+   "side": "p2",
+   "op": "remove",
+   "t": 3682.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "no spawn between 3656.43 (hold at 3671.67) and 3683.87; real clears score at 3683.20 (+1800, REN10), 3686.60 (+1950), 3687.80 (+2100). nextcount + score.py"
+  },
+  {
+   "n": 45,
+   "id": "q071",
+   "side": "p1",
+   "op": "retype",
+   "t": 4564.5,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 1,
+   "source": "T fills garbage-row hole ~4564.85, row flashes 4564.95-4565.2, score 73024->74260 (+1236 = single at REN6 + drop). /tmp/claude-0/qh/corr/fr/g1/q071b.png, q071c.png"
+  },
+  {
+   "n": 45,
+   "id": "q071",
+   "side": "p1",
+   "op": "retype",
+   "t": 4565.53,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "J vertical into col 6, row flashes 4565.82-4565.95, score ->75646 (+1386 = REN7). /tmp/claude-0/qh/corr/fr/g1/q071c.png"
+  },
+  {
+   "n": 49,
+   "id": "q076",
+   "side": "p2",
+   "op": "retype",
+   "t": 4796.73,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 2,
+   "source": "score 65840->66924 (+1084 = double 900 + REN1 150 + drop); T-SPIN Triple banner lingering from TST at 4795.4 (+4800). /tmp/claude-0/qh/corr/fr/g1/q076b.png"
+  },
+  {
+   "n": 56,
+   "id": "q085",
+   "side": "p2",
+   "op": "remove",
+   "t": 5330.23,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "one J spawns ~5330.15 and falls slowly until ~5334.1; hold T unchanged, NEXT queue unchanged, score 16132->16135 (soft drop) \u2014 only one piece in 5330.0-5334.1, so 5330.23 is a duplicate of 5330.0. /tmp/claude-0/qh/corr/fr/g1/q085.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "q055",
+   "player": "p1",
+   "field": "pieces",
+   "was": 62,
+   "value": 59,
+   "source": "n34: nextcount spawns in 3655.5-3684 are 3 not 6; /tmp/claude-0/qh/corr/fr/g1/q055a.png",
+   "n": 34
+  },
+  {
+   "id": "q055",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 8,
+   "value": 14,
+   "source": "n34: score increments show REN reaching 14 (+3000 at end of run)",
+   "n": 34
+  },
+  {
+   "id": "q055",
+   "player": "p2",
+   "field": "pieces",
+   "was": 53,
+   "value": 52,
+   "source": "n33: phantom single at 3682.77, no spawn",
+   "n": 33
+  },
+  {
+   "id": "q055",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 5,
+   "value": 12,
+   "source": "n33: +1800/+1950/+2100 at 3683.2/3686.6/3687.8 = REN 10-12",
+   "n": 33
+  },
+  {
+   "id": "q071",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 5,
+   "value": 7,
+   "source": "n45: +1236 (REN6) and +1386 (REN7) at 4565/4566; /tmp/claude-0/qh/corr/fr/g1/q071c.png",
+   "n": 45
+  },
+  {
+   "id": "q057",
+   "player": "p1",
+   "field": "pieces",
+   "was": 26,
+   "value": 27,
+   "source": "hard drop on KO frame 3750.77 scored +36 (no clear); lock at end_s counts",
+   "n": 37
+  },
+  {
+   "id": "q085",
+   "player": "p2",
+   "field": "pieces",
+   "was": 93,
+   "value": 92,
+   "source": "n56: duplicate None lock at 5330.23; /tmp/claude-0/qh/corr/fr/g1/q085.png",
+   "n": 56
+  }
+ ],
+ "no_change": [
+  {
+   "n": 31,
+   "why": "KO: piece still airborne at tilt frame"
+  },
+  {
+   "n": 38,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 40,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 41,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 46,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 47,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 50,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 51,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 54,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 55,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 59,
+   "why": "KO: piece not locked by tilt frame"
+  },
+  {
+   "n": 30,
+   "why": "tsmini already in chain; following quad scored with B2B"
+  },
+  {
+   "n": 32,
+   "why": "T was held; I made the single, as chained"
+  },
+  {
+   "n": 35,
+   "why": "covered by n34 replace_window"
+  },
+  {
+   "n": 36,
+   "why": "covered by n34 replace_window"
+  },
+  {
+   "n": 39,
+   "why": "O drop ~3925.47 is after KO; 95000 is bonus"
+  },
+  {
+   "n": 42,
+   "why": "S drop 4335.07 after KO; +299 is drop points"
+  },
+  {
+   "n": 43,
+   "why": "+450 = plain single at REN1, as chained"
+  },
+  {
+   "n": 44,
+   "why": "+450 = plain single at REN1, as chained"
+  },
+  {
+   "n": 48,
+   "why": "score spot explained by n49 retype (double, not tsd)"
+  },
+  {
+   "n": 52,
+   "why": "TSD +5555 (B2B + REN1), as chained"
+  },
+  {
+   "n": 53,
+   "why": "triple+PC correct; banner lingering from TSD"
+  },
+  {
+   "n": 57,
+   "why": "TST +4800 with T-SPIN Triple banner, as chained"
+  },
+  {
+   "n": 58,
+   "why": "double +1061 (double + REN1), as chained"
+  }
+ ]
+}
