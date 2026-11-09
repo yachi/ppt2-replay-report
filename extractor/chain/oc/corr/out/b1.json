@@ -1,0 +1,35 @@
+{"event_corrections":[
+ {"n":26,"id":"o039","side":"p1","op":"replace_window","t":2642.5,"t_end":2643.0,"events":[],"was_old":[[2642.93,null,0],[2642.93,null,0],[2642.93,null,0]],"source":"nextcount p1: L spawns 2641.967, held 2642.033, I from hold locks 2642.23 with the quad (score +3600 at 2642.27); next queue shift is 2643.100 (IZJIZ>ZJIZT, single shift). No piece locks between the quad and the 2643.1 spawn, so the three None locks at 2642.93 are phantoms (queue obscured 2642.53-2642.80 by the quad effect). Whole game: 141 shifts, first is the empty-hold spawn at 2583.967 (L held 2584.033), so 140 locks = 143-3."},
+ {"n":34,"id":"o052","side":"p1","op":"replace_window","t":3549.5,"t_end":3554.35,"events":[],"was_old":[[3549.57,"single",1],[3549.9,"BREAK",6],[3554.33,"BREAK",2]],"source":"Game/stream froze 3550.0-3554.2 (both boards and scores static, fr/g1/o052a.png). p1: spawn 3549.267, hold, lock 3549.40 (+22) and single with 9 REN at 3549.47 (+1650 = 300+9*150) = chain single 3549.27. No spawn/lock until O spawns 3554.233 (held 3555.367), held piece locks 3555.57 with single 10 REN (+1800, '10 REN' banner in frame 3555.6) = chain single 3554.37; then 3556.47 +1950 = 11 REN single (chain 3556.43). So 3549.57 single is a phantom and the REN never broke: both BREAK markers are false."},
+ {"n":37,"id":"o052","side":"p2","op":"replace_window","t":3549.95,"t_end":3550.25,"events":[],"was_old":[[3549.97,null,0],[3550.2,null,0]],"source":"Freeze 3550.0-3554.2 (fr/g1/o052a.png). p2 spawns 3549.6, 3549.9, then 3555.167 only; locks at 3549.60 (+16), 3549.80 (+12), 3555.07 (+10, piece spawned 3549.9 locking after the freeze), then tss at 3555.67. The chain events 3549.97 and 3550.2 have no spawn or lock: phantoms."},
+ {"n":41,"id":"o054","side":"p1","op":"retype","t":3932.63,"was":["tsmini",1,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"fr/g1/o054.png: an orange L hard-drops into the right-edge slot at 3932.87 (+26) and clears one line; score +900 at 3932.93 = single 300 + REN4 600 (REN from 3929.47 double). Not a T piece, no T-spin. With B2B broken, the quad at 3936.17 scores +2400 (3936.53), which is what the score spot showed."},
+ {"n":45,"id":"o059","side":"p2","op":"retype","t":4345.13,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"fr/g1/o059.png: T locks at the top 4345.6, two rows flash, 'Double' banner (T-SPIN Double) by 4345.70; p2 score +3750 at 4345.66 = TSD 3600 + REN1 150 (B2B was broken by the singles at 4342.2/4344.1, so a TSS would be 2550)."}
+],
+"cell_edits":[
+ {"n":26,"id":"o039","player":"p1","field":"pieces","was":143,"value":140,"source":"nextcount over 2582.7-2665.2: 141 queue shifts, one is the empty-hold spawn at 2583.967; last spawn 2664.9 locks with the quad by KO (+3600 at 2665.00). 140 locks; chain had 3 phantom locks at 2642.93."},
+ {"n":34,"id":"o052","player":"p1","field":"pieces","was":95,"value":65,"source":"nextcount 3528-3580: 67 shifts; minus the empty-hold spawn (first hold 3529.03) and the last spawn 3579.23 (T held 3579.66, S locks 3579.97, after KO 3579.93, fr/g1/o052ko.png) = 65 = chain cseq 66 locks less the phantom at 3549.57. The 9 s freeze 3550.0-3554.2 holds no locks."},
+ {"n":34,"id":"o052","player":"p1","field":"max_combo","was":10,"value":11,"source":"Score steps 3548.60 +1500 (8 REN), 3549.47 +1650 (9 REN), 3555.60 +1800 (10 REN banner), 3556.47 +1950 (11 REN) - one unbroken REN across the freeze; next lock 3557.27 no clear."},
+ {"n":37,"id":"o052","player":"p2","field":"pieces","was":80,"value":70,"source":"nextcount 3528-3580: 73 shift entries, one is a misread (3559.033 k=3, resynced 3559.1); minus the empty-hold spawn 3528.8 and the last spawn 3579.567 (no lock before KO, score static) = 70 = chain cseq 72 locks less the two phantoms at 3549.97/3550.2."}
+],
+"no_change":[
+ {"n":24,"why":"o036 p1: last spawn 2492.07; score stays 34221 from 2491.97 through 2492.53, so no lock at or before KO 2492.17."},
+ {"n":25,"why":"o038 p1 2569.27: score +1500 at 2569.50 = single 300 + 8 REN; a TSS would be >=2400. Chain single is right."},
+ {"n":27,"why":"o041 p1: after the single (score 2735.80) next spawn 2736.43; score unchanged through 2737.23, no lock by KO 2736.9."},
+ {"n":28,"why":"o042 p1 2767.4: score +600 at 2767.43 = single 300 + 2 REN; not a TSS. Chain single is right."},
+ {"n":29,"why":"o042 p2: piece spawned 2819.37 (hold 2819.47) locks at frame 2819.67 (fr/g1/o042ko.png), two frames after KO 2819.6; does not count."},
+ {"n":30,"why":"o043 p1: piece spawned 2855.80 still soft-dropping (+1/frame) at 2856.23, past KO 2856.2; no lock."},
+ {"n":31,"why":"o044 p2: four locks (2926.34/.70/.90/2927.20) match the 4 chain events; piece spawned 2927.24 soft-drops past KO 2927.47."},
+ {"n":32,"why":"o045 p2 2973.53: score +450 at 2973.86 = single 300 + 1 REN; a mini would be >=750 with REN. Chain single is right."},
+ {"n":33,"why":"o048 p2: piece spawned 3246.77 soft-drops (+1/frame) past KO 3247.3; no lock."},
+ {"n":35,"why":"o052 p1 second gap: freeze ~3571.6-3576.4. Locks 3570.90, 3571.27, I locks 3571.53 (+26) and its quad scores +2400 at 3576.43 after the freeze; next spawn 3577.27. Chain (3570.37, 3571.0, quad 3571.37, 3577.27...) is right."},
+ {"n":36,"why":"o052 p1: T spawned 3579.23, held 3579.66, S locks 3579.97 (frame 3580.00 locked, 3579.90 still falling; fr/g1/o052ko.png), after KO 3579.93."},
+ {"n":38,"why":"o052 p2 second gap: locks 3570.63, 3570.97, 3576.40 (piece spawned 3571.03, after freeze), single +306 at 3576.67 = chain events 3570.23, 3570.7, 3571.03, single 3576.47."},
+ {"n":39,"why":"o053 p1: fr/g1/o053a.png: I spawns 3881.96 and locks 3882.03 at the top, Z spawns 3882.13 and is held 3883.10, the piece from hold locks with +900 at 3884.17 = plain double (TSD would be 3600). Chain None+double at 3882.13 are both real; types right."},
+ {"n":40,"why":"o053 p2: two locks 3885.60/3885.93 match chain; spawn 3885.93 not locked by KO 3886.13 (score static)."},
+ {"n":42,"why":"o054 p2: after the single (3997.60) the next spawn 3998.24 is held 3998.37; score static to KO 3998.47."},
+ {"n":43,"why":"o057 p2: piece spawned 4181.27 soft-drops (+1/frame) past KO 4181.67."},
+ {"n":44,"why":"o058 p2: piece spawned 4249.0 soft-drops past KO 4249.57."},
+ {"n":46,"why":"o063 p1: piece spawned 4630.53 (hold 4630.57) soft-drops past KO 4630.7."},
+ {"n":47,"why":"o071 p2 5109.3: score +464 at 5109.63 = single 300 + 1 REN + 14 drop; not a TSS. Chain single is right."},
+ {"n":48,"why":"o071 p2: locks 5162.77, 5163.07 match chain; spawn 5163.17 held 5163.24, no lock by KO 5163.37."}
+]}

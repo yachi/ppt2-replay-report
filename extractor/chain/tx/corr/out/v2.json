@@ -1,0 +1,23 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py p1: quad +2400 at 3358.87 (not REN, locks between), then +1050 at 3359.97 = double 900 + REN1 150; a single+REN1 would be 450."},
+{"ref":"e1","verdict":"keep","why":"score.py p2: quad +2400 at 3428.63, +1050 at 3429.67 = double+REN1; TSD at 3431.33 scores plain +3600 (B2B broken by a non-B2B clear), consistent with a double."},
+{"ref":"e2","verdict":"keep","why":"score.py p2: +300 at 3551.27 is the lock of the 3550.97 piece (zero-line mini 100x3); the 3551.33 piece scores +2 drop only; B2B quad +3600 at 3552.33. A mini single would be 600 (cf. w061 mini REN11 = 2250 = 600+1650)."},
+{"ref":"e3","verdict":"keep","why":"score.py p1: singles +300 3690.97, +450 3691.80, tetris+REN2 +2700 at 3692.60, then +4050 at 3693.63 = B2B tetris 3600 + REN3 450; a double+REN3 would be 1350."},
+{"ref":"e4","verdict":"keep","why":"nextcount p1: shifts 3854.333, 3854.667, then none until 3863.367; score.py p1 +22 at 3854.57 (3854.33 piece) then flat until +2 at 3863.27 (the 3854.67 J). No lock for a 3854.93 piece."},
+{"ref":"e5","verdict":"keep","why":"score.py p2: +300 at 3838.10 (lock before the 3838.17 spawn) with a mini banner = zero-line mini; 3838.17 piece +16 drop only at 3838.37; next clear +900 double at 3839.33 (no REN)."},
+{"ref":"e6","verdict":"keep","why":"nextcount p2: shift 3858.900, hold 3859.067, next shift 3863.100 (no spawns between); score.py p2 flat 3858.90-3862.30 then +2412 quad, +472 at 3863.47 = single REN1, then +1200 d REN2, +756 s REN3, +1500 d REN4, +1056 s REN5, +1208 s REN6, +1350 s REN7, matching chain's later events. 3859.27x2/3862.4 locks and BREAK are phantoms."},
+{"ref":"e7","verdict":"keep","why":"score.py p1: +1650 s REN9 4815.33, +1800 s REN10 4816.10, +2250 mini REN11 4817.27, +16 at 4818.03 then +2100 at 4818.10 = single 300 + REN12 1800; nextcount shift 4817.933; KO 4818.13."},
+{"ref":"e8","verdict":"keep","why":"fr/v2/w063end.png: S still falling with ghost at 4932.80, locked with sparkle at 4932.84 (KO frame); score shows 41399 in that frame. No clear."},
+{"ref":"e9","verdict":"keep","why":"score.py p2: +3600 at 4916.67 (B2B tetris), +5400 at 4918.87 = B2B TSD (3600x1.5); B2B TSS would be 3600."},
+{"ref":"e10","verdict":"keep","why":"nextcount p1: shift 4993.067, hold 4993.867, next shift 4995.200, no shift at 4993.43; score.py flat 4993.00-4994.50 then +1050 at 4994.53 = single REN5 (+900 REN4 before, +1200 REN6 after)."},
+{"ref":"e11","verdict":"keep","why":"score.py p1: quad +2400 at 5068.47, +450 at 5069.50 = single REN1 (lock of the 5069.30 spawn), then +600 5070.30, +750 5071.23, +1500 5072.23 - each one REN step up."},
+{"ref":"e12","verdict":"keep","why":"fr/v2/w067.png: T dropped into the left side ~5118.2-5118.3, small T-SPIN banner, no row cleared (stack rows unchanged); score +300 at 5118.30 = zero-line mini. The 5118.37 piece is an I (held at 5118.433) and scores drop points only."},
+{"ref":"e13","verdict":"keep","why":"fr/v2/w068.png: board empty under PERFECT CLEAR at 5189.93; I, O, L, J rebuild two rows (5190.46-5191.26); board empty again with a new PERFECT CLEAR at 5191.40. score.py p2 +4988 5189.93, small drop-only jumps, +4500 5191.37. nextcount spawns 5189.967, 5190.133, 5190.533, 5190.767, 5191.100 (S held, O out), 5191.433. Whole-game nextcount p2: 29 spawns by KO, 1 left in hold -> 28 locks = chain CSV 28 (window adds one event to cseq's 27), so no pieces edit needed."},
+{"ref":"c0","verdict":"keep","why":"nextcount p1 3822-3879 (fr/v2/v2_p1.txt): 83 shifts, all single; last T held 3878.833 with the I out of hold not locked by KO -> 83-1 (hold)-1 (active) = 81."},
+{"ref":"c1","verdict":"keep","why":"nextcount p2 (fr/v2/v2_p2.txt): 95 shifts, last at 3878.233; fr/v2/w060end.png shows the topped-out board, no score change after 3878.13 -> 95-1-1 = 93. Lock-out of the last piece is ambiguous (+-1)."},
+{"ref":"c2","verdict":"keep","why":"score.py p2: quad 3862.30 (no REN bonus) followed by 7 consecutive clears with REN bonuses 150..1050 ending +1350 single REN7 at 3869.83; next lock 3870.67 is drop only."},
+{"ref":"c3","verdict":"keep","why":"Follows e7: the Z spawned 4817.933 locks (+16 at 4818.03) and clears before KO 4818.13."},
+{"ref":"c4","verdict":"keep","why":"+2100 at 4818.10 = 300 + 150x12, so REN12."},
+{"ref":"c5","verdict":"keep","why":"Follows e8: S locked on the KO frame (fr/v2/w063end.png)."},
+{"ref":"c6","verdict":"keep","why":"nextcount p1 4971.7-5013 (fr/v2/w065p1.txt): 62 shifts, the spawned sequence forms 9 clean 7-bags; final turn O held 5012.167, its swap piece clears +3900 at 5012.33 before KO 5012.87, no later spawn -> 62-1 = 61."}
+]

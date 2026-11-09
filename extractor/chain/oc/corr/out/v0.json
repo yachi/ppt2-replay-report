@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/o009.png: T set high on the left stack at ~1150.85, T-SPIN banner, no row flash or stack drop; score +300 at 1150.90 = zero-line Mini T-spin."},
+{"ref":"e1","verdict":"keep","why":"fr/v0/o019.png: J hard-dropped, a coloured row flashes at 1633.65 and stack drops; score +34 (1633.63) then +900 (1633.67) = single at REN4, then +1050 single REN5 at 1634.50."},
+{"ref":"e2","verdict":"keep","why":"Checked frames (fr/v0/o035.png 2450.20-2450.90): T locks at ~2450.27-2450.34, T-SPIN banner from 2450.41, no row flash and no stack drop; score +300 at 2450.40 only = zero-line Mini T-spin (a Mini TSS would be >=600)."},
+{"ref":"c0","verdict":"keep","why":"score.py +24 at 1073.20; nextcount spawn 1072.933 + hold at 1073.0 not in chain; fr/v0/o006.png shows the O locked with drop trail at 1073.19 while p1's board still upright (tilt from 1073.23). No clear."},
+{"ref":"c1","verdict":"keep","why":"score +30 at 1107.53; fr/v0/o007.png: T locked at 1107.53, p1 tilt from 1107.56; spawn 1107.367 not in chain. No clear."},
+{"ref":"c2","verdict":"keep","why":"Recounted locks from p2 score jumps over the whole game (1115.30..1126.93): 29 locks (1124.10 +4 is soft drop; 1125.57-1125.70 is one double+PC lock). fr/v0/o008.png: O locks at 1126.93, p1 tilt from 1126.96."},
+{"ref":"c3","verdict":"keep","why":"score +18 at 2326.13 (ffmpeg); nextcount spawn 2325.933 not in chain; fr/v0/o031.png: T locked at 2326.10 stamp, p2 tilt starts the next frame. No clear."},
+{"ref":"c4","verdict":"keep","why":"Score REN bonuses 1631.10 +450, 1631.83 +628, 1632.70 quad+REN3, 1633.67 +900, 1634.50 +1050 = REN1..REN5 consecutive; 4 REN/5 REN banners in fr/v0/o019.png region."}
+]

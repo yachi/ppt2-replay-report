@@ -1,0 +1,31 @@
+{"event_corrections":[
+{"n":6,"id":"o009","side":"p1","op":"retype","t":1150.63,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Frames 1150.6-1151.4 (fr/g0/o009.png): T placed near the top of the stack at 1150.90 with a T-SPIN banner, no row cleared (stack height unchanged). Score +300 at 1150.90 = zero-line Mini T-spin (a Mini TSS is >=600); next single at 1151.93 scores +300 (no REN), confirming no clear."},
+{"n":12,"id":"o019","side":"p2","op":"retype","t":1633.5,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"Score p2 +34 hard drop at 1633.63 then +900 at 1633.67 = single at REN4 (300+600); REN counter changes 3 REN -> 4 REN at 1633.70 (fr/g0/o019.png); the flashed row at 1633.70 is a coloured (own-stack) row (fr/g0/o019z.png). Next clear 1634.50 +1050 = single REN5 with '5 REN' banner."},
+{"n":22,"id":"o035","side":"p1","op":"retype","t":2450.43,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Score p1 +300 at 2450.40 only: a Mini T-spin Single would score >=600 (900 with B2B active after the 2448.23 TST); 300 = zero-line Mini T-spin, same pattern as o009 1150.9. Following quad at 2452.37 scores 3600 (B2B kept)."}
+],
+"cell_edits":[
+{"n":3,"id":"o006","player":"p2","field":"pieces","was":"124","value":"125","source":"nextcount: spawn at 1072.933 (L, held at 1073.0, O out of hold) not in chain; score +24 hard drop at 1073.20; sheet fr/g0/o006.png shows the O locked with drop trail at 1073.17, before KO 1073.20. No clear (score stays 73465)."},
+{"n":4,"id":"o007","player":"p2","field":"pieces","was":"53","value":"54","source":"nextcount: T spawned 1107.367 (chain last event 1107.23); score +30 hard drop at 1107.533; fr/g0/o007.png shows T locked on frame 1107.533, the same frame p1's board starts to tilt (KO 1107.53, fr/g0/o007k.png). No clear."},
+{"n":5,"id":"o008","player":"p2","field":"pieces","was":"28","value":"29","source":"Score hard-drop jumps count 29 locks in the game (last +38 at 1126.933); fr/g0/o008.png shows the O locking at 1126.933, on/before p1's tilt frame (KO 1126.93). nextcount 30 shifts incl. one first hold-into-empty = 29 pieces. No clear."},
+{"n":20,"id":"o031","player":"p1","field":"pieces","was":"36","value":"37","source":"Score +18 hard drop; fr/g0/o031b.png (ffmpeg 2326.067/2326.1/2326.133): the T locks on the very frame p2's board tilts (2326.133 in ffmpeg time; 2326.10 stamp in fr/g0/o031.png), i.e. on the KO frame. No clear (score 25652 unchanged after)."},
+{"n":12,"id":"o019","player":"p2","field":"max_combo","was":"3","value":"5","source":"REN banners 4 REN at 1633.70 and 5 REN at 1634.50 (fr/g0/o019.png); score REN bonuses 450,600,(quad+450),900,1050 at 1631.10..1634.50 = REN steps 1..5."}
+],
+"no_change":[
+{"n":0,"why":"o000 p2: score rises +1/frame (soft drop) through 715.43; last piece still falling at KO 715.37."},
+{"n":1,"why":"o002 p1: +750 at 865.10 and +900 at 866.00 are singles at REN3/REN4 (300+150n); a TSS would be >=2400. Plain single correct."},
+{"n":2,"why":"o005 p1: S still at top at KO 1002.0 (fr/g0/o005.png); score unchanged."},
+{"n":7,"why":"o010 p2: soft-drop +1s at 1197.04/1197.17, no hard-drop jump by KO 1197.37."},
+{"n":8,"why":"o015 p1: score unchanged 1392.00-1393.07; piece out of hold at 1392.77 not locked by KO 1393.0."},
+{"n":9,"why":"o018 p1: soft-drop +1 per frame through 1558.93; not locked at KO 1558.9."},
+{"n":10,"why":"o019 p1: +900 at 1590.87 = single at REN4 after TSD (450,600,750,900,1050,1200 sequence); Mini TSS would be 1200."},
+{"n":11,"why":"o019 p1 (loser): +1200 at 1633.73 is a zero-line T-spin (T-SPIN banner, no row cleared, garbage rose; fr/g0/o019.png). Lock already logged as None."},
+{"n":13,"why":"o020 p2: +462 at 1680.63 = single REN1 after the B2B quad; not a TSS."},
+{"n":14,"why":"o020 p2: +1200 at 1688.40 is a zero-line T-spin (purple T into slot, T-SPIN banner, no row cleared, garbage rose; fr/g0/o020.png). None lock correct."},
+{"n":15,"why":"o024 p1: no score change between 1912.90 and KO 1913.13; last piece not locked."},
+{"n":16,"why":"o024 p2: +1200 at 1906.57 = double at REN2 (900+300); a TSD would be >=3600."},
+{"n":17,"why":"o028 p1: last jump 2116.17 (logged piece); no change through KO 2116.4."},
+{"n":18,"why":"o030 p2: +1068 at 2281.97 = single REN5 (1050+drop) in a REN run 450..1050 then triple 2400 at REN6; Mini TSS would be 1350."},
+{"n":19,"why":"o030 p2: last lock 2293.67 is logged; no jump by KO 2293.97."},
+{"n":21,"why":"o034 p1: last lock 2412.57 logged; no change by KO 2412.87."},
+{"n":23,"why":"o036 p1: +1050 at 2475.30 = single REN5 in a run 600..1350; Mini TSS would be 1350."}
+]}

@@ -9949,5 +9949,3009 @@
   "pc": 0,
   "gc": 1,
   "source": "fr frame check, verified: L locks into col-0 garbage hole 5485.00 (+26), +900 double at 5485.03 (orange/red row + top garbage row), KO 5485.17; fr/g3/f056ko.png"
+ },
+ {
+  "id": "w003",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 370.63,
+  "t_end": 376.9,
+  "events": [
+   {
+    "t": 370.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 375.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 376.9,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    370.63,
+    "single",
+    1
+   ],
+   [
+    375.47,
+    "single",
+    1
+   ],
+   [
+    375.87,
+    "single",
+    1
+   ],
+   [
+    375.9,
+    "quad",
+    4
+   ],
+   [
+    376.9,
+    "single",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: score.py 369-380.3: p1 score flat 369.87-375.07 (piece held ~4.5 s), then clears +2550@375.20,+2700@376.20,+2850@377.43 (REN singles 15,16,17),+4200@378.33 (triple REN18); nextcount spawns 370.53,375.87,376.90,378.07 = one piece per clear. Chain's 375.47 single and 375.90 quad are phantoms (no score jump). Sheet /tmp/claude-0/tx/corr/fr/g0/w003a.png"
+ },
+ {
+  "id": "w012",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 863.0,
+  "t_end": 868.13,
+  "events": [
+   {
+    "t": 863.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 863.4,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 863.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 864.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 865.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 866.23,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 866.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 867.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 868.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    863.0,
+    "tst",
+    4
+   ],
+   [
+    863.4,
+    null,
+    0
+   ],
+   [
+    863.77,
+    "single",
+    1
+   ],
+   [
+    864.87,
+    null,
+    0
+   ],
+   [
+    865.7,
+    "single",
+    1
+   ],
+   [
+    866.23,
+    null,
+    0
+   ],
+   [
+    866.37,
+    "triple",
+    3
+   ],
+   [
+    867.73,
+    null,
+    0
+   ],
+   [
+    868.13,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: score.py: after +1800@862.30 (REN10 single) the Z locks @863.07 (+26) with no clear; S locks 863.43 -> +300 single @863.57; O 864.50 none; I 864.90 -> +300 @864.93; 865.90 none; 866.23 -> +1500 triple @866.27; three plain locks; quad @868.67. nextcount: 10 spawns 862.93-868.40 = 10 chain events. No T-spin at 863 (no banner, no jump). Sheet /tmp/claude-0/tx/corr/fr/g0/w012a.png. Answers items 3,4,5."
+ },
+ {
+  "id": "w012",
+  "side": "p1",
+  "op": "retype",
+  "t": 900.0,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: score +3750 @900.27 = 2400*1.5+150 (B2B TETRIS, REN1); sheet /tmp/claude-0/tx/corr/fr/g0/w012b.png shows a second TETRIS banner with BACK to BACK at 900.35, 4 coloured rows cleared (garbage below untouched). Same game as item 7; 871-890.9 window itself matches the score exactly."
+ },
+ {
+  "id": "w012",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 898.07,
+  "t_end": 901.17,
+  "events": [
+   {
+    "t": 898.5,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 898.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 900.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 900.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 901.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    898.07,
+    null,
+    0
+   ],
+   [
+    898.07,
+    null,
+    0
+   ],
+   [
+    898.5,
+    "triple",
+    3
+   ],
+   [
+    898.93,
+    "double",
+    2
+   ],
+   [
+    900.5,
+    "single",
+    1
+   ],
+   [
+    900.9,
+    null,
+    0
+   ],
+   [
+    901.17,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: p2 score: +1660@897.77 triple(REN1), +1214@898.63 = double+REN2, +764@899.67 = single+REN3, then plain locks 900.60, 900.90, 902.13; nextcount spawns 897.57,898.43,899.33,900.30,900.60,901.00 (+902.23 unlocked at KO). Two None at 898.07 are phantoms (nextcount 'unk' 898.03-898.27). Sheet /tmp/claude-0/tx/corr/fr/g0/w012c.png: band 2 rows @898.65, 1 row @899.70. Covers item 9 (tail): nothing locked 902.23-KO."
+ },
+ {
+  "id": "w015",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1045.9,
+  "t_end": 1048.03,
+  "events": [
+   {
+    "t": 1046.6,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 1047.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1048.03,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    1045.9,
+    null,
+    0
+   ],
+   [
+    1045.9,
+    null,
+    0
+   ],
+   [
+    1046.6,
+    "quad",
+    4
+   ],
+   [
+    1048.03,
+    "double",
+    2
+   ]
+  ],
+  "source": "b0 frame check, verified: score: double +900@1045.50, no lock until quad +2550@1046.50 (REN1, so no lock between), plain lock +12@1047.57, then +16 lock & double +900@1047.93 (no REN). Chain had two phantom Nones before the quad and missed the 1047.57 lock (spawn 1047.30 in nextcount)."
+ },
+ {
+  "id": "w015",
+  "side": "p1",
+  "op": "add",
+  "t": 1053.63,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: nextcount spawn 1053.633 (Z), locks @1053.93 (+6) no clear; sheet /tmp/claude-0/tx/corr/fr/g0/w015a.png"
+ },
+ {
+  "id": "w015",
+  "side": "p1",
+  "op": "add",
+  "t": 1054.03,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: spawn 1054.033 (T, held; S out), S locks ~1054.53 (+2), no clear; /tmp/claude-0/tx/corr/fr/g0/w015a.png"
+ },
+ {
+  "id": "w015",
+  "side": "p1",
+  "op": "add",
+  "t": 1054.7,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: spawn 1054.70 (O held, T out), T locks ~1054.80 (+2) no clear; next spawn 1054.90 never locks before KO 1055.53; /tmp/claude-0/tx/corr/fr/g0/w015a.png"
+ },
+ {
+  "id": "w019",
+  "side": "p1",
+  "op": "add",
+  "t": 1178.5,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: spawn 1178.50 (L); frame 1178.77 (=KO, p2 board tilting) shows the L locked and score 35154->35188; no clear. /tmp/claude-0/tx/corr/fr/g0/w019a.png"
+ },
+ {
+  "id": "w020",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1214.13,
+  "t_end": 1277.73,
+  "events": [
+   {
+    "t": 1214.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1215.67,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1216.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1218.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1230.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1247.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1268.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1277.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1214.13,
+    "BREAK",
+    2
+   ],
+   [
+    1214.8,
+    "single",
+    1
+   ],
+   [
+    1215.67,
+    "single",
+    1
+   ],
+   [
+    1216.87,
+    "single",
+    1
+   ],
+   [
+    1217.6,
+    "BREAK",
+    1
+   ],
+   [
+    1218.23,
+    "single",
+    1
+   ],
+   [
+    1220.03,
+    "BREAK",
+    0
+   ],
+   [
+    1223.6,
+    "BREAK",
+    0
+   ],
+   [
+    1227.13,
+    "BREAK",
+    0
+   ],
+   [
+    1229.7,
+    "BREAK",
+    1
+   ],
+   [
+    1230.93,
+    "single",
+    1
+   ],
+   [
+    1240.33,
+    "single",
+    1
+   ],
+   [
+    1247.2,
+    "single",
+    1
+   ],
+   [
+    1252.27,
+    "BREAK",
+    0
+   ],
+   [
+    1254.7,
+    "BREAK",
+    0
+   ],
+   [
+    1261.5,
+    "BREAK",
+    0
+   ],
+   [
+    1263.97,
+    "BREAK",
+    0
+   ],
+   [
+    1266.4,
+    "BREAK",
+    2
+   ],
+   [
+    1267.93,
+    "BREAK",
+    2
+   ],
+   [
+    1268.2,
+    "single",
+    1
+   ],
+   [
+    1277.2,
+    "single",
+    1
+   ],
+   [
+    1277.73,
+    "single",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: Slow REN battle (sheet /tmp/claude-0/tx/corr/fr/g0/w020a.png). p1 score rises by exactly +150 per clear 1203.20..1285.17 (300,450..3300) with no lock lacking a clear -> REN never broke; every spawn (nextcount 1209.5,1214.8,1215.63,1216.87,1218.23,1230.80,1247.03,1268.10,1277.63,...) clears one line. 1240.33 and 1277.20 singles are phantoms; all BREAKs false. Covers items 16-20."
+ },
+ {
+  "id": "w020",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1217.03,
+  "t_end": 1278.07,
+  "events": [
+   {
+    "t": 1217.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1239.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1270.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1217.03,
+    "BREAK",
+    2
+   ],
+   [
+    1217.8,
+    "single",
+    1
+   ],
+   [
+    1233.27,
+    "single",
+    1
+   ],
+   [
+    1239.2,
+    "single",
+    1
+   ],
+   [
+    1254.53,
+    null,
+    0
+   ],
+   [
+    1259.47,
+    "BREAK",
+    2
+   ],
+   [
+    1269.87,
+    "single",
+    1
+   ],
+   [
+    1270.97,
+    "single",
+    1
+   ],
+   [
+    1278.07,
+    "single",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: p2 score REN singles +1650@1216.33,+1800@1217.17,+1950@1238.53,+2100@1270.30,+2250@1277.83,+2400@1278.77,+2550@1279.67, double+REN16 +3300@1280.57; nextcount spawns 1217.80,1239.20,1270.97,1278.47 only. 1233.27, 1269.87, 1278.07 singles and 1254.53 None are phantoms; BREAKs false. Covers items 21-23."
+ },
+ {
+  "id": "w021",
+  "side": "p1",
+  "op": "remove",
+  "t": 1327.17,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b0 frame check, verified: p1 score: +1950@1326.30 (REN11) then next jump +2100@1343.43 (REN12), +2250@1344.83...; nextcount spawns 1326.93 then 1344.07, so no piece between: phantom. Covers items 24,25."
+ },
+ {
+  "id": "w021",
+  "side": "p1",
+  "op": "remove",
+  "t": 1340.1,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b0 frame check, verified: p1 score: +1950@1326.30 (REN11) then next jump +2100@1343.43 (REN12), +2250@1344.83...; nextcount spawns 1326.93 then 1344.07, so no piece between: phantom. Covers items 24,25."
+ },
+ {
+  "id": "w021",
+  "side": "p2",
+  "op": "remove",
+  "t": 1328.3,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b0 frame check, verified: p2 score: +2412@1327.57 (double REN10), +1950@1334.57 (REN11), +2100@1345.63 (REN12), +2250@1346.93; nextcount spawns 1327.30,1328.27,1335.17,1346.30 only: phantom. Covers items 26-29."
+ },
+ {
+  "id": "w021",
+  "side": "p2",
+  "op": "remove",
+  "t": 1332.2,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b0 frame check, verified: p2 score: +2412@1327.57 (double REN10), +1950@1334.57 (REN11), +2100@1345.63 (REN12), +2250@1346.93; nextcount spawns 1327.30,1328.27,1335.17,1346.30 only: phantom. Covers items 26-29."
+ },
+ {
+  "id": "w021",
+  "side": "p2",
+  "op": "remove",
+  "t": 1345.37,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b0 frame check, verified: p2 score: +2412@1327.57 (double REN10), +1950@1334.57 (REN11), +2100@1345.63 (REN12), +2250@1346.93; nextcount spawns 1327.30,1328.27,1335.17,1346.30 only: phantom. Covers items 26-29."
+ },
+ {
+  "id": "w023",
+  "side": "p1",
+  "op": "remove",
+  "t": 1427.37,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: score.py 1420-1476: REN singles at 1421.23(+450 REN1),1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93(+2550 REN15): 15 clears; nextcount 1419-1476 shows exactly 15 spawns 1420.967..1469.533 (hold swaps at 1428.97,1430.67,1441.1,1460.17 spawn nothing). Chain has 18 singles: extras at 1427.37 (no spawn; 1423.87 piece locks 1427.27), 1450.53 (Z spawned 1431.83 held at 1441.1, O from hold locks ~1456.0: one piece; sheet /tmp/claude-0/tx/corr/fr/g1/w023a.png), 1460.6 (hold swap at 1460.17 of the 1456.67 piece, lock 1460.43). Removing them also explains the -1396/-1950/-4164/-788 score spots (REN offset of 1-3)"
+ },
+ {
+  "id": "w023",
+  "side": "p1",
+  "op": "remove",
+  "t": 1450.53,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: score.py 1420-1476: REN singles at 1421.23(+450 REN1),1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93(+2550 REN15): 15 clears; nextcount 1419-1476 shows exactly 15 spawns 1420.967..1469.533 (hold swaps at 1428.97,1430.67,1441.1,1460.17 spawn nothing). Chain has 18 singles: extras at 1427.37 (no spawn; 1423.87 piece locks 1427.27), 1450.53 (Z spawned 1431.83 held at 1441.1, O from hold locks ~1456.0: one piece; sheet /tmp/claude-0/tx/corr/fr/g1/w023a.png), 1460.6 (hold swap at 1460.17 of the 1456.67 piece, lock 1460.43). Removing them also explains the -1396/-1950/-4164/-788 score spots (REN offset of 1-3)"
+ },
+ {
+  "id": "w023",
+  "side": "p1",
+  "op": "remove",
+  "t": 1460.6,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: score.py 1420-1476: REN singles at 1421.23(+450 REN1),1423.20,1427.27,1428.20,1429.03,1429.93,1431.17,1456.00,1460.43,1461.90,1463.47,1465.10,1466.70,1468.80,1469.93(+2550 REN15): 15 clears; nextcount 1419-1476 shows exactly 15 spawns 1420.967..1469.533 (hold swaps at 1428.97,1430.67,1441.1,1460.17 spawn nothing). Chain has 18 singles: extras at 1427.37 (no spawn; 1423.87 piece locks 1427.27), 1450.53 (Z spawned 1431.83 held at 1441.1, O from hold locks ~1456.0: one piece; sheet /tmp/claude-0/tx/corr/fr/g1/w023a.png), 1460.6 (hold swap at 1460.17 of the 1456.67 piece, lock 1460.43). Removing them also explains the -1396/-1950/-4164/-788 score spots (REN offset of 1-3)"
+ },
+ {
+  "id": "w023",
+  "side": "p2",
+  "op": "remove",
+  "t": 1430.97,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms"
+ },
+ {
+  "id": "w023",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1443.93,
+  "source": "b1 frame check, verified: p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms",
+  "t_end": 1443.93,
+  "events": [],
+  "was_old": [
+   [
+    1443.93,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "w023",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1446.8,
+  "source": "b1 frame check, verified: p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms",
+  "t_end": 1446.8,
+  "events": [],
+  "was_old": [
+   [
+    1446.8,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "w023",
+  "side": "p2",
+  "op": "remove",
+  "t": 1456.0,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: p2 1428-1459: nextcount spawns 1428.30,1429.17,1430.00,1430.87 then next 1457.10; score clears 1428.57,1429.40,1430.27 then +1800 at 1456.43 only (REN continues). Both players stalled ~25 s; the J spawned 1430.87 was hovered/hold-swapped J<->J and locked at 1456.43 with a single (sheet /tmp/claude-0/tx/corr/fr/g1/w023b.png 1430.6-1457.8, board unchanged until then). So 1430.87 single is that clear; 1430.97 single, 1443.93 None, 1446.80 BREAK, 1456.00 single are phantoms"
+ },
+ {
+  "id": "w025",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1598.87,
+  "source": "b1 frame check, verified: score +600 at 1599.07 (300 + REN2) from the piece spawned 1598.87 (hold swap 1598.97); frames /tmp/claude-0/tx/corr/fr/g1/w025.png 1598.83-1599.97 show the bottom grey garbage row cleared at 1599.10 with '2 REN' banner, then I clears another at 1599.83 '3 REN'",
+  "t_end": 1598.87,
+  "events": [
+   {
+    "t": 1598.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    1598.87,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "w029",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1754.9,
+  "t_end": 1769.17,
+  "events": [
+   {
+    "t": 1755.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1755.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1755.73,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1756.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1757.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1758.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1758.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1758.7,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1759.8,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 1761.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1761.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1761.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1762.0,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1762.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1763.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1763.47,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 1764.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1765.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1766.7,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1767.6,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1768.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1768.93,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1769.17,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1754.9,
+    null,
+    0
+   ],
+   [
+    1754.9,
+    null,
+    0
+   ],
+   [
+    1754.9,
+    "quad",
+    4
+   ],
+   [
+    1755.4,
+    null,
+    0
+   ],
+   [
+    1755.9,
+    null,
+    0
+   ],
+   [
+    1755.9,
+    null,
+    0
+   ],
+   [
+    1756.17,
+    "triple",
+    3
+   ],
+   [
+    1757.6,
+    null,
+    0
+   ],
+   [
+    1757.73,
+    "single",
+    1
+   ],
+   [
+    1758.8,
+    null,
+    0
+   ],
+   [
+    1758.97,
+    null,
+    0
+   ],
+   [
+    1759.13,
+    "triple",
+    3
+   ],
+   [
+    1760.33,
+    "quad",
+    4
+   ],
+   [
+    1760.6,
+    "double",
+    2
+   ],
+   [
+    1763.33,
+    null,
+    0
+   ],
+   [
+    1763.33,
+    "quad",
+    4
+   ],
+   [
+    1764.87,
+    null,
+    0
+   ],
+   [
+    1764.87,
+    null,
+    0
+   ],
+   [
+    1765.77,
+    "single",
+    1
+   ],
+   [
+    1766.73,
+    "single",
+    1
+   ],
+   [
+    1767.7,
+    "double",
+    2
+   ],
+   [
+    1768.67,
+    null,
+    0
+   ],
+   [
+    1768.93,
+    null,
+    0
+   ],
+   [
+    1769.17,
+    "single",
+    1
+   ]
+  ],
+  "source": "b1 frame check, verified: nextcount p1 1752-1770: 23 spawns in (1754.0,1769.2], all single shifts (no k=2), and score.py shows 23 drop-point locks in the same span; clears by score: 1756.07 triple +1500, 1757.57 single, 1759.03 triple, 1760.23 quad +2550(REN1), 1762.13 double, 1764.07 quad, 1765.13 single +450 (REN1), 1765.97 +600, 1766.97 +750, 1767.90 double +1500 (REN4), 1769.53 single. Chain (B-spliced) has a phantom quad at 1754.9 (TSD B2B at 1754.53 is the previous piece; next clear is the I triple, sheet /tmp/claude-0/tx/corr/fr/g1/w029a.png) and misses the single at 1765.13 (T spawned 1764.87, sheet /tmp/claude-0/tx/corr/fr/g1/w029b.png, grey height unchanged so gc 0). gc of other clears kept from chain"
+ },
+ {
+  "id": "w033",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2094.13,
+  "source": "b1 frame check, verified: score: quad B2B 2093.33 +3600 then 2094.23 +450 (REN1) from the piece spawned 2094.13 (I into well, one non-garbage row cleared, '1 REN', sheet /tmp/claude-0/tx/corr/fr/g1/w033a.png); REN singles continue to 2130.17 +2550 (REN15). nextcount: exactly one spawn 2099.50 between 2098.60 and 2104.20; score shows only +22 drop and +1350 single (2103.47) there -> chain's 2099.60 triple and 2099.63 double are phantoms",
+  "t_end": 2094.13,
+  "events": [
+   {
+    "t": 2094.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2094.13,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "w033",
+  "side": "p1",
+  "op": "remove",
+  "t": 2099.6,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "b1 frame check, verified: score: quad B2B 2093.33 +3600 then 2094.23 +450 (REN1) from the piece spawned 2094.13 (I into well, one non-garbage row cleared, '1 REN', sheet /tmp/claude-0/tx/corr/fr/g1/w033a.png); REN singles continue to 2130.17 +2550 (REN15). nextcount: exactly one spawn 2099.50 between 2098.60 and 2104.20; score shows only +22 drop and +1350 single (2103.47) there -> chain's 2099.60 triple and 2099.63 double are phantoms"
+ },
+ {
+  "id": "w033",
+  "side": "p1",
+  "op": "remove",
+  "t": 2099.63,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b1 frame check, verified: score: quad B2B 2093.33 +3600 then 2094.23 +450 (REN1) from the piece spawned 2094.13 (I into well, one non-garbage row cleared, '1 REN', sheet /tmp/claude-0/tx/corr/fr/g1/w033a.png); REN singles continue to 2130.17 +2550 (REN15). nextcount: exactly one spawn 2099.50 between 2098.60 and 2104.20; score shows only +22 drop and +1350 single (2103.47) there -> chain's 2099.60 triple and 2099.63 double are phantoms"
+ },
+ {
+  "id": "w033",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2099.3,
+  "source": "b1 frame check, verified: score p2: 2094.87 +300, 2097.53 +450, 2098.50 quad +2700 (REN2), 2099.53 +750 (REN3, from piece spawned 2099.30), 2100.43 +926 ... 2107.37 +1800 (REN10), 2125.27 +1950, 2127.50, 2128.80, 2129.80 double +3000 (REN14), 2130.83 +2550, 2131.73 double +3300 (REN16). nextcount: spawns 2108.03 then 2125.93, none at 2120.73; score flat 2107.37-2125.27; sheet /tmp/claude-0/tx/corr/fr/g1/w033b.png (grey stack height unchanged)",
+  "t_end": 2099.3,
+  "events": [
+   {
+    "t": 2099.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2099.3,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "w033",
+  "side": "p2",
+  "op": "remove",
+  "t": 2120.73,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: score p2: 2094.87 +300, 2097.53 +450, 2098.50 quad +2700 (REN2), 2099.53 +750 (REN3, from piece spawned 2099.30), 2100.43 +926 ... 2107.37 +1800 (REN10), 2125.27 +1950, 2127.50, 2128.80, 2129.80 double +3000 (REN14), 2130.83 +2550, 2131.73 double +3300 (REN16). nextcount: spawns 2108.03 then 2125.93, none at 2120.73; score flat 2107.37-2125.27"
+ },
+ {
+  "id": "w035",
+  "side": "p1",
+  "op": "retype",
+  "t": 2365.97,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: score 2365.7-2367.7: locks +16 2365.87, +10 2366.20 (no clear), +14 2366.43 with double +900 at 2366.50, single +450 at 2367.60; nextcount spawns 2365.767,2365.967,2366.30,2367.233 -> only the 2366.30 piece (chain 2366.57) doubles; the 2365.97 piece did not clear. Explains the -1142 score spot"
+ },
+ {
+  "id": "w042",
+  "side": "p2",
+  "op": "retype",
+  "t": 2794.47,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: score +3772 at 2794.73 = TETRIS B2B 3600 + REN1 150 + drop; nextcount spawn 2794.467 is I (IOLSI>OLSIL); frames /tmp/claude-0/tx/corr/fr/g1/w042.png show the I dropped in the left column with TETRIS banner and REN, 4 coloured rows above the grey cleared"
+ },
+ {
+  "id": "w051",
+  "side": "p1",
+  "op": "retype",
+  "t": 3359.7,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 0,
+  "source": "b2 frame check, verified: score.py: +1050 at 3359.97 (48140->49190) = double + REN1 (900+150); a single+REN1 would be 450. Next jump at 3360.93 is drop points only. Sheet fr/g2/n59.png: vertical I into the right column, two coloured rows gone, REN banner."
+ },
+ {
+  "id": "w052",
+  "side": "p2",
+  "op": "retype",
+  "t": 3429.43,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 0,
+  "source": "b2 frame check, verified: score.py p2: +1050 at 3429.67 (18581->19631) = double + REN1 after the quad (+2400 at 3428.63); and the TSD at 3431.33 scores +3600, i.e. not B2B, so the clear between quad and TSD broke B2B (a double does; a B2B mini would not). Single+REN1 would be 450."
+ },
+ {
+  "id": "w054",
+  "side": "p2",
+  "op": "retype",
+  "t": 3551.33,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/n61.png: T placed at the top right 3551.0-3551.27 with a T-SPIN (mini) banner and no row cleared (stack height unchanged); score.py +300 at 3551.27 = zero-line Mini T-spin (100x3); the following B2B quad scores +3600. No score jump for the 3551.33 piece (O, +2 drop only). Phantom 1-line mini."
+ },
+ {
+  "id": "w058",
+  "side": "p1",
+  "op": "retype",
+  "t": 3693.6,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "gc": 4,
+  "source": "b2 frame check, verified: fr/g2/n62.png: I spawned 3693.43 drops vertically into the left well through 4 grey garbage rows; fresh TETRIS + BACK to BACK + 3 REN banners at 3693.63. score.py +4050 at 3693.63 = B2B tetris 3600 + REN3 450 (a double+REN3 would be 1350)."
+ },
+ {
+  "id": "w060",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3854.93,
+  "source": "b2 frame check, verified: nextcount.py p1: shifts at 3854.333, 3854.667 then none until 3863.367 (T for the TST). fr/g2/n65.png (3854.6-3863.6, 0.53 s step): one J hovers/maneuvers at the top for ~8.5 s and locks ~3863.27 (score +2 only); no other piece. So only one lock between 3854.67 and 3863.37; the 3854.93 event is a spliced phantom.",
+  "t_end": 3854.93,
+  "events": [],
+  "was_old": [
+   [
+    3854.93,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "w060",
+  "side": "p2",
+  "op": "retype",
+  "t": 3838.17,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: score.py p2: +300 at 3838.10 (lock of the 3837.2 piece) = zero-line Mini T-spin; a mini single would be 600. The 3838.17 piece locks at 3838.37 with +16 drop points only; next clear is the double +900 at 3839.33. Same pattern as w054 item 61."
+ },
+ {
+  "id": "w060",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3859.27,
+  "t_end": 3863.1,
+  "events": [
+   {
+    "t": 3863.1,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3859.27,
+    null,
+    0
+   ],
+   [
+    3859.27,
+    null,
+    0
+   ],
+   [
+    3862.4,
+    null,
+    0
+   ],
+   [
+    3862.5,
+    "BREAK",
+    5
+   ],
+   [
+    3863.1,
+    null,
+    0
+   ]
+  ],
+  "source": "b2 frame check, verified: nextcount.py p2: shift 3858.900 (T, held 3859.067, I out of hold), next shift 3863.100. fr/g2/n65.png: the I hovers ~3 s, tetris flash at 3862.06; score.py +2412 at 3862.30 (the quad logged at 3858.9). No other lock in between (score flat 3858.90-3862.30). Turn 3863.1: O held 3863.267, T out, +472 at 3863.47 = single + REN1 (450) + drop. REN then continues: +1200 (double REN2) 3864.50, +756 3865.53, +1500 3866.77, +1056 3867.67, +1208 3868.87, +1350 3869.83 (single REN7). The 3859.27 x2 and 3862.4 locks and the BREAK are phantoms."
+ },
+ {
+  "id": "w061",
+  "side": "p1",
+  "op": "add",
+  "t": 4817.93,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: nextcount.py p1: spawn (Z) at 4817.933; score.py +16 at 4818.03 then +2100 at 4818.10 (KO 4818.13) = single 300 + REN12 1800 (preceding clears: +1800 single REN10 at 4816.10, +2250 mini REN11 at 4817.27). Lock and clear before the KO frame; no chain event for this piece."
+ },
+ {
+  "id": "w063",
+  "side": "p1",
+  "op": "add",
+  "t": 4932.73,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/n70.png: S spawned 4932.733 is locked (sparkle, settled) in the 4932.83 frame = KO frame; score.py +16 at 4932.87 (hard-drop points). No clear. nextcount shift at 4932.733."
+ },
+ {
+  "id": "w063",
+  "side": "p2",
+  "op": "retype",
+  "t": 4918.33,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "gc": 0,
+  "source": "b2 frame check, verified: score.py p2: +5400 at 4918.87 = B2B TSD (3600x1.5) after the B2B tetris +3600 at 4916.67; a B2B TSS would be 3600. Banner reads T-SPIN Double (item 72)."
+ },
+ {
+  "id": "w065",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4993.07,
+  "t_end": 4993.43,
+  "events": [
+   {
+    "t": 4993.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4993.07,
+    null,
+    0
+   ],
+   [
+    4993.43,
+    null,
+    0
+   ],
+   [
+    4993.43,
+    null,
+    0
+   ],
+   [
+    4993.43,
+    "single",
+    1
+   ]
+  ],
+  "source": "b2 frame check, verified: nextcount.py p1: shift 4993.067 (I), hold 4993.867 (L out), next shift 4995.200; no shift at 4993.43. score.py: flat 4993.00-4994.50, then +36 drop and +1050 at 4994.53 = single REN5 (previous +900 single REN4 at 4992.30, next +1200 REN6 at 4995.73). One turn, one lock, one single; the triple-logged 4993.43 events are phantoms."
+ },
+ {
+  "id": "w066",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5069.3,
+  "source": "b2 frame check, verified: score.py p1: +450 at 5069.50 = single REN1 after the quad (+2400 at 5068.47); every later clear then scores one REN step above the chain's prediction (+600 5070.30, +750 5071.23, +1500 double 5072.23 ... +2250 double REN9 at 5077.17), which is the +562 unexplained.",
+  "t_end": 5069.3,
+  "events": [
+   {
+    "t": 5069.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5069.3,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "w067",
+  "side": "p1",
+  "op": "retype",
+  "t": 5118.37,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: score.py p1: +300 at 5118.30 (lock of the 5117.53 piece) = zero-line Mini T-spin (a mini single would be 600); the 5118.37 piece scores drop points only; next clear triple +1500 at 5119.30. Same pattern as items 61 and 67."
+ },
+ {
+  "id": "w068",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5189.53,
+  "t_end": 5191.43,
+  "events": [
+   {
+    "t": 5189.53,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5189.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5190.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5190.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5190.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5191.1,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5191.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5189.53,
+    null,
+    0
+   ],
+   [
+    5189.97,
+    "double",
+    2
+   ],
+   [
+    5190.53,
+    null,
+    0
+   ],
+   [
+    5190.77,
+    null,
+    0
+   ],
+   [
+    5191.1,
+    "double",
+    2
+   ],
+   [
+    5191.43,
+    "double",
+    2
+   ]
+  ],
+  "source": "b2 frame check, verified: nextcount.py p2 spawns 5189.533 (O held 5189.733, J out), 5189.967, 5190.133, 5190.533, 5190.767, 5191.100 (S held 5191.133, O out), 5191.433. score.py: PC1 +4988 at 5189.93 (J lock), locks without clear +38 5190.10, +38 5190.43, +36 5190.70, +36 5191.00, PC2 +4500 at 5191.37 (O lock), then only drop points (+38 5191.87, +38 5191.90). fr/g2/n79.png: board empty at 5190.0 under PERFECT CLEAR; five pieces rebuild two rows; board empty again at 5191.35 with a new PERFECT CLEAR banner. Two real PCs; the 5190.13 turn (O) is a real lock the pcmap dropped as a double-log; 5191.43 is no clear."
+ },
+ {
+  "id": "w070",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5261.77,
+  "t_end": 5287.3,
+  "events": [
+   {
+    "t": 5262.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5262.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5263.83,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5264.96,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5265.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5266.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5267.9,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5268.8,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5269.9,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5270.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5271.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5271.56,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5271.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5272.33,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5273.2,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5273.56,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5274.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5274.16,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5275.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5275.86,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5276.03,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5277.46,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5277.6,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 5278.76,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5279.16,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5279.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5279.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5280.23,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5281.66,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5281.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5282.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5282.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5283.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5283.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5283.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5283.83,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 5285.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5285.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5286.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5286.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5287.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5261.77,
+    null,
+    0
+   ],
+   [
+    5261.77,
+    null,
+    0
+   ],
+   [
+    5261.77,
+    "tst",
+    4
+   ],
+   [
+    5262.37,
+    "single",
+    1
+   ],
+   [
+    5263.93,
+    "single",
+    1
+   ],
+   [
+    5264.3,
+    "BREAK",
+    2
+   ],
+   [
+    5265.83,
+    "BREAK",
+    2
+   ],
+   [
+    5268.07,
+    "single",
+    1
+   ],
+   [
+    5268.4,
+    "single",
+    1
+   ],
+   [
+    5269.4,
+    "double",
+    2
+   ],
+   [
+    5270.47,
+    "single",
+    1
+   ],
+   [
+    5271.47,
+    null,
+    0
+   ],
+   [
+    5271.87,
+    null,
+    0
+   ],
+   [
+    5272.13,
+    null,
+    0
+   ],
+   [
+    5272.57,
+    "BREAK",
+    1
+   ],
+   [
+    5274.17,
+    "BREAK",
+    3
+   ],
+   [
+    5274.83,
+    "tsd",
+    2
+   ],
+   [
+    5276.13,
+    null,
+    0
+   ],
+   [
+    5276.23,
+    null,
+    0
+   ],
+   [
+    5276.67,
+    "tsd",
+    2
+   ],
+   [
+    5277.13,
+    null,
+    0
+   ],
+   [
+    5277.13,
+    null,
+    0
+   ],
+   [
+    5277.33,
+    "BREAK",
+    5
+   ],
+   [
+    5279.3,
+    "BREAK",
+    1
+   ],
+   [
+    5280.9,
+    "tsd",
+    2
+   ],
+   [
+    5281.03,
+    "BREAK",
+    3
+   ],
+   [
+    5282.57,
+    "BREAK",
+    0
+   ],
+   [
+    5284.33,
+    "quad",
+    4
+   ],
+   [
+    5285.67,
+    null,
+    0
+   ],
+   [
+    5286.6,
+    null,
+    0
+   ],
+   [
+    5286.9,
+    null,
+    0
+   ],
+   [
+    5287.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b3 frame check, verified: Window 5261.77-5287.30 rebuilt from NEXT-queue shifts (nextcount: 41 spawns 5261.997-5287.030, every one matched by a drop-point lock on the score) and the p1 score jumps: +600 5262.17, +750 5263.10, +900 5264.20, +1050 5265.10, +1200 5265.90, +1350 5267.17, +1500 5268.13 (singles REN2-8), +2250 5269.17 (double REN9), +1800 5270.13 (single REN10), +900 5272.47 (double, L, one garbage row; /tmp/claude-0/tx/corr/fr/g3/b70c.png), +3600 5274.80 (TSD), +5400 5276.73 (TSD B2B), +3600 5277.97 (vertical I quad into 4 garbage rows, B2B; missing in chain; /tmp/claude-0/tx/corr/fr/g3/b70a.png), +5400 5280.93 (TSD B2B), +3600 5284.23 (quad B2B; /tmp/claude-0/tx/corr/fr/g3/b70b.png). REN on own stack above garbage (/tmp/claude-0/tx/corr/fr/g3/b70d.png). The 5261.77 'tst' 4 lines is the REN2 single (+600; the TSD banner is the 5260.53 TSD's). BREAK markers and B's mistimed events replaced. gc of REN singles/TSDs 0 by frames; 5284 quad gc 1 approximate."
+ },
+ {
+  "id": "w072",
+  "side": "p2",
+  "op": "remove",
+  "t": 5407.2,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: p2 score clears 5406.33 (+1800), 5414.33 (+1950), 5415.23 (+2100), 5416.17, 5417.50, 5418.63 (+150 each REN step), with a pause 5407-5414 where neither board moves (/tmp/claude-0/tx/corr/fr/g3/d72.png). nextcount p2 spawns 5405.800, 5406.967, 5415.000, 5415.833, 5416.800, 5418.133: no spawn at 5407.2 or 5414.7. Chain has 7 singles 5406.97-5418.13 for 5 clears; 5407.2 and 5414.7 are phantoms."
+ },
+ {
+  "id": "w072",
+  "side": "p2",
+  "op": "remove",
+  "t": 5414.7,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: p2 score clears 5406.33 (+1800), 5414.33 (+1950), 5415.23 (+2100), 5416.17, 5417.50, 5418.63 (+150 each REN step), with a pause 5407-5414 where neither board moves (/tmp/claude-0/tx/corr/fr/g3/d72.png). nextcount p2 spawns 5405.800, 5406.967, 5415.000, 5415.833, 5416.800, 5418.133: no spawn at 5407.2 or 5414.7. Chain has 7 singles 5406.97-5418.13 for 5 clears; 5407.2 and 5414.7 are phantoms."
+ },
+ {
+  "id": "w073",
+  "side": "p2",
+  "op": "retype",
+  "t": 5451.17,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 0,
+  "source": "b3 frame check, verified: S locks without a clear at 5451.08 (+12, REN broken), then the O clears two stack rows at 5451.28 (+900 = double, no REN/B2B; /tmp/claude-0/tx/corr/fr/g3/e73.png). Next clear 5452.20 is +450 (single REN1), consistent."
+ },
+ {
+  "id": "w075",
+  "side": "p2",
+  "op": "add",
+  "t": 5620.1,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: nextcount spawn 5620.100; the Z hard-drops and locks at 5620.64 (score 37402->37430), no clear, before KO 5620.67 (/tmp/claude-0/tx/corr/fr/g3/f75.png)."
+ },
+ {
+  "id": "w076",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5651.83,
+  "t_end": 5687.97,
+  "events": [
+   {
+    "t": 5652.17,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5670.43,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5687.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5651.83,
+    "BREAK",
+    2
+   ],
+   [
+    5652.17,
+    "single",
+    1
+   ],
+   [
+    5669.23,
+    "single",
+    1
+   ],
+   [
+    5670.43,
+    "single",
+    1
+   ],
+   [
+    5687.07,
+    "single",
+    1
+   ],
+   [
+    5687.97,
+    "single",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: Slow-motion lag. p1 score REN steps are exactly +150 apart through the lag: 900 (5651.43), 1050 (5669.76), 1200 (5687.23), 1350 (5688.50), so one clear per step and no lock without a clear (no BREAK). nextcount spawns 5650.863, 5652.163, 5670.430, 5687.963 only. Chain singles 5669.23 and 5687.07 and BREAK 5651.83 are phantoms."
+ },
+ {
+  "id": "w076",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5652.97,
+  "t_end": 5685.03,
+  "events": [
+   {
+    "t": 5668.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5652.97,
+    "single",
+    1
+   ],
+   [
+    5663.43,
+    "single",
+    1
+   ],
+   [
+    5668.07,
+    "single",
+    1
+   ],
+   [
+    5678.73,
+    null,
+    0
+   ],
+   [
+    5681.93,
+    "BREAK",
+    2
+   ],
+   [
+    5685.03,
+    "single",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: Slow-motion lag. p2 score REN steps +150 each: 900 (5652.16), 1050 (5667.46), 1200 (5684.93), 1350 (5686.16), 1500 (5686.96) ... 2100 (5692.73), no drop-point locks between them; nextcount spawns 5651.830, 5652.830, 5668.063, 5685.597 (hold only at 5682.197). Chain singles 5652.97, 5663.43, 5685.03, None 5678.73 and BREAK 5681.93 are phantoms; 5652.83, 5668.07, 5685.6 are the real ones."
+ },
+ {
+  "id": "w080",
+  "side": "p1",
+  "op": "retype",
+  "t": 5908.97,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 1,
+  "source": "b3 frame check, verified: Score +2250 at 5909.27 = double 900 + REN9 1350 (single would be 1650); the vertical I clears two rows (/tmp/claude-0/tx/corr/fr/g3/h80a.png). Next +1800 = single REN10, consistent."
+ },
+ {
+  "id": "w080",
+  "side": "p1",
+  "op": "retype",
+  "t": 5963.43,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 0,
+  "source": "b3 frame check, verified: Score +1200 at 5963.77 = double 900 + REN2 300 (single would be 600); the O clears two rows (/tmp/claude-0/tx/corr/fr/g3/h80b.png). Next +2850 = quad 2400 + REN3 450, consistent."
+ },
+ {
+  "id": "o009",
+  "side": "p1",
+  "op": "retype",
+  "t": 1150.63,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Frames 1150.6-1151.4 (fr/g0/o009.png): T placed near the top of the stack at 1150.90 with a T-SPIN banner, no row cleared (stack height unchanged). Score +300 at 1150.90 = zero-line Mini T-spin (a Mini TSS is >=600); next single at 1151.93 scores +300 (no REN), confirming no clear."
+ },
+ {
+  "id": "o019",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1633.5,
+  "source": "b0 frame check, verified: Score p2 +34 hard drop at 1633.63 then +900 at 1633.67 = single at REN4 (300+600); REN counter changes 3 REN -> 4 REN at 1633.70 (fr/g0/o019.png); the flashed row at 1633.70 is a coloured (own-stack) row (fr/g0/o019z.png). Next clear 1634.50 +1050 = single REN5 with '5 REN' banner.",
+  "t_end": 1633.5,
+  "events": [
+   {
+    "t": 1633.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1633.5,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "o035",
+  "side": "p1",
+  "op": "retype",
+  "t": 2450.43,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Score p1 +300 at 2450.40 only: a Mini T-spin Single would score >=600 (900 with B2B active after the 2448.23 TST); 300 = zero-line Mini T-spin, same pattern as o009 1150.9. Following quad at 2452.37 scores 3600 (B2B kept)."
+ },
+ {
+  "id": "o039",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2642.5,
+  "t_end": 2643.0,
+  "events": [],
+  "was_old": [
+   [
+    2642.93,
+    null,
+    0
+   ],
+   [
+    2642.93,
+    null,
+    0
+   ],
+   [
+    2642.93,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: nextcount p1: L spawns 2641.967, held 2642.033, I from hold locks 2642.23 with the quad (score +3600 at 2642.27); next queue shift is 2643.100 (IZJIZ>ZJIZT, single shift). No piece locks between the quad and the 2643.1 spawn, so the three None locks at 2642.93 are phantoms (queue obscured 2642.53-2642.80 by the quad effect). Whole game: 141 shifts, first is the empty-hold spawn at 2583.967 (L held 2584.033), so 140 locks = 143-3."
+ },
+ {
+  "id": "o052",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3549.5,
+  "t_end": 3554.35,
+  "events": [],
+  "was_old": [
+   [
+    3549.57,
+    "single",
+    1
+   ],
+   [
+    3549.9,
+    "BREAK",
+    6
+   ],
+   [
+    3554.33,
+    "BREAK",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: Game/stream froze 3550.0-3554.2 (both boards and scores static, fr/g1/o052a.png). p1: spawn 3549.267, hold, lock 3549.40 (+22) and single with 9 REN at 3549.47 (+1650 = 300+9*150) = chain single 3549.27. No spawn/lock until O spawns 3554.233 (held 3555.367), held piece locks 3555.57 with single 10 REN (+1800, '10 REN' banner in frame 3555.6) = chain single 3554.37; then 3556.47 +1950 = 11 REN single (chain 3556.43). So 3549.57 single is a phantom and the REN never broke: both BREAK markers are false."
+ },
+ {
+  "id": "o052",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3549.95,
+  "t_end": 3550.25,
+  "events": [],
+  "was_old": [
+   [
+    3549.97,
+    null,
+    0
+   ],
+   [
+    3550.2,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: Freeze 3550.0-3554.2 (fr/g1/o052a.png). p2 spawns 3549.6, 3549.9, then 3555.167 only; locks at 3549.60 (+16), 3549.80 (+12), 3555.07 (+10, piece spawned 3549.9 locking after the freeze), then tss at 3555.67. The chain events 3549.97 and 3550.2 have no spawn or lock: phantoms."
+ },
+ {
+  "id": "o054",
+  "side": "p1",
+  "op": "retype",
+  "t": 3932.63,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b1 frame check, verified: fr/g1/o054.png: an orange L hard-drops into the right-edge slot at 3932.87 (+26) and clears one line; score +900 at 3932.93 = single 300 + REN4 600 (REN from 3929.47 double). Not a T piece, no T-spin. With B2B broken, the quad at 3936.17 scores +2400 (3936.53), which is what the score spot showed."
+ },
+ {
+  "id": "o059",
+  "side": "p2",
+  "op": "retype",
+  "t": 4345.13,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/o059.png: T locks at the top 4345.6, two rows flash, 'Double' banner (T-SPIN Double) by 4345.70; p2 score +3750 at 4345.66 = TSD 3600 + REN1 150 (B2B was broken by the singles at 4342.2/4344.1, so a TSS would be 2550)."
+ },
+ {
+  "id": "o081",
+  "side": "p1",
+  "op": "retype",
+  "t": 5674.47,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: score.py p1: +1200 at 5674.70 (single, REN6), not a tetris; sheet fr/g2/o081.png shows one white row (coloured row) at 5674.70; the tetris is the next piece (+3450 at 5675.47)."
+ },
+ {
+  "id": "o081",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5676.27,
+  "source": "b2 frame check, verified: score.py p1: +1500 at 5676.47 (single, REN8) from the piece spawned 5676.267 (nextcount); fr/g2/o081.png 5676.50 shows one coloured row clearing.",
+  "t_end": 5676.27,
+  "events": [
+   {
+    "t": 5676.27,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5676.27,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "o084",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5901.23,
+  "source": "b2 frame check, verified: score.py p1: singles at 5892.90..5913.57 rise 300,450,...,2550 in unbroken +150 steps (REN0..REN15); REN never broke in the 5901-5906 window (+1650 at 5901.13, +1800 at 5905.43).",
+  "t_end": 5901.23,
+  "events": [],
+  "was_old": [
+   [
+    5901.23,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "o084",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5903.77,
+  "source": "b2 frame check, verified: same as 5901.23: REN continuous per score.py (REN9 -> REN10 at 5905.43).",
+  "t_end": 5903.77,
+  "events": [],
+  "was_old": [
+   [
+    5903.77,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "o084",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5905.9,
+  "source": "b2 frame check, verified: same: +1950 at 5909.10 = REN11, continuous.",
+  "t_end": 5905.9,
+  "events": [],
+  "was_old": [
+   [
+    5905.9,
+    "BREAK",
+    3
+   ]
+  ]
+ },
+ {
+  "id": "o084",
+  "side": "p2",
+  "op": "remove",
+  "t": 5909.73,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b2 frame check, verified: fr/g2/o084gap.png: one L hovers 5899.3-5909 (no spawn per nextcount 5899.267->5910.233) and clears a double at ~5909.5 (+2400 = double REN10); that is the chain's 5899.27 double. 5909.73 has no spawn and no score rise: phantom. Next clear +1964 at 5910.77 is REN11."
+ },
+ {
+  "id": "o084",
+  "side": "p2",
+  "op": "add",
+  "t": 5929.33,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: nextcount p2: spawn at 5929.333 (Z) not in chain; fr/g2/o084p2top.png 5929.93 shows red Z cells locked above the stack top (lock-out) before KO 5929.97. Net pieces with the 5909.73 removal: unchanged at 73."
+ },
+ {
+  "id": "o088",
+  "side": "p1",
+  "op": "add",
+  "t": 6190.0,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: nextcount spawn 6190.000 (Z); fr/g2/o088ko.png: Z locks 6190.10 (+18) into the top grey row, single clear flash 6190.13 (+1200 = single REN6), before KO 6190.17."
+ },
+ {
+  "id": "o088",
+  "side": "p2",
+  "op": "remove",
+  "t": 6162.6,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: nextcount: no spawn between 6162.500 and 6166.900 (hold only); score.py shows one clear (+1950 at 6166.27) for the 6162.5 piece. 6162.6 is a duplicate."
+ },
+ {
+  "id": "o088",
+  "side": "p2",
+  "op": "remove",
+  "t": 6166.57,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: same window: only spawns 6162.5 and 6166.9; score clears 6166.27 and 6167.43 match those two; 6166.57 phantom. REN steps continuous REN10->REN17 (6161.87..6172.37)."
+ },
+ {
+  "id": "o088",
+  "side": "p2",
+  "op": "retype",
+  "t": 6176.5,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "gc": 3,
+  "source": "b2 frame check, verified: score.py p2 +1810 at 6176.90 = triple 1500 + REN2 300 (double would be 1200); fr/g2/o088tr.png 6176.87-6177.07: vertical I in col 9 clears a 3-row white band of grey garbage rows."
+ },
+ {
+  "id": "o096",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6481.43,
+  "source": "b2 frame check, verified: score.py p1: REN unbroken 6477.87 (REN0) .. 6499.73 (+1800, REN10); +900 at 6481.63 then +1050 at 6494.73. Both boards nearly frozen 6482-6494 (lag/stall), fr/g2/o096.png.",
+  "t_end": 6481.43,
+  "events": [],
+  "was_old": [
+   [
+    6481.43,
+    "BREAK",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "o096",
+  "side": "p1",
+  "op": "remove",
+  "t": 6495.1,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: nextcount p1: no spawn between 6482.267 and 6495.400 (hold swap at 6494.133 only); score clears 6494.73 (REN5, piece of 6482.27 via hold) and 6495.53 (REN6, piece spawned 6495.4). 6495.1 is an extra single."
+ },
+ {
+  "id": "o096",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6479.93,
+  "source": "b2 frame check, verified: score.py p2: REN unbroken 6474.20 (REN0) .. 6495.87 (+3000 triple REN10).",
+  "t_end": 6479.93,
+  "events": [],
+  "was_old": [
+   [
+    6479.93,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "o096",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6488.07,
+  "source": "b2 frame check, verified: nextcount p2: no spawn between 6480.167 and 6494.000 (hold at 6490.467 only); fr/g2/o096.png shows the board stalled; one lock (clear +1350 at 6493.37, REN7) in that span = chain 6480.17. 6488.07 phantom.",
+  "t_end": 6488.07,
+  "events": [],
+  "was_old": [
+   [
+    6488.07,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "o096",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6488.4,
+  "source": "b2 frame check, verified: REN continuous per score.py (REN6 6479.53 -> REN7 6493.37).",
+  "t_end": 6488.4,
+  "events": [],
+  "was_old": [
+   [
+    6488.4,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "o096",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6490.57,
+  "source": "b2 frame check, verified: REN continuous per score.py.",
+  "t_end": 6490.57,
+  "events": [],
+  "was_old": [
+   [
+    6490.57,
+    "BREAK",
+    4
+   ]
+  ]
+ },
+ {
+  "id": "o096",
+  "side": "p2",
+  "op": "remove",
+  "t": 6493.63,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: no spawn at 6493.6 (nextcount); score clears 6493.37 (piece 6480.17), 6494.13 (piece 6494.0), 6494.93 (6494.73), 6495.87 triple (6495.53): 6493.63 is an extra single."
+ },
+ {
+  "id": "o099",
+  "side": "p2",
+  "op": "remove",
+  "t": 6664.03,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: nextcount p2: spawns 6658.600 then 6664.333 (hold 6658.8 only); score.py clears 6663.67 (REN7, piece 6658.6) and 6664.90 (REN8, piece 6664.33); 6664.03 phantom. REN runs REN0 6652.40 .. REN14 6670.87 (+2422)."
+ },
+ {
+  "id": "o110",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7253.5,
+  "t_end": 7259.33,
+  "events": [
+   {
+    "t": 7254.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    7253.5,
+    "single",
+    1
+   ],
+   [
+    7254.77,
+    "single",
+    1
+   ],
+   [
+    7259.33,
+    "single",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: o110 is a lag/stall stretch (pieces hang for seconds; gravity locks). nextcount p1 7245-7264: spawns 7247.80 (I, held -> S plays), 7254.60 (J), 7259.80, ... ; score p1: clears only at 7247.13 (+1350, REN7), 7253.97 (+1500, REN8, the S), 7259.10 (+1650, REN9, the J; banner '9 REN' at 7259.46), next lock 7260.13 (+20, no clear). Between 7253.97 and 7260.13 exactly one lock (one clear). Chain has three singles (7253.5, 7254.77, 7259.33) for that one J single, and its 10 None locks 7259.9-7262.83 already match the 10 score locks 7260.13-7263.07. J cleared the piece row above the garbage (gc 0). Frames: /tmp/claude-0/oc/corr/fr/g3/g77.png, /tmp/claude-0/oc/corr/fr/g3/g78.png"
+ },
+ {
+  "id": "o110",
+  "side": "p2",
+  "op": "remove",
+  "t": 7257.8,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: nextcount p2: spawns 7246.833 then 7258.333 (no spawn between); score p2: clear 7257.70 (+1200) = the piece spawned 7246.83 (slow-falling I, lag), then 7259.10 (+32, plain lock of the 7258.33 piece). Chain logs a second single at 7257.8 for the same clear. The 15 locks 7259.10-7265.93 match chain's 15 None events 7258.33-7265.67; quad 7266.93 (+2400) and 7268.53 (+3750) match. '6 REN' banner on p2 at ~7258.6 (/tmp/claude-0/oc/corr/fr/g3/g77.png)."
+ },
+ {
+  "id": "o120",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7734.07,
+  "t_end": 7786.43,
+  "events": [
+   {
+    "t": 7734.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7735.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7736.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7738.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7739.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7740.17,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7741.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7742.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7743.7,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7744.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7762.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7776.27,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7778.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7786.43,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    7734.07,
+    "single",
+    1
+   ],
+   [
+    7734.47,
+    "single",
+    1
+   ],
+   [
+    7735.73,
+    "single",
+    1
+   ],
+   [
+    7736.5,
+    "single",
+    1
+   ],
+   [
+    7738.2,
+    "single",
+    1
+   ],
+   [
+    7739.13,
+    "single",
+    1
+   ],
+   [
+    7740.17,
+    "single",
+    1
+   ],
+   [
+    7741.07,
+    "single",
+    1
+   ],
+   [
+    7742.33,
+    "single",
+    1
+   ],
+   [
+    7743.7,
+    "single",
+    1
+   ],
+   [
+    7744.6,
+    "BREAK",
+    3
+   ],
+   [
+    7744.87,
+    "single",
+    1
+   ],
+   [
+    7750.27,
+    "BREAK",
+    4
+   ],
+   [
+    7760.87,
+    null,
+    0
+   ],
+   [
+    7761.77,
+    "BREAK",
+    2
+   ],
+   [
+    7762.13,
+    "single",
+    1
+   ],
+   [
+    7770.13,
+    null,
+    0
+   ],
+   [
+    7775.93,
+    "BREAK",
+    2
+   ],
+   [
+    7776.27,
+    "single",
+    1
+   ],
+   [
+    7777.67,
+    "BREAK",
+    2
+   ],
+   [
+    7778.33,
+    "single",
+    1
+   ],
+   [
+    7783.8,
+    "single",
+    1
+   ],
+   [
+    7786.33,
+    "triple",
+    3
+   ],
+   [
+    7786.43,
+    "double",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: o120 7744-7790 is a deliberate REN stall (pieces fall by gravity, no drop points). nextcount p1 spawns 7726.5,7727.33,7728.27,7729.20,7734.47,7735.73,7736.5,7738.2,7739.13,7740.17,7741.07,7742.33,7743.70,7744.87,7761.97,7776.17,7778.23,7786.30,7788.43,7789.63,7790.13,7790.63,7791.0 (holds at 7755.9, 7766.97 are swaps, no spawn). Score p1 clears: 300,450,600,750(7733.80),900,...,2100(7744.13),2250(7761.30),2400(7775.50),2550(7777.57),2700(7785.63),3450(7787.70 = double at REN17),3000(7789.00 = single REN18): one unbroken REN of 19 clears, banner '17 REN' at 7788 (/tmp/claude-0/oc/corr/fr/g3/o120a.png). Chain extras: 7734.07 single (spawn 7729.20 -> clear 7733.80 already logged at 7729.2), 7760.87 None, 7770.13 None, 7783.8 single, 7786.33 triple (the 7786.30 piece is a double: +3450 = 900+17*150), and BREAK markers 7744.6/7750.27/7761.77/7775.93/7777.67 although the REN never broke."
+ },
+ {
+  "id": "o120",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 7744.07,
+  "t_end": 7786.83,
+  "events": [
+   {
+    "t": 7744.27,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7776.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    7744.07,
+    "BREAK",
+    3
+   ],
+   [
+    7744.27,
+    "single",
+    1
+   ],
+   [
+    7755.67,
+    null,
+    0
+   ],
+   [
+    7759.93,
+    "BREAK",
+    2
+   ],
+   [
+    7770.97,
+    "single",
+    1
+   ],
+   [
+    7776.87,
+    "single",
+    1
+   ],
+   [
+    7776.9,
+    "BREAK",
+    0
+   ],
+   [
+    7786.83,
+    "single",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount p2: spawns ...7743.333, 7744.267, then 7776.867 (only a hold at 7759.83 between), 7787.267, 7788.367, 7789.533... Score p2 clears 7727.97..7743.63 (+300..+2550, REN0-15), 7776.20 +2700 (REN16), 7786.60 +2850 (REN17), 7787.60 +5124 (quad REN18), 7788.90 +3150 (single REN19), TSD 7791.57 +3600. Frames /tmp/claude-0/oc/corr/fr/g3/o120p2.png: the J spawned 7744.27 is spun/stalled and locks at 7776.2 (one lock only). Chain extras: 7755.67 None, 7770.97 single, 7786.83 single (the 7776.87 piece's clear is at 7786.60; next spawn 7787.27 is the quad), and BREAKs 7744.07/7759.93/7776.9 though REN never broke."
+ },
+ {
+  "id": "o125",
+  "side": "p2",
+  "op": "retype",
+  "t": 8073.83,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: nextcount p2: spawn 8072.267 (hold O -> T out) locks 8073.17 with +3600 (TSS, B2B after the 8070.70 TST = chain tss 8072.27); spawn 8073.833 locks 8074.03 with +30 only (plain lock, no clear); spawn 8074.033 -> 8074.77 +5400 (TSD B2B). The T-SPIN Single banner at 8073.84 is the lingering banner of the 8073.17 TSS. Score via score.py 8069-8077."
  }
 ]
