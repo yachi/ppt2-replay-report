@@ -1,0 +1,229 @@
+{
+ "event_corrections": [
+  {
+   "n": 64,
+   "id": "q096",
+   "side": "p2",
+   "op": "retype",
+   "t": 5879.53,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Only one TSS: p2 score 5258->9008 (+3750, TSS b2b + REN1) at 5878.87 from the 5878.07 tss; after it 9008 stays until 9110 at 5881.0 (drop points only), then quad +3600 at 5881.77. Frames /tmp/claude-0/qh/corr/fr/g2/q096.png 5878.7-5881.9: one single-row clear at 5878.9, the 5879.53 spawn (L, held, J out) makes no clear. nextcount spawns match chain events, so piece count unchanged."
+  },
+  {
+   "n": 68,
+   "id": "q100",
+   "side": "p1",
+   "op": "retype",
+   "t": 6130.03,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Only one TETRIS: /tmp/claude-0/qh/corr/fr/g2/q100b.png per-frame 6129.95-6130.55: L spawned 6130.02, held, T out and hard-dropped at col 0 at 6130.22 (+14, no clear); I spawned 6130.32, dropped vertical at 6130.36, 4 rows clear at 6130.39 (+3600 33999->37599). One TETRIS banner (/tmp/claude-0/qh/corr/fr/g2/q100.png). The 6130.5 quad is the real one."
+  },
+  {
+   "n": 76,
+   "id": "q108",
+   "side": "p2",
+   "op": "retype",
+   "t": 6610.33,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "p2 score 20477->26027 (+5550) at 6611.10 = TSD b2b 5400 + REN1 150 (a plain double would be ~1050); previous tsd at 6609.97 +3600. score.py 6608-6614."
+  },
+  {
+   "n": 83,
+   "id": "q119",
+   "side": "p1",
+   "op": "retype",
+   "t": 7345.2,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "J spawned 7344.53 (the chain's 7345.2 piece; NEXT shows only J between the triple's piece and the Z) and cleared 2 rows at 7344.7, REN banner at 7344.9, p1 score 351879->352959 (+1080 = double 900 + REN1 150 + drops). The two garbage rows with the hole in col 3 are gone after it (/tmp/claude-0/qh/corr/fr/g2/q119.png, /tmp/claude-0/qh/corr/fr/g2/q119g.png 7344.45 vs 7345.4), so gc 2. Following Z double at 7345.7 shows '2 REN' and +1232 (REN2)."
+  },
+  {
+   "n": 84,
+   "id": "q119",
+   "side": "p1",
+   "op": "add",
+   "t": 7346.37,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "I spawned 7346.34, hard-dropped and locked on the frame before p2's board starts to tilt (~7346.40, /tmp/claude-0/qh/corr/fr/g2/q119k.png frames 4-5); its row of coloured pieces flashes white next frame, '3 REN' banner, p1 score 354191->354975 (+784 = single 300 + REN3 450 + drops). Lock is at/one frame before the KO tilt, so it counts. Lock and tilt are adjacent frames; if KO is taken one frame earlier this would be excluded."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 64,
+   "id": "q096",
+   "player": "p2",
+   "field": "max_combo",
+   "was": "2",
+   "value": "1",
+   "source": "With the phantom tss at 5879.53 removed, the run tst,tss,tss becomes tst,tss (REN 1); no other run longer than 2 in cseq."
+  },
+  {
+   "n": 64,
+   "id": "q096",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": "10",
+   "value": "9",
+   "source": "Removing the phantom tss shortens the b2b-eligible run from 11 to 10 clears."
+  },
+  {
+   "n": 66,
+   "id": "q097",
+   "player": "p1",
+   "field": "pieces",
+   "was": "33",
+   "value": "34",
+   "source": "O spawned 5937.37 and hard-dropped at 5937.57 (= KO frame, score +37 20762->20799, drop trails), no clear; chain has no event for it. /tmp/claude-0/qh/corr/fr/g2/q097ko.png"
+  },
+  {
+   "n": 68,
+   "id": "q100",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": "6",
+   "value": "5",
+   "source": "Removing the phantom quad at 6130.03 shortens the b2b run Q,Q,d,Q,Q,s,Q to 6 clears."
+  },
+  {
+   "n": 84,
+   "id": "q119",
+   "player": "p1",
+   "field": "pieces",
+   "was": "473",
+   "value": "474",
+   "source": "I locked at the KO frame (see add at 7346.37)."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 60,
+   "why": "+7200 at 5739.23 = TST b2b; Single banner lingers from tss at 5734.93"
+  },
+  {
+   "n": 61,
+   "why": "p1 +1210 at 5743.57 is a zero-line T-spin (T placed at top, SPIN badge, no row cleared, /tmp/claude-0/qh/corr/fr/g2/q093a.png); no clear to add"
+  },
+  {
+   "n": 62,
+   "why": "T out of hold soft-dropped onto stack at 5824.97 but not locked by KO 5825.0 (no spawn, no hard drop), /tmp/claude-0/qh/corr/fr/g2/q094.png"
+  },
+  {
+   "n": 63,
+   "why": "tss at 5878.07 is real (+3750 TSS b2b+REN at 5878.87); Triple banner lingers from the TST at 5877.33"
+  },
+  {
+   "n": 65,
+   "why": "same phantom as n64, fixed there"
+  },
+  {
+   "n": 67,
+   "why": "O spawned 6096.70, held 6096.90; nothing locked by KO, /tmp/claude-0/qh/corr/fr/g2/q099ko.png"
+  },
+  {
+   "n": 69,
+   "why": "I hard-dropped after KO: score +20 at 6225.47 > KO 6225.43, /tmp/claude-0/qh/corr/fr/g2/q101ko.png"
+  },
+  {
+   "n": 70,
+   "why": "S spawned 6283.67, held 6283.93; no lock by KO"
+  },
+  {
+   "n": 71,
+   "why": "6387.7 is a plain double: 62446->64421 over double(REN2)+single(REN3)=1950+drops; a TSD would be ~4650"
+  },
+  {
+   "n": 72,
+   "why": "S spawned 6457.40, no score change by KO 6457.5"
+  },
+  {
+   "n": 73,
+   "why": "I spawned 6498.37, held; T soft-dropping at KO 6498.7"
+  },
+  {
+   "n": 74,
+   "why": "S spawned 6532.14, only soft-drop points after KO"
+  },
+  {
+   "n": 75,
+   "why": "6561.37 is a plain single: 29861->30955 = single REN1 450 + single REN2 600 + drops; TSS would be far more"
+  },
+  {
+   "n": 77,
+   "why": "T spawned 6622.10, held, O still at top at KO, /tmp/claude-0/qh/corr/fr/g2/q108ko.png"
+  },
+  {
+   "n": 78,
+   "why": "T spawned 6718.57 still soft-dropping at KO 6718.87"
+  },
+  {
+   "n": 79,
+   "why": "J spawned 6822.50, no hard drop by KO 6822.6"
+  },
+  {
+   "n": 80,
+   "why": "J spawned 6883.03, held, piece soft-dropping at KO"
+  },
+  {
+   "n": 81,
+   "why": "J hard-dropped after KO: +34 at 7015.67 > 7015.6"
+  },
+  {
+   "n": 82,
+   "why": "O still hovering at 7049.03, locked next frame after KO, /tmp/claude-0/qh/corr/fr/g2/q116ko.png"
+  },
+  {
+   "n": 85,
+   "why": "tss at 7360.97 correct: +3750 at 7361.70 (TSS b2b+REN); Triple banner from TST at 7360.73"
+  },
+  {
+   "n": 86,
+   "why": "T out of hold soft-dropping through KO 7548.43"
+  },
+  {
+   "n": 87,
+   "why": "hard drop +10 at 7583.97 after KO 7583.93"
+  },
+  {
+   "n": 88,
+   "why": "Z spawned 7662.00, held 7662.14; no lock"
+  },
+  {
+   "n": 89,
+   "why": "tst correct: 'T-SPIN Triple' banner at 7820.3 with 3 rows clearing, +4962 (TST + REN1), /tmp/claude-0/qh/corr/fr/g2/q124.png"
+  }
+ ]
+}
