@@ -1,0 +1,25 @@
+{"event_corrections":[
+{"n":54,"id":"b059","side":"p2","op":"retype","t":5131.5,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"Score +1072 at 5131.80 (47546->48618) = double 900 + REN1 150 + 22 drop; a single would be 450. Stack top drops 2 rows (purple tower ~165->~195 px) between 5131.6 and 5132.6, garbage top unchanged: /tmp/claude-0/no/corr/fr/g3/b059a.png, /tmp/claude-0/no/corr/fr/g3/b059b.png"},
+{"n":56,"id":"b064","side":"p1","op":"retype","t":5470.8,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"L spawned 5470.8 locks ~5471.07 and clears one coloured row with a REN banner; score +450 at 5471.13 (33883->34333) = single 300 + REN1 150, right after the B2B quad (+3600 at 5469.97): /tmp/claude-0/no/corr/fr/g3/b064.png"},
+{"n":57,"id":"b065","side":"p2","op":"retype","t":5532.93,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"Score +1072 at 5533.07 (14621->15693) = double 900 + REN1 150 + 22; full-res crops 5532.95 vs 5533.75 show the stack top drop by 2 rows (63 px at 2x) with garbage top unchanged: /tmp/claude-0/no/corr/fr/g3/b065c.png, /tmp/claude-0/no/corr/fr/g3/b065b.png"},
+{"n":60,"id":"b067","side":"p2","op":"retype","t":5617.7,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"Score +1200 at 5618.03 (12744->13944, drop points already counted at 5618.00) = double 900 + REN2 300; a single would be 600. Crops 5617.85 vs 5618.6 show the two bottom coloured rows gone: /tmp/claude-0/no/corr/fr/g3/b067c.png"},
+{"n":63,"id":"b071","side":"p1","op":"retype","t":6178.73,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":1,"source":"Score +1200 at 6178.93 (13862->15062) = double 900 + REN2 300 (the following singles score 750/900/1050 = REN3/4/5, consistent). Crops 6178.8 vs 6179.6: stack top drops 2 rows; the cleared rows are the bottom coloured row and the top garbage row (hole at col 4): /tmp/claude-0/no/corr/fr/g3/b071c.png"},
+{"n":64,"id":"b072","side":"p2","op":"retype","t":6257.4,"was":["double",2,0],"kind":"quad","lines":4,"pc":0,"gc":4,"source":"Vertical I into the right-hand well at ~6257.7, TETRIS + BACK to BACK banners, 4-row gap among the garbage rows at 6258.3; score +3750 at 6257.77 (28487->32237) = B2B quad 3600 + REN1 150 (a double would be 1050): /tmp/claude-0/no/corr/fr/g3/b072.png"}
+],
+"cell_edits":[
+{"n":56,"id":"b064","player":"p1","field":"max_combo","was":"0","value":"1","source":"the added single at 5470.8 directly follows the quad at 5469.6 (REN banner, +150 REN bonus): REN1; chain had no other consecutive clears (max_combo 0). /tmp/claude-0/no/corr/fr/g3/b064.png"},
+{"n":58,"id":"b065","player":"p2","field":"pieces","was":"49","value":"50","source":"Z spawned 5541.63 (not in chain), held at 5541.77; the S out of hold locks at 5542.03 = end_s (score +32 25157->25189 at 5542.03, no clear flash): /tmp/claude-0/no/corr/fr/g3/b065d.png"},
+{"n":71,"id":"b079","player":"p1","field":"pieces","was":"38","value":"39","source":"Piece spawned 6785.20 (O held at 6785.37, J played) locks at 6785.60, before end_s 6785.67; score +34 at 6785.63 (29611->29645), no clear points after: /tmp/claude-0/no/corr/fr/g3/b079.png"}
+],
+"no_change":[
+{"n":55,"why":"b060 p2: last O locks at 5243.30, after end_s 5243.23 (still at the top at 5243.27): /tmp/claude-0/no/corr/fr/g3/b060.png"},
+{"n":59,"why":"b066 p1: S spawned 5597.27 still falling at and after the KO 5598.13; no lock: /tmp/claude-0/no/corr/fr/g3/b066.png"},
+{"n":61,"why":"b068 p1: the fast double shift at 6022.57/6022.77 is two real spawns (Z hard-dropped at 6022.65, +22, then T); all 54 NEXT shifts match chain events except the first hold-into-empty (6000.87) and the loser's last spawn 6032.83 which never locked (garbage topout): /tmp/claude-0/no/corr/fr/g3/b068.png, /tmp/claude-0/no/corr/fr/g3/b068e.png. Queue/bag anomaly is a read issue, counts fine."},
+{"n":62,"why":"b069 p1: T out of hold still falling at KO 6070.43: /tmp/claude-0/no/corr/fr/g3/b069.png"},
+{"n":65,"why":"b073 p1: piece spawned 6325.10, score unchanged (43931) through 6325.30 > end_s 6325.23, so no lock by KO"},
+{"n":66,"why":"b075 p1: T spawned 6497.07 still in the air at the KO 6497.27: /tmp/claude-0/no/corr/fr/g3/b075.png"},
+{"n":67,"why":"b075 p2: score +450 at 6464.63 = plain single + REN1 150 after the quad (TSS would be 2400+); following clears fit REN2/REN3. Plain single is right."},
+{"n":68,"why":"b076 p2: I spawned 6597.77, score unchanged (45641) through 6598.20 past end_s 6597.97; no lock"},
+{"n":69,"why":"b078 p1: S spawned 6717.47 is still at the top at 6717.80 > end_s 6717.77: /tmp/claude-0/no/corr/fr/g3/b078.png"},
+{"n":70,"why":"b079 p1: score +900 at 6776.87 = single 300 + REN4 600, so 6776.2 is a plain single; the mini (+1350 = 600 + REN5 750) is at 6777.6 where the chain already has tsmini; REN chain fits max_combo 11"}
+]}

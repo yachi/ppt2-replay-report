@@ -1,0 +1,11 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py p2: +1072 at 5131.80 (47546->48618) = double 900 + REN1 150 + 22 drop; next clears +1826 (triple+REN2) and +2850 (quad+REN3) at 5132.63/5133.70 confirm the REN chain. A single would be +450."},
+{"ref":"e1","verdict":"keep","why":"score.py p1: drop +14 at 5471.07 then +450 at 5471.13 (33883->34333) = single 300 + REN1 150, right after the B2B quad +3600 at 5469.97; the lock is the 5470.8 piece."},
+{"ref":"e2","verdict":"keep","why":"score.py p2: +3600 quad at 5532.10, then +1072 at 5533.07 = double + REN1 + 22; later doubles +900 (5534.87) and +922 (5536.23) without REN, consistent."},
+{"ref":"e3","verdict":"keep","why":"score.py p2: +3600 at 5616.03, +3750 at 5616.97 (B2B quad + REN1), +32 drop at 5618.00 then +1200 at 5618.03 = double 900 + REN2 300; a single would be +600."},
+{"ref":"e4","verdict":"keep","why":"score.py p1: single +300 (6177.03), quad+REN1 +2550 (6177.93), +1200 at 6178.93 = double + REN2, then +750/+900/+1050 = single REN3/4/5. gc not independently checked."},
+{"ref":"e5","verdict":"keep","why":"Sheet /tmp/claude-0/no/corr/fr/v3/b072.png: vertical I drops into the right column of the garbage at 6257.7, flash, garbage block shrinks by 4 rows, TETRIS + BACK to BACK banners; score +3750 at 6257.77 = B2B quad 3600 + REN1 150 (the 6256.70 quad was +2400, B2B broken by the +450 single at 6255.13)."},
+{"ref":"c0","verdict":"keep","why":"Follows from e1: quad 5469.6 then single 5470.8 consecutive (+150 REN bonus) = REN1; no other consecutive p1 clears in b064's chain (max_combo 0)."},
+{"ref":"c1","verdict":"keep","why":"nextcount p2: spawns 5541.10, 5541.43, 5541.63 (Z), Z held 5541.77 swapping out S; score +32 at 5541.60 (5541.43 piece) and +32 at 5542.03 = end_s (S from hold locks on the KO frame), next shift only 5542.13. Chain has events only at 5541.1 and 5541.43, so +1 piece."},
+{"ref":"c2","verdict":"keep","why":"nextcount p1: spawn 6784.10 (the chain's 6784.1 single, +1950 at 6784.50), spawn 6785.20, O held 6785.37 (T out of hold), score +35 at 6785.63 < end_s 6785.67 with no clear; chain's last event is 6784.1, so +1 piece."}
+]

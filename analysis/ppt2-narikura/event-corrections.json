@@ -3792,5 +3792,724 @@
   "lines": 4,
   "gc": 3,
   "source": "b4 frame check, verified: the T (spawn 7506.93 via hold) locks at the top at ~7507.6 as a zero-line spin (+300, T-SPIN banner); the I spawned 7507.67 drops into the right well and clears 4 rows with BACK to BACK banner, score +3600 at 7508.10 = TETRIS 2400 x1.5; /tmp/claude-0/ne/corr/fr/g4/e109a.png"
+ },
+ {
+  "id": "b001",
+  "side": "p1",
+  "op": "remove",
+  "t": 91.93,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b0 frame check, verified: Only one spawn at 91.90 (nextcount), one score jump +2400 at 92.97 (single, REN 14); 91.93 duplicates 91.90. /tmp/claude-0/no/corr/fr/g0/s1.png"
+ },
+ {
+  "id": "b001",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 86.17,
+  "source": "b0 frame check, verified: REN never broke: score jumps 74.77..93.6 run 300,450,...,2400 then double 3150 (+150 per step without a gap); the '1 REN' banner at 86.0 is '11 REN' clipped by the overlay. /tmp/claude-0/no/corr/fr/g0/s1.png",
+  "t_end": 86.17,
+  "events": [],
+  "was_old": [
+   [
+    86.17,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b013",
+  "side": "p1",
+  "op": "retype",
+  "t": 1738.63,
+  "was": [
+   "tsmini",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 1,
+  "source": "b0 frame check, verified: Piece spawned 1738.63 is the I, dropped vertical in the right column, clears 2 rows, score +900 at 1738.93 (plain double, no T-SPIN banner for it); the T-SPIN banner at 1738.6 belongs to the previous T (1737.87, zero-line, +300). Resolves item 8 too (TSD at 1742.37 scored 3600, not B2B). /tmp/claude-0/no/corr/fr/g0/s9.png"
+ },
+ {
+  "id": "b015",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2024.83,
+  "source": "b0 frame check, verified: O spawned 2024.83 clears one stack row (white flash 2025.0, '2 REN' banner), score +600 at 2025.03 (single + REN 2); following singles score 750/900/1050. /tmp/claude-0/no/corr/fr/g0/s11.png",
+  "t_end": 2024.83,
+  "events": [
+   {
+    "t": 2024.83,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2024.83,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b016",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2104.0,
+  "t_end": 2110.6,
+  "events": [
+   {
+    "t": 2104.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2105.17,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2106.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2106.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2107.07,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   },
+   {
+    "t": 2108.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2108.57,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2109.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2110.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2104.07,
+    "BREAK",
+    4
+   ],
+   [
+    2104.4,
+    null,
+    0
+   ],
+   [
+    2104.4,
+    null,
+    0
+   ],
+   [
+    2104.4,
+    "quad",
+    4
+   ],
+   [
+    2106.2,
+    "quad",
+    4
+   ],
+   [
+    2106.2,
+    "quad",
+    4
+   ],
+   [
+    2106.9,
+    "BREAK",
+    2
+   ],
+   [
+    2108.9,
+    "BREAK",
+    2
+   ]
+  ],
+  "source": "b0 frame check, verified: Spawns (nextcount) 2104.83,2105.17,2106.17(hold->O),2106.60,2107.07,2108.27,2108.57,2109.60(hold->Z),2110.07,2110.33; score: lock+16 2105.07; quad +3600(B2B) 2105.33 (stack rows, garbage unchanged); locks 2106.50, 2106.97; quad +3600 2107.43 (I in left well, 4 garbage rows); lock 2108.47; S double +900 2108.87 (two stack rows, garbage unchanged); locks 2109.97, 2110.23; Z from 2110.33 locks 2110.67, after KO 2110.63. /tmp/claude-0/no/corr/fr/g0/s12.png /tmp/claude-0/no/corr/fr/g0/s14.png /tmp/claude-0/no/corr/fr/g0/s13.png"
+ },
+ {
+  "id": "b018",
+  "side": "p2",
+  "op": "retype",
+  "t": 2225.33,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: L spawned 2225.33 goes to hold, S comes out and locks at 2225.97 (+26 only, no flash); next clear is J triple +1524 at 2226.70 without REN bonus. /tmp/claude-0/no/corr/fr/g0/s16.png"
+ },
+ {
+  "id": "b018",
+  "side": "p2",
+  "op": "retype",
+  "t": 2258.83,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "gc": 0,
+  "source": "b0 frame check, verified: J spawned 2258.83 clears 2 stack rows (6 colored rows -> 4; 2 garbage rows before and after), score +1082 at 2259.07 = double 900 + REN 150 + drop. /tmp/claude-0/no/corr/fr/g0/s17.png /tmp/claude-0/no/corr/fr/g0/cmp1.png"
+ },
+ {
+  "id": "b027",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2898.47,
+  "t_end": 2899.63,
+  "events": [
+   {
+    "t": 2898.47,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2899.63,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2898.47,
+    null,
+    0
+   ],
+   [
+    2898.47,
+    null,
+    0
+   ],
+   [
+    2898.47,
+    "single",
+    1
+   ],
+   [
+    2899.63,
+    null,
+    0
+   ],
+   [
+    2899.63,
+    null,
+    0
+   ],
+   [
+    2899.63,
+    "double",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: Score: double +900 @2898.07, single +450 (=300+REN1) @2899.27, double +1200 (=900+REN2) @2900.67 with no drop points between; '1 REN'/'2 REN' banners on sheet /tmp/claude-0/no/corr/fr/g1/b027a.png. nextcount spawns only at 2897.93, 2898.90, 2899.97 (no other pieces), so the four None locks at 2898.47/2899.63 are phantoms (A's double shifts)."
+ },
+ {
+  "id": "b027",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2901.43,
+  "t_end": 2901.43,
+  "events": [
+   {
+    "t": 2901.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2901.43,
+    null,
+    0
+   ],
+   [
+    2901.43,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: nextcount: single spawn 2901.40 (J, locks +2 @2902.50), next spawn 2902.60 (T); one of the two chain None at 2901.43 is phantom. Sheet /tmp/claude-0/no/corr/fr/g1/b027b.png. Whole-game nextcount alignment: chain 156 events, exactly these 5 unmatched; 152 shifts, last (2906.80) never locks before KO."
+ },
+ {
+  "id": "b030",
+  "side": "p1",
+  "op": "add",
+  "t": 3092.9,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: nextcount spawn 3092.90 (O); score +24 (hard drop) exactly at 3093.17 = KO frame, no clear score; sheet /tmp/claude-0/no/corr/fr/g1/b030.png shows O hard-dropped with drop streaks on the frame p2's board starts tilting."
+ },
+ {
+  "id": "b030",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3086.73,
+  "t_end": 3092.5,
+  "events": [
+   {
+    "t": 3087.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3087.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3088.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3089.1,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3090.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3091.14,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3091.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3091.84,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3092.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3092.5,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3086.73,
+    null,
+    0
+   ],
+   [
+    3086.73,
+    null,
+    0
+   ],
+   [
+    3086.73,
+    "single",
+    1
+   ],
+   [
+    3089.97,
+    null,
+    0
+   ],
+   [
+    3089.97,
+    "single",
+    1
+   ],
+   [
+    3091.5,
+    null,
+    0
+   ],
+   [
+    3091.5,
+    null,
+    0
+   ],
+   [
+    3091.5,
+    null,
+    0
+   ],
+   [
+    3091.87,
+    null,
+    0
+   ],
+   [
+    3092.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: Score p2: after double +900 @3086.37 only locks (+8 @3087.83, +4 @3088.17), then single +306 @3088.47, single +454 (REN1) @3089.57, single +600 (REN2) @3090.50; sheet /tmp/claude-0/no/corr/fr/g1/b030p2.png shows three one-row clears at ~3088.46, 3089.54, 3090.62 (coloured rows, not garbage) with REN banner. Chain had only two singles, the first misplaced at 3086.73. Spawn times from nextcount (same piece count, 10 events)."
+ },
+ {
+  "id": "b031",
+  "side": "p2",
+  "op": "add",
+  "t": 3158.63,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b1 frame check, verified: nextcount spawn 3158.63 (O, held; J out of hold @3158.87); J dropped into well, 2-row clear of grey garbage rows at ~3158.95 (sheet /tmp/claude-0/no/corr/fr/g1/b031.png); score +30 @3158.93 then +2100 @3158.97 = double 900 + REN8 1200. Chain had no event for this piece."
+ },
+ {
+  "id": "b035",
+  "side": "p2",
+  "op": "retype",
+  "t": 3387.57,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: T spawned 3387.07 locked ~3387.44 with no row cleared (stack unchanged, no clear flash, sheet /tmp/claude-0/no/corr/fr/g1/b035.png); score +300 @3387.53 = zero-line Mini T-spin (mini single would be 600, x1.5 under B2B); next I quad +3600 @3389.50 is B2B. Banner 'Mini T-SPIN' without a line."
+ },
+ {
+  "id": "b042",
+  "side": "p2",
+  "op": "retype",
+  "t": 3901.83,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: T (spawn 3901.03) soft-dropped and locked ~3901.64 with no clear, +300 @3901.77 (zero-line mini); L (spawn 3901.83, the chain's tsmini event) locked ~3901.99 with +22 and no clear; I quad +3600 B2B @3902.30. Sheet /tmp/claude-0/no/corr/fr/g1/b042a.png."
+ },
+ {
+  "id": "b042",
+  "side": "p2",
+  "op": "retype",
+  "t": 3926.93,
+  "was": [
+   "tsmini",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: T (spawn 3926.17) locked without clear, +300 @3926.90 (zero-line mini, 'T-SPIN' banner); then L out of hold (spawn 3926.93) makes a plain 2-row clear at ~3927.25, +900 @3927.27; J locks +2 ~3928.27; I triple +1512 @3928.87 (no REN). Sheet /tmp/claude-0/no/corr/fr/g1/b042b.png."
+ },
+ {
+  "id": "b043",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4005.13,
+  "t_end": 4005.13,
+  "events": [
+   {
+    "t": 4005.13,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4005.13,
+    null,
+    0
+   ],
+   [
+    4005.13,
+    null,
+    0
+   ],
+   [
+    4005.13,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: nextcount: one spawn at 4005.10; score shows one hard-drop lock per spawn in 4004.8-4008.4 (11 locks: 4005.00, .37, .70, 4006.03, .47, .60, 4007.03, .60, .77, .97, 4008.33) then TSD @4009.17 for 12 spawns; chain had 14 events there, two extra at 4005.13. Whole-game count: 60 shifts incl. one hold-into-empty (3988.03) -> 59 locks before the KO piece."
+ },
+ {
+  "id": "b043",
+  "side": "p1",
+  "op": "add",
+  "t": 4022.63,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: Hold swap 4022.63 brings S out; score +30 (hard drop) at 4022.73 = KO frame, no clear score; sheet /tmp/claude-0/no/corr/fr/g1/b043ko.png shows S hard-dropped with streaks on the frame p2's board tilts."
+ },
+ {
+  "id": "b045",
+  "side": "p1",
+  "op": "retype",
+  "t": 4104.77,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b2 frame check, verified: T dropped into a slot at ~4105.0-4105.3 and the 'T-SPIN Double' + REN + BACK to BACK banners appear left of the board; score 5352 -> 10902 (+5550 = TSD 3600 x1.5 B2B + 150 REN) at 4105.47. /tmp/claude-0/no/corr/fr/g2/b045a.png"
+ },
+ {
+  "id": "b045",
+  "side": "p1",
+  "op": "retype",
+  "t": 4116.37,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Banner at ~4116.3 reads only 'Mini T-SPIN' (no 'Single'); comparing 4116.20 and 4116.47 the row above the garbage (cols1-9 filled, col0 open) is unchanged, no line cleared, one garbage row rose. Score +300 (23817 -> 24117 at 4116.30) = zero-line mini at level 3, and the quad at 4117.87 still scores +3600 (B2B kept). Zero-line mini T-spin, not a clear. /tmp/claude-0/no/corr/fr/g2/b045b.png /tmp/claude-0/no/corr/fr/g2/b045c.png"
+ },
+ {
+  "id": "b047",
+  "side": "p1",
+  "op": "retype",
+  "t": 4275.97,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Banner at ~4275.9 reads 'Mini T-SPIN' only; board at 4275.70 vs 4276.00 has identical rows (no clear). Score +300 at 4275.83 (34817 -> 35117) = zero-line mini; the quad at 4276.97 scores +3600 (B2B kept). /tmp/claude-0/no/corr/fr/g2/b047a.png"
+ },
+ {
+  "id": "b049",
+  "side": "p1",
+  "op": "add",
+  "t": 4430.83,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: nextcount: spawn at 4430.833 (O) not in the chain; the O locks ~4430.97 and clears one non-garbage row (flash), banner '8 REN', score 17661 -> 19161 (+1500 = single 300 + 8x150) at 4431.00, before KO 4431.07. /tmp/claude-0/no/corr/fr/g2/b049.png"
+ },
+ {
+  "id": "b052",
+  "side": "p1",
+  "op": "retype",
+  "t": 4604.67,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b2 frame check, verified: T-SPIN Double + REN + BACK to BACK banners at 4605.2-4605.9; score 5333 -> 10883 (+5550 = TSD x1.5 B2B + 150 REN) at 4605.30. /tmp/claude-0/no/corr/fr/g2/b052.png"
+ },
+ {
+  "id": "b059",
+  "side": "p2",
+  "op": "retype",
+  "t": 5131.5,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Score +1072 at 5131.80 (47546->48618) = double 900 + REN1 150 + 22 drop; a single would be 450. Stack top drops 2 rows (purple tower ~165->~195 px) between 5131.6 and 5132.6, garbage top unchanged: /tmp/claude-0/no/corr/fr/g3/b059a.png, /tmp/claude-0/no/corr/fr/g3/b059b.png"
+ },
+ {
+  "id": "b064",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5470.8,
+  "source": "b3 frame check, verified: L spawned 5470.8 locks ~5471.07 and clears one coloured row with a REN banner; score +450 at 5471.13 (33883->34333) = single 300 + REN1 150, right after the B2B quad (+3600 at 5469.97): /tmp/claude-0/no/corr/fr/g3/b064.png",
+  "t_end": 5470.8,
+  "events": [
+   {
+    "t": 5470.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5470.8,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b065",
+  "side": "p2",
+  "op": "retype",
+  "t": 5532.93,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Score +1072 at 5533.07 (14621->15693) = double 900 + REN1 150 + 22; full-res crops 5532.95 vs 5533.75 show the stack top drop by 2 rows (63 px at 2x) with garbage top unchanged: /tmp/claude-0/no/corr/fr/g3/b065c.png, /tmp/claude-0/no/corr/fr/g3/b065b.png"
+ },
+ {
+  "id": "b067",
+  "side": "p2",
+  "op": "retype",
+  "t": 5617.7,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Score +1200 at 5618.03 (12744->13944, drop points already counted at 5618.00) = double 900 + REN2 300; a single would be 600. Crops 5617.85 vs 5618.6 show the two bottom coloured rows gone: /tmp/claude-0/no/corr/fr/g3/b067c.png"
+ },
+ {
+  "id": "b071",
+  "side": "p1",
+  "op": "retype",
+  "t": 6178.73,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 1,
+  "source": "b3 frame check, verified: Score +1200 at 6178.93 (13862->15062) = double 900 + REN2 300 (the following singles score 750/900/1050 = REN3/4/5, consistent). Crops 6178.8 vs 6179.6: stack top drops 2 rows; the cleared rows are the bottom coloured row and the top garbage row (hole at col 4): /tmp/claude-0/no/corr/fr/g3/b071c.png"
+ },
+ {
+  "id": "b072",
+  "side": "p2",
+  "op": "retype",
+  "t": 6257.4,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 0,
+  "gc": 4,
+  "source": "b3 frame check, verified: Vertical I into the right-hand well at ~6257.7, TETRIS + BACK to BACK banners, 4-row gap among the garbage rows at 6258.3; score +3750 at 6257.77 (28487->32237) = B2B quad 3600 + REN1 150 (a double would be 1050): /tmp/claude-0/no/corr/fr/g3/b072.png"
  }
 ]

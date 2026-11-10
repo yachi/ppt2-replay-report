@@ -1,0 +1,154 @@
+{
+ "event_corrections": [
+  {
+   "n": 37,
+   "id": "b045",
+   "side": "p1",
+   "op": "retype",
+   "t": 4104.77,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "T dropped into a slot at ~4105.0-4105.3 and the 'T-SPIN Double' + REN + BACK to BACK banners appear left of the board; score 5352 -> 10902 (+5550 = TSD 3600 x1.5 B2B + 150 REN) at 4105.47. /tmp/claude-0/no/corr/fr/g2/b045a.png"
+  },
+  {
+   "n": 39,
+   "id": "b045",
+   "side": "p1",
+   "op": "retype",
+   "t": 4116.37,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Banner at ~4116.3 reads only 'Mini T-SPIN' (no 'Single'); comparing 4116.20 and 4116.47 the row above the garbage (cols1-9 filled, col0 open) is unchanged, no line cleared, one garbage row rose. Score +300 (23817 -> 24117 at 4116.30) = zero-line mini at level 3, and the quad at 4117.87 still scores +3600 (B2B kept). Zero-line mini T-spin, not a clear. /tmp/claude-0/no/corr/fr/g2/b045b.png /tmp/claude-0/no/corr/fr/g2/b045c.png"
+  },
+  {
+   "n": 42,
+   "id": "b047",
+   "side": "p1",
+   "op": "retype",
+   "t": 4275.97,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Banner at ~4275.9 reads 'Mini T-SPIN' only; board at 4275.70 vs 4276.00 has identical rows (no clear). Score +300 at 4275.83 (34817 -> 35117) = zero-line mini; the quad at 4276.97 scores +3600 (B2B kept). /tmp/claude-0/no/corr/fr/g2/b047a.png"
+  },
+  {
+   "n": 46,
+   "id": "b049",
+   "side": "p1",
+   "op": "add",
+   "t": 4430.83,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount: spawn at 4430.833 (O) not in the chain; the O locks ~4430.97 and clears one non-garbage row (flash), banner '8 REN', score 17661 -> 19161 (+1500 = single 300 + 8x150) at 4431.00, before KO 4431.07. /tmp/claude-0/no/corr/fr/g2/b049.png"
+  },
+  {
+   "n": 49,
+   "id": "b052",
+   "side": "p1",
+   "op": "retype",
+   "t": 4604.67,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "T-SPIN Double + REN + BACK to BACK banners at 4605.2-4605.9; score 5333 -> 10883 (+5550 = TSD x1.5 B2B + 150 REN) at 4605.30. /tmp/claude-0/no/corr/fr/g2/b052.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 46,
+   "id": "b049",
+   "player": "p1",
+   "field": "pieces",
+   "was": 37,
+   "value": 38,
+   "source": "extra O spawned 4430.83 and locked (with a single) at ~4430.97, before KO 4431.07; /tmp/claude-0/no/corr/fr/g2/b049.png"
+  },
+  {
+   "n": 46,
+   "id": "b049",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 8,
+   "source": "the added single continues the chain's 8-single run (REN 7) to 9 consecutive clears; banner '8 REN' and score +1500 = 300+8x150 at 4431.00; /tmp/claude-0/no/corr/fr/g2/b049.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 36,
+   "why": "J spawned 4045.37 is still at the top through the KO (やった at ~4045.6); score unchanged 16378; no lock. fr/g2/b044.png"
+  },
+  {
+   "n": 38,
+   "why": "explained by n39: the tsmini at 4116.37 was a zero-line Mini T-spin (+300, not +900); -600 plus drop points = -576."
+  },
+  {
+   "n": 40,
+   "why": "S locked at 4233.63 (chain event 4233.33); the L spawned 4233.67 is still falling at KO 4233.9. fr/g2/b046.png"
+  },
+  {
+   "n": 41,
+   "why": "explained by n42: the tsmini at 4275.97 was a zero-line Mini T-spin (+300 vs predicted 900)."
+  },
+  {
+   "n": 43,
+   "why": "J spawned 4279.0 stays at the top, held at ~4279.27; no lock by KO 4279.2. fr/g2/b047b.png"
+  },
+  {
+   "n": 44,
+   "why": "L spawned 4399.27 locked by 4399.37 (chain event 4399.27); O spawned 4399.47 still at top through the KO. fr/g2/b048.png"
+  },
+  {
+   "n": 45,
+   "why": "the 388 shortfall is the missed final 8-REN single (+1500) at 4431.00, added under n46; all other REN steps match the chain."
+  },
+  {
+   "n": 47,
+   "why": "T locked at 4517.10 (chain 4516.83); the J spawned 4517.10 was held at 4517.30, I never locked before KO; score flat. fr/g2/b050.png"
+  },
+  {
+   "n": 48,
+   "why": "J spawned 4590.10 held, O hovers at the top through the KO; no lock, score flat. fr/g2/b051.png"
+  },
+  {
+   "n": 50,
+   "why": "J spawned 4708.03 is still at the top at KO 4708.63; score flat. fr/g2/b053.png"
+  },
+  {
+   "n": 51,
+   "why": "hold-swapped T locked 4792.97 is the chain's 4792.43 event; L spawned 4792.97 still at top through the KO. fr/g2/b054.png"
+  },
+  {
+   "n": 52,
+   "why": "T (from hold, chain 4883.13) locked 4884.07; O spawned 4884.07 still at top through the KO. fr/g2/b055.png"
+  },
+  {
+   "n": 53,
+   "why": "after the TSD at 5073.97 no piece locks: I held at 5075.37, Z hovers at the top through KO 5076.27; score flat 66677. fr/g2/b058.png"
+  }
+ ]
+}

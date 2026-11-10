@@ -1,0 +1,18 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py p1: double +900 @2898.07, single +450 @2899.27, double +1200 @2900.67, nothing else; nextcount shifts only 2897.93, 2898.90, 2899.97 in the window, so the four None locks at 2898.47/2899.63 are phantoms."},
+{"ref":"e1","verdict":"keep","why":"Only one shift (2901.40) between 2899.97 and 2902.60 and one lock score (+2 @2902.50); one of the two None at 2901.43 is phantom."},
+{"ref":"e2","verdict":"keep","why":"Shift 3092.90 (O); p1 score 40499->40523 on the frame score.py dates 3093.17 = KO; /tmp/claude-0/no/corr/fr/v1/b030.png shows the O dropped with streaks as p2's board starts tilting."},
+{"ref":"e3","verdict":"keep","why":"p2 score: +306 @3088.47, +454 @3089.57, +600 @3090.50 = three singles (REN0,1,2), matching spawns 3088.20, 3089.10, 3090.20. The nextcount unk gap 3086.64-3086.84 hides no spawn: queue JSZJI identical either side (/tmp/claude-0/no/corr/fr/v1/b030p2a.png), so 10 events in the window is right."},
+{"ref":"e4","verdict":"keep","why":"Shift 3158.63 (O held, J out @3158.87); J dropped vertically into the well clearing two grey garbage rows (/tmp/claude-0/no/corr/fr/v1/b031.png); +30 @3158.93, +2100 @3158.97 = double 900 + REN8 1200; before KO 3159.73."},
+{"ref":"e5","verdict":"keep","why":"+300 exactly @3387.53 with no row removed (/tmp/claude-0/no/corr/fr/v1/b035.png, stack unchanged, '-SPIN' banner); a plain single (also 300) would have broken B2B but the next quad scores 3600 (B2B), so it is a zero-line Mini T-spin, not a clear."},
+{"ref":"e6","verdict":"keep","why":"p2 +300 @3901.77 (zero-line mini), +22 @3902.00 (plain lock, no clear), quad +3600 B2B @3902.30."},
+{"ref":"e7","verdict":"keep","why":"p2 +300 @3926.90 (zero-line mini), +900 @3927.27 = plain double (a mini double would be 1200), +1512 triple @3928.87 non-B2B, consistent."},
+{"ref":"e8","verdict":"keep","why":"nextcount 4004.80-4008.43: 12 shifts; score shows 11 hard-drop locks 4005.00-4008.33 plus TSD +3600 @4009.17 = 12; chain had 14 events there, the two extra None at 4005.13."},
+{"ref":"e9","verdict":"keep","why":"Shift 4022.53 (Z), hold swap 4022.63 brings S out, score +30 @4022.73 = KO frame, no clear score; chain's last event is 4021.6."},
+{"ref":"c0","verdict":"keep","why":"Chain's first event is the pre-queue initial piece; 1 initial + 152 shifts = 153, minus the piece left in hold and the last spawn 2906.80 (no lock score before KO 2907.47) = 151. The two nextcount unk gaps hide no spawn (queue changes by one shift across 2847.73-2848.00)."},
+{"ref":"c1","verdict":"keep","why":"O locked on the KO frame (e2)."},
+{"ref":"c2","verdict":"keep","why":"J double locked 3158.93-3158.97 before KO (e4)."},
+{"ref":"c3","verdict":"keep","why":"+1976 @3157.97 = 900+REN7 and +2100 @3158.97 = 900+REN8 -> max_combo 8."},
+{"ref":"c4","verdict":"keep","why":"Score jumps: quad 2400 @3894.0 (run start), TST 7200, quad 3600, quad 3630, quad 3600, TST 7200, quad 3600 @3917.57 = 7 B2B-chained clears; zero-line mini is not a clear -> max_b2b 6 (run-1, as the csv/games.jsonl convention)."},
+{"ref":"c5","verdict":"keep","why":"Chain's first event 3985.83 is the initial piece; 1 + 60 shifts = 61 pieces in play, Z (last shift 4022.53) left in hold, S locked on the KO frame -> 60. Equals chain 61 - 2 phantoms + 1 KO lock."}
+]
