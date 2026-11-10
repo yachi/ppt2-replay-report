@@ -1,0 +1,24 @@
+{"event_corrections":[
+{"n":0,"id":"c002","side":"p2","op":"retype","t":206.83,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"L dropped at 207.0 clears two non-garbage rows: stack top (col 7) falls 2 rows between 206.95 and 207.75 (fr/g0/n0_pair.png, fr/g0/n0.png); score +1080 at 207.03 = double 900 + REN1 150 + 30 drop; following singles step 600,750,... consistent"},
+{"n":4,"id":"c005","side":"p2","op":"retype","t":365.03,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"5 coloured rows above garbage at 365.28, 3 at 365.95 (fr/g0/n4_365.28.png, n4_365.95.png, n4.png); score +1200 at 365.37 = double 900 + REN2 300 (chain predicted single 600)"},
+{"n":6,"id":"c013","side":"p1","op":"replace_window","t":846.3,"t_end":848.4,"events":[{"t":846.77,"kind":null,"lines":0,"pc":0,"gc":0},{"t":847.37,"kind":"single","lines":1,"pc":0,"gc":0},{"t":848.3,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[846.5,null,0],[846.5,null,0],[846.5,null,0],[847.37,null,0],[847.37,"single",1],[848.3,null,0]],"source":"NEXT queue shifts only at 846.77, 847.37, 848.30 in this window (nextcount; hold stays S); J spawned 846.77 locks 847.27 (+2), Z spawned 847.37 locks 847.53 and clears a single (+300 at 847.57), O spawned 848.30 locks 848.57 (+2); no other lock (fr/g0/n6.png, n6c.png, n6b.png). The three 846.5 locks and the 847.37 None are phantoms"},
+{"n":8,"id":"c014","side":"p2","op":"retype","t":1128.8,"was":["tsmini",4,0],"kind":"quad","lines":4,"pc":0,"gc":0,"source":"O held, vertical I hard-dropped into right well at 1129.5, TETRIS banner 1130.0-1130.2, no T involved; score +2434 = 2400 + 34 drop (fr/g0/n8.png)"},
+{"n":11,"id":"c023","side":"p1","op":"retype","t":2045.9,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"vertical S fills cols 3-4 of the two coloured rows above garbage; both rows gone at 2046.75, leaving S top cell col3 and blue col9 (fr/g0/n11_pair.png); score +1050 at 2046.03 = double 900 + REN1 150; next single +600 = REN2"}
+],
+"cell_edits":[
+{"n":6,"id":"c013","player":"p1","field":"pieces","was":57,"value":54,"source":"three phantom None locks removed in 846.3-848.4 (see replace_window); NEXT-queue shifts confirm one lock per spawn there"}
+],
+"no_change":[
+{"n":1,"why":"c002 p2: T still soft-dropping at KO 242.07 (score +1/frame until 242.13), not locked (fr/g0/n1.png)"},
+{"n":2,"why":"c003 p1: every clear's score step matches the chain's REN singles exactly (300,300,450..2100); residual is drop points"},
+{"n":3,"why":"c004 p2: T held at 306.60, Z still at spawn at KO 306.73 (fr/g0/n3.png)"},
+{"n":5,"why":"c011 p2: Z still falling at 717.95, no lock before KO (fr/g0/n5.png)"},
+{"n":7,"why":"c013 p2: O still at top at 849.33, hard-drops at 849.43, after KO (fr/g0/n7.png)"},
+{"n":9,"why":"c014 p1: O locked 1145.17 (counted); next J at spawn at KO 1145.4 (fr/g0/n9.png)"},
+{"n":10,"why":"c015 p2: L still at spawn at KO 1196.6 (fr/g0/n10.png)"},
+{"n":12,"why":"c023 p2: score steps match chain REN singles and final double (+2732 = 900+1800+32); residual is drop points"},
+{"n":13,"why":"c024 p1: 2145.73 clear shows T-SPIN banner (fr/g0/n13.png) and the next quad scores +3600 (B2B kept), so the tsmini is right; PPT2 scores it +300, not 900"},
+{"n":14,"why":"c024 p1: the Mini T-SPIN banner belongs to a real T-spin clear at 2145.73 (+300, B2B kept for the 2147.07 quad); added tsmini is correct"},
+{"n":15,"why":"c030 p1: O still above stack at KO 2446.30, lands 2446.33, one frame after KO (fr/g0/n15.png)"},
+{"n":16,"why":"c032 p2: T soft-drops into slot, lock flash 2606.37 after KO 2606.30, no score for it (fr/g0/n16.png)"}
+]}

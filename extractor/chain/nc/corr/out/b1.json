@@ -1,0 +1,28 @@
+{"event_corrections":[
+{"n":17,"id":"c035","side":"p1","op":"retype","t":3242.63,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Banner reads only 'Mini T-SPIN' (no 'Single'), fr/g1/c035c.png. Score +300 at 3242.60 = zero-line Mini T-spin at level 3 (single is also 300 here, but the board top rows are unchanged before/after the T lock at 3242.4-3242.9, top1/top2 in c035c.png; a Mini TSS would be 600). The T is the piece spawned 3242.13; the 3242.63 piece locks at 3243.43 with drop points only (+34), no clear (fr/g1/c035b.png). No line was cleared by either."},
+{"n":18,"id":"c035","side":"p1","op":"remove","t":3257.53,"was":["single",1,0],"source":"Both players stall in 3249-3267 (pieces fall slowly, fr/g1/c035a.png). nextcount p1 spawns: 3248.77, 3259.77, 3267.73 (no spawn near 3257.53). Score p1 clears only at 3259.13 (+900, REN4, piece spawned 3248.77) and 3267.10 (+1050, REN5, piece spawned 3259.77). 3257.53 is a phantom."},
+{"n":21,"id":"c035","side":"p1","op":"remove","t":3267.2,"was":["single",1,0],"source":"No spawn at 3267.2 (nextcount p1: 3259.77 then 3267.73). The clear at 3267.10 is the 3259.77 piece; the next clear 3268.10 (+1200, REN6) is the 3267.73 piece. Score sequence 900,1050,1200,...,2400 (last at 3276.03, REN14) fits exactly one single per spawn from 3248.77 to 3275.6."},
+{"n":20,"id":"c035","side":"p2","op":"remove","t":3250.07,"was":["single",1,0],"source":"nextcount p2: spawns 3248.43, 3249.97, then 3268.80. Score p2: +900 at 3249.30 (REN4, 3248.43 piece), next clear +1050 at 3268.17 (REN5, 3249.97 piece, slow fall seen in fr/g1/c035a.png). 3250.07 is a duplicate of 3249.97."},
+{"n":19,"id":"c035","side":"p2","op":"remove","t":3268.33,"was":["single",1,0],"source":"No spawn at 3268.33 (nextcount p2: 3249.97 -> 3268.80). Score clears 3268.17 +1050 (REN5, 3249.97 piece) and 3268.97 +1200 (REN6, 3268.80 piece). With the two phantoms removed the predicted clear points (900,1050,1200,double 900,triple 1500,450,600,750) total 7350 vs observed 7468 incl. drop points."},
+{"n":22,"id":"c035","side":"p2","op":"retype","t":3274.97,"was":[null,0,0],"kind":"single","lines":1,"gc":0,"source":"Score p2 +750 at 3275.27 = single REN3 (after 450 at 3273.53, 600 at 3274.40); the piece spawned 3274.97 (nextcount) locks with a clear before the next spawn 3275.87; KO 3276.53."},
+{"n":26,"id":"c045","side":"p2","op":"retype","t":3866.23,"was":["single",1,0],"kind":"double","lines":2,"gc":1,"source":"Score p2 +1226 at 3866.57 = double (900) + REN2 (300) + 26 drop; a single REN2 would be 600. Z dropped at left at 3866.53 and the clear flash band spans two rows (fr/g1/c045.png), the lingering TETRIS banner covers the type banner. gc kept as chain's 1 (one colored row plus one garbage row)."},
+{"n":27,"id":"c047","side":"p1","op":"add","t":3975.7,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount p1 spawn (O) at 3975.70; it locks at 3975.97 (score +30, landed O visible, fr/g1/c047.png), before KO 3976.00 (やった at 3976.03). No clear."},
+{"n":28,"id":"c048","side":"p1","op":"retype","t":4032.5,"was":[null,0,0],"kind":"single","lines":1,"gc":0,"source":"Score p1 +750 at 4032.87 = single REN3 (after 300, 450, quad+REN2 2700); J into the well clears one colored row above the garbage with a '3 REN' banner (fr/g1/c048.png). Following singles 900..1800 then match the chain's seven singles."},
+{"n":33,"id":"c054","side":"p1","op":"retype","t":4317.33,"was":["tss",1,0],"kind":"tsd","lines":2,"gc":1,"source":"Score p1 +5400 at 4317.83 = B2B TSD (3600x1.5); B2B TSS would be 3600. Banner 'T-SPIN Double' + BACK to BACK, flash spans the top colored row and one garbage row (fr/g1/c054.png). Next single +450 = REN1, consistent."}
+],
+"cell_edits":[
+{"id":"c035","player":"p1","field":"pieces","was":74,"value":72,"source":"Two phantom events (3257.53, 3267.2) with no NEXT spawn (nextcount p1 3246-3277)."},
+{"id":"c035","player":"p1","field":"max_combo","was":12,"value":14,"source":"Score increments 300 (3244.67, REN0), triple 1650 (REN1), then 600..2400 in steps of 150 to 3276.03 = REN14; last clear before KO 3276.53."},
+{"id":"c035","player":"p2","field":"pieces","was":70,"value":68,"source":"Two phantom events (3250.07, 3268.33) with no NEXT spawn (nextcount p2 3245-3277)."},
+{"id":"c035","player":"p2","field":"max_combo","was":8,"value":6,"source":"REN run peaks at +1200 (3268.97) = REN6; the chain's 8 included the two phantoms; 3269.6 lock breaks it."},
+{"id":"c048","player":"p1","field":"max_combo","was":6,"value":10,"source":"Clears 4029.60 (300) through 4040.50 (+1800 = 300+10x150) consecutive once 4032.5 is a single."}
+],
+"no_change":[
+{"n":23,"why":"c037 p2: last spawn 3377.63 is swapped into hold at 3377.70, the I from hold hovers at the top through KO 3377.73; no lock, score unchanged (fr/g1/c037.png)."},
+{"n":24,"why":"c038 p1: T spawned ~3411.07 is still falling at KO 3411.20; no lock, score unchanged (fr/g1/c038.png)."},
+{"n":25,"why":"c044 p2: score increments 300,300,300,450..2850 in 150 steps match the chain's singles exactly; flag is a score-reader artefact ('?' frames)."},
+{"n":29,"why":"c049 p1: 4068.47 piece clears at 4068.67 for +750 = plain single REN3 in a 300..1200 REN run; a TSS would score >=2400. Chain single is right."},
+{"n":30,"why":"c049 p1: J from 4113.97 locks at 4114.40 (in chain); I spawned 4114.50 hovers at top through KO 4114.60 (fr/g1/c049k.png)."},
+{"n":31,"why":"c052 p2: 4262.07 piece locks at 4262.40 (in chain); L spawned 4262.40 is held and the O sits at the top through KO 4263.17 (fr/g1/c052.png)."},
+{"n":32,"why":"c054 p1 score_spot is explained by the TSD retype (n=33): +5400 B2B TSD at 4317.83; the following seven singles 450..1350 match the chain."}
+]}

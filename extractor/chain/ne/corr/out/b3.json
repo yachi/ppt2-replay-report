@@ -1,0 +1,34 @@
+{"event_corrections":[
+{"n":54,"id":"e075","side":"p2","op":"add","t":5915.6,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount p2: spawn 5915.60 (T), hold 5915.73 swaps out O; sheet corr/fr/g3/e075.png shows the O on the stack at 5915.90 and score.py p2 26412->26422 (drop points) at 5915.90 = end_s; no clear. Lock on the KO frame counts."},
+{"n":60,"id":"e085","side":"p1","op":"retype","t":6340.77,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Banner reads 'Mini T-SPIN' with no 'Single' (corr/fr/g3/b85.png, 6340.95); board before/after the T lock identical row count (corr/fr/g3/e085b.png, 6340.6 vs 6340.82); score +300 at 6340.70 = zero-line mini (a Mini TSS would be 600). The T was the 6340.03 piece; the 6340.77 piece (Z) locked at 6341.03 (+24) without a clear (corr/fr/g3/e085a.png). Net: no line clear in this pair."},
+{"n":63,"id":"e085","side":"p2","op":"replace_window","t":6343.5,"t_end":6349.93,
+ "events":[{"t":6344.0,"kind":"single","lines":1,"pc":0,"gc":0},{"t":6345.03,"kind":"double","lines":2,"pc":0,"gc":0},{"t":6345.93,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6346.37,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6346.5,"kind":"quad","lines":4,"pc":0,"gc":4},{"t":6347.47,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6347.8,"kind":"tsd","lines":2,"pc":0,"gc":0},{"t":6349.13,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6349.57,"kind":null,"lines":0,"pc":0,"gc":0}],
+ "was_old":[[6343.73,null,0],[6343.73,null,0],[6343.73,"quad",4],[6344.1,"single",1],[6344.77,"double",2],[6344.83,null,0],[6344.83,null,0],[6345.0,"BREAK",3],[6346.7,null,0],[6346.73,"quad",4],[6348.3,null,0],[6348.3,null,0],[6348.33,"tsd",2],[6348.5,null,0]],
+ "source":"score.py p2: clears 6344.40 +1800 (single, REN step 10), 6345.27 +2562 (double+REN11+drops), 6346.63 +2400 (tetris), 6348.40 +5400 (B2B TSD); locks with drop points 6344.33, 6345.27, 6346.27, 6346.43, 6346.60, 6347.77, 6348.40, 6349.53, 6349.83 = 9 locks; nextcount p2 spawns 6344.0, 6345.03, 6345.93, 6346.37, 6346.5, 6347.47, 6347.8, 6349.13, 6349.57 (6349.9 spawn not locked by KO). Sheet corr/fr/g3/e085c.png: 6344.4 one-row flash (not a quad), no quad before 6346.6. Chain had a phantom quad at 6343.73 and 4 duplicate locks."},
+{"n":66,"id":"e091","side":"p2","op":"retype","t":6611.37,"was":["single",1,0],"kind":"double","lines":2,"pc":0,"gc":2,"source":"score.py p2 +1386 at 6611.67 = double 900 + REN3 450 + 36 drop (a single would be 750); crop corr/fr/g3/e091b.png: two white garbage rows at the bottom (hidden behind the TETRIS banner in the sheet corr/fr/g3/e091.png) both gone after the J locks, stack drops 2 rows. Other clears in the flagged window match the score (single +620, TSD 3600, double 1050, quad 2700)."},
+{"n":68,"id":"e092","side":"p1","op":"replace_window","t":6667.5,"t_end":6671.8,
+ "events":[{"t":6668.17,"kind":"single","lines":1,"pc":0,"gc":0},{"t":6669.13,"kind":"single","lines":1,"pc":0,"gc":1},{"t":6670.27,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6670.57,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6670.77,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6671.0,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6671.43,"kind":null,"lines":0,"pc":0,"gc":0}],
+ "was_old":[[6667.67,null,0],[6667.67,null,0],[6667.67,"single",1],[6669.2,"single",1],[6669.9,"single",1],[6670.93,null,0],[6670.93,null,0],[6671.33,null,0],[6671.7,null,0]],
+ "source":"nextcount p1 spawns after the 6667.17 quad: 6668.17, 6669.13, 6670.27, 6670.57, 6670.77, 6671.0, 6671.43, then 6671.9 (TSD); score.py p1: 6668.50 +450 (single REN1), 6669.60 +600 (single REN2), locks 6670.47, 6670.67, 6670.90, 6671.33, 6671.80, TSD +3600 at 6672.77. Only two singles (sheet corr/fr/g3/e092.png: first clears a coloured row, second the top garbage row). Chain had a phantom single and 2 extra locks."}
+],
+"cell_edits":[
+{"n":54,"id":"e075","player":"p2","field":"pieces","was":61,"value":62,"source":"O locked on the KO frame 5915.90 (corr/fr/g3/e075.png; score +10 at 5915.90)."},
+{"n":63,"id":"e085","player":"p2","field":"pieces","was":60,"value":56,"source":"window 6343.5-6349.93: 9 real locks vs 13 chain locks (score.py lock steps and nextcount spawns)."},
+{"n":63,"id":"e085","player":"p2","field":"max_combo","was":9,"value":11,"source":"score.py p2 REN bonuses rise by 150 per clear from 6334.20 (+300 step0) through 6343.33 (+1650 step9), 6344.40 (+1800 step10), 6345.27 double (+2550 = 900+1650, step11); first non-clear lock 6346.27."},
+{"n":68,"id":"e092","player":"p1","field":"pieces","was":67,"value":65,"source":"window 6667.5-6671.8: 7 real locks (nextcount spawns, score.py lock steps) vs 9 chain locks."}
+],
+"no_change":[
+{"n":55,"why":"score.py p1 +600 at 5947.47 = single 300 + REN2 300 (previous +450 single REN1 at 5946.63); a TSS would be 2400+. Chain's plain single is right."},
+{"n":56,"why":"e077 p2: spawn 5995.43, hold swap 5995.53, score unchanged from 5995.40 to after KO 5995.53: no lock by the KO frame."},
+{"n":57,"why":"e081 p2: Z spawned 6159.43 stays at the top through 6159.83 (corr/fr/g3/e081.png); no lock by KO 6159.77."},
+{"n":58,"why":"e082 p2: last lock score +6 at 6226.50, 3 frames after KO 6226.40; does not count."},
+{"n":59,"why":"e083 p2: J out of hold still moving at the top through 6258.55 (corr/fr/g3/e083.png), score unchanged; no lock by KO."},
+{"n":61,"why":"Explained by n60: the clear at 6340.70 was a zero-line Mini T-spin (+300). Quad +3600 (6343.17), single +300 (6345.03), double +900 (6346.30), triple +1650 (6347.27) all match the score."},
+{"n":62,"why":"TSD is real: score +5400 (B2B TSD) at 6348.40; kept in the n63 replace_window as the 6347.8 spawn."},
+{"n":64,"why":"e087 p1: O locks at 6446.50 (score +10), two frames after the KO 6446.43 (p2 already tilted, corr/fr/g3/e087.png); does not count."},
+{"n":65,"why":"e089 p2: +300 at 6555.80 is a zero-line Mini T-spin (T-SPIN banner, no row removed, next spawn 6555.83 with no clear delay; corr/fr/g3/e089.png). The 6555.47 piece is already a no-clear lock in the chain."},
+{"n":67,"why":"Bad bag caused by the phantom single/duplicate locks near 6667.67; fixed by the n68 replace_window and pieces edit."},
+{"n":69,"why":"Same window as n68; after the replace_window the clears (2 singles REN1/REN2, TSD 3600, B2B quad 3600) match the score."},
+{"n":70,"why":"e093 p2: lock (+26) at 6727.17, one frame after KO 6727.13 (p1 tilt begins 6727.13, corr/fr/g3/e093.png); does not count."},
+{"n":71,"why":"score.py p1 +600 at 6748.97 = single 300 + REN2 300 (single +300 6747.20, quad +2550 6748.03 before it); a TSS would be 2400+. Chain's plain single is right."}
+]}

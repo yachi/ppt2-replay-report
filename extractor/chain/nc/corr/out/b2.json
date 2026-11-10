@@ -1,0 +1,28 @@
+{"event_corrections":[
+{"n":37,"id":"c063","side":"p2","op":"retype","t":5124.27,"was":["single",1,0],"kind":"tss","lines":1,"pc":0,"gc":0,"source":"score +3750 at 5124.97 = TSS B2B 3600 + REN1 150 (previous TSD +3600 at 5123.53); banner 'Single' + 'BACK(to back)' + REN at 5125.0-5125.6, T-SPIN word under overlay (fr/g2/c063.png)"},
+{"n":41,"id":"c074","side":"p1","op":"replace_window","t":5774.5,"t_end":5774.5,"was_old":[[5774.5,null,0],[5774.5,null,0],[5774.5,"double",2]],"events":[{"t":5774.97,"kind":"double","lines":2,"pc":0,"gc":2},{"t":5775.97,"kind":null,"lines":0,"pc":0,"gc":0},{"t":5776.7,"kind":null,"lines":0,"pc":0,"gc":0},{"t":5777.13,"kind":null,"lines":0,"pc":0,"gc":0}],"source":"after the triple (+3300 at 5774.20) spawns at 5774.967, 5775.967(+hold), 5776.7, 5777.133, 5777.867 (nextcount); score +2850 at 5775.23 = double + REN13 bonus, then plain hard-drop locks +20 at 5776.60, 5777.03, 5777.77; spawn 5777.867 unlocked at KO 5778.07. Three plain locks after the double visible in fr/g2/c074.png; chain had 2 phantom-placed Nones before the double and one lock short"},
+{"n":42,"id":"c075","side":"p1","op":"retype","t":5806.57,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"score +600 at 5806.87 = single at REN2 (300+300) right after the B2B quad (+3750 at 5805.73); following singles +750/+900/+1050 at 5808.17/5809.37/5810.37 match the chain's three singles as REN3-5"},
+{"n":46,"id":"c079","side":"p1","op":"remove","t":6124.33,"was":["single",1,0],"source":"only 3 clears after 6123.40: +2550 at 6129.07, +2700 at 6130.23, +2850 at 6131.17 (REN15-17); spawns only at 6124.1, 6129.7, 6130.867 (nextcount); the J spawned 6124.1 hangs on screen until ~6129.0 (fr/g2/c079.png). Chain has 5 singles there; 6124.33 is phantom"},
+{"n":47,"id":"c079","side":"p1","op":"remove","t":6129.27,"was":["single",1,0],"source":"same window: spawn 6129.7 (O) gives +2700 at 6130.23; no spawn at 6129.27 (nextcount shifts 6124.1 then 6129.7); phantom single from B splice"},
+{"n":49,"id":"c081","side":"p1","op":"retype","t":6264.0,"was":[null,0,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"score +1200 at 6264.13 = double 900 + REN2 300 after B2B quad (+3750 at 6263.20); next +1350 (double REN3), +900, +1050, +1200 (singles REN4-6) match chain's double/singles; piece spawned 6264.0 (nextcount)"},
+{"n":50,"id":"c085","side":"p1","op":"retype","t":6572.47,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"score +750 at 6572.60 (+30 drop) = single at REN3 (300+450) after single REN1 +450 at 6570.63 and quad REN2 +2700 at 6571.60; last lock before KO 6573.47"}
+],
+"cell_edits":[
+{"n":37,"id":"c063","player":"p2","field":"max_b2b","was":0,"value":1,"source":"TSD (+3600 at 5123.53) followed by B2B TSS (+3750 at 5124.97, BACK banner)"},
+{"n":41,"id":"c074","player":"p1","field":"pieces","was":49,"value":50,"source":"4 locks after the triple (double + 3 plain locks, score +2850/+20/+20/+20) where chain had 3"},
+{"n":41,"id":"c074","player":"p1","field":"max_combo","was":12,"value":13,"source":"score: singles 300..1650, double 2400, single 1950, triple 3300, double 2850 = 14 consecutive clears, final bonus 150*13"},
+{"n":46,"id":"c079","player":"p1","field":"pieces","was":75,"value":73,"source":"two phantom singles at 6124.33 and 6129.27 (no spawns, no score)"},
+{"n":46,"id":"c079","player":"p1","field":"max_combo","was":19,"value":17,"source":"REN run 6109.67-6131.17 is 18 clears: +300..+2850 step 150 (REN0..REN17)"}
+],
+"no_change":[
+{"n":34,"why":"c055 p1: J soft-dropped to rest at 4667.20 (score +1/frame stops), no lock flash or next spawn through KO 4667.40; lock delay not elapsed; it clears no row (fr/g2/c055b.png)"},
+{"n":35,"why":"c056 p2: last piece hard-dropped at 4723.23 (+22 at 4723.27), one frame after KO 4723.20 (fr/g2/c056.png); does not count"},
+{"n":36,"why":"c057 p2: all 16 score clear steps (600..2850 REN) match chain singles; the 516 is hard-drop points (+32-36 per piece)"},
+{"n":38,"why":"c068 p1: score +900 at 5433.40 = plain double, no T-spin banner (fr/g2/c068.png); chain correct"},
+{"n":39,"why":"c069 p1: every score clear step (TSD B2B 5400, singles 300..2100) matches chain; residual is drop points"},
+{"n":40,"why":"c070 p2: piece spawned 5518.70, held at 5518.867 after KO 5518.80, no score change; not locked"},
+{"n":43,"why":"c076 p2: spawn 5916.867 shows no lock/score change through 5917.5; KO 5917.1"},
+{"n":44,"why":"c078 p2: spawn 6077.033, score unchanged (78717) through 6077.40; no lock by KO 6077.2"},
+{"n":45,"why":"c079 p1 6102.8-6123.37: 15 singles 300..2400 and the double all match chain; residual is drop points"},
+{"n":48,"why":"c079 p1: piece spawned 6132.967 still soft-dropping (+1 at 6133.10, 6133.13) at KO 6133.07; not locked"}
+]}

@@ -1,0 +1,21 @@
+[
+{"ref":"e0","verdict":"keep","why":"score p2 57297 at 6832.83, then 577?7 by 6833.93 (+~489 = single REN1 450 + drops); fr/v4/c088p2.png shows a new clear band with the REN badge at 6834.0-6834.1 after the double's flash; triple at 6835.73 is +1522 (no REN). nextcount: 3 hidden spawns resolved at 6835.167, so one of the chain's three None locks is the single. Cleared row is coloured stack above the white garbage."},
+{"ref":"e1","verdict":"keep","why":"score p1 +6 at 6838.43 then +900 at 6838.50 (32053->32959, double, no REN); fr/v4/c088p1.png 6838.5-6838.6 shows a two-row white clear band at the top coloured rows. Piece spawned 6838.200 (nextcount). +1200 at 6837.13 with '-SPIN' banner is a zero-line T-spin."},
+{"ref":"e2","verdict":"keep","why":"nextcount p1: spawns 6832.900, resync k=4 6834.03-6835.23, 6835.333, 6835.533, 6836.067, 6837.200 (holds are swaps) = 9 locks; score p1 only drop points 6832.3-6837.0 (30784->30853), then zero-line T-spin +1200 at 6837.13; no clear so the three BREAKs are artefacts. With the double and the unlocked 6839.30 piece this gives 77."},
+{"ref":"e3","verdict":"keep","why":"score p2 +1072 at 7125.83 (33521->34593) = double 900 + REN1 150 + 22, then +600 (7126.73) and +750 (7127.70) REN2/REN3; fr/v4/c092p2.png: J lands 7125.85, REN badge appears and two stack rows vanish by 7126.35. Rows are coloured stack, not white garbage."},
+{"ref":"e4","verdict":"keep","why":"score p1 single clears 6868.30 (+300), 6869.43, 6870.20, 6871.30, 6884.67 (+900), 6896.40 (+1050), 6915.40 (+1200), 6916.17...; nextcount p1 spawns 6872.033 then 6885.333 then 6897.033, none at 6872.17. Duplicate."},
+{"ref":"e5","verdict":"keep","why":"no spawn between 6872.033 and 6885.333 (nextcount); single clear in that span is 6884.67 = piece spawned 6872.03. Phantom."},
+{"ref":"e6","verdict":"keep","why":"no spawn between 6885.333 and 6897.033; one clear +1050 at 6896.40 = 6885.33 piece. Phantom."},
+{"ref":"e7","verdict":"keep","why":"REN bonus increases by 150 every clear 300->2700 (6868.30-6925.90), incl. +1200 at 6915.40 and +1350 at 6916.17; no break."},
+{"ref":"e8","verdict":"keep","why":"nextcount p2 spawns 6871.633, 6873.100, 6886.000; none at 6873.23; clears +750 6872.43, +900 6885.33 only."},
+{"ref":"e9","verdict":"keep","why":"no p2 spawn between 6873.100 and 6886.000; the only clear is +900 at 6885.33 (6873.10 piece). Phantom."},
+{"ref":"e10","verdict":"keep","why":"p2 REN unbroken: +900 6885.33, +1050 6897.67, +1200 6916.67, ... +2700 6928.20; no spawn 6886.0-6898.3."},
+{"ref":"e11","verdict":"keep","why":"same as e10."},
+{"ref":"e12","verdict":"keep","why":"same as e10."},
+{"ref":"e13","verdict":"keep","why":"nextcount p2: 6898.300 then 6917.333, none between; one clear +1200 at 6916.67 = 6898.30 piece. Duplicate."},
+{"ref":"c0","verdict":"keep","why":"nextcount p1 whole game: 75 shifts + 4 resync = 79 spawns, minus the unlocked 6839.30 piece and one hold-into-empty (6791.27) = 77; equals chain 67 + 9 window locks + the double."},
+{"ref":"c1","verdict":"keep","why":"chain 85 locks minus 3 phantoms = 82; extractor A's games.jsonl also gives p1 pieces 82; spawns 6872.03->6885.33->6897.03 confirmed."},
+{"ref":"c2","verdict":"keep","why":"score REN steps continuous to +2700 at 6925.90 = REN16 (17 consecutive single clears); +900 double at 6928.13 is REN0 after two no-clear locks. Extractor A also gives max_combo 16."},
+{"ref":"c3","verdict":"keep","why":"chain 79 minus 3 phantoms = 76; extractor A gives p2 pieces 76; nextcount shows no spawns at the phantom times."},
+{"ref":"c4","verdict":"keep","why":"p2 score REN steps 300 (6868.53) ... 2700 (6928.20) continuous = REN16; extractor A max_combo 16."}
+]

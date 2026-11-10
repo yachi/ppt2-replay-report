@@ -1,0 +1,11 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py p2 +10 (drop points, no clear) at 5915.90 = end_s; nextcount: T spawn 5915.60, hold 5915.73 swaps O out; the O locks on the KO frame, which counts."},
+{"ref":"e1","verdict":"keep","why":"T spawned 6340.03, soft-dropped (+1/frame to 6340.47), locks with +300 at 6340.70 (zero-line Mini; a Mini TSS would be 600); next spawn 6340.77 with no clear delay; sheet corr/fr/v3/e085a.png shows the same stack rows before and after the T-spin. No line cleared."},
+{"ref":"e2","verdict":"keep","why":"score.py p2 6343.5-6349.93: clears +1800 (single REN10) 6344.40, +2562 (double REN11) 6345.27, +2400 tetris 6346.63, +5400 B2B TSD 6348.40; locks 6344.40, 6345.27, 6346.27, 6346.43, 6346.63, 6347.77, 6348.40, 6349.53, 6349.83 = 9; nextcount spawns match the proposed t's (6349.90 spawn unlocked by KO). No quad at 6343.73 (that lock was +1650 single REN9 at 6343.33, outside the window)."},
+{"ref":"e3","verdict":"keep","why":"score.py p2 +1386 at 6611.67 = double 900 + REN3 450 + 36 drop (single would be ~786); after the +2734 quad (REN2). Sheet corr/fr/v3/e091.png: two white garbage rows at the bottom at 6611.2-6611.3, gone at 6611.8."},
+{"ref":"e4","verdict":"keep","why":"After the 6667.33 +3600 quad: score +450 (single REN1) 6668.50, +600 (single REN2) 6669.60, then plain locks 6670.47, 6670.67, 6670.90, 6671.33, 6671.80; nextcount spawns 6668.17, 6669.13, 6670.27, 6670.57, 6670.77, 6671.00, 6671.43 = 7 locks, two singles only."},
+{"ref":"c0","verdict":"keep","why":"The O locked on the KO frame 5915.90 (+10), not in the chain: 61 -> 62."},
+{"ref":"c1","verdict":"keep","why":"9 real locks in 6343.5-6349.93 (score lock steps, nextcount spawns) against 13 chain locks: 60 -> 56."},
+{"ref":"c2","verdict":"keep","why":"score.py p2 REN bonuses rise unbroken 300,450,...,1650 (6334.20-6343.33), 1800 (6344.40), double+1650 (6345.27) with no non-clearing lock in between: 12 consecutive clears = REN 11."},
+{"ref":"c3","verdict":"keep","why":"7 real locks in 6667.5-6671.8 against 9 chain locks: 67 -> 65."}
+]

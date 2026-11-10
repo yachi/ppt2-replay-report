@@ -1,0 +1,146 @@
+[
+{
+"id": "e033",
+"player": "p1",
+"field_or_issue": "banner without a clear",
+"detail": "Mini T-SPIN Single banner at 2749.74 s, no A clear matched (added by R/build.py)",
+"t_s": 2749.74,
+"n": 18
+},
+{
+"id": "e033",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+"t_s": 2763.37,
+"n": 19
+},
+{
+"id": "e035",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 1.13 s before the KO)",
+"t_s": 2874.13,
+"n": 20
+},
+{
+"id": "e036",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 486 over 2892.07-2914.7 s, unexplained 486; chain clears near: [[2900.37, 300, 'single'], [2901.53, 300, 'single'], [2902.63, 300, 'single'], [2903.37, 1050, 'double'], [2904.57, 600, 'single'], [2905.37, 750, 'single'], [2906.17, 900, 'single'], [2907.53, 300, 'single'], [2908.8, 1050, 'double'], [2910.0, 300, 'single'], [2910.77, 450, 'single'], [2911.77, 1200, 'double'], [2912.63, 750, 'single'], [2913.57, 900, 'single'], [2914.57, 1050, 'single']]",
+"t_s": 2892.07,
+"n": 21
+},
+{
+"id": "e036",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step 366 over 2896.0-2919.4 s, unexplained 366; chain clears near: [[2902.87, 300, 'single'], [2904.17, 300, 'single'], [2905.1, 450, 'single'], [2906.37, 600, 'single'], [2907.6, 750, 'single'], [2909.07, 900, 'single'], [2910.23, 1050, 'single'], [2911.2, 1200, 'single'], [2912.13, 1350, 'single'], [2913.13, 1500, 'single'], [2914.5, 1650, 'single'], [2915.27, 1800, 'single'], [2916.57, 1950, 'single'], [2917.53, 2100, 'single'], [2918.43, 2250, 'single'], [2919.23, 2400, 'single']]",
+"t_s": 2896.0,
+"n": 22
+},
+{
+"id": "e037",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 358 over 2979.76-2999.0 s, unexplained 358; chain clears near: [[2985.63, 300, 'single'], [2986.43, 450, 'single'], [2987.27, 600, 'single'], [2988.13, 750, 'single'], [2988.97, 900, 'single'], [2989.97, 1050, 'single'], [2990.8, 1200, 'single'], [2991.67, 1350, 'single'], [2992.43, 1500, 'single'], [2993.37, 1650, 'single'], [2994.2, 1800, 'single'], [2995.1, 1950, 'single'], [2995.9, 2100, 'single'], [2996.77, 2250, 'single'], [2997.77, 2400, 'single'], [2998.73, 2550, 'single']]",
+"t_s": 2979.76,
+"n": 23
+},
+{
+"id": "e037",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+"t_s": 3035.37,
+"n": 24
+},
+{
+"id": "e038",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step 366 over 3063.3-3077.76 s, unexplained 366; chain clears near: [[3062.97, 300, 'single'], [3065.97, 300, 'single'], [3066.97, 450, 'single'], [3067.97, 600, 'single'], [3069.07, 750, 'single'], [3069.87, 900, 'single'], [3070.9, 1050, 'single'], [3071.87, 1200, 'single'], [3072.9, 1350, 'single'], [3073.87, 1500, 'single'], [3074.67, 1650, 'single'], [3075.57, 1800, 'single'], [3076.67, 1950, 'single'], [3077.57, 2100, 'single']]",
+"t_s": 3063.3,
+"n": 25
+},
+{
+"id": "e038",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 6806 over 3064.33-3085.4 s, unexplained -394; chain clears near: [[3064.17, 300, 'single'], [3068.47, 2400, 'quad'], [3070.17, 300, 'single'], [3070.97, 450, 'single'], [3071.77, 1200, 'double'], [3072.97, 900, 'double'], [3074.0, 450, 'single'], [3074.97, 600, 'single'], [3075.87, 750, 'single'], [3076.77, 900, 'single'], [3077.77, 3150, 'quad'], [3080.43, 300, 'single'], [3081.37, 450, 'single'], [3082.2, 600, 'single'], [3084.23, 750, 'single'], [3085.17, 900, 'single']]",
+"t_s": 3064.33,
+"n": 26
+},
+{
+"id": "e039",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+"t_s": 3123.13,
+"n": 27
+},
+{
+"id": "e042",
+"player": "p1",
+"field_or_issue": "T-spin without a banner",
+"detail": "A tss at 3309.27 s typed as a plain clear",
+"t_s": 3309.27,
+"n": 28
+},
+{
+"id": "e049",
+"player": "p1",
+"field_or_issue": "bad bag",
+"detail": "2 of 15 bags not a permutation (spawn index [91, 98]); anomalies ['double shift k=3 at frame 1801', 'double shift k=3 at frame 2008', 'double shift k=3 at frame 2086']",
+"t_s": 3692.8,
+"n": 29
+},
+{
+"id": "e049",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 6.90 s from 3750.63 s; B events spliced (D2/D3)",
+"t_s": 3750.63,
+"n": 30
+},
+{
+"id": "e049",
+"player": "p1",
+"field_or_issue": "banner without a clear",
+"detail": "T-SPIN Double banner at 3757.1 s, no A clear matched (added by R/build.py)",
+"t_s": 3757.1,
+"n": 31
+},
+{
+"id": "e050",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 606 over 3782.26-3810.26 s, unexplained -594; chain clears near: [[3790.3, 300, 'single'], [3791.1, 450, 'single'], [3793.03, 300, 'single'], [3793.9, 450, 'single'], [3794.73, 600, 'single'], [3796.0, 750, 'single'], [3797.2, 900, 'single'], [3798.03, 1050, 'single'], [3799.4, 1200, 'single'], [3800.3, 1350, 'single'], [3801.33, 1500, 'single'], [3802.23, 1650, 'single'], [3803.07, 1800, 'single'], [3804.53, 1950, 'single'], [3805.47, 2100, 'single'], [3806.27, 2250, 'single'], [3807.13, 2400, 'single'], [3808.0, 2550, 'single'], [3809.0, 2700, 'single'], [3809.9, 2850, 'single']]",
+"t_s": 3782.26,
+"n": 32
+},
+{
+"id": "e051",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 364 over 3861.53-3880.5 s, unexplained 364; chain clears near: [[3871.73, 300, 'single'], [3872.63, 450, 'single'], [3873.87, 600, 'single'], [3874.7, 750, 'single'], [3875.57, 900, 'single'], [3876.4, 1050, 'single'], [3877.33, 1200, 'single'], [3878.3, 1350, 'single'], [3879.37, 1500, 'single'], [3880.23, 1650, 'single']]",
+"t_s": 3861.53,
+"n": 33
+},
+{
+"id": "e053",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step 622 over 4020.87-4040.17 s, unexplained -578; chain clears near: [[4020.63, 300, 'single'], [4022.93, 300, 'single'], [4024.73, 300, 'single'], [4025.77, 450, 'single'], [4026.63, 600, 'single'], [4027.63, 750, 'single'], [4028.53, 900, 'single'], [4029.43, 1050, 'single'], [4030.4, 1200, 'single'], [4031.3, 1350, 'single'], [4032.17, 1500, 'single'], [4033.1, 1650, 'single'], [4033.83, 1800, 'single'], [4034.73, 1950, 'single'], [4035.63, 2100, 'single'], [4036.47, 2250, 'single'], [4037.27, 2400, 'single'], [4038.33, 2550, 'single'], [4039.6, 300, 'single']]",
+"t_s": 4020.87,
+"n": 34
+},
+{
+"id": "e053",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+"t_s": 4046.83,
+"n": 35
+}
+]

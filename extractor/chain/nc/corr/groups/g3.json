@@ -1,0 +1,138 @@
+[
+{
+"id": "c085",
+"player": "p1",
+"field_or_issue": "KO-tail score jump",
+"detail": "score +780 at 6572.6 s (KO 6573.47 s) with no chain clear event (tetrio/cseq.json) matched",
+"t_s": 6572.6,
+"n": 51
+},
+{
+"id": "c085",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+"t_s": 6573.47,
+"n": 52
+},
+{
+"id": "c086",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+"t_s": 6597.13,
+"n": 53
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 7.87 s from 6676.10 s; B events spliced (D2/D3)",
+"t_s": 6676.1,
+"n": 54
+},
+{
+"id": "c087",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 20.07 s from 6677.00 s; B events spliced (D2/D3)",
+"t_s": 6677.0,
+"n": 55
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 12.27 s from 6683.97 s; B events spliced (D2/D3)",
+"t_s": 6683.97,
+"n": 56
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 12.40 s from 6696.23 s; B events spliced (D2/D3)",
+"t_s": 6696.23,
+"n": 57
+},
+{
+"id": "c087",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 12.30 s from 6697.07 s; B events spliced (D2/D3)",
+"t_s": 6697.07,
+"n": 58
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 22.77 s from 6708.63 s; B events spliced (D2/D3)",
+"t_s": 6708.63,
+"n": 59
+},
+{
+"id": "c087",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 23.23 s from 6709.37 s; B events spliced (D2/D3)",
+"t_s": 6709.37,
+"n": 60
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 22.63 s from 6731.40 s; B events spliced (D2/D3)",
+"t_s": 6731.4,
+"n": 61
+},
+{
+"id": "c087",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 22.53 s from 6732.60 s; B events spliced (D2/D3)",
+"t_s": 6732.6,
+"n": 62
+},
+{
+"id": "c087",
+"player": "p2",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 12.37 s from 6758.07 s; B events spliced (D2/D3)",
+"t_s": 6758.07,
+"n": 63
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 10.73 s from 6758.77 s; B events spliced (D2/D3)",
+"t_s": 6758.77,
+"n": 64
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 5.90 s from 6769.50 s; B events spliced (D2/D3)",
+"t_s": 6769.5,
+"n": 65
+},
+{
+"id": "c087",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.47 s before the KO)",
+"t_s": 6780.5,
+"n": 66
+},
+{
+"id": "c088",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 658 over 6809.77-6818.0 s, unexplained -542; chain clears near: [[6813.2, 5400, 'tsd'], [6814.93, 900, 'tsmini'], [6816.3, 3750, 'quad'], [6817.77, 600, 'single']]",
+"t_s": 6809.77,
+"n": 67
+}
+]

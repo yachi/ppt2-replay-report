@@ -1,0 +1,14 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py p2: +3600 at 5123.53 (TSD), then 4126->7876 = +3750 at 5124.97 = B2B TSS 3600 + REN1 150; a plain single would be 450. Then +1200 at 5126.43 = double REN2, consistent."},
+{"ref":"e1","verdict":"keep","why":"nextcount p1: spawns 5774.967 (J), 5775.967 (O, held 5776.267 swapping S out), 5776.7, 5777.133, 5777.867. Score: +2850 at 5775.23 (double = 900+150*13), then +20 plain locks at 5776.60, 5777.03, 5777.77; piece spawned 5777.867 not locked at KO 5778.07. So 4 locks after the triple (double + 3 plain) vs the chain's 3."},
+{"ref":"e2","verdict":"keep","why":"score p1: TSD +3600 at 5804.60, B2B quad +3750 at 5805.73 (REN1), +600 at 5806.87 = single REN2, then +750/+900/+1050 at 5808.17/5809.37/5810.37 matching the chain's three singles as REN3-5. Lock is the piece swapped out of hold at 5806.633 after spawn 5806.567."},
+{"ref":"e3","verdict":"keep","why":"Contact sheet fr/v2/c079.png: the J spawned 6124.1 hangs mid-board until ~6129.0, score flat 33797 from 6124.03 to 6129.07; only clears after 6123.40 are +2550 (6129.07), +2700 (6130.23), +2850 (6131.17) matching chain events 6124.1, 6129.7, 6130.97. 6124.33 is phantom."},
+{"ref":"e4","verdict":"keep","why":"Same window: no spawn between 6124.1 and 6129.7 (nextcount), no score step; 6129.27 single is phantom."},
+{"ref":"e5","verdict":"keep","why":"score p1: TSD 5400 (6262.30), B2B quad +3750 (6263.20, REN1), +1200 at 6264.13 = double 900 + REN2 300 (a single would be 600), then +1350 double REN3, +900/+1050/+1200 singles REN4-6 matching chain. Spawn at 6264.000 (nextcount)."},
+{"ref":"e6","verdict":"keep","why":"score p1: TSD +5400 at 6569.53, single +450 (6570.63), quad +2700 (6571.60, REN2), +750 at 6572.60 = single REN3; the piece swapped from hold at 6572.5 locks before KO 6573.47 (next +32 at 6573.50 is after KO)."},
+{"ref":"c0","verdict":"keep","why":"TSD (+3600) followed by TSS with B2B (+3750 = 3600*1... 2400*1.5 + 150) gives one B2B bonus."},
+{"ref":"c1","verdict":"keep","why":"4 locks after the triple where chain had 3 (see e1); 49 -> 50."},
+{"ref":"c2","verdict":"keep","why":"Score steps 300..1650 (10 singles), double 2400 (900+1500), single 1950, triple 3300 (1500+1800), double 2850 (900+1950) = REN0..REN13, so max REN 13."},
+{"ref":"c3","verdict":"keep","why":"Two phantom singles removed (e3, e4): only one piece (the hanging J) between 6124.1 and 6129.7; 75 -> 73."},
+{"ref":"c4","verdict":"keep","why":"REN bonuses: +2250 at 6122.20 (REN13), 2400, 2550, 2700, 2850 (REN17) at 6131.17; max 17, not 19."}
+]
