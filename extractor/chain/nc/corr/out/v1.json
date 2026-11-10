@@ -1,0 +1,90 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "fr/v1/c035m.png 3242.3-3243.1: the T locks at the top right with no row cleared (middle well stays empty, rows unchanged), banner reads T-SPIN; score +300 at 3242.60 = zero-line Mini at level 3. The 3242.63 piece locks at 3243.43 for +34 only. Chain's 'tsmini 1 line' is wrong; None is right."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "nextcount p1 3246-3277: spawns 3248.767, 3259.767, 3267.733 only; score p1 clears 3259.13 (+900 REN4) and 3267.10 (+1050 REN5). No spawn or clear for 3257.53."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "No p1 spawn at 3267.2 (only a hold at 3267.90); the 3267.73 piece gives +1200 REN6 at 3268.10. Phantom."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 3248.433, 3249.967, then 3268.800; score p2 +900 at 3249.30 then +1050 at 3268.17. 3250.07 duplicates 3249.97."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "No p2 spawn at 3268.33; clears +1050 (3268.17) and +1200 (3268.97) map to the 3249.97 and 3268.80 pieces."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Score p2: +456 at 3273.53 (REN1), +600 at 3274.40 (REN2), +750 at 3275.27 (REN3); nextcount p2 spawn 3274.967 then 3275.867. The 3274.97 piece cleared a single before KO 3276.53."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "Score p2 +3600 (B2B tetris) 3860.20, +5400 (B2B TSD) 3864.30, +3776 (B2B tetris+REN1) 3865.47, +1226 at 3866.57 = double 900 + REN2 300 + 26 drop; a single would be 626. Z locks at 3866.5 (fr/v1/c045.png). Double confirmed."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "nextcount p1 spawn 3975.700 (O); fr/v1/c047.png shows the O landed with score +30 at 3975.97, KO/tilt 3976.00, やった at 3976.03. No clear. NOTE: no pieces cell edit was proposed; c047 p1 pieces should go 47 -> 48 for this added lock."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "Score p1: +300 4029.60, +450 4030.70, +2700 (tetris+REN2) 4031.70, +750 (single REN3) 4032.87 from the piece spawned 4032.500 (nextcount), then 900..1800 in 150 steps through 4040.50, matching the chain's seven later singles."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "Score p1 +5400 at 4317.83 = B2B TSD (3600x1.5); fr/v1/c054.png shows '...N Double' and BACK to BACK banners. Then +450 (REN1) and +600 (REN2)."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Two phantom events removed (e1, e2), no matching NEXT shifts; 74 -> 72."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Score p1: +300 at 3244.67 (REN0), +1650 triple REN1, then 600,750,900,1050,1200,1350,1500,1650,1800,1950,2100,2250,2400 (3276.03) = REN14, last before KO 3276.53. Earlier chain runs are shorter."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Two phantom events removed (e3, e4); 70 -> 68."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "p2 run +332(REN0) 3244.67, 450, 600, 750, 900, 1050, 1200 (3268.97) = REN6; next lock 3269.80 +28 no clear. Earlier chain runs are shorter."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "With 4032.5 a single, clears run 4029.60 (REN0) to 4040.50 (+1800 = REN10) without a break in the score sequence."
+ },
+ {
+  "ref": "n27",
+  "verdict": "missed",
+  "why": "e7 adds a no-clear lock for c047 p1 at 3975.7 (the O locks at 3975.97 before the KO) but b1 has no matching pieces edit",
+  "proposal": {
+   "id": "c047",
+   "player": "p1",
+   "field": "pieces",
+   "was": 47,
+   "value": 48,
+   "source": "the lock b1 adds at 3975.7 is a piece the chain did not count"
+  }
+ }
+]

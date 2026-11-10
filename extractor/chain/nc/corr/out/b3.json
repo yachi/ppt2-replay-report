@@ -1,0 +1,570 @@
+{
+ "event_corrections": [
+  {
+   "n": 51,
+   "id": "c085",
+   "side": "p1",
+   "op": "retype",
+   "t": 6572.47,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "I from hold dropped vertically at 6572.57; one-row white clear flash, REN counter 2->3, score +750 at 6572.60 (=300+REN3 450). /tmp/claude-0/nc/corr/fr/g3/c085a.png, /tmp/claude-0/nc/corr/fr/g3/c085b.png"
+  },
+  {
+   "n": 54,
+   "id": "c087",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6675.57,
+   "t_end": 6779.2,
+   "events": [
+    {
+     "t": 6676.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6683.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6696.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6708.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6731.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6754.03,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6755.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6756.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6757.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6758.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6769.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6775.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6776.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6778.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6779.2,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6675.57,
+     "BREAK",
+     2
+    ],
+    [
+     6676.1,
+     "single",
+     1
+    ],
+    [
+     6682.57,
+     "BREAK",
+     1
+    ],
+    [
+     6683.97,
+     "single",
+     1
+    ],
+    [
+     6684.1,
+     "BREAK",
+     2
+    ],
+    [
+     6695.13,
+     "single",
+     1
+    ],
+    [
+     6696.03,
+     "BREAK",
+     3
+    ],
+    [
+     6696.23,
+     "single",
+     1
+    ],
+    [
+     6707.33,
+     null,
+     0
+    ],
+    [
+     6707.47,
+     "BREAK",
+     1
+    ],
+    [
+     6708.63,
+     "single",
+     1
+    ],
+    [
+     6724.13,
+     "BREAK",
+     0
+    ],
+    [
+     6726.57,
+     "BREAK",
+     0
+    ],
+    [
+     6729.0,
+     "BREAK",
+     0
+    ],
+    [
+     6731.4,
+     "single",
+     1
+    ],
+    [
+     6731.53,
+     "single",
+     1
+    ],
+    [
+     6737.03,
+     "BREAK",
+     0
+    ],
+    [
+     6739.47,
+     "BREAK",
+     0
+    ],
+    [
+     6741.9,
+     "BREAK",
+     0
+    ],
+    [
+     6743.97,
+     "BREAK",
+     2
+    ],
+    [
+     6753.7,
+     "single",
+     1
+    ],
+    [
+     6754.03,
+     "single",
+     1
+    ],
+    [
+     6755.17,
+     "single",
+     1
+    ],
+    [
+     6756.13,
+     "single",
+     1
+    ],
+    [
+     6757.13,
+     "single",
+     1
+    ],
+    [
+     6758.77,
+     "single",
+     1
+    ],
+    [
+     6758.93,
+     "single",
+     1
+    ],
+    [
+     6768.4,
+     "single",
+     1
+    ],
+    [
+     6769.5,
+     "single",
+     1
+    ],
+    [
+     6775.4,
+     "single",
+     1
+    ],
+    [
+     6776.5,
+     "single",
+     1
+    ],
+    [
+     6778.1,
+     "single",
+     1
+    ],
+    [
+     6779.2,
+     "double",
+     2
+    ]
+   ],
+   "source": "c087 is a deliberately slow REN battle (pieces fall at gravity for ~10 s, sheet /tmp/claude-0/nc/corr/fr/g3/c087a.png); the NEXT queue is not stalled. p1 score (score.py, /tmp/claude-0/nc/corr/fr/g3/sc087.txt) shows one uninterrupted REN from 6671.37 to the double at 6779.23: +300,450,600,...,2850 then +3600 (double+REN18), so no BREAKs. nextcount p1 (/tmp/claude-0/nc/corr/fr/g3/nc_p1.txt) spawns: 6676.1, 6683.97, 6696.23, 6708.63, 6731.4, 6754.03, 6755.17, 6756.13, 6757.13, 6758.77, 6769.5, 6775.4, 6776.5, 6778.03, 6779.03; each clear jump follows one of them. Phantoms removed: 6695.13, 6707.33 (None), 6731.53, 6753.7, 6758.93, 6768.4 and all 12 BREAKs."
+  },
+  {
+   "n": 55,
+   "id": "c087",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 6677.0,
+   "t_end": 6770.43,
+   "events": [
+    {
+     "t": 6677.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6697.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6709.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6732.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6755.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6756.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6756.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6758.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 6770.43,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6677.0,
+     "single",
+     1
+    ],
+    [
+     6677.1,
+     "single",
+     1
+    ],
+    [
+     6697.07,
+     "single",
+     1
+    ],
+    [
+     6697.2,
+     "single",
+     1
+    ],
+    [
+     6708.27,
+     "single",
+     1
+    ],
+    [
+     6709.37,
+     "single",
+     1
+    ],
+    [
+     6731.5,
+     "single",
+     1
+    ],
+    [
+     6732.6,
+     "single",
+     1
+    ],
+    [
+     6754.87,
+     null,
+     0
+    ],
+    [
+     6754.9,
+     "BREAK",
+     2
+    ],
+    [
+     6755.13,
+     "single",
+     1
+    ],
+    [
+     6756.0,
+     "single",
+     1
+    ],
+    [
+     6756.97,
+     "single",
+     1
+    ],
+    [
+     6757.63,
+     "BREAK",
+     3
+    ],
+    [
+     6758.07,
+     "single",
+     1
+    ],
+    [
+     6769.33,
+     "single",
+     1
+    ],
+    [
+     6770.43,
+     "single",
+     1
+    ]
+   ],
+   "source": "p2 score (/tmp/claude-0/nc/corr/fr/g3/sc087.txt): one REN of 17 singles 6668.80..6775.23 (+300..+2700 steps of 150, no break), then a lock with no clear and a fresh single +300 at 6776.90. nextcount p2 (/tmp/claude-0/nc/corr/fr/g3/nc_p2.txt) spawns 6677.0, 6697.07, 6709.37, 6732.6, 6755.13, 6756.0, 6756.97, 6758.07, 6770.43; no spawn at 6677.1, 6697.2, 6708.27, 6731.5, 6754.87, 6769.33 (phantoms); BREAKs 6754.9 and 6757.63 false."
+  },
+  {
+   "n": 67,
+   "id": "c088",
+   "side": "p2",
+   "op": "retype",
+   "t": 6817.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "J at ~6818.0 cleared TWO rows: 4 rows above the 3 garbage rows before (6817.95), 2 after (6818.75), garbage unchanged, no T-spin banner; score +1200 at 6818.00 = double 900 + REN2 300. /tmp/claude-0/nc/corr/fr/g3/c088a.png, /tmp/claude-0/nc/corr/fr/g3/c088b.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "c087",
+   "player": "p1",
+   "field": "pieces",
+   "was": 81,
+   "value": 62,
+   "source": "c087 is a deliberately slow REN battle (pieces fall at gravity for ~10 s, sheet /tmp/claude-0/nc/corr/fr/g3/c087a.png); the NEXT queue is not stalled. p1 score (score.py, /tmp/claude-0/nc/corr/fr/g3/sc087.txt) shows one uninterrupted REN from 6671.37 to the double at 6779.23: +300,450,600,...,2850 then +3600 (double+REN18), so no BREAKs. nextcount p1 (/tmp/claude-0/nc/corr/fr/g3/nc_p1.txt) spawns: 6676.1, 6683.97, 6696.23, 6708.63, 6731.4, 6754.03, 6755.17, 6756.13, 6757.13, 6758.77, 6769.5, 6775.4, 6776.5, 6778.03, 6779.03; each clear jump follows one of them. Phantoms removed: 6695.13, 6707.33 (None), 6731.53, 6753.7, 6758.93, 6768.4 and all 12 BREAKs. 64 NEXT shifts - 1 first hold-into-empty - 1 T spawned 6779.97 not locked by KO (locks 6780.57, /tmp/claude-0/nc/corr/fr/g3/c087k.png) = 62."
+  },
+  {
+   "id": "c087",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 12,
+   "value": 18,
+   "source": "score shows 19 consecutive clears 6671.37-6779.23 (double scored 900+2700=REN18). /tmp/claude-0/nc/corr/fr/g3/sc087.txt"
+  },
+  {
+   "id": "c087",
+   "player": "p2",
+   "field": "pieces",
+   "was": 77,
+   "value": 66,
+   "source": "p2 score (/tmp/claude-0/nc/corr/fr/g3/sc087.txt): one REN of 17 singles 6668.80..6775.23 (+300..+2700 steps of 150, no break), then a lock with no clear and a fresh single +300 at 6776.90. nextcount p2 (/tmp/claude-0/nc/corr/fr/g3/nc_p2.txt) spawns 6677.0, 6697.07, 6709.37, 6732.6, 6755.13, 6756.0, 6756.97, 6758.07, 6770.43; no spawn at 6677.1, 6697.2, 6708.27, 6731.5, 6754.87, 6769.33 (phantoms); BREAKs 6754.9 and 6757.63 false. Chain events less the 6 phantoms = 66."
+  },
+  {
+   "id": "c087",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 12,
+   "value": 16,
+   "source": "score: 17 consecutive singles 6668.80-6775.23, last +2700 = 300+REN16. /tmp/claude-0/nc/corr/fr/g3/sc087.txt"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 52,
+   "why": "L (from hold after Z held at 6573.40) is still a ghost/falling at 6573.467; it locks at 6573.50 (score 39075->39107), one frame after KO 6573.47. /tmp/claude-0/nc/corr/fr/g3/c085c.png, /tmp/claude-0/nc/corr/fr/g3/k.png"
+  },
+  {
+   "n": 53,
+   "why": "p2 piece spawned 6596.80 does not lock by KO: p2 score unchanged 6596.70 -> 6597.20; earlier spawns 6594.70-6596.23 all in chain."
+  },
+  {
+   "n": 56,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 57,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 58,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 59,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 60,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 61,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 62,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 63,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 64,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 65,
+   "why": "Gap is genuine slow play in a REN battle, not an unread queue; resolved by the c087 replace_window corrections (items 54/55) and pieces/max_combo cell edits."
+  },
+  {
+   "n": 66,
+   "why": "Last p1 piece (T spawned 6779.97, held at 6780.07, swap-out piece) locks at 6780.57 (score 43436->43460), after KO 6780.5. /tmp/claude-0/nc/corr/fr/g3/c087k.png"
+  }
+ ]
+}

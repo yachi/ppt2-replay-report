@@ -1,0 +1,8 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p2 +3628 at 206.07 (B2B quad, REN0), then +1080 at 207.03 = double 900 + REN1 150 + 30 drop; a single would be ~480. Following steps 630,750,932,1084,1200 are REN2..REN6 singles, consistent only if 206.83 cleared 2."},
+{"ref":"e1","verdict":"keep","why":"score.py: p2 +300 at 363.27 (single), +2568 at 364.27 (quad+REN1), +1200 at 365.37 = double 900 + REN2 300; single would be 600."},
+{"ref":"e2","verdict":"keep","why":"nextcount p1 845-849: spawns only at 845.13, 846.03, 846.77, 847.37, 848.30, 848.67, hold unchanged (S); score: +2 at 847.27, +300 at 847.57, +2 at 848.57, no other change. So one lock per spawn: 846.77 none, 847.37 single, 848.30 none; the three 846.5 locks and the 847.37 None are phantoms."},
+{"ref":"e3","verdict":"keep","why":"score.py: p2 502 -> 2936 at 1129.5 = +2434 = non-B2B tetris 2400 + 34 drop; a 4-line T-spin would be 4800, and a mini cannot clear 4."},
+{"ref":"e4","verdict":"keep","why":"score.py: p1 +3600 at 2045.10 (B2B quad), +1050 at 2046.03 = double 900 + REN1 150 (single would be 450), then +600 at 2047.10 = REN2 single."},
+{"ref":"c0","verdict":"keep","why":"nextcount over 815.9-849.5 gives 56 shifts; minus the first hold-into-empty (816.67) and the I spawned 848.67 that never locked (board full, score unchanged 848.6-849.43, fr/v0/c013.png) = 54 locks, matching value 54."}
+]
