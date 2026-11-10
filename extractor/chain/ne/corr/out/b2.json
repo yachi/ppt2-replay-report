@@ -1,0 +1,36 @@
+{"event_corrections":[
+{"n":43,"id":"e065","side":"p1","op":"replace_window","t":5268.43,"t_end":5276.7,"events":[],"was_old":[[5268.43,"BREAK",2],[5275.07,null,0],[5276.7,"BREAK",1]],
+ "source":"nextcount p1 5266-5292: shifts at 5268.400 and 5277.900 only (no hold) -> one piece (the T spawned 5268.40) in the window; score p1 frozen 41118 from 5268.63 to 5277.23 (no drop points), then +3000 = single at 18 REN; sheet fr/g2/e065a.png shows '17 REN' at 5268.6 and the T moved around slowly until '18 REN' at 5277.6. So 5275.07 None is a phantom lock and the two BREAKs are false (REN unbroken 17->18->19->20)."},
+{"n":44,"id":"e065","side":"p2","op":"replace_window","t":5268.8,"t_end":5284.27,
+ "events":[{"t":5269.2,"kind":"tsmini","lines":1,"pc":0,"gc":0},{"t":5279.47,"kind":"single","lines":1,"pc":0,"gc":0}],
+ "was_old":[[5268.8,"BREAK",1],[5269.2,"tsmini",1],[5271.3,"BREAK",0],[5274.43,"BREAK",0],[5276.77,"BREAK",0],[5278.4,"BREAK",3],[5278.7,"tsmini",1],[5279.47,"single",1],[5281.5,null,0],[5284.27,"BREAK",3]],
+ "source":"nextcount p2: shifts 5269.200, 5279.467, 5284.400 (hold 5274.333) -> only two pieces in the window. Score p2: 5278.83 +2850 = Mini T-spin Single at 15 REN (banner 'Mini T-SPIN Single' + '15 REN' in fr/g2/e065b.png at 5278.9), 5283.80 +2700 = single at 16 REN, then 17/18/19 REN singles. So 5278.7 tsmini is a duplicate of 5269.2, 5281.5 None is a phantom, BREAKs false (REN 14->19 unbroken)."},
+{"n":48,"id":"e069","side":"p2","op":"add","t":5657.8,"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"fr/g2/e069.png: p2's L (spawned ~5657.8) hard-drops and locks on the KO frame 5658.00 (lock flash, score 73601->73615 visible in that frame); no line cleared. Winner piece locked at/before end_s, so it counts."},
+{"n":52,"id":"e072","side":"p1","op":"retype","t":5781.43,"was":["tsmini",1,0],"kind":"single","lines":1,
+ "source":"score p1 5781.70 +450 = plain single at 1 REN (300+150; a Mini T-spin single would be 600+150); fr/g2/e072a.png 5781.5-5783.5 shows only the '1 REN' banner at that clear, no T-SPIN banner."},
+{"n":52,"id":"e072","side":"p1","op":"add","t":5782.37,"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"nextcount p1: shift 5782.367 spawns a T; it locks at 5782.90 with +300 and a 'T-SPIN' banner (fr/g2/e072a.png) and no row cleared (the '1 REN' banner does not advance to 2 REN) -> a zero-line (mini) T-spin lock, before KO 5783.47. Chain had no event for this piece."}
+],
+"cell_edits":[
+{"n":43,"id":"e065","player":"p1","field":"max_combo","was":16,"value":20,"source":"REN banners 17 (5268.6), 18 (5277.6), 19 (5286.5), 20 (5288.3) in fr/g2/e065a.png/e065b.png; score steps +3000/+3150/+5400 = single 18 REN, single 19 REN, quad 20 REN."},
+{"n":44,"id":"e065","player":"p2","field":"max_combo","was":14,"value":19,"source":"REN banners 15..19 for p2 in fr/g2/e065b.png (5278.9..5287.3); score steps 2850,2700,2850,3000,3150 = tsmini 15 REN then singles 16-19 REN."},
+{"n":48,"id":"e069","player":"p2","field":"pieces","was":119,"value":120,"source":"L locked on KO frame 5658.00, fr/g2/e069.png"},
+{"n":52,"id":"e072","player":"p1","field":"pieces","was":28,"value":29,"source":"T spawned 5782.37 locked 5782.90 (+300, T-SPIN banner) before KO 5783.47, missing from chain; fr/g2/e072a.png"}
+],
+"no_change":[
+{"n":36,"why":"fr/g2/e055.png: p2's O locked 4244.57 (already the chain's 4244.13 event); next O was held, J still at top at KO 4244.77."},
+{"n":37,"why":"fr/g2/e056.png + score: p2's T still at spawn at KO 4277.43 (only +1 soft drop)."},
+{"n":38,"why":"fr/g2/e057.png: p1's I still hovering at top at KO 4364.07, score unchanged."},
+{"n":39,"why":"score+fr/g2/e059.png: +1200 at 4942.03 is a zero-line T-spin (no row cleared), +306 at 4942.63 is the J spawned 4942.1 locking with a single = the chain's existing 'single' at 4942.1; nothing missing."},
+{"n":40,"why":"score: p2 still soft-dropping (+1 per frame) through 4972.40, piece not locked by KO 4972.37."},
+{"n":41,"why":"score: 4995.97 +1200 fits a plain single in a REN (1050,1200,1350 sequence); a TSS would be 2400+."},
+{"n":42,"why":"fr/g2/e062.png: p1's S locks at 5087.47, one frame after KO 5087.43 -> not counted."},
+{"n":45,"why":"e065 p1 5277.9-5286.83: nextcount shows spawn 5277.90 (I held at 5285.7, L out) -> single 5286.20 (+3150, 19 REN) and spawn 5286.83 -> quad 5288.13 (+5400, 20 REN); chain's 5277.9 single and 5286.83 quad are right. (Fixes for this game are under n=43/44.)"},
+{"n":46,"why":"e065 p2 5279.47-5284.40 covered by the n=44 replace_window (phantom 5281.5 None removed); remaining events match nextcount."},
+{"n":47,"why":"fr/g2/e067.png: p2's S still at top at KO 5491.13."},
+{"n":49,"why":"fr/g2/e070.png: p2 held Z, L at top unlocked at KO 5697.77."},
+{"n":50,"why":"fr/g2/e071.png: p1's Z at top unlocked at KO 5760.10."},
+{"n":51,"why":"score: 5780.43 +1084 = single at 5 REN (1050)+34 drop, following 1200/1350 REN singles; no TSS."},
+{"n":53,"why":"fr/g2/e074.png: p2's L at top unlocked at KO 5874.07."}
+]}

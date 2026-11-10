@@ -1,0 +1,581 @@
+{
+ "event_corrections": [
+  {
+   "n": 75,
+   "id": "e099",
+   "side": "p1",
+   "op": "retype",
+   "t": 7044.27,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "O piece fills the gap in two stacked rows; before/after crop /tmp/claude-0/ne/corr/fr/g4/e099cmp.png (7044.20 vs 7045.40) shows 3 coloured rows become 1; score +1050 at 7044.47 = double 900 + REN1 150 (sheet /tmp/claude-0/ne/corr/fr/g4/e099a.png)"
+  },
+  {
+   "n": 76,
+   "id": "e099",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7046.87,
+   "t_end": 7053.67,
+   "events": [
+    {
+     "t": 7047.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7048.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7049.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7049.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7049.97,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7050.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7051.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7051.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7051.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7052.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7052.2,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7053.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7046.87,
+     null,
+     0
+    ],
+    [
+     7046.87,
+     null,
+     0
+    ],
+    [
+     7046.87,
+     "quad",
+     4
+    ],
+    [
+     7047.87,
+     "BREAK",
+     2
+    ],
+    [
+     7049.97,
+     null,
+     0
+    ],
+    [
+     7050.07,
+     "BREAK",
+     2
+    ],
+    [
+     7051.7,
+     "BREAK",
+     1
+    ],
+    [
+     7052.7,
+     null,
+     0
+    ],
+    [
+     7052.7,
+     null,
+     0
+    ],
+    [
+     7053.67,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "nextcount p2 spawns (all k=1) 7047.13,7048.20,7049.10,7049.60,7049.97,7050.77,7051.17,7051.50,7051.67,7052.00,7052.20,7053.17; score.py p2 jumps: 7047.57 +600 (single REN2), 7048.43 +750 (single REN3), locks +8/+6 at 7049.60/7049.97, 7050.10 +900 (double), locks 7051.07/7051.40/7051.57/7051.93/7052.10, 7052.37 +2400 (TETRIS), 7053.57 +462 (single REN1); flashes and TETRIS banner in /tmp/claude-0/ne/corr/fr/g4/e099b.png. No spawn hidden in the 7052.6 unk gap (quad->next spawn 0.8 s line-clear delay)."
+  },
+  {
+   "n": 77,
+   "id": "e099",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7054.0,
+   "t_end": 7063.03,
+   "events": [
+    {
+     "t": 7054.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7054.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7054.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7055.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7056.17,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 7057.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7057.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7057.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7058.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7058.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7059.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7060.3,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 7061.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7061.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7062.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7062.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7062.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7055.77,
+     "single",
+     1
+    ],
+    [
+     7056.47,
+     "triple",
+     3
+    ],
+    [
+     7057.83,
+     null,
+     0
+    ],
+    [
+     7058.13,
+     null,
+     0
+    ],
+    [
+     7058.3,
+     null,
+     0
+    ],
+    [
+     7058.8,
+     "single",
+     1
+    ],
+    [
+     7059.93,
+     "single",
+     1
+    ],
+    [
+     7061.67,
+     "double",
+     2
+    ],
+    [
+     7062.07,
+     null,
+     0
+    ],
+    [
+     7062.37,
+     null,
+     0
+    ],
+    [
+     7063.03,
+     null,
+     0
+    ],
+    [
+     7063.03,
+     null,
+     0
+    ]
+   ],
+   "source": "nextcount p2 spawns 7054.17,7054.57,7054.80,7055.70,7056.17,7057.07,7057.57,7057.83,7058.00,7058.40,7059.37,7060.30,7061.53,7061.83,7062.00,7062.40,7062.73 (7063.73 spawn never locks by KO 7064.4); score.py p2: locks 7054.53/7054.77, 7055.13 +300 single, lock 7056.07, 7056.30 +1500 triple, locks 7057.47/7057.77/7057.90/7058.37 (Z,O,S,I seen in /tmp/claude-0/ne/corr/fr/g4/e099c.png), 7058.70 +300 single, 7059.73 +450 single REN1, 7060.87 +1216 double REN2, locks 7061.80/7061.97/7062.37/7062.63/7063.63. gc kept from the chain's matching clears."
+  },
+  {
+   "n": 80,
+   "id": "e106",
+   "side": "p1",
+   "op": "retype",
+   "t": 7369.37,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "spawn 7369.37 (J, held; T out) clears one row at ~7370.17 (white flash, REN counter 3->4 in /tmp/claude-0/ne/corr/fr/g4/e106a.png); score +900 at 7370.23 = single 300 + REN4 600; next single at 7372.13 is +1050 = REN5"
+  },
+  {
+   "n": 81,
+   "id": "e107",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7403.17,
+   "t_end": 7407.13,
+   "events": [
+    {
+     "t": 7403.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7404.53,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7405.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7405.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7406.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7406.8,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7403.17,
+     "BREAK",
+     4
+    ],
+    [
+     7403.47,
+     null,
+     0
+    ],
+    [
+     7403.47,
+     null,
+     0
+    ],
+    [
+     7403.47,
+     "double",
+     2
+    ],
+    [
+     7405.5,
+     "single",
+     1
+    ],
+    [
+     7406.17,
+     null,
+     0
+    ],
+    [
+     7406.57,
+     null,
+     0
+    ],
+    [
+     7407.13,
+     null,
+     0
+    ],
+    [
+     7407.13,
+     null,
+     0
+    ]
+   ],
+   "source": "nextcount p2 spawns 7403.73,7404.53,7405.40,7405.83,7406.20,7406.80 (next spawn 7407.67 after KO 7407.6); score.py p2: 7403.93 +1208 (single REN6), 7404.83 +1350 (single REN7), locks 7405.83 +10, 7406.17 +4, 7406.70 +8, 7406.90 +8 then 7406.93 +900 (double, REN broken); one-row flashes at 7403.18/7404.02/7404.86 and two-row flash at 7407.10 in /tmp/claude-0/ne/corr/fr/g4/e107a.png"
+  },
+  {
+   "n": 82,
+   "id": "e108",
+   "side": "p2",
+   "op": "remove",
+   "t": 7438.43,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "source": "only one spawn at 7438.43 (nextcount); that S hovers until ~7443.0 and clears a single (score +900 at 7443.00 = single REN4), frames /tmp/claude-0/ne/corr/fr/g4/e108a.png; no TETRIS anywhere 7438.4-7443.4. Every other score step 7434.67-7450.50 matches the chain (TSD REN1 3750, singles REN2/3, single REN5 1050, quad REN6 3300, single REN7 1350, double REN8 2100, singles REN9/10)."
+  },
+  {
+   "n": 84,
+   "id": "e109",
+   "side": "p1",
+   "op": "retype",
+   "t": 7507.67,
+   "was": [
+    "tsmini",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 3,
+   "source": "the T (spawn 7506.93 via hold) locks at the top at ~7507.6 as a zero-line spin (+300, T-SPIN banner); the I spawned 7507.67 drops into the right well and clears 4 rows with BACK to BACK banner, score +3600 at 7508.10 = TETRIS 2400 x1.5; /tmp/claude-0/ne/corr/fr/g4/e109a.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 74,
+   "id": "e099",
+   "player": "p2",
+   "field": "pieces",
+   "was": 141,
+   "value": 139,
+   "source": "nextcount p2 6993.0-7064.4: initial piece + 140 shifts, every shift k=1 (no double shifts; the k=3 anomalies at 7049.07/7054.9 are misreads), minus the piece in HOLD at the KO and the piece spawned 7063.73 that never locked = 139"
+  },
+  {
+   "n": 80,
+   "id": "e106",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 3,
+   "value": 5,
+   "source": "consecutive clears 7365.03 double, 7365.9, 7367.2, 7368.6, 7369.37 (missed), 7371.0 singles; score steps +900,+450,+600,+750,+900,+1050 = REN0..REN5"
+  },
+  {
+   "n": 81,
+   "id": "e107",
+   "player": "p2",
+   "field": "pieces",
+   "was": 50,
+   "value": 46,
+   "source": "nextcount p2 7380.4-7407.6: initial + 46 shifts (all k=1) = 47 dealt, minus the J left in HOLD at 7406.833; no active piece at KO (next spawn 7407.67). Tail window had 2 phantom locks."
+  },
+  {
+   "n": 81,
+   "id": "e107",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 5,
+   "value": 7,
+   "source": "score.py: 7397.40 +1508 triple REN0, then +450,+600,+750(+2), +3000 (quad+600), +1050, +1200(+8), +1350 = REN1..REN7 through 7404.83"
+  },
+  {
+   "n": 82,
+   "id": "e108",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 11,
+   "value": 10,
+   "source": "REN run starts with single +300 at 7434.67 (REN0) and ends with single +1800 at 7450.50 (REN10); the 7438.43 phantom quad inflated it; next lock 7451.53 no clear"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 72,
+   "why": "e096 p1: last spawn 6872.47 never locked by KO 6872.57: p1 score 19996 unchanged from 6872.37 through 6872.90 (score.py)"
+  },
+  {
+   "n": 73,
+   "why": "e098 p1: T spawned 6985.63 soft-dropping, still active/unlocked at KO 6986.13 (no lock-score jump, /tmp/claude-0/ne/corr/fr/g4/e098ko.png)"
+  },
+  {
+   "n": 78,
+   "why": "e102 p2: piece spawned 7174.73 was held at 7174.90 and the T out never locked; p2 score 28189 unchanged 7174.63-7175.5"
+  },
+  {
+   "n": 79,
+   "why": "e103 p1: T spawned 7225.03 still being moved/rotated at 7225.80, no lock by KO 7225.77 (/tmp/claude-0/ne/corr/fr/g4/e103ko.png)"
+  },
+  {
+   "n": 83,
+   "why": "e108 p2 gap 7438.43-7443.63: one piece (S) hovered ~4.5 s and cleared a single at 7443.0; chain's single is right, only the duplicate quad was wrong (removed under item 82). Pieces: independent count (initial+54 shifts, minus HOLD and active piece at KO) = 53 = csv, so no pieces edit."
+  },
+  {
+   "n": 85,
+   "why": "e110 p1: piece spawned 7607.57 never locked; p1 score 32607 unchanged 7607.47-7608.27"
+  },
+  {
+   "n": 86,
+   "why": "e111 p2: piece spawned 7681.53 never locked; p2 score 80589 unchanged 7680.87-7681.93"
+  }
+ ]
+}

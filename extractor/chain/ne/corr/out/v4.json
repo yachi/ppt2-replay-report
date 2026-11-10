@@ -1,0 +1,292 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py p1: 7043.33 +2400 tetris after a no-clear lock at 7043.07 (REN reset), then 7044.47 +1050 = double 900 + REN1 150; a single would be +450."
+ },
+ {
+  "ref": "e1",
+  "verdict": "amend",
+  "why": "Lock/clear sequence confirmed: nextcount p2 spawns 7047.13..7053.17 all k=1, score.py p2 7047.57 +600, 7048.43 +750, locks 7049.60/7049.97, 7050.10 +900, five locks 7051.07-7052.10, 7052.37 +2400, 7053.57 +462; no tetris near 7046.87 (phantom quad). But gc is wrong on three clears: 7048.43 single — the I goes vertically into the hole at col 0 of the top grey row and that grey row flashes (/tmp/claude-0/ne/corr/fr/v4/e099_single2.png); 7050.10 double — vertical I in col 4 fills the holes of the top two grey rows, both flash (/tmp/claude-0/ne/corr/fr/v4/e099_dbl.png); 7052.37 tetris — I in col 3 spans 3 coloured rows + the top grey row, flash covers those 4 (/tmp/claude-0/ne/corr/fr/v4/e099_quad.png). 7047.57 and 7053.57 singles clear coloured rows (gc 0 correct, /tmp/claude-0/ne/corr/fr/v4/e099_w1gc.png).",
+  "amended": {
+   "events": [
+    {
+     "t": 7047.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7048.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7049.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7049.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7049.97,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 7050.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7051.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7051.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7051.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7052.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7052.2,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7053.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e2",
+  "verdict": "amend",
+  "why": "Locks/clears confirmed by score.py p2 (locks 7054.53/7054.77, 7055.13 +300, 7056.30 +1500, 4 locks 7057.47-7058.37, 7058.70 +300, 7059.73 +450, 7060.87 +1216, 5 locks 7061.80-7063.63) and nextcount; 7063.73 spawn never locks. gc checked: 7055.13 single clears the top grey row (gc1 ok), 7058.70/7059.73 coloured rows (gc0 ok), 7060.87 double two grey rows (gc2 ok), but the 7056.30 triple clears 2 coloured rows + only the top grey row (hole col 4; the 2nd grey row has its hole in col 1 and stays) -> gc 1, not 2 (/tmp/claude-0/ne/corr/fr/v4/e099_tri.png, /tmp/claude-0/ne/corr/fr/v4/e099_w2.png).",
+  "amended": {
+   "events": [
+    {
+     "t": 7054.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7054.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7054.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7055.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7056.17,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 7057.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7057.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7057.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7058.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7058.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7059.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7060.3,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 7061.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7061.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7062.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7062.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7062.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py p1: +900 double REN0 7365.17, +450, +600, +750, then 7370.23 +900 = single REN4 for the 7369.37 piece (held J, T out at 7369.867), then 7372.13 +1050 REN5."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py p2: 7403.93 +1208 and 7404.83 +1350 (singles REN6/7), locks 7405.83, 7406.17, 7406.70, 7406.90 then 7406.93 +900 double; spawns match nextcount. gc 0 on all three confirmed: the flashing rows at 7404.1, 7404.9 and 7407.1 lie above the grey garbage, grey top does not drop (/tmp/claude-0/ne/corr/fr/v4/e107.png); the chain's gc=1 single at 7405.5 was a misplaced event."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nextcount p2 7437-7444: one spawn at 7438.433, held/hovering until the single at 7443.00 (+900 REN4); no +2400-class jump anywhere 7437.9-7442.9."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "+300 at 7507.63 (zero-line T-spin lock), I spawned 7507.667 drops in the right well, +3600 at 7508.10, TETRIS + BACK to BACK banners; flash covers 1 coloured row + 3 grey rows -> gc 3 (/tmp/claude-0/ne/corr/fr/v4/e109.png)."
+ },
+ {
+  "ref": "c0",
+  "verdict": "amend",
+  "why": "The checker added the 'initial piece' on top of 140 shifts, but the init queue is read before the game's first spawn: the first shift at 6993.200 IS the first piece (J appears at the top at 6993.30, board empty before, /tmp/claude-0/ne/corr/fr/v4/e099start.png). Spawns 140 - piece in HOLD at KO (Z) - unlocked L spawned 7063.733 = 138.",
+  "amended": {
+   "value": 138
+  }
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Score steps +900,+450,+600,+750,+900,+1050 = REN0..REN5 consecutive (no no-clear lock between: spawns 7365.03,7365.9,7367.2,7368.533,7369.367,7370.867 each clear)."
+ },
+ {
+  "ref": "c2",
+  "verdict": "amend",
+  "why": "Same counting slip as c0: nextcount init 7379.833 is pre-spawn and the first shift 7380.533 (= start_s) is the first T, held at 7380.733. 46 spawns - J in HOLD at KO = 45 (no active piece at KO; the L out of hold locked with the double at 7406.90).",
+  "amended": {
+   "value": 45
+  }
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "score.py p2: triple 7397.40 +1508 (REN0) then +450,+600,+752,+3000,+1050,+1208,+1350 = REN1..REN7 by 7404.83."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "score.py p2: 7434.67 +300 (REN0) ... 7448.27 +2100 double REN8, 7449.43 single REN9, 7450.50 +1822 REN10; next lock 7451.53 no clear. Max 10."
+ },
+ {
+  "ref": "n83",
+  "verdict": "missed",
+  "why": "The no_change pieces check uses the same initial+shifts double count: nextcount p2 init 7420.833 is pre-spawn, first shift 7421.567 = start_s. 54 spawns - T in HOLD - the I spawned 7459.867 that blocks out (the S before it locked at the spawn row, which is why the I spawned; no lock score after 7459.70, /tmp/claude-0/ne/corr/fr/v4/e108ko.png) = 52, not 53.",
+  "proposal": {
+   "id": "e108",
+   "player": "p2",
+   "field": "pieces",
+   "was": 53,
+   "value": 52,
+   "source": "nextcount p2 7420.8-7460.63: 54 shifts all k=1, first = first spawn at 7421.567; minus HOLD T and the blocked-out I at 7459.867; /tmp/claude-0/ne/corr/fr/v4/e108ko.png"
+  }
+ }
+]
