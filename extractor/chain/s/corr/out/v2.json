@@ -1,0 +1,23 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 +24 drop at 3324.63 then +2250 (=single 300+13x150) at 3324.70, KO 3324.73; chain has no clear after 3323.77."},
+{"ref":"e1","verdict":"keep","why":"p1 score frozen 18293 from 3347.90 to 3359.63 (both boards frozen = stream stall); REN steps +1200 (6) at 3347.90 then +1350 (7) at 3359.63, so no clear in between."},
+{"ref":"e2","verdict":"keep","why":"same as e1: duplicate phantom, no score change 3347.90-3359.63."},
+{"ref":"e3","verdict":"keep","why":"p2 score 21148 frozen 3347.27-3360.60; +10 drop 3360.60 then +750 (single 3 REN) 3360.67; fr/v2/p2_3360.png shows one coloured row clearing (gc 0). Following steps +1518/+1050/+3300/+1350/+1500/+1680 continue REN 4..9 unbroken, so the BREAKs and the extra lock/single are spurious."},
+{"ref":"e4","verdict":"keep","why":"p2 +4800 TST 3803.23, +5550 (B2B TSD 5400+150 REN) 3804.73, then only drop points (+34 at 3805.67 etc.) until the quad; 3805.43 is a plain lock."},
+{"ref":"e5","verdict":"keep","why":"p1 +30 drop points at 3824.47, no clear jump after, KO end_s 3824.50."},
+{"ref":"e6","verdict":"keep","why":"Spawns 3923.533/3923.833/3924.200(held at 3924.233)/3924.533/3924.733/3930.033 (nextcount) vs drop-point locks 3923.73/3924.10/3924.43/3924.63/3929.93 and quad 3930.30-33; p1 score flat 3924.63-3929.93 while p2 keeps scoring. Both 3925.03 locks are phantoms."},
+{"ref":"e7","verdict":"keep","why":"p1 locks +14 at 3945.67 (piece spawned 3945.47), T in slot 3946.10-3946.24 clears top coloured row, T-SPIN banner from 3946.30 (fr/v2/m63.png), score +300 at 3946.30; next piece locks +12 at 3946.67. Clear belongs on the 3945.77 piece."},
+{"ref":"e8","verdict":"keep","why":"p1 +32 drop 4070.33 then +5400 at 4070.40 (=B2B tetris 3600 + 12x150; previous quad +4050 = 2400+11x150), KO 4071.6; chain has no clear there."},
+{"ref":"c0","verdict":"keep","why":"follows e0."},
+{"ref":"c1","verdict":"keep","why":"REN steps +1800/+1950/+2100/+2250 = 10..13 REN; max 13."},
+{"ref":"c2","verdict":"keep","why":"follows e1/e2."},
+{"ref":"c3","verdict":"keep","why":"p1 clears 6 REN (3347.90), 7 (3359.63), 8 (3362.17), double 9 REN +2250 (3363.27), then drop locks and plain +300 single at 3364.57 (broken). Max 9."},
+{"ref":"c4","verdict":"keep","why":"follows e3."},
+{"ref":"c5","verdict":"keep","why":"p2 REN 3..9 confirmed by score steps 3360.67-3366.87; next p2 clear (+2400 at 3370.40) after several plain locks."},
+{"ref":"c6","verdict":"keep","why":"p1 +300, +450, +600, +750, (stall 3625.03-3628.67, soft-drop points only), +1500 double 4 REN, +1050 5 REN, +1800 double 6 REN at 3630.90; then plain locks and a +1500 triple without REN. Max 6."},
+{"ref":"c7","verdict":"keep","why":"follows e4; one fewer B2B link in the TST-TSD-quad-TSS run."},
+{"ref":"c8","verdict":"keep","why":"follows e5."},
+{"ref":"c9","verdict":"keep","why":"follows e6."},
+{"ref":"c10","verdict":"keep","why":"follows e8."},
+{"ref":"c11","verdict":"keep","why":"+5400 = 3600 + 12x150 at 4070.40."}
+]
