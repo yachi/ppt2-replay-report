@@ -1,0 +1,15 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py 78-92.1: jumps 79.13 +300, 80.00 +450, 83.97 +600, 84.77 +750, 85.60 +900 ... 90.43 +1500, 92.07 +2850 (triple REN9): 10 clears, no score change 80.00-83.97. nextcount p1: shifts only 80.667 and 84.600 in the window (T held 80.833). 80.8 single and duplicate 84.73 single are phantoms."},
+{"ref":"e1","verdict":"keep","why":"score +300 at 436.77 (zero-line mini, mini TSS would be 600); fr/v0/s005.png 436.60-436.94 shows the top-right T lock with no row removed; nextcount: I spawned 435.967 held 436.267 (T out), J spawned 436.833, next shift 437.000."},
+{"ref":"e2","verdict":"keep","why":"fr/v0/s013.png 771.90-772.17: T locks top-left, board rows unchanged, T-SPIN banner; score +300 at 772.07; S spawned 772.133 held 772.200. Zero-line mini."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/s014a.png 978.10-978.60: S fills the top grey garbage row, exactly one row flashes; score +600 at 978.20 (single REN2). Following 979.20 +1350, 982.30 +2400, 983.23 +1050 match the chain, so this is the only residual."},
+{"ref":"e4","verdict":"keep","why":"score 1008.43 +34 (O drop, no clear), 1009.00 +900, next clear 1011.40 +900; fr/v0/s014b.png: vertical I at 1008.95 clears bottom grey row + one colour row (gc 1). nextcount shift 1008.533 is the I. Only two doubles 1007.8-1011.4."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/s015.png 1068.00-1075.37: one T hovers the whole time, score frozen at 32790 until 1075.37 (+1050 = single REN5). nextcount: no shift between 1068.233 and 1076.100. Score jumps 1062.03..1082.63 are an unbroken REN0..REN10 run (11 clears). BREAKs and 1072.27 lock are phantoms."},
+{"ref":"e6","verdict":"keep","why":"score: 1337.63 lock, then nothing until 1342.60 (+10 soft drop) and quad 1343.03 +3600; nextcount shifts 1337.733 and 1342.700 only, no hold between. 1338.0 is phantom."},
+{"ref":"e7","verdict":"keep","why":"fr/v0/s022.png 1470.10-1470.43: green S (out of hold, Z held 1470.333) locks and one row clears; score +638 at 1470.40 = single REN2 + drops, not B2B TSS. Double banner is lingering."},
+{"ref":"c0","verdict":"keep","why":"Chain pieces count every event; two phantom clear events removed in e0; nextcount shifts agree (12 shifts vs 14 chain events 78.4-92.9)."},
+{"ref":"c1","verdict":"keep","why":"First run is 10 clears (REN9, triple +2850 at 92.07). Other run 152.80-165.37 by score: 11 clears ending REN10 (+1650 single REN9 at 164.40, +2400 double REN10 at 165.37) -> max_combo 10."},
+{"ref":"c2","verdict":"keep","why":"chain_games pieces 152 = cseq length incl. 3 BREAKs; window 1067.97-1074.93 holds 5 events but one real piece (nextcount shift 1068.233 only, frames fr/v0/s015.png)."},
+{"ref":"c3","verdict":"keep","why":"score REN0..REN10 1062.03-1082.63 (single +1800 = 300+1500 at 1082.63), 11 consecutive clears."},
+{"ref":"c4","verdict":"keep","why":"phantom 1338.0 lock (see e6); pieces = event count."}
+]

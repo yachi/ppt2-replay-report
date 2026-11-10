@@ -1,0 +1,4 @@
+[
+ {"ref":"c0","verdict":"amend","amended":{"was":56},"why":"Frames confirm 49: fr/v3/s055.png (3347.5-3364.5, 1 s) shows p2 frozen in a stall, the J hovering/rolling back and queue fixed at O,I,S,L,Z, score flat 21148 from 3347.27 to 3360.60 (score.py), so no locks there; chain has no events 3348.0-3361.3 and NEXT recount is 49. Only fix: chain_games.csv has p2 pieces 56, not 54, so 'was' must be 56."},
+ {"ref":"c1","verdict":"keep","why":"score.py 3624-3632: one slow L placement 3625.03-3628.9 (drop points ticking) locking with a clear at 3629.17, then 3630.03 and 3630.90 clears; nextcount 3624-3632 gives shifts 3624.73, 3625.70, 3629.93, 3630.70, 3631.63, 3631.90 matching chain 1:1. No missing pieces in the gap; csv value 106 confirmed as 'was'; 94 supported."}
+]

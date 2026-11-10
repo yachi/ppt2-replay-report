@@ -1,0 +1,93 @@
+{
+ "event_corrections": [],
+ "cell_edits": [
+  {
+   "n": 111,
+   "id": "s055",
+   "player": "p2",
+   "field": "pieces",
+   "was": 54,
+   "value": 49,
+   "source": "Chain events 49, extractor A 49 and NEXT recount 49 (first shift = game start 3331.7, so no missed opening; last spawn 3373.77 locks with TSD at 3374.47 before KO 3374.8) all agree. The 3348.0-3361.3 window is a network stall: fr/g3/s055a.png shows p2's queue frozen at O,I,S,L,Z and score frozen at 21148 from 3348.3 to 3360.0 with one J hovering (stall icons over p2 board); no spawns there, so B's spliced estimates (+5) are phantoms."
+  },
+  {
+   "n": 112,
+   "id": "s058",
+   "player": "p1",
+   "field": "pieces",
+   "was": 106,
+   "value": 94,
+   "source": "Chain events 94, extractor A 94 and NEXT recount 94 (first shift at start 3607.37; last shift 3663.003 never locks, p1 score flat to KO 3663.73) agree. The flagged 4.1 s gap at 3625.83 is one slow placement, not missing pieces: nextcount 3625-3631 shows 3 shifts (3625.70, 3629.93, 3630.70) and score.py shows locks/clears at 3629.17, 3630.03, 3630.9 matching chain 3625.83 double, 3629.93 single, 3630.8 double. The +12 in the table has no frame support."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 100,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s006 p1: fr/g3/s006a.png: J spawns 444.67 locks 444.77 (+38), I spawns 444.93 locks 445.13 (+34), T held 445.33. Chain 444.6/444.87 = J,I. 46+2=48 = table."
+  },
+  {
+   "n": 101,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s007 p2: fr/g3/s007a.png: L 476.6 lock ~476.85, O 476.9 lock 477.2, T 477.2 lock 477.3 (scores 36/74/110), Z held 477.5. 39+3=42 = table."
+  },
+  {
+   "n": 102,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s009 p2: locks 559.23, 559.57 before first shift 559.603 (score); 39+2=41 = table. Unmatched shift 578.77 is a spawn not locked by KO."
+  },
+  {
+   "n": 103,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s012 p1: locks 709.63, 710.00 before first shift 710.097 (score); 73+2=75 = table; 750.497 shift is the unlocked last spawn."
+  },
+  {
+   "n": 104,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s022 p2: fr/g3/s022a.png: I 1462.0 lock 1462.25, T held 1462.4, Z lock 1462.65, S swapped into hold, T lock 1463.0, L 1463.1 lock 1463.3; chain 1462.0/1462.47/1462.67/1463.07 = I,Z,T,L. nc missed 4 opening shifts; 50+4=54 = table."
+  },
+  {
+   "n": 105,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s026 p1: locks 1683.77, 1684.13 before first shift 1684.237 (score); 71+2=73 = table."
+  },
+  {
+   "n": 106,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s032 p1: fr/g3/s032a.png: Z 2128.87 lock 2129.0, S held 2129.13, T lock 2129.47, O 2129.53 lock 2129.73; chain 2129.1/2129.23 = Z,T; 70+2=72 = table."
+  },
+  {
+   "n": 107,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s034 p2: locks 2217.23, 2217.37 before first shift 2217.433 (score); 45+2=47 = table."
+  },
+  {
+   "n": 108,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s047 p2: score locks 2911.00,2911.37,2911.53,2911.70,... match chain events 2910.7,2911.03,2911.43,2911.6 1:1; 59+2=61 = table."
+  },
+  {
+   "n": 109,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s049 p2: locks 2994.50, 2994.87 before first shift 2994.933 (score); 81+2=83 = table."
+  },
+  {
+   "n": 110,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s053 p1: locks 3173.07, 3173.40 before first shift 3173.503 (score); 189+2=191 = table."
+  },
+  {
+   "n": 113,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s059 p2: locks 3670.40, 3670.53 before first shift 3670.597; fr/g3/s059a.png, s059b.png around the 'unmatched' 3678.03 shift: S,J,O,L(3-line PC) locks match chain 3677.77/3678.03/3678.2/3678.8 1:1 (alignment artefact). Last spawn 3770.597 never locks (score flat to KO). 189 shifts +2 opening -1 hold -1 unlocked = 189 = table."
+  },
+  {
+   "n": 114,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s065 p1: locks 4022.97, 4023.37 before first shift 4023.463 (score); 34+2=36 = table."
+  },
+  {
+   "n": 115,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s069 p1: opening lock 4181.87 (event 4181.6) missed by nextcount; its 3-shift at 4204.833 is a misread under the TETRIS blast over the NEXT box (fr/g3/s069a.png: queue S,L,I,S,L at 4204.4 and still at 4205.0; Z lock 4204.0 and I quad 4204.4 = chain 4204.0/4204.1). 56-3+1=54 = table."
+  },
+  {
+   "n": 116,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s070 p2: score locks 4220.93,4221.27,4221.97,4222.83,4223.2 match chain events 1:1; 53+2=55 = table."
+  },
+  {
+   "n": 117,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s071 p2: score locks 4256.6,4257.07,4257.4,4257.77,... match chain 4256.37/4256.83/4257.13/... 1:1; 44+3=47 = table."
+  },
+  {
+   "n": 118,
+   "why": "nextcount missed the opening spawns (they happen under the READY/GO overlay; its first shift comes after them), so its count is low by exactly the unmatched opening events; each unmatched chain event matches a real lock (score drop-point jump per lock, score.py). s074 p2: score locks 4368.1,4368.4,4368.87,4369.23,... match chain 4367.97/4368.17/4368.63/... 1:1; 72+3=75 = table."
+  }
+ ]
+}
