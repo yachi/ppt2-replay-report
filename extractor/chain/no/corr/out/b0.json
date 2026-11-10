@@ -1,0 +1,298 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "b001",
+   "side": "p1",
+   "op": "remove",
+   "t": 91.93,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Only one spawn at 91.90 (nextcount), one score jump +2400 at 92.97 (single, REN 14); 91.93 duplicates 91.90. /tmp/claude-0/no/corr/fr/g0/s1.png"
+  },
+  {
+   "n": 1,
+   "id": "b001",
+   "side": "p1",
+   "op": "remove",
+   "t": 86.17,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "REN never broke: score jumps 74.77..93.6 run 300,450,...,2400 then double 3150 (+150 per step without a gap); the '1 REN' banner at 86.0 is '11 REN' clipped by the overlay. /tmp/claude-0/no/corr/fr/g0/s1.png"
+  },
+  {
+   "n": 7,
+   "id": "b013",
+   "side": "p1",
+   "op": "retype",
+   "t": 1738.63,
+   "was": [
+    "tsmini",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 1,
+   "source": "Piece spawned 1738.63 is the I, dropped vertical in the right column, clears 2 rows, score +900 at 1738.93 (plain double, no T-SPIN banner for it); the T-SPIN banner at 1738.6 belongs to the previous T (1737.87, zero-line, +300). Resolves item 8 too (TSD at 1742.37 scored 3600, not B2B). /tmp/claude-0/no/corr/fr/g0/s9.png"
+  },
+  {
+   "n": 10,
+   "id": "b015",
+   "side": "p1",
+   "op": "retype",
+   "t": 2024.83,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "O spawned 2024.83 clears one stack row (white flash 2025.0, '2 REN' banner), score +600 at 2025.03 (single + REN 2); following singles score 750/900/1050. /tmp/claude-0/no/corr/fr/g0/s11.png"
+  },
+  {
+   "n": 11,
+   "id": "b016",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2104.0,
+   "t_end": 2110.6,
+   "events": [
+    {
+     "t": 2104.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2105.17,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2106.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2106.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2107.07,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 2108.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2108.57,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2109.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 2110.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2104.07,
+     "BREAK",
+     4
+    ],
+    [
+     2104.4,
+     null,
+     0
+    ],
+    [
+     2104.4,
+     null,
+     0
+    ],
+    [
+     2104.4,
+     "quad",
+     4
+    ],
+    [
+     2106.2,
+     "quad",
+     4
+    ],
+    [
+     2106.2,
+     "quad",
+     4
+    ],
+    [
+     2106.9,
+     "BREAK",
+     2
+    ],
+    [
+     2108.9,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "Spawns (nextcount) 2104.83,2105.17,2106.17(hold->O),2106.60,2107.07,2108.27,2108.57,2109.60(hold->Z),2110.07,2110.33; score: lock+16 2105.07; quad +3600(B2B) 2105.33 (stack rows, garbage unchanged); locks 2106.50, 2106.97; quad +3600 2107.43 (I in left well, 4 garbage rows); lock 2108.47; S double +900 2108.87 (two stack rows, garbage unchanged); locks 2109.97, 2110.23; Z from 2110.33 locks 2110.67, after KO 2110.63. /tmp/claude-0/no/corr/fr/g0/s12.png /tmp/claude-0/no/corr/fr/g0/s14.png /tmp/claude-0/no/corr/fr/g0/s13.png"
+  },
+  {
+   "n": 13,
+   "id": "b018",
+   "side": "p2",
+   "op": "retype",
+   "t": 2225.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "gc": 0,
+   "source": "L spawned 2225.33 goes to hold, S comes out and locks at 2225.97 (+26 only, no flash); next clear is J triple +1524 at 2226.70 without REN bonus. /tmp/claude-0/no/corr/fr/g0/s16.png"
+  },
+  {
+   "n": 14,
+   "id": "b018",
+   "side": "p2",
+   "op": "retype",
+   "t": 2258.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 0,
+   "source": "J spawned 2258.83 clears 2 stack rows (6 colored rows -> 4; 2 garbage rows before and after), score +1082 at 2259.07 = double 900 + REN 150 + drop. /tmp/claude-0/no/corr/fr/g0/s17.png /tmp/claude-0/no/corr/fr/g0/cmp1.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 1,
+   "id": "b001",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 12,
+   "value": 15,
+   "source": "16 consecutive clears 74.77-93.6 (15 singles + double), score REN bonus rises 150 per step to +2100 on the single at 91.9 and double 3150 at 94.23."
+  },
+  {
+   "n": 1,
+   "id": "b001",
+   "player": "p1",
+   "field": "pieces",
+   "was": 60,
+   "value": 58,
+   "source": "60 NEXT shifts 58-99.1 minus first hold-into-empty (58.9) = 59 spawns; last Z spawned 98.43 blocks out at the top (s2.png), so 58 locks; chain list holds 59 entries incl. the 91.93 duplicate."
+  },
+  {
+   "n": 10,
+   "id": "b015",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 5,
+   "source": "tsd 2022.63, quad 2023.87 (+3750 = REN1), singles 2024.83/2025.8/2026.7/2027.6 (+600,+750,+900,+1050) = 6 consecutive clears -> REN 5."
+  },
+  {
+   "n": 11,
+   "id": "b016",
+   "player": "p1",
+   "field": "pieces",
+   "was": 50,
+   "value": 47,
+   "source": "49 NEXT shifts 2085.5-2110.62 minus first hold-into-empty = 48 spawns; last Z (2110.33) locks 2110.67 after KO -> 47; equals 38 chain locks before 2104 + 9 in the window."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "Piece after hold swap at 51.77 is still soft-dropping at KO 52.23 (score keeps rising +1/frame past KO); no lock."
+  },
+  {
+   "n": 2,
+   "why": "I spawned 863.37 hovers at the top until the game ends; no lock by 863.47 (s3.png)."
+  },
+  {
+   "n": 3,
+   "why": "I spawned 925.77 still at the top at KO 925.93 (s4.png)."
+  },
+  {
+   "n": 4,
+   "why": "I spawned 1199.57 still moving in the top rows at KO (s5.png)."
+  },
+  {
+   "n": 5,
+   "why": "Z spawned 1585.83 hovers at top through KO (s6.png)."
+  },
+  {
+   "n": 6,
+   "why": "T locks at 1611.30 (+36), one frame after the KO tilt at 1611.27 (s7.png, s8.png); not counted."
+  },
+  {
+   "n": 8,
+   "why": "Resolved by the item-7 retype: with the 1738.63 clear a plain double, the TSD at 1742.37 is non-B2B (+3600 observed), single +450, double +1200 match."
+  },
+  {
+   "n": 9,
+   "why": "I soft-dropping into the well is mid-fall when the game freezes at KO 1979.3; never locks (s10.png)."
+  },
+  {
+   "n": 12,
+   "why": "J spawned 2159.83 swapped into hold, T at top at KO; no lock (s15.png)."
+  },
+  {
+   "n": 15,
+   "why": "Every clear jump matches the chain (quad 3600, singles 450..1800, double 2550, singles 2100..2400); the residual is drop points of the None locks."
+  },
+  {
+   "n": 16,
+   "why": "Triple +1500 and singles +450..+1350 match the chain; residual is drop points plus the post-KO +1500 (item 17)."
+  },
+  {
+   "n": 17,
+   "why": "The +1524 is the I spawned 2804.10 locking at 2804.30 (single, REN 8), one frame after the KO tilt at 2804.27 (piece still at the top at 2804.27, s18.png); not counted."
+  }
+ ]
+}

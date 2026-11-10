@@ -1,0 +1,146 @@
+[
+{
+"id": "b000",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+"t_s": 52.23,
+"n": 0
+},
+{
+"id": "b001",
+"player": "p1",
+"field_or_issue": "gap window > 4 s",
+"detail": "NEXT queue unread/stalled 4.83 s from 87.07 s; B events spliced (D2/D3)",
+"t_s": 87.07,
+"n": 1
+},
+{
+"id": "b006",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+"t_s": 863.47,
+"n": 2
+},
+{
+"id": "b007",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+"t_s": 925.93,
+"n": 3
+},
+{
+"id": "b008",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+"t_s": 1199.77,
+"n": 4
+},
+{
+"id": "b010",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+"t_s": 1585.93,
+"n": 5
+},
+{
+"id": "b011",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+"t_s": 1611.27,
+"n": 6
+},
+{
+"id": "b013",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step 622 over 1736.6-1738.93 s, unexplained -578; chain clears near: [[1736.3, 900, \"double\"], [1738.63, 600, \"tsmini\"]]",
+"t_s": 1736.6,
+"n": 7
+},
+{
+"id": "b013",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step -1772 over 1738.93-1745.03 s, unexplained -1772; chain clears near: [[1738.63, 600, \"tsmini\"], [1742.37, 5400, \"tsd\"], [1743.77, 450, \"single\"], [1744.77, 1200, \"double\"]]",
+"t_s": 1738.93,
+"n": 8
+},
+{
+"id": "b014",
+"player": "p2",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 1.13 s before the KO)",
+"t_s": 1979.3,
+"n": 9
+},
+{
+"id": "b015",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step 2028 over 2020.74-2029.64 s, unexplained -372; chain clears near: [[2020.47, 450, \"single\"], [2022.63, 3600, \"tsd\"], [2023.87, 3750, \"quad\"], [2025.8, 300, \"single\"], [2026.7, 450, \"single\"], [2027.6, 600, \"single\"], [2029.13, 2400, \"tss\"]]",
+"t_s": 2020.74,
+"n": 10
+},
+{
+"id": "b016",
+"player": "p1",
+"field_or_issue": "gap window > 4 s (tail)",
+"detail": "6.23 s from the last spawn to the KO",
+"t_s": 2110.63,
+"n": 11
+},
+{
+"id": "b017",
+"player": "p1",
+"field_or_issue": "winner KO piece not counted",
+"detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+"t_s": 2159.97,
+"n": 12
+},
+{
+"id": "b018",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step -550 over 2222.66-2227.96 s, unexplained -550; chain clears near: [[2223.4, 5550, \"tsd\"], [2225.33, 600, \"single\"], [2226.33, 1500, \"triple\"], [2227.1, 450, \"single\"]]",
+"t_s": 2222.66,
+"n": 13
+},
+{
+"id": "b018",
+"player": "p2",
+"field_or_issue": "score_spot",
+"detail": "score step 662 over 2255.66-2259.06 s, unexplained -538; chain clears near: [[2257.93, 3600, \"quad\"], [2258.83, 450, \"single\"]]",
+"t_s": 2255.66,
+"n": 14
+},
+{
+"id": "b024",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step 460 over 2631.43-2653.96 s, unexplained 460; chain clears near: [[2638.33, 3600, \"quad\"], [2639.57, 450, \"single\"], [2640.47, 600, \"single\"], [2641.63, 750, \"single\"], [2642.8, 900, \"single\"], [2643.7, 1050, \"single\"], [2644.67, 1200, \"single\"], [2645.73, 1350, \"single\"], [2647.0, 1500, \"single\"], [2648.37, 1650, \"single\"], [2649.43, 1800, \"single\"], [2650.43, 2550, \"double\"], [2651.47, 2100, \"single\"], [2652.57, 2250, \"single\"], [2653.53, 2400, \"single\"]]",
+"t_s": 2631.43,
+"n": 15
+},
+{
+"id": "b026",
+"player": "p1",
+"field_or_issue": "score_spot",
+"detail": "score step 1660 over 2794.0-2804.33 s, unexplained 460; chain clears near: [[2796.0, 1500, \"triple\"], [2796.97, 450, \"single\"], [2798.03, 600, \"single\"], [2799.13, 750, \"single\"], [2800.23, 900, \"single\"], [2801.1, 1050, \"single\"], [2802.03, 1200, \"single\"], [2803.13, 1350, \"single\"]]",
+"t_s": 2794.0,
+"n": 16
+},
+{
+"id": "b026",
+"player": "p1",
+"field_or_issue": "KO-tail score jump",
+"detail": "score +1524 at 2804.33 s (KO 2804.27 s) with no chain clear event (tetrio/cseq.json) matched",
+"t_s": 2804.33,
+"n": 17
+}
+]
