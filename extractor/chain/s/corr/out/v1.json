@@ -1,0 +1,15 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py 2206.3-2207.7: +22 drop at 2206.70 then +600 at 2206.73 (single 300 + REN2 300) for the L spawned 2206.467 (nextcount shift); single at 2207.57 already logged, before KO 2207.67."},
+{"ref":"e1","verdict":"keep","why":"score.py p1 drop increments at 2254.00, 2254.33, 2254.47, 2254.80, 2255.13, 2255.60 = six plain locks, no clear; nextcount spawns 2253.733, 2254.100, 2254.433, 2254.567, 2254.900, (2255.233 L held 2255.267), 2255.367. Chain had 4 events (2255.37 doubled)."},
+{"ref":"e2","verdict":"keep","why":"score.py: T lock 2323.30 +16 no clear; L (shift 2323.40) +14 then +300 at 2323.67 = plain single (REN reset); I (shift 2324.367) +2550 at 2324.63 = quad 2400 + REN1; J spawned 2325.433 held 2325.533, one lock +22 at 2325.60. gc not independently checked."},
+{"ref":"e3","verdict":"keep","why":"score.py +3750 at 2321.30 = TSD 3600 + REN1 150 (after the +900 double at 2319.93); a TST would be 4800+. T came out of hold when Z was held at 2320.80."},
+{"ref":"e4","verdict":"keep","why":"Both scores frozen 2436.40-2449.37 (lag). p1: single +1050 at 2435.87 (REN5), next jump +1200 at 2449.37 = single + REN6 with no other change, then +1350 at 2450.83 (REN7). NEXT shifts only 2436.533 and 2450.000 (L held 2438.8, J from hold locks). One lock, one single, no REN break."},
+{"ref":"e5","verdict":"keep","why":"J spawned 2711.767 locks +36 at 2711.97, +900 at 2712.00 then +3600 PC bonus at 2712.03."},
+{"ref":"e6","verdict":"keep","why":"Z spawned 2712.067 locks +38 at 2712.17; next change +38 at 2712.50; no clear-sized jump until +900 at 2714.30."},
+{"ref":"e7","verdict":"keep","why":"O spawned 2715.367 held 2715.433 (S out of hold), soft drop +1/frame 2715.53-2716.00, +4500 at 2716.17 = double 900 + PC 3600."},
+{"ref":"e8","verdict":"keep","why":"L spawned 2716.233 locks +36 at 2716.67, no clear; the PC belongs to the 2715.37 piece."},
+{"ref":"c0","verdict":"keep","why":"nextcount 2253.5-2285.3: 57 shifts, no multi-shift; minus 1 in hold, minus 2284.567 spawn never locked (score p1 flat 23354 from 2284.47 to past KO 2285.23) = 55."},
+{"ref":"c1","verdict":"keep","why":"score.py: TSD +5400 at 2204.60 (B2B, no REN bonus), quad +3772 at 2205.67 (3600+150+22), single +600 at 2206.73 (REN2), single +774 at 2207.57 (REN3) before KO 2207.67; nextcount shows no lock between them. REN 3."},
+{"ref":"c2","verdict":"keep","why":"nc38.txt (p1): 78 shifts, no k=2 shifts; minus hold, minus 2464.133 spawn unlocked (p1 score flat 46493 through KO) = 76 = games.jsonl p1 pieces; equals chain 78 non-BREAK events less the 2 phantoms removed by e4."},
+{"ref":"c3","verdict":"keep","why":"nc38b.txt (p2): 102 shifts; S held 2464.533, active piece still soft-dropping +1/frame through 2464.83 > KO 2464.77; 102-2 = 100 = games.jsonl p2 pieces."}
+]
