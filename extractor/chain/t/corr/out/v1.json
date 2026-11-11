@@ -1,0 +1,7 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py p1: +10 drop at 1767.40 then +2100 at 1767.43 (=300+12x150). Sheet fr/v1/t025.png: S locking 1767.37, white clear row 1767.40 while p2 board only starts to tilt at 1767.40-1767.43 (end_s 1767.40); '11 REN' -> '12 REN' banner from 1767.43. Lock on/before KO frame, real single."},
+ {"ref":"e1","verdict":"keep","why":"Sheet fr/v1/t029.png: I out of hold (nextcount hold T 2022.233) drops in column 0, landed and score 55913->55919 by the 2022.37 frame, before KO 2022.40; no row removed, score +6 only, so a no-clear lock."},
+ {"ref":"c0","verdict":"keep","why":"follows e0: one extra S lock by the KO frame, 43 -> 44."},
+ {"ref":"c1","verdict":"keep","why":"12 REN banner at 1767.43+ (fr/v1/t025.png) and +2100 = 300+1800; csv max_combo 11 -> 12."},
+ {"ref":"c2","verdict":"keep","why":"follows e1: I lock at ~2022.37 <= KO 2022.40, 80 -> 81."}
+]

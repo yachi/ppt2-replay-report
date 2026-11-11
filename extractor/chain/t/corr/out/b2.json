@@ -1,0 +1,112 @@
+{
+ "event_corrections": [
+  {
+   "n": 16,
+   "id": "t031",
+   "side": "p1",
+   "op": "retype",
+   "t": 2177.9,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py: p1 +300 at 2177.83 (49561->49861) = zero-line Mini T-spin (100x3); a Mini T-spin Single would be 600 (900 with B2B). Banner crop fr/g2/i16b.png at 2177.9 reads 'Mini T-SPIN' with no 'Single'; the 'N Single / BACK to BACK' banner seen 2177.3-2177.8 (fr/g2/i16.png) lingers from the TSS at 2176.73 (+3600). The T locked, no line cleared."
+  },
+  {
+   "n": 22,
+   "id": "t037",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2414.9,
+   "t_end": 2415.3,
+   "events": [
+    {
+     "t": 2415.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2414.9,
+     null,
+     0
+    ],
+    [
+     2414.9,
+     null,
+     0
+    ],
+    [
+     2414.9,
+     null,
+     0
+    ],
+    [
+     2415.3,
+     null,
+     0
+    ],
+    [
+     2415.3,
+     null,
+     0
+    ],
+    [
+     2415.3,
+     null,
+     0
+    ]
+   ],
+   "source": "nextcount p2 2401.6-2431.3: the 'shift 3' at 2414.8 (JZIJZ>JZIJI) is a slot-5 Z misread as I; the queue goes JZIJZ (2414.4) -> ZIJZS (2415.3), one shift. With it removed every bag is a 7-bag permutation (bag 6 = I J Z S L T O). Frames fr/g2/i22.png 2414.3-2416.0: I quad clears ~2414.5 (+3622), only one piece (J, spawned 2415.3, locked ~2415.6) before the Z spawn at 2415.7. Chain had 6 locks here for 1."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 22,
+   "id": "t037",
+   "player": "p2",
+   "field": "pieces",
+   "was": 66,
+   "value": 61,
+   "source": "chain had 5 phantom locks at 2414.9/2415.3 (see replace_window); nextcount 65 shifts - 3 spurious - 1 hold-into-empty (2402.2) = 61, last piece (TSD, +5400 at 2430.83) locked before KO 2431.2."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 15,
+   "why": "t030 p1 +300 at 2123.40 is a zero-line Mini T-spin (banner 'Mini T-SPIN' without 'Single', fr/g2/i15b.png; board topped out, no row cleared, fr/g2/i15.png); chain's None lock at 2123.07 is right."
+  },
+  {
+   "n": 17,
+   "why": "t031 p2: J spawned 2179.30 still falling at the KO 2179.7 (fr/g2/i17.png), no extra lock."
+  },
+  {
+   "n": 18,
+   "why": "t034 p2: S spawned 2274.60 still at the top, moving, through 2274.80 (fr/g2/i18.png); not locked by KO."
+  },
+  {
+   "n": 19,
+   "why": "t035 p2: T spawned 2348.27 still at the top at KO 2348.37 (fr/g2/i19.png)."
+  },
+  {
+   "n": 20,
+   "why": "t036 p1 2384.7 is a plain single: score +450 at 2384.97 (300 + 150 REN), then +600, +750 REN singles; a TSS would be 2400+."
+  },
+  {
+   "n": 21,
+   "why": "t036 p2: S spawned 2394.00 still at the top at KO 2394.2 (fr/g2/i21.png)."
+  },
+  {
+   "n": 23,
+   "why": "t039 p2: I spawned 2572.50 still at the top at KO 2572.67 (fr/g2/i23.png)."
+  }
+ ]
+}

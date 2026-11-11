@@ -1,0 +1,17 @@
+{"event_corrections":[
+ {"n":12,"id":"t025","side":"p1","op":"add","t":1767.27,"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"score.py: p1 +10 drop at 1767.40 (=KO frame end_s 1767.40) then +2100 at 1767.43 = single 300 + REN12 1800, continuing the REN series (+1800 at 1765.60, +1950 at 1766.60). Sheet /tmp/claude-0/t/corr/fr/g1/t025.png: O spawned and held, S out of hold ~1767.27, locks with a one-row clear flash at 1767.40 while p2's board starts to tilt; '12 REN' banner at 1767.47. Cleared row is piece cells, no grey garbage. Lock is on the KO frame so it counts."},
+ {"n":14,"id":"t029","side":"p2","op":"add","t":2022.23,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"nextcount.py: hold T at 2022.233 brings I out of hold; sheet /tmp/claude-0/t/corr/fr/g1/t029.png: I dropped vertically into column 0, resting at 2022.41 and unchanged at 2022.47/2022.54; score.py p2 +6 drop points at 2022.40 = KO frame (end_s 2022.40). No clear (score only +6). Z before it locked at 2022.07 (+8) = chain event 2021.93."}
+],
+"cell_edits":[
+ {"id":"t025","player":"p1","field":"pieces","was":"43","value":44,"source":"one extra S lock at 1767.40 (KO frame), see add t=1767.27; cseq holds 43 locks"},
+ {"id":"t025","player":"p1","field":"max_combo","was":"11","value":12,"source":"'12 REN' banner after the 1767.40 single (fr/g1/t025.png 1767.47); score +2100 = 300+12*150"},
+ {"id":"t029","player":"p2","field":"pieces","was":"80","value":81,"source":"I from hold locked at 2022.40 = KO frame (score +6, fr/g1/t029.png)"}
+],
+"no_change":[
+ {"n":9,"why":"t019 p1 1323.33: score +750 at 1323.33 (12297->13047) = single 300 + REN3 450, in the linear REN series +450/+600/+750/+900/+1050/+1200; a TSS would be >=2400. Plain single is right."},
+ {"n":10,"why":"t023 p2 +1200 at 1567.97 is a zero-line T-spin (SPIN banner, no row removed, fr/g1/t023.png 1567.9-1568.1); no lines cleared, T lock already in chain as a None lock around 1567.6/1568.03."},
+ {"n":11,"why":"t024 p1: after the 1733.43 Tetris the S locked ~1735.0, next S held and L came out at 1735.07; L still moving at KO 1735.67 and after (fr/g1/t024.png), score unchanged except +1 soft drop. No lock by KO."},
+ {"n":13,"why":"t026 p2 1798.47: score +1350 at 1798.70 = single 300 + REN7 1050 (series +1050 REN5, quad+900 REN6, +1350, +1500 REN8); a mini T-spin single would be +1650. Plain single is right."}
+]}

@@ -20363,5 +20363,306 @@
     0
    ]
   ]
+ },
+ {
+  "id": "t012",
+  "side": "p1",
+  "op": "add",
+  "t": 778.67,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/i6.png: S spawned 778.57, held at 778.67 and the held J came out; J hard-dropped and locked at 778.87 (score 31576->31594, +18 drop points, no clear flash, no score jump), before KO 778.93 (yatta banner from 778.93). Chain's last p1 event is 777.63 single (its lock+clear at 777.87/777.90)."
+ },
+ {
+  "id": "t025",
+  "side": "p1",
+  "op": "add",
+  "t": 1767.27,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: score.py: p1 +10 drop at 1767.40 (=KO frame end_s 1767.40) then +2100 at 1767.43 = single 300 + REN12 1800, continuing the REN series (+1800 at 1765.60, +1950 at 1766.60). Sheet /tmp/claude-0/t/corr/fr/g1/t025.png: O spawned and held, S out of hold ~1767.27, locks with a one-row clear flash at 1767.40 while p2's board starts to tilt; '12 REN' banner at 1767.47. Cleared row is piece cells, no grey garbage. Lock is on the KO frame so it counts."
+ },
+ {
+  "id": "t029",
+  "side": "p2",
+  "op": "add",
+  "t": 2022.23,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: nextcount.py: hold T at 2022.233 brings I out of hold; sheet /tmp/claude-0/t/corr/fr/g1/t029.png: I dropped vertically into column 0, resting at 2022.41 and unchanged at 2022.47/2022.54; score.py p2 +6 drop points at 2022.40 = KO frame (end_s 2022.40). No clear (score only +6). Z before it locked at 2022.07 (+8) = chain event 2021.93."
+ },
+ {
+  "id": "t031",
+  "side": "p1",
+  "op": "retype",
+  "t": 2177.9,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: score.py: p1 +300 at 2177.83 (49561->49861) = zero-line Mini T-spin (100x3); a Mini T-spin Single would be 600 (900 with B2B). Banner crop fr/g2/i16b.png at 2177.9 reads 'Mini T-SPIN' with no 'Single'; the 'N Single / BACK to BACK' banner seen 2177.3-2177.8 (fr/g2/i16.png) lingers from the TSS at 2176.73 (+3600). The T locked, no line cleared."
+ },
+ {
+  "id": "t037",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2414.9,
+  "t_end": 2415.3,
+  "events": [
+   {
+    "t": 2415.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2414.9,
+    null,
+    0
+   ],
+   [
+    2414.9,
+    null,
+    0
+   ],
+   [
+    2414.9,
+    null,
+    0
+   ],
+   [
+    2415.3,
+    null,
+    0
+   ],
+   [
+    2415.3,
+    null,
+    0
+   ],
+   [
+    2415.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b2 frame check, verified: nextcount p2 2401.6-2431.3: the 'shift 3' at 2414.8 (JZIJZ>JZIJI) is a slot-5 Z misread as I; the queue goes JZIJZ (2414.4) -> ZIJZS (2415.3), one shift. With it removed every bag is a 7-bag permutation (bag 6 = I J Z S L T O). Frames fr/g2/i22.png 2414.3-2416.0: I quad clears ~2414.5 (+3622), only one piece (J, spawned 2415.3, locked ~2415.6) before the Z spawn at 2415.7. Chain had 6 locks here for 1."
+ },
+ {
+  "id": "t040",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2605.0,
+  "source": "b3 frame check, verified: Orange L spawned 2605.0 locks at 2605.18 and clears one stack row (flash, REN banner appears 2605.32); score +450 at 2605.23 (single 300 + REN 150 after the 2604.07 quad). The following TSD scored +3600 at 2607.13 (not B2B), confirming the single broke B2B. corr/fr/g3/i24.png",
+  "t_end": 2605.0,
+  "events": [
+   {
+    "t": 2605.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2605.0,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "t046",
+  "side": "p2",
+  "op": "retype",
+  "t": 3053.03,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b3 frame check, verified: At 3053.10 T is held and the I comes out of hold; the vertical I locks in the left column at 3053.37 clearing one garbage row; score +314 at 3053.40 = plain single, no T-spin. The T is played later (3054.57 spawn, locks ~3054.8) as a zero-line mini T-spin: T-SPIN banner, no row cleared, +300 at 3054.90 — left as a plain lock. Quad at 3055.60 scored +2400 (no B2B). corr/fr/g3/i27a.png, corr/fr/g3/i27b.png"
+ },
+ {
+  "id": "t048",
+  "side": "p2",
+  "op": "retype",
+  "t": 3132.97,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: T locks at 3132.88 into a slot with a T-SPIN banner but no row clears (stack top unchanged 3132.81 vs 3132.95); score +300 at 3132.93 = zero-line mini T-spin (100x3), not a Mini TSS (would be 600/900). Next TSS at 3134.93 scores +3600 (B2B kept, consistent with a zero-line spin). corr/fr/g3/i29.png"
+ },
+ {
+  "id": "t055",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3528.1,
+  "source": "b3 frame check, verified: In the 3528.07-3533.0 gap only one piece exists: the O spawned 3528.07 hovers (player idle) until it hard-drops at 3532.90 (+12), then T for the TSD at 3533.0. Score flat at 51185 from 3527.97 to 3532.90; NEXT shifts only at 3527.80, 3528.07, 3533.00. 3528.1 is a phantom spawn. corr/fr/g3/i31.png",
+  "t_end": 3528.1,
+  "events": [],
+  "was_old": [
+   [
+    3528.1,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "t055",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3528.33,
+  "source": "b3 frame check, verified: Same as 3528.1: phantom spawn inside the idle O hover (3528.07-3532.90), no lock in frames or score. corr/fr/g3/i31.png",
+  "t_end": 3528.33,
+  "events": [],
+  "was_old": [
+   [
+    3528.33,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "t007",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 419.53,
+  "source": "b4 frame check, verified: cseq t007 p1 holds two None events at exactly 419.53. score.py p1 drop-point steps at game start: 418.97 (O), 419.43 (I, out of hold after T held at 419.13), 419.77 (J), 419.93 (Z), 420.33 (L) = one lock per chain event 418.73/419.07/419.53/419.87/420.03, so the second 419.53 is a duplicate. Sheet /tmp/claude-0/t/corr/fr/g4/t007a.png (418.5-420.2): O spawns 418.8, T spawns 419.1 and is held, I/J/Z/L follow, one piece each.",
+  "t_end": 419.53,
+  "events": [
+   {
+    "t": 419.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    419.53,
+    null,
+    0
+   ],
+   [
+    419.53,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "t021",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1398.93,
+  "t_end": 1399.43,
+  "events": [
+   {
+    "t": 1398.93,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 1399.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1399.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1398.93,
+    null,
+    0
+   ],
+   [
+    1399.43,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b4 frame check, verified: Sheet /tmp/claude-0/t/corr/fr/g4/t021b.png: I spawned 1398.93 drops vertically and makes the 4-line PERFECT CLEAR at ~1399.2 (score 9124->22358 at 1399.25, banner 1399.25+); a second I spawns 1399.30 (NEXT shifts I,O,..->O,J,..) and is hard-dropped at 1399.38 (+38 only, I visible on floor bottom row 1399.73+); O spawns 1399.41 and locks 1400.52 (+32), then T spawns 1400.62 (chain 1400.63). The chain put the quad on the 1399.43 spawn and has no event for the second I. Cleared rows contain no grey garbage (/tmp/claude-0/t/corr/fr/g4/t021_pcboard.png at 1399.12), so gc 0 not 4. Event count becomes 90 = table pieces 90, so no pieces edit."
+ },
+ {
+  "id": "t052",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3414.47,
+  "t_end": 3415.03,
+  "events": [
+   {
+    "t": 3414.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3414.7,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 3415.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3414.47,
+    null,
+    0
+   ],
+   [
+    3415.03,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b4 frame check, verified: Sheet /tmp/claude-0/t/corr/fr/g4/t052b.png: I spawns 3414.46 and is held, J out of hold locks 3414.57 (+34); L spawns 3414.70, held, I out of hold drops vertical into the right well and makes the 4-line PERFECT CLEAR ~3414.9 (score 18348->31582 at 3414.97, banner from 3415.02); S spawns 3415.02, held, L out locks ~3415.4 (31618); O spawns 3415.50, held, S out locks 3415.63 (31654). Four locks J, I(PC), L, S against three chain events; the quad belongs to the 3414.70 spawn, the 3415.03 spawn is a plain lock. Cleared rows contain no grey garbage (/tmp/claude-0/t/corr/fr/g4/t052_pcboard.png at 3414.86), so gc 0. Event count becomes 40 = table pieces 40, so no pieces edit."
  }
 ]
