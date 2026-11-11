@@ -1,0 +1,74 @@
+[
+ {
+  "id": "t001",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1496 vs chain prediction; unexplained -1496 between 96.7 and 102.37 s; chain clears near: [[96.77, 1500, 'double'], [99.27, 600, 'tsmini'], [100.93, 900, 'double'], [101.97, 450, 'single']]",
+  "t_s": 96.7,
+  "n": 0
+ },
+ {
+  "id": "t002",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 134.3,
+  "n": 1
+ },
+ {
+  "id": "t003",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 169.33,
+  "n": 2
+ },
+ {
+  "id": "t004",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 275.5,
+  "n": 3
+ },
+ {
+  "id": "t008",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -2378 vs chain prediction; unexplained -2378 between 496.34 and 500.77 s; chain clears near: [[496.4, 2400, 'quad'], [498.5, 3600, 'tss'], [500.53, 3600, 'quad']]",
+  "t_s": 496.34,
+  "n": 4
+ },
+ {
+  "id": "t008",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 580.9,
+  "n": 5
+ },
+ {
+  "id": "t012",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 778.93,
+  "n": 6
+ },
+ {
+  "id": "t013",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 903.6 s typed as a plain clear",
+  "t_s": 903.6,
+  "n": 7
+ },
+ {
+  "id": "t013",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 921.67 s typed as a plain clear",
+  "t_s": 921.67,
+  "n": 8
+ }
+]

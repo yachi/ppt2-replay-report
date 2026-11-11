@@ -1,0 +1,5 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py: p1 49561->49861 (+300) at 2177.83, the zero-line Mini T-spin value (Mini Single would be 600+); sheet fr/v2/a.png 2177.5-2178.6 shows a bare 'T-SPIN' banner from 2177.9 (no 'Single'), the 'N Single/BACK' banner before it lingers from the TSS (+3600 at 2176.73). No line cleared."},
+ {"ref":"e1","verdict":"keep","why":"fr/v2/b.png 2414.4-2415.8: I quad (TETRIS, +3622 at 2414.43-2414.50), then exactly one J falls and locks ~2415.6 (score +22 at 2415.60), Z appears at top 2415.8. nextcount: the 'shift 3' at 2414.8 is a slot-5 misread (JZIJZ->JZIJI), followed by one shift to ZIJZS at 2415.3. Six chain locks at 2414.9/2415.3 are one piece."},
+ {"ref":"c0","verdict":"keep","why":"Follows from e1: chain had 66 non-BREAK events, replacing 6 phantom locks with 1 gives 61; consistent with the checker's nextcount tally (65 shifts - 3 spurious - 1 hold-into-empty)."}
+]

@@ -1,0 +1,18 @@
+{"event_corrections":[
+ {"n":6,"id":"t012","side":"p1","op":"add","t":778.67,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g0/i6.png: S spawned 778.57, held at 778.67 and the held J came out; J hard-dropped and locked at 778.87 (score 31576->31594, +18 drop points, no clear flash, no score jump), before KO 778.93 (yatta banner from 778.93). Chain's last p1 event is 777.63 single (its lock+clear at 777.87/777.90)."}
+],
+"cell_edits":[
+ {"n":6,"id":"t012","player":"p1","field":"pieces","was":47,"value":48,
+  "source":"one extra no-clear lock at 778.87 before KO 778.93 (fr/g0/i6.png; score +18 at 778.87)"}
+],
+"no_change":[
+ {"n":0,"why":"score.py 96.3-102.6 p1 jumps: +1500 at 96.73 (double), +600 at 100.07 (mini), +900 at 101.23 (double), +450 at 102.40 (single+REN) = the four chain clears exactly; the -1496 comes from window edges (96.7 start after/at the double jump, 102.37 end before the 102.40 jump)"},
+ {"n":1,"why":"fr/g0/i1.png: red Z locked 134.07 (+14, chain 133.87 piece); J spawned 134.20 and was still mid-fall at 134.33, locking ~134.37, after KO 134.3"},
+ {"n":2,"why":"fr/g0/i2.png: O spawned 169.10, held at 169.20; the L from hold stayed at the top through 169.40; no lock before KO 169.33"},
+ {"n":3,"why":"fr/g0/i3.png, i3b.png: I spawned 275.03, held at 275.23, Z from hold locked 275.33 (+30) = chain's 275.07 None event; J spawned 275.33 still at top at 275.67; nothing else locks by KO 275.5"},
+ {"n":4,"why":"score.py: +2400 at 496.37 (quad), +3600 at 498.97 (TSS B2B), +3600 at 500.80 (quad B2B) = chain's 2400/3600/3600; the shortfall is the 500.80 jump falling just past the 500.77 window end"},
+ {"n":5,"why":"fr/g0/i5.png: L locked 580.67 (+14, chain 580.43 piece); S spawned 580.71 and stayed at top through 580.93; no lock by KO 580.9"},
+ {"n":7,"why":"fr/g0/i7.png + score.py: T dropped flat, banner shown is the lingering TETRIS; score +450 at 903.87 (single + REN1), then +600 at 904.87; a TSS would be >=2400. Plain single is right"},
+ {"n":8,"why":"score.py p2: +900 at 920.93 (double), +1056 at 922.00 (double + REN1 + drop), +608 at 923.03 (single+REN2); a TSD would be >=3600. Plain double is right"}
+]}

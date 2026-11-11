@@ -1,0 +1,22 @@
+{"event_corrections":[
+ {"n":200,"id":"t007","side":"p1","op":"remove","t":419.53,"was":[null,0,0],
+  "source":"cseq t007 p1 holds two None events at exactly 419.53. score.py p1 drop-point steps at game start: 418.97 (O), 419.43 (I, out of hold after T held at 419.13), 419.77 (J), 419.93 (Z), 420.33 (L) = one lock per chain event 418.73/419.07/419.53/419.87/420.03, so the second 419.53 is a duplicate. Sheet /tmp/claude-0/t/corr/fr/g4/t007a.png (418.5-420.2): O spawns 418.8, T spawns 419.1 and is held, I/J/Z/L follow, one piece each."},
+ {"n":203,"id":"t021","side":"p2","op":"replace_window","t":1398.93,"t_end":1399.43,
+  "events":[{"t":1398.93,"kind":"quad","lines":4,"pc":1,"gc":0},{"t":1399.3,"kind":null,"lines":0,"pc":0,"gc":0},{"t":1399.43,"kind":null,"lines":0,"pc":0,"gc":0}],
+  "was_old":[[1398.93,null,0],[1399.43,"quad",4]],
+  "source":"Sheet /tmp/claude-0/t/corr/fr/g4/t021b.png: I spawned 1398.93 drops vertically and makes the 4-line PERFECT CLEAR at ~1399.2 (score 9124->22358 at 1399.25, banner 1399.25+); a second I spawns 1399.30 (NEXT shifts I,O,..->O,J,..) and is hard-dropped at 1399.38 (+38 only, I visible on floor bottom row 1399.73+); O spawns 1399.41 and locks 1400.52 (+32), then T spawns 1400.62 (chain 1400.63). The chain put the quad on the 1399.43 spawn and has no event for the second I. Cleared rows contain no grey garbage (/tmp/claude-0/t/corr/fr/g4/t021_pcboard.png at 1399.12), so gc 0 not 4. Event count becomes 90 = table pieces 90, so no pieces edit."},
+ {"n":206,"id":"t052","side":"p2","op":"replace_window","t":3414.47,"t_end":3415.03,
+  "events":[{"t":3414.47,"kind":null,"lines":0,"pc":0,"gc":0},{"t":3414.7,"kind":"quad","lines":4,"pc":1,"gc":0},{"t":3415.03,"kind":null,"lines":0,"pc":0,"gc":0}],
+  "was_old":[[3414.47,null,0],[3415.03,"quad",4]],
+  "source":"Sheet /tmp/claude-0/t/corr/fr/g4/t052b.png: I spawns 3414.46 and is held, J out of hold locks 3414.57 (+34); L spawns 3414.70, held, I out of hold drops vertical into the right well and makes the 4-line PERFECT CLEAR ~3414.9 (score 18348->31582 at 3414.97, banner from 3415.02); S spawns 3415.02, held, L out locks ~3415.4 (31618); O spawns 3415.50, held, S out locks 3415.63 (31654). Four locks J, I(PC), L, S against three chain events; the quad belongs to the 3414.70 spawn, the 3415.03 spawn is a plain lock. Cleared rows contain no grey garbage (/tmp/claude-0/t/corr/fr/g4/t052_pcboard.png at 3414.86), so gc 0. Event count becomes 40 = table pieces 40, so no pieces edit."}
+],
+"cell_edits":[
+ {"id":"t007","player":"p1","field":"pieces","was":"74","value":73,"n":200,"source":"duplicate None lock at 419.53 (see remove); score lock steps match the other chain events 1:1; recount 72 + the O at 418.8 it missed under GO = 73"}
+],
+"no_change":[
+ {"n":201,"why":"t016 p2: score.py p2 lock steps 1044.30 (O out of hold, L held 1044.03), 1044.43, 1044.77, 1045.07, 1045.40 match chain events 1044.1/1044.37/1044.53/1044.87/1045.13 one-to-one (sheet /tmp/claude-0/t/corr/fr/g4/t016a.png); the recount missed the fast first spawns. Unmatched shift 1146.1 is the loser's last spawn, which never locks before KO 1146.73 (last p2 lock +2 at 1146.00 = chain 1144.63 piece). Pieces 185 stand."},
+ {"n":202,"why":"t019 p2: 12 p2 score lock steps 1309.87..1313.10 match the 12 chain events 1309.6..1312.97 one-to-one; the recount missed the first three spawns. Unmatched shift 1335.667 is the Z spawned after the 1334.9 double, which never locks before KO 1336.3 (score flat 32068, sheet /tmp/claude-0/t/corr/fr/g4/t019b.png). Pieces 48 stand."},
+ {"n":204,"why":"t025 p2: start locks 1742.85 (J) and 1742.95 (Z, fast drop) are both real (sheet /tmp/claude-0/t/corr/fr/g4/t025a.png); 9 lock steps to 1745.27 match chain 1:1. End: L spawned 1766.3 locks ~1766.7 with 0 points under top-out, I spawns at 1766.74 (the unmatched shift) and never locks before KO 1767.4 (sheet t025b.png). Pieces 54 stand."},
+ {"n":205,"why":"t029 p2: p2 score lock steps 1984.93, 1985.10, 1985.47, 1985.77, 1986.13, 1986.40, 1986.57, 1987.00, 1987.40, 1987.77, 1988.07 match chain events 1984.67..1987.8 one-to-one; the recount missed the first two spawns. No unmatched shifts. Pieces 81 (after b1 edit) stand."},
+ {"n":207,"why":"t056 p2: p2 lock steps 3542.53..3545.13 match chain 3542.37..3544.87 one-to-one (recount missed the first two spawns). End: locks 3574.13/3574.50/3574.67 = chain 3573.73/3574.23/3574.6; the I spawned 3574.79 never locks before KO 3575.4 (NEXT unchanged, score flat; sheet /tmp/claude-0/t/corr/fr/g4/t056b.png). Pieces 65 stand."}
+]}

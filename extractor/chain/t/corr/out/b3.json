@@ -1,0 +1,17 @@
+{"event_corrections":[
+{"n":24,"id":"t040","side":"p1","op":"retype","t":2605.0,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"Orange L spawned 2605.0 locks at 2605.18 and clears one stack row (flash, REN banner appears 2605.32); score +450 at 2605.23 (single 300 + REN 150 after the 2604.07 quad). The following TSD scored +3600 at 2607.13 (not B2B), confirming the single broke B2B. corr/fr/g3/i24.png"},
+{"n":27,"id":"t046","side":"p2","op":"retype","t":3053.03,"was":["tsmini",1,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"At 3053.10 T is held and the I comes out of hold; the vertical I locks in the left column at 3053.37 clearing one garbage row; score +314 at 3053.40 = plain single, no T-spin. The T is played later (3054.57 spawn, locks ~3054.8) as a zero-line mini T-spin: T-SPIN banner, no row cleared, +300 at 3054.90 — left as a plain lock. Quad at 3055.60 scored +2400 (no B2B). corr/fr/g3/i27a.png, corr/fr/g3/i27b.png"},
+{"n":29,"id":"t048","side":"p2","op":"retype","t":3132.97,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"T locks at 3132.88 into a slot with a T-SPIN banner but no row clears (stack top unchanged 3132.81 vs 3132.95); score +300 at 3132.93 = zero-line mini T-spin (100x3), not a Mini TSS (would be 600/900). Next TSS at 3134.93 scores +3600 (B2B kept, consistent with a zero-line spin). corr/fr/g3/i29.png"},
+{"n":31,"id":"t055","side":"p1","op":"remove","t":3528.1,"was":[null,0,0],"source":"In the 3528.07-3533.0 gap only one piece exists: the O spawned 3528.07 hovers (player idle) until it hard-drops at 3532.90 (+12), then T for the TSD at 3533.0. Score flat at 51185 from 3527.97 to 3532.90; NEXT shifts only at 3527.80, 3528.07, 3533.00. 3528.1 is a phantom spawn. corr/fr/g3/i31.png"},
+{"n":31,"id":"t055","side":"p1","op":"remove","t":3528.33,"was":[null,0,0],"source":"Same as 3528.1: phantom spawn inside the idle O hover (3528.07-3532.90), no lock in frames or score. corr/fr/g3/i31.png"}
+],
+"cell_edits":[
+{"n":24,"id":"t040","player":"p1","field":"max_b2b","was":3,"value":1,"source":"With the single at 2605.0 the TSD-quad-TSD-quad run is broken (TSD at 2607.13 scored 3600, non-B2B); B2B runs are tst->tsd, tsd->quad, tsd->quad, tsd->quad: max 1. corr/fr/g3/i24.png"},
+{"n":31,"id":"t055","player":"p1","field":"pieces","was":90,"value":88,"source":"Two phantom spawns removed at 3528.1 and 3528.33 (only the O exists in the gap). corr/fr/g3/i31.png"}
+],
+"no_change":[
+{"n":25,"why":"t040 p2's O lands at 2617.73, one frame after the KO frame 2617.70 (still at the top at 2617.70; score +22 at 2617.73). Not counted. corr/fr/g3/i25.png"},
+{"n":26,"why":"t042 p2 last lock at 2771.07 (score +20, spawn 2770.83 already in chain); score stays at 105257 through 2771.70, so no lock by the KO frame 2771.47."},
+{"n":28,"why":"t047 p2's O is still at the top on the KO frame 3117.43 and lands at 3117.47 (score +18 then). Not counted. corr/fr/g3/i28.png"},
+{"n":30,"why":"t048 p1 last lock at 3176.97 (spawn 3176.73 in chain); score unchanged at 50413 to 3178.13, no lock by KO 3177.80."}
+]}

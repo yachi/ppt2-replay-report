@@ -1,0 +1,9 @@
+[
+{"ref":"e0","verdict":"keep","why":"Score +3600 at 2604.20 (B2B quad), +16 lock then +450 at 2605.23 (single+REN); frames show a row-clear flash and a REN banner at 2605.20 (fr/v3/e0.png). The TSD at 2607.13 scores +3600, non-B2B, so the single broke B2B."},
+{"ref":"e1","verdict":"keep","why":"fr/v3/e1.png: T in hold, vertical I locks left column at 3053.37 and one row flashes; score +300 at 3053.40 (a Mini TSS would be 600+). Quad at 3055.60 +2400 non-B2B confirms a plain single. fr/v3/e1b.png: the later T shows a T-SPIN banner at 3054.87 with no row cleared (+300)."},
+{"ref":"e2","verdict":"keep","why":"fr/v3/e2.png: stack top unchanged across 3132.84-3133.11, no row removed; score +300 at 3132.93 (zero-line mini), and the TSS at 3134.93 scores +3600 (B2B kept from the TSD), which rules out a plain single and a Mini TSS (900 with B2B)."},
+{"ref":"e3","verdict":"keep","why":"nextcount: spawns only at 3527.80, 3528.07, 3533.00; score flat 51185 from 3527.97 to 3532.90. fr/v3/e3.png shows the O hovering at the top from 3528.5 to 3532.5. 3528.1 is a phantom."},
+{"ref":"e4","verdict":"keep","why":"Same evidence as e3: no spawn, lock or score change at 3528.33."},
+{"ref":"c0","verdict":"keep","why":"Clear sequence with the 2605.0 single: tst,tsd | singles | tsmini | single | double | tsd,quad | single | tsd,quad | single | tsd,quad: longest B2B run is 1. Scores (+3600 B2B quad at 2604.20, non-B2B TSD at 2607.13, +3750 B2B quad at 2608.13) agree."},
+{"ref":"c1","verdict":"keep","why":"Two phantom None events removed in the gap (e3, e4); the real pieces there are the L (spawn 3527.80) and the O (spawn 3528.07), both already in the chain."}
+]
