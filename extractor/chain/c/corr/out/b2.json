@@ -1,0 +1,38 @@
+{"event_corrections":[
+ {"n":49,"id":"c072","side":"p1","op":"retype","t":5687.6,"was":["tsmini",1,0],"kind":"single","lines":1,"pc":0,"gc":1,
+  "source":"fr/g2/i49.png, i49c.png: the clear at ~5687.8 is an L (orange) lock, plain single, banner only '10 REN', score +1800 (=300+REN 1500, fits the REN progression 1200/1350/1500/1650/1800). The Mini T-SPIN banner (i49b.png, 5689.4) belongs to the next T (spawn 5688.63, locks ~5689.1), a ZERO-line mini (+300, no row cleared). TSD at 5691.97 scores +3600 (not B2B), consistent with no B2B-eligible clear before it."},
+ {"n":52,"id":"c075","side":"p2","op":"replace_window","t":5914.43,"t_end":5914.43,"events":[],"was_old":[[5914.43,null,0],[5914.43,null,0]],
+  "source":"fr/g2/i52.png (5914.0-5923.0): stream lag/freeze; p2's S (spawned 5914.17) hangs in the air the whole window and locks ~5922.6; nextcount shows no spawn between 5914.17 and 5922.63, score unchanged 17941. The two 5914.43 None locks are phantoms."},
+ {"n":53,"id":"c075","side":"p1","op":"remove","t":5923.97,"was":["single",1,0],
+  "source":"fr/g2/i52.png + score.py: same frozen window for p1; spawns 5914.0, 5914.93 (Z held at 5922.97, I out, single +900 at 5923.13 = chain 5915.07), 5923.8 (S, lock +18 at 5924.00, no clear). Only one clear (5923.13) after the freeze; the chain's 5923.97 single duplicates it and 5923.93 None is the S. Score next jumps only at 5925.07 (double)."},
+ {"n":54,"id":"c076","side":"p1","op":"retype","t":6004.8,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g2/i54.png: T placed top-left ~6004.6 gives T-SPIN banner and +300 at 6004.77 but no row clears (zero-line mini); the piece spawned 6004.8 is a vertical I placed at the right, +4, no clear."},
+ {"n":54,"id":"c076","side":"p1","op":"retype","t":6006.0,"was":["tsmini",1,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"fr/g2/i54.png: second T at 6005.45 is again a zero-line mini (+300 at 6005.63, no row cleared); the piece spawned 6006.0 is a J that clears one row at 6006.5 (white row flash), +300, a plain single starting the REN."},
+ {"n":60,"id":"c086","side":"p1","op":"replace_window","t":6584.23,"t_end":6584.9,"events":[{"t":6584.23,"kind":null,"lines":0,"pc":0,"gc":0},{"t":6584.9,"kind":"quad","lines":4,"pc":0,"gc":2}],"was_old":[[6584.23,"quad",4],[6584.9,"quad",4]],
+  "source":"fr/g2/i60.png, i60_6584.70.png: only one TETRIS: vertical I spawned 6584.6 locks at 6584.70, clears 2 coloured rows + 2 garbage rows, score +2400 at 6584.73. Piece from 6584.23 locks +8 at 6584.50 with no clear. Next clear is the TSD (+5400 B2B at 6587.63)."},
+ {"n":62,"id":"c088","side":"p1","op":"add","t":6748.97,"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"fr/g2/i62.png: O (from hold, J held at 6749.10) hard-drops and locks at 6749.17 (score 25337->25355), clears one row at 6749.20 with '12 REN', +2100 at 6749.23; KO tilt of p2 starts 6749.20-6749.24, so the lock is at/before end_s."}
+],
+"cell_edits":[
+ {"n":52,"id":"c075","player":"p2","field":"pieces","was":151,"value":149,"source":"two phantom 5914.43 locks in the frozen window (fr/g2/i52.png, nextcount)"},
+ {"n":53,"id":"c075","player":"p1","field":"pieces","was":133,"value":132,"source":"phantom 5923.97 event; spawns 5914.0, 5914.93, 5923.8, 5924.1 vs chain 5914.1, 5915.07, 5923.93, 5923.97, 5924.1 (fr/g2/i52.png, nextcount)"},
+ {"n":54,"id":"c076","player":"p1","field":"max_b2b","was":3,"value":1,"source":"only B2B-eligible line clears are TST 5995.03 and TSD 5998.2 (the two minis are zero-line, fr/g2/i54.png); B2B 1"},
+ {"n":62,"id":"c088","player":"p1","field":"pieces","was":50,"value":51,"source":"O locks 6749.17, before KO 6749.20 (fr/g2/i62.png)"},
+ {"n":62,"id":"c088","player":"p1","field":"max_combo","was":11,"value":12,"source":"'12 REN' banner at 6749.24 for the final single (fr/g2/i62.png)"}
+],
+"no_change":[
+ {"n":46,"why":"fr/g2/i46.png, i46b.png: T locks ~4832.2 and clears one row with a 'Mini T-SPIN' banner (+300); chain already has tsmini at 4832.47."},
+ {"n":47,"why":"fr/g2/i47.png: I still moving at the top through KO 5379.0; no lock."},
+ {"n":48,"why":"fr/g2/i48.png: S at the top, unlocked at KO 5660.1."},
+ {"n":50,"why":"fr/g2/i50.png: T still soft-dropping at KO 5802.53."},
+ {"n":51,"why":"fr/g2/i51.png: S hard-drops at 5895.87 (score +20), one frame after KO 5895.83; not counted."},
+ {"n":55,"why":"fr/g2/i55.png: S comes to rest ~6014.34 with no lock flash or next spawn before KO 6014.40; lock not shown."},
+ {"n":56,"why":"fr/g2/i56.png, i56b.png: T single at 6096.4 shows only '9 REN', no T-SPIN banner; plain single is right."},
+ {"n":57,"why":"score.py: J still soft-dropping (+1/frame) through 6107.57, past KO 6107.5; no lock."},
+ {"n":58,"why":"fr/g2/i58.png: S at the top, unlocked at KO 6198.63."},
+ {"n":59,"why":"fr/g2/i59.png: S at the top, unlocked at KO 6421.77."},
+ {"n":61,"why":"score.py: Z soft-dropping through 6606.13, past KO 6606.07."},
+ {"n":63,"why":"fr/g2/i63.png: J still in the air (ghost below) at KO 6835.53."},
+ {"n":64,"why":"fr/g2/i64.png: L at the top, unlocked at KO 6900.53."}
+]}

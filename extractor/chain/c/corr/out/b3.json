@@ -1,0 +1,1062 @@
+{
+ "event_corrections": [
+  {
+   "n": 66,
+   "id": "c095",
+   "side": "p1",
+   "op": "add",
+   "t": 7065.13,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "S held 7065.2, I from hold dropped vertical and locked 7065.30 (= KO frame, +28 score), line-clear flash 7065.37 with +1500 = single at REN8; cleared row not garbage. /tmp/claude-0/c/corr/fr/g3/c095.png"
+  },
+  {
+   "n": 67,
+   "id": "c099",
+   "side": "p1",
+   "op": "retype",
+   "t": 7310.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score +5400 at 7311.53 (TSD x1.5 B2B), T-SPIN Double and BACK to BACK banners. /tmp/claude-0/c/corr/fr/g3/c099.png"
+  },
+  {
+   "n": 69,
+   "id": "c101",
+   "side": "p2",
+   "op": "retype",
+   "t": 7383.4,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T locked top right with no line flash; score +300 at 7383.40 = zero-line mini; next single at 7384.47 scored +326 (REN0), so no clear here. /tmp/claude-0/c/corr/fr/g3/c101p2.png"
+  },
+  {
+   "n": 72,
+   "id": "c107",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 7713.43,
+   "t_end": 7808.5,
+   "events": [
+    {
+     "t": 7713.43,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7727.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7728.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7730.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7731.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7732.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7753.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7770.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7788.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7805.9,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7806.83,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7807.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7808.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7713.43,
+     "single",
+     1
+    ],
+    [
+     7727.77,
+     "single",
+     1
+    ],
+    [
+     7727.8,
+     "single",
+     1
+    ],
+    [
+     7728.73,
+     "single",
+     1
+    ],
+    [
+     7730.37,
+     "single",
+     1
+    ],
+    [
+     7731.23,
+     "single",
+     1
+    ],
+    [
+     7732.2,
+     "single",
+     1
+    ],
+    [
+     7732.33,
+     "single",
+     1
+    ],
+    [
+     7752.67,
+     "single",
+     1
+    ],
+    [
+     7753.9,
+     "single",
+     1
+    ],
+    [
+     7766.3,
+     "single",
+     1
+    ],
+    [
+     7770.37,
+     "single",
+     1
+    ],
+    [
+     7781.97,
+     null,
+     0
+    ],
+    [
+     7783.57,
+     "BREAK",
+     0
+    ],
+    [
+     7787.5,
+     "BREAK",
+     1
+    ],
+    [
+     7788.8,
+     "single",
+     1
+    ],
+    [
+     7803.5,
+     "single",
+     1
+    ],
+    [
+     7806.0,
+     "single",
+     1
+    ],
+    [
+     7806.93,
+     "single",
+     1
+    ],
+    [
+     7807.73,
+     "single",
+     1
+    ],
+    [
+     7808.5,
+     "single",
+     1
+    ]
+   ],
+   "source": "frames + score: p1 REN climbs unbroken from REN0 at 7709.10 to REN17 at 7808.83 (+2850); 13 singles in the window, B's duplicates/None/BREAKs are phantoms. /tmp/claude-0/c/corr/fr/g3/c107a.png, /tmp/claude-0/c/corr/fr/g3/c107_7740.png"
+  },
+  {
+   "n": 73,
+   "id": "c107",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7713.87,
+   "t_end": 7807.63,
+   "events": [
+    {
+     "t": 7713.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7726.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7727.3,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7728.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7729.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7729.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7730.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7731.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7757.33,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7777.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7804.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7807.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7713.87,
+     "single",
+     1
+    ],
+    [
+     7713.9,
+     "single",
+     1
+    ],
+    [
+     7724.47,
+     "single",
+     1
+    ],
+    [
+     7726.5,
+     "single",
+     1
+    ],
+    [
+     7727.3,
+     "single",
+     1
+    ],
+    [
+     7728.2,
+     "single",
+     1
+    ],
+    [
+     7729.07,
+     "single",
+     1
+    ],
+    [
+     7729.97,
+     "single",
+     1
+    ],
+    [
+     7730.8,
+     "single",
+     1
+    ],
+    [
+     7731.63,
+     "single",
+     1
+    ],
+    [
+     7731.73,
+     "single",
+     1
+    ],
+    [
+     7742.83,
+     null,
+     0
+    ],
+    [
+     7743.83,
+     "BREAK",
+     3
+    ],
+    [
+     7755.57,
+     "single",
+     1
+    ],
+    [
+     7757.33,
+     "single",
+     1
+    ],
+    [
+     7775.6,
+     "single",
+     1
+    ],
+    [
+     7777.83,
+     null,
+     0
+    ],
+    [
+     7790.43,
+     null,
+     0
+    ],
+    [
+     7791.97,
+     "BREAK",
+     3
+    ],
+    [
+     7804.6,
+     null,
+     0
+    ],
+    [
+     7807.63,
+     null,
+     0
+    ]
+   ],
+   "source": "frames + score: p2 REN0 at triple 7711.40 to REN11 at 7777.20; last O spawned 7808.2 never locked (topped out). /tmp/claude-0/c/corr/fr/g3/c107a.png, /tmp/claude-0/c/corr/fr/g3/c107p2end.png"
+  },
+  {
+   "n": 84,
+   "id": "c112",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7983.3,
+   "t_end": 7986.6,
+   "events": [
+    {
+     "t": 7983.3,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7983.3,
+     "tss",
+     1
+    ],
+    [
+     7983.43,
+     null,
+     0
+    ],
+    [
+     7983.63,
+     null,
+     0
+    ],
+    [
+     7984.3,
+     null,
+     0
+    ],
+    [
+     7985.6,
+     "BREAK",
+     2
+    ],
+    [
+     7986.6,
+     "tss",
+     1
+    ]
+   ],
+   "source": "no NEXT shift 7983.3-7987.33, one piece in play: T soft-dropped and spun, +3600 at 7986.67 (TSS B2B) with Single and BACK to BACK banners; the 7983.43/.63/7984.3 None, BREAK and second tss are phantoms. /tmp/claude-0/c/corr/fr/g3/c112.png"
+  },
+  {
+   "n": 85,
+   "id": "c117",
+   "side": "p1",
+   "op": "remove",
+   "t": 8232.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "phantom: one piece between 8232.63 and 8237.63 (hold swap 8236.07); its double cleared 8236.90 for +1200 (REN2); next clear 8244.17 +750 (REN3). Explains the -3918 score_spot."
+  },
+  {
+   "n": 85,
+   "id": "c117",
+   "side": "p1",
+   "op": "remove",
+   "t": 8237.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "phantom: one piece between 8232.63 and 8237.63 (hold swap 8236.07); its double cleared 8236.90 for +1200 (REN2); next clear 8244.17 +750 (REN3). Explains the -3918 score_spot."
+  },
+  {
+   "n": 86,
+   "id": "c117",
+   "side": "p2",
+   "op": "remove",
+   "t": 8242.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "phantom: no NEXT shift between 8236.07 and 8242.7"
+  },
+  {
+   "n": 86,
+   "id": "c117",
+   "side": "p2",
+   "op": "remove",
+   "t": 8234.9,
+   "was": [
+    "BREAK",
+    3,
+    0
+   ],
+   "source": "phantom BREAK: score REN unbroken from TSD 8235.33 (REN0) to REN17 at 8258.10"
+  },
+  {
+   "n": 90,
+   "id": "c118",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 8284.5,
+   "t_end": 8350.0,
+   "events": [
+    {
+     "t": 8284.57,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8304.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8322.53,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8325.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8327.03,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8328.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8328.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8329.83,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8331.27,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 8342.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     8284.5,
+     "BREAK",
+     3
+    ],
+    [
+     8284.67,
+     "single",
+     1
+    ],
+    [
+     8289.4,
+     "BREAK",
+     2
+    ],
+    [
+     8291.9,
+     "BREAK",
+     0
+    ],
+    [
+     8297.03,
+     "BREAK",
+     4
+    ],
+    [
+     8304.33,
+     "single",
+     1
+    ],
+    [
+     8304.37,
+     "single",
+     1
+    ],
+    [
+     8312.73,
+     null,
+     0
+    ],
+    [
+     8312.87,
+     "BREAK",
+     0
+    ],
+    [
+     8317.93,
+     "BREAK",
+     0
+    ],
+    [
+     8321.43,
+     "BREAK",
+     1
+    ],
+    [
+     8322.53,
+     "single",
+     1
+    ],
+    [
+     8325.93,
+     "single",
+     1
+    ],
+    [
+     8327.03,
+     "single",
+     1
+    ],
+    [
+     8328.17,
+     "single",
+     1
+    ],
+    [
+     8328.93,
+     "single",
+     1
+    ],
+    [
+     8329.83,
+     "single",
+     1
+    ],
+    [
+     8331.27,
+     "double",
+     2
+    ],
+    [
+     8331.53,
+     "single",
+     1
+    ],
+    [
+     8335.13,
+     null,
+     0
+    ],
+    [
+     8336.77,
+     "BREAK",
+     2
+    ],
+    [
+     8341.7,
+     "double",
+     2
+    ],
+    [
+     8342.97,
+     "single",
+     1
+    ],
+    [
+     8349.13,
+     "single",
+     1
+    ]
+   ],
+   "source": "score: REN unbroken from 8280.10 (REN0) to 8355.37 (+3000, REN18); double 8342.13 +2850 (REN13), 8349.57 +2400 (REN14); vertical I at 8331.27 clears two non-adjacent coloured rows. BREAKs/None/duplicates are phantoms. /tmp/claude-0/c/corr/fr/g3/c118p1.png, /tmp/claude-0/c/corr/fr/g3/c118p1b.png"
+  },
+  {
+   "n": 89,
+   "id": "c118",
+   "side": "p2",
+   "op": "remove",
+   "t": 8299.6,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "phantom single: score REN for p2 runs unbroken TSD 8280.60 (REN0) to 8353.97 (+3322, double at REN16)"
+  },
+  {
+   "n": 89,
+   "id": "c118",
+   "side": "p2",
+   "op": "remove",
+   "t": 8314.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "phantom single: score REN for p2 runs unbroken TSD 8280.60 (REN0) to 8353.97 (+3322, double at REN16)"
+  },
+  {
+   "n": 89,
+   "id": "c118",
+   "side": "p2",
+   "op": "remove",
+   "t": 8330.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "phantom single: score REN for p2 runs unbroken TSD 8280.60 (REN0) to 8353.97 (+3322, double at REN16)"
+  },
+  {
+   "n": 89,
+   "id": "c118",
+   "side": "p2",
+   "op": "remove",
+   "t": 8349.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "phantom single: score REN for p2 runs unbroken TSD 8280.60 (REN0) to 8353.97 (+3322, double at REN16)"
+  },
+  {
+   "n": 89,
+   "id": "c118",
+   "side": "p2",
+   "op": "remove",
+   "t": 8282.13,
+   "was": [
+    "BREAK",
+    3,
+    0
+   ],
+   "source": "phantom BREAK: REN unbroken from 8280.60"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 66,
+   "id": "c095",
+   "player": "p1",
+   "field": "pieces",
+   "was": 44,
+   "value": 45,
+   "source": "KO-frame I lock at 7065.30 counts (/tmp/claude-0/c/corr/fr/g3/c095.png)"
+  },
+  {
+   "n": 66,
+   "id": "c095",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 8,
+   "source": "+1500 at 7065.37 = single at REN8 (/tmp/claude-0/c/corr/fr/g3/c095.png)"
+  },
+  {
+   "n": 67,
+   "id": "c099",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 0,
+   "value": 1,
+   "source": "BACK to BACK banner on the 7310.8 TSD (/tmp/claude-0/c/corr/fr/g3/c099.png)"
+  },
+  {
+   "n": 72,
+   "id": "c107",
+   "player": "p1",
+   "field": "pieces",
+   "was": 71,
+   "value": 65,
+   "source": "NEXT-shift count over the game (matches extractor A)"
+  },
+  {
+   "n": 72,
+   "id": "c107",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 12,
+   "value": 17,
+   "source": "score: REN17 (+2850) at 7808.83, unbroken from 7709.10"
+  },
+  {
+   "n": 73,
+   "id": "c107",
+   "player": "p2",
+   "field": "pieces",
+   "was": 76,
+   "value": 65,
+   "source": "67 NEXT shifts - 1 hold-into-empty - 1 unlocked last O (7808.2); matches A. /tmp/claude-0/c/corr/fr/g3/c107p2end.png"
+  },
+  {
+   "n": 73,
+   "id": "c107",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 13,
+   "value": 11,
+   "source": "score: REN0 at 7711.40 triple to REN11 at 7777.20, then breaks"
+  },
+  {
+   "n": 84,
+   "id": "c112",
+   "player": "p2",
+   "field": "pieces",
+   "was": 100,
+   "value": 96,
+   "source": "4 phantom pieces in the 7983.3-7986.6 window (/tmp/claude-0/c/corr/fr/g3/c112.png)"
+  },
+  {
+   "n": 85,
+   "id": "c117",
+   "player": "p1",
+   "field": "pieces",
+   "was": 60,
+   "value": 58,
+   "source": "two phantom pieces removed"
+  },
+  {
+   "n": 85,
+   "id": "c117",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 13,
+   "value": 11,
+   "source": "score: REN tops at +1950 (REN11) at 8252.13"
+  },
+  {
+   "n": 86,
+   "id": "c117",
+   "player": "p2",
+   "field": "pieces",
+   "was": 62,
+   "value": 61,
+   "source": "one phantom piece at 8242.17"
+  },
+  {
+   "n": 90,
+   "id": "c118",
+   "player": "p1",
+   "field": "pieces",
+   "was": 132,
+   "value": 126,
+   "source": "6 phantom pieces in the window"
+  },
+  {
+   "n": 90,
+   "id": "c118",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 18,
+   "source": "score: REN18 (+3000) at 8355.37"
+  },
+  {
+   "n": 89,
+   "id": "c118",
+   "player": "p2",
+   "field": "pieces",
+   "was": 108,
+   "value": 104,
+   "source": "four phantom singles"
+  },
+  {
+   "n": 89,
+   "id": "c118",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 17,
+   "value": 16,
+   "source": "score: REN16 at 8353.97, break at 8355.53"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 74,
+   "why": "covered by the n72/n73 replace_window for c107"
+  },
+  {
+   "n": 75,
+   "why": "covered by the n72/n73 replace_window for c107"
+  },
+  {
+   "n": 76,
+   "why": "covered by the n72/n73 replace_window for c107"
+  },
+  {
+   "n": 77,
+   "why": "covered by the n72/n73 replace_window for c107"
+  },
+  {
+   "n": 78,
+   "why": "covered by the n72/n73 replace_window for c107"
+  },
+  {
+   "n": 79,
+   "why": "covered by the n72/n73 replace_window for c107"
+  },
+  {
+   "n": 80,
+   "why": "covered by the n72/n73 replace_window for c107"
+  },
+  {
+   "n": 87,
+   "why": "score_spot explained by the n85 removals (phantom single 8232.67 and double 8237.07)"
+  },
+  {
+   "n": 88,
+   "why": "covered by the n85 removals for c117 p1"
+  },
+  {
+   "n": 91,
+   "why": "covered by the n89/n90 corrections for c118"
+  },
+  {
+   "n": 92,
+   "why": "covered by the n89/n90 corrections for c118"
+  },
+  {
+   "n": 93,
+   "why": "covered by the n89/n90 corrections for c118"
+  },
+  {
+   "n": 94,
+   "why": "covered by the n89/n90 corrections for c118"
+  },
+  {
+   "n": 95,
+   "why": "covered by the n89/n90 corrections for c118"
+  },
+  {
+   "n": 65,
+   "why": "S locked 7973.6; J spawned 6973.77 and held, T still in air at KO 6973.97 (/tmp/claude-0/c/corr/fr/g3/c093.png)"
+  },
+  {
+   "n": 68,
+   "why": "Z locked 7359.47, after KO 7359.43 (/tmp/claude-0/c/corr/fr/g3/c100.png)"
+  },
+  {
+   "n": 70,
+   "why": "I spawned 7401.03 held, T still falling at KO 7401.23 (/tmp/claude-0/c/corr/fr/g3/c101p1.png)"
+  },
+  {
+   "n": 71,
+   "why": "O still at top through KO 7518.27 (/tmp/claude-0/c/corr/fr/g3/c103.png)"
+  },
+  {
+   "n": 81,
+   "why": "L spawned 7848.23 floated to KO 7855.1, no lock, no score change (/tmp/claude-0/c/corr/fr/g3/c108.png)"
+  },
+  {
+   "n": 82,
+   "why": "same as n81: no lock before KO (/tmp/claude-0/c/corr/fr/g3/c108.png)"
+  },
+  {
+   "n": 83,
+   "why": "O locked 7921.70, one frame after KO 7921.67 (/tmp/claude-0/c/corr/fr/g3/c110.png)"
+  },
+  {
+   "n": 96,
+   "why": "+1350 at 8517.33 = single at REN7, not a TSS (~3450); plain clear correct"
+  },
+  {
+   "n": 97,
+   "why": "O from hold locked 8608.37 (+24, chain's 8608.2 None); next J still at top at KO 8608.6, no further score change (/tmp/claude-0/c/corr/fr/g3/c122.png)"
+  }
+ ]
+}

@@ -1,0 +1,558 @@
+{
+ "event_corrections": [
+  {
+   "n": 23,
+   "id": "c036",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3119.17,
+   "t_end": 3125.5,
+   "events": [
+    {
+     "t": 3119.17,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 3120.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3121.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3122.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3123.0,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3123.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3123.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3124.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3124.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3124.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3124.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3125.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3119.17,
+     "tsd",
+     2
+    ],
+    [
+     3119.43,
+     null,
+     0
+    ],
+    [
+     3119.67,
+     "tsd",
+     2
+    ],
+    [
+     3119.77,
+     null,
+     0
+    ],
+    [
+     3119.87,
+     "BREAK",
+     6
+    ],
+    [
+     3123.7,
+     "BREAK",
+     1
+    ],
+    [
+     3125.23,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "fr/g1/c036a.png, c036b.png; score.py: only one TSD (+3600 at 3119.80, one T-SPIN Double banner); stream frozen 3120.4-3123.5, +1470 at 3123.57 = single+double REN1 (1350)+drop, '1 REN' banner; nextcount c036p1.txt: queue ZSTJL->OLOZJ = Z,S,T,J,L spawned in freeze (order of single/double unknown); 3123.57-3125.77 drop points only"
+  },
+  {
+   "n": 24,
+   "id": "c036",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 3119.97,
+   "t_end": 3127.67,
+   "events": [
+    {
+     "t": 3119.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3120.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3121.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3121.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3122.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3123.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3123.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3123.77,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3124.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3125.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3126.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3126.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3126.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3126.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3127.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3127.35,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3127.47,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3119.97,
+     "tss",
+     1
+    ],
+    [
+     3120.43,
+     "BREAK",
+     1
+    ],
+    [
+     3123.7,
+     null,
+     0
+    ],
+    [
+     3123.7,
+     null,
+     0
+    ],
+    [
+     3124.07,
+     null,
+     0
+    ],
+    [
+     3124.17,
+     "tss",
+     1
+    ],
+    [
+     3125.03,
+     "single",
+     1
+    ],
+    [
+     3125.77,
+     "tst",
+     4
+    ],
+    [
+     3125.87,
+     null,
+     0
+    ],
+    [
+     3127.47,
+     "tsd",
+     2
+    ],
+    [
+     3127.67,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "fr/g1/c036b.png, c036c.png; score.py: +930 at 3120.33 (single REN4, not TSS); freeze 1 only +181 drop points (Z,O,Z,I,O per nextcount c036p2.txt); +2400 at 3124.33 with T-SPIN Single banner; tst(4) at 3125.77 phantom (J locked no clear); freeze 2 3125.6-3127.5; +5488 at 3127.57 = B2B TSD with T-SPIN Double + BACK to BACK banner"
+  },
+  {
+   "n": 27,
+   "id": "c036",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 3128.0,
+   "t_end": 3136.2,
+   "events": [
+    {
+     "t": 3128.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 3129.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3129.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3130.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3130.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3130.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3131.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 3131.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3130.37,
+     "quad",
+     4
+    ],
+    [
+     3130.8,
+     null,
+     0
+    ],
+    [
+     3131.27,
+     null,
+     0
+    ],
+    [
+     3131.57,
+     null,
+     0
+    ],
+    [
+     3131.67,
+     null,
+     0
+    ],
+    [
+     3131.87,
+     null,
+     0
+    ],
+    [
+     3136.2,
+     null,
+     0
+    ]
+   ],
+   "source": "score.py: +3768 at 3128.83 = B2B quad 3600 + REN1 150 + drop; spawn times from nextcount c036p2.txt; 3131.8-3137.2 game lag with p2 board unchanged (fr/g1/c036c.png)"
+  },
+  {
+   "n": 34,
+   "id": "c037",
+   "side": "p1",
+   "op": "add",
+   "t": 3181.9,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/k037.png: J locks on the KO frame 3181.90 (score 29095->29103, lock flash)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 21,
+   "id": "c036",
+   "player": "p1",
+   "field": "pieces",
+   "was": 118,
+   "value": 114,
+   "source": "nextcount c036p1.txt: 121-char stream - 5 in final queue = 116 spawns, -1 first hold, -1 unlocked last piece at 3145.967 = 114 (76 before 3119.17 + 12 in n23 window + 26 after)"
+  },
+  {
+   "n": 22,
+   "id": "c036",
+   "player": "p2",
+   "field": "pieces",
+   "was": 141,
+   "value": 143,
+   "source": "nextcount c036p2.txt + n24/n27 windows: 101+17+8+17 locks; last T (spawn 3145.83) locks before KO with +3750 TSS"
+  },
+  {
+   "n": 34,
+   "id": "c037",
+   "player": "p1",
+   "field": "pieces",
+   "was": 34,
+   "value": 35,
+   "source": "fr/g1/k037.png: KO-frame J lock (see n34 add)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 18,
+   "why": "c033 p1 +1350 at 2922.60 = double 900 + REN3 450, not a TSD (3600); chain double typing stands"
+  },
+  {
+   "n": 19,
+   "why": "c035 p2 +900 at 3052.16 is the chain's double spawned at 3052.03"
+  },
+  {
+   "n": 20,
+   "why": "fr/g1/c035p1.png: S locks at 3053.57, after the KO at 3053.53"
+  },
+  {
+   "n": 25,
+   "why": "covered by n24 replace_window"
+  },
+  {
+   "n": 26,
+   "why": "covered by n24 replace_window (tst at 3125.77 was a phantom; J locked with no clear, real clear was the B2B TSD)"
+  },
+  {
+   "n": 28,
+   "why": "c037 stream freezes 3161.9-3163.5 and jumps at 3164,3166,3168,3176,3178 with hidden score jumps; cannot be repaired from frames"
+  },
+  {
+   "n": 29,
+   "why": "fr/g1/c037a.png: T-SPIN Single + BACK to BACK + 1 REN banner at 3164.1; chain tss at 3164.0 stands"
+  },
+  {
+   "n": 30,
+   "why": "c037 skipped/frozen stream (fr/g1/c037t.png); nothing countable to correct"
+  },
+  {
+   "n": 31,
+   "why": "score.py c037score.txt: +5400 at 3168.60 confirms B2B TSD"
+  },
+  {
+   "n": 32,
+   "why": "score.py c037score.txt: +5400 at 3172.03 confirms B2B TSD"
+  },
+  {
+   "n": 33,
+   "why": "c037 tail uncountable: stream jump at 3178.0"
+  },
+  {
+   "n": 35,
+   "why": "fr/g1/k038.png: L still at top at KO 3206.73"
+  },
+  {
+   "n": 36,
+   "why": "fr/g1/k040.png: I still at top at KO 3512.70"
+  },
+  {
+   "n": 37,
+   "why": "fr/g1/k041.png: L still at top at KO 3550.73"
+  },
+  {
+   "n": 38,
+   "why": "score.py: soft-drop increments continue through the KO, piece still falling"
+  },
+  {
+   "n": 39,
+   "why": "fr/g1/k046.png: I locks at 3823.33, after KO 3823.30"
+  },
+  {
+   "n": 40,
+   "why": "score.py: p1 deltas +900,+1050,+1200 (4158.17),+1350 = singles at REN4..7; a TSS would be >=2400"
+  },
+  {
+   "n": 41,
+   "why": "fr/g1/k053.png: J locks at 4293.86, after KO 4293.83"
+  },
+  {
+   "n": 42,
+   "why": "fr/g1/k056.png + nextcount: O held at 4535.40, T comes out and locks at 4535.87 with a T-SPIN banner; +300 is a zero-line T-spin mini (a cleared line would continue the REN for >=1050), so the chain's no-clear lock at 4535.3 stands"
+  },
+  {
+   "n": 43,
+   "why": "score.py: soft-drop increments through 4536.80, piece still falling at KO 4536.83"
+  },
+  {
+   "n": 44,
+   "why": "score.py: +300 at 4621.47 with no combo = plain single; a T-spin mini single would score 600"
+  },
+  {
+   "n": 45,
+   "why": "fr/g1/k059.png: J still falling at KO 4717.87"
+  }
+ ]
+}
