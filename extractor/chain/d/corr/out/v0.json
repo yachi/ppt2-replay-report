@@ -1,0 +1,16 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 +2250 at 3140.70 = single 300 + REN13 1950 (prior single +2100 at 3139.77 = 300+REN12); a double would be +2850."},
+{"ref":"e1","verdict":"keep","why":"score.py: p1 +20 hard drop at 3141.47 then +3000 at 3141.50 = double 900 + REN14 2100, both before KO 3141.53."},
+{"ref":"e2","verdict":"keep","why":"score.py p1 3402-3408: clears at 3402.37,3403.33,3404.30,3405.17,3407.03,3407.93 (six, REN5..10) vs chain's seven singles 3393.73..3407.73; the 3403.13/3403.17 pair is the duplicate (one +20 drop, one +1200 at 3403.30/3403.33)."},
+{"ref":"e3","verdict":"keep","why":"score.py: REN steps +300,+450,+600,+750,double +1500(900+600),+1050,... +1800 continuous 3389.33-3407.93; no break."},
+{"ref":"e4","verdict":"keep","why":"nextcount p2: spawns 3392.233 (O), 3400.967 (T), 3405.067 (L, hold->T out); score +4800 TST at 3404.33 and +5550 (TSD B2B 5400 + REN1) at 3405.87; only soft-drop +1 steps otherwise. Three locks, one TST, one TSD. (TST spawn is 3400.97 per nextcount; 3401.27 acceptable.)"},
+{"ref":"e5","verdict":"keep","why":"nextcount p2: a single shift at 3487.867 then nothing until 3493.900; score +4 at 3493.80 only. Chain's 3487.97 is a duplicate spawn."},
+{"ref":"c0","verdict":"keep","why":"Checker's times are off by 1000 s (wrote 3415.87/3416.23; the game is at 2415-2416) but the facts hold at 2416: nextcount p1 S spawn 2415.967, score +14 at 2416.23 = KO frame, fr/v0/d000b.png shows S resting at 2416.23, no clear. Chain last event 2415.77."},
+{"ref":"c1","verdict":"keep","why":"S locked 3141.47 (+20) before KO 3141.53."},
+{"ref":"c2","verdict":"keep","why":"final double +3000 = 900+150*14."},
+{"ref":"c3","verdict":"keep","why":"fr/v0/d016.png: after the quad, T spawns ~3285.35, held at 3285.467 (nextcount), I drops vertically, score +24 at 3285.63 = KO frame. Chain ends at 3284.37 quad."},
+{"ref":"c4","verdict":"keep","why":"Window holds 3 locks per nextcount vs chain's 7 piece events (BREAK excluded): 93-4=89."},
+{"ref":"c5","verdict":"keep","why":"duplicate single removed, see e2."},
+{"ref":"c6","verdict":"keep","why":"11 consecutive clears 3389.33-3407.93 (REN0..REN10 by score), then +300 reset at 3409.73."},
+{"ref":"c7","verdict":"keep","why":"one spawn at 3487.867 per nextcount, see e5."}
+]

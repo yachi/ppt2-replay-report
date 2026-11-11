@@ -1,0 +1,20 @@
+{"event_corrections":[
+ {"n":38,"id":"d059","side":"p1","op":"remove","t":5651.93,"was":["single",1,0],"source":"score.py 5646-5673: p1 REN rises by exactly one step per clear: +1350 (REN7) at 5647.90, +1500 (REN8) at 5651.20, then nothing until +1650 (REN9) at 5660.97 (in-game lag stall 5652-5660; frames corr/fr/g3/d059a.png show one slowly falling piece). Only one clear lies between 5647.90 and 5660.97, but the chain has three singles there (5648.57, 5651.93, 5651.97). This one and 5651.97 are duplicates."},
+ {"n":40,"id":"d059","side":"p1","op":"remove","t":5651.97,"was":["single",1,0],"source":"same as the 5651.93 removal: the REN steps in the score (REN8 at 5651.20, REN9 at 5660.97) leave room for only one clear, which is chain 5648.57. corr/fr/g3/d059a.png"},
+ {"n":39,"id":"d059","side":"p2","op":"remove","t":5651.5,"was":["single",1,0],"source":"score.py: p2 +1530 (REN8) at 5650.83, then +1650 (REN9) at 5659.60 is the next clear (lag stall between them, with one piece falling slowly in corr/fr/g3/d059a.png). The chain has two singles, at 5651.43 and 5651.5, for that one clear. Every later REN step matches the chain singles up to REN19 at 5669.07."}
+],
+"cell_edits":[
+ {"n":38,"id":"d059","player":"p1","field":"pieces","was":95,"value":93,"source":"two duplicate singles removed in the REN stall window 5648.57-5661.07: a REN keeps every piece clearing, and the score shows 2 clears (2 pieces) there, not 4"},
+ {"n":38,"id":"d059","player":"p1","field":"max_combo","was":21,"value":19,"source":"score steps: the last REN step is single 300 + REN19 at 5671.30 (+3150); the triple at 5670.40 is +4200 = 1500 + REN18; 21 included the two duplicate singles"},
+ {"n":37,"id":"d059","player":"p2","field":"pieces","was":107,"value":106,"source":"one duplicate single removed (5651.43/5651.5 are a single clear at 5659.60)"},
+ {"n":37,"id":"d059","player":"p2","field":"max_combo","was":20,"value":19,"source":"score steps: highest REN is +3150 = single + REN19 at 5669.07; the next two locks (5670.00, 5670.20) clear nothing, which breaks the REN"}
+],
+"no_change":[
+ {"n":34,"why":"d054 p1: the +3600 B2B TETRIS lock is at 5394.93-5395.00 and p2's board is already tilting at 5394.87 (corr/fr/g3/d054ko.png), so it falls after the KO frame and does not count"},
+ {"n":35,"why":"d056 p1: score.py shows the last lock (+24) at 5502.53, which is the spawn the chain logged at 5502.3; the score does not change through 5503.2, so no further lock by the KO"},
+ {"n":36,"why":"d057 p2: the Z piece is still falling at the top of the board at KO 5545.1 (only a +1 soft-drop point); it has not locked (corr/fr/g3/d057ko.png)"},
+ {"n":41,"why":"d061 p2: the locks at 5763.30, 5763.53 and 5764.03 match the chain spawns 5763.07, 5763.3 and 5763.53; the score does not change again before the KO at 5764.37"},
+ {"n":42,"why":"d062 p2: the locks at 5806.43 and 5806.80 match the chain spawns 5806.1 and 5806.53; the score does not change after that through 5807.3"},
+ {"n":43,"why":"d064 p1: four locks between 5909.70 and 5910.70 match the four chain spawns 5909.63-5910.43; the score does not change after 5910.70 through 5911.3"},
+ {"n":44,"why":"d068 p1: the score rose +450 at 6065.97 = single 300 + REN1 150 (after the tetris +2400 at 6064.80). A TSS would add about 2400, so this is a plain single and the chain is correct"}
+]}

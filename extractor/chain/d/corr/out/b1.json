@@ -1,0 +1,18 @@
+{"event_corrections":[
+ {"n":15,"id":"d022","side":"p2","op":"retype","t":3574.2,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"score.py: p2 score jumps only at 3569.70 (+4800 TST), 3572.03 (+3600 B2B TSS), 3573.47 (+5550 B2B TSD+REN) and 3581.50 (+5400 B2B TSD); between 3573.93 and 3581.33 only drop points. Sheet fr/g1/d022a.png: after the TSD at 3573.47 the next pieces (I held at ~3574.2, L out 3574.4, O 3574.65, L 3574.9, Z 3575.15, J 3575.4) lock with no clear flash. The 3574.2 event is a plain lock (5 chain events for 5 pieces, count unchanged)."}
+],
+"cell_edits":[
+ {"n":17,"id":"d023","player":"p2","field":"pieces","was":89,"value":90,"source":"fr/g1/d023.png, fr/g1/d023b.png: S locks ~3641.30 (chain 3641.03); T spawns 3641.37 and is held, L comes out and locks on the 3641.62 frame (score 62996->63020, lock flash) which is the KO tilt frame; no clear. Chain has no event for it."},
+ {"n":21,"id":"d033","player":"p2","field":"pieces","was":50,"value":51,"source":"fr/g1/d033.png, fr/g1/d033b.png: S spawns 4082.27, locks at 4082.57 (score 34160->34186, lock flash), KO tilt begins 4082.60; no clear. Last chain event is 4082.07 (the I after T was held)."}
+],
+"no_change":[
+ {"n":14,"why":"T-SPIN Single banner at 3572.7 lingers from the B2B TSS cleared at 3572.03 (+3600); the 3572.7 piece is the TSD scoring +5550 at 3573.47. Chain tsd at 3572.7 is right."},
+ {"n":16,"why":"T-SPIN Double banner at 3573.53 belongs to the chain tsd at 3572.7 (score +5550 at 3573.47); the phantom tsd at 3574.2 is retyped under n15."},
+ {"n":18,"why":"score.py: jump at 3693.17 is +750 = single 300 + REN 450; then +1500 double+REN at 3694.20. A TSS would be >=2400. Plain single is correct."},
+ {"n":19,"why":"score.py: p1 jumps 3843.77..3847.53 are +900,+1050,+1200,+1350,+1500 = single 300 + rising REN; the 3847.13 piece's +1500 is a plain single, not a TSS."},
+ {"n":20,"why":"fr/g1/d031.png: O locks by 4018.53 (chain 4018.5); the I spawned ~4018.63 is still at the top at the KO 4018.93. No extra lock."},
+ {"n":22,"why":"score.py: jump at 4118.73 is +1500 = single 300 + REN 1200 (after a quad at 4117.60); a TSS would be larger. Plain single is correct."},
+ {"n":23,"why":"fr/g1/d034.png: O held at 4144.42, J out locks ~4144.6 (chain 4144.4); T spawns ~4144.75 and is still in the air at 4145.02 and at the tilt 4145.08. No extra lock."},
+ {"n":24,"why":"fr/g1/d035.png: O held ~4173.37, Z comes out and is still falling/soft-dropping at 4174.07 and at the tilt 4174.13, no lock flash and no new spawn by the KO. Not counted."}
+]}

@@ -19966,5 +19966,402 @@
   "pc": 0,
   "gc": 0,
   "source": "b3 frame check, verified: L spawns 4821.033 (nextcount), locks ~4821.04 (+28 drop, 86296->86324), single clear flash on a colored (non-garbage) row and 8 REN banner, score +1500 (300+8x150) by 4821.07-4821.10, at/before KO 4821.10 (fr/g3/n53.png)."
+ },
+ {
+  "id": "d013",
+  "side": "p1",
+  "op": "retype",
+  "t": 3140.5,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/s8.png: J locks 3140.63, ONE row clears (thin white band 3140.70); score +2250 at 3140.70 = single 300 + REN13 1950 (a double would be +2850)."
+ },
+ {
+  "id": "d013",
+  "side": "p1",
+  "op": "add",
+  "t": 3141.37,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/s8.png: S spawns 3141.37, hard-drops and locks 3141.43 (before KO 3141.53), two coloured rows clear (3141.50); score +20 then +3000 at 3141.50 = double 900 + REN14 2100."
+ },
+ {
+  "id": "d019",
+  "side": "p1",
+  "op": "remove",
+  "t": 3403.17,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b0 frame check, verified: duplicate of 3403.13: fr/g0/s11.png shows one Z lock (single) at 3403.33 between the L single 3402.37 and the I single 3404.30; score shows one +20 drop and one +1200 clear (REN6) there."
+ },
+ {
+  "id": "d019",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3392.7,
+  "source": "b0 frame check, verified: false REN break: score clears 3389.33 +300 (REN0), 3390.47 +450, 3391.30 +600, 3392.10 +750, 3392.93 double +1500 (900+REN4), 3402.37 +1050 (REN5) ... 3407.93 +1800 (REN10); REN never broke. Stream lag 3394-3401 (fr/g0/s10.png).",
+  "t_end": 3392.7,
+  "events": [],
+  "was_old": [
+   [
+    3392.7,
+    "BREAK",
+    4
+   ]
+  ]
+ },
+ {
+  "id": "d019",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3392.23,
+  "t_end": 3405.07,
+  "events": [
+   {
+    "t": 3392.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3401.27,
+    "kind": "tst",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3405.07,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3392.23,
+    null,
+    0
+   ],
+   [
+    3392.47,
+    null,
+    0
+   ],
+   [
+    3399.77,
+    null,
+    0
+   ],
+   [
+    3400.97,
+    "tst",
+    3
+   ],
+   [
+    3403.6,
+    null,
+    0
+   ],
+   [
+    3404.07,
+    "BREAK",
+    3
+   ],
+   [
+    3404.3,
+    "tst",
+    3
+   ],
+   [
+    3405.07,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b0 frame check, verified: stream lag 3393-3400 (fr/g0/s10.png): O spawned ~3392.2 falls in slow motion, locks ~3400.9; T spawns 3401.27, locks ~3404.3 with the only T-SPIN Triple (score +4800 at 3404.33); L spawned and swapped for held T, TSD B2B +5550 (5400+REN1) at 3405.87 (fr/g0/s12.png). Only 3 locks, one TST; chain had 7 locks, two TSTs and a false BREAK (TST->TSD is REN1)."
+ },
+ {
+  "id": "d021",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3487.97,
+  "source": "b0 frame check, verified: fr/g0/s13.png: stream lag; S spawned ~3487.9 falls slowly and locks ~3493.8 (one +4 score step), then T at 3494.0. Chain logs two spawns 3487.87/3487.97 for that one S; hold unchanged (T) throughout.",
+  "t_end": 3487.97,
+  "events": [],
+  "was_old": [
+   [
+    3487.97,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "d022",
+  "side": "p2",
+  "op": "retype",
+  "t": 3574.2,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: score.py: p2 score jumps only at 3569.70 (+4800 TST), 3572.03 (+3600 B2B TSS), 3573.47 (+5550 B2B TSD+REN) and 3581.50 (+5400 B2B TSD); between 3573.93 and 3581.33 only drop points. Sheet fr/g1/d022a.png: after the TSD at 3573.47 the next pieces (I held at ~3574.2, L out 3574.4, O 3574.65, L 3574.9, Z 3575.15, J 3575.4) lock with no clear flash. The 3574.2 event is a plain lock (5 chain events for 5 pieces, count unchanged)."
+ },
+ {
+  "id": "d036",
+  "side": "p1",
+  "op": "add",
+  "t": 4207.97,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b2 frame check, verified: fr/g2/d036a.png: I piece spawned after the 4207.23 double, dropped vertically into the garbage well and landed at 4208.30 (drop points 32215->32249 on that frame, = KO frame end_s 4208.3); flash of 2 bottom grey garbage rows at 4208.34, score 32249->35399 (+3150 = previous double's +3000 plus one REN step), REN counter 14->15. Lock at the KO frame, so it counts."
+ },
+ {
+  "id": "d041",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 4415.57,
+  "t_end": 4418.03,
+  "events": [
+   {
+    "t": 4416.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4416.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4416.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4417.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4417.43,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4417.8,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4418.03,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4415.57,
+    null,
+    0
+   ],
+   [
+    4415.57,
+    null,
+    0
+   ],
+   [
+    4415.57,
+    "single",
+    1
+   ],
+   [
+    4416.1,
+    null,
+    0
+   ],
+   [
+    4416.57,
+    null,
+    0
+   ],
+   [
+    4416.87,
+    null,
+    0
+   ],
+   [
+    4417.1,
+    null,
+    0
+   ],
+   [
+    4417.43,
+    null,
+    0
+   ],
+   [
+    4417.8,
+    null,
+    0
+   ],
+   [
+    4418.03,
+    null,
+    0
+   ]
+  ],
+  "source": "b2 frame check, verified: fr/g2/d041b1.png, d041b2.png, d041b3.png + score.py: after the TETRIS lock (4415.27, score 32088->35688) the next score change is 4416.53; no single there (no +300-class jump). Plain locks (drop points) at 4416.53 S, 4416.80 Z, 4417.00 S, 4417.37 Z, 4417.70 J, 4417.97 O, 4418.20 J (out of hold; L held) = 7, then T soft-drop and TSD at 4418.80. Chain had 10 events incl. a phantom single gc1, three stacked at 4415.57 (the 'double shift k=3 at frame 821' anomaly)."
+ },
+ {
+  "id": "d041",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 4425.63,
+  "source": "b2 frame check, verified: fr/g2/d041c.png + score.py: 4425.03 +768 (single 300 + REN 450 + drops; L on the left clears the stack row above the garbage, row flash at 4425.05) and 4426.27/4426.30 +20/+900 (Z single, REN 4) — two singles and no plain lock between them; the chain's None at 4425.63 is the first single. gc 0 from the flashed row being the coloured stack row (moderate confidence). [merge: the chain holds a None and a gc-1 single at 4425.63; the window keeps the single and turns the None into the missed one, so two singles as the score shows]",
+  "t_end": 4425.63,
+  "events": [
+   {
+    "t": 4425.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4425.63,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    4425.63,
+    null,
+    0
+   ],
+   [
+    4425.63,
+    "single",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "d048",
+  "side": "p2",
+  "op": "add",
+  "t": 5089.77,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/d048.png: T spawned ~5089.74, locked at 5089.97 (score +32) before KO 5090.0, no row cleared"
+ },
+ {
+  "id": "d059",
+  "side": "p1",
+  "op": "remove",
+  "t": 5651.93,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: score.py 5646-5673: p1 REN rises by exactly one step per clear: +1350 (REN7) at 5647.90, +1500 (REN8) at 5651.20, then nothing until +1650 (REN9) at 5660.97 (in-game lag stall 5652-5660; frames corr/fr/g3/d059a.png show one slowly falling piece). Only one clear lies between 5647.90 and 5660.97, but the chain has three singles there (5648.57, 5651.93, 5651.97). This one and 5651.97 are duplicates."
+ },
+ {
+  "id": "d059",
+  "side": "p1",
+  "op": "remove",
+  "t": 5651.97,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: same as the 5651.93 removal: the REN steps in the score (REN8 at 5651.20, REN9 at 5660.97) leave room for only one clear, which is chain 5648.57. corr/fr/g3/d059a.png"
+ },
+ {
+  "id": "d059",
+  "side": "p2",
+  "op": "remove",
+  "t": 5651.5,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: score.py: p2 +1530 (REN8) at 5650.83, then +1650 (REN9) at 5659.60 is the next clear (lag stall between them, with one piece falling slowly in corr/fr/g3/d059a.png). The chain has two singles, at 5651.43 and 5651.5, for that one clear. Every later REN step matches the chain singles up to REN19 at 5669.07."
+ },
+ {
+  "id": "d000",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2371.3,
+  "source": "b4 frame check, verified: Stream lag stall 2371.0-2381.4 (corr/fr/g4/d000a.png): one Z, spawned at 2371.00 (NEXT shift ZTIJL>TIJLS, chain event 2371.0), falls in slow motion and locks ~2381.4 by gravity (score stays 252 for p1 from 2370.90 to 2381.5); hold stays J and the NEXT queue TIJLS does not move until the T spawns at 2381.40 (shift TIJLS>IJLSZ, chain event 2381.4). Only one lock in the window; chain events 2371.3 and 2380.9 have no spawn.",
+  "t_end": 2371.3,
+  "events": [],
+  "was_old": [
+   [
+    2371.3,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "d000",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2380.9,
+  "source": "b4 frame check, verified: same stall as the 2371.3 removal: no NEXT shift and no hold change between 2371.00 and 2381.40, one piece (Z) on the board throughout corr/fr/g4/d000a.png.",
+  "t_end": 2380.9,
+  "events": [],
+  "was_old": [
+   [
+    2380.9,
+    null,
+    0
+   ]
+  ]
  }
 ]

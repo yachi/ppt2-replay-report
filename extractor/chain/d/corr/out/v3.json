@@ -1,0 +1,9 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 REN steps +1350 (REN7) 5647.90, +1500 (REN8) 5651.20, +1650 (REN9) 5660.97, then +150 per step to +3150 (single+REN19) at 5671.30. Sheet corr/fr/v3/d059a.png: REN banner 7 then 8 (~5651.6) then 9 (~5661.5); between them only a green S (falls 5648.9-5650.7, REN8) and a blue J falling slowly through the lag stall (REN9). Chain has 4 clear pieces (5648.57, 5651.93, 5651.97, 5661.07) for 2 real ones; 5661.07 aligns with REN9, so 5651.93 is a duplicate."},
+{"ref":"e1","verdict":"keep","why":"Same evidence as e0: only one clear (REN8, 5651.20) between REN7 and REN9, and it precedes the 5651.9x events; 5651.97 is the second duplicate."},
+{"ref":"e2","verdict":"keep","why":"score.py p2: +1530 REN8 at 5650.83 (chain 5650.6), next clear +1650 REN9 at 5659.60 after the stall (red Z falling slowly in corr/fr/v3/d059a.png, REN banners 8 then 9), then REN10 at 5660.53 matching chain 5660.23; 10 score clears 5660.53-5669.07 match the 10 chain singles 5660.23-5668.6. So 5651.43/5651.5 are one clear; remove one."},
+{"ref":"c0","verdict":"keep","why":"Frames show two pieces (S, J) between REN7 and REN9 where the chain has four; a REN has no non-clearing locks, so pieces 95 -> 93."},
+{"ref":"c1","verdict":"keep","why":"REN increments by exactly 150 per clear from REN3 (5644.53) to +3150 = 300+REN19 at 5671.30; triple +4200 = 1500+REN18 at 5670.40. Max REN 19."},
+{"ref":"c2","verdict":"keep","why":"One duplicate single in the stall (see e2): pieces 107 -> 106."},
+{"ref":"c3","verdict":"keep","why":"p2 top REN step +3150 at 5669.07 (single+REN19); 5670.00 +32 and 5670.20 +30 are plain locks, breaking the REN; the TSD at 5671.57 is +3600 with no REN bonus. Max REN 19."}
+]

@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v2/d036.png: I in p1's well at 4208.30, the first frame of the KO tilt (score 32215->32249); two bottom rows flash, score 35399 at the next frame, REN banner 14->15. It locks on the KO frame, so it counts. The t 4207.97 is early (the I is still at the top at 4208.27) but does not collide with another event; 4208.23 would be closer."},
+{"ref":"e1","verdict":"keep","why":"fr/v2/d041a.png + score.py 4414-4419.2: no score jump after TETRIS 35688 until the S drop at 4416.53. Z held 4416.10, S out of hold, no clear. Seven drop-point steps (4416.53, .80, 4417.00, .37, .70, .97, 4418.23) before the TSD at 4418.80, so 7 locks, no single."},
+{"ref":"e2","verdict":"keep","why":"fr/v2/d041c.png + score.py: L lock flashes the coloured stack row at 4425.05 (+768); I held, Z clears a row at 4426.35 (+20,+900); triple at 4427.50 (+2268). Three clears with no plain lock between them, so the chain's None at 4425.63 is the first single. gc 0 is consistent with the flashed row being the coloured row above the garbage."},
+{"ref":"e3","verdict":"keep","why":"fr/v2/d048.png: p2 T spawns ~5089.73 and is at the floor at 5090.00 (score 24253->24285, the KO tilt frame for p1); no row flash. One more lock on the KO frame, no clear."},
+{"ref":"c0","verdict":"keep","why":"Same I lock on the KO frame 4208.30 as e0."},
+{"ref":"c1","verdict":"keep","why":"15 REN banner visible from 4208.37 (fr/v2/d036.png)."},
+{"ref":"c2","verdict":"keep","why":"7 real locks against the chain's 10 events in 4415.57-4418.03 (score.py drop steps, fr/v2/d041a.png), so 243-3 = 240."},
+{"ref":"c3","verdict":"keep","why":"T lock at the KO frame 5090.00 (fr/v2/d048.png), +1 piece."}
+]
