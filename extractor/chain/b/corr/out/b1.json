@@ -1,0 +1,29 @@
+{"event_corrections":[
+ {"n":23,"id":"b046","side":"p1","op":"replace_window","t":4506.1,"t_end":4506.1,"events":[],"was_old":[[4506.1,null,0],[4506.1,null,0],[4506.1,null,0]],"source":"Frames 4505.30-4506.58 (corr/fr/g1/b046a.png): O spawns 4505.38, is held, I comes out and makes a TETRIS (flash 4505.70-4506.10); next spawn J at 4506.58. No piece spawns or locks between 4505.4 and 4506.5, so the three None locks at 4506.10 are phantoms (read during the clear flash). nextcount (corr/fr/g1/nc46.txt) shows no shift there either."},
+ {"n":29,"id":"b054","side":"p1","op":"retype","t":4796.77,"was":["double",2,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"corr/fr/g1/b054d.png: the O at 4796.77 clears only its bottom row (one-row flash 4796.80, the O's top half stays); REN counter goes 8->9; score +1650 at 4796.83 = single 300 + 9x150 REN (a double would be 2250). The cleared row is a coloured player row, not garbage."},
+ {"n":29,"id":"b054","side":"p1","op":"add","t":4797.47,"kind":"double","lines":2,"pc":0,"gc":2,"source":"corr/fr/g1/b054ko.png: J spawns 4797.47 (NEXT shifts), hard-dropped into the column-3 garbage well and locks on the KO frame 4797.70 (score +12 hard-drop at 4797.70); two-row clear flash at 4797.77 over the top garbage rows; score +2400 at 4797.80 = double 900 + 10x150 REN (single would be 1800, triple 3000). Lock is at end_s, so it counts."},
+ {"n":31,"id":"b057","side":"p1","op":"add","t":4873.33,"kind":null,"lines":0,"pc":0,"gc":0,"source":"corr/fr/g1/b057ko.png: J spawns 4873.33 and is held, T comes out and locks vertically in column 8 at 4873.60 (lock streak, score +6 at 4873.60), before the KO 4873.63; no clear flash, no line cleared."},
+ {"n":33,"id":"b059","side":"p2","op":"retype","t":4947.57,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"corr/fr/g1/b059.png: the T at ~4947.5 is a zero-line T-spin (T-SPIN banner, no row flash, board rows unchanged); score +300 at 4947.53 (a mini single would be 600, plus REN). The next clear (triple, +1500 at 4948.33) carries no REN bonus, so the previous lock cleared nothing. The 4947.57 event is the following O lock, which clears nothing."},
+ {"n":37,"id":"b066","side":"p1","op":"retype","t":5237.37,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"corr/fr/g1/b066a.png, b066z.png: Z spawns 5237.37, is held, O comes out and fills the second row (a full player row, not garbage); one-row clear flash at 5237.53, REN counter 6->7; score +1350 at 5237.57 = single 300 + 7x150. This single breaks B2B, so the TSS at 5239.93 scored 2400 (+2400 at 5240.60), not B2B 3600, which is the -1200 the spot flagged."}
+],
+"cell_edits":[
+ {"n":23,"id":"b046","player":"p1","field":"pieces","was":163,"value":160,"source":"nextcount over 4472.13-4554.03: init + 161 queue shifts = 162 spawns (gap 4496.46-4496.70 shows no missed shift: queue JOITS before and after); minus 1 hold-into-empty at the start, minus the T out of hold at 4553.73 that had not locked by the KO (corr/fr/g1/b046ko.png) = 160 locks. Matches the 163 chain events less the 3 phantoms at 4506.10."},
+ {"n":29,"id":"b054","player":"p1","field":"pieces","was":39,"value":40,"source":"J spawned 4797.47 locks on the KO frame 4797.70 (corr/fr/g1/b054ko.png)."},
+ {"n":29,"id":"b054","player":"p1","field":"max_combo","was":9,"value":10,"source":"On-screen REN counter reaches 9 after the 4796.8 single and the KO-frame double is REN 10 (+2400 = 900 + 10x150)."},
+ {"n":31,"id":"b057","player":"p1","field":"pieces","was":41,"value":42,"source":"T locks at 4873.60, before the KO 4873.63 (corr/fr/g1/b057ko.png)."},
+ {"n":37,"id":"b066","player":"p1","field":"max_combo","was":6,"value":7,"source":"On-screen counter shows 7 REN after the 5237.37 single (corr/fr/g1/b066a.png); score +1350 = 300 + 7x150."}
+],
+"no_change":[
+ {"n":24,"why":"b046 p1: T out of hold (swap at 4553.73) is still being soft-dropped (score +1/+2 per frame to 4554.00); no lock/spawn confirmed by KO 4554.03 (corr/fr/g1/b046ko.png). Pieces edit under n=23 already excludes it."},
+ {"n":25,"why":"b047 p2: the +74 is two plain hard-drop locks (+35 at 4576.23, +38 at 4576.30) matching chain locks 4576.27/4576.40; no clear."},
+ {"n":26,"why":"b047 p2: L spawned 4577.33 is still at the top at the KO 4577.47 (corr/fr/g1/b047ko.png)."},
+ {"n":27,"why":"b049 p1: Z spawned 4651.23, score unchanged (44266) through KO 4651.33; no lock."},
+ {"n":28,"why":"b052 p2: O spawned 4742.90 sits at the top unlocked through the KO 4743.63 (corr/fr/g1/b052ko.png)."},
+ {"n":30,"why":"b055 p2: Z spawned 4816.23 still at the top at the KO 4816.43 (corr/fr/g1/b055ko.png)."},
+ {"n":32,"why":"b058 p2: J still soft-dropping (score +1 per frame past KO 4909.73), not locked (corr/fr/g1/b058ko.png)."},
+ {"n":34,"why":"b061 p1: piece spawned 5027.87 still soft-dropping, score rising +1 per frame through 5028.30, past the KO 5028.27; no lock."},
+ {"n":35,"why":"b062 p2: I spawned 5102.47 at the top unlocked at KO 5102.60 (corr/fr/g1/b062ko.png)."},
+ {"n":36,"why":"b065 p2: piece spawned 5213.50 still soft-dropping (+1 per frame to 5213.97, past KO 5213.93); no lock."},
+ {"n":38,"why":"b066 p1: piece spawned 5277.40 was held at 5277.50; nothing locks by KO 5277.53."},
+ {"n":39,"why":"b067 p1: L spawned 5313.27 still at the top at KO 5313.50 (corr/fr/g1/b067ko.png)."}
+]}

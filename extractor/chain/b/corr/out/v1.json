@@ -1,0 +1,13 @@
+[
+ {"ref":"e0","verdict":"keep","why":"nextcount p1 4505.2-4507.0: O held at 4505.47, next shift only at 4506.53, so no spawn/lock between the tetris and the 4506.53 piece; score has no p1 change 4505.70-4506.70, and the triple's +1800 carries a REN-2 bonus, impossible if three non-clearing locks intervened."},
+ {"ref":"e1","verdict":"keep","why":"score.py: +12 lock at 4796.80 then +1650 at 4796.83 = single 300 + 9x150 REN; a double would be 2250."},
+ {"ref":"e2","verdict":"keep","why":"corr/fr/v1/b054.png: at 4797.70 (KO frame) the J is already locked in the well with lock streak and score 21114 (+12); clear flash 4797.77 and +2400 = double 900 + 10x150 REN."},
+ {"ref":"e3","verdict":"keep","why":"corr/fr/v1/b057.png: T stands vertical at 4873.60 and shows the lock streak with +6 (19194) at 4873.63 = KO frame, so it locks on end_s; no row cleared. Lock is at 4873.63 rather than 4873.60, still counts."},
+ {"ref":"e4","verdict":"keep","why":"score.py p2: +300 at 4947.53 (mini T-spin zero-line at level 3), and the triple at 4948.33 is exactly +1500 with no REN bonus, so the T cleared no line; tsmini 1 line is wrong."},
+ {"ref":"e5","verdict":"keep","why":"score.py p1: +34 lock at 5237.50 then +1350 at 5237.57 = single 300 + 7x150 REN; TSS later scores +2400 (non-B2B), consistent with a single breaking B2B."},
+ {"ref":"c0","verdict":"keep","why":"Consistent with e0 (three phantom locks removed, 163->160) and nextcount of the window; KO-tail T not locked per checker's sheet."},
+ {"ref":"c1","verdict":"keep","why":"corr/fr/v1/b054.png: J locked on the KO frame 4797.70."},
+ {"ref":"c2","verdict":"keep","why":"REN bonuses +9x150 then +10x150 on screen score imply REN 10."},
+ {"ref":"c3","verdict":"keep","why":"corr/fr/v1/b057.png: T locks at 4873.63, the KO frame, so it counts."},
+ {"ref":"c4","verdict":"keep","why":"+1350 = 300 + 7x150 implies a REN 7."}
+]

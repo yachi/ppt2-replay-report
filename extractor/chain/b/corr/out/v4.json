@@ -1,0 +1,47 @@
+[
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "nc record b069_p2: multi [], no bad bags/missing/conflicts/unknowns; score.py start 5406.90/5407.20 locks match events 5406.67/5406.97, end 5453.73 (+8) and 5454.60 (+10) = last events 5453.43/5453.83, nothing after to KO 5455.33."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "nc b079_p1 clean (multi [], no unknowns); score.py first lock 5901.43 = event 5901.23; end locks 6007.73 (+22) and 6008.07 (+24) = events 6007.37/6007.83 before KO 6008.13."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Lag window checked on a sheet (fr/v4/b079a.png, 5926-6002): game in slow motion, I spawned ~5930 is held 5948 (not locked), Z falls and locks ~5967-5971 (score 20657->22307), O held ~5990 after reaching the floor, I locks ~6001 -- exactly the recount's shifts/holds, no hidden spawns. nc record clean (multi [], no unknowns)."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "nc b081_p2 multi [], no unknowns; checker's +1 GO-spawn and -1 unlocked KO piece consistent with score.py notes; count 199 = chain events."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "nc b094_p1 multi [], one slot-colour conflict at 6882.06 (identity only, not count); start lock 5761.93? score 38 at 6761.93 = event 6761.83; count 235 = events."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "nc b094_p2 clean; first lock 6762.10 = event 6761.83; end per checker score evidence; 253 = events."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "nc b095_p1 multi [], one identity conflict only; score.py: lock 7053.07 (+30) = event 7052.77 counted, next lock 7053.40 after KO 7053.33 not counted. 99 = events."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "nc b095_p2 clean; score.py p2 locks up to 7052.57, 57875 unchanged to KO; first lock 6931.10 = event 6930.93. 94 = events."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "nc b101_p2 clean; first locks 8493.07/8493.23 = events 8492.87/8493.13; p2 score 92390 unchanged 8582.0-8583.17 to KO. 131 = events."
+ }
+]

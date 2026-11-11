@@ -1,0 +1,207 @@
+{
+ "event_corrections": [
+  {
+   "n": 90,
+   "id": "b101",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 8512.93,
+   "t_end": 8514.07,
+   "events": [
+    {
+     "t": 8514.03,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     8512.93,
+     "single",
+     1
+    ],
+    [
+     8514.03,
+     "quad",
+     4
+    ],
+    [
+     8514.03,
+     "triple",
+     3
+    ],
+    [
+     8514.07,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "Stream freezes ~8507.9-8512.7 (pieces hang mid-air; corr/fr/g3/b101a.png). nextcount p2: only Z (spawn 8505.97) and I (8514.03) spawn in the window. p2 score jumps: 8505.33 +600 (REN2), 8513.37 +750 (Z single REN3), 8514.20 +3028 (TETRIS REN4 = 2400+600), 8515.23 next clear. Frames 8514.1-8514.9 show one vertical I clearing 4 garbage rows with TETRIS banner and REN continuing to 5 (corr/fr/g3/b101b.png). So the 8512.93 single (no spawn, no score jump) and the 8514.03 triple are phantoms, and the BREAK at 8514.07 is wrong (REN continues). Pieces cell not edited: chain_games pieces (140) does not equal the event count (133) here, so the effect on pieces is unclear; if pieces follow events it should drop by 2."
+  },
+  {
+   "n": 93,
+   "id": "b107",
+   "side": "p1",
+   "op": "retype",
+   "t": 8781.67,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "corr/fr/g3/b107.png: T locks at ~8781.5 into the hole left of the well; board unchanged (no row cleared); banner is 'Mini T-SPIN' with no 'Single'; score +300 at 8781.63 (zero-line mini). Next clear 8783.03 is +300 (REN starts fresh), then +450..+2250 for the 14 chain singles 8782.5-8794.13, so the singles are right and the -2622 residual is this phantom line."
+  },
+  {
+   "n": 95,
+   "id": "b109",
+   "side": "p1",
+   "op": "remove",
+   "t": 8851.8,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Stream freeze 8851.6-8855.9 (no score change for either player). nextcount p1: spawns 8848.53, 8849.63, 8850.67, 8851.63, 8856.77, 8857.67, 8858.93; none at 8851.8. Score jumps after the 8847.7 quad: +450, +1200(double), +750, +900, +1050, +1200, +1350 = 7 clears vs chain's 8 (singles at 8851.63 and 8851.8 both). The 8851.63 piece clears at 8856.00 (+900 REN4); 8851.8 is a duplicate."
+  },
+  {
+   "n": 103,
+   "id": "b118",
+   "side": "p1",
+   "op": "retype",
+   "t": 9479.37,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 1,
+   "source": "corr/fr/g3/b118.png: S locks at ~9479.5 and clears one (garbage) row; score +2250 at 9479.60 = single REN13 (300+1950). The one TETRIS is the I at ~9480.3 (+4500 = 2400+2100 REN14), which is the chain's 9480.43 quad. Explains the -3126 residual."
+  },
+  {
+   "id": "b101",
+   "side": "p2",
+   "op": "retype",
+   "t": 8514.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Added after the skeptic's aside, checked by the coordinator: O spawns 8514.94 and is held (HOLD shows O at 8515.15), the S drops into the well and two rows flash at 8515.22 (corr/fr/me/b101c.png). p2 score +1650 at 8515.23 = double 900 + REN5 750; a single would be 1050. Rows cleared are the red stack rows above the garbage, so gc 0."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 89,
+   "id": "b100",
+   "player": "p1",
+   "field": "pieces",
+   "was": 47,
+   "value": 48,
+   "source": "corr/fr/g3/b100.png: L spawned 8485.77 and is landed on the stack in the 8485.90 (=end_s) frame, score 33956->33992 (+36 hard drop); no clear (no flash, row not full). Locks on the KO frame, so it counts."
+  },
+  {
+   "n": 93,
+   "id": "b107",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 14,
+   "value": 13,
+   "source": "The 8781.67 'tsmini' cleared no line (see retype), so the REN chain is the 14 singles 8782.5-8794.13: score bonus runs +300..+2250 = REN 0..13."
+  },
+  {
+   "n": 93,
+   "id": "b107",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 2,
+   "value": 1,
+   "source": "Only TST (8771.73) -> TSD (8773.77) are back-to-back; the 8781.67 mini cleared no line so it does not extend B2B."
+  },
+  {
+   "n": 95,
+   "id": "b109",
+   "player": "p1",
+   "field": "pieces",
+   "was": 141,
+   "value": 140,
+   "source": "Phantom single at 8851.8 removed (no spawn there per nextcount); pieces equals the event count (141) for this player-game."
+  },
+  {
+   "n": 102,
+   "id": "b115",
+   "player": "p2",
+   "field": "pieces",
+   "was": 27,
+   "value": 28,
+   "source": "corr/fr/g3/b115.png: Z spawned 9266.40, hard-dropped and locked in the 9266.73 (=end_s) frame, score 16192->16222; no clear."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 88,
+   "why": "b099 p1 8393.33: score +1650 at 8393.40 = single at REN9 (300+1350) in a run 600,750,...,1650; a TSS would be ~3750. Plain single is right."
+  },
+  {
+   "n": 91,
+   "why": "b101 p1 gap: stream freeze 8507.9-8512.7. Spawns (nextcount) and score jumps (+1200 8507.03, +1350 8514.53 O from hold, +2100 double 8515.67, +900 double 8517.00) match the chain's singles at 8506.3/8507.8, doubles at 8515.3/8516.87."
+  },
+  {
+   "n": 92,
+   "why": "b105 p1: L spawned 8717.77 still above the stack at the KO; it vanishes without locking and the score stays 25494 (corr/fr/g3/b105.png)."
+  },
+  {
+   "n": 94,
+   "why": "Handled under n=93: the Mini T-SPIN banner is real but for a zero-line mini; tsmini retyped to a plain lock."
+  },
+  {
+   "n": 96,
+   "why": "Handled under n=95 (phantom 8851.8 removed); other events in the gap match spawns and score jumps."
+  },
+  {
+   "n": 97,
+   "why": "b109 p1 8878.57: score +450 at 8878.83 = single at REN1; a TSS would be ~2550+. Plain single is right."
+  },
+  {
+   "n": 98,
+   "why": "b109 p2: O spawned ~8920.2 still at the top at the KO 8920.33; score unchanged after 8920.13 (corr/fr/g3/b109k.png)."
+  },
+  {
+   "n": 99,
+   "why": "b111 p1: last score change 9058.97 (lock of the 9058.77 piece); no change through the KO 9059.23, so the next piece did not lock."
+  },
+  {
+   "n": 100,
+   "why": "b112 p1: last score change 9132.93; no change through the KO 9133.23."
+  },
+  {
+   "n": 101,
+   "why": "b113 p2: the last piece is soft dropping at the KO (+1 at 9210.47/9210.50); no lock by 9210.53, score unchanged afterward."
+  },
+  {
+   "n": 104,
+   "why": "b124 p1: last change is the 10716.53 quad; no change through the KO 10717.57."
+  },
+  {
+   "n": 105,
+   "why": "b128 p1: piece still soft dropping (+1 per frame to 10889.87) after the KO at 10889.80; no lock by end_s."
+  },
+  {
+   "n": 106,
+   "why": "b131 p1: J spawned ~11036.1 still at the top at the KO 11036.5; score unchanged (corr/fr/g3/b131.png)."
+  }
+ ]
+}

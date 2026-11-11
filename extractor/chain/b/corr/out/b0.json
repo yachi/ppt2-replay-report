@@ -1,0 +1,195 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "b000",
+   "side": "p1",
+   "op": "retype",
+   "t": 1554.73,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T locked ~1554.47 in mid-stack, no row became full; board identical before/after (corr/fr/g0/i0z.png, i0.png). Score +300 at 1554.70 = zero-line Mini T-spin (100x3), not a Mini TSS (600). Small T-SPIN banner = zero-line mini."
+  },
+  {
+   "n": 1,
+   "id": "b002",
+   "side": "p2",
+   "op": "retype",
+   "t": 1621.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "Score +5400 at 1622.30 (TSD 3600 x1.5 B2B); 'T-SPIN Double / BACK to BACK' banner visible at 1622.4 (corr/fr/g0/b002a.png)."
+  },
+  {
+   "n": 2,
+   "id": "b002",
+   "side": "p2",
+   "op": "retype",
+   "t": 1623.03,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "1623.0-1623.4: O swapped with held S, S locks at ~1623.3 with no clear (score only +36 drop points, 16401->16437); then the stream goes to the Switch home menu (paused) until ~1629.0 and the game ends at 1629.16 with p2 16623 (+186, no clear). No TETRIS anywhere (corr/fr/g0/b002b.png, b002a.png, b002c.png)."
+  },
+  {
+   "n": 4,
+   "id": "b002",
+   "side": "p1",
+   "op": "remove",
+   "t": 1623.03,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "nextcount p1: no spawn between 1621.467 and the pause at 1623.43; frames 1621.75-1623.4 show the same red Z hanging at the top, unlocked, score flat at 757 (corr/fr/g0/b002d.png). The game was paused (home menu) 1623.5-1629.0 and ended immediately on resume. 1623.03 is a phantom spawn."
+  },
+  {
+   "n": 8,
+   "id": "b006",
+   "side": "p2",
+   "op": "retype",
+   "t": 1867.23,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T laid flat ~1867.1 on the bottom stack row; that row still has an empty cell (col 0), no row clears, board unchanged (corr/fr/g0/i8z.png). Score +300 at 1867.20 = zero-line Mini T-spin."
+  },
+  {
+   "n": 17,
+   "id": "b033",
+   "side": "p2",
+   "op": "retype",
+   "t": 3518.77,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T locked at the right ~3518.6, no row full, board unchanged after (corr/fr/g0/i17z.png); score +300 at 3518.70 = zero-line Mini T-spin (Mini TSS would be 600)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 1,
+   "id": "b002",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": "1",
+   "value": 2,
+   "source": "TST 1618.20 (+4800), TSD B2B 1619.63 (+5550 = 5400+150 REN), TSD B2B 1622.30 (+5400): two consecutive B2B steps."
+  },
+  {
+   "n": 4,
+   "id": "b002",
+   "player": "p1",
+   "field": "pieces",
+   "was": "19",
+   "value": 18,
+   "source": "phantom 1623.03 spawn removed (see event correction); the Z spawned 1621.47 may never have locked before the KO either, so 18 is an upper bound."
+  },
+  {
+   "n": 16,
+   "id": "b029",
+   "player": "p2",
+   "field": "pieces",
+   "was": "86",
+   "value": 87,
+   "source": "orange L spawned ~3345.77, hard-dropped; score 52654->52674 (+20, no clear) read by score.py at 3346.07 = end_s; lock flash coincides with the start of p1's board tilt (corr/fr/g0/b029.png, b029k.png). No clear."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 3,
+   "why": "b002 p1 +300 at 1629.14 comes as the result screen appears right after resume from a home-menu pause; no clear on p1's board (corr/fr/g0/b002c.png). End-of-game score, not a clear."
+  },
+  {
+   "n": 5,
+   "why": "b002 p2 tail gap is the home-menu pause 1623.5-1629.0; only an S lock (1623.3, already the 1623.03 event) and a hold swap after resume; no further locks."
+  },
+  {
+   "n": 6,
+   "why": "b002 p1: gap is a home-menu pause, game ended on resume; fixed what frames show (phantom 1623.03 removed, pieces 18). Rest of earlier soft-drop sequence not re-counted; leave excluded."
+  },
+  {
+   "n": 7,
+   "why": "b002 p2: tail is the pause; counts repaired via items 1-2 (TSD retype, phantom quad removed); nothing else locked."
+  },
+  {
+   "n": 9,
+   "why": "b006 p1 piece soft-dropping (+1/frame score) through 1904.50, past KO 1904.43; not locked by KO."
+  },
+  {
+   "n": 10,
+   "why": "b011 p1 2083.4 single: score +750 at 2083.60 = single 300 + REN 450 (sequence 600/750/900); a Mini TSS would be 1050. Plain single correct."
+  },
+  {
+   "n": 11,
+   "why": "b011 p1: next piece soft-dropping (+1/frame) through 2132.96, past KO 2132.93; not locked."
+  },
+  {
+   "n": 12,
+   "why": "b013 p1: last lock +24 at 2238.43 is counted (spawn 2238.23); no score change before KO 2238.83."
+  },
+  {
+   "n": 13,
+   "why": "b018 p1: last lock +16 at 2447.57 counted; no score change until after KO 2447.97."
+  },
+  {
+   "n": 14,
+   "why": "b025 p1: locks at 3152.47, 3152.70, 3153.10 match the three chain events (two share t 3152.57, true spawns 3152.33/3152.57); spawn ~3153.2 not locked by KO 3153.33."
+  },
+  {
+   "n": 15,
+   "why": "b027 p2: locks 3258.43/3258.60/3258.86 counted; next piece only +1 soft drop at 3259.20, after KO 3259.13."
+  },
+  {
+   "n": 18,
+   "why": "b034 p2: last lock +30 at 3635.00 counted; no score change by KO 3635.63."
+  },
+  {
+   "n": 19,
+   "why": "b036 p2: score flat 24902 from 3763.53 to after KO 3764.33; no lock."
+  },
+  {
+   "n": 20,
+   "why": "b040 p2 3971.37: T dropped into the garbage well clearing one garbage row, no banner, score +300 (single); a Mini TSS would be 600. Plain single correct (corr/fr/g0/i20z.png)."
+  },
+  {
+   "n": 21,
+   "why": "b041 p2: last lock +20 at 4011.30 counted; no change by KO 4011.53."
+  },
+  {
+   "n": 22,
+   "why": "b044 p2: last lock +16 at 4373.90 counted; score unchanged after KO 4374.33."
+  }
+ ]
+}
