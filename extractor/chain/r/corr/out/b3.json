@@ -1,0 +1,384 @@
+{
+ "event_corrections": [
+  {
+   "n": 64,
+   "id": "r078",
+   "side": "p2",
+   "op": "remove",
+   "t": 7702.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Stall phase (pieces fall at gravity). nextcount p2: spawns 7702.63 then 7720.23 only; score p2 rises once in between (+1350 at 7719.57 = single REN7) and REN keeps climbing +150/step to 2850 at 7818.47, so exactly one lock (one single) per spawn. 7702.83 is a duplicate of the 7702.63 single. fr/g3/r078score.txt"
+  },
+  {
+   "n": 66,
+   "id": "r078",
+   "side": "p2",
+   "op": "remove",
+   "t": 7732.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "No spawn between 7720.23 and 7737.87 (nextcount p2); score REN unbroken 1350 (7719.57) -> 1500 (7737.20), so no non-clearing lock occurred; phantom lock. fr/g3/r078score.txt"
+  },
+  {
+   "n": 68,
+   "id": "r078",
+   "side": "p2",
+   "op": "remove",
+   "t": 7754.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawns only at 7737.87 and 7756.07 (nextcount p2); one score jump +1650 at 7755.43 (single REN9) = the piece spawned 7737.87. Extra single."
+  },
+  {
+   "n": 70,
+   "id": "r078",
+   "side": "p2",
+   "op": "remove",
+   "t": 7769.13,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Spawns 7756.07 then 7773.10 only; REN unbroken 1650 (7755.43) -> 1800 (7772.47); phantom lock."
+  },
+  {
+   "n": 72,
+   "id": "r078",
+   "side": "p2",
+   "op": "remove",
+   "t": 7773.23,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawns 7773.10 then 7806.00 only (nextcount p2, hold 7786.43 is a swap); one score jump in between (+1950 at 7805.37, REN11). Chain had 3 singles (7773.10, 7773.23, 7800.73); 7773.23 is a duplicate."
+  },
+  {
+   "n": 72,
+   "id": "r078",
+   "side": "p2",
+   "op": "remove",
+   "t": 7800.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Same window as above: only one clear between spawns 7773.10 and 7806.00 (score +1950 at 7805.37); 7800.73 is phantom."
+  },
+  {
+   "n": 71,
+   "id": "r078",
+   "side": "p1",
+   "op": "remove",
+   "t": 7777.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "nextcount p1: spawns 7766.57 then 7783.03 only; score REN unbroken 1500 (7765.90) -> 1650 (7782.37), so no non-clearing lock; phantom."
+  },
+  {
+   "n": 73,
+   "id": "r078",
+   "side": "p1",
+   "op": "remove",
+   "t": 7802.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawns 7783.03 then 7803.50 (hold 7793.77 is a swap); one score jump +1800 at 7802.83 (REN11) = the 7783.03 piece. 7802.40 single is extra."
+  },
+  {
+   "n": 74,
+   "id": "r078",
+   "side": "p1",
+   "op": "remove",
+   "t": 7810.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawns 7803.50 then 7812.17 (hold 7808.5 swap); one score jump +1950 at 7811.50 = the 7803.63 piece. 7810.97 single is extra."
+  },
+  {
+   "n": 69,
+   "id": "r078",
+   "side": "p1",
+   "op": "retype",
+   "t": 7839.17,
+   "was": [
+    "tsmini",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "gc": 4,
+   "source": "Found while checking r078 p1 windows: at 7839.4-7840.3 an I goes vertical in the right well, TETRIS + BACK to BACK banner, 4 grey rows cleared, score +3600 (B2B tetris). Not a T-spin. fr/g3/r078q.png"
+  },
+  {
+   "n": 76,
+   "id": "r078",
+   "side": "p2",
+   "op": "retype",
+   "t": 7848.37,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "T locks at 7849.0; banner reads 'Mini T-SPIN' with no 'Single' (fr/g3/r078u.png), the row under it keeps a hole at column 0 and no row disappears (fr/g3/r078t.png), score +300 = zero-line mini T-spin. No line cleared."
+  },
+  {
+   "n": 78,
+   "id": "r082",
+   "side": "p2",
+   "op": "retype",
+   "t": 8098.97,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "gc": 1,
+   "source": "O spawn 8098.99, held, Z out of hold drops vertically at 8099.2 and clears 2 rows (stack drops 2, vertical flash), score +2850 at 8099.23 = double 900 + REN13 1950; REN continues to the single at 8100.07 (+2436). gc=1 is my reading of the grey row (fr/g3/r082a.png, r082b.png), less certain."
+  },
+  {
+   "n": 79,
+   "id": "r085",
+   "side": "p2",
+   "op": "remove",
+   "t": 8231.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "O spawned 8231.87 (nextcount p2: next shift 8249.43 only), fell at gravity and locked ~8248.8 clearing one line: single score jump +2100 at 8248.77 (REN12), no other score change 8231.2-8248.77 (fr/g3/r085b.png). Chain had 3 singles (8231.87, 8231.97, 8243.57) for that one piece."
+  },
+  {
+   "n": 80,
+   "id": "r085",
+   "side": "p2",
+   "op": "remove",
+   "t": 8243.57,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Same as above: only one piece and one clear (+2100 at 8248.77) between spawns 8231.87 and 8249.43; 8243.57 single is phantom."
+  },
+  {
+   "n": 81,
+   "id": "r085",
+   "side": "p1",
+   "op": "remove",
+   "t": 8239.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score jumps 8228.83..8254.60 rise +150 each (REN6..16), one single per spawn: spawns 8232.93 (J, clears 8239.93), 8240.60 (L, held 8246.93; J from hold clears 8250.70). Chain single at 8239.50 is extra; chain 8233.03 single covers the 8239.93 clear."
+  },
+  {
+   "n": 82,
+   "id": "r085",
+   "side": "p1",
+   "op": "remove",
+   "t": 8250.87,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Between spawn 8240.60 and 8251.43 only one clear (+2100 at 8250.70); chain singles 8240.70 and 8250.87 for it; 8250.87 removed."
+  },
+  {
+   "n": 84,
+   "id": "r087",
+   "side": "p1",
+   "op": "retype",
+   "t": 8314.4,
+   "was": [
+    "tsmini",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "gc": 0,
+   "source": "T at 8314.3 is a zero-line mini T-spin (+300 at 8314.37); then the I (spawn 8314.4) drops vertically and clears 3 coloured rows at 8314.7, score +1500 = plain triple (not B2B); the following TSD is +3600 (no B2B). fr/g3/r087.png"
+  },
+  {
+   "n": 88,
+   "id": "r100",
+   "side": "p1",
+   "op": "add",
+   "t": 8951.8,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Z spawned 8951.80, hard-dropped at 8951.90 (score +16), line clear at 8951.93 (+1350 = single + REN7, '7 REN' banner), KO tilt starts after; lock at/before end_s 8951.93. Cleared row is coloured, not garbage. fr/g3/r100.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "r078",
+   "player": "p1",
+   "field": "pieces",
+   "was": 149,
+   "value": 130,
+   "source": "chain non-BREAK events 133 minus 3 phantom locks removed (n71/73/74) = 130, matching extractor A's count."
+  },
+  {
+   "id": "r078",
+   "player": "p2",
+   "field": "pieces",
+   "was": 135,
+   "value": 123,
+   "source": "chain non-BREAK events 129 minus 6 phantom locks removed (n64-72) = 123, matching extractor A's count."
+  },
+  {
+   "id": "r078",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 10,
+   "value": 18,
+   "source": "score: single jumps rise +150 per step without a break from +450 (7699.87) to +3000 at 7818.90 = REN18; BREAK markers were false."
+  },
+  {
+   "id": "r078",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 8,
+   "value": 17,
+   "source": "score: +150 steps from 7696.43 to +2850 at 7818.47 = REN17."
+  },
+  {
+   "id": "r082",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 12,
+   "value": 14,
+   "source": "REN continued through the double at 8099.23 (+2850) and single at 8100.07 (+2436 incl. drop): REN 14."
+  },
+  {
+   "id": "r085",
+   "player": "p1",
+   "field": "pieces",
+   "was": 71,
+   "value": 62,
+   "source": "chain events 64 non-BREAK minus 2 phantoms = 62; nextcount 64 shifts incl. a hold-into-empty and the unlocked KO piece."
+  },
+  {
+   "id": "r085",
+   "player": "p2",
+   "field": "pieces",
+   "was": 64,
+   "value": 62,
+   "source": "chain events 64 minus 2 phantoms = 62."
+  },
+  {
+   "id": "r085",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 10,
+   "value": 16,
+   "source": "score +150 steps unbroken to +2700 at 8254.60 = REN16."
+  },
+  {
+   "id": "r085",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 17,
+   "value": 15,
+   "source": "after removing 2 phantom singles: REN reaches 15 (double +3150 at 8252.27 = 900+2250)."
+  },
+  {
+   "id": "r087",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 3,
+   "value": 1,
+   "source": "TST (+4800), TSD B2B (+5400), then plain triple (+1500) breaks B2B, TSD +3600: max B2B 1."
+  },
+  {
+   "id": "r100",
+   "player": "p1",
+   "field": "pieces",
+   "was": 36,
+   "value": 37,
+   "source": "KO piece Z locked at 8951.90 before KO 8951.93."
+  },
+  {
+   "id": "r100",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 6,
+   "value": 7,
+   "source": "final single shows 7 REN, +1350."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 65,
+   "why": "r078 p1 7704.40-7734.60: spawns and score jumps match chain singles (7704.40->7733.93); only BREAK markers, handled via max_combo edit."
+  },
+  {
+   "n": 67,
+   "why": "r078 p1 7734.60-7754.83: one spawn, one single (+1350 at 7754.17); chain matches."
+  },
+  {
+   "n": 75,
+   "why": "r078 p2 7806.00-7813.93: one spawn, one clear (+2100 at 7813.30); chain matches."
+  },
+  {
+   "n": 77,
+   "why": "r080 p1: last lock Z at ~8014.67; S spawned 8014.77 was held, I from hold still at top at KO (fr/g3/r080.png). No extra lock."
+  },
+  {
+   "n": 83,
+   "why": "r085 p2: O locked with double at 8258.8; S spawned 8259.53 never locked before KO (fr/g3/r085k.png)."
+  },
+  {
+   "n": 85,
+   "why": "r088 p2: J spawned ~8369.67 still at top at KO 8369.9 (fr/g3/r088.png)."
+  },
+  {
+   "n": 86,
+   "why": "r091 p1: J hard-dropped at 8485.30, one frame after end_s 8485.27 (fr/g3/r091.png); not counted."
+  },
+  {
+   "n": 87,
+   "why": "r094 p2: +300 at 8643.67 is a zero-line 'Mini T-SPIN' (banner without Single, fr/g3/r094c.png); no line cleared."
+  },
+  {
+   "n": 69,
+   "why": "r078 p1 7754.83-7766.57: one spawn, one single (+1500 at 7765.90); chain matches. (The 7839.17 tsmini->quad retype tagged n69 is an extra finding elsewhere in the same game.)"
+  }
+ ]
+}

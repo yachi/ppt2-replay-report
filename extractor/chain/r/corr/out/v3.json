@@ -1,0 +1,152 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "Score p2 7695-7773: single jumps +1236(7702.03), +1350(7719.57), +1500(7737.20) = one clear per ~17 s spawn; 7702.63 single maps to 7719.57, 7702.83 has no clear of its own."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "REN unbroken +1350 (7719.57) -> +1500 (7737.20) on p2: no non-clearing lock in between; phantom."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "p2 jumps +1500 (7737.20) then +1650 (7755.43) only; chain 7737.87 covers 7755.43, 7754.17 extra."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "REN unbroken +1650 (7755.43) -> +1800 (7772.47); no non-clearing lock."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "p2 only one jump (+1950 at 7805.37) between 7772.47 and 7813.30; 7773.10 covers it, 7773.23 duplicate."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Same window: single score jump at 7805.37; 7800.73 phantom."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "p1 REN unbroken +1500 (7765.90) -> +1650 (7782.37); phantom lock."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "p1 jumps +1650 (7782.37), +1800 (7802.83), +1950 (7811.50): 7783.03 -> 7802.83, 7803.63 -> 7811.50; 7802.40 extra."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "7803.63 piece soft-drops 7810.50-7810.77 and clears +1950 at 7811.50; 7810.97 extra (next clears 7812.27 -> 7812.77)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "Confirmed: p1 +3600 at 7839.47 (= B2B tetris), TETRIS + BACK to BACK banners, 4 grey garbage rows gone (fr/v3/r078p1.png). gc 4 ok."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "fr/v3/r078u.png: T locks at right ~7848.9, purple cells remain in the same rows afterwards, stack height unchanged; p2 +300 at 7849.03 = zero-line mini. No clear."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "p2 jumps 8098.17 +4200 (quad+REN12), 8099.23 +2850 (=900+REN13 1950), 8100.07 +2436 (single REN14); double confirmed (fr/v3/r082.png). gc=1 not independently resolvable from frames, accepted as checker's reading."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "p2 jumps +1950 (8231.20, REN11) then +2100 (8248.77, REN12): only one clear; 8231.87 covers it, 8231.97 extra."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "Same: 8243.57 single extra; next clear 8250.27 +3450 is the triple at 8249.43."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "p1 jumps +1800 (8232.30), +1950 (8239.93), +2100 (8250.70): 8233.03 -> 8239.93; 8239.50 extra. The 8239.93 cleared row is coloured, not garbage (fr/v3/r085p1.png), so dropping 8239.50's gc=1 is right."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "8240.70 -> +2100 at 8250.70, 8251.43 -> +2250 at 8251.90; 8250.87 extra."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "nextcount: T spawn 8313.967 (chain None, zero-line mini +300 at 8314.37), I spawn 8314.40 = chain's tsmini 3; +1500 at 8314.70 = non-B2B triple; next TSD +3600 non-B2B."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "p1 +16 at 8951.90 (drop) then +1350 at 8951.93 (single REN7: 300,450,...,1200,1350 sequence from 8945.27); lock at/before end_s 8951.93."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Agrees with extractor A (130) and the 3 removed phantom locks; score shows one clear per spawn through the stall."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Agrees with extractor A (123) and the 6 removals."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "p1 single jumps +300 at 7698.47 then +150 steps to +3000 at 7818.90 = REN18; A also 18."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "p2 +300 at 7696.43 to +2850 at 7818.47 = REN17, +300 at 7819.73 restarts; A also 17."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "+2850 (REN13) and +2436 (REN14) at 8099.23/8100.07 before KO 8100.33."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "Matches extractor A (62)."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "Matches extractor A (62)."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "p1 +750 (8226.13, REN3) rising +150 per clear to +2700 at 8254.60 = REN16; A 16."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "p2 REN12 at 8248.77, triple +3450 REN13, double +3000 REN14, double +3150 REN15 at 8252.27, then TSD +3600 breaks; max 15, A 15."
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "Score: TST +4800, TSD +5400 (B2B), triple +1500 (breaks), TSD +3600."
+ },
+ {
+  "ref": "c10",
+  "verdict": "keep",
+  "why": "Lock at 8951.90 before KO 8951.93."
+ },
+ {
+  "ref": "c11",
+  "verdict": "keep",
+  "why": "REN steps 300..1350 = REN7."
+ }
+]

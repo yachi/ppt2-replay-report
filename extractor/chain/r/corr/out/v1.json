@@ -1,0 +1,13 @@
+[
+{"ref":"e0","verdict":"keep","why":"nextcount p1 shows spawns only at 3325.667 (S) and 3330.000 (T, held at 3330.10); fr/v1/r032a.png shows the S descending by gravity 3325.9-3329.9 and locking ~3329.9; score flat 21077 from 3325.57 to 3330.37. One lock (the 3325.67 S), so 3329.73 is a duplicate."},
+{"ref":"e1","verdict":"keep","why":"nextcount: spawns 3385.900 (I), hold 3386.633 (I for T), next shift 3390.467; score.py: only soft-drop +1s 3386.80-3387.23 and one clear +1200 at 3389.77 before O's +26 at 3391.43. No single here."},
+{"ref":"e2","verdict":"keep","why":"Same window: no spawn between 3385.90 and 3390.47 and no clear-sized score jump besides 3389.77; phantom."},
+{"ref":"e3","verdict":"keep","why":"Only one clear (+1200 = Mini 600 + REN4 600, REN chain from 3381.97) at 3389.77, from the single T piece; the chain's 3385.90 tsmini already represents it, so 3389.73 is a duplicate."},
+{"ref":"e4","verdict":"keep","why":"score.py p2: 5297?->10805 at 3989.30 after the TST; +5550 fits B2B TSD 5400 + REN 150, far above a plain double."},
+{"ref":"e5","verdict":"keep","why":"fr/v1/r044pc.png: at 3992.27 two full rows (O at the right) are the whole board; at 3992.50 empty board with PERFECT CLEAR banner; score 18069->22569 at 3992.37."},
+{"ref":"e6","verdict":"keep","why":"fr/v1/r044pc.png 3992.90: T lies flat on the empty floor, no clear; score +38 only (22569->22607 at 3992.87)."},
+{"ref":"e7","verdict":"keep","why":"fr/v1/r044ko.png (frames from 3993.80 at 1/30 s): 5th frame (3993.933 = end_s) shows the J locked bottom-right with score 22753; score.py shows 22715->22753 at 3993.93. nextcount: spawn 3993.600, hold 3993.733, next shift 3994.067. Locks on the KO frame, no clear."},
+{"ref":"c0","verdict":"keep","why":"Four phantom piece events removed (3329.73 lock, 3386.07, 3387.53, 3389.73), each confirmed by nextcount spawns and score.py; 220-4=216. Note the csv value is not the raw event count (218 non-BREAK events), so this is a delta on the chain's figure."},
+{"ref":"c1","verdict":"keep","why":"Winner's J locks on the KO frame 3993.933 (fr/v1/r044ko.png, score +38 in that frame)."},
+{"ref":"c2","verdict":"keep","why":"TST (+4800) then TSD scored as B2B (+5550) at 3989.30; extractor A also reports max_b2b 1 for p2."}
+]

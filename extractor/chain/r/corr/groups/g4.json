@@ -1,0 +1,50 @@
+[
+ {
+  "id": "r022",
+  "player": "p2",
+  "field_or_issue": "NEXT-queue recount differs from pieces",
+  "detail": "corr/tools/nextcount.py --game counted 54 spawns (shifts 56, first hold [1336.367, 'J']); the table (after the frame-check cell edits) has pieces 56. Unmatched shifts [1365.933], unmatched events [1335.8, 1336.07], bad bag blocks 0. Full record corr/nc/r022_p2.json",
+  "t_s": 1335.8,
+  "n": 200
+ },
+ {
+  "id": "r032",
+  "player": "p1",
+  "field_or_issue": "NEXT-queue recount differs from pieces",
+  "detail": "corr/tools/nextcount.py --game counted 214 spawns (shifts 215, first hold [3302.863, 'S']); the table (after the frame-check cell edits) has pieces 216. Unmatched shifts [], unmatched events [], bad bag blocks 0. Full record corr/nc/r032_p1.json",
+  "t_s": 3302.23,
+  "n": 201
+ },
+ {
+  "id": "r034",
+  "player": "p2",
+  "field_or_issue": "NEXT-queue recount differs from pieces",
+  "detail": "corr/tools/nextcount.py --game counted 59 spawns (shifts 60, first hold [3498.233, 'Z']); the table (after the frame-check cell edits) has pieces 61. Unmatched shifts [], unmatched events [3498.3, 3498.67], bad bag blocks 0. Full record corr/nc/r034_p2.json",
+  "t_s": 3498.3,
+  "n": 202
+ },
+ {
+  "id": "r054",
+  "player": "p2",
+  "field_or_issue": "NEXT-queue recount differs from pieces",
+  "detail": "corr/tools/nextcount.py --game counted 50 spawns (shifts 52, first hold [4485.297, 'T']); the table (after the frame-check cell edits) has pieces 54. Unmatched shifts [4514.263], unmatched events [4484.43, 4484.73, 4484.9, 4485.37], bad bag blocks 0. Full record corr/nc/r054_p2.json",
+  "t_s": 4484.43,
+  "n": 203
+ },
+ {
+  "id": "r084",
+  "player": "p1",
+  "field_or_issue": "NEXT-queue recount differs from pieces",
+  "detail": "corr/tools/nextcount.py --game counted 40 spawns (shifts 41, first hold [8176.097, 'Z']); the table (after the frame-check cell edits) has pieces 42. Unmatched shifts [], unmatched events [8175.63, 8176.4], bad bag blocks 0. Full record corr/nc/r084_p1.json",
+  "t_s": 8175.63,
+  "n": 204
+ },
+ {
+  "id": "r091",
+  "player": "p1",
+  "field_or_issue": "NEXT-queue recount differs from pieces",
+  "detail": "corr/tools/nextcount.py --game counted 55 spawns (shifts 57, first hold [8450.57, 'L']); the table (after the frame-check cell edits) has pieces 57. Unmatched shifts [8485.003], unmatched events [8450.7, 8450.87], bad bag blocks 0. Full record corr/nc/r091_p1.json",
+  "t_s": 8450.7,
+  "n": 205
+ }
+]
