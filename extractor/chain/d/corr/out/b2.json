@@ -1,0 +1,221 @@
+{
+ "event_corrections": [
+  {
+   "n": 25,
+   "id": "d036",
+   "side": "p1",
+   "op": "add",
+   "t": 4207.97,
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 2,
+   "source": "fr/g2/d036a.png: I piece spawned after the 4207.23 double, dropped vertically into the garbage well and landed at 4208.30 (drop points 32215->32249 on that frame, = KO frame end_s 4208.3); flash of 2 bottom grey garbage rows at 4208.34, score 32249->35399 (+3150 = previous double's +3000 plus one REN step), REN counter 14->15. Lock at the KO frame, so it counts."
+  },
+  {
+   "n": 27,
+   "id": "d041",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 4415.57,
+   "t_end": 4418.03,
+   "events": [
+    {
+     "t": 4416.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4416.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4416.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4417.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4417.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4417.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4418.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     4415.57,
+     null,
+     0
+    ],
+    [
+     4415.57,
+     null,
+     0
+    ],
+    [
+     4415.57,
+     "single",
+     1
+    ],
+    [
+     4416.1,
+     null,
+     0
+    ],
+    [
+     4416.57,
+     null,
+     0
+    ],
+    [
+     4416.87,
+     null,
+     0
+    ],
+    [
+     4417.1,
+     null,
+     0
+    ],
+    [
+     4417.43,
+     null,
+     0
+    ],
+    [
+     4417.8,
+     null,
+     0
+    ],
+    [
+     4418.03,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g2/d041b1.png, d041b2.png, d041b3.png + score.py: after the TETRIS lock (4415.27, score 32088->35688) the next score change is 4416.53; no single there (no +300-class jump). Plain locks (drop points) at 4416.53 S, 4416.80 Z, 4417.00 S, 4417.37 Z, 4417.70 J, 4417.97 O, 4418.20 J (out of hold; L held) = 7, then T soft-drop and TSD at 4418.80. Chain had 10 events incl. a phantom single gc1, three stacked at 4415.57 (the 'double shift k=3 at frame 821' anomaly)."
+  },
+  {
+   "n": 27,
+   "id": "d041",
+   "side": "p2",
+   "op": "retype",
+   "t": 4425.63,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g2/d041c.png + score.py: 4425.03 +768 (single 300 + REN 450 + drops; L on the left clears the stack row above the garbage, row flash at 4425.05) and 4426.27/4426.30 +20/+900 (Z single, REN 4) — two singles and no plain lock between them; the chain's None at 4425.63 is the first single. gc 0 from the flashed row being the coloured stack row (moderate confidence)."
+  },
+  {
+   "n": 31,
+   "id": "d048",
+   "side": "p2",
+   "op": "add",
+   "t": 5089.77,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g2/d048.png: T spawned ~5089.74, locked at 5089.97 (score +32) before KO 5090.0, no row cleared"
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "d036",
+   "player": "p1",
+   "field": "pieces",
+   "was": 50,
+   "value": 51,
+   "source": "I piece locked at 4208.30 = KO frame (fr/g2/d036a.png), not in chain",
+   "n": 25
+  },
+  {
+   "id": "d036",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 14,
+   "value": 15,
+   "source": "REN banner reads 15 REN after the KO-frame double at 4208.34 (fr/g2/d036a.png)",
+   "n": 25
+  },
+  {
+   "id": "d041",
+   "player": "p2",
+   "field": "pieces",
+   "was": 243,
+   "value": 240,
+   "source": "3 phantom events at 4415.57 (7 real locks vs 10 chain events in 4415.57-4418.03), fr/g2/d041b2.png, d041b3.png, score.py",
+   "n": 27
+  },
+  {
+   "id": "d048",
+   "player": "p2",
+   "field": "pieces",
+   "was": 42,
+   "value": 43,
+   "source": "fr/g2/d048.png: T spawned ~5089.74, hard-dropped and locked at 5089.97 (score 24253->24285), before KO 5090.0; no clear flash",
+   "n": 31
+  }
+ ],
+ "no_change": [
+  {
+   "n": 26,
+   "why": "fr/g2/d039.png: L spawned 4331.47 stays at the top of p2's board through the KO 4331.73; no score change after 4331.40; not locked"
+  },
+  {
+   "n": 28,
+   "why": "fr/g2/d041k.png: S spawned 4531.73 still at the top at KO 4531.93; score flat 178265; not locked"
+  },
+  {
+   "n": 29,
+   "why": "score.py: p2 soft-drop points +1 every frame from 4691.97 to 4692.53, i.e. the piece is still falling at and after KO 4692.47; not locked"
+  },
+  {
+   "n": 30,
+   "why": "fr/g2/d044.png: T mid-air on the left at KO 4862.03 (soft-dropping +1/frame); not locked"
+  },
+  {
+   "n": 32,
+   "why": "fr/g2/d049.png: T mid-air at KO 5135.97 (soft-drop +1/frame); not locked"
+  },
+  {
+   "n": 33,
+   "why": "fr/g2/d052.png: I still active at the top right through KO 5291.2 (resting, NEXT queue unchanged, no score change); not locked by KO"
+  }
+ ]
+}

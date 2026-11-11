@@ -1,0 +1,28 @@
+{"event_corrections":[
+ {"n":8,"id":"d013","side":"p1","op":"retype","t":3140.5,"was":["double",2,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g0/s8.png: J locks 3140.63, ONE row clears (thin white band 3140.70); score +2250 at 3140.70 = single 300 + REN13 1950 (a double would be +2850)."},
+ {"n":8,"id":"d013","side":"p1","op":"add","t":3141.37,"kind":"double","lines":2,"pc":0,"gc":0,"source":"fr/g0/s8.png: S spawns 3141.37, hard-drops and locks 3141.43 (before KO 3141.53), two coloured rows clear (3141.50); score +20 then +3000 at 3141.50 = double 900 + REN14 2100."},
+ {"n":11,"id":"d019","side":"p1","op":"remove","t":3403.17,"was":["single",1,0],"source":"duplicate of 3403.13: fr/g0/s11.png shows one Z lock (single) at 3403.33 between the L single 3402.37 and the I single 3404.30; score shows one +20 drop and one +1200 clear (REN6) there."},
+ {"n":11,"id":"d019","side":"p1","op":"remove","t":3392.7,"was":["BREAK",4,0],"source":"false REN break: score clears 3389.33 +300 (REN0), 3390.47 +450, 3391.30 +600, 3392.10 +750, 3392.93 double +1500 (900+REN4), 3402.37 +1050 (REN5) ... 3407.93 +1800 (REN10); REN never broke. Stream lag 3394-3401 (fr/g0/s10.png)."},
+ {"n":10,"id":"d019","side":"p2","op":"replace_window","t":3392.23,"t_end":3405.07,"events":[{"t":3392.23,"kind":null,"lines":0,"pc":0,"gc":0},{"t":3401.27,"kind":"tst","lines":3,"pc":0,"gc":0},{"t":3405.07,"kind":"tsd","lines":2,"pc":0,"gc":0}],"was_old":[[3392.23,null,0],[3392.47,null,0],[3399.77,null,0],[3400.97,"tst",3],[3403.6,null,0],[3404.07,"BREAK",3],[3404.3,"tst",3],[3405.07,"tsd",2]],"source":"stream lag 3393-3400 (fr/g0/s10.png): O spawned ~3392.2 falls in slow motion, locks ~3400.9; T spawns 3401.27, locks ~3404.3 with the only T-SPIN Triple (score +4800 at 3404.33); L spawned and swapped for held T, TSD B2B +5550 (5400+REN1) at 3405.87 (fr/g0/s12.png). Only 3 locks, one TST; chain had 7 locks, two TSTs and a false BREAK (TST->TSD is REN1)."}
+,{"n":13,"id":"d021","side":"p2","op":"remove","t":3487.97,"was":[null,0,0],"source":"fr/g0/s13.png: stream lag; S spawned ~3487.9 falls slowly and locks ~3493.8 (one +4 score step), then T at 3494.0. Chain logs two spawns 3487.87/3487.97 for that one S; hold unchanged (T) throughout."}
+],
+"cell_edits":[
+ {"n":3,"id":"d000","player":"p1","field":"pieces","was":54,"value":55,"source":"fr/g0/s3.png + score.py: O held for Z, Z locks 2415.87 (+16); S spawns 3416.00 and hard-drops, score +14 at 2416.23 = KO frame (end_s 2416.23), S locked at 3416.27 frame, no clear."},
+ {"n":8,"id":"d013","player":"p1","field":"pieces","was":52,"value":53,"source":"extra S locked 3141.43 before KO (fr/g0/s8.png)"},
+ {"n":8,"id":"d013","player":"p1","field":"max_combo","was":13,"value":14,"source":"final double scored +3000 = 900 + 150*14 (REN14), fr/g0/s8.png"},
+ {"n":9,"id":"d016","player":"p2","field":"pieces","was":92,"value":93,"source":"fr/g0/s9.png: T spawns 3285.33, held, I out at 3285.47, I hard-drops vertical, score +24 at 3285.63 = KO frame (end_s 3285.63); no clear."},
+ {"n":10,"id":"d019","player":"p2","field":"pieces","was":93,"value":89,"source":"window 3392.23-3405.07 holds 3 real locks (O, TST T, TSD T) vs chain's 7; see replace_window"},
+ {"n":11,"id":"d019","player":"p1","field":"pieces","was":83,"value":82,"source":"duplicate single 3403.17 removed (one Z lock)"},
+ {"n":11,"id":"d019","player":"p1","field":"max_combo","was":7,"value":10,"source":"score REN steps 0..10 continuous from 3389.33 to 3407.93 (+1800 = 300+150*10), then 3409.73 +300 (REN reset)"},
+ {"n":13,"id":"d021","player":"p2","field":"pieces","was":136,"value":135,"source":"one S lock logged twice (3487.87/3487.97), fr/g0/s13.png"}
+],
+"no_change":[
+ {"n":0,"why":"d000 p2: stream slow-motion/lag 2372-2380 (fr/g0/s0.png); first Z spawns 2368.7 and lands ~2381, next at 2380.93: one piece, chain right"},
+ {"n":1,"why":"d000 p1: same lag (s0.png); Z falls slowly, locks ~2380.9; score flat 252 2371-2387; chain locks match"},
+ {"n":2,"why":"d000 p1: lag; T spawned 2381.4 held for J, J falls slowly and locks ~2387.2 (fr/g0/s1.png, score +12 at 2387.37); 2 events (2380.9,2381.4) for Z and J correct"},
+ {"n":4,"why":"d001 p1 2448.4: score +1950 at 2448.50 = single 300 + REN11 1650 (prior triple +3000 = 1500+REN10); a plain single, not a mini"},
+ {"n":5,"why":"d005 p1: T locks with clear flash 2654.97 before KO 2655.0, T-SPIN Single banner 2655.07, score +2400 lands 2655.07 (fr/g0/s5.png); the -2400 is the score window ending at 2655.04. Single 2653.13 = +2400 (300+REN14) correct"},
+ {"n":6,"why":"d008 p2: last lock 2771.07 (+26); next piece only soft-dropping (+1/frame) at KO 2771.3, not locked"},
+ {"n":7,"why":"d013 p2: start lag, first T falls slowly and locks 3109.93 (fr/g0/s7.png); I next; chain 3105.83/3110.7 correct"},
+ {"n":12,"why":"d019 p2 gap from 3400.97: covered by item 10 replace_window"}
+]}

@@ -1,0 +1,5 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py p2: +3600 at 3572.03 (TSS), +5567 at 3573.47 (one B2B TSD), then only drop points (+1..+30) until 3581.50 (+5400). No second TSD near 3574.2; nextcount gave no shifts (unreadable) but the score alone rules out a second clear. Retype to plain lock keeps the piece count."},
+ {"ref":"c0","verdict":"keep","why":"fr/v1/d023.png: L hangs at the top at 3641.53-3641.60, locks with flash and score 62996->63020 on the 3641.63 frame, the same frame p1's board starts to tilt (end_s 3641.6 is that frame). Locked on the KO frame, no clear: +1 piece."},
+ {"ref":"c1","verdict":"keep","why":"fr/v1/d033.png: S falling at 4082.47-4082.54, locked with flash and score 34160->34186 at 4082.57; p1 tilt begins 4082.60. Lock before KO, no clear: +1 piece."}
+]
