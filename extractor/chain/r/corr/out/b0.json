@@ -1,0 +1,843 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "ns": [
+    0,
+    1
+   ],
+   "id": "r000",
+   "side": "p2",
+   "op": "remove",
+   "t": 200.7,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r000 p2: score.py shows only three clears after 200.00 (205.60 +1800, 206.47 +2550 double, 207.30 +2130), REN steps continuous (n10,n11,n12); nextcount.py p2 shows spawns only at 200.63 (J, stalled until it locks 205.6), 206.27, 207.20; sheet /tmp/claude-0/r/corr/fr/g0/r000a.png (199.8-206.6) shows the J hovering 201-205.4 with no lock. 200.70 (0.07 s after 200.63) and 205.93 are spliced phantom singles."
+  },
+  {
+   "n": 1,
+   "ns": [
+    0,
+    1
+   ],
+   "id": "r000",
+   "side": "p2",
+   "op": "remove",
+   "t": 205.93,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r000 p2: score.py shows only three clears after 200.00 (205.60 +1800, 206.47 +2550 double, 207.30 +2130), REN steps continuous (n10,n11,n12); nextcount.py p2 shows spawns only at 200.63 (J, stalled until it locks 205.6), 206.27, 207.20; sheet /tmp/claude-0/r/corr/fr/g0/r000a.png (199.8-206.6) shows the J hovering 201-205.4 with no lock. 200.70 (0.07 s after 200.63) and 205.93 are spliced phantom singles."
+  },
+  {
+   "n": 2,
+   "ns": [
+    2,
+    3
+   ],
+   "id": "r001",
+   "side": "p1",
+   "op": "remove",
+   "t": 269.9,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r001 p1: score.py p1 jumps 269.03 +1950(REN11), 279.23 +2100, 280.13 +2250, 282.40 +2400, 283.23 +2550, 284.23 +2700 (KO 284.5): 5 clears after 267.03, chain has 7. nextcount.py p1 spawns 269.70, 279.97, 280.80, 283.07, 283.90 only (each 0.67 s after a clear). 269.90 and 280.00 are duplicates of 269.70 / 279.97."
+  },
+  {
+   "n": 3,
+   "ns": [
+    2,
+    3
+   ],
+   "id": "r001",
+   "side": "p1",
+   "op": "remove",
+   "t": 280.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r001 p1: score.py p1 jumps 269.03 +1950(REN11), 279.23 +2100, 280.13 +2250, 282.40 +2400, 283.23 +2550, 284.23 +2700 (KO 284.5): 5 clears after 267.03, chain has 7. nextcount.py p1 spawns 269.70, 279.97, 280.80, 283.07, 283.90 only (each 0.67 s after a clear). 269.90 and 280.00 are duplicates of 269.70 / 279.97."
+  },
+  {
+   "n": 4,
+   "ns": [
+    4
+   ],
+   "id": "r001",
+   "side": "p2",
+   "op": "remove",
+   "t": 269.13,
+   "was": [
+    "BREAK",
+    4,
+    0
+   ],
+   "source": "r001 p2: score.py p2 REN steps continuous through the gap: 266.67 +1350 (n7), 269.07 +1500, 269.87 +1650, 277.97 +1800, 278.83 +1950, 279.97 +2100, 280.83 +2250 (n13), no non-clearing lock between; nextcount.py p2 spawns 269.73, 270.50, 278.57 only. The BREAK markers at 269.13 and 270.67 are false; the REN ran 260.70..280.6 (14 clears, max 13). The 8 s gap holds one piece (270.50, clear at 277.97), so chain entries (69, = extractor A) are the count; csv 76 includes a gap estimate."
+  },
+  {
+   "n": 4,
+   "ns": [
+    4
+   ],
+   "id": "r001",
+   "side": "p2",
+   "op": "remove",
+   "t": 270.67,
+   "was": [
+    "BREAK",
+    1,
+    0
+   ],
+   "source": "r001 p2: score.py p2 REN steps continuous through the gap: 266.67 +1350 (n7), 269.07 +1500, 269.87 +1650, 277.97 +1800, 278.83 +1950, 279.97 +2100, 280.83 +2250 (n13), no non-clearing lock between; nextcount.py p2 spawns 269.73, 270.50, 278.57 only. The BREAK markers at 269.13 and 270.67 are false; the REN ran 260.70..280.6 (14 clears, max 13). The 8 s gap holds one piece (270.50, clear at 277.97), so chain entries (69, = extractor A) are the count; csv 76 includes a gap estimate."
+  },
+  {
+   "n": 8,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "side": "p1",
+   "op": "remove",
+   "t": 748.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms."
+  },
+  {
+   "n": 7,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "side": "p1",
+   "op": "remove",
+   "t": 765.43,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms."
+  },
+  {
+   "n": 10,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "side": "p1",
+   "op": "remove",
+   "t": 788.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms."
+  },
+  {
+   "n": 13,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "side": "p1",
+   "op": "remove",
+   "t": 814.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms."
+  },
+  {
+   "n": 16,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "side": "p1",
+   "op": "remove",
+   "t": 829.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms."
+  },
+  {
+   "n": 18,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "side": "p1",
+   "op": "remove",
+   "t": 838.93,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms."
+  },
+  {
+   "n": 9,
+   "ns": [
+    9,
+    12,
+    15
+   ],
+   "id": "r013",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 765.63,
+   "t_end": 840.17,
+   "events": [
+    {
+     "t": 770.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 803.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     765.63,
+     null,
+     0
+    ],
+    [
+     767.3,
+     "BREAK",
+     0
+    ],
+    [
+     769.23,
+     "BREAK",
+     2
+    ],
+    [
+     770.93,
+     "single",
+     1
+    ],
+    [
+     778.17,
+     "BREAK",
+     2
+    ],
+    [
+     780.6,
+     "BREAK",
+     0
+    ],
+    [
+     783.07,
+     "BREAK",
+     0
+    ],
+    [
+     785.3,
+     "BREAK",
+     2
+    ],
+    [
+     802.53,
+     "single",
+     1
+    ],
+    [
+     803.6,
+     "single",
+     1
+    ],
+    [
+     819.8,
+     null,
+     0
+    ],
+    [
+     824.47,
+     "BREAK",
+     2
+    ],
+    [
+     832.97,
+     "BREAK",
+     0
+    ],
+    [
+     835.4,
+     "BREAK",
+     0
+    ],
+    [
+     837.87,
+     "BREAK",
+     0
+    ],
+    [
+     840.17,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "r013 p2: score.py p2 REN continuous: 745.13 n0, 745.93 double n1, 748.63 n2, 770.30 n3, 802.97 n4, 839.77 n5, 841.07 ... 853.60 double n19 (3750 = 900+150*19), no plain lock in 748.6-839.8 (it would break the REN). nextcount.py p2 spawns 749.30, 770.93, 803.60, 840.40 only. So 765.63 None and 819.80 None are phantom locks, 802.53 single duplicates 803.60, and all BREAK markers in the window are false."
+  },
+  {
+   "n": 23,
+   "ns": [
+    23,
+    24,
+    25,
+    27,
+    29
+   ],
+   "id": "r014",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 930.23,
+   "t_end": 980.47,
+   "events": [
+    {
+     "t": 946.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 955.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 957.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 968.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 976.83,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     930.23,
+     "single",
+     1
+    ],
+    [
+     943.47,
+     "single",
+     1
+    ],
+    [
+     946.7,
+     "single",
+     1
+    ],
+    [
+     954.53,
+     "single",
+     1
+    ],
+    [
+     955.63,
+     "single",
+     1
+    ],
+    [
+     957.43,
+     "BREAK",
+     1
+    ],
+    [
+     957.97,
+     "single",
+     1
+    ],
+    [
+     968.07,
+     "single",
+     1
+    ],
+    [
+     968.6,
+     "single",
+     1
+    ],
+    [
+     975.7,
+     "single",
+     1
+    ],
+    [
+     976.83,
+     "single",
+     1
+    ],
+    [
+     980.47,
+     "single",
+     1
+    ]
+   ],
+   "source": "r014 p1: score.py p1 continuous REN of 21 singles 925.20 n0 ... 929.43 n4, 946.03 n5, 955.00 n6, 957.33 n7, 967.97 n8, 976.17 n9, 980.37 n10 ... 990.17 +3300 n20; nextcount.py p1 spawns 930.07, 946.70, 955.63, 957.97, 968.60, 976.83, 981.07 in the gaps. Phantoms: 930.23, 943.47, 954.53, 968.07, 975.70, 980.47; BREAK 957.43 false."
+  },
+  {
+   "n": 29,
+   "ns": [
+    23,
+    24,
+    25,
+    27,
+    29
+   ],
+   "id": "r014",
+   "side": "p1",
+   "op": "add",
+   "t": 989.9,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "r014 p1 KO: sheet /tmp/claude-0/r/corr/fr/g0/r014ko.png: O spawned 989.90 held, Z out of hold locks 990.10 and clears a row (flash 990.16, score +3300 at 990.17 = single REN 20), before KO 990.27. Chain's last event is 989.17."
+  },
+  {
+   "n": 22,
+   "ns": [
+    22,
+    26,
+    28
+   ],
+   "id": "r014",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 929.47,
+   "t_end": 976.27,
+   "events": [
+    {
+     "t": 958.2,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 969.3,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     929.47,
+     "single",
+     1
+    ],
+    [
+     944.0,
+     null,
+     0
+    ],
+    [
+     946.57,
+     "BREAK",
+     2
+    ],
+    [
+     957.67,
+     "BREAK",
+     3
+    ],
+    [
+     958.2,
+     "double",
+     2
+    ],
+    [
+     959.77,
+     "BREAK",
+     0
+    ],
+    [
+     962.2,
+     "BREAK",
+     0
+    ],
+    [
+     964.63,
+     "BREAK",
+     0
+    ],
+    [
+     968.5,
+     "BREAK",
+     4
+    ],
+    [
+     969.3,
+     "single",
+     1
+    ],
+    [
+     970.73,
+     "BREAK",
+     0
+    ],
+    [
+     973.17,
+     "BREAK",
+     0
+    ],
+    [
+     976.27,
+     "BREAK",
+     2
+    ]
+   ],
+   "source": "r014 p2: score.py p2 REN continuous: 926.63 double n0, 927.53 single n1 (+486=450+drops), 928.63 n2, 957.57 n3, 968.57 double n4 (1500), 976.17 n5 ... 986.10 double n13 (2850); nextcount.py p2 spawns 929.30, 958.20, 969.30, 976.80 only in 929-977. 929.47 single (dup of 929.30) and 944.0 None are phantoms; all BREAKs false."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 0,
+   "ns": [
+    0,
+    1
+   ],
+   "id": "r000",
+   "player": "p2",
+   "field": "pieces",
+   "was": 87,
+   "value": 85,
+   "source": "r000 p2: score.py shows only three clears after 200.00 (205.60 +1800, 206.47 +2550 double, 207.30 +2130), REN steps continuous (n10,n11,n12); nextcount.py p2 shows spawns only at 200.63 (J, stalled until it locks 205.6), 206.27, 207.20; sheet /tmp/claude-0/r/corr/fr/g0/r000a.png (199.8-206.6) shows the J hovering 201-205.4 with no lock. 200.70 (0.07 s after 200.63) and 205.93 are spliced phantom singles. Two phantom pieces removed."
+  },
+  {
+   "n": 1,
+   "ns": [
+    0,
+    1
+   ],
+   "id": "r000",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 14,
+   "value": 12,
+   "source": "r000 p2: score.py shows only three clears after 200.00 (205.60 +1800, 206.47 +2550 double, 207.30 +2130), REN steps continuous (n10,n11,n12); nextcount.py p2 shows spawns only at 200.63 (J, stalled until it locks 205.6), 206.27, 207.20; sheet /tmp/claude-0/r/corr/fr/g0/r000a.png (199.8-206.6) shows the J hovering 201-205.4 with no lock. 200.70 (0.07 s after 200.63) and 205.93 are spliced phantom singles. REN runs 191.5..207.2 = 13 clears -> 12 (207.30 score +2130 = single at REN 12)."
+  },
+  {
+   "n": 2,
+   "ns": [
+    2,
+    3
+   ],
+   "id": "r001",
+   "player": "p1",
+   "field": "pieces",
+   "was": 58,
+   "value": 56,
+   "source": "r001 p1: score.py p1 jumps 269.03 +1950(REN11), 279.23 +2100, 280.13 +2250, 282.40 +2400, 283.23 +2550, 284.23 +2700 (KO 284.5): 5 clears after 267.03, chain has 7. nextcount.py p1 spawns 269.70, 279.97, 280.80, 283.07, 283.90 only (each 0.67 s after a clear). 269.90 and 280.00 are duplicates of 269.70 / 279.97."
+  },
+  {
+   "n": 3,
+   "ns": [
+    2,
+    3
+   ],
+   "id": "r001",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 18,
+   "value": 16,
+   "source": "r001 p1: score.py p1 jumps 269.03 +1950(REN11), 279.23 +2100, 280.13 +2250, 282.40 +2400, 283.23 +2550, 284.23 +2700 (KO 284.5): 5 clears after 267.03, chain has 7. nextcount.py p1 spawns 269.70, 279.97, 280.80, 283.07, 283.90 only (each 0.67 s after a clear). 269.90 and 280.00 are duplicates of 269.70 / 279.97. REN 257.53..284.0 = 17 clears -> 16 (last clear score +2700 = 300+150*16)."
+  },
+  {
+   "n": 4,
+   "ns": [
+    4
+   ],
+   "id": "r001",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 8,
+   "value": 13,
+   "source": "r001 p2: score.py p2 REN steps continuous through the gap: 266.67 +1350 (n7), 269.07 +1500, 269.87 +1650, 277.97 +1800, 278.83 +1950, 279.97 +2100, 280.83 +2250 (n13), no non-clearing lock between; nextcount.py p2 spawns 269.73, 270.50, 278.57 only. The BREAK markers at 269.13 and 270.67 are false; the REN ran 260.70..280.6 (14 clears, max 13). The 8 s gap holds one piece (270.50, clear at 277.97), so chain entries (69, = extractor A) are the count; csv 76 includes a gap estimate."
+  },
+  {
+   "n": 4,
+   "ns": [
+    4
+   ],
+   "id": "r001",
+   "player": "p2",
+   "field": "pieces",
+   "was": 76,
+   "value": 69,
+   "source": "r001 p2: score.py p2 REN steps continuous through the gap: 266.67 +1350 (n7), 269.07 +1500, 269.87 +1650, 277.97 +1800, 278.83 +1950, 279.97 +2100, 280.83 +2250 (n13), no non-clearing lock between; nextcount.py p2 spawns 269.73, 270.50, 278.57 only. The BREAK markers at 269.13 and 270.67 are false; the REN ran 260.70..280.6 (14 clears, max 13). The 8 s gap holds one piece (270.50, clear at 277.97), so chain entries (69, = extractor A) are the count; csv 76 includes a gap estimate."
+  },
+  {
+   "n": 20,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "player": "p1",
+   "field": "pieces",
+   "was": 143,
+   "value": 137,
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms. 6 phantoms -> 137 (= extractor A)."
+  },
+  {
+   "n": 11,
+   "ns": [
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "id": "r013",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 26,
+   "value": 20,
+   "source": "r013 p1: score.py p1 shows a continuous REN of 21 singles (745.17 +300 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 +3300 n20) with long stalls; nextcount.py p1 spawns 747.60, 748.53, 766.60, 789.83, 815.67, 830.83, 840.03 only (each 0.67 s after a clear). Chain has 27 singles; 748.67 (dup of 748.53) and the B-spliced spawns 765.43, 788.67, 814.50, 829.73, 838.93 just before each real clear are phantoms. REN 744.93..853.47 = 21 clears -> 20."
+  },
+  {
+   "n": 12,
+   "ns": [
+    9,
+    12,
+    15
+   ],
+   "id": "r013",
+   "player": "p2",
+   "field": "pieces",
+   "was": 150,
+   "value": 131,
+   "source": "r013 p2: score.py p2 REN continuous: 745.13 n0, 745.93 double n1, 748.63 n2, 770.30 n3, 802.97 n4, 839.77 n5, 841.07 ... 853.60 double n19 (3750 = 900+150*19), no plain lock in 748.6-839.8 (it would break the REN). nextcount.py p2 spawns 749.30, 770.93, 803.60, 840.40 only. So 765.63 None and 819.80 None are phantom locks, 802.53 single duplicates 803.60, and all BREAK markers in the window are false. Chain non-BREAK entries 134 less 3 phantoms = 131 (= extractor A); gaps hold only the 3 real pieces."
+  },
+  {
+   "n": 15,
+   "ns": [
+    9,
+    12,
+    15
+   ],
+   "id": "r013",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 13,
+   "value": 19,
+   "source": "r013 p2: score.py p2 REN continuous: 745.13 n0, 745.93 double n1, 748.63 n2, 770.30 n3, 802.97 n4, 839.77 n5, 841.07 ... 853.60 double n19 (3750 = 900+150*19), no plain lock in 748.6-839.8 (it would break the REN). nextcount.py p2 spawns 749.30, 770.93, 803.60, 840.40 only. So 765.63 None and 819.80 None are phantom locks, 802.53 single duplicates 803.60, and all BREAK markers in the window are false."
+  },
+  {
+   "n": 24,
+   "ns": [
+    23,
+    24,
+    25,
+    27,
+    29
+   ],
+   "id": "r014",
+   "player": "p1",
+   "field": "pieces",
+   "was": 77,
+   "value": 71,
+   "source": "r014 p1: score.py p1 continuous REN of 21 singles 925.20 n0 ... 929.43 n4, 946.03 n5, 955.00 n6, 957.33 n7, 967.97 n8, 976.17 n9, 980.37 n10 ... 990.17 +3300 n20; nextcount.py p1 spawns 930.07, 946.70, 955.63, 957.97, 968.60, 976.83, 981.07 in the gaps. Phantoms: 930.23, 943.47, 954.53, 968.07, 975.70, 980.47; BREAK 957.43 false. Chain non-BREAK 76 - 6 phantoms + 1 KO piece = 71."
+  },
+  {
+   "n": 25,
+   "ns": [
+    23,
+    24,
+    25,
+    27,
+    29
+   ],
+   "id": "r014",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 15,
+   "value": 20,
+   "source": "r014 p1: score.py p1 continuous REN of 21 singles 925.20 n0 ... 929.43 n4, 946.03 n5, 955.00 n6, 957.33 n7, 967.97 n8, 976.17 n9, 980.37 n10 ... 990.17 +3300 n20; nextcount.py p1 spawns 930.07, 946.70, 955.63, 957.97, 968.60, 976.83, 981.07 in the gaps. Phantoms: 930.23, 943.47, 954.53, 968.07, 975.70, 980.47; BREAK 957.43 false."
+  },
+  {
+   "n": 26,
+   "ns": [
+    22,
+    26,
+    28
+   ],
+   "id": "r014",
+   "player": "p2",
+   "field": "pieces",
+   "was": 87,
+   "value": 71,
+   "source": "r014 p2: score.py p2 REN continuous: 926.63 double n0, 927.53 single n1 (+486=450+drops), 928.63 n2, 957.57 n3, 968.57 double n4 (1500), 976.17 n5 ... 986.10 double n13 (2850); nextcount.py p2 spawns 929.30, 958.20, 969.30, 976.80 only in 929-977. 929.47 single (dup of 929.30) and 944.0 None are phantoms; all BREAKs false. Chain non-BREAK 73 - 2 = 71 (= extractor A)."
+  },
+  {
+   "n": 28,
+   "ns": [
+    22,
+    26,
+    28
+   ],
+   "id": "r014",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 7,
+   "value": 13,
+   "source": "r014 p2: score.py p2 REN continuous: 926.63 double n0, 927.53 single n1 (+486=450+drops), 928.63 n2, 957.57 n3, 968.57 double n4 (1500), 976.17 n5 ... 986.10 double n13 (2850); nextcount.py p2 spawns 929.30, 958.20, 969.30, 976.80 only in 929-977. 929.47 single (dup of 929.30) and 944.0 None are phantoms; all BREAKs false."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 5,
+   "why": "r005 p2: sheet /tmp/claude-0/r/corr/fr/g0/r005ko.png: S locks 428.43 (score +32, chain 428.27); next T spawns 428.46, is held, J still falling at KO 428.63 and later. No piece locked on the KO frame."
+  },
+  {
+   "n": 6,
+   "why": "r008 p1: score locks 538.33,538.67,539.00,539.20,540.70 = 5 chain entries after the quad (538.07..539.3; 539.1 is logged twice while 538.77 is missing, count right). Piece spawned 540.80 is swapped by HOLD at 540.93 (nextcount), not locked by KO 540.93."
+  },
+  {
+   "n": 21,
+   "why": "r013 p1: score locks 889.73..891.40 = 6 = chain 889.6..891.17; sheet /tmp/claude-0/r/corr/fr/g0/r013ko.png: Z spawned 891.5 still falling at 892.0 (ghost below), not locked by KO 891.93."
+  },
+  {
+   "n": 30,
+   "why": "r019 p2: sheet /tmp/claude-0/r/corr/fr/g0/r019ko.png: after the TETRIS (score 1176.03), L spawned 1176.87 sits at the top through KO 1177.03; no lock."
+  },
+  {
+   "n": 31,
+   "why": "r022 p1: score locks 1365.27,1365.63,1366.07,1366.23 = 4 chain entries; sheet /tmp/claude-0/r/corr/fr/g0/r022ko.png: L spawned 1366.33 still moving at KO 1366.57, no lock."
+  },
+  {
+   "n": 32,
+   "why": "r024 p2: L spawned 2964.00 held at 2964.07; T from hold still falling at 2964.14 (sheet /tmp/claude-0/r/corr/fr/g0/r024ko.png); score only +1 soft-drop ticks; not locked by KO 2964.13."
+  },
+  {
+   "n": 33,
+   "why": "r025 p1: locks 3034.30,3034.67,3034.97/3035.10 match chain; O spawned 3035.2 held, T soft-dropping above its ghost through 3035.70 (sheet /tmp/claude-0/r/corr/fr/g0/r025ko.png); not locked by KO 3035.67."
+  }
+ ]
+}

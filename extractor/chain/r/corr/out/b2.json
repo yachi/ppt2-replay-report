@@ -1,0 +1,36 @@
+{"event_corrections":[
+ {"n":50,"id":"r061","side":"p1","op":"retype","t":4998.43,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g2/r061.png, fr/g2/r061z.png: T rotated into slot at ~4998.30; banner reads 'Mini T-SPIN' (no 'Single'); no row flashes or disappears (stack identical before/after); p1 score 77778->78078 (+300) at 4998.40 = zero-line Mini T-spin at level 3 (a Mini TSS would be +600). Zero-line mini T-spin, not a clear."},
+ {"n":51,"id":"r063","side":"p1","op":"retype","t":5062.0,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,
+  "source":"fr/g2/r063.png: T-SPIN Double banner ('...N Double') at 5062.23-5062.53, two-row clear flash; p1 score 15385->18985 (+3600) at 5062.23 = non-B2B TSD at level 3 (TSS would be +2400)."},
+ {"n":55,"id":"r070","side":"p1","op":"replace_window","t":5358.9,"t_end":5384.73,
+  "events":[{"t":5358.9,"kind":"single","lines":1,"pc":0,"gc":0},{"t":5377.0,"kind":"single","lines":1,"pc":0,"gc":1},{"t":5384.73,"kind":"single","lines":1,"pc":0,"gc":0}],
+  "was_old":[[5358.9,"single",1],[5358.93,"single",1],[5370.4,"single",1],[5377.0,"single",1],[5384.37,"single",1],[5384.73,"single",1]],
+  "source":"Stream runs in slow motion 5358-5384 (fr/g2/r070a.png: p1's S descends slowly 5359.5-5374.5). nextcount p1: only 3 spawns in the window (5358.80, 5377.00, 5384.73; next 5385.90). score.py p1: only 3 clears, +1800 at 5376.33, +1950 at 5383.97, +2100 at 5385.20 (single + REN 10/11/12, each +150), then triple +3450 (5386.30) and double +3000 (5387.17). Chain had 6 single events here: 3 phantom pieces and 3 phantom singles. gc of kept events copied from chain, not re-verified. Also answers items 56, 59, 60."},
+ {"n":54,"id":"r070","side":"p2","op":"replace_window","t":5356.1,"t_end":5377.9,
+  "events":[{"t":5356.67,"kind":"single","lines":1,"pc":0,"gc":0},{"t":5357.83,"kind":"single","lines":1,"pc":0,"gc":0},{"t":5359.17,"kind":"single","lines":1,"pc":0,"gc":0},{"t":5368.8,"kind":"single","lines":1,"pc":0,"gc":0}],
+  "was_old":[[5356.1,null,0],[5356.43,"BREAK",3],[5356.67,"single",1],[5357.83,"single",1],[5357.97,"BREAK",1],[5359.17,"single",1],[5367.77,null,0],[5368.63,"BREAK",3],[5368.8,"single",1],[5377.9,"single",1]],
+  "source":"Slow-motion stretch (fr/g2/r070a.png). nextcount p2 spawns: 5351.63, 5356.67, 5357.83, 5359.17, 5368.80, 5379.00 (no spawn at 5356.1, 5367.77 or 5377.9). score.py p2 clears with REN +150 per step, unbroken: +1050 5356.00, +1200 5357.17, +1350 5358.53, +1500 5368.20, +1650 5378.37, +1804 5382.77 ... +2550 5388.07, tetris +4820 5389.23, +2850 5390.50 (REN 0..17 continuous from 5346.87) -> the three BREAKs are false, 5356.1/5367.77 None are phantom locks, 5377.9 single is phantom (score shows one clear for the 5368.8 piece and one for the 5379.0 piece). Also answers items 57, 58, 61."}
+],
+"cell_edits":[
+ {"n":55,"id":"r070","player":"p1","field":"pieces","was":59,"value":56,"source":"nextcount p1 5329.5-5392.87: 58 spawns, minus first hold-into-empty (5330.70), minus last spawn 5392.23 not locked before top-out = 56; equals chain events (59) minus the 3 phantoms removed above."},
+ {"n":55,"id":"r070","player":"p1","field":"max_combo","was":17,"value":14,"source":"score.py: p1 REN chain singles +300,+450,...,+1650 (5345.27-5358.13), +1800 5376.33, +1950 5383.97, +2100 5385.20, triple +3450 5386.30, double +3000 5387.17 = 15 consecutive clears -> REN 14; the next clear (5390.27) is +1500, no REN."},
+ {"n":54,"id":"r070","player":"p2","field":"pieces","was":69,"value":61,"source":"nextcount p2 5329.5-5392.87: 63 spawns, minus first hold-into-empty (5331.03), minus J spawned 5392.73 still airborne at KO (fr/g2/r070ko.png) = 61; equals chain events (64) minus the 3 phantom locks removed above."},
+ {"n":54,"id":"r070","player":"p2","field":"max_combo","was":9,"value":17,"source":"score.py p2: 18 consecutive clears 5346.87-5390.50 each adding +150 REN bonus (single 300 -> 2850 at 5390.50 = 300 + 17x150; tetris 5389.23 = 2400 + 16x150); no break -> REN 17."}
+],
+"no_change":[
+ {"n":46,"why":"fr/g2/r047.png: L spawned 4242.07 stays at the top through KO 4242.27; no lock, score unchanged."},
+ {"n":47,"why":"fr/g2/r048.png: J spawned 4268.47 still at top at KO 4268.67; no lock."},
+ {"n":48,"why":"fr/g2/r059.png + nextcount: T spawned 4850.00 still falling at KO 4850.33 (lands 4850.40); chain count 28 already right (its 4850.0 event stands for the J spawned 4849.67 that locked ~4849.9)."},
+ {"n":49,"why":"fr/g2/r060.png: L spawned 4907.43 still at the top at KO 4907.57 (bottom-left shape is the ghost); score unchanged."},
+ {"n":52,"why":"fr/g2/r065.png: O spawned 5162.60 at top through KO 5162.83; no lock."},
+ {"n":53,"why":"fr/g2/r068.png: J (5264.97) locked 5265.32 and is in the chain; I spawned 5265.33 still airborne at KO 5265.57."},
+ {"n":56,"why":"Handled by the r070 p1 replace_window (item 55)."},
+ {"n":57,"why":"Handled by the r070 p2 replace_window (item 54)."},
+ {"n":58,"why":"Handled by the r070 p2 replace_window (item 54)."},
+ {"n":59,"why":"Handled by the r070 p1 replace_window (item 55); after it, 5384.37 is gone and 5385.9 triple / 5387.03 double match the score (+3450, +3000)."},
+ {"n":60,"why":"Handled by the r070 p1 replace_window (item 55)."},
+ {"n":61,"why":"Handled by the r070 p2 replace_window (item 54); 5379.0-5387.43 singles each match a score step."},
+ {"n":62,"why":"Score +2850 at 5390.50 = single 300 + REN17 2550; a TSS would add far more. Plain single is right."},
+ {"n":63,"why":"fr/g2/r070ko.png: O (5392.40) locked ~5392.63 and is in the chain; J spawned 5392.73 still airborne at KO 5392.87."}
+]}

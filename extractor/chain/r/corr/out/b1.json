@@ -1,0 +1,25 @@
+{"event_corrections":[
+ {"n":36,"id":"r032","side":"p1","op":"remove","t":3329.73,"was":[null,0,0],"source":"fr/g1/r032a.png 3325.5-3330.6: the S spawned 3325.67 hangs and falls slowly until it locks by gravity ~3329.9 (no score change 3325.57-3330.37); nextcount shows spawns only at 3325.67 and 3330.00 (T held, held I comes out and makes the quad, +2400 at 3330.43). The 3329.73 lock is a duplicate of the S."},
+ {"n":37,"id":"r032","side":"p1","op":"remove","t":3386.07,"was":["single",1,0],"source":"fr/g1/r032b.png 3385.8-3391.9 + score.py: spawns only at 3385.90 (I, held at 3386.63 for T), 3390.47 (O), 3391.53. Score: +15 soft drop 3386.8-3387.23, then only +1200 at 3389.77 (Mini T-spin Single 600 + REN 600) until the O's +26 at 3391.43 and the quad (+3600) at 3391.83. The T sits on the stack from 3387.2 and spins into the slot at ~3389.7 (T-SPIN Single banner, one row flash). No single here."},
+ {"n":37,"id":"r032","side":"p1","op":"remove","t":3387.53,"was":["single",1,0],"source":"same as 3386.07: fr/g1/r032b.png, no spawn and no clear between 3385.90 and 3389.7; phantom."},
+ {"n":37,"id":"r032","side":"p1","op":"remove","t":3389.73,"was":["tsmini",1,0],"source":"same window: the one Mini T-spin Single (score +1200 at 3389.77) is the T swapped in for the piece spawned 3385.90, already logged as the chain's 3385.90 tsmini; this second one is a duplicate."},
+ {"n":41,"id":"r044","side":"p2","op":"retype","t":3988.0,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"source":"fr/g1/r044a.png: T drops into the slot 3988.6-3988.7, two rows clear with Double + BACK(to back) + REN banners at 3988.8; score 5255->10805 (+5550 = B2B TSD 5400 + REN 150) after the TST at 3987.30 (+4800). A plain double would be ~1050."},
+ {"n":42,"id":"r044","side":"p2","op":"retype","t":3992.07,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,"source":"fr/g1/r044b.png: the held Z is swapped for the O, which clears the last two rows at ~3992.35; board empty and a second PERFECT CLEAR banner from 3992.40; score 18069->22569 (+4500) at 3992.37. Real PC (the game's second, after the 3990.80 triple PC)."},
+ {"n":42,"id":"r044","side":"p2","op":"retype","t":3992.43,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g1/r044b.png: the T spawned 3992.43 lands flat on the empty floor at 3992.7-3992.85 with no row clear; score only +38 (drop points) at 3992.87. Plain lock."},
+ {"n":42,"id":"r044","side":"p2","op":"add","t":3993.6,"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g1/r044c.png: piece spawned 3993.60 (hold swap at 3993.73) is hard-dropped and the J is locked in the frame at 3993.933 = KO frame (end_s 3993.93); score 22715->22753 (+38, no clear) in that same frame (score.py, t0-aligned frames)."}
+],
+"cell_edits":[
+ {"n":37,"id":"r032","player":"p1","field":"pieces","was":"220","value":216,"source":"one phantom lock at 3329.73 (fr/g1/r032a.png) and three phantom events 3386.07/3387.53/3389.73 (fr/g1/r032b.png), confirmed by nextcount spawns and score.py"},
+ {"n":42,"id":"r044","player":"p2","field":"pieces","was":"29","value":30,"source":"winner's last piece locks on the KO frame 3993.933 (fr/g1/r044c.png, score +38 in that frame)"},
+ {"n":41,"id":"r044","player":"p2","field":"max_b2b","was":"0","value":1,"source":"TST 3986.57 then TSD 3988.0 with BACK to BACK banner and B2B-scored +5550 (fr/g1/r044a.png); the next clear (triple PC) breaks it"}
+],
+"no_change":[
+ {"n":34,"why":"r028 p2: T spawned 3193.80 is still soft-dropping at KO 3194.07 (score keeps rising by 1/frame through 3194.13; fr/g1/r028.png); not locked by KO."},
+ {"n":35,"why":"r030 p2: Z spawned 3255.57 is still in the air at the KO frame 3256.033 and locks at 3256.067, one frame later (fr/g1/r030b.png, score +22 first at 3256.07/3256.10)."},
+ {"n":38,"why":"r039 p2: Z spawned 3799.30 is still at the top at KO 3799.47 (fr/g1/r039.png); the +1 at 3799.50 is a soft-drop point, no lock."},
+ {"n":39,"why":"r040 p1: Z spawned 3830.47 still at the top at KO 3830.57, score flat (fr/g1/r040.png)."},
+ {"n":40,"why":"r043 p1: J spawned 3975.73 still in the air at KO 3976.0, score flat at 52212 (fr/g1/r043.png)."},
+ {"n":43,"why":"r045 p2: the 4018.7 clear is a plain single: T held near the top 4019.1-4020.9, drops and clears one row at ~4021.0; score +22 drop then +450 (single 300 + REN 150 after the quad), no T-spin banner (fr/g1/r045a.png). A TSS would be >=2400."},
+ {"n":44,"why":"r045 p1: piece spawned 4130.63 is soft-dropping through the KO (score +1 per frame up to 4131.10, past end_s 4131.07); not locked."},
+ {"n":45,"why":"r046 p2: Z (from hold swap) is hard-dropped and appears locked first in frame 4184.600 (score 63122->63140), one frame after KO frame 4184.567 (fr/g1/r046b.png: sheet.py's -ss lands on the next frame, score.py frame-aligned shows change at 4184.60)."}
+]}

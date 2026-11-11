@@ -1,0 +1,155 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "r000 p2: my score.py: p2 clears 199.10 +1528 (REN8), 200.00 +1676 (REN9), 205.60 +1800 (REN10), 206.47 +2550 double (REN11), 207.30 +2130 (REN12); no score change 200.30-205.57. nextcount p2 shifts 199.77, 200.63, 206.27, 207.20 only. 200.70 is a phantom."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "r000 p2: same evidence; the piece spawned 200.63 clears at 205.60 and the next spawn is 206.27 (double at 206.47); 205.93 is a phantom single."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "r001 p1: my score.py p1 REN steps 266.37 n10, 269.03 n11, 279.23 n12, 280.13 n13, 282.40 n14, 283.23 n15, 284.23 n16; nextcount p1 shifts 269.70, 279.97, 280.80, 283.07, 283.90. 269.90 is a duplicate."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "r001 p1: same; 280.00 duplicates the 279.97 spawn (only 5 clears 269.03-284.23 against 7 chain singles from 269.7)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "r001 p2: my score.py p2 REN unbroken 260.90 n0 ... 266.67 n7, 269.07 n8, 269.87 n9, 277.97 n10, 278.83 n11, 279.97 n12, 280.83 n13; a plain lock would reset it. BREAK 269.13 false."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "r001 p2: same; BREAK 270.67 false (nextcount shifts 269.73, 270.50, 278.57 only; 270.50 piece clears at 277.97 at REN 10)."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "r013 p1: my score.py p1 REN of 21 singles, +300..+3300 in steps of 150 (745.17 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 n20) against 27 chain singles 744.93-853.47; each real spawn is ~0.67 s after the previous clear, so 748.67 is one of the 6 phantoms."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "r013 p1: my score.py p1 REN of 21 singles, +300..+3300 in steps of 150 (745.17 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 n20) against 27 chain singles 744.93-853.47; each real spawn is ~0.67 s after the previous clear, so 765.43 is one of the 6 phantoms."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "r013 p1: my score.py p1 REN of 21 singles, +300..+3300 in steps of 150 (745.17 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 n20) against 27 chain singles 744.93-853.47; each real spawn is ~0.67 s after the previous clear, so 788.67 is one of the 6 phantoms."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "r013 p1: my score.py p1 REN of 21 singles, +300..+3300 in steps of 150 (745.17 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 n20) against 27 chain singles 744.93-853.47; each real spawn is ~0.67 s after the previous clear, so 814.50 is one of the 6 phantoms."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "r013 p1: my score.py p1 REN of 21 singles, +300..+3300 in steps of 150 (745.17 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 n20) against 27 chain singles 744.93-853.47; each real spawn is ~0.67 s after the previous clear, so 829.73 is one of the 6 phantoms."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "r013 p1: my score.py p1 REN of 21 singles, +300..+3300 in steps of 150 (745.17 n0 ... 747.90 n3, 765.93 n4, 789.17 n5, 815.00 n6, 830.17 n7, 839.37 n8, 842.30 n9 ... 853.53 n20) against 27 chain singles 744.93-853.47; each real spawn is ~0.67 s after the previous clear, so 838.93 is one of the 6 phantoms."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "r013 p2: my score.py p2 REN unbroken 745.13 n0, 745.93 double n1, 748.63 n2, 770.30 n3, 802.97 n4, 839.77 n5, 841.07 ... 853.60 double +3750 n19, so no plain lock in the window (765.63/819.80 None phantom), one clear each for spawns 770.93 and 803.60 (802.53 dup), BREAKs false. was_old checked: exactly the 16 chain events in [765.63, 840.17]; kept events' gc 0 matches chain."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "r014 p1: my score.py p1 REN 925.20 n0..929.43 n4, 946.03 n5, 955.00 n6, 957.33 n7, 967.97 n8, 976.17 n9, 980.37 n10, 982.00..990.17 n20 (21 clears). Kept spawns 946.70, 955.63, 957.97, 968.60, 976.83 = the 5 clears 955.00-980.37; 930.23, 943.47, 954.53, 968.07, 975.70, 980.47 phantoms, BREAK false. was_old = exactly the 12 chain events in [930.23, 980.47]."
+ },
+ {
+  "ref": "e14",
+  "verdict": "reject",
+  "why": "r014 p1: the chain ALREADY holds the KO-tail clear: its last event is [990.07, single, 1, 0, gc 1], not 989.17. nextcount p1 shifts 981.07, 982.63, 983.53, 984.57, 985.43, 986.37, 987.13, 988.00, 989.07, 989.90 (10) = chain entries 981.07..990.07 (10) = score clears 982.00..990.17 (10). Adding 989.90 would double-count the single at 990.17."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "r014 p2: my score.py p2 926.63 double n0, 927.53 n1, 928.63 n2, 957.57 n3, 968.57 double +1500 n4, 976.17 n5 ... 986.10 double +2850 n13: REN unbroken, so 944.0 None phantom, 929.47 dup of 929.30, all BREAKs false. was_old = exactly the 13 chain events in [929.47, 976.27]; kept 958.2 double and 969.3 single match the chain (gc 0)."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "87 nonbreak chain entries less the 2 phantoms = 85 (= extractor A); confirmed by score.py/nextcount above."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "REN 12 at 207.30 (+2130 single = 300+150*12+drops), broken by the 207.97 plain lock; = extractor A's 12."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "58 less 2 duplicates = 56; score shows 17 REN clears 257.73-284.23 against 19 chain singles."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "score.py: last REN step 284.23 +2700 = 300+150*16, unbroken from 257.73 n0."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "score.py p2 REN n0 260.90 to n13 280.83 (+2250 = 300+150*13) unbroken."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "chain non-BREAK entries 69; the 8 s gap holds only the 270.50 spawn (nextcount), which clears at 277.97; = extractor A."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "143 less 6 phantoms = 137 (= extractor A)."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "score.py: 853.53 +3300 = 300+150*20, unbroken from 745.17."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "134 non-BREAK less 765.63, 802.53, 819.80 = 131 (= extractor A)."
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "score.py: 853.60 double +3750 = 900+150*19, unbroken from 745.13."
+ },
+ {
+  "ref": "c10",
+  "verdict": "amend",
+  "amended": {
+   "value": 70
+  },
+  "why": "r014 p1: 76 non-BREAK less the 6 phantoms = 70. The '+1 KO piece' is already in the chain as 990.07 (spawn 989.90, clear 990.17 before KO 990.27), so 70, = extractor A's 70."
+ },
+ {
+  "ref": "c11",
+  "verdict": "keep",
+  "why": "score.py: 990.17 +3300 = 300+150*20, unbroken from 925.20."
+ },
+ {
+  "ref": "c12",
+  "verdict": "keep",
+  "why": "73 non-BREAK less 929.47 and 944.0 = 71 (= extractor A)."
+ },
+ {
+  "ref": "c13",
+  "verdict": "keep",
+  "why": "score.py: 986.10 double +2850 = 900+150*13, then reset (987.10 +312, after the 986.8 plain lock)."
+ }
+]
