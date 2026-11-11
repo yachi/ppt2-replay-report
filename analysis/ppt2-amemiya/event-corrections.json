@@ -19076,5 +19076,895 @@
    ]
   ],
   "source": "v4 skeptic, missed by b4: v4: nextcount p1 shifts 2245.133 then 2254.767 only (hold 2245.767 T in, I out); score 2244.33 +1500, 2253.97 +3750, 2255.67 +1800, nothing else in the window; fr/v4/c021gap.png shows the board unchanged except the I falling. B's spliced gap (3 BREAKs, 7 untyped lines) is phantom."
+ },
+ {
+  "id": "e006",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 732.5,
+  "t_end": 737.87,
+  "events": [
+   {
+    "t": 737.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 737.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    732.5,
+    "single",
+    1
+   ],
+   [
+    732.53,
+    "single",
+    1
+   ],
+   [
+    737.37,
+    "single",
+    1
+   ],
+   [
+    737.87,
+    "single",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: /tmp/claude-0/e/corr/fr/g0/i3.png (732.3-739.1, 0.4 s): I spawns 732.5 and hovers until held at 737.0; the piece out of hold locks with a single (score +600 = single REN2 at 737.20), then Z (spawn 737.87) locks with a single (+750 REN3 at 738.97). Only one NEXT shift (732.50) and one hold in the window (nextcount), and only two drop-point bumps (737.17, 738.83). So 2 locks/2 singles, not 4: 732.53 is a double-log and 737.37 a phantom. Subsequent score jumps fit REN 4..14 exactly (double 1500, single 1050, triple 2400 ... single 2400 at 754.47)."
+ },
+ {
+  "id": "e011",
+  "side": "p2",
+  "op": "add",
+  "t": 959.2,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: /tmp/claude-0/e/corr/fr/g0/i6.png, /tmp/claude-0/e/corr/fr/g0/i6b.png: S spawns 959.20 (NEXT shift 959.233), hard-dropped and locked with no clear (score 38967->38993, +26 drop points only) in the frame stamped 959.43 in i6b (959.40 in i6, tools one frame apart); p1's board starts its tilt in that same frame (959.43 in i6b, clearly tilted 959.46). Lock in the KO frame counts."
+ },
+ {
+  "id": "e013",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1016.3,
+  "source": "b0 frame check, verified: /tmp/claude-0/e/corr/fr/g0/i8.png: S (spawn 1016.30) locks 1016.37, row flash 1016.40, REN counter goes to 9; score 20216->21866 (+1650 = single 300 + REN9 1350) at 1016.43. Next lock 1017.47 no clear (REN breaks). gc unverified (left 0).",
+  "t_end": 1016.3,
+  "events": [
+   {
+    "t": 1016.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1016.3,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "e016",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1245.27,
+  "t_end": 1249.43,
+  "events": [
+   {
+    "t": 1245.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1248.37,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 3
+   },
+   {
+    "t": 1249.43,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1245.27,
+    "quad",
+    4
+   ],
+   [
+    1245.57,
+    null,
+    0
+   ],
+   [
+    1248.77,
+    "quad",
+    4
+   ],
+   [
+    1249.43,
+    null,
+    0
+   ],
+   [
+    1249.43,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b0 frame check, amended by skeptic: nextcount: spawns 1245.267 (T), 1248.367 (I), 1249.433 (J, held at 1249.50 so T comes out of hold); /tmp/claude-0/e/corr/fr/g0/i11.png: T locks no-clear at ~1248.27 (+10), I hard-drops into the well, TETRIS at 1248.57 (+3600 B2B), J held, T from hold soft-drops, TSD at 1249.90 (+5550 = 5400 B2B +150 REN1, so no plain lock between the quad and the TSD). Only one quad between 1243.43 and 1249.90 on the score; 1245.27 quad is phantom, 1245.57 None phantom, 1249.43 None is the held J (not a lock). quad gc kept from chain's 1248.77 event."
+ },
+ {
+  "id": "e037",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2431.9,
+  "t_end": 2533.1,
+  "events": [
+   {
+    "t": 2431.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2442.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2453.67,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2461.17,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2462.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2463.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2467.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2468.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2481.23,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 2495.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2509.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2518.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 2530.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2531.23,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2532.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2533.03,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2431.97,
+    "single",
+    1
+   ],
+   [
+    2442.87,
+    "single",
+    1
+   ],
+   [
+    2442.9,
+    "single",
+    1
+   ],
+   [
+    2443.0,
+    "single",
+    1
+   ],
+   [
+    2443.03,
+    "BREAK",
+    2
+   ],
+   [
+    2453.1,
+    "single",
+    1
+   ],
+   [
+    2453.67,
+    "single",
+    1
+   ],
+   [
+    2460.67,
+    null,
+    0
+   ],
+   [
+    2460.93,
+    "BREAK",
+    5
+   ],
+   [
+    2461.17,
+    "single",
+    1
+   ],
+   [
+    2462.2,
+    "single",
+    1
+   ],
+   [
+    2463.6,
+    "single",
+    1
+   ],
+   [
+    2467.3,
+    "BREAK",
+    1
+   ],
+   [
+    2467.93,
+    "single",
+    1
+   ],
+   [
+    2468.77,
+    "single",
+    1
+   ],
+   [
+    2468.9,
+    "BREAK",
+    1
+   ],
+   [
+    2471.33,
+    "BREAK",
+    0
+   ],
+   [
+    2475.67,
+    "BREAK",
+    0
+   ],
+   [
+    2478.2,
+    "BREAK",
+    0
+   ],
+   [
+    2480.93,
+    "BREAK",
+    3
+   ],
+   [
+    2481.23,
+    "double",
+    2
+   ],
+   [
+    2484.63,
+    "BREAK",
+    0
+   ],
+   [
+    2487.1,
+    "BREAK",
+    1
+   ],
+   [
+    2488.97,
+    "BREAK",
+    2
+   ],
+   [
+    2491.43,
+    "BREAK",
+    0
+   ],
+   [
+    2493.87,
+    "BREAK",
+    2
+   ],
+   [
+    2495.13,
+    "single",
+    1
+   ],
+   [
+    2495.4,
+    "BREAK",
+    3
+   ],
+   [
+    2500.47,
+    "BREAK",
+    0
+   ],
+   [
+    2502.9,
+    "BREAK",
+    2
+   ],
+   [
+    2505.43,
+    "BREAK",
+    0
+   ],
+   [
+    2509.07,
+    "single",
+    1
+   ],
+   [
+    2509.27,
+    "single",
+    1
+   ],
+   [
+    2517.23,
+    "single",
+    1
+   ],
+   [
+    2518.53,
+    "single",
+    1
+   ],
+   [
+    2530.23,
+    "single",
+    1
+   ],
+   [
+    2530.27,
+    "single",
+    1
+   ],
+   [
+    2531.23,
+    "single",
+    1
+   ],
+   [
+    2532.13,
+    "single",
+    1
+   ],
+   [
+    2533.03,
+    "single",
+    1
+   ]
+  ],
+  "source": "b1 frame check, verified: REN standoff: both players stall for 7-13 s at a time with open 4-wide wells (sheet /tmp/claude-0/e/corr/fr/g1/e037a.png, 2431.5-2443.5 s, no locks). nextcount.py over the whole game (fr/g1/nc_p1.txt, nc_p2.txt) reads every spawn through these windows; each spawn is followed by exactly one lock that clears, and score.py (fr/g1/e037score.txt) shows one REN clear per spawn, REN bonus rising by 150 each time without a break. p1 spawns 2431.967,2442.867,2453.667,2461.167,2462.2,2463.6,2467.833,2468.767,2481.133,2495.133,2509.067,2518.367,2530.233,2531.233,2532.133,2533.033 (16); clears at 2442.13(+750 REN3),2453.0(900),2460.5(1050),2461.47(1200),2462.87(1350),2467.2(1500),2468.1(1650),2480.47(1800),2494.3(+2550 = double REN11),2508.4(2100),2517.7(2250),2529.57(2400),2530.5,2531.47,2532.33,2533.2(+3000 REN18). Chain extras 2442.9,2443.0,2453.1,2460.67(None),2509.27,2517.23,2530.27 match no spawn and no score jump; the BREAK markers are false (REN never broke)."
+ },
+ {
+  "id": "e037",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2431.0,
+  "t_end": 2534.0,
+  "events": [
+   {
+    "t": 2431.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2441.2,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2442.3,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2451.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2452.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2459.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2460.7,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2461.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2463.13,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2466.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2467.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2494.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2507.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2525.97,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 2529.8,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2530.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2531.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 2532.57,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 2533.57,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    2431.3,
+    "single",
+    1
+   ],
+   [
+    2440.77,
+    "single",
+    1
+   ],
+   [
+    2441.2,
+    "single",
+    1
+   ],
+   [
+    2442.3,
+    "single",
+    1
+   ],
+   [
+    2442.4,
+    "single",
+    1
+   ],
+   [
+    2451.43,
+    "single",
+    1
+   ],
+   [
+    2451.93,
+    "single",
+    1
+   ],
+   [
+    2452.87,
+    "single",
+    1
+   ],
+   [
+    2459.97,
+    "single",
+    1
+   ],
+   [
+    2460.7,
+    "single",
+    1
+   ],
+   [
+    2461.6,
+    "single",
+    1
+   ],
+   [
+    2463.13,
+    "single",
+    1
+   ],
+   [
+    2466.97,
+    "single",
+    1
+   ],
+   [
+    2467.77,
+    "single",
+    1
+   ],
+   [
+    2467.83,
+    "single",
+    1
+   ],
+   [
+    2479.53,
+    null,
+    0
+   ],
+   [
+    2479.67,
+    "BREAK",
+    0
+   ],
+   [
+    2481.6,
+    "BREAK",
+    2
+   ],
+   [
+    2493.27,
+    "single",
+    1
+   ],
+   [
+    2494.37,
+    "single",
+    1
+   ],
+   [
+    2505.0,
+    "single",
+    1
+   ],
+   [
+    2507.97,
+    "single",
+    1
+   ],
+   [
+    2519.8,
+    "single",
+    1
+   ],
+   [
+    2525.97,
+    "double",
+    2
+   ],
+   [
+    2529.8,
+    "single",
+    1
+   ],
+   [
+    2530.53,
+    "single",
+    1
+   ],
+   [
+    2531.73,
+    "single",
+    1
+   ],
+   [
+    2532.57,
+    "single",
+    1
+   ],
+   [
+    2533.57,
+    "single",
+    1
+   ]
+  ],
+  "source": "b1 frame check, verified: REN standoff: both players stall for 7-13 s at a time with open 4-wide wells (sheet /tmp/claude-0/e/corr/fr/g1/e037a.png, 2431.5-2443.5 s, no locks). nextcount.py over the whole game (fr/g1/nc_p1.txt, nc_p2.txt) reads every spawn through these windows; each spawn is followed by exactly one lock that clears, and score.py (fr/g1/e037score.txt) shows one REN clear per spawn, REN bonus rising by 150 each time without a break. p2 spawns 2431.3,2441.2,2442.3,2451.933,2452.867,2459.967,2460.7,2461.6,2463.133,2466.967,2467.767,2494.367,2507.967,2525.967,2529.8,2530.533,2531.733,2532.567,2533.567 (19); clears 2440.53(+750 REN3) ... 2493.7(2250),2507.33(2400),2525.3(2550),2529.1(+3332 = double REN16 + drop),2529.93 ... 2533.8. Chain extras 2440.77,2442.4,2451.43,2467.83,2479.53(None),2493.27,2505.0,2519.8 match no spawn and no score jump; BREAKs false."
+ },
+ {
+  "id": "e038",
+  "side": "p1",
+  "op": "retype",
+  "t": 2602.4,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "source": "b1 frame check, verified: I piece spawned 2602.40 (nextcount) drops vertical into the left well; TETRIS banner + BACK to BACK + 2 REN at 2602.55-2603.30, score +3900 at 2602.63 (=B2B tetris 3600 + REN 300). /tmp/claude-0/e/corr/fr/g1/e038.png"
+ },
+ {
+  "id": "e038",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2603.47,
+  "source": "b1 frame check, verified: O spawned 2603.47 locks at left (score +24 at 2603.70) and clears two rows: +1350 at 2603.77 (= double 900 + 3 REN 450), REN counter 2->3 at 2603.75; the following single at 2604.53 scores 900 (= 300 + 4 REN). This is the KO-tail +1375 jump. /tmp/claude-0/e/corr/fr/g1/e038.png",
+  "t_end": 2603.47,
+  "events": [
+   {
+    "t": 2603.47,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2603.47,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "e024",
+  "side": "p1",
+  "op": "add",
+  "t": 1767.03,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: T spawns 1767.03, hold swap 1767.07 brings out S, S hard-dropped and locked at 1767.23 (score 31665->31679), no clear; next L spawns 1767.33 and is still falling at KO 1767.37. /tmp/claude-0/e/corr/fr/g1/e024ko.png"
+ },
+ {
+  "id": "e043",
+  "side": "p1",
+  "op": "remove",
+  "t": 2865.33,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: Phantom single. NEXT queue shifts only at 2861.43, 2865.63, 2866.63 (nextcount); the I spawned 2861.43 hovers ~3 s and is HELD at 2864.70, the S from hold locks and clears at 2864.93/2865.00 (+1050 = single REN5), the Z spawned 2865.63 clears at 2866.00 (+1200 = REN6), the double at 2866.83 (+1950 = REN7). Only three clears in 2861.5-2867, chain has four; no spawn exists at 2865.33. Removing it accounts for the -1437 score shortfall. /tmp/claude-0/e/corr/fr/g2/e043.png"
+ },
+ {
+  "id": "e057",
+  "side": "p1",
+  "op": "add",
+  "t": 3823.4,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: J spawned 3823.40 (NEXT shift) locks at 3823.47 (score +36 drop points at 3823.47, lock flash) on the same frame p2's board first tilts (3823.43 straight, 3823.47 tilted: /tmp/claude-0/e/corr/fr/g2/e057b.png); it fills the hole of the grey garbage bottom row, which flashes and clears; score +2550 at 3823.53 = single 300 + 150*15 REN, banner 14 REN -> 15 REN. /tmp/claude-0/e/corr/fr/g2/e057.png"
+ },
+ {
+  "id": "e073",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 4661.23,
+  "t_end": 4661.97,
+  "events": [
+   {
+    "t": 4661.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4661.47,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 3
+   },
+   {
+    "t": 4661.97,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4661.23,
+    null,
+    0
+   ],
+   [
+    4661.97,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount p2: O spawns 4661.233, hold swap 4661.367 (J out, locks), L spawns 4661.467 and is the PC triple (score 10964->17864 at 4661.83-4661.90, before the 4661.967 spawn); Z spawned 4661.967 is swapped for O which locks 4662.37 with +38 drop only (fr/g3/n51.png). The chain logged the triple one spawn late and missed the L spawn."
+ },
+ {
+  "id": "e073",
+  "side": "p2",
+  "op": "add",
+  "t": 4662.77,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: T spawns 4662.767, held at 4662.867 swapping O out; O hard-drops (+38, 17976->18014) in the frame at 4663.067, the same frame as p1's first tilt (fr/g3/n52b.png: frame 1 untilted O at top, frame 2 tilted O locked). Lock on KO frame counts. No clear."
+ },
+ {
+  "id": "e075",
+  "side": "p1",
+  "op": "add",
+  "t": 4821.03,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: L spawns 4821.033 (nextcount), locks ~4821.04 (+28 drop, 86296->86324), single clear flash on a colored (non-garbage) row and 8 REN banner, score +1500 (300+8x150) by 4821.07-4821.10, at/before KO 4821.10 (fr/g3/n53.png)."
  }
 ]

@@ -1,0 +1,32 @@
+{"event_corrections":[
+ {"n":3,"id":"e006","side":"p1","op":"replace_window","t":732.5,"t_end":737.87,
+  "events":[{"t":737.0,"kind":"single","lines":1,"pc":0,"gc":0},{"t":737.87,"kind":"single","lines":1,"pc":0,"gc":0}],
+  "was_old":[[732.5,"single",1],[732.53,"single",1],[737.37,"single",1],[737.87,"single",1]],
+  "source":"/tmp/claude-0/e/corr/fr/g0/i3.png (732.3-739.1, 0.4 s): I spawns 732.5 and hovers until held at 737.0; the piece out of hold locks with a single (score +600 = single REN2 at 737.20), then Z (spawn 737.87) locks with a single (+750 REN3 at 738.97). Only one NEXT shift (732.50) and one hold in the window (nextcount), and only two drop-point bumps (737.17, 738.83). So 2 locks/2 singles, not 4: 732.53 is a double-log and 737.37 a phantom. Subsequent score jumps fit REN 4..14 exactly (double 1500, single 1050, triple 2400 ... single 2400 at 754.47)."},
+ {"n":6,"id":"e011","side":"p2","op":"add","t":959.2,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"/tmp/claude-0/e/corr/fr/g0/i6.png, /tmp/claude-0/e/corr/fr/g0/i6b.png: S spawns 959.20 (NEXT shift 959.233), hard-dropped and locked with no clear (score 38967->38993, +26 drop points only) in the frame stamped 959.43 in i6b (959.40 in i6, tools one frame apart); p1's board starts its tilt in that same frame (959.43 in i6b, clearly tilted 959.46). Lock in the KO frame counts."},
+ {"n":8,"id":"e013","side":"p1","op":"retype","t":1016.3,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"/tmp/claude-0/e/corr/fr/g0/i8.png: S (spawn 1016.30) locks 1016.37, row flash 1016.40, REN counter goes to 9; score 20216->21866 (+1650 = single 300 + REN9 1350) at 1016.43. Next lock 1017.47 no clear (REN breaks). gc unverified (left 0)."},
+ {"n":11,"id":"e016","side":"p1","op":"replace_window","t":1245.27,"t_end":1249.43,
+  "events":[{"t":1245.27,"kind":null,"lines":0,"pc":0,"gc":0},{"t":1248.37,"kind":"quad","lines":4,"pc":0,"gc":3},{"t":1249.5,"kind":"tsd","lines":2,"pc":0,"gc":0}],
+  "was_old":[[1245.27,"quad",4],[1245.57,null,0],[1248.77,"quad",4],[1249.43,null,0],[1249.43,"tsd",2]],
+  "source":"nextcount: spawns 1245.267 (T), 1248.367 (I), 1249.433 (J, held at 1249.50 so T comes out of hold); /tmp/claude-0/e/corr/fr/g0/i11.png: T locks no-clear at ~1248.27 (+10), I hard-drops into the well, TETRIS at 1248.57 (+3600 B2B), J held, T from hold soft-drops, TSD at 1249.90 (+5550 = 5400 B2B +150 REN1, so no plain lock between the quad and the TSD). Only one quad between 1243.43 and 1249.90 on the score; 1245.27 quad is phantom, 1245.57 None phantom, 1249.43 None is the held J (not a lock). quad gc kept from chain's 1248.77 event."}
+],
+"cell_edits":[
+ {"n":3,"id":"e006","player":"p1","field":"pieces","was":53,"value":51,"source":"two phantom singles removed (732.53, 737.37); see replace_window"},
+ {"n":2,"id":"e006","player":"p1","field":"max_combo","was":16,"value":14,"source":"REN run 730.17-754.47 is 15 consecutive clears; score steps match REN0..REN14 (+300,450,600,750,1500,1050,2400,1350,1500,2250,1800,1950,4200,2250,2400)"},
+ {"n":6,"id":"e011","player":"p2","field":"pieces","was":68,"value":69,"source":"S locked in the KO frame 959.43, see add"},
+ {"n":8,"id":"e013","player":"p1","field":"max_combo","was":8,"value":9,"source":"on-screen '9 REN' at 1016.47 (/tmp/claude-0/e/corr/fr/g0/i8.png); score +1650 = single+REN9"},
+ {"n":12,"id":"e016","player":"p1","field":"pieces","was":119,"value":117,"source":"window 1245.27-1249.43 holds 3 locks (T none, I quad, T tsd), chain had 5; see replace_window n=11"},
+ {"n":11,"id":"e016","player":"p1","field":"max_b2b","was":7,"value":6,"source":"phantom quad at 1245.27 removed from the B2B run; recomputed from chain events with the fix"}
+],
+"no_change":[
+ {"n":0,"why":"/tmp/claude-0/e/corr/fr/g0/i0.png: last p2 piece (L) locked ~395.2 with the logged single; I spawned 395.33, held 395.60, O still falling after KO 395.63"},
+ {"n":1,"why":"/tmp/claude-0/e/corr/fr/g0/i1.png: O locked 668.80 (logged as 668.6 event); S spawned 668.83 and still falling at KO 669.03"},
+ {"n":4,"why":"explained by the two phantom singles of n=3 (chain REN 2 too high from 737 on); clears 743.2-754.27 match score jumps in type and count"},
+ {"n":5,"why":"/tmp/claude-0/e/corr/fr/g0/i5.png: J locked 793.83 (793.67 event); L spawned 793.93, held 794.03, O still falling at KO 794.10"},
+ {"n":7,"why":"/tmp/claude-0/e/corr/fr/g0/i7.png: L spawned 989.13 and still falling at KO 989.47, no lock"},
+ {"n":9,"why":"/tmp/claude-0/e/corr/fr/g0/i9.png: J spawned 1031.77, still moving/rotating at KO 1032.53, no lock flash or next spawn"},
+ {"n":10,"why":"/tmp/claude-0/e/corr/fr/g0/i10.png: I spawned 1194.40 stays at the top through KO 1194.63"},
+ {"n":13,"why":"/tmp/claude-0/e/corr/fr/g0/i13.png: Z spawned 1269.37 stays at the top through KO 1269.70"}
+]}

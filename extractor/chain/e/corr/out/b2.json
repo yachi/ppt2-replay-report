@@ -1,0 +1,97 @@
+{
+ "event_corrections": [
+  {
+   "n": 41,
+   "id": "e043",
+   "side": "p1",
+   "op": "remove",
+   "t": 2865.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Phantom single. NEXT queue shifts only at 2861.43, 2865.63, 2866.63 (nextcount); the I spawned 2861.43 hovers ~3 s and is HELD at 2864.70, the S from hold locks and clears at 2864.93/2865.00 (+1050 = single REN5), the Z spawned 2865.63 clears at 2866.00 (+1200 = REN6), the double at 2866.83 (+1950 = REN7). Only three clears in 2861.5-2867, chain has four; no spawn exists at 2865.33. Removing it accounts for the -1437 score shortfall. /tmp/claude-0/e/corr/fr/g2/e043.png"
+  },
+  {
+   "n": 47,
+   "id": "e057",
+   "side": "p1",
+   "op": "add",
+   "t": 3823.4,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "J spawned 3823.40 (NEXT shift) locks at 3823.47 (score +36 drop points at 3823.47, lock flash) on the same frame p2's board first tilts (3823.43 straight, 3823.47 tilted: /tmp/claude-0/e/corr/fr/g2/e057b.png); it fills the hole of the grey garbage bottom row, which flashes and clears; score +2550 at 3823.53 = single 300 + 150*15 REN, banner 14 REN -> 15 REN. /tmp/claude-0/e/corr/fr/g2/e057.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 42,
+   "id": "e043",
+   "player": "p1",
+   "field": "pieces",
+   "was": 48,
+   "value": 47,
+   "source": "phantom single at 2865.33 removed (see n41); the gap-window pieces are I(held at 2864.70), S from hold (clear 2865.00), Z (2865.63, clear 2866.00), next (2866.63 double): one lock fewer than the chain. /tmp/claude-0/e/corr/fr/g2/e043.png"
+  },
+  {
+   "n": 42,
+   "id": "e043",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 8,
+   "value": 7,
+   "source": "REN run 2855.23-2866.63 drops from 9 to 8 clears with the phantom removed; the double at 2866.83 scores +1950 = 900 + 150*7, i.e. REN 7."
+  },
+  {
+   "n": 47,
+   "id": "e057",
+   "player": "p1",
+   "field": "pieces",
+   "was": 52,
+   "value": 53,
+   "source": "last J locks on the KO frame 3823.47 (see n47 add)."
+  },
+  {
+   "n": 47,
+   "id": "e057",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 14,
+   "value": 15,
+   "source": "the KO-frame single extends the 3809.53-3822.47 REN run to 16 clears; score +2550 = 300+150*15 and the banner reads 15 REN at 3823.53."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 39,
+   "why": "p2's O spawned 2640.27, held 2640.37; the Z from hold is still at the top at the KO 2640.40 and after; nothing locks. /tmp/claude-0/e/corr/fr/g2/e039.png"
+  },
+  {
+   "n": 40,
+   "why": "p1's L spawned 2773.20 held 2773.23, T soft-dropping (+1 per frame) and still airborne at the KO 2773.47. /tmp/claude-0/e/corr/fr/g2/e041.png"
+  },
+  {
+   "n": 43,
+   "why": "p1's O spawned 3087.00 held 3087.10, I from hold still at the top at KO 3087.13. /tmp/claude-0/e/corr/fr/g2/e047.png"
+  },
+  {
+   "n": 44,
+   "why": "p1's O spawned 3209.20 still at the top through 3209.40; KO 3209.30. /tmp/claude-0/e/corr/fr/g2/e050.png"
+  },
+  {
+   "n": 45,
+   "why": "p1's I spawned 3713.90 still at the top at KO 3714.17 (p2 tilt first at 3714.17); at 3714.23 only its ghost shows vertically in the well, no lock. /tmp/claude-0/e/corr/fr/g2/e054.png, /tmp/claude-0/e/corr/fr/g2/e054b.png"
+  },
+  {
+   "n": 46,
+   "why": "p1's J spawned 3784.57 still at the top through 3785.00; KO 3784.93; no score change. /tmp/claude-0/e/corr/fr/g2/e056.png"
+  },
+  {
+   "n": 48,
+   "why": "p1's T spawned 4023.97 still soft-dropping (score +1 at 4024.27, 4024.30) after KO 4024.23. /tmp/claude-0/e/corr/fr/g2/e062.png"
+  }
+ ]
+}

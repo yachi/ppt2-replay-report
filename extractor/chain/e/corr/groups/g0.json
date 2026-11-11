@@ -1,0 +1,114 @@
+[
+ {
+  "id": "e000",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 395.63,
+  "n": 0
+ },
+ {
+  "id": "e004",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 669.03,
+  "n": 1
+ },
+ {
+  "id": "e006",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1914 vs chain prediction; unexplained -1914 between 731.8 and 738.94 s; chain clears near: [[732.5, 600, 'single'], [732.53, 750, 'single'], [737.37, 900, 'single'], [737.87, 1050, 'single']]",
+  "t_s": 731.8,
+  "n": 2
+ },
+ {
+  "id": "e006",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 5.37 s from 732.50 s; B events spliced (D2/D3)",
+  "t_s": 732.5,
+  "n": 3
+ },
+ {
+  "id": "e006",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -2522 vs chain prediction; unexplained -2522 between 743.44 and 754.44 s; chain clears near: [[743.2, 1350, 'single'], [744.1, 2700, 'triple'], [747.27, 1650, 'single'], [748.47, 1800, 'single'], [749.43, 2550, 'double'], [750.43, 2100, 'single'], [751.37, 2250, 'single'], [752.33, 4500, 'quad'], [753.17, 2550, 'single'], [754.27, 2700, 'single']]",
+  "t_s": 743.44,
+  "n": 4
+ },
+ {
+  "id": "e007",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 794.1,
+  "n": 5
+ },
+ {
+  "id": "e011",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 959.43,
+  "n": 6
+ },
+ {
+  "id": "e012",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 989.47,
+  "n": 7
+ },
+ {
+  "id": "e013",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1744 vs chain prediction; unexplained -1744 between 1016.43 and 1026.63 s; chain clears near: [[1019.97, 5400, 'tsd'], [1021.43, 450, 'single'], [1022.43, 1200, 'double'], [1023.7, 2400, 'quad'], [1025.5, 300, 'single'], [1026.47, 450, 'single']]",
+  "t_s": 1016.43,
+  "n": 8
+ },
+ {
+  "id": "e013",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.77 s before the KO)",
+  "t_s": 1032.53,
+  "n": 9
+ },
+ {
+  "id": "e015",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 1194.63,
+  "n": 10
+ },
+ {
+  "id": "e016",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -3450 vs chain prediction; unexplained -3450 between 1243.4 and 1249.87 s; chain clears near: [[1245.27, 3600, 'quad'], [1248.77, 3600, 'quad'], [1249.43, 5400, 'tsd']]",
+  "t_s": 1243.4,
+  "n": 11
+ },
+ {
+  "id": "e016",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.17 s from 1245.27 s; B events spliced (D2/D3)",
+  "t_s": 1245.27,
+  "n": 12
+ },
+ {
+  "id": "e016",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 1269.7,
+  "n": 13
+ }
+]

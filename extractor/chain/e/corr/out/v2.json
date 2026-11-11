@@ -1,0 +1,8 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py p1: REN clears at 2855.67(+300),2856.60(+450),2857.63(+600),2858.93(+750),2860.77(+900),2865.00(+1050),2866.00(+1200),2866.83(+1950=900+150*7): 8 clears, chain has 9. nextcount: only shifts 2861.43 (I, held 2864.70 -> S from hold) and 2865.63 between; no spawn near 2865.33. Extractor A also gives 47 pieces, max_combo 7."},
+ {"ref":"e1","verdict":"keep","why":"Sheet /tmp/claude-0/e/corr/fr/v2/e057.png: J spawned 3823.40 (NEXT shift) locks at 3823.47 (+36 drop pts, lock flash) in the same frame p2's board is tilted (KO end_s 3823.47); garbage bottom row clears, +2550 at 3823.53 = 300+150*15, banner 14 REN -> 15 REN."},
+ {"ref":"c0","verdict":"keep","why":"Between NEXT shifts 2861.43 and 2865.63 only one lock (S from hold, I held); chain counted two. Extractor A independently reports 47."},
+ {"ref":"c1","verdict":"keep","why":"Double at 2866.83 scores 900+1050 -> REN 7 is the run's last step; 8 consecutive clears = max_combo 7 (A also 7)."},
+ {"ref":"c2","verdict":"keep","why":"J locks on the KO frame 3823.47 (same frame as the tilt), so it counts: 52 -> 53."},
+ {"ref":"c3","verdict":"keep","why":"3822.67 double scored +3000 = 900+150*14 (REN 14); KO-frame single +2550 = REN 15; banner reads 15 REN."}
+]
