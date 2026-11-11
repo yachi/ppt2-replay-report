@@ -1,0 +1,35 @@
+{"event_corrections":[
+ {"n":4,"id":"c008","side":"p1","op":"retype","t":582.77,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"Piece spawned 582.77 (J) drops into right column and clears one row at 583.03 (white row flash, '1 REN' appears beside board); score +450 at 583.03 = single 300 + 1 REN 150. This single breaks B2B, so the TSD at 584.77 scores 3600 (585.73), not 5400. fr/g0/i4.png"},
+ {"n":7,"id":"c015","side":"p1","op":"replace_window","t":985.0,"t_end":985.0,"events":[],"was_old":[[985.0,null,0],[985.0,null,0]],
+  "source":"nextcount: shifts at 984.30 and 985.367 only (one piece between). Frames 984.70-985.28 show no active piece (S from hold cleared single at 984.6, then garbage rise, next piece Z spawns 985.36, swapped for held I which clears single at 985.53). Both 985.0 lock events are phantoms. fr/g0/i7.png"},
+ {"n":8,"id":"c017","side":"p2","op":"replace_window","t":1211.07,"t_end":1211.07,"events":[],"was_old":[[1211.07,null,0],[1211.07,null,0],[1211.07,null,0]],
+  "source":"nextcount: shift 1210.533 (quad piece, clear at 1210.67) then next shift 1211.467 (queue ZJOZI>JOZIL, single shift across the 0.27 s unread stretch). Frames 1210.6-1211.47 show the TETRIS animation and no active piece. The three 1211.07 locks are phantoms; this also explains the bag break from spawn index 210 on. fr/g0/i8.png"},
+ {"n":10,"id":"c021","side":"p2","op":"remove","t":2254.97,"was":["single",1,0],
+  "source":"Stream lags ~2246-2253.5 (pieces creep, no score change). p2 NEXT shifts at 2244.567, 2245.633, 2255.333, 2256.8, 2258.233 only; no spawn near 2254.97. Score clears 2245.00 +750, 2254.67 +900, 2256.13 +1050, 2257.60 +1200, 2258.63 +1350 (REN 3..7) = 5 singles for 6 chain singles; 2254.97 is the phantom (the T held-out piece from spawn 2245.63 is the one clearing at 2254.67). fr/g0/i10.png"},
+ {"n":13,"id":"c022","side":"p1","op":"replace_window","t":2324.47,"t_end":2324.47,"events":[{"t":2324.47,"kind":"single","lines":1,"pc":0,"gc":0}],"was_old":[[2324.47,null,0],[2324.47,null,0],[2324.47,"single",1]],
+  "source":"One J piece spawns 2324.4 and clears a single at 2324.77 (+1800); next piece Z spawns 2325.7 (nextcount shifts 2324.40 then 2325.667). The two 2324.47 no-clear locks are phantoms. fr/g0/i13.png"}
+],
+"cell_edits":[
+ {"n":4,"id":"c008","player":"p1","field":"max_b2b","was":6,"value":5,
+  "source":"With the single at 582.77 restored, the difficult-clear run is 567.8 tsd (3600, non-B2B) ,569.17 quad,573.03 quad,575.77 tsd,579.47 tsd,581.57 quad (all B2B per score jumps 3750/3600/5400/5400/3600) = 6 clears, B2B 5; the 584.77 TSD scores 3600 (no B2B). No other run in the chain exceeds 3."},
+ {"n":7,"id":"c015","player":"p1","field":"pieces","was":81,"value":79,"source":"two phantom locks at 985.0 removed (fr/g0/i7.png)"},
+ {"n":8,"id":"c017","player":"p2","field":"pieces","was":700,"value":697,"source":"three phantom locks at 1211.07 removed (fr/g0/i8.png)"},
+ {"n":12,"id":"c021","player":"p2","field":"pieces","was":113,"value":112,"source":"phantom single at 2254.97 removed; p2 gap window 2245.63-2255.33 holds one piece (I spawned 2245.63, held, T played, single at 2254.67 after the stream lag)."},
+ {"n":12,"id":"c021","player":"p2","field":"max_combo","was":8,"value":7,"source":"REN run tsd 2238.63 .. single 2258.23 is 8 clears once the phantom is removed; score shows the last single at 2258.63 = 300+1050 = REN 7. Next-longest chain run is 5."},
+ {"n":13,"id":"c022","player":"p1","field":"pieces","was":63,"value":61,"source":"two phantom locks at 2324.47 removed (fr/g0/i13.png)"}
+],
+"no_change":[
+ {"n":0,"why":"+300 at 246.27 is a zero-line Mini T-SPIN (banner 'Mini T-SPIN' with no line word, fr/g0/f246.40.png; board just rose with garbage). 300 = mini T-spin no lines at level 3, not a clear; chain's None lock at 245.87 is right."},
+ {"n":1,"why":"p2 J hard-drops at 247.10 (score +28 at 247.10), one frame after KO 247.07; frames 247.03/247.06 show it still hovering (fr/g0/i1.png). Not counted."},
+ {"n":2,"why":"p2 O locks at 388.47 (score +34), after KO 388.43 where p1 board has begun to tilt (fr/g0/i2.png)."},
+ {"n":3,"why":"p2 I still hovering at the top through and after KO 499.17; no score drop bonus (fr/g0/i3.png)."},
+ {"n":5,"why":"p1 O still falling at KO 655.03, no lock (fr/g0/i5.png)."},
+ {"n":6,"why":"p2 piece soft-dropping (+1 per frame) through KO 699.03, no hard-drop/lock."},
+ {"n":9,"why":"p1 J locks at 1485.27 (score +32), one frame after KO 1485.23 (fr/g0/i9.png)."},
+ {"n":11,"why":"p1 window 2245.13-2254.8 is a stream lag; one T (held, I out) quad at 2253.97 (+3750 = 2400+9 REN), single 2254.8 -> 2255.67 (+1800). NEXT shifts 2245.133, 2254.767, 2256.3, 2256.533, 2256.867, 2257.267 match the chain's events 1:1."},
+ {"n":14,"why":"p1 Z still at the top at KO 2463.17, no lock (fr/g0/i14.png)."},
+ {"n":15,"why":"p2 Z hard-drop (+22) lands at 2658.80, one frame after end_s 2658.77 -> not counted under the brief's rule. NOTE: in the sheet (fr/g0/i15.png) the p1 tilt is first visible in the same frame as this lock (2658.80); the frame at 2658.767 shows neither, so end_s may be one frame early. If KO is moved to 2658.80, add one p2 piece (no clear)."},
+ {"n":16,"why":"p2 I still at top at KO 2689.07, no lock (fr/g0/i16.png)."},
+ {"n":17,"why":"NEXT shifts 2872.13-2886.0 match the chain's 14 spawns 1:1; score REN steps 6..14 match the chain's singles/quad; last piece locks at 2886.10 (+24) before KO 2886.13 and is already in the chain. Bag break is a queue misread, not a count error."}
+]}
