@@ -1,0 +1,17 @@
+[
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "p127 p1 pieces 190->186 confirmed. corr/fr/v4/p127a.png (9580.40-9588.40, 0.5 s): after the B2B TETRIS (score 103932->107532 at 9579.07) p1 locks pieces with drop points at 9580.17, 9580.33, 9580.70, 9581.07, 9581.23, 9581.37 (score.py), matching nextcount shifts 9579.90/9580.27/9580.43/9580.80/9581.17/9581.33 and the chain's A locks 9579.9-9581.33. From 9581.4 (T held) one vertical I falls slowly down the left column until about 9587.8, score frozen at 00107691 from 9581.37 to 9587.80, NEXT stays IJLSZ until the shift at 9587.900; board unchanged (corr/fr/v4/p127b.png, crops at 9580.55/9581.45/9587.95: same two grey garbage rows, no rows added or cleared). The B gap that was spliced (R/ev/p127.pkl b.p1.gaps: t0 9580.6, t1 9582.5, pieces 4, lines 2, garbage 1) overlaps A's own locks at 9580.8/9581.17/9581.33 and is otherwise phantom; cseq 'p127 p1' holds 186 non-BREAK locks. ALSO (not covered by this cell edit): the spliced lines ARE in the chain's event list: cseq has [9580.6,'BREAK',2,0,0], and the cseq line sum is 112 with it vs 110 without; no clear happens anywhere in 9579.1-9590.3 (score rises only by drop points), so those 2 lines are phantom and that BREAK's lines should be 0 / dropped (lines_cleared 112->110). The +1 garbage of the splice (garbage_received_rows 47 vs A's 46) is likewise unsupported: no garbage rises in the window (p127b.png)."
+ },
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "skeptic's own finding (see c0 why)"
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "skeptic's own finding (see c0 why)"
+ }
+]

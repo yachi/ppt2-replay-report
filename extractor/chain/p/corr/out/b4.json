@@ -1,0 +1,79 @@
+{
+ "event_corrections": [
+  {
+   "n": 209,
+   "id": "p127",
+   "side": "p1",
+   "op": "remove",
+   "t": 9580.6,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "g4 skeptic (fr/v4/p127a.png, p127b.png): B's splice 9580.6-9582.5 (R/ev/p127.pkl, 4 pieces, 2 lines, 1 garbage) overlaps A's real locks; no clear anywhere in 9579.1-9590.3 (score only rises by drop points, board unchanged, no garbage rows rise), so the spliced BREAK's 2 lines and 1 garbage row are phantom (A: lines 110, garbage_received_rows 46)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 209,
+   "id": "p127",
+   "player": "p1",
+   "field": "pieces",
+   "was": 190,
+   "value": 186,
+   "source": "The table's 190 is A's 186 plus 4 B events spliced into 9581.33-9587.90 (reconciled.jsonl note), where A lost the NEXT read. The frames show no locks there: amemiya lets a single I piece fall at gravity for about 6.5 s (corr/fr/g4/p127a.png, 9581.30-9587.80). The board does not change. The NEXT queue IJLSZ does not shift (nextcount.py 9580.5-9588.5: shifts at 9581.333 and then 9587.900, plus a hold of T at 9581.40). The p1 score stays 00107691 from 9581.37 to 9587.80 (score.py), not even drop points. The chain's own cseq holds 186 lock events, which equals the NEXT recount of 186. Also note: the same splice added +2 untyped lines (lines_cleared 112 vs A 110). They are equally phantom, but lines_cleared is not an editable field here."
+  },
+  {
+   "n": 209,
+   "id": "p127",
+   "player": "p1",
+   "field": "garbage_received_rows",
+   "was": 47,
+   "value": 46,
+   "source": "g4 skeptic (fr/v4/p127a.png, p127b.png): B's splice 9580.6-9582.5 (R/ev/p127.pkl, 4 pieces, 2 lines, 1 garbage) overlaps A's real locks; no clear anywhere in 9579.1-9590.3 (score only rises by drop points, board unchanged, no garbage rows rise), so the spliced BREAK's 2 lines and 1 garbage row are phantom (A: lines 110, garbage_received_rows 46)."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 200,
+   "why": "p006 p1: the 3 shifts at 2464.467 are a misread: the NEXT queue is covered by the TETRIS clear flash, and frames 2464.20-2464.73 show the same queue (Z,S,J,Z,S) before and after (corr/fr/g4/p006a.png). score.py: one score rise per chain event after 2462 (single 2462.7 -> 16165 at 2463.27, quad 2464.03 -> 19634 at 2464.17, singles 2465.0 and 2466.0 -> 21158 and 22834); no extra locks. The 2466.933 shift is a spawn whose drop points show at 2467.27, after KO end 2467.2. Table 34 stands."
+  },
+  {
+   "n": 201,
+   "why": "p016 p2: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p2 drops at 3016.07 and 3016.40 against a first shift at 3016.097). 53+2 = table 55."
+  },
+  {
+   "n": 202,
+   "why": "p056 p2: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p2 drops from 5477.83 on, queue first shift 5478.13). 115+2 = table 117."
+  },
+  {
+   "n": 203,
+   "why": "p058 p1: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p1 drops at 5567.27 and 5567.57 before the first shift at 5567.637). 90+2 = table 92."
+  },
+  {
+   "n": 204,
+   "why": "p063 p2: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p2 drops at 5816.87 and 5817.07, first shift 5817.07). 189+2 = table 191."
+  },
+  {
+   "n": 205,
+   "why": "p070 p1: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p1 drops at 6357.30 and 6357.43, first shift 6357.53). 56+2 = table 58."
+  },
+  {
+   "n": 206,
+   "why": "p089 p2: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p2 drops at 7384.23 and 7384.60, first shift 7384.297). 59+2 = table 61."
+  },
+  {
+   "n": 207,
+   "why": "p092 p2: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p2 drops at 7569.03 and 7569.37, first shift 7569.403). 63+2 = table 65."
+  },
+  {
+   "n": 208,
+   "why": "p103 p1: the recount misses the first spawns under READY/GO; score.py shows plain drop-point locks before the first NEXT shift, matching the unmatched chain events (p1 drops at 8072.33 and 8072.70, before the queue is first read at 8072.467/first shift 8072.8). 49+2 = table 51."
+  },
+  {
+   "n": 210,
+   "why": "p151 p2: the recount misses three spawns at the start: the queue is not readable until 11197.467, and score.py shows p2 drop-point locks at 11197.17, 11197.40 and 11197.57, the three unmatched chain events 11196.93, 11197.2 and 11197.43. 131+3 = table 134."
+  }
+ ]
+}

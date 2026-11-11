@@ -1,0 +1,8 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v3/a.png: T placed in slot at 8587.50, two coloured rows gone by 8587.70; score.py p1 16172->17972 (+1800) at 8587.63 = double 900 + REN6 900 (TSD would be >=4500). Chain had None at 8587.3."},
+ {"ref":"e1","verdict":"keep","why":"score.py p1 +1800 at 10479.20 after S at 10479.07 (fr/v3/b.png); prior steps +1350/+1500/+3750 fit singles REN7/REN8 and quad REN9, so this is single REN10 (300+1500); a plain lock would add only drop points."},
+ {"ref":"e2","verdict":"keep","why":"fr/v3/c.png: coloured row present at 11013.24, gone at 11013.31 with T at left wall; score.py p2 +900 at 11013.33 = single 300 + REN4 600 (TSS would be >=3000). Following quad at 11015.60 scores plain +2400, consistent with B2B broken."},
+ {"ref":"c0","verdict":"keep","why":"Follows from e0: REN chain tss 8581.2 .. quad 8586.37 (5 REN banner visible in fr/v3/a.png) extended by the 8587.3 double to REN6."},
+ {"ref":"c1","verdict":"keep","why":"Follows from e1: single at 10479.07 is REN10 by the +1800 score step; max_combo 9 -> 10."},
+ {"ref":"c2","verdict":"keep","why":"fr/v3/d.png: O out of hold falls and is locked by the frame stamped 8846.50 (score already 28211 there; score.py records +30 at 8846.53 = end_s); nextcount shows one spawn 8846.23 and hold 8846.37; no clear. Lock at or before KO, pieces 44 -> 45."}
+]

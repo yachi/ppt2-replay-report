@@ -1,0 +1,34 @@
+{"event_corrections":[
+ {"n":115,"id":"p112","side":"p1","op":"retype","t":8587.3,"was":[null,0,0],"kind":"double","lines":2,"pc":0,"gc":0,
+  "source":"Frames 8587.27-8587.94 (fr/g3/s115.png): O spawned 8587.27 and was held, T from hold hard-dropped upright at 8587.57, two coloured (non-garbage) rows flash and vanish at 8587.60. Score 16172->17972 (+1800 = double 900 + REN6 900; REN ran tss 8581.2 .. quad 8586.37 as REN0..REN5 per the +600/+750/+1500/+3150 steps). This double breaks B2B, so the TSD at 8590.87 scored a plain +3600 (8591.57) and the next TSD +5550 (B2B+REN1): explains the -1768."},
+ {"n":131,"id":"p138","side":"p1","op":"retype","t":10479.07,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"Frames 10479.07-10479.54 (fr/g3/s131.png): S hard-dropped at 10479.14, one coloured row flashes and clears 10479.20 (REN counter shows 10). Score 22481->24281 (+1800 = single 300 + REN10 1500; prior steps +1500 single REN8 at 10477.43, +3750 quad REN9 at 10478.23)."},
+ {"n":133,"id":"p146","side":"p2","op":"retype","t":11013.13,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"Frames 11013.10-11013.57 (fr/g3/s133.png): T hard-dropped upright at the left wall at 11013.30, one coloured row above the garbage flashes and clears 11013.37. Score 120474->121374 (+900 = single 300 + REN4 600; REN0..3 = doubles 11009.17 (+900) and 11010.37 (+1050), single 11011.40 (+600), quad 11012.30 (+2850)). Quad at 11015.60 then scores +2400 (no B2B: the single broke it), which is the -1188."}
+],
+"cell_edits":[
+ {"n":115,"id":"p112","player":"p1","field":"max_combo","was":"5","value":6,"source":"The added double at 8587.3 extends the REN chain tss 8581.2..quad 8586.37 (REN5, '5 REN' banner visible at 8587.27) to REN6 (+1800 at 8587.63); fr/g3/s115.png"},
+ {"n":131,"id":"p138","player":"p1","field":"max_combo","was":"9","value":10,"source":"The single at 10479.07 is REN10 (+1800 at 10479.20, '10 REN' banner partly visible); chain max was 9; fr/g3/s131.png"},
+ {"n":118,"id":"p115","player":"p1","field":"pieces","was":"44","value":45,
+  "source":"fr/g3/k118.png: T spawned 8846.23 (nextcount shift), held at 8846.37, O from hold hard-dropped and locked at 8846.53 = end_s (score 28181->28211, +30 drop points at 8846.53); no clear. Lock is on the KO frame, so it counts. Note p2 board already shows slight tilt at 8846.47 (fr/g3/k118b.png) if end_s is ever re-derived."}
+],
+"no_change":[
+ {"n":114,"why":"fr/g3/k114.png,k114b.png: T spawned 8471.27 was still soft-dropping at 8471.80 (KO); reaches floor 8471.83, NEXT never shifts; not locked by KO."},
+ {"n":116,"why":"fr/g3/k116.png,k116b.png: I spawned 8772.17 held, O from hold hard-dropped at 8772.33 (score +12), one frame after end_s 8772.30; does not count."},
+ {"n":117,"why":"fr/g3/k117.png: L spawned 8814.13 held, T out of hold still at the top at KO 8814.37; p2 score constant 35873 to 8814.47."},
+ {"n":119,"why":"Score steps 8935.63 +1800, 8936.50 +1950, 8937.40 +2100 = plain singles at REN10/11/12 (TSS would be ~2400+REN); chain 'single' at 8936.47 is right."},
+ {"n":120,"why":"fr/g3/k120.png: Z hard-dropped at 8940.60 (score +18 at 8940.63), after end_s 8940.57; does not count."},
+ {"n":121,"why":"p1 score unchanged 27222 from 9068.90 through KO 9069.47; piece spawned 0.17 s before KO cannot lock (no drop, lock delay); not locked."},
+ {"n":122,"why":"p2 score unchanged 9328.47 to past KO 9328.8; last drop at 9328.47 locks chain piece 9328.2; new piece 0.33 s old, no drop, not locked."},
+ {"n":123,"why":"p2 drop at 9469.80 locks chain piece 9469.57; score unchanged to 9470.24, last spawn not locked by KO 9470.17."},
+ {"n":124,"why":"fr/g3/g124.png + nextcount: p1 spawn 9581.33 (T) held, I out of hold falls slowly and locks ~9587.8 (+8), next spawn 9587.9; one lock in window, matches chain (9581.33 None, 9587.9 None)."},
+ {"n":125,"why":"fr/g3/g124.png + nextcount p2: spawns 9581.73 (O held, I placed, slow fall, lock ~9586.3 no score jump), 9586.37 (L held, O placed +4 at 9586.80), 9586.83 single (+300 at 9587.20). Matches chain None/None/single; BREAKs are markers only."},
+ {"n":126,"why":"Score jump at 9726.50 is +900 = plain double (TSD would be 3600/5400); chain 'double' at 9725.07 is right."},
+ {"n":127,"why":"Score steps +900/+1050/+1200/+1350 at 10234.37/10235.27/10236.47/10237.27 = plain singles REN4..7; 10236.1 is a plain single (mini TSS would be +1500)."},
+ {"n":128,"why":"p2 score unchanged 179974 from 10272.77 through KO 10273.47; last spawn 0.13 s before KO not locked."},
+ {"n":129,"why":"p2 drop at 10414.30 locks chain piece 10413.9; score unchanged to 10414.53; piece spawned 10414.30 not locked by KO 10414.4."},
+ {"n":130,"why":"p1 score unchanged 32820 from 10449.23 past KO 10449.93; last spawn 0.20 s before KO not locked."},
+ {"n":132,"why":"p2 drop 10888.90 locks chain piece 10888.6; score unchanged to 10889.24; last spawn not locked by KO."},
+ {"n":134,"why":"p2 drop 11024.40 locks chain piece 11024.07; score unchanged past KO 11024.63; last spawn not locked."},
+ {"n":135,"why":"p2 drop 11071.84 locks chain piece 11071.7; no score change until after KO 11072.07; last spawn not locked."}
+]}

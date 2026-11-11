@@ -1,0 +1,273 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "nextcount p2: 10 shifts 4255.433..4362.3 match the 10 kept events; score double k9 +2250, k10 +2400, singles k11-k18; rest phantom"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "13 p1 shifts after 4255.833 match 13 kept events; score ladder through mini k15 +2850, double k20 +3900 at 4363.27, then +24 no clear"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "no p1 shift between 4419.833 and 4424.367; 4423.70 single belongs to event 4406.23"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "shifts 4407.433, 4413.933: single k6 +1200 at 4413.30, double k7 +1950 at 4423.13"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "nc042p2: no shift near 4503.2"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nc042p2: no shift near 4514.83"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "no p1 shift between 4507.5 and 4521.2; REN continuous"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "TETRIS+BACK banner, +3600, coloured rows cleared, gc 0"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score +466 at 4754.6 = single"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "p2 shifts 4973.067, 4973.233, 4974.2, 4985.0: no spawn for 4974.6"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "18 p1 shifts through 4978.633 match events; one shift (4985.867) among 4978.93/4985.67/4985.97"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "same: only 4985.97 has a spawn"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "p2 shifts 5718.067 -> 5735.967 with nothing between"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "same as e12"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "no p1 shift for 5735.2; shifts 5730.5, 5735.733 map to 5730.6, 5735.87"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "i79: T-SPIN banner, +300, no line cleared = zero-line mini"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "shift 5946.933 locks at 5962.40 as triple k7 +2550; next shift 5963.133"
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "p1 shifts 5947.033, 5948.633, 5966.9, 5969.033: no spawn for 5948.8"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "no spawn for 5966.0"
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "i83: zero-line mini +300, no clear"
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "consistent with p064 p2 shift/lock pairing (see c15)"
+ },
+ {
+  "ref": "e21",
+  "verdict": "reject",
+  "why": "p2 spawns 6155.633,.933,6156.167,.533,.767,6157.167 vs locks 6155.63,.90,6156.13,.47,.70,6157.07: the T locking at 6157.07 (+24) is the 6156.767 spawn, already chain event 6156.77; the 6157.167 I was held and the L floated at KO 6157.3"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "score sc068b: TSD k0 +5400 6183.03, singles +450 +600 +750, +900 at 6191.80 (one lock after stall), mini k5 +1350 at 6193.23, ... k14 +2400 at 6202.20. nextcount /tmp/claude-0/p/corr/fr/v1/nc068p1.txt: shifts 6182.333,6183.767,6184.667,6185.5,6186.667,6192.567 - no spawn at 6191.9, so None is phantom and BREAKs spurious"
+ },
+ {
+  "ref": "e23",
+  "verdict": "reject",
+  "why": "p2 6 spawns 6310.7..6312.367 vs 5 locks 6311.00,.20,.53,.87,6312.30 = the 5 chain events; the 6312.367 spawn was held (Z 6312.5) and never locked before KO 6312.63"
+ },
+ {
+  "ref": "e24",
+  "verdict": "amend",
+  "why": "the S spawned 6388.3 (shift SOIZJ>OIZJT) is chain event 6388.3 None; it locked 6388.70 +300 with top-row clear flash at 6388.75; the 6389.367 spawn never locked before KO 6389.97 (i90). Retype, not add",
+  "amended": {
+   "op": "retype",
+   "t": 6388.3,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0
+  }
+ },
+ {
+  "ref": "e25",
+  "verdict": "keep",
+  "why": "sheet /tmp/claude-0/p/corr/fr/v1/s071.png: after the PC lock 6404.57 the locks are J+I (+72 at 6405.00), Z, T, L, Z (placed ~6405.95, score 18081) before KO 6406.0 = 6 locks vs 5 chain events after the PC; one missing"
+ },
+ {
+  "ref": "e26",
+  "verdict": "reject",
+  "why": "score /tmp/claude-0/p/corr/fr/v1/sc072.txt: p1 locks 6440.93,6441.27,6441.63,6441.97(+18 J),6442.33(+16 S). nextcount /tmp/claude-0/p/corr/fr/v1/nc072p1.txt: chain 6441.73 = shift 6441.733 (the J, locked 6441.97). Shift 6442.067 is the O, held at 6442.133 swapping out the S, which locks at 6442.33; sheet /tmp/claude-0/p/corr/fr/v1/s072.png shows p2 board topped out/tilting from 6442.27 while the S still floats at 6442.30. Final spawn never locked before KO: nothing to add (the checker's own source says so)"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "148 shifts - hold into empty 4229.167 - final spawn 4429.300 (KO 4429.4) = 146"
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "REN ladder max 20 confirmed"
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "160 shifts - hold L into empty 4229.7 - final spawn 4428.733 no lock = 158"
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "REN max 18 confirmed"
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "76 confirmed"
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "k10 +1800 at 4524.30 then lock with no clear"
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "93 confirmed"
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "TSD k0 .. single k12 +2136 at 4525.63, then break"
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "50 confirmed, matches extractor A"
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "52 confirmed, matches extractor A"
+ },
+ {
+  "ref": "c10",
+  "verdict": "keep",
+  "why": "k10 double +2400, k11 +2550, k12 +2100, k13 +2250 at 5743.50 then break"
+ },
+ {
+  "ref": "c11",
+  "verdict": "keep",
+  "why": "119 confirmed, matches extractor A"
+ },
+ {
+  "ref": "c12",
+  "verdict": "keep",
+  "why": "triple k0 .. tetris k9 +3750 5741.37, TSD B2B k10 +6900 5743.70"
+ },
+ {
+  "ref": "c13",
+  "verdict": "keep",
+  "why": "130 confirmed, matches extractor A"
+ },
+ {
+  "ref": "c14",
+  "verdict": "keep",
+  "why": "5939.63 single k0 .. triple k12 +3300 5970.37, then +26 no clear"
+ },
+ {
+  "ref": "c15",
+  "verdict": "keep",
+  "why": "152 shifts - hold Z into empty 5927.367; J locks 6026.60 (score 93529, KO 6026.63, i84) = 151"
+ },
+ {
+  "ref": "c16",
+  "verdict": "reject",
+  "why": "see e21: pieces stay 108 (extractor A 108)"
+ },
+ {
+  "ref": "c17",
+  "verdict": "keep",
+  "why": "sc068b: REN k1..k14 unbroken 6184.00-6202.20 (mini k5 +1350, double k11 +2550, k14 +2400), next lock +24 no clear; no spawn behind the 6191.9 None (nc068p1)"
+ },
+ {
+  "ref": "c18",
+  "verdict": "reject",
+  "why": "see e23: pieces stay 276 (extractor A 276)"
+ },
+ {
+  "ref": "c19",
+  "verdict": "reject",
+  "why": "see e24: retype, no added piece; pieces stay 63 (extractor A 63)"
+ },
+ {
+  "ref": "c20",
+  "verdict": "keep",
+  "why": "see e25: 6 post-PC locks vs 5 events; 27"
+ },
+ {
+  "ref": "c21",
+  "verdict": "reject",
+  "why": "see e26: last lock before KO is the J at 6441.97; pieces stay 47 (extractor A 47)"
+ },
+ {
+  "ref": "n77",
+  "verdict": "missed",
+  "why": "p061 p1 pieces is 129 in csv but the frames give 127",
+  "proposal": {
+   "id": "p061",
+   "player": "p1",
+   "field": "pieces",
+   "was": 129,
+   "value": 127,
+   "source": "nextcount /tmp/claude-0/p/corr/fr/v1/nc061p1all.txt: 129 shifts - hold O into empty 5693.3 - final spawn 5779.9 after KO 5779.87 (last lock +24 at 5779.80); chain 128 non-BREAK minus phantom 5735.2 = 127; extractor A 127"
+  }
+ }
+]
