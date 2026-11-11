@@ -1,0 +1,210 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: p2 120->421 at 3053.60 (+300 = zero-line Mini at level 3); sheet fr/v0/p017.png 3053.3-3054.1 shows T spun into the bottom left, stack height unchanged, no row removed."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "p1 score clears after 3525.5: 3526.13, 3533.00, 3533.83, 3535.03, 3536.30, 3537.53, 3538.70, 3539.93, 3541.10, 3541.93, 3543.00, 3544.00 (+150 REN ladder to 2850=REN17) = 12; nextcount p1 shifts 3525.57, 3526.87, 3533.67, ... 3543.73 = 12, none at 3527.0. 3527.0 duplicates 3526.87."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Same windows: no NEXT shift between 3526.87 and 3533.67, 12 clears for 14 chain singles; 3533.23 has no spawn, 3533.83 sits on the 3533.67 shift."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "nextcount p2 shifts 3525.00, 3526.27, 3527.37, 3532.70, 3533.57, 3534.63, 3535.57: none at 3532.17. Score p2 clears 3525.60, 3526.70, 3532.07, 3532.93, 3533.97, 3534.93, double 3535.90 (2880 = 900+150*13)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "nextcount p2 shifts 3577.13, 3578.00, 3593.13, 3596.90: none at 3592.03; the 3578.00 piece cleared at 3592.50 (score 900 = REN4). 15 clears 3576.50-3605.43 for 16 chain events."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nextcount p1 shifts 3578.00, 3579.33, 3590.57, 3598.07, 3599.10: none at 3589.47. Score p1 clears 3578.67, 3589.90, 3597.43, 3598.43, double 3600.80 (2400 = REN10), ... 2250 = REN13 at 3604.70."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "No NEXT shift between 3590.57 and 3598.07; 3597.6 is a phantom (the 3590.57 piece cleared at 3597.43)."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "Score p2: 600@3636.17, 750@3637.80, triple 2114@3638.87 (REN4); nextcount shift 3636.83 only. Sheet fr/v0/p026.png 3637.4-3638.0: the blue J completes the coloured row (purple/green/red row), not a grey garbage row, so the gc1 duplicate is the right one to drop."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "nextcount p2 shifts 3962.53, 3963.80, 3975.63, 3977.33: none at 3964.0. Score p2 REN ladder 1200@3963.17 ... 2424@3983.77, double 3176@3984.80 = 900+150*15."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "No p2 shift between 3963.80 and 3975.63; the 3963.80 piece cleared at 3975.00."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "nextcount p1 shifts 3962.93, 3964.53, then 3977.80 (hold swap at 3972.63, no draw); one piece for chain 3964.7/3964.73. Score REN peaks 2250=REN13 at 3982.07."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "nextcount p2 shifts 4054.83(prior), 4056.27, 4060.70: none at 4056.37. Score p2 REN ladder to 2850 = REN17 at 4076.53, 3 fewer clears than chain singles."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "nextcount p2 shifts 4063.40, 4064.23, then 4071.77 (hold at 4069.50 only): none at 4064.33."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "No p2 shift at 4071.23; the 4064.23 piece cleared at 4071.13, next shift 4071.77 cleared at 4072.40."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "nextcount p1 shift 4056.77 only (none 4056.83). Sheet fr/v0/p035.png 4060.4-4061.0: the S drops into the hole of the top grey garbage row and that row is cleared at 4060.9, so the gc1 event at 4056.77 is the one kept."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "nextcount p1 shifts 4065.33 then 4071.63: no piece at 4070.43; score p1 single 1950=REN11 at 4071.00 is the 4065.33 piece."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "nextcount p1 shifts 4130.00, 4130.90, then 4140.43 (hold swap at 4131.03, no draw): none at 4131.0. Score p1 900@4139.70 (REN4) ... 1950@4147.70 = REN11."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "No p1 shift at 4139.8; the 4130.90/hold-swapped piece cleared at 4139.70, next shift 4140.43 cleared 4141.00."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "nextcount p2 shifts 4131.37, 4132.33, then 4139.80 only; score p2 1050@4131.73 (REN5) then 3300@4139.17 = TSS 2400+150*6, then 1350@4140.47, 1516@4141.40 (REN8). One T piece, one TSS, REN unbroken."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Removing the two phantom singles takes chain 58 to 56; 12 clears/12 shifts in the window."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "2850 at 3544.00 = 300+150*17: REN17."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "One phantom removed; 63 -> 62 (A also 62)."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "Double 2880 at 3535.90 = 900+150*13: REN13."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "One phantom removed: 69 -> 68 (A 68)."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "2550 at 3605.43 = 300+150*15."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "Two phantoms removed: 55 -> 53 (A 53)."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "2250 at 3604.70 = 300+150*13."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "Whole-game nextcount p2 3614-3662.3 (fr/v0/nc026p2.txt): 92 shifts, minus 1 hold-into-empty (3614.90) and the 3662.167 spawn not locked by KO 3662.2 = 90 locks. Note: the chain also misses a lock at the 3660.20 shift (that piece is the triple PC scored 3660.47-3660.53; chain logs the triple on the 3660.57 spawn), which is why csv 91 minus the duplicate still lands on the true 90."
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "Quad, then singles 450/600/750 (REN1-3), triple 2114 = 1500+150*4: REN4."
+ },
+ {
+  "ref": "c10",
+  "verdict": "keep",
+  "why": "Two phantoms removed: 62 -> 60 (A 60)."
+ },
+ {
+  "ref": "c11",
+  "verdict": "keep",
+  "why": "Double 3176 at 3984.80 = 900+150*15."
+ },
+ {
+  "ref": "c12",
+  "verdict": "keep",
+  "why": "One duplicate removed: 54 -> 53 (A 53)."
+ },
+ {
+  "ref": "c13",
+  "verdict": "keep",
+  "why": "2250 at 3982.07 = 300+150*13, then lock without clear and a plain 300 single."
+ },
+ {
+  "ref": "c14",
+  "verdict": "keep",
+  "why": "Three phantoms removed: 71 -> 68 (A 68)."
+ },
+ {
+  "ref": "c15",
+  "verdict": "keep",
+  "why": "2850 at 4076.53 = 300+150*17."
+ },
+ {
+  "ref": "c16",
+  "verdict": "keep",
+  "why": "Two removed (single dup, phantom None): 64 -> 62 (A 62)."
+ },
+ {
+  "ref": "c17",
+  "verdict": "keep",
+  "why": "1950 at 4071.00 = 300+150*11."
+ },
+ {
+  "ref": "c18",
+  "verdict": "keep",
+  "why": "Two phantoms removed: 61 -> 59 (A 59)."
+ },
+ {
+  "ref": "c19",
+  "verdict": "keep",
+  "why": "1950 at 4147.70 = REN11."
+ },
+ {
+  "ref": "c20",
+  "verdict": "amend",
+  "why": "Whole-game nextcount p2 4114.8-4156.8 (fr/v0/nc037p2.txt): 61 shifts 4115.567-4156.033; minus 1 hold-into-empty (hold Z at 4115.70, draw 4115.767) and the 4156.033 spawn (no lock before KO 4156.70: p2 score last lock/clear 4155.40-4155.43) = 59 locks. Every shift matches a chain event except the two phantoms (4136.83, 4139.04) and 4132.43 duplicates 4132.33: cseq has 62 non-BREAK events, minus 3 = 59. The csv 61 was already one below cseq, so 61-3 = 58 undercounts. A reads 59.",
+  "amended": {
+   "value": 59
+  }
+ },
+ {
+  "ref": "c21",
+  "verdict": "keep",
+  "why": "REN unbroken: 1050 REN5 at 4131.73, TSS 3300 = REN6 at 4139.17, 1350 REN7, 1516 = REN8 at 4141.40; then 916 at 4142.90 = double with REN reset."
+ }
+]

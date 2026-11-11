@@ -1,0 +1,178 @@
+[
+ {
+  "id": "p109",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.50 s before the KO)",
+  "t_s": 8471.8,
+  "n": 114
+ },
+ {
+  "id": "p112",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1768 vs chain prediction; unexplained -1768 between 8587.63 and 8593.83 s; chain clears near: [[8590.87, 5400, 'tsd'], [8592.3, 5550, 'tsd'], [8593.73, 600, 'single']]",
+  "t_s": 8587.63,
+  "n": 115
+ },
+ {
+  "id": "p113",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 8772.3,
+  "n": 116
+ },
+ {
+  "id": "p114",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 8814.37,
+  "n": 117
+ },
+ {
+  "id": "p115",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 8846.53,
+  "n": 118
+ },
+ {
+  "id": "p117",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 8936.47 s typed as a plain clear",
+  "t_s": 8936.47,
+  "n": 119
+ },
+ {
+  "id": "p117",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 8940.57,
+  "n": 120
+ },
+ {
+  "id": "p120",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 9069.47,
+  "n": 121
+ },
+ {
+  "id": "p124",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 9328.8,
+  "n": 122
+ },
+ {
+  "id": "p126",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 9470.17,
+  "n": 123
+ },
+ {
+  "id": "p127",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.57 s from 9581.33 s; B events spliced (D2/D3)",
+  "t_s": 9581.33,
+  "n": 124
+ },
+ {
+  "id": "p127",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.63 s from 9581.73 s; B events spliced (D2/D3)",
+  "t_s": 9581.73,
+  "n": 125
+ },
+ {
+  "id": "p129",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 9725.07 s typed as a plain clear",
+  "t_s": 9725.07,
+  "n": 126
+ },
+ {
+  "id": "p133",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 10236.1 s typed as a plain clear",
+  "t_s": 10236.1,
+  "n": 127
+ },
+ {
+  "id": "p133",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 10273.47,
+  "n": 128
+ },
+ {
+  "id": "p136",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 10414.4,
+  "n": 129
+ },
+ {
+  "id": "p137",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 10449.93,
+  "n": 130
+ },
+ {
+  "id": "p138",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1822 at 10479.17 s (KO 10480.4 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 10479.17,
+  "n": 131
+ },
+ {
+  "id": "p144",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 10889.17,
+  "n": 132
+ },
+ {
+  "id": "p146",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": "score rose -1188 vs chain prediction; unexplained -1188 between 11013.3 and 11015.57 s; chain clears near: [[11015.3, 3600, 'quad']]",
+  "t_s": 11013.3,
+  "n": 133
+ },
+ {
+  "id": "p146",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 11024.63,
+  "n": 134
+ },
+ {
+  "id": "p147",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 11072.07,
+  "n": 135
+ }
+]

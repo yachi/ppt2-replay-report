@@ -1,0 +1,561 @@
+{
+ "event_corrections": [
+  {
+   "n": 6,
+   "id": "p017",
+   "side": "p2",
+   "op": "retype",
+   "t": 3053.63,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Banner at 3053.6-3053.8 reads only 'Mini T-SPIN' (no 'Single'), /tmp/claude-0/p/corr/fr/g0/b017.png; board before/after unchanged rows, no line removed (/tmp/claude-0/p/corr/fr/g0/p017.png 3053.3-3053.9); score +300 at 3053.60 (121->421) = zero-line Mini at level 3 (a Mini Single would be 600). Plain lock, no clear."
+  },
+  {
+   "n": 12,
+   "id": "p024",
+   "side": "p1",
+   "op": "remove",
+   "t": 3527.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN ladder on p1 score: 1200@3526.13 (REN6), 1350@3533.00, 1500@3533.83 ... 2850@3544.00 (REN17), +150 each, 12 clears after 3525.5 and no clear-less lock; NEXT spawns 3525.57, 3526.87, 3533.67, 3534.50, 3535.77, 3537.07, 3538.17, 3539.33, 3540.67, 3541.77, 3542.60, 3543.73 (spawn 3544.67 not locked by KO). Chain has 14 singles; slow-motion sheet /tmp/claude-0/p/corr/fr/g0/p024a.png shows one Z piece falling 3527-3533. 3527.0 duplicates 3526.87 (the Z, cleared 3533.00). Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 14,
+   "id": "p024",
+   "side": "p1",
+   "op": "remove",
+   "t": 3533.23,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN ladder on p1 score: 1200@3526.13 (REN6), 1350@3533.00, 1500@3533.83 ... 2850@3544.00 (REN17), +150 each, 12 clears after 3525.5 and no clear-less lock; NEXT spawns 3525.57, 3526.87, 3533.67, 3534.50, 3535.77, 3537.07, 3538.17, 3539.33, 3540.67, 3541.77, 3542.60, 3543.73 (spawn 3544.67 not locked by KO). Chain has 14 singles; slow-motion sheet /tmp/claude-0/p/corr/fr/g0/p024a.png shows one Z piece falling 3527-3533. No spawn at 3533.23; 3533.83 matches the 3533.67 spawn. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 13,
+   "id": "p024",
+   "side": "p2",
+   "op": "remove",
+   "t": 3532.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score: singles 1524@3526.70 (REN8), 1660@3532.07 (REN9), 1824@3532.93, 1950@3533.97, 2100@3534.93, double 2880@3535.90 (900+150*13). NEXT spawns 3527.37, 3532.70, 3533.57, 3534.63: none at 3532.17. Chain has 5 singles for 4 real clears. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 16,
+   "id": "p025",
+   "side": "p2",
+   "op": "remove",
+   "t": 3592.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 782@3577.33 (REN3), 900@3592.50, 1062@3596.30, 1220@3597.07 ... 2550@3605.43 (REN15), 13 clears after 3577; NEXT spawns 3577.13, 3578.00, 3593.13, 3596.90...3605.10; no spawn at 3592.03, no other lock 3578-3596. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 19,
+   "id": "p025",
+   "side": "p1",
+   "op": "remove",
+   "t": 3589.47,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1200@3578.67 (REN6), 1350@3589.90, 1500@3597.43, 1650@3598.43, double 2400@3600.80 (900+150*10), 1950@3601.90, 2100@3603.17, 2250@3604.70 (REN13); NEXT spawns 3578.00, 3579.33, 3590.57, 3598.07, 3599.10: none at 3589.47 or 3597.6. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 21,
+   "id": "p025",
+   "side": "p1",
+   "op": "remove",
+   "t": 3597.6,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1200@3578.67 (REN6), 1350@3589.90, 1500@3597.43, 1650@3598.43, double 2400@3600.80 (900+150*10), 1950@3601.90, 2100@3603.17, 2250@3604.70 (REN13); NEXT spawns 3578.00, 3579.33, 3590.57, 3598.07, 3599.10: none at 3589.47 or 3597.6. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 24,
+   "id": "p026",
+   "side": "p2",
+   "op": "remove",
+   "t": 3636.87,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score: 450@3632.00 (REN1), 600@3636.17 (REN2, the slow-falling T, sheet /tmp/claude-0/p/corr/fr/g0/p026.png), 750@3637.80 (REN3), triple 2114@3638.87 (1500+150*4); NEXT spawns 3631.70, 3632.63, 3636.83, 3638.43. Chain has singles at 3636.83 and 3636.87 for one clear; the cleared row at 3637.80 is the coloured row, not garbage, so the gc1 duplicate is the one removed. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 29,
+   "id": "p033",
+   "side": "p2",
+   "op": "remove",
+   "t": 3964.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 1200@3963.17 (REN6), 1350@3975.00, 1520@3976.70 ... 2424@3983.77 (REN14), double 3176@3984.80 (900+150*15); NEXT spawns 3962.53, 3963.80, 3975.63, 3977.33: none at 3964.0 or 3974.53; the 3963.80 piece cleared at 3975.00. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 28,
+   "id": "p033",
+   "side": "p2",
+   "op": "remove",
+   "t": 3974.53,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 1200@3963.17 (REN6), 1350@3975.00, 1520@3976.70 ... 2424@3983.77 (REN14), double 3176@3984.80 (900+150*15); NEXT spawns 3962.53, 3963.80, 3975.63, 3977.33: none at 3964.0 or 3974.53; the 3963.80 piece cleared at 3975.00. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 31,
+   "id": "p033",
+   "side": "p1",
+   "op": "remove",
+   "t": 3964.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1500@3963.80 (REN8), 1650@3977.13, 1800@3977.93, 1950@3980.30, 2100@3981.23, 2250@3982.07 (REN13), then lock 3982.80 without clear; NEXT spawn 3964.53 then 3977.80. Chain singles at 3964.7 and 3964.73 are one piece. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 35,
+   "id": "p035",
+   "side": "p2",
+   "op": "remove",
+   "t": 4056.37,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 1200@4055.63 (REN6), 1350@4060.03, 1500@4061.03, 1650@4061.90, 1800@4062.80, 1950@4063.63, 2100@4071.13, 2284@4072.40, TSD 5700@4073.90 (3600+150*14), 2550, 2700, 2850@4076.53 (REN17), lock 4077.43; NEXT spawns 4054.83, 4056.27, 4060.70, ..., 4063.40, 4064.23, 4071.77, 4073.03: one piece each at 4056.27 and 4064.23 (the latter cleared at 4071.13), none at 4071.23. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 38,
+   "id": "p035",
+   "side": "p2",
+   "op": "remove",
+   "t": 4064.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 1200@4055.63 (REN6), 1350@4060.03, 1500@4061.03, 1650@4061.90, 1800@4062.80, 1950@4063.63, 2100@4071.13, 2284@4072.40, TSD 5700@4073.90 (3600+150*14), 2550, 2700, 2850@4076.53 (REN17), lock 4077.43; NEXT spawns 4054.83, 4056.27, 4060.70, ..., 4063.40, 4064.23, 4071.77, 4073.03: one piece each at 4056.27 and 4064.23 (the latter cleared at 4071.13), none at 4071.23. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 37,
+   "id": "p035",
+   "side": "p2",
+   "op": "remove",
+   "t": 4071.23,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 1200@4055.63 (REN6), 1350@4060.03, 1500@4061.03, 1650@4061.90, 1800@4062.80, 1950@4063.63, 2100@4071.13, 2284@4072.40, TSD 5700@4073.90 (3600+150*14), 2550, 2700, 2850@4076.53 (REN17), lock 4077.43; NEXT spawns 4054.83, 4056.27, 4060.70, ..., 4063.40, 4064.23, 4071.77, 4073.03: one piece each at 4056.27 and 4064.23 (the latter cleared at 4071.13), none at 4071.23. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 36,
+   "id": "p035",
+   "side": "p1",
+   "op": "remove",
+   "t": 4056.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1050@4056.10 (REN5), 1200@4060.87, ..., 1800@4064.70, 1950@4071.00 (REN11, soft-dropped piece, no other lock 4064.7-4071.87); NEXT spawns 4055.70, 4056.77, 4061.50, ..., 4064.33, 4065.33, 4071.63: one piece at 4056.77 (its S filled the garbage-row hole, clear at 4060.87 removes a garbage row, /tmp/claude-0/p/corr/fr/g0/p035a.png, so the gc1 event stays) and no piece near 4070.43. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 39,
+   "id": "p035",
+   "side": "p1",
+   "op": "remove",
+   "t": 4070.43,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1050@4056.10 (REN5), 1200@4060.87, ..., 1800@4064.70, 1950@4071.00 (REN11, soft-dropped piece, no other lock 4064.7-4071.87); NEXT spawns 4055.70, 4056.77, 4061.50, ..., 4064.33, 4065.33, 4071.63: one piece at 4056.77 (its S filled the garbage-row hole, clear at 4060.87 removes a garbage row, /tmp/claude-0/p/corr/fr/g0/p035a.png, so the gc1 event stays) and no piece near 4070.43. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 41,
+   "id": "p037",
+   "side": "p1",
+   "op": "remove",
+   "t": 4131.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 750@4130.23 (REN3), 900@4139.70, 1050@4141.00, 1200@4142.93, ... 1950@4147.70 (REN11); NEXT spawns 4130.00, 4130.90, 4140.43, 4141.67, 4143.57: the 4130.90 piece cleared at 4139.70; no spawn at 4131.0 or 4139.8. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 40,
+   "id": "p037",
+   "side": "p1",
+   "op": "remove",
+   "t": 4139.8,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 750@4130.23 (REN3), 900@4139.70, 1050@4141.00, 1200@4142.93, ... 1950@4147.70 (REN11); NEXT spawns 4130.00, 4130.90, 4140.43, 4141.67, 4143.57: the 4130.90 piece cleared at 4139.70; no spawn at 4131.0 or 4139.8. Stream ran in slow motion (lag) in this window; counted from score steps and NEXT shifts."
+  },
+  {
+   "n": 42,
+   "id": "p037",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 4132.33,
+   "t_end": 4139.04,
+   "events": [
+    {
+     "t": 4132.33,
+     "kind": "tss",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     4132.33,
+     "tss",
+     1
+    ],
+    [
+     4132.43,
+     "single",
+     1
+    ],
+    [
+     4136.83,
+     null,
+     0
+    ],
+    [
+     4137.1,
+     "BREAK",
+     0
+    ],
+    [
+     4139.04,
+     "tss",
+     1
+    ]
+   ],
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): NEXT shifts only at 4132.33 and 4139.80 in the window; sheet /tmp/claude-0/p/corr/fr/g0/p037b.png shows one T falling slowly (lag) 4132.3-4139.0 and a T-SPIN Single banner at 4139.3; score 1050@4131.73 (REN5) then 3300@4139.17 = TSS 2400+150*6 (REN unbroken), then 1350@4140.47, 1516@4141.40 (REN8). One piece, one TSS; the single, plain lock, BREAK and second tss are phantoms."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 12,
+   "id": "p024",
+   "player": "p1",
+   "field": "pieces",
+   "was": 58,
+   "value": 56,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN ladder on p1 score: 1200@3526.13 (REN6), 1350@3533.00, 1500@3533.83 ... 2850@3544.00 (REN17), +150 each, 12 clears after 3525.5 and no clear-less lock; NEXT spawns 3525.57, 3526.87, 3533.67, 3534.50, 3535.77, 3537.07, 3538.17, 3539.33, 3540.67, 3541.77, 3542.60, 3543.73 (spawn 3544.67 not locked by KO). Chain has 14 singles; slow-motion sheet /tmp/claude-0/p/corr/fr/g0/p024a.png shows one Z piece falling 3527-3533. two phantom singles removed."
+  },
+  {
+   "n": 14,
+   "id": "p024",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 19,
+   "value": 17,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): last clear 2850 at 3544.00 = 300+150*17, i.e. REN 17; chain's 19 came from two phantom singles."
+  },
+  {
+   "n": 15,
+   "id": "p024",
+   "player": "p2",
+   "field": "pieces",
+   "was": 63,
+   "value": 62,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score: singles 1524@3526.70 (REN8), 1660@3532.07 (REN9), 1824@3532.93, 1950@3533.97, 2100@3534.93, double 2880@3535.90 (900+150*13). NEXT spawns 3527.37, 3532.70, 3533.57, 3534.63: none at 3532.17. Chain has 5 singles for 4 real clears."
+  },
+  {
+   "n": 15,
+   "id": "p024",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 14,
+   "value": 13,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): double at 3535.90 scored 2850+drop = 900+150*13: REN 13 max."
+  },
+  {
+   "n": 17,
+   "id": "p025",
+   "player": "p2",
+   "field": "pieces",
+   "was": 69,
+   "value": 68,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 782@3577.33 (REN3), 900@3592.50, 1062@3596.30, 1220@3597.07 ... 2550@3605.43 (REN15), 13 clears after 3577; NEXT spawns 3577.13, 3578.00, 3593.13, 3596.90...3605.10; no spawn at 3592.03, no other lock 3578-3596."
+  },
+  {
+   "n": 17,
+   "id": "p025",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 16,
+   "value": 15,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): last clear 2550 at 3605.43 = 300+150*15: REN 15."
+  },
+  {
+   "n": 18,
+   "id": "p025",
+   "player": "p1",
+   "field": "pieces",
+   "was": 55,
+   "value": 53,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1200@3578.67 (REN6), 1350@3589.90, 1500@3597.43, 1650@3598.43, double 2400@3600.80 (900+150*10), 1950@3601.90, 2100@3603.17, 2250@3604.70 (REN13); NEXT spawns 3578.00, 3579.33, 3590.57, 3598.07, 3599.10: none at 3589.47 or 3597.6."
+  },
+  {
+   "n": 20,
+   "id": "p025",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 15,
+   "value": 13,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN peaks at 2250 = 300+150*13 at 3604.70."
+  },
+  {
+   "n": 24,
+   "id": "p026",
+   "player": "p2",
+   "field": "pieces",
+   "was": 91,
+   "value": 90,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score: 450@3632.00 (REN1), 600@3636.17 (REN2, the slow-falling T, sheet /tmp/claude-0/p/corr/fr/g0/p026.png), 750@3637.80 (REN3), triple 2114@3638.87 (1500+150*4); NEXT spawns 3631.70, 3632.63, 3636.83, 3638.43. Chain has singles at 3636.83 and 3636.87 for one clear; the cleared row at 3637.80 is the coloured row, not garbage, so the gc1 duplicate is the one removed."
+  },
+  {
+   "n": 24,
+   "id": "p026",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 5,
+   "value": 4,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN here peaks at 4 (triple 1500+600); chain's 5 came from the duplicate single. A also reads 4."
+  },
+  {
+   "n": 28,
+   "id": "p033",
+   "player": "p2",
+   "field": "pieces",
+   "was": 62,
+   "value": 60,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 1200@3963.17 (REN6), 1350@3975.00, 1520@3976.70 ... 2424@3983.77 (REN14), double 3176@3984.80 (900+150*15); NEXT spawns 3962.53, 3963.80, 3975.63, 3977.33: none at 3964.0 or 3974.53; the 3963.80 piece cleared at 3975.00."
+  },
+  {
+   "n": 32,
+   "id": "p033",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 17,
+   "value": 15,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): double at 3984.80 = 900+150*15: REN 15 max."
+  },
+  {
+   "n": 30,
+   "id": "p033",
+   "player": "p1",
+   "field": "pieces",
+   "was": 54,
+   "value": 53,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1500@3963.80 (REN8), 1650@3977.13, 1800@3977.93, 1950@3980.30, 2100@3981.23, 2250@3982.07 (REN13), then lock 3982.80 without clear; NEXT spawn 3964.53 then 3977.80. Chain singles at 3964.7 and 3964.73 are one piece."
+  },
+  {
+   "n": 30,
+   "id": "p033",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 14,
+   "value": 13,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN peak 2250 = 300+150*13 at 3982.07."
+  },
+  {
+   "n": 34,
+   "id": "p035",
+   "player": "p2",
+   "field": "pieces",
+   "was": 71,
+   "value": 68,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p2 score clears: 1200@4055.63 (REN6), 1350@4060.03, 1500@4061.03, 1650@4061.90, 1800@4062.80, 1950@4063.63, 2100@4071.13, 2284@4072.40, TSD 5700@4073.90 (3600+150*14), 2550, 2700, 2850@4076.53 (REN17), lock 4077.43; NEXT spawns 4054.83, 4056.27, 4060.70, ..., 4063.40, 4064.23, 4071.77, 4073.03: one piece each at 4056.27 and 4064.23 (the latter cleared at 4071.13), none at 4071.23."
+  },
+  {
+   "n": 34,
+   "id": "p035",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 20,
+   "value": 17,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN peak 2850 = 300+150*17 at 4076.53."
+  },
+  {
+   "n": 36,
+   "id": "p035",
+   "player": "p1",
+   "field": "pieces",
+   "was": 64,
+   "value": 62,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 1050@4056.10 (REN5), 1200@4060.87, ..., 1800@4064.70, 1950@4071.00 (REN11, soft-dropped piece, no other lock 4064.7-4071.87); NEXT spawns 4055.70, 4056.77, 4061.50, ..., 4064.33, 4065.33, 4071.63: one piece at 4056.77 (its S filled the garbage-row hole, clear at 4060.87 removes a garbage row, /tmp/claude-0/p/corr/fr/g0/p035a.png, so the gc1 event stays) and no piece near 4070.43."
+  },
+  {
+   "n": 39,
+   "id": "p035",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 12,
+   "value": 11,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN peak 1950 = 300+150*11 at 4071.00."
+  },
+  {
+   "n": 40,
+   "id": "p037",
+   "player": "p1",
+   "field": "pieces",
+   "was": 61,
+   "value": 59,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw):  p1 score clears: 750@4130.23 (REN3), 900@4139.70, 1050@4141.00, 1200@4142.93, ... 1950@4147.70 (REN11); NEXT spawns 4130.00, 4130.90, 4140.43, 4141.67, 4143.57: the 4130.90 piece cleared at 4139.70; no spawn at 4131.0 or 4139.8."
+  },
+  {
+   "n": 41,
+   "id": "p037",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 13,
+   "value": 11,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN peak 1950 = 300+150*11 at 4147.70."
+  },
+  {
+   "n": 42,
+   "id": "p037",
+   "player": "p2",
+   "field": "pieces",
+   "was": 61,
+   "value": 58,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): one piece (the T) in 4132.33-4139.8 where the chain had three piece events."
+  },
+  {
+   "n": 42,
+   "id": "p037",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 7,
+   "value": 8,
+   "source": "score.py + nextcount.py (video 0Akye6ouJbw): REN unbroken from 4129.80 (REN3) to 1516@4141.40 = 300+150*8: REN 8 (A also 8); chain's break at 4136.83 was phantom."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 2172.23: last lock +16 at 2171.97 (the 2171.83 spawn); after that only soft-drop +1 at 2172.23/2172.26, no hard-drop lock by the KO."
+  },
+  {
+   "n": 1,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 2219.1: last lock at 2218.70; no score change until the KO garble at 2219.2."
+  },
+  {
+   "n": 2,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 2467.2: next lock (+26) at 2467.27, two frames after end_s; not counted."
+  },
+  {
+   "n": 3,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 2612.4: I piece still at the top at 2612.40 (KO tilt visible), hard-dropped at 2612.43 (score 31637->31661), one frame after end_s: /tmp/claude-0/p/corr/fr/g0/ko010.png."
+  },
+  {
+   "n": 4,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 2894.13: lock +12 at 2894.16, one frame after end_s (score is frame-synchronous with the lock, checked at p010)."
+  },
+  {
+   "n": 5,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 2971.37: last lock at 2971.10 (spawn 2970.9), then soft drop +1 only; no lock by KO."
+  },
+  {
+   "n": 7,
+   "why": "Explained by the item-6 retype: score +300 at 3053.60 is a zero-line Mini T-spin, then +2434 at 3060.33 (non-B2B tetris) and +3634 at 3061.60 (B2B tetris). Both quads real."
+  },
+  {
+   "n": 8,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 3134.47: last lock 3133.47 (double cleared 3133.53); no lock after until the KO."
+  },
+  {
+   "n": 9,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): +300 at 3266.20 is a zero-line 'Mini T-SPIN' (banner without 'Single', /tmp/claude-0/p/corr/fr/g0/b019.png; T soft-dropped and spun, /tmp/claude-0/p/corr/fr/g0/p019tail.png); no row removed. Not a clear."
+  },
+  {
+   "n": 10,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 3267.1: last locks 3266.43 and 3266.83 (chain spawns 3266.27, 3266.5); no lock after until KO."
+  },
+  {
+   "n": 11,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 3494.47: p2 soft-dropping (+1/frame) up to 3494.44, no hard-drop lock by KO."
+  },
+  {
+   "n": 22,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): p2 3592.5-3605.43: 12 real singles REN4..REN15 each +150 with the chain's events after the 3592.03 removal (item 16); deficit came from that phantom inflating the REN level."
+  },
+  {
+   "n": 23,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): p1 3598.43-3604.7: double 2400 (REN10), singles 1950/2100/2250 match the chain after removing the two phantoms (items 19, 21); the deficit is the inflated REN level."
+  },
+  {
+   "n": 25,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): score +1050 at 3697.67 = plain double 900 + REN1 150 (a TSD would be >=3600). Chain already types it 'double'."
+  },
+  {
+   "n": 26,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 3702.7: soft drop +1 per frame through 3702.73, no lock by KO."
+  },
+  {
+   "n": 27,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 3869.83: lock +24 at 3869.86, one frame after end_s; not counted."
+  },
+  {
+   "n": 33,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 3987.3: locks at 3987.10 (spawn 3986.87) and 3987.33; the latter is one frame after end_s, not counted."
+  },
+  {
+   "n": 43,
+   "why": "score.py + nextcount.py (video 0Akye6ouJbw): around KO 4156.7: locks at 4156.23 and 4156.40 (spawns 4155.9, 4156.33); next piece not locked before KO."
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "event_corrections": [
+  {
+   "n": 95,
+   "id": "p080",
+   "side": "p1",
+   "op": "add",
+   "t": 6985.37,
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "I spawns 6985.37, hard-dropped vertically into the well and locks 6985.47 (score +26), 4 grey garbage rows flash and score +4200 at 6985.53 (REN banner 1->2); lock is before KO 6985.53. fr/g2/p080.png"
+  },
+  {
+   "n": 102,
+   "id": "p088",
+   "side": "p1",
+   "op": "remove",
+   "t": 7325.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Game froze online ~7318.9-7325.6 (both pieces hang mid-air, fr/g2/p088a.png). NEXT shifts only at 7317.40, 7318.27, 7326.87, 7328.23 (no spawn near 7325.77). Score shows 6 REN singles 7315.03 +450, 7315.90 +620, 7316.77 +750, 7317.60 +900, 7326.23 +1050, 7327.57 +1200 (banners 3/4/5/6 REN) against 7 chain singles; the frozen S (spawn 7318.27/chain 7318.4) cleared at 7326.23, so 7325.77 is a phantom duplicate. A's own count (96 pieces, 16 singles, max_combo 6) agrees."
+  },
+  {
+   "n": 101,
+   "id": "p088",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7317.53,
+   "t_end": 7317.8,
+   "events": [
+    {
+     "t": 7317.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7317.53,
+     null,
+     0
+    ],
+    [
+     7317.53,
+     null,
+     0
+    ],
+    [
+     7317.57,
+     null,
+     0
+    ],
+    [
+     7317.8,
+     null,
+     0
+    ]
+   ],
+   "source": "nextcount p2: shifts 7317.233, 7317.567, then none until 7327.300 (game froze; J hangs mid-air in fr/g2/p088a.png 7318.9-7326.4). Only one spawn (J, 7317.57) in [7317.5,7327.2]; it locks ~7327.2 (+2 soft drop), then O spawns 7327.30, is held for I which makes the quad (+3600 at 7327.60). Chain has 4 locks there, 3 extra. A's count 137 pieces agrees."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 95,
+   "id": "p080",
+   "player": "p1",
+   "field": "pieces",
+   "was": 119,
+   "value": 120,
+   "source": "the I locked 6985.47 before KO 6985.53 (quad), fr/g2/p080.png"
+  },
+  {
+   "n": 106,
+   "id": "p091",
+   "player": "p2",
+   "field": "pieces",
+   "was": 207,
+   "value": 208,
+   "source": "Real KO is ~7560.95 (p1 board starts tilting), then the stream cuts at 7561.00 to the end of a different game (score 37614/46526, win counter 12-4); end_s 7561.17 lies in that other game. Before the cut: L locks 7560.70 (+26), S spawns 7560.73 and is held, J comes out of hold and locks 7560.93 (+26, no clear) - before the KO, not in chain (last chain spawn 7560.43). fr/g2/p091.png, p091b.png, p091c.png, p091d.png. Note: p091 end_s should be ~7560.95, not 7561.17."
+  },
+  {
+   "n": 102,
+   "id": "p088",
+   "player": "p1",
+   "field": "pieces",
+   "was": 97,
+   "value": 96,
+   "source": "phantom single at 7325.77 removed (see event correction, n=102)"
+  },
+  {
+   "n": 102,
+   "id": "p088",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 6,
+   "source": "with the phantom removed the run is tss + 6 singles = REN 6; banner shows max '6 REN' at 7327.9 (fr/g2/p088a.png); other chain runs max 6"
+  },
+  {
+   "n": 101,
+   "id": "p088",
+   "player": "p2",
+   "field": "pieces",
+   "was": 140,
+   "value": 137,
+   "source": "3 extra locks in the frozen window removed (n=101); matches A's 137"
+  },
+  {
+   "n": 112,
+   "id": "p104",
+   "player": "p2",
+   "field": "pieces",
+   "was": 233,
+   "value": 234,
+   "source": "T spawned ~8217.30 locks on the KO frame 8217.53 (score +20, no clear, no banner); p1 board starts tilting that frame. fr/g2/p104.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 93,
+   "why": "p2 score drop-point increments 6531.90/6532.14/6532.44 match chain spawns; last spawn 6532.57 never locks (no increment through 6533.00)"
+  },
+  {
+   "n": 94,
+   "why": "p1 increments match chain locks; last spawn 6781.57 does not lock by KO (no score change through 6782.03)"
+  },
+  {
+   "n": 96,
+   "why": "+300 at 7081.63 is a zero-line T-SPIN (banner 'T-SPIN', no rows removed), fr/g2/p081.png; not a line clear"
+  },
+  {
+   "n": 99,
+   "why": "O piece locks 7249.47-7249.50, after the KO tilt (p2 board tilting from ~7249.40-7249.44), fr/g2/p086.png, p086b.png"
+  },
+  {
+   "n": 100,
+   "why": "last spawn 7296.67 not locked by KO (no score increment); nextcount spawn count in window equals chain (duplicate 7296.0 is the 7295.83 spawn mistimed)"
+  },
+  {
+   "n": 103,
+   "why": "p1 window covered by n=102: the 8.6 s gap is an online freeze, no locks happen in it; only the phantom single changes"
+  },
+  {
+   "n": 104,
+   "why": "last chain spawn 7414.2 locks 7414.53; the 7414.63 spawn does not lock by KO (no increment)"
+  },
+  {
+   "n": 105,
+   "why": "O locks 7447.77, one frame after the KO tilt 7447.73, fr/g2/p090.png"
+  },
+  {
+   "n": 107,
+   "why": "score +1350 at 7725.17 = double with REN 3 (900+450); a TSD would be ~3600+; plain double correct"
+  },
+  {
+   "n": 108,
+   "why": "last spawn 7805.50 does not lock by KO (no score increment through 7806.36)"
+  },
+  {
+   "n": 109,
+   "why": "p2's J locks 7873.16 (+26) and clears a single (+600 at 7873.23), after the KO 7873.03 (p1 board tilting by 7873.10), fr/g2/p099.png"
+  },
+  {
+   "n": 110,
+   "why": "O locks 7906.30, one frame after the KO tilt 7906.27, fr/g2/p100.png"
+  },
+  {
+   "n": 111,
+   "why": "p2 is soft-dropping (+1 per frame) until 8015.60 = KO; piece not locked"
+  },
+  {
+   "n": 113,
+   "why": "p1 soft-dropping (+1 per frame) until 8379.70, KO 8379.73; no lock"
+  },
+  {
+   "n": 97,
+   "why": "p2 increments 7082.36/7082.63/7082.80 match chain spawns; last spawn 7082.83 not locked by KO 7083.03 (no increment through 7083.26)"
+  },
+  {
+   "n": 98,
+   "why": "T piece still falling at KO 7186.30 (+1 at 7186.23 is soft drop), fr/g2/p084.png"
+  }
+ ]
+}
