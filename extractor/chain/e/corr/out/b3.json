@@ -1,0 +1,26 @@
+{"event_corrections":[
+ {"n":52,"id":"e073","side":"p2","op":"replace_window","t":4661.23,"t_end":4661.97,
+  "events":[{"t":4661.23,"kind":null,"lines":0,"pc":0,"gc":0},{"t":4661.47,"kind":"triple","lines":3,"pc":1,"gc":3},{"t":4661.97,"kind":null,"lines":0,"pc":0,"gc":0}],
+  "was_old":[[4661.23,null,0],[4661.97,"triple",3]],
+  "source":"nextcount p2: O spawns 4661.233, hold swap 4661.367 (J out, locks), L spawns 4661.467 and is the PC triple (score 10964->17864 at 4661.83-4661.90, before the 4661.967 spawn); Z spawned 4661.967 is swapped for O which locks 4662.37 with +38 drop only (fr/g3/n51.png). The chain logged the triple one spawn late and missed the L spawn."},
+ {"n":52,"id":"e073","side":"p2","op":"add","t":4662.77,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"T spawns 4662.767, held at 4662.867 swapping O out; O hard-drops (+38, 17976->18014) in the frame at 4663.067, the same frame as p1's first tilt (fr/g3/n52b.png: frame 1 untilted O at top, frame 2 tilted O locked). Lock on KO frame counts. No clear."},
+ {"n":53,"id":"e075","side":"p1","op":"add","t":4821.03,"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"L spawns 4821.033 (nextcount), locks ~4821.04 (+28 drop, 86296->86324), single clear flash on a colored (non-garbage) row and 8 REN banner, score +1500 (300+8x150) by 4821.07-4821.10, at/before KO 4821.10 (fr/g3/n53.png)."}
+],
+"cell_edits":[
+ {"n":52,"id":"e073","player":"p2","field":"pieces","was":23,"value":24,"source":"nextcount p2 over game: 25 queue shifts, T left in hold at end, final O locks on KO frame -> 24 locks; chain events 22 + missed L (4661.47) + final O (4662.77)."},
+ {"n":53,"id":"e075","player":"p1","field":"pieces","was":119,"value":120,"source":"final L locked and cleared a single before KO (fr/g3/n53.png)."},
+ {"n":59,"id":"e094","player":"p1","field":"pieces","was":43,"value":39,"source":"nextcount p1 5892.5-5919.1: 40 queue shifts, Z in hold at KO, last piece (spawn 5918.33) locks single at 5918.60 -> 39 locks, equal to the 39 non-BREAK chain events. Gap window 5903.8-5908.07 holds only O spawn, hold swap (5905.33) and T lock+single at 5907.37 (fr/g3/n59.png), no extra locks. Note csv lines_cleared 36 also disagrees with its own clear counts (28)."},
+ {"n":59,"id":"e094","player":"p1","field":"max_combo","was":4,"value":7,"source":"score steps: TST +4800 (5899.67), TSD +5550 (B2B+REN1, 5901.00), quad +3900 (REN2, 5902.07), singles +750/+900/+1050/+1200 (REN3-6 at 5903.13/5907.37/5908.33/5909.37), double +1950 (900+REN7 1050, 5910.43); next lock 5911.47 +18 no clear. Max REN 7."}
+],
+"no_change":[
+ {"n":49,"why":"e069 p1: Z spawned 4394.03 still at top at KO 4394.13; never locked, score unchanged (fr/g3/n49.png)."},
+ {"n":50,"why":"e072 p2: Z spawned 4644.33 still at top at KO 4644.70; never locked (fr/g3/n50.png)."},
+ {"n":51,"why":"e073 p2: +76 at 4662.46 is two hard-drop locks (+38 O at 4662.37, +38 J at 4662.47), no clear; the related piece/triple-timing fixes are under n=52."},
+ {"n":54,"why":"e077 p1: T spawned 4895.90 still falling at KO 4896.00; never locked, score unchanged (fr/g3/n54.png)."},
+ {"n":55,"why":"e084 p1: S spawned 5432.20 swapped for L at 5432.30; L still at top at KO 5432.37 (fr/g3/n55.png)."},
+ {"n":56,"why":"e087 p2: T at 5526.17 cleared 1 line with no T-SPIN banner (lingering TETRIS banner only); score +620 = single 300 + REN2 300 + 20 drop, matching after triple (+1500) and quad (+2566 incl REN1). Plain single is right (fr/g3/n56.png)."},
+ {"n":57,"why":"e087 p2: S spawned 5567.93 swapped for O at 5568.00; O at top at KO 5568.03, never locked (fr/g3/n57.png)."},
+ {"n":58,"why":"e091 p1: T (from hold swap 5805.40) still falling at KO 5805.50; no lock (fr/g3/n58.png)."}
+]}
