@@ -1,0 +1,11 @@
+[
+{"ref":"e0","verdict":"keep","why":"b000 p1: T into mid-stack slot ~1554.5, stack height unchanged, no row cleared; score +300 at 1554.70 (72233->72533) = zero-line Mini T-spin, not Mini TSS 600 (fr/v0/b000.png)."},
+{"ref":"e1","verdict":"keep","why":"b002 p2: score +5400 at 1622.30 (11001->16401) = TSD x1.5 B2B; 'Double'/'BACK' banner visible 1622.9 (fr/v0/b002.png)."},
+{"ref":"e2","verdict":"keep","why":"b002 p2: O spawned 1623.03, swapped for held S, S locked ~1623.30 with no clear (+36 drop points, 16401->16437); Switch home menu from 1623.44 (fr/v0/b002.png). No TETRIS."},
+{"ref":"e3","verdict":"keep","why":"b002 p1: nextcount shows last shift 1621.467 (I); I locked ~1622.93 (already covered by the 1621.63 event); NEXT queue unchanged O,S,T,S,O through 1623.43, then home menu (fr/v0/b002p1b.png). 1623.03 is a phantom."},
+{"ref":"e4","verdict":"keep","why":"b006 p2: T laid flat ~1867.1, no row cleared, stack unchanged; score +300 at 1867.20 = zero-line Mini T-spin (fr/v0/b006.png)."},
+{"ref":"e5","verdict":"keep","why":"b033 p2: T locked at right ~3518.6, no row cleared; score +300 at 3518.73 (27277->27577) = zero-line Mini T-spin (fr/v0/b033.png)."},
+{"ref":"c0","verdict":"keep","why":"b002 p2 score jumps: +4800 at 1618.20 (TST), +5550 at 1619.63 (TSD B2B + REN), +5400 at 1622.30 (TSD B2B), no non-T clear between: B2B reaches 2."},
+{"ref":"c1","verdict":"keep","why":"b002 p1: I spawned 1621.47 locks ~1622.93 (counted by 1621.63 event); no later spawn before the pause, so removing the phantom gives 18, and the I did lock so 18 is exact, not just an upper bound."},
+{"ref":"c2","verdict":"reject","why":"b029 p2: per-frame score.py -a shows 52654 through 3346.07 (end_s) and 52674 only at 3346.10; frames show the L still falling in the right column at 3346.07 and locking with flash at 3346.10 (fr/v0/b029.png). Lock is one frame after end_s, so it does not count; pieces stay 86."}
+]

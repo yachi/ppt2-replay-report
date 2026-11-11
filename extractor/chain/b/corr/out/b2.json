@@ -1,0 +1,981 @@
+{
+ "event_corrections": [
+  {
+   "n": 41,
+   "id": "b069",
+   "side": "p1",
+   "op": "remove",
+   "t": 5428.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py (REN bonus +150/step, continuous) and nextcount.py spawns; stream in slow motion (lag) here, one piece falls for many seconds: p1 score 5427.23 +900 (4REN), next clear 5444.97 +1050 (5REN, the O spawned ~5428.0 that falls slowly through the lag); only one lock between; sheet /tmp/claude-0/b/corr/fr/g2/b069a.png; 5428.03 duplicates 5428.0"
+  },
+  {
+   "n": 42,
+   "id": "b069",
+   "side": "p1",
+   "op": "remove",
+   "t": 5439.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "score.py (REN bonus +150/step, continuous) and nextcount.py spawns; stream in slow motion (lag) here, one piece falls for many seconds: p1 score 5427.23 +900 (4REN), next clear 5444.97 +1050 (5REN, the O spawned ~5428.0 that falls slowly through the lag); only one lock between; sheet /tmp/claude-0/b/corr/fr/g2/b069a.png; no spawn/lock at 5439.17"
+  },
+  {
+   "n": 40,
+   "id": "b069",
+   "side": "p2",
+   "op": "remove",
+   "t": 5432.37,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 lag window: NEXT queue unchanged I,L,O,S,J from 5429.5 to 5432.4, then single shift at ~5433.3 (I spawns, falls slowly, TETRIS +3600 at 5445.77); Z (5426.17) is the only other piece; no spawn near 5432.37; sheet /tmp/claude-0/b/corr/fr/g2/b069b.png"
+  },
+  {
+   "n": 51,
+   "id": "b078",
+   "side": "p2",
+   "op": "remove",
+   "t": 5881.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score: REN singles +2436 at 5880.80 (14REN) then lag freeze, +2550 (15REN) at 5888.00, 16REN 5888.97, 17REN 5889.93, quad +5100 (18REN) 5890.97: one clear between 5880.8 and 5888.67 spawns; nextcount: one shift 5881.40 (I held at 5881.63, O from hold placed); 5881.5 duplicates 5881.4"
+  },
+  {
+   "n": 60,
+   "id": "b081",
+   "side": "p1",
+   "op": "remove",
+   "t": 6094.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6094.10"
+  },
+  {
+   "n": 64,
+   "id": "b081",
+   "side": "p1",
+   "op": "remove",
+   "t": 6105.43,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6105.43"
+  },
+  {
+   "n": 65,
+   "id": "b081",
+   "side": "p1",
+   "op": "remove",
+   "t": 6120.7,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6120.70"
+  },
+  {
+   "n": 67,
+   "id": "b081",
+   "side": "p1",
+   "op": "remove",
+   "t": 6124.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6124.83"
+  },
+  {
+   "n": 69,
+   "id": "b081",
+   "side": "p1",
+   "op": "remove",
+   "t": 6138.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6138.33"
+  },
+  {
+   "n": 71,
+   "id": "b081",
+   "side": "p1",
+   "op": "remove",
+   "t": 6148.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6148.67"
+  },
+  {
+   "n": 72,
+   "id": "b081",
+   "side": "p1",
+   "op": "remove",
+   "t": 6155.43,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6155.43"
+  },
+  {
+   "n": 61,
+   "id": "b081",
+   "side": "p2",
+   "op": "remove",
+   "t": 6105.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 66,
+   "id": "b081",
+   "side": "p2",
+   "op": "remove",
+   "t": 6124.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 66,
+   "id": "b081",
+   "side": "p2",
+   "op": "remove",
+   "t": 6135.17,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 66,
+   "id": "b081",
+   "side": "p2",
+   "op": "remove",
+   "t": 6154.2,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 63,
+   "id": "b081",
+   "side": "p2",
+   "op": "remove",
+   "t": 6114.93,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 63,
+   "id": "b081",
+   "side": "p2",
+   "op": "remove",
+   "t": 6136.67,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 63,
+   "id": "b081",
+   "side": "p2",
+   "op": "remove",
+   "t": 6142.27,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 55,
+   "id": "b079",
+   "side": "p1",
+   "op": "remove",
+   "t": 5929.47,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 55,
+   "id": "b079",
+   "side": "p1",
+   "op": "remove",
+   "t": 5939.83,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 57,
+   "id": "b079",
+   "side": "p1",
+   "op": "remove",
+   "t": 5968.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 58,
+   "id": "b079",
+   "side": "p1",
+   "op": "remove",
+   "t": 5990.27,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 59,
+   "id": "b079",
+   "side": "p1",
+   "op": "remove",
+   "t": 6001.87,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 56,
+   "id": "b079",
+   "side": "p1",
+   "op": "remove",
+   "t": 5944.13,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 56,
+   "id": "b079",
+   "side": "p1",
+   "op": "remove",
+   "t": 5946.67,
+   "was": [
+    "BREAK",
+    1,
+    0
+   ],
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 54,
+   "id": "b079",
+   "side": "p2",
+   "op": "remove",
+   "t": 5961.1,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 57,
+   "id": "b079",
+   "side": "p2",
+   "op": "remove",
+   "t": 5985.17,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 54,
+   "id": "b079",
+   "side": "p2",
+   "op": "remove",
+   "t": 5938.73,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 54,
+   "id": "b079",
+   "side": "p2",
+   "op": "remove",
+   "t": 5941.17,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 54,
+   "id": "b079",
+   "side": "p2",
+   "op": "remove",
+   "t": 5947.47,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 54,
+   "id": "b079",
+   "side": "p2",
+   "op": "remove",
+   "t": 5961.23,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 54,
+   "id": "b079",
+   "side": "p2",
+   "op": "remove",
+   "t": 5967.07,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 78,
+   "id": "b094",
+   "side": "p1",
+   "op": "remove",
+   "t": 6799.9,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57"
+  },
+  {
+   "n": 78,
+   "id": "b094",
+   "side": "p1",
+   "op": "remove",
+   "t": 6810.57,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57"
+  },
+  {
+   "n": 78,
+   "id": "b094",
+   "side": "p1",
+   "op": "remove",
+   "t": 6801.53,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57"
+  },
+  {
+   "n": 79,
+   "id": "b094",
+   "side": "p2",
+   "op": "remove",
+   "t": 6797.43,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+  },
+  {
+   "n": 79,
+   "id": "b094",
+   "side": "p2",
+   "op": "remove",
+   "t": 6802.77,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+  },
+  {
+   "n": 79,
+   "id": "b094",
+   "side": "p2",
+   "op": "remove",
+   "t": 6810.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+  },
+  {
+   "n": 79,
+   "id": "b094",
+   "side": "p2",
+   "op": "remove",
+   "t": 6800.27,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+  },
+  {
+   "n": 79,
+   "id": "b094",
+   "side": "p2",
+   "op": "remove",
+   "t": 6802.9,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+  },
+  {
+   "n": 82,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 6981.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 83,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 6997.53,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 83,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 7009.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 85,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 7027.43,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 86,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 7034.3,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 83,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 6970.2,
+   "was": [
+    "BREAK",
+    1,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 83,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 6972.63,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 83,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 7000.47,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 83,
+   "id": "b095",
+   "side": "p1",
+   "op": "remove",
+   "t": 7002.93,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 81,
+   "id": "b095",
+   "side": "p2",
+   "op": "remove",
+   "t": 6977.47,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 84,
+   "id": "b095",
+   "side": "p2",
+   "op": "remove",
+   "t": 6998.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 84,
+   "id": "b095",
+   "side": "p2",
+   "op": "remove",
+   "t": 7021.8,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 81,
+   "id": "b095",
+   "side": "p2",
+   "op": "remove",
+   "t": 6963.13,
+   "was": [
+    "BREAK",
+    3,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 81,
+   "id": "b095",
+   "side": "p2",
+   "op": "remove",
+   "t": 6979.63,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 81,
+   "id": "b095",
+   "side": "p2",
+   "op": "remove",
+   "t": 7021.93,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 47,
+   "id": "b073",
+   "side": "p1",
+   "op": "retype",
+   "t": 5640.9,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T locks 5641.2 with a T-SPIN banner but no row clears (no flash, board unchanged rows); score +300 = zero-line mini T-spin, not 600; next clear 5642.23 is +300 (no REN), so the T cleared nothing; sheet /tmp/claude-0/b/corr/fr/g2/b073.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 44,
+   "id": "b069",
+   "player": "p1",
+   "field": "pieces",
+   "was": 52,
+   "value": 50,
+   "source": "two phantom singles 5428.03, 5439.17 removed; score.py (REN bonus +150/step, continuous) and nextcount.py spawns; stream in slow motion (lag) here, one piece falls for many seconds: p1 score 5427.23 +900 (4REN), next clear 5444.97 +1050 (5REN, the O spawned ~5428.0 that falls slowly through the lag); only one lock between; sheet /tmp/claude-0/b/corr/fr/g2/b069a.png"
+  },
+  {
+   "n": 44,
+   "id": "b069",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 16,
+   "value": 14,
+   "source": "score REN steps: 4REN 5427.23, 5REN 5444.97 ... single +2400 at 5454.80 = 14REN, max; chain 16 from the 2 phantoms"
+  },
+  {
+   "n": 43,
+   "id": "b069",
+   "player": "p2",
+   "field": "pieces",
+   "was": 65,
+   "value": 64,
+   "source": "phantom lock 5432.37 removed; p2 lag window: NEXT queue unchanged I,L,O,S,J from 5429.5 to 5432.4, then single shift at ~5433.3 (I spawns, falls slowly, TETRIS +3600 at 5445.77); Z (5426.17) is the only other piece; no spawn near 5432.37; sheet /tmp/claude-0/b/corr/fr/g2/b069b.png"
+  },
+  {
+   "n": 52,
+   "id": "b078",
+   "player": "p2",
+   "field": "pieces",
+   "was": 65,
+   "value": 64,
+   "source": "phantom single 5881.5 removed; p2 score: REN singles +2436 at 5880.80 (14REN) then lag freeze, +2550 (15REN) at 5888.00, 16REN 5888.97, 17REN 5889.93, quad +5100 (18REN) 5890.97: one clear between 5880.8 and 5888.67 spawns; nextcount: one shift 5881.40 (I held at 5881.63, O from hold placed)"
+  },
+  {
+   "n": 51,
+   "id": "b078",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 19,
+   "value": 18,
+   "source": "p2 score: REN singles +2436 at 5880.80 (14REN) then lag freeze, +2550 (15REN) at 5888.00, 16REN 5888.97, 17REN 5889.93, quad +5100 (18REN) 5890.97: one clear between 5880.8 and 5888.67 spawns; nextcount: one shift 5881.40 (I held at 5881.63, O from hold placed)"
+  },
+  {
+   "n": 62,
+   "id": "b081",
+   "player": "p1",
+   "field": "pieces",
+   "was": 209,
+   "value": 202,
+   "source": "7 phantom singles removed; p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears"
+  },
+  {
+   "n": 68,
+   "id": "b081",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 25,
+   "value": 18,
+   "source": "p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; REN breaks to TSD 6161.97 (+3600 no REN)"
+  },
+  {
+   "n": 61,
+   "id": "b081",
+   "player": "p2",
+   "field": "pieces",
+   "was": 208,
+   "value": 204,
+   "source": "4 phantom events removed; p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 66,
+   "id": "b081",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 14,
+   "value": 19,
+   "source": "p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+  },
+  {
+   "n": 55,
+   "id": "b079",
+   "player": "p1",
+   "field": "pieces",
+   "was": 75,
+   "value": 70,
+   "source": "5 phantom events removed; p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 58,
+   "id": "b079",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 10,
+   "value": 15,
+   "source": "p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+  },
+  {
+   "n": 57,
+   "id": "b079",
+   "player": "p2",
+   "field": "pieces",
+   "was": 74,
+   "value": 72,
+   "source": "2 phantom locks removed; p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false"
+  },
+  {
+   "n": 78,
+   "id": "b094",
+   "player": "p1",
+   "field": "pieces",
+   "was": 241,
+   "value": 239,
+   "source": "2 phantom events removed; both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57"
+  },
+  {
+   "n": 78,
+   "id": "b094",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 11,
+   "value": 16,
+   "source": "score REN +150 steps from 1REN 6777.33 to 16REN (+2700) 6816.30, unbroken through the lag; both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57"
+  },
+  {
+   "n": 79,
+   "id": "b094",
+   "player": "p2",
+   "field": "pieces",
+   "was": 264,
+   "value": 261,
+   "source": "3 phantom events removed; p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+  },
+  {
+   "n": 79,
+   "id": "b094",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 11,
+   "value": 18,
+   "source": "REN from 0 at 6777.27 to 18REN 6816.67 unbroken; p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+  },
+  {
+   "n": 82,
+   "id": "b095",
+   "player": "p1",
+   "field": "pieces",
+   "was": 114,
+   "value": 109,
+   "source": "5 phantom events removed; p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 86,
+   "id": "b095",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 11,
+   "value": 18,
+   "source": "p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+  },
+  {
+   "n": 84,
+   "id": "b095",
+   "player": "p2",
+   "field": "pieces",
+   "was": 104,
+   "value": 101,
+   "source": "3 phantom events removed; p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 81,
+   "id": "b095",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 14,
+   "value": 19,
+   "source": "p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+  },
+  {
+   "n": 50,
+   "id": "b077",
+   "player": "p1",
+   "field": "pieces",
+   "was": 31,
+   "value": 32,
+   "source": "after TSD (lock 5842.17) the Z spawned 5842.9 was held, S came out, soft-dropped 5842.97-5843.47 and locked ~5843.5 (score stops 10994, NEXT unchanged) before KO 5843.70; chain has no event after 5841.53; sheet /tmp/claude-0/b/corr/fr/g2/b077.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 70,
+   "why": "b081 p1 gap 6139.6-6151: only spawns 6139.43 and 6149.80 there (nextcount), matching chain 6139.6 and 6149.93; the phantoms in this window are listed under items 69/71/72"
+  },
+  {
+   "n": 45,
+   "why": "b070 p1 last lock score +14 at 5547.63 = chain spawn 5547.57; no further lock before KO 5547.93"
+  },
+  {
+   "n": 46,
+   "why": "b071 p2 last lock 5584.26 (spawn 5583.9 counted); nothing until KO 5584.63"
+  },
+  {
+   "n": 48,
+   "why": "b074 p2 last lock 5740.50 (spawn 5740.33 counted); no lock before KO 5740.83"
+  },
+  {
+   "n": 49,
+   "why": "b076 p1: J locked 5822.57 (spawn 5822.33 counted); L hard-dropped and locked at 5822.96, one frame after KO 5822.93; sheet fr/g2/b076.png"
+  },
+  {
+   "n": 53,
+   "why": "b078 p2: T spawned ~5893.0 still falling at KO 5893.20 (sheet fr/g2/b078ko.png)"
+  },
+  {
+   "n": 73,
+   "why": "b082 p2 +1200 at 6287.84 is a zero-line T-SPIN (banner, no row cleared) on the T of chain lock 6287.53 (None); no missed clear; sheet fr/g2/b082.png"
+  },
+  {
+   "n": 74,
+   "why": "b082 p1: S after the 6287.47 single still falling at KO 6288.57 (sheet fr/g2/b082.png)"
+  },
+  {
+   "n": 75,
+   "why": "b086 p2 6427.6: score +450 at 6428.40 = single with 1REN, not a T-spin; chain single correct"
+  },
+  {
+   "n": 76,
+   "why": "b086 p1 last counted lock 6441.83; next lock +16 at 6442.16, after KO 6442.13"
+  },
+  {
+   "n": 77,
+   "why": "b090 p1 locks 6635.60/6635.93 = chain spawns 6635.3/6635.7; nothing more before KO 6636.13"
+  },
+  {
+   "n": 80,
+   "why": "b094 p2 piece still soft-dropping (+1/frame) through KO 6923.30, not locked"
+  },
+  {
+   "n": 87,
+   "why": "b095 p1 lock 7053.06 = spawn 7052.77 counted; next lock 7053.40 after KO 7053.33"
+  }
+ ]
+}

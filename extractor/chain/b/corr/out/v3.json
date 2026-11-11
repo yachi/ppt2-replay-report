@@ -1,0 +1,52 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 8505.97 (Z) then 8514.03 (I) only; no spawn for a 8512.93 piece. p2 score: 8513.37 +750 (Z single, chain's 8505.97 event), 8514.20 +3028 (TETRIS 2400 + REN 600 + drop) - REN continues, so no BREAK. fr/v3/e0.png: garbage rises 8514.0, vertical I at 8514.1 clears 4 grey garbage rows at 8514.2. Aside (outside this window): 8515.23 +1650 = double at REN5 (900+750), so the chain's 8514.97 single may be a double."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "p1 score 8781.63 +300 (zero-line mini = 100x3); next clear 8783.03 is +300 (no REN running), then +450,+600,...,+2250 at 8794.27 for the 14 singles. A mini single would be +600 and would start the REN."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "nextcount p1: spawns 8848.53, 8849.63, 8850.67, 8851.63, 8856.77, 8857.67, 8858.93 - none at 8851.8. Score after the quad: +450, +1200, +750, +900(8856.00), +1050, +1200, +1350 = 7 clears for 7 spawns; 8851.8 single is a duplicate."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v3/e3.png: S locks ~9479.5 into the top garbage row's hole and clears that one row (score +2250 at 9479.60 = 300+1950 REN13); the I at 9480.3 is the only TETRIS (+4500 at 9480.37)."
+ },
+ {
+  "ref": "c0",
+  "verdict": "reject",
+  "why": "fr/v3/c0.png, c0b.png: at 8485.90 (= end_s, p2 board starts tilting) the L is still at the top of p1's board; it lands with the hard-drop flash and score 33956->33992 only at 8485.93, one frame after end_s. Per the brief a lock one frame after end_s does not count; pieces stays 47."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "REN run is the 14 singles 8782.5-8794.13: score bonuses +300..+2250 = REN 0..13; the mini cleared nothing (see e1)."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Only TST (score +4800 8772.50) -> TSD (+5400 = 3600x1.5 at 8774.47) are back-to-back; the zero-line mini does not add a B2B clear. Extractor A also has max_b2b 1."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "Follows e2: phantom 8851.8 removed (no spawn); pieces 141 -> 140, which also equals extractor A's 140."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "fr/v3/c4.png: Z locks with drop flash and score 16192->16222 in the 9266.73 frame, the same frame p1's board begins to tilt (end_s 9266.73); no clear. Counts: 27 -> 28."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "Raised by this skeptic as an aside (+1650 at 8515.23 fits a REN5 double); the frames show a two-row clear."
+ }
+]

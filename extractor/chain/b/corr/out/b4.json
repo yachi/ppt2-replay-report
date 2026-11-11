@@ -1,0 +1,104 @@
+{
+ "event_corrections": [],
+ "cell_edits": [
+  {
+   "n": 202,
+   "id": "b069",
+   "player": "p2",
+   "field": "pieces",
+   "was": 65,
+   "value": 60,
+   "source": "g4 frame check, verified: Recount 62 shifts - 1 hold into empty = 61, less the I spawned 5454.637 into a topped-out board (no lock; the O spawned 5453.9 is the last lock, score 38402->38412 at 5454.60; corr/fr/g4/b069e.png) = 60 = chain events. Post-edit table had 64. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 203,
+   "id": "b079",
+   "player": "p1",
+   "field": "pieces",
+   "was": 75,
+   "value": 67,
+   "source": "g4 frame check, verified: 68 shifts (last one 6008.163 is after the KO) - 1 hold = 67 = chain events; last p1 lock at 6008.0 (score 36723 at 6008.05, corr/fr/g4/b079e.png). Post-edit table had 70. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 204,
+   "id": "b079",
+   "player": "p2",
+   "field": "pieces",
+   "was": 74,
+   "value": 60,
+   "source": "g4 frame check, verified: 62 shifts - 1 hold - the piece spawned 6007.497 into a garbage-filled board that never locked (corr/fr/g4/b079e.png) = 60 = chain events. Lag window 5928.6-6001.3: nextcount p2 5925-6010 shows only shifts 5928.60, 5968.80, 6001.33 with holds 5947.60 (I), 5989.17 (O): 2 locks (Z single, I) = chain events 5928.6 single and 5968.8 lock. Post-edit table had 72. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 205,
+   "id": "b081",
+   "player": "p2",
+   "field": "pieces",
+   "was": 208,
+   "value": 199,
+   "source": "g4 frame check, verified: 200 shifts + the O spawned 6062.0 under GO that the recount missed (O locks 6062.3, score 38; J held 6062.5; corr/fr/g4/b081s.png) - 1 hold - the piece spawned 6236.267 which had not locked by the KO 6236.33 (last score rise +12 at 6236.17, score.py) = 199 = chain events. Post-edit table had 204. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 207,
+   "id": "b094",
+   "player": "p1",
+   "field": "pieces",
+   "was": 241,
+   "value": 235,
+   "source": "g4 frame check, verified: 237 shifts - 1 hold - the piece spawned 6922.63 (no score change to the KO; score.py 6921.5-6923.5) = 235 = chain events. Post-edit table had 239. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 208,
+   "id": "b094",
+   "player": "p2",
+   "field": "pieces",
+   "was": 264,
+   "value": 253,
+   "source": "g4 frame check, verified: 255 shifts - 1 hold - the I spawned 6923.00 and held at 6923.10, the T out of hold still soft-dropping at the KO 6923.30 (score +1/frame 6923.20-6923.30, no lock) = 253 = chain events; the Z spawned 6922.87 hard-dropped at 6922.90 (+6) and is counted. Post-edit table had 261. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 209,
+   "id": "b095",
+   "player": "p1",
+   "field": "pieces",
+   "was": 114,
+   "value": 99,
+   "source": "g4 frame check, verified: 101 shifts - 1 hold - last piece: J spawned ~7052.8 locked 7053.07 (+30, counted, event 7052.77); the next piece locks at 7053.40 (+32), after the KO 7053.33, not counted (score.py, corr/fr/g4/b095e.png) = 99 = chain events. Post-edit table had 109. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 210,
+   "id": "b095",
+   "player": "p2",
+   "field": "pieces",
+   "was": 104,
+   "value": 94,
+   "source": "g4 frame check, verified: 96 shifts - 1 hold - the piece spawned 7052.66 never locked (score 57875 unchanged to the KO, board pushed up by garbage; corr/fr/g4/b095e.png) = 94 = chain events. Post-edit table had 101. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  },
+  {
+   "n": 211,
+   "id": "b101",
+   "player": "p2",
+   "field": "pieces",
+   "was": 140,
+   "value": 131,
+   "source": "g4 frame check, verified: 133 shifts - 1 hold - the piece spawned 8582.603 never locked (p2 score 92390 unchanged 8581.53-8583.17, score.py) = 131 = chain events. Post-edit table had 140. The current chain event list (cseq.json, after the earlier frame-check event corrections) already equals the NEXT-queue recount one-to-one: every shift matched, no multi-shifts, no unreadable stretches, the hold changes tracked, so no further phantom events. In the lag windows the queue simply stalls while one piece falls (a lock needs a spawn, and every spawn moves the queue), so the recount does not miss spawns there. The table's extra pieces are B's spliced gap estimates (bev gaps, logged only as BREAK markers in cseq) that the earlier frame-check pieces edits did not take out. "
+  }
+ ],
+ "no_change": [
+  {
+   "n": 200,
+   "why": "Recount misses the first two spawns under GO: I spawned 4716.2 (locks 4716.4, score 34), L 4716.5 (score 72 at 4716.8) = chain events 4716.13/4716.5 (corr/fr/g4/b052s.png). 45+2 = 47 = table."
+  },
+  {
+   "n": 201,
+   "why": "Recount misses the first spawn under GO (event 4776.07, same pattern as b052/b091/b129) and treats the J spawned 4797.47 as unlocked, but b1 verified it locks on the KO frame 4797.70: 38+1+1 = 40 = table."
+  },
+  {
+   "n": 206,
+   "why": "Recount misses the first two spawns under GO: S spawned 6643.2 locks 6643.3 (score 38), L 6643.4 locks 6643.6 (76) = chain events 6643.13/6643.37 (corr/fr/g4/b091s.png). 36+2 = 38 = table."
+  },
+  {
+   "n": 212,
+   "why": "Recount misses the first two spawns under GO: S 10896.0, T 10896.2 (score 38, 74) = events 10895.97/10896.17 (corr/fr/g4/b129s.png); 53+2 = 55 = table. The mid unmatched shift 10905.037 is the hold-swap around the PC double 10905.47 (I locks 10905.0, S held/L out, L PC), no missing or phantom lock (corr/fr/g4/b129m.png); the O spawned 10919.13 is the last lock, the L spawned 10919.70 tops out (corr/fr/g4/b129e.png)."
+  }
+ ]
+}

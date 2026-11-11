@@ -23012,5 +23012,1101 @@
   "pc": 0,
   "gc": 0,
   "source": "b3 frame check, verified: Z spawned 8951.80, hard-dropped at 8951.90 (score +16), line clear at 8951.93 (+1350 = single + REN7, '7 REN' banner), KO tilt starts after; lock at/before end_s 8951.93. Cleared row is coloured, not garbage. fr/g3/r100.png"
+ },
+ {
+  "id": "b000",
+  "side": "p1",
+  "op": "retype",
+  "t": 1554.73,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: T locked ~1554.47 in mid-stack, no row became full; board identical before/after (corr/fr/g0/i0z.png, i0.png). Score +300 at 1554.70 = zero-line Mini T-spin (100x3), not a Mini TSS (600). Small T-SPIN banner = zero-line mini."
+ },
+ {
+  "id": "b002",
+  "side": "p2",
+  "op": "retype",
+  "t": 1621.6,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b0 frame check, verified: Score +5400 at 1622.30 (TSD 3600 x1.5 B2B); 'T-SPIN Double / BACK to BACK' banner visible at 1622.4 (corr/fr/g0/b002a.png)."
+ },
+ {
+  "id": "b002",
+  "side": "p2",
+  "op": "retype",
+  "t": 1623.03,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: 1623.0-1623.4: O swapped with held S, S locks at ~1623.3 with no clear (score only +36 drop points, 16401->16437); then the stream goes to the Switch home menu (paused) until ~1629.0 and the game ends at 1629.16 with p2 16623 (+186, no clear). No TETRIS anywhere (corr/fr/g0/b002b.png, b002a.png, b002c.png)."
+ },
+ {
+  "id": "b002",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1623.03,
+  "source": "b0 frame check, verified: nextcount p1: no spawn between 1621.467 and the pause at 1623.43; frames 1621.75-1623.4 show the same red Z hanging at the top, unlocked, score flat at 757 (corr/fr/g0/b002d.png). The game was paused (home menu) 1623.5-1629.0 and ended immediately on resume. 1623.03 is a phantom spawn.",
+  "t_end": 1623.03,
+  "events": [],
+  "was_old": [
+   [
+    1623.03,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b006",
+  "side": "p2",
+  "op": "retype",
+  "t": 1867.23,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: T laid flat ~1867.1 on the bottom stack row; that row still has an empty cell (col 0), no row clears, board unchanged (corr/fr/g0/i8z.png). Score +300 at 1867.20 = zero-line Mini T-spin."
+ },
+ {
+  "id": "b033",
+  "side": "p2",
+  "op": "retype",
+  "t": 3518.77,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: T locked at the right ~3518.6, no row full, board unchanged after (corr/fr/g0/i17z.png); score +300 at 3518.70 = zero-line Mini T-spin (Mini TSS would be 600)."
+ },
+ {
+  "id": "b046",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4506.1,
+  "t_end": 4506.1,
+  "events": [],
+  "was_old": [
+   [
+    4506.1,
+    null,
+    0
+   ],
+   [
+    4506.1,
+    null,
+    0
+   ],
+   [
+    4506.1,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: Frames 4505.30-4506.58 (corr/fr/g1/b046a.png): O spawns 4505.38, is held, I comes out and makes a TETRIS (flash 4505.70-4506.10); next spawn J at 4506.58. No piece spawns or locks between 4505.4 and 4506.5, so the three None locks at 4506.10 are phantoms (read during the clear flash). nextcount (corr/fr/g1/nc46.txt) shows no shift there either."
+ },
+ {
+  "id": "b054",
+  "side": "p1",
+  "op": "retype",
+  "t": 4796.77,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: corr/fr/g1/b054d.png: the O at 4796.77 clears only its bottom row (one-row flash 4796.80, the O's top half stays); REN counter goes 8->9; score +1650 at 4796.83 = single 300 + 9x150 REN (a double would be 2250). The cleared row is a coloured player row, not garbage."
+ },
+ {
+  "id": "b054",
+  "side": "p1",
+  "op": "add",
+  "t": 4797.47,
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 2,
+  "source": "b1 frame check, verified: corr/fr/g1/b054ko.png: J spawns 4797.47 (NEXT shifts), hard-dropped into the column-3 garbage well and locks on the KO frame 4797.70 (score +12 hard-drop at 4797.70); two-row clear flash at 4797.77 over the top garbage rows; score +2400 at 4797.80 = double 900 + 10x150 REN (single would be 1800, triple 3000). Lock is at end_s, so it counts."
+ },
+ {
+  "id": "b057",
+  "side": "p1",
+  "op": "add",
+  "t": 4873.33,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: corr/fr/g1/b057ko.png: J spawns 4873.33 and is held, T comes out and locks vertically in column 8 at 4873.60 (lock streak, score +6 at 4873.60), before the KO 4873.63; no clear flash, no line cleared."
+ },
+ {
+  "id": "b059",
+  "side": "p2",
+  "op": "retype",
+  "t": 4947.57,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: corr/fr/g1/b059.png: the T at ~4947.5 is a zero-line T-spin (T-SPIN banner, no row flash, board rows unchanged); score +300 at 4947.53 (a mini single would be 600, plus REN). The next clear (triple, +1500 at 4948.33) carries no REN bonus, so the previous lock cleared nothing. The 4947.57 event is the following O lock, which clears nothing."
+ },
+ {
+  "id": "b066",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5237.37,
+  "source": "b1 frame check, verified: corr/fr/g1/b066a.png, b066z.png: Z spawns 5237.37, is held, O comes out and fills the second row (a full player row, not garbage); one-row clear flash at 5237.53, REN counter 6->7; score +1350 at 5237.57 = single 300 + 7x150. This single breaks B2B, so the TSS at 5239.93 scored 2400 (+2400 at 5240.60), not B2B 3600, which is the -1200 the spot flagged.",
+  "t_end": 5237.37,
+  "events": [
+   {
+    "t": 5237.37,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5237.37,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b069",
+  "side": "p1",
+  "op": "remove",
+  "t": 5428.03,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: score.py (REN bonus +150/step, continuous) and nextcount.py spawns; stream in slow motion (lag) here, one piece falls for many seconds: p1 score 5427.23 +900 (4REN), next clear 5444.97 +1050 (5REN, the O spawned ~5428.0 that falls slowly through the lag); only one lock between; sheet /tmp/claude-0/b/corr/fr/g2/b069a.png; 5428.03 duplicates 5428.0"
+ },
+ {
+  "id": "b069",
+  "side": "p1",
+  "op": "remove",
+  "t": 5439.17,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: score.py (REN bonus +150/step, continuous) and nextcount.py spawns; stream in slow motion (lag) here, one piece falls for many seconds: p1 score 5427.23 +900 (4REN), next clear 5444.97 +1050 (5REN, the O spawned ~5428.0 that falls slowly through the lag); only one lock between; sheet /tmp/claude-0/b/corr/fr/g2/b069a.png; no spawn/lock at 5439.17"
+ },
+ {
+  "id": "b069",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5432.37,
+  "source": "b2 frame check, verified: p2 lag window: NEXT queue unchanged I,L,O,S,J from 5429.5 to 5432.4, then single shift at ~5433.3 (I spawns, falls slowly, TETRIS +3600 at 5445.77); Z (5426.17) is the only other piece; no spawn near 5432.37; sheet /tmp/claude-0/b/corr/fr/g2/b069b.png",
+  "t_end": 5432.37,
+  "events": [],
+  "was_old": [
+   [
+    5432.37,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b078",
+  "side": "p2",
+  "op": "remove",
+  "t": 5881.5,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p2 score: REN singles +2436 at 5880.80 (14REN) then lag freeze, +2550 (15REN) at 5888.00, 16REN 5888.97, 17REN 5889.93, quad +5100 (18REN) 5890.97: one clear between 5880.8 and 5888.67 spawns; nextcount: one shift 5881.40 (I held at 5881.63, O from hold placed); 5881.5 duplicates 5881.4"
+ },
+ {
+  "id": "b081",
+  "side": "p1",
+  "op": "remove",
+  "t": 6094.1,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6094.10"
+ },
+ {
+  "id": "b081",
+  "side": "p1",
+  "op": "remove",
+  "t": 6105.43,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6105.43"
+ },
+ {
+  "id": "b081",
+  "side": "p1",
+  "op": "remove",
+  "t": 6120.7,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6120.70"
+ },
+ {
+  "id": "b081",
+  "side": "p1",
+  "op": "remove",
+  "t": 6124.83,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6124.83"
+ },
+ {
+  "id": "b081",
+  "side": "p1",
+  "op": "remove",
+  "t": 6138.33,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6138.33"
+ },
+ {
+  "id": "b081",
+  "side": "p1",
+  "op": "remove",
+  "t": 6148.67,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6148.67"
+ },
+ {
+  "id": "b081",
+  "side": "p1",
+  "op": "remove",
+  "t": 6155.43,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles +150/step continuous: 9REN 6093.20, 10REN 6110.10, 11 6121.13, 12 6124.13, 13 6138.77, 14 6149.13, 15 6155.97, 16 6157.10, quad 17REN 6158.20, 18REN 6159.30; nextcount spawns only 6092.80, 6093.93, 6110.77, 6121.87, 6124.80 (hold swap 6132.70, no spawn), 6139.43, 6149.80, 6156.63 = 8 pieces for 8 clears; no spawn at 6155.43"
+ },
+ {
+  "id": "b081",
+  "side": "p2",
+  "op": "remove",
+  "t": 6105.07,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+ },
+ {
+  "id": "b081",
+  "side": "p2",
+  "op": "remove",
+  "t": 6124.07,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+ },
+ {
+  "id": "b081",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6135.17,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false",
+  "t_end": 6135.17,
+  "events": [],
+  "was_old": [
+   [
+    6135.17,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b081",
+  "side": "p2",
+  "op": "remove",
+  "t": 6154.2,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false"
+ },
+ {
+  "id": "b081",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6114.93,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false",
+  "t_end": 6114.93,
+  "events": [],
+  "was_old": [
+   [
+    6114.93,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b081",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6136.67,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false",
+  "t_end": 6136.67,
+  "events": [],
+  "was_old": [
+   [
+    6136.67,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b081",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6142.27,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 11REN 6092.63, 12 6105.53, 13 6120.93, 14 6123.30, 15 6154.63, 16 6156.40, 17 6157.80, 18 6158.67, 19REN 6159.67; nextcount spawns 6093.30, 6106.17, 6121.57, 6123.97 (Z held 6142.17), 6155.30, 6157.07, 6158.43, 6159.30, 6160.27 — none at 6105.07, 6124.07, 6135.17, 6154.20; REN never broken there so the BREAK markers are false",
+  "t_end": 6142.27,
+  "events": [],
+  "was_old": [
+   [
+    6142.27,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p1",
+  "op": "remove",
+  "t": 5929.47,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+ },
+ {
+  "id": "b079",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5939.83,
+  "source": "b2 frame check, verified: p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run",
+  "t_end": 5939.83,
+  "events": [],
+  "was_old": [
+   [
+    5939.83,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p1",
+  "op": "remove",
+  "t": 5968.67,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+ },
+ {
+  "id": "b079",
+  "side": "p1",
+  "op": "remove",
+  "t": 5990.27,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+ },
+ {
+  "id": "b079",
+  "side": "p1",
+  "op": "remove",
+  "t": 6001.87,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run"
+ },
+ {
+  "id": "b079",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5944.13,
+  "source": "b2 frame check, verified: p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run",
+  "t_end": 5944.13,
+  "events": [],
+  "was_old": [
+   [
+    5944.13,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5946.67,
+  "source": "b2 frame check, verified: p1 score REN singles continuous: 6REN 5928.53, 7 5946.63, 8 5969.20, 9 5990.73, 10 6001.97, 11 6003.00 ... 15REN 6006.67 (lag/slow motion between); nextcount spawns 5929.27 (S held 5929.47, T placed), 5947.30 (held 5957.27), 5969.83 (held 5982.83), 5991.37, 6002.63, 6003.67, 6004.67, 6005.60, 6006.53: one clear per spawn, no plain lock in the run",
+  "t_end": 5946.67,
+  "events": [],
+  "was_old": [
+   [
+    5946.67,
+    "BREAK",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5961.1,
+  "source": "b2 frame check, verified: p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false",
+  "t_end": 5961.1,
+  "events": [],
+  "was_old": [
+   [
+    5961.1,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5985.17,
+  "source": "b2 frame check, verified: p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false",
+  "t_end": 5985.17,
+  "events": [],
+  "was_old": [
+   [
+    5985.17,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5938.73,
+  "source": "b2 frame check, verified: p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false",
+  "t_end": 5938.73,
+  "events": [],
+  "was_old": [
+   [
+    5938.73,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5941.17,
+  "source": "b2 frame check, verified: p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false",
+  "t_end": 5941.17,
+  "events": [],
+  "was_old": [
+   [
+    5941.17,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5947.47,
+  "source": "b2 frame check, verified: p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false",
+  "t_end": 5947.47,
+  "events": [],
+  "was_old": [
+   [
+    5947.47,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5961.23,
+  "source": "b2 frame check, verified: p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false",
+  "t_end": 5961.23,
+  "events": [],
+  "was_old": [
+   [
+    5961.23,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b079",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5967.07,
+  "source": "b2 frame check, verified: p2 score: 9REN single +1650 at 5968.13 is the only clear in 5928.6-6004 (I spawned 5928.60, held 5947.60, piece cleared after 40 s slow motion); nextcount spawns 5928.60, 5968.80, 6001.33, 6002.40, 6002.73, 6003.07, 6004.93: no spawn at 5961.10 or 5985.17; REN unbroken 5925-5968 so BREAKs there are false",
+  "t_end": 5967.07,
+  "events": [],
+  "was_old": [
+   [
+    5967.07,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b094",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6799.9,
+  "source": "b2 frame check, verified: both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57",
+  "t_end": 6799.9,
+  "events": [],
+  "was_old": [
+   [
+    6799.9,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b094",
+  "side": "p1",
+  "op": "remove",
+  "t": 6810.57,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57"
+ },
+ {
+  "id": "b094",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6801.53,
+  "source": "b2 frame check, verified: both players in slow motion 6787.3-6810; p1 score 10REN 6787.20, 11REN 6810.47, 12REN 6812.13 ... 16REN 6816.30; nextcount p1 spawns 6787.87 (T held 6802.30, I placed), 6811.13: no spawn at 6799.90 or 6810.57",
+  "t_end": 6801.53,
+  "events": [],
+  "was_old": [
+   [
+    6801.53,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b094",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6797.43,
+  "source": "b2 frame check, verified: p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10",
+  "t_end": 6797.43,
+  "events": [],
+  "was_old": [
+   [
+    6797.43,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b094",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6802.77,
+  "source": "b2 frame check, verified: p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10",
+  "t_end": 6802.77,
+  "events": [],
+  "was_old": [
+   [
+    6802.77,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b094",
+  "side": "p2",
+  "op": "remove",
+  "t": 6810.1,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10"
+ },
+ {
+  "id": "b094",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6800.27,
+  "source": "b2 frame check, verified: p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10",
+  "t_end": 6800.27,
+  "events": [],
+  "was_old": [
+   [
+    6800.27,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b094",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6802.9,
+  "source": "b2 frame check, verified: p2 score 10REN 6787.30, 11REN 6809.87, 12 6810.77, 13 6811.70, 14 6812.77, tetris 15REN 6813.80 ... 18REN 6816.67 (+3036); nextcount spawns 6787.97 (J held 6803.07), 6810.47, 6811.37, 6812.30: no spawn at 6797.43, 6802.77, 6810.10",
+  "t_end": 6802.9,
+  "events": [],
+  "was_old": [
+   [
+    6802.9,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "remove",
+  "t": 6981.97,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6997.53,
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn",
+  "t_end": 6997.53,
+  "events": [],
+  "was_old": [
+   [
+    6997.53,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "remove",
+  "t": 7009.03,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "remove",
+  "t": 7027.43,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "remove",
+  "t": 7034.3,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn"
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6970.2,
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn",
+  "t_end": 6970.2,
+  "events": [],
+  "was_old": [
+   [
+    6970.2,
+    "BREAK",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6972.63,
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn",
+  "t_end": 6972.63,
+  "events": [],
+  "was_old": [
+   [
+    6972.63,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7000.47,
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn",
+  "t_end": 7000.47,
+  "events": [],
+  "was_old": [
+   [
+    7000.47,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7002.93,
+  "source": "b2 frame check, verified: p1 score: B2B tetris 6REN 6958.43, singles 7..17REN to 7036.53, triple +4200 = 18REN 7037.40 (lag/slow motion 6963-7030); nextcount spawns 6964.00 (held 6972.63), 6988.23 (held 7002.83), 7010.23 (held 7019.97), 7030.03, 7034.13, 7035.27, 7036.30: one clear per spawn",
+  "t_end": 7002.93,
+  "events": [],
+  "was_old": [
+   [
+    7002.93,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6977.47,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022",
+  "t_end": 6977.47,
+  "events": [],
+  "was_old": [
+   [
+    6977.47,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p2",
+  "op": "remove",
+  "t": 6998.4,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022"
+ },
+ {
+  "id": "b095",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 7021.8,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022",
+  "t_end": 7021.8,
+  "events": [],
+  "was_old": [
+   [
+    7021.8,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6963.13,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022",
+  "t_end": 6963.13,
+  "events": [],
+  "was_old": [
+   [
+    6963.13,
+    "BREAK",
+    3
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6979.63,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022",
+  "t_end": 6979.63,
+  "events": [],
+  "was_old": [
+   [
+    6979.63,
+    "BREAK",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "b095",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 7021.93,
+  "source": "b2 frame check, verified: p2 score REN singles continuous: 14REN 6962.53, 15REN 7002.97, 16 7031.70, 17 7033.47, 18 7034.30, 19REN 7035.20 (lag between); nextcount: piece 6963.2 (L held 6979.73), spawns 7003.60, 7032.37, 7034.13, 7034.97: no spawn at 6998.40, no lock between 6977-7022",
+  "t_end": 7021.93,
+  "events": [],
+  "was_old": [
+   [
+    7021.93,
+    "BREAK",
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b073",
+  "side": "p1",
+  "op": "retype",
+  "t": 5640.9,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: T locks 5641.2 with a T-SPIN banner but no row clears (no flash, board unchanged rows); score +300 = zero-line mini T-spin, not 600; next clear 5642.23 is +300 (no REN), so the T cleared nothing; sheet /tmp/claude-0/b/corr/fr/g2/b073.png"
+ },
+ {
+  "id": "b101",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 8512.93,
+  "t_end": 8514.07,
+  "events": [
+   {
+    "t": 8514.03,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 4
+   }
+  ],
+  "was_old": [
+   [
+    8512.93,
+    "single",
+    1
+   ],
+   [
+    8514.03,
+    "quad",
+    4
+   ],
+   [
+    8514.03,
+    "triple",
+    3
+   ],
+   [
+    8514.07,
+    "BREAK",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: Stream freezes ~8507.9-8512.7 (pieces hang mid-air; corr/fr/g3/b101a.png). nextcount p2: only Z (spawn 8505.97) and I (8514.03) spawn in the window. p2 score jumps: 8505.33 +600 (REN2), 8513.37 +750 (Z single REN3), 8514.20 +3028 (TETRIS REN4 = 2400+600), 8515.23 next clear. Frames 8514.1-8514.9 show one vertical I clearing 4 garbage rows with TETRIS banner and REN continuing to 5 (corr/fr/g3/b101b.png). So the 8512.93 single (no spawn, no score jump) and the 8514.03 triple are phantoms, and the BREAK at 8514.07 is wrong (REN continues). Pieces cell not edited: chain_games pieces (140) does not equal the event count (133) here, so the effect on pieces is unclear; if pieces follow events it should drop by 2."
+ },
+ {
+  "id": "b107",
+  "side": "p1",
+  "op": "retype",
+  "t": 8781.67,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: corr/fr/g3/b107.png: T locks at ~8781.5 into the hole left of the well; board unchanged (no row cleared); banner is 'Mini T-SPIN' with no 'Single'; score +300 at 8781.63 (zero-line mini). Next clear 8783.03 is +300 (REN starts fresh), then +450..+2250 for the 14 chain singles 8782.5-8794.13, so the singles are right and the -2622 residual is this phantom line."
+ },
+ {
+  "id": "b109",
+  "side": "p1",
+  "op": "remove",
+  "t": 8851.8,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b3 frame check, verified: Stream freeze 8851.6-8855.9 (no score change for either player). nextcount p1: spawns 8848.53, 8849.63, 8850.67, 8851.63, 8856.77, 8857.67, 8858.93; none at 8851.8. Score jumps after the 8847.7 quad: +450, +1200(double), +750, +900, +1050, +1200, +1350 = 7 clears vs chain's 8 (singles at 8851.63 and 8851.8 both). The 8851.63 piece clears at 8856.00 (+900 REN4); 8851.8 is a duplicate."
+ },
+ {
+  "id": "b118",
+  "side": "p1",
+  "op": "retype",
+  "t": 9479.37,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "gc": 1,
+  "source": "b3 frame check, verified: corr/fr/g3/b118.png: S locks at ~9479.5 and clears one (garbage) row; score +2250 at 9479.60 = single REN13 (300+1950). The one TETRIS is the I at ~9480.3 (+4500 = 2400+2100 REN14), which is the chain's 9480.43 quad. Explains the -3126 residual."
+ },
+ {
+  "id": "b101",
+  "side": "p2",
+  "op": "retype",
+  "t": 8514.97,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Added after the skeptic's aside, checked by the coordinator: O spawns 8514.94 and is held (HOLD shows O at 8515.15), the S drops into the well and two rows flash at 8515.22 (corr/fr/me/b101c.png). p2 score +1650 at 8515.23 = double 900 + REN5 750; a single would be 1050. Rows cleared are the red stack rows above the garbage, so gc 0."
  }
 ]
