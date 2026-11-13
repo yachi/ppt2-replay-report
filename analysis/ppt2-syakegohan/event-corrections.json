@@ -23095,5 +23095,56 @@
    ]
   ],
   "source": "b3 frame check, verified: fr/g3/i115.png + nextcount p2: first PC (11402.65) is made by the J falling at 11402.5 (chain 11402.37 piece); then I (spawn 11402.633), O (11403.0), L (11403.3), J (11403.567), T spawned 11403.867 held -> O out, O completes the second double PC (white rows ~11404.3, +4500 = plain double PC, no T used: T in hold); Z spawned 11404.267. Chain was one piece short and both PCs one piece late. Second PC is a plain double, not a TSD"
+ },
+ {
+  "id": "o006",
+  "side": "p2",
+  "op": "retype",
+  "t": 515.17,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Only one TSD after the 512.13 TST: score +4800 at 512.83 (TST), +5550 at 514.43 (TSD B2B + 1 REN, the 513.53 T), then only drop points 10808->10949 through 516.2; fr/g0/o006a.png shows the 515.17 piece is the S landing at ~515.44 with no clear. nextcount: 9 spawns 515.17-517.83 match the chain's 9 events, so this is the S lock, a phantom duplicate TSD (from the 514.34 banner of the 513.53 TSD). B2B max (15 at 599.63) unaffected."
+ },
+ {
+  "id": "o014",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1299.9,
+  "source": "b0 frame check, verified: p2 score 185508 -> 185808 (+300, single, no REN) seen at 1300.80; fr/g0/o014.png: the J spawned 1299.90 locks on the top row ~1300.1 and the top (non-garbage) row flashes white 1300.15-1300.35 and clears.",
+  "t_end": 1299.9,
+  "events": [
+   {
+    "t": 1299.9,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1299.9,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "o020",
+  "side": "p2",
+  "op": "add",
+  "t": 1736.5,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: nextcount spawn at 1736.50 (O) not in chain; fr/g0/o020.png: O soft-dropped and lands with streak in the 1736.99 frame (<= KO 1737.00), score 99031->99032, no clear."
  }
 ]

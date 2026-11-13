@@ -1,0 +1,23 @@
+{"event_corrections":[
+ {"n":2,"id":"b005","side":"p1","op":"replace_window","t":1208.3,"t_end":1208.7,
+  "events":[{"t":1208.3,"kind":"double","lines":2,"pc":1,"gc":0},{"t":1208.7,"kind":null,"lines":0,"pc":0,"gc":0}],
+  "was_old":[[1208.7,"double",2]],
+  "source":"nextcount p1 shows spawns 1207.500, 1208.300, 1208.700, 1209.067, 1209.400, 1209.667; chain has no 1208.30 piece. score.py: +36 drop at 1208.50 then +4950 (the PC double) at 1208.63, i.e. the piece spawned 1208.30 cleared; the piece spawned 1208.70 (held at 1208.83) locked at 1209.10 for +38 drop points with no clear. Chain had moved the PC double onto the 1208.70 piece and lost one lock."},
+ {"n":5,"id":"b008","side":"p1","op":"retype","t":1417.6,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"fr/g0/b008.png: J (spawned 1417.60) placed at 1417.70, row flashes white at 1417.80 and REN counter goes 1->2 at 1417.90; score +18 drop then +600 at 1417.77. Cleared row is the coloured row above the garbage block (gc 0). Next clear at 1418.60 (chain 1418.53 single) shows REN 3."},
+ {"n":6,"id":"b012","side":"p2","op":"retype","t":1674.43,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g0/b012.png: T (out of hold at 1674.50) locks top-right ~1674.74; T-SPIN banner appears 1674.87 but no row flashes and the stack is identical before/after (1674.74 vs 1674.87-1675.14). score.py p2 +300 at 1674.83 = zero-line Mini T-spin (100x3), not a Mini T-spin Single (600). A lock with 0 lines."}
+],
+"cell_edits":[
+ {"n":2,"id":"b005","player":"p1","field":"pieces","was":24,"value":25,
+  "source":"nextcount p1 1205.5-1210.2: spawns 1206.067,1207.5,1208.3,1208.7,1209.067,1209.4,1209.667 all lock by KO 1210.0 (score drop points at 1206.13-1206.63,1207.60,1208.50,1209.10,1209.30,1209.57,1209.90); chain has 6 of these 7 (missing 1208.3)."}
+],
+"no_change":[
+ {"n":0,"why":"b001 p1: piece spawned 1045.667 is soft-dropping (score +1 per frame 1045.73-1046.03) past KO 1045.97; not locked. Chain's last lock 1045.43 = locked at 1045.60 (+24)."},
+ {"n":1,"why":"b002 p1: piece spawned 1084.10, held 1084.17, soft-dropping (+1/frame 1084.27-1084.63) through KO 1084.60; not locked."},
+ {"n":3,"why":"b006 p1: piece spawned 1263.03 soft-dropping (+1/frame 1263.17-1263.63) through KO 1263.60; not locked."},
+ {"n":4,"why":"b007 p1: piece spawned 1368.23 soft-dropping (+1/frame 1368.33-1368.47) through KO 1368.43; not locked."},
+ {"n":7,"why":"b016 p1: fr/g0/b016.png J still falling at top of board 1854.37-1854.54, score unchanged 86418; not locked by KO 1854.50."},
+ {"n":8,"why":"b017 p2: fr/g0/b017.png Z still in the air at 1907.73-1908.00 (one soft-drop point at 1907.93); not locked by KO 1907.97."},
+ {"n":9,"why":"b019 p2: +1200 at 1986.27 is a zero-line T-spin (400x3): T out of hold locks ~1986.2, T-SPIN banner, no row flash (fr/g0/b019.png); board is pushed up by garbage. Chain's 1985.87 None lock is right; piece spawned 1986.37 never locks (score flat to KO)."}
+]}

@@ -1,0 +1,10 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py: p2 +4800 at 512.83 (TST), +5550 at 514.43 (the T out of hold after Z was held at 513.77, TSD B2B), then only drop points 10808->10951 through 516.27; nextcount shows the 515.17 spawn is S (SOLIJ>OLIJO), no clear. The 515.17 tsd is a phantom; retype to a plain lock is right."},
+ {"ref":"e1","verdict":"keep","why":"p2 score hidden 1299.23-1300.8 by an effect, 185508 -> 185808 (+300 = single). fr/v0/o014.png: J locks in the top row at ~1299.96 and the top row flashes white 1300.20-1300.32, then clears."},
+ {"ref":"e2","verdict":"reject","why":"Frame-by-frame from 501.30 (fr/v0/o005d.png, frames 501.433..501.567): at 501.50 (KO frame) the L is still being shifted right one column; the hard-drop streak/lock flash first appears at 501.533, one frame after end_s 501.50, and the score never changes (113989). A lock one frame after the KO does not count; the checker's 'streak at 501.50' is not what the frames show (fr/v0/o005c.png also: no streak at 501.500, streak at 501.533)."},
+ {"ref":"e3","verdict":"reject","why":"Frames 1435.90..1436.167 (fr/v0/o016.png): the J is still at the top in the 1436.10 (KO) frame; it lands with the drop streak at 1436.133, where score.py also first reads 57145 (+24). Lock is one frame after end_s 1436.10, so it does not count."},
+ {"ref":"e4","verdict":"keep","why":"Frames 1736.833..1737.067 (fr/v0/o020.png): O rests on the stack at 1736.967 (score 99032) and the lock streak appears in the 1737.00 frame = KO end_s, no clear. Counts."},
+ {"ref":"c0","verdict":"reject","why":"Follows e2: the L locks at 501.533, after the KO frame; pieces stays 152."},
+ {"ref":"c1","verdict":"reject","why":"Follows e3: the J locks at 1436.133, after the KO frame 1436.10; pieces stays 75."},
+ {"ref":"c2","verdict":"keep","why":"Follows e4: O locks on the KO frame 1737.00; 127 -> 128."}
+]
