@@ -1,0 +1,6 @@
+[
+ {"ref":"e0","verdict":"keep","why":"nextcount p1: clean shift at 1208.300 (LSIJT>SIJTZ, no '?') between 1207.500 and 1208.700; score.py +36 drop at 1208.50 then +4950 at 1208.63, before the 1208.70 spawn. The 1208.70 piece (S, swapped for held O at 1208.83) locks at 1209.10 for +38 with no clear. So the PC double belongs to the 1208.30 piece and 1208.70 is a plain lock."},
+ {"ref":"e1","verdict":"keep","why":"fr/v0/b008.png: I comes out of hold (J held at 1417.67), at 1417.73 the coloured row just above the red/garbage area flashes white and clears; '2 REN' shows from 1417.80. score.py +18 at 1417.70 then +600 at 1417.77, next clear +750 at 1418.60 (REN step). Single, gc 0."},
+ {"ref":"e2","verdict":"keep","why":"fr/v0/b012.png: T locks top-right by 1674.80, T-SPIN banner from 1674.80, no row flashes and the stack below is unchanged 1674.73 vs 1674.87-1675.14. score.py p2 +300 at 1674.83 = zero-line Mini T-spin, not a Mini Single."},
+ {"ref":"c0","verdict":"keep","why":"nextcount p1 1205.5-1210.2: 7 spawns before KO 1210.0 (1206.067, 1207.5, 1208.3, 1208.7, 1209.067, 1209.4, 1209.667), each followed by drop points / a clear in score.py before 1210.0; chain lists 6 (no 1208.30). +1 piece is right."}
+]

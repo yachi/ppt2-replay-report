@@ -5743,5 +5743,76 @@
     0
    ]
   ]
+ },
+ {
+  "id": "b005",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1208.3,
+  "t_end": 1208.7,
+  "events": [
+   {
+    "t": 1208.3,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 1208.7,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1208.7,
+    "double",
+    2
+   ]
+  ],
+  "source": "b0 frame check, verified: nextcount p1 shows spawns 1207.500, 1208.300, 1208.700, 1209.067, 1209.400, 1209.667; chain has no 1208.30 piece. score.py: +36 drop at 1208.50 then +4950 (the PC double) at 1208.63, i.e. the piece spawned 1208.30 cleared; the piece spawned 1208.70 (held at 1208.83) locked at 1209.10 for +38 drop points with no clear. Chain had moved the PC double onto the 1208.70 piece and lost one lock."
+ },
+ {
+  "id": "b008",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1417.6,
+  "source": "b0 frame check, verified: fr/g0/b008.png: J (spawned 1417.60) placed at 1417.70, row flashes white at 1417.80 and REN counter goes 1->2 at 1417.90; score +18 drop then +600 at 1417.77. Cleared row is the coloured row above the garbage block (gc 0). Next clear at 1418.60 (chain 1418.53 single) shows REN 3.",
+  "t_end": 1417.6,
+  "events": [
+   {
+    "t": 1417.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1417.6,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b012",
+  "side": "p2",
+  "op": "retype",
+  "t": 1674.43,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/b012.png: T (out of hold at 1674.50) locks top-right ~1674.74; T-SPIN banner appears 1674.87 but no row flashes and the stack is identical before/after (1674.74 vs 1674.87-1675.14). score.py p2 +300 at 1674.83 = zero-line Mini T-spin (100x3), not a Mini T-spin Single (600). A lock with 0 lines."
  }
 ]

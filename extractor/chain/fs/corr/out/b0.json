@@ -1,0 +1,24 @@
+{"event_corrections":[
+ {"n":5,"id":"o006","side":"p2","op":"retype","t":515.17,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Only one TSD after the 512.13 TST: score +4800 at 512.83 (TST), +5550 at 514.43 (TSD B2B + 1 REN, the 513.53 T), then only drop points 10808->10949 through 516.2; fr/g0/o006a.png shows the 515.17 piece is the S landing at ~515.44 with no clear. nextcount: 9 spawns 515.17-517.83 match the chain's 9 events, so this is the S lock, a phantom duplicate TSD (from the 514.34 banner of the 513.53 TSD). B2B max (15 at 599.63) unaffected."},
+ {"n":9,"id":"o014","side":"p2","op":"retype","t":1299.9,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"p2 score 185508 -> 185808 (+300, single, no REN) seen at 1300.80; fr/g0/o014.png: the J spawned 1299.90 locks on the top row ~1300.1 and the top (non-garbage) row flashes white 1300.15-1300.35 and clears."},
+ {"n":2,"id":"o005","side":"p2","op":"add","t":500.93,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount: spawn at 500.93 (L) missing from chain (last event 500.60 = S). fr/g0/o005.png, o005b.png: the L falls and hard-drops into place with the drop streak at 501.50 (KO frame), score 113989 unchanged (no clear)."},
+ {"n":13,"id":"o016","side":"p2","op":"add","t":1435.87,"kind":null,"lines":0,"pc":0,"gc":0,"source":"Z held at 1435.87, J out of hold; fr/g0/o016.png and o016b.png: J at top at 1436.07, landed with drop streak at 1436.10 (KO frame, score 57121->57145 drop points, no clear)."},
+ {"n":14,"id":"o020","side":"p2","op":"add","t":1736.5,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount spawn at 1736.50 (O) not in chain; fr/g0/o020.png: O soft-dropped and lands with streak in the 1736.99 frame (<= KO 1737.00), score 99031->99032, no clear."}
+],
+"cell_edits":[
+ {"id":"o005","player":"p2","field":"pieces","was":152,"value":153,"source":"L spawned 500.93 locks at 501.50 = KO frame (fr/g0/o005b.png)"},
+ {"id":"o016","player":"p2","field":"pieces","was":75,"value":76,"source":"J out of hold locks at 1436.10 = KO frame (fr/g0/o016b.png)"},
+ {"id":"o020","player":"p2","field":"pieces","was":127,"value":128,"source":"O spawned 1736.50 locks at ~1736.97-1737.00 <= KO (fr/g0/o020.png)"}
+],
+"no_change":[
+ {"n":0,"why":"o002 p1 score +7200 at 335.87 = TST with B2B (4800x1.5); chain tst correct, Single banner misread/lingering."},
+ {"n":1,"why":"o002 p2 score +7200 at 350.83 = TST with B2B; chain tst correct."},
+ {"n":3,"why":"o006 p2: T-SPIN Triple banner at 513.53 is the lingering banner of the 512.13 TST (+4800 at 512.83); the 513.53 clear is a TSD B2B (+5550 at 514.43)."},
+ {"n":4,"why":"o006 p2: the 514.34 TSD banner belongs to the 513.53 TSD already in the chain; the phantom it produced at 515.17 is fixed under item 5."},
+ {"n":6,"why":"o009 p2: J spawned 774.37 is still at the top at the KO frame (fr/g0/o009.png); nothing locked."},
+ {"n":7,"why":"o010 p1: S spawned 896.53 is still at the top at 896.57 (KO); it drops after the KO (fr/g0/o010b.png); +74 is post-KO drop points."},
+ {"n":8,"why":"o013 p1: +3600 at 1154.63 = TETRIS with B2B, the chain's quad at 1154.27 (spawn time); only a timing mismatch."},
+ {"n":10,"why":"o014 p1: S spawned 1301.37 was held at 1301.43; the T out of hold is still at the top at the KO (fr/g0/o014b.png)."},
+ {"n":11,"why":"o014 p1: +134 after KO is drop points of a post-KO drop; no clear."},
+ {"n":12,"why":"o015 p1: T spawned 1386.37 soft-drops and only reaches the stack at 1386.83, locking after the KO (fr/g0/o015.png)."}
+]}
