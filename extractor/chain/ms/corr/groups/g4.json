@@ -1,0 +1,220 @@
+[
+ {
+  "id": "p076",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 5048.97 s typed as a plain clear",
+  "t_s": 5048.97,
+  "n": 74
+ },
+ {
+  "id": "p076",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +2734 at 5059.03 s (KO 5060.17 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 5059.03,
+  "n": 75
+ },
+ {
+  "id": "p076",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.47 s before the KO)",
+  "t_s": 5060.17,
+  "n": 76
+ },
+ {
+  "id": "p078",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 5152.1 s",
+  "t_s": 5152.1,
+  "n": 77
+ },
+ {
+  "id": "p078",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "p078",
+   "player": "p2",
+   "t0": 5159.0,
+   "t1": 5168.23,
+   "step": -925,
+   "unexplained": -925,
+   "near": [
+    [
+     5159.83,
+     5400,
+     "tsd"
+    ],
+    [
+     5162.3,
+     300,
+     "single"
+    ],
+    [
+     5162.83,
+     450,
+     "single"
+    ],
+    [
+     5163.37,
+     1800,
+     "triple"
+    ],
+    [
+     5164.33,
+     750,
+     "single"
+    ],
+    [
+     5165.47,
+     900,
+     "single"
+    ],
+    [
+     5166.3,
+     2250,
+     "triple"
+    ],
+    [
+     5167.9,
+     900,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 5159.0,
+  "n": 78
+ },
+ {
+  "id": "p079",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +103 at 5303.2 s (KO 5302.9 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 5303.2,
+  "n": 79
+ },
+ {
+  "id": "p081",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "cluster": "c30",
+   "id": "p081",
+   "player": "p1",
+   "t_s": 5372.6,
+   "lit": [
+    [
+     56,
+     27,
+     78
+    ],
+    [
+     37,
+     90,
+     76
+    ]
+   ]
+  },
+  "t_s": 5372.6,
+  "n": 80
+ },
+ {
+  "id": "p081",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 5378.33,
+  "n": 81
+ },
+ {
+  "id": "p082",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 39.80 s from 5405.67 s; B events spliced (D2/D3)",
+  "t_s": 5405.67,
+  "n": 82
+ },
+ {
+  "id": "p082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 17.57 s from 5407.13 s; B events spliced (D2/D3)",
+  "t_s": 5407.13,
+  "n": 83
+ },
+ {
+  "id": "p082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 8.77 s from 5424.70 s; B events spliced (D2/D3)",
+  "t_s": 5424.7,
+  "n": 84
+ },
+ {
+  "id": "p082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 13.80 s from 5433.47 s; B events spliced (D2/D3)",
+  "t_s": 5433.47,
+  "n": 85
+ },
+ {
+  "id": "p082",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 14.70 s from 5445.47 s; B events spliced (D2/D3)",
+  "t_s": 5445.47,
+  "n": 86
+ },
+ {
+  "id": "p082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 12.30 s from 5447.27 s; B events spliced (D2/D3)",
+  "t_s": 5447.27,
+  "n": 87
+ },
+ {
+  "id": "p082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.37 s from 5459.57 s; B events spliced (D2/D3)",
+  "t_s": 5459.57,
+  "n": 88
+ },
+ {
+  "id": "p082",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.10 s from 5460.17 s; B events spliced (D2/D3)",
+  "t_s": 5460.17,
+  "n": 89
+ },
+ {
+  "id": "p082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.13 s from 5463.93 s; B events spliced (D2/D3)",
+  "t_s": 5463.93,
+  "n": 90
+ },
+ {
+  "id": "p082",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 17.13 s from 5464.27 s; B events spliced (D2/D3)",
+  "t_s": 5464.27,
+  "n": 91
+ },
+ {
+  "id": "p082",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.03 s from 5474.07 s; B events spliced (D2/D3)",
+  "t_s": 5474.07,
+  "n": 92
+ }
+]

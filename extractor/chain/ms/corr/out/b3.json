@@ -1,0 +1,30 @@
+{"event_corrections":[
+ {"n":60,"id":"p057","side":"p1","op":"retype","t":3496.57,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Banner at 3496.57-3496.70 reads 'Mini T-SPIN' with no 'Single' (fr/g3/bb.png); score rises only +300 at 3496.50 (67545->67845, a zero-line mini T-spin at level 3; a mini single would be 600, 900 with B2B after the TST) and then only drop points to 67907 by 3497.43; board rows unchanged 3496.53->3496.73 (fr/g3/p057a.png): the T spun into the slot cleared no line and the J that followed (spawn ~3496.57) cleared nothing."},
+ {"n":69,"id":"p063","side":"p2","op":"retype","t":4066.27,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"The Z spawned ~4066.27 is hard-dropped at 4066.43 into the gap of the green/red row; a white line-clear band crosses the board behind the TETRIS banner at 4066.43-4066.57 (fr/g3/kk4.png, exact frames) and the score rises +616 (149411->150027 at 4066.43) = single 300 + REN 300 (REN 2 after the 4064.17 TSD and 4065.3 quad) + 16 drop. The next Z (4067.03) is the chain's existing single, clearing at 4067.23 before the KO (fr/g3/p063c.png)."},
+ {"n":70,"id":"p066","side":"p1","op":"retype","t":4305.93,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,
+  "source":"The O spawned 4305.93 (nextcount shift OIZLT>IZLTO) drops into the last gap at 4306.10-4306.13 and clears both remaining rows; board empty at 4306.20 with PERFECT CLEAR banner 4306.27-4306.87 (fr/g3/p066.png). Score +4650 at 4306.20 (11124->15774) = double 900 + REN 150 + PC-double bonus 3600."},
+ {"n":70,"id":"p066","side":"p1","op":"retype","t":4306.27,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Phantom double: the I spawned 4306.27 is held (HOLD shows I at 4306.33), the S comes out and is placed at the left wall on the empty board at ~4306.47 with no line clear possible (fr/g3/p066.png); score rises only +36/+38 drop points (15775->15811->15849), no 900."}
+],
+"cell_edits":[
+ {"n":66,"id":"p062","player":"p1","field":"pieces","was":82,"value":83,
+  "source":"The S spawned ~3936.77 hard-drops and locks (no clear) on the frame sheet.py labels 3936.90 = end_s: score 45734->45762 appears at that label (fr/g3/p062.png; exact-pts check fr/g3/kk.png shows lock and p2 tilt on the same frame, pts 3936.93). Last chain event is 3936.50 (the I placed at the left wall by 3936.67), so this lock is not counted. Caveat: the p2 board may begin moving one frame earlier (pts 3936.87), which would put the lock one frame after the tilt; counted because it shares the end_s frame in the tool timeline."}
+],
+"no_change":[
+ {"n":56,"why":"p051 p1: the T spawned ~3115.93 is still falling at 3116.43 (KO) and rests only at 3116.47 (fr/g3/p051b.png); lock after the KO frame."},
+ {"n":57,"why":"p053 p2: last spawn I at 3253.37 is held, the O comes out and is still at the top at KO 3253.57 (fr/g3/p053.png); nothing locks."},
+ {"n":58,"why":"p053 p2: score digits are hidden by effects until 3253.60; the +114 is a readout artifact after the KO; the O never locked and no clear happened (fr/g3/p053.png)."},
+ {"n":59,"why":"p056 p2: score 73880 at 3444.20 to 73992 after KO = +112 drop points over ~5 locks; last pieces (green, L, I) lock without clears and the T spawned 3446.00 is not locked at KO (fr/g3/p056.png)."},
+ {"n":61,"why":"p057 p1 3558.7: score +7200 at 3559.47 (166872->174072) = TST with B2B (4800x1.5); TSS B2B would be 3600. The Single banner is a lingering/mismatched banner; chain tst is right."},
+ {"n":62,"why":"p057 p1 3563.3: score +450 at 3563.40 (179622->180072) = single 300 + REN 150 after the 3561.83 TSD; a B2B TSS would be 3750. Plain single is right."},
+ {"n":63,"why":"p059 p1: L held for S at 3766.03, S locks ~3766.07 (chain 3765.97); the O spawned ~3766.17 is still at the top at KO 3766.30 (fr/g3/p059.png)."},
+ {"n":64,"why":"p060 p1: O spawned ~3858.90 is still above its ghost at KO 3859.13; banner covers it after (fr/g3/p060.png); no lock by KO."},
+ {"n":65,"why":"p062 p2 3909.77: TST scored +4800 at 3909.03; this piece scores +3750 at 3910.50 = TSS B2B 3600 + REN 150, so tss is right; the Triple banner lingered from the previous TST."},
+ {"n":67,"why":"p063 p1 4036.9: score +7200 at 4037.60 = TST B2B; tst is right, banner mismatch only."},
+ {"n":68,"why":"p063 p1: score 191838 at 4064.30 -> 191935 at 4066.10 = +97 over ~6 locks (4064.77-4066.03), drop points only; no clear."},
+ {"n":71,"why":"p069 p1: O locks ~4518.53; the S spawned ~4518.63 is still falling at KO 4518.80 and locks at 4518.83 (score 27751->27781), one frame after the KO (fr/g3/p069.png)."},
+ {"n":72,"why":"p074 p1 4922.3: score +450 at 4923.63 (69546->69996) = single 300 + REN 150 after the quad; a B2B TSS would be ~3750. Plain single is right."},
+ {"n":73,"why":"p074 p2: O locks ~4952.04 (score 101349->101375, chain spawn 4951.83); the Z spawned next stays at the top through KO 4952.33 (fr/g3/p074.png)."}
+]}

@@ -104,6 +104,12 @@ SYAKEGOHAN = Subject(
                              "改咗 22 個事件、12 格。用 NEXT 隊列重數全部 352 個玩家局嘅粒數，305 個同表一樣，35 個差一粒（多數係 KO 嗰粒），"
                              "8 個係 NEXT 隊列讀唔清嘅局，4 個差多過一粒（q021、q040、q048 嘅 syakegohan 係重數喺 KO 前一格數多咗三粒，"
                              "q174 ゆうくん 已經睇片數過），冇跟住改。</li>",
+        "upload-2026-11-10": "<li><strong>2026-11-10 上載，對 どらえもん（15先あきぬけ，7 セット）。</strong>"
+                             "合共 156 局，syakegohan 104-52，セット 6-1，勝負全部同畫面 WIN 計數對過；條片剪過，每組最後一局嘅勝負由轉房前 WIN 計數讀出。"
+                             "PERFECT CLEAR 字幕 65 個確認，其餘 62 組閃光用盤面格數查過，11 個似俾特效遮住嘅 PC 交俾讀者睇片。"
+                             "抽取器標記嘅可疑位、呢 11 個 PC 同分數對唔上嘅位合共 168 個，由九個讀者逐格睇片改正，再由另外九個讀者逐個反駁核實（冇剔走提議，改咗 2 個，補多 1 粒）。"
+                             "改咗 100 個事件、22 格（全部係粒數）。用 NEXT 隊列重數全部 312 個玩家局嘅粒數，278 個同表一樣，24 個差一粒（多數係 KO 嗰粒），"
+                             "7 個係 NEXT 隊列讀唔清嘅局，3 個差多過一粒（p031、p038、p141 嘅 syakegohan），冇跟住改。</li>",
     },
     # chain trees Y (YbMeCRhjG1k) and B (every other video of these datasets) carry no R/pcscan.py;
     # cVO, lg, TJc, uP, ach, r6 and both amemiya runs and xo do

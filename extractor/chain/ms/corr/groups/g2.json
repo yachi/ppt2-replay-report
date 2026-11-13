@@ -1,0 +1,171 @@
+[
+ {
+  "id": "p038",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.43 s from 2271.50 s; B events spliced (D2/D3)",
+  "t_s": 2271.5,
+  "n": 37
+ },
+ {
+  "id": "p039",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +75 at 2377.93 s (KO 2378.47 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 2377.93,
+  "n": 38
+ },
+ {
+  "id": "p039",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 2378.47,
+  "n": 39
+ },
+ {
+  "id": "p041",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "7 of 28 bags not a permutation (spawn index [147, 154, 161, 168, 175, 182, 189]); anomalies ['double shift k=2 at frame 1362', 'double shift k=3 at frame 2312', 'queue I re-read at frame 2317: slot 1 I->J', 'double shift k=2 at frame 2426']",
+  "t_s": 2478.93,
+  "n": 40
+ },
+ {
+  "id": "p041",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 2578.27,
+  "n": 41
+ },
+ {
+  "id": "p042",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2599.2 s",
+  "t_s": 2599.2,
+  "n": 42
+ },
+ {
+  "id": "p045",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "cluster": "c13",
+   "id": "p045",
+   "player": "p1",
+   "t_s": 2751.9,
+   "lit": [
+    [
+     53,
+     22,
+     41
+    ],
+    [
+     30,
+     35,
+     78
+    ]
+   ]
+  },
+  "t_s": 2751.9,
+  "n": 43
+ },
+ {
+  "id": "p046",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 2782.17 s",
+  "t_s": 2782.17,
+  "n": 44
+ },
+ {
+  "id": "p047",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 18.37 s from 2896.47 s; B events spliced (D2/D3)",
+  "t_s": 2896.47,
+  "n": 45
+ },
+ {
+  "id": "p047",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 14.03 s from 2897.00 s; B events spliced (D2/D3)",
+  "t_s": 2897.0,
+  "n": 46
+ },
+ {
+  "id": "p047",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 20.03 s from 2911.03 s; B events spliced (D2/D3)",
+  "t_s": 2911.03,
+  "n": 47
+ },
+ {
+  "id": "p047",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 19.90 s from 2914.83 s; B events spliced (D2/D3)",
+  "t_s": 2914.83,
+  "n": 48
+ },
+ {
+  "id": "p047",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 16.70 s from 2931.07 s; B events spliced (D2/D3)",
+  "t_s": 2931.07,
+  "n": 49
+ },
+ {
+  "id": "p047",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 15.77 s from 2934.73 s; B events spliced (D2/D3)",
+  "t_s": 2934.73,
+  "n": 50
+ },
+ {
+  "id": "p047",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.60 s from 2947.77 s; B events spliced (D2/D3)",
+  "t_s": 2947.77,
+  "n": 51
+ },
+ {
+  "id": "p047",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 2989.33,
+  "n": 52
+ },
+ {
+  "id": "p048",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 3017.37,
+  "n": 53
+ },
+ {
+  "id": "p049",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +5400 at 3044.76 s (KO 3044.73 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 3044.76,
+  "n": 54
+ },
+ {
+  "id": "p050",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 3058.0 s",
+  "t_s": 3058.0,
+  "n": 55
+ }
+]
