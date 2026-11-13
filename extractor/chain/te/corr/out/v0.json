@@ -1,0 +1,8 @@
+[
+ {"ref":"e0","verdict":"amend","amended":{"gc":0},"why":"Confirmed: vertical I into column 9 at 925.13, 3-row flash 925.20-925.34, score +1500 at 925.23 (plain triple, no T-spin). But the cleared rows are all coloured: 5 garbage rows (top one holed at col 8) stand under the stack both before (925.13) and after (925.50), so gc is 0, not the chain's 1. /tmp/claude-0/te/corr/fr/v0/e013.png, /tmp/claude-0/te/corr/fr/v0/e013b.png"},
+ {"ref":"e1","verdict":"keep","why":"nextcount 1309-1314.5 gives shifts 1309.23,1309.47,1309.87,1310.23,1310.53,1310.87,1311.20,1312.17,1312.57,1312.70,1314.00 matching every chain event except the three at 1312.40; score shows only drop-point locks at 1312.47 and 1312.60 between 1311.37 and 1312.90. The three 1312.40 locks are phantoms."},
+ {"ref":"e2","verdict":"keep","why":"nextcount 2606-2610 shifts 2607.03,2607.57,2607.77,2608.10,2608.40,2608.80,2609.03,2609.47,2609.63 match the chain one-to-one except the three at 2608.23; score locks 2607.47,2607.67,2608.00,2608.30,2608.70,2608.93 show no extra pieces. Phantoms confirmed."},
+ {"ref":"c0","verdict":"reject","why":"Frame-exact sheet /tmp/claude-0/te/corr/fr/v0/e012.png: at 861.56 (the end_s/KO frame) the O is still in the air mid-board, score 112886; it lands with drop streaks and score 112906 only at 861.60, one frame after end_s 861.57, while p2's board is already tilting. A lock after end_s does not count; pieces stays 154."},
+ {"ref":"c1","verdict":"keep","why":"Follows e1: three phantom locks removed, 50 -> 47; spawns in the window confirm no other missing pieces."},
+ {"ref":"c2","verdict":"keep","why":"Follows e2: three phantom locks removed, 105 -> 102."}
+]

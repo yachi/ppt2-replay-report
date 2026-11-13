@@ -1,0 +1,22 @@
+{
+ "event_corrections": [],
+ "cell_edits": [
+  {
+   "id": "e045",
+   "player": "p1",
+   "field": "pieces",
+   "was": 87,
+   "value": 80,
+   "source": "nextcount p1 2805-2828.5: shifts at 2805.63 ... 2810.73, 2814.53, 2815.37, 2817.30, 2821.37, 2821.80, 2822.17, 2824.73 coincide with every chain event time; no shift inside 2810.73-2814.53 or 2817.30-2821.37 (those gaps are real: score.py shows each piece's single lock + REN single clears +900/+1050/+1200/+1350 at 2813.57/2814.70/2815.83/2817.80, nothing else). The piece spawned 2824.73 (T, held -> Z) never locks: p1 score frozen at 55247 from 2822.80 through KO 2827.93, no NEXT shift, fr/nc/e045_tail.png. True count 80. chain_games.csv reads 87 but cseq 'e045 p1' holds exactly 80 locks, all matched to NEXT shifts (82 shifts - first hold into empty box - unlocked 2824.73 spawn)."
+  }
+ ],
+ "no_change": [
+  {
+   "id": "e031",
+   "player": "p2",
+   "field": "pieces",
+   "value": 48,
+   "source": "Recount 51 is inflated by a phantom 3-step NEXT shift at 1962.20: fr/nc/e031_p2_1962.png shows the queue T,O,I,T,O unchanged 1961.9-1962.6 while the TETRIS flash covers the 5th box, then one shift to O,I,T,O,S at 1962.70 (the chain's TSD piece). Piece spawned 1967.567 does not lock by KO 1967.97 (p2 score 37261 from 1966.73 to 1968.03). Chain 48 events all match real shifts; true count 48 = table."
+  }
+ ]
+}

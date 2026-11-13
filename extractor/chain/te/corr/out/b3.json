@@ -1,0 +1,288 @@
+{
+ "event_corrections": [
+  {
+   "n": 57,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6066.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Opening of e092 runs in slow natural gravity: one piece per ~10 s, no inputs (corr/fr/g3/e092gap.png, 6066-6100 every 2 s). nextcount p1 spawns 6055.0, 6067.2, 6078.2, 6088.57, 6097.7 only (corr/fr/g3/e092_p1.nc). The B events 0.5 s before each real spawn are duplicates."
+  },
+  {
+   "n": 57,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6077.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Duplicate of the 6078.2 spawn; only one piece (J) falls 6067.2-6078.2, see corr/fr/g3/e092gap.png and e092_p1.nc."
+  },
+  {
+   "n": 59,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6088.07,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Duplicate of the 6088.57 spawn; only the O falls 6078.2-6088.57 (corr/fr/g3/e092gap.png, e092_p1.nc)."
+  },
+  {
+   "n": 61,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6097.2,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Duplicate of the 6097.7 spawn; only the I falls 6088.57-6097.7 (corr/fr/g3/e092gap.png, e092_p1.nc)."
+  },
+  {
+   "n": 58,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6066.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Slow-gravity opening, one piece per ~10 s (corr/fr/g3/e092gap.png). nextcount p2 spawns 6055.0, 6067.2, 6078.8, 6089.2, 6098.33 only (corr/fr/g3/e092_p2.nc); 6066.73 duplicates the 6067.2 spawn."
+  },
+  {
+   "n": 58,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6078.33,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Duplicate of the 6078.8 spawn; only the S falls 6067.2-6078.8 (e092gap.png, e092_p2.nc)."
+  },
+  {
+   "n": 60,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6088.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Duplicate of the 6089.2 spawn; only the L falls 6078.8-6089.2 (e092gap.png, e092_p2.nc)."
+  },
+  {
+   "n": 62,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6097.87,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Duplicate of the 6098.33 spawn; only the Z falls 6089.2-6098.33 (e092gap.png, e092_p2.nc)."
+  },
+  {
+   "n": 64,
+   "id": "e092",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6156.5,
+   "t_end": 6156.85,
+   "events": [
+    {
+     "t": 6156.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 6156.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6156.8,
+     "single",
+     1
+    ]
+   ],
+   "source": "corr/fr/g3/e092pc.png: the I spawned 6156.6 locks flat in the bottom row at 6156.67 (+38) and clears it as a PERFECT CLEAR single (+2850 at 6156.73). The O spawned 6156.8 is held, T comes out and locks at 6157.1 (+38, no clear, no T-spin). The chain had no event for the 6156.6 spawn and put the PC single on the 6156.8 piece. There is no tsmini."
+  },
+  {
+   "n": 68,
+   "id": "e098",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 6464.5,
+   "t_end": 6464.95,
+   "events": [
+    {
+     "t": 6464.53,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 6464.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6464.93,
+     "quad",
+     4
+    ]
+   ],
+   "source": "corr/fr/g3/e098mid.png + nextcount: S spawned 6464.53, held at 6464.63, I out of hold dropped vertically and the PERFECT CLEAR quad shows at 6464.77-6464.83 (score +34 then +13200). The J spawned 6464.93 locks at 6465.03 (+38) with no clear. Chain had no event for the 6464.53 spawn and put the quad on the 6464.93 piece."
+  },
+  {
+   "n": 69,
+   "id": "e102",
+   "side": "p2",
+   "op": "retype",
+   "t": 6751.97,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "corr/fr/g3/e102mini.png, mcmp.png: the T locks at 6751.87 with a T-SPIN banner, and the score rises by exactly 300 at 6751.90 (114009 -> 114309), the value of a zero-line mini T-spin at level 3 (a mini single would be 600, or 900 with the B2B p2 held). No line clears. Not a clear; B2B run for max_b2b (first run, 6681-6716) unaffected."
+  },
+  {
+   "n": 73,
+   "id": "e109",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 7141.8,
+   "t_end": 7142.15,
+   "events": [
+    {
+     "t": 7141.83,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 2
+    },
+    {
+     "t": 7142.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7142.13,
+     "triple",
+     3
+    ]
+   ],
+   "source": "corr/fr/g3/e109pc.png: the piece spawned 7141.83 drops vertically into the right column at 7141.97 and clears three lines as a PERFECT CLEAR (+6900 at 7142.07). The S spawned 7142.13 is held and the piece out of hold locks at ~7142.5 (+38). Chain had no event for the 7141.83 spawn and put the triple on the 7142.13 piece. The flagged +76 at 7142.6 is two plain locks (+38, +38); no missed clear. Pieces 25 already right (27 spawns, one in hold, the 7143.5 spawn unlocked)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 57,
+   "id": "e092",
+   "player": "p1",
+   "field": "pieces",
+   "was": 124,
+   "value": 120,
+   "source": "nextcount over the whole game 6054-6159.1 (corr/fr/g3/e092_p1.nc): 122 spawns, no double shifts; the last (I at 6159.0) did not lock by the KO (e092ko.png) and one piece is in HOLD at the end: 120 locks. Matches extractor A's 120 and the chain's 123 events less the 4 duplicates plus the missed 6156.6 lock."
+  },
+  {
+   "n": 58,
+   "id": "e092",
+   "player": "p2",
+   "field": "pieces",
+   "was": 108,
+   "value": 104,
+   "source": "nextcount over the whole game (corr/fr/g3/e092_p2.nc): 106 spawns, one in HOLD at the end and the last current at the KO: 104 locks. Matches extractor A's 104 and the chain's 108 events less the 4 duplicates."
+  },
+  {
+   "n": 68,
+   "id": "e098",
+   "player": "p2",
+   "field": "pieces",
+   "was": 28,
+   "value": 29,
+   "source": "nextcount 6456.3-6469.3: 30 spawns, the Z drawn at 6468.73 ends in HOLD; all others locked, including the J out of hold at 6469.17, before the KO at 6469.27 (corr/fr/g3/e098ko.png, score +34 at 6469.13). Chain has 27 events, missing the 6464.53 lock and the KO piece: 29."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 63,
+   "why": "T spawned 6148.03 is hard dropped and the score rises +326 at 6148.17 (300 single + drop points), not a TSS (2400+). Chain's plain single is right."
+  },
+  {
+   "n": 65,
+   "why": "corr/fr/g3/e092ko.png: the I spawned 6158.98 is still at the top with its ghost below at 6159.12; no lock by the KO."
+  },
+  {
+   "n": 66,
+   "why": "corr/fr/g3/e094ko.png: the Z spawned 6300.88 is still at the top through 6301.05; score unchanged; no lock."
+  },
+  {
+   "n": 67,
+   "why": "score.py: p1's piece spawned 6447.83 is soft dropping (+1 per frame) through 6448.20, past the KO at 6448.17; not locked."
+  },
+  {
+   "n": 70,
+   "why": "score.py: p1's piece spawned 6753.2 is soft dropping (+1 per frame) through 6753.47, past the KO 6753.43; not locked."
+  },
+  {
+   "n": 71,
+   "why": "corr/fr/g3/e106ko.png: the L out of hold is still at the top through 7013.95; no lock by the KO."
+  },
+  {
+   "n": 72,
+   "why": "score.py: p1's piece spawned 7078.27 is soft dropping (+1 per frame) through 7078.67, past the KO 7078.6; not locked."
+  },
+  {
+   "n": 74,
+   "why": "The +1200 at 7263.90 is p1's T (spawned 7263.2, chain event 7263.2 None) locking as a zero-line T-spin (exactly 1200). No lines clear; the next piece spawned 7263.93 did not lock by the KO. Counts unchanged."
+  },
+  {
+   "n": 75,
+   "why": "corr/fr/g3/e113ko.png: the J spawned 7459.3 is still at the top with its ghost below through 7459.43; no lock by the KO."
+  }
+ ]
+}

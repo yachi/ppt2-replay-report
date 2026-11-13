@@ -1,0 +1,164 @@
+{
+ "event_corrections": [
+  {
+   "n": 2,
+   "id": "e013",
+   "side": "p1",
+   "op": "retype",
+   "t": 924.93,
+   "was": [
+    "tsmini",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "source": "Vertical I dropped into right well clears 3 rows at 925.17-925.22, no T-spin banner (I piece); score +1500 at 925.23 = plain non-B2B triple. B2B therefore broken, which is why the TSD at 929.70 scored +3600 (not 5400); the +300 at 927.13 is a zero-line mini T-spin (T locks at 927.03, no row cleared, T-SPIN banner). /tmp/claude-0/te/corr/fr/g0/i2b.png, /tmp/claude-0/te/corr/fr/g0/i2.png"
+  },
+  {
+   "n": 4,
+   "id": "e020",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1312.4,
+   "t_end": 1312.4,
+   "events": [],
+   "was_old": [
+    [
+     1312.4,
+     null,
+     0
+    ],
+    [
+     1312.4,
+     null,
+     0
+    ],
+    [
+     1312.4,
+     null,
+     0
+    ]
+   ],
+   "source": "Between spawns 1312.17 (T, held -> L locks 1312.43) and 1312.57 (S, locks 1312.57/60) and 1312.70 (Z held -> T) only these pieces exist; nextcount shifts 1312.17,1312.57,1312.70 and score locks 1312.47,1312.60,1313.37. The three chain locks at 1312.40 are phantoms. /tmp/claude-0/te/corr/fr/g0/i4.png"
+  },
+  {
+   "n": 18,
+   "id": "e043",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2608.23,
+   "t_end": 2608.23,
+   "events": [],
+   "was_old": [
+    [
+     2608.23,
+     null,
+     0
+    ],
+    [
+     2608.23,
+     null,
+     0
+    ],
+    [
+     2608.23,
+     null,
+     0
+    ]
+   ],
+   "source": "I spawns 2608.10, held 2608.16, S from hold locks 2608.30, O spawns 2608.43; nextcount shifts 2608.10 and 2608.40 only, score locks 2608.00,2608.30,2608.70. Three chain locks at 2608.23 are phantoms (explains bag misalignment from spawn 63). /tmp/claude-0/te/corr/fr/g0/i18.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 1,
+   "id": "e012",
+   "player": "p1",
+   "field": "pieces",
+   "was": 154,
+   "value": 155,
+   "source": "O spawned 861.37 hard-dropped and locked at 861.57 (score 112886->112906, +20 drop pts, no clear), same frame the p2 board starts tilting (KO end_s 861.57); not in chain. /tmp/claude-0/te/corr/fr/g0/i1b.png, /tmp/claude-0/te/corr/fr/g0/i1.png"
+  },
+  {
+   "n": 4,
+   "id": "e020",
+   "player": "p1",
+   "field": "pieces",
+   "was": 50,
+   "value": 47,
+   "source": "3 phantom locks at 1312.40 removed. /tmp/claude-0/te/corr/fr/g0/i4.png"
+  },
+  {
+   "n": 18,
+   "id": "e043",
+   "player": "p1",
+   "field": "pieces",
+   "was": 105,
+   "value": 102,
+   "source": "3 phantom locks at 2608.23 removed. /tmp/claude-0/te/corr/fr/g0/i18.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "Piece spawned 648.87 shows no score change until after KO 648.97 (score 90492 constant); last lock 648.77 is the chain's 648.60 piece."
+  },
+  {
+   "n": 3,
+   "why": "Piece spawned 1085.43 still soft-dropping (score +1/frame through 1086.00), not locked by KO 1085.93."
+  },
+  {
+   "n": 5,
+   "why": "Last lock 1319.70 = chain 1319.47 piece; next piece spawned 1319.70, held 1319.90, no lock before KO 1320.00."
+  },
+  {
+   "n": 6,
+   "why": "No perfect clear: at 1346.9-1347.8 the board is full of garbage after a single (REN); banner is not PC. /tmp/claude-0/te/corr/fr/g0/i6.png"
+  },
+  {
+   "n": 7,
+   "why": "T reaches the stack ~1382.77 but no lock/next spawn by KO 1382.83 (queue unchanged, score 33056 constant). /tmp/claude-0/te/corr/fr/g0/i7.png"
+  },
+  {
+   "n": 8,
+   "why": "Piece spawned 1471.67; no score change before KO 1471.80."
+  },
+  {
+   "n": 9,
+   "why": "Score 87023 constant from 1814.57 through KO; only hold swaps at 1814.57/1815.37, no lock."
+  },
+  {
+   "n": 10,
+   "why": "Piece spawned 1967.54; score 37261 constant until KO, no lock."
+  },
+  {
+   "n": 11,
+   "why": "T still falling with ghost below at KO 2076.57 (soft drop). /tmp/claude-0/te/corr/fr/g0/i11.png"
+  },
+  {
+   "n": 12,
+   "why": "Score constant, only hold swaps (2161.20, 2161.90); no lock before KO."
+  },
+  {
+   "n": 13,
+   "why": "T resting on stack at KO 2249.03 but no lock (no next spawn, queue unchanged). /tmp/claude-0/te/corr/fr/g0/i13.png"
+  },
+  {
+   "n": 14,
+   "why": "Piece spawned 2316.20; no score change before KO 2316.30."
+  },
+  {
+   "n": 15,
+   "why": "T still falling at KO 2411.13 (soft drop), no lock. /tmp/claude-0/te/corr/fr/g0/i15.png"
+  },
+  {
+   "n": 16,
+   "why": "Spawn 2471.83, no lock by KO 2471.93; earlier locks match chain."
+  },
+  {
+   "n": 17,
+   "why": "Spawn 2509.20 then hold 2509.27, no lock by KO 2509.37; earlier locks match chain."
+  }
+ ]
+}
