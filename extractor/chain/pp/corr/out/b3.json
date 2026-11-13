@@ -1,0 +1,550 @@
+{
+ "event_corrections": [
+  {
+   "n": 61,
+   "id": "c087",
+   "side": "p2",
+   "op": "retype",
+   "t": 5053.0,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Banner reads 'Mini T-SPIN' (no 'Single'); T locked flat at bottom-left ~5052.85, no row cleared (column 4 still open, stack top unchanged, before/after crops /tmp/claude-0/pp/corr/fr/g3/n61b.png, sheet /tmp/claude-0/pp/corr/fr/g3/n61.png); score +300 at 5052.93 = zero-line mini T-spin at level 3, not +600. Not a line clear."
+  },
+  {
+   "n": 63,
+   "id": "c090",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 5288.67,
+   "t_end": 5288.67,
+   "events": [
+    {
+     "t": 5288.33,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 5288.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5288.67,
+     "double",
+     2
+    ]
+   ],
+   "source": "nextcount: spawn at 5288.333 (O, held, J out) which the chain lacks; J locked ~5288.54 with 2-line PERFECT CLEAR (score +4650 at 5288.60, board empty, /tmp/claude-0/pp/corr/fr/g3/n63.png). The 5288.667 spawn (I) locked 5288.87 with +38 only. The +76 'KO-tail' jump is two drop-point locks (5288.87, 5289.07) merged by unreadable digits, no missed clear; Z spawned 5289.77 did not lock by KO (/tmp/claude-0/pp/corr/fr/g3/n63b.png)."
+  },
+  {
+   "n": 66,
+   "id": "c094",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 5543.57,
+   "t_end": 5546.73,
+   "events": [
+    {
+     "t": 5543.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5543.83,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 5544.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5544.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5544.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5545.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5545.9,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 5546.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5543.57,
+     null,
+     0
+    ],
+    [
+     5544.1,
+     "double",
+     2
+    ],
+    [
+     5544.4,
+     null,
+     0
+    ],
+    [
+     5544.73,
+     null,
+     0
+    ],
+    [
+     5545.07,
+     "single",
+     1
+    ],
+    [
+     5545.9,
+     "single",
+     1
+    ],
+    [
+     5546.73,
+     "single",
+     1
+    ]
+   ],
+   "source": "nextcount spawns 5543.567, 5543.833, 5544.10, 5544.40, 5544.73, 5545.07, 5545.90, 5546.60 (8) vs 7 chain events. J spawned 5543.83 locked ~5543.97 with the 2-line PC (+36 then +4500 at 5544.03; sheet /tmp/claude-0/pp/corr/fr/g3/n66a.png) - the chain dropped this spawn and put the PC on the O at 5544.10. Second PC: I spawned 5545.90 locked ~5546.5 as single + PERFECT CLEAR (+38,+450,+2400 at 5546.50-57; board empty, /tmp/claude-0/pp/corr/fr/g3/n66.png); the S spawned 5546.60 locked 5547.10 with +38 only. Score shows only ONE clear between 5545.20 and 5546.50, so the chain's three singles are two. The 5544.2 banner onset is the first PC's pop-in, no extra PC."
+  },
+  {
+   "n": 67,
+   "id": "c095",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 5568.33,
+   "t_end": 5568.33,
+   "events": [
+    {
+     "t": 5568.13,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 5568.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5568.33,
+     "triple",
+     3
+    ]
+   ],
+   "source": "L spawned 5568.13 (chain lacks it) locked 5568.20 with a triple PERFECT CLEAR (+36 then +6900 at 5568.33; sheet /tmp/claude-0/pp/corr/fr/g3/n67.png). Rows cleared are coloured piece rows, no grey garbage, so gc 0 (chain had 3). Z spawned 5568.33 locked 5569.03 with drop points only. Banner onset at 5568.5 is this PC's pop-in."
+  },
+  {
+   "n": 68,
+   "id": "c095",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 5574.2,
+   "t_end": 5574.53,
+   "events": [
+    {
+     "t": 5574.2,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 5574.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5574.2,
+     null,
+     0
+    ],
+    [
+     5574.53,
+     "quad",
+     4
+    ]
+   ],
+   "source": "Spawn 5574.20 (I via hold) locks ~5574.5 with the quad PERFECT CLEAR (score +13234 at 5574.53, PC banner 5574.60; /tmp/claude-0/pp/corr/fr/g3/n68.png); spawn 5574.53 locks 5575.00 with +38 only. Cleared rows are coloured pieces, no grey garbage (gc 0, chain had 4). Same piece count; the clear moves one piece earlier. Onset 5574.7 is this PC."
+  },
+  {
+   "n": 69,
+   "id": "c095",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 5574.9,
+   "t_end": 5574.9,
+   "events": [
+    {
+     "t": 5574.47,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 5574.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5574.9,
+     "quad",
+     4
+    ]
+   ],
+   "source": "I spawned 5574.47 (chain dropped it as a double-log) locked ~5574.7 with the quad PERFECT CLEAR (+34 at 5574.70 then +13200 at 5574.83; board empty, /tmp/claude-0/pp/corr/fr/g3/n68.png); spawn 5574.90 locked 5575.30 with drop points only. Coloured rows, no garbage: gc 0 (chain had 4). Onset 5575.0 is this PC."
+  },
+  {
+   "n": 71,
+   "id": "c096",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 5899.73,
+   "t_end": 5899.73,
+   "events": [
+    {
+     "t": 5899.27,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 5899.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     5899.73,
+     "triple",
+     3
+    ]
+   ],
+   "source": "nextcount spawn 5899.267 (chain dropped it as double-log) locked 5899.63 (+34) then +1500 +5400 at 5899.67-77 = triple PERFECT CLEAR; spawn 5899.73 locked 5900.17 with +39 only. Onset 5901.1 is a later flicker of the same banner; no second PC."
+  },
+  {
+   "n": 73,
+   "id": "c100",
+   "side": "p1",
+   "op": "retype",
+   "t": 6248.07,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "S spawned 6248.07 locked 6248.17 (+26) and cleared one row with '2 REN' banner (+600 = single 300 + REN 300 at 6248.27); sheet /tmp/claude-0/pp/corr/fr/g3/n73a.png."
+  },
+  {
+   "n": 73,
+   "id": "c100",
+   "side": "p1",
+   "op": "add",
+   "t": 6249.73,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "I spawned 6249.73 locked vertically at 6249.77 (+26 at 6249.80), one coloured row flashes and +900 (single + REN 600) at 6249.87 = KO frame; sheet /tmp/claude-0/pp/corr/fr/g3/n73b.png. This is the 'KO-tail +926'."
+  },
+  {
+   "n": 74,
+   "id": "c102",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 6311.6,
+   "t_end": 6311.6,
+   "events": [
+    {
+     "t": 6311.3,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 6311.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6311.6,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Spawn 6311.30 (chain dropped it) -> L locked 6311.50 with a triple PERFECT CLEAR (+38, +1500, +5400 at 6311.50-63; coloured rows only, /tmp/claude-0/pp/corr/fr/g3/n74.png), gc 0 (chain had 3). Spawn 6311.60 locked 6312.13 with +38 only. Onset 6311.8 is this PC's pop-in."
+  },
+  {
+   "n": 75,
+   "id": "c106",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 6541.83,
+   "t_end": 6541.83,
+   "events": [
+    {
+     "t": 6541.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 6541.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6541.83,
+     "single",
+     1
+    ]
+   ],
+   "source": "nextcount spawn 6541.50 (missing from chain) locked 6541.73 (+35) then +2850 at 6541.90 = single PERFECT CLEAR; spawn 6541.83 locked 6542.33 with +36 only. Onset 6542.0 is this PC's pop-in."
+  },
+  {
+   "n": 78,
+   "id": "c109",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6894.17,
+   "t_end": 6894.17,
+   "events": [
+    {
+     "t": 6893.53,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 6894.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6894.17,
+     "double",
+     2
+    ]
+   ],
+   "source": "nextcount spawn 6893.53 (chain dropped it as double-log) locked 6894.03 (+36) then +4650 at 6894.10 = double PERFECT CLEAR; spawn 6894.17 locked 6894.30 with +38 only. Onset 6894.3 is this PC's pop-in."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 62,
+   "id": "c087",
+   "player": "p1",
+   "field": "pieces",
+   "was": 168,
+   "value": 169,
+   "source": "O spawned 5112.07, held, S out of hold locked at 5112.23 (= KO frame) with +28 drop points, no clear; chain's last event is 5111.77. /tmp/claude-0/pp/corr/fr/g3/n62.png, score.py"
+  },
+  {
+   "n": 63,
+   "id": "c090",
+   "player": "p1",
+   "field": "pieces",
+   "was": 39,
+   "value": 40,
+   "source": "one spawn (5288.33) missing from the chain, see event correction; 5 spawns 5288.33-5289.43 vs 4 chain events."
+  },
+  {
+   "n": 66,
+   "id": "c094",
+   "player": "p1",
+   "field": "pieces",
+   "was": 35,
+   "value": 36,
+   "source": "spawn 5543.83 missing from the chain (8 spawns vs 7 events in 5543.57-5546.73)."
+  },
+  {
+   "n": 67,
+   "id": "c095",
+   "player": "p2",
+   "field": "pieces",
+   "was": 589,
+   "value": 590,
+   "source": "spawn 5568.13 missing from chain (nextcount + score, /tmp/claude-0/pp/corr/fr/g3/n67.png)."
+  },
+  {
+   "n": 69,
+   "id": "c095",
+   "player": "p1",
+   "field": "pieces",
+   "was": 583,
+   "value": 584,
+   "source": "spawn 5574.47 missing from chain (nextcount shifts 5573.73, 5573.97, 5574.47, 5574.90 vs chain 5573.73, 5573.97, 5574.9)."
+  },
+  {
+   "n": 71,
+   "id": "c096",
+   "player": "p2",
+   "field": "pieces",
+   "was": 71,
+   "value": 72,
+   "source": "spawn 5899.27 missing from chain."
+  },
+  {
+   "n": 73,
+   "id": "c100",
+   "player": "p1",
+   "field": "pieces",
+   "was": 154,
+   "value": 155,
+   "source": "I locked 6249.77, before KO 6249.87 (/tmp/claude-0/pp/corr/fr/g3/n73b.png)."
+  },
+  {
+   "n": 73,
+   "id": "c100",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 1,
+   "value": 4,
+   "source": "Consecutive clearing spawns 6245.77 tsd, 6246.87 quad (+3750 = 3600+REN150), 6248.07 single (+600), 6248.90 single (+750, '3 REN' banner), 6249.73 single (+900) = REN 4."
+  },
+  {
+   "n": 74,
+   "id": "c102",
+   "player": "p2",
+   "field": "pieces",
+   "was": 77,
+   "value": 78,
+   "source": "spawn 6311.30 missing from chain."
+  },
+  {
+   "n": 75,
+   "id": "c106",
+   "player": "p2",
+   "field": "pieces",
+   "was": 150,
+   "value": 151,
+   "source": "spawn 6541.50 missing from chain."
+  },
+  {
+   "n": 78,
+   "id": "c109",
+   "player": "p1",
+   "field": "pieces",
+   "was": 73,
+   "value": 74,
+   "source": "spawn 6893.53 missing from chain."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 60,
+   "why": "Score.py: last p1 drop points at 4799.03 (lock of the 4798.87 piece); no score change from 4799.03 through the KO frame 4799.23, so the 4799.13 spawn did not lock by KO."
+  },
+  {
+   "n": 64,
+   "why": "Spawn 5325.03 (Z) not locked by KO 5325.13: score stays 33798 from 5324.93 to 5325.37; all earlier spawns already in the chain."
+  },
+  {
+   "n": 65,
+   "why": "I spawned 5454.70 is still falling at the KO frame 5455.53 (sheet /tmp/claude-0/pp/corr/fr/g3/n65.png); score unchanged 144639."
+  },
+  {
+   "n": 70,
+   "why": "T spawned 5883.93 is still soft-dropping at the KO frame 5884.53 (score +1 per frame through 5884.57); no lock."
+  },
+  {
+   "n": 72,
+   "why": "L spawned 6122.63 still at the top at KO 6122.87 (sheet /tmp/claude-0/pp/corr/fr/g3/n72.png); no lock."
+  },
+  {
+   "n": 76,
+   "why": "Z spawned 6612.97 still soft-dropping at KO 6613.37 (score +1/frame through 6613.40); no lock."
+  },
+  {
+   "n": 77,
+   "why": "I spawned 6759.30 still moving at the top at KO 6759.47 (sheet /tmp/claude-0/pp/corr/fr/g3/n77.png); score unchanged."
+  },
+  {
+   "n": 79,
+   "why": "Z spawned 6919.90; score unchanged 50403 through 6920.47, no lock by KO 6920.2."
+  }
+ ]
+}

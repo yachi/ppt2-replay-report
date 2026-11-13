@@ -1,0 +1,33 @@
+{"event_corrections":[
+{"n":22,"id":"c038","side":"p2","op":"retype","t":2022.47,"was":[null,0,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"Z hard-dropped at 2022.57-2022.67 on p2, two coloured rows flash white under the lingering TETRIS banner (corr/fr/g1/c038.png, c038z.png); score +1068 at 2022.67 = double 900 + REN1 150 + drops; '1 REN' banner at 2022.80. This plain double breaks B2B, which is why the TSD at 2025.80 scores +3600 (no B2B) instead of the chain's predicted 5400."},
+{"n":26,"id":"c045","side":"p2","op":"retype","t":2368.4,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"T rotated into the top-left corner and locked at 2368.25-2368.32 (Mini T-SPIN banner from 2368.38), but no row cleared: stack unchanged in corr/fr/g1/c045.png 2368.32-2368.72; score +300 at 2368.37 = zero-line mini T-spin (100x3), a mini single would be 600. The event at 2368.4 is the S spawn (spawns 2367.92 T, 2368.38 S, 2368.58 O), so it stays as a plain lock."},
+{"n":28,"id":"c047","side":"p1","op":"remove","t":2516.57,"was":[null,0,0],"source":"Game lagged into slow motion 2517-2528 (O falls ~1 row/0.8 s, both scores frozen, corr/fr/g1/c047a.png). p1: J (event 2515.57) locked ~2516.4 (+28), O spawned 2516.43 (event 2516.43) fell slowly and locked ~2528.8 (+8 at 2529.10); next spawn 2528.83 (Z held, T out -> TSD). No other lock: score constant 139194 from 2516.33 to 2528.73. 2516.57 is a spliced phantom."},
+{"n":29,"id":"c047","side":"p2","op":"remove","t":2522.77,"was":[null,0,0],"source":"Same lag window. p2: Z spawned 2516.67, held at 2523.2 for the I, which cleared 4 garbage rows at ~2527.83 (+3752 = B2B tetris + 1 REN; corr/fr/g1/c047b.png) = chain event 2516.67 quad. Next spawn 2528.60. Score constant 92284 from 2515.93 to 2527.83, so no lock at 2522.77: phantom."},
+{"n":31,"id":"c048","side":"p2","op":"remove","t":2727.93,"was":["single",1,0],"source":"Lag window again (L/O fall in slow motion 2726-2731, corr/fr/g1/c048.png). p2 spawns only at 2725.80, 2731.13, 2731.47, 2731.80. The O spawned 2725.80 cleared one row at 2730.53 (+1050 = single + 5 REN, '5 REN' banner at 2730.90) = chain 2725.8 single. Score 97314 constant 2725.20-2730.53 and no further clear until 2732.03 (+302): 2727.93 single is a phantom."},
+{"n":31,"id":"c048","side":"p2","op":"remove","t":2724.4,"was":["BREAK",3,0],"source":"Spurious REN break: banners show '4 REN' at 2725.50 (clear of piece 2724.53) and '5 REN' at 2730.90 (clear of piece 2725.8), so the run tsd 2720.7, singles 2721.8/2722.6, tsmini 2723.6, singles 2724.53/2725.8 is unbroken (corr/fr/g1/c048.png)."},
+{"n":32,"id":"c048","side":"p1","op":"remove","t":2725.8,"was":[null,0,0],"source":"p1 spawns at 2725.23, 2725.53, 2725.83 (L), then 2731.90 (T -> TSD). Score: +22 at 2725.73 (2725.53 piece), then constant 89681 until +6 at 2731.80 when the slowly falling L locks (corr/fr/g1/c048.png). 2725.8 duplicates 2725.83."},
+{"n":32,"id":"c048","side":"p1","op":"remove","t":2726.13,"was":[null,0,0],"source":"No spawn or lock at 2726.13: only the L (spawn 2725.83) is on screen falling in slow motion until ~2731.8; score constant 89681 2725.73-2731.80 (corr/fr/g1/c048.png). Phantom."},
+{"n":39,"id":"c057","side":"p2","op":"retype","t":3192.3,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"T locked at ~3192.27 with Mini T-SPIN banner and +300 (zero-line mini, 100x3); no row removed: board identical 3192.20 vs 3192.40-3192.80 (corr/fr/g1/c057m.png). Event 3192.3 is the O spawn (3192.40), so it stays a plain lock."}
+],
+"cell_edits":[
+{"id":"c047","player":"p1","field":"pieces","was":391,"value":390,"source":"phantom lock at 2516.57 removed (lag window, see event correction)"},
+{"id":"c047","player":"p2","field":"pieces","was":383,"value":382,"source":"phantom lock at 2522.77 removed (lag window)"},
+{"id":"c048","player":"p1","field":"pieces","was":147,"value":145,"source":"phantom locks 2725.8 and 2726.13 removed (lag window)"},
+{"id":"c048","player":"p2","field":"pieces","was":152,"value":151,"source":"phantom single 2727.93 removed"},
+{"id":"c048","player":"p2","field":"max_combo","was":3,"value":5,"source":"on-screen '4 REN' at 2725.50 and '5 REN' at 2730.90 (corr/fr/g1/c048.png); chain events give REN 5 once the spurious BREAK at 2724.4 and the phantom 2727.93 are removed"}
+],
+"no_change":[
+{"n":20,"why":"c028 p2: O spawned 1570.40 still at the top at KO 1570.57 and after (corr/fr/g1/c028.png); nothing locked."},
+{"n":21,"why":"c037 p1: T from hold still moving/rotating at KO 1960.47 (rotated nub-down that frame), no hard-drop points, no clear afterwards though the row would be full (corr/fr/g1/c037.png, c037z.png); not locked."},
+{"n":23,"why":"c039 p1 2059.43: only a '2 REN' banner, +600 = single with REN 2 (corr/fr/g1/c039.png); chain/CSV already has it as a single."},
+{"n":24,"why":"c040 p2: S spawned 2131.77 and was held at 2131.93, O just spawned at KO 2131.90; nothing locked (corr/fr/g1/c040.png)."},
+{"n":25,"why":"c043 p1: piece spawned 2250.13 swapped from hold, soft-drop points still accruing every frame through 2250.50; not locked by KO 2250.47."},
+{"n":27,"why":"c046 p2: J spawned 2411.03, still at the top 2411.16, hard-dropped at 2411.20 (+16) after KO 2411.13 (corr/fr/g1/c046.png)."},
+{"n":30,"why":"c047 p1: last lock +24 at 2642.23; piece spawned 2642.33 swapped with hold at 2642.40 and score unchanged to KO 2642.5; not locked."},
+{"n":33,"why":"c052 p1 2895.9: PERFECT CLEAR banner lingering from the PC at 2894.57; board not empty and only drop points until the double at 2896.97 (corr/fr/g1/c052.png)."},
+{"n":34,"why":"c053 p2: real PC (O completes two rows, board empty 2998.05+, corr/fr/g1/c053.png), already logged once as the double pc=1 at 2997.97 and in CSV pc=1."},
+{"n":35,"why":"c056 p1 3143.6: banner lingers from the PC triple at 3142.23 already logged; score shows only drop points 3142.4-3144.4."},
+{"n":36,"why":"c056 p1: soft-drop points accrue each frame up to the KO frame 3154.47; piece not locked."},
+{"n":37,"why":"c057 p1: game-start stall: T sat unplayed (no score change 3163.5-3169.33) until held at 3168.97; the chain's locks 3169.07, 3169.43, 3169.77, 3169.97, 3170.2 match the spawns and score steps."},
+{"n":38,"why":"c057 p2 3172.9: banner lingers from the PC triple at 3171.5 already logged; only drop points 3172-3174."}
+]}

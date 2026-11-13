@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/p000.png: I (via hold) locks ~49.13 (score 42479) = chain's 48.93 piece; a new I spawns 49.23 (nextcount shift 49.233), is held ~49.37 and the J out of hold locks at 49.43 = end_s (score 42479->42503, no clear). 5 spawns 48.30-49.23 vs 4 chain events."},
+{"ref":"e1","verdict":"keep","why":"fr/v0/p009.png: one row left at 451.2; I locks ~451.40 on the right completing it, board empty, PERFECT CLEAR banner from 451.50; single score jump 11701->14589 at 451.47, no other clear since the double at 450.53."},
+{"ref":"e2","verdict":"keep","why":"fr/v0/p009.png: L spawned 451.53 is held (hold L 451.667), the S out of hold locks on the empty floor ~451.8; no row clears (452.00 board shows S and Z resting), score only drop points (14590->14664)."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/p017.png: 3-row stack, L dropped vertically ~930.45 clears all three, board empty, PERFECT CLEAR from 930.60; score 10932->17868 at 930.50, the only clear in the window; no grey rows."},
+{"ref":"e4","verdict":"keep","why":"fr/v0/p017.png: Z out of hold locks on the empty floor ~931.0 (17868->17906, drop points), no clear; nextcount shows no second clear."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/p018.png: O fills the gap at 990.07-990.10 completing the last 2 rows (no grey cells), board empty, PERFECT CLEAR at 990.20; score 11255->15755 at 990.13 (+4500)."},
+{"ref":"e6","verdict":"keep","why":"fr/v0/p018.png: O spawned 990.2 is held (990.367), the Z out of hold locks at the right ~990.6 on the empty board, no clear (15755->15791)."},
+{"ref":"c0","verdict":"keep","why":"Same as e0: the 49.23-spawned piece (swapped for J) locks at 49.43 = end_s, so pieces 56 -> 57."}
+]

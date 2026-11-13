@@ -1,0 +1,146 @@
+[
+ {
+  "id": "p099",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 6387.2 s, no A clear matched (added by R/build.py)",
+  "t_s": 6387.2,
+  "n": 112
+ },
+ {
+  "id": "p099",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6409.37 s",
+  "t_s": 6409.37,
+  "n": 113
+ },
+ {
+  "id": "p101",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 6584.47 s",
+  "t_s": 6584.47,
+  "n": 114
+ },
+ {
+  "id": "p102",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1988 at 6668.84 s (KO 6668.87 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 6668.84,
+  "n": 115
+ },
+ {
+  "id": "p104",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 6739.9 s, no A clear matched (added by R/build.py)",
+  "t_s": 6739.9,
+  "n": 116
+ },
+ {
+  "id": "p104",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 6747.47 s, no A clear matched (added by R/build.py)",
+  "t_s": 6747.47,
+  "n": 117
+ },
+ {
+  "id": "p104",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "16.60 s from the last spawn to the KO",
+  "t_s": 6752.6,
+  "n": 118
+ },
+ {
+  "id": "p106",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 6832.6 s typed as a plain clear",
+  "t_s": 6832.6,
+  "n": 119
+ },
+ {
+  "id": "p106",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 6847.8,
+  "n": 120
+ },
+ {
+  "id": "p107",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +65 at 6910.54 s (KO 6911.23 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 6910.54,
+  "n": 121
+ },
+ {
+  "id": "p108",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 6929.4 s typed as a plain clear",
+  "t_s": 6929.4,
+  "n": 122
+ },
+ {
+  "id": "p109",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 7007.4,
+  "n": 123
+ },
+ {
+  "id": "p110",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 7049.3,
+  "n": 124
+ },
+ {
+  "id": "p111",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 7080.23,
+  "n": 125
+ },
+ {
+  "id": "p112",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.63 s before the KO)",
+  "t_s": 7101.33,
+  "n": 126
+ },
+ {
+  "id": "p113",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 7298.67,
+  "n": 127
+ },
+ {
+  "id": "p114",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Triple at 7332.0 s",
+  "t_s": 7332.0,
+  "n": 128
+ },
+ {
+  "id": "p114",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +158 at 7420.66 s (KO 7420.93 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 7420.66,
+  "n": 129
+ }
+]

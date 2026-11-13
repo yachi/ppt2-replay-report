@@ -1,0 +1,29 @@
+{"event_corrections":[
+{"n":112,"id":"p099","side":"p2","op":"retype","t":6387.33,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Frames 6386.9-6388.0 (fr/g6/i112.png, i112b.png at 6387.15 vs 6387.6): T locks into the slot with the Mini T-SPIN banner, but no row clears (stack heights and rows identical before/after, no clear flash). Score +300 at 6387.27 (73260->73560) = zero-line mini T-spin, not a line clear (a single would be 300 too but B2B is kept: the next quad at 6388.13 scores +3600 = 2400x1.5). Zero-line spin, not a clear."},
+{"n":115,"id":"p102","side":"p1","op":"add","t":6668.67,"kind":"single","lines":1,"pc":0,"gc":0,"source":"Frames 6668.2-6669.0 (fr/g6/i115.png): O spawns 6668.67 (nextcount shift 6668.667), locks and clears one row at 6668.87, the KO frame (p2 board starts tilting in the same frame); banner '11 REN'; score +1950 (80544->82494 at 6668.87) = single 300 + 11 REN x150. Cleared row is coloured stack, no garbage."},
+{"n":118,"id":"p104","side":"p1","op":"remove","t":6736.97,"was":["quad",4,0],"source":"Frames 6736.5-6740.3 (fr/g6/i117a.png): only one TETRIS (banner at 6737.0, score +3600 at 6736.87 = B2B tetris after the 6734 TSD); after it only plain locks (score creeps 25388->25541) until the TSD at 6739.97. Chain logs two quads (6736.0 and 6736.97); the second is a duplicate."},
+{"n":118,"id":"p104","side":"p1","op":"remove","t":6742.53,"was":["quad",4,0],"source":"Frames 6740.4-6744.7 (fr/g6/i117b.png): TETRIS at ~6741.1 (1 REN, +3750), then a double at ~6742.1 (2 REN, +1232), single 3 REN (~6743.5), single 4 REN (~6744.5). No second tetris; chain quad at 6742.53 (0.1 s after the double) is a phantom."},
+{"n":118,"id":"p104","side":"p1","op":"add","t":6750.43,"kind":"quad","lines":4,"pc":0,"gc":0,"source":"Frames 6749.9-6752.6 (fr/g6/i117c.png): I taken out of HOLD (nextcount hold 6750.433) clears 4 rows at ~6750.5, TETRIS + BACK to BACK banner, score +3600 at 6750.60 (42822->46422 = 2400x1.5). Rows cleared were coloured stack, no garbage. Chain has no clear in the 16.6 s tail after 6747.47 except this missing one."}
+],
+"cell_edits":[
+{"n":115,"id":"p102","player":"p1","field":"pieces","was":103,"value":104,"source":"The O spawned 6668.67 locks (with a single) on the KO frame 6668.87 (fr/g6/i115.png); it was not in the chain."},
+{"n":115,"id":"p102","player":"p1","field":"max_combo","was":10,"value":11,"source":"Banner reads '11 REN' at 6668.87 after the KO-frame single (fr/g6/i115.png); score step +1950 = 300+11x150."},
+{"n":118,"id":"p104","player":"p1","field":"pieces","was":65,"value":67,"source":"nextcount p1 over the whole game: 31 shifts 6722.4-6735.4 plus 38 shifts 6735-6752.7 = 69; minus the first spawn (6722.467) and the first hold-into-empty (hold 6722.567, shift 6722.667) = 67 locks, the last one before the shift at 6752.600 = KO frame. The fast burst 6735.5-6736.6 checked frame by frame (fr/g6/i118.png): each shift is a real lock with drop points."}
+],
+"no_change":[
+{"n":113,"why":"Frames 6409.2-6410.4 (fr/g6/i113.png): 3 rows clear, banner T-SPIN Triple + BACK to BACK, score +7200 (4800x1.5) at 6410.30. Chain tst is right; banner reader misread."},
+{"n":114,"why":"Score +4800 at 6585.03 (14182->18982) = non-B2B TST; chain tst is right, banner reading 'Single' is wrong."},
+{"n":116,"why":"Chain already has tsd at 6740.07; frames (fr/g6/i117a.png) show T-SPIN Double + BACK to BACK at 6740.0, score +5400."},
+{"n":117,"why":"Chain already has tsd at 6747.47; score +3600 at 6747.57 (non-B2B after singles)."},
+{"n":119,"why":"p2 score rose 24247->25008 over 6832.7-6834.3 (two clears: single 300 + single REN1 450) and +600 at 6834.50; a TSS would add 2400+. Chain's plain single at 6832.6 is right."},
+{"n":120,"why":"Frames 6847.47-6848.0 (fr/g6/i120.png): the I is still at the top when the KO hits; no lock, score unchanged."},
+{"n":121,"why":"+65 at 6910.54 is drop points (any clear is >=300); no clear."},
+{"n":122,"why":"p2 score 10959->12323 (+1364) over 6929.5-6930.6 = single 300 + double REN1 1050 + drops; a B2B TSS after the TSD would be 3600. Chain single at 6929.4 is right."},
+{"n":123,"why":"Frames 7007.07-7007.53 (fr/g6/i123.png): the S is still at the top at the KO frame; no lock."},
+{"n":124,"why":"Frames 7048.97-7049.43 (fr/g6/i124.png): the Z locked at ~7049.10 (chain event 7048.87), then the O spawned and is still at the top at KO; nothing more to count."},
+{"n":125,"why":"Frames 7079.2-7080.33 (fr/g6/i125.png): after the J single at ~7079.4 the S spawned 7080.03 and was held (L out), L still at top at KO; no lock."},
+{"n":126,"why":"Frames 7100.6-7101.47 (fr/g6/i126.png): the J is still at the top at the KO, score unchanged; no lock."},
+{"n":127,"why":"Frames 7298.2-7298.8 (fr/g6/i127.png): Z from hold locked ~7298.27 (chain event 7298.0), O spawned 7298.33 and is still at the top at KO."},
+{"n":128,"why":"Frames 7332.3-7333.0 (fr/g6/i128.png): one row clears, banner '...N Single' + BACK to BACK; score +3600 = TSS 2400x1.5. Chain tss is right."},
+{"n":129,"why":"Frames 7419.9-7420.95 (fr/g6/i129.png): O, I, S lock with no clear; score 134444->134602 is drop points only."}
+]}

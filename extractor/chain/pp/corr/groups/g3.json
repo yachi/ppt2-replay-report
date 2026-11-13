@@ -1,0 +1,275 @@
+[
+ {
+  "id": "c086",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 4799.23,
+  "n": 60
+ },
+ {
+  "id": "c087",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 5052.8 s, no A clear matched (added by R/build.py)",
+  "t_s": 5052.8,
+  "n": 61
+ },
+ {
+  "id": "c087",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 5112.23,
+  "n": 62
+ },
+ {
+  "id": "c090",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +76 at 5289.07 s (KO 5289.83 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 5289.07,
+  "n": 63
+ },
+ {
+  "id": "c091",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 5325.13,
+  "n": 64
+ },
+ {
+  "id": "c092",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.83 s before the KO)",
+  "t_s": 5455.53,
+  "n": 65
+ },
+ {
+  "id": "c094",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c094",
+   "player": "p1",
+   "t_s": 5544.2,
+   "lit": [
+    [
+     54,
+     24,
+     10
+    ],
+    [
+     10,
+     84,
+     61
+    ],
+    [
+     50,
+     23,
+     25
+    ]
+   ]
+  },
+  "t_s": 5544.2,
+  "n": 66
+ },
+ {
+  "id": "c095",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c095",
+   "player": "p2",
+   "t_s": 5568.5,
+   "lit": [
+    [
+     46,
+     13,
+     30
+    ]
+   ]
+  },
+  "t_s": 5568.5,
+  "n": 67
+ },
+ {
+  "id": "c095",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c095",
+   "player": "p2",
+   "t_s": 5574.7,
+   "lit": [
+    [
+     60,
+     20,
+     36
+    ],
+    [
+     36,
+     32,
+     31
+    ]
+   ]
+  },
+  "t_s": 5574.7,
+  "n": 68
+ },
+ {
+  "id": "c095",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c095",
+   "player": "p1",
+   "t_s": 5575.0,
+   "lit": [
+    [
+     54,
+     17,
+     38
+    ],
+    [
+     38,
+     37,
+     36
+    ]
+   ]
+  },
+  "t_s": 5575.0,
+  "n": 69
+ },
+ {
+  "id": "c095",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.60 s before the KO)",
+  "t_s": 5884.53,
+  "n": 70
+ },
+ {
+  "id": "c096",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c096",
+   "player": "p2",
+   "t_s": 5901.1,
+   "lit": [
+    [
+     38,
+     34,
+     42
+    ]
+   ]
+  },
+  "t_s": 5901.1,
+  "n": 71
+ },
+ {
+  "id": "c098",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 6122.87,
+  "n": 72
+ },
+ {
+  "id": "c100",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +926 at 6249.84 s (KO 6249.87 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 6249.84,
+  "n": 73
+ },
+ {
+  "id": "c102",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c102",
+   "player": "p2",
+   "t_s": 6311.8,
+   "lit": [
+    [
+     55,
+     22,
+     26
+    ],
+    [
+     26,
+     37,
+     41
+    ]
+   ]
+  },
+  "t_s": 6311.8,
+  "n": 74
+ },
+ {
+  "id": "c106",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c106",
+   "player": "p2",
+   "t_s": 6542.0,
+   "lit": [
+    [
+     63,
+     26,
+     32
+    ]
+   ]
+  },
+  "t_s": 6542.0,
+  "n": 75
+ },
+ {
+  "id": "c106",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.40 s before the KO)",
+  "t_s": 6613.37,
+  "n": 76
+ },
+ {
+  "id": "c107",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 6759.47,
+  "n": 77
+ },
+ {
+  "id": "c109",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "c109",
+   "player": "p1",
+   "t_s": 6894.3,
+   "lit": [
+    [
+     48,
+     22,
+     32
+    ]
+   ]
+  },
+  "t_s": 6894.3,
+  "n": 78
+ },
+ {
+  "id": "c109",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 6920.2,
+  "n": 79
+ }
+]

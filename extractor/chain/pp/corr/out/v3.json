@@ -1,0 +1,117 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "Frames 5052.7-5053.2 (fr/v3/d.png): T locks flat at left, row stays open, stack unchanged; p2 score +300 at 5052.93 = zero-line mini."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "nextcount: spawns 5288.333 (missing from chain), 5288.667, 5288.967, 5289.133, 5289.433; score locks 5288.53 (+36) then +4650 PC at 5288.60, then 4 drop-point locks; 5 locks vs 4 chain events."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "nextcount 8 spawns 5543.567-5546.600; score locks 5543.73, 5543.97 (+4500 PC at 5544.03), 5544.30, 5544.63, 5544.97, 5545.10 (+300 single 5545.20), 5546.50 (+450,+2400 single PC), 5547.10: matches the replacement exactly."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v3/a.png: L locks 5568.20 on a 3-row stack of coloured piece cells (yellow/blue/red/orange/green), no grey garbage rows; PC banner 5568.30. gc 0 correct; score +36,+36 then +6900 shows two locks (S, L)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "fr/v3/b.png: p2 board before 5574.5 is 4 rows of coloured piece cells, no grey; S at top 5574.20 swapped for held I (5574.30), I drops into well, PC banner 5574.60. gc 0 correct."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "fr/v3/b.png + nextcount: p1 T spawned 5573.967 locks 5574.40 (+32), T spawned 5574.467 held, I out locks 5574.70 (+34), PC +13200 by 5574.90; 4 coloured rows, no grey. gc 0 correct, spawn 5574.467 missing from chain."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "nextcount p2 shifts 5899.267, 5899.733, 5900.033, 5900.367; chain lacks 5899.267 (prior event 5898.93)."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score: S lock +26 at 6248.20 then +600 (single + REN 300) at 6248.27; chain had None."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "nextcount shift 6249.733; score +26 at 6249.80, +900 at 6249.87 = end_s (6249.87) KO frame, so counted."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "fr/v3/c.png: board before L lock is 3 rows of coloured cells, no grey; I at top 6311.30 swapped for held L, L locks 6311.50 (+38), PC 6311.60. nextcount shifts 6311.300, 6311.600. gc 0 correct."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "nextcount shifts 6541.500, 6541.833, 6542.367; chain's prior event 6540.57, so 6541.50 spawn missing."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "nextcount shifts 6893.533, 6894.167, 6894.400; chain's prior event 6892.70, so 6893.53 spawn missing."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "score +32 at 5111.97 (5111.77 piece) and +28 at 5112.23 = end_s 5112.23: a lock on the KO frame."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "follows e1 (spawn 5288.333 missing)."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "follows e2 (8 spawns vs 7 events)."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "follows e3 (spawn 5568.13 missing)."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "follows e5 (nextcount 5574.467)."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "follows e6."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "follows e8 (I locked 6249.80 before KO 6249.87)."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "score REN bonuses +150/+300/+450/+600 on quad, single, single, single after the TSD: REN 4."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "follows e9."
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "follows e10."
+ },
+ {
+  "ref": "c10",
+  "verdict": "keep",
+  "why": "follows e11."
+ }
+]

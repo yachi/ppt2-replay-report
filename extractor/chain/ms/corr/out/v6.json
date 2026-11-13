@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v6/a.png 6387.0-6387.6: T locks into the slot with the Mini T-SPIN banner, but no row clears and the stack is the same before and after. Score at 6387.30 is +300 (73260->73560), which is a zero-line mini; a mini single would be 600. The next quad scores B2B +3654 at 6388.20."},
+{"ref":"e1","verdict":"keep","why":"fr/v6/b.png: an O spawns 6668.667 (nextcount) and locks at about 6668.80 (+38 drop points). The row clears at 6668.87, the KO frame (p2 board starts tilting), with an 11 REN banner. Score +1950 = 300 + 11x150."},
+{"ref":"e2","verdict":"keep","why":"score.py 6733.5-6741: one tetris jump only, at 6736.87 (+3600 B2B). After it there are only drop points until the TSD at 6739.97 (+5400). The chain quad at 6736.97 is a duplicate of the one at 6736.0."},
+{"ref":"e3","verdict":"keep","why":"Score jumps after the TSD: tetris 6741.13 (+3750), double 6742.10 (+1200), singles 6743.53 (+783), 6744.50 (+936) and 6745.50 (+1086), then TSD 6747.57 (+3600). There is no second tetris, so the chain quad at 6742.53 is a phantom. The three chain singles (6743.57, 6744.9, 6745.33) are right. The checker's text names only two singles; that does not affect this removal."},
+{"ref":"e4","verdict":"keep","why":"Score +3600 at 6750.60 (42822->46422), a B2B tetris after the 6747 TSD, and no chain clear covers it. nextcount shows I out of HOLD at 6750.433."},
+{"ref":"c0","verdict":"keep","why":"The O spawned at 6668.667 locks before the KO frame (frames 6668.80/6668.87). It is not in the chain, so pieces go up by 1."},
+{"ref":"c1","verdict":"keep","why":"An 11 REN banner appears at 6668.87, and the score step 1950 = 300 + 11x150, so max_combo is 11."},
+{"ref":"c2","verdict":"keep","why":"nextcount p1 6722.0-6752.7 gives 69 shifts (first 6722.467, first hold-into-empty 6722.567, last shift 6752.600 at KO). 69 minus the piece in hand and the piece in hold = 67 locks. The burst at 6735.5-6736.6 matches drop-point steps in score.py."}
+]

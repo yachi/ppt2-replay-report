@@ -5814,5 +5814,748 @@
   "pc": 0,
   "gc": 0,
   "source": "b0 frame check, verified: fr/g0/b012.png: T (out of hold at 1674.50) locks top-right ~1674.74; T-SPIN banner appears 1674.87 but no row flashes and the stack is identical before/after (1674.74 vs 1674.87-1675.14). score.py p2 +300 at 1674.83 = zero-line Mini T-spin (100x3), not a Mini T-spin Single (600). A lock with 0 lines."
+ },
+ {
+  "id": "c000",
+  "side": "p2",
+  "op": "retype",
+  "t": 161.33,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: T locked into the blue row ~161.2 s; board before (161.15) and after (161.55) has identical row heights, no row removed (fr/g0/i0b.png, i0.png). Banner reads only 'Mini T-SPIN' with no 'Single' (fr/g0/ban.png). Score +300 at 161.27 (20044->20344) = zero-line mini T-spin at level 3, not a mini single (600, x1.5 B2B after the 158.83 B2B tetris). So a zero-line mini T-spin lock, not a line clear."
+ },
+ {
+  "id": "c038",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2022.47,
+  "source": "b1 frame check, verified: Z hard-dropped at 2022.57-2022.67 on p2, two coloured rows flash white under the lingering TETRIS banner (corr/fr/g1/c038.png, c038z.png); score +1068 at 2022.67 = double 900 + REN1 150 + drops; '1 REN' banner at 2022.80. This plain double breaks B2B, which is why the TSD at 2025.80 scores +3600 (no B2B) instead of the chain's predicted 5400.",
+  "t_end": 2022.47,
+  "events": [
+   {
+    "t": 2022.47,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2022.47,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "c045",
+  "side": "p2",
+  "op": "retype",
+  "t": 2368.4,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: T rotated into the top-left corner and locked at 2368.25-2368.32 (Mini T-SPIN banner from 2368.38), but no row cleared: stack unchanged in corr/fr/g1/c045.png 2368.32-2368.72; score +300 at 2368.37 = zero-line mini T-spin (100x3), a mini single would be 600. The event at 2368.4 is the S spawn (spawns 2367.92 T, 2368.38 S, 2368.58 O), so it stays as a plain lock."
+ },
+ {
+  "id": "c047",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2516.57,
+  "source": "b1 frame check, verified: Game lagged into slow motion 2517-2528 (O falls ~1 row/0.8 s, both scores frozen, corr/fr/g1/c047a.png). p1: J (event 2515.57) locked ~2516.4 (+28), O spawned 2516.43 (event 2516.43) fell slowly and locked ~2528.8 (+8 at 2529.10); next spawn 2528.83 (Z held, T out -> TSD). No other lock: score constant 139194 from 2516.33 to 2528.73. 2516.57 is a spliced phantom.",
+  "t_end": 2516.57,
+  "events": [],
+  "was_old": [
+   [
+    2516.57,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "c047",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2522.77,
+  "source": "b1 frame check, verified: Same lag window. p2: Z spawned 2516.67, held at 2523.2 for the I, which cleared 4 garbage rows at ~2527.83 (+3752 = B2B tetris + 1 REN; corr/fr/g1/c047b.png) = chain event 2516.67 quad. Next spawn 2528.60. Score constant 92284 from 2515.93 to 2527.83, so no lock at 2522.77: phantom.",
+  "t_end": 2522.77,
+  "events": [],
+  "was_old": [
+   [
+    2522.77,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "c048",
+  "side": "p2",
+  "op": "remove",
+  "t": 2727.93,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b1 frame check, verified: Lag window again (L/O fall in slow motion 2726-2731, corr/fr/g1/c048.png). p2 spawns only at 2725.80, 2731.13, 2731.47, 2731.80. The O spawned 2725.80 cleared one row at 2730.53 (+1050 = single + 5 REN, '5 REN' banner at 2730.90) = chain 2725.8 single. Score 97314 constant 2725.20-2730.53 and no further clear until 2732.03 (+302): 2727.93 single is a phantom."
+ },
+ {
+  "id": "c048",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 2724.4,
+  "source": "b1 frame check, verified: Spurious REN break: banners show '4 REN' at 2725.50 (clear of piece 2724.53) and '5 REN' at 2730.90 (clear of piece 2725.8), so the run tsd 2720.7, singles 2721.8/2722.6, tsmini 2723.6, singles 2724.53/2725.8 is unbroken (corr/fr/g1/c048.png).",
+  "t_end": 2724.4,
+  "events": [],
+  "was_old": [
+   [
+    2724.4,
+    "BREAK",
+    3
+   ]
+  ]
+ },
+ {
+  "id": "c048",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2725.8,
+  "source": "b1 frame check, verified: p1 spawns at 2725.23, 2725.53, 2725.83 (L), then 2731.90 (T -> TSD). Score: +22 at 2725.73 (2725.53 piece), then constant 89681 until +6 at 2731.80 when the slowly falling L locks (corr/fr/g1/c048.png). 2725.8 duplicates 2725.83.",
+  "t_end": 2725.8,
+  "events": [],
+  "was_old": [
+   [
+    2725.8,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "c048",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2726.13,
+  "source": "b1 frame check, verified: No spawn or lock at 2726.13: only the L (spawn 2725.83) is on screen falling in slow motion until ~2731.8; score constant 89681 2725.73-2731.80 (corr/fr/g1/c048.png). Phantom.",
+  "t_end": 2726.13,
+  "events": [],
+  "was_old": [
+   [
+    2726.13,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "c057",
+  "side": "p2",
+  "op": "retype",
+  "t": 3192.3,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: T locked at ~3192.27 with Mini T-SPIN banner and +300 (zero-line mini, 100x3); no row removed: board identical 3192.20 vs 3192.40-3192.80 (corr/fr/g1/c057m.png). Event 3192.3 is the O spawn (3192.40), so it stays a plain lock."
+ },
+ {
+  "id": "c067",
+  "side": "p2",
+  "op": "remove",
+  "t": 3688.13,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b2 frame check, verified: p2 score flat 50008 from 3687.47 to 3702.13 (no lock, both players hover pieces ~14 s, corr/fr/g2/c067a.png 3687-3703 1 s steps); nextcount p2 shifts only at 3687.167, 3688.067, 3702.833 in the window; the 3688.07 piece locks at 3702.13 (+1650 = double + REN5, '5 REN' banner 3703). Phantom single."
+ },
+ {
+  "id": "c067",
+  "side": "p2",
+  "op": "remove",
+  "t": 3692.6,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b2 frame check, verified: same evidence as n45: no spawn and no score change at all between 3688.07 and 3702.83 (nextcount p2; score.py; corr/fr/g2/c067a.png). Real doubles are 3688.07 (locks 3702.13, +1650) and 3702.83 (locks 3703.17, +1800 = 900 + REN6). Phantom double; explains the -3414 score_spot."
+ },
+ {
+  "id": "c075",
+  "side": "p2",
+  "op": "retype",
+  "t": 4184.23,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b2 frame check, verified: T into slot, 'T-SPIN Double' + BACK to BACK banner (corr/fr/g2/c075.png 4184.6-4185.5); p2 score +5550 at 4184.87 = TSD 3600x1.5 B2B + REN1 150 (plain double would be 1050)."
+ },
+ {
+  "id": "c080",
+  "side": "p1",
+  "op": "retype",
+  "t": 4498.73,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "source": "b2 frame check, verified: Mini T-spin at 4498.63-4498.67 cleared no line: board rows unchanged, 'T-SPIN' banner only (corr/fr/g2/c080.png); p1 score +300 at 4498.67 = zero-line mini T-spin (mini single B2B would be 900); following TSD +5400 has no REN bonus. Zero-line spin, no clear."
+ },
+ {
+  "id": "c087",
+  "side": "p2",
+  "op": "retype",
+  "t": 5053.0,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Banner reads 'Mini T-SPIN' (no 'Single'); T locked flat at bottom-left ~5052.85, no row cleared (column 4 still open, stack top unchanged, before/after crops /tmp/claude-0/pp/corr/fr/g3/n61b.png, sheet /tmp/claude-0/pp/corr/fr/g3/n61.png); score +300 at 5052.93 = zero-line mini T-spin at level 3, not +600. Not a line clear."
+ },
+ {
+  "id": "c090",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5288.67,
+  "t_end": 5288.67,
+  "events": [
+   {
+    "t": 5288.33,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5288.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5288.67,
+    "double",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount: spawn at 5288.333 (O, held, J out) which the chain lacks; J locked ~5288.54 with 2-line PERFECT CLEAR (score +4650 at 5288.60, board empty, /tmp/claude-0/pp/corr/fr/g3/n63.png). The 5288.667 spawn (I) locked 5288.87 with +38 only. The +76 'KO-tail' jump is two drop-point locks (5288.87, 5289.07) merged by unreadable digits, no missed clear; Z spawned 5289.77 did not lock by KO (/tmp/claude-0/pp/corr/fr/g3/n63b.png)."
+ },
+ {
+  "id": "c094",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5543.57,
+  "t_end": 5546.73,
+  "events": [
+   {
+    "t": 5543.57,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5543.83,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5544.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5544.4,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5544.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5545.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 5545.9,
+    "kind": "single",
+    "lines": 1,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5546.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5543.57,
+    null,
+    0
+   ],
+   [
+    5544.1,
+    "double",
+    2
+   ],
+   [
+    5544.4,
+    null,
+    0
+   ],
+   [
+    5544.73,
+    null,
+    0
+   ],
+   [
+    5545.07,
+    "single",
+    1
+   ],
+   [
+    5545.9,
+    "single",
+    1
+   ],
+   [
+    5546.73,
+    "single",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount spawns 5543.567, 5543.833, 5544.10, 5544.40, 5544.73, 5545.07, 5545.90, 5546.60 (8) vs 7 chain events. J spawned 5543.83 locked ~5543.97 with the 2-line PC (+36 then +4500 at 5544.03; sheet /tmp/claude-0/pp/corr/fr/g3/n66a.png) - the chain dropped this spawn and put the PC on the O at 5544.10. Second PC: I spawned 5545.90 locked ~5546.5 as single + PERFECT CLEAR (+38,+450,+2400 at 5546.50-57; board empty, /tmp/claude-0/pp/corr/fr/g3/n66.png); the S spawned 5546.60 locked 5547.10 with +38 only. Score shows only ONE clear between 5545.20 and 5546.50, so the chain's three singles are two. The 5544.2 banner onset is the first PC's pop-in, no extra PC."
+ },
+ {
+  "id": "c095",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5568.33,
+  "t_end": 5568.33,
+  "events": [
+   {
+    "t": 5568.13,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5568.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5568.33,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b3 frame check, verified: L spawned 5568.13 (chain lacks it) locked 5568.20 with a triple PERFECT CLEAR (+36 then +6900 at 5568.33; sheet /tmp/claude-0/pp/corr/fr/g3/n67.png). Rows cleared are coloured piece rows, no grey garbage, so gc 0 (chain had 3). Z spawned 5568.33 locked 5569.03 with drop points only. Banner onset at 5568.5 is this PC's pop-in."
+ },
+ {
+  "id": "c095",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5574.2,
+  "t_end": 5574.53,
+  "events": [
+   {
+    "t": 5574.2,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5574.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5574.2,
+    null,
+    0
+   ],
+   [
+    5574.53,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b3 frame check, verified: Spawn 5574.20 (I via hold) locks ~5574.5 with the quad PERFECT CLEAR (score +13234 at 5574.53, PC banner 5574.60; /tmp/claude-0/pp/corr/fr/g3/n68.png); spawn 5574.53 locks 5575.00 with +38 only. Cleared rows are coloured pieces, no grey garbage (gc 0, chain had 4). Same piece count; the clear moves one piece earlier. Onset 5574.7 is this PC."
+ },
+ {
+  "id": "c095",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5574.9,
+  "t_end": 5574.9,
+  "events": [
+   {
+    "t": 5574.47,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5574.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5574.9,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b3 frame check, verified: I spawned 5574.47 (chain dropped it as a double-log) locked ~5574.7 with the quad PERFECT CLEAR (+34 at 5574.70 then +13200 at 5574.83; board empty, /tmp/claude-0/pp/corr/fr/g3/n68.png); spawn 5574.90 locked 5575.30 with drop points only. Coloured rows, no garbage: gc 0 (chain had 4). Onset 5575.0 is this PC."
+ },
+ {
+  "id": "c096",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5899.73,
+  "t_end": 5899.73,
+  "events": [
+   {
+    "t": 5899.27,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 5899.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    5899.73,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount spawn 5899.267 (chain dropped it as double-log) locked 5899.63 (+34) then +1500 +5400 at 5899.67-77 = triple PERFECT CLEAR; spawn 5899.73 locked 5900.17 with +39 only. Onset 5901.1 is a later flicker of the same banner; no second PC."
+ },
+ {
+  "id": "c100",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6248.07,
+  "source": "b3 frame check, verified: S spawned 6248.07 locked 6248.17 (+26) and cleared one row with '2 REN' banner (+600 = single 300 + REN 300 at 6248.27); sheet /tmp/claude-0/pp/corr/fr/g3/n73a.png.",
+  "t_end": 6248.07,
+  "events": [
+   {
+    "t": 6248.07,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6248.07,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "c100",
+  "side": "p1",
+  "op": "add",
+  "t": 6249.73,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: I spawned 6249.73 locked vertically at 6249.77 (+26 at 6249.80), one coloured row flashes and +900 (single + REN 600) at 6249.87 = KO frame; sheet /tmp/claude-0/pp/corr/fr/g3/n73b.png. This is the 'KO-tail +926'."
+ },
+ {
+  "id": "c102",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6311.6,
+  "t_end": 6311.6,
+  "events": [
+   {
+    "t": 6311.3,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 6311.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6311.6,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b3 frame check, verified: Spawn 6311.30 (chain dropped it) -> L locked 6311.50 with a triple PERFECT CLEAR (+38, +1500, +5400 at 6311.50-63; coloured rows only, /tmp/claude-0/pp/corr/fr/g3/n74.png), gc 0 (chain had 3). Spawn 6311.60 locked 6312.13 with +38 only. Onset 6311.8 is this PC's pop-in."
+ },
+ {
+  "id": "c106",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 6541.83,
+  "t_end": 6541.83,
+  "events": [
+   {
+    "t": 6541.5,
+    "kind": "single",
+    "lines": 1,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 6541.83,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6541.83,
+    "single",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount spawn 6541.50 (missing from chain) locked 6541.73 (+35) then +2850 at 6541.90 = single PERFECT CLEAR; spawn 6541.83 locked 6542.33 with +36 only. Onset 6542.0 is this PC's pop-in."
+ },
+ {
+  "id": "c109",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6894.17,
+  "t_end": 6894.17,
+  "events": [
+   {
+    "t": 6893.53,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 6894.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6894.17,
+    "double",
+    2
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount spawn 6893.53 (chain dropped it as double-log) locked 6894.03 (+36) then +4650 at 6894.10 = double PERFECT CLEAR; spawn 6894.17 locked 6894.30 with +38 only. Onset 6894.3 is this PC's pop-in."
+ },
+ {
+  "id": "c111",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 6967.33,
+  "t_end": 6967.33,
+  "events": [
+   {
+    "t": 6967.33,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    6967.33,
+    null,
+    0
+   ],
+   [
+    6967.33,
+    null,
+    0
+   ],
+   [
+    6967.33,
+    "tsd",
+    2
+   ]
+  ],
+  "source": "b4 frame check, verified: fr/g4/c111a.png: one T spawns ~6967.3 and goes straight into the TSD (flash 6967.87, score 10895->16445 at 6967.97 = TSD B2B 5400 + REN 150). nextcount shows a single shift at 6967.333; the two None locks at the same t are phantoms (double shift)."
+ },
+ {
+  "id": "c116",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7152.1,
+  "t_end": 7153.63,
+  "events": [
+   {
+    "t": 7152.1,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 1
+   },
+   {
+    "t": 7152.27,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7152.47,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7152.67,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7153.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7153.33,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 7153.63,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    7152.1,
+    "triple",
+    3
+   ],
+   [
+    7152.67,
+    null,
+    0
+   ],
+   [
+    7153.07,
+    null,
+    0
+   ],
+   [
+    7153.33,
+    "double",
+    2
+   ],
+   [
+    7153.63,
+    "double",
+    2
+   ]
+  ],
+  "source": "b4 frame check, verified: fr/g4/c116a.png + score.py + nextcount: after the triple PC (board empty 7152.10, score ->17861) p1 locks O (~7152.4), I (~7152.55; the +76 at 7152.53/57 is these two drop scores, no clear), L (+36 7152.97), J (+36 7153.23), O (+38 7153.50) which clears the last 2 rows: second PERFECT CLEAR (empty board + banner 7153.60, +4500 at 7153.57), then Z (out of hold) locks +38 at 7153.80; S spawned 7153.9 at KO not locked. nextcount spawns 7152.1, 7152.467, 7152.667, 7153.067, 7153.333, 7153.633 = 6 locks after the triple; chain had 4 with a phantom second double at 7153.63 and no pc on the real double. Pieces total stays 26 (28 shifts - 1 hold-into-empty - 1 unlocked at KO), which the csv already has."
  }
 ]

@@ -1,0 +1,22 @@
+[
+{"ref":"e0","verdict":"keep","why":"p1 score 7797->11131 at 8912.60 (+3334 = single+REN+single PC bonus 2400); frames 8912.6-8913.5 show one white row clearing and PERFECT CLEAR over an empty board (/tmp/claude-0/ms/corr/fr/g8/s150.png)"},
+{"ref":"e1","verdict":"keep","why":"6409->7797 at ~8912.1: +1388 = double 900 + REN3 450 + drops; prior clears were +450/+600 singles, so this one is a double"},
+{"ref":"e2","verdict":"keep","why":"vertical I locks 8913.17 with +36 only, no clear; next spawn 8913.267"},
+{"ref":"e3","verdict":"keep","why":"11316->15816 at 8914.43 = +4500 = double 900 + double-PC 3600 with REN reset by the no-clear I; only a double PC fits"},
+{"ref":"e4","verdict":"keep","why":"after 8914.43 score rises only by drop points (15816->15849 by 8915.0); no second clear"},
+{"ref":"e5","verdict":"keep","why":"/tmp/claude-0/ms/corr/fr/v8/a152.png: the L spawned 8968.13 hangs until it locks ~8973.1 (+12); only spawns 8973.2 (I, held, T out) and next 8974.43, so one lock for the T; 8973.23 None is a duplicate"},
+{"ref":"e6","verdict":"amend","why":"score 53085 -> 54617 (+1532 = triple) -> 57187 at the 9459.3 TETRIS (+2570 = tetris+REN1), cropped strips /tmp/claude-0/ms/corr/fr/v8/st156.png; it is a triple. Before/after crop /tmp/claude-0/ms/corr/fr/v8/b156.png: two coloured rows plus the top grey row cleared by the vertical I in the right well (grey stack drops one row), so gc 1, not the old 4","amended":{"kind":"triple","lines":3,"gc":1}},
+{"ref":"e7","verdict":"keep","why":"p2 48618->49838 at 9538.93 = +1220 = double 900 + REN2 300 + drops (quad before it was REN1, +2570); piece spawned 9538.667"},
+{"ref":"e8","verdict":"keep","why":"p1 score flat 195602->195659 from 9627.23 to 9629.03 (drop points only); first clear jump is +913 at 9630.10; observed jumps 913/932/~511/943 = four clears against the chain's five, so the 9628.47 double is the phantom"},
+{"ref":"e9","verdict":"keep","why":"/tmp/claude-0/ms/corr/fr/v8/a162.png: Z locks 9992.3, one white row clears, REN 1->2, score 122534->123134 (+600) at 9992.40"},
+{"ref":"e10","verdict":"keep","why":"score +4500 at 10011.57 (17998->22498, double+double PC); lock drop +38 at 10011.43 belongs to the O spawned 10011.3 (nextcount), before the Z spawn 10011.633"},
+{"ref":"e11","verdict":"keep","why":"Z spawned 10011.633 is held at 10011.667; afterwards only drop-point increments to KO"},
+{"ref":"e12","verdict":"keep","why":"10931->17831 at 10009.57 = +6900 = triple 1500 + triple PC 5400"},
+{"ref":"e13","verdict":"keep","why":"after 10009.57 only drop points (17870, 17906, 17942...) until the PC at 10011.57; no second triple"},
+{"ref":"e14","verdict":"keep","why":"nextcount: spawns 10028.367 then 10029.467, nothing between; the three 10029.33 locks are phantoms"},
+{"ref":"e15","verdict":"keep","why":"score 660->7560 at 10023.93 (+6900 triple PC); locks +36 at 10023.10 (O) and 10023.27 (Z), +38 at 10023.87 for the piece after the T spawn 10023.367/hold 10023.467, before the J spawn 10024.0"},
+{"ref":"e16","verdict":"keep","why":"the PC jump (10023.93) precedes the J spawn 10024.0; J's lock has no clear"},
+{"ref":"c0","verdict":"keep","why":"p1 score 38388->38420 (+32 hard drop) at exactly 8896.47 = end_s, a lock on the KO frame with no clear"},
+{"ref":"c1","verdict":"keep","why":"follows e5 (one duplicate None removed)"},
+{"ref":"c2","verdict":"keep","why":"my nextcount: 69 spawns 10020.167-10048.567; at KO the L is held (10048.633) and the J from hold has not locked (score only +1 soft drop at 10048.80, after KO) -> 67; chain has 69 events by KO, -3 phantoms +1 missing L = 67"}
+]

@@ -1,0 +1,436 @@
+{
+ "event_corrections": [
+  {
+   "n": 37,
+   "id": "p038",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 2271.5,
+   "t_end": 2281.0,
+   "events": [
+    {
+     "t": 2271.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2271.5,
+     "single",
+     1
+    ],
+    [
+     2271.67,
+     "single",
+     1
+    ],
+    [
+     2271.7,
+     "BREAK",
+     2
+    ],
+    [
+     2278.93,
+     "single",
+     1
+    ]
+   ],
+   "source": "Game stalled ~2272-2281.3 (both boards frozen, scores constant). p2: Z from hold cleared a single (REN6) by 2271.2 (chain 2270.27); I spawned 2271.5, held at 2271.73, L out; L sat until ~2281 and its single cleared at 2281.4 (score 23491->24841 = +1350 = single REN7, '7 REN' banner); next spawn 2281.93 (L held 2283.63 -> I quad +3632 ~2285.3, matches chain quad). No break (REN 6->7), no other locks/clears in window. Images /tmp/claude-0/ms/corr/fr/g2/p038g.png, p038i.png, p038h.png; nextcount p2 2270.5-2283.5 shows only shifts 2271.5 and 2281.93."
+  },
+  {
+   "n": 38,
+   "id": "p039",
+   "side": "p1",
+   "op": "retype",
+   "t": 2377.2,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "nextcount: spawn 2377.20 (S held, I out); that I filled the last row and the PERFECT CLEAR (single) shows by 2377.47 (score 14876). /tmp/claude-0/ms/corr/fr/g2/p039a.png"
+  },
+  {
+   "n": 38,
+   "id": "p039",
+   "side": "p1",
+   "op": "retype",
+   "t": 2377.5,
+   "was": [
+    "single",
+    1,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Piece spawned 2377.50 is the next I, it locks at the bottom ~2377.7 with drop points only (14876->14913), no clear; the PC belongs to the 2377.20 piece. The KO-tail +75 at 2377.93 is just two hard-drop locks (I at 2377.70 +37, S at 2377.93 +38). /tmp/claude-0/ms/corr/fr/g2/p039a.png"
+  },
+  {
+   "n": 40,
+   "id": "p041",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2553.77,
+   "t_end": 2553.77,
+   "events": [
+    {
+     "t": 2553.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2553.77,
+     null,
+     0
+    ],
+    [
+     2553.77,
+     null,
+     0
+    ],
+    [
+     2553.77,
+     null,
+     0
+    ]
+   ],
+   "source": "Chain logs the 2553.77 spawn three times. nextcount p1 2549.5-2554.2: spawns 2553.533, 2553.767, 2554.133 only; score shows one drop lock each (2553.67 +34, 2554.03 +30). Two phantom locks, which shift the 7-bag alignment from spawn ~147 on (the bad bags). 2557.57 is also logged twice but nextcount has two real spawns there (2557.40, 2557.567), so that pair is correct."
+  },
+  {
+   "n": 43,
+   "id": "p045",
+   "side": "p1",
+   "op": "retype",
+   "t": 2751.57,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "L spawned 2751.567 completes the 3-row stack: board empty, PERFECT CLEAR banner from 2751.8, score 10964->17864 (+6900 = triple PC 2300x3). /tmp/claude-0/ms/corr/fr/g2/p045a.png"
+  },
+  {
+   "n": 43,
+   "id": "p045",
+   "side": "p1",
+   "op": "retype",
+   "t": 2751.77,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "O spawned 2751.767 was held (2751.87), Z out; Z locked on the empty board ~2752.17 with drop points only (17864->17940); no second clear. /tmp/claude-0/ms/corr/fr/g2/p045a.png"
+  },
+  {
+   "n": 45,
+   "id": "p047",
+   "side": "p2",
+   "op": "remove",
+   "t": 2895.3,
+   "was": [
+    "BREAK",
+    4,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 45,
+   "id": "p047",
+   "side": "p2",
+   "op": "remove",
+   "t": 2909.53,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 46,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2896.97,
+   "was": [
+    "BREAK",
+    1,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 46,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2899.53,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 46,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2901.97,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 46,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2910.03,
+   "was": [
+    "BREAK",
+    1,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 47,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2919.23,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 47,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2922.77,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 47,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2924.87,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 47,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2927.3,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 48,
+   "id": "p047",
+   "side": "p2",
+   "op": "remove",
+   "t": 2928.3,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 49,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2931.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 49,
+   "id": "p047",
+   "side": "p1",
+   "op": "remove",
+   "t": 2941.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 50,
+   "id": "p047",
+   "side": "p2",
+   "op": "remove",
+   "t": 2944.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 50,
+   "id": "p047",
+   "side": "p2",
+   "op": "remove",
+   "t": 2949.4,
+   "was": [
+    "BREAK",
+    1,
+    0
+   ],
+   "source": "Phantom: no spawn and no score change there, REN never breaks. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 37,
+   "id": "p038",
+   "player": "p2",
+   "field": "pieces",
+   "was": 186,
+   "value": 179,
+   "source": "Window 2271.5-2281.9 holds one lock, chain had 3 (2 phantom). Chain non-BREAK events 181 - 2 = 179, which equals extractor A's own count (179). See /tmp/claude-0/ms/corr/fr/g2/p038g.png"
+  },
+  {
+   "n": 40,
+   "id": "p041",
+   "player": "p1",
+   "field": "pieces",
+   "was": 190,
+   "value": 188,
+   "source": "Two phantom duplicate locks at 2553.77 (nextcount p1 2549.5-2554.2, score drop increments); csv equals the chain event count 190."
+  },
+  {
+   "n": 46,
+   "id": "p047",
+   "player": "p1",
+   "field": "pieces",
+   "was": 109,
+   "value": 95,
+   "source": "3 phantom locks removed (2919.23, 2931.07, 2941.5); chain non-BREAK events 98-3 = 95, equal to extractor A's count 95. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 46,
+   "id": "p047",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 11,
+   "value": 14,
+   "source": "Unbroken REN from 2893.73 single to 2961.63 single: 15 clears; score steps confirm REN2..REN14 (single +2400 at 2961.63), break +305 at 2963.57. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 45,
+   "id": "p047",
+   "player": "p2",
+   "field": "pieces",
+   "was": 112,
+   "value": 107,
+   "source": "3 phantom locks removed (2909.53, 2928.3, 2944.7); chain non-BREAK 110-3 = 107, equal to extractor A's 107. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  },
+  {
+   "n": 45,
+   "id": "p047",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 7,
+   "value": 13,
+   "source": "Unbroken REN 2893.93 single .. 2958.57 single (14 clears): double REN2 +1224, quad REN6 +3300, double REN12 +2700, single REN13 +2250 at 2958.67; BREAKs 2895.3 and 2949.4 phantom. p047 2896-2953 is a heavy lag stretch: each player locks one piece every ~15-20 s and every lock is a REN single. Score trace (corr/fr/g2/p047score.txt) p1: +624 2898.27 (REN2), +750 2910.27, +900 2930.30, +1050 2947.13, +1200 2953.60, ... TSS +3900 (REN10) 2957.80, +2550 double REN11, +2100, +2250, +2400 (REN14) 2961.63, then +305 plain single 2963.57. p2: +1224 2898.27 (double REN2), +750 2914.17, +900 2934.07, +1050 2949.83, +3300 quad REN6 2952.53, ... +2700 double REN12 2957.83, +2250 single REN13 2958.67. nextcount p1 spawns 2895.667, 2896.867, 2910.9, 2930.933, 2947.767; p2 2895.533, 2896.467, 2914.833, 2934.733, 2950.5. Overview /tmp/claude-0/ms/corr/fr/g2/p047o.png."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 39,
+   "why": "Last piece (O out of hold after L held at 2378.33) locks with score 15023 first at 2378.50, one frame after KO 2378.47; J (spawn 2378.0) locked 2378.20 and is in the chain. /tmp/claude-0/ms/corr/fr/g2/p039a.png"
+  },
+  {
+   "n": 41,
+   "why": "S spawned 2578.07 is still at the top, moving, at 2578.30 (after KO 2578.27); p2 score unchanged 110750. /tmp/claude-0/ms/corr/fr/g2/p041k.png"
+  },
+  {
+   "n": 42,
+   "why": "Score 16384->21184 (+4800 = TST) at ~2599.8, banner reads '...Triple'; TST correct, 'T-SPIN Single' read was wrong. /tmp/claude-0/ms/corr/fr/g2/p042a.png"
+  },
+  {
+   "n": 44,
+   "why": "Score 24994->29794 (+4800 = TST) at ~2782.5, banner '...Triple'. /tmp/claude-0/ms/corr/fr/g2/p046a.png"
+  },
+  {
+   "n": 51,
+   "why": "Window 2947.77-2954.37 correct: S spawned 2947.77, held 2953.2, L out cleared single REN6 (+1200 at 2953.60); next spawn 2954.23 = chain 2954.37 (REN7 +1358 at 2955.13). The 'weak 2' shift at 2954.23 is a misread; score shows one clear per piece."
+  },
+  {
+   "n": 52,
+   "why": "L spawned 2989.10 still at the top at 2989.37 (KO 2989.33); piece out of hold (spawn 2988.87) locked ~2989.0 and is in the chain. /tmp/claude-0/ms/corr/fr/g2/p047k.png"
+  },
+  {
+   "n": 53,
+   "why": "J spawned 3017.27 still at the top in 3017.43 (KO 3017.37); score unchanged 29102. /tmp/claude-0/ms/corr/fr/g2/p048k.png"
+  },
+  {
+   "n": 54,
+   "why": "+5400 is the B2B TSD already in the chain (t 3044.23); the T locks ~3044.70, before KO 3044.73, score display updates 3044.77. /tmp/claude-0/ms/corr/fr/g2/p049k.png"
+  },
+  {
+   "n": 55,
+   "why": "Score 583->5383 (+4800 = TST) at ~3058.7, banner '...Triple'; TST correct. /tmp/claude-0/ms/corr/fr/g2/p050a.png"
+  }
+ ]
+}

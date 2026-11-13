@@ -1,0 +1,28 @@
+{"event_corrections":[
+{"n":0,"id":"p000","side":"p1","op":"add","t":49.23,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount shift at 49.233 (I, swapped with held J at ~49.33) has no chain event; the J hard-drops and locks at 49.43 = end_s with no clear (score 42479->42503 at 49.43, drop points only). fr/g0/p000.png, p000b.png"},
+{"n":6,"id":"p009","side":"p1","op":"retype","t":451.27,"was":["single",1,0],"kind":"single","lines":1,"pc":1,"source":"Piece locks ~451.33 completing the only remaining row; board empty, PERFECT CLEAR banner + 1 REN at 451.47-452.1; score 11701->14589 (+2888 = single+PC+REN1). fr/g0/p009a.png"},
+{"n":6,"id":"p009","side":"p1","op":"retype","t":451.53,"was":["single",1,0],"kind":null,"lines":0,"source":"Phantom second single: after the PC the next piece (L) locks on the empty floor ~451.6 with no clear; score only +1/+74 drop points 451.6-451.97, no clear flash. fr/g0/p009a.png"},
+{"n":13,"id":"p017","side":"p2","op":"retype","t":930.13,"was":["triple",3,0],"kind":"triple","lines":3,"pc":1,"source":"Z held, L dropped vertically into the 3-row stack ~930.45 clearing all 3 rows; board empty, PERFECT CLEAR banner 930.57-931.3; score 10932->17868. Only one clear in 929.9-931.3. fr/g0/p017.png"},
+{"n":13,"id":"p017","side":"p2","op":"retype","t":930.57,"was":["triple",3,0],"kind":null,"lines":0,"source":"Phantom second triple: the next piece (Z out of hold) locks on the empty floor ~930.85 with no clear (score 17868->17906, drop points). fr/g0/p017.png"},
+{"n":15,"id":"p018","side":"p1","op":"retype","t":989.9,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"source":"O locks ~990.05 completing the last 2 rows; board empty, PERFECT CLEAR banner 990.12-991.05; score 11255->15755 (+4500 = double 900 + PC 3600). fr/g0/p018a.png"},
+{"n":15,"id":"p018","side":"p1","op":"retype","t":990.2,"was":["double",2,0],"kind":null,"lines":0,"gc":0,"source":"Phantom second double: O held, Z from hold locks on the empty floor ~990.6 with no clear (score +35 drop points, 15755->15791). fr/g0/p018a.png"}
+],
+"cell_edits":[
+{"n":0,"id":"p000","player":"p1","field":"pieces","was":56,"value":57,"source":"5 NEXT shifts 48.30-49.23 vs 4 chain events; the 49.23 piece (I->hold, J out) locks at 49.43 = end_s (score +24). fr/g0/p000.png"}
+],
+"no_change":[
+{"n":1,"why":"+102 on p1 score from 171.5 to 173.47 is drop points of ~5 plain locks; sheet fr/g0/p002a.png shows no clear in 172.0-174.05."},
+{"n":2,"why":"The T that locks at 174.00 (completing a row that is never cleared; game frozen, score unchanged) came out of hold for the S spawned 173.37, which IS the chain's last event, so it is already counted. fr/g0/p002a.png, p002b.png, p002c.png, p002d.png"},
+{"n":3,"why":"Banner at 199.3 is '2 REN' only, no T-SPIN; one row clears; p2 score +604 = single 300 + 2 REN 300 + drops. Plain single is correct. fr/g0/f199.png, p003b.png"},
+{"n":4,"why":"After the lock at 200.77 the next p1 piece is soft-dropping (score +1 per frame through 201.37), not locked by KO 201.3."},
+{"n":5,"why":"After the 342.63 single clears, the I spawns 343.5 and is still at the top at KO 343.83; p2 score unchanged 342.90-344.07. fr/g0/p007.png"},
+{"n":7,"why":"Banner reads 'T-SPIN Single' + BACK to BACK (fr/g0/b452.png), one row flashes, p2 score +3602 = TSS B2B 3600. Chain tss is correct; the Double read was wrong."},
+{"n":8,"why":"Last p1 lock at 564.47; next piece spawned ~564.57 shows no score change before KO 564.7."},
+{"n":9,"why":"Next p1 piece soft-drops (score +1/frame) through 621.80; its hard-drop lock (+2) is at 621.83, one frame after KO 621.8."},
+{"n":10,"why":"Last spawn ~644.77 locks at 644.97 (score +36), after KO 644.9."},
+{"n":11,"why":"Next p1 piece still soft-dropping (score +1/frame) through 792.17, past KO 792.1."},
+{"n":12,"why":"p1 score +4800 at 879.73 = TST (non-B2B) exactly; TSS would be 2400/3600. Chain tst correct."},
+{"n":14,"why":"p2 score +3750 at 988.23 = TSS B2B 3600 + REN 150 after the 985.93 TST; the T-SPIN Triple banner lingers from 985.93. Chain tss correct."},
+{"n":16,"why":"L locks ~1037.33 (chain 1036.67 event); O spawns 1037.44 and is still at the top at KO 1037.57. fr/g0/p018k.png"},
+{"n":17,"why":"S spawned ~1288.67 still at the top at KO 1288.87, p2 score 34313 unchanged. fr/g0/p024k.png"}
+]}

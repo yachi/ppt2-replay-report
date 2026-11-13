@@ -1,0 +1,132 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1 (fr/v4/g82p1.txt): 72 shifts, unmatched chain events exactly 5412.0 and 5483.47, BREAKs have no spawn; p1 score steps 18767->19667->20717->21917->23267->24774->26424->...->42277 rise +150 per piece (single + REN), so one single per piece and no break."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1 (fr/v4/g82p1.txt): 72 shifts, unmatched chain events exactly 5412.0 and 5483.47, BREAKs have no spawn; p1 score steps 18767->19667->20717->21917->23267->24774->26424->...->42277 rise +150 per piece (single + REN), so one single per piece and no break."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1 (fr/v4/g82p1.txt): 72 shifts, unmatched chain events exactly 5412.0 and 5483.47, BREAKs have no spawn; p1 score steps 18767->19667->20717->21917->23267->24774->26424->...->42277 rise +150 per piece (single + REN), so one single per piece and no break."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1 (fr/v4/g82p1.txt): 72 shifts, unmatched chain events exactly 5412.0 and 5483.47, BREAKs have no spawn; p1 score steps 18767->19667->20717->21917->23267->24774->26424->...->42277 rise +150 per piece (single + REN), so one single per piece and no break."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1 (fr/v4/g82p1.txt): 72 shifts, unmatched chain events exactly 5412.0 and 5483.47, BREAKs have no spawn; p1 score steps 18767->19667->20717->21917->23267->24774->26424->...->42277 rise +150 per piece (single + REN), so one single per piece and no break."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1 (fr/v4/g82p1.txt): 72 shifts, unmatched chain events exactly 5412.0 and 5483.47, BREAKs have no spawn; p1 score steps 18767->19667->20717->21917->23267->24774->26424->...->42277 rise +150 per piece (single + REN), so one single per piece and no break."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1 (fr/v4/g82p1.txt): 72 shifts, unmatched chain events exactly 5412.0 and 5483.47, BREAKs have no spawn; p1 score steps 18767->19667->20717->21917->23267->24774->26424->...->42277 rise +150 per piece (single + REN), so one single per piece and no break."
+ },
+ {
+  "ref": "e7",
+  "verdict": "amend",
+  "why": "5403.93 is a TETRIS (banner, score +3034 at 5404.60) and 5404.87 O cleared a single (+1086). But the I clears 4 garbage rows, not 3: crop /tmp/claude-0/ms/corr/fr/v4/f5403.85.png shows 5 grey garbage rows under the S, all with the hole in one column; /tmp/claude-0/ms/corr/fr/v4/f5404.65.png shows 4 rows gone and 1 grey row left under the unmoved S. The 5404.87 single is the O+S row, the grey row stays (/tmp/claude-0/ms/corr/fr/v4/g2.png), gc 0 right.",
+  "amended": {
+   "events": [
+    {
+     "t": 5403.93,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 5404.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5405.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p2 (fr/v4/g82p2.txt): 60 shifts; unmatched chain events exactly 5405.73, 5420.53, 5440.13, 5459.6, 5464.4, 5478.83, matching the removals; score steps as stated."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p2 (fr/v4/g82p2.txt): 60 shifts; unmatched chain events exactly 5405.73, 5420.53, 5440.13, 5459.6, 5464.4, 5478.83, matching the removals; score steps as stated."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p2 (fr/v4/g82p2.txt): 60 shifts; unmatched chain events exactly 5405.73, 5420.53, 5440.13, 5459.6, 5464.4, 5478.83, matching the removals; score steps as stated."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "fr/v4/p76.png: 2 grey rows at 5058.9, 1 at 5059.3 after the S drops; p2 score 40561->43261 (+2700 = single at REN16, quad before +4650 = R15)."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "p2 score 72483->72495->72511 (drop points only) then +300 at 5162.73 and +1666 at 5163.63: only one single before the triple. nextcount spawns 5162.300 O, 5162.633 S."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "fr/v4/p81.png: T fills the 2 rows at 5372.3, white flash + PERFECT CLEAR banner from 5372.4, board empty after; score 6887->11573."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "fr/v4/p81.png: T spawned 5372.43 is at top at 5372.5 and in HOLD at 5372.6; O from hold locks on the empty board without a clear (score drop points only 11573->11649). Only one clear."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "16 consecutive clears 5043.57-5057.47 (quad +4650 = R15) plus the 5058.7 single +2700 = R16."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "triple 5371.1 + PC double 5372.23 (REN1); tsd 5374.53 + quad 5376.07 (REN1); the 5372.43 double was the hold swap."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p1: shifts_total 72, first_hold J 5385.267 into empty hold, last shift 5495.6 unmatched; fr/v4/ko82.png shows p1 board greyed (topped out) with that piece never locking. 72-1-1 = 70 locks; bag check 10 blocks clean. Also equals A's games.jsonl pieces 70."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "p1 score steps rise +150 per single from R0 (5403.6) to +2700 at 5489.87 (R16) without a break; next clear +953 (double, REN reset)."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "nextcount --game p082 p2: shifts_total 60, first_hold Z 5385.1 into empty, last shift 5496.067 (T) unmatched; fr/v4/ko82.png: L locks at 5496.0 (+24), T still at the top at 5496.4 after KO 5496.3. 60-1-1 = 58; equals A's games.jsonl 58."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "fr/v4/ko82.png 5495.5 shows the '18 REN' banner beside p2's board; the 5496.0 L lock scores only drop points, so the max is 18."
+ }
+]

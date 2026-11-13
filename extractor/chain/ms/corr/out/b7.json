@@ -1,0 +1,32 @@
+{"event_corrections":[
+ {"n":136,"id":"p120","side":"p1","op":"retype","t":7754.73,"was":["triple",3,0],"kind":"triple","lines":3,"pc":1,"gc":0,"source":"frames 7754.40-7755.60 (corr/fr/g7/p120a.png): the J out of hold locks at 7755.00 and clears the 3 coloured rows; board empty and PERFECT CLEAR banner from 7755.07. Score 10823->17723 (+6900) at 7755.03, the only clear jump in 7754.9-7757."},
+ {"n":136,"id":"p120","side":"p1","op":"retype","t":7755.1,"was":["triple",3,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"duplicate of the 7754.73 triple: this is the Z spawn at 7755.07 (held, S swapped out), which locks at ~7755.57 on the empty board with no clear (+29 drop points only, 7755.57). corr/fr/g7/p120a.png"},
+ {"n":143,"id":"p126","side":"p1","op":"retype","t":8318.63,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"frames 8318.40-8319.07 (corr/fr/g7/p126b.png): the L locks at 8318.73 and its coloured row clears at 8318.80, '2 REN' shown; score 122582->123182 (+600 = single 300 + REN2 300) at 8318.77."},
+ {"n":143,"id":"p126","side":"p1","op":"add","t":8321.13,"kind":"single","lines":1,"pc":0,"gc":1,"source":"frames 8320.80-8321.93 (corr/fr/g7/p126ko.png): S spawns 8321.13, locks into the gap of the grey garbage row and clears it at 8321.47, before the KO frame 8321.57; '5 REN' shown after; score 124902 -> 125988 (+1086 = single 300 + REN5 750 + 36 drop)."},
+ {"n":144,"id":"p127","side":"p1","op":"retype","t":8334.77,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"score 5240 -> 10790 (+5550) at 8335.50 = TSD 3600 x1.5 B2B (after the TST at 8333.3) + 150 REN1; a plain double would give ~1050."},
+ {"n":146,"id":"p131","side":"p2","op":"retype","t":8580.5,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"frames 8580.50-8581.00 (corr/fr/g7/p131b.png): T (from hold) locks and clears the top coloured row at 8580.90; score 17085->18585 (+1500 = single 300 + REN8 1200) at 8580.87, REN bonus continues rising 150/step through the game end."},
+ {"n":146,"id":"p131","side":"p2","op":"retype","t":8585.8,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"frames 8584.40-8586.67 (corr/fr/g7/p131a.png): J spawned 8585.17 (nextcount shift) locks vertically and clears the top grey garbage row at 8585.60; score 26213->28463 (+2250 = single 300 + REN13 1950) at 8585.57. This is the KO-tail jump."},
+ {"n":147,"id":"p134","side":"p1","op":"retype","t":8685.43,"was":["single",1,0],"kind":"single","lines":1,"pc":1,"gc":0,"source":"frames 8685.15-8686.20 (corr/fr/g7/p134a.png): the I clears the last (coloured) row at ~8685.35, the board is empty and PERFECT CLEAR shows from 8685.42; score 11558->15618 at 8685.50. Real one-line PC."}
+],
+"cell_edits":[
+ {"n":143,"id":"p126","player":"p1","field":"pieces","was":161,"value":162,"source":"S spawned 8321.13 locks (and clears) at 8321.47 before KO 8321.57; corr/fr/g7/p126ko.png"},
+ {"n":143,"id":"p126","player":"p1","field":"max_combo","was":1,"value":5,"source":"TSD 8316.3, quad 8317.63, singles at 8318.63, 8319.43, 8320.2, 8321.13 are consecutive; REN bonuses +150/+300/+450/+600/+750 in the score (8317.83..8321.94) and '5 REN' on screen at 8321.6 (corr/fr/g7/p126ko.png)."},
+ {"n":144,"id":"p127","player":"p1","field":"max_b2b","was":0,"value":1,"source":"TST (8333.3) followed by TSD (8334.77) scored with the x1.5 B2B bonus (+5550 at 8335.50); one back-to-back."},
+ {"n":146,"id":"p131","player":"p2","field":"max_combo","was":7,"value":14,"source":"15 consecutive clears from the TST at 8572.33 to the last single at 8586.17 (with 8580.5 and 8585.8 retyped); score REN bonus grows 150 per step every clear: +3750(REN1) ... +1500(REN8) 8580.87, +1672 REN9, +1824 REN10, +1950 REN11, +2128 REN12, +2278 REN13, +2400 REN14 at 8586.57."},
+ {"n":148,"id":"p137","player":"p2","field":"pieces","was":45,"value":46,"source":"T hard-dropped and locked on the KO frame 8858.37 (score 32983->33015, +32 at 8858.37; corr/fr/g7/p137ko.png); no clear."}
+],
+"no_change":[
+ {"n":130,"why":"p114 p1: T still soft-dropping at KO 7420.93 (score +1/frame), never locked; corr/fr/g7/p114ko.png"},
+ {"n":131,"why":"p115 p1: score.py misread digits under the overlay (66786/70502/75933); direct read 58908 at 7476.40 -> 65603 at 7482.50 (+6695) matches TSS+double+single+quad with REN and drops. Frames corr/fr/g7/p115a.png show TSS 7477.6, L clear 7478.45, Z clear 7479.45 (2 REN), quad 7480.95, as chained."},
+ {"n":132,"why":"p116 p2: nextcount gives 34 shifts incl. the unlocked last spawn, consistent with 33 pieces; high APP comes from a 12-REN single chain plus TST/TSD; real."},
+ {"n":133,"why":"p116 p2: no lock before KO 7626.7, only a hold swap at 7626.70, score constant; corr/fr/g7/p116ko.png"},
+ {"n":134,"why":"p117 p2: O at top unmoved through KO 7664.3, score constant; corr/fr/g7/p117ko.png"},
+ {"n":135,"why":"p119 p1: score keeps rising +1/frame through and after KO 7739.83 (soft drop), so the piece had not locked."},
+ {"n":137,"why":"p121 p1: T still falling at KO 7817.97 (soft-drop points), not locked; corr/fr/g7/p121ko.png"},
+ {"n":138,"why":"p124 p1: S locked ~8093.93 (chained 8093.67); the J spawned 8094.00 had not locked by KO 8094.03; corr/fr/g7/p124ko.png"},
+ {"n":139,"why":"p124 p1: +112 is 124230->124342 accumulated over four hard drops (8092.87-8093.67 chain locks) while an overlay hid the score; no clear in frames corr/fr/g7/p124ko.png."},
+ {"n":140,"why":"p125 p1: last T hard-dropped at 8237.70, two frames after KO 8237.63 (win banner same frame); no clear; corr/fr/g7/p125ko.png"},
+ {"n":141,"why":"p126 p1 8272.4: score +3600 at 8273.17 = TSS x1.5 B2B after the quad; a TST would be 7200. Chain tss correct."},
+ {"n":142,"why":"p126 p1 8285.73: +987 at 8286.30 over three drops = plain double 900; not a TSD (would be >=3600)."},
+ {"n":145,"why":"p130 p2 8517.03: chain already tss; score +3800 at 8518.03 = TSS B2B 3600 + REN1 150 + drops; a TST would be 7200."}
+]}

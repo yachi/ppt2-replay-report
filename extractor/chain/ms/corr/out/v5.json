@@ -1,0 +1,12 @@
+[
+{"ref":"e0","verdict":"keep","why":"Confirmed: nextcount p1 has no shift between 6159.833 and 6179.167 (hold I at 6160.0). Score p1 is constant at 21924 until +13200 at 6179.10, the PERFECT CLEAR TETRIS. The rows are coloured, so gc=0. One nuance: it is not a frozen stream. In fr/v5/frz.png the falling pieces of both players move down slowly across 6160-6179, but nothing locks, so the count is the same. The O spawned at 6179.17 is held (hold O at 6179.6) and the T comes out and locks plain."},
+{"ref":"e1","verdict":"keep","why":"The only big p1 jump in 6182-6185.5 is +7200 at 6184.33. Spawns: 6183.267 is a J that locks plain; 6183.567 is a Z, held at 6183.633, so the T comes out for the TST, which is the chain's 6184.26 event. 6183.27 is a plain lock."},
+{"ref":"e2","verdict":"keep","why":"nextcount p1: spawns at 6190.000 (O) and 6190.333 (I) only; next at 6191.267. +3600 at 6190.37 is the quad. The four events at 6190.43 contain two phantoms."},
+{"ref":"e3","verdict":"keep","why":"No p2 spawn between 6159.667 and 6175.333. p2 score constant at 14670 until +1200 at 6174.73 (6 REN banner, fr/v5/frz.png). The 6169.87 single is a phantom."},
+{"ref":"e4","verdict":"keep","why":"REN banners: 5 REN at 6159.5, 6 REN at 6174.73, then TETRIS +3450 = 2400 + 7x150. No break at 6158.77."},
+{"ref":"e5","verdict":"keep","why":"One p2 spawn at 6175.333 and a single +3450 jump at 6179.83. The duplicate quad is a phantom."},
+{"ref":"e6","verdict":"keep","why":"nextcount p1: 6290.567 O, held at 6290.633, T out -> TSD +5550 at 6291.17; 6291.867 and 6292.133 lock plain. was_old matches cseq exactly."},
+{"ref":"c0","verdict":"keep","why":"Full-game nextcount p1 from 6144.2 to 6197.3: 78 shifts, the first at 6144.933 (game start). 78 minus the O held into an empty hold at 6145.167, minus the 6197.267 spawn after the KO = 76. The S spawned at 6196.9 locks at about 6197.17 (score +26), which is before the KO at 6197.2, so it counts."},
+{"ref":"c1","verdict":"keep","why":"Full-game nextcount p2: 53 shifts from 6144.933 to 6196.300. 53 minus the T held into an empty hold at 6145.433, minus the 6196.3 piece = 51. That piece never locks: the board is filled by garbage, the piece is swapped by hold at 6196.43 and the board tilts at about 6197.2 (fr/v5/p094ko2.png)."},
+{"ref":"c2","verdict":"keep","why":"7 REN confirmed by the banners and the +3450 at 6179.83."}
+]

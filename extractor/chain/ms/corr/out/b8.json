@@ -1,0 +1,338 @@
+{
+ "event_corrections": [
+  {
+   "n": 150,
+   "id": "p139",
+   "side": "p1",
+   "op": "retype",
+   "t": 8912.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "source": "PERFECT CLEAR banner 8912.9; I from hold clears last line, board empty /tmp/claude-0/ms/corr/fr/g8/s150.png, s150b.png"
+  },
+  {
+   "n": 150,
+   "id": "p139",
+   "side": "p1",
+   "op": "retype",
+   "t": 8911.37,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "T clears two rows, score 6409->7792 (double+REN) /tmp/claude-0/ms/corr/fr/g8/s150.png"
+  },
+  {
+   "n": 150,
+   "id": "p139",
+   "side": "p1",
+   "op": "retype",
+   "t": 8912.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "vertical I locks ~8913.17 with no clear, score +36 only /tmp/claude-0/ms/corr/fr/g8/s150b.png"
+  },
+  {
+   "n": 151,
+   "id": "p139",
+   "side": "p1",
+   "op": "retype",
+   "t": 8914.37,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "source": "second PERFECT CLEAR: board empty 8914.5-8914.8, score 11316->15816 /tmp/claude-0/ms/corr/fr/g8/s151.png"
+  },
+  {
+   "n": 151,
+   "id": "p139",
+   "side": "p1",
+   "op": "retype",
+   "t": 8914.5,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "gc": 0,
+   "source": "S held, T locks ~8915.0 with no clear /tmp/claude-0/ms/corr/fr/g8/s151.png"
+  },
+  {
+   "n": 152,
+   "id": "p141",
+   "side": "p1",
+   "op": "remove",
+   "t": 8973.23,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "duplicate lock: I held, T did tsmini 8973.2, L locked ~8973.1; no extra piece /tmp/claude-0/ms/corr/fr/g8/s152.png, s152b.png"
+  },
+  {
+   "n": 156,
+   "id": "p147",
+   "side": "p1",
+   "op": "retype",
+   "t": 9457.77,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "source": "no TETRIS banner, score 53085->54617 (+1500 triple); the tetris is the next clear 9459.17 /tmp/claude-0/ms/corr/fr/g8/s156.png, sc156b.png, s156c.png"
+  },
+  {
+   "n": 157,
+   "id": "p148",
+   "side": "p2",
+   "op": "retype",
+   "t": 9538.67,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "source": "L clears two rows, score 48618->49838 at 9538.93 (900+REN) /tmp/claude-0/ms/corr/fr/g8/s157.png"
+  },
+  {
+   "n": 158,
+   "id": "p148",
+   "side": "p1",
+   "op": "retype",
+   "t": 9628.47,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "O locks ~9629.0 with no clear; score 195602->196572 allows only the later S double /tmp/claude-0/ms/corr/fr/g8/s158.png, s158b.png"
+  },
+  {
+   "n": 162,
+   "id": "p152",
+   "side": "p1",
+   "op": "retype",
+   "t": 9992.13,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "source": "Z locks ~9992.3 at right, REN 1->2 and score 122514->123134 (+620) at 9992.40 /tmp/claude-0/ms/corr/fr/g8/s162.png"
+  },
+  {
+   "n": 163,
+   "id": "p153",
+   "side": "p1",
+   "op": "add",
+   "t": 10011.3,
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O spawned 10011.3 (nextcount), locks ~10011.5 completing 2 rows, PERFECT CLEAR 10011.6, score 17998->22498 (+4500 = double+double PC); no grey cells /tmp/claude-0/ms/corr/fr/g8/s163b.png"
+  },
+  {
+   "n": 163,
+   "id": "p153",
+   "side": "p1",
+   "op": "retype",
+   "t": 10011.63,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "this spawn is the Z that is held at 10011.67; S from hold locks ~10012.0 with no clear /tmp/claude-0/ms/corr/fr/g8/s163b.png"
+  },
+  {
+   "n": 163,
+   "id": "p153",
+   "side": "p1",
+   "op": "retype",
+   "t": 10009.33,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "source": "L clears 3 rows to an empty board, PERFECT CLEAR 10009.6, score 10931->17831 (+6900 = triple+triple PC) /tmp/claude-0/ms/corr/fr/g8/s163.png"
+  },
+  {
+   "n": 163,
+   "id": "p153",
+   "side": "p1",
+   "op": "retype",
+   "t": 10009.63,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "S held at 9.7, O from hold locks ~10010.1 at bottom right with no clear /tmp/claude-0/ms/corr/fr/g8/s163.png"
+  },
+  {
+   "n": 165,
+   "id": "p154",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 10029.3,
+   "t_end": 10029.35,
+   "events": [],
+   "was_old": [
+    [
+     10029.33,
+     null,
+     0
+    ],
+    [
+     10029.33,
+     null,
+     0
+    ],
+    [
+     10029.33,
+     null,
+     0
+    ]
+   ],
+   "source": "no piece spawns or locks between the I tetris (28.6) and J spawn 10029.47; board static through the TETRIS animation /tmp/claude-0/ms/corr/fr/g8/s165.png, s165b.png; nextcount shifts 28.367 then 29.467"
+  },
+  {
+   "n": 165,
+   "id": "p154",
+   "side": "p1",
+   "op": "add",
+   "t": 10023.43,
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "T spawned ~10023.4 and held, L out of hold locks ~10023.9 clearing 3 rows: PERFECT CLEAR, score 660->7560 (+6900); no grey cells /tmp/claude-0/ms/corr/fr/g8/s165c.png"
+  },
+  {
+   "n": 165,
+   "id": "p154",
+   "side": "p1",
+   "op": "retype",
+   "t": 10024.0,
+   "was": [
+    "triple",
+    3,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "J spawned 10024.0 after the PC, locks bottom right ~10024.2 with no clear /tmp/claude-0/ms/corr/fr/g8/s165c.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 149,
+   "id": "p138",
+   "player": "p1",
+   "field": "pieces",
+   "was": 53,
+   "value": 54,
+   "source": "Z locks on the KO frame 8896.47, score 38388->38420, no clear /tmp/claude-0/ms/corr/fr/g8/s149.png"
+  },
+  {
+   "n": 152,
+   "id": "p141",
+   "player": "p1",
+   "field": "pieces",
+   "was": 175,
+   "value": 174,
+   "source": "duplicate None event 8973.23 removed /tmp/claude-0/ms/corr/fr/g8/s152.png, s152b.png"
+  },
+  {
+   "n": 165,
+   "id": "p154",
+   "player": "p1",
+   "field": "pieces",
+   "was": 70,
+   "value": 67,
+   "source": "nextcount 69 queue spawns 10020.17-10048.57, every one matched to chain events; at KO the L is in hold and the J from hold is still falling (s167.png), so 67 locks; chain also had 3 phantom locks at 10029.33 and lacked the L at 10023.43"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 153,
+   "why": "banner T-SPIN Triple, score +4800 /tmp/claude-0/ms/corr/fr/g8/s153.png"
+  },
+  {
+   "n": 154,
+   "why": "banner Single, +2556 /tmp/claude-0/ms/corr/fr/g8/s154.png"
+  },
+  {
+   "n": 155,
+   "why": "score 41983 unchanged through KO 9077.03; S spawned 9076.93 never locked"
+  },
+  {
+   "n": 159,
+   "why": "Z clears double, T held, +1362 = 900+450 REN /tmp/claude-0/ms/corr/fr/g8/s159.png"
+  },
+  {
+   "n": 160,
+   "why": "banner T-SPIN Single + BACK to BACK, +3606 = TSS B2B /tmp/claude-0/ms/corr/fr/g8/s160.png"
+  },
+  {
+   "n": 161,
+   "why": "J clears 2 top rows, +908 plain double /tmp/claude-0/ms/corr/fr/g8/s161.png"
+  },
+  {
+   "n": 164,
+   "why": "at KO 10013.73 the T (from hold, I held at 10013.67) is still falling; last lock is the Z (chain 10013.33) /tmp/claude-0/ms/corr/fr/g8/s164.png"
+  },
+  {
+   "n": 166,
+   "why": "T into left-wall slot locks ~10036.05, one row cleared, score 23425->27175 (+3750 = TSS B2B + REN), not a TST (+7200); chain tss 1 is right /tmp/claude-0/ms/corr/fr/g8/s166.png"
+  },
+  {
+   "n": 167,
+   "why": "at KO 10048.86 the L was held and the J out of hold is still falling; last lock Z (chain 10048.3) /tmp/claude-0/ms/corr/fr/g8/s167.png"
+  }
+ ]
+}

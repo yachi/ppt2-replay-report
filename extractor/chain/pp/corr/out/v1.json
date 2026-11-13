@@ -1,0 +1,16 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p2 +3600 at 2021.67 (B2B quad), then +1068 at 2022.67 after the Z spawn at 2022.47 (nextcount shift) = double 900 + 1 REN 150 + drops; TSD at 2025.80 is +3600 (no B2B), consistent with a plain double breaking B2B."},
+{"ref":"e1","verdict":"keep","why":"fr/v1/c045.png 2368.17-2368.57: T locked in the top-left, stack rows unchanged, no row removed; score +300 at 2368.37 (zero-line mini). 2368.4 is the next spawn, so a plain lock."},
+{"ref":"e2","verdict":"keep","why":"nextcount p1: spawns 2515.20, 2515.57 (T, held at 2515.97 -> J out, locked +28 at 2516.33), 2516.43 (O), then only 2528.83. Score 139194 constant 2516.33-2528.73. 2516.57 has no spawn: phantom."},
+{"ref":"e3","verdict":"keep","why":"nextcount p2: I in hold, Z spawned 2516.67, hold swap at 2523.20 (I out), next spawn 2528.60. Score 92284 constant 2515.93-2527.83, +3752 at 2527.83 is the I quad. Only one lock in the window; 2522.77 is a phantom."},
+{"ref":"e4","verdict":"keep","why":"nextcount p2: spawns 2724.53, 2725.80, then 2731.13. Score: +902 at 2725.20, +1050 at 2730.53 (single + 5 REN), next change +302 at 2732.03. No clear between 2730.53 and 2732.03: 2727.93 single is a phantom."},
+{"ref":"e5","verdict":"keep","why":"Score steps: tsmini +1051 at 2723.93 (600+3 REN 450), +902 at 2725.20 (4 REN), +1050 at 2730.53 (5 REN) - the REN run is unbroken, so the BREAK at 2724.4 is spurious."},
+{"ref":"e6","verdict":"keep","why":"nextcount p1 spawns ...2725.23, 2725.53, 2725.83, then 2731.90; no spawn at 2725.80, which duplicates 2725.83."},
+{"ref":"e7","verdict":"keep","why":"Same nextcount: no spawn at 2726.13; score 89681 constant 2725.73-2731.80 (L locks +6 at 2731.80). Phantom."},
+{"ref":"e8","verdict":"keep","why":"fr/v1/c057.png 3192.10-3192.50: T drops into the stack's bottom row with a Mini T-SPIN banner, stack height and rows unchanged, no clear flash; score +300 at 3192.27 (zero-line mini). 3192.3 is the O spawn: plain lock."},
+{"ref":"c0","verdict":"keep","why":"was 391 matches CSV; one phantom lock (2516.57) removed per e2."},
+{"ref":"c1","verdict":"keep","why":"was 383 matches CSV; one phantom lock (2522.77) removed per e3."},
+{"ref":"c2","verdict":"keep","why":"was 147 matches CSV; two phantom locks (2725.8, 2726.13) removed per e6/e7, spawn count confirmed by nextcount."},
+{"ref":"c3","verdict":"keep","why":"was 152 matches CSV; phantom single 2727.93 removed per e4."},
+{"ref":"c4","verdict":"keep","why":"was 3 matches CSV; score shows 4 REN (+902 at 2725.20) and 5 REN (+1050 at 2730.53): run tsd 2720.7 .. single 2725.8 is six consecutive clears = REN 5."}
+]

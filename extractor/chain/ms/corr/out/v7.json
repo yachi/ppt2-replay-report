@@ -1,0 +1,15 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v7/p120.png: L locks 7754.63 (+28); held J locks ~7755.0 clearing the 3 coloured rows, board empty, PERFECT CLEAR from 7755.1; score 10823->17723 at 7755.03, single clear jump."},
+{"ref":"e1","verdict":"keep","why":"fr/v7/p120.png: after the PC the next piece (Z spawned, swapped for S via hold) locks ~7755.57 on the empty floor, +29 drop points only; the 7755.10 triple is a duplicate."},
+{"ref":"e2","verdict":"keep","why":"score 122582->123182 (+600 = single 300 + REN2 300) at 8318.77, right after the quad's +3750 (REN1); no other jump until 8319.93."},
+{"ref":"e3","verdict":"keep","why":"fr/v7/p126.png (8320.90+0.067 steps): green S locks into the gap of the grey row ~8321.37, row flashes/clears ~8321.43, before KO 8321.57; '5 REN' banner after; score later reads 125988 (+1086)."},
+{"ref":"e4","verdict":"keep","why":"score: TST +4800 at 8333.97 (no B2B), then 5240->10790 (+5550) at 8335.50 = TSD 3600x1.5 + REN1 150; a plain double would be ~1050."},
+{"ref":"e5","verdict":"keep","why":"score 17085->18585 (+1500 = 300 + REN8 1200) at 8580.87; 8580.50 is the only chain event between the quad (8579.43) and 8581.53, and the REN bonus keeps growing 150/step afterwards, so the streak was unbroken."},
+{"ref":"e6","verdict":"keep","why":"fr/v7/p131.png: blue J drops vertically into the gap of the top grey row and clears it at ~8585.53-8585.57; score 26213->28463 (+2250 = 300 + REN13 1950). gc 1 confirmed (grey row)."},
+{"ref":"e7","verdict":"keep","why":"fr/v7/p134.png: I clears the last row at ~8685.4, board empty, PERFECT CLEAR banner 8685.4-8685.9; score 11558->15617 at 8685.40."},
+{"ref":"c0","verdict":"keep","why":"S spawned after the 8320.2 single locked and itself locked/cleared ~8321.4 < KO 8321.57 (fr/v7/p126.png); chain has no event for it."},
+{"ref":"c1","verdict":"keep","why":"REN bonuses from score: quad +3750 (REN1), +600 (REN2), +784/+936 next, +1086 (REN5 750) at the last single; streak starts at the TSD 8316.3 (preceded by plain locks), so 5 REN."},
+{"ref":"c2","verdict":"keep","why":"TSD at 8335.50 scored with x1.5 B2B after the TST (+4800 at 8333.97); next clear 8336.73 is a plain double, so max_b2b = 1."},
+{"ref":"c3","verdict":"keep","why":"score steps after the quad: +1500, +1672, +1824, +1950, +2128, +2250, +2400 = 300 + REN8..REN14 (+drops); 15 consecutive clears TST 8572.33 .. last single, last jump 8586.57 before KO 8586.67. max_combo 14."},
+{"ref":"c4","verdict":"keep","why":"fr/v7/p137.png: frame stamped 8858.37 shows the purple T locked on the stack, score 32983->33015; the next frame already has the win banner. No clear."}
+]
