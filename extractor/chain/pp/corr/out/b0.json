@@ -1,0 +1,26 @@
+{"event_corrections":[
+ {"n":0,"id":"c000","side":"p2","op":"retype","t":161.33,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"T locked into the blue row ~161.2 s; board before (161.15) and after (161.55) has identical row heights, no row removed (fr/g0/i0b.png, i0.png). Banner reads only 'Mini T-SPIN' with no 'Single' (fr/g0/ban.png). Score +300 at 161.27 (20044->20344) = zero-line mini T-spin at level 3, not a mini single (600, x1.5 B2B after the 158.83 B2B tetris). So a zero-line mini T-spin lock, not a line clear."}
+],
+"cell_edits":[],
+"no_change":[
+ {"n":1,"why":"c000 p2: Z spawned 186.57 was still falling at KO 186.87 and locked at 186.93 (score +28 at 186.93, same frame as the win banner); after KO, not counted (fr/g0/i1.png)."},
+ {"n":2,"why":"c002 p1: banner at 243.0 belongs to the PC double already in the chain at 242.83 (pc=1); score +900 then +3600 PC bonus at 242.77-242.80, no second jump."},
+ {"n":3,"why":"c002 p1: 310.47 clear scored +1050 at 310.53 = plain double 900 + 150 REN; a TSD would be 3600+ (5400 B2B after the TSS). Chain's plain double is right."},
+ {"n":4,"why":"c006 p1: J spawned 489.60 still soft-dropping at KO (score +1/frame through 489.93), never locked (fr/g0/i4.png)."},
+ {"n":5,"why":"c007 p1: T from hold still falling at KO 515.40 (soft drop +1/frame to 515.43), never locked (fr/g0/i5.png)."},
+ {"n":6,"why":"c008 p1: piece from hold still soft-dropping at KO 560.5 (score +1/frame to 560.57); no lock by KO."},
+ {"n":7,"why":"c009 p2: J spawned 594.50 still at the top at KO 594.77, never locked (fr/g0/i7.png)."},
+ {"n":8,"why":"c011 p1: L spawned 674.93 still falling (ghost below) at KO 675.17, never locked (fr/g0/i8.png)."},
+ {"n":9,"why":"c014 p1: O from hold (867.97) still at the top at KO 868.23, never locked (fr/g0/i9.png)."},
+ {"n":10,"why":"c015 p2: the PC is the triple at 884.97 already logged (pc=1; score +1500 then +5400 at 884.90-884.93). No score jump near 886.3, only drop points: lingering banner."},
+ {"n":11,"why":"c015 p1: S spawned 905.50 still at the top at KO 905.87, never locked (fr/g0/i11.png)."},
+ {"n":12,"why":"c018 p2: piece still soft-dropping at KO 1075.3 (score +1/frame through 1075.37); no lock by KO."},
+ {"n":13,"why":"c021 p1: chain already has PC triple 1159.8 (+1500,+5400) and PC B2B quad 1165.53 (+13200); no score jump at 1161.2, banner is the 1159.8 PC lingering."},
+ {"n":14,"why":"c021 p1: 1179.57 clear scored +450 at 1180.00 = single 300 + 150 REN; a TSS would be 2400+. Plain single is right."},
+ {"n":15,"why":"c022 p2: T spawned 1216.57 still in the air at 1216.66, game ended at 1216.70 without a lock (fr/g0/i15.png)."},
+ {"n":16,"why":"c023 p1: the +1050 at 1254.27 is the chain's single logged at 1254.40 (piece spawned 1254.10, held, L out, locked 1254.23). Score sequence 1251.83/1252.67/1253.43/1254.27 = singles at REN 2-5 match the chain's four singles; the 1254.93 spawn never locked before KO. Only the logged t is late; counts and max_combo 5 correct."},
+ {"n":17,"why":"c023 p2: L spawned 1255.50 still at the top at KO 1255.60, never locked; score unchanged (fr/g0/i17.png)."},
+ {"n":18,"why":"c024 p2: O spawned 1291.23 held at 1291.30 (L out); no lock score by KO 1291.37 or after; not locked."},
+ {"n":19,"why":"c026 p1: piece from hold (1380.33) still soft-dropping at KO 1380.83 (score +1/frame through 1380.87); no lock by KO."}
+]}

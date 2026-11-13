@@ -1,0 +1,28 @@
+{"event_corrections":[
+ {"n":45,"id":"c067","side":"p2","op":"remove","t":3688.13,"was":["single",1,0],"source":"p2 score flat 50008 from 3687.47 to 3702.13 (no lock, both players hover pieces ~14 s, corr/fr/g2/c067a.png 3687-3703 1 s steps); nextcount p2 shifts only at 3687.167, 3688.067, 3702.833 in the window; the 3688.07 piece locks at 3702.13 (+1650 = double + REN5, '5 REN' banner 3703). Phantom single."},
+ {"n":46,"id":"c067","side":"p2","op":"remove","t":3692.6,"was":["double",2,0],"source":"same evidence as n45: no spawn and no score change at all between 3688.07 and 3702.83 (nextcount p2; score.py; corr/fr/g2/c067a.png). Real doubles are 3688.07 (locks 3702.13, +1650) and 3702.83 (locks 3703.17, +1800 = 900 + REN6). Phantom double; explains the -3414 score_spot."},
+ {"n":50,"id":"c075","side":"p2","op":"retype","t":4184.23,"was":["double",2,0],"kind":"tsd","lines":2,"source":"T into slot, 'T-SPIN Double' + BACK to BACK banner (corr/fr/g2/c075.png 4184.6-4185.5); p2 score +5550 at 4184.87 = TSD 3600x1.5 B2B + REN1 150 (plain double would be 1050)."},
+ {"n":53,"id":"c080","side":"p1","op":"retype","t":4498.73,"was":["tsmini",1,0],"kind":null,"lines":0,"source":"Mini T-spin at 4498.63-4498.67 cleared no line: board rows unchanged, 'T-SPIN' banner only (corr/fr/g2/c080.png); p1 score +300 at 4498.67 = zero-line mini T-spin (mini single B2B would be 900); following TSD +5400 has no REN bonus. Zero-line spin, no clear."}
+],
+"cell_edits":[
+ {"n":40,"id":"c059","player":"p1","field":"pieces","was":76,"value":77,"source":"T hard-dropped on KO frame 3332.73 (score 59140->59160, +20 drop points, no clear), corr/fr/g2/c059.png"},
+ {"n":47,"id":"c069","player":"p1","field":"pieces","was":188,"value":189,"source":"L hard-dropped on KO frame 3863.23 (score 143646->143670 +24, no clear), corr/fr/g2/c069.png; chain's last events 3862.4/3862.67 are the drops at 3862.56/3862.90"},
+ {"n":51,"id":"c077","player":"p1","field":"pieces","was":248,"value":249,"source":"S spawned ~4401.37 hard-dropped and locked at 4401.56 (+18), before KO 4401.60, no clear; chain's last event 4401.17 is the Z dropped at 4401.27. corr/fr/g2/c077.png"},
+ {"n":45,"id":"c067","player":"p2","field":"pieces","was":87,"value":85,"source":"two phantom events removed (3688.13, 3692.6); nextcount p2 confirms no spawns there"},
+ {"n":46,"id":"c067","player":"p2","field":"max_combo","was":8,"value":6,"source":"after removing the phantoms REN run peaks at 6 (3703.17 double scored 900+900 = REN6); recomputed over the whole event list = 6"}
+],
+"no_change":[
+ {"n":41,"why":"c060 p2 PC is real (+4534 at 3343.10 = PC double) and already logged as pc=1 on the 3343.13 double; banner is the same PC, not a second one"},
+ {"n":42,"why":"c063 p1 soft-dropping (score +1 per frame through 3476.10) at KO 3476.03, piece not locked"},
+ {"n":43,"why":"c065 p2 3542.9 is a plain single: score +300 at 3543.33 (TSS would be 2400)"},
+ {"n":44,"why":"c067 p1 gap is a real ~16 s stall with no locks (score flat, corr/fr/g2/c067a.png); T locks 3702.97 no clear, I quad on garbage-free rows 3703.33 (+3600 B2B), corr/fr/g2/c067b.png; chain matches"},
+ {"n":48,"why":"c070 p1 T only came to rest at 3889.20 (soft drop ended), no lock flash or spawn by KO 3889.23, corr/fr/g2/c070.png"},
+ {"n":49,"why":"c072 p2 4063.47 is a plain single: +900 = 300 + REN4 600 (combo chain of singles +300/+450/+600 and quad +2850), no T-spin banner, corr/fr/g2/c072.png"},
+ {"n":52,"why":"c078 p1 last three drops 4423.34/4423.64/4423.80 match chain spawns 4423.23/4423.47/4423.77; piece spawned 4423.94 not dropped by KO"},
+ {"n":54,"why":"explained by the n53 retype: the -900 gap is the zero-line mini (300) logged as mini single"},
+ {"n":55,"why":"c081 p1 last hard drop 4561.40 is chain's 4561.13 piece; spawn ~4561.5 never locks before KO 4561.93"},
+ {"n":56,"why":"c083 p2 last drop 4662.63 (+10) is chain's 4662.37 piece; next piece spawned 4662.70 only soft-drops 1 row by KO"},
+ {"n":57,"why":"c084 p1 J locked ~4723.16 (chain 4722.6); Z still at top at KO 4723.33, corr/fr/g2/c084.png"},
+ {"n":58,"why":"c085 p2 4766.47 is a plain single: +750 = 300 + REN3 450 (after quad +2700 = 2400+REN2)"},
+ {"n":59,"why":"c085 p1 last hard drop 4782.33 is chain's 4782.27 piece; next spawn 4782.43 not locked by KO 4782.53"}
+]}

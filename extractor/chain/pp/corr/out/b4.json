@@ -1,0 +1,156 @@
+{
+ "event_corrections": [
+  {
+   "n": 80,
+   "id": "c111",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 6967.33,
+   "t_end": 6967.33,
+   "events": [
+    {
+     "t": 6967.33,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     6967.33,
+     null,
+     0
+    ],
+    [
+     6967.33,
+     null,
+     0
+    ],
+    [
+     6967.33,
+     "tsd",
+     2
+    ]
+   ],
+   "source": "fr/g4/c111a.png: one T spawns ~6967.3 and goes straight into the TSD (flash 6967.87, score 10895->16445 at 6967.97 = TSD B2B 5400 + REN 150). nextcount shows a single shift at 6967.333; the two None locks at the same t are phantoms (double shift)."
+  },
+  {
+   "n": 83,
+   "id": "c116",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 7152.1,
+   "t_end": 7153.63,
+   "events": [
+    {
+     "t": 7152.1,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 1
+    },
+    {
+     "t": 7152.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7152.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7152.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7153.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7153.33,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 7153.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     7152.1,
+     "triple",
+     3
+    ],
+    [
+     7152.67,
+     null,
+     0
+    ],
+    [
+     7153.07,
+     null,
+     0
+    ],
+    [
+     7153.33,
+     "double",
+     2
+    ],
+    [
+     7153.63,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g4/c116a.png + score.py + nextcount: after the triple PC (board empty 7152.10, score ->17861) p1 locks O (~7152.4), I (~7152.55; the +76 at 7152.53/57 is these two drop scores, no clear), L (+36 7152.97), J (+36 7153.23), O (+38 7153.50) which clears the last 2 rows: second PERFECT CLEAR (empty board + banner 7153.60, +4500 at 7153.57), then Z (out of hold) locks +38 at 7153.80; S spawned 7153.9 at KO not locked. nextcount spawns 7152.1, 7152.467, 7152.667, 7153.067, 7153.333, 7153.633 = 6 locks after the triple; chain had 4 with a phantom second double at 7153.63 and no pc on the real double. Pieces total stays 26 (28 shifts - 1 hold-into-empty - 1 unlocked at KO), which the csv already has."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 80,
+   "id": "c111",
+   "player": "p1",
+   "field": "pieces",
+   "was": 31,
+   "value": 29,
+   "source": "nextcount 6958.0-6969.8: 30 NEXT shifts, one is the hold-into-empty at 6961.8 (T); last piece locked 6969.77 (score +18) before KO 6969.8 -> 29 locks. Chain's 31 includes two phantom locks at 6967.33 (fr/g4/c111a.png)."
+  },
+  {
+   "n": 80,
+   "id": "c111",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 0,
+   "value": 1,
+   "source": "TSD at 6966.60 (+5400) followed directly by TSD at 6967.97 (+5550 incl. REN +150, REN banner visible 6968.04-6968.89 in fr/g4/c111a.png): 2 consecutive clears = REN 1; the phantom locks had broken the combo."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 81,
+   "why": "c112 p1: S spawned 7003.03 is still at the top with its ghost at the KO 7003.13 (fr/g4/c112a.png 7003.00-7003.27); score stays 33138 through 7003.37; no lock, nothing to add."
+  },
+  {
+   "n": 82,
+   "why": "c115 p1: last lock 7136.53 (score 48664->48692) is the chain's 7136.33 piece; the L spawned 7136.60 is still at the top at KO 7136.8 (fr/g4/c115a.png), score unchanged through 7137.13."
+  }
+ ]
+}

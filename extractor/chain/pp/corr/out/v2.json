@@ -1,0 +1,11 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py p2 flat 50008 from 3687.47 to 3702.13; nextcount p2 shows spawns only at 3687.167, 3688.067, 3702.833 in that window. Four clear jumps (3686.53, 3687.47, 3702.13, 3703.17) match the 3686.23/3687.17/3688.07/3702.83 events; 3688.13 single has no spawn and no score jump."},
+{"ref":"e1","verdict":"keep","why":"Same evidence: no spawn or score change between 3688.07 and 3702.83, so the 3692.6 double is a phantom."},
+{"ref":"e2","verdict":"keep","why":"p2 +5550 at 4184.87 = TSD 3600x1.5 B2B + 150 REN (after a +7200 TST B2B at 4183.50); a plain double cannot score that."},
+{"ref":"e3","verdict":"keep","why":"Sheet /tmp/claude-0/pp/corr/fr/v2/c080.png: T locks at ~4498.6-4498.7, 'T-SPIN' banner only, board rows unchanged before/after (no line removed); score +300 at 4498.67 = zero-line mini, not a mini single."},
+{"ref":"c0","verdict":"keep","why":"nextcount p1 spawn at 3332.533 with no chain event after 3331.33; score 59140->59160 at 3332.73 (= KO frame), hard-drop points, no clear."},
+{"ref":"c1","verdict":"keep","why":"nextcount p1 spawns 3862.40, 3862.67, 3863.00; drops +28 @3862.57, +26 @3862.90, +24 @3863.23 (KO frame). Chain has only the first two; third piece locks on the KO frame, no clear."},
+{"ref":"c2","verdict":"keep","why":"nextcount p1 spawns 4401.067 and 4401.367; drops +18 @4401.27 and +18 @4401.57, before KO 4401.60. Chain's last event 4401.17 covers only the first."},
+{"ref":"c3","verdict":"keep","why":"Follows e0/e1; recount after removal = 85 non-BREAK events."},
+{"ref":"c4","verdict":"keep","why":"Recomputed after removing phantoms: run tsd 3683.27 + 4 singles + 2 doubles = 7 consecutive clears = REN 6; no longer run elsewhere."}
+]
