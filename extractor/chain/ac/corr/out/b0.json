@@ -1,0 +1,13 @@
+{"event_corrections":[],
+"cell_edits":[
+{"n":3,"id":"f008","player":"p1","field":"pieces","was":51,"value":52,"source":"fr/g0/f008k.png: after the TSD (T spawn 483.6), J spawns 484.87 (nextcount shift) and is held ~484.98; the L comes out of HOLD and locks at 485.15 (lock glow, score 36892->36916, +24 drop points, no row full, no banner), before the KO at 485.20 (やった 485.18). The chain has no event after 483.6, so this lock is uncounted. No clear, so no event add."},
+{"n":5,"id":"f018","player":"p2","field":"pieces","was":133,"value":134,"source":"fr/g0/f018k.png: after the 955.73 single, L spawns 956.53 and is held ~956.57; the S comes out of HOLD and locks on 956.77, the KO frame (lock glow, score 85411->85439, +28 drop points; the row is not full, no clear flash). The chain has no event after 955.73. No clear, so no event add."}
+],
+"no_change":[
+{"n":0,"why":"fr/g0/f004a.png: single PERFECT CLEAR at 328.4 (double, board empty, score 20749->25435); the banner lingers to ~329.6 while new pieces stack; 329.8 is the banner fading, not a second PC. Chain already logs the 328.4 PC once."},
+{"n":1,"why":"fr/g0/f006a.png: single PERFECT CLEAR at ~401.8 (TETRIS + B2B, empty board, score 21796->35028); banner lingers to ~403.0 over a re-growing stack. Chain logs the 401.77 quad PC once; no second PC."},
+{"n":2,"why":"fr/g0/f007k.png: p2's I (spawn 454.1) locks ~454.27; the S spawned 454.37 is still falling (ghost below) at the KO 454.47 and after. No uncounted lock."},
+{"n":4,"why":"fr/g0/f016k.png: p2's J (spawn 848.57) locks 848.80; the S spawned 848.90 is still in the air at KO 849.00 (small soft-drop points only). No uncounted lock."},
+{"n":6,"why":"fr/g0/f021a.png: one PERFECT CLEAR at ~1053.8 (triple, empty board, score 10932->17868); the banner persists to ~1055.0 while new pieces drop. 1055.2 is the banner end, not a second PC. Chain logs it once."},
+{"n":7,"why":"fr/g0/f021k.png: p2's O (spawn 1096.7) locks 1096.93; L spawned 1097.03 is held at 1097.10 and the I from hold is still falling at KO 1097.13. No uncounted lock."}
+]}
