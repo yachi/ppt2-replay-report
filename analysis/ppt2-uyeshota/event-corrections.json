@@ -6557,5 +6557,94 @@
    ]
   ],
   "source": "b4 frame check, verified: fr/g4/c116a.png + score.py + nextcount: after the triple PC (board empty 7152.10, score ->17861) p1 locks O (~7152.4), I (~7152.55; the +76 at 7152.53/57 is these two drop scores, no clear), L (+36 7152.97), J (+36 7153.23), O (+38 7153.50) which clears the last 2 rows: second PERFECT CLEAR (empty board + banner 7153.60, +4500 at 7153.57), then Z (out of hold) locks +38 at 7153.80; S spawned 7153.9 at KO not locked. nextcount spawns 7152.1, 7152.467, 7152.667, 7153.067, 7153.333, 7153.633 = 6 locks after the triple; chain had 4 with a phantom second double at 7153.63 and no pc on the real double. Pieces total stays 26 (28 shifts - 1 hold-into-empty - 1 unlocked at KO), which the csv already has."
+ },
+ {
+  "id": "d001",
+  "side": "p1",
+  "op": "add",
+  "t": 101.57,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Z spawned 101.57 (fr/g0/n0.png), hard-dropped with no clear: p1 score 23497->23509 at frame 101.833 (score.py), which is the KO frame end_s=101.83; no line flash. Lock on the KO frame counts."
+ },
+ {
+  "id": "d006",
+  "side": "p1",
+  "op": "retype",
+  "t": 323.5,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tss",
+  "lines": 1,
+  "source": "b0 frame check, verified: T piece clear at 324.30 with 'T-SPIN Single' + BACK to BACK banner (fr/g0/n2.png); p1 score +3750 (5359->9109) = B2B TSS 3600 + REN 150, not a single (300)."
+ },
+ {
+  "id": "d008",
+  "side": "p2",
+  "op": "retype",
+  "t": 425.1,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b0 frame check, verified: p2 score 38578->44128 at 425.73 (+5550 = B2B TSD 5400 + REN 150; a plain double would be 900); 'T-SPIN Double' + BACK to BACK banner, fr/g0/n5.png."
+ },
+ {
+  "id": "d009",
+  "side": "p2",
+  "op": "add",
+  "t": 497.33,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: L spawned 497.33 (nextcount shift 497.333), hard-dropped, p2 score 82111->82119 at frame 497.667 = KO frame end_s 497.67, no clear (fr/g0/n7.png)."
+ },
+ {
+  "id": "d018",
+  "side": "p1",
+  "op": "retype",
+  "t": 1013.03,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b0 frame check, verified: p1 score 5372->10772 at 1013.50 (+5400 = B2B TSD), 'T-SPIN Double' + BACK to BACK banner, fr/g0/n10.png."
+ },
+ {
+  "id": "d019",
+  "side": "p2",
+  "op": "retype",
+  "t": 1129.57,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "source": "b0 frame check, verified: Banner at 1130.33-1130.40 reads 'Mini T-SPIN' with no 'Single' (fr/g0/n12c.png, n12b.png); p2 score +300 (39694->39994) = zero-line mini T-spin at level 3 (mini single would be 600). Board change at 1130.33 is incoming garbage, no clear flash. Lock without a line clear."
+ },
+ {
+  "id": "d021",
+  "side": "p1",
+  "op": "add",
+  "t": 1251.23,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "v0 skeptic, missed by b0: I spawned ~1251.23, hard-dropped, locked in the same frame as p2's KO tilt (fr/v0/n14.png, frame labelled 1251.37 = end_s); score 26128->26152, no clear."
  }
 ]

@@ -1,0 +1,150 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "d001",
+   "side": "p1",
+   "op": "add",
+   "t": 101.57,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Z spawned 101.57 (fr/g0/n0.png), hard-dropped with no clear: p1 score 23497->23509 at frame 101.833 (score.py), which is the KO frame end_s=101.83; no line flash. Lock on the KO frame counts."
+  },
+  {
+   "n": 2,
+   "id": "d006",
+   "side": "p1",
+   "op": "retype",
+   "t": 323.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "source": "T piece clear at 324.30 with 'T-SPIN Single' + BACK to BACK banner (fr/g0/n2.png); p1 score +3750 (5359->9109) = B2B TSS 3600 + REN 150, not a single (300)."
+  },
+  {
+   "n": 5,
+   "id": "d008",
+   "side": "p2",
+   "op": "retype",
+   "t": 425.1,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "p2 score 38578->44128 at 425.73 (+5550 = B2B TSD 5400 + REN 150; a plain double would be 900); 'T-SPIN Double' + BACK to BACK banner, fr/g0/n5.png."
+  },
+  {
+   "n": 7,
+   "id": "d009",
+   "side": "p2",
+   "op": "add",
+   "t": 497.33,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "L spawned 497.33 (nextcount shift 497.333), hard-dropped, p2 score 82111->82119 at frame 497.667 = KO frame end_s 497.67, no clear (fr/g0/n7.png)."
+  },
+  {
+   "n": 10,
+   "id": "d018",
+   "side": "p1",
+   "op": "retype",
+   "t": 1013.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "p1 score 5372->10772 at 1013.50 (+5400 = B2B TSD), 'T-SPIN Double' + BACK to BACK banner, fr/g0/n10.png."
+  },
+  {
+   "n": 12,
+   "id": "d019",
+   "side": "p2",
+   "op": "retype",
+   "t": 1129.57,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Banner at 1130.33-1130.40 reads 'Mini T-SPIN' with no 'Single' (fr/g0/n12c.png, n12b.png); p2 score +300 (39694->39994) = zero-line mini T-spin at level 3 (mini single would be 600). Board change at 1130.33 is incoming garbage, no clear flash. Lock without a line clear."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 0,
+   "id": "d001",
+   "player": "p1",
+   "field": "pieces",
+   "was": 37,
+   "value": 38,
+   "source": "Z locked on KO frame 101.833 (score +12), fr/g0/n0.png"
+  },
+  {
+   "n": 7,
+   "id": "d009",
+   "player": "p2",
+   "field": "pieces",
+   "was": 104,
+   "value": 105,
+   "source": "L locked on KO frame 497.667 (score +8), fr/g0/n7.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "d005 p2: three clears at 306.27/307.27/308.17 match chain; J spawned 308.77 still at top at 309.00 (fr/g0/n1.png), no lock by KO."
+  },
+  {
+   "n": 3,
+   "why": "d006 p2: S spawned 351.07 locked with score 34084->34110 at frame 351.200, one frame after KO frame 351.167 (score.py); does not count. fr/g0/n3.png"
+  },
+  {
+   "n": 4,
+   "why": "d007 p1: S spawned 393.0 still at top through KO (fr/g0/n4.png), no score change."
+  },
+  {
+   "n": 6,
+   "why": "d008 p2: T spawned 436.33 was held, S from hold still at top at KO (fr/g0/n6.png), no score change."
+  },
+  {
+   "n": 8,
+   "why": "d010 p1: Z spawned 562.76 still falling at KO 562.93 (fr/g0/n8.png)."
+  },
+  {
+   "n": 9,
+   "why": "d011 p2: spawn 616.80 then hold at 616.87; no score change through 617.03, no lock by KO."
+  },
+  {
+   "n": 11,
+   "why": "d018 p1: T spawned 1091.90 soft-dropping (score +1/frame), still in the air at 1092.30 (fr/g0/n11.png); not locked by KO."
+  },
+  {
+   "n": 13,
+   "why": "d020 p2: J spawned 1225.93 still at top at KO 1226.23 (fr/g0/n13.png), no score change."
+  },
+  {
+   "n": 14,
+   "why": "d021 p1: I spawned ~1251.23 hard-dropped (score 26128->26152) at frame 1251.400, one frame after KO frame 1251.367 (score.py; per-frame strip fr/g0/n14b.png, p2 board already tilting at 1251.367 in n14c.png). Does not count."
+  },
+  {
+   "n": 15,
+   "why": "d007 p2: the PERFECT CLEAR banner at 368.2-368.4 (fr/g0/n15.png) is the lingering banner of the PC the chain already logs on the single at 367.47 (pc=1); the pieces after it (368.0, 368.3, 368.73...) are plain locks building a new stack (scores +34 each). Not a second PC, not double-logged."
+  }
+ ]
+}

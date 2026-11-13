@@ -1,0 +1,141 @@
+[
+ {
+  "id": "d001",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 101.83,
+  "n": 0
+ },
+ {
+  "id": "d005",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 308.97,
+  "n": 1
+ },
+ {
+  "id": "d006",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 323.5 s typed as a plain clear",
+  "t_s": 323.5,
+  "n": 2
+ },
+ {
+  "id": "d006",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 351.17,
+  "n": 3
+ },
+ {
+  "id": "d007",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 393.1,
+  "n": 4
+ },
+ {
+  "id": "d008",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 425.1 s typed as a plain clear",
+  "t_s": 425.1,
+  "n": 5
+ },
+ {
+  "id": "d008",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 436.7,
+  "n": 6
+ },
+ {
+  "id": "d009",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 497.67,
+  "n": 7
+ },
+ {
+  "id": "d010",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 562.93,
+  "n": 8
+ },
+ {
+  "id": "d011",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 616.97,
+  "n": 9
+ },
+ {
+  "id": "d018",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 1013.03 s typed as a plain clear",
+  "t_s": 1013.03,
+  "n": 10
+ },
+ {
+  "id": "d018",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 1092.2,
+  "n": 11
+ },
+ {
+  "id": "d019",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1130.26 s, no A clear matched (added by R/build.py)",
+  "t_s": 1130.26,
+  "n": 12
+ },
+ {
+  "id": "d020",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 1226.23,
+  "n": 13
+ },
+ {
+  "id": "d021",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 1251.37,
+  "n": 14
+ },
+ {
+  "id": "d007",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "id": "d007",
+   "player": "p2",
+   "t_s": 368.5,
+   "lit": [
+    [
+     29,
+     41,
+     38
+    ]
+   ]
+  },
+  "t_s": 368.5,
+  "n": 15
+ }
+]

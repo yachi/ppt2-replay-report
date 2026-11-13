@@ -1,0 +1,71 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "In one contact sheet (fr/v0/n0.png), the Z lock (p1 score 23497->23509) and p2's board tilt both first appear in the frame labelled 101.83, so the lock is on the KO frame. No line flash. Counts."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py: p1 soft-drops from 323.57 to 324.23, then +3750 at 324.30 (5359->9109). That is B2B TSS 3600 + REN 150; a single would be 300."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py: p2 soft-drops to 425.63, then +5550 at 425.73 (38578->44128) = B2B TSD 5400 + REN 150; a plain double would be 900."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Contact sheet fr/v0/n7.png: p2 score 82111->82119 in the frame labelled 497.63, the same frame as or one before p1's tilt (clearly tilted by 497.67). No clear, so the lock counts."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py: p1 +5400 at 1013.50 (5372->10772) after soft drop = B2B TSD; a double would be 900."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py: p2 +300 at 1130.33 (39694->39994) with no drop points, which is a zero-line mini T-spin at level 3 (a mini single would be 600). fr/v0/n12.png: the board change at 1130.33 is garbage rising, with no clear flash."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Same evidence as e0: the Z locks on the KO frame, so pieces 37->38."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Same evidence as e3: the L locks by the KO frame, so pieces 104->105."
+ },
+ {
+  "ref": "n14a",
+  "verdict": "missed",
+  "why": "Contact sheet fr/v0/n14.png (one ffmpeg seek per frame). In the frame labelled 1251.33, p2 is not tilted and p1's I has not locked (score 26128). In the frame labelled 1251.37 (= end_s), p2's board is tilted AND p1's I is locked in the right well (score 26152). score.py reports the change one frame later (1251.40) because its frame stamps run one frame behind the sheet's; the n0 sheet for d001 shows the same offset (lock 101.83 there). Compared within one tool, the lock is on the KO frame. +24 is drop points only; no clear.",
+  "proposal": {
+   "id": "d021",
+   "side": "p1",
+   "op": "add",
+   "t": 1251.23,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "I spawned ~1251.23, hard-dropped, locked in the same frame as p2's KO tilt (fr/v0/n14.png, frame labelled 1251.37 = end_s); score 26128->26152, no clear."
+  }
+ },
+ {
+  "ref": "n14b",
+  "verdict": "missed",
+  "why": "Contact sheet fr/v0/n14.png (one ffmpeg seek per frame). In the frame labelled 1251.33, p2 is not tilted and p1's I has not locked (score 26128). In the frame labelled 1251.37 (= end_s), p2's board is tilted AND p1's I is locked in the right well (score 26152). score.py reports the change one frame later (1251.40) because its frame stamps run one frame behind the sheet's; the n0 sheet for d001 shows the same offset (lock 101.83 there). Compared within one tool, the lock is on the KO frame. +24 is drop points only; no clear.",
+  "proposal": {
+   "id": "d021",
+   "player": "p1",
+   "field": "pieces",
+   "was": 37,
+   "value": 38,
+   "source": "I locked on the KO frame, fr/v0/n14.png"
+  }
+ }
+]
