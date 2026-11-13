@@ -1,0 +1,283 @@
+{
+ "event_corrections": [
+  {
+   "n": 38,
+   "id": "e064",
+   "side": "p1",
+   "op": "retype",
+   "t": 4319.0,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "S spawned 4319.0 hard-dropped at 4319.27 (+34) then +1500 at 4319.30 (= single 300 + REN 8 x150); bottom row flashes and disappears 4319.40-4319.57, REN counter steps up; quad before it scored 3450 = 2400+7x150 (REN 7). corr/fr/g2/e064a.png, score.py 4318.5-4321. KO piece itself was still soft-dropping at KO (score +1/frame to 4320.63), not locked."
+  },
+  {
+   "n": 41,
+   "id": "e070",
+   "side": "p2",
+   "op": "add",
+   "t": 4932.03,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "O spawned 4932.03 (NEXT shift), hard-dropped at 4932.30 (+26) before the KO tilt at 4932.33; no line cleared. corr/fr/g2/e070.png"
+  },
+  {
+   "n": 46,
+   "id": "e079",
+   "side": "p1",
+   "op": "add",
+   "t": 5458.83,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "S (from hold, swap at 5458.83) hard-dropped at 5458.90 (+18, the KO frame) and cleared 1 line: +1200 at 5458.93 = single 300 + REN 6 x150; '6 REN' banner and clear flash 5458.93-5459.2; p2 tilt starts 5458.96. corr/fr/g2/e079.png, score.py 5456-5459.4"
+  },
+  {
+   "n": 54,
+   "id": "e091",
+   "side": "p2",
+   "op": "remove",
+   "t": 6044.8,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "No p2 NEXT shift after 6038.8 (nextcount 6037.5-6045.6: 1 shift); queue unchanged in frames 6039-6045; the I spawned 6038.8 fell slowly by gravity and had not locked when p1's board tilted (~6045.17-6045.2). Phantom event. corr/fr/g2/e091.png, e091b.png, e091c.png"
+  },
+  {
+   "n": 53,
+   "id": "e091",
+   "side": "p2",
+   "op": "remove",
+   "t": 6039.03,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "This is the I spawned 6038.8 (NEXT ITJOS>TJOSZ); it was still resting/falling in the right well with no score change and no further spawn through the KO at 6045.2 (lock-like brightening only at 6045.20 together with the KO freeze). Not a locked piece; the Z before it (chain 6037.43) locked at 6038.70 (+20). corr/fr/g2/e091.png, e091b.png, e091c.png"
+  },
+  {
+   "n": 55,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6066.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Opening idle play: T falls by gravity 6055-~6066.7, one NEXT shift at 6067.2 (J). 6066.7 is the T's lock moment logged as an extra piece. corr/fr/g2/e092.png; nextcount p1 6055-6085 shows shifts only at 6067.2, 6078.2"
+  },
+  {
+   "n": 55,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6077.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Same pattern: J touches ~6077.7, locks ~6078.1, O spawns 6078.2 (single NEXT shift). corr/fr/g2/e092b.png"
+  },
+  {
+   "n": 55,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6088.07,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Same pattern: nextcount 6078-6100 shows single shifts at 6088.57 and 6097.7; chain has an extra event 0.5 s before each (still idle gravity play, score 0)."
+  },
+  {
+   "n": 55,
+   "id": "e092",
+   "side": "p1",
+   "op": "remove",
+   "t": 6097.2,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Same pattern as 6088.07 (shift at 6097.7 only)."
+  },
+  {
+   "n": 56,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6066.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Opening idle play: I falls by gravity 6055-~6066.7, one NEXT shift at 6067.2 (S). corr/fr/g2/e092.png; nextcount p2 shows shifts 6067.2, 6078.8, 6089.2, 6098.33 only"
+  },
+  {
+   "n": 56,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6078.33,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "S locks ~6078.7, L spawns 6078.8 (single shift). corr/fr/g2/e092b.png"
+  },
+  {
+   "n": 56,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6088.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Single NEXT shift at 6089.2; extra event 0.5 s before it."
+  },
+  {
+   "n": 56,
+   "id": "e092",
+   "side": "p2",
+   "op": "remove",
+   "t": 6097.87,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Single NEXT shift at 6098.33; extra event 0.5 s before it."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "e064",
+   "player": "p1",
+   "field": "max_combo",
+   "was": "7",
+   "value": 8,
+   "source": "missed REN-8 single at 4319.0 (+1500), see retype; corr/fr/g2/e064a.png"
+  },
+  {
+   "id": "e070",
+   "player": "p2",
+   "field": "pieces",
+   "was": "28",
+   "value": 29,
+   "source": "O locked 4932.30, before KO 4932.33; corr/fr/g2/e070.png"
+  },
+  {
+   "id": "e079",
+   "player": "p1",
+   "field": "pieces",
+   "was": "47",
+   "value": 48,
+   "source": "S locked 5458.90 (=KO frame), cleared 1 line; corr/fr/g2/e079.png"
+  },
+  {
+   "id": "e079",
+   "player": "p1",
+   "field": "max_combo",
+   "was": "5",
+   "value": 6,
+   "source": "that single is REN 6 (+1200 = 300+6x150; banner '6 REN' 5458.96); corr/fr/g2/e079.png"
+  },
+  {
+   "id": "e091",
+   "player": "p2",
+   "field": "pieces",
+   "was": "67",
+   "value": 65,
+   "source": "two events after the last lock (6038.70) are the unlocked I and a phantom; corr/fr/g2/e091b.png, e091c.png"
+  },
+  {
+   "id": "e092",
+   "player": "p1",
+   "field": "pieces",
+   "was": "124",
+   "value": 120,
+   "source": "4 phantom events in the idle opening 6055-6098 (one before each NEXT shift); nextcount + corr/fr/g2/e092.png, e092b.png"
+  },
+  {
+   "id": "e092",
+   "player": "p2",
+   "field": "pieces",
+   "was": "108",
+   "value": 104,
+   "source": "4 phantom events in the idle opening 6055-6098; nextcount + corr/fr/g2/e092.png, e092b.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 39,
+   "why": "e066 p1: last spawn 4513.43 (hold T 4513.50); no score change from 4512.77 to KO 4513.63, piece not locked"
+  },
+  {
+   "n": 40,
+   "why": "e068 p2: locks at 4658.93 and 4659.33 are in chain; piece spawned 4659.37 had no score change by KO 4659.93"
+  },
+  {
+   "n": 42,
+   "why": "e075 p1: last piece soft-dropping (+1/frame) through KO 5303.63, not locked"
+  },
+  {
+   "n": 43,
+   "why": "e076 p1: last piece still soft-dropping at 5325.33, after KO 5325.30"
+  },
+  {
+   "n": 44,
+   "why": "e077 p1: spawn 5394.17, hold 5394.23, no score change by KO 5394.37"
+  },
+  {
+   "n": 45,
+   "why": "e078 p1: 5422.57 scored +1050 = double 900 + REN 1; plain double is right, not TSD"
+  },
+  {
+   "n": 47,
+   "why": "e080 p1: +1200 at 5582.93 is a zero-line T-SPIN (banner 'T-SPIN', no row cleared, corr/fr/g2/e080.png); chain None lock is correct"
+  },
+  {
+   "n": 48,
+   "why": "e083 p2: all four drops in tail are chain events; spawn 5732.67 + hold, no lock by KO 5732.83"
+  },
+  {
+   "n": 49,
+   "why": "e084 p2: last piece soft-dropping at 5760.00, after KO 5759.97"
+  },
+  {
+   "n": 50,
+   "why": "e085 p1: spawn 5787.77, hold 5787.83, no score change by KO 5787.90"
+  },
+  {
+   "n": 51,
+   "why": "e086 p2: last piece still soft-dropping at 5824.07, after KO 5824.03"
+  },
+  {
+   "n": 52,
+   "why": "e089 p2: spawn 5967.70, no score change by KO 5967.90"
+  }
+ ]
+}

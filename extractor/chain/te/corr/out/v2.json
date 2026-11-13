@@ -1,0 +1,22 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: +34 drop at 4319.27 then +1500 at 4319.30 (300 + REN8 150x8); fr/v2/e064.png shows a row clearing 4319.3-4319.9 with the REN counter stepping 7->8; cleared row is coloured, gc 0. Next spawn 4319.97 (nextcount), so the S locked well before KO 4320.63."},
+{"ref":"e1","verdict":"keep","why":"nextcount p2: O spawned 4932.03; fr/v2/e070.png shows it hard-dropped and resting on the stack at 4932.27, score +26 (18002->18028) at 4932.27/4932.30, before the KO 4932.33. No line cleared."},
+{"ref":"e2","verdict":"keep","why":"fr/v2/e079.png: S from hold drops at 5458.87 (score 24659->24677, score.py 5458.90 = end_s), +1200 at 5458.93 = single 300 + REN6 900; the cleared row is the coloured row above the grey garbage (gc 0); REN banner 5->6."},
+{"ref":"e3","verdict":"keep","why":"No p2 NEXT shift after 6038.80 through the KO; fr/v2/e091.png, e091b.png: the I falls slowly by gravity, rests in the well from ~6044.70 and brightens at 6045.17 (KO freeze), and fr/v2/e091d.png shows the I gone from the board after the KO (6045.47+), so it was the active piece, never locked. 6044.8 is a phantom."},
+{"ref":"e4","verdict":"keep","why":"6039.03 is the I spawned 6038.80 (nextcount ITJOS>TJOSZ); it never locked (vanishes after KO, fr/v2/e091d.png). Z before it locked at 6038.70 (+20)."},
+{"ref":"e5","verdict":"keep","why":"Score stays 0 6054-6100 (gravity-only idle play); nextcount p1 shifts only at 6055.0, 6067.2, 6078.2, 6088.57, 6097.7. Same one-piece-per-shift pattern verified on frames at 6088 and 6097 (fr/v2/e092a.png, e092b.png)."},
+{"ref":"e6","verdict":"keep","why":"Same pattern; single NEXT shift at 6078.2, no other spawn between 6067.2 and 6078.2."},
+{"ref":"e7","verdict":"keep","why":"Frames fr/v2/e092a.png 6086.6-6089.4: p1's O falls by gravity, locks ~6088.4-6088.6, I appears at 6088.6; only one piece locked, so the 6088.07 event is a phantom duplicate of the 6088.57 spawn."},
+{"ref":"e8","verdict":"keep","why":"Frames fr/v2/e092b.png 6096.8-6098.6: p1's I locks ~6097.6, L spawns 6097.8; one piece, 6097.2 is a phantom."},
+{"ref":"e9","verdict":"keep","why":"nextcount p2 shifts only at 6055.0, 6067.2, 6078.8, 6089.2, 6098.33; score 0 throughout; one piece per shift."},
+{"ref":"e10","verdict":"keep","why":"Same; single shift at 6078.8."},
+{"ref":"e11","verdict":"keep","why":"Frames fr/v2/e092a.png: p2's L falls by gravity, locks ~6089.0-6089.2, S spawns ~6089.2; only one piece, 6088.73 is a phantom."},
+{"ref":"e12","verdict":"keep","why":"Frames fr/v2/e092b.png: p2's S settles and locks ~6098.2-6098.4, J spawns 6098.4; one piece, 6097.87 is a phantom."},
+{"ref":"c0","verdict":"keep","why":"REN 8 single at 4319.30 (+1500, banner 8 REN)."},
+{"ref":"c1","verdict":"keep","why":"O locked 4932.27-4932.30, before KO 4932.33."},
+{"ref":"c2","verdict":"keep","why":"S locked at/before end_s 5458.90 (score 24677 at 5458.87-5458.90)."},
+{"ref":"c3","verdict":"keep","why":"+1200 = 300 + 6x150, REN banner 6."},
+{"ref":"c4","verdict":"keep","why":"Two removals confirmed; 67 -> 65 (also extractor A's count)."},
+{"ref":"c5","verdict":"keep","why":"Four phantom events confirmed on nextcount and frames; 124 -> 120 (also extractor A's count)."},
+{"ref":"c6","verdict":"keep","why":"Four phantom events confirmed; 108 -> 104 (also extractor A's count)."}
+]

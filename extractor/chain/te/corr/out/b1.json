@@ -1,0 +1,29 @@
+{"event_corrections":[
+{"n":19,"id":"e043","side":"p2","op":"remove","t":2625.77,"was":["double",2,0],"source":"Score flat at 39074 from 2625.00 to 2630.10 (score.py); nextcount shows one spawn at 2625.733 (T, held at 2625.933, I out) and nothing more until 2630.133. The I sat at the top until it locked at 2630.10 with no clear (+18). The double before it was the J at 2624.93 (+1050), which is the chain's 2623.77 double. 2625.77 is a duplicate of the 2625.73 lock, with no clear. fr/g1/n19.png"},
+{"n":22,"id":"e045","side":"p2","op":"retype","t":2827.5,"was":["single",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"T held 2825.3-2827.2, then TST at 2827.27 (+4800, Triple banner). The J spawned 2827.5 locked at 2827.80 for +32 only (hard drop), so no clear; score frozen after. The S spawned 2827.8 is still at the top at the KO (2827.93) and 2828.00, so no KO piece. fr/g1/n22.png"},
+{"n":24,"id":"e047","side":"p2","op":"retype","t":3166.33,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"The banner at 3167.45 reads 'Mini T-SPIN' with no 'Single' (fr/g1/n24b.png). Score +300 at 3167.37, which is a zero-line mini at level 3, not 600. Stack rows did not drop (fr/g1/n24.png). The next TSD at 3167.87 scored +3600 with no B2B, which is consistent with no mini single before it. A zero-line Mini T-spin is a lock with no clear."},
+{"n":25,"id":"e050","side":"p1","op":"retype","t":3348.3,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":1,"source":"Score +5400 at 3348.90 (score.py), which is a B2B TSD (3600x1.5). The previous clear (3347.33) was also a +5400 B2B TSD. A plain double cannot score 5400."},
+{"n":26,"id":"e050","side":"p2","op":"add","t":3366.2,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount spawn at 3366.200; the J hard-drops and locks at 3366.54 (score 34199->34219), before KO 3366.57; no clear. The chain has no event after 3365.4. fr/g1/n26.png"},
+{"n":34,"id":"e062","side":"p1","op":"retype","t":4173.43,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"Red Z drops at 4173.57 (+16), then +600 at 4173.60 (single 300 + REN2 300). One row flashes white and a '2 REN' banner shows (fr/g1/n34.png). REN run: TSD 4171.60 (+5400), quad 4172.63 (+3750 = 3600+150), this single, double 4174.43 (+1350 = 900+450)."},
+{"n":35,"id":"e063","side":"p2","op":"retype","t":4193.77,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"The O spawned at 4193.77 locks at 4193.93 (+26), then +900 at 4193.97 = single 300 + REN4 600. One white clear row, REN banner (fr/g1/n35.png). REN run: TSD 4190.00 +5400, single +466, single +616, quad +2850, this single. It breaks B2B, so the TSD at 4196.47 scored +3600, not 5400. That explains the -1776."},
+{"n":37,"id":"e064","side":"p1","op":"retype","t":4319.0,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"The piece spawned 4319.0 locks at 4319.27 (+34), then +1500 at 4319.30 = single 300 + REN8 1200. The '8 REN' banner and one clearing row show at 4319.4 (fr/g1/n37.png). The next piece (spawned 4319.97, O held 4320.03) is still soft-dropping at the KO 4320.63 (score +1 per frame), so it is not locked."}
+],
+"cell_edits":[
+{"n":19,"id":"e043","player":"p2","field":"pieces","was":72,"value":71,"source":"The phantom double at 2625.77 duplicates the 2625.73 piece; nextcount has 5 spawns in 2625.5-2631.0 for the chain's 6 events."},
+{"n":26,"id":"e050","player":"p2","field":"pieces","was":49,"value":50,"source":"The J spawned 3366.2 locked at 3366.54 <= KO 3366.57 (fr/g1/n26.png)."},
+{"n":34,"id":"e062","player":"p1","field":"max_combo","was":2,"value":3,"source":"Four consecutive clears: TSD 4171.6, quad 4172.6, single 4173.6, double 4174.4; '2 REN' banner on the single, double scored with REN3 (+1350)."},
+{"n":37,"id":"e064","player":"p1","field":"max_combo","was":7,"value":8,"source":"'8 REN' banner at 4319.4 on the single (fr/g1/n37.png); +1500 = 300 + 8x150."}
+],
+"no_change":[
+{"n":20,"why":"The last lock is at 2760.27 (+32). The next J is still falling at the KO 2760.6 (fr/g1/n20.png); score is frozen at 141052."},
+{"n":21,"why":"The 4-s gap is real. After the single at 2817.8 (+1350, REN), garbage rises and no piece spawns until 2821.37. Then the locks at 2821.70, 2822.07 and ~2822.3 match the chain's three None events (fr/g1/n21.png)."},
+{"n":23,"why":"The last lock is at 2862.67 (piece spawned 2862.47). The piece spawned 2862.77 does not lock before the KO 2862.9; score is unchanged to 2863.13."},
+{"n":27,"why":"Locks at 3492.07/.36/.53 match spawns .03/.17/.47. The piece spawned 3492.63 does not lock by the KO 3492.73; score is flat to 3493.00."},
+{"n":28,"why":"The S spawned 3526.46 (held/swapped at 3526.56) locks at 3526.67, one frame after the KO 3526.63, when it is still in the air (fr/g1/n28.png); it does not count."},
+{"n":29,"why":"At KO 3615.00 the p2 board is already tilted and the S is still in the air. It locks at 3615.03, one frame after (fr/g1/n29.png); it does not count."},
+{"n":30,"why":"Locks at 3737.74, 3738.00 and 3738.30 match the chain. The piece spawned 3738.40 (T held 3738.44) does not lock before the KO 3738.57; score is unchanged to 3738.77."},
+{"n":31,"why":"The last lock is at 3830.70. The piece spawned 3830.80 (T held 3830.86) does not lock by the KO 3830.93; score is unchanged to 3831.16."},
+{"n":32,"why":"Locks at 3871.87, 3872.20 and 3872.57 match the chain's three events. The piece spawned 3872.67 does not lock by the KO 3872.9; score is unchanged to 3873.13."},
+{"n":33,"why":"The last lock is at 4083.93 (piece spawned 4083.60). The next piece does not lock: score stays at 37167 through 4085.4."},
+{"n":36,"why":"The last lock is at 4243.87. The next piece is held/swapped at 4244.50 and does not lock by the KO 4244.87; score stays at 68864 to 4245.10."}
+]}

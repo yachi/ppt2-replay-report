@@ -1,0 +1,77 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6066.7 (p1) is a duplicate 0.5 s before a real spawn."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6077.7 (p1) is a duplicate 0.5 s before a real spawn."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6088.07 (p1) is a duplicate 0.5 s before a real spawn."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6097.2 (p1) is a duplicate 0.5 s before a real spawn."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6066.73 (p2) is a duplicate 0.47 s before a real spawn."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6078.33 (p2) is a duplicate 0.47 s before a real spawn."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6088.73 (p2) is a duplicate 0.47 s before a real spawn."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e092open.png (6062-6096 every 2 s): one piece falls by gravity per ~10 s, no score; nextcount spawns p1 6055.0/6067.2/6078.2/6088.567/6097.7, p2 6055.0/6067.2/6078.8/6089.2/6098.333 only. Chain None at 6097.87 (p2) is a duplicate 0.47 s before a real spawn."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score.py: p1 +38 at 6156.67 then +2850 at 6156.73 (PC), then locks +38 6157.20, +38 6157.37, +36 6157.50, +34 6157.90, 6158.20, 6158.57, 6158.90 = 8 locks from 6156.6 against 7 chain events from 6156.8: one spawn missing. cseq in [6156.5,6156.85] holds only [6156.8,single,1]; was_old exact."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 6463.8, 6464.2, 6464.533 (S held 6464.633), 6464.933; score +34 6464.17, +34 6464.47, +34 6464.80, +13200 6464.87 (PC quad, I from hold), +38 6465.03 (J, no clear). cseq in window only [6464.93,quad,4]; was_old exact."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "corr/fr/v3/e102.png: score rises exactly +300 at 6751.90 (114009->114309), zero-line mini value at level 3; stack moves UP (garbage), no row clears. Not a line clear."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 7141.0, 7141.333, 7141.667, 7141.833 (missing from chain), 7142.133 (S held 7142.333); score locks +36 7141.23, 7141.57, 7141.73, +36 7142.00 then +6900 PC at 7142.07 = the 7141.833 piece; after: 5 locks (7142.57,7142.63,7142.87,7143.07,7143.43) for 5 chain events. cseq in window only [7142.13,triple,3]; was_old exact."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "nextcount p1 6054-6159.1 (corr/fr/v3/e092_p1.nc): 122 spawns, all single shifts; last spawn 6159.0 unlocked by KO 6159.1 (no score change after 6158.90), L in hold -> 120. Chain 123 events -4 dup +1 missed = 120."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "nextcount p2 (corr/fr/v3/e092_p2.nc): 106 spawns; S in hold (6156.833), 6158.467 spawn not locked (no p2 score change after 6157.80 through KO) -> 104. Chain 108 -4 dup."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "nextcount p2: 6468.733 Z spawn held 6468.9, J from hold locks +34 at 6469.13 before KO 6469.27; plus the missed 6464.533 lock: 27 chain events +2 = 29."
+ }
+]
