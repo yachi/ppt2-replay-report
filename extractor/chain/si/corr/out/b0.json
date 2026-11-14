@@ -1,0 +1,20 @@
+{"event_corrections":[
+ {"n":14,"id":"z023","side":"p2","op":"retype","t":2391.03,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Only one T-spin Double in the window: T spawned ~2389.94, placed ~2390.07, two-row clear flash 2390.34, T-SPIN Double + BACK to BACK banner 2390.47, score 10862 -> 16273 (+5411 = B2B TSD 5400 + drop). That is the chain's tsd at 2389.83. The piece spawned ~2391.14 (Z) locks on top of the stack with no clear (score 16273 -> 16283 at 2391.27, drop points only); no further big score jump until the quad (+3600 at 2393.17). Sheet /tmp/claude-0/si/corr/fr/g0/z023.png (2389.4-2391.6, p2)."}
+],
+"cell_edits":[
+ {"n":0,"id":"z003","player":"p2","field":"pieces","was":38,"value":39,"source":"Green S spawned 903.47, hard-dropped and locked at 903.56 (score 8771 -> 8801, +30 drop points, no clear), before the KO frame 903.60. /tmp/claude-0/si/corr/fr/g0/z003.png"},
+ {"n":9,"id":"z017","player":"p1","field":"pieces","was":143,"value":144,"source":"Orange L spawned ~2050.17 locks on the frame stamped 2050.30 = end_s (score 96163 -> 96187, drop points only, no clear); KO banner appears the next frame 2050.33. /tmp/claude-0/si/corr/fr/g0/z017.png, z017b.png"},
+ {"n":14,"id":"z023","player":"p2","field":"max_b2b","was":7,"value":6,"source":"Removing the phantom tsd at 2391.03 shortens the B2B run tst 2383.37 .. quad 2401.53 from 8 to 7 difficult clears, so max_b2b 7 -> 6. Same frames/score as the retype."}
+],
+"no_change":[
+ {"n":1,"why":"z005 p2: blue J spawned 1002.27 is still falling (soft drop, score +1 steps) at the KO frame 1002.53; it never locks by KO. /tmp/claude-0/si/corr/fr/g0/z005.png"},
+ {"n":2,"why":"z008 p1: T spawned ~1206.80 is soft-dropping (score +1 per frame through 1207.20) and still in the air at KO 1207.20. /tmp/claude-0/si/corr/fr/g0/z008.png"},
+ {"n":3,"why":"z010 p2: score rises +1 per frame (soft drop) from 1437.17 through 1437.70, past KO 1437.63; piece not locked by KO."},
+ {"n":4,"why":"z011 p1: single jump +4685 at 1461.27 = plain double (900) + double perfect clear bonus (3600) + REN1 (150) + drop; a TSD PC would be ~7350. Chain's plain double with pc=1 is right."},
+ {"n":6,"why":"z014 p1: +1050 at 1723.70 = plain double 900 + REN1 150 (right after the quad at 1722.03); a TSD would be >= 3750."},
+ {"n":8,"why":"z017 p1: +600 at 2038.90 = plain single 300 + REN2 300 (quad at 2037.6 already scored REN1: +3750); T-spin single or mini with B2B would be far more. Chain single is right."},
+ {"n":10,"why":"z018 p2: score unchanged 101932 from the last spawn to after the KO; nothing locked (audit already confirmed)."},
+ {"n":12,"why":"z022 p1: +8 at 2340.00 is the lock of the piece spawned 2339.73 (chain event); the next piece is soft-dropping (+1 per frame 2340.30-2340.37) past KO 2340.33, not locked."},
+ {"n":13,"why":"z023 p2: the T-SPIN Double banner at 2390.46 belongs to the chain's tsd at 2389.83 (T placed ~2390.07, clear flash 2390.34); timing offset only. The spurious second tsd is handled in item 14."}
+]}

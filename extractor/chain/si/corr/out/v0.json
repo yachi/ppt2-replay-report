@@ -1,0 +1,6 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py 2389.3-2393.4: p2 10862 -> 16273 by 2390.67 (one B2B TSD), then only +10 at 2391.27, +8, +6, +8, +4, +6, +10 (drop points) until +3600 quad at 2393.17. nextcount: T held 2389.63, swapped out 2389.90; no second T until the queue's T at ~2393. The chain's tsd at 2391.03 is a plain lock."},
+{"ref":"c0","verdict":"keep","why":"fr/v0/z003.png: O locks 903.40 (+22, this is the chain's last event 903.13); green S from the queue locks on the frame 903.56 with drop trail and score 8771 -> 8801, before KO 903.60 (やった at 903.63). Not in the chain (last event 903.13), so 38 -> 39."},
+{"ref":"c1","verdict":"keep","why":"fr/v0/z017b.png, z017.png: J held/Z locks 2049.63 (chain 2049.37), L held/J locks 2050.00 (chain 2049.73), S spawns ~2050.13 and is held, L comes out of hold and is hard-dropped: at 2050.30 (= end_s) it already sits at its resting place on the stack (at 2050.26 it was mid-board), score +24 shows one frame later at 2050.33. Lock at end_s, counted; 143 -> 144. Slight uncertainty on a one-frame render lag."},
+{"ref":"c2","verdict":"keep","why":"Chain difficult-clear run for z023 p2 is tst 2383.37, tsd 2385.57, tsd 2389.83, tsd 2391.03, quad 2393.0, tsd 2395.73, quad 2397.9, quad 2401.53 (8, max_b2b 7), broken by single 2403.0. With the phantom tsd removed the run is 7, max_b2b 6."}
+]
