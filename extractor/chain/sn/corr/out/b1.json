@@ -1,0 +1,39 @@
+{"event_corrections":[
+ {"n":17,"id":"e009","side":"p2","op":"retype","t":160.90,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"The blue J spawned at 160.9 locks ~161.5 and clears one coloured row (flash 161.6-162.0, no queue shift until 162.2); score 5340->5640 (+300, plain single) at 161.53. The single breaks B2B, which is why the TSD at 163.4 scored +3630 (non-B2B) instead of 5400. corr/fr/g1/i17.png; score.py 160-167 jeH2N-kjDUw"},
+ {"n":18,"id":"e009","side":"p2","op":"retype","t":222.60,"was":["tsd",2,0],"kind":"tst","lines":3,"pc":0,"gc":1,
+  "source":"T stood into a 3-deep slot at 222.9-223.3, three rows cleared (223.5 white band), banner 'Triple' + BACK, score 73364->80627 (+7263 = B2B TST 7200). Bottom grey garbage row is gone after the clear, so gc 1. corr/fr/g1/i18.png"},
+ {"n":22,"id":"e011","side":"p2","op":"retype","t":331.93,"was":["tst",4,0],"kind":"quad","lines":4,"pc":0,"gc":4,
+  "source":"Vertical I at 332.0 into the 4 grey garbage rows, TETRIS banner, 4-row flash 332.2-332.6, score 52948->56582 (+3634 = B2B quad). Not a T-spin. corr/fr/g1/i22.png"},
+ {"n":22,"id":"e011","side":"p2","op":"retype","t":333.57,"was":[null,0,0],"kind":"tss","lines":1,"pc":0,"gc":0,
+  "source":"At ~333.7 the J is held and the T swapped out; the T locks ~334.3 into a T-spin Single ('Single' banner at 334.4-335.0, one-row flash 334.4), score 56679->60279 (+3600 = B2B TSS). Chain had this lock as a non-clear. corr/fr/g1/i22.png; score.py 329-334.5"},
+ {"n":23,"id":"e011","side":"p1","op":"retype","t":354.57,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,
+  "source":"T laid flat into the slot at 354.6-354.8, two coloured rows flash at 354.9-355.1 (Double banner), score 75417->80817 (+5400 = B2B TSD; B2B TSS would be 3600). corr/fr/g1/i23.png"},
+ {"n":24,"id":"e011","side":"p1","op":"retype","t":369.43,"was":["tst",4,0],"kind":"quad","lines":4,"pc":0,"gc":0,
+  "source":"Vertical I into the column-3 well at 369.4, 4-row white band at 369.65-369.9, score 105014->108614 (+3600 = B2B quad). The 'T-SPIN' banner on screen belongs to the zero-line T-spin at ~368.2 (+300, no rows cleared). corr/fr/g1/i24.png"},
+ {"n":24,"id":"e011","side":"p1","op":"retype","t":366.23,"was":["tsmini",4,0],"kind":"quad","lines":4,"pc":0,"gc":2,
+  "source":"Same window: vertical I on the left at 366.4, TETRIS banner, 4-row flash 366.65-366.9, score 101003->104621 (+3618 = B2B quad); a 4-line clear cannot be a mini. gc kept as the chain had it (2). corr/fr/g1/i24.png"},
+ {"n":27,"id":"e012","side":"p1","op":"retype","t":31.60,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"Green S spawned ~31.7 locks and clears one coloured row (flash 31.85-32.0), REN banner appears; REN counter then reads 2 REN at 32.9 after the 32.6 single and 7 REN at 37.4 after the 37.2 single, which needs this clear. corr/fr/g1/i27d.png, i27c.png"},
+ {"n":27,"id":"e012","side":"p1","op":"retype","t":40.63,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"Orange L spawned 40.7 locks ~40.85 and clears one coloured row (flash 40.9-41.2, TETRIS banner from the previous quad still showing), score 30204->32154 (+1950 = single 300 + REN 11 x150). This single breaks B2B, so the TSD at 44.27 scored +3605 (non-B2B) rather than 5400: that is the unexplained -1749. corr/fr/g1/i27b.png, i27.png"},
+ {"n":29,"id":"e013","side":"p1","op":"retype","t":85.67,"was":["tss",1,0],"kind":"tst","lines":3,"pc":0,"gc":0,
+  "source":"Banner T-SPIN Triple and score 31836->39036 at 86.37 (+7200 = B2B TST after the 83.1 quad; B2B TSS would be 3600). score.py 82-91 lK7Nd8Nqh1c. gc kept 0 as chain."},
+ {"n":31,"id":"e013","side":"p1","op":"retype","t":87.90,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"The T at 87.7 spins into the bottom-left notch; no row clears (rows identical at 87.8 and 88.1), banner is a bare 'T-SPIN' (mini, zero lines), score 39049->39349 (+300 = zero-line mini). B2B survives: the TSD at 89.67 scores +5400. corr/fr/g1/i30.png"}
+],
+"cell_edits":[
+ {"n":27,"id":"e012","player":"p1","field":"max_combo","was":8,"value":11,
+  "source":"Consecutive clears 30.77, 31.6 (missed), 32.6 ... 38.83 singles, 39.7 quad, 40.63 (missed single): REN counter on screen reads 7 REN at 37.4 and 9 REN at 39.05; REN bonuses fit quad at REN 10 (+3900 incl. 1500) and the L single at REN 11 (+1950 incl. 1650). corr/fr/g1/i27c.png, i27b.png"}
+],
+"no_change":[
+ {"n":19,"why":"Score +3600 at 234.0 (95501->99101) = B2B TSS; on-screen banner at 234.1-234.9 reads 'Single'. Chain tss is right. corr/fr/g1/i19.png"},
+ {"n":20,"why":"Banner at 239.43 belongs to the chain's tss at 238.87: score 106502->110252 (+3750 = B2B TSS + 1 REN after the 237.6 TST)."},
+ {"n":21,"why":"At KO 288.27 p2 has just swapped S for J via hold (288.24); J still at the top, score unchanged 38299 after the KO. Nothing locked. corr/fr/g1/i21.png"},
+ {"n":25,"why":"T spawned 389.8 is still falling at 390.0-390.27 after the KO; score flat 138255. Nothing locked. corr/fr/g1/i25.png"},
+ {"n":26,"why":"Banner at 23.76 matches the chain's tss at 23.07: score 5352->9102 (+3750 = B2B TSS + REN)."},
+ {"n":28,"why":"Score 32873->36623 at 84.17 (+3750 = B2B TSS + 1 REN after the 82.47 quad); a B2B TST would be 7200. Chain tss right."},
+ {"n":30,"why":"Banner at 87.77 is the zero-line Mini T-SPIN; handled by the n31 retype of 87.90 to a non-clear."},
+ {"n":32,"why":"+104 at 164.04 is after the KO (163.77) and far below any clear value: drop points, nothing to count."},
+ {"n":33,"why":"Audit already shows score 65915 unchanged from the last spawn through the KO; nothing locked."}
+]}
