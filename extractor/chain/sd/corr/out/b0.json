@@ -1,0 +1,26 @@
+{"event_corrections":[
+ {"n":2,"id":"v004","side":"p1","op":"retype","t":184.67,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Frames 184.47 vs 184.63 (fr/g0/v004c.png, fr/g0/v004.png): the T locks flat at ~184.53 with a T-SPIN (mini) banner, but every column keeps its height, no row is removed; score +300 at 184.60 (4029->4329) = mini T-spin with zero lines at level 3, not a mini single (600, or 900 with B2B after the 182.5 TSD). Zero-line mini: a plain lock, not a clear."},
+ {"n":5,"id":"v012","side":"p1","op":"add","t":653.57,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g0/v012.png: T locks ~653.47 (score +28), Z spawns 653.57 (nextcount shift) and is on the floor at 653.63 (score 25341->25369 at 653.63); やった only from 653.70, KO 653.67. The Z locked before the KO frame, no clear; chain's last event is 653.33 (the T)."},
+ {"n":10,"id":"v026","side":"p1","op":"add","t":2237.83,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g0/v026b.png (2237.80-2237.97 step 1 frame): S spawns at 2237.833 (queue shift), is hard-dropped and sits on the stack beside the O at 2237.867, the KO tilt frame (end_s 2237.87); no row fills. Chain events end at 2237.7 (the O)."},
+ {"n":17,"id":"v043","side":"p2","op":"retype","t":3275.5,"was":[null,0,0],"kind":"double","lines":2,"pc":0,"gc":0,
+  "source":"fr/g0/v043.png, fr/g0/v043c.png: the S spawned 3275.5 drops at ~3275.7 with a clear flash 3275.73-3275.87; before it 3 coloured rows sit above 4 garbage rows (3275.67), after it 1 coloured row above the same 4 garbage rows (3276.3), so 2 non-garbage rows cleared. p2 score 37312 (3275.2) -> 38391 (3276.03) = +1079 = double 900 + 1 REN 150 + drop. This double breaks B2B, which is why the 3279.93 quad scores +2400 (not 3600) — explains the -1172 spot."}
+],
+"cell_edits":[
+ {"n":5,"id":"v012","player":"p1","field":"pieces","was":55,"value":56,"source":"Z locked at 653.63 before KO 653.67 (fr/g0/v012.png), missing from the chain."},
+ {"n":10,"id":"v026","player":"p1","field":"pieces","was":47,"value":48,"source":"S locked on the KO frame 2237.867 (fr/g0/v026b.png), missing from the chain."},
+ {"n":17,"id":"v043","player":"p2","field":"max_b2b","was":7,"value":6,"source":"With the 3275.5 double the B2B run 3274.47..3296.63 splits; longest run becomes quad 3279.93 .. quad 3296.63 (7 clears) = 6."}
+],
+"no_change":[
+ {"n":0,"why":"v001 p1: J spawned 104.03 is still falling at 104.47, やった at 104.53 (fr/g0/v001.png); not locked by KO."},
+ {"n":1,"why":"v002 p1: +72 is drop points of the L and T after the 125.2 quad PC (score obscured by PC effect); no clear. Full-game spawn count (41 shifts - 1 hold-into-empty - 1 falling Z) = 39 = csv pieces (fr/g0/v002.png, v002s.png)."},
+ {"n":4,"id_note":"v011","why":"v011 p1: L locks ~565.83 (no clear), T spawned 565.93 still falling at KO 565.9+; +125 at 566.2 is a post-overlay re-read of drop points (fr/g0/v011.png)."},
+ {"n":6,"why":"v014 p1: T is soft-dropping (score +1 per frame through 727.63) at KO 727.57, not locked (fr/g0/v014.png)."},
+ {"n":8,"why":"v021 p1: score +1050 at 1946.57 = double 900 + REN 150 after the 1945.5 quad; chain already types it double."},
+ {"n":11,"why":"v028 p1: +72 at 2322.9 is drop points; after the 2322.4 PC double, I,J,Z,S,O lock with drop points only, O at 2323.667 before KO (fr/g0/v028.png, v028b.png). Full-game spawn count 41 - 1 hold-into-empty = 40 = csv pieces."},
+ {"n":12,"why":"v030 p1: L locked 2428.03 (+20, no clear); next piece soft-dropping (score +1/frame) through 2428.63, not locked by KO 2428.57."},
+ {"n":13,"why":"v036 p1: J locked ~2958.8, I ~2959.0 (both in chain); L held at 2959.17, T falling at KO (fr/g0/v036.png)."},
+ {"n":15,"why":"v040 p1: the +3600 at 3137.6 is the chain's quad logged at 3137.3 (I spawned 3137.3, locked 3137.53); next piece spawns 3138.47 after KO."}
+]}

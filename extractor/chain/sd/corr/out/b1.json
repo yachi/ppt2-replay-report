@@ -1,0 +1,24 @@
+{"event_corrections":[
+ {"n":18,"id":"v043","side":"p1","op":"add","t":3318.9,"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g1/v043a.png: after the Z (chain 3318.6) the O spawns ~3318.85 and is on the floor, locked, at 3319.10 with score 107716->107754 (+38 hard drop, score.py 3319.13); KO 3319.13; no clear. Chain has no event for this O."},
+ {"n":26,"id":"v054","side":"p2","op":"retype","t":3747.83,"was":["tsmini",1,0],"kind":"single","lines":1,"gc":0,"source":"fr/g1/v054a.png: T placed at left ~3747.6 shows a T-SPIN banner but no row clears (zero-line mini); the next piece S (spawn ~3747.9, this event) clears one row at 3748.20, score 11491->11791 (+300, plain single). Following score steps then fit with no B2B: quad +2564 (2400+REN150), singles +616/+766/+308, double +1050; the -1099 gap was the assumed B2B on the quad plus the mini."}
+],
+"cell_edits":[
+ {"n":18,"id":"v043","player":"p1","field":"pieces","was":159,"value":160,"source":"fr/g1/v043a.png: winner's O locked at 3319.10, at or before KO 3319.13, not tallied (kofinal found no flash/spawn)."}
+],
+"no_change":[
+ {"n":19,"why":"fr/g1/v045a.png: last T spawns ~3414.27 and is still soft-dropping in the air at KO 3414.53 (score rising +1/frame to 46346); never locks."},
+ {"n":20,"why":"fr/g1/v046a.png, v046b.png: +75 at 3443.3 is two hard-drop locks (S out of hold locks ~3443.13, J locks ~3443.27), no clear. Lock count after the PC (S,J,O,I) equals the chain's 5 events from 3442.6 (the chain hangs the PC on the held T's spawn and logs the PC I as None), so totals unchanged."},
+ {"n":21,"why":"fr/g1/v047a.png: banner reads ...Triple + BACK to BACK, three rows flash, score +7200 at 3472.43 = B2B TST; chain tst is right."},
+ {"n":22,"why":"fr/g1/v050b.png: T still at the top at 3632.87 and 3632.90, shown locked only at 3632.93, after KO 3632.87; does not count."},
+ {"n":23,"why":"p1 score hidden by overlay before 3632.93; the change comes from the post-KO T lock (see n22); no clear."},
+ {"n":24,"why":"fr/g1/v051a.png: +77 = two hard-drop locks (I ~3656.88 +37, S from hold ~3657.15 +40) after the PC; no clear missed."},
+ {"n":25,"why":"score.py: O spawned ~3658.2 is only soft-dropped (+2) and not locked by KO 3658.27 (no hard-drop jump); no KO piece."},
+ {"n":27,"why":"fr/g1/v054b.png: T at 3761.18 is a zero-line T-spin (T-SPIN banner, no row cleared, +1200); following L locks 3761.34 (+32); S still falling at KO. No missing clear or piece."},
+ {"n":28,"why":"fr/g1/v056a.png: L spawns ~3868.54, still in air at 3868.71, appears locked only at 3868.74 with the KO banner, after KO 3868.70; score frozen at 16029."},
+ {"n":30,"why":"fr/g1/v059a.png: T-SPIN Single + BACK to BACK banner and one row cleared by the T (chain 3984.3 tss) ~3985.1; score 40932->44581 (+3649 = B2B TSS). The chain's tss is real."},
+ {"n":31,"why":"fr/g1/v059b.png: T out of hold still soft-dropping through 3990.80 (score +1/frame), not locked by KO 3990.77."},
+ {"n":32,"why":"fr/g1/v062a.png: J in the air at 4105.12, locked only at 4105.15 (score 19054 at 4105.17), after KO 4105.10."},
+ {"n":33,"why":"fr/g1/v066a.png: T resting on the stack in lock delay at 4248.93-4248.97, no lock (score unchanged, ghost still shown); not counted."},
+ {"n":34,"why":"score.py: T out of hold still soft-dropping (+1/frame) through 4705.47, past KO 4705.40; not locked."},
+ {"n":35,"why":"fr/g1/v070a.png: T at ~4810.3 clears one row with no T-SPIN banner, REN label, score +450 (300+REN150); chain already logs a plain single."}
+]}

@@ -1,0 +1,5 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v1/v043.png: after the PC (I out of hold locks ~3318.17, +2887), L locks ~3318.50 (+37), Z ~3318.77 (+34), O spawns 3318.90, hard-drops and shows locked with its landing flash at 3319.13 (score 107716->107754 on that frame) = KO frame, so it counts; no clear. Chain has no event for it. Note: between the 3316.93 double and the KO there are 4 locks (I/PC, L, Z, O) and the chain holds only 3318.3 and 3318.6, so the event list looks one short beyond this O too (likely Z), but the pieces count is not built from events."},
+ {"ref":"c0","verdict":"keep","why":"Same frames: O locks on the KO frame 3319.13 and no later spawn exists for a spawn-based tally to see; 159 -> 160."},
+ {"ref":"e1","verdict":"keep","why":"fr/v1/v054a.png: T (spawn 3747.10, chain None) stood at the left wall ~3747.7, '-SPIN' label shows from 3747.87 but its row does not clear (board identical 3747.73 vs 3748.00). S (spawn 3747.83 = this event) locks ~3748.17 (+14) and clears one row at 3748.20 (white bar 3748.27), score 11491->11791 = +300, a plain single with no REN/B2B. Retype tsmini->single is right."}
+]

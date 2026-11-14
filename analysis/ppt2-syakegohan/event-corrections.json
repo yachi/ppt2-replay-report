@@ -27111,5 +27111,235 @@
    ]
   ],
   "source": "b1 frame check, verified: Covers items 15,18,20 (same lag stretch). nextcount p2: spawns 1039.87,1057.17,1070.97,1084.97,1086.30 only; hold 1048.0 (O in, Z out). score.py p2 clears 1039.20 (+1950),1056.50 (+2100),1070.23 (+3450 triple),1084.37 (+2400),1085.63 (+2550),1086.57 (+2700): unbroken REN +150/step, no plain locks between. Frames corr/fr/g1/u015d.png: O falls 1039-1047, held, Z locks -> single 1056.5; J falls 1058-1069 into the well -> triple; I falls 1072-1083, vertical in garbage well -> single 1084.37. Chain duplicates (1039.93, 1056.07, 1069.77 triple, 1083.97) removed. gc kept from chain's matching events."
+ },
+ {
+  "id": "v004",
+  "side": "p1",
+  "op": "retype",
+  "t": 184.67,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Frames 184.47 vs 184.63 (fr/g0/v004c.png, fr/g0/v004.png): the T locks flat at ~184.53 with a T-SPIN (mini) banner, but every column keeps its height, no row is removed; score +300 at 184.60 (4029->4329) = mini T-spin with zero lines at level 3, not a mini single (600, or 900 with B2B after the 182.5 TSD). Zero-line mini: a plain lock, not a clear."
+ },
+ {
+  "id": "v012",
+  "side": "p1",
+  "op": "add",
+  "t": 653.57,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/v012.png: T locks ~653.47 (score +28), Z spawns 653.57 (nextcount shift) and is on the floor at 653.63 (score 25341->25369 at 653.63); やった only from 653.70, KO 653.67. The Z locked before the KO frame, no clear; chain's last event is 653.33 (the T)."
+ },
+ {
+  "id": "v043",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3275.5,
+  "source": "b0 frame check, verified: fr/g0/v043.png, fr/g0/v043c.png: the S spawned 3275.5 drops at ~3275.7 with a clear flash 3275.73-3275.87; before it 3 coloured rows sit above 4 garbage rows (3275.67), after it 1 coloured row above the same 4 garbage rows (3276.3), so 2 non-garbage rows cleared. p2 score 37312 (3275.2) -> 38391 (3276.03) = +1079 = double 900 + 1 REN 150 + drop. This double breaks B2B, which is why the 3279.93 quad scores +2400 (not 3600) — explains the -1172 spot.",
+  "t_end": 3275.5,
+  "events": [
+   {
+    "t": 3275.5,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3275.5,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "v043",
+  "side": "p1",
+  "op": "add",
+  "t": 3318.9,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/v043a.png: after the Z (chain 3318.6) the O spawns ~3318.85 and is on the floor, locked, at 3319.10 with score 107716->107754 (+38 hard drop, score.py 3319.13); KO 3319.13; no clear. Chain has no event for this O."
+ },
+ {
+  "id": "v054",
+  "side": "p2",
+  "op": "retype",
+  "t": 3747.83,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/v054a.png: T placed at left ~3747.6 shows a T-SPIN banner but no row clears (zero-line mini); the next piece S (spawn ~3747.9, this event) clears one row at 3748.20, score 11491->11791 (+300, plain single). Following score steps then fit with no B2B: quad +2564 (2400+REN150), singles +616/+766/+308, double +1050; the -1099 gap was the assumed B2B on the quad plus the mini."
+ },
+ {
+  "id": "v092",
+  "side": "p2",
+  "op": "retype",
+  "t": 7193.7,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Only one T-spin Single: T spawned 7192.67, locked ~7193.0, clear flash/T-SPIN effect 7193.06-7193.57, score 29917->32322 (+2405, one TSS) at 7193.43; next piece O (spawn 7193.70 per nextcount) locks at the top ~7193.9 with no flash and no score jump (32327->32340 only drop points). fr/g3/v092p2.png. The 7193.7 tss is a duplicate of the 7192.67 one."
+ },
+ {
+  "id": "v094",
+  "side": "p2",
+  "op": "retype",
+  "t": 7246.07,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Score 10942->14556 (+3614 = one B2B TSS) at 7247.47, then +458 (single+REN) at 7249.23; only one T-spin. Frames: Z spawns ~7246.0 and is held (hold shows Z from 7246.2), S comes out and locks at left ~7246.3 with no flash; T spawns 7246.40, locks ~7247.0, T-spin Single flash 7247.12-7247.66 with BACK banner. fr/g3/v094p2.png. The 7246.07 event (S piece) cleared nothing; the 7246.4 tss is the real one."
+ },
+ {
+  "id": "v099",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7429.27,
+  "t_end": 7430.17,
+  "events": [
+   {
+    "t": 7429.27,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 2
+   },
+   {
+    "t": 7429.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7430.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7430.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    7429.6,
+    "triple",
+    3
+   ],
+   [
+    7430.0,
+    null,
+    0
+   ],
+   [
+    7430.17,
+    null,
+    0
+   ]
+  ],
+  "source": "b3 frame check, verified: The PERFECT CLEAR triple is the J (Z spawned 7429.27 and was held, J out of hold) locking at 7429.47 (score 20374->20409 drop, 27309 at 7429.53; fr/g3/v099b.png). After it L spawns 7429.57 and locks ~7429.9, T locks ~7430.05 (L and T on the empty board at 7430.07), O locks ~7430.3 (score +36 at 7430.40). 4 pieces (J PC, L, T, O) where the chain logs 3: the chain put the PC on L's spawn and dropped the J. The next J locks at 7430.73, after the KO (7430.70): not counted. fr/g3/v099.png."
+ },
+ {
+  "id": "v098",
+  "side": "p1",
+  "op": "add",
+  "t": 7407.03,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: L spawned ~7407.03 and was hard-dropped: on board at 7407.23 with score 31596->31620 at 7407.23 = the KO frame (end_s 7407.23); no clear (score only +24 drop points, no flash). fr/g3/v098.png"
+ },
+ {
+  "id": "v104",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 7632.4,
+  "t_end": 7633.17,
+  "events": [
+   {
+    "t": 7632.4,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 7632.6,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7632.87,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 7633.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    7632.6,
+    "double",
+    2
+   ],
+   [
+    7632.87,
+    null,
+    0
+   ],
+   [
+    7633.17,
+    null,
+    0
+   ]
+  ],
+  "source": "b3 frame check, verified: First O spawns 7632.40, locks 7632.47 (score +38) and clears 2 rows: PERFECT CLEAR, score 16471 at 7632.53 (fr/g3/v104b.png). Then a second O spawns 7632.60 and locks 7632.77 (+36), S locks ~7633.0 (+34 at 7633.07), I spawns 7633.17 and locks ~7633.37 (+32 at 7633.40); T at the top never locks before the KO 7633.9 (fr/g3/v104.png). 4 pieces from the PC on, chain logs 3 (PC placed on the second O's spawn)."
  }
 ]

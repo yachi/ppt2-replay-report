@@ -309,9 +309,7 @@ def render(games, s):
     inc = {k: g for k, g in games.items() if g["p1"]["excluded"] == "0"}
     by_opp = defaultdict(list)
     for gid, g in inc.items():
-        by_opp[g["p2"]["opponent"]].append(g)
-    if "" in by_opp:
-        raise ValueError(f"included games with no opponent name: {[g['p1']['id'] for g in by_opp['']]}")
+        by_opp[g["p2"]["opponent"] or UNKNOWN].append(g)   # a blank nameplate is one 對手未知 row, as on the cards
     order = sorted(by_opp, key=lambda o: (-len(by_opp[o]), o))
     me_all = pool(g["p1"] for g in inc.values())
     opp_all = pool(g["p2"] for g in inc.values())
@@ -379,6 +377,9 @@ def render(games, s):
 #: every card page is docs/<Subject.card_prefix><YYYY-MM-DD>-<n>.html; bin/build-docs treats any
 #: docs/*.html that no subject renders as drift.
 UNKNOWN = "對手未知"
+#: a dataset holding two streams of one day: the listed videos' cards come in this order, so the stream added
+#: second never takes a card filename the first one published. Any other dataset orders by start time alone.
+VIDEO_ORDER = {"stream-2026-08-16": {"n0Kbttgv3sQ": 0, "UKNJ3gWqqkU": 1}}
 KIND = {"stream": "直播", "upload": "上載日期（唔一定係打嘅日子）"}
 _ISO = re.compile(r"\d{4}-\d{2}-\d{2}")
 
@@ -408,7 +409,9 @@ def cards(games, s):
                     "label": opp or UNKNOWN, "gids": gids, "inc": inc,
                     "me": pool(games[k]["p1"] for k in inc), "opp": pool(games[k]["p2"] for k in inc),
                     "first": float(games[gids[0]]["p1"]["start_s"])})
-    out.sort(key=lambda c: (c["date"], c["dataset"], c["first"], c["opponent"]))
+    for c in out:
+        c["vrank"] = VIDEO_ORDER.get(c["dataset"], {}).get(games[c["gids"][0]]["p1"]["video"], 0)
+    out.sort(key=lambda c: (c["date"], c["dataset"], c["vrank"], c["first"], c["opponent"]))
     per_date = defaultdict(int)
     for c in out:
         per_date[c["date"]] += 1
