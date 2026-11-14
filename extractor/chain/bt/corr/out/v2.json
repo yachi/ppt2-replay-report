@@ -1,0 +1,163 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "f046 p2: score +300 at 4710.63 (52290-51990) = zero-line Mini T-spin at level 3; a mini single after the 4709.47 TSD would be B2B+REN, far more. Garbage/stack rows identical 4710.40 vs 4711.00, no clear band (fr/v2/b1.png)."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "f049 p1: spawns 4936.333, 4936.733, 4937.867, 4939.30, 4939.967 (nextcount); score shows locks +4 4936.63, double +900 4937.10, quad 4938.47, +12 4939.87, quad 4940.43 = 5 locks where chain has 7 from 4936.40; one of the two None at 4936.40 is phantom."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "f049 p1: spawn 4937.867 is the quad piece (+2550 4938.47); no other lock until +12 at 4939.87 (T spawn 4939.30 held, J out). None at 4937.87 phantom."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "f061 p1: spawns 5652.367 (held 5652.867), 5653.167 (held 5653.233), 5653.633, 5653.867 (held 5653.967); score locks +22 5653.07, +24 5653.53, +24 5653.77, TSD +5400 5654.47 = 4 locks; chain has 7 (5652.37, 3x5652.53, 5653.17, 5653.63, tsd). The +3 at 5652.63-67 is soft drop of the O before it was held. Three None at 5652.53 phantom."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "f061 p1: spawns 5652.367 (held 5652.867), 5653.167 (held 5653.233), 5653.633, 5653.867 (held 5653.967); score locks +22 5653.07, +24 5653.53, +24 5653.77, TSD +5400 5654.47 = 4 locks; chain has 7 (5652.37, 3x5652.53, 5653.17, 5653.63, tsd). The +3 at 5652.63-67 is soft drop of the O before it was held. Three None at 5652.53 phantom."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "f061 p1: spawns 5652.367 (held 5652.867), 5653.167 (held 5653.233), 5653.633, 5653.867 (held 5653.967); score locks +22 5653.07, +24 5653.53, +24 5653.77, TSD +5400 5654.47 = 4 locks; chain has 7 (5652.37, 3x5652.53, 5653.17, 5653.63, tsd). The +3 at 5652.63-67 is soft drop of the O before it was held. Three None at 5652.53 phantom."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "f065 p2: after TSD (+5400 5933.07) spawns 5933.80 (held, S out, S locks +8 5934.07), 5934.10 (held, L out, L locks with only soft-drop points), 5935.90 T double +900 5936.43 = 3 locks; chain has 4 None + double. Two of the three None at 5933.40 phantom. Score flat after the 5938.20 single to KO 5939.47."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "f065 p2: after TSD (+5400 5933.07) spawns 5933.80 (held, S out, S locks +8 5934.07), 5934.10 (held, L out, L locks with only soft-drop points), 5935.90 T double +900 5936.43 = 3 locks; chain has 4 None + double. Two of the three None at 5933.40 phantom. Score flat after the 5938.20 single to KO 5939.47."
+ },
+ {
+  "ref": "e8",
+  "verdict": "amend",
+  "why": "Spawns (nextcount: 5350.333 ... 5359.767, one shift through the 5351.8 flash), score jumps (+300,+1656,+1206,+750,+910,+1664,+1200,+1350 then +16,+14,+16, T still soft-dropping +1/frame at KO 5360.20) all confirm 8-clear REN chain, 5351.8 triple is a double, 11 locks. gc checked per clear: 5350.63 single clears a coloured row (gc0, fr/v2/a1.png); 5351.50 triple clears three coloured rows (gc0, a2.png); 5352.80 double: L flat in cols1-3 of the coloured row (cyan c0, cyan c4, green, green, purple, blue blue) with its foot in the hole at col1 of the top garbage row -> one coloured + one garbage row, gc 1 NOT 2 (fr/v2/a6.png, a3.png); 5353.70 single clears garbage row hole c3 (gc1); 5354.70 single garbage row hole c5 (gc1, a4.png); 5355.77 double two garbage rows (gc2); 5357.00 I completes a coloured row (gc0, a5.png); 5358.03 J foot clears garbage row hole c2 (gc1). Only change: 5352.17 gc 2->1.",
+  "amended": {
+   "events": [
+    {
+     "t": 5350.33,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5351.27,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5352.17,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 5353.43,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 5354.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 5355.23,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 5356.47,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5357.63,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 5358.7,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5359.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 5359.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  }
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "f059 p2: L spawned 5529.933, held 5532.567 (T out of hold); no lock until TST +7200 at 5533.33; only 3 shifts in 5529-5534. tst at 5529.93 is a duplicate."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "f049 p1 114->112, follows e1/e2 (5 real locks vs 7)."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "f061 p1 71->68, follows e3-e5."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "f065 p2 81->79, follows e6/e7."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "f055 p2 67->65: 11 real locks in 5350.33-5360.17 vs chain 13 (T spawned 5359.767 not locked by KO)."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "f055 p2 max_combo 4->7: REN bonuses 0..1050 on 8 consecutive clears 5350.63-5358.03; locks before (5349.80, 5350.23) and after (5359.07) are plain."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "f059 p2 63->62, follows e9 (L held not locked)."
+ }
+]

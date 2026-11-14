@@ -1,0 +1,37 @@
+{"event_corrections":[
+ {"n":3,"id":"d000","side":"p2","op":"retype","t":276.07,"was":["quad",4,0],"kind":"double","lines":2,"pc":0,"gc":1,
+  "source":"score.py: p2 +914 at 276.90 (double, not tetris), then +2572 at 277.83 (the tetris, 2400+REN150). Frames corr/fr/g0/a.png and c.png (276.80-276.93): two-row clear flash (top coloured row + first garbage row) after the 276.6 lock; the 4-row clear is the I at 277.8."},
+ {"n":3,"id":"d000","side":"p2","op":"retype","t":307.8,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"corr/fr/g0/b.png 306.6-308.6: only one clear (the TSD at 306.97, +5400); the O spawned ~307.77 and locked ~308.03 with no clear (score +22 only). No score jump near 307.8, so the double is phantom; the lock is real."},
+ {"n":4,"id":"d001","side":"p2","op":"retype","t":377.2,"was":["tss",1,0],"kind":"tsd","lines":2,
+  "source":"score.py: p2 +3600 at 377.70 (non-B2B TSD); corr/fr/g0/e.png shows a two-row flash at 377.70 and the T-SPIN Double banner from 377.8."},
+ {"n":4,"id":"d001","side":"p2","op":"retype","t":374.6,"was":["single",1,0],"kind":"double","lines":2,
+  "source":"score.py: p2 +1058 at 375.03 (double 900 + 1 REN 150 + drop), not a single (300). corr/fr/g0/d.png and g.png (374.93-375.07): two-row flash, REN banner at 375.16."},
+ {"n":12,"id":"d012","side":"p2","op":"replace_window","t":2185.07,"t_end":2188.63,
+  "events":[{"t":2185.07,"kind":"double","lines":2,"pc":0,"gc":0}],
+  "was_old":[[2185.07,"double",2],[2185.13,"double",2],[2188.63,"double",2]],
+  "source":"nextcount: no spawn between 2185.067 and 2189.633 (hold T at 2185.23 brings the held S out). corr/fr/g0/l.png 2184.9-2189.7: the S is moved around for 3 s and locks ~2188.8 with one double; score: only +1050 at 2188.90 (double + 1 REN) between 2184.33 (+900, the 2184.23 double) and 2190.83. Two of the three doubles are phantoms."},
+ {"n":14,"id":"d017","side":"p1","op":"replace_window","t":2583.53,"t_end":2583.67,"events":[],
+  "was_old":[[2583.53,null,0],[2583.53,null,0],[2583.53,null,0],[2583.67,null,0],[2583.67,null,0],[2583.67,null,0]],
+  "source":"nextcount p1: no NEXT shift between 2582.737 and 2583.803, so no piece locked between the single cleared at 2583.17 and the double at 2584.07. corr/fr/g0/o.png: clears single 2582.10 (1 REN), single 2583.17 (2 REN), double 2584.07 (3 REN banner, +1350) with no lock in between; the six None locks are phantoms."},
+ {"n":9,"id":"d007","side":"p2","op":"add","t":1033.47,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"corr/fr/g0/j.png and k.png: the S spawned 1033.47 lands ~1034.0 and its lock flash first shows on the KO frame 1034.17 (やった appears 1034.20); no clear."}
+],
+"cell_edits":[
+ {"n":3,"id":"d000","player":"p2","field":"pieces","was":166,"value":161,"source":"nextcount p2 238.9-322.8 (corr/fr/g0/nc_d000.txt): 162 single shifts, continuous across all 3 unk windows; locked = 1 + 162 - 1 (first hold into empty at 239.2) - 1 (piece active at KO, swapped in by hold at 322.63) = 161, equal to the chain's 161 non-BREAK events."},
+ {"n":3,"id":"d000","player":"p2","field":"max_b2b","was":8,"value":9,"source":"score.py: quad 277.83 (+2572, no B2B) then B2B bonuses on TSD 281.97 (+5400), six tetrises 285.50-303.70 (+3600 each), TSD 306.97 (+5400), TST 313.30 (+7200 = 4800x1.5): 9 consecutive B2B; the chain's phantom double at 307.8 had cut the run at 8."},
+ {"n":9,"id":"d007","player":"p2","field":"pieces","was":31,"value":32,"source":"nextcount p2 (corr/fr/g0/nc_d007.txt): 32 shifts, first hold into empty at 1018.23; the S active at KO locked on the KO frame 1034.17 (corr/fr/g0/k.png), so 1+32-1 = 32."},
+ {"n":12,"id":"d012","player":"p2","field":"pieces","was":46,"value":44,"source":"nextcount p2 2168.7-2198.63 (corr/fr/g0/nc_d012.txt): 45 single shifts, continuous over its one unk window; first hold into empty at 2172.37; the Z spawned 2197.97 never locked (topped out, corr/fr/g0/m.png): 1+45-1-1 = 44."},
+ {"n":12,"id":"d012","player":"p2","field":"max_combo","was":3,"value":1,"source":"The REN 3 came from the phantom doubles at 2185.13/2188.63. Real run: double 2184.33 (+900) then double 2188.90 (+1050 = 1 REN); the single at 2190.83 is +306 (no REN, J locked between). Other p2 runs are at most 2 clears (TST 2173.6 then TSS 2175.13 +3750 = 1 REN)."},
+ {"n":14,"id":"d017","player":"p1","field":"pieces","was":50,"value":44,"source":"nextcount p1 (corr/fr/g0/nc_d017.txt): 45 single shifts; hold empty at start (corr/fr/g0/q.png), first hold 2563.2; the last piece did not lock before the KO (corr/fr/g0/r.png): 1+45-1-1 = 44, equal to the chain's events less the 6 phantom locks."},
+ {"n":14,"id":"d017","player":"p1","field":"max_combo","was":2,"value":3,"source":"corr/fr/g0/o.png: singles 2581.13, 2582.10 (1 REN banner), 2583.17 (2 REN), double 2584.07 (3 REN banner, +1350 = 900+450) with no lock between them."}
+],
+"no_change":[
+ {"n":0,"why":"TSD at 281.97 is real (+5400, B2B) and the chain already has it at 282.07 (B splice); only A missed it."},
+ {"n":1,"why":"TSD at 306.97 is real (+5400) and the chain has it at 306.93; the phantom double after it is corrected under n=3."},
+ {"n":2,"why":"TST at 313.30 is real (+7200, B2B) and the chain has it at 312.97."},
+ {"n":6,"why":"corr/fr/g0/h.png: the J spawned 697.37 hard-drops at 697.63 (score +10 at 697.63), after the KO frame 697.57; it does not count."},
+ {"n":8,"why":"corr/fr/g0/i.png: the T swapped in from hold at 1011.50 is still falling at and after the KO 1011.57; no lock."},
+ {"n":13,"why":"corr/fr/g0/n.png: the L spawned 2553.36 is still falling at the KO 2553.50 and never locks."},
+ {"n":15,"why":"corr/fr/g0/s.png and t.png: the I hard-drops in column 0 at 2701.47 (score +4 at 2701.47), one frame after the KO 2701.43; it does not count."}
+]}

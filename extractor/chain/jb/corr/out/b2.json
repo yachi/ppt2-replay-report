@@ -1,0 +1,30 @@
+{"event_corrections":[
+ {"n":36,"id":"d045","side":"p1","op":"retype","t":4495.83,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g2/d045_b.png 4492.0-4497.95: clear flashes only at ~4492.35 (TSD), ~4493.75 (double, 41317), ~4495.15 (double REN, 42381), ~4497.25 (single, 42721); no clear between 4495.15 and 4497.25 and score.py p1 continuous there (42381->42721 by drop points then +300). Chain has 3 doubles (4492.43, 4493.87, 4495.83) for 2 real ones; the 4495.83 spawn locked without a clear."},
+ {"n":37,"id":"d045","side":"p1","op":"remove","t":4474.3,"was":["tst",4,0],
+  "source":"fr/g2/d045_a.png 4473.4-4476.2: one T-SPIN Double clear (banner 'T-SPIN Double'); score.py p1 4473.70->4474.00 +3600 (TSD, no B2B), next jump 4475.10 +450 (single REN1). Only one clear; the chain's 4473.3 tsd is it and the 4474.3 'tst' (4 lines) is a duplicate."},
+ {"n":36,"id":"d045","side":"p1","op":"add","t":4526.07,"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"fr/g2/d045_c.png: white clear row at 4526.7 frame on a colored (non-garbage) row, score 70213->70513 (+300) at 4526.53 (score.py); the O spawned at NEXT shift 4526.067 cleared one line. Chain has only a BREAK at 4526.33. Following TSD at 4528.53 scores 3600 (no B2B), consistent with a single breaking B2B after the 4524.5 TSS."},
+ {"n":52,"id":"d068","side":"p1","op":"replace_window","t":6022.27,"t_end":6022.67,
+  "events":[{"t":6022.27,"kind":"tss","lines":1,"pc":0,"gc":0}],
+  "was_old":[[6022.27,null,0],[6022.67,null,0],[6022.67,null,0],[6022.67,"tss",1]],
+  "source":"fr/g2/d068_a.png 6021.9-6024.1: after the TST, the J (spawned at NEXT shift 6022.237) is swapped into HOLD for the held T (no lock), the T locks into a T-SPIN Single (banners 1 REN / T-SPIN Single / BACK to BACK, score 5312->9062 at 6023.37); next NEXT shift is 6023.970. One lock, not four."}
+],
+"cell_edits":[
+ {"n":36,"id":"d045","player":"p1","field":"pieces","was":157,"value":152,
+  "source":"nextcount.py p1 4451.7-4555.07: 153 NEXT shifts, init + shifts form a perfect 7-bag sequence across the whole game (fr/g2/d045_nc.txt; two 0.2-0.27 s unk gaps each bridged by a single consistent shift), first hold into empty at 4455.37, last shift 4554.433 unlocked at the KO: 1+153-1-1 = 152 locks. Chain event count matches shifts outside the gap (38/38 before 4474.0, 29 after 4530.2)."},
+ {"n":48,"id":"d058","player":"p1","field":"pieces","was":123,"value":124,
+  "source":"fr/g2/d058_ko.png: L spawned at NEXT shift 5314.833 (hold was occupied, Z swapped earlier) hard-drops and locks at 5315.067 (score 67104->67128, lock trail), before end_s 5315.10; no clear. Chain's last event is 5314.57."},
+ {"n":52,"id":"d068","player":"p1","field":"pieces","was":129,"value":126,
+  "source":"nextcount.py p1 6014.97-6096.67: 127 shifts, perfect 7-bag throughout (fr/g2/d068_nc.txt); per-4 s windows match the chain except 6022-6026 (chain +3, the duplicated events at 6022.27/6022.67, see d068_a.png) and the final unlocked spawn 6095.903."}
+],
+"no_change":[
+ {"n":38,"why":"Score +3600 at 4504.23 (TSD, no B2B) matches chain tsd 4504.33; banner is real and already matched."},
+ {"n":39,"why":"Score +3600 at 4518.40 (TSD) matches chain tsd 4518.37."},
+ {"n":40,"why":"Score +3600 at 4524.50 (TSS with B2B after the 4520.37 quad) matches chain tss 4524.47; d045_c.png shows T-SPIN Single + BACK to BACK."},
+ {"n":41,"why":"Score +3600 at 4528.53 (TSD, no B2B) matches chain tsd 4528.63; d045_c.png last frame shows the T-SPIN Double banner."},
+ {"n":42,"why":"p2 score 67378->67840 (+462) at 4530.03 = single 300 + REN1 150 + drop points after the 4528.6 quad; a TSS would be >=2400. Chain plain single is right."},
+ {"n":46,"why":"p1 score 15118->16320 (+1200) at 5051.90 = single 300 + REN6 900 in the running single REN (prev +1050 REN5, next +1350 REN7); a mini TSS would add 600. Plain single is right."},
+ {"n":50,"why":"fr/g2/d060_ko.png: the J spawned at 5507.70 is still at the top when the KO/win shows (5507.87-5507.93); it never locks. The +1 at 5507.83 is a soft-drop point."},
+ {"n":51,"why":"fr/g2/d062_ko.png: the S is still at the top at 5663.767 (KO frame) and 5663.80; it hard-drops at 5663.833, after end_s 5663.77. Does not count."}
+]}
