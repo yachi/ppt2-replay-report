@@ -1,0 +1,35 @@
+{"event_corrections":[
+ {"n":15,"id":"a009","side":"p1","op":"retype","t":3583.07,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,
+  "source":"T from hold (S held 3583.03) dropped into slot 3583.10; clear flash 3583.40 with banner 'Mini T-SPIN Single' (zoom fr/g1/ban.png at 3583.6, sheet fr/g1/a009_a.png); score +1950 at 3583.37 = Mini TSS 600 + REN9 1350 (plain single at REN9 would be 1650). The 3582.23 event is a plain single (+1500 = 300+REN8 1200 at 3582.27)."},
+ {"n":16,"id":"a009","side":"p1","op":"add","t":3585.87,"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"L spawned 3585.867 (nextcount), hard-dropped and locked on the KO frame 3586.00 (score +8 drop points at 3586.00), single clear flash 3586.07 with '12 REN', score +2100 at 3586.07 = 300+REN12 1800. Lock is on the KO frame so it counts. Sheet fr/g1/a009_b.png."},
+ {"n":18,"id":"a018","side":"p1","op":"replace_window","t":4050.3,"t_end":4050.3,"events":[],"was_old":[[4050.3,null,0],[4050.3,null,0],[4050.3,null,0]],
+  "source":"Three phantom None locks at 4050.30. nextcount spawns 4049.77(L, held 4049.94), 4050.403(S), 4050.57(T, held), 4050.937 map one-to-one to chain 4049.8, 4050.43, 4050.6, 4050.97; frames show only O lock (score +10 at 4050.40) and S lock (+10 at 4050.50), then L lock 4050.9 (sheet fr/g1/a018.png). Whole-game nextcount stream is a clean 7-bag (with one '?'=J), 61 spawns."},
+ {"n":20,"id":"a019","side":"p1","op":"retype","t":4093.07,"was":[null,0,0],"kind":"double","lines":2,"pc":0,"gc":1,
+  "source":"S held 4093.10, T from hold dropped 4093.17, two-row clear flash 4093.24 (bottom colored row + top grey garbage row; fr/g1/a019fl.png, fr/g1/a019.png), '5 REN' shown 4093.30, no T-spin banner (TETRIS banner lingering); score +1650 at 4093.27 = double 900 + REN5 750. That double breaks B2B, so the later TSD scores +3600 (non-B2B) at 4096.10, explaining the -1800 score spot."},
+ {"n":23,"id":"a020","side":"p2","op":"retype","t":4129.9,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Duplicate TSD from the lingering banner. Only two T-spin clears 4127-4130: TSS B2B at 4127.84 (+3600, banner Single+BACK) = chain 4127.07, and TSD at 4129.20 (+5550 = 5400 B2B + REN1) by the T spawned 4128.50 = chain 4128.5 tsd. Piece spawned 4129.9 (nextcount shift 4129.900) is an S that locked at 4130.13 (+32 drop points only). Sheet fr/g1/a020.png."},
+ {"n":24,"id":"a020","side":"p1","op":"replace_window","t":4133.4,"t_end":4138.07,"events":[{"t":4133.4,"kind":"quad","lines":4,"pc":0,"gc":0}],
+  "was_old":[[4133.4,"quad",4],[4133.4,null,0],[4133.67,null,0],[4136.03,null,0],[4136.2,"BREAK",2],[4138.07,"quad",4]],
+  "source":"Only one spawn in the window (4133.40) until 4138.767 (nextcount; no unreadable gap). Frames fr/g1/a020p1.png: J spawned 4133.4 and hovered ~3.4 s, held at 4136.8 for the I, I dropped vertically, single TETRIS at 4137.96 (score +14 lock 4137.80, +3600 quad B2B 4137.97). So one piece/one quad; the None locks at 4133.40/4133.67/4136.03, the BREAK and the second quad 4138.07 are spliced duplicates."},
+ {"n":25,"id":"a027","side":"p1","op":"replace_window","t":4436.47,"t_end":4436.47,"events":[],"was_old":[[4436.47,null,0],[4436.47,null,0],[4436.47,null,0]],
+  "source":"Spawns 4435.9, 4436.233, 4436.567, 4437.6 (nextcount) map to chain 4435.9, 4436.23, 4436.57 triple, 4437.6 quad; scores show locks only at 4436.47(+4), 4436.73(+12, then triple +1500 at 4436.87). The three None at 4436.47 are phantoms. Whole-game nextcount stream (65 spawns) is a clean 7-bag in every bag."}
+],
+"cell_edits":[
+ {"n":16,"id":"a009","player":"p1","field":"pieces","was":48,"value":49,"source":"KO-frame L lock at 3586.00 not in chain (48 non-break events, last 3585.1); see add at 3585.87."},
+ {"n":16,"id":"a009","player":"p1","field":"max_combo","was":11,"value":12,"source":"'12 REN' displayed at 3586.07 after the KO-frame single (fr/g1/a009_b.png); chain events reach REN 11 at 3585.1."},
+ {"n":18,"id":"a018","player":"p1","field":"pieces","was":62,"value":59,"source":"nextcount 4031.0-4069.83: 61 spawns; first (T, 4031.367) held into empty (fr/g1/a018st.png), last (I, 4069.167) never locked before KO; 61-2=59. Chain 62 minus the three phantoms at 4050.30 = 59."},
+ {"n":20,"id":"a019","player":"p1","field":"max_combo","was":4,"value":5,"source":"'5 REN' on screen at 4093.30 after the missed double (REN continues 4087.7 tsd, 3 singles, quad 4092.13, double 4093.2)."},
+ {"n":20,"id":"a019","player":"p1","field":"max_b2b","was":6,"value":5,"source":"The double at 4093.2 breaks the B2B run quad 4092.13 -> tsd 4095.5 (TSD scored +3600 non-B2B at 4096.10); recomputed max B2B over the corrected chain = 5."},
+ {"n":22,"id":"a020","player":"p2","field":"max_b2b","was":4,"value":3,"source":"Removing the phantom TSD at 4129.9 (score shows only TSS 4127.84 and TSD 4129.20 there) shortens the B2B run; recomputed over the corrected chain = 3."},
+ {"n":24,"id":"a020","player":"p1","field":"pieces","was":58,"value":50,"source":"nextcount 4119.0-4154.6: 52 spawns; L at 4120.833 held into empty, last spawn 4153.933 never locked (p1 score unchanged to KO); 52-2=50 (matches extractor A's 50). Window fix removes 3 None + 1 duplicate quad."},
+ {"n":25,"id":"a027","player":"p1","field":"pieces","was":66,"value":63,"source":"nextcount 4414.6-4449.03: 65 spawns, first (T 4415.067) held into empty, last (4448.3) unlocked at KO; 65-2=63 = chain 66 minus 3 phantoms at 4436.47."}
+],
+"no_change":[
+ {"n":14,"why":"a007 p2: last spawn 3513.567, that piece was still active (hold O at 3513.667) and p2 score unchanged 3512.93-3514.27 (48955): no lock by KO 3513.7."},
+ {"n":17,"why":"a012 p1 3714.4: frames 3715.0+ show 'T-SPIN Double' + BACK to BACK, two-row flash, score +5400 at 3714.97 = TSD B2B; chain tsd correct (fr/g1/a012.png)."},
+ {"n":19,"why":"a018 p2: chain event t is the spawn time; C 4069.37 is the piece spawned 4069.367 that locked at 4069.63 (+34). Piece spawned 4069.733 was held (hold 4069.80) and nothing locked by KO 4069.83 (score 51848 unchanged after)."},
+ {"n":21,"why":"a020 p2 4128.5: chain tsd correct (T spawned 4128.50 made the TSD at 4129.20, +5550); the T-SPIN Single banner at 4128.5 is the lingering banner of the TSS at 4127.84. Fix for the duplicate is item 23."},
+ {"n":26,"why":"a027 p2: piece spawned 4448.333 (O) sits at the top unlocked through 4449.04 (fr/g1/a027p2.png), score 62850 unchanged; nothing locks by KO 4449.03."},
+ {"n":27,"why":"a030 p2: piece spawned 4622.133 not locked by KO 4622.37 (score 41555 unchanged from 4622.03). Whole-game nextcount gives 39 spawns -1 hold-into-empty -1 unlocked = 37 = csv pieces. (cseq lacks None locks for spawns 4615.1 and 4620.93 and logs the PC quad at 4621.3 instead of 4620.93, but counts are unaffected.)"}
+]}
