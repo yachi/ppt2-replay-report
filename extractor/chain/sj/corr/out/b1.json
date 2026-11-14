@@ -1,0 +1,481 @@
+{
+ "event_corrections": [
+  {
+   "n": 17,
+   "id": "a026",
+   "side": "p2",
+   "op": "retype",
+   "t": 2923.97,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "frames 2924.20-2925.0 (/tmp/claude-0/sj/corr/fr/g1/a026a.png, /tmp/claude-0/sj/corr/fr/g1/a026b.png): the Z dropped on the right fills the top garbage row (hole at col 9), row flashes and stack drops one; p2 score +1500 at 2924.30 = single at REN 8 (300+8*150). The missed single breaks B2B, which is why the TSS at 2929.73 scored 2400 not 3600."
+  },
+  {
+   "n": 19,
+   "id": "a027",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2980.6,
+   "t_end": 2985.43,
+   "events": [
+    {
+     "t": 2981.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2980.6,
+     "BREAK",
+     2
+    ],
+    [
+     2981.73,
+     "single",
+     1
+    ],
+    [
+     2985.43,
+     null,
+     0
+    ]
+   ],
+   "source": "stream in slow motion 2981-3005 (/tmp/claude-0/sj/corr/fr/g1/a027a.png). nextcount: spawns 2981.63, 2990.77, 3005.57 only (2985.43 unmatched). Score REN bonuses continuous: 2980.23 +1216 (REN6), 2981.33 +1359 (REN7), 2990.13 +1500 (REN8): no REN break at 2980.6, piece 2981.73 is the single locking 2990.13."
+  },
+  {
+   "n": 20,
+   "id": "a027",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 2988.47,
+   "t_end": 3000.57,
+   "events": [
+    {
+     "t": 2990.87,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     2988.47,
+     "BREAK",
+     2
+    ],
+    [
+     2990.87,
+     "double",
+     2
+    ],
+    [
+     2990.97,
+     "single",
+     1
+    ],
+    [
+     2998.37,
+     null,
+     0
+    ],
+    [
+     3000.57,
+     "BREAK",
+     0
+    ]
+   ],
+   "source": "slow-motion stretch; nextcount p1 has one spawn (2990.77) between 2981.63 and 3005.57 and lists 2990.97, 2998.37 as unmatched events; score shows one clear only, +2250 at 3004.63 = double at REN9 (900+1350); REN continuous so no BREAKs."
+  },
+  {
+   "n": 22,
+   "id": "a027",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 3005.47,
+   "t_end": 3005.53,
+   "events": [
+    {
+     "t": 3005.47,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     3005.47,
+     "single",
+     1
+    ],
+    [
+     3005.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "nextcount: one spawn at 3005.57 (3005.53 unmatched); score: single +1800 at 3010.80 (REN10), then singles REN11 3011.67, REN12 3012.60; no double there."
+  },
+  {
+   "n": 18,
+   "id": "a027",
+   "side": "p2",
+   "op": "remove",
+   "t": 2980.17,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "score p2 REN continuous: 2978.90 +1382 (REN7), 2979.83 +1534 (REN8), 2994.10 +1650 (REN9), 3009.27 +1800 (REN10): no break."
+  },
+  {
+   "n": 18,
+   "id": "a027",
+   "side": "p2",
+   "op": "remove",
+   "t": 2993.63,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "nextcount p2: spawns 2980.13 then 2994.73, nothing between (2993.63 unmatched); one score jump in that span (2994.10 +1650 REN9) = the 2980.13 piece. Slow motion visible in /tmp/claude-0/sj/corr/fr/g1/a027a.png"
+  },
+  {
+   "n": 21,
+   "id": "a027",
+   "side": "p2",
+   "op": "remove",
+   "t": 3007.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a027b.png 3005.5-3009.75: NEXT queue (T S I J Z) and HOLD unchanged throughout, so no spawn at 3007.33; the piece spawned 2994.73 locks with the single at 3009.27 (+1800 REN10); next clears 3010.23 REN11, 3011.13 REN12, 3012.10 double REN13, 3013.00 REN14, 3014.03 triple REN15 (+3750) match 3009.9..3013.6."
+  },
+  {
+   "n": 25,
+   "id": "a029",
+   "side": "p1",
+   "op": "retype",
+   "t": 3119.73,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a029a.png: T (spawned 3118.83) spins on the left wall and locks ~3119.6 with a T-SPIN banner but no row clears; score 69233->69608 (+375) over 3118.6-3120.3 = zero-line mini (300) + drop points, not a mini single (900 B2B). Event 3119.73 is the next piece (L, nextcount shift 3119.733), no clear."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "retype",
+   "t": 3323.8,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a032b.png 3323.6-3328.7: REN banners 3,4,5,6,7,8 with a single cleared in the centre well per piece; score 12487 (3323.17, REN2) -> 19456 (3328.77) = REN3..REN8 singles 6750 + drops; next single 3329.40 +1650 = REN9."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "retype",
+   "t": 3324.57,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a032b.png 3323.6-3328.7: REN banners 3,4,5,6,7,8 with a single cleared in the centre well per piece; score 12487 (3323.17, REN2) -> 19456 (3328.77) = REN3..REN8 singles 6750 + drops; next single 3329.40 +1650 = REN9."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "retype",
+   "t": 3325.5,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a032b.png 3323.6-3328.7: REN banners 3,4,5,6,7,8 with a single cleared in the centre well per piece; score 12487 (3323.17, REN2) -> 19456 (3328.77) = REN3..REN8 singles 6750 + drops; next single 3329.40 +1650 = REN9."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "retype",
+   "t": 3326.3,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a032b.png 3323.6-3328.7: REN banners 3,4,5,6,7,8 with a single cleared in the centre well per piece; score 12487 (3323.17, REN2) -> 19456 (3328.77) = REN3..REN8 singles 6750 + drops; next single 3329.40 +1650 = REN9."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "retype",
+   "t": 3327.2,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a032b.png 3323.6-3328.7: REN banners 3,4,5,6,7,8 with a single cleared in the centre well per piece; score 12487 (3323.17, REN2) -> 19456 (3328.77) = REN3..REN8 singles 6750 + drops; next single 3329.40 +1650 = REN9."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "retype",
+   "t": 3328.13,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sj/corr/fr/g1/a032b.png 3323.6-3328.7: REN banners 3,4,5,6,7,8 with a single cleared in the centre well per piece; score 12487 (3323.17, REN2) -> 19456 (3328.77) = REN3..REN8 singles 6750 + drops; next single 3329.40 +1650 = REN9."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "remove",
+   "t": 3330.97,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "score REN continuous: 3330.37 +1800 (REN10), 3331.27 +1950 (REN11)."
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "side": "p1",
+   "op": "remove",
+   "t": 3343.03,
+   "was": [
+    "single",
+    1,
+    1
+   ],
+   "source": "nextcount p1: spawn 3331.93 then 3346.90, nothing between (3343.03 unmatched in --game run); one clear in that span: 3346.13 +2100 (REN12) = piece 3331.93; following singles 3347.20..3349.83 REN13..16 match 3346.77..3349.63."
+  },
+  {
+   "n": 29,
+   "id": "a032",
+   "side": "p2",
+   "op": "remove",
+   "t": 3331.83,
+   "was": [
+    "BREAK",
+    4,
+    0
+   ],
+   "source": "score p2 REN continuous: 3331.00 REN7, 3331.83 +1512 REN8, 3332.37 +1650 REN9, 3345.17 +1800 REN10 ... 3349.47 +2400 REN14; no break."
+  },
+  {
+   "n": 29,
+   "id": "a032",
+   "side": "p2",
+   "op": "remove",
+   "t": 3337.37,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "score p2 REN continuous: 3331.00 REN7, 3331.83 +1512 REN8, 3332.37 +1650 REN9, 3345.17 +1800 REN10 ... 3349.47 +2400 REN14; no break."
+  },
+  {
+   "n": 29,
+   "id": "a032",
+   "side": "p2",
+   "op": "remove",
+   "t": 3339.53,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "score p2 REN continuous: 3331.00 REN7, 3331.83 +1512 REN8, 3332.37 +1650 REN9, 3345.17 +1800 REN10 ... 3349.47 +2400 REN14; no break."
+  },
+  {
+   "n": 29,
+   "id": "a032",
+   "side": "p2",
+   "op": "remove",
+   "t": 3336.23,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "nextcount p2 3331.5-3349: spawns 3332.13, 3332.97, 3345.77 (holds 3337.57 swap only); no spawn near 3336.23 (also unmatched in --game run); piece 3332.97 is the single locking 3345.17 after the slow-motion stretch."
+  },
+  {
+   "n": 31,
+   "id": "a033",
+   "side": "p2",
+   "op": "retype",
+   "t": 3392.8,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "p2 score +300 at 3392.73 = zero-line mini T-spin (a mini single after the quad would be 900 B2B); quad at 3393.53 +3600 keeps B2B. The T is the piece spawned 3391.97 (held swap 3392.07); 3392.8 is the next spawn (nextcount shift 3392.800), locking +20 at 3392.87, no clear."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 17,
+   "id": "a026",
+   "player": "p2",
+   "field": "max_combo",
+   "was": "7",
+   "value": "8",
+   "source": "REN tss 2916.17..quad 2922.87 (8 clears) plus the single at 2923.97 = 9 consecutive clears; score +1500 at 2924.30 = 300+8*150 (REN 8)"
+  },
+  {
+   "n": 19,
+   "id": "a027",
+   "player": "p1",
+   "field": "max_combo",
+   "was": "7",
+   "value": "12",
+   "source": "score REN bonuses p1: 2978.57 +918 (REN4) ... 2990.13 +1500 (REN8), 3004.63 +2250 (double REN9), 3010.80 +1800, 3011.67 +1950, 3012.60 +2100 (REN12); 3014.00 +900 no REN. In-game REN banners 6,7,8 visible in /tmp/claude-0/sj/corr/fr/g1/a027a.png"
+  },
+  {
+   "n": 20,
+   "id": "a027",
+   "player": "p1",
+   "field": "pieces",
+   "was": "102",
+   "value": "94",
+   "source": "nextcount --game a027 p1: 96 shifts, bags consistent, no seq gaps; less first hold-into-empty and the post-last-event shift = 94; = chain 98 events less the 4 unmatched (2985.43, 2990.97, 2998.37, 3005.53)"
+  },
+  {
+   "n": 18,
+   "id": "a027",
+   "player": "p2",
+   "field": "max_combo",
+   "was": "9",
+   "value": "15",
+   "source": "score p2: REN7 2978.90 ... REN14 single 3013.00 (+2428), triple 3014.03 +3750 = 1500+15*150 (REN15)"
+  },
+  {
+   "n": 21,
+   "id": "a027",
+   "player": "p2",
+   "field": "pieces",
+   "was": "95",
+   "value": "89",
+   "source": "nextcount --game a027 p2: 91 shifts, bags consistent, less first hold and post-last-event shift = 89; = chain 91 events less unmatched 2993.63, 3007.33"
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "player": "p1",
+   "field": "max_combo",
+   "was": "13",
+   "value": "16",
+   "source": "score p1: 3321.30 single (REN0), 3322.27 REN1, 3323.17 REN2, REN3-8 (a032b.png), 3329.40 REN9 ... 3349.83 +2700 = 300+16*150 (REN16); next clear 3355.63 tsd no REN"
+  },
+  {
+   "n": 28,
+   "id": "a032",
+   "player": "p1",
+   "field": "pieces",
+   "was": "94",
+   "value": "93",
+   "source": "nextcount --game a032 p1: 95 shifts, bags consistent, less first hold and post-last-event shift = 93; chain 94 events less unmatched 3343.03"
+  },
+  {
+   "n": 29,
+   "id": "a032",
+   "player": "p2",
+   "field": "max_combo",
+   "was": "8",
+   "value": "14",
+   "source": "score p2: 3329.33 +1068 (REN5) ... 3349.47 +2400 = 300+14*150 (REN14), then 3350.90 +300 (REN reset)"
+  },
+  {
+   "n": 29,
+   "id": "a032",
+   "player": "p2",
+   "field": "pieces",
+   "was": "108",
+   "value": "104",
+   "source": "nextcount --game a032 p2: 105 shifts less first hold = 104 (bags consistent); = chain 105 events less 3336.23"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 26,
+   "why": "score +163 over 3164.2-3165.83 is drop points of the six chain None locks (~27 each); last +28 at 3165.83 is the lock of piece 3165.63, already in the chain; no clear."
+  },
+  {
+   "n": 27,
+   "why": "a030 p1: last lock +22 at 3240.67 (piece 3240.4, in chain); piece spawned 3240.77 is soft-dropping (+1 per frame 3240.80-3241.23), no hard-drop/lock jump by KO 3241.20."
+  },
+  {
+   "n": 30,
+   "why": "a032 p1: last lock +32 at 3371.50 (piece 3371.27 in chain); after the 3371.73 hold the piece soft-drops (+1 per frame 3371.67-3371.83), no lock by KO 3371.80."
+  }
+ ]
+}

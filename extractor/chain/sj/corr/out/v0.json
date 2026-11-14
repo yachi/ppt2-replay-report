@@ -1,0 +1,5 @@
+[
+ {"ref":"e0","verdict":"keep","why":"nextcount p1 488.5-496.5: shifts only at 488.80, 489.10, 495.80 (O then held, T out of hold for the TST); score flat 425 from 489.00 to 495.67, +8 at 495.70. fr/v0/a002gap.png (489.0-496.0, 0.5 s): the S hangs near the top with the board unchanged until 495.5 (stream stall). Only one piece spawned at 489.10; the duplicate 489.10 event and the 489.40 event are phantoms."},
+ {"ref":"c0","verdict":"keep","why":"nextcount: O spawns 1434.60; fr/v0/a009ko.png (1434.50-1434.90, every frame): the O is above the stack (ghost visible) through 1434.70 and solid on the right stack at 1434.733 = KO frame; no clear flash; score reads 86173 after KO. +1 piece."},
+ {"ref":"c1","verdict":"keep","why":"nextcount: Z spawns 1867.667; fr/v0/a014ko.png: the Z falls 1867.67-1867.80 and is locked on the right stack at 1867.83 = KO frame, score 105478 -> 105506 (+28 hard drop) at 1867.83; no clear. +1 piece."}
+]

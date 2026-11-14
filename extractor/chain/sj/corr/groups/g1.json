@@ -1,0 +1,120 @@
+[
+ {
+  "id": "a026",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "a026",
+   "player": "p2",
+   "t0": 2924.3,
+   "t1": 2930.47,
+   "step": -1200,
+   "unexplained": -1200,
+   "near": [
+    [
+     2929.73,
+     3600,
+     "tss"
+    ]
+   ]
+  },
+  "t_s": 2924.3,
+  "n": 17
+ },
+ {
+  "id": "a027",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 14.60 s from 2980.13 s; B events spliced (D2/D3)",
+  "t_s": 2980.13,
+  "n": 18
+ },
+ {
+  "id": "a027",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 9.13 s from 2981.73 s; B events spliced (D2/D3)",
+  "t_s": 2981.73,
+  "n": 19
+ },
+ {
+  "id": "a027",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 14.60 s from 2990.87 s; B events spliced (D2/D3)",
+  "t_s": 2990.87,
+  "n": 20
+ },
+ {
+  "id": "a027",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 15.17 s from 2994.73 s; B events spliced (D2/D3)",
+  "t_s": 2994.73,
+  "n": 21
+ },
+ {
+  "id": "a027",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.00 s from 3005.47 s; B events spliced (D2/D3)",
+  "t_s": 3005.47,
+  "n": 22
+ },
+ {
+  "id": "a029",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 3119.66 s, no A clear matched (added by R/build.py)",
+  "t_s": 3119.66,
+  "n": 25
+ },
+ {
+  "id": "a029",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +163 at 3165.83 s (KO 3165.87 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 3165.83,
+  "n": 26
+ },
+ {
+  "id": "a030",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.43 s before the KO)",
+  "t_s": 3241.2,
+  "n": 27
+ },
+ {
+  "id": "a032",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 14.83 s from 3331.93 s; B events spliced (D2/D3)",
+  "t_s": 3331.93,
+  "n": 28
+ },
+ {
+  "id": "a032",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 12.80 s from 3332.97 s; B events spliced (D2/D3)",
+  "t_s": 3332.97,
+  "n": 29
+ },
+ {
+  "id": "a032",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 3371.8,
+  "n": 30
+ },
+ {
+  "id": "a033",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 3392.74 s, no A clear matched (added by R/build.py)",
+  "t_s": 3392.74,
+  "n": 31
+ }
+]
