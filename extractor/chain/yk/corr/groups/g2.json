@@ -1,0 +1,114 @@
+[
+ {
+  "id": "a032",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 4691.53,
+  "n": 28
+ },
+ {
+  "id": "a034",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 4768.67,
+  "n": 29
+ },
+ {
+  "id": "a037",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "6.13 s from the last spawn to the KO",
+  "t_s": 4942.97,
+  "n": 30
+ },
+ {
+  "id": "a037",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "6.17 s from the last spawn to the KO",
+  "t_s": 4942.97,
+  "n": 31
+ },
+ {
+  "id": "a037",
+  "player": "p1",
+  "field_or_issue": "unresolved lower bound",
+  "detail": "R/build.py: B coverage ends before the window ends; pieces/lines/garbage are lower bounds; game excluded",
+  "t_s": 4942.97,
+  "n": 32
+ },
+ {
+  "id": "a037",
+  "player": "p2",
+  "field_or_issue": "unresolved lower bound",
+  "detail": "R/build.py: B coverage ends before the window ends; pieces/lines/garbage are lower bounds; game excluded",
+  "t_s": 4942.97,
+  "n": 33
+ },
+ {
+  "id": "a038",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 4954.07 s",
+  "t_s": 4954.07,
+  "n": 34
+ },
+ {
+  "id": "a040",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 5089.77,
+  "n": 35
+ },
+ {
+  "id": "a043",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.80 s before the KO)",
+  "t_s": 5275.37,
+  "n": 36
+ },
+ {
+  "id": "a045",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 5414.53,
+  "n": 37
+ },
+ {
+  "id": "a046",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.40 s before the KO)",
+  "t_s": 5460.53,
+  "n": 38
+ },
+ {
+  "id": "a048",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 5610.83,
+  "n": 39
+ },
+ {
+  "id": "a050",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 5682.6 s",
+  "t_s": 5682.6,
+  "n": 40
+ },
+ {
+  "id": "a050",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 5703.87 s typed as a plain clear",
+  "t_s": 5703.87,
+  "n": 41
+ }
+]

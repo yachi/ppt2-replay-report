@@ -1,0 +1,25 @@
+{"event_corrections":[
+{"n":0,"id":"a000","side":"p1","op":"replace_window","t":2959.77,"t_end":2959.77,"events":[{"t":2959.77,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[2959.77,null,0],[2959.77,null,0],[2959.77,null,0]],"source":"Three None locks logged at 2959.77; frames show one spawn there: O spawns 2959.50, Z spawns 2959.77 (next ZTJTI>TJTIO), T spawns 2960.03 (TSS, +3600 B2B at 2961.27). nextcount.py p1 2958-2975 gives 19 shifts vs 21 chain events; the rest of the window matches 1:1 and REN scoring (+450..+2100) confirms each clear. Two phantom locks from the 'double shift k=3' misread. fr/g0/i0.png"},
+{"n":4,"id":"a002","side":"p2","op":"remove","t":3110.47,"was":[null,0,0],"source":"Game stalled (both boards frozen, players moving pieces) 3110.2-3120.8. p2: piece spawned 3110.23 soft-drops 3110.33-3110.47 (+1 per frame, score 21904->21909), no lock; it locks ~3120.8 (L, no clear), next L spawned 3120.87 is held and the I from hold makes the quad at 3121.20 (+3600). nextcount shows spawns 3110.233 and 3120.867 only. 3110.47 is a phantom. fr/g0/i4.png, fr/g0/i4b.png"},
+{"n":5,"id":"a002","side":"p1","op":"remove","t":3119.63,"was":[null,0,0],"source":"p1 during the stall: O spawned 3111.03 hovered until held at 3117.07; L from hold locked ~3119.5-3120.0 (no drop points); I spawned 3120.13 was held, O out and hard-dropped 3120.57 (+8); J spawned 3120.67. nextcount shifts at 3111.03 and 3120.13 only, so the window has two locks (L, O) where the chain has three (3111.07, 3119.63, 3120.13). fr/g0/i5.png, fr/g0/i4.png"},
+{"n":11,"id":"a005","side":"p2","op":"retype","t":3388.67,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"T locked at 3388.5 on the left with a Mini T-SPIN banner but no row cleared (stack heights identical 3388.4 vs 3388.7, no line flash); score +300 at 3388.60 = zero-line Mini T-spin (100x level 3), not 600 for Mini TSS. Following quad scores plain 2400 at 3389.97. fr/g0/i10.png"},
+{"n":12,"id":"a005","side":"p1","op":"remove","t":3390.27,"was":[null,0,0],"source":"I spawned 3389.6 locked 3389.87; O spawned 3389.97 hovered (soft drops 3390.93-3391.03) and locked ~3394.4; T spawned 3394.47 = TSD (+3600 at 3395.03). nextcount shows only shifts 3389.967 and 3394.467, so one lock in between; chain events 3390.27 and 3394.10 are phantoms. fr/g0/i12.png"},
+{"n":12,"id":"a005","side":"p1","op":"remove","t":3394.1,"was":[null,0,0],"source":"Second phantom in the same window, see the 3390.27 removal. fr/g0/i12.png"}
+],
+"cell_edits":[
+{"n":0,"id":"a000","player":"p1","field":"pieces","was":145,"value":143,"source":"two phantom locks at 2959.77 removed (fr/g0/i0.png, nextcount)"},
+{"n":4,"id":"a002","player":"p2","field":"pieces","was":54,"value":53,"source":"phantom lock 3110.47 removed (soft drop, not a lock)"},
+{"n":5,"id":"a002","player":"p1","field":"pieces","was":46,"value":45,"source":"phantom lock 3119.63 removed (O held, not locked)"},
+{"n":12,"id":"a005","player":"p1","field":"pieces","was":58,"value":56,"source":"phantom locks 3390.27 and 3394.10 removed"}
+],
+"no_change":[
+{"n":1,"why":"Score +5400 at 2901.43 = TSD with B2B after the TST at 2899.53 (+4800); banner reads 'T-SPIN Double' + BACK to BACK (fr/g0/i1.png). Chain tsd is right; the Single banner was the earlier lingering read."},
+{"n":2,"why":"Chain already has tsd at 3057.83; score +3600 at 3058.23 (no B2B after a single) and banner 'T-SPIN Double' at 3058.3 (fr/g0/i2.png)."},
+{"n":3,"why":"p2's S locked 3087.33 (hard-drop points, = chain event 3087.27); the O spawned 3087.43 earns no drop points before the KO at 3087.63, so it did not lock by the KO frame."},
+{"n":6,"why":"Chain double at 3149.50 is right: score +1050 at 3150.17 = double 900 + REN 150; a TSD would be 3600+."},
+{"n":7,"why":"Chain single at 3150.77 is right: +1088 at 3151.00 = single 300 + REN 750 + drop points; a TSS would be 2400+ (B2B after the quad 3600+)."},
+{"n":8,"why":"Score +5400 at 3214.20 = TSD with B2B after the quad; TSS B2B would be 3600. Chain tsd is right."},
+{"n":9,"why":"Chain single at 3340.60 is right: +1200 at 3340.90 = single 300 + REN 900, consistent with the REN chain (double +1524, quad +3150); a TSS after the quad would be 3600+."},
+{"n":10,"why":"Explained by the n=11 retype: the 3388.6 T-spin was zero-line Mini (+300), so the quad at 3389.97 is not B2B (+2400). Double +1350 at 3383.73 is right."},
+{"n":13,"why":"Score +5400 at 3448.67 = TSD with B2B after the quad at 3446.23 (+3600 B2B); chain tsd is right."}
+]}

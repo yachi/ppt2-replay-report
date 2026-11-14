@@ -1,0 +1,639 @@
+[
+ {
+  "id": "a002",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 9.07 s from 3111.07 s; B events spliced (D2/D3)",
+  "t_s": 3111.07
+ },
+ {
+  "id": "a002",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.63 s from 3110.23 s; B events spliced (D2/D3)",
+  "t_s": 3110.23
+ },
+ {
+  "id": "a005",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.50 s from 3389.97 s; B events spliced (D2/D3)",
+  "t_s": 3389.97
+ },
+ {
+  "id": "a020",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 5.37 s from 4133.40 s; B events spliced (D2/D3)",
+  "t_s": 4133.4
+ },
+ {
+  "id": "a037",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "6.13 s from the last spawn to the KO",
+  "t_s": 4942.97
+ },
+ {
+  "id": "a037",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "6.17 s from the last spawn to the KO",
+  "t_s": 4942.97
+ },
+ {
+  "id": "a000",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "2 of 21 bags not a permutation (spawn index [133, 140]); anomalies ['double shift k=3 at frame 2093', 'queue I re-read at frame 2096: slot 2 I->J', 'queue slot-5 re-read at frame 2317: I->J']",
+  "t_s": 2892.2
+ },
+ {
+  "id": "a018",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "4 of 9 bags not a permutation (spawn index [35, 42, 49, 56]); anomalies ['double shift k=3 at frame 636']",
+  "t_s": 4031.37
+ },
+ {
+  "id": "a027",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "3 of 10 bags not a permutation (spawn index [49, 56, 63]); anomalies ['double shift k=3 at frame 710', 'queue I-misread corrected at shift k=1, frame 713: slot 3 I->S']",
+  "t_s": 4415.07
+ },
+ {
+  "id": "a000",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 2900.93 s",
+  "t_s": 2900.93
+ },
+ {
+  "id": "a001",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (double) vs banner T-SPIN Single at 3057.83 s",
+  "t_s": 3057.83
+ },
+ {
+  "id": "a003",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 3149.5 s typed as a plain clear",
+  "t_s": 3149.5
+ },
+ {
+  "id": "a003",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 3150.77 s typed as a plain clear",
+  "t_s": 3150.77
+ },
+ {
+  "id": "a004",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 3213.67 s",
+  "t_s": 3213.67
+ },
+ {
+  "id": "a004",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 3340.6 s typed as a plain clear",
+  "t_s": 3340.6
+ },
+ {
+  "id": "a005",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 3388.53 s, no A clear matched (added by R/build.py)",
+  "t_s": 3388.53
+ },
+ {
+  "id": "a006",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 3447.93 s",
+  "t_s": 3447.93
+ },
+ {
+  "id": "a009",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 3582.23 s typed as a plain clear",
+  "t_s": 3582.23
+ },
+ {
+  "id": "a012",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 3714.4 s",
+  "t_s": 3714.4
+ },
+ {
+  "id": "a020",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 4129.23 s, no A clear matched (added by R/build.py)",
+  "t_s": 4129.23
+ },
+ {
+  "id": "a020",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 4128.5 s",
+  "t_s": 4128.5
+ },
+ {
+  "id": "a038",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 4954.07 s",
+  "t_s": 4954.07
+ },
+ {
+  "id": "a050",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 5682.6 s",
+  "t_s": 5682.6
+ },
+ {
+  "id": "a050",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 5703.87 s typed as a plain clear",
+  "t_s": 5703.87
+ },
+ {
+  "id": "a000",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.4 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 2951.6
+ },
+ {
+  "id": "a000",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 2955.0
+ },
+ {
+  "id": "a001",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3067.3
+ },
+ {
+  "id": "a002",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3108.5
+ },
+ {
+  "id": "a002",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 3104.67 s, dropped double-logs []",
+  "t_s": 3104.9
+ },
+ {
+  "id": "a004",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3177.3
+ },
+ {
+  "id": "a006",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3444.2
+ },
+ {
+  "id": "a008",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3530.5
+ },
+ {
+  "id": "a008",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.1 s long; pcmap: PC = clear at 3530.37 s, dropped double-logs [3530.17]",
+  "t_s": 3530.7
+ },
+ {
+  "id": "a009",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3578.2
+ },
+ {
+  "id": "a010",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.4 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3619.2
+ },
+ {
+  "id": "a011",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3674.5
+ },
+ {
+  "id": "a012",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 3697.7
+ },
+ {
+  "id": "a017",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4009.4
+ },
+ {
+  "id": "a019",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4090.7
+ },
+ {
+  "id": "a021",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4171.1 s, dropped double-logs []",
+  "t_s": 4171.3
+ },
+ {
+  "id": "a021",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4177.3
+ },
+ {
+  "id": "a021",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.0 s long; pcmap: PC = clear at 4177.1 s, dropped double-logs [4176.8]",
+  "t_s": 4177.6
+ },
+ {
+  "id": "a022",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 4222.17 s, dropped double-logs [4222.4]",
+  "t_s": 4222.4
+ },
+ {
+  "id": "a024",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4278.2 s, dropped double-logs [4278.37]",
+  "t_s": 4278.4
+ },
+ {
+  "id": "a025",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4303.43 s, dropped double-logs []",
+  "t_s": 4303.6
+ },
+ {
+  "id": "a027",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4423.9 s, dropped double-logs []",
+  "t_s": 4424.1
+ },
+ {
+  "id": "a027",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4425.3
+ },
+ {
+  "id": "a027",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4430.8 s, dropped double-logs [4430.5]",
+  "t_s": 4431.0
+ },
+ {
+  "id": "a029",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4572.1
+ },
+ {
+  "id": "a029",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4573.5
+ },
+ {
+  "id": "a030",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4615.6
+ },
+ {
+  "id": "a030",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.0 s long; pcmap: PC = clear at 4615.43 s, dropped double-logs [4615.1]",
+  "t_s": 4615.9
+ },
+ {
+  "id": "a030",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 4621.3 s, dropped double-logs [4620.93]",
+  "t_s": 4621.5
+ },
+ {
+  "id": "a032",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4679.6 s, dropped double-logs []",
+  "t_s": 4679.8
+ },
+ {
+  "id": "a032",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4681.0
+ },
+ {
+  "id": "a033",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 4706.57 s, dropped double-logs []",
+  "t_s": 4706.8
+ },
+ {
+  "id": "a034",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4760.77 s, dropped double-logs []",
+  "t_s": 4761.0
+ },
+ {
+  "id": "a034",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 4762.83 s, dropped double-logs []",
+  "t_s": 4763.1
+ },
+ {
+  "id": "a034",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 4767.47 s, dropped double-logs []",
+  "t_s": 4767.7
+ },
+ {
+  "id": "a035",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 4783.83 s, dropped double-logs []",
+  "t_s": 4784.0
+ },
+ {
+  "id": "a036",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 4828.1 s, dropped double-logs [4828.43]",
+  "t_s": 4828.3
+ },
+ {
+  "id": "a037",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4918.0
+ },
+ {
+  "id": "a037",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.2 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 4909.1
+ },
+ {
+  "id": "a039",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.1 s long; pcmap: PC = clear at 4984.63 s, dropped double-logs []",
+  "t_s": 4985.0
+ },
+ {
+  "id": "a041",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5182.0
+ },
+ {
+  "id": "a043",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5249.6
+ },
+ {
+  "id": "a044",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5294.4
+ },
+ {
+  "id": "a044",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5295.3
+ },
+ {
+  "id": "a044",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.4 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5347.9
+ },
+ {
+  "id": "a045",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.3 s long; pcmap: PC = clear at 5411.13 s, dropped double-logs [5410.7]",
+  "t_s": 5411.3
+ },
+ {
+  "id": "a045",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 1.2 s long; pcmap: PC = clear at 5411.13 s, dropped double-logs [5410.7]",
+  "t_s": 5412.8
+ },
+ {
+  "id": "a046",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.4 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5433.3
+ },
+ {
+  "id": "a047",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5490.8
+ },
+ {
+  "id": "a049",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.4 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5633.2
+ },
+ {
+  "id": "a050",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5687.3
+ },
+ {
+  "id": "a050",
+  "player": "p1",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.3 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 5689.4
+ },
+ {
+  "id": "a037",
+  "player": "p1",
+  "field_or_issue": "unresolved lower bound",
+  "detail": "R/build.py: B coverage ends before the window ends; pieces/lines/garbage are lower bounds; game excluded",
+  "t_s": 4942.97
+ },
+ {
+  "id": "a037",
+  "player": "p2",
+  "field_or_issue": "unresolved lower bound",
+  "detail": "R/build.py: B coverage ends before the window ends; pieces/lines/garbage are lower bounds; game excluded",
+  "t_s": 4942.97
+ },
+ {
+  "id": "a001",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 3087.63
+ },
+ {
+  "id": "a007",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 3513.7
+ },
+ {
+  "id": "a018",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 4069.83
+ },
+ {
+  "id": "a027",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.70 s before the KO)",
+  "t_s": 4449.03
+ },
+ {
+  "id": "a030",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 4622.37
+ },
+ {
+  "id": "a032",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 4691.53
+ },
+ {
+  "id": "a034",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 4768.67
+ },
+ {
+  "id": "a040",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 5089.77
+ },
+ {
+  "id": "a043",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.80 s before the KO)",
+  "t_s": 5275.37
+ },
+ {
+  "id": "a045",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 5414.53
+ },
+ {
+  "id": "a046",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.40 s before the KO)",
+  "t_s": 5460.53
+ },
+ {
+  "id": "a048",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 5610.83
+ },
+ {
+  "id": "a009",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +2108 at 3586.07 s (KO 3586.0 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 3586.07
+ }
+]

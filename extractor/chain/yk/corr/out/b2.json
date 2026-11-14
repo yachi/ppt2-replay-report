@@ -1,0 +1,20 @@
+{"event_corrections":[
+ {"n":31,"id":"a037","side":"p2","op":"retype","t":4936.8,"was":["quad",4,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Frames 4936.50-4937.10 (/tmp/claude-0/yk/corr/fr/g2/a037b.png): the O spawned 4936.80 lands on the floor-right stack at ~4936.93 and no row clears; score.py p2 73580->73606 at 4936.93 (+26, drop points only) and 73606 is still shown when the game display returns at 4943.03, so no Tetris was scored (a quad would add >=2400). The TETRIS banner on screen is the lingering one from the 4935.23 quad (+3600 B2B at 4935.53). Phantom clear: the 4936.8 piece is a plain lock."}
+],
+"cell_edits":[],
+"no_change":[
+ {"n":28,"why":"a032 p1: T spawned 4691.23 (S held) is still soft-dropping at the KO; score.py drop points +1/frame through 4691.57 and the T reaches its rest only at 4691.56-4691.57, after end_s 4691.53 (/tmp/claude-0/yk/corr/fr/g2/a032.png). Lock after KO: not counted."},
+ {"n":29,"id":"a034","why":"a034 p2: I spawned 4768.57 is still at the top through 4768.70 and never locks (/tmp/claude-0/yk/corr/fr/g2/a034.png); score flat 27240."},
+ {"n":30,"why":"a037 p1 tail: from ~4937.17 to ~4943.0 the stream shows the Switch HOME menu / controller settings (/tmp/claude-0/yk/corr/fr/g2/a037a.png); the board is invisible, and when the game returns (~4943.03) p1 is already KO'd (ばたんきゅー). end_s 4942.97 is the return from the menu, not a visible KO; the real KO happened while hidden. p1 score unchanged 63652 across the gap -> no p1 clears hidden; any gravity locks in the gap cannot be counted. Pieces stay a lower bound; cannot be repaired by counting."},
+ {"n":32,"why":"a037 p1 unresolved lower bound: not repairable, the last ~5.8 s are the Switch HOME menu (see n30). Lines are complete (score unchanged); pieces unknown."},
+ {"n":33,"why":"a037 p2 unresolved lower bound: not repairable, last ~5.8 s hidden by the HOME menu (/tmp/claude-0/yk/corr/fr/g2/a037a.png). p2 score 73606 -> 73674 on return (+68 drop points only), so no p2 clears in the hidden window; its piece count there is unknown (L spawned 4937.03 and a few hard drops). One phantom quad at 4936.8 is corrected in event_corrections (n31)."},
+ {"n":34,"why":"a038 p1 4954.07: score 5350 -> 10750 (+5400 = TSD x1.5 B2B after the 4952.03 TST +4800); frames 4954.67-4954.93 show '...N Double' + BACK to BACK and two rows flashing (/tmp/claude-0/yk/corr/fr/g2/a038.png). TSD is right."},
+ {"n":35,"why":"a040 p2: T spawned 5089.60 still hovering near the top at the KO 5089.77 and after (/tmp/claude-0/yk/corr/fr/g2/a040.png); not locked."},
+ {"n":36,"why":"a043 p1: L spawned 5274.57 stays at the top unlocked through 5275.47 (/tmp/claude-0/yk/corr/fr/g2/a043.png); score flat 54737."},
+ {"n":37,"why":"a045 p2: J spawned 5414.40 is still at the top at the KO 5414.53 (/tmp/claude-0/yk/corr/fr/g2/a045.png); score flat 20562."},
+ {"n":38,"why":"a046 p2: T (Z held at 5460.27) is soft-dropping mid-air at the KO 5460.53 (score +1/frame to 5460.57), not landed (/tmp/claude-0/yk/corr/fr/g2/a046.png)."},
+ {"n":39,"why":"a048 p2: Z spawned 5610.67 still at the top at the KO 5610.83 (/tmp/claude-0/yk/corr/fr/g2/a048.png); the previous S locked 5610.63 (+18) and is already in the chain (5610.37)."},
+ {"n":40,"why":"a050 p1 5682.6: '...N Double' banner, no B2B, two-row flash at 5683.17 (/tmp/claude-0/yk/corr/fr/g2/a050a.png); score +3600 at 5683.13 = TSD without B2B. TSD is right."},
+ {"n":41,"why":"a050 p1 5703.87: score +600 at 5704.07 fits a single on REN 2 (double 5701.63 +900 REN0, quad 5702.73 +2550 REN1, this +600 REN2, then +750, +900); a Mini T-spin would give ~+900. Plain single is right."}
+]}

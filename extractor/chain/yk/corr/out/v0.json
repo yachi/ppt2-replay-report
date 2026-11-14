@@ -1,0 +1,12 @@
+[
+{"ref":"e0","verdict":"keep","why":"nextcount p1 2958-2961: one shift at 2959.767 (ZTJTI>TJTIO), shifts 2959.500 and 2960.033 either side; the chain has three None locks at 2959.77, so two are phantoms."},
+{"ref":"e1","verdict":"keep","why":"nextcount p2: spawns at 3110.233 and 3120.867 only; p2 score only +1/frame soft drop 3110.33-3110.47 then frozen until +4 at 3120.77 (lock). One lock in the window, 3110.47 is a phantom."},
+{"ref":"e2","verdict":"keep","why":"nextcount p1: spawns 3111.033 and 3120.133 between the single (3110.07 spawn) and 3120.667; holds at 3117.067 (O) and 3120.367 (I); +8 at 3120.57. Two locks where the chain has three (3111.07, 3119.63, 3120.13); dropping 3119.63 is fine."},
+{"ref":"e3","verdict":"keep","why":"Sheet fr/v0/m.png 3388.3-3388.9: T locks at left ~3388.55, stack identical before/after, no row removed; Mini T-SPIN banner; score +300 at 3388.60 = zero-line mini at level 3 (Mini single would be 600)."},
+{"ref":"e4","verdict":"keep","why":"nextcount p1 3389-3396: spawns 3389.600, 3389.967, 3394.467 only, no hold change. Sheet fr/v0/p.png: the O spawned 3389.97 falls slowly 3391-3394 and locks ~3394.4. One lock between 3389.97 and 3394.47; 3390.27 is a phantom."},
+{"ref":"e5","verdict":"keep","why":"Same window as e4: 3394.10 is the second phantom."},
+{"ref":"c0","verdict":"keep","why":"csv was 145; two phantom locks at 2959.77 removed (e0)."},
+{"ref":"c1","verdict":"keep","why":"csv was 54; phantom 3110.47 removed (e1)."},
+{"ref":"c2","verdict":"keep","why":"csv was 46; phantom removed (e2)."},
+{"ref":"c3","verdict":"keep","why":"csv was 58; two phantoms removed (e4, e5)."}
+]

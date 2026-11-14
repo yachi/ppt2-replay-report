@@ -24108,5 +24108,327 @@
   "pc": 0,
   "gc": 0,
   "source": "b3 frame check, verified: Added after the skeptic's aside, checked by the coordinator: O spawns 8514.94 and is held (HOLD shows O at 8515.15), the S drops into the well and two rows flash at 8515.22 (corr/fr/me/b101c.png). p2 score +1650 at 8515.23 = double 900 + REN5 750; a single would be 1050. Rows cleared are the red stack rows above the garbage, so gc 0."
+ },
+ {
+  "id": "a000",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 2959.77,
+  "t_end": 2959.77,
+  "events": [
+   {
+    "t": 2959.77,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    2959.77,
+    null,
+    0
+   ],
+   [
+    2959.77,
+    null,
+    0
+   ],
+   [
+    2959.77,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: Three None locks logged at 2959.77; frames show one spawn there: O spawns 2959.50, Z spawns 2959.77 (next ZTJTI>TJTIO), T spawns 2960.03 (TSS, +3600 B2B at 2961.27). nextcount.py p1 2958-2975 gives 19 shifts vs 21 chain events; the rest of the window matches 1:1 and REN scoring (+450..+2100) confirms each clear. Two phantom locks from the 'double shift k=3' misread. fr/g0/i0.png"
+ },
+ {
+  "id": "a002",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 3110.47,
+  "source": "b0 frame check, verified: Game stalled (both boards frozen, players moving pieces) 3110.2-3120.8. p2: piece spawned 3110.23 soft-drops 3110.33-3110.47 (+1 per frame, score 21904->21909), no lock; it locks ~3120.8 (L, no clear), next L spawned 3120.87 is held and the I from hold makes the quad at 3121.20 (+3600). nextcount shows spawns 3110.233 and 3120.867 only. 3110.47 is a phantom. fr/g0/i4.png, fr/g0/i4b.png",
+  "t_end": 3110.47,
+  "events": [],
+  "was_old": [
+   [
+    3110.47,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a002",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3119.63,
+  "source": "b0 frame check, verified: p1 during the stall: O spawned 3111.03 hovered until held at 3117.07; L from hold locked ~3119.5-3120.0 (no drop points); I spawned 3120.13 was held, O out and hard-dropped 3120.57 (+8); J spawned 3120.67. nextcount shifts at 3111.03 and 3120.13 only, so the window has two locks (L, O) where the chain has three (3111.07, 3119.63, 3120.13). fr/g0/i5.png, fr/g0/i4.png",
+  "t_end": 3119.63,
+  "events": [],
+  "was_old": [
+   [
+    3119.63,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a005",
+  "side": "p2",
+  "op": "retype",
+  "t": 3388.67,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: T locked at 3388.5 on the left with a Mini T-SPIN banner but no row cleared (stack heights identical 3388.4 vs 3388.7, no line flash); score +300 at 3388.60 = zero-line Mini T-spin (100x level 3), not 600 for Mini TSS. Following quad scores plain 2400 at 3389.97. fr/g0/i10.png"
+ },
+ {
+  "id": "a005",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3390.27,
+  "source": "b0 frame check, verified: I spawned 3389.6 locked 3389.87; O spawned 3389.97 hovered (soft drops 3390.93-3391.03) and locked ~3394.4; T spawned 3394.47 = TSD (+3600 at 3395.03). nextcount shows only shifts 3389.967 and 3394.467, so one lock in between; chain events 3390.27 and 3394.10 are phantoms. fr/g0/i12.png",
+  "t_end": 3390.27,
+  "events": [],
+  "was_old": [
+   [
+    3390.27,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a005",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3394.1,
+  "source": "b0 frame check, verified: Second phantom in the same window, see the 3390.27 removal. fr/g0/i12.png",
+  "t_end": 3394.1,
+  "events": [],
+  "was_old": [
+   [
+    3394.1,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a009",
+  "side": "p1",
+  "op": "retype",
+  "t": 3583.07,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: T from hold (S held 3583.03) dropped into slot 3583.10; clear flash 3583.40 with banner 'Mini T-SPIN Single' (zoom fr/g1/ban.png at 3583.6, sheet fr/g1/a009_a.png); score +1950 at 3583.37 = Mini TSS 600 + REN9 1350 (plain single at REN9 would be 1650). The 3582.23 event is a plain single (+1500 = 300+REN8 1200 at 3582.27)."
+ },
+ {
+  "id": "a009",
+  "side": "p1",
+  "op": "add",
+  "t": 3585.87,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: L spawned 3585.867 (nextcount), hard-dropped and locked on the KO frame 3586.00 (score +8 drop points at 3586.00), single clear flash 3586.07 with '12 REN', score +2100 at 3586.07 = 300+REN12 1800. Lock is on the KO frame so it counts. Sheet fr/g1/a009_b.png."
+ },
+ {
+  "id": "a018",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4050.3,
+  "t_end": 4050.3,
+  "events": [],
+  "was_old": [
+   [
+    4050.3,
+    null,
+    0
+   ],
+   [
+    4050.3,
+    null,
+    0
+   ],
+   [
+    4050.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: Three phantom None locks at 4050.30. nextcount spawns 4049.77(L, held 4049.94), 4050.403(S), 4050.57(T, held), 4050.937 map one-to-one to chain 4049.8, 4050.43, 4050.6, 4050.97; frames show only O lock (score +10 at 4050.40) and S lock (+10 at 4050.50), then L lock 4050.9 (sheet fr/g1/a018.png). Whole-game nextcount stream is a clean 7-bag (with one '?'=J), 61 spawns."
+ },
+ {
+  "id": "a019",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4093.07,
+  "source": "b1 frame check, verified: S held 4093.10, T from hold dropped 4093.17, two-row clear flash 4093.24 (bottom colored row + top grey garbage row; fr/g1/a019fl.png, fr/g1/a019.png), '5 REN' shown 4093.30, no T-spin banner (TETRIS banner lingering); score +1650 at 4093.27 = double 900 + REN5 750. That double breaks B2B, so the later TSD scores +3600 (non-B2B) at 4096.10, explaining the -1800 score spot.",
+  "t_end": 4093.07,
+  "events": [
+   {
+    "t": 4093.07,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    4093.07,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a020",
+  "side": "p2",
+  "op": "retype",
+  "t": 4129.9,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: Duplicate TSD from the lingering banner. Only two T-spin clears 4127-4130: TSS B2B at 4127.84 (+3600, banner Single+BACK) = chain 4127.07, and TSD at 4129.20 (+5550 = 5400 B2B + REN1) by the T spawned 4128.50 = chain 4128.5 tsd. Piece spawned 4129.9 (nextcount shift 4129.900) is an S that locked at 4130.13 (+32 drop points only). Sheet fr/g1/a020.png."
+ },
+ {
+  "id": "a020",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4133.4,
+  "t_end": 4138.07,
+  "events": [
+   {
+    "t": 4133.4,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4133.4,
+    "quad",
+    4
+   ],
+   [
+    4133.4,
+    null,
+    0
+   ],
+   [
+    4133.67,
+    null,
+    0
+   ],
+   [
+    4136.03,
+    null,
+    0
+   ],
+   [
+    4136.2,
+    "BREAK",
+    2
+   ],
+   [
+    4138.07,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b1 frame check, verified: Only one spawn in the window (4133.40) until 4138.767 (nextcount; no unreadable gap). Frames fr/g1/a020p1.png: J spawned 4133.4 and hovered ~3.4 s, held at 4136.8 for the I, I dropped vertically, single TETRIS at 4137.96 (score +14 lock 4137.80, +3600 quad B2B 4137.97). So one piece/one quad; the None locks at 4133.40/4133.67/4136.03, the BREAK and the second quad 4138.07 are spliced duplicates."
+ },
+ {
+  "id": "a027",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4436.47,
+  "t_end": 4436.47,
+  "events": [],
+  "was_old": [
+   [
+    4436.47,
+    null,
+    0
+   ],
+   [
+    4436.47,
+    null,
+    0
+   ],
+   [
+    4436.47,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: Spawns 4435.9, 4436.233, 4436.567, 4437.6 (nextcount) map to chain 4435.9, 4436.23, 4436.57 triple, 4437.6 quad; scores show locks only at 4436.47(+4), 4436.73(+12, then triple +1500 at 4436.87). The three None at 4436.47 are phantoms. Whole-game nextcount stream (65 spawns) is a clean 7-bag in every bag."
+ },
+ {
+  "id": "a020",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4138.77,
+  "source": "v1 skeptic, missed by b1: T spawned 4138.767 (nextcount), locked 4138.97 (+14), clear flash 4139.00 with REN, score +1050 = double 900 + REN1 150 after the quad at 4137.97; next singles +600 (REN2) 4140.03 and +750 (REN3) 4141.07. /tmp/claude-0/yk/corr/fr/v1/a020p1_dbl.png. gc unverified (flash in the coloured rows).",
+  "t_end": 4138.77,
+  "events": [
+   {
+    "t": 4138.77,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4138.77,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "a037",
+  "side": "p2",
+  "op": "retype",
+  "t": 4936.8,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Frames 4936.50-4937.10 (/tmp/claude-0/yk/corr/fr/g2/a037b.png): the O spawned 4936.80 lands on the floor-right stack at ~4936.93 and no row clears; score.py p2 73580->73606 at 4936.93 (+26, drop points only) and 73606 is still shown when the game display returns at 4943.03, so no Tetris was scored (a quad would add >=2400). The TETRIS banner on screen is the lingering one from the 4935.23 quad (+3600 B2B at 4935.53). Phantom clear: the 4936.8 piece is a plain lock."
  }
 ]
