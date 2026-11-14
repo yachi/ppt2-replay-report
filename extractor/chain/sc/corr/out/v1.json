@@ -1,0 +1,9 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v1/a14.png: T locks top-right by 4105.34 with no row cleared (T-SPIN banner only; p1 score 15816 -> 16127 by 4105.87, i.e. +311 zero-line spin), T comes back out of hold and locks ~4105.80, two rows flash 4105.94 with 'Double' banner, score 16127 -> 19727 (+3600). One TSD, not tsd + 2-line mini."},
+{"ref":"e1","verdict":"keep","why":"fr/v1/a20.png, b20.png: O is current from ~4462.05 (queue I,Z,L,J,I) and hovers until it locks with a single at ~4466.0 (p2 score 87959 -> 88259 at 4466.00). Next I spawns ~4466.63 and stays at the top through KO 4467.3; p2 score frozen. No lock exists for the 4462.4 event."},
+{"ref":"e2","verdict":"keep","why":"fr/v1/a25.png, z25.png: zoomed banner at 10000.45 reads 'T-SPIN Double', no BACK to BACK banner; p2 score 67538 -> 71138 at 10000.63 (+3600 = TSD without B2B)."},
+{"ref":"e3","verdict":"keep","why":"fr/v1/a28.png: NEXT queue shifts at 10310.47, the S is hard-dropped (streaks) and rests on the stack at 10310.53, before KO 10310.57; the row flashes from 10310.60. p1 score 38415 -> 39785 (+1370 = 300 + 7x150 + drops) shows at 10310.93."},
+{"ref":"c0","verdict":"keep","why":"Follows e1: the 4462.4 lock is phantom, and the I spawned at 4466.63 never locks before KO 4467.3 (b20.png)."},
+{"ref":"c1","verdict":"keep","why":"Follows e3: the S locks ~10310.53, before KO 10310.57 (a28.png)."},
+{"ref":"c2","verdict":"keep","why":"The S single extends the REN run. The +1370 score jump fits 7 REN steps (300 + 1050 + drops); the chain's max was 6."}
+]

@@ -1,0 +1,114 @@
+[
+ {
+  "id": "t017",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 4105.87 s, no A clear matched (added by R/build.py)",
+  "t_s": 4105.87,
+  "n": 14
+ },
+ {
+  "id": "t020",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 4272.2 s",
+  "t_s": 4272.2,
+  "n": 16
+ },
+ {
+  "id": "t020",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Double at 4326.43 s",
+  "t_s": 4326.43,
+  "n": 17
+ },
+ {
+  "id": "t020",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 4386.0,
+  "n": 18
+ },
+ {
+  "id": "t021",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 4430.73 s typed as a plain clear [tsb-hint-v1] one score jump +466 at 4431.07 s: fits plain single only",
+  "t_s": 4430.73,
+  "n": 19
+ },
+ {
+  "id": "t021",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.70 s from 4461.93 s; B events spliced (D2/D3)",
+  "t_s": 4461.93,
+  "n": 20
+ },
+ {
+  "id": "t021",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +310 at 4466.0 s (KO 4467.3 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 4466.0,
+  "n": 21
+ },
+ {
+  "id": "t023",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 9788.5,
+  "n": 22
+ },
+ {
+  "id": "t024",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 9828.13,
+  "n": 23
+ },
+ {
+  "id": "t026",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 9916.33 s",
+  "t_s": 9916.33,
+  "n": 24
+ },
+ {
+  "id": "t027",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (single) vs banner T-SPIN Double at 9999.8 s",
+  "t_s": 9999.8,
+  "n": 25
+ },
+ {
+  "id": "t027",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 10022.9 s",
+  "t_s": 10022.9,
+  "n": 26
+ },
+ {
+  "id": "t030",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +81 at 10179.6 s (KO 10179.63 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 10179.6,
+  "n": 27
+ },
+ {
+  "id": "t033",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1370 at 10310.93 s (KO 10310.57 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 10310.93,
+  "n": 28
+ }
+]

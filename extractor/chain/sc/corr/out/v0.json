@@ -1,0 +1,6 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v0/t003.png: J locks ~1046.03 (+34 drop), three rows flash white at 1046.07-1046.13, score 23756->25256 = +1500 = plain triple; on-screen banner is the lingering TETRIS, no T-SPIN banner. gc=1 not independently resolvable at this size but consistent with grey rows at the bottom."},
+ {"ref":"e1","verdict":"keep","why":"fr/v0/t006.png: I spawns at top ~2984.13, locks 2984.27 (83155->83177), row flashes and '2 REN' shows, score 83777 at 2984.33, before KO 2984.47. +600 = single 300 + REN 2x150."},
+ {"ref":"e2","verdict":"keep","why":"fr/v0/t013.png: T spun into slot ~3391.6, two rows clear 3391.70-3391.80 with 'T-SPIN Double' + BACK to BACK + REN; score 11364->16932 (+5568) fits B2B TSD + REN 150 + drops, not a TSS."},
+ {"ref":"c0","verdict":"keep","why":"Same evidence as e1: the I locked at 2984.27, before KO 2984.47, and was not in the chain's pieces."}
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: single +300 at 963.93, then one jump 20926->25576 at 964.93 (double + PC bonus); no other clear-sized jump to 966"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py: after 964.93 only drop-point rises (25578->25650->25687); no second clear, so the 965.00 double is a duplicate and a plain lock fits"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py: 11852->14740 at 2928.37 (+2888, single + PC bonus) is the only clear in 2927.5-2929.3"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py: after 14740 only drop points (14777, 14810, 14847); no second single"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py: 95456->102506 at 4255.70 (+7050, triple + PC), then only +36/+37 lock steps to 4257"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py: no clear after 4255.70; locks at ~4256.0/4256.3/4256.6 match chain's 4255.77/4256.1/4256.4 spawns, so retype to a plain lock keeps the piece count right"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "fr/v2/t030.png: p2 3-row stack cleared at 10155.15, board empty with PERFECT CLEAR banner 10155.30; score 10976->17876 (+6900)"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v2/t030.png: L to hold, O locks on the empty board ~10155.97 (17876->17914, drop points only); no second triple"
+ }
+]
