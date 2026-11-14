@@ -1,0 +1,13 @@
+[
+ {"ref":"e0","verdict":"keep","why":"Vertical I locks ~547.7; at 547.80 two separate rows flash white with a REN banner; score 40243->41376 (+1133 fits double+1REN, not single+REN 450). /tmp/claude-0/sg/corr/fr/v0/x000a.png"},
+ {"ref":"e1","verdict":"keep","why":"Z drops at bottom left ~548.6, one row flashes 548.7-549.0 under '2 REN'; score 41376->41961 at 549.27, before KO 549.47. /tmp/claude-0/sg/corr/fr/v0/x000a.png"},
+ {"ref":"e2","verdict":"keep","why":"Z spawns 1389.77, sits in the left hole of the grey garbage row by 1389.83-1389.87, bottom grey row flashes white from 1389.90, '2 REN' banner by 1389.97 (KO). Chain has no event after 1388.8. /tmp/claude-0/sg/corr/fr/v0/x007a.png"},
+ {"ref":"e3","verdict":"keep","why":"T swapped out of hold ~1676.73 (hold shows T at 1676.70, J at 1676.75), rotates into the slot, row flash 1677.2 with T-SPIN banner, score 84001->84301 at 1677.25; the J from hold at 1677.3 only adds drop points (84302->84314) and clears nothing. /tmp/claude-0/sg/corr/fr/v0/x008a.png"},
+ {"ref":"e4","verdict":"keep","why":"Piece at 3226.4 is an I dropped vertically in col 0; at 3226.65 a two-row white band (a coloured row and the top grey garbage row whose hole is col 0) flashes under a REN banner; Single/BACK banners are the lingering ones from 3225.27; score 85006->86076 (+1070), not TSD. /tmp/claude-0/sg/corr/fr/v0/x022a.png"},
+ {"ref":"e5","verdict":"keep","why":"J spawned ~3345.3 locks at the right ~3345.45 with no flash (47819->47831 drops only); garbage rises 3345.52; T spawns ~3345.7 and makes the only TSD (flash 3346.05-3346.3, Double+BACK, +5405 at 3346.43). /tmp/claude-0/sg/corr/fr/v0/x023a.png"},
+ {"ref":"e6","verdict":"keep","why":"T rotates into the slot ~3362.75, one coloured (non-garbage) row flashes 3362.85-3363.1 with 'Single' + BACK banner; score 75703->79313 (+3610 = TSS B2B 3600 + drops). /tmp/claude-0/sg/corr/fr/v0/x023b.png"},
+ {"ref":"c0","verdict":"keep","why":"double 546.67, double 547.57, single 548.53 consecutive (no locks between in chain), banners REN then 2 REN; max_combo 2."},
+ {"ref":"c1","verdict":"keep","why":"Z locks ~1389.83-1389.87 before KO 1389.97 and is not in the chain; pieces 50->51."},
+ {"ref":"c2","verdict":"keep","why":"Recomputed from cseq with 3226.4 as double: longest difficult run is B2B 7."},
+ {"ref":"c3","verdict":"keep","why":"Recomputed from cseq with 3345.2 -> None and 3362.3 -> tss: longest difficult run is B2B 7."}
+]

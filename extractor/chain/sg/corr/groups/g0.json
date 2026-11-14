@@ -1,0 +1,74 @@
+[
+ {
+  "id": "x000",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1718 at 549.7 s (KO 549.47 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 549.7,
+  "n": 0
+ },
+ {
+  "id": "x001",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 587.17,
+  "n": 1
+ },
+ {
+  "id": "x001",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +95 at 587.43 s (KO 587.17 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 587.43,
+  "n": 2
+ },
+ {
+  "id": "x006",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.57 s before the KO)",
+  "t_s": 1351.07,
+  "n": 4
+ },
+ {
+  "id": "x007",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 1389.97,
+  "n": 5
+ },
+ {
+  "id": "x008",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1677.23 s, no A clear matched (added by R/build.py)",
+  "t_s": 1677.23,
+  "n": 6
+ },
+ {
+  "id": "x022",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (double) vs banner T-SPIN Single at 3226.4 s",
+  "t_s": 3226.4,
+  "n": 9
+ },
+ {
+  "id": "x023",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 3346.33 s, no A clear matched (added by R/build.py)",
+  "t_s": 3346.33,
+  "n": 11
+ },
+ {
+  "id": "x023",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 3362.3 s typed as a plain clear [tsb-hint-v1] one score jump +3610 at 3363.2 s: fits both or neither",
+  "t_s": 3362.3,
+  "n": 12
+ }
+]
