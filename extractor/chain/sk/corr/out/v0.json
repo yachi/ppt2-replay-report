@@ -1,0 +1,9 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 5715 (248.4) -> 6072 (250.30) -> 10872 at 250.47 (+4800 = TST), next clear only +300 at 252.4; one 3-row flash at 250.5 with 'T-SPIN Triple' banner, grey garbage rows untouched (fr/v0/e0.png). nextcount: Z 249.53, I 249.73 held at 250.0 -> T. One TST, no extra triple; gc 0 correct."},
+{"ref":"e1","verdict":"keep","why":"nextcount p1 937-946: spawns 938.10, 938.367, then none until 945.333; fr/v0/e1.png shows p1's orange L hovering 938.4-945 with score fixed at 470. No spawn/lock at 938.67."},
+{"ref":"e2","verdict":"keep","why":"Same nextcount: next p1 shift 945.333 (O held 945.4, T out = chain tst 945.33); nothing at 945.07; p1 score 470 unchanged until 945.37."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/e1.png 944.70 and 945.20: p2 PERFECT CLEAR with '2 REN' banner, so REN from the 937.27 double continued; BREAK at 938.33 spurious. p2 spawns 938.233, 944.667, 945.067 match chain locks."},
+{"ref":"e4","verdict":"keep","why":"fr/v0/e4.png: T locks 1196.9, 2 rows flash 1197.0 (one coloured row plus the bottom grey garbage row), banner 'T-SPIN Double' + REN; score 13057 -> 16825 (+3768 = TSD 3600 + REN 150 + drop). tsd, 2 lines, gc 1."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/e5.png: T locks top-left ~1467.95, 'T-SPIN' banner, top rows unchanged, score 37892 -> 38192 (+300, zero-line mini); no row cleared. The 1468.03 event is the O (nextcount spawn 1468.067), which locks ~1468.5 (next queue shifts at 1468.53, fr/v0/e5b.png) with no clear as garbage fills the board. Retype to null lock is right; piece count unchanged."},
+{"ref":"c0","verdict":"keep","why":"Follows e1/e2: nextcount shows no p1 spawns at 938.67 or 945.07, so two phantom locks; 104 -> 102."}
+]

@@ -28701,5 +28701,137 @@
    ]
   ],
   "source": "b1 frame check, verified: Slow motion as p1 (fr/g1/g.png). nextcount p2 spawns only 3307.07 (L held->S) and 3326.33 (I held->L) until 3347.80. Score REN unbroken: 13806 (3304.50 double REN0), +1706 by 3306.60 (single REN1 + double REN2), +750 (3325.67 REN3), +900 (3347.17 REN4), +1070 (3348.70 REN5) ... +2272 (3355.53 REN13). 3321.03 single is a phantom; BREAKs 3305.9, 3333.97, 3336.4, 3339.07 false (items 25,27)."
+ },
+ {
+  "id": "b003",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 249.53,
+  "t_end": 250.57,
+  "events": [
+   {
+    "t": 249.53,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 250.57,
+    "kind": "tst",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    249.53,
+    "tst",
+    3
+   ],
+   [
+    250.57,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b0 frame check, verified: fr/g0/i2a.png: Z spawned 249.53 locks ~249.8 at right with no clear; T (out of hold, I held 250.0) locks ~250.45, one 3-row flash 250.6 with 'T-SPIN Triple' banner, score 6072->10872 (+4800 = TST). Only one 3-line clear in 249.5-251.4, garbage rows untouched (gc 0). Chain had a tst AND a triple."
+ },
+ {
+  "id": "b010",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 938.67,
+  "source": "b0 frame check, verified: fr/g0/i45.png, i45b.png: during the 938.4-945.3 stall the only p1 piece is the L spawned 938.37 (nextcount shift 938.367), hovering until it locks ~944.3; no spawn at 938.67 (nextcount: next shift 945.333). Phantom spliced lock.",
+  "t_end": 938.67,
+  "events": [],
+  "was_old": [
+   [
+    938.67,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b010",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 945.07,
+  "source": "b0 frame check, verified: nextcount: after 938.37 next shift 945.333 (O, held 945.4, T out of hold = chain tst 945.33); no piece spawned/locked at 945.07 (fr/g0/i45b.png). Phantom spliced lock.",
+  "t_end": 945.07,
+  "events": [],
+  "was_old": [
+   [
+    945.07,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "b010",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 938.33,
+  "source": "b0 frame check, verified: fr/g0/i45.png/i45b.png: p2's I hovered 938.2-944.6 then cleared a single PERFECT CLEAR with a '2 REN' banner (944.7), so the REN from the 937.27 double was not broken; BREAK is spurious. Pieces (I 938.23, O 944.67, T 945.07) match nextcount spawns.",
+  "t_end": 938.33,
+  "events": [],
+  "was_old": [
+   [
+    938.33,
+    "BREAK",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "b013",
+  "side": "p1",
+  "op": "retype",
+  "t": 1196.23,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: fr/g0/i7.png, i7b.png: T from hold locks ~1197.0 into the bottom slot; 2-row flash 1197.1, banner 'T-SPIN Double' + REN; score 13057->16825 (+3768 = TSD 3600 + REN 150 + drop). Bottom grey garbage row is gone afterwards (gc 1)."
+ },
+ {
+  "id": "b015",
+  "side": "p2",
+  "op": "retype",
+  "t": 1468.03,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/i9.png, i9b.png: T (out of hold) locks ~1467.95 at top-left wall with a T-SPIN banner but no row clears (stack unchanged); score 37892->38192 (+300 = zero-line mini). The 1468.03 event is the O (spawn 1468.067) which locks with no clear before garbage tops p2 out (i9c.png). No 1-line mini."
+ },
+ {
+  "id": "b006",
+  "side": "p2",
+  "op": "retype",
+  "t": 558.0,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 1,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/a.png: 557.6-557.9 p2 board holds one bottom row (2 red cells left, flat I right) and the next piece is the cyan I; at 558.00 the board is empty and PERFECT CLEAR shows 558.1-559.2. Score p2 1672 -> 4710 (+3038) at 558.00, far above a 2-REN single (~600), consistent with a single-line PC. So the chain's single at 558.00 is a perfect clear."
  }
 ]

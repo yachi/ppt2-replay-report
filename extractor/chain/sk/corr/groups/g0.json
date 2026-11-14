@@ -1,0 +1,108 @@
+[
+ {
+  "id": "b001",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 101.77 s typed as a plain clear [tsb-hint-v1] score jumps near the clear: []; undecided",
+  "t_s": 101.77,
+  "n": 0
+ },
+ {
+  "id": "b001",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 149.1,
+  "n": 1
+ },
+ {
+  "id": "b003",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "b003",
+   "player": "p1",
+   "t0": 247.27,
+   "t1": 252.37,
+   "step": -1893,
+   "unexplained": -1893,
+   "near": [
+    [
+     246.77,
+     300,
+     "single"
+    ],
+    [
+     248.5,
+     300,
+     "single"
+    ],
+    [
+     249.53,
+     4950,
+     "tst"
+    ],
+    [
+     250.57,
+     1800,
+     "triple"
+    ],
+    [
+     252.07,
+     300,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 247.27,
+  "n": 2
+ },
+ {
+  "id": "b003",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 322.83 s typed as a plain clear [tsb-hint-v1] score jumps near the clear: []; undecided",
+  "t_s": 322.83,
+  "n": 3
+ },
+ {
+  "id": "b010",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.43 s from 938.23 s; B events spliced (D2/D3)",
+  "t_s": 938.23,
+  "n": 4
+ },
+ {
+  "id": "b010",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.97 s from 938.37 s; B events spliced (D2/D3)",
+  "t_s": 938.37,
+  "n": 5
+ },
+ {
+  "id": "b010",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 993.13,
+  "n": 6
+ },
+ {
+  "id": "b013",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tsmini) vs banner T-SPIN Double at 1196.23 s",
+  "t_s": 1196.23,
+  "n": 7
+ },
+ {
+  "id": "b015",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1468.0 s, no A clear matched (added by R/build.py)",
+  "t_s": 1468.0,
+  "n": 9
+ }
+]

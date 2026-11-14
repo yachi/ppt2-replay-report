@@ -1,0 +1,26 @@
+{"event_corrections":[
+ {"n":2,"id":"b003","side":"p1","op":"replace_window","t":249.53,"t_end":250.57,
+  "events":[{"t":249.53,"kind":null,"lines":0,"pc":0,"gc":0},{"t":250.57,"kind":"tst","lines":3,"pc":0,"gc":0}],
+  "was_old":[[249.53,"tst",3],[250.57,"triple",3]],
+  "source":"fr/g0/i2a.png: Z spawned 249.53 locks ~249.8 at right with no clear; T (out of hold, I held 250.0) locks ~250.45, one 3-row flash 250.6 with 'T-SPIN Triple' banner, score 6072->10872 (+4800 = TST). Only one 3-line clear in 249.5-251.4, garbage rows untouched (gc 0). Chain had a tst AND a triple."},
+ {"n":5,"id":"b010","side":"p1","op":"remove","t":938.67,"was":[null,0,0],
+  "source":"fr/g0/i45.png, i45b.png: during the 938.4-945.3 stall the only p1 piece is the L spawned 938.37 (nextcount shift 938.367), hovering until it locks ~944.3; no spawn at 938.67 (nextcount: next shift 945.333). Phantom spliced lock."},
+ {"n":5,"id":"b010","side":"p1","op":"remove","t":945.07,"was":[null,0,0],
+  "source":"nextcount: after 938.37 next shift 945.333 (O, held 945.4, T out of hold = chain tst 945.33); no piece spawned/locked at 945.07 (fr/g0/i45b.png). Phantom spliced lock."},
+ {"n":4,"id":"b010","side":"p2","op":"remove","t":938.33,"was":["BREAK",1,0],
+  "source":"fr/g0/i45.png/i45b.png: p2's I hovered 938.2-944.6 then cleared a single PERFECT CLEAR with a '2 REN' banner (944.7), so the REN from the 937.27 double was not broken; BREAK is spurious. Pieces (I 938.23, O 944.67, T 945.07) match nextcount spawns."},
+ {"n":7,"id":"b013","side":"p1","op":"retype","t":1196.23,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":1,
+  "source":"fr/g0/i7.png, i7b.png: T from hold locks ~1197.0 into the bottom slot; 2-row flash 1197.1, banner 'T-SPIN Double' + REN; score 13057->16825 (+3768 = TSD 3600 + REN 150 + drop). Bottom grey garbage row is gone afterwards (gc 1)."},
+ {"n":9,"id":"b015","side":"p2","op":"retype","t":1468.03,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"fr/g0/i9.png, i9b.png: T (out of hold) locks ~1467.95 at top-left wall with a T-SPIN banner but no row clears (stack unchanged); score 37892->38192 (+300 = zero-line mini). The 1468.03 event is the O (spawn 1468.067) which locks with no clear before garbage tops p2 out (i9c.png). No 1-line mini."}
+],
+"cell_edits":[
+ {"n":5,"id":"b010","player":"p1","field":"pieces","was":104,"value":102,
+  "source":"two phantom spliced locks (938.67, 945.07) removed; nextcount spawns 938.10, 938.37, 945.33 only; matches games.jsonl 102."}
+],
+"no_change":[
+ {"n":0,"why":"b001 p2 clear at 101.77 is a plain double: score 30748->31648 at 102.83 (+900), no TSD-sized jump."},
+ {"n":1,"why":"b001 p1: at KO 149.1 the T is still soft-dropping mid-air (fr/g0/i1.png), no lock by KO."},
+ {"n":3,"why":"b003 p2 322.83: score 103061->103665 (+604 = single in REN2), no T-spin banner visible (fr/g0/i3.png); TSS would be 2400+. Keep single."},
+ {"n":6,"why":"b010 p1: at KO 993.13 the T is still falling (fr/g0/i6.png), no lock by KO."}
+]}
