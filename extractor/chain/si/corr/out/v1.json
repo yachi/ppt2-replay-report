@@ -1,0 +1,97 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py p2: TSD +3612 at 2454.93 only; 2455.30 piece gives +26 (2455.63), no second TSD jump before the B2B tetris +3630 at 2456.10."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "p2 score REN steps unbroken: +2280 (2472.40 double REN9), +1800 (2479.70 REN10), +1984 (2483.87 REN11), +2134 (2484.63 REN12); no break."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "same score sequence as e1: no REN break at 2473.03."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "p2 only one clear (+1984 at 2483.87) between 2479.70 and 2484.63; chain REN counting 2462.87..2484.47 matches score only without 2480.43."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "p1 score 33634 flat 2473.23-2484.37, then +1350 (REN7) at 2484.40 directly after +1200 (REN6) at 2473.23: 2481.33 single is phantom."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "fr/v1/z030.png: S lock streak and +30 drop points on frame 2951.33 = KO frame; nextcount spawn 2951.20; no clear."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "p1 score after TST 3131.67: +3750 TSS REN1, +1228 REN2, +1378 REN3, +934 REN4, +1083 REN5, +1232 REN6 (3139.13), +1386 REN7 (~3140.17): one more clear than the chain has, the 3139.4 piece."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "nextcount p1 3305-3350: spawns only 3305.77, 3306.70, 3320.67, 3331.77, 3344.40, 3349.57; score clears REN5 3320.03, REN6 3331.13, REN7 3343.77, REN8 3348.83 unbroken."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "nextcount p2: spawns 3306.10, 3307.07, 3326.33 then 3347.80; score +750 (3325.67 REN3), +900 (3347.17 REN4), REN continues to +2272 REN13 at 3355.53; 3321.03 phantom, BREAKs false."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "follows e3 (one duplicate single removed)."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "score REN steps reach REN12 (+2134 at 2484.63); extractor A also 12."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "follows e4."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "score REN run ends at +2400 (2491.50) = single REN14; extractor A also 14."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "follows e5 (fr/v1/z030.png)."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "REN7 at the 3139.4 clear (+1386), see e6."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "4 phantom singles removed; spawn count confirms (e7)."
+ },
+ {
+  "ref": "c7",
+  "verdict": "keep",
+  "why": "score REN steps REN3 3305.50 through REN14 +2400 at 3356.10; extractor A 14."
+ },
+ {
+  "ref": "c8",
+  "verdict": "keep",
+  "why": "3321.03 phantom, no spawn there (e8)."
+ },
+ {
+  "ref": "c9",
+  "verdict": "keep",
+  "why": "score REN0 3304.50 double through REN13 +2272 at 3355.53; extractor A 13."
+ }
+]
