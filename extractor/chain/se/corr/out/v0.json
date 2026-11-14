@@ -1,0 +1,5 @@
+[
+ {"ref":"e0","verdict":"keep","why":"nextcount p2: T spawns 222.73, J spawns 224.00 (queue TJOSI>JOSIZ). score.py: p2 431->5239 (TST) reads by 223.63 for the 222.73 T; then only drop points 5239->5335 until 225.87. The 224.00 piece is a J that cleared nothing; retype to plain lock (piece count unchanged) is right."},
+ {"ref":"e1","verdict":"keep","why":"nextcount p2: T spawns 225.97 (TLJIO>LJIOS), L spawns 227.17. score.py: p2 5335->10741 (+5406, B2B TSD) by 226.80 for the T; 10741->10749 only drop points until the 228.0 single (+300 at 228.10). The 227.17 L cleared nothing; retype to plain lock is right."},
+ {"ref":"e2","verdict":"keep","why":"nextcount p2: S spawns 292.13, J spawns 292.47, T spawns 293.40 and is held at 293.63; the 294.17 TSD is the T from hold. score.py: p2 36596->36946 (+350 = single + drops) between 291.77 and 293.50, not a TSS; next TSD +3600 non-B2B consistent. Plain single with gc 1 (gc unchanged from chain)."}
+]
