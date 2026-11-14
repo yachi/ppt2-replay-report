@@ -1,0 +1,157 @@
+[
+ {
+  "id": "e000",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tsmini) vs banner T-SPIN Double at 23.3 s",
+  "t_s": 23.3,
+  "n": 0
+ },
+ {
+  "id": "e001",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Single banner at 60.47 s, no A clear matched (added by R/build.py)",
+  "t_s": 60.47,
+  "n": 1
+ },
+ {
+  "id": "e001",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 80.17 s typed as a plain clear [tsb-hint-v1] one score jump +1228 at 80.5 s: fits both or neither",
+  "t_s": 80.17,
+  "n": 2
+ },
+ {
+  "id": "e001",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +78 at 104.94 s (KO 104.7 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 104.94,
+  "n": 3
+ },
+ {
+  "id": "e002",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Double at 135.8 s",
+  "t_s": 135.8,
+  "n": 4
+ },
+ {
+  "id": "e003",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 174.13,
+  "n": 5
+ },
+ {
+  "id": "e004",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "3 of 13 bags not a permutation (spawn index [70, 77, 84]); anomalies ['double shift k=2 at frame 609', 'double shift k=2 at frame 881', 'double shift k=3 at frame 1057', 'queue I re-read at frame 1063: slot 1 I->J']",
+  "t_s": 183.47,
+  "n": 6
+ },
+ {
+  "id": "e004",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 225.3,
+  "n": 7
+ },
+ {
+  "id": "e005",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 288.3 s, no A clear matched (added by R/build.py)",
+  "t_s": 288.3,
+  "n": 8
+ },
+ {
+  "id": "e006",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Triple at 333.13 s",
+  "t_s": 333.13,
+  "n": 9
+ },
+ {
+  "id": "e007",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Double at 28.83 s",
+  "t_s": 28.83,
+  "n": 10
+ },
+ {
+  "id": "e007",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 33.17 s",
+  "t_s": 33.17,
+  "n": 11
+ },
+ {
+  "id": "e007",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Double at 45.97 s",
+  "t_s": 45.97,
+  "n": 12
+ },
+ {
+  "id": "e007",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 48.6 s",
+  "t_s": 48.6,
+  "n": 13
+ },
+ {
+  "id": "e007",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "e007",
+   "player": "p2",
+   "t0": 50.1,
+   "t1": 53.1,
+   "step": -3750,
+   "unexplained": -3750,
+   "near": [
+    [
+     50.23,
+     3750,
+     "quad"
+    ],
+    [
+     52.27,
+     5400,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 50.1,
+  "n": 14
+ },
+ {
+  "id": "e007",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 103.17 s",
+  "t_s": 103.17,
+  "n": 15
+ },
+ {
+  "id": "e008",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Double at 121.67 s",
+  "t_s": 121.67,
+  "n": 16
+ }
+]

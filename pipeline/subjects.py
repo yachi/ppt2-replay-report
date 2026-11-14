@@ -217,6 +217,12 @@ SYAKEGOHAN = Subject(
                              "d009、d046 有一段慢動作，抽取器喺嗰度砌咗幻影清行同假 REN 中斷，已經刪走。改咗 53 個事件、9 格（粒數同最長 back-to-back）。"
                              "用 NEXT 隊列重數全部 108 個玩家局嘅粒數，86 個同表一樣，9 個差一粒，10 個係 NEXT 隊列讀唔清嘅局，"
                              "3 個差多過一粒（d009 兩邊各 3 粒、d018 嘅 syakegohan 4 粒，都喺慢動作或者賽點畫面停頓嗰段），冇跟住改。</li>",
+        "upload-2025-12-22": "<li><strong>2025-12-22 上載，對 あてん（5先あきぬけ，三條片，リプレイVer 4.0 盤面大咗少少，縮細咗先讀；syakegohan 喺右邊）。</strong>"
+                             "合共 17 局，syakegohan 15-2，三組 5–2、5–0、5–0，勝負全部同畫面 WIN 計數對過。"
+                             "PERFECT CLEAR 字幕 2 個確認，其餘閃光用盤面格數查過，交俾讀者睇片。"
+                             "抽取器標記嘅可疑位同分數對唔上嘅位，5 個自動判定冇改，其餘由三個讀者逐格睇片改正，"
+                             "再由另外三個讀者逐個反駁核實（冇剔走提議，改咗 1 個）。改咗 25 個事件、3 格粒數（兩個 KO 嗰粒、e004 あてん 兩粒幻影）。"
+                             "用 NEXT 隊列重數全部 34 個玩家局嘅粒數，23 個同表一樣，2 個差一粒（KO 嗰粒），9 個係 NEXT 隊列讀唔清嘅局，冇跟住改。</li>",
     },
     # chain trees Y (YbMeCRhjG1k) and B (every other video of these datasets) carry no R/pcscan.py;
     # cVO, lg, TJc, uP, ach, r6 and both amemiya runs and xo do

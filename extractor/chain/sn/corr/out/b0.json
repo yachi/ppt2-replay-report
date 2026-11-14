@@ -1,0 +1,24 @@
+{"event_corrections":[
+{"n":0,"id":"e000","side":"p2","op":"retype","t":23.30,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"score.py ewFgsvZkuII 21-26: p2 score 5334->10734 at 23.73 (+5400 = B2B TSD after the TST +4800 at 22.43); next clear 24.7 gives +5550 (B2B TSD + REN). Banner T-SPIN Double agrees."},
+{"n":4,"id":"e002","side":"p1","op":"retype","t":135.80,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"score.py ewFgsvZkuII 134-138: p1 26328->31728 at 136.40 (+5400 = B2B TSD after the quad at 133.57); banner T-SPIN Double."},
+{"n":10,"id":"e007","side":"p1","op":"retype","t":28.83,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"score.py jeH2N-kjDUw 27-35: p1 14744->20144 at 29.30 (+5400 = B2B TSD); banner T-SPIN Double."},
+{"n":11,"id":"e007","side":"p1","op":"retype","t":33.17,"was":["tst",4,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"score.py: p1 20351->25751 at 33.80 (+5400 = B2B TSD, not a quad/TST); corr/fr/g0/i11.png 33.77: two white stack rows above the grey garbage cleared, 'Double / BACK to BACK' banner."},
+{"n":12,"id":"e007","side":"p2","op":"retype","t":45.97,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"score.py jeH2N-kjDUw 42.5-54: p2 46425->51825 at 46.60 (+5400 = B2B TSD); banner T-SPIN Double."},
+{"n":13,"id":"e007","side":"p2","op":"retype","t":48.60,"was":["tst",4,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"corr/fr/g0/i13.png: T spawned 48.66, locks ~49.1, two white stack rows above the garbage at 49.22 with Double/BACK to BACK banner; score 51943->57343 at 49.17 (+5400 B2B TSD). The 3 garbage rows belong to the next I's quad (see the 50.23 fix)."},
+{"n":14,"id":"e007","side":"p2","op":"retype","t":50.23,"was":["quad",4,0],"kind":"quad","lines":4,"pc":0,"gc":3,"source":"corr/fr/g0/i13.png: I dropped into the garbage-hole column at 50.00, white block at 50.11 is the bottom stack row plus 3 garbage rows; score 57373->61123 at 50.10 (+3750 = B2B tetris +REN). With 48.6 retyped to tsd 2 the score spot's -3750 is explained (TSD 5400 @49.17, quad 3750 @50.10, TSD 5400 @53.10)."},
+{"n":16,"id":"e008","side":"p2","op":"retype","t":121.67,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"corr/fr/g0/i16b.png: two white stack rows (above the garbage) at 122.65, 'Double' banner; score ~2165 before -> 5765 after (+3600 = TSD, no B2B after the 118.73 triple; intermediate 52xx/54xx reads are misreads)."},
+{"n":6,"id":"e004","side":"p1","op":"replace_window","t":216.10,"t_end":216.43,"events":[{"t":216.10,"kind":"double","lines":2,"pc":0,"gc":0},{"t":216.43,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[216.10,null,0],[216.43,null,0],[216.43,null,0],[216.43,"double",2]],"source":"corr/fr/g0/i6a.png, i6b.png: NEXT queue fronts show exactly one spawn each for O 215.5, Z 215.75, L 216.1, I 216.45, J 217.2, T 217.43 (hold unchanged S); the L locked at 216.43 (+16) and cleared a double (+900 at 216.50). The chain has three events at 216.43 where only the I spawned: two phantom locks. gc 0: the cleared rows are stack rows above the garbage."}
+],
+"cell_edits":[
+{"n":5,"id":"e003","player":"p2","field":"pieces","was":46,"value":47,"source":"corr/fr/g0/i5.png: O swapped into hold at 173.96, I came out of hold and hard-dropped, locking on the KO frame 174.13 (score 28336->28370, lock flash), no clear; やった appears 174.20. Chain's last event 173.73 is the previous piece."},
+{"n":7,"id":"e004","player":"p2","field":"pieces","was":81,"value":82,"source":"corr/fr/g0/i7.png: S locked 224.93 (+26); J spawned ~225.03 and was swapped into hold, L came out and locked at 225.30 = KO frame (score 71572->71600, piece flush on the stack), no clear. Chain's last event 224.87 is the S."},
+{"n":6,"id":"e004","player":"p1","field":"pieces","was":85,"value":83,"source":"two phantom locks at 216.43 (see the e004 p1 replace_window); spawns 217.4-220.9 checked against the NEXT queue (corr/fr/g0/i6c.png) and match the chain. Rest of the game not re-counted."}
+],
+"no_change":[
+{"n":1,"why":"Banner at 60.47 is the chain's tss at 61.17 (same clear; score +2400 at 60.53 = plain TSS, only one T-spin jump in 59-62.5). Chain t is logged after the clear delay."},
+{"n":2,"why":"REN chain: +1524 double, +1074 single, +1228 single at 80.53 -> REN bonus grows ~150/step (624, 774, 928) only if 80.17 is a plain single; as a Mini it would break the pattern. Keep single."},
+{"n":3,"why":"+78 at 104.94 is drop points after the KO frame 104.7; no clear."},
+{"n":8,"why":"T-SPIN Double banner at 288.3 is the chain's tsd at 287.8 (score +5400 at 288.37)."},
+{"n":9,"why":"corr/fr/g0/i9.png: one white row at 334.2 with 'Single / BACK to BACK' banner; score 27704->31312 (+3608 = B2B TSS). Chain tss correct; TST banner read was wrong."},
+{"n":15,"why":"corr/fr/g0/i15.png: three white rows at 103.78 and 'Triple' banner at 103.90; score +4800 at 103.80 = TST. Chain tst correct."}
+]}

@@ -1,0 +1,15 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py ewFgsvZkuII: p2 +4800 at 22.43 (TST) then +5400 at 23.73 (B2B TSD) and +5550 at 25.00; matches the T-SPIN Double banner."},
+{"ref":"e1","verdict":"keep","why":"score.py: p1 +3600 at 133.87 (B2B tetris) then +5400 at 136.40 = B2B TSD, not a TSS (would be 3600)."},
+{"ref":"e2","verdict":"keep","why":"score.py jeH2N-kjDUw: p1 14744->20144 at 29.30, +5400 = B2B TSD."},
+{"ref":"e3","verdict":"keep","why":"score.py: p1 20351->25751 at 33.80, +5400 = B2B TSD; a B2B TST would be 7200, quad 3600."},
+{"ref":"e4","verdict":"keep","why":"score.py: p2 46425->51825 at 46.60, +5400 = B2B TSD."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/a.png: two white stack rows at 49.20 with Double/BACK banner, garbage untouched; score +5400 at 49.17."},
+{"ref":"e6","verdict":"keep","why":"fr/v0/a.png: I into the right-column garbage hole, white block at 50.10 is the bottom stack row plus 3 garbage rows (garbage band shrinks from ~6 to ~2 rows); +3750 at 50.10 = B2B tetris + 1 REN."},
+{"ref":"e7","verdict":"keep","why":"fr/v0/b.png: S held, T out of hold at 122.2, two white rows + Double banner at 122.70; score 2152(+drops) -> 5765 at 123.03 = +3600 plain TSD (52xx-54xx reads in between are overlay/flash misreads)."},
+{"ref":"e8","verdict":"keep","why":"fr/v0/c.png: L spawns 216.1, locks ~216.43, two stack rows (above garbage) white at 216.5, score +900 at 216.50; NEXT queue shows I spawning ~216.4 and J only at ~217.3, so the two extra 216.43 events are phantoms; was_old matches cseq exactly."},
+{"ref":"c0","verdict":"keep","why":"fr/v0/d.png: T locks 173.90 (chain's 173.73 event); O spawns, swapped into hold at 173.97, I from hold drops and is locked in the right column at 174.13 = KO frame (score 28336->28370), no clear; やった at 174.20."},
+{"ref":"c1","verdict":"keep","why":"fr/v0/e.png: S locks 224.93 (chain 224.87); J spawns 225.06, swapped to hold 225.13, L locks at 225.30 = KO frame (71572->71600), no clear."},
+{"ref":"c2","verdict":"keep","why":"Follows from e8: two phantom locks at 216.43 removed (85->83); spawns O/Z/L/I/J/T confirmed in fr/v0/c.png. Rest of game not re-counted by either reader."},
+{"ref":"n1","verdict":"note","why":"No change confirmed: TSS visible at 60.5 (fr/v0/f.png, Single banner), +2400 at 60.53. score.py's 27399/30983 at 61.0-62.4 are reads of the stream overlay covering the score; after it, 26078 at 62.87 = 22399 + B2B tetris 3600 + drops, consistent with the chain's quad at 62.27."}
+]

@@ -1,0 +1,7 @@
+[
+{"ref":"e0","verdict":"keep","why":"Confirmed: p1's one remaining row is all piece colours (blue/green/red/orange, no grey garbage); the I lands ~70.40, clear flash 70.48, empty board and PERFECT CLEAR + 1 REN banner from 70.56; score 11846->14732 at 70.57 (+2886 = single 300 + PC 2400 + REN 150 + drops). gc 0 is right. fr/v2/e013b.png"},
+{"ref":"e1","verdict":"keep","why":"Confirmed: p2's score rises only by drop points 10728->10766->10802 between 69.53 and 69.90; the piece placed there is a real lock with no clear (board still 3 rows at 69.81-69.90). One triple was double-logged. fr/v2/e013b.png"},
+{"ref":"e2","verdict":"amend","why":"Triple PC confirmed (3-row flash 69.96, empty board, PERFECT CLEAR banner from 69.98; score 10802->17702 = +6900 = triple 1500 + triple PC 5400). The three cleared rows at 69.81-69.90 are all piece colours, no grey garbage, so gc is 0, not the chain's 1. fr/v2/e013b.png","amended":{"gc":0}},
+{"ref":"e3","verdict":"keep","why":"Confirmed: the L locks vertical ~116.97, 2-row flash 117.03, empty board, PERFECT CLEAR banner; score 1109->5909 (+4800 = double 900 + double PC 3600 + 2 REN 300). Cleared rows are all piece colours, so gc 0 (the chain's value) is right. fr/v2/e014b.png"},
+{"ref":"e4","verdict":"keep","why":"Confirmed phantom: HOLD shows J at 117.10 and S at 117.17 (the S was swapped for the held J); the J lands on the empty board ~117.30-117.37 and the score rises by drop points only (5910->5947). The event stays as a lock (the J), with no clear. fr/v2/e014b.png"}
+]
