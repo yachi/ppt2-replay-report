@@ -14,3 +14,7 @@ jobs:
         run: python3 bin/build-docs --check
       - name: the extractor archive still parses
         run: python3 -m compileall -q extractor pipeline
+      - name: banscan-rs is bit-identical to the numpy banner scan
+        run: |
+          python3 -m pip install --quiet --break-system-packages numpy
+          python3 extractor/banscan-rs/check.py
