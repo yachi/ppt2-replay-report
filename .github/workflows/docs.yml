@@ -16,5 +16,7 @@ jobs:
         run: python3 -m compileall -q extractor pipeline
       - name: banscan-rs is bit-identical to the numpy banner scan
         run: |
-          python3 -m pip install --quiet --break-system-packages numpy
+          python3 -m pip install --quiet --break-system-packages numpy scipy
           python3 extractor/banscan-rs/check.py
+      - name: nextcount-fast reads every frame as the chain's nextcount.py does
+        run: python3 extractor/nextcount-fast/check.py
