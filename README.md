@@ -23,6 +23,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 | `docs/` | the GitHub Pages site |
 | `extractor/` | the extraction chain, archived as it ran. Read `extractor/README.md` first |
 | `extractor/amemiya/` | the amemiya chain, archived as it ran, with its frame-check and score-reader tools; `h3F/` is its run on the second stream |
+| `extractor/autosettle/` | settles frame-check items the score OCR already decides (KO piece with an unchanged score), before the checkers run |
 | `HISTORY.md` | the commit log of this report from its first home, tetrio-replay-report |
 
 ## Commands
