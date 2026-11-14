@@ -1,0 +1,24 @@
+{"event_corrections":[
+ {"n":3,"id":"t003","side":"p1","op":"retype","t":1045.9,"was":["tst",3,0],"kind":"triple","lines":3,"gc":1,
+  "source":"fr/g0/t003a.png, fr/g0/t003b.png: I spawns 1045.9 and is held, J comes out and clears 3 rows at 1046.10 (grey garbage row + 2 coloured rows; one grey row with its hole remains after). Score 23722->25256 = +1500 = plain triple, not a TST (would be >=4800). Banner on screen is the lingering TETRIS from 1044.8; no T-SPIN banner."},
+ {"n":7,"id":"t006","side":"p1","op":"add","t":2984.17,"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"fr/g0/t006a.png: after the quad (flash 2983.6-2983.8, score 83155) an I spawns ~2984.17, locks ~2984.27 (+22 drop), and the row above the garbage flashes white at 2984.37 with '2 REN' shown; score 83177->83777 = +600 = single 300 + REN 2 x150. Clear is before KO 2984.47. Cleared row is a coloured row (garbage rows remain)."},
+ {"n":10,"id":"t013","side":"p1","op":"retype","t":3391.0,"was":["tss",1,0],"kind":"tsd","lines":2,"gc":0,
+  "source":"fr/g0/t013.png: T spawned 3391.0, spun into slot ~3391.6, two rows clear ~3391.7 with 'T-SPIN Double', BACK to BACK and REN shown. Score 11364 -> 16932 (intermediate digits misread) = +5568 = TSD 3600x1.5 + REN 150 + drops. Cleared rows are piece rows, no grey garbage."}
+],
+"cell_edits":[
+ {"n":8,"id":"t006","player":"p1","field":"pieces","was":150,"value":151,
+  "source":"fr/g0/t006a.png: the I that spawned ~2984.17 locked ~2984.27 and cleared a single before the KO frame 2984.47 (score +22 then +600); chain had no event for it."}
+],
+"no_change":[
+ {"n":0,"why":"fr/g0/t000a.png, t000b.png: PERFECT CLEAR is real (board empty, banner). Score 35690->37190 (+1500 plain triple) ->42590 (+5400 = triple-PC bonus 1800x3). Not a TST; chain 'triple' pc=1 is right."},
+ {"n":1,"why":"fr/g0/t000a.png: the +72 at 975.23 is two hard drops (T +33 at ~975.03 under the PC flash, Z +38 at 975.23), no clear. Event list lacks those two locks (spawns 974.88 T, 975.16 Z) but the pieces cell (61) already exceeds the 59 events by 2, so no edit."},
+ {"n":2,"why":"fr/g0/t001.png: +5634 at 995.33 is the chain's TSD (spawn 994.43; TSD + BACK to BACK banner ~995.0, score lands 995.33: 3600x1.5 + drops). Then single at 996.10 (+300) = chain 996.0 single. Nothing missed."},
+ {"n":4,"why":"fr/g0/t003c.png, t003d.png: p2 board starts tilting at 1053.73; p1's J locks (score 40098->40130) on the next frame 1053.77, after the KO frame. Not counted."},
+ {"n":5,"why":"+99 at 1088.07 is after KO 1087.8; post-KO drops do not count."},
+ {"n":6,"why":"Score 32331->39531 at 2946.13 = +7200 = TST x1.5 B2B; chain tst correct, banner reading wrong/lingering."},
+ {"n":9,"why":"fr/g0/t010.png: last T is still falling (score +1 per frame soft drop) through the KO tilt at 3320.17; it never locks before KO."},
+ {"n":11,"why":"Score 31448->38648 at 3437.90 = +7200 = TST x1.5 B2B; chain tst correct. TSS banner belongs to the following tss (3438.77)."},
+ {"n":12,"why":"fr/g0/t014.png: last T spawned ~3462.80 and is mid-air at KO 3462.87; no lock."},
+ {"n":13,"why":"Score 25962->33162 at 3922.73 = +7200 = TST x1.5 B2B; chain event at 3922.13 is already tst, which is correct."}
+]}

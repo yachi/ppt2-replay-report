@@ -164,3 +164,6 @@ s060,p2,pieces,127,128,"b2 frame check, verified: T locked at 4243.00 before KO 
 s068,p1,pieces,63,64,"b2 frame check, verified: Z spawned 4683.10 locked with a single at ~4683.23, before KO 4683.37 (corr/fr/g2/s068.png); chain had no event for it."
 s075,p2,pieces,143,141,"b2 frame check, verified: two phantom locks at 5123.20 and 5128.60 in the gap window (no spawn shift, score constant 513; corr/fr/g2/s075a.png)."
 s075,p1,pieces,142,141,"v2 skeptic, missed by b2: phantom lock at 5122.83 removed; no NEXT shift 5122.567-5131.933, score flat"
+t006,p1,pieces,150,151,"b0 frame check, verified: fr/g0/t006a.png: the I that spawned ~2984.17 locked ~2984.27 and cleared a single before the KO frame 2984.47 (score +22 then +600); chain had no event for it."
+t021,p2,pieces,125,124,"b1 frame check, verified: fr/g1/s20.png, s20b.png, s20c.png: phantom lock at 4462.4 (see event removal); O locks 4466.05, I never locks before KO"
+t033,p1,pieces,60,61,"b1 frame check, verified: fr/g1/s28.png: S locks ~10310.50 before KO 10310.57"

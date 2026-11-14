@@ -1,0 +1,152 @@
+{
+ "event_corrections": [
+  {
+   "n": 14,
+   "id": "t017",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 4105.1,
+   "t_end": 4105.43,
+   "events": [
+    {
+     "t": 4105.1,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 4105.43,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     4105.1,
+     "tsd",
+     2
+    ],
+    [
+     4105.43,
+     "tsmini",
+     2
+    ]
+   ],
+   "source": "fr/g1/s14a.png, c14.png: T spawned 4105.1 locks top-right ~4105.27 with no row cleared (T-SPIN banner, score 15816->16127 = +311, zero-line mini spin + drops); second T (out of hold) locks left ~4105.77, two rows flash, T-SPIN Double banner, score 16127->19727 = +3600 at 4105.93. Only one clear (TSD), not tsd+2-line mini."
+  },
+  {
+   "n": 20,
+   "id": "t021",
+   "side": "p2",
+   "op": "remove",
+   "t": 4462.4,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "fr/g1/s20.png, s20b.png, s20c.png: after Z lock ~4461.96 the O spawns ~4462.0, hovers until it locks at 4466.05 with a single (score 87959->88259); the next piece (I) spawns ~4466.6 as garbage rises and never locks before KO 4467.3. No lock exists for the 4462.4 event."
+  },
+  {
+   "n": 25,
+   "id": "t027",
+   "side": "p2",
+   "op": "retype",
+   "t": 9999.8,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "fr/g1/s25.png, q25.png: T-spin clear ~10000.25, two-row flash band at top, banner 'T-SPIN Double', score 67538->71138 = +3600; no B2B possible (single at 9996.0 broke it), so TSD not TSS."
+  },
+  {
+   "n": 28,
+   "id": "t033",
+   "side": "p1",
+   "op": "add",
+   "t": 10310.43,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/s28.png: S spawns ~10310.45, locked by 10310.50 (<= KO 10310.57), row flashes 10310.55; score 38415->39785 (+1370 = single + 7 REN) shows at 10310.93 after the clear animation, '7 REN' banner. Chain's last event is the 10309.7 single."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 20,
+   "id": "t021",
+   "player": "p2",
+   "field": "pieces",
+   "was": 125,
+   "value": 124,
+   "source": "fr/g1/s20.png, s20b.png, s20c.png: phantom lock at 4462.4 (see event removal); O locks 4466.05, I never locks before KO"
+  },
+  {
+   "n": 28,
+   "id": "t033",
+   "player": "p1",
+   "field": "pieces",
+   "was": 60,
+   "value": 61,
+   "source": "fr/g1/s28.png: S locks ~10310.50 before KO 10310.57"
+  },
+  {
+   "n": 28,
+   "id": "t033",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 6,
+   "value": 7,
+   "source": "fr/g1/s28.png: '7 REN' banner and +1370 score (300+7x150+drops) for the S single at KO"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 16,
+   "why": "fr/g1/s16.png: banner reads 'Triple', score 470->5270 = +4800 TST; chain tst correct"
+  },
+  {
+   "n": 17,
+   "why": "fr/g1/s17.png: one row cleared ~4327.1, banner 'Single', score 67540->69962 = +2422 = TSS; chain tss correct"
+  },
+  {
+   "n": 18,
+   "why": "fr/g1/s18.png: last L still in the air at 4386.00 (KO), locks 4386.03, one frame after KO; not counted"
+  },
+  {
+   "n": 19,
+   "why": "chain already has a plain single at 4430.73; +466 = single + REN1 + drops, next single +616 (REN2); consistent"
+  },
+  {
+   "n": 21,
+   "why": "the +310 at 4466.0 is the O single (locked 4466.05), already in chain as 'single' at its spawn time 4461.93; fixed piece count under item 20"
+  },
+  {
+   "n": 22,
+   "why": "fr/g1/k22.png: J in the air at 9788.50 (KO), locked at 9788.533, one frame after KO; not counted"
+  },
+  {
+   "n": 23,
+   "why": "fr/g1/s23.png: T still soft-dropping in mid-air at KO 9828.13 and after; never locks"
+  },
+  {
+   "n": 24,
+   "why": "score 52765->59965 at 9917.23 = +7200 = TST x1.5 B2B; TSS (even B2B, 3600) does not fit; chain tst correct"
+  },
+  {
+   "n": 26,
+   "why": "score 111905->119105 at 10023.50 = +7200 = TST x1.5 B2B (after tsd 10018.23); chain tst correct"
+  },
+  {
+   "n": 27,
+   "why": "fr/g1/s27.png: +81 is drop points of the last locks; last Z (from hold swap after I spawn 10179.43) locks ~10179.60 <= KO, already a chain lock; no clear"
+  }
+ ]
+}

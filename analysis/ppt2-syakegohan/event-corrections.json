@@ -26659,5 +26659,251 @@
     0
    ]
   ]
+ },
+ {
+  "id": "t003",
+  "side": "p1",
+  "op": "retype",
+  "t": 1045.9,
+  "was": [
+   "tst",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "gc": 1,
+  "source": "b0 frame check, verified: fr/g0/t003a.png, fr/g0/t003b.png: I spawns 1045.9 and is held, J comes out and clears 3 rows at 1046.10 (grey garbage row + 2 coloured rows; one grey row with its hole remains after). Score 23722->25256 = +1500 = plain triple, not a TST (would be >=4800). Banner on screen is the lingering TETRIS from 1044.8; no T-SPIN banner."
+ },
+ {
+  "id": "t006",
+  "side": "p1",
+  "op": "add",
+  "t": 2984.17,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/t006a.png: after the quad (flash 2983.6-2983.8, score 83155) an I spawns ~2984.17, locks ~2984.27 (+22 drop), and the row above the garbage flashes white at 2984.37 with '2 REN' shown; score 83177->83777 = +600 = single 300 + REN 2 x150. Clear is before KO 2984.47. Cleared row is a coloured row (garbage rows remain)."
+ },
+ {
+  "id": "t013",
+  "side": "p1",
+  "op": "retype",
+  "t": 3391.0,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/t013.png: T spawned 3391.0, spun into slot ~3391.6, two rows clear ~3391.7 with 'T-SPIN Double', BACK to BACK and REN shown. Score 11364 -> 16932 (intermediate digits misread) = +5568 = TSD 3600x1.5 + REN 150 + drops. Cleared rows are piece rows, no grey garbage."
+ },
+ {
+  "id": "t017",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4105.1,
+  "t_end": 4105.43,
+  "events": [
+   {
+    "t": 4105.1,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4105.43,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    4105.1,
+    "tsd",
+    2
+   ],
+   [
+    4105.43,
+    "tsmini",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: fr/g1/s14a.png, c14.png: T spawned 4105.1 locks top-right ~4105.27 with no row cleared (T-SPIN banner, score 15816->16127 = +311, zero-line mini spin + drops); second T (out of hold) locks left ~4105.77, two rows flash, T-SPIN Double banner, score 16127->19727 = +3600 at 4105.93. Only one clear (TSD), not tsd+2-line mini."
+ },
+ {
+  "id": "t021",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 4462.4,
+  "source": "b1 frame check, verified: fr/g1/s20.png, s20b.png, s20c.png: after Z lock ~4461.96 the O spawns ~4462.0, hovers until it locks at 4466.05 with a single (score 87959->88259); the next piece (I) spawns ~4466.6 as garbage rises and never locks before KO 4467.3. No lock exists for the 4462.4 event.",
+  "t_end": 4462.4,
+  "events": [],
+  "was_old": [
+   [
+    4462.4,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "t027",
+  "side": "p2",
+  "op": "retype",
+  "t": 9999.8,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b1 frame check, verified: fr/g1/s25.png, q25.png: T-spin clear ~10000.25, two-row flash band at top, banner 'T-SPIN Double', score 67538->71138 = +3600; no B2B possible (single at 9996.0 broke it), so TSD not TSS."
+ },
+ {
+  "id": "t033",
+  "side": "p1",
+  "op": "add",
+  "t": 10310.43,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/s28.png: S spawns ~10310.45, locked by 10310.50 (<= KO 10310.57), row flashes 10310.55; score 38415->39785 (+1370 = single + 7 REN) shows at 10310.93 after the clear animation, '7 REN' banner. Chain's last event is the 10309.7 single."
+ },
+ {
+  "id": "t000",
+  "side": "p1",
+  "op": "retype",
+  "t": 964.67,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t000b.png, t000.png: L spawns 964.70, stands vertical at col 9 and clears the last 2 rows at ~964.9; board empty, PERFECT CLEAR banner from 965.00; score 20926->25576 at 964.93 (+4650). Only clear between the single at 963.93 (+300) and 965.4."
+ },
+ {
+  "id": "t000",
+  "side": "p1",
+  "op": "retype",
+  "t": 965.0,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t000.png: the O spawned 965.00 onto the empty post-PC board and locked with no clear (score only drop points 25576->25578 and banner noise); no garbage on p1 board. Phantom duplicate of the PC double; kept as a plain lock."
+ },
+ {
+  "id": "t006",
+  "side": "p1",
+  "op": "retype",
+  "t": 2928.17,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t006.png: after the double at 2927.43 one row of 5 cells remained; I spawns 2928.20, lies flat and clears it at ~2928.35, board empty, PERFECT CLEAR banner 2928.40; score 11852->14740 (+2888)."
+ },
+ {
+  "id": "t006",
+  "side": "p1",
+  "op": "retype",
+  "t": 2928.43,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t006.png: the L spawned 2928.50 on the empty board, locked at the right wall 2928.6 with no clear (score +36 drop points 14741->14777). Phantom duplicate of the PC single."
+ },
+ {
+  "id": "t019",
+  "side": "p1",
+  "op": "retype",
+  "t": 4255.23,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t019.png: 3-row stack at 4255.1; J dropped vertical col 6 at ~4255.65 clears all 3 rows, board empty, PERFECT CLEAR banner 4255.80; score 95456->102506 at 4255.70 (+7050). No grey garbage in the cleared rows."
+ },
+ {
+  "id": "t019",
+  "side": "p1",
+  "op": "retype",
+  "t": 4255.77,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t019.png: after the PC, L goes to hold and J comes out, locks bottom-left ~4256.0 on the empty board with no clear (score +37 drop points); no second clear until after 4257. Phantom duplicate of the PC triple."
+ },
+ {
+  "id": "t030",
+  "side": "p2",
+  "op": "retype",
+  "t": 10155.1,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t030.png: p2 3-row stack (no garbage) at 10155.1; J fills the left gap and clears all 3 rows ~10155.17, board empty, PERFECT CLEAR banner over p2 board 10155.30; p2 score 10976->17876 at 10155.20 (+6900)."
+ },
+ {
+  "id": "t030",
+  "side": "p2",
+  "op": "retype",
+  "t": 10155.27,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/t030.png: next p2 piece (L to hold, O out) locks at 10156.0 on empty board with no clear (score +38 drop points 17876->17914). Only one clear in the window; this triple (gc 3) is a phantom duplicate."
  }
 ]
