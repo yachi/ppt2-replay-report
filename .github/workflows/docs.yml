@@ -20,3 +20,5 @@ jobs:
           python3 extractor/banscan-rs/check.py
       - name: nextcount-fast reads every frame as the chain's nextcount.py does
         run: python3 extractor/nextcount-fast/check.py
+      - name: pcscan-chunked writes the chain's pcscan.py output byte for byte
+        run: python3 extractor/pcscan-chunked/check.py
