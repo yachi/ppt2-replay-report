@@ -26,6 +26,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 | `extractor/autosettle/` | settles frame-check items the score OCR already decides (KO piece with an unchanged score), before the checkers run |
 | `extractor/banscan-rs/` | the banner scan's NCC series (`R/banscan.py` `series()`) in Rust, parallel over frames and bit-identical to numpy; `run_banscan.py --check` compares every array |
 | `extractor/nextcount-fast/` | the NEXT-queue recount (`corr/tools/nextcount.py`) with its four per-frame helpers rewritten, same answers; `run_nextcount.py --check` compares every frame |
+| `extractor/pcscan-chunked/` | the PERFECT CLEAR banner scan (`R/pcscan.py`) streamed in chunks, so a long game no longer needs ~5 GB; same output file, `run_pcscan.py --check` compares it |
 | `HISTORY.md` | the commit log of this report from its first home, tetrio-replay-report |
 
 ## Commands
