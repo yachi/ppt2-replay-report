@@ -1,0 +1,25 @@
+{"event_corrections":[
+{"n":0,"id":"s000","side":"p2","op":"retype","t":219.23,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"T rotated into slot at ~219.17; banner reads 'Mini T-SPIN' with no 'Single' (219.40 crop corr/fr/g0/s000b.png); every stack row is at the same height before (219.10) and after (219.40), no row removed; score rose only ~+330 incl. drops (45901 at 217.27 -> 46250 at 219.37), fits a zero-line mini, not a mini single (corr/fr/g0/s000a.png)"},
+{"n":1,"id":"s001","side":"p1","op":"replace_window","t":247.17,"t_end":253.0,"events":[{"t":247.17,"kind":null,"lines":0,"pc":0,"gc":0},{"t":253.0,"kind":"tsd","lines":2,"pc":0,"gc":0}],"was_old":[[247.17,null,0],[247.4,null,0],[247.4,null,0],[252.5,null,0],[253.0,"tst",4]],"source":"Only two pieces in the window: the Z spawned 247.17 falls under gravity alone until it locks ~252.5 (corr/fr/g0/s001a.png); nextcount shows no spawn between 247.17 and 253.00. The T spawned 253.00 makes a T-SPIN Double at ~254.6 (banner, score +3600 16251->19851), clearing 2 coloured rows, white garbage rows untouched (corr/fr/g0/s001c.png). The 247.4 x2 and 252.5 locks are phantoms; the 'tst 4 gc4' was wrong. The I spawned 255.40 locks at 255.47 and clears 4 garbage rows (+3750 at 255.50), one frame after KO 255.43, so not counted (corr/fr/g0/s001b.png)"},
+{"n":11,"id":"s014","side":"p2","op":"add","t":1350.2,"kind":null,"lines":0,"pc":0,"gc":0,"source":"O spawned 1350.20 (nextcount) is hard-dropped at 1350.47 (score 35026->35032, landing streaks), before KO 1350.50; no row cleared (corr/fr/g0/s014a.png)"},
+{"n":17,"id":"s030","side":"p1","op":"add","t":2110.23,"kind":"single","lines":1,"pc":1,"gc":0,"source":"The PERFECT CLEAR single came from the J spawned 2110.23, swapped for the held I at 2110.33; I dropped 2110.37 into the one-row board (no garbage), banner PERFECT CLEAR at 2110.57 (corr/fr/g0/s030b.png, s030a.png). The chain put this PC on the L spawned 2110.63 instead and lost the L's lock (L placed 2110.83, +34)"},
+{"n":17,"id":"s030","side":"p1","op":"retype","t":2110.63,"was":["single",1,1],"kind":null,"lines":0,"pc":0,"gc":0,"source":"The L spawned 2110.63 locks at 2110.83 bottom-left with no clear (corr/fr/g0/s030a.png); the PC belongs to the piece spawned 2110.23 (added above)"}
+],
+"cell_edits":[
+{"n":1,"id":"s001","player":"p1","field":"pieces","was":32,"value":29,"source":"three phantom locks (247.4, 247.4, 252.5) removed; only Z (247.17) and T (253.00) were placed in 247.17-255.43; extractor A's own count was 29"},
+{"n":11,"id":"s014","player":"p2","field":"pieces","was":56,"value":57,"source":"O spawned 1350.20 hard-dropped 1350.47, before KO 1350.50"},
+{"n":17,"id":"s030","player":"p1","field":"pieces","was":40,"value":41,"source":"seven locks from the 2108.80 spawn to KO (drops at 2109.4 TSD, 2110.37 PC, 2110.83, ~2111.0, 2111.33, 2111.60, 2111.77) against the chain's six; the piece spawned 2111.87 does not lock before KO 2112.03 (score unchanged)"}
+],
+"no_change":[
+{"n":2,"why":"answered by the s001 replace_window: the T at 253.0 is a TSD, as the banner says"},
+{"n":3,"why":"the +3750 at 255.50 is an I tetris locking at 255.47, one frame after KO 255.43 (p2 board already tilting); not counted (corr/fr/g0/s001b.png)"},
+{"n":4,"why":"chain already types 488.77 as a single; +450 = single 300 + REN 150, no T-spin"},
+{"n":5,"why":"Z locked ~497.97 (counted at 497.97); the T spawned 498.10 is still at the top of the board through and after KO 498.20 (corr/fr/g0/s004a.png)"},
+{"n":6,"why":"+69 is drop points; the I spawned 675.47 locks ~675.70 in the left column with no clear and is already counted; next piece spawns 675.80 after KO (corr/fr/g0/s007a.png)"},
+{"n":7,"why":"the O spawned 1033.70 is still falling at 1033.83 and locks at 1033.86 (+10), after end_s (corr/fr/g0/s009a.png)"},
+{"n":8,"why":"the S spawned 1295.73 lands at ~1296.10 but does not lock before KO 1296.23 (no spawn, piece unchanged; corr/fr/g0/s012a.png)"},
+{"n":9,"why":"+71 is two hard drops' points after the PC double at 1318.93; hard drops at 1319.17,1319.40,1319.57,1319.80,1320.13,1320.43 match the chain's six locks; nothing locks after 1320.53 before KO"},
+{"n":12,"why":"the T out of hold is still soft-dropping (score +1 per frame) through 1560.17, after KO 1560.10; no lock"},
+{"n":13,"why":"the S spawned 1674.63 is held at 1674.70 and the swapped piece hard-drops at 1674.90, after KO 1674.83"},
+{"n":14,"why":"+102 is drop points over several plain locks (the p1 score is under an overlay and the 10692 reads are p2's); the T spawned 1784.17 hard-drops with no clear before KO 1784.53, already counted (corr/fr/g0/s023a.png)"}
+]}

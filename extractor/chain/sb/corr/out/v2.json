@@ -1,0 +1,13 @@
+[
+{"ref":"e0","verdict":"keep","why":"nextcount p2: I spawns 4242.80, hold at 4242.87 (T out of hold); fr/v2/s060.png shows the T locking at the left at 4243.00, score 93619->93635 (+16, no flash) at/before KO 4243.03. Chain has no event for that spawn."},
+{"ref":"e1","verdict":"keep","why":"Banner crop fr/v2/b62_4370.45.png reads 'Mini T-SPIN' with no Single (4370.20 crop shows the previous 'T-SPIN Single' banner still lingering); p2 score 70137->70440 (+303) by 4370.60, before the next I locks (shift 4370.633): zero-line mini, not a mini single (600/900)."},
+{"ref":"e2","verdict":"keep","why":"nextcount p1: Z spawn 4683.10 (no chain event); fr/v2/s068.png: Z locks 4683.23, coloured row clears, '2 REN' banner from 4683.30; score 49417->49449->50049 (+600 = single 300 + 2x150), before KO 4683.37. gc 0 (the grey garbage rows stay)."},
+{"ref":"e3","verdict":"keep","why":"nextcount p2: no shift between 5122.833 and 5130.233; p2 score constant 513 from 5122.97 to 5130.40. 5123.20 is a phantom lock."},
+{"ref":"e4","verdict":"keep","why":"Same window: no spawn shift and constant score; 5128.60 is a phantom lock."},
+{"ref":"e5","verdict":"keep","why":"nextcount p2: 5131.633 spawn O, hold 5131.80 (T out of hold) -> +5560 at 5132.47 (B2B TSD 5400 + REN 150 + drops). Shift 5133.200 = S spawn, which locks by 5133.33 with +36 only (10895->10931). The 5133.20 'tsd' is a duplicate; plain lock."},
+{"ref":"c0","verdict":"keep","why":"Follows e0: T locked 4243.00 before KO (fr/v2/s060.png)."},
+{"ref":"c1","verdict":"keep","why":"TST, quad ('1 REN' banner at 4683.00) then the single with '2 REN' and +600: 2 REN steps."},
+{"ref":"c2","verdict":"keep","why":"Follows e2: Z spawned 4683.10 and locked 4683.23 before KO."},
+{"ref":"c3","verdict":"keep","why":"Follows e3/e4: two phantom locks in the stalled window."},
+{"ref":"n49","verdict":"missed","why":"s075 p1: the chain has a lock at 5122.83 that is not real. nextcount p1 shows shifts at 5121.833, 5122.200 and 5122.567 and none after that until 5131.933. fr/v2/s075p1.png shows the O locking by 5122.47 (score 495->518) and the J, spawned at 5122.57, still hanging at the top through 5123.4. Score stays at 518 until 5132.00. The checker said the chain had no events in the gap, which is wrong: [5122.83, None] is a phantom lock. Pieces cell edit: 142 -> 141 (chain_games.csv p1 pieces 142).","proposal":{"id":"s075","side":"p1","op":"remove","t":5122.83,"was":[null,0,0],"source":"nextcount p1: no spawn shift between 5122.567 and 5131.933; score 518 constant 5122.47-5132.00; fr/v2/s075p1.png J hangs at top. Also cell edit {id s075, player p1, field pieces, was 142, value 141}."}}
+]

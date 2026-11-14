@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"s000 p2: T rotated into the slot ~219.11; stack rows identical before and after (fr/v0/s000.png 218.90-219.60), no row removed; p2 score 45901 (217.60) -> 46250 (219.37) = +349 including several drops, fits a zero-line mini (~300), not a mini single (600+)."},
+{"ref":"e1","verdict":"keep","why":"s001 p1: nextcount shows spawns only at 247.167 (Z) and 253.000 (T) in the window; Z falls by gravity until ~252.9 with score flat at 16240 (fr/v0/s001a.png); T makes a TSD clearing two coloured rows, 'Double' banner, score +3600 16251->19851 at 254.67 (fr/v0/s001b.png). The I spawned 255.40 clears at 255.50, after KO 255.43."},
+{"ref":"e2","verdict":"keep","why":"s014 p2: O spawned 1350.20 (nextcount) is hard-dropped and locked by 1350.43 (score 35026->35032, lock flash), before KO 1350.50; no clear (fr/v0/s014.png)."},
+{"ref":"e3","verdict":"keep","why":"s030 p1: J spawned 2110.233, hold 2110.333 swaps it for the held I; I laid flat at 2110.27-2110.40 (+38), white row clears and PERFECT CLEAR banner at 2110.53-2110.60, score 35018 (fr/v0/s030.png). No garbage on the board."},
+{"ref":"e4","verdict":"keep","why":"s030 p1: the L spawned 2110.633 locks bottom-left at ~2110.80 with no clear (fr/v0/s030.png, score 35018->35053); the PC belongs to the 2110.23 piece."},
+{"ref":"c0","verdict":"keep","why":"s001 p1: only Z (247.17) and T (253.00) placed between 247.17 and KO; the 247.4 x2 and 252.5 locks are phantoms (nextcount: no other spawn), so 32 -> 29."},
+{"ref":"c1","verdict":"keep","why":"s014 p2: O spawned 1350.20 locked by 1350.43 < KO 1350.50; chain's last event is 1350.03, so +1 piece."},
+{"ref":"c2","verdict":"keep","why":"s030 p1: nextcount spawns 2108.80(I, held->T), 2110.233(J->I via hold), 2110.633(L), 2110.933(I), 2111.067(T held->J), 2111.433(Z), 2111.70(S), 2111.867(O); locks at 2109.4, 2110.37, 2110.80, 2111.03, 2111.33, 2111.60, 2111.77 = 7 against the chain's 6; the O does not lock before KO 2112.03 (score last changes 2111.77)."}
+]

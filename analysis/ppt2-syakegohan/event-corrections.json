@@ -26380,5 +26380,284 @@
   "pc": 0,
   "gc": 0,
   "source": "x recount check, verified: +5400 score jump and the T in its slot at about 98.27 (fr/x/b2.png)"
+ },
+ {
+  "id": "s000",
+  "side": "p2",
+  "op": "retype",
+  "t": 219.23,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: T rotated into slot at ~219.17; banner reads 'Mini T-SPIN' with no 'Single' (219.40 crop corr/fr/g0/s000b.png); every stack row is at the same height before (219.10) and after (219.40), no row removed; score rose only ~+330 incl. drops (45901 at 217.27 -> 46250 at 219.37), fits a zero-line mini, not a mini single (corr/fr/g0/s000a.png)"
+ },
+ {
+  "id": "s001",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 247.17,
+  "t_end": 253.0,
+  "events": [
+   {
+    "t": 247.17,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 253.0,
+    "kind": "tsd",
+    "lines": 2,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    247.17,
+    null,
+    0
+   ],
+   [
+    247.4,
+    null,
+    0
+   ],
+   [
+    247.4,
+    null,
+    0
+   ],
+   [
+    252.5,
+    null,
+    0
+   ],
+   [
+    253.0,
+    "tst",
+    4
+   ]
+  ],
+  "source": "b0 frame check, verified: Only two pieces in the window: the Z spawned 247.17 falls under gravity alone until it locks ~252.5 (corr/fr/g0/s001a.png); nextcount shows no spawn between 247.17 and 253.00. The T spawned 253.00 makes a T-SPIN Double at ~254.6 (banner, score +3600 16251->19851), clearing 2 coloured rows, white garbage rows untouched (corr/fr/g0/s001c.png). The 247.4 x2 and 252.5 locks are phantoms; the 'tst 4 gc4' was wrong. The I spawned 255.40 locks at 255.47 and clears 4 garbage rows (+3750 at 255.50), one frame after KO 255.43, so not counted (corr/fr/g0/s001b.png)"
+ },
+ {
+  "id": "s014",
+  "side": "p2",
+  "op": "add",
+  "t": 1350.2,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: O spawned 1350.20 (nextcount) is hard-dropped at 1350.47 (score 35026->35032, landing streaks), before KO 1350.50; no row cleared (corr/fr/g0/s014a.png)"
+ },
+ {
+  "id": "s030",
+  "side": "p1",
+  "op": "add",
+  "t": 2110.23,
+  "kind": "single",
+  "lines": 1,
+  "pc": 1,
+  "gc": 0,
+  "source": "b0 frame check, verified: The PERFECT CLEAR single came from the J spawned 2110.23, swapped for the held I at 2110.33; I dropped 2110.37 into the one-row board (no garbage), banner PERFECT CLEAR at 2110.57 (corr/fr/g0/s030b.png, s030a.png). The chain put this PC on the L spawned 2110.63 instead and lost the L's lock (L placed 2110.83, +34)"
+ },
+ {
+  "id": "s030",
+  "side": "p1",
+  "op": "retype",
+  "t": 2110.63,
+  "was": [
+   "single",
+   1,
+   1
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: The L spawned 2110.63 locks at 2110.83 bottom-left with no clear (corr/fr/g0/s030a.png); the PC belongs to the piece spawned 2110.23 (added above)"
+ },
+ {
+  "id": "s032",
+  "side": "p1",
+  "op": "add",
+  "t": 2406.33,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: KO 2406.80. J spawned 2406.27 and was held at 2406.33, so O came out of hold. O locked bottom-right at ~2406.47, the bottom row flashed white at ~2406.53 and the banner went from 4 REN to 5 REN at ~2406.60, all before the KO tilt. Score 124230 -> 125318 (+1088 = single with REN bonus). The row held only player pieces, no grey. Images: fr/g1/s032a.png, fr/g1/s032b.png"
+ },
+ {
+  "id": "s044",
+  "side": "p2",
+  "op": "retype",
+  "t": 3395.2,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: The piece spawned at 3395.20 is real (nextcount shift 3395.200, T held 3395.333), but the score only rises by drop points, 10917 -> 10926 -> 10948 -> 10982 (3395.07-3395.83), with no ~5700 jump. The B2B TSD is the 3393.63 clear: score 5367 -> 10917 at 3394.47 (+5550 = TSD x1.5 + 150 REN). Every later clear in 3397-3404 matches the score exactly, so the -5565 unexplained is this phantom TSD. Score read by score.py"
+ },
+ {
+  "id": "s046",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 3480.0,
+  "t_end": 3480.4,
+  "events": [
+   {
+    "t": 3480.03,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 3480.23,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 3480.37,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    3480.23,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b1 frame check, verified: Frames 3479.95-3480.75 (fr/g1/s046b.png, fr/g1/s046a.png): L spawned 3480.03, locked ~3480.12 and made the PERFECT CLEAR triple (score 48734 at 3480.15). The I spawned 3480.23 and locked at once (+38 -> 48772 at 3480.25); the S spawned ~3480.35 and locked (+36 -> 48808 at 3480.50); then T was held and Z dropped (48844 at 3480.65), which is the chain's 3480.57 event. The chain had one event, the PC triple timed at the I spawn, for three locks (L, I, S). The +72 at 3480.67 is the S and Z drop points. Nothing locked after the 3481.13 O: J spawned 3481.43, was held at 3481.5 and T came out, still falling at the KO (3481.63)"
+ },
+ {
+  "id": "s050",
+  "side": "p2",
+  "op": "add",
+  "t": 3701.87,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: KO 3702.07. O locked 3701.77 (score 39818, the chain's 3701.57 event). Z spawned 3701.87 and locked upright at the right at ~3702.03 (score 39818 -> 39850, the Z drawn solid) before the KO; no row flashed. Image: fr/g1/s050.png"
+ },
+ {
+  "id": "s060",
+  "side": "p2",
+  "op": "add",
+  "t": 4242.8,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: nextcount: spawn shift at 4242.80 (I), held at 4242.87 so T came out of hold; corr/fr/g2/s060.png shows that T locking at the left at 4243.00, score 93619->93635 (+16 drop points, no clear flash), at or before KO 4243.03. Chain has no event for this spawn."
+ },
+ {
+  "id": "s062",
+  "side": "p2",
+  "op": "retype",
+  "t": 4370.0,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "source": "b2 frame check, verified: banner crops corr/fr/g2/b62.png (4370.45) and b62c.png (4370.75) read 'Mini T-SPIN' with no Single suffix (compare the TST banner in b65.png, which carries 'Triple'); the score rose 70137->70440 (+303 = zero-line mini T-spin 100x3 + 3 drop points), not the 600/900 of a mini single. Zero-line mini T-spin, no line cleared."
+ },
+ {
+  "id": "s068",
+  "side": "p1",
+  "op": "add",
+  "t": 4683.1,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: nextcount spawn at 4683.10 (Z); corr/fr/g2/s068.png and zooms z4683.17.png / z4683.40.png: the Z locks on the left at ~4683.23 and a coloured (non-garbage) row flashes and clears, '2 REN' banner appears; score 49417->49449 (+32 drop) ->50049 (+600 = single 300 + 2 REN x150). Lock at 4683.23 is before KO 4683.37."
+ },
+ {
+  "id": "s075",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5123.2,
+  "source": "b2 frame check, verified: corr/fr/g2/s075a.png: from 5122.83 to ~5130.2 p2's O hangs at the top while the NEXT queue stays TOSIJ (nextcount: no shift between 5122.83 and 5130.23) and p2 score stays 513 the whole time; no piece spawned or locked. 5123.20 and 5128.60 are spliced phantom locks.",
+  "t_end": 5123.2,
+  "events": [],
+  "was_old": [
+   [
+    5123.2,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "s075",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 5128.6,
+  "source": "b2 frame check, verified: same as the 5123.20 remove: only one piece (the O spawned 5122.83) occupies 5122.83-5130.23; no spawn shift, score constant 513 (corr/fr/g2/s075a.png, nextcount).",
+  "t_end": 5128.6,
+  "events": [],
+  "was_old": [
+   [
+    5128.6,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "s075",
+  "side": "p2",
+  "op": "retype",
+  "t": 5133.2,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "source": "b2 frame check, verified: score.py p2: +4800 at 5130.90 (the TST, spawn 5130.23), then one jump 5335->10895 (+5560 = TSD B2B 5400 + REN1 150 + drops) for the clear of the 5131.63 piece; the piece spawned 5133.20 only adds 10895->10931 (+36 drop points) at 5133.30. The TSD banner at 5132.43 belongs to the 5131.63 TSD; the 5133.20 'tsd' is a duplicate."
+ },
+ {
+  "id": "s075",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 5122.83,
+  "source": "v2 skeptic, missed by b2: nextcount p1: no spawn shift between 5122.567 and 5131.933; score 518 constant 5122.47-5132.00; fr/v2/s075p1.png J hangs at top. Also cell edit {id s075, player p1, field pieces, was 142, value 141}.",
+  "t_end": 5122.83,
+  "events": [],
+  "was_old": [
+   [
+    5122.83,
+    null,
+    0
+   ]
+  ]
  }
 ]
