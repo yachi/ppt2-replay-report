@@ -1,0 +1,92 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: p2 11066->16477 at 59.77 (+5411 = B2B TSD 5400 + drops); one T-spin clear there"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py: 11245->12445 (89.07) ->16045 (89.10) = double + 3600 PC bonus; checker sheet g0/n3b.png shows empty board + PERFECT CLEAR"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py: 16212->17112 (90.93) ->20712 (90.97), second +3600 PC bonus; the 5 locks after PC1 (O,O,I,I,L in g0/n3b.png) match the 5 chain events 89.13-90.17, so 90.17 is the L that clears"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "only drop points (+39,+35,+38,+36) between 89.10 and 90.83; 89.13 is the first O lock after PC1"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py: 20712 at 91.0, only drop points up to 95.87 (23868-23998 readings are misreads, interleaved with 21032-21076), then +2400 tetris at 95.93; no clear at 91.0"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score 35839 (172.57) -> 41270 (174.23) = one B2B TSD; sheet /tmp/claude-0/sa/corr/fr/v0/e5.png: TSD clear ~173.9, then O locks 174.7 (+24), J ~175.1, I tetris 175.43 (+3600); 3 chain events 174.67/174.8/175.13 = O,J,I"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score.py: 199.37 +600 is the 199.27 single; then 11458 -> 16068 at 200.90 = double 900 + PC 3600 + drops, no single between (g0/n7b.png board)"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score 11458->16068 at 200.90 (+3600 PC bonus); PERFECT CLEAR banner and empty board 200.88 in g0/n7b.png"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score 21038 (206.27) -> 25726 (207.47) = 900+150+3600+38, one clear; nextcount: one shift (207.000) between 206.4 and 207.5; sheet /tmp/claude-0/sa/corr/fr/v0/e8.png: J goes to hold 207.3, T locks, PERFECT CLEAR 207.5"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score.py p2: 78.90 TSD (chain 78.03), drops 80.07/80.27/80.57, +300 single at 80.63, +1064 double at 81.83; nextcount: 4 pieces out (I spawn 79.633, Z out of hold 80.0, S out of hold 80.367, L out of hold 81.433), so 4 locks, 3rd single, 4th double. Piece identities in the checker's source differ slightly from nextcount but counts and clears agree"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "score.py p2: 11258 -> 12158 (25.63) -> 15758 (25.73) = double + 3600 PC bonus"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "after the PC only drop points (25.77-28.47) until the TSD; the 25.7 event is the next lock"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score.py p2: 11265 -> 15765 at 107.40 = double 900 + PC 3600"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "no other clear between 107.40 and 109.87 (drop points only); 107.37 is the next lock after the PC"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "sheet /tmp/claude-0/sa/corr/fr/v0/e14.png: O locks ~144.95, a two-row (coloured) clear at 145.15 with 2 REN banner; score 63606 -> 64806 (+1200 = double 900 + 300 REN; a single would be 600)"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "sheet /tmp/claude-0/sa/corr/fr/v0/e14.png: S clears one row at 146.15 with 3 REN banner; score 64806 -> 65570 (146.53) = 300 + 450 + drops; tetris at 148.7 is +2400 (not B2B), consistent"
+ },
+ {
+  "ref": "c0",
+  "verdict": "reject",
+  "why": "exact frames n=2106 (70.200) and n=2107 (70.233 = end_s) both still show p2 score 29390 and the S as a ghost outline; the lock trail and 29408 appear first at n=2108 (70.267), one frame after the KO frame (/tmp/claude-0/sa/corr/fr/v0/c0x.png, /tmp/claude-0/sa/corr/fr/v0/c0y.png). Same one-frame-late case as the checker's own item 0; the sheet.py -ss seek is one frame off, which is likely why the checker saw it at 70.24. Not counted."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "follows e8: only the T locks between the 206.27 double and the 207.47 PC (J went to hold), so the chain's two events there were one phantom piece"
+ }
+]

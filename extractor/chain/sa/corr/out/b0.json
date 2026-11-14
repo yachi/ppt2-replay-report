@@ -1,0 +1,379 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "r001",
+   "side": "p2",
+   "op": "retype",
+   "t": 58.83,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "T-SPIN Double + BACK to BACK banner and two coloured rows clear at 59.73-59.80 (/tmp/claude-0/sa/corr/fr/g0/n1b.png); p2 score 11066->16477 (+5411 = B2B TSD 5400 + drops)"
+  },
+  {
+   "n": 3,
+   "id": "r002",
+   "side": "p1",
+   "op": "retype",
+   "t": 88.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "J locks ~89.07 clearing the last 2 rows; board empty and PERFECT CLEAR banner from 89.10 (/tmp/claude-0/sa/corr/fr/g0/n3b.png); score 11245->12445->16045 (+1200 double w/ 2 REN, +3600 PC bonus)"
+  },
+  {
+   "n": 3,
+   "id": "r002",
+   "side": "p1",
+   "op": "retype",
+   "t": 90.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "second PC: L locks ~90.93 clearing the 2 rows of O,O,I,I,L; empty board + new PERFECT CLEAR banner 91.00 (/tmp/claude-0/sa/corr/fr/g0/n3.png, n3b.png); score 16212->17112->20712 (+900 double, +3600 PC)"
+  },
+  {
+   "n": 4,
+   "id": "r002",
+   "side": "p1",
+   "op": "retype",
+   "t": 89.13,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no clear between PC1 (89.07) and PC2 (90.93): only O,O,I,I locks (+39,+35,+38,+36 drop points) on the empty board (/tmp/claude-0/sa/corr/fr/g0/n3b.png); chain double here is a duplicate of the PC1 double"
+  },
+  {
+   "n": 4,
+   "id": "r002",
+   "side": "p1",
+   "op": "retype",
+   "t": 91.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no clear from 91.0 to the tetris at ~95.9: board only grows (/tmp/claude-0/sa/corr/fr/g0/n4.png, n4b.png); true score 20712 (91.0) -> 21076 (95.87) drop points only, then +2400 tetris at 95.93 (score.py readings 23868-23998 at 93.9-95.4 are misreads under the garbage/creature effect, the board shows 20932/21032)"
+  },
+  {
+   "n": 5,
+   "id": "r003",
+   "side": "p1",
+   "op": "retype",
+   "t": 174.67,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "only one TSD in 173.2-175.5: T spawned ~173.3, clears 2 at 173.95 (score 35839->41270 by 174.23 = +5400 B2B TSD); next piece O just locks at ~174.7 (+24 drop points), then J, then I tetris 175.45 (+3600) (/tmp/claude-0/sa/corr/fr/g0/n5.png). TSD banner at 174.0 belongs to the 173.23 clear"
+  },
+  {
+   "n": 7,
+   "id": "r004",
+   "side": "p1",
+   "op": "retype",
+   "t": 200.53,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "no single between 199.8 and the PC: I (200.22), J (200.39), O locks leave rows incomplete (/tmp/claude-0/sa/corr/fr/g0/n7b.png); score 11458->16068 = +4500 (double 900 + PC 3600) + ~110 drops, no room for a single"
+  },
+  {
+   "n": 7,
+   "id": "r004",
+   "side": "p1",
+   "op": "retype",
+   "t": 200.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O locks 200.88 clearing the last 2 rows: board empty, PERFECT CLEAR banner 200.88-202.5 (/tmp/claude-0/sa/corr/fr/g0/n7b.png, n7.png); +900 double +3600 PC"
+  },
+  {
+   "n": 8,
+   "id": "r004",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 207.0,
+   "t_end": 207.53,
+   "events": [
+    {
+     "t": 207.53,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     207.0,
+     "double",
+     2
+    ],
+    [
+     207.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "after the double at 206.25 (+900) only ONE piece locks before 207.97: J spawned ~207.0 is swapped into hold (hold T->J at 207.30), T locks 207.43 clearing the last 2 (coloured) rows -> PERFECT CLEAR 207.55 (/tmp/claude-0/sa/corr/fr/g0/n8.png); score 21038->25726 = double 900 + REN 150 + PC 3600 + drops; no other clear until the TST at 215.47. Chain had two doubles here: one phantom clear and one phantom piece (lock count 207.97-211.17 = 13 = chain events 208.23-211.27)"
+  },
+  {
+   "n": 10,
+   "id": "r005",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 79.5,
+   "t_end": 81.27,
+   "events": [
+    {
+     "t": 79.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 79.95,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 80.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 81.27,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     81.27,
+     null,
+     0
+    ],
+    [
+     81.27,
+     null,
+     0
+    ],
+    [
+     81.27,
+     null,
+     0
+    ],
+    [
+     81.27,
+     "double",
+     2
+    ]
+   ],
+   "source": "4 locks after the 78.9 TSD: I 79.75 (+12), Z 80.05 (+18), S 80.50 clears one coloured row at 80.65 (+300 single), O held, L clears 2 at 81.70 (+1050 double w/ REN) (/tmp/claude-0/sa/corr/fr/g0/n10.png); chain had the four stacked at 81.27 with the single missing"
+  },
+  {
+   "n": 11,
+   "id": "r005",
+   "side": "p2",
+   "op": "retype",
+   "t": 25.37,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "double at ~25.6 empties the board, PERFECT CLEAR banner 25.7-27.9 (/tmp/claude-0/sa/corr/fr/g0/n11.png); score 11258->12158->15758 (+900, +3600 PC)"
+  },
+  {
+   "n": 11,
+   "id": "r005",
+   "side": "p2",
+   "op": "retype",
+   "t": 25.7,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "only one clear (the PC double) between the 24.40 single and the 78.9... TSD at 27.93: after the PC, S,J,Z,T,I,O,L lock with drop points only (26.13-27.83) (/tmp/claude-0/sa/corr/fr/g0/n11.png); this double is the S lock (7 locks = 7 chain events 25.7-27.5)"
+  },
+  {
+   "n": 13,
+   "id": "r006",
+   "side": "p2",
+   "op": "retype",
+   "t": 106.4,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z soft-dropped 106.5-107.2 clears the last 2 rows; board empty, PERFECT CLEAR banner 107.40 (/tmp/claude-0/sa/corr/fr/g0/n13.png); score 11265->15765 (+900 double +3600 PC)"
+  },
+  {
+   "n": 13,
+   "id": "r006",
+   "side": "p2",
+   "op": "retype",
+   "t": 107.37,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "only one clear (the PC) between the 105.20 single and the 109.37 TSD; 10 locks 106.00-109.27 = 10 chain events 105.87-109.2, so 107.37 is the S lock after the PC (+37 at 107.80) (/tmp/claude-0/sa/corr/fr/g0/n13.png)"
+  },
+  {
+   "n": 15,
+   "id": "r006",
+   "side": "p1",
+   "op": "retype",
+   "t": 144.93,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "piece locks ~145.0 and clears with '2 REN' banner at 145.10-145.22 (/tmp/claude-0/sa/corr/fr/g0/n15.png); score 63606->64806 (+1200 = double 900 + 2 REN 300; a single would be 600)"
+  },
+  {
+   "n": 15,
+   "id": "r006",
+   "side": "p1",
+   "op": "retype",
+   "t": 145.9,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "S locks 146.10 and clears one coloured row at 146.22 with '3 REN' banner (/tmp/claude-0/sa/corr/fr/g0/n15.png); score 64806->65570 (+764 = single 300 + 3 REN 450 + drops). These two non-B2B clears explain why the 148.4 tetris scored +2400 (no B2B) instead of 3600"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 2,
+   "id": "r001",
+   "player": "p2",
+   "field": "pieces",
+   "was": 46,
+   "value": 47,
+   "source": "S (out of hold at 70.04) hard-drops and locks on the KO frame 70.233 (trail + score 29390->29408 visible at 70.24, /tmp/claude-0/sa/corr/fr/g0/n2.png); no clear. Pieces after the 69.03 quad: S and J only swapped through hold, this S is the only lock"
+  },
+  {
+   "n": 8,
+   "id": "r004",
+   "player": "p1",
+   "field": "pieces",
+   "was": 60,
+   "value": 59,
+   "source": "one phantom piece at 207.0-207.53 (J was held, not locked; only T locks between 206.25 and 207.97), see the replace_window (/tmp/claude-0/sa/corr/fr/g0/n8.png)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "the I spawned 40.27 hard-drops at frame 40.433 (score 34412->34434 first shown 40.44), one frame after end_s 40.40; p2 board already moving at 40.37 (/tmp/claude-0/sa/corr/fr/g0/n0.png, n0b.png); not counted"
+  },
+  {
+   "n": 6,
+   "why": "same TSD as item 5: the banner at 174.0 belongs to the T-spin double of the 173.23 event (clear 173.95); fixed by removing the duplicate 174.67 tsd in item 5"
+  },
+  {
+   "n": 9,
+   "why": "banner onsets 207.7/208.9 are the real PC of the T at 207.43, already set to pc 1 by the item 8 replace_window; no second PC"
+  },
+  {
+   "n": 12,
+   "why": "handled by auto (ko-flat-v1)"
+  },
+  {
+   "n": 14,
+   "why": "real T-SPIN Single (one row, BACK to BACK, +3700) at 124.70; chain already has tss at 124.13 (/tmp/claude-0/sa/corr/fr/g0/n14.png)"
+  },
+  {
+   "n": 16,
+   "why": "last lock is the soft-dropped piece at ~171.17 (chain 170.57); then L spawned 171.27 and was held, I came out and was still falling at the KO 171.47 and after (/tmp/claude-0/sa/corr/fr/g0/n16.png)"
+  }
+ ]
+}

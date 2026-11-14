@@ -1,0 +1,374 @@
+{
+ "event_corrections": [
+  {
+   "n": 34,
+   "id": "r020",
+   "side": "p2",
+   "op": "retype",
+   "t": 23.87,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g2/n34.png: L dropped at 23.86 into a 3-row stack, board completely empty with PERFECT CLEAR banner from 24.12; score 10991->17891 (+6900) at 24.00, one jump"
+  },
+  {
+   "n": 34,
+   "id": "r020",
+   "side": "p2",
+   "op": "retype",
+   "t": 24.07,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g2/n34.png: duplicate of the 23.87 PC triple; the piece spawned ~24.1 (L held, O out) locked as a lone O on an empty board at 24.38-24.51 with drop points only (17891->17928); no second clear. The 25.4 PC onset is the same banner lingering on a non-empty board"
+  },
+  {
+   "n": 35,
+   "id": "r020",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 78.3,
+   "t_end": 79.1,
+   "events": [
+    {
+     "t": 78.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 79.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     79.07,
+     null,
+     0
+    ],
+    [
+     79.07,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g2/n35.png: S spawned 78.30 (nextcount shift 78.367), locked ~78.4, one row cleared at 78.5 with REN label; score 96519->96969 (+450 = single+REN) at 78.43; next spawn L at 79.23 (nextcount). Piece count unchanged (two events at 79.07 -> S and L). The following TSD scores +3600 (not B2B) because this single broke B2B"
+  },
+  {
+   "n": 36,
+   "id": "r021",
+   "side": "p2",
+   "op": "retype",
+   "t": 139.6,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0,
+   "source": "fr/g2/n37.png: T into slot at 139.9, two-row white band at 140.1-140.3, banner 'Double' + BACK to BACK; score 67543->72943 (+5400 = TSD B2B) at 140.07, not 7200 (TST B2B). Answers n36 and n37"
+  },
+  {
+   "n": 38,
+   "id": "r022",
+   "side": "p1",
+   "op": "retype",
+   "t": 205.83,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g2/n38.png: O spawned 205.83 dropped into the 2-row stack at 206.0, board empty with PERFECT CLEAR banner at 206.1-206.9; score 961->5611 (+4650) at 206.10, the only clear jump in 205.3-209.5"
+  },
+  {
+   "n": 38,
+   "id": "r022",
+   "side": "p1",
+   "op": "retype",
+   "t": 206.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g2/n38.png + nextcount p1 205-207.2: piece spawned 206.27 was Z swapped into hold, I came out and locked flat on the empty board (206.4-206.6), score +39 drop points only (5612->5651); no second double. Answers n39 too"
+  },
+  {
+   "n": 40,
+   "id": "r022",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 220.83,
+   "t_end": 222.87,
+   "events": [
+    {
+     "t": 220.83,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 221.93,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 222.87,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     220.83,
+     "tst",
+     4
+    ],
+    [
+     222.87,
+     null,
+     0
+    ],
+    [
+     222.87,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g2/n40.png, n40b.png: T into slot 220.9, two-row band 221.2 with 'Double' banner, score +5403 (16811->22214, TSD B2B) by 221.57; I dropped vertically 222.0, TETRIS banner 222.6, score +3750 (22234->25984, B2B tetris + REN) at 222.03; J placed 222.9, clear 223.0-223.2, score +1200 (26004->27204, double + REN 2) at 222.93. Piece count unchanged (T, I, J). Then 223.67 single +772 (REN 3) as chain"
+  },
+  {
+   "n": 44,
+   "id": "r026",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 151.4,
+   "t_end": 155.5,
+   "events": [
+    {
+     "t": 151.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 151.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 152.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 152.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 152.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 152.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 153.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 153.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 153.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 153.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 154.2,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 155.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     151.63,
+     "tsd",
+     2
+    ],
+    [
+     155.43,
+     null,
+     0
+    ],
+    [
+     155.43,
+     null,
+     0
+    ],
+    [
+     155.43,
+     null,
+     0
+    ],
+    [
+     155.43,
+     "quad",
+     4
+    ]
+   ],
+   "source": "fr/g2/n44.png: after the 150.57 quad the player stacked ten pieces with no clear 151.4-154.2 (drop-point increments at 151.73, 151.90, 152.13, 152.47, 152.63, 152.90, 153.27, 153.40, 153.63, 154.10; nextcount shifts at 151.47, 151.83, 152.00, 152.23, 152.57, 152.73, 153.00, 153.37, 153.50, 153.73, 154.20, 155.50; nextcount run from a copy with reference frame 150 s because the tool's 220 s reference is past this 181.5 s video). TSD (Double banner, 2-row band 154.9) scored +5404 at 155.07, not at 151.63; I vertical at 155.65 -> tetris +3750 at 155.73. gc of the quad kept from chain"
+  },
+  {
+   "n": 48,
+   "id": "r029",
+   "side": "p1",
+   "op": "retype",
+   "t": 344.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g2/n48p1.png: J hard-dropped at 344.93 into the right side, one row whitens at 345.00 and '2 REN' label appears; score 95003->95603 (+600 = single + REN 2) at 345.00"
+  },
+  {
+   "n": 45,
+   "id": "r028",
+   "side": "p1",
+   "op": "retype",
+   "t": 188.6,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0,
+   "source": "fr/g2/n45.png: T into slot, two-row white band 189.18-189.39, banner 'Double' + BACK to BACK; score 195371->200771 (+5400 = TSD B2B) at 189.17"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 44,
+   "id": "r026",
+   "player": "p1",
+   "field": "pieces",
+   "was": 63,
+   "value": 70,
+   "source": "12 locks in 151.4-155.6 (ten drop-point score increments plus the TSD and tetris, matching 12 NEXT shifts) where the chain has 5 events; fr/g2/n44.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 37,
+   "why": "answered with n36: retype 139.6 tst->tsd (fr/g2/n37.png, Double banner, +5400)"
+  },
+  {
+   "n": 39,
+   "why": "answered with n38: the PC is the O spawned 205.83 (retype pc 1); the 207.2 onset is the same banner lingering"
+  },
+  {
+   "n": 41,
+   "why": "fr/g2/n41.png: I spawned 266.47 went to hold, Z came out and was still falling on the KO frame 266.70; it lands at 266.73 (score +32 at 266.73), after end_s"
+  },
+  {
+   "n": 43,
+   "why": "fr/g2/n43.png: S spawned 125.77 was held, T came out and is still in the air at 125.90 (KO); it locks at 125.93 (score +32 at 125.93), after end_s"
+  },
+  {
+   "n": 46,
+   "why": "fr/g2/n46.png: the 229.2 clear is a vertical Z clearing two rows with only a REN label, T in hold, no T-SPIN banner; plain double is right"
+  },
+  {
+   "n": 47,
+   "why": "fr/g2/n47.png: T into slot clears one row (277.4-277.7), banner 'Single' + BACK to BACK, score +3630 (TSS B2B); the chain's tss is right"
+  },
+  {
+   "n": 49,
+   "why": "fr/g2/n49p2.png: p2's +1210 at ~345.1 is a zero-line T-spin (bare 'T-SPIN' banner, no row cleared, garbage rises at 345.12); the chain's None lock at 344.67 is right, no clear to add"
+  },
+  {
+   "n": 50,
+   "why": "fr/g2/n50.png: after the 345.0 single, garbage rises; O spawned 345.67 was held, T came out and is still in the air at 345.87, locks 345.90 (score +30), after end_s 345.83"
+  }
+ ]
+}

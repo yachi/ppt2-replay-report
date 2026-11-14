@@ -150,3 +150,7 @@ p137,p2,pieces,45,46,"b7 frame check, verified: T hard-dropped and locked on the
 p138,p1,pieces,53,54,"b8 frame check, verified: Z locks on the KO frame 8896.47, score 38388->38420, no clear /tmp/claude-0/ms/corr/fr/g8/s149.png"
 p141,p1,pieces,175,174,"b8 frame check, verified: duplicate None event 8973.23 removed /tmp/claude-0/ms/corr/fr/g8/s152.png, s152b.png"
 p154,p1,pieces,70,67,"b8 frame check, verified: nextcount 69 queue spawns 10020.17-10048.57, every one matched to chain events; at KO the L is in hold and the J from hold is still falling (s167.png), so 67 locks; chain also had 3 phantom locks at 10029.33 and lacked the L at 10023.43"
+r004,p1,pieces,60,59,"b0 frame check, verified: one phantom piece at 207.0-207.53 (J was held, not locked; only T locks between 206.25 and 207.97), see the replace_window (/tmp/claude-0/sa/corr/fr/g0/n8.png)"
+r015,p1,pieces,76,70,"b1 frame check, verified: nextcount: 72 spawns over 149.07-182.5 minus 1 left in hold minus current piece at KO; consistent with phantom locks removed in n28 window"
+r026,p1,pieces,63,70,"b2 frame check, verified: 12 locks in 151.4-155.6 (ten drop-point score increments plus the TSD and tetris, matching 12 NEXT shifts) where the chain has 5 events; fr/g2/n44.png"
+r009,p2,pieces,30,29,"x recount check, verified: J at 85.67 went straight into the empty hold (logged as a lock); I left in hold at KO; 30 out of the queue less the held I (fr/x/b1.png, b2.png)"

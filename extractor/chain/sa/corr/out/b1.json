@@ -1,0 +1,400 @@
+{
+ "event_corrections": [
+  {
+   "n": 17,
+   "id": "r007",
+   "side": "p1",
+   "op": "retype",
+   "t": 189.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n17.png: PERFECT CLEAR + empty board at 189.4, score +4650 at 189.37"
+  },
+  {
+   "n": 17,
+   "id": "r007",
+   "side": "p1",
+   "op": "retype",
+   "t": 189.43,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n17.png: next L locks with no clear flash; phantom second double after the PC"
+  },
+  {
+   "n": 19,
+   "id": "r011",
+   "side": "p1",
+   "op": "retype",
+   "t": 281.43,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n19b/n19c.png: I vertical clears 1 garbage row, score 165853->166325 incl. REN; B2B break explains TSD +3600 at 285.8"
+  },
+  {
+   "n": 20,
+   "id": "r012",
+   "side": "p2",
+   "op": "retype",
+   "t": 346.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n20.png: PERFECT CLEAR at 347.15, score 11671->14559"
+  },
+  {
+   "n": 20,
+   "id": "r012",
+   "side": "p2",
+   "op": "retype",
+   "t": 347.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n20.png: only +38 drop points after the PC; no second clear"
+  },
+  {
+   "n": 21,
+   "id": "r013",
+   "side": "p2",
+   "op": "retype",
+   "t": 24.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n21.png: PERFECT CLEAR, score 6881->11565"
+  },
+  {
+   "n": 21,
+   "id": "r013",
+   "side": "p2",
+   "op": "retype",
+   "t": 24.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n21.png: only +37 after the PC; no second clear"
+  },
+  {
+   "n": 22,
+   "id": "r013",
+   "side": "p2",
+   "op": "retype",
+   "t": 30.47,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n22.png: PERFECT CLEAR (double PC score jump)"
+  },
+  {
+   "n": 22,
+   "id": "r013",
+   "side": "p2",
+   "op": "retype",
+   "t": 30.83,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n22.png: no clear flash after the PC"
+  },
+  {
+   "n": 23,
+   "id": "r014",
+   "side": "p2",
+   "op": "retype",
+   "t": 61.3,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n23.png: T-spin Double, score +5550 at 61.87 (auto.json: fits tsd only)"
+  },
+  {
+   "n": 24,
+   "id": "r014",
+   "side": "p1",
+   "op": "retype",
+   "t": 81.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n24a.png: J locks at 81.4 with no clear; the only score gain is +924 at 81.63 from the I double already in chain"
+  },
+  {
+   "n": 26,
+   "id": "r014",
+   "side": "p1",
+   "op": "retype",
+   "t": 138.0,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n26.png: 'Double' T-spin banner, 2-row flash, score +5550 at 138.37"
+  },
+  {
+   "n": 27,
+   "id": "r014",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 139.0,
+   "t_end": 140.0,
+   "events": [
+    {
+     "t": 139.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 140.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     140.0,
+     null,
+     0
+    ],
+    [
+     140.0,
+     null,
+     0
+    ]
+   ],
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n27.png/n27b.png: L from hold clears 1 row with 2 REN, +600 at 139.20; O locks ~140.07 before KO at 140.1"
+  },
+  {
+   "n": 28,
+   "id": "r015",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 173.6,
+   "t_end": 175.43,
+   "events": [
+    {
+     "t": 173.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 173.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 174.3,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 175.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     174.07,
+     null,
+     0
+    ],
+    [
+     174.07,
+     null,
+     0
+    ],
+    [
+     174.3,
+     "quad",
+     4
+    ],
+    [
+     174.7,
+     null,
+     0
+    ],
+    [
+     174.7,
+     null,
+     0
+    ],
+    [
+     174.7,
+     "quad",
+     4
+    ],
+    [
+     174.9,
+     null,
+     0
+    ],
+    [
+     174.9,
+     null,
+     0
+    ],
+    [
+     174.9,
+     "single",
+     1
+    ],
+    [
+     175.43,
+     "single",
+     1
+    ]
+   ],
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n28.png/n28b.png: one quad (+3600 at 174.57) and one single (+470 at 175.9); duplicated quad/locks are phantoms"
+  },
+  {
+   "n": 32,
+   "id": "r019",
+   "side": "p1",
+   "op": "retype",
+   "t": 288.2,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n32.png: T held, J out, 1-row flash with REN, +450 at 288.63; explains TSD +3600"
+  },
+  {
+   "n": 33,
+   "id": "r020",
+   "side": "p2",
+   "op": "retype",
+   "t": 23.87,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n33.png: L completes 3-row stack, PERFECT CLEAR + empty board at 24.1, score +6900 at 24.00"
+  },
+  {
+   "n": 33,
+   "id": "r020",
+   "side": "p2",
+   "op": "retype",
+   "t": 24.07,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "frames /tmp/claude-0/sa/corr/fr/g1/n33.png: after PC only +37 drop points; O/J/S place with no clear"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 28,
+   "id": "r015",
+   "player": "p1",
+   "field": "pieces",
+   "was": 76,
+   "value": 70,
+   "source": "nextcount: 72 spawns over 149.07-182.5 minus 1 left in hold minus current piece at KO; consistent with phantom locks removed in n28 window"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 18,
+   "why": "chain already has the single at 89.9; only score jump is +300 at 90.87 (plain single), matches"
+  },
+  {
+   "n": 25,
+   "why": "real TST: 3-row flash, 'Triple BACK' banner, +7200 at 85.13"
+  },
+  {
+   "n": 29,
+   "why": "same spot as n28; fixed by the n28 replace_window and pieces edit"
+  },
+  {
+   "n": 30,
+   "why": "score misreads while overlay covered digits (27745 at 212.5, 27800 at 214.3); tsd +5400 and quad +3600 fit chain"
+  }
+ ]
+}

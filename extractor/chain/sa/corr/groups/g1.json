@@ -1,0 +1,378 @@
+[
+ {
+  "id": "r007",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    189.6,
+    190.8
+   ],
+   "litcount_min": 34
+  },
+  "t_s": 189.6,
+  "n": 17
+ },
+ {
+  "id": "r009",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 89.9 s typed as a plain clear [tsb-hint-v1] one score jump +300 at 90.87 s: fits plain single only",
+  "t_s": 89.9,
+  "n": 18
+ },
+ {
+  "id": "r011",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r011",
+   "player": "p1",
+   "t0": 277.4,
+   "t1": 291.73,
+   "step": -1175,
+   "unexplained": -1175,
+   "near": [
+    [
+     279.93,
+     3600,
+     "tss"
+    ],
+    [
+     285.17,
+     5400,
+     "tsd"
+    ],
+    [
+     286.6,
+     5550,
+     "tsd"
+    ],
+    [
+     288.77,
+     300,
+     "single"
+    ],
+    [
+     289.7,
+     2550,
+     "quad"
+    ],
+    [
+     291.47,
+     1500,
+     "triple"
+    ]
+   ]
+  },
+  "t_s": 277.4,
+  "n": 19
+ },
+ {
+  "id": "r012",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    347.2,
+    347.9
+   ],
+   "litcount_min": 24
+  },
+  "t_s": 347.2,
+  "n": 20
+ },
+ {
+  "id": "r013",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    24.7,
+    25.9
+   ],
+   "litcount_min": 28
+  },
+  "t_s": 24.7,
+  "n": 21
+ },
+ {
+  "id": "r013",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    31.0,
+    32.2
+   ],
+   "litcount_min": 34
+  },
+  "t_s": 31.0,
+  "n": 22
+ },
+ {
+  "id": "r014",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 61.3 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 61.87 s: fits tsd only",
+  "t_s": 61.3,
+  "n": 23
+ },
+ {
+  "id": "r014",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r014",
+   "player": "p1",
+   "t0": 79.1,
+   "t1": 92.8,
+   "step": -1025,
+   "unexplained": -1025,
+   "near": [
+    [
+     79.0,
+     900,
+     "double"
+    ],
+    [
+     81.17,
+     900,
+     "double"
+    ],
+    [
+     81.7,
+     1050,
+     "double"
+    ],
+    [
+     82.37,
+     3900,
+     "tsd"
+    ],
+    [
+     83.67,
+     750,
+     "single"
+    ],
+    [
+     84.67,
+     900,
+     "double"
+    ],
+    [
+     85.53,
+     450,
+     "single"
+    ],
+    [
+     86.27,
+     600,
+     "single"
+    ],
+    [
+     87.23,
+     750,
+     "single"
+    ],
+    [
+     88.13,
+     900,
+     "single"
+    ],
+    [
+     89.07,
+     1650,
+     "double"
+    ],
+    [
+     89.97,
+     300,
+     "single"
+    ],
+    [
+     92.57,
+     2400,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 79.1,
+  "n": 24
+ },
+ {
+  "id": "r014",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 83.93 s",
+  "t_s": 83.93,
+  "n": 25
+ },
+ {
+  "id": "r014",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (single) vs banner T-SPIN Double at 138.0 s",
+  "t_s": 138.0,
+  "n": 26
+ },
+ {
+  "id": "r014",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +614 at 139.17 s (KO 140.1 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 139.17,
+  "n": 27
+ },
+ {
+  "id": "r015",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "2 of 11 bags not a permutation (spawn index [63, 70]); anomalies ['double shift k=2 at frame 818', 'double shift k=3 at frame 837', 'queue I-misread corrected at shift k=3, frame 843: slot 4 I->J', 'double shift k=3 at frame 843', 'queue I re-read at frame 848: slot 3 I->S', 'queue I re-read at frame 848: slot 5 I->T']",
+  "t_s": 149.07,
+  "n": 28
+ },
+ {
+  "id": "r015",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r015",
+   "player": "p1",
+   "t0": 170.44,
+   "t1": 180.74,
+   "step": -3840,
+   "unexplained": -3840,
+   "near": [
+    [
+     172.4,
+     5400,
+     "tsd"
+    ],
+    [
+     174.3,
+     3600,
+     "quad"
+    ],
+    [
+     174.7,
+     3600,
+     "quad"
+    ],
+    [
+     174.9,
+     300,
+     "single"
+    ],
+    [
+     175.43,
+     450,
+     "single"
+    ],
+    [
+     176.57,
+     3900,
+     "tsd"
+    ],
+    [
+     178.4,
+     5400,
+     "tsd"
+    ],
+    [
+     180.5,
+     3600,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 170.44,
+  "n": 29
+ },
+ {
+  "id": "r016",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r016",
+   "player": "p1",
+   "t0": 209.16,
+   "t1": 216.36,
+   "step": -918,
+   "unexplained": -918,
+   "near": [
+    [
+     214.13,
+     5400,
+     "tsd"
+    ],
+    [
+     216.3,
+     3600,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 209.16,
+  "n": 30
+ },
+ {
+  "id": "r019",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r019",
+   "player": "p1",
+   "t0": 288.63,
+   "t1": 291.5,
+   "step": -1774,
+   "unexplained": -1774,
+   "near": [
+    [
+     290.2,
+     5400,
+     "tsd"
+    ],
+    [
+     291.47,
+     3750,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 288.63,
+  "n": 32
+ },
+ {
+  "id": "r020",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r020",
+   "player": "p2",
+   "t0": 24.0,
+   "t1": 27.13,
+   "step": -1650,
+   "unexplained": -1650,
+   "near": [
+    [
+     23.87,
+     1500,
+     "triple"
+    ],
+    [
+     24.07,
+     1650,
+     "triple"
+    ],
+    [
+     26.5,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 24.0,
+  "n": 33
+ }
+]
