@@ -1,0 +1,165 @@
+[
+ {
+  "id": "w002",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "w002",
+   "player": "p1",
+   "t0": 432.87,
+   "t1": 437.6,
+   "step": -1200,
+   "unexplained": -1200,
+   "near": [
+    [
+     432.93,
+     1200,
+     "double"
+    ],
+    [
+     436.9,
+     4800,
+     "tst"
+    ]
+   ]
+  },
+  "t_s": 432.87,
+  "n": 1
+ },
+ {
+  "id": "w002",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 439.33,
+  "n": 2
+ },
+ {
+  "id": "w003",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 587.3 s",
+  "t_s": 587.3,
+  "n": 3
+ },
+ {
+  "id": "w003",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.60 s before the KO)",
+  "t_s": 704.6,
+  "n": 4
+ },
+ {
+  "id": "w007",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 9.50 s from 908.50 s; B events spliced (D2/D3)",
+  "t_s": 908.5,
+  "n": 6
+ },
+ {
+  "id": "w007",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.47 s from 909.17 s; B events spliced (D2/D3)",
+  "t_s": 909.17,
+  "n": 7
+ },
+ {
+  "id": "w007",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.47 s from 916.63 s; B events spliced (D2/D3)",
+  "t_s": 916.63,
+  "n": 8
+ },
+ {
+  "id": "w007",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 26.53 s from 918.00 s; B events spliced (D2/D3)",
+  "t_s": 918.0,
+  "n": 9
+ },
+ {
+  "id": "w007",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 19.10 s from 927.10 s; B events spliced (D2/D3)",
+  "t_s": 927.1,
+  "n": 10
+ },
+ {
+  "id": "w007",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 20.83 s from 944.53 s; B events spliced (D2/D3)",
+  "t_s": 944.53,
+  "n": 11
+ },
+ {
+  "id": "w007",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 22.77 s from 946.20 s; B events spliced (D2/D3)",
+  "t_s": 946.2,
+  "n": 12
+ },
+ {
+  "id": "w007",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 12.70 s from 965.37 s; B events spliced (D2/D3)",
+  "t_s": 965.37,
+  "n": 13
+ },
+ {
+  "id": "w007",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.23 s from 968.97 s; B events spliced (D2/D3)",
+  "t_s": 968.97,
+  "n": 14
+ },
+ {
+  "id": "w007",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 20.63 s from 978.07 s; B events spliced (D2/D3)",
+  "t_s": 978.07,
+  "n": 15
+ },
+ {
+  "id": "w007",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 20.10 s from 979.20 s; B events spliced (D2/D3)",
+  "t_s": 979.2,
+  "n": 16
+ },
+ {
+  "id": "w007",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 20.43 s from 998.70 s; B events spliced (D2/D3)",
+  "t_s": 998.7,
+  "n": 17
+ },
+ {
+  "id": "w007",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 20.37 s from 999.30 s; B events spliced (D2/D3)",
+  "t_s": 999.3,
+  "n": 18
+ },
+ {
+  "id": "w007",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 21.77 s from 1019.13 s; B events spliced (D2/D3)",
+  "t_s": 1019.13,
+  "n": 19
+ }
+]

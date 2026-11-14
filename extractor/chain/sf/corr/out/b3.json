@@ -1,0 +1,56 @@
+{
+ "event_corrections": [
+  {
+   "n": 44,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 1061.7,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "source": "fr/g3/a.png (1061.4-1066.5, p1): no 4-row clear and no TETRIS banner at 1061.7; garbage height unchanged 1061.4->1062.0. 1061.4 shows the end of the REN12 single of the piece spawned 1052.17 (+2100 at 1061.23). Next real spawn Z at 1061.93 (nextcount: unk 1061.70-1061.93 then one shift), Z held 1062.07, L placed and clears one row at 1063.03 (+2250 = REN13). Phantom quad, no piece behind it. (Same removal as b1 n24; listed once.)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 44,
+   "id": "w007",
+   "player": "p1",
+   "field": "pieces",
+   "was": 239,
+   "value": 211,
+   "source": "p1 removals counted once (union of b0+b1): b0 removes 941.93, 953.70(None), 963.30, 976.40, 993.77, 1014.23, 1034.67, 1046.73, 1060.20 and b0's replace_window 916.6-923.97 (3 events -> 1, i.e. 916.63 and 923.97 dropped); b1 removes 1034.67, 1046.73, 1060.20 (same as b0, counted once) and 1061.70 quad (also confirmed here). 12 events removed from the chain's 223 non-BREAK events -> 211. Independent count: nextcount fr/g0/nc0_p1.txt + nc_p1.txt = 206 shifts plus two resyncs not in TOTAL_SHIFTS (902.37-902.77 JZZJL>SIOTS, k=5 by 7-bag: ZJL+SIOT completes the bag; 1096.17-1096.57 LLO??>OZSIJ k=2) = 213 spawns 890.43..1148.93. Chain logs neither the first spawn 890.43 (Z, held into empty hold at 890.53) nor the last 1148.93 (O sits at the top, never locks; board tilts 1149.6, fr/g3/end.png). 213 - 1 (piece left in hold) - 1 (unlocked O) = 211 = chain events after removals = extractor A's 211."
+  },
+  {
+   "n": 44,
+   "id": "w007",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 14,
+   "value": 13,
+   "source": "Score steps +300..+2250 in +150 steps over 906.67..1063.03 (b0 sources, sc.txt; 1061.23 +2100, 1063.03 +2250) = 14 consecutive clears = REN13. fr/g3/a.png: O spawned 1063.70 locks ~1064.2 with no clear (REN broken), S spawned 1064.27 clears a single for +332 at 1065.40 (= 300 REN0 + drops), I spawned 1065.13 TETRIS +2566 at 1065.63 (2400 + REN1 150 + drops). Chain events after the union removals give max run 906.4..1061.93 = REN13; extractor A also 13. The csv 14 came from the phantom 1061.70 quad inside the run."
+  },
+  {
+   "n": 44,
+   "id": "w007",
+   "player": "p2",
+   "field": "pieces",
+   "was": 211,
+   "value": 197,
+   "source": "p2 removals counted once (union of b0+b1): b0 removes 908.6, 916.9, 937.7, 964.27, 976.97, 997.6, 1018.03, 1039.8, 1048.43; b1 removes 1048.43 (same, counted once). 1039.8 (g1 skeptic's suspect) is already in b0's list. 9 events removed from 206 non-BREAK events -> 197. Independent count: fr/g0/nc0_p2.txt + nc_p2.txt = 190 shifts + resyncs k=4 (901.5-902.83) and k=4 (1113.03-1114.5) = 198 spawns 890.43..1149.2; the last L (spawn 1149.2) locks with a single flash at 1149.60 = end_s, so it counts (fr/g3/endp2.png); 198 - 1 piece in hold at end = 197 = chain events after removals = extractor A's 197. Supersedes b0 (197) and b1 (210) edits."
+  },
+  {
+   "n": 44,
+   "id": "w007",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 15,
+   "value": 14,
+   "source": "As b0 n19: p2 score jumps 904.90..1062.63 step +300..+2400 (+150 each) = 15 consecutive clears = REN14; chain after the union removals gives max run 904.73..1062.43 = REN14; extractor A 14."
+  }
+ ],
+ "no_change": []
+}

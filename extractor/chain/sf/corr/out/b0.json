@@ -1,0 +1,475 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "w002",
+   "side": "p1",
+   "op": "retype",
+   "t": 432.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g0/w002a.png: at 432.05 the spawned I is swapped into HOLD (hold I at 432.20) and the held Z is placed; Z locks ~432.85 clearing 2 rows that empty the board, PERFECT CLEAR banner 432.95-433.48; score +4650 at 432.87 (only clear jump in 431.5-437.5). This event is that Z double and it is a PC."
+  },
+  {
+   "n": 1,
+   "id": "w002",
+   "side": "p1",
+   "op": "retype",
+   "t": 432.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g0/w002a.png: S spawned 432.93 onto the empty board after the PC and locked with no clear (score 25287->25325, +38 drop points only, 433.0). Phantom duplicate of the PC double. Piece count unchanged (3 locks T,Z,S for 3 events)."
+  },
+  {
+   "n": 3,
+   "id": "w003",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 587.3,
+   "t_end": 589.53,
+   "events": [
+    {
+     "t": 587.3,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 588.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 588.97,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     587.3,
+     "tst",
+     4
+    ],
+    [
+     589.53,
+     null,
+     0
+    ],
+    [
+     589.53,
+     null,
+     0
+    ]
+   ],
+   "source": "fr/g0/w003b.png, fr/g0/w003rows.png: T spawned 587.3 locks ~587.8 as T-SPIN Double (banner), clearing 2 coloured rows, garbage top unchanged (gc 0); score +5400 at 587.90 (=TSD x1.5 B2B). O comes out of HOLD (Z held 588.73) and locks with no clear; I spawned 588.97 makes a TETRIS ~589.2 (score +3618 at 589.23, TETRIS banner 589.75) clearing 2 coloured + 2 garbage rows (garbage top drops 2, gc 2). Same piece count (3)."
+  },
+  {
+   "n": 6,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 908.6,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawns 908.5 (O, swapped from hold for L at 908.8) then 918.0; the L clears one row at 917.37 (+900 REN4). Only 908.5 is real. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 6,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 916.9,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Same window: one lock (L) between 908.5 and 918.0 (fr/g0/w007a.png). Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 9,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 937.7,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g0/w007b.png: I spawned 918.0 is swapped into HOLD at 929.07, O placed, clears 943.87 (+1050 REN5); next spawn 944.53. One lock. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 9,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 926.07,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "REN never broke: score steps 900,1050 (REN4->REN5) across this window. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 9,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 928.53,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "REN never broke: score steps 900,1050 across this window. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 11,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 964.27,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 944.53 clears at 964.7 (+1200 REN6); next spawn 965.37. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 13,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 976.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 965.37 clears at 977.43 (+1350 REN7); next spawn 978.07. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 15,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 997.6,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 978.07 clears at 998.03 (+1500 REN8); next spawn 998.70. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 17,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 1018.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 998.70 clears at 1018.5 (+1650 REN9); next spawn 1019.13. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 19,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 1039.8,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 1019.13 clears at 1040.27 (+1800 REN10); next spawn 1040.90. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 19,
+   "id": "w007",
+   "side": "p2",
+   "op": "remove",
+   "t": 1048.43,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "(just past the window, same pattern) spawn 1040.90 clears at 1048.87 (+1950 REN11); next spawn 1049.47. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p2.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 7,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 907.63,
+   "was": [
+    "BREAK",
+    3,
+    0
+   ],
+   "source": "REN did not break: singles at 906.67/907.53/908.43/915.87 score +300/+450/+600/+750 (REN0-3). Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 7,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 909.23,
+   "was": [
+    "BREAK",
+    0,
+    0
+   ],
+   "source": "REN did not break: I spawned 909.17 clears at 915.87 for +750 (REN3). Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 7,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 911.77,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "REN did not break (see 915.87 +750 REN3); no lock in this window besides the I spawned 909.17. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 7,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 914.2,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "REN did not break (see 915.87 +750 REN3). Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 8,
+   "id": "w007",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 916.6,
+   "t_end": 923.97,
+   "events": [
+    {
+     "t": 916.6,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     916.6,
+     "single",
+     1
+    ],
+    [
+     916.63,
+     "double",
+     2
+    ],
+    [
+     923.97,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g0/w007c.png: one Z spawned 916.5 slides slowly into the well and clears 2 coloured rows at ~926.4 (garbage top unchanged, gc 0); score +1500 at 926.37 (= double 900 + REN4 600). Next spawn 927.1 (O). Three chain events for one piece. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 10,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 941.93,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 927.1 (O, swapped into hold at 934.5, T placed) clears at 945.5 (+1050 REN5); next spawn 946.13. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 12,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 953.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "source": "Spawn 946.13, hold swap 954.63, single at 968.3 (+1200 REN6); next spawn 968.97: one lock only. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 12,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 954.57,
+   "was": [
+    "BREAK",
+    2,
+    0
+   ],
+   "source": "REN did not break (REN5->REN6 score steps). Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 12,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 963.3,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Same window: one lock, one single (968.3). Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 14,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 976.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 968.97 clears at 978.57 (+1350 REN7); next spawn 979.2. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 16,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 993.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 979.2 clears at 998.4 (+1500 REN8); next spawn 999.13. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 18,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 1014.23,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "Spawn 999.13 clears at 1018.9 (+1650 REN9); next spawn 1019.67. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 18,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 1034.67,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "(past window, same pattern) spawn 1019.67 clears at 1037.33 (+1800 REN10); next spawn 1037.97. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 18,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 1046.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "(past window) spawn 1037.97 clears at 1051.5 (+1950 REN11); next spawn 1052.17. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  },
+  {
+   "n": 18,
+   "id": "w007",
+   "side": "p1",
+   "op": "remove",
+   "t": 1060.2,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "(past window) spawn 1052.17 clears at 1061.23 (+2100 REN12); next spawn 1061.93. Stream runs in extreme slow motion here (one piece per 10-25 s). nextcount (fr/g0/nc_p1.txt) shows exactly one spawn between the neighbouring real events and the score (fr/g0/sc.txt) shows exactly one REN-single jump; B's spliced events are duplicates."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 19,
+   "id": "w007",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 15,
+   "value": 14,
+   "source": "Score jumps 904.90..1062.63 step 300,450,...,2400 (+150 each): 15 consecutive singles = REN14; then 1064.63 +1554 (triple, no REN bonus) after None locks at 1063.23/1063.57. fr/g0/sc.txt"
+  },
+  {
+   "n": 19,
+   "id": "w007",
+   "player": "p2",
+   "field": "pieces",
+   "was": 211,
+   "value": 197,
+   "source": "Chain has 206 non-BREAK events; 9 of them (908.6,916.9,937.7,964.27,976.97,997.6,1018.03,1039.8,1048.43) are phantom duplicates in the slow-motion stretch -> 197, matching extractor A (197) and nextcount total spawns 905-1149.6 + 889-905 (198, includes last unlocked spawn). Rest of game (1063+) events line up with nextcount shifts one-to-one. +-1 uncertainty."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 2,
+   "why": "fr/g0/w002ko.png: last piece (T) spawned 439.03 and is still falling under soft drop at the KO frame 439.33 (score ticking +1/frame through 439.37, no new spawn); not locked."
+  },
+  {
+   "n": 4,
+   "why": "fr/g0/w003ko.png: last piece L spawned 704.0 rests on the stack from ~704.27 but is still in lock delay at KO 704.6 (no next spawn, score unchanged 318420); not locked."
+  }
+ ]
+}
