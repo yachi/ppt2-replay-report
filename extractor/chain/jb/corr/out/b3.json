@@ -1,0 +1,132 @@
+{
+ "event_corrections": [
+  {
+   "n": 56,
+   "id": "d072",
+   "side": "p1",
+   "op": "add",
+   "t": 6309.23,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount: spawn 6309.23 (T, held at 6309.33 for O); the O hard-drops and locks bottom-left on the KO frame 6309.53 (score 23241->23275 first shown at 6309.53, no row cleared); fr/g3/d072.png frame 7"
+  },
+  {
+   "n": 65,
+   "id": "d086",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 7346.4,
+   "t_end": 7348.67,
+   "events": [
+    {
+     "t": 7346.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7347.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 7348.67,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    }
+   ],
+   "was_old": [
+    [
+     7346.4,
+     null,
+     0
+    ],
+    [
+     7346.4,
+     null,
+     0
+    ],
+    [
+     7346.4,
+     null,
+     0
+    ],
+    [
+     7347.97,
+     null,
+     0
+    ],
+    [
+     7347.97,
+     null,
+     0
+    ],
+    [
+     7348.67,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g3/d086.png (7345.85-7349.85, 0.25 s): after the TSD only 3 pieces lock before the double: I out of hold (S spawned 7346.53 held at 7347.03) locks ~7347.8, J spawned 7347.97 locks ~7348.57 (+8 drop), Z spawned 7348.67 clears the double at 7349.67 (+900). Chain had 3 duplicate locks at 7346.4 and 2 at 7347.97 (double-shift anomalies)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "d072",
+   "player": "p1",
+   "field": "pieces",
+   "was": "33",
+   "value": "34",
+   "source": "winner's O locks on the KO frame 6309.53 with no clear (score +34 at 6309.53); fr/g3/d072.png"
+  },
+  {
+   "id": "d086",
+   "player": "p1",
+   "field": "pieces",
+   "was": "139",
+   "value": "136",
+   "source": "between the TSD (score +3600 at 7345.80) and the double (+900 at 7349.67) the board gains exactly 3 pieces: I (out of hold, locked ~7347.8), J (spawn 7347.97, locked ~7348.57), Z (spawn 7348.67, the double); the S spawned 7346.53 was held, not locked. Chain logs 6 events (7346.4 x3, 7347.97 x2, 7348.67); fr/g3/d086.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 55,
+   "why": "d071 p2: last chain event 6278.83 is the I that locks at 6279.10; the T spawned 6279.20 is still falling at the KO 6279.40 (fr/g3/d071.png)"
+  },
+  {
+   "n": 58,
+   "why": "d078 p2: the piece spawned 6675.23 locks only at 6675.50 (score +36), after the KO 6675.40"
+  },
+  {
+   "n": 59,
+   "why": "d080 p2: the J locks at 6899.13 (score 50641->50653 first at 6899.13), one frame after the KO 6899.07 (fr/g3/d080.png)"
+  },
+  {
+   "n": 60,
+   "why": "d082 p2: score ticks +1 per frame (soft drop) through the KO 6994.20; no lock by the KO"
+  },
+  {
+   "n": 63,
+   "why": "d085 p1: chain already logs a plain double at 7251.60; score +1050 at 7251.70 = double 900 + 150 REN after the triple, not a TSD (3600)"
+  },
+  {
+   "n": 66,
+   "why": "d088 p2: score ticks +1 per frame (soft drop) through the KO 7483.20; no lock by the KO"
+  },
+  {
+   "n": 69,
+   "why": "d092 p2: score ticks +1 per frame (soft drop) through the KO 7722.37; no lock by the KO"
+  },
+  {
+   "n": 71,
+   "why": "d095 p2: the S is still in the air at 7909.90 and locks at 7909.93 (score +28), after the KO 7909.87 (fr/g3/d095.png)"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py p2: +914 at 276.90 (plain double) and +2572 at 277.83 (tetris + 1 REN). fr/v0/b.png 276.60-277.00: two-row clear (top coloured row + first garbage row) at 276.90; gc=1 fits."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py p2 306.5-309.0: only +5400 at 306.97 (B2B TSD) then drop points (+22 at 308.00, +16/+22 later) until p1's change at 308.90; no double near 307.8."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py p2: +3600 at 377.70. The clear before it (374.6, a double per e3) broke B2B, so a TSS would score 2400; +3600 is a non-B2B TSD."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py p2: +1058 at 375.03 = 900 + 150 REN + drop; a single with REN would be ~450."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "nextcount p2 2183.5-2191: spawns 2183.87, 2184.23, 2185.07 (hold T at 2185.23), then none until 2189.63, so one lock in the window. score: +900 at 2184.33, then only soft-drop +1s and +1050 at 2188.90 (double + 1 REN). Two of the three doubles are phantoms."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "nextcount p1: spawns 2582.767 then 2583.833, none between; score +600 at 2583.17 (single, 2 REN) and +1350 at 2584.07 (double, 3 REN), so no lock between them; the six None locks are phantoms."
+ },
+ {
+  "ref": "e6",
+  "verdict": "reject",
+  "why": "Frame-diff (fr/v0/diff.py logic, fr/v0/d.png, fr/v0/e.png): p1's board starts to tilt one frame BEFORE any lock sign on p2; the S's lock flash first appears 2 frames after the tilt onset (and やった one frame after that). end_s 1034.17 is the tilt onset frame (same 1-frame offset as d019, whose chain KO 2701.43 = my diff onset), so the S locks after end_s. The checker's k.png stamps are one frame off from the actual frame index (-ss rounding at 1034.167 lands on frame 31026). p2 score unchanged except soft drop; no lock by the KO."
+ },
+ {
+  "ref": "c0",
+  "verdict": "amend",
+  "amended": {
+   "value": 162
+  },
+  "why": "nextcount p2 238.9-322.8 gives 162 shifts, but the frames show the swap at 322.63 brought J out of hold and it hard-dropped and locked at 322.70 (score +12 at 322.70; fr/v0/a.png), before the KO 322.80; a further spawn (S, NEXT shifted) shows at 322.80 and that S is the active piece at KO. Pieces drawn 1+162+1 = 164, minus the held L and the active S = 162 (the checker treated J as unlocked)."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "score.py: no B2B bonus on the 277.83 tetris (+2572), then B2B bonuses on 281.97 TSD (+5400), six tetrises (+3600/3618 each, 285.50-303.70), 306.97 TSD (+5400), 313.30 TST (+7200): 9 consecutive B2B; broken afterwards by singles (316.27 +300)."
+ },
+ {
+  "ref": "c2",
+  "verdict": "reject",
+  "why": "The S did not lock by the KO frame (see e6): with no lock, 1 + 32 shifts - 1 held - 1 active = 31 = the CSV value."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "Follows from e4: nextcount shows a single lock in 2185.07-2189.63; the phantom doubles removed give 44; the checker's 45-shift count is continuous."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "score.py over the whole game: REN bonuses only on 2175.13 TSS (+3750 = 3600+150) and 2188.90 double (+1050); 2177.67 quad +3634, 2179.80 +4500, 2190.83 +306, 2194.93 +1500, 2197.23 +900 carry no REN. max REN = 1."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "My own nextcount p1 2561.07-2588.17: 45 shifts; last spawn 2587.40, hold swap at 2587.97, p1 score flat after 2587.03, so neither the held nor the active piece locked: 1+45-2 = 44."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "score.py p1: +300 at 2581.13, +450 at 2582.10 (1 REN), +600 at 2583.17 (2 REN), +1350 at 2584.07 (double + 3 REN), with no spawn between 2582.767 and 2583.833."
+ }
+]

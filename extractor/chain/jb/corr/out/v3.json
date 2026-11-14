@@ -1,0 +1,6 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v3/d072.png: O (out of hold after T spawned 6309.23 was held at 6309.33) is falling at 6309.47 and locked bottom-left at 6309.53, the KO frame, score 23241->23275 first shown at 6309.53, no row cleared. nextcount: 3 spawns 6308.40/6308.77/6309.23 against chain locks 6308.40/6308.77 only, so this lock was missing."},
+ {"ref":"e1","verdict":"keep","why":"fr/v3/d086a.png (7344.70-7349.95, 0.35 s): TSD clears ~7345.8 (+3600); then S spawns 7346.53 and is held at 7347.03 (I out of hold), I locks ~7347.7 (71006), J spawned 7347.97 locks ~7348.57 (+8, 71014), Z spawned 7348.67 makes the double (+900 at 7349.67). Exactly 3 events between the TSD and the double; chain's 3x7346.40 and 2x7347.97 are duplicates. nextcount shows only 3 spawns (7346.53, 7347.97, 7348.67) in the window."},
+ {"ref":"c0","verdict":"keep","why":"Winner's O locks on the KO frame 6309.53 (fr/v3/d072.png); chain p1 had 33 events, true 34."},
+ {"ref":"c1","verdict":"keep","why":"chain d086 p1 has 139 events (= csv pieces); the window holds 6 where the frames show 3, so 136. Events after 7349 match nextcount spawns and score lock steps."}
+]

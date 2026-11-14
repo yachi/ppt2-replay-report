@@ -1,0 +1,90 @@
+[
+ {
+  "id": "f041",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO) [audit sample of ko-flat-v1: score 44111 at the last spawn (3784.73 s) and still 44111 after the KO (3784.83 s): nothing locked]",
+  "t_s": 3784.83,
+  "n": 35
+ },
+ {
+  "id": "f046",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 4710.44 s, no A clear matched (added by R/build.py)",
+  "t_s": 4710.44,
+  "n": 36
+ },
+ {
+  "id": "f049",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "10 of 17 bags not a permutation (spawn index [42, 49, 56, 70, 77, 84, 91, 98, 105, 112]); anomalies ['double shift k=3 at frame 846', 'double shift k=2 at frame 890']",
+  "t_s": 4910.37,
+  "n": 37
+ },
+ {
+  "id": "f049",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 4983.73,
+  "n": 38
+ },
+ {
+  "id": "f052",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 1.40 s before the KO)",
+  "t_s": 5168.3,
+  "n": 39
+ },
+ {
+  "id": "f055",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s (tail)",
+  "detail": "8.40 s from the last spawn to the KO",
+  "t_s": 5360.2,
+  "n": 40
+ },
+ {
+  "id": "f059",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.13 s from 5529.93 s; B events spliced (D2/D3)",
+  "t_s": 5529.93,
+  "n": 42
+ },
+ {
+  "id": "f061",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "6 of 11 bags not a permutation (spawn index [35, 42, 49, 56, 63, 70]); anomalies ['double shift k=3 at frame 538']",
+  "t_s": 5636.8,
+  "n": 45
+ },
+ {
+  "id": "f061",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO) [audit sample of ko-flat-v1: score 41886 at the last spawn (5676.20 s) and still 41886 after the KO (5676.57 s): nothing locked]",
+  "t_s": 5676.57,
+  "n": 46
+ },
+ {
+  "id": "f065",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "1 of 12 bags not a permutation (spawn index [77]); anomalies ['double shift k=3 at frame 1308', 'queue resync at frame 1329: (3, 6, 6, 6, 6)->(8, 3, 6, 7, 5)']",
+  "t_s": 5892.07,
+  "n": 47
+ },
+ {
+  "id": "f077",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.40 s before the KO)",
+  "t_s": 7155.1,
+  "n": 51
+ }
+]

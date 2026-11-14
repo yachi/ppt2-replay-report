@@ -1,0 +1,326 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: TST +7200 at 1455.80, then only +300 at 1457.47 (zero-line Mini T-spin = 100x3; a Mini single would be >=600), and the quad at 1460.60 scores +3600 = 2400x1.5, so B2B survived: no plain clear in between. Retype to a no-clear lock is right."
+ },
+ {
+  "ref": "e1",
+  "verdict": "amend",
+  "amended": {
+   "events": [
+    {
+     "t": 1597.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1598.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1599.57,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1600.83,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1601.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1602.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1603.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1604.93,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 1606.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1606.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1606.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1608.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1608.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1608.93,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1609.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1609.87,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1611.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1611.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1612.17,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1613.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1613.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1614.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1614.37,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1615.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1616.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1616.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1616.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1617.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1618.37,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1619.47,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1620.53,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1621.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1623.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1624.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1625.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1626.97,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 1
+    },
+    {
+     "t": 1628.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ]
+  },
+  "why": "Confirmed the 37 locks (nextcount shifts 1597.40..1628.267 match the proposal's t list exactly; the 1629.333 piece's drop points +20 land at 1629.63, after KO 1629.6) and every clear type from score jumps: 7 singles REN1-7 (+450..+1350), double REN8 +2100 at 1605.50, TSD +3600 at 1610.23, double +900 1612.67, TSD +3600 1615.10, double +900 1618.73, 8 singles REN1-8 1619.87..1628.67. gc checked frame by frame (/tmp/claude-0/bt/corr/fr/v0/a1.png, a2.png, a3.png, a4.png): all correct EXCEPT the two assigned by order at 1602.87 and 1603.97, which are swapped. At 1603.20-1603.27 (a2.png) the J from spawn 1602.87 drops into the top garbage row's hole and the flash is on that grey row, the colored row above it stays: gc=1. At 1604.17-1604.30 the T from spawn 1603.97 completes the colored row (purple T, green, red, red, blues) sitting on the garbage: gc=0. Total gc unchanged (8). Others confirmed: double 1604.93 clears two grey rows (flash 1605.70), TSD 1614.37 = one colored + top garbage row (1615.13), singles 1621.67/1623.07/1624.73/1626.97 each fill a garbage hole (L, Z, S, T), 1625.87 and 1628.27 colored rows, early singles all colored."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "nextcount p2: shifts 1787.700 and 1793.367 only. Score: +12 at 1787.60 (previous piece), then nothing until +2/+300 at 1792.67-1792.70. Frames (/tmp/claude-0/bt/corr/fr/v0/b1.png): the I spawned 1787.70 hovers to 1792.6 and clears one colored row at 1792.73; the T at 1793.37 never locks (board full of garbage, KO 1794.0). 1788.0 and 1792.8 are phantoms."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "24 chain locks before 1597.0 (1584.77..1596.57, BREAK excluded) + 37 locks in the window (shift list 1597.40..1628.267; the 1629.333 piece locks at 1629.63, after KO) = 61."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "nextcount: 104 shifts (the unk 1751.17-1751.40 is not an extra shift: queue OTJSZ before, OTJSZ>TJSZI at 1751.700). Minus the hold-into-empty Z (shift 1732.967, held 1733.067) and the never-locked T spawned 1793.367 = 102. Matching chain events to shifts leaves exactly one unmatched shift besides those two: 1740.467 (see n12)."
+ },
+ {
+  "ref": "n12",
+  "verdict": "missed",
+  "why": "The lock missing from f018 p2 is at spawn 1740.467 (shift OOISL>OISLT, hold swap 1740.667): score +36 drop at 1740.93 and PERFECT CLEAR +4650 at 1741.00, BEFORE the next shift at 1741.067; frames (/tmp/claude-0/bt/corr/fr/v0/b2.png) show the PC flash at 1740.97 and the board empty, then the piece spawned 1741.067 drop-locks with no clear (+6/+24 at 1741.50-1741.63, O on the empty board at 1741.65). The chain logged the PC double one piece late at 1741.07 and has no event for the 1741.067 lock. Also the two cleared rows were colored piece rows, not grey garbage (b2.png 1740.50-1740.90): gc 0, not 1. With this, chain events = 102 = counted pieces.",
+  "proposal": {
+   "id": "f018",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1740.4,
+   "t_end": 1741.1,
+   "events": [
+    {
+     "t": 1740.47,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1741.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1741.07,
+     "double",
+     2
+    ]
+   ],
+   "source": "score.py 1738.8-1742: +36 at 1740.93 then +4650 at 1741.00 (PC double) before shift 1741.067; +6/+24 at 1741.50-1741.63 with no clear; nextcount shift 1740.467 has no chain event. Frames /tmp/claude-0/bt/corr/fr/v0/b2.png: two colored rows cleared at 1740.97 (PERFECT CLEAR banner), O placed on empty board 1741.65."
+  }
+ }
+]

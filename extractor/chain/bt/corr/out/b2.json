@@ -1,0 +1,40 @@
+{"event_corrections":[
+{"n":36,"id":"f046","side":"p2","op":"retype","t":4710.2,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Zero-line Mini T-SPIN: p2 score rises only +300 at 4710.63 (52290-51990 = 100x level 3, a zero-line mini; a mini single right after the 4709.47 TSD would carry B2B/REN and be far more). Banner at 4710.80 reads 'Mini T-SPIN' with no 'Single' (fr/g2/ban.png); the top rows are unchanged between 4710.40 and 4710.733, no clear flash (fr/g2/f046top.png, f046b.png). The T lock is real (piece count unchanged)."},
+{"n":37,"id":"f049","side":"p1","op":"remove","t":4936.4,"was":[null,0,0],"source":"Phantom lock (one of the two None at 4936.40). Score shows exactly one plain lock (+4 at 4936.63, piece spawned 4936.333) before the double (+900 at 4937.10, piece spawned 4936.733); spawns from nextcount 4935.30, 4936.333, 4936.733, 4937.867. This is where the bag misalignment from spawn index ~42 starts."},
+{"n":37,"id":"f049","side":"p1","op":"remove","t":4937.87,"was":[null,0,0],"source":"Phantom lock: spawn 4937.867 is the I that made the quad (+2550 at 4938.47, quad+REN1); next spawn is the T at 4939.30 (held, J out, J locks +12 at 4939.87), then I at 4939.97 quad +3600. No other lock 4937.10-4939.87 (score flat). Frames fr/g2/f049a.png 4938.3-4940.0."},
+{"n":45,"id":"f061","side":"p1","op":"remove","t":5652.53,"was":[null,0,0],"source":"Chain has three None at 5652.53 plus None at 5652.37/5653.17/5653.63 and tsd 5653.87 = 7 locks; real is 4: O spawns 5652.367 and is held (L out) -> L locks 5653.07 (+22); T spawns 5653.17, held -> O locks 5653.53 (+24); J locks 5653.77 (+24); Z spawn 5653.87 held -> T TSD +5400 at 5654.47. Score flat 5651.47-5652.63. Frames fr/g2/f061a.png 5652.2-5654.6. Remove all three None at 5652.53 (this entry and the next two)."},
+{"n":45,"id":"f061","side":"p1","op":"remove","t":5652.53,"was":[null,0,0],"source":"second of three phantom None at 5652.53, see above"},
+{"n":45,"id":"f061","side":"p1","op":"remove","t":5652.53,"was":[null,0,0],"source":"third of three phantom None at 5652.53, see above"},
+{"n":47,"id":"f065","side":"p2","op":"remove","t":5933.4,"was":[null,0,0],"source":"After the TSD (+5400 at 5933.07) only two plain locks precede the double: L spawns 5933.80, held (S out), S locks +8 at 5934.07; I spawns 5934.10, held (L out), L locks ~5935.8 (soft drop +1+1 5935.40/43); T spawns 5935.90 -> double +900 at 5936.43. Chain has 3 None at 5933.40 + None 5934.10 = 4. Remove two of the three None at 5933.40 (this and next). Frames fr/g2/f065a.png. The last J (spawn 5938.80) never locks before the KO (fr/g2/f065b.png)."},
+{"n":47,"id":"f065","side":"p2","op":"remove","t":5933.4,"was":[null,0,0],"source":"second phantom None at 5933.40, see above"},
+{"n":40,"id":"f055","side":"p2","op":"replace_window","t":5350.33,"t_end":5360.17,"events":[
+ {"t":5350.33,"kind":"single","lines":1,"pc":0,"gc":0},
+ {"t":5351.27,"kind":"triple","lines":3,"pc":0,"gc":0},
+ {"t":5352.17,"kind":"double","lines":2,"pc":0,"gc":2},
+ {"t":5353.43,"kind":"single","lines":1,"pc":0,"gc":1},
+ {"t":5354.27,"kind":"single","lines":1,"pc":0,"gc":1},
+ {"t":5355.23,"kind":"double","lines":2,"pc":0,"gc":2},
+ {"t":5356.47,"kind":"single","lines":1,"pc":0,"gc":0},
+ {"t":5357.63,"kind":"single","lines":1,"pc":0,"gc":1},
+ {"t":5358.70,"kind":null,"lines":0,"pc":0,"gc":0},
+ {"t":5359.07,"kind":null,"lines":0,"pc":0,"gc":0},
+ {"t":5359.53,"kind":null,"lines":0,"pc":0,"gc":0}],
+ "was_old":[[5350.33,"single",1],[5350.73,"BREAK",7],[5351.27,"triple",3],[5351.8,null,0],[5351.8,null,0],[5351.8,"triple",3],[5352.27,"BREAK",3],[5354.37,"single",1],[5355.33,"single",1],[5356.63,"double",2],[5357.7,"single",1],[5358.23,"single",1],[5359.43,null,0],[5359.83,null,0],[5360.17,null,0]],
+ "source":"p2 spawns (nextcount) 5350.333, 5351.267, ~5352.17 (one shift through a flash 5351.8-5352.03), 5353.433, 5354.267, 5355.233, 5356.467, 5357.633, 5358.70, 5359.067, 5359.533, 5359.767. Score jumps form one unbroken REN chain: +300 5350.63 single R0; +1656 5351.50 triple+150; +1206 5352.80 double+300 (not a triple); +750 5353.70 single+450; +910 5354.67 single+600; +1664 5355.73 double+750; +1200 5357.00 single+900; +1350 5358.03 single+1050; then plain locks +16 5359.07, +14 5359.50, +16 5359.77; last piece (spawn 5359.767) still soft-dropping through the KO 5360.20 (score +1/frame), not locked. Frames fr/g2/f055a.png. So the 5351.8 triple is a double, two of the three 5351.8 events and both BREAKs are phantom; 11 locks not 13; gc values are carried over from the chain's own order and are not frame-checked."},
+{"n":42,"id":"f059","side":"p2","op":"remove","t":5529.93,"was":["tst",3,0],"source":"Duplicate TST. The piece spawned 5529.93 is an L that sits at the top until it is held at 5532.57 (T comes out of hold); one TST with BACK to BACK banner at ~5533.4, score +7200 at 5533.33 (4800x1.5). No score change 5529.83-5532.87 except soft drop. Frames fr/g2/f059.png 5529.8-5533.8. The tst at 5533.27 stays."}
+],
+"cell_edits":[
+{"n":37,"id":"f049","player":"p1","field":"pieces","was":114,"value":112,"source":"two phantom None locks removed (4936.40, 4937.87); score/nextcount show 5 locks 4936.4-4940.43 where the chain has 7"},
+{"n":45,"id":"f061","player":"p1","field":"pieces","was":71,"value":68,"source":"three phantom None at 5652.53; 4 real locks between spawn 5652.37 and the TSD"},
+{"n":47,"id":"f065","player":"p2","field":"pieces","was":81,"value":79,"source":"two phantom None at 5933.40"},
+{"n":40,"id":"f055","player":"p2","field":"pieces","was":67,"value":65,"source":"tail window has 11 real locks, chain 13"},
+{"n":40,"id":"f055","player":"p2","field":"max_combo","was":4,"value":7,"source":"REN bonuses 0,150,300,450,600,750,900,1050 on eight consecutive clears 5350.63-5358.03 (score.py), i.e. 7 REN steps"},
+{"n":42,"id":"f059","player":"p2","field":"pieces","was":63,"value":62,"source":"the L spawned 5529.93 was held, not locked; only one lock (the TST) in 5529.93-5533.3"}
+],
+"no_change":[
+{"n":35,"why":"f041 p1: score 44111 unchanged through the KO frame 3784.83 (score.py 3784.5-3785.0); nothing locked"},
+{"n":38,"why":"f049 p1: the last I locks (sparkle, score 78668->78692) at 4983.767, one frame after end_s 4983.73 (fr/g2/f049k3.png, f049ko.png); does not count"},
+{"n":39,"why":"f052 p1: the I hovers from ~5167.5 and locks at 5168.333 (+20), one frame after end_s 5168.30 (fr/g2/f052k3.png, f052tail.png); does not count"},
+{"n":46,"why":"f061 p1: score 41886 unchanged at the KO 5676.57 (score.py), no lock"},
+{"n":51,"why":"f077 p1: T is still soft-dropping (score +1/frame) up to the KO frame 7155.10 and resting unlocked when the game ends; queue never advances (fr/g2/f077ko.png)"}
+]}
