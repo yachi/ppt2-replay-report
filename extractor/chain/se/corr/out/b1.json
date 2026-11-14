@@ -1,0 +1,25 @@
+{"event_corrections":[
+ {"n":16,"id":"u015","side":"p1","op":"replace_window","t":1040.33,"t_end":1081.1,
+  "events":[{"t":1040.4,"kind":"single","lines":1,"pc":0,"gc":0},{"t":1048.33,"kind":"single","lines":1,"pc":0,"gc":0},{"t":1067.93,"kind":"double","lines":2,"pc":0,"gc":1}],
+  "was_old":[[1040.33,"BREAK",3],[1040.4,"single",1],[1047.23,"single",1],[1048.47,"single",1],[1060.97,null,0],[1061.2,"BREAK",0],[1066.73,"BREAK",1],[1068.03,"double",2],[1081.1,"double",2]],
+  "source":"Covers items 16,17,19 (one continuous lag stretch, game in slow motion 1040-1085). nextcount p1 1038.5-1087: spawns 1039.27,1040.40,1048.33,1067.93,1085.70,1086.60, holds 1054.73 (Z in, T out) and 1073.67 (S in, Z out). score.py p1 clears only at 1040.07 (+1520),1047.70 (+1650),1067.27 (+1800),1084.87 (+2550 double),1085.97,1086.83: one unbroken REN, +150 per step (single n=8,9,10, double n=11). So in the window: S spawned 1040.40 -> single 1047.70; T (out of hold) -> single 1067.27; Z (out of hold) -> double 1084.87, which clears the orange row and the top garbage row (corr/fr/g1/u015c.png, flash 1084.83). Chain's 1047.23 single, 1060.97 lock and second double are phantoms and the BREAKs are false. Sheets corr/fr/g1/u015a.png, u015b.png. Singles' gc not verifiable, kept 0 as chain."},
+ {"n":15,"id":"u015","side":"p2","op":"replace_window","t":1039.87,"t_end":1084.97,
+  "events":[{"t":1039.87,"kind":"single","lines":1,"pc":0,"gc":0},{"t":1057.17,"kind":"triple","lines":3,"pc":0,"gc":2},{"t":1070.97,"kind":"single","lines":1,"pc":0,"gc":1},{"t":1084.97,"kind":"single","lines":1,"pc":0,"gc":0}],
+  "was_old":[[1039.87,"single",1],[1039.93,"single",1],[1056.07,"single",1],[1057.17,"triple",3],[1069.77,"triple",3],[1070.97,"single",1],[1083.97,"single",1],[1084.97,"single",1]],
+  "source":"Covers items 15,18,20 (same lag stretch). nextcount p2: spawns 1039.87,1057.17,1070.97,1084.97,1086.30 only; hold 1048.0 (O in, Z out). score.py p2 clears 1039.20 (+1950),1056.50 (+2100),1070.23 (+3450 triple),1084.37 (+2400),1085.63 (+2550),1086.57 (+2700): unbroken REN +150/step, no plain locks between. Frames corr/fr/g1/u015d.png: O falls 1039-1047, held, Z locks -> single 1056.5; J falls 1058-1069 into the well -> triple; I falls 1072-1083, vertical in garbage well -> single 1084.37. Chain duplicates (1039.93, 1056.07, 1069.77 triple, 1083.97) removed. gc kept from chain's matching events."}
+],
+"cell_edits":[
+ {"n":17,"id":"u015","player":"p1","field":"pieces","was":246,"value":243,"source":"Window 1040.33-1081.1 holds 3 locks (spawns 1040.40,1048.33,1067.93 per nextcount; holds swap, no extra locks; REN unbroken in score), chain had 6. See replace_window n=16."},
+ {"n":19,"id":"u015","player":"p1","field":"max_combo","was":8,"value":16,"source":"score.py p1: REN unbroken from single +1050 (n=5) at 1036.43 through double +3300 (900+150*16) at 1089.83; REN banners 6,8,10,12,15 REN in corr/fr/g1/u015a.png; next clear 1091.73 +300 plain. Chain's BREAKs at 1040.33/1061.2/1066.73 were false."},
+ {"n":18,"id":"u015","player":"p2","field":"pieces","was":208,"value":204,"source":"Window 1039.87-1084.97 holds 4 locks (spawns 1039.87,1057.17,1070.97,1084.97), chain had 8. See replace_window n=15."},
+ {"n":20,"id":"u015","player":"p2","field":"max_combo","was":20,"value":16,"source":"score.py p2: REN steps n=11 (1950) at 1039.20 ... n=16 (+2700) at 1086.57, then 1087.40 plain lock (+36) breaks it; chain's 4 phantom clears inflated it to 20."}
+],
+"no_change":[
+ {"n":14,"why":"u013 p1: T spawned 912.27 still falling (soft drop points) at KO 912.63, never locks; corr/fr/g1/u013.png."},
+ {"n":21,"why":"u015 p2 1135-1139.13: Z spawned 1135.0 falls slowly and locks ~1139.0 with no clear, T spawned 1139.13 held, I out -> tetris (B2B, +3607 at 1139.87). Chain 1135.0 None + 1139.13 quad is right; corr/fr/g1/u015e.png."},
+ {"n":22,"why":"u017 p1: L spawned 1307.87 still at top on KO frame 1308.03, hard-dropped 1308.07 (after KO); corr/fr/g1/u017b.png."},
+ {"n":23,"why":"u021 p1: I out of hold at 1655.57 still at the top at KO 1655.67, not locked; corr/fr/g1/u021.png."},
+ {"n":24,"why":"u022 p1: +98 is a reader artefact (score digits occluded before 1853.07); last piece O locked ~1852.9 without clear, J spawned 1852.97 never locks before KO; corr/fr/g1/u022.png."},
+ {"n":25,"why":"u024 p1: O spawned 2037.70 still at top at KO 2037.9 (ghost visible), never locks; corr/fr/g1/u024.png."},
+ {"n":27,"why":"u029 p1: chain already has a plain single at 2702.83; the piece is S (T in hold since 2702.5), score +1222 = single with REN. Correct as is."}
+]}

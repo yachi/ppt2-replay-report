@@ -26905,5 +26905,211 @@
   "pc": 0,
   "gc": 0,
   "source": "b2 frame check, verified: fr/g2/t030.png: next p2 piece (L to hold, O out) locks at 10156.0 on empty board with no clear (score +38 drop points 17876->17914). Only one clear in the window; this triple (gc 3) is a phantom duplicate."
+ },
+ {
+  "id": "u002",
+  "side": "p2",
+  "op": "retype",
+  "t": 224.0,
+  "was": [
+   "tst",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: score.py 220-237.5: p2 score 431->5239 (+4808, one TST) at ~222.8-223.6, then only drop points 5239->5335 through 225.87; the 224.0 piece cleared nothing. One TST (the 222.73 piece), the 224.0 tst is a duplicate. T-SPIN Triple banner at 223.44 belongs to the 222.73 clear."
+ },
+ {
+  "id": "u002",
+  "side": "p2",
+  "op": "retype",
+  "t": 227.17,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: score.py: p2 5335->10741 (+5406, one B2B TSD) at ~226.1-226.8 (the 225.97 piece); after it only drop points 10741->10749 until the 228.0 single (+300 at 228.10). The 227.17 tsd is a duplicate; T-SPIN Double banner at 226.7 belongs to the 225.97 clear."
+ },
+ {
+  "id": "u003",
+  "side": "p2",
+  "op": "retype",
+  "t": 292.47,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: fr/g0/i5.png (292.1-293.8, p2): S locks ~292.5 without clear, then a J (not a T) drops and clears one garbage row at ~292.8 (white flash). Score 36596->36946 (+350 = single 300 + drops), not TSS 2400; the following 294.17 TSD scores +3609 (non-B2B 3600), consistent with a plain single breaking B2B."
+ },
+ {
+  "id": "u015",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1040.33,
+  "t_end": 1081.1,
+  "events": [
+   {
+    "t": 1040.4,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1048.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1067.93,
+    "kind": "double",
+    "lines": 2,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    1040.33,
+    "BREAK",
+    3
+   ],
+   [
+    1040.4,
+    "single",
+    1
+   ],
+   [
+    1047.23,
+    "single",
+    1
+   ],
+   [
+    1048.47,
+    "single",
+    1
+   ],
+   [
+    1060.97,
+    null,
+    0
+   ],
+   [
+    1061.2,
+    "BREAK",
+    0
+   ],
+   [
+    1066.73,
+    "BREAK",
+    1
+   ],
+   [
+    1068.03,
+    "double",
+    2
+   ],
+   [
+    1081.1,
+    "double",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: Covers items 16,17,19 (one continuous lag stretch, game in slow motion 1040-1085). nextcount p1 1038.5-1087: spawns 1039.27,1040.40,1048.33,1067.93,1085.70,1086.60, holds 1054.73 (Z in, T out) and 1073.67 (S in, Z out). score.py p1 clears only at 1040.07 (+1520),1047.70 (+1650),1067.27 (+1800),1084.87 (+2550 double),1085.97,1086.83: one unbroken REN, +150 per step (single n=8,9,10, double n=11). So in the window: S spawned 1040.40 -> single 1047.70; T (out of hold) -> single 1067.27; Z (out of hold) -> double 1084.87, which clears the orange row and the top garbage row (corr/fr/g1/u015c.png, flash 1084.83). Chain's 1047.23 single, 1060.97 lock and second double are phantoms and the BREAKs are false. Sheets corr/fr/g1/u015a.png, u015b.png. Singles' gc not verifiable, kept 0 as chain."
+ },
+ {
+  "id": "u015",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 1039.87,
+  "t_end": 1084.97,
+  "events": [
+   {
+    "t": 1039.87,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1057.17,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 0,
+    "gc": 2
+   },
+   {
+    "t": 1070.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   },
+   {
+    "t": 1084.97,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1039.87,
+    "single",
+    1
+   ],
+   [
+    1039.93,
+    "single",
+    1
+   ],
+   [
+    1056.07,
+    "single",
+    1
+   ],
+   [
+    1057.17,
+    "triple",
+    3
+   ],
+   [
+    1069.77,
+    "triple",
+    3
+   ],
+   [
+    1070.97,
+    "single",
+    1
+   ],
+   [
+    1083.97,
+    "single",
+    1
+   ],
+   [
+    1084.97,
+    "single",
+    1
+   ]
+  ],
+  "source": "b1 frame check, verified: Covers items 15,18,20 (same lag stretch). nextcount p2: spawns 1039.87,1057.17,1070.97,1084.97,1086.30 only; hold 1048.0 (O in, Z out). score.py p2 clears 1039.20 (+1950),1056.50 (+2100),1070.23 (+3450 triple),1084.37 (+2400),1085.63 (+2550),1086.57 (+2700): unbroken REN +150/step, no plain locks between. Frames corr/fr/g1/u015d.png: O falls 1039-1047, held, Z locks -> single 1056.5; J falls 1058-1069 into the well -> triple; I falls 1072-1083, vertical in garbage well -> single 1084.37. Chain duplicates (1039.93, 1056.07, 1069.77 triple, 1083.97) removed. gc kept from chain's matching events."
  }
 ]

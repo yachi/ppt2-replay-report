@@ -1,0 +1,21 @@
+{"event_corrections":[
+ {"n":1,"id":"u002","side":"p2","op":"retype","t":224.0,"was":["tst",3,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"score.py 220-237.5: p2 score 431->5239 (+4808, one TST) at ~222.8-223.6, then only drop points 5239->5335 through 225.87; the 224.0 piece cleared nothing. One TST (the 222.73 piece), the 224.0 tst is a duplicate. T-SPIN Triple banner at 223.44 belongs to the 222.73 clear."},
+ {"n":3,"id":"u002","side":"p2","op":"retype","t":227.17,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"score.py: p2 5335->10741 (+5406, one B2B TSD) at ~226.1-226.8 (the 225.97 piece); after it only drop points 10741->10749 until the 228.0 single (+300 at 228.10). The 227.17 tsd is a duplicate; T-SPIN Double banner at 226.7 belongs to the 225.97 clear."},
+ {"n":5,"id":"u003","side":"p2","op":"retype","t":292.47,"was":["tss",1,0],"kind":"single","lines":1,"pc":0,"gc":1,
+  "source":"fr/g0/i5.png (292.1-293.8, p2): S locks ~292.5 without clear, then a J (not a T) drops and clears one garbage row at ~292.8 (white flash). Score 36596->36946 (+350 = single 300 + drops), not TSS 2400; the following 294.17 TSD scores +3609 (non-B2B 3600), consistent with a plain single breaking B2B."}
+],
+"cell_edits":[],
+"no_change":[
+ {"n":0,"why":"fr/g0/i0.png, i0z.png: after O locks ~84.37 the J spawns 84.5; at 84.53-84.63 only its dashed ghost moves (rotating/shifting), the piece is still active at KO 84.6. Not locked."},
+ {"n":2,"why":"Score spot fully explained by the two duplicate T-spins retyped in n=1 (224.0 tst) and n=3 (227.17 tsd); the singles/REN/double/TSD/quad that follow match score steps (+300,+466,+600,+766,+908,+1658,+1212,+3600)."},
+ {"n":4,"why":"fr/g0/i4.png: I spawned ~257.9 makes the Tetris (score +3750 at ~258.3, chain quad 257.97); next J spawns 259.1 and is still at the top at 259.25; not locked by KO 259.27."},
+ {"n":6,"why":"Covered by correction n=5: the 292.47 clear is a plain J single; the T-SPIN Double banner is not for this clear (true TSD is the 294.17 piece, +3609)."},
+ {"n":7,"why":"fr/g0/i7.png: last lock (L) ~615.25; hold swap at 615.4; the T from hold is still falling at 615.47-615.6 when やった appears. No lock by KO 615.57."},
+ {"n":8,"why":"Score reads 94854 steadily from 615.60 (digits behind KO overlay before); the +100 is a misread of a covered digit, no clear."},
+ {"n":10,"why":"fr/g0/i10.png 770.4-774.65: J held at 770.6, the I from hold hovers vertically in the well for ~3 s and locks ~773.7 as a Tetris (+3754); next I spawns 774.7 and makes another Tetris (+3924 at 774.87). One piece in the gap, which the chain has (770.6 quad); BREAK is only a marker."},
+ {"n":11,"why":"fr/g0/i11.png: the 811.13 piece is a T placed upright clearing one row with REN 4 shown; score 56087->56993 (+906 = single 300 + REN 600). Plain single, chain already single."},
+ {"n":12,"why":"fr/g0/i12.png: T taken from hold is soft-dropping (score +1/frame 74444->74454 through 822.67) and still falling at KO 822.63; not locked."},
+ {"n":13,"why":"Score is steady 74454 after the soft drop; the +138 at 822.87 is a misread under the KO overlay, no clear."}
+]}
