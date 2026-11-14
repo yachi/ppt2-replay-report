@@ -1,0 +1,251 @@
+[
+ {
+  "id": "d018",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 5.70 s from 1043.07 s; B events spliced (D2/D3)",
+  "t_s": 1043.07,
+  "n": 16
+ },
+ {
+  "id": "d018",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "d018",
+   "player": "p2",
+   "t0": 1043.07,
+   "t1": 1056.03,
+   "step": -1584,
+   "unexplained": -1584,
+   "near": [
+    [
+     1043.37,
+     1200,
+     "single"
+    ],
+    [
+     1043.5,
+     1350,
+     "single"
+    ],
+    [
+     1049.93,
+     1500,
+     "single"
+    ],
+    [
+     1051.3,
+     1650,
+     "single"
+    ],
+    [
+     1054.4,
+     2400,
+     "quad"
+    ],
+    [
+     1055.53,
+     450,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 1043.07,
+  "n": 17
+ },
+ {
+  "id": "d018",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.57 s from 1043.37 s; B events spliced (D2/D3)",
+  "t_s": 1043.37,
+  "n": 18
+ },
+ {
+  "id": "d018",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 1061.73 s typed as a plain clear [tsb-hint-v1] one score jump +623 at 1062.0 s: fits plain single only",
+  "t_s": 1061.73,
+  "n": 19
+ },
+ {
+  "id": "d023",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +180 at 236.8 s (KO 237.0 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 236.8,
+  "n": 21
+ },
+ {
+  "id": "d023",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.50 s before the KO)",
+  "t_s": 237.0,
+  "n": 22
+ },
+ {
+  "id": "d025",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tst at 328.07 s typed as a plain clear [tsb-hint-v1] one score jump +6936 at 327.97 s: fits tst only",
+  "t_s": 328.07,
+  "n": 23
+ },
+ {
+  "id": "d025",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +75 at 332.5 s (KO 333.33 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 332.5,
+  "n": 24
+ },
+ {
+  "id": "d026",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +137 at 412.0 s (KO 412.47 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 412.0,
+  "n": 25
+ },
+ {
+  "id": "d026",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 412.47,
+  "n": 26
+ },
+ {
+  "id": "d029",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "d029",
+   "player": "p1",
+   "t0": 514.16,
+   "t1": 522.1,
+   "step": -3874,
+   "unexplained": -3874,
+   "near": [
+    [
+     514.0,
+     2550,
+     "quad"
+    ],
+    [
+     514.37,
+     3900,
+     "quad"
+    ],
+    [
+     518.87,
+     3600,
+     "quad"
+    ],
+    [
+     520.6,
+     5400,
+     "tsd"
+    ],
+    [
+     522.0,
+     900,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 514.16,
+  "n": 27
+ },
+ {
+  "id": "d031",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 618.13,
+  "n": 28
+ },
+ {
+  "id": "d032",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "d032",
+   "player": "p1",
+   "t0": 637.17,
+   "t1": 643.43,
+   "step": -1575,
+   "unexplained": -1575,
+   "near": [
+    [
+     637.23,
+     1650,
+     "double"
+    ],
+    [
+     641.07,
+     2400,
+     "quad"
+    ],
+    [
+     643.33,
+     900,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 637.17,
+  "n": 29
+ },
+ {
+  "id": "d033",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 686.47 s typed as a plain clear [tsb-hint-v1] one score jump +3750 at 686.9 s: fits both or neither",
+  "t_s": 686.47,
+  "n": 30
+ },
+ {
+  "id": "d034",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "d034",
+   "player": "p1",
+   "t0": 742.77,
+   "t1": 746.07,
+   "step": -1188,
+   "unexplained": -1188,
+   "near": [
+    [
+     742.37,
+     1050,
+     "double"
+    ],
+    [
+     742.87,
+     1200,
+     "double"
+    ],
+    [
+     745.1,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 742.77,
+  "n": 31
+ },
+ {
+  "id": "d036",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +776 at 47.06 s (KO 47.93 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 47.06,
+  "n": 32
+ }
+]

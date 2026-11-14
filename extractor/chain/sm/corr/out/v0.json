@@ -1,0 +1,20 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/d000.png 23.2-24.3: T rotated into the slot, 2 coloured rows (no garbage) clear ~23.6, 'Double' + BACK to BACK banner; score.py p2 5273->10673 by 23.7 = +5400 = TSD x1.5."},
+{"ref":"e1","verdict":"keep","why":"nextcount p2 510-530: shifts 512.00 then 528.73 only; score.py p2 flat 20061 511.97-528.07. REN jumps +1650 (528.07), +1800, +1950, +2100, +2250, +2400, +2550, +2700, +2850 (537.53) = 9 clears matching chain 512.0 plus 528.73..537.27 (8); 525.43 is the extra."},
+{"ref":"e2","verdict":"keep","why":"score.py p2 +1500 at 511.33 (single REN8, the 510.73 clear) then +1650 at 528.07 (REN9): no break."},
+{"ref":"e3","verdict":"keep","why":"nextcount p1 510-531: shift 515.77, hold 521.97, next shift 529.97; only one piece (the T after the S swap) between them. 528.2 phantom."},
+{"ref":"e4","verdict":"keep","why":"score.py p1 flat 18937 515.13-529.33, single +2100 at 529.33 (Mini 600 + REN10 1500) for the 515.87 turn; next +1950 at 530.10 is the 530.07 single. 529.2 duplicate."},
+{"ref":"e5","verdict":"keep","why":"score.py p1: +1650 at 515.13 (REN9 for the 512.83 single), +2100 at 529.33 (REN10): continuous."},
+{"ref":"e6","verdict":"keep","why":"score.py p1 +2100 529.33 (REN10) then +1950 530.10 (REN11), +2100 530.93, +2250 531.80, +3600 532.67 (triple REN14), +3150 533.60, +2700 534.50: continuous."},
+{"ref":"e7","verdict":"keep","why":"fr/v0/d010.png: T at 566.0-566.3 fills the last 2 rows, PERFECT CLEAR banner on an empty board 566.4; score.py 6892->11569 at 566.33 (+4677)."},
+{"ref":"e8","verdict":"keep","why":"fr/v0/d010.png 566.5-567.0: J held, O dropped on the empty board with no clear (score +5/+28 drops only until 569.7). nextcount shift 566.40, hold 566.53."},
+{"ref":"e9","verdict":"keep","why":"fr/v0/d014.png: Z held, O dropped 750.83 clearing the last 2 rows, PERFECT CLEAR at 750.97 on an empty board; score.py 11507->12407->16007."},
+{"ref":"e10","verdict":"keep","why":"fr/v0/d014.png 751.04-751.44: J held, Z locks on the empty board ~751.24 with no clear (16008->16046), then O held and J locked; no clear until the 753.47 TSD."},
+{"ref":"e11","verdict":"keep","why":"nextcount p1 963-971: shifts 964.13, 964.40, 964.77, 969.60, no hold change; score.py p1 flat 54137 964.67-969.50. No lock between 964.77 and 969.60."},
+{"ref":"e12","verdict":"keep","why":"Same as e11."},
+{"ref":"c0","verdict":"keep","why":"Follows e1 (one spawn 512.0-528.73)."},
+{"ref":"c1","verdict":"keep","why":"score.py p2 REN bonuses +1500 (REN8, 511.33) .. +2850 (REN17, 537.53), each step +150: 18 consecutive clears 502.7-537.27, REN17."},
+{"ref":"c2","verdict":"keep","why":"Follows e3/e4 (nextcount: one spawn 515.77 plus hold swap until 529.97)."},
+{"ref":"c3","verdict":"keep","why":"score.py p1 REN9 at 515.13, REN10 529.33 ... REN16 (+2700 = 300+2400) at 534.50; 17 consecutive clears from 503.3."},
+{"ref":"c4","verdict":"keep","why":"Follows e11/e12."}
+]

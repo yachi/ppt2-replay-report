@@ -1,0 +1,188 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "nextcount p2 1041-1051: spawns 1041.433, 1042.300, 1043.367, 1049.933 only (none at 1043.50); score p2 jumps 1042.00, 1043.07, 1049.30, 1051.03 map one-to-one to spawns 1041.43/1042.30/1043.37/1049.93. 1043.50 single is a phantom."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Exact frames fr/v1/d026z.png: S still falling at 412.4333, locked (score 91174->91190, no row filled) at 412.4667, the same frame p2's board first tilts (KO). Lock on the KO frame counts."
+ },
+ {
+  "ref": "e2",
+  "verdict": "reject",
+  "why": "Exact frames fr/v1/d031zoom.png + d031p2.png: at 618.1333 the J is still at the top of the field with its ghost below and score 86932; p2's board first tilts at 618.1333 (= end_s). J locks at 618.1667 (score 86950), one frame AFTER the KO frame, so it does not count. The checker's 'locks on 618.133' is off by one frame (sheet frame labelled 618.13 is ghost-only)."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "fr/v1/d029.png, d029b.png: Z (spawn 514.0) swapped for held I, I tetris + PERFECT CLEAR ~514.13; next L (spawn 514.233 = chain 514.37) lands on the empty board at ~514.6 with no clear, score only drop points 26651->26681."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "Same frames: the 514.0 event (Z spawn, swapped for held I) is the tetris that empties the board, PERFECT CLEAR banner 514.17-514.8."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Chain clears tst/tsd/tsd then triple, quad(PC), quad 518.87, tsd 520.6 after removing the phantom: longest difficult run 3 clears -> max_b2b 2 (A-file convention max_b2b = run-1)."
+ },
+ {
+  "ref": "e6",
+  "verdict": "amend",
+  "why": "The PC is real but belongs to the 636.47 event, not 637.23. fr/v1/d032b.png/d032.png + nextcount: S spawned 636.467 hangs, drops and clears the last 2 rows at ~637.10 -> PERFECT CLEAR banner 637.17 (4 REN, after single 634.97 '2 REN' and I single 635.77 '3 REN'). The 637.23 event is the T spawn (637.233), which is held (hold 637.333 T) and the J comes out of hold and locks at ~637.43 with no clear (score 15592->15630, drop points; J visible bottom-left at 637.50-637.70). So: retype 636.47 double -> double pc=1, and 637.23 double -> None (see missed m1).",
+  "amended": {
+   "t": 636.47,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/v1/d032b.png, fr/v1/d032.png: S spawned 636.467 clears the last 2 rows at ~637.10, board empty, PERFECT CLEAR banner from 637.17."
+  }
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v1/d034.png: T (from hold, S held at 742.47) clears 2 rows at ~742.77 -> PERFECT CLEAR; that is the 742.37 (S spawn 742.333) event."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "fr/v1/d034.png: O spawned 742.867 (= chain 742.87) falls onto the empty board and locks ~743.1 with no clear; score 11566->11601 drop points only. Only one clear in the window."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "fr/v1/d036.png: S spawned 47.03 hard-dropped, one row flashes white 47.06-47.40, REN banner 2->3, score 46885->47661 (+776). Next T spawns 47.70 and is still falling (then held) at KO 47.93."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Phantom 1043.50 had no spawn (nextcount p2)."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "S locked on the KO frame 412.4667 (fr/v1/d026z.png)."
+ },
+ {
+  "ref": "c2",
+  "verdict": "reject",
+  "why": "J locks at 618.1667, one frame after the KO tilt at 618.1333 (fr/v1/d031zoom.png, d031p2.png); pieces stays 114."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "Without the phantom quad the longest B2B run is 3 difficult clears (tst,tsd,tsd and quad,quad,tsd) -> 2."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "fr/v1/d029b.png: J (swapped from hold) triple ~513.25, then Z swapped for held I -> tetris PC (REN 1), then L locks with no clear. No other run longer than 1 (chain has non-clearing locks between all other clears)."
+ },
+ {
+  "ref": "c5",
+  "verdict": "keep",
+  "why": "Triple 741.6 -> double PC 742.77 = 1 REN; O at 742.87 does not clear (fr/v1/d034.png); other clears all preceded by non-clearing locks."
+ },
+ {
+  "ref": "c6",
+  "verdict": "keep",
+  "why": "quad 43.5, tsd 44.8, quad 46.07, single ~47.05 consecutive; '3 REN' banner appears at 47.13 (fr/v1/d036.png)."
+ },
+ {
+  "ref": "m1",
+  "verdict": "missed",
+  "why": "Companion to e6: the 637.23 d032 p1 event is the T-spawn/hold-swap whose J locks without clearing.",
+  "proposal": {
+   "id": "d032",
+   "side": "p1",
+   "op": "retype",
+   "t": 637.23,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount p1: shift 637.233 then hold 637.333 T; fr/v1/d032.png 637.30-637.70: T comes out, is held, J drops to bottom-left and locks ~637.43 on the empty board, no row cleared; score 15592->15631 drop points only. The only double here is the S's PC at ~637.10 (636.47 event)."
+  }
+ },
+ {
+  "ref": "m2",
+  "verdict": "missed",
+  "why": "d033 p2 max_b2b: with 686.47 retyped to TSS, the tst 685.3 -> tss 686.47 is a B2B (BACK to BACK banner at 686.87, fr/g1/d033.png and fr/v1/d033.png); chain_games has max_b2b 0. No longer difficult run exists in d033 p2 (all other tsd/tst/quads separated by plain clears).",
+  "proposal": {
+   "id": "d033",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 0,
+   "value": 1,
+   "source": "fr/v1/d033.png: 'BACK to BACK' banner with the T-SPIN Single at 686.87, score +3750 = TSS*1.5 + REN."
+  }
+ },
+ {
+  "ref": "m3",
+  "verdict": "missed",
+  "why": "n23 (d025 p1) no_change is wrong about the piece: the triple PC is made by an L that the chain never logged. nextcount p1 shifts 327.133 (J), 327.867 (L), 328.067 (Z); chain has only 327.13 None and 328.07 triple. fr/v1/d025.png: J locks ~327.75, L spawns 327.87 and is dropped vertically at 327.93 (+36 drop) -> triple + PERFECT CLEAR (+1500, +5400 at 327.97-328.00); then Z spawns 328.07, is held at ~328.47 and the T from hold locks ~328.80 on the empty board with no clear. The cleared rows are coloured piece cells, no grey garbage (gc 0, chain said 3).",
+  "proposal": {
+   "id": "d025",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 327.8,
+   "t_end": 328.1,
+   "events": [
+    {
+     "t": 327.87,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 328.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     328.07,
+     "triple",
+     3
+    ]
+   ],
+   "source": "nextcount p1 326.9-329.2; score.py 327.93 +36, 327.97 +1500, 328.00 +5400; fr/v1/d025.png 327.73-328.87. Cell edit: d025 p1 pieces 102 -> 103 (the L at 327.87 was not counted)."
+  }
+ },
+ {
+  "ref": "m4",
+  "verdict": "missed",
+  "why": "Pieces companion to m3: the L spawned 327.867 and locked at 327.93 is not in the chain.",
+  "proposal": {
+   "id": "d025",
+   "player": "p1",
+   "field": "pieces",
+   "was": 102,
+   "value": 103,
+   "source": "nextcount p1 shifts 327.133/327.867/328.067 vs chain events 327.13/328.07 only; fr/v1/d025.png."
+  }
+ },
+ {
+  "ref": "n32-dup",
+  "verdict": "note",
+  "why": "d036 p1 two chain events at 40.37 are NOT a double count: fr/v1/d036b.png/d036c.png show after the T-spin mini clear (~39.5-40.1) an S that locks at 40.30 and an O that spawns ~40.33 and locks at 40.50, then T (held, Z out) and J (held, T out). Two pieces, two events; only the S's time is mislogged (spawned ~40.1). No change."
+ }
+]

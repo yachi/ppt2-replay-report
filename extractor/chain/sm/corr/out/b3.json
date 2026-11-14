@@ -1,0 +1,482 @@
+{
+ "event_corrections": [
+  {
+   "n": 50,
+   "id": "d010",
+   "side": "p1",
+   "op": "retype",
+   "t": 565.97,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "T spawned 565.9, locked ~566.2 clearing the last 2 rows; PERFECT CLEAR banner and empty board from 566.4; score 6892->11569 at 566.33 (+4677 = double 900 + PC 3600 + REN), one jump only. /tmp/claude-0/sm/corr/fr/g3/d010.png"
+  },
+  {
+   "n": 50,
+   "id": "d010",
+   "side": "p1",
+   "op": "retype",
+   "t": 566.4,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); the 566.4 spawn is J, held (hold 566.53), O placed with no clear; no score jump after 566.33 (only drop points). /tmp/claude-0/sm/corr/fr/g3/d010.png"
+  },
+  {
+   "n": 51,
+   "id": "d014",
+   "side": "p1",
+   "op": "retype",
+   "t": 750.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Score 11507->12407->16007 at 750.93-750.97 (+4500 = double + PC bonus), one clear; piece spawned 750.8 (Z held, O from hold placed) cleared before next spawn 751.0; banner onset 751.2."
+  },
+  {
+   "n": 51,
+   "id": "d014",
+   "side": "p1",
+   "op": "retype",
+   "t": 751.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); no score jump after 750.97 except drop points (16008..16197 to 752.4); the 751.0 piece locked without a clear."
+  },
+  {
+   "n": 52,
+   "id": "d018",
+   "side": "p1",
+   "op": "retype",
+   "t": 1160.2,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 1,
+   "source": "Score 157516->158416->162016 at 1160.43-1160.50 (+4500 double + PC bonus), one clear; piece spawned 1160.13 (O from hold) cleared before next spawn 1160.57; banner onset 1160.7."
+  },
+  {
+   "n": 52,
+   "id": "d018",
+   "side": "p1",
+   "op": "retype",
+   "t": 1160.57,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); no score jump after 1160.50 except drop points through 1162."
+  },
+  {
+   "n": 53,
+   "id": "d022",
+   "side": "p1",
+   "op": "retype",
+   "t": 139.03,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z spawned 139.03 held, I from hold dropped into the 4-row stack: TETRIS + PERFECT CLEAR at 139.33 (score 8995->22205, one jump; the 137.97 +3600 is the earlier TSS). /tmp/claude-0/sm/corr/fr/g3/d022a.png"
+  },
+  {
+   "n": 53,
+   "id": "d022",
+   "side": "p1",
+   "op": "retype",
+   "t": 139.4,
+   "was": [
+    "quad",
+    4,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); O spawned 139.4 held, no clear; board empty with PC banner 139.35-139.83, only drop points after 139.33. /tmp/claude-0/sm/corr/fr/g3/d022a.png"
+  },
+  {
+   "n": 53,
+   "id": "d022",
+   "side": "p1",
+   "op": "retype",
+   "t": 139.73,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); no clear: score 22205->22283 only drop points 139.4-140.8; the TETRIS text at 139.83 is the lingering banner of the 139.33 clear. /tmp/claude-0/sm/corr/fr/g3/d022a.png"
+  },
+  {
+   "n": 54,
+   "id": "d022",
+   "side": "p1",
+   "op": "retype",
+   "t": 161.43,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "L placed ~161.4 clears 3 clean rows: PERFECT CLEAR, score 56350->63250 at 161.47 (+6900 = triple 1500 + PC 5400), one jump. /tmp/claude-0/sm/corr/fr/g3/d022b.png"
+  },
+  {
+   "n": 54,
+   "id": "d022",
+   "side": "p1",
+   "op": "retype",
+   "t": 161.53,
+   "was": [
+    "triple",
+    3,
+    3
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); O spawned 161.52 held, T played on the empty board; no further clear (only drop points to 163.4). /tmp/claude-0/sm/corr/fr/g3/d022b.png"
+  },
+  {
+   "n": 55,
+   "id": "d025",
+   "side": "p1",
+   "op": "retype",
+   "t": 294.57,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Score 11117->15767 at 294.87 (+4650 = double + PC bonus + REN), one clear; piece spawned 294.6 cleared before next spawn 294.93; banner onset 295.1."
+  },
+  {
+   "n": 55,
+   "id": "d025",
+   "side": "p1",
+   "op": "retype",
+   "t": 294.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); no score jump after 294.87 except drop points to 296."
+  },
+  {
+   "n": 56,
+   "id": "d029",
+   "side": "p1",
+   "op": "retype",
+   "t": 514.0,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z spawned 514.0 held, I from hold placed: one jump 18067->26651 at 514.17 (+8584 = tetris + PC + REN); banner onset 514.4; next spawn 514.23."
+  },
+  {
+   "n": 56,
+   "id": "d029",
+   "side": "p1",
+   "op": "retype",
+   "t": 514.37,
+   "was": [
+    "quad",
+    4,
+    4
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); no score jump after 514.17 except drop points (26652..26789 to 515.4)."
+  },
+  {
+   "n": 57,
+   "id": "d032",
+   "side": "p1",
+   "op": "retype",
+   "t": 636.47,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "S spawned 636.4, dropped at ~637.0 completing the last 2 rows: PERFECT CLEAR banner 637.18, score ->15591 (10474 before, +5117 = double + PC + 4 REN). /tmp/claude-0/sm/corr/fr/g3/d032.png, /tmp/claude-0/sm/corr/fr/g3/d032pre.png"
+  },
+  {
+   "n": 57,
+   "id": "d032",
+   "side": "p1",
+   "op": "retype",
+   "t": 637.23,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); T spawned 637.23 held, J from hold placed on the empty board; no clear, only drop points 15592..15808. /tmp/claude-0/sm/corr/fr/g3/d032.png"
+  },
+  {
+   "n": 58,
+   "id": "d034",
+   "side": "p1",
+   "op": "retype",
+   "t": 742.37,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "S spawned 742.38 held, T from hold dropped flat at ~742.7 clearing the last 2 rows: PERFECT CLEAR, score 6883->11565 at 742.80 (+4682). /tmp/claude-0/sm/corr/fr/g3/d034.png"
+  },
+  {
+   "n": 58,
+   "id": "d034",
+   "side": "p1",
+   "op": "retype",
+   "t": 742.87,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); O spawned 742.86 placed on the empty board, no clear; only drop points after 742.80. /tmp/claude-0/sm/corr/fr/g3/d034.png"
+  },
+  {
+   "n": 59,
+   "id": "d039",
+   "side": "p1",
+   "op": "retype",
+   "t": 214.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "T spawned 214.1 dropped vertically into the right column: the green/orange row and the grey garbage row both clear (two-row white flash 214.4-214.6), one cyan/red row left. Not a T-spin by score (~+1000, double + REN). /tmp/claude-0/sm/corr/fr/g3/d039b.png, /tmp/claude-0/sm/corr/fr/g3/d039.png"
+  },
+  {
+   "n": 59,
+   "id": "d039",
+   "side": "p1",
+   "op": "retype",
+   "t": 215.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "I spawned 215.13 laid flat on the last row (6 cells): PERFECT CLEAR banner 215.32, score 54909->57947 (+3038 = single + PC + REN). /tmp/claude-0/sm/corr/fr/g3/d039.png"
+  },
+  {
+   "n": 59,
+   "id": "d039",
+   "side": "p1",
+   "op": "retype",
+   "t": 215.37,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); L spawned 215.37 held, J from hold placed on the empty board; no clear, score only drop points after 215.30. /tmp/claude-0/sm/corr/fr/g3/d039.png"
+  },
+  {
+   "n": 60,
+   "id": "d042",
+   "side": "p1",
+   "op": "retype",
+   "t": 332.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Score 11282->12332->15932 at 332.37-332.40 (+4650 double + PC + REN), one clear; piece spawned 332.17 cleared before next spawn 332.43; banner onset 332.6."
+  },
+  {
+   "n": 60,
+   "id": "d042",
+   "side": "p1",
+   "op": "retype",
+   "t": 332.43,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); no score jump after 332.40 except drop points to 333.3."
+  },
+  {
+   "n": 61,
+   "id": "d044",
+   "side": "p1",
+   "op": "retype",
+   "t": 409.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Score 11266->15916 at 410.43 (+4650 double + PC + REN), one clear; piece spawned 410.0 (S held, piece from hold placed) cleared before next spawn 410.5; banner onset 410.7."
+  },
+  {
+   "n": 61,
+   "id": "d044",
+   "side": "p1",
+   "op": "retype",
+   "t": 410.5,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); no score jump after 410.43 except drop points to 411.4."
+  },
+  {
+   "n": 62,
+   "id": "d052",
+   "side": "p1",
+   "op": "retype",
+   "t": 764.7,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "chain is off by one piece here: J spawned 764.7 dropped vertically into the left column at ~764.9 clearing the 3 rows: PERFECT CLEAR banner 765.04, score 10952->17852 at 765.00 (+6900 = triple + PC). /tmp/claude-0/sm/corr/fr/g3/d052.png"
+  },
+  {
+   "n": 62,
+   "id": "d052",
+   "side": "p1",
+   "op": "retype",
+   "t": 765.03,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same piece count (one chain event per NEXT shift, nextcount.py); O spawned 765.03 placed on the empty board, no clear (only drop points 17852..17963). /tmp/claude-0/sm/corr/fr/g3/d052.png"
+  }
+ ],
+ "cell_edits": [],
+ "no_change": []
+}

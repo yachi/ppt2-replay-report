@@ -1,0 +1,257 @@
+{
+ "event_corrections": [
+  {
+   "n": 17,
+   "id": "d018",
+   "side": "p2",
+   "op": "remove",
+   "t": 1043.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "nextcount p2: spawns at 1042.30, 1043.37, then 1049.93 (game frozen for the match-point cut-in 1044-1048.6, fr/g1/d018a.png); no spawn at 1043.50. p2 score jumps: 1042.00 +916, 1043.07 +1064 (REN5), 1049.30 +1200 (REN6), 1051.03 +1366 (REN7), 1052.77 +1516 (REN8), 1054.70 +2400 quad; the chain singles 1042.3/1043.37/1049.93/1051.3 map to the last four singles one-to-one, so 1043.50 is a phantom duplicate."
+  },
+  {
+   "n": 26,
+   "id": "d026",
+   "side": "p1",
+   "op": "add",
+   "t": 412.33,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "nextcount spawn 412.333 (S); fr/g1/d026.png: S hard-dropped and locked with lock flash on the 412.47 frame (score 91174->91190, drop points only, no row filled) = the KO frame. Chain's last event is 412.10 (the J/I hold-swap piece that locked at 412.27)."
+  },
+  {
+   "n": 28,
+   "id": "d031",
+   "side": "p1",
+   "op": "add",
+   "t": 617.97,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "J spawned ~617.97 (nextcount shift 618.000), fr/g1/d031.png + d031k.png: J locks on frame 618.133 (= KO frame 618.13; frame 618.100 still shows ghost), score 86932->86950, no clear. Chain's last event 617.70 is the previous piece (locked 617.90)."
+  },
+  {
+   "n": 27,
+   "id": "d029",
+   "side": "p1",
+   "op": "retype",
+   "t": 514.37,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/d029.png: only one TETRIS at 514.10-514.17 (vertical I, board emptied = PERFECT CLEAR, score 18067->26651). The next piece (L, spawn 514.23) locks at ~514.4 on an empty board with no clear (score +small drop points only)."
+  },
+  {
+   "n": 27,
+   "id": "d029",
+   "side": "p1",
+   "op": "retype",
+   "t": 514.0,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g1/d029.png 514.10-514.80: the I-tetris at 514.17 empties the board, PERFECT CLEAR banner over the empty board; this is the game's PC (chain pc count 0 for d029 p1)."
+  },
+  {
+   "n": 29,
+   "id": "d032",
+   "side": "p1",
+   "op": "retype",
+   "t": 637.23,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g1/d032.png: vertical S at ~637.17 clears the last 2 rows, board empty, PERFECT CLEAR banner 637.2-637.8, score 10474->15591 (+5117, double+REN+PC bonus). Chain had this double with pc=0 and no PC anywhere in d032 p1."
+  },
+  {
+   "n": 30,
+   "id": "d033",
+   "side": "p2",
+   "op": "retype",
+   "t": 686.47,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "source": "fr/g1/d033.png: T rotated into the overhung slot (686.47-686.8), one row clears at 686.87 with banner '...Single' + BACK to BACK; score 5329->9079 = +3750 = TSS b2b 3600 + REN 150, a plain single would not be b2b."
+  },
+  {
+   "n": 31,
+   "id": "d034",
+   "side": "p1",
+   "op": "retype",
+   "t": 742.87,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/d034a.png: at 742.37-742.5 the S is held and the T comes out of hold; T clears the last 2 rows at 742.77 -> PERFECT CLEAR. The next piece (O, spawn 742.87) locks at ~743.2 on the empty board with no clear. Only one double here."
+  },
+  {
+   "n": 31,
+   "id": "d034",
+   "side": "p1",
+   "op": "retype",
+   "t": 742.37,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g1/d034a.png: the T (from hold) clears the last two rows at 742.77; board empty, PERFECT CLEAR banner 742.77-743.23; score 6883->11565."
+  },
+  {
+   "n": 32,
+   "id": "d036",
+   "side": "p1",
+   "op": "retype",
+   "t": 46.97,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/d036.png: S locks at ~47.05 and the row above the garbage clears (white flash 47.05-47.4), REN banner goes 2->3, score 46911->47661 = +750 = single 300 + 3 REN 450. The next T (spawn 47.70) is still falling at KO 47.93."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "d018",
+   "player": "p2",
+   "field": "pieces",
+   "was": 396,
+   "value": 395,
+   "source": "phantom single at 1043.50 removed: no NEXT shift between 1043.37 and 1049.93 (nextcount p2).",
+   "n": 17
+  },
+  {
+   "id": "d026",
+   "player": "p1",
+   "field": "pieces",
+   "was": 141,
+   "value": 142,
+   "source": "S locked on KO frame 412.47, fr/g1/d026.png",
+   "n": 26
+  },
+  {
+   "id": "d031",
+   "player": "p1",
+   "field": "pieces",
+   "was": 114,
+   "value": 115,
+   "source": "J locked on KO frame 618.133, fr/g1/d031k.png",
+   "n": 28
+  },
+  {
+   "id": "d029",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 3,
+   "value": 2,
+   "source": "phantom quad at 514.37 removed: real B2B run is quad 514.0, quad 518.87, tsd 520.6 (tst/tsd/tsd earlier also 2).",
+   "n": 27
+  },
+  {
+   "id": "d029",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 1,
+   "source": "real REN run triple 513.07 -> quad 514.0, then the L at 514.37 locks without a clear; no other run longer.",
+   "n": 27
+  },
+  {
+   "id": "d034",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 1,
+   "source": "triple 741.43 -> double(PC) 742.37, then the O at 742.87 locks without clearing (fr/g1/d034a.png); the 'REN' banner at 742.83 is the 1-REN.",
+   "n": 31
+  },
+  {
+   "id": "d036",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 3,
+   "source": "quad 43.5, tsd 44.8, quad 46.07, single 47.05 consecutive; 3 REN banner at 47.12 (fr/g1/d036.png).",
+   "n": 32
+  }
+ ],
+ "no_change": [
+  {
+   "n": 16,
+   "why": "p1 NEXT 'gap' 1043.07-1048.77 is the match-point cut-in freeze (board and score static, fr/g1/d018a.png); nextcount p1 shifts match the chain events 1042-1064 one for one, and score jumps fit single 1049.93, tsd 1050.77, quad 1052.03, quad 1053.93."
+  },
+  {
+   "n": 18,
+   "why": "p2 gap is the same match-point freeze 1044-1048.6; the only error in the window is the phantom single at 1043.50 (handled under n=17)."
+  },
+  {
+   "n": 19,
+   "why": "fr/g1/d018b.png: T laid flat on top of the stack, no T-spin banner (TETRIS banner lingering from 1060.53), +623 = single 300 + 2 REN 300 + drops; plain single is correct."
+  },
+  {
+   "n": 21,
+   "why": "+180 at 236.80 is accumulated drop points (overlay hid the score 235.2-236.8); fr/g1/d023.png shows no row cleared before KO."
+  },
+  {
+   "n": 22,
+   "why": "fr/g1/d023.png: last lock is the Z at ~236.4 (chain 236.30); the next S was held at 236.83 and the T is still soft-dropping at KO 237.0 (score +1/frame), so nothing locks on the KO frame."
+  },
+  {
+   "n": 23,
+   "why": "fr/g1/d025.png: an L dropped vertically into a 3-deep well clears 3 rows and the board (PERFECT CLEAR); no T involved. Chain's triple pc=1 is right; the +6936 is triple + PC bonus."
+  },
+  {
+   "n": 24,
+   "why": "+75 = drop points of two pieces (332.2, 332.47); fr/g1/d025k.png: the L (chain 332.47) soft-drops and locks at ~333.2 with no clear before KO 333.33; next I spawns 333.37."
+  },
+  {
+   "n": 25,
+   "why": "+137..+173 over 410.2-412.47 is drop points of several locks, no clear (fr/g1/d026.png); the missed KO-frame lock is handled under n=26."
+  }
+ ]
+}

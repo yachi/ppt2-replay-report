@@ -1,0 +1,30 @@
+{"event_corrections":[
+{"n":36,"id":"d042","side":"p1","op":"retype","t":329.03,"was":["double",2,0],"kind":"tsd","lines":2,"source":"score.py: p1 +4800 at 328.30 (TST 327.6) then +5550 at 329.80 = TSD 3600 x1.5 B2B + REN1 150; a plain double REN1 would be 1050."},
+{"n":38,"id":"d044","side":"p1","op":"retype","t":409.93,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,"source":"fr/g2/i38.png: S held ~410.05, J dropped at 410.40 clears the last two (non-garbage) rows, board empty, PERFECT CLEAR banner 410.5-411.0; score +4650 at 410.43 is the only clear jump between 409.27 and 416.33."},
+{"n":38,"id":"d044","side":"p1","op":"retype","t":410.5,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g2/i38.png + score.py: no score jump besides drop points from 410.43 to 416.33; the piece spawned 410.5 (L, held; S played) made no clear. The PC double is the single clear at 409.93's piece."},
+{"n":42,"id":"d046","side":"p1","op":"retype","t":536.47,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g2/i46c.png: coloured row above the garbage clears at 536.6, REN banner appears; score +450 at 536.57 (single REN1), after the B2B quad at 535.63 (+3600)."},
+{"n":42,"id":"d046","side":"p1","op":"remove","t":537.77,"was":["BREAK",2,0],"source":"score.py: p1 REN continues unbroken 536.57 REN1 +450, 537.57 REN2 double +1200, 538.97 REN3 +768, 549.3 REN4 double +1500, 561.27 REN5 +1050, 573.37 REN6 +1200, 574.6 REN7 +1368; '3 REN' banner in fr/g2/i46a.png at 539.0."},
+{"n":42,"id":"d046","side":"p1","op":"remove","t":539.3,"was":["BREAK",2,0],"source":"same REN sequence as above; no break at 539.3."},
+{"n":42,"id":"d046","side":"p1","op":"remove","t":544.87,"was":["double",2,0],"source":"nextcount p1: spawn O 539.23, next spawn 550.03 only; O locks with +1500 (double REN4) at 549.3; no score change 539-549 (fr/g2/i46a.png, slow play). Phantom."},
+{"n":43,"id":"d046","side":"p1","op":"remove","t":555.03,"was":[null,0,0],"source":"nextcount p1: I spawned 550.03, next spawn 561.93; I locks 561.27 single REN5 +1050; no other lock in between (fr/g2/i46a.png)."},
+{"n":43,"id":"d046","side":"p1","op":"remove","t":555.33,"was":["BREAK",2,0],"source":"REN unbroken through 561.27 (REN5) and 573.37 (REN6)."},
+{"n":43,"id":"d046","side":"p1","op":"remove","t":560.83,"was":["single",1,0],"source":"only one clear (561.27 +1050) between 549.3 and 573.37; it belongs to the I at 550.07. Phantom."},
+{"n":46,"id":"d046","side":"p1","op":"remove","t":573.67,"was":["single",1,0],"source":"nextcount p1: S spawned 561.93 held 568.73 (Z out, Z locks 573.37 +1200 REN6 = chain 562.03); next spawn J 574.03 held, S out locks 574.6 +1368 REN7 = chain 574.03. No piece between: 573.67 is a duplicate."},
+{"n":40,"id":"d046","side":"p2","op":"remove","t":538.63,"was":["single",1,0],"source":"nextcount p2: Z spawn 538.57, next spawn 550.93; one clear only (550.3 +1350, REN7). Duplicate of 538.57."},
+{"n":41,"id":"d046","side":"p2","op":"remove","t":547.87,"was":["single",1,0],"source":"no spawn and no score change between 538.57 and 550.93 except the Z clear at 550.3 (fr/g2/i46a.png: Z hovers down 539.7-549.7, '7 REN' at 549.7). Phantom."},
+{"n":45,"id":"d046","side":"p2","op":"remove","t":550.93,"was":["single",1,0],"source":"I spawned 550.93 and was held at 559.57 (T out); T locks 569.83 +1500 (REN8) = chain 569.03. 550.93 is the held I, no lock of its own, no score."}
+],
+"cell_edits":[
+{"n":37,"id":"d043","player":"p1","field":"pieces","was":66,"value":67,"source":"fr/g2/i37.png: L spawned 391.23 is hard-dropped and locked on the KO frame 391.50 (drop streak, score 46382->46410 +28 drop points, no clear)."},
+{"n":41,"id":"d046","player":"p2","field":"pieces","was":62,"value":59,"source":"three phantom locks removed (538.63, 547.87, 550.93); nextcount p2 shows only Z (538.57) and I->T (550.93/569) spawns in 538.6-570.5."},
+{"n":47,"id":"d046","player":"p2","field":"max_combo","was":18,"value":15,"source":"score.py p2 REN values: 537.3 +1074 (REN5) ... 577.67 +2400 (single REN14), 578.43 +3150 = double 900 + REN15 2250; last clear before KO 578.5."},
+{"n":42,"id":"d046","player":"p1","field":"max_combo","was":5,"value":7,"source":"score.py p1: REN1 536.57 +450 through REN7 574.6 +1368 (single 300+1050); J at ~575.2 makes no clear."}
+],
+"no_change":[
+{"n":34,"why":"d037 p2 88.27: +600 at 88.53 = plain single at REN2 (quad 87.47 +2550 was REN1); a mini would be +900. Plain single is right."},
+{"n":35,"why":"d040 p1 239.03: +919 at 239.6 = single REN3 750 + ~170 drop points, the same drop residue as the neighbouring REN2 double (+1374) and REN4 single (+1077); a mini would be >=1050. Plain single is right."},
+{"n":44,"why":"d046 p2 550.3-569.83 deficit is explained by the removals at 550.93 (and REN inflation from 538.63/547.87); real clears 550.3 REN7 and 569.83 REN8."},
+{"n":47,"why":"d046 p2 569.83-578.43: chain events 569.03..578.3 (8) match the 8 score clears (REN8..REN15 double at 578.43); the deficit came only from REN counts inflated by the three phantoms removed under n 40/41/45. Cell edit max_combo given under n 47."},
+{"n":48,"why":"d048 p1: fr/g2/i48.png: the I spawned ~636.5 is still soft-dropping (score +1 per frame) at 636.80, past KO 636.77; it did not lock. Chain's 636.47 is the previous piece (+12 drop at 636.50)."},
+{"n":49,"why":"d053 p2 889.33: fr/g2/i49.png: T laid flat at the right at 889.9 clears one garbage row, no T-spin banner (only the lingering TETRIS); +462 = single REN1 450 + drop. Chain plain single is right."}
+]}

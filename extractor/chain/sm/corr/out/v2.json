@@ -1,0 +1,105 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: +4800 at 328.30 (plain TST) then +5550 at 329.80 = TSD 3600x1.5 + REN1 150; plain double REN1 would be ~1050."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "fr/v2/c.png: J from hold dropped 410.40 clears the last 2 rows, board empty, PERFECT CLEAR banner 410.5-411.8; score +4650 at 410.43 is the only clear jump 409.27-416.33."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py: no clear jump between 410.43 and 416.33 (TSD); fr/v2/c.png shows the following pieces placed on an empty board with no clear."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py p1 +450 at 536.57 = single REN1 after the B2B quad (+3600 at 535.63); chain 536.47 (spawn 536.50) is that piece."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py p1 REN runs unbroken: 536.57 REN1, 537.57 double REN2 +1200, 538.97 REN3 +768, 549.30 REN4 +1500, 561.27 REN5 +1050, 573.37 REN6 +1200, 574.60 REN7 +1368."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "same unbroken REN sequence."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "fr/v2/a.png 538.5-550.5: O hovers slowly from 539.2 and locks 549.3 (+1500); nextcount p1 shows no spawn between 539.23 and 550.03; no p1 score change 538.97-549.30. Phantom."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "nextcount p1: spawns 550.03 then 561.93 only (queue continuous ISJTO>SJTOZ>JTOZ?); one lock (561.27)."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "REN unbroken (REN5 561.27, REN6 573.37)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "only one p1 score jump between 549.30 and 573.37 (561.27 +1050). Phantom."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "nextcount p1: spawns 561.93 and 574.03 only (hold 568.73); two clears 573.37 and 574.60 map to chain 562.03 and 574.03; 573.67 has no spawn (alignment of all 66 p1 spawns to chain events leaves it unmatched)."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "nextcount p2: one spawn 538.57 (ZIOLL>IOLLO) and the next 550.93; one clear (550.30 +1350 REN7). Duplicate."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "no p2 spawn and no p2 score change between 538.30 and 550.30 (fr/v2/a.png Z hovers down). Phantom."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "nextcount p2: I spawned 550.93, held 559.57 (T out, locks 569.83 REN8 +1500), I later swapped back out at 572.67 and locks 572.97 (REN9) = chain 570.50; the 11 p2 score clears 537.30-578.43 match the 11 chain events left after removing 538.63/547.87/550.93."
+ },
+ {
+  "ref": "c0",
+  "verdict": "reject",
+  "why": "fr/v2/d.png: at 391.50 (KO frame) the L is still at the top of p1's board, rotated, not locked; it hard-drops and the score rises 46382->46410 only at 391.53, one frame after end_s; fr/v2/e.png p2 board is already tilting at 391.47-391.50. Per the brief a lock one frame after end_s does not count; pieces stays 66."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "11 p2 clears by score 537.30-578.43 (REN5..REN15) match 11 chain events after the 3 removals; no no-clear lock (only drop points just before clears). 62-3=59."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "score.py p2: 577.67 +2400 = single 300 + REN14 2100; 578.43 +3150 = double 900 + REN15 2250, at 578.43 before KO 578.50. max REN 15."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "score.py p1 REN1..REN7 (536.57..574.60 +1368 = 300+1050); 575.83 +28 only (no clear, REN break), then 576.63 +905 double REN0 and 577.80 +452 single REN1."
+ },
+ {
+  "ref": "n42",
+  "verdict": "missed",
+  "why": "d046 p1 pieces: nextcount p1 over 511.0-578.6 gives 66 shifts with a continuous queue (every unk gap is bridged by matching queue strings): initial spawn 511.33 (L, held into empty at 511.43, pulling I at 511.53) and last spawn 577.87 (O, still at the top unlocked at the KO 578.50, fr/v2/b.png; no p1 score change after 577.80). Locks = 66 - 1 (piece left in hold) - 1 (unlocked O) = 64, and the 64 locking spawns 511.53..577.03 align one-to-one with the chain's 64 non-BREAK events after the checker's removals (the 575.87 duplicate pair = spawns 575.63 and 575.87).",
+  "proposal": {
+   "id": "d046",
+   "player": "p1",
+   "field": "pieces",
+   "was": 75,
+   "value": 64,
+   "source": "nextcount p1 511.0-578.6: 66 spawns incl. the first (511.33); minus the piece left in hold and the O spawned 577.87 that never locked before KO 578.50 (fr/v2/b.png) = 64 locks; matches the corrected event list (64)."
+  }
+ }
+]
