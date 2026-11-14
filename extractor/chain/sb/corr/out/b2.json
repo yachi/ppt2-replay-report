@@ -1,0 +1,29 @@
+{"event_corrections":[
+ {"n":41,"id":"s060","side":"p2","op":"add","t":4242.80,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount: spawn shift at 4242.80 (I), held at 4242.87 so T came out of hold; corr/fr/g2/s060.png shows that T locking at the left at 4243.00, score 93619->93635 (+16 drop points, no clear flash), at or before KO 4243.03. Chain has no event for this spawn."},
+ {"n":42,"id":"s062","side":"p2","op":"retype","t":4370.00,"was":["tsmini",1,0],"kind":null,"lines":0,"source":"banner crops corr/fr/g2/b62.png (4370.45) and b62c.png (4370.75) read 'Mini T-SPIN' with no Single suffix (compare the TST banner in b65.png, which carries 'Triple'); the score rose 70137->70440 (+303 = zero-line mini T-spin 100x3 + 3 drop points), not the 600/900 of a mini single. Zero-line mini T-spin, no line cleared."},
+ {"n":46,"id":"s068","side":"p1","op":"add","t":4683.10,"kind":"single","lines":1,"pc":0,"gc":0,"source":"nextcount spawn at 4683.10 (Z); corr/fr/g2/s068.png and zooms z4683.17.png / z4683.40.png: the Z locks on the left at ~4683.23 and a coloured (non-garbage) row flashes and clears, '2 REN' banner appears; score 49417->49449 (+32 drop) ->50049 (+600 = single 300 + 2 REN x150). Lock at 4683.23 is before KO 4683.37."},
+ {"n":50,"id":"s075","side":"p2","op":"remove","t":5123.20,"was":[null,0,0],"source":"corr/fr/g2/s075a.png: from 5122.83 to ~5130.2 p2's O hangs at the top while the NEXT queue stays TOSIJ (nextcount: no shift between 5122.83 and 5130.23) and p2 score stays 513 the whole time; no piece spawned or locked. 5123.20 and 5128.60 are spliced phantom locks."},
+ {"n":50,"id":"s075","side":"p2","op":"remove","t":5128.60,"was":[null,0,0],"source":"same as the 5123.20 remove: only one piece (the O spawned 5122.83) occupies 5122.83-5130.23; no spawn shift, score constant 513 (corr/fr/g2/s075a.png, nextcount)."},
+ {"n":52,"id":"s075","side":"p2","op":"retype","t":5133.20,"was":["tsd",2,0],"kind":null,"lines":0,"source":"score.py p2: +4800 at 5130.90 (the TST, spawn 5130.23), then one jump 5335->10895 (+5560 = TSD B2B 5400 + REN1 150 + drops) for the clear of the 5131.63 piece; the piece spawned 5133.20 only adds 10895->10931 (+36 drop points) at 5133.30. The TSD banner at 5132.43 belongs to the 5131.63 TSD; the 5133.20 'tsd' is a duplicate."}
+],
+"cell_edits":[
+ {"n":41,"id":"s060","player":"p2","field":"pieces","was":127,"value":128,"source":"T locked at 4243.00 before KO 4243.03 (corr/fr/g2/s060.png), spawn at 4242.80 missing from the chain."},
+ {"n":46,"id":"s068","player":"p1","field":"max_combo","was":1,"value":2,"source":"'2 REN' banner at 4683.25 (corr/fr/g2/s068.png) and +600 score (single 300 + 2x150): TST, quad, single consecutive."},
+ {"n":47,"id":"s068","player":"p1","field":"pieces","was":63,"value":64,"source":"Z spawned 4683.10 locked with a single at ~4683.23, before KO 4683.37 (corr/fr/g2/s068.png); chain had no event for it."},
+ {"n":50,"id":"s075","player":"p2","field":"pieces","was":143,"value":141,"source":"two phantom locks at 5123.20 and 5128.60 in the gap window (no spawn shift, score constant 513; corr/fr/g2/s075a.png)."}
+],
+"no_change":[
+ {"n":40,"why":"s059 p1: O locked 4173.77; the L spawned 4173.87 is still at the top at KO 4174.20 (orange in the stack is its ghost); corr/fr/g2/s059.png, s059b.png."},
+ {"n":43,"why":"s064 p1: T still at the top through KO 4436.90, score 43909 unchanged (corr/fr/g2/s064.png)."},
+ {"n":44,"why":"s065 p1: +7200 at 4498.90 = B2B TST, banner crop corr/fr/g2/b65.png reads T-SPIN Triple; chain tst correct."},
+ {"n":45,"why":"s067 p2: I still at the top through KO 4648.77, score 55232 unchanged (corr/fr/g2/s067.png)."},
+ {"n":48,"why":"s069 p1: the chain's tst at 4693.53 is this clear (score +4800 at 4694.30, both players opened TST); no other tst near it."},
+ {"n":49,"why":"s075 p1: p1's J hangs at the top 5122.83-5131.9 (both players stalled), score 518 constant, no spawn shift; chain has no events in the gap, which is right (corr/fr/g2/s075a.png)."},
+ {"n":51,"why":"s075 p2: the TST banner at 5131.63 is the lingering banner of the TST cleared at 5130.90 (+4800); the 5131.63 piece's clear is a TSD (+5560 = B2B TSD + REN1). Chain tsd correct."},
+ {"n":53,"why":"s075 p2 score spot: explained by one TSD (+5560) and the single (+300); the extra 5133.20 tsd is fixed by the n52 retype, nothing further."},
+ {"n":54,"why":"s076 p2: S (out of hold at 5255.93) still falling at KO 5256.07 (corr/fr/g2/s076.png); not locked."},
+ {"n":55,"why":"s077 p1: +7200 at 5285.50 = B2B TST; chain tst correct, TSS banner reading is wrong."},
+ {"n":56,"why":"s079 p2: I (chain event 5507.80) locked 5507.93; the S spawned 5507.93 still falling at KO 5508.13 (corr/fr/g2/s079.png)."},
+ {"n":57,"why":"s080 p2: +7208 by 5545.90 = B2B TST for the 5545.03 piece, and +7361 (B2B TST + REN) for 5546.40; chain correct."},
+ {"n":58,"why":"s081 p2: the O locks at 5668.66 (+26), one frame after KO 5668.60 (corr/fr/g2/s081.png); does not count."}
+]}

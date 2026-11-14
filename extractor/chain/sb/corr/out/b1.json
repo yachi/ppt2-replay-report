@@ -1,0 +1,35 @@
+{"event_corrections":[
+ {"n":20,"id":"s032","side":"p1","op":"add","t":2406.33,"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"KO 2406.80. J spawned 2406.27 and was held at 2406.33, so O came out of hold. O locked bottom-right at ~2406.47, the bottom row flashed white at ~2406.53 and the banner went from 4 REN to 5 REN at ~2406.60, all before the KO tilt. Score 124230 -> 125318 (+1088 = single with REN bonus). The row held only player pieces, no grey. Images: fr/g1/s032a.png, fr/g1/s032b.png"},
+ {"n":31,"id":"s044","side":"p2","op":"retype","t":3395.2,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"The piece spawned at 3395.20 is real (nextcount shift 3395.200, T held 3395.333), but the score only rises by drop points, 10917 -> 10926 -> 10948 -> 10982 (3395.07-3395.83), with no ~5700 jump. The B2B TSD is the 3393.63 clear: score 5367 -> 10917 at 3394.47 (+5550 = TSD x1.5 + 150 REN). Every later clear in 3397-3404 matches the score exactly, so the -5565 unexplained is this phantom TSD. Score read by score.py"},
+ {"n":33,"id":"s046","side":"p1","op":"replace_window","t":3480.0,"t_end":3480.4,
+  "events":[{"t":3480.03,"kind":"triple","lines":3,"pc":1,"gc":0},{"t":3480.23,"kind":null,"lines":0,"pc":0,"gc":0},{"t":3480.37,"kind":null,"lines":0,"pc":0,"gc":0}],
+  "was_old":[[3480.23,"triple",3]],
+  "source":"Frames 3479.95-3480.75 (fr/g1/s046b.png, fr/g1/s046a.png): L spawned 3480.03, locked ~3480.12 and made the PERFECT CLEAR triple (score 48734 at 3480.15). The I spawned 3480.23 and locked at once (+38 -> 48772 at 3480.25); the S spawned ~3480.35 and locked (+36 -> 48808 at 3480.50); then T was held and Z dropped (48844 at 3480.65), which is the chain's 3480.57 event. The chain had one event, the PC triple timed at the I spawn, for three locks (L, I, S). The +72 at 3480.67 is the S and Z drop points. Nothing locked after the 3481.13 O: J spawned 3481.43, was held at 3481.5 and T came out, still falling at the KO (3481.63)"},
+ {"n":35,"id":"s050","side":"p2","op":"add","t":3701.87,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"KO 3702.07. O locked 3701.77 (score 39818, the chain's 3701.57 event). Z spawned 3701.87 and locked upright at the right at ~3702.03 (score 39818 -> 39850, the Z drawn solid) before the KO; no row flashed. Image: fr/g1/s050.png"}
+],
+"cell_edits":[
+ {"n":20,"id":"s032","player":"p1","field":"pieces","was":158,"value":159,"source":"The O came out of hold and locked at ~2406.47, before the KO at 2406.80 (fr/g1/s032b.png)"},
+ {"n":20,"id":"s032","player":"p1","field":"max_combo","was":4,"value":5,"source":"The banner moved from 4 REN to 5 REN at ~2406.60 when that O cleared a single (fr/g1/s032a.png)"},
+ {"n":31,"id":"s044","player":"p2","field":"max_b2b","was":2,"value":1,"source":"Without the phantom 3395.20 TSD the run is TST 3392.3 -> TSD 3393.63 (one B2B), and the doubles at 3397.77 break it. Later quads have at most one B2B (3413.33 -> 3415.17)"},
+ {"n":33,"id":"s046","player":"p1","field":"pieces","was":55,"value":57,"source":"The L PC piece and one of the I/S locks were missing from the chain (fr/g1/s046b.png): 4 drop-point lock jumps plus the PC in 3480.0-3481.4, against 3 chain events"},
+ {"n":35,"id":"s050","player":"p2","field":"pieces","was":51,"value":52,"source":"The Z spawned 3701.87 locked at ~3702.03, before the KO at 3702.07 (fr/g1/s050.png)"}
+],
+"no_change":[
+ {"n":21,"why":"Score +7200 at 3485.93 (92219 -> 99419) is a B2B TST (4800 x 1.5). The TST is right and the T-SPIN Single banner was a misread."},
+ {"n":22,"why":"In fr/g1/s035.png the O spawned ~2640.97 and locks at ~2641.27, one frame after the KO at 2641.23 (ghost still showing at 2641.23). Not counted."},
+ {"n":23,"why":"The +85 at 2853.83 is drop points over 2852.5-2853.8 (three locks, chain 2852.73/2853.03/2853.40). No line clear."},
+ {"n":24,"why":"Score +7200 at 3049.53 (292370 -> 299570) is a B2B TST. The chain type is right."},
+ {"n":26,"why":"The piece spawned 3150.90 adds only +1 of soft drop (86525), and the score stays flat through the KO and after, so it never locked."},
+ {"n":27,"why":"The +98 covers the drop points of the locks at 3178.63/3178.87/3179.07. The piece spawned 3179.23 was held at 3179.37, after the KO."},
+ {"n":28,"why":"The piece spawned 3324.97 was still soft-dropping (+1 per frame to 3325.10) at the KO; no lock jump, flat after."},
+ {"n":29,"why":"The T-SPIN Triple banner lingers from the 3392.3 TST. The 3393.63 clear scored +5550 (B2B TSD + REN), so tsd is right."},
+ {"n":30,"why":"The T-SPIN Double banner at 3394.44 belongs to the 3393.63 TSD (the chain logs spawn time; score jump at 3394.47). The phantom 3395.20 TSD is fixed under n=31."},
+ {"n":32,"why":"fr/g1/s044ko.png: the S spawned 3416.47 is still in lock delay when the KO hits at 3417.33 (no next spawn, the score flat at 34209 only from soft drop). Not counted."},
+ {"n":34,"why":"The last real lock is the O spawned 3481.13 (+36 at 3481.33). The J spawned 3481.43 was held and T came out, still falling at the KO 3481.63. The missing pieces are fixed under n=33."},
+ {"n":36,"why":"Audit confirmed: the score is 18005 from the last lock before the 3717.47 spawn until after the KO; that piece never locked."},
+ {"n":37,"why":"Audit confirmed: the score stays flat at 185260 from the last spawn through the KO; nothing locked."},
+ {"n":38,"why":"The piece spawned 4032.57 was soft-dropping (+1 per frame) at the KO 4032.80; the score stays flat at 106216 after; no lock."}
+]}

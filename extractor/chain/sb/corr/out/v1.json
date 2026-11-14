@@ -1,0 +1,11 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v1/s032.png (2406.30-2406.83, 1/15 s): O drops and lands bottom-right at ~2406.50, the bottom row flashes white at ~2406.57 and the banner reads 5 REN, all before the KO at 2406.80. The flashed row holds coloured player cells only, no grey. The score is unreadable during the KO, then reads 125318 at 2407.03/2407.13, consistent with a single plus REN."},
+{"ref":"e1","verdict":"keep","why":"score.py: +4800 at 3392.90 (the TST, not B2B), +5550 at 3394.47 (the 3393.63 piece, a B2B TSD plus REN). nextcount: T spawned 3395.20 and was held at 3395.333 (hold shows T), so Z came out of hold. From 3395.07 to 3395.83 the score rises only by drop points (10917->10982). So the 3395.20 piece is a plain lock and not a TSD."},
+{"ref":"e2","verdict":"keep","why":"fr/v1/s046.png: the I out of hold locks bottom-right at ~3479.87 with no clear (the chain's 3479.67 event). L spawns ~3480.07 and fills the gap at 3480.13, then PERFECT CLEAR shows at 3480.20 (score 48734). The NEXT head goes I->S at 3480.26 with score +38 (the I locked), and S appears at 3480.40 and locks by 3480.47 (48808). Then Z comes out of hold at 3480.60. Three locks (L PC, I, S) against the chain's one event at 3480.23."},
+{"ref":"e3","verdict":"keep","why":"fr/v1/s050.png: the Z is still falling at the top at 3702.00, and at 3702.03 it sits upright at the bottom right with the score 39818->39850 (+32 hard-drop points, an immediate lock). That is before the KO at 3702.07, and no row flashes."},
+{"ref":"c0","verdict":"keep","why":"The O out of hold locked ~2406.50, before the KO 2406.80 (fr/v1/s032.png)."},
+{"ref":"c1","verdict":"keep","why":"The banner reads 5 REN after that O's single (fr/v1/s032.png). The chain's 4 is one short."},
+{"ref":"c2","verdict":"keep","why":"Without the phantom 3395.20 TSD, the chain's own clears give B2B runs TST->TSD (1), TSD 3408.43->quad 3409.6 (1) and quad 3413.33->quad 3415.17 (1). The TST scored a flat 4800 (not B2B) and the TSD x1.5. Max 1."},
+{"ref":"c3","verdict":"keep","why":"Spawns L 3480.033, I 3480.233 and S 3480.367 each locked (the next spawns follow, plus +38 and +36 drop-point jumps, fr/v1/s046.png), against one chain event: +2 pieces."},
+{"ref":"c4","verdict":"keep","why":"The Z locked 3702.03, before the KO 3702.07 (fr/v1/s050.png)."}
+]
