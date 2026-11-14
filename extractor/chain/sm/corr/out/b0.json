@@ -1,0 +1,31 @@
+{"event_corrections":[
+{"n":0,"id":"d000","side":"p2","op":"retype","t":23.13,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"fr/g0/i0.png 23.3-24.4: T inserted into a T slot, 2-row clear at 23.6, banner '..Double' + BACK to BACK; score.py p2 5273->10673 at 23.67 = +5400 = TSD x1.5 B2B (after the 21.6 TST). A plain double would be +900."},
+{"n":6,"id":"d009","side":"p2","op":"remove","t":525.43,"was":["single",1,0],"source":"nextcount p2 511-529.5: only spawns at 512.0 and 528.73; score.py p2 flat 20061 from 511.97 to 528.07 (+1650 = single REN9, the 512.0 piece); fr/g0/i6a.png shows one J falling slowly 513-528. REN steps +1650,+1800,(+1950 at ~531.6),+2100,+2250,... map 1:1 onto chain events 512.0,528.73,531.47,532.27,... so 525.43 is a phantom clear/piece."},
+{"n":6,"id":"d009","side":"p2","op":"remove","t":511.43,"was":["BREAK",2,0],"source":"REN did not break: score.py p2 +1500 at 511.33 (single REN8, '8 REN' banner), +1650 at 528.07 (REN9, '9 REN' banner in fr/g0/i6a.png at 528.6), then +1800,+1950,+2100,+2250,+2400,+2550,+2700,+2850 (REN17 at 537.53)."},
+{"n":7,"id":"d009","side":"p1","op":"remove","t":528.2,"was":[null,0,0],"source":"nextcount p1 514.5-530.5: spawn 515.77, hold swap 521.97 (S held, T out), next spawn 529.97; only the T locks in the window (fr/g0/i6a.png: S falls 517-521, swapped to hold, T falls and locks ~529.3). Phantom lock."},
+{"n":7,"id":"d009","side":"p1","op":"remove","t":529.2,"was":["tsmini",1,0],"source":"Same window: score.py p1 18937 flat 515.13-529.33, then +2100 once (Mini TSS 600 + REN10 1500) = the T of the 515.87 turn, already logged as tsmini at 515.87; next clear +1950 at 530.10 (REN11) is the 530.07 single. Duplicate."},
+{"n":7,"id":"d009","side":"p1","op":"remove","t":514.7,"was":["BREAK",1,0],"source":"REN did not break: p1 REN bonuses +1350 (511.30, REN7), +1500 (512.53, REN8), +1650 (515.13, REN9, '9 REN' banner), +2100 (529.33 mini+REN10), +1950 (REN11), +2100 (REN12), +2250 (REN13), triple+REN14 +3600 (532.67), double+REN15 +3150 (533.60), single+REN16 +2700 (534.50)."},
+{"n":7,"id":"d009","side":"p1","op":"remove","t":529.77,"was":["BREAK",3,0],"source":"See 514.7: REN continuous REN10 at 529.33 to REN11 at 530.10 (score.py p1)."},
+{"n":9,"id":"d010","side":"p1","op":"retype","t":565.97,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,"source":"fr/g0/i9.png: after the triple at 565.2 two rows remain; the T (spawned 566.0) fills them, flash 566.3, PERFECT CLEAR banner 566.4 with empty board. score.py p1 6892->11569 (+4677 = double+REN1 1050 + PC 3600 + drops)."},
+{"n":9,"id":"d010","side":"p1","op":"retype","t":566.4,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"Only one score jump (566.33) for the PC double; next jump +3600 at 569.70 is the 568.7 TSD. Piece spawned 566.4 (J) was held at 566.53 and the O placed on an empty board without clearing (fr/g0/i9.png 566.6-566.7). Piece kept, clear removed."},
+{"n":13,"id":"d014","side":"p1","op":"retype","t":750.8,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,"source":"fr/g0/i13.png: O locks 750.90 clearing the last 2 rows, PERFECT CLEAR banner 750.97 on an empty board; score.py p1 11507->12407->16007 (+900 double, +3600 PC bonus)."},
+{"n":13,"id":"d014","side":"p1","op":"retype","t":751.0,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/i13.png: piece spawned 751.0 (Z) locks on the empty board ~751.2 with no clear (score +38 drop only, 16008->16046); no further clear until the 753.47 TSD (+3600 at 754.10)."},
+{"n":15,"id":"d017","side":"p1","op":"remove","t":964.83,"was":[null,0,0],"source":"nextcount p1 963.5-970.5: spawns 964.13, 964.40, 964.77, then 969.60, no hold change; fr/g0/i15.png shows the J spawned 964.77 hovering until it locks ~969.5 (+18 drop), no other lock. Phantom."},
+{"n":15,"id":"d017","side":"p1","op":"remove","t":965.0,"was":[null,0,0],"source":"Same as 964.83: no spawn between 964.77 and 969.60 (nextcount, fr/g0/i15.png)."}
+],
+"cell_edits":[
+{"n":6,"id":"d009","player":"p2","field":"pieces","was":82,"value":81,"source":"phantom piece at 525.43 removed (no NEXT shift 512.0-528.73)"},
+{"n":6,"id":"d009","player":"p2","field":"max_combo","was":9,"value":17,"source":"score.py REN bonuses rise one step per clear from REN8 (511.33) through REN17 (+2850 at 537.53); chain chain 502.7-537.27 is 18 consecutive clears"},
+{"n":7,"id":"d009","player":"p1","field":"pieces","was":90,"value":88,"source":"phantom lock 528.2 and duplicate tsmini 529.2 removed; nextcount shows one spawn (515.77) + hold swap until 529.97"},
+{"n":7,"id":"d009","player":"p1","field":"max_combo","was":9,"value":16,"source":"score.py REN bonuses continuous REN7..REN16 (511.30-534.50); 17 consecutive clears 503.3-534.33"},
+{"n":15,"id":"d017","player":"p1","field":"pieces","was":169,"value":167,"source":"two phantom locks 964.83, 965.0 removed (nextcount: no spawn 964.77-969.60)"}
+],
+"no_change":[
+{"n":1,"why":"fr/g0/i1.png: 3-row flash, banner 'Triple'+BACK; p2 score +7222 by 151.83 = TST B2B 7200. Chain tst correct; TSS banner reading wrong."},
+{"n":2,"why":"p2 score unreadable 195.2-196.27 (?), so +64 is a misread over drops; chain has only plain locks there and no clear is visible; nothing to fix."},
+{"n":3,"why":"fr/g0/i3.png: p1's last piece still falling at 197.33 (after KO 197.3); its hard drop (+32) lands at 197.37, after the KO frame. Not counted."},
+{"n":5,"why":"fr/g0/i5.png: p1's T still soft-dropping mid-board at KO 427.37 and beyond; no lock."},
+{"n":8,"why":"fr/g0/i8.png: p2's T reaches rest ~549.63 but no NEXT shift by 549.83 and no clear; a lock by the KO frame 549.7 is not shown. Left as is."},
+{"n":11,"why":"score.py p1 73748->80948 at 681.33 = +7200 = TST x1.5 B2B after the 677.6 quad; TSS B2B would be 3600. Chain tst correct."},
+{"n":14,"why":"fr/g0/i14.png: p1's T still soft-dropping into its slot at KO 768.7 (score +1/frame to 768.73); not locked by the KO frame."}
+]}
