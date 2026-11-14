@@ -1,0 +1,78 @@
+{
+ "event_corrections": [],
+ "cell_edits": [],
+ "no_change": [
+  {
+   "n": 17,
+   "why": "g016 p2: pieces 28 agree with nextcount.py (28 NEXT shifts over games.jsonl 991.5-1010.6, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=90.43, which does not match games.jsonl duration 991.5-1010.6 s (PPS with the jsonl duration is about 1.47). Fix the duration column, not pieces."
+  },
+  {
+   "n": 18,
+   "why": "g017 p1: pieces 70 agree with nextcount.py (71 NEXT shifts over games.jsonl 1017.17-1058.47, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=152.08, which does not match games.jsonl duration 1017.17-1058.47 s (PPS with the jsonl duration is about 1.69). Fix the duration column, not pieces."
+  },
+  {
+   "n": 19,
+   "why": "g017 p2: pieces 56 agree with nextcount.py (56 NEXT shifts over games.jsonl 1017.17-1058.47, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=152.08, which does not match games.jsonl duration 1017.17-1058.47 s (PPS with the jsonl duration is about 1.36). Fix the duration column, not pieces."
+  },
+  {
+   "n": 20,
+   "why": "g020 p1: pieces 38 agree with nextcount.py (38 NEXT shifts over games.jsonl 1174.0-1196.4, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=189.91, which does not match games.jsonl duration 1174.0-1196.4 s (PPS with the jsonl duration is about 1.7). Fix the duration column, not pieces."
+  },
+  {
+   "n": 21,
+   "why": "g020 p2: pieces 43 agree with nextcount.py (44 NEXT shifts over games.jsonl 1174.0-1196.4, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=189.91, which does not match games.jsonl duration 1174.0-1196.4 s (PPS with the jsonl duration is about 1.92). Fix the duration column, not pieces."
+  },
+  {
+   "n": 22,
+   "why": "g022 p1: pieces 28 agree with nextcount.py (29 NEXT shifts over games.jsonl 1242.9-1255.33, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=211.15, which does not match games.jsonl duration 1242.9-1255.33 s (PPS with the jsonl duration is about 2.25). Fix the duration column, not pieces."
+  },
+  {
+   "n": 23,
+   "why": "g022 p2: pieces 21 agree with nextcount.py (22 NEXT shifts over games.jsonl 1242.9-1255.33, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=211.15, which does not match games.jsonl duration 1242.9-1255.33 s (PPS with the jsonl duration is about 1.69). Fix the duration column, not pieces."
+  },
+  {
+   "n": 24,
+   "why": "g022 p1: KO tilt of p2 starts 1255.30-1255.33 (fr/g1/g022ko2.png). The last Z spawned 1255.13 and is still falling at 1255.37; it locks at 1255.40 (score 16430->16456, fr/g1/g022ko.png), after end_s. Not counted; no change."
+  },
+  {
+   "n": 25,
+   "why": "g024 p1: pieces 51 agree with nextcount.py (52 NEXT shifts over games.jsonl 1292.1-1319.07, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=108.68, which does not match games.jsonl duration 1292.1-1319.07 s (PPS with the jsonl duration is about 1.89). Fix the duration column, not pieces."
+  },
+  {
+   "n": 26,
+   "why": "g024 p2: pieces 47 agree with nextcount.py (48 NEXT shifts over games.jsonl 1292.1-1319.07, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=108.68, which does not match games.jsonl duration 1292.1-1319.07 s (PPS with the jsonl duration is about 1.74). Fix the duration column, not pieces."
+  },
+  {
+   "n": 27,
+   "why": "g024 p1: T spawned ~1318.83 still above the stack at 1319.07; it locks at 1319.10 (score 36115->36143, fr/g1/g024ko.png), after end_s 1319.07. Not counted; no change."
+  },
+  {
+   "n": 28,
+   "why": "g028 p1: the Z spawned ~1482.00 locks between 1482.03 and 1482.07 (score +28 at 1482.07) and clears a single at 1482.10 (+2550). p2 tilt is visible from 1482.03 (fr/g1/g028ko2.png, fr/g1/g028ko.png), so the lock and clear are after end_s 1482.03 and do not count. No change."
+  },
+  {
+   "n": 29,
+   "why": "g029 p1: pieces 93 agree with nextcount.py (93 NEXT shifts over games.jsonl 1489.1-1537.1, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=22.06, which does not match games.jsonl duration 1489.1-1537.1 s (PPS with the jsonl duration is about 1.94). Fix the duration column, not pieces."
+  },
+  {
+   "n": 30,
+   "why": "g031 p1: pieces 82 agree with nextcount.py (82 NEXT shifts over games.jsonl 1617.1-1657.57, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=18.3, which does not match games.jsonl duration 1617.1-1657.57 s (PPS with the jsonl duration is about 2.03). Fix the duration column, not pieces."
+  },
+  {
+   "n": 31,
+   "why": "g035 p1: last piece (I) is still active at the top with its ghost below through 2593.97; score stays 14042 to the end (fr/g1/g035ko.png). No lock by KO; no change."
+  },
+  {
+   "n": 32,
+   "why": "g036 p1: pieces 48 agree with nextcount.py (49 NEXT shifts over games.jsonl 2600.43-2627.73, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=136.78, which does not match games.jsonl duration 2600.43-2627.73 s (PPS with the jsonl duration is about 1.76). Fix the duration column, not pieces."
+  },
+  {
+   "n": 33,
+   "why": "g036 p2: pieces 44 agree with nextcount.py (44 NEXT shifts over games.jsonl 2600.43-2627.73, the extra shift being the piece in play at KO where present). The game boundaries in games.jsonl are right; the outlier comes from chain_games.csv duration_s=136.78, which does not match games.jsonl duration 2600.43-2627.73 s (PPS with the jsonl duration is about 1.61). Fix the duration column, not pieces."
+  },
+  {
+   "n": 34,
+   "why": "g036 p1: the L locked at 2627.53 (score 43750->43784) is the chain's 2627.37 event; the next L spawned 2627.63 stays at the top past the KO (fr/g1/g036ko.png). No lock by KO; no change."
+  }
+ ]
+}

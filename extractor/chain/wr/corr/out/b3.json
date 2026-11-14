@@ -1,0 +1,27 @@
+{"event_corrections":[
+ {"n":54,"id":"g056","side":"p1","op":"retype","t":3694.37,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"score.py: piece soft-dropped with no hard-drop points, then +1050 at 3695.00 inside a REN run (+450 at 3692.77, +600 at 3693.70, then +1050, +900 at 3695.80, +1050 at 3696.73); 1050 = Mini 600 + 3x150 REN, a plain single at that REN step would be 750. Banner 'T-SPIN Single' (left part cut off) with one row flashing at 3695.03. fr/g3/g056.png"},
+ {"n":55,"id":"g058","side":"p1","op":"retype","t":3765.53,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"One row flashes at 3766.40 with banner 'T-SPIN Single' + BACK to BACK; score +900 at 3766.33 after soft-drop only (no hard drop), REN 0: 900 = Mini 600 x1.5 B2B (a full TSS B2B would be 3600, a single 300). fr/g3/g058a.png"},
+ {"n":63,"id":"g069","side":"p1","op":"add","t":4321.37,"kind":"single","lines":1,"pc":0,"gc":0,"source":"nextcount: spawn at 4321.367; score +16 hard drop at 4321.43 then +2250 at 4321.47 (REN single, continuing 1800/1950/2100/2250); frame 4321.43 shows the piece locked and the row flashing, '13 REN' banner at 4321.50. The p2 board is first visibly tilted in the 4321.43 frame (still straight at 4321.40), so the lock is on the KO frame; end_s 4321.40 looks one frame early. fr/g3/g069.png"},
+ {"n":64,"id":"g071","side":"p1","op":"replace_window","t":4412.3,"t_end":4412.5,"events":[{"t":4412.3,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[4412.3,null,0],[4412.5,null,0],[4412.5,null,0],[4412.5,null,0]],"source":"nextcount 4411.8-4415.0: single spawns at 4412.133, 4412.633, 4413.067, 4413.2, 4413.6, 4413.933, 4414.067 (all shifts k=1); score locks at 4412.53, 4412.97, 4413.10, 4413.50, 4413.83, 4413.97, 4414.37 = 7 locks vs 10 chain events; the 4412.3 + three 4412.5 events are one piece (the 'double shift k=3' anomaly)."},
+ {"n":67,"id":"g075","side":"p1","op":"replace_window","t":4606.1,"t_end":4611.3,"events":[{"t":4606.33,"kind":null,"lines":0,"pc":0,"gc":0},{"t":4611.3,"kind":"tss","lines":1,"pc":0,"gc":0}],"was_old":[[4606.1,null,0],[4606.33,null,0],[4611.17,null,0],[4611.3,"tss",1]],"source":"O spawned 4606.10 and was held at 4606.20 (no lock); the T from hold hovered (score frozen at 5408 from 4606.83 to 4611.33) and locked on the right stack at 4611.23; next T spawned 4611.30 and made the TSS (+3600 at 4611.80). Only 1 lock + the TSS in the window, not 3 + TSS. fr/g3/g075.png, fr/g3/g075b.png"}
+],
+"cell_edits":[
+ {"n":60,"id":"g063","player":"p1","field":"pieces","was":35,"value":36,"source":"I piece (spawned ~4000.70, not in chain) is falling at 4000.87 and locked in the right well at frame 4000.90 = end_s (score 20736->20758, +22 hard drop, no clear). fr/g3/g063.png"},
+ {"n":63,"id":"g069","player":"p1","field":"pieces","was":52,"value":53,"source":"KO-frame lock at 4321.43 (see add)."},
+ {"n":63,"id":"g069","player":"p1","field":"max_combo","was":12,"value":13,"source":"'13 REN' banner at 4321.50 for the KO-frame single. fr/g3/g069.png"},
+ {"n":64,"id":"g071","player":"p1","field":"pieces","was":55,"value":52,"source":"nextcount whole game: 53 spawns (first at 4393.233, all shifts k=1), one piece left in hold (S, 4420.70), last spawn 4421.667 locked at 4421.73 before KO 4421.87 -> 52 locks; matches the 3 phantom events at 4412.3/4412.5."},
+ {"n":67,"id":"g075","player":"p1","field":"pieces","was":37,"value":35,"source":"nextcount whole game: 37 spawns; one in hold at the end (I held 4621.50) and the piece swapped out at 4621.50 still active at KO -> 35 locks; matches the 2 extra events in the gap window."}
+],
+"no_change":[
+ {"n":53,"why":"g055: last lock at 3641.23 (+22 hard drop); no score change from the 3641.33 spawn to KO 3641.73 (score stays 80203)."},
+ {"n":56,"why":"g058: last lock at 3789.40 (+32); spawn 3789.50 not locked by KO 3789.60, score unchanged."},
+ {"n":57,"why":"g059: two rows flash 3805.53 with 'T-SPIN Double' banner, +3600; TSD is right. fr/g3/g059.png"},
+ {"n":58,"why":"g061: last piece (L from hold 3937.37) still soft-dropping 1 pt/frame through and past KO 3937.87; no lock."},
+ {"n":59,"why":"g062: last lock/clear 3973.33-3973.40; no score change after the 3974.03 spawn up to KO."},
+ {"n":61,"why":"g067: piece still soft-dropping (+1/frame) through 4179.43, after KO 4179.37; no lock."},
+ {"n":62,"why":"g068: last lock 4283.30 (+22); no change after the 4283.40 spawn up to KO 4283.73."},
+ {"n":65,"why":"g073: two rows flash 4514.20 with 'T-SPIN Double', +3600; TSD is right. fr/g3/g073.png"},
+ {"n":66,"why":"g074: last lock 4543.93; no score change after the 4544.04 spawn to KO 4544.47."},
+ {"n":68,"why":"g077 p2: last lock 4669.93 (+14); no change after the 4669.97 spawn to KO 4670.50."},
+ {"n":69,"why":"g081: T is still above its slot at 4862.90 (KO) and lands at 4862.93 (+2), one frame after end_s. fr/g3/g081.png"}
+]}

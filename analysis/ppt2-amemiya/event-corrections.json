@@ -24430,5 +24430,421 @@
   "pc": 0,
   "gc": 0,
   "source": "b2 frame check, verified: Frames 4936.50-4937.10 (/tmp/claude-0/yk/corr/fr/g2/a037b.png): the O spawned 4936.80 lands on the floor-right stack at ~4936.93 and no row clears; score.py p2 73580->73606 at 4936.93 (+26, drop points only) and 73606 is still shown when the game display returns at 4943.03, so no Tetris was scored (a quad would add >=2400). The TETRIS banner on screen is the lingering one from the 4935.23 quad (+3600 B2B at 4935.53). Phantom clear: the 4936.8 piece is a plain lock."
+ },
+ {
+  "id": "g000",
+  "side": "p1",
+  "op": "retype",
+  "t": 187.07,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Banner 'Mini T-SPIN Single' + 'BACK to BACK' at 187.70-188.17 (fr/g0/g000a.png, crop fr/g0/b.png at 187.9); one row flashes; p1 score 5448->6348 (+900 = Mini 600 x1.5 B2B) at 187.73"
+ },
+ {
+  "id": "g002",
+  "side": "p1",
+  "op": "retype",
+  "t": 279.2,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Banner 'Mini T-SPIN Single' (no B2B) at 279.9 (fr/g0/b279.9.png); p1 score 14972->15572 (+600 = Mini, no REN since the 279.03 lock broke the REN) at 279.70"
+ },
+ {
+  "id": "g006",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 439.43,
+  "t_end": 439.43,
+  "events": [],
+  "was_old": [
+   [
+    439.43,
+    null,
+    0
+   ],
+   [
+    439.43,
+    null,
+    0
+   ],
+   [
+    439.43,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: fr/g0/g006a.png 438.90-440.23: the I spawned 438.6 locks as a TETRIS at ~438.98, next piece J appears only at 439.90 (queue JSIJS -> SIJST), then S at 440.15; no spawn or lock between 438.98 and 439.87. The three locks at 439.43 are phantoms from a misread k=3 queue shift during the tetris flash (nextcount 'shift 439.367 3 JSIJS>JSI?I')"
+ },
+ {
+  "id": "g040",
+  "side": "p1",
+  "op": "retype",
+  "t": 2810.33,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Clear locks ~2811.45; banner crop at 2811.60 reads 'Mini T-SPIN Single' + 'BACK to BACK' (/tmp/claude-0/wr/corr/fr/g2/g040ban.png, g040mini.png). Score 12952->13852 (+900 = Mini 600 x1.5 B2B), not a plain single (300)."
+ },
+ {
+  "id": "g053",
+  "side": "p1",
+  "op": "retype",
+  "t": 3480.97,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Score +2100 at 3481.43 (16072->18172) = Mini 600 + 10 REN x150; neighbours are plain singles at +1650 (9 REN) and +1950 (11 REN). Banner crop at 3481.6 shows '10 REN' and 'Mini T-SPIN Single' (/tmp/claude-0/wr/corr/fr/g2/g053ban.png)."
+ },
+ {
+  "id": "g054",
+  "side": "p1",
+  "op": "retype",
+  "t": 3516.67,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b2 frame check, verified: Found while checking the KO tail: banner at 3517.9 reads '8 REN' + 'Mini T-SPIN Single' (/tmp/claude-0/wr/corr/fr/g2/g054ren.png); score +1800 at 3517.17 = Mini 600 + 8x150; the following quad scores +4950 = 2400x1.5 B2B + 9x150, which needs this to be a difficult clear."
+ },
+ {
+  "id": "g054",
+  "side": "p1",
+  "op": "add",
+  "t": 3518.83,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Piece spawned 3518.833 (nextcount; hold swap 3518.967) hard-drops and clears one coloured row at ~3519.07, line flash visible 3519.17-3519.33 (/tmp/claude-0/wr/corr/fr/g2/g054ko.png); score 25082->26882 at 3519.10 (+1800 = single 300 + 10 REN x150); REN counter reads '10 REN' at 3519.3 (g054ren.png). KO is 3519.37, so it counts."
+ },
+ {
+  "id": "g056",
+  "side": "p1",
+  "op": "retype",
+  "t": 3694.37,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: score.py: piece soft-dropped with no hard-drop points, then +1050 at 3695.00 inside a REN run (+450 at 3692.77, +600 at 3693.70, then +1050, +900 at 3695.80, +1050 at 3696.73); 1050 = Mini 600 + 3x150 REN, a plain single at that REN step would be 750. Banner 'T-SPIN Single' (left part cut off) with one row flashing at 3695.03. fr/g3/g056.png"
+ },
+ {
+  "id": "g058",
+  "side": "p1",
+  "op": "retype",
+  "t": 3765.53,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: One row flashes at 3766.40 with banner 'T-SPIN Single' + BACK to BACK; score +900 at 3766.33 after soft-drop only (no hard drop), REN 0: 900 = Mini 600 x1.5 B2B (a full TSS B2B would be 3600, a single 300). fr/g3/g058a.png"
+ },
+ {
+  "id": "g071",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4412.3,
+  "t_end": 4412.5,
+  "events": [
+   {
+    "t": 4412.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4412.3,
+    null,
+    0
+   ],
+   [
+    4412.5,
+    null,
+    0
+   ],
+   [
+    4412.5,
+    null,
+    0
+   ],
+   [
+    4412.5,
+    null,
+    0
+   ]
+  ],
+  "source": "b3 frame check, verified: nextcount 4411.8-4415.0: single spawns at 4412.133, 4412.633, 4413.067, 4413.2, 4413.6, 4413.933, 4414.067 (all shifts k=1); score locks at 4412.53, 4412.97, 4413.10, 4413.50, 4413.83, 4413.97, 4414.37 = 7 locks vs 10 chain events; the 4412.3 + three 4412.5 events are one piece (the 'double shift k=3' anomaly)."
+ },
+ {
+  "id": "g075",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 4606.1,
+  "t_end": 4611.3,
+  "events": [
+   {
+    "t": 4606.33,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 4611.3,
+    "kind": "tss",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    4606.1,
+    null,
+    0
+   ],
+   [
+    4606.33,
+    null,
+    0
+   ],
+   [
+    4611.17,
+    null,
+    0
+   ],
+   [
+    4611.3,
+    "tss",
+    1
+   ]
+  ],
+  "source": "b3 frame check, verified: O spawned 4606.10 and was held at 4606.20 (no lock); the T from hold hovered (score frozen at 5408 from 4606.83 to 4611.33) and locked on the right stack at 4611.23; next T spawned 4611.30 and made the TSS (+3600 at 4611.80). Only 1 lock + the TSS in the window, not 3 + TSS. fr/g3/g075.png, fr/g3/g075b.png"
+ },
+ {
+  "id": "g098",
+  "side": "p2",
+  "op": "remove",
+  "t": 5663.07,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b4 frame check, verified: score.py p2: +1972 at 5662.23 (single REN11, the L from 5661.93), then no score change until +3300 at 5666.87 (triple, 1500+12x150 = REN12, i.e. directly consecutive). nextcount: spawn O 5662.90, O held 5663.43 (J out), next spawn only 5667.60; fr/g4/i80.png shows the J moved slowly 5663.4-5666.8 and one 3-row clear at 5666.87. Only one piece between 5662.90 and 5667.60; this single is phantom."
+ },
+ {
+  "id": "g098",
+  "side": "p2",
+  "op": "remove",
+  "t": 5666.97,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "source": "b4 frame check, verified: same window: the one triple at 5666.87 is the 5662.90 piece (chain event 5662.9 triple); no spawn at 5666.97 (nextcount next shift 5667.60), score shows a single +3300 jump; this triple is a duplicate. fr/g4/i80.png"
+ },
+ {
+  "id": "g102",
+  "side": "p1",
+  "op": "add",
+  "t": 5856.87,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b4 frame check, verified: nextcount p1 spawn at 5856.87; hard drop +16 at 5856.93 (= KO frame end_s) and +2250 at 5856.97 = single 300 + REN13 x150; fr/g4/i82.png shows the Z locked in the well with line flash at 5856.93 while p2's tilt begins 5856.96. Lock on the KO frame counts."
+ },
+ {
+  "id": "g122",
+  "side": "p1",
+  "op": "retype",
+  "t": 6842.27,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b5 frame check, verified: banner 'Mini T-SPIN Single' left of p1 board at 6843.1-6843.6 (fr/g5/g122ts.png, fr/g5/g122banner.png); score +600 at 6843.10 (mini single at level 3), a plain single is +300"
+ },
+ {
+  "id": "g119",
+  "side": "p1",
+  "op": "remove",
+  "t": 6705.1,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b5 frame check, verified: nextcount p1 shows spawns 6697.0, 6706.2, 6709.867, 6710.867, 6717.267 only; screen score clears 6705.53 (+1350 REN7), 6709.20 (+1500 REN8), 6710.23 (+1650 REN9), 6716.53 (double +2400 REN10). Chain 6705.1 single has no spawn and duplicates the 6697.0 piece's clear (fr/g5/g119gap.png)"
+ },
+ {
+  "id": "g119",
+  "side": "p1",
+  "op": "remove",
+  "t": 6716.0,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "source": "b5 frame check, verified: only one double between 6710.23 and 6719.57 on screen (6716.53, +2400 = double + REN10), made by the piece spawned 6710.867 (chain 6710.87); no spawn near 6716.0 (nextcount: 6710.867 then 6717.267). Duplicate"
+ },
+ {
+  "id": "g119",
+  "side": "p2",
+  "op": "remove",
+  "t": 6708.57,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b5 frame check, verified: nextcount p2: spawns 6695.167 then 6710.767, nothing between; the 6695.17 piece fell slowly and cleared at 6710.10 (+1500 REN8); score shows no other change 6695-6710 (fr/g5/g119gap.png). 6708.57 is a phantom"
+ },
+ {
+  "id": "g119",
+  "side": "p2",
+  "op": "remove",
+  "t": 6712.2,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b5 frame check, verified: nextcount p2 spawns 6712.067 then 6718.633; one clear between (6718.00 +1800 = REN10 right after REN9 at 6711.50). 6712.2 duplicates 6712.07"
+ },
+ {
+  "id": "g119",
+  "side": "p2",
+  "op": "remove",
+  "t": 6718.1,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "source": "b5 frame check, verified: same window: the 6712.07 piece clears at 6718.00; next spawn 6718.633 (= chain 6718.63, clear 6719.30 REN11). No spawn at 6718.1; duplicate"
+ },
+ {
+  "id": "g148",
+  "side": "p1",
+  "op": "retype",
+  "t": 8235.7,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b6 frame check, amended by skeptic: Frames /tmp/claude-0/wr/corr/fr/g6/g148b.png and g148.png: the T spawned ~8235.7 locks at 8236.43 clearing 2 rows and the board is empty (PERFECT CLEAR banner 8236.53+); score 8236.43 +34 drop then 8236.50 +4650. The only other double in the window is the J at 8234.90 (+900 at 8234.97). gc copied from the chain's PC event (not re-checked)."
+ },
+ {
+  "id": "g148",
+  "side": "p1",
+  "op": "retype",
+  "t": 8236.57,
+  "was": [
+   "double",
+   2,
+   1
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b6 frame check, verified: After the PC the S spawned 8236.63 was held at 8237.10 and the O locked at 8237.40 with no clear (score +38 only, g148.png frames 8237.40/8237.46; board shows only the O). The chain's PC double at 8236.57 is a duplicate of the T's PC; this event is the O's plain lock. Piece count 58 unchanged. The J/S after it was still falling at the KO (g148c.png)."
+ },
+ {
+  "id": "g174",
+  "side": "p1",
+  "op": "add",
+  "t": 10842.53,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b6 frame check, verified: nextcount: spawn at 10842.533 (S); /tmp/claude-0/wr/corr/fr/g6/g174.png: S locks at 10842.57 and one non-garbage row flashes; score 10842.60 +8 drop, 10842.67 +2250 = single 300 + REN 13 x150; KO 10842.70."
+ },
+ {
+  "id": "g156",
+  "side": "p1",
+  "op": "retype",
+  "t": 9150.23,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "source": "b6 frame check, verified: score.py: REN singles in this run score 750, 900, then 1350 at 9150.83, then 1200, 1350, 1500 (300 + 150 x REN). 1350 at REN 5 is 300 more than a plain single (1050): Mini T-spin single 600 + 750."
+ },
+ {
+  "id": "g163",
+  "side": "p1",
+  "op": "retype",
+  "t": 9417.77,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tsmini",
+  "lines": 1,
+  "source": "b6 frame check, verified: score.py: REN singles 300 (9417.10), 750 (9418.47), 600, 750, 900. At REN 1 a plain single is 450; 750 = Mini T-spin single 600 + 150."
  }
 ]

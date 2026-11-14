@@ -1,0 +1,25 @@
+{"event_corrections":[
+{"n":102,"id":"g122","side":"p1","op":"retype","t":6842.27,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"banner 'Mini T-SPIN Single' left of p1 board at 6843.1-6843.6 (fr/g5/g122ts.png, fr/g5/g122banner.png); score +600 at 6843.10 (mini single at level 3), a plain single is +300"},
+{"n":94,"id":"g119","side":"p1","op":"remove","t":6705.1,"was":["single",1,0],"source":"nextcount p1 shows spawns 6697.0, 6706.2, 6709.867, 6710.867, 6717.267 only; screen score clears 6705.53 (+1350 REN7), 6709.20 (+1500 REN8), 6710.23 (+1650 REN9), 6716.53 (double +2400 REN10). Chain 6705.1 single has no spawn and duplicates the 6697.0 piece's clear (fr/g5/g119gap.png)"},
+{"n":96,"id":"g119","side":"p1","op":"remove","t":6716.0,"was":["double",2,0],"source":"only one double between 6710.23 and 6719.57 on screen (6716.53, +2400 = double + REN10), made by the piece spawned 6710.867 (chain 6710.87); no spawn near 6716.0 (nextcount: 6710.867 then 6717.267). Duplicate"},
+{"n":92,"id":"g119","side":"p2","op":"remove","t":6708.57,"was":["single",1,0],"source":"nextcount p2: spawns 6695.167 then 6710.767, nothing between; the 6695.17 piece fell slowly and cleared at 6710.10 (+1500 REN8); score shows no other change 6695-6710 (fr/g5/g119gap.png). 6708.57 is a phantom"},
+{"n":98,"id":"g119","side":"p2","op":"remove","t":6712.2,"was":["single",1,0],"source":"nextcount p2 spawns 6712.067 then 6718.633; one clear between (6718.00 +1800 = REN10 right after REN9 at 6711.50). 6712.2 duplicates 6712.07"},
+{"n":98,"id":"g119","side":"p2","op":"remove","t":6718.1,"was":["single",1,0],"source":"same window: the 6712.07 piece clears at 6718.00; next spawn 6718.633 (= chain 6718.63, clear 6719.30 REN11). No spawn at 6718.1; duplicate"}
+],
+"cell_edits":[
+{"n":95,"id":"g119","player":"p1","field":"pieces","was":73,"value":71,"source":"two phantom/duplicate clear events removed (6705.1, 6716.0); nextcount spawns 6694.567..6717.267 show 5 pieces where chain listed 7"},
+{"n":100,"id":"g119","player":"p1","field":"max_combo","was":18,"value":16,"source":"score jumps: REN steps 1..16 continuous from 6690.17 to final single 6726.63 (+2700 = 300 + 16x150); double 6725.63 +3150 = REN15"},
+{"n":93,"id":"g119","player":"p2","field":"pieces","was":64,"value":61,"source":"three phantom/duplicate singles removed (6708.57, 6712.2, 6718.1); nextcount spawns 6695.167, 6710.767, 6712.067, 6718.633 only in 6695-6718.7"},
+{"n":99,"id":"g119","player":"p2","field":"max_combo","was":18,"value":15,"source":"score: REN7 6694.50 (+1350) ... REN15 6723.03 (+2576 = 2550 + drop); next clear 6724.87 is +300 (REN reset after no-clear lock 6723.63)"}
+],
+"no_change":[
+{"n":88,"why":"g115 KO 6494.07: O piece still falling at 6494.03-6494.10 (fr/g5/g115ko.png), nothing locks by KO"},
+{"n":89,"why":"g116 KO 6590.63: L piece still at the top at 6590.63 (fr/g5/g116ko.png)"},
+{"n":90,"why":"g118 p2 6650.7: score +300 at 6650.80 = plain single at level 3 (mini would be 600); chain typing correct"},
+{"n":91,"why":"g119 p1 6685.3: score +300 at 6686.63 = plain single (mini would be 600)"},
+{"n":97,"why":"g119 p1 gap 6710.87-6717.3: covered by the removal of duplicate double 6716.0 (n96) and pieces edit (n95); 6710.87 double is real (6716.53 +2400). Note both players idled/pieces fell under gravity ~6697-6710"},
+{"n":101,"why":"g119 KO 6728.37: S piece still falling at 6728.37 (fr/g5/g119ko.png)"},
+{"n":103,"why":"g123 KO 6892.93: I piece still at top, not locked by KO (fr/g5/g123ko.png)"},
+{"n":104,"why":"g125 p1 6963.0: two rows clear at ~6963.45, banner 'T-SPIN Double' + REN, score +3750 = TSD 3600 + REN1 150 (fr/g5/g125ts.png); chain tsd correct"},
+{"n":105,"why":"g125 KO 6981.0: T piece still soft-dropping at 6981.0, no lock (fr/g5/g125ko.png)"}
+]}

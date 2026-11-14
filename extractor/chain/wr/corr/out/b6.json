@@ -1,0 +1,28 @@
+{"event_corrections":[
+{"n":111,"id":"g148","side":"p1","op":"retype","t":8235.7,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":1,"source":"Frames /tmp/claude-0/wr/corr/fr/g6/g148b.png and g148.png: the T spawned ~8235.7 locks at 8236.43 clearing 2 rows and the board is empty (PERFECT CLEAR banner 8236.53+); score 8236.43 +34 drop then 8236.50 +4650. The only other double in the window is the J at 8234.90 (+900 at 8234.97). gc copied from the chain's PC event (not re-checked)."},
+{"n":111,"id":"g148","side":"p1","op":"retype","t":8236.57,"was":["double",2,1],"kind":null,"lines":0,"pc":0,"gc":0,"source":"After the PC the S spawned 8236.63 was held at 8237.10 and the O locked at 8237.40 with no clear (score +38 only, g148.png frames 8237.40/8237.46; board shows only the O). The chain's PC double at 8236.57 is a duplicate of the T's PC; this event is the O's plain lock. Piece count 58 unchanged. The J/S after it was still falling at the KO (g148c.png)."},
+{"n":121,"id":"g174","side":"p1","op":"add","t":10842.53,"kind":"single","lines":1,"pc":0,"gc":0,"source":"nextcount: spawn at 10842.533 (S); /tmp/claude-0/wr/corr/fr/g6/g174.png: S locks at 10842.57 and one non-garbage row flashes; score 10842.60 +8 drop, 10842.67 +2250 = single 300 + REN 13 x150; KO 10842.70."},
+{"n":115,"id":"g156","side":"p1","op":"retype","t":9150.23,"was":["single",1,0],"kind":"tsmini","lines":1,"source":"score.py: REN singles in this run score 750, 900, then 1350 at 9150.83, then 1200, 1350, 1500 (300 + 150 x REN). 1350 at REN 5 is 300 more than a plain single (1050): Mini T-spin single 600 + 750."},
+{"n":116,"id":"g163","side":"p1","op":"retype","t":9417.77,"was":["single",1,0],"kind":"tsmini","lines":1,"source":"score.py: REN singles 300 (9417.10), 750 (9418.47), 600, 750, 900. At REN 1 a plain single is 450; 750 = Mini T-spin single 600 + 150."}
+],
+"cell_edits":[
+{"id":"g174","player":"p1","field":"pieces","was":"47","value":48,"source":"added S lock with single at 10842.57, before KO 10842.70 (g174.png)"},
+{"id":"g174","player":"p1","field":"max_combo","was":"12","value":13,"source":"the added single scores 300 + 13x150 = 2250 (REN 13), one step after the 10841.77 single's 2100 (REN 12)"}
+],
+"no_change":[
+{"n":106,"why":"g126: score last moves at 7111.87 (+6, lock of the 7111.63 piece); /tmp/claude-0/wr/corr/fr/g6/g126.png shows the next piece held at 7112.03 and the T still floating at 7112.17; no lock by KO 7112.10."},
+{"n":107,"why":"g128: last score change 7317.90 (+34, lock of the 7317.63 piece); no change through 7318.33, so the piece spawned ~7318.0 did not hard-drop by KO 7318.10."},
+{"n":108,"why":"g131: last lock 7419.17 (+22); score unchanged through 7419.67; no lock by KO 7419.43."},
+{"n":109,"why":"g143: score +5400 at 7989.93 = TSD 3600 x1.5 B2B (after the TST +4800 at 7987.93). A B2B TSS would be 3600. Chain tsd is right; the banner reading is wrong."},
+{"n":110,"why":"g144: locks at 8068.77 and 8069.03 match the 8068.63/8068.87 events; no score change after through 8069.57; no lock by KO 8069.23."},
+{"n":111,"why":"g148 KO piece: the S was still falling at the KO 8238.17 (g148c.png), so no added piece. (The pc double was mis-placed on a different event; see the event_corrections for n=111.)"},
+{"n":112,"why":"g149: the O was held at 8316.43 and the T was still falling at KO 8316.50 (g149.png); +1 at 8316.47 is soft drop."},
+{"n":113,"why":"g150: last clear at 8845.60 (single REN); score unchanged 8846.10-8847.07; the piece spawned ~8846.34 did not lock by KO."},
+{"n":114,"why":"g155: score unchanged 9086.80 through 9087.60; no lock by KO 9087.37."},
+{"n":117,"why":"g164 p2: p2 locks at 9474.33 and 9474.73 match the chain's 9473.77/9474.33 events; no p2 change after through 9475.27; no lock by KO 9474.93."},
+{"n":118,"why":"g167: four locks 9629.80, 9629.97, 9630.17, 9630.47 match the four chain events; nothing after until KO 9630.80."},
+{"n":119,"why":"g171: /tmp/claude-0/wr/corr/fr/g6/g171.png: the S spawned ~9771.34 is still at the top at 9771.47 (end_s) and locks at 9771.50 (score +28). That is one frame after end_s, so not counted under the rule. Note: p2's board tilt is also first visible at 9771.50, not 9771.47, so if end_s is moved to 9771.50 this lock would count (+1 piece, no clear)."},
+{"n":120,"why":"g172: the 10777.6 piece soft-dropped and locked ~10778.17; score unchanged 10778.17 through 10779.57; no lock by KO 10779.20."},
+{"n":122,"why":"g176: locks 10930.57 and 10930.97 match the chain events; the only change after is +1 (soft drop) at 10931.30, after KO 10931.27; no lock."},
+{"n":123,"why":"g180: locks 11100.13 and 11100.37; score unchanged after through 11101.13; no lock by KO 11100.77."}
+]}

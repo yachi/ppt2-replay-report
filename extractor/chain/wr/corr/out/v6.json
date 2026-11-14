@@ -1,0 +1,9 @@
+[
+{"ref":"e0","verdict":"amend","amended":{"gc":0},"why":"Confirmed: score unchanged 34155 from 8234.97 to 8236.43 (the cyan 'I' glow at 8235.60 is the J double's clear effect, no lock), T locks 8236.43 clearing 2 rows, +4650 at 8236.50, board empty with PERFECT CLEAR (/tmp/claude-0/wr/corr/fr/v6/g148.png). But gc is wrong: the two cleared rows at 8236.40 are all coloured piece cells (orange/blue/red/purple and cyan/T/green), no grey garbage (/tmp/claude-0/wr/corr/fr/v6/g148z.png), so gc 0."},
+{"ref":"e1","verdict":"keep","why":"nextcount: S spawned 8236.633, S held 8237.100 (O out of hold), O locks bottom-right at 8237.37 with +38 only, no clear (/tmp/claude-0/wr/corr/fr/v6/g148.png). The PC double at 8236.57 is a duplicate; this event is the O's plain lock. The S/J after it is still at the top at 8238.20, after KO."},
+{"ref":"e2","verdict":"keep","why":"nextcount shift 10842.533 (S); /tmp/claude-0/wr/corr/fr/v6/g174.png: S locks 10842.60 (+8), the coloured (non-garbage) row above the grey stack flashes white 10842.66, +2250 at 10842.67 = 300 + 13x150, REN banner goes 12 -> 13. Before KO 10842.70."},
+{"ref":"e3","verdict":"keep","why":"Zoomed banner at 9151.0 reads 'Mini T-SPIN Single' (/tmp/claude-0/wr/corr/fr/v6/g156z.png, sheet g156.png); soft-drop points 9150.47-9150.63 then +1350 at 9150.83, consistent with mini 600 + REN 750."},
+{"ref":"e4","verdict":"keep","why":"Banner at 9418.7 reads '1 REN' + 'Mini T-SPIN Single' (/tmp/claude-0/wr/corr/fr/v6/g163z.png); soft-drop points 9417.90-9418.23 then +750 at 9418.47 = 600 + 150."},
+{"ref":"c0","verdict":"keep","why":"The S lock at 10842.60 is before KO 10842.70; one more piece (g174.png)."},
+{"ref":"c1","verdict":"keep","why":"+2250 = 300 + 13x150 and the REN banner shows 13 at 10842.73, one step after 12 (2100 at 10841.90)."}
+]

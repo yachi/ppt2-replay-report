@@ -1,0 +1,28 @@
+{"event_corrections":[
+ {"n":80,"id":"g098","side":"p2","op":"remove","t":5663.07,"was":["single",1,0],"source":"score.py p2: +1972 at 5662.23 (single REN11, the L from 5661.93), then no score change until +3300 at 5666.87 (triple, 1500+12x150 = REN12, i.e. directly consecutive). nextcount: spawn O 5662.90, O held 5663.43 (J out), next spawn only 5667.60; fr/g4/i80.png shows the J moved slowly 5663.4-5666.8 and one 3-row clear at 5666.87. Only one piece between 5662.90 and 5667.60; this single is phantom."},
+ {"n":81,"id":"g098","side":"p2","op":"remove","t":5666.97,"was":["triple",3,0],"source":"same window: the one triple at 5666.87 is the 5662.90 piece (chain event 5662.9 triple); no spawn at 5666.97 (nextcount next shift 5667.60), score shows a single +3300 jump; this triple is a duplicate. fr/g4/i80.png"},
+ {"n":82,"id":"g102","side":"p1","op":"add","t":5856.87,"kind":"single","lines":1,"pc":0,"gc":0,"source":"nextcount p1 spawn at 5856.87; hard drop +16 at 5856.93 (= KO frame end_s) and +2250 at 5856.97 = single 300 + REN13 x150; fr/g4/i82.png shows the Z locked in the well with line flash at 5856.93 while p2's tilt begins 5856.96. Lock on the KO frame counts."}
+],
+"cell_edits":[
+ {"n":81,"id":"g098","player":"p2","field":"pieces","was":111,"value":109,"source":"two phantom events removed (5663.07, 5666.97); nextcount shows one piece 5662.90-5667.60"},
+ {"n":80,"id":"g098","player":"p2","field":"max_combo","was":14,"value":12,"source":"score increments show REN10 at 5661.27, REN11 5662.23, REN12 triple at 5666.87, then +900 plain double at 5668.50 (REN broken); 14 came from the two phantom clears"},
+ {"n":82,"id":"g102","player":"p1","field":"pieces","was":48,"value":49,"source":"KO-frame lock at 5856.93 (fr/g4/i82.png)"},
+ {"n":82,"id":"g102","player":"p1","field":"max_combo","was":12,"value":13,"source":"+2250 at 5856.97 = 300+13x150, '13 REN' banner in fr/g4/i82.png"}
+],
+"no_change":[
+ {"n":70,"why":"g082: after last counted lock, O spawned 4892.87 and was held, J still falling at KO 4893.0 (fr/g4/i70.png); no lock."},
+ {"n":71,"why":"g087: L locked 5158.53 (counted, event 5158.33); Z spawned 5158.63 still falling at KO (fr/g4/i71.png)."},
+ {"n":72,"why":"g090: S spawned 5278.63, soft-dropped to 5279.20, no lock/spawn before KO 5279.5 (fr/g4/i72.png)."},
+ {"n":73,"why":"g093: T spawned 5421.00 still soft-dropping in mid-air at KO 5421.2 (fr/g4/i73.png)."},
+ {"n":74,"why":"g094: score +5550 at 5455.03 = B2B TSD 5400 + REN 150; banner reads 'T-Spin Double' + Back to Back, 2 rows (fr/g4/i74.png). Chain tsd correct."},
+ {"n":75,"why":"g095: piece spawned 5490.23 still soft-dropping (score +1/frame through 5490.53) past KO 5490.5."},
+ {"n":76,"why":"g096 p1: clear at 5518.30 scored +450 = single 300 + REN1; a TSS would be ~2400. Plain single correct."},
+ {"n":77,"why":"g096 p2: +1200 at 5547.30 is a zero-line T-spin (T from hold, T-SPIN banner, no rows cleared, garbage rose; fr/g4/i77.png). Chain None lock correct."},
+ {"n":78,"why":"g097: +5400 at 5593.90 = B2B TSD (after TST 5589.5); banner 'T-Spin Double' + Back to Back, two rows cleared (fr/g4/i78.png)."},
+ {"n":79,"why":"g097: Z hard-dropped at 5609.57 (score +28) and cleared +1650 at 5609.63, one frame after KO 5609.53 (p2 tilt visible at 5609.53, fr/g4/i79.png); does not count."},
+ {"n":83,"why":"g103 p1: run of clears scored 450,600,750,900,1050,1200,1350 = plain singles REN1-7; the 5915.6 clear is +1050 (single REN5), not a TSS."},
+ {"n":84,"why":"g111 p2: +300 at 6271.47 = plain single (first of a REN), not a TSS."},
+ {"n":85,"why":"g111: L rested from 6281.70, lock flash first at 6281.97, after KO 6281.87 (fr/g4/i85.png)."},
+ {"n":86,"why":"g112: L hard-dropped/locked at 6342.50-6342.53, after KO 6342.47 (p2 already tilted; fr/g4/i86.png)."},
+ {"n":87,"why":"g114 p2: O spawned 6462.77 still at the top, falling slowly at KO 6463.7 (fr/g4/i87.png); no lock."}
+]}

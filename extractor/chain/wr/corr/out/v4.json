@@ -1,0 +1,9 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py p2: +1972 at 5662.23 (single, REN11), then nothing but drop points until +3300 at 5666.87 (triple = 1500+12x150, REN12). nextcount p2: spawn 5662.90 (O), O held 5663.43 (J out of hold), next spawn only 5667.60. fr/v4/g098.png shows the J from hold moving slowly 5663.4-5666.6 and a single row-clear flash at 5666.9. The 5663.07 single is phantom."},
+ {"ref":"e1","verdict":"keep","why":"Same window: only one clear (the triple at 5666.87, belonging to the piece spawned 5662.90 = chain event 5662.9 triple); no spawn at 5666.97 (next shift 5667.60). The 5666.97 triple duplicates it. fr/v4/g098.png"},
+ {"ref":"e2","verdict":"keep","why":"fr/v4/g102.png: p1's green S is hard-dropped by 5856.90 (drop trail, score 26766->26782), row-clear flash and 13 REN banner at 5856.94, score 29032 (+2250 = 300+13x150). p2's board starts to tilt at ~5856.97. The lock is at 5856.90, before end_s 5856.93, so it counts. (The piece is S, not Z; irrelevant to the event.)"},
+ {"ref":"c0","verdict":"keep","why":"One piece between spawns 5662.90 and 5667.60 (nextcount + fr/v4/g098.png); removing the two phantom events gives 109 (games.jsonl A also has 109)."},
+ {"ref":"c1","verdict":"keep","why":"Score increments: REN10 +1800 at 5661.27, REN11 +1950 at 5662.23, REN12 +3300 at 5666.87, then a plain double +900 at 5668.50 (REN broken). The 13/14 came from the phantom clears; max is 12."},
+ {"ref":"c2","verdict":"keep","why":"KO-frame lock at 5856.90 counted (fr/v4/g102.png); 48 -> 49."},
+ {"ref":"c3","verdict":"keep","why":"Score +2100 at 5856.23 (REN12) then +2250 at 5856.97 (REN13); '13 REN' banner visible from 5856.97 in fr/v4/g102.png. 12 -> 13."}
+]

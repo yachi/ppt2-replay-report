@@ -1,0 +1,138 @@
+[
+ {
+  "id": "g000",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.387 (35 pieces / 90.36 s)",
+  "t_s": 177.0,
+  "n": 0
+ },
+ {
+  "id": "g000",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.398 (36 pieces / 90.36 s)",
+  "t_s": 177.0,
+  "n": 1
+ },
+ {
+  "id": "g000",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 187.07 s typed as a plain clear",
+  "t_s": 187.07,
+  "n": 2
+ },
+ {
+  "id": "g002",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 279.2 s typed as a plain clear",
+  "t_s": 279.2,
+  "n": 3
+ },
+ {
+  "id": "g002",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 281.6,
+  "n": 4
+ },
+ {
+  "id": "g003",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "4.498 (47 pieces / 10.45 s)",
+  "t_s": 288.5,
+  "n": 5
+ },
+ {
+  "id": "g006",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "4 of 11 bags not a permutation (spawn index [49, 56, 63, 70]); anomalies ['double shift k=2 at frame 665', 'double shift k=3 at frame 886', 'queue I re-read at frame 890: slot 4 I->J', 'queue I re-read at frame 890: slot 5 I->S']",
+  "t_s": 412.13,
+  "n": 6
+ },
+ {
+  "id": "g007",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 491.5,
+  "n": 7
+ },
+ {
+  "id": "g010",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 628.7,
+  "n": 8
+ },
+ {
+  "id": "g011",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.241 (24 pieces / 99.63 s)",
+  "t_s": 637.3,
+  "n": 9
+ },
+ {
+  "id": "g011",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.291 (29 pieces / 99.63 s)",
+  "t_s": 637.3,
+  "n": 10
+ },
+ {
+  "id": "g011",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 651.0,
+  "n": 11
+ },
+ {
+  "id": "g012",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "5.303 (288 pieces / 54.31 s)",
+  "t_s": 658.8,
+  "n": 12
+ },
+ {
+  "id": "g012",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "5.469 (297 pieces / 54.31 s)",
+  "t_s": 658.8,
+  "n": 13
+ },
+ {
+  "id": "g015",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 973.83 s",
+  "t_s": 973.83,
+  "n": 14
+ },
+ {
+  "id": "g015",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.37 s before the KO)",
+  "t_s": 985.4,
+  "n": 15
+ },
+ {
+  "id": "g016",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.431 (39 pieces / 90.43 s)",
+  "t_s": 990.8,
+  "n": 16
+ }
+]

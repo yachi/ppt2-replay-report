@@ -1,0 +1,8 @@
+[
+{"ref":"e0","verdict":"keep","why":"Banner crop at 2811.6 (/tmp/claude-0/wr/corr/fr/v2/b2811.6.png) reads 'Mini T-SPIN Single' + 'BACK to BACK'; score.py 12952->13852 at 2811.50 (+900), preceded by soft-drop/slide ticks; chain's next event is 2812.17, so this is the 2810.33 piece."},
+{"ref":"e1","verdict":"keep","why":"score.py jumps +1650 (3480.13), +2100 (3481.43), +1950 (3482.30), +2100 (3483.27): the 3481.43 one is Mini 600 + 10 REN; banner at 3481.6 (/tmp/claude-0/wr/corr/fr/v2/b3481.6.png) shows '10 REN' + 'Mini T-SPIN Single', fresh (previous clear was 9 REN)."},
+{"ref":"e2","verdict":"keep","why":"nextcount: the piece played at 3516.67 came out of hold (hold box becomes O at 3516.733, so it was the T); score +1800 at 3517.17 = 600 + 8x150; banner at 3517.9 (/tmp/claude-0/wr/corr/fr/v2/b3517.9.png) '8 REN' + 'Mini T-SPIN Single'; quad then scores +4950 (B2B)."},
+{"ref":"e3","verdict":"keep","why":"nextcount spawn 3518.833 (L, held at 3518.967, O out); lock drop points 3519.03, +1800 at 3519.10 = single 300 + 10 REN; frame 3519.3 (/tmp/claude-0/wr/corr/fr/v2/b3519.3.png) shows '10 REN' and a clearing row; all before KO 3519.37."},
+{"ref":"c0","verdict":"keep","why":"The O that came out of hold at 3518.97 locked at 3519.03 (score drop points) and cleared at 3519.10, before KO 3519.37; chain has no lock after 3517.93. 40 -> 41."},
+{"ref":"c1","verdict":"keep","why":"REN counter reads 10 at 3519.3 after the added single; score steps +1800/+4950/+1800 fit REN 8, 9, 10."}
+]
