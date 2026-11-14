@@ -1,0 +1,20 @@
+{"event_corrections":[
+ {"n":0,"id":"a002","side":"p1","op":"replace_window","t":489.1,"t_end":489.4,
+  "events":[{"t":489.1,"kind":null,"lines":0,"pc":0,"gc":0}],
+  "was_old":[[489.1,null,0],[489.1,null,0],[489.4,null,0]],
+  "source":"nextcount p1 shows only one spawn in 488.9-495.7 (shift 489.10, S piece); score 425 flat 489.00-495.67, then +8 at 495.70 (S hard drop), next shift 495.80 = O held for T (TST). Sheet fr/g0/a002gap.png (489.0-496.0): stream lags/slow motion, the S hovers unplaced from 489.5 to 495.5. The chain's second 489.10 event and the 489.40 event are phantom spawns. Pieces total not re-counted with certainty (clear flashes at 496.7/497.1/503.2 hide some shifts), so no pieces cell edit; the true count is 2 fewer than whatever the chain counted from these events."}
+],
+"cell_edits":[
+ {"n":5,"id":"a009","player":"p1","field":"pieces","was":139,"value":140,"source":"fr/g0/a009ko.png: O spawns 1434.60 (nextcount shift), sits at the top at 1434.67 and is locked on the right stack at 1434.73 = KO frame; score 86114 -> 86173 (+59 = J and O hard drops) read at 1434.80; no clear flash. +1 piece, no clear."},
+ {"n":7,"id":"a014","player":"p1","field":"pieces","was":141,"value":142,"source":"fr/g0/a014ko.png: Z spawned 1867.67 (nextcount) at top 1867.70-1867.77, locked on right stack at 1867.83 = KO frame, score 105478 -> 105506 (+28 hard drop) at 1867.83; no clear. +1 piece, no clear."}
+],
+"no_change":[
+ {"n":1,"why":"a002 p2: nextcount shows no spawn between 489.37 and 495.23; frames fr/g0/a002gap.png show the stream lagging with p2's I piece still falling until the PERFECT CLEAR at ~495.5, which the chain has (495.23 single pc=1). Chain events in the window match."},
+ {"n":2,"why":"a002 p1: fr/g0/a002ko.png: last piece (L) spawned 504.93 and is still falling at 505.07 (KO, やった banner); score stays 20923 after the KO, no hard drop. Not locked."},
+ {"n":3,"why":"a002 p1: the +83 is the score becoming readable again after 503.5 (20840 -> 20923); it covers the hard-drop points of the pieces locked 504.0-504.9 (J/L, Z, S), all already chain events. No clear in 504.0-505.07 (fr/g0/a002ko.png)."},
+ {"n":4,"why":"a003 p1: score rises by 1 per frame 595.00-595.43 (soft drop) and stops at 37738 through the KO 595.47 and after: piece soft-dropping, no hard drop, cannot have locked by lock delay before KO."},
+ {"n":8,"why":"a015 p1: fr/g0/a015ko.png: O still at the top at 1912.57 (KO frame), locked at 1912.60 (score +30 at 1912.60), one frame after KO; does not count."},
+ {"n":10,"why":"a019 p1: fr/g0/a019.png: T soft-dropped (score +1/frame) then plain clear, no T-SPIN banner, score +300 at 2397.47 = plain single; chain already has single at 2396.63."},
+ {"n":13,"why":"a022 p1: score 62293 lock at 2601.03 (chain 2600.97), next piece soft-dropped 1 row (+1 at 2601.17) and score stays 62294 through and after KO 2601.30: no lock."},
+ {"n":15,"why":"a024 p2: fr/g0/a024b.png: the +308 (24539 -> 24847) comes from a zero-line T-spin at the top (T-SPIN banner 2749.57, no row removed; mini zero 300 + drop 8), shown late because the score digits were unreadable; it is a lock with no line clear, not a missed clear. No change."}
+]}

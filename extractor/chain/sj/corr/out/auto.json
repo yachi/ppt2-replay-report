@@ -1,0 +1,81 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 6,
+   "id": "a012",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 75882 at the last spawn (1685.66 s) and still 75882 after the KO (1685.83 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 9,
+   "id": "a017",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 20994 at the last spawn (2191.60 s) and still 20994 after the KO (2191.83 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 11,
+   "id": "a020",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 61464 at the last spawn (2461.16 s) and still 61464 after the KO (2461.33 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 12,
+   "id": "a021",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 50945 at the last spawn (2548.53 s) and still 50945 after the KO (2548.63 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 14,
+   "id": "a023",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 101411 at the last spawn (2720.10 s) and still 101411 after the KO (2720.20 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 16,
+   "id": "a024",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 40241 at the last spawn (2750.23 s) and still 40241 after the KO (2750.43 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 23,
+   "id": "a027",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 61782 at the last spawn (3016.43 s) and still 61782 after the KO (3016.63 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 24,
+   "id": "a028",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 35176 at the last spawn (3039.87 s) and still 35176 after the KO (3039.97 s): nothing locked"
+  }
+ ],
+ "audit": [],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 10,
+   "hint": "[tsb-hint-v1] one score jump +300 at 2397.46 s: fits plain single only"
+  }
+ ],
+ "no_ocr": []
+}
