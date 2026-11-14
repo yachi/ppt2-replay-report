@@ -1,0 +1,478 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "c003",
+   "side": "p2",
+   "op": "retype",
+   "t": 229.23,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Only two TSDs in 227.6-231.8: T locks ~228.6 (score 5446->10855, +5409 B2B TSD) and ~230.1 (10855->16272, +5417). The piece spawned 229.23 is the green S seen falling at 229.35 and locking with no clear; the 230.0 T-SPIN Double banner belongs to the 229.57 clear and had been put on this lock. Then double +1050 (230.83) and single +619 (232.13) as chained. /tmp/claude-0/sl/corr/fr/g0/n0.png"
+  },
+  {
+   "n": 4,
+   "id": "c004",
+   "side": "p1",
+   "op": "retype",
+   "t": 273.9,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "One clear only at 273.8: the J (spawned 273.53, after hold O) clears 2 rows and PERFECT CLEAR shows at 273.95 over an empty board (score 10912->16028). The 273.9 piece is the O (out of hold at 273.93) landing bottom-left at 274.1 with no clear. /tmp/claude-0/sl/corr/fr/g0/n4.png"
+  },
+  {
+   "n": 4,
+   "id": "c004",
+   "side": "p1",
+   "op": "retype",
+   "t": 273.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "PERFECT CLEAR banner 273.95-274.7 over an empty board right after this double (rows cleared were coloured, no grey garbage). /tmp/claude-0/sl/corr/fr/g0/n4.png"
+  },
+  {
+   "n": 6,
+   "id": "c006",
+   "side": "p2",
+   "op": "retype",
+   "t": 470.3,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "T locks at ~470.74 with a T-spin Double badge; score 99332->104891 (+5559 = B2B TSD 5400 + REN 150), not a TSS. Following single +617 (471.67) matches REN 2. /tmp/claude-0/sl/corr/fr/g0/n6.png"
+  },
+  {
+   "n": 15,
+   "id": "c014",
+   "side": "p1",
+   "op": "retype",
+   "t": 842.27,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Only one Tetris at 842.2 (the I spawned ~841.93 into the col-2 well, PERFECT CLEAR banner 842.3-843.0, score ->22385). The 842.27 spawn is the T, held at 842.33; the Z then falls and locks with no clear (score +7 only). Phantom quad explains the -3690 score residual. /tmp/claude-0/sl/corr/fr/g0/n15a.png"
+  },
+  {
+   "n": 15,
+   "id": "c014",
+   "side": "p1",
+   "op": "retype",
+   "t": 841.93,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "This Tetris empties the board: PERFECT CLEAR banner 842.30 onward over an empty field; cleared rows were coloured (no grey). /tmp/claude-0/sl/corr/fr/g0/n15a.png"
+  },
+  {
+   "n": 16,
+   "id": "c014",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 861.33,
+   "t_end": 874.8,
+   "events": [
+    {
+     "t": 861.33,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 862.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 862.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 863.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 863.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 863.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 864.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 864.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 864.77,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 866.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 866.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 866.57,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 867.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 867.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 867.8,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 868.83,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 869.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 869.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 869.5,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 870.74,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 870.98,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 871.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 871.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 871.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 872.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 872.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 873.27,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 874.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 874.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     861.33,
+     "tst",
+     4
+    ],
+    [
+     861.7,
+     null,
+     0
+    ],
+    [
+     861.73,
+     "BREAK",
+     8
+    ],
+    [
+     864.03,
+     null,
+     0
+    ],
+    [
+     864.03,
+     null,
+     0
+    ],
+    [
+     864.53,
+     null,
+     0
+    ],
+    [
+     864.53,
+     null,
+     0
+    ],
+    [
+     864.6,
+     "BREAK",
+     2
+    ],
+    [
+     865.2,
+     "tsd",
+     2
+    ],
+    [
+     866.5,
+     "BREAK",
+     0
+    ],
+    [
+     868.07,
+     "BREAK",
+     3
+    ],
+    [
+     869.83,
+     null,
+     0
+    ],
+    [
+     870.13,
+     "tsd",
+     2
+    ],
+    [
+     871.33,
+     null,
+     0
+    ],
+    [
+     871.6,
+     null,
+     0
+    ],
+    [
+     871.7,
+     "BREAK",
+     1
+    ],
+    [
+     873.37,
+     "BREAK",
+     5
+    ],
+    [
+     874.8,
+     null,
+     0
+    ],
+    [
+     874.8,
+     null,
+     0
+    ],
+    [
+     874.8,
+     null,
+     0
+    ],
+    [
+     874.8,
+     null,
+     0
+    ]
+   ],
+   "source": "Counted from frames (n16b 860.8-862.6, n16d 864.6-868.0, n16a 869.9-871.9, n16c 871.75-874.95 in /tmp/claude-0/sl/corr/fr/g0/), the NEXT-queue shifts (nextcount p2 858-878) and per-lock drop-score steps: 29 pieces spawned 861.33-874.80, clears = Tetris at 861.5 (+2400, TETRIS banner, 2 grey rows cleared), TSD at 865.4 (+5407), Tetris 867.9 (+3600 B2B), TSD 870.0 (+5400 B2B, coloured rows), Tetris 873.7 (+3600 B2B, coloured rows). The chain had the first Tetris typed tst (lingering T-SPIN Double banner), missed the 867.9 and 873.7 Tetrises, and held duplicate None entries at 864.03, 864.53 and 874.8 (x4). nextcount's k=2 shift at 871.03 is two separate spawns (L 870.74, T 870.98), seen in frames. Event t are spawn times; the O at 871.27 is estimated between the T lock (871.20) and its own lock (871.33). Total game pieces not re-derived (not given as a cell edit): A's bag offset of 4 after index 56 is consistent with A having read 5 (mod 7) pieces in this window."
+  }
+ ],
+ "cell_edits": [],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "229.57 clear is a real TSD: score +5417 (10855->16272 at 230.33) = B2B TSD; the T-SPIN Single banner read is wrong (n0.png)."
+  },
+  {
+   "n": 2,
+   "why": "The 230.0 T-SPIN Double banner belongs to the 229.57 TSD; the extra TSD it created on the 229.23 lock is removed by the n0 correction."
+  },
+  {
+   "n": 5,
+   "why": "+90 at 309.16 is after the KO (308.9) and is drop points only, not a clear."
+  },
+  {
+   "n": 7,
+   "why": "The T spawned 483.27 is still falling (soft-drop +1 per frame to 483.53) at the KO frame 483.47; nothing locked (n7.png)."
+  },
+  {
+   "n": 8,
+   "why": "The +3600 at 647.5 is the TSD already in the chain at t=646.70 (spawn time; T out of hold at 646.87, soft-dropped and locked 647.5). No other clear in 645.9-648.3 (n8.png)."
+  },
+  {
+   "n": 9,
+   "why": "+82 is drop points of ordinary locks (no clear flash, no banner); score rises only by drop points 683.5-686."
+  },
+  {
+   "n": 10,
+   "why": "The T spawned 685.80 is still in the air at KO 685.97 (やった at 686.0); no extra lock (n10.png)."
+  },
+  {
+   "n": 12,
+   "why": "803.13 clear is a TST: score 76397->83604 (+7207 = B2B TST 7200); banner read as Single is wrong."
+  },
+  {
+   "n": 13,
+   "why": "Spawn 824.40 was held at 824.43 and the T out of hold is still soft-dropping (+1/frame to 824.83) at KO 824.77; no extra lock."
+  },
+  {
+   "n": 14,
+   "why": "Bad bags from A-index 56 come from A losing pieces in the 861.33-874.8 stall (A's sequence realigns with offset 4); the window is recounted in n16. Rest of the game not recounted."
+  },
+  {
+   "n": 17,
+   "why": "Covered by n16: the 861.33 clear is a Tetris (TETRIS banner at 862.1, +2400), retyped there."
+  },
+  {
+   "n": 18,
+   "why": "Covered by n16: the 870.0 T-SPIN Double banner is the TSD at 869.50 (+5400) in the replacement window."
+  }
+ ]
+}

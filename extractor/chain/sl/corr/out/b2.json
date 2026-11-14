@@ -1,0 +1,746 @@
+{
+ "event_corrections": [
+  {
+   "n": 39,
+   "id": "c002",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 182.93,
+   "t_end": 183.13,
+   "events": [
+    {
+     "t": 182.93,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 183.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     182.93,
+     "double",
+     2
+    ],
+    [
+     183.13,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~183.07s: the piece spawned at 182.93 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 183.13) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 183.13 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n39.png; banner onset 184.5 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 40,
+   "id": "c003",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 227.9,
+   "t_end": 228.13,
+   "events": [
+    {
+     "t": 227.9,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 228.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     227.9,
+     "triple",
+     3
+    ],
+    [
+     228.13,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~228.07s: the piece spawned at 227.9 clears the last 3 rows (triple), board empty and banner up right after; the next piece (spawn 228.13) locks on the empty board with no clear (score rises by drop points only). The chain's second 'triple' at 228.13 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n40.png; banner onset 228.3 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 41,
+   "id": "c004",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 273.53,
+   "t_end": 273.9,
+   "events": [
+    {
+     "t": 273.53,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 273.9,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     273.53,
+     "double",
+     2
+    ],
+    [
+     273.9,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~273.8s: the piece spawned at 273.53 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 273.9) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 273.9 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n41.png; banner onset 274.0 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 42,
+   "id": "c006",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 400.37,
+   "t_end": 400.73,
+   "events": [
+    {
+     "t": 400.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 400.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     400.37,
+     "single",
+     1
+    ],
+    [
+     400.73,
+     "single",
+     1
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~400.6s: the piece spawned at 400.37 clears the last 1 rows (single), board empty and banner up right after; the next piece (spawn 400.73) locks on the empty board with no clear (score rises by drop points only). The chain's second 'single' at 400.73 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n42.png; banner onset 400.9 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 43,
+   "id": "c007",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 501.7,
+   "t_end": 502.6,
+   "events": [
+    {
+     "t": 501.7,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 502.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     501.7,
+     "double",
+     2
+    ],
+    [
+     502.6,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~502.53s: the piece spawned at 501.7 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 502.6) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 502.6 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n43.png; banner onset 503.9 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 44,
+   "id": "c007",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 501.33,
+   "t_end": 501.67,
+   "events": [
+    {
+     "t": 501.33,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 501.67,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     501.33,
+     "triple",
+     3
+    ],
+    [
+     501.67,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~501.6s: the piece spawned at 501.33 clears the last 3 rows (triple), board empty and banner up right after; the next piece (spawn 501.67) locks on the empty board with no clear (score rises by drop points only). The chain's second 'triple' at 501.67 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n44.png; banner onset 501.8 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 45,
+   "id": "c012",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 733.07,
+   "t_end": 733.4,
+   "events": [
+    {
+     "t": 733.07,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 733.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     733.07,
+     "single",
+     1
+    ],
+    [
+     733.4,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~733.3s: the piece spawned at 733.07 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 733.4) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 733.4 duplicates the PC clear and must be a plain lock; the PC clear was logged as 'single' but two rows go (score +double+PC). Sheet /tmp/claude-0/sl/corr/fr/g2/n45.png; banner onset 733.6 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 46,
+   "id": "c014",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 841.93,
+   "t_end": 842.27,
+   "events": [
+    {
+     "t": 841.93,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 842.27,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     841.93,
+     "quad",
+     4
+    ],
+    [
+     842.27,
+     "quad",
+     4
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~842.15s: the piece spawned at 841.93 clears the last 4 rows (quad), board empty and banner up right after; the next piece (spawn 842.27) locks on the empty board with no clear (score rises by drop points only). The chain's second 'quad' at 842.27 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n46.png; banner onset 842.4 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 47,
+   "id": "c015",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 968.13,
+   "t_end": 968.4,
+   "events": [
+    {
+     "t": 968.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 968.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     968.13,
+     "single",
+     1
+    ],
+    [
+     968.4,
+     "single",
+     1
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~968.3s: the piece spawned at 968.13 clears the last 1 rows (single), board empty and banner up right after; the next piece (spawn 968.4) locks on the empty board with no clear (score rises by drop points only). The chain's second 'single' at 968.4 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n47.png; banner onset 968.6 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 48,
+   "id": "c017",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1053.07,
+   "t_end": 1053.53,
+   "events": [
+    {
+     "t": 1053.07,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1053.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1053.07,
+     "double",
+     2
+    ],
+    [
+     1053.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~1053.45s: the piece spawned at 1053.07 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 1053.53) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 1053.53 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n48.png; banner onset 1053.7 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 49,
+   "id": "c017",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1053.1,
+   "t_end": 1053.43,
+   "events": [
+    {
+     "t": 1053.1,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1053.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1053.1,
+     "double",
+     2
+    ],
+    [
+     1053.43,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~1053.3s: the piece spawned at 1053.1 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 1053.43) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 1053.43 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n49.png; banner onset 1053.6 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 50,
+   "id": "c021",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 157.6,
+   "t_end": 157.97,
+   "events": [
+    {
+     "t": 157.6,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 157.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     157.6,
+     "quad",
+     4
+    ],
+    [
+     157.97,
+     "quad",
+     4
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~157.85s: the piece spawned at 157.6 clears the last 4 rows (quad), board empty and banner up right after; the next piece (spawn 157.97) locks on the empty board with no clear (score rises by drop points only). The chain's second 'quad' at 157.97 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n50.png; banner onset 158.2 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 51,
+   "id": "c022",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 225.5,
+   "t_end": 225.77,
+   "events": [
+    {
+     "t": 225.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 225.77,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     225.5,
+     "quad",
+     4
+    ],
+    [
+     225.77,
+     "quad",
+     4
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~225.65s: the piece spawned at 225.5 clears the last 4 rows (quad), board empty and banner up right after; the next piece (spawn 225.77) locks on the empty board with no clear (score rises by drop points only). The chain's second 'quad' at 225.77 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n51.png; banner onset 226.0 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 52,
+   "id": "c023",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 254.67,
+   "t_end": 255.4,
+   "events": [
+    {
+     "t": 254.67,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 255.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     254.67,
+     "double",
+     2
+    ],
+    [
+     255.4,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~255.3s: the piece spawned at 254.67 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 255.4) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 255.4 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n52.png; banner onset 255.6 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 53,
+   "id": "c024",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 333.17,
+   "t_end": 333.53,
+   "events": [
+    {
+     "t": 333.17,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 333.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     333.17,
+     "single",
+     1
+    ],
+    [
+     333.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~333.45s: the piece spawned at 333.17 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 333.53) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 333.53 duplicates the PC clear and must be a plain lock; the PC clear was logged as 'single' but two rows go (score +double+PC). Sheet /tmp/claude-0/sl/corr/fr/g2/n53.png; banner onset 334.3 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 54,
+   "id": "c025",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 402.13,
+   "t_end": 402.43,
+   "events": [
+    {
+     "t": 402.13,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 402.43,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     402.13,
+     "double",
+     2
+    ],
+    [
+     402.43,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~402.4s: the piece spawned at 402.13 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 402.43) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 402.43 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n54.png; banner onset 402.6 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 55,
+   "id": "c026",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 453.97,
+   "t_end": 454.17,
+   "events": [
+    {
+     "t": 453.97,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 454.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     453.97,
+     "double",
+     2
+    ],
+    [
+     454.17,
+     "double",
+     2
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~454.05s: the piece spawned at 453.97 clears the last 2 rows (double), board empty and banner up right after; the next piece (spawn 454.17) locks on the empty board with no clear (score rises by drop points only). The chain's second 'double' at 454.17 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n55.png; banner onset 454.4 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 56,
+   "id": "c033",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 835.0,
+   "t_end": 835.33,
+   "events": [
+    {
+     "t": 835.0,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 835.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     835.0,
+     "triple",
+     3
+    ],
+    [
+     835.33,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~835.25s: the piece spawned at 835.0 clears the last 3 rows (triple), board empty and banner up right after; the next piece (spawn 835.33) locks on the empty board with no clear (score rises by drop points only). The chain's second 'triple' at 835.33 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n56.png; banner onset 835.5 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 57,
+   "id": "c038",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1050.8,
+   "t_end": 1051.03,
+   "events": [
+    {
+     "t": 1050.8,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1051.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1050.8,
+     "triple",
+     3
+    ],
+    [
+     1051.03,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~1050.88s: the piece spawned at 1050.8 clears the last 3 rows (triple), board empty and banner up right after; the next piece (spawn 1051.03) locks on the empty board with no clear (score rises by drop points only). The chain's second 'triple' at 1051.03 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n57.png; banner onset 1051.1 is the lingering banner. Piece count unchanged."
+  },
+  {
+   "n": 58,
+   "id": "c038",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1050.47,
+   "t_end": 1050.73,
+   "events": [
+    {
+     "t": 1050.47,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1050.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1050.47,
+     "triple",
+     3
+    ],
+    [
+     1050.73,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Frames show a real PERFECT CLEAR at ~1050.6s: the piece spawned at 1050.47 clears the last 3 rows (triple), board empty and banner up right after; the next piece (spawn 1050.73) locks on the empty board with no clear (score rises by drop points only). The chain's second 'triple' at 1050.73 duplicates the PC clear and must be a plain lock. Sheet /tmp/claude-0/sl/corr/fr/g2/n58.png; banner onset 1050.9 is the lingering banner. Piece count unchanged."
+  }
+ ],
+ "cell_edits": [],
+ "no_change": []
+}

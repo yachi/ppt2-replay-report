@@ -1,0 +1,266 @@
+{
+ "event_corrections": [
+  {
+   "n": 19,
+   "id": "c014",
+   "side": "p1",
+   "op": "retype",
+   "t": 939.37,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "KO-tail +1200 at 940.27: the 939.37 lock is the T (Z swapped into hold). /tmp/claude-0/sl/corr/fr/g1/c014b.png 940.20-940.40: T locks, one gray garbage row clears, banners T-SPIN Single, BACK to BACK, 2 REN; score 180423->181623 at 940.27"
+  },
+  {
+   "n": 19,
+   "id": "c014",
+   "side": "p1",
+   "op": "retype",
+   "t": 938.3,
+   "was": [
+    "tsmini",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c014a.png 938.20-938.70: T held, I placed, TETRIS banner, 4 gray rows clear; score +3750 at 938.57 = B2B tetris 3600 + 1 REN 150 (not a mini)"
+  },
+  {
+   "n": 24,
+   "id": "c026",
+   "side": "p1",
+   "op": "retype",
+   "t": 453.97,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c026a.png: S locks ~454.0, board empties, PERFECT CLEAR banner 454.14+; score +4650 at 454.10 = double 900 + PC-double 3600 + REN 150"
+  },
+  {
+   "n": 24,
+   "id": "c026",
+   "side": "p1",
+   "op": "retype",
+   "t": 454.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Only one clear here: score after 454.10 rises by drop points only (15915..16180) until the TSD at 458.53 (+3612). The 454.17 piece is the Z that spawns 454.20 and locks without a clear (c026a.png 454.20-454.67)"
+  },
+  {
+   "n": 25,
+   "id": "c026",
+   "side": "p1",
+   "op": "retype",
+   "t": 488.27,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c026b.png: J spawned 488.27 locks ~488.47 and clears one colored row (white bar 488.54), banner changes 2 REN -> 3 REN; score +750 at 488.53 = single 300 + 3x150 REN. This single breaks B2B, so the 489.97 TSD is 3600 not 5400 (score 75488 -> 79161 at 490.67, c026c.png)"
+  },
+  {
+   "n": 26,
+   "id": "c026",
+   "side": "p1",
+   "op": "retype",
+   "t": 506.8,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c026d.png 507.6-508.1: T-spin clears two rows (bottom one gray garbage), banner T-SPIN Double + BACK to BACK; score 106093 -> 111660 = B2B TSD 5400 + REN 150"
+  },
+  {
+   "n": 27,
+   "id": "c026",
+   "side": "p1",
+   "op": "add",
+   "t": 523.8,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c026e.png: I spawns 523.80 and is held, S from hold drops and locks 523.93 (+34 drop), one gray garbage row clears, banner 3 REN at 524.07; score +750 at 524.00 = single 300 + 3x150 REN; before KO 524.1"
+  },
+  {
+   "n": 29,
+   "id": "c027",
+   "side": "p2",
+   "op": "retype",
+   "t": 542.17,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c027a.png + nextcount: 542.20 T spawns, held (S out), S locks with no clear; 542.40 J spawns, held (T out), T does the TSD ~542.9. Score: one TSD only, 8995 -> 14406 (+5411 = B2B TSD) at 543.23; the 542.4 tsd stays"
+  },
+  {
+   "n": 34,
+   "id": "c034",
+   "side": "p2",
+   "op": "retype",
+   "t": 891.77,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c034.png 891.8-892.7: T locks at the top of the stack, T-SPIN (mini) banner, but no row clears (no white bar, stack height unchanged); score only +308 (37239 -> 37547), a zero-line mini, not a mini single (600)"
+  },
+  {
+   "n": 36,
+   "id": "c038",
+   "side": "p1",
+   "op": "retype",
+   "t": 1050.8,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c038a.png: L locks 1050.87, rows clear, board empty, PERFECT CLEAR banner 1050.9-1051.6; score +1500 then +5400 (10944 -> 17844) = triple + PC-triple 5400"
+  },
+  {
+   "n": 36,
+   "id": "c038",
+   "side": "p1",
+   "op": "retype",
+   "t": 1051.03,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Only one clear: score rises by drop points only from 17844 to 18108 until the TSD at 1054.27. The 1051.03 piece is the O (nextcount shift 1051.033), held at 1051.2; Z from hold locks without a clear (c038a.png 1051.30-1051.57)"
+  },
+  {
+   "n": 37,
+   "id": "c038",
+   "side": "p1",
+   "op": "retype",
+   "t": 1061.6,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c038b.png 1062.3-1062.9: T clears two rows, T-SPIN Double + 2 REN banners; score 28530 -> 32447 (~TSD 3600 + REN 150 + drops)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 19,
+   "id": "c014",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 1,
+   "value": 2,
+   "source": "2 REN banner on the 940.27 TSS after the quads at 937.5 and 938.57 (fr/g1/c014b.png)"
+  },
+  {
+   "n": 28,
+   "id": "c026",
+   "player": "p1",
+   "field": "pieces",
+   "was": 161,
+   "value": 162,
+   "source": "/tmp/claude-0/sl/corr/fr/g1/c026e.png: I spawns 523.80 (held, S out of hold), S locks 523.93 before KO 524.1; the chain has no event after 522.8"
+  },
+  {
+   "n": 25,
+   "id": "c026",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 3,
+   "source": "3 REN banners at 488.60 (fr/g1/c026b.png) and 524.07 (fr/g1/c026e.png); both singles score 300 + 3x150"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 21,
+   "why": "c016 p1 1012.3 tss is right: fr/g1/c016.png shows one row cleared at 1013.1 with a ...Single banner; score +2400 (30937 -> 33337) = TSS, not a TST"
+  },
+  {
+   "n": 22,
+   "why": "c017 p1: fr/g1/c017.png, L spawned 1115.17 and was held at 1115.64 (O out); the O is still falling/soft-dropping at 1115.8 (score +1 at 1115.83), win screen at 1115.84; no lock by the KO frame"
+  },
+  {
+   "n": 23,
+   "why": "c020 p1 126.4 tst is right: score +7200 at 127.10 = B2B TST; the banner reading was wrong or lingering"
+  },
+  {
+   "n": 30,
+   "why": "c027 p2 542.93 TSD banner belongs to the chain's 542.4 tsd event (kept); the duplicate 542.17 tsd is retyped to a plain lock under item 29"
+  },
+  {
+   "n": 31,
+   "why": "c027 p1: fr/g1/c027b.png, T locks 564.53, J spawns 564.63 and is held at 564.70 (O out); the O is still falling (ghost outline) at 564.80, win screen 564.83; no lock by KO 564.73"
+  },
+  {
+   "n": 32,
+   "why": "c028 p1: fr/g1/c028.png, O locks 587.53, I spawns 587.63 and is held (J out); J still falling at 587.83, win screen 587.86; no lock by KO 587.8"
+  },
+  {
+   "n": 35,
+   "why": "c035 p2 +86 at 941.8 is after the KO (941.57): drop points, not a clear, and after end_s"
+  },
+  {
+   "n": 38,
+   "why": "c039 p1 1102.4 tst is right: score 41840 -> 49058 (+7218) = B2B TST 7200; the next TSS +3762 = 3600+150"
+  }
+ ]
+}
