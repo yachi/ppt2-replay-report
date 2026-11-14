@@ -1,0 +1,20 @@
+{"event_corrections":[],
+"cell_edits":[
+{"n":37,"id":"v071","player":"p1","field":"pieces","was":53,"value":54,"source":"fr/g2/v071ko.png: after the chain's last event (4852.03, J spawn, held; Z out of hold, locked ~4852.27) an L spawns at 4852.37 (NEXT loses L between 4852.33 and 4852.37) and hard-drops, locking with flash at 4852.53 (score 35055->35077, no clear), before KO 4852.57. nextcount: 53 spawns through 4851.87 + J + L = 55, J left in HOLD at the end -> 54 locked."},
+{"n":40,"id":"v075","player":"p1","field":"pieces","was":51,"value":52,"source":"fr/g2/v075ko.png, v075ko2.png: T spawned 5035.03 (nextcount shift TJZOI>JZOIJ; chain's last event 5034.73) and locks in the stack by 5035.44-5035.47 (KO frame 5035.47), no clear, no further spawn. nextcount over the game: 53 spawns, I left in HOLD -> 52 locked."},
+{"n":45,"id":"v080","player":"p1","field":"pieces","was":61,"value":62,"source":"fr/g2/v080ko.png: L spawn 5863.23 locks ~5863.38; Z spawns 5863.43 (nextcount), is held at 5863.50, J comes out of hold and hard-drops, locked with flash at 5863.62 < KO 5863.63, no clear. nextcount over 5833.5-5863.7: 63 spawns (bag-consistent), Z left in HOLD -> 62 locked. Chain event list ends at 5863.23 (60 events)."},
+{"n":49,"id":"v083","player":"p1","field":"pieces","was":48,"value":49,"source":"fr/g2/v083ko.png: after the chain's last event (L, 6008.93, locked ~6009.13) an O spawns 6009.23 (nextcount shift OTJZS>TJZSL) and is held; the T out of HOLD hard-drops and locks at 6009.43 (score 33571->33597, no clear) before KO 6009.47. nextcount over the game: 50 spawns, O left in HOLD -> 49 locked."},
+{"n":50,"id":"v087","player":"p1","field":"pieces","was":294,"value":292,"source":"nextcount p1 6210.9-6360.33 (fr/g2/v087nc.txt): spawn sequence reconstructed from every shift/resync (k summed) gives 294 spawns ending with the I at 6360.07, and all 42 full bags are 7-bag permutations at offset 0 (the chain's own sequence fails 25 of 43, i.e. it carries phantom spawns). At the end S is in HOLD and the I spawned 6360.07 is still at the top unlocked at KO 6360.33 (fr/g2/v087ko.png) -> 294-2 = 292 locked. Exact phantom events not located, so no event correction."}
+],
+"no_change":[
+{"n":38,"why":"fr/g2/v074ko.png: the last piece (L, spawned 5005.62) is still soft-dropping in mid-air at KO 5006.07; not locked. nextcount 34 spawns - I in HOLD - unlocked L = 32 = chain."},
+{"n":39,"why":"fr/g2/v075p2.png: at 5017.6 p2 drops a vertical L into the well, clearing 3 lines to a PERFECT CLEAR (banner 5017.67, empty board); no T involved. Score +6936 is the PC triple. Chain's triple pc=1 is right."},
+{"n":41,"why":"The +96 is read after the KO (5035.47) from digits half-covered by the KO overlay; the only thing at the KO is the T lock with no clear (handled in n40). No clear to add."},
+{"n":42,"why":"fr/g2/v077ko.png: the T (spawned ~5175.33) is still soft-dropping one row per frame at KO 5176.00 (score still rising by drop points), no lock or clear. nextcount 65 spawns - I in HOLD - unlocked T = 63 = chain."},
+{"n":43,"why":"Score +7200 at 5824.9 (45002->52202) = TST with B2B (4800x1.5); banner frames fr/g2/v079tst.png read '...N Triple' + BACK to BACK. Chain tst is right; the 'Single' banner reading is wrong."},
+{"n":44,"why":"fr/g2/v079ko.png: the I spawned 5826.87 (chain event) locks ~5827.05 with no clear; the +87 is drop points read after KO 5827.1. Nothing missed."},
+{"n":46,"why":"fr/g2/v081.png 5926.9-5927.85: only plain locks, no clear flash; p1 score last readable 69573 at 5925.87 and 69657 at 5927.80, +84 = drop points over ~6 locks."},
+{"n":48,"why":"Score 512->5312 (+4800) at 5994.1 = TST without B2B (TSS would be 2400). Chain tst is right."},
+{"n":51,"why":"fr/g2/v087ko.png: the I spawned 6360.07 sits at the top and never drops before KO 6360.33; not locked (accounted in n50's count)."},
+{"n":53,"why":"Score +600 (+24 drop) at 6554.6 = single 300 + REN-2 bonus 300 right after the TSD (which itself got +150 REN); a TSS would be 2400+. Chain already logs it as single."}
+]}
