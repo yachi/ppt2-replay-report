@@ -1,0 +1,26 @@
+{"event_corrections":[
+ {"n":42,"id":"g040","side":"p1","op":"retype","t":2810.33,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"Clear locks ~2811.45; banner crop at 2811.60 reads 'Mini T-SPIN Single' + 'BACK to BACK' (/tmp/claude-0/wr/corr/fr/g2/g040ban.png, g040mini.png). Score 12952->13852 (+900 = Mini 600 x1.5 B2B), not a plain single (300)."},
+ {"n":50,"id":"g053","side":"p1","op":"retype","t":3480.97,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"Score +2100 at 3481.43 (16072->18172) = Mini 600 + 10 REN x150; neighbours are plain singles at +1650 (9 REN) and +1950 (11 REN). Banner crop at 3481.6 shows '10 REN' and 'Mini T-SPIN Single' (/tmp/claude-0/wr/corr/fr/g2/g053ban.png)."},
+ {"n":51,"id":"g054","side":"p1","op":"retype","t":3516.67,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":1,"source":"Found while checking the KO tail: banner at 3517.9 reads '8 REN' + 'Mini T-SPIN Single' (/tmp/claude-0/wr/corr/fr/g2/g054ren.png); score +1800 at 3517.17 = Mini 600 + 8x150; the following quad scores +4950 = 2400x1.5 B2B + 9x150, which needs this to be a difficult clear."},
+ {"n":51,"id":"g054","side":"p1","op":"add","t":3518.83,"kind":"single","lines":1,"pc":0,"gc":0,"source":"Piece spawned 3518.833 (nextcount; hold swap 3518.967) hard-drops and clears one coloured row at ~3519.07, line flash visible 3519.17-3519.33 (/tmp/claude-0/wr/corr/fr/g2/g054ko.png); score 25082->26882 at 3519.10 (+1800 = single 300 + 10 REN x150); REN counter reads '10 REN' at 3519.3 (g054ren.png). KO is 3519.37, so it counts."}
+],
+"cell_edits":[
+ {"n":52,"id":"g054","player":"p1","field":"pieces","was":40,"value":41,"source":"The piece spawned 3518.833 locked and cleared at ~3519.07, before KO 3519.37 (score jump 3519.10; /tmp/claude-0/wr/corr/fr/g2/g054ko.png); chain has no lock event after 3517.93."},
+ {"n":51,"id":"g054","player":"p1","field":"max_combo","was":9,"value":10,"source":"REN banner reads '10 REN' after the 3519.07 single (/tmp/claude-0/wr/corr/fr/g2/g054ren.png); scores +1800/+4950/+1800 fit 8,9,10 REN steps."}
+],
+"no_change":[
+ {"n":35,"why":"Game boundaries in games.jsonl are right: first spawn 2634.13, KO 2695.47 (61.33 s). The 17.35 s duration_s in chain_games.csv is wrong, not the pieces. nextcount: 115 p1 shifts - 1 hold-into-empty - 1 unlocked current = 113 = chain. PPS 1.84."},
+ {"n":36,"why":"Same game: 97 p2 shifts - 1 hold-into-empty (2634.23) = 96 = chain; real duration 61.33 s (PPS 1.57). Only the CSV duration_s (17.35) is wrong."},
+ {"n":37,"why":"p1 score stays 68128 from 2695.17 through 2695.97 (score.py): the piece spawned 2695.27 (then held at 2695.33) never hard-dropped by the KO at 2695.47. 113 stands."},
+ {"n":38,"why":"Game is 2748.13 (first spawn, after 'ゴー!' at ~2747.5) to 2758.93, 10.8 s (sheet /tmp/claude-0/wr/corr/fr/g2/g039.png shows the PC and KO by ~2759). CSV duration_s 53.05 is wrong; p1 22 shifts - 1 hold-into-empty = 21 pieces, matches."},
+ {"n":39,"why":"Same game, 10.8 s; p2 24 shifts minus hold-into-empty/current ~ 22 = chain. Only the CSV duration_s is wrong."},
+ {"n":40,"why":"Spawns run 2797.57-2834.03, matching jsonl 2797.57-2834.07 (36.5 s); 62 shifts - 1 hold-empty - 1 current = 60 = chain. CSV duration_s 125.15 is wrong (PPS 1.64)."},
+ {"n":41,"why":"Same game 36.5 s; 58 p2 shifts, chain 57 is consistent (loser's last piece may lock). CSV duration_s wrong."},
+ {"n":43,"why":"Spawns 2980.90-3003.03, jsonl game 2980.90-3003.67 (22.77 s). 50 p1 shifts - 1 hold-empty = 49 incl. a last piece locking before KO; chain 49 consistent. CSV duration_s 236.63 wrong."},
+ {"n":44,"why":"Same game 22.77 s; 37 p2 shifts - 2 = 35 = chain. CSV duration_s wrong."},
+ {"n":45,"why":"Frames (/tmp/claude-0/wr/corr/fr/g2/g046ko.png): at 3162.70 (end_s) the last L is still at the top of p1's board; it locks on the 3162.74 frame (score 83903->83927 at 3162.77), one frame after end_s, so it does not count."},
+ {"n":46,"why":"Spawns 3225.00-3235.87 match jsonl game 3225.00-3235.93 (10.93 s); 28 p1 shifts - 2 = 26 = chain. CSV duration_s 61.7 wrong."},
+ {"n":47,"why":"Same game 10.93 s; 22 p2 shifts - 2 = 20 = chain. CSV duration_s wrong."},
+ {"n":48,"why":"Spawns 3243.07-3268.00, jsonl game 3243.07-3268.63 (25.57 s); 38 p2 shifts - 2 = 36 = chain. CSV duration_s 88.0 wrong."},
+ {"n":49,"why":"p1 score unchanged 31070 from 3371.30 through 3372.33 (score.py); last spawn 3371.93 then hold 3372.07, no lock by KO 3372.10."}
+]}

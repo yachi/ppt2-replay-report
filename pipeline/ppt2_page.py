@@ -113,7 +113,9 @@ def rates(s):
         "VS": 100 * (s["attack"] + s["garbage_cleared"]) / t, "APP": s["attack"] / s["pieces"],
         "DSP": s["garbage_cleared"] / s["pieces"], "LPM": 60 * s["lines_cleared"] / t,
         "QPM": s["quad"] / m, "TSPM": tspins / m, "TSDPM": s["tsd"] / m,
-        "QPCT": 100 * s["quad"] / clears, "TSPCT": 100 * tspins / clears,
+        # a player with no line clear at all (e.g. one short game) has no clear mix: shown as —
+        "QPCT": 100 * s["quad"] / clears if clears else None,
+        "TSPCT": 100 * tspins / clears if clears else None,
         "RECV": 60 * s["garbage_received_rows"] / t, "MEAN": t / s["games"],
         # the PC bonus (PC_SEND = 10 lines in the chain's metrics.py) as a share of all attack
         "PCATT": 100 * PC_SEND * s["pc"] / s["attack"] if s["attack"] else 0.0,
@@ -199,7 +201,7 @@ PLAYER_HEAD = ["PPS", "APM", "VS", "APP", "DS/粒", "LPM", "Tetris/分", "T-spin
 
 def _player_row(name, s, cls=""):
     r = rates(s)
-    cells = "".join(f"<td>{_fl(r[k], dp)}</td>" for k, dp in PLAYER_COLS)
+    cells = "".join(f"<td>{_opt(r[k], dp)}</td>" for k, dp in PLAYER_COLS)
     return (f"<tr class='{cls}'><td class='l'>{escape(name)}</td><td>{int(s['games'])}</td>"
             f"<td>{int(s['won'])}</td>{cells}<td>{int(s['pc'])}</td><td>{_fl(r['PCATT'], 1)}</td>"
             f"<td>{_opt(r['PCPM_W'], 2)}</td><td>{_opt(r['PCPM_L'], 2)}</td><td>{int(s['max_combo'])}</td>"

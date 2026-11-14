@@ -1,0 +1,146 @@
+[
+ {
+  "id": "g016",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.310 (28 pieces / 90.43 s)",
+  "t_s": 990.8,
+  "n": 17
+ },
+ {
+  "id": "g017",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.460 (70 pieces / 152.08 s)",
+  "t_s": 1016.5,
+  "n": 18
+ },
+ {
+  "id": "g017",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.368 (56 pieces / 152.08 s)",
+  "t_s": 1016.5,
+  "n": 19
+ },
+ {
+  "id": "g020",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.200 (38 pieces / 189.91 s)",
+  "t_s": 1173.3,
+  "n": 20
+ },
+ {
+  "id": "g020",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.226 (43 pieces / 189.91 s)",
+  "t_s": 1173.3,
+  "n": 21
+ },
+ {
+  "id": "g022",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.133 (28 pieces / 211.15 s)",
+  "t_s": 1242.2,
+  "n": 22
+ },
+ {
+  "id": "g022",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.099 (21 pieces / 211.15 s)",
+  "t_s": 1242.2,
+  "n": 23
+ },
+ {
+  "id": "g022",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 1255.33,
+  "n": 24
+ },
+ {
+  "id": "g024",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.469 (51 pieces / 108.68 s)",
+  "t_s": 1291.4,
+  "n": 25
+ },
+ {
+  "id": "g024",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.432 (47 pieces / 108.68 s)",
+  "t_s": 1291.4,
+  "n": 26
+ },
+ {
+  "id": "g024",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 1319.07,
+  "n": 27
+ },
+ {
+  "id": "g028",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +2578 at 1482.1 s (KO 1482.03 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1482.1,
+  "n": 28
+ },
+ {
+  "id": "g029",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "4.216 (93 pieces / 22.06 s)",
+  "t_s": 1488.4,
+  "n": 29
+ },
+ {
+  "id": "g031",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "4.481 (82 pieces / 18.3 s)",
+  "t_s": 1616.4,
+  "n": 30
+ },
+ {
+  "id": "g035",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.47 s before the KO)",
+  "t_s": 2593.9,
+  "n": 31
+ },
+ {
+  "id": "g036",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.351 (48 pieces / 136.78 s)",
+  "t_s": 2599.7,
+  "n": 32
+ },
+ {
+  "id": "g036",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.322 (44 pieces / 136.78 s)",
+  "t_s": 2599.7,
+  "n": 33
+ },
+ {
+  "id": "g036",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 2627.73,
+  "n": 34
+ }
+]

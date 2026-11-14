@@ -1,0 +1,306 @@
+[
+ {
+  "id": "g115",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 6494.07,
+  "n": 88
+ },
+ {
+  "id": "g116",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 6590.63,
+  "n": 89
+ },
+ {
+  "id": "g118",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 6650.7 s typed as a plain clear",
+  "t_s": 6650.7,
+  "n": 90
+ },
+ {
+  "id": "g119",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 6685.3 s typed as a plain clear",
+  "t_s": 6685.3,
+  "n": 91
+ },
+ {
+  "id": "g119",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "g119",
+   "player": "p2",
+   "t0": 6694.5,
+   "t1": 6711.5,
+   "step": -1766,
+   "unexplained": -1766,
+   "near": [
+    [
+     6694.13,
+     1350,
+     "single"
+    ],
+    [
+     6695.17,
+     1500,
+     "single"
+    ],
+    [
+     6708.57,
+     1650,
+     "single"
+    ],
+    [
+     6710.77,
+     1800,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 6694.5,
+  "n": 92
+ },
+ {
+  "id": "g119",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 15.60 s from 6695.17 s; B events spliced (D2/D3)",
+  "t_s": 6695.17,
+  "n": 93
+ },
+ {
+  "id": "g119",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "g119",
+   "player": "p1",
+   "t0": 6696.36,
+   "t1": 6705.53,
+   "step": -1500,
+   "unexplained": -1500,
+   "near": [
+    [
+     6697.0,
+     1350,
+     "single"
+    ],
+    [
+     6705.1,
+     1500,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 6696.36,
+  "n": 94
+ },
+ {
+  "id": "g119",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 9.33 s from 6697.00 s; B events spliced (D2/D3)",
+  "t_s": 6697.0,
+  "n": 95
+ },
+ {
+  "id": "g119",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "g119",
+   "player": "p1",
+   "t0": 6710.23,
+   "t1": 6716.53,
+   "step": -2850,
+   "unexplained": -2850,
+   "near": [
+    [
+     6709.97,
+     1800,
+     "single"
+    ],
+    [
+     6710.87,
+     2550,
+     "double"
+    ],
+    [
+     6716.0,
+     2700,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 6710.23,
+  "n": 96
+ },
+ {
+  "id": "g119",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.43 s from 6710.87 s; B events spliced (D2/D3)",
+  "t_s": 6710.87,
+  "n": 97
+ },
+ {
+  "id": "g119",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "g119",
+   "player": "p2",
+   "t0": 6711.5,
+   "t1": 6724.86,
+   "step": -6588,
+   "unexplained": -6588,
+   "near": [
+    [
+     6712.07,
+     1950,
+     "single"
+    ],
+    [
+     6712.2,
+     2100,
+     "single"
+    ],
+    [
+     6718.1,
+     2250,
+     "single"
+    ],
+    [
+     6718.63,
+     2400,
+     "single"
+    ],
+    [
+     6719.9,
+     2550,
+     "single"
+    ],
+    [
+     6720.83,
+     2700,
+     "single"
+    ],
+    [
+     6721.7,
+     2850,
+     "single"
+    ],
+    [
+     6722.77,
+     3000,
+     "single"
+    ],
+    [
+     6724.07,
+     300,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 6711.5,
+  "n": 98
+ },
+ {
+  "id": "g119",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.57 s from 6712.07 s; B events spliced (D2/D3)",
+  "t_s": 6712.07,
+  "n": 99
+ },
+ {
+  "id": "g119",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "g119",
+   "player": "p1",
+   "t0": 6719.56,
+   "t1": 6726.63,
+   "step": -1428,
+   "unexplained": -1428,
+   "near": [
+    [
+     6720.3,
+     2400,
+     "single"
+    ],
+    [
+     6723.23,
+     2550,
+     "single"
+    ],
+    [
+     6724.23,
+     2700,
+     "single"
+    ],
+    [
+     6725.67,
+     3450,
+     "double"
+    ],
+    [
+     6726.4,
+     3000,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 6719.56,
+  "n": 100
+ },
+ {
+  "id": "g119",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 6728.37,
+  "n": 101
+ },
+ {
+  "id": "g122",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 6842.27 s typed as a plain clear",
+  "t_s": 6842.27,
+  "n": 102
+ },
+ {
+  "id": "g123",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 6892.93,
+  "n": 103
+ },
+ {
+  "id": "g125",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 6963.0 s",
+  "t_s": 6963.0,
+  "n": 104
+ },
+ {
+  "id": "g125",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 6981.0,
+  "n": 105
+ }
+]

@@ -1,0 +1,25 @@
+{"event_corrections":[
+{"n":2,"id":"g000","side":"p1","op":"retype","t":187.07,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"Banner 'Mini T-SPIN Single' + 'BACK to BACK' at 187.70-188.17 (fr/g0/g000a.png, crop fr/g0/b.png at 187.9); one row flashes; p1 score 5448->6348 (+900 = Mini 600 x1.5 B2B) at 187.73"},
+{"n":3,"id":"g002","side":"p1","op":"retype","t":279.2,"was":["single",1,0],"kind":"tsmini","lines":1,"pc":0,"gc":0,"source":"Banner 'Mini T-SPIN Single' (no B2B) at 279.9 (fr/g0/b279.9.png); p1 score 14972->15572 (+600 = Mini, no REN since the 279.03 lock broke the REN) at 279.70"},
+{"n":6,"id":"g006","side":"p1","op":"replace_window","t":439.43,"t_end":439.43,"events":[],"was_old":[[439.43,null,0],[439.43,null,0],[439.43,null,0]],"source":"fr/g0/g006a.png 438.90-440.23: the I spawned 438.6 locks as a TETRIS at ~438.98, next piece J appears only at 439.90 (queue JSIJS -> SIJST), then S at 440.15; no spawn or lock between 438.98 and 439.87. The three locks at 439.43 are phantoms from a misread k=3 queue shift during the tetris flash (nextcount 'shift 439.367 3 JSIJS>JSI?I')"}
+],
+"cell_edits":[
+{"n":2,"id":"g000","player":"p1","field":"max_b2b","was":0,"value":1,"source":"BACK to BACK banner on the 187.07 Mini TSS following the TST (fr/g0/b.png); +900 = 600x1.5"},
+{"n":6,"id":"g006","player":"p1","field":"pieces","was":76,"value":73,"source":"three phantom locks at 439.43 removed (fr/g0/g006a.png); nextcount 412.0-451.7 aligned to chain: every other chain lock matches a real spawn; 412.73 T is the hold-into-empty, 451.6 spawn unlocked at KO"}
+],
+"no_change":[
+{"n":0,"why":"Game boundaries are right: play from ~177.7 to KO 198.33 (fr/g0/g000b.png); real duration 20.63 s, so 35 pieces = 1.70 PPS. The csv duration_s 90.36 is wrong, not the piece count (nextcount 36 shifts incl. one non-lock)."},
+{"n":1,"why":"Same game: 36 pieces over 20.63 s (177.7-198.33) = 1.75 PPS; nextcount p2 38 shifts incl. holds/unlocked final spawn. The csv duration_s 90.36 is the error."},
+{"n":4,"why":"fr/g0/g002ko.png: p2's T is still falling/rotating at the KO frame 281.60 (it turns flat at 281.67, no queue shift); it did not lock by end_s."},
+{"n":5,"why":"Game runs ~289.3 (first score 289.43) to ~311 (score/board until KO 310.97); real duration 21.73 s, 47 pieces = 2.16 PPS; nextcount 48 shifts. csv duration_s 10.45 is wrong."},
+{"n":7,"why":"fr/g0/g007ko.png: Z locks ~491.27 (counted, chain 491.03), J spawns 491.40, held at 491.47 for S which is still falling at the KO frame 491.50 and after; no lock at KO."},
+{"n":8,"why":"fr/g0/g010ko.png: O locks ~628.47 (counted, chain 628.40); I spawns 628.57 and sits at the top through the KO 628.70; no lock."},
+{"n":9,"why":"Game is 638.0-651.0 (scores start 638.07, KO 651.0): 13.0 s, so 24 pieces = 1.85 PPS. csv duration_s 99.63 is wrong."},
+{"n":10,"why":"Same game, 29 pieces / 13.0 s = 2.23 PPS; csv duration_s 99.63 is wrong."},
+{"n":11,"why":"fr/g0/g011ko.png: last I locks ~650.82 (chain 650.53 counted); L spawns 650.85, held 650.92, T at the top, nothing locks by KO 651.0."},
+{"n":12,"why":"Game runs 659.47-821.53 (score starts 659.90, frozen at 821.0+): 162.07 s, so 288 pieces = 1.78 PPS. csv duration_s 54.31 is wrong."},
+{"n":13,"why":"Same game, 297 pieces / 162.07 s = 1.83 PPS; csv duration_s 54.31 is wrong."},
+{"n":14,"why":"fr/g0/g015a.png: banner reads '...N Double' + BACK to BACK, two rows flash at 974.43, score +5400 (TSD 3600 x1.5) at 974.47. TSD is correct; 'Single' was a misread."},
+{"n":15,"why":"fr/g0/g015ko.png: J spawned 985.03 is still at the top rotating at KO 985.40; no lock, score unchanged."},
+{"n":16,"why":"Game runs 991.5 (first score 991.73) to KO 1010.6: 19.1 s, 39 pieces = 2.04 PPS. csv duration_s 90.43 is wrong."}
+]}

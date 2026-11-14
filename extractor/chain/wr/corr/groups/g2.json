@@ -1,0 +1,146 @@
+[
+ {
+  "id": "g037",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "6.513 (113 pieces / 17.35 s)",
+  "t_s": 2633.4,
+  "n": 35
+ },
+ {
+  "id": "g037",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "5.533 (96 pieces / 17.35 s)",
+  "t_s": 2633.4,
+  "n": 36
+ },
+ {
+  "id": "g037",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 2695.47,
+  "n": 37
+ },
+ {
+  "id": "g039",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.396 (21 pieces / 53.05 s)",
+  "t_s": 2747.4,
+  "n": 38
+ },
+ {
+  "id": "g039",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.415 (22 pieces / 53.05 s)",
+  "t_s": 2747.4,
+  "n": 39
+ },
+ {
+  "id": "g040",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.479 (60 pieces / 125.15 s)",
+  "t_s": 2796.9,
+  "n": 40
+ },
+ {
+  "id": "g040",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.455 (57 pieces / 125.15 s)",
+  "t_s": 2796.9,
+  "n": 41
+ },
+ {
+  "id": "g040",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 2810.33 s typed as a plain clear",
+  "t_s": 2810.33,
+  "n": 42
+ },
+ {
+  "id": "g044",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.207 (49 pieces / 236.63 s)",
+  "t_s": 2980.2,
+  "n": 43
+ },
+ {
+  "id": "g044",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.148 (35 pieces / 236.63 s)",
+  "t_s": 2980.2,
+  "n": 44
+ },
+ {
+  "id": "g046",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 3162.7,
+  "n": 45
+ },
+ {
+  "id": "g048",
+  "player": "p1",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.421 (26 pieces / 61.7 s)",
+  "t_s": 3224.3,
+  "n": 46
+ },
+ {
+  "id": "g048",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.324 (20 pieces / 61.7 s)",
+  "t_s": 3224.3,
+  "n": 47
+ },
+ {
+  "id": "g049",
+  "player": "p2",
+  "field_or_issue": "outlier: PPS outside 0.5..4",
+  "detail": "0.409 (36 pieces / 88.0 s)",
+  "t_s": 3242.4,
+  "n": 48
+ },
+ {
+  "id": "g050",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 3372.1,
+  "n": 49
+ },
+ {
+  "id": "g053",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 3480.97 s typed as a plain clear",
+  "t_s": 3480.97,
+  "n": 50
+ },
+ {
+  "id": "g054",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1824 at 3519.07 s (KO 3519.37 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 3519.07,
+  "n": 51
+ },
+ {
+  "id": "g054",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+  "t_s": 3519.37,
+  "n": 52
+ }
+]

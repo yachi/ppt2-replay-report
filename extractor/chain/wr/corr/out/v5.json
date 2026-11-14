@@ -1,0 +1,12 @@
+[
+{"ref":"e0","verdict":"keep","why":"score +600 at 6843.10 (412->1012); p2 plain single 6844.67 is +300 so +600 is a mini single, not a plain single; banner '...SPIN Single' left of p1 board 6843.1-6843.8 (fr/v5/g122.png)"},
+{"ref":"e1","verdict":"keep","why":"nextcount p1 6693-6728.4: spawns 6694.567, 6697.000, 6706.200, 6709.867, 6710.867, 6717.267 (holds only swap); nothing near 6705.1. Score clears 6696.37, 6705.53, 6709.20, 6710.23, 6716.53 = 5 screen clears for 7 chain events 6694.57..6716.0; 6705.1 is one of the two extras"},
+{"ref":"e2","verdict":"keep","why":"no spawn between 6710.867 and 6717.267; one double on screen at 6716.53 (+2400 = 900 + REN10 1500) belonging to the 6710.87 piece; 6716.0 double is a duplicate"},
+{"ref":"e3","verdict":"keep","why":"nextcount p2: spawn 6695.167 then 6710.767, nothing between; p2 score flat 6694.50-6710.07 then +1500 at 6710.10 (REN8). 6708.57 has no piece"},
+{"ref":"e4","verdict":"keep","why":"p2 spawns 6712.067 then 6718.633 (hold 6711.100 / 6717.767 are swaps); one clear 6718.00 (+1800 REN10). 6712.2 duplicate"},
+{"ref":"e5","verdict":"keep","why":"no p2 spawn at 6718.1 (6712.067 -> 6718.633); next clear 6719.30 (+1976 REN11) belongs to 6718.63. Duplicate"},
+{"ref":"c0","verdict":"keep","why":"follows e1/e2: two chain events with no spawn removed; spawns confirm"},
+{"ref":"c1","verdict":"keep","why":"p1 score: REN0 double 6689.20 (+900), singles stepping +150 each up to 6710.23 (+1650 REN9), 6716.53 double +2400 (REN10), 6719.57 +1950 (REN11), 6722.57 +2100, 6723.57 +2250, 6724.83 +2400, 6725.63 +3150 (double REN15), 6726.63 +2700 (REN16); max 16"},
+{"ref":"c2","verdict":"keep","why":"follows e3/e4/e5: three events without spawns; nextcount p2 confirms"},
+{"ref":"c3","verdict":"keep","why":"p2 REN0 single 6687.13 (+336), tsmini 6688.57 (+750 = 600+150 REN1), 6689.37 +600 (REN2) ... 6723.03 +2576 (REN15), then 6724.87 +300 reset; max 15"}
+]
