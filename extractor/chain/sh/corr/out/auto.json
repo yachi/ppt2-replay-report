@@ -1,0 +1,27 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 10,
+   "id": "y001",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 38656 at the last spawn (661.57 s) and still 38656 after the KO (661.70 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 14,
+   "id": "y012",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 18346 at the last spawn (1690.27 s) and still 18346 after the KO (1690.37 s): nothing locked"
+  }
+ ],
+ "audit": [],
+ "hints": [],
+ "no_ocr": []
+}
