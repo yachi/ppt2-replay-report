@@ -1,0 +1,271 @@
+[
+ {
+  "id": "r000",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 40.4,
+  "n": 0
+ },
+ {
+  "id": "r001",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tss) vs banner T-SPIN Double at 58.83 s",
+  "t_s": 58.83,
+  "n": 1
+ },
+ {
+  "id": "r001",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 70.23,
+  "n": 2
+ },
+ {
+  "id": "r002",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    90.5,
+    91.2,
+    92.4
+   ],
+   "litcount_min": 8
+  },
+  "t_s": 90.5,
+  "n": 3
+ },
+ {
+  "id": "r002",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r002",
+   "player": "p1",
+   "t0": 90.94,
+   "t1": 95.9,
+   "step": -923,
+   "unexplained": -923,
+   "near": [
+    [
+     91.0,
+     1050,
+     "double"
+    ],
+    [
+     95.8,
+     2400,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 90.94,
+  "n": 4
+ },
+ {
+  "id": "r003",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r003",
+   "player": "p1",
+   "t0": 169.4,
+   "t1": 175.4,
+   "step": -5495,
+   "unexplained": -5495,
+   "near": [
+    [
+     169.27,
+     3600,
+     "quad"
+    ],
+    [
+     173.23,
+     5400,
+     "tsd"
+    ],
+    [
+     174.67,
+     5550,
+     "tsd"
+    ],
+    [
+     175.13,
+     3600,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 169.4,
+  "n": 5
+ },
+ {
+  "id": "r003",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 174.0 s, no A clear matched (added by R/build.py)",
+  "t_s": 174.0,
+  "n": 6
+ },
+ {
+  "id": "r004",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    201.1,
+    201.9
+   ],
+   "litcount_min": 27
+  },
+  "t_s": 201.1,
+  "n": 7
+ },
+ {
+  "id": "r004",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r004",
+   "player": "p1",
+   "t0": 207.47,
+   "t1": 219.87,
+   "step": -1133,
+   "unexplained": -1133,
+   "near": [
+    [
+     207.0,
+     1050,
+     "double"
+    ],
+    [
+     207.53,
+     1200,
+     "double"
+    ],
+    [
+     214.97,
+     4800,
+     "tst"
+    ],
+    [
+     216.2,
+     5550,
+     "tsd"
+    ],
+    [
+     217.43,
+     600,
+     "single"
+    ],
+    [
+     218.3,
+     750,
+     "single"
+    ],
+    [
+     219.1,
+     900,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 207.47,
+  "n": 8
+ },
+ {
+  "id": "r004",
+  "player": "p1",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    207.7,
+    208.9
+   ],
+   "litcount_min": 36
+  },
+  "t_s": 207.7,
+  "n": 9
+ },
+ {
+  "id": "r005",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "1 of 19 bags not a permutation (spawn index [119]); anomalies ['double shift k=2 at frame 522', 'quad shift k=4 at frame 2027', 'double shift k=4 at frame 2027']",
+  "t_s": 15.93,
+  "n": 10
+ },
+ {
+  "id": "r005",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    27.0
+   ],
+   "litcount_min": 27
+  },
+  "t_s": 27.0,
+  "n": 11
+ },
+ {
+  "id": "r006",
+  "player": "p2",
+  "field_or_issue": "PC banner onset (rejected by pcmap, low lit-cell count after it)",
+  "detail": {
+   "onsets": [
+    107.5,
+    108.7
+   ],
+   "litcount_min": 21
+  },
+  "t_s": 107.5,
+  "n": 13
+ },
+ {
+  "id": "r006",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Single banner at 124.66 s, no A clear matched (added by R/build.py)",
+  "t_s": 124.66,
+  "n": 14
+ },
+ {
+  "id": "r006",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "r006",
+   "player": "p1",
+   "t0": 146.53,
+   "t1": 149.8,
+   "step": -1182,
+   "unexplained": -1182,
+   "near": [
+    [
+     148.4,
+     3600,
+     "quad"
+    ],
+    [
+     149.5,
+     1050,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 146.53,
+  "n": 15
+ },
+ {
+  "id": "r006",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 171.47,
+  "n": 16
+ }
+]

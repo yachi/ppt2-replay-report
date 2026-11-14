@@ -1,0 +1,92 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r007.png: Z held, O from hold completes the 2-row stack, PERFECT CLEAR at 189.5 with empty board; score 11131->15781 at 189.37"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r007.png: after the PC only drop points (15782..15968); next L locks with no clear, so the second double is a phantom"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r011.png: I spawned 281.45 placed vertically at the right wall, 1 garbage row clears at ~282.05 with REN banner; score 165853->166325 (+472 = single+REN) at 282.63"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r012.png: I at 346.9 completes the last row, PERFECT CLEAR + empty board at 347.05; score 11671->14559"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r012.png: O locks at ~347.4 with no clear; score only +38 after the PC"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r013a.png: Z held, T locks completing 2 rows, PERFECT CLEAR at 24.45-24.6; score 6881->11565"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r013a.png: next piece locks with no clear; score 11565->11602 (drop points only)"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r013b.png: S held at ~30.5, O out completes 2 rows, PERFECT CLEAR at 30.75; score 16507->21080 at 30.87, the only clear in the window"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r013b.png: T spawned ~30.85 locks later with no clear; only drop points 21080->21156"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r014a.png: T spins into the slot, 2 rows clear, 'Double' + BACK banner; score 10955->16505 (+5550 = B2B TSD + REN)"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r014b.png + scores.png: O and J lock with no clear (board unchanged 80.9-81.5); score 42605 at 79.2 -> 42681 at 81.3 (drops only), then +900 at 81.63 from the I double"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r014c.png: 2-row white flash at 138.35, 'Double' label in the banner stack; score 125665->131215 (+5550)"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r014c.png, r014d.png: O held at 139.13, L clears 1 row with '2 REN' (+600 at 139.20); O from hold locks at ~140.00 (r014d frame 2), before the KO tilt at 140.1; nextcount shifts at 139.10 and 139.87 agree"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r015.png: O locks ~173.8, Z ~174.1, L held/I out vertical TETRIS at 174.55 (+3600 at 174.57, only one quad), then J held/L out clears 1 row with REN (+450 at 175.90); nextcount shows only 3 shifts + holds here, so the 174.7/174.9 events are phantoms"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r019.png: T held, J out, J fills the middle, 1-row flash with REN at 288.65; score 72552->73002 (+450). B2B break then fits the +3600 TSD at 290.67"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r020.png: piece spawned 23.87 completes the 3-row stack, PERFECT CLEAR + empty board at 24.07; score 10991->17891 at 24.00"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sa/corr/fr/v1/r020.png: after the PC only drop points (17891->17998 by 24.95); L held, O and J lock with no clear"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "nextcount p1 149.07-182.5: 71 shifts (unk gaps 168.1 and 174.84 contain no spawn: queue unchanged across them); first piece + 71 entered, minus 1 in hold and the O spawned 182.43 unlocked at KO 182.5 = 70; equals 76 minus the 6 phantom locks removed by e13"
+ }
+]

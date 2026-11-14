@@ -1,0 +1,13 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v2/n34.png: L locks ~23.9 into the 3-row stack, p2 board empty with PERFECT CLEAR banner from 24.1; score.py one jump 10991->17891 at 24.00"},
+{"ref":"e1","verdict":"keep","why":"fr/v2/n34.png: after the PC the L is held and an O comes out and locks alone on the empty board ~24.5; score only drop points (17891->17928); no second clear"},
+{"ref":"e2","verdict":"keep","why":"fr/v2/n35.png: S locks ~78.4, one row clears 78.5 with REN label; score 96519->96969 (+450 single+REN) at 78.43; L spawned ~79.1 locks ~79.3 (+14 drop points), T next; nextcount shifts 78.367, 79.233, 79.367"},
+{"ref":"e3","verdict":"keep","why":"fr/v2/n36.png: T into slot, two-row white band 140.1-140.2, 'Double' + BACK to BACK; score 67543->72943 (+5400 TSD B2B) at 140.07"},
+{"ref":"e4","verdict":"keep","why":"fr/v2/n38.png: O drops into the 2-row stack ~206.0, board empty, PERFECT CLEAR banner 206.2+; one score jump 961->5611 at 206.10"},
+{"ref":"e5","verdict":"keep","why":"fr/v2/n38.png: Z spawned ~206.2 goes to hold, I comes out and locks flat on the empty board ~206.4; score only drop points (5612->5651); no second double"},
+{"ref":"e6","verdict":"keep","why":"fr/v2/n40.png + score.py: T into slot, 2-row band 221.2 with Double banner, +5403 by 221.57; I vertical, TETRIS banner 222.6, +3750 at 222.03; J placed ~223.0, +1200 at 222.93 (double+REN). Three pieces T, I, J as the chain's three events"},
+{"ref":"e7","verdict":"keep","why":"scratch nextcount (ref frame 150 s) p1 151.4-155.5: 12 shifts at 151.467 ... 154.200, 155.500; score.py: ten drop-point increments 151.73-154.10, TSD +5404 at 155.07 (2-row band 154.9, Double banner), tetris +3750 at 155.73; fr/v2/n44.png shows plain stacking 151.4-154.2"},
+{"ref":"e8","verdict":"keep","why":"fr/v2/n48.png: J hard-dropped 344.9, one row whitens 345.0, '2 REN' label; score 95003->95603 (+600) at 345.00, before KO 345.83"},
+{"ref":"e9","verdict":"keep","why":"fr/v2/n45.png: T into slot, two-row band 189.2-189.4, 'Double' + BACK to BACK; score 195371->200771 (+5400 TSD B2B) at 189.17"},
+{"ref":"c0","verdict":"keep","why":"12 locks in 151.4-155.6 (12 NEXT shifts with the scratch nextcount, 10 drop-point increments + TSD + tetris) where the chain had 5 events: +7, 63->70"}
+]
