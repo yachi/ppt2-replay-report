@@ -24,6 +24,7 @@ the PPT2 attack table is different. The TETR.IO reports are in
 | `extractor/` | the extraction chain, archived as it ran. Read `extractor/README.md` first |
 | `extractor/amemiya/` | the amemiya chain, archived as it ran, with its frame-check and score-reader tools; `h3F/` is its run on the second stream |
 | `extractor/autosettle/` | settles frame-check items the score OCR already decides (KO piece with an unchanged score), before the checkers run |
+| `extractor/banscan-rs/` | the banner scan's NCC series (`R/banscan.py` `series()`) in Rust, parallel over frames and bit-identical to numpy; `run_banscan.py --check` compares every array |
 | `HISTORY.md` | the commit log of this report from its first home, tetrio-replay-report |
 
 ## Commands
