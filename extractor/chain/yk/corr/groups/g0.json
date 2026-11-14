@@ -1,0 +1,138 @@
+[
+ {
+  "id": "a000",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "2 of 21 bags not a permutation (spawn index [133, 140]); anomalies ['double shift k=3 at frame 2093', 'queue I re-read at frame 2096: slot 2 I->J', 'queue slot-5 re-read at frame 2317: I->J']",
+  "t_s": 2892.2,
+  "n": 0
+ },
+ {
+  "id": "a000",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 2900.93 s",
+  "t_s": 2900.93,
+  "n": 1
+ },
+ {
+  "id": "a001",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (double) vs banner T-SPIN Single at 3057.83 s",
+  "t_s": 3057.83,
+  "n": 2
+ },
+ {
+  "id": "a001",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 3087.63,
+  "n": 3
+ },
+ {
+  "id": "a002",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.63 s from 3110.23 s; B events spliced (D2/D3)",
+  "t_s": 3110.23,
+  "n": 4
+ },
+ {
+  "id": "a002",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 9.07 s from 3111.07 s; B events spliced (D2/D3)",
+  "t_s": 3111.07,
+  "n": 5
+ },
+ {
+  "id": "a003",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 3149.5 s typed as a plain clear",
+  "t_s": 3149.5,
+  "n": 6
+ },
+ {
+  "id": "a003",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 3150.77 s typed as a plain clear",
+  "t_s": 3150.77,
+  "n": 7
+ },
+ {
+  "id": "a004",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 3213.67 s",
+  "t_s": 3213.67,
+  "n": 8
+ },
+ {
+  "id": "a004",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 3340.6 s typed as a plain clear",
+  "t_s": 3340.6,
+  "n": 9
+ },
+ {
+  "id": "a005",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "a005",
+   "player": "p2",
+   "t0": 3383.73,
+   "t1": 3389.96,
+   "step": -1484,
+   "unexplained": -1484,
+   "near": [
+    [
+     3383.53,
+     1350,
+     "double"
+    ],
+    [
+     3388.67,
+     600,
+     "tsmini"
+    ],
+    [
+     3389.67,
+     3600,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 3383.73,
+  "n": 10
+ },
+ {
+  "id": "a005",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 3388.53 s, no A clear matched (added by R/build.py)",
+  "t_s": 3388.53,
+  "n": 11
+ },
+ {
+  "id": "a005",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.50 s from 3389.97 s; B events spliced (D2/D3)",
+  "t_s": 3389.97,
+  "n": 12
+ },
+ {
+  "id": "a006",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Single at 3447.93 s",
+  "t_s": 3447.93,
+  "n": 13
+ }
+]
