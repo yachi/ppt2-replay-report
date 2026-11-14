@@ -37,3 +37,18 @@ So 49 of the 252 items (19%) would have gone to `ko-flat-v1`, and every one of t
 
 Labels come from `corr/out/b*.json`: an item is "change" when a correction or cell edit carries its `n`.
 Two streams of one player is a small sample; the audit sample is what keeps the rule honest on the next runs.
+
+## Rules tried and not shipped (2026-11-14)
+
+The 2773 labelled frame-check items of 28 chains (`corr/groups` against `corr/out/b*.json`) were searched for a
+rule that the item's own detail text decides, without score OCR. None settles with zero false "no change":
+
+| item | feature tried | no change | change | why not |
+|---|---|---|---|---|
+| NEXT-queue recount differs from pieces | shifts equal the table's pieces and at least one unmatched event | 20 | 1 | one change on the same features (0 shifts off, 2 and 2 unmatched) |
+| KO-tail score jump | the jump's size (300, 1200 …) and its time from KO | 74 | 77 | sizes 71–76 and 300 occur on both sides |
+| winner KO piece not counted | anything but the score | 736 | 106 | only the score after KO separates them, which is `ko-flat-v1` |
+
+The other categories (gap windows, score_spot, banner/type) are mostly "change" and are not candidates. A further
+rule needs score OCR on more chains than `te` and `xo`, which means downloading their videos; it should be developed
+on some chains and checked on held-out ones the way `ko-flat-v1` was.
