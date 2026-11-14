@@ -1,0 +1,190 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "x000",
+   "side": "p1",
+   "op": "retype",
+   "t": 547.57,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "The vertical I (spawned 547.53) locks in col 4 at ~547.7 and two non-adjacent rows flash white at 547.80-548.0 under a '1 REN' banner; score 40243->41376 (+1133 = double 900 + 1 REN 150 + drops). /tmp/claude-0/sg/corr/fr/g0/x000b.png, /tmp/claude-0/sg/corr/fr/g0/x000a.png"
+  },
+  {
+   "n": 0,
+   "id": "x000",
+   "side": "p1",
+   "op": "retype",
+   "t": 548.53,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "The Z spawned 548.53 locks at the bottom left and one row flashes white at 548.8-549.0, banner '2 REN'; score 41376->41961 at 549.27 (+585 = single 300 + 2 REN). Both before KO 549.47. These two clears are the +1718 the flag saw (40243->41961). /tmp/claude-0/sg/corr/fr/g0/x000c.png"
+  },
+  {
+   "n": 5,
+   "id": "x007",
+   "side": "p1",
+   "op": "add",
+   "t": 1389.77,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "Z spawns 1389.77 (queue ZOSIT>OSITT), is hard-dropped into the left hole of the grey garbage row at 1389.83; the bottom (garbage) row flashes white at 1389.90-1389.97 and the banner becomes '2 REN' by 1390.0. Lock and flash at/before KO 1389.97. Chain has no event for this Z. /tmp/claude-0/sg/corr/fr/g0/x007a.png"
+  },
+  {
+   "n": 6,
+   "id": "x008",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1676.73,
+   "t_end": 1677.3,
+   "events": [
+    {
+     "t": 1676.73,
+     "kind": "tsmini",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1677.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1676.73,
+     null,
+     0
+    ],
+    [
+     1677.3,
+     "tsmini",
+     1
+    ]
+   ],
+   "source": "The clear is real: the T spawned 1676.73 rotates into the slot at ~1677.07, one row flashes at 1677.2, banner 'Mini T-SPIN' (zoom /tmp/claude-0/sg/corr/fr/g0/x008b.png), score 84001->84301 at 1677.27. The chain put the tsmini on the next piece's event (1677.3, the J taken out of hold) and logged the T itself as a plain lock; this moves the clear onto the T. Totals and piece count unchanged. /tmp/claude-0/sg/corr/fr/g0/x008a.png"
+  },
+  {
+   "n": 9,
+   "id": "x022",
+   "side": "p2",
+   "op": "retype",
+   "t": 3226.4,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "The T-SPIN Single + BACK to BACK banner belongs to the T at 3225.27 (slot clear at 3225.8, score 81397->85006 = TSS B2B 3600). The piece at 3226.4 is an I dropped vertically in col 0 at ~3226.6, two rows flash at 3226.7-3226.9 under a 'REN' banner, score 85006->86076 (+1070 = double 900 + REN 150), not a TSD (would be +5400). /tmp/claude-0/sg/corr/fr/g0/x022a.png"
+  },
+  {
+   "n": 11,
+   "id": "x023",
+   "side": "p2",
+   "op": "retype",
+   "t": 3345.2,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Only one TSD in 3345-3346.5: the J spawned 3345.2 locks at the right (~3345.5) with no clear (score 47819->47831, drop points only); the T spawned 3345.73 makes the TSD (two rows flash 3346.1-3346.3, banner T-SPIN Double + BACK, score 47831->53236 = TSD B2B 5400). The chain has tsd on both the J event (3345.2) and the T event (3345.57). Next TSD (3346.8, +5555 at 3347.93) is real. /tmp/claude-0/sg/corr/fr/g0/x023a.png"
+  },
+  {
+   "n": 12,
+   "id": "x023",
+   "side": "p2",
+   "op": "retype",
+   "t": 3362.3,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "T spins into the slot at ~3362.7, one row flashes 3362.84-3363.0, banner 'T-SPIN Single' + 'BACK to BACK' (zoom /tmp/claude-0/sg/corr/fr/g0/x023c.png), score 79313 at 3363.2 (+3610 = TSS 2400 x1.5 B2B after the quad at 3358.5). /tmp/claude-0/sg/corr/fr/g0/x023b.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 0,
+   "id": "x000",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 1,
+   "value": 2,
+   "source": "double 546.67, double 547.57, single 548.53 are three consecutive clears; banners '1 REN' then '2 REN' at 547.8 and 548.8. /tmp/claude-0/sg/corr/fr/g0/x000a.png"
+  },
+  {
+   "n": 5,
+   "id": "x007",
+   "player": "p1",
+   "field": "pieces",
+   "was": 50,
+   "value": 51,
+   "source": "the Z spawned 1389.77 locks at 1389.83 (clear flash 1389.90), before KO 1389.97, and is not in the chain. /tmp/claude-0/sg/corr/fr/g0/x007a.png"
+  },
+  {
+   "n": 9,
+   "id": "x022",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 8,
+   "value": 7,
+   "source": "with 3226.4 retyped to a double, the longest difficult-clear run (3204.3 tss .. 3225.27 tss) is 8 clears, i.e. B2B 7; recomputed from the chain events with the retype."
+  },
+  {
+   "n": 11,
+   "id": "x023",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 8,
+   "value": 7,
+   "source": "with the phantom tsd at 3345.2 removed (and 3362.3 tss added, which starts a new run after the 3348.13 double/3352/3353 breaks), the longest run 3325.2..3346.8 is 8 difficult clears, B2B 7; recomputed from the chain events."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "I spawned 587.03 is still falling at 587.17-587.3 (seen top of board, ghost below); not locked by KO. O/L/Z locks before it are the chain's 586.17/586.53/586.87 events. /tmp/claude-0/sg/corr/fr/g0/x001a.png"
+  },
+  {
+   "n": 2,
+   "why": "+95 (35926->36021) is drop points of the O, L, Z locks while the score was hidden 585.93-587.2; no clear flash in 586.0-587.37. /tmp/claude-0/sg/corr/fr/g0/x001a.png"
+  },
+  {
+   "n": 4,
+   "why": "T spawned 1350.5 is soft-dropping (score +1/frame to 1351.07) and at the KO frame 1351.07 sits above its ghost; not locked. /tmp/claude-0/sg/corr/fr/g0/x006b.png"
+  }
+ ]
+}

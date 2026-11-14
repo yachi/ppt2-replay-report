@@ -28001,5 +28001,140 @@
   "pc": 0,
   "gc": 0,
   "source": "b2 frame check, verified: phantom: T held at 2736.7, O placed ~2736.8 without clearing; score after 14721 only drop points until the TSD jump at 2739.03. /tmp/claude-0/sf/corr/fr/g2/w024.png"
+ },
+ {
+  "id": "x000",
+  "side": "p1",
+  "op": "retype",
+  "t": 547.57,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: The vertical I (spawned 547.53) locks in col 4 at ~547.7 and two non-adjacent rows flash white at 547.80-548.0 under a '1 REN' banner; score 40243->41376 (+1133 = double 900 + 1 REN 150 + drops). /tmp/claude-0/sg/corr/fr/g0/x000b.png, /tmp/claude-0/sg/corr/fr/g0/x000a.png"
+ },
+ {
+  "id": "x000",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 548.53,
+  "source": "b0 frame check, verified: The Z spawned 548.53 locks at the bottom left and one row flashes white at 548.8-549.0, banner '2 REN'; score 41376->41961 at 549.27 (+585 = single 300 + 2 REN). Both before KO 549.47. These two clears are the +1718 the flag saw (40243->41961). /tmp/claude-0/sg/corr/fr/g0/x000c.png",
+  "t_end": 548.53,
+  "events": [
+   {
+    "t": 548.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    548.53,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "x007",
+  "side": "p1",
+  "op": "add",
+  "t": 1389.77,
+  "kind": "single",
+  "lines": 1,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: Z spawns 1389.77 (queue ZOSIT>OSITT), is hard-dropped into the left hole of the grey garbage row at 1389.83; the bottom (garbage) row flashes white at 1389.90-1389.97 and the banner becomes '2 REN' by 1390.0. Lock and flash at/before KO 1389.97. Chain has no event for this Z. /tmp/claude-0/sg/corr/fr/g0/x007a.png"
+ },
+ {
+  "id": "x008",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 1676.73,
+  "t_end": 1677.3,
+  "events": [
+   {
+    "t": 1676.73,
+    "kind": "tsmini",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 1677.3,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    1676.73,
+    null,
+    0
+   ],
+   [
+    1677.3,
+    "tsmini",
+    1
+   ]
+  ],
+  "source": "b0 frame check, verified: The clear is real: the T spawned 1676.73 rotates into the slot at ~1677.07, one row flashes at 1677.2, banner 'Mini T-SPIN' (zoom /tmp/claude-0/sg/corr/fr/g0/x008b.png), score 84001->84301 at 1677.27. The chain put the tsmini on the next piece's event (1677.3, the J taken out of hold) and logged the T itself as a plain lock; this moves the clear onto the T. Totals and piece count unchanged. /tmp/claude-0/sg/corr/fr/g0/x008a.png"
+ },
+ {
+  "id": "x022",
+  "side": "p2",
+  "op": "retype",
+  "t": 3226.4,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 1,
+  "source": "b0 frame check, verified: The T-SPIN Single + BACK to BACK banner belongs to the T at 3225.27 (slot clear at 3225.8, score 81397->85006 = TSS B2B 3600). The piece at 3226.4 is an I dropped vertically in col 0 at ~3226.6, two rows flash at 3226.7-3226.9 under a 'REN' banner, score 85006->86076 (+1070 = double 900 + REN 150), not a TSD (would be +5400). /tmp/claude-0/sg/corr/fr/g0/x022a.png"
+ },
+ {
+  "id": "x023",
+  "side": "p2",
+  "op": "retype",
+  "t": 3345.2,
+  "was": [
+   "tsd",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Only one TSD in 3345-3346.5: the J spawned 3345.2 locks at the right (~3345.5) with no clear (score 47819->47831, drop points only); the T spawned 3345.73 makes the TSD (two rows flash 3346.1-3346.3, banner T-SPIN Double + BACK, score 47831->53236 = TSD B2B 5400). The chain has tsd on both the J event (3345.2) and the T event (3345.57). Next TSD (3346.8, +5555 at 3347.93) is real. /tmp/claude-0/sg/corr/fr/g0/x023a.png"
+ },
+ {
+  "id": "x023",
+  "side": "p2",
+  "op": "retype",
+  "t": 3362.3,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tss",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: T spins into the slot at ~3362.7, one row flashes 3362.84-3363.0, banner 'T-SPIN Single' + 'BACK to BACK' (zoom /tmp/claude-0/sg/corr/fr/g0/x023c.png), score 79313 at 3363.2 (+3610 = TSS 2400 x1.5 B2B after the quad at 3358.5). /tmp/claude-0/sg/corr/fr/g0/x023b.png"
  }
 ]
