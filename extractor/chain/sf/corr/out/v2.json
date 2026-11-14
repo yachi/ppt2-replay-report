@@ -1,0 +1,12 @@
+[
+ {"ref":"e0","verdict":"keep","why":"Only one clear-sized score jump in 431.47-433.6: 20637->25287 at 432.87 (+4650). nextcount: hold swap 432.03, next spawns 433.00/433.10, so the piece spawned ~432.03 made the clear; PERFECT CLEAR banner follows."},
+ {"ref":"e1","verdict":"keep","why":"The 432.93 piece exists (NEXT shift at 433.00) but locked by hard drop at once: score +38 drop points at 433.00 (25287->25325), no clear jump until 436.9 TST. Lock without clear is right."},
+ {"ref":"e2","verdict":"keep","why":"/tmp/claude-0/sf/corr/fr/v2/w022.png: Z spawns 2603.9, held at ~2604.0 (hold shows Z), I from hold laid flat clears the last row at 2604.2, PERFECT CLEAR and empty board at 2604.3; score 12242->15582 at 2604.23."},
+ {"ref":"e3","verdict":"keep","why":"Same sheet: piece spawned ~2604.3 (J held, Z out) locks bottom right ~2604.7 with only +35 drop points (15582->15617); no line clears."},
+ {"ref":"e4","verdict":"keep","why":"/tmp/claude-0/sf/corr/fr/v2/w023.png: Z spawned ~2657.43 locks at left without clearing (~2657.6); L spawned ~2657.73 and held (hold shows L at 2657.90), T from hold drops, 2 rows clear 2658.1, PERFECT CLEAR 2658.2. Score +4500 at 2658.13-2658.17."},
+ {"ref":"e5","verdict":"keep","why":"Same sheet: after the PC an O spawns and is held (hold O at 2658.3), L from hold locks bottom right ~2658.7 without a clear; score only drop points (47019->47054/47092)."},
+ {"ref":"e6","verdict":"keep","why":"/tmp/claude-0/sf/corr/fr/v2/w024.png: one partial bottom row at 2736.3-2736.4; I spawned 2736.4 lies flat and fills it at 2736.5, PERFECT CLEAR 2736.6, score 11834->14721 at 2736.57 (single+REN+PC)."},
+ {"ref":"e7","verdict":"keep","why":"Same sheet: next piece T is held at 2736.7 (hold T), O from hold placed bottom-left at 2736.8 with no clear; score only drop points until the 2738-2739 TSD."},
+ {"ref":"c0","verdict":"keep","why":"Recomputed REN over cseq p1 up to end_s with 432.93 as a plain lock: max 1 (chain's 2 came from 432.93)."},
+ {"ref":"c1","verdict":"keep","why":"REN banner reads '3 REN' at 2603.8 before the PC single, so the PC is 4 REN; recomputed over cseq with 2604.3 as a plain lock: max 4."}
+]

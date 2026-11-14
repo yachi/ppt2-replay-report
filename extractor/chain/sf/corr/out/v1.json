@@ -1,0 +1,21 @@
+[
+{"ref":"e0","verdict":"keep","why":"p1 NEXT shifts only at 1019.67, 1037.97, 1052.17, 1061.93 (nextcount); score steps 1037.33 +1800, 1051.50 +1950, 1061.23 +2100, 1063.03 +2250 (REN +150 each, unbroken). No spawn or score change near 1034.67: phantom."},
+{"ref":"e1","verdict":"keep","why":"No spawn between 1037.97 and 1052.17 and the only score jump is 1051.50 (the 1037.97 piece). 1046.73 phantom."},
+{"ref":"e2","verdict":"keep","why":"No spawn between 1052.17 and 1061.93; the 1052.17 piece clears at 1061.23 (+2100). 1060.2 phantom."},
+{"ref":"e3","verdict":"keep","why":"No quad-sized score jump: 27573 flat from 1061.23 to 1063.00, then +2250 (REN single). Spawn at 1061.93 only. Phantom quad."},
+{"ref":"e4","verdict":"keep","why":"p2 NEXT shifts at 1040.90 and 1049.47 only; score +1950 at 1048.87 is the 1040.90 piece. 1048.43 duplicate. (Note: chain 1039.8 single also has no spawn behind it, last spawn 1019.13 cleared at 1040.27; that window is g0's.)"},
+{"ref":"e5","verdict":"keep","why":"p1 score steps 1408.67 +1372, 1409.57 +1520, 1415.93 +1650, 1427.37 +1800, 1429.70 +1950, 1430.53 +2100, 1431.67 +2250, 1432.53 +2400: single + 150 per REN, REN 7..14 continuous. No break."},
+{"ref":"e6","verdict":"keep","why":"p1 spawns at 1409.93, 1416.57, 1428.00 only (nextcount); score flat 1415.93-1427.37. 1415.47 phantom."},
+{"ref":"e7","verdict":"keep","why":"Same: no spawn and no score change at 1423.43. Phantom."},
+{"ref":"e8","verdict":"keep","why":"p2 shifts 1408.53 then 1428.57 (hold 1422.30 only); score 22969 flat 1407.90-1427.87 then +1950. One piece; 1408.63 duplicate."},
+{"ref":"e9","verdict":"keep","why":"fr/v1/w008.png: T dropped upright into the garbage hole at ~1178.5, white row flash 1178.57-1178.83, score 20885 -> 22563 at 1178.53. No T-SPIN banner (TETRIS lingering). Real 1-line garbage clear."},
+{"ref":"e10","verdict":"keep","why":"p2 score: +~4807 at ~2557.3 (one TST), +20 at 2558.10 (plain lock), +5410 at 2559.17 (TSD B2B), +3600 at 2560.40 (quad). Only one TST; 2558.03 is a plain lock."},
+{"ref":"e11","verdict":"keep","why":"fr/v1/w026.png: I into left well at 2975.2, 4 white garbage rows cleared, TETRIS banner from ~2975.7, score +24 then +2400 at 2975.27. No T-spin."},
+{"ref":"c0","verdict":"keep","why":"7 spawns 1019.67-1065.13 by nextcount; 4 phantoms in 1019.67-1061.93 -> 239-4=235."},
+{"ref":"c1","verdict":"keep","why":"One duplicate removed (spawns 1040.90, 1049.47)."},
+{"ref":"c2","verdict":"keep","why":"Two phantoms removed (spawns 1409.93, 1416.57, 1428.00)."},
+{"ref":"c3","verdict":"keep","why":"Score steps show REN reaching 14 at 1432.53 (+2400 = 300+150x14); double at 1435.13 +918 has no REN bonus."},
+{"ref":"c4","verdict":"keep","why":"Single spawn between 1408.53 and 1428.57."},
+{"ref":"c5","verdict":"keep","why":"p2 steps 1427.93 +1950 (REN11) ... 1434.80 +3000 (REN18), 1435.73 +4350 = triple 1500 + 150x19. Continuous: max_combo 19."},
+{"ref":"c6","verdict":"keep","why":"fr/v1/w022.png: I spawned 2618.20 (nextcount shift), locked flat on the left with drop streaks at 2618.37, before KO 2618.40; no clear."}
+]

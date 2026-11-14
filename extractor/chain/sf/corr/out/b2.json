@@ -1,0 +1,161 @@
+{
+ "event_corrections": [
+  {
+   "n": 40,
+   "id": "w002",
+   "side": "p1",
+   "op": "retype",
+   "t": 432.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z (from hold ~432.05) soft-dropped, locks 432.77 clearing the last 2 rows; board empty with PERFECT CLEAR at 433.10. Score 20637->25287 (+4650 = double 900 + 1 REN 150 + PC 3600) at 432.87, the only clear between 431.47 and 433.6. /tmp/claude-0/sf/corr/fr/g2/w002.png, /tmp/claude-0/sf/corr/fr/g2/w002b.png"
+  },
+  {
+   "n": 40,
+   "id": "w002",
+   "side": "p1",
+   "op": "retype",
+   "t": 432.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate of the PC double: score after 25287 rises only by drop points (25325..25632) through 435.9; next piece locks without clearing. REN banner at the PC reads '1 REN' (/tmp/claude-0/sf/corr/fr/g2/ren_432.95.png). /tmp/claude-0/sf/corr/fr/g2/w002.png"
+  },
+  {
+   "n": 41,
+   "id": "w022",
+   "side": "p1",
+   "op": "retype",
+   "t": 2603.9,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "one partial row left after the 2603.27 single; Z spawned 2603.9, held, I from hold laid flat ~2604.1 clears the row -> empty board + PERFECT CLEAR (2604.28). Score 12242->15582 at 2604.23, banner '4 REN' (/tmp/claude-0/sf/corr/fr/g2/ren_2604.25.png). /tmp/claude-0/sf/corr/fr/g2/w022b.png"
+  },
+  {
+   "n": 41,
+   "id": "w022",
+   "side": "p1",
+   "op": "retype",
+   "t": 2604.3,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: no score jump between 2604.23 (15582) and the TSD at ~2607.3 (only drop points up to 15893 at 2607.57); board after the PC shows no line cleared. /tmp/claude-0/sf/corr/fr/g2/w022.png"
+  },
+  {
+   "n": 42,
+   "id": "w023",
+   "side": "p1",
+   "op": "retype",
+   "t": 2657.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "L spawned, swapped for T from hold (hold shows L at 2657.90); T drops into the 2-row stack, rows clear 2658.10, empty board + PERFECT CLEAR 2658.20. Score 42519->47019 (+4500 = double 900 + PC 3600) at 2658.17; chain gc of this clear unknown, set 0 (the rows were player-built red/green/yellow cells). /tmp/claude-0/sf/corr/fr/g2/w023.png"
+  },
+  {
+   "n": 42,
+   "id": "w023",
+   "side": "p1",
+   "op": "retype",
+   "t": 2658.2,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "duplicate of the PC double: score after 47019 only drop points (47054..47282) through 2660.8; pieces after the PC (I, L, O at 2658.7-2659.2) clear nothing. /tmp/claude-0/sf/corr/fr/g2/w023.png"
+  },
+  {
+   "n": 43,
+   "id": "w024",
+   "side": "p1",
+   "op": "retype",
+   "t": 2736.4,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "one partial row left after the 2735.67 double; I spawned 2736.4, laid flat at 2736.5 clears it -> empty board + PERFECT CLEAR 2736.57. Score 11834->14721 at ~2736.5. /tmp/claude-0/sf/corr/fr/g2/w024.png"
+  },
+  {
+   "n": 43,
+   "id": "w024",
+   "side": "p1",
+   "op": "retype",
+   "t": 2736.63,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "phantom: T held at 2736.7, O placed ~2736.8 without clearing; score after 14721 only drop points until the TSD jump at 2739.03. /tmp/claude-0/sf/corr/fr/g2/w024.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 40,
+   "id": "w002",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 1,
+   "source": "chain's 2 came from the phantom 432.93 double; the PC double shows '1 REN' (/tmp/claude-0/sf/corr/fr/g2/ren_432.95.png); recomputed run over cseq with the phantom removed = 1"
+  },
+  {
+   "n": 41,
+   "id": "w022",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 5,
+   "value": 4,
+   "source": "chain's 5 came from the phantom 2604.3 single; the PC shows '4 REN' (/tmp/claude-0/sf/corr/fr/g2/ren_2604.25.png); recomputed = 4"
+  }
+ ],
+ "no_change": []
+}
