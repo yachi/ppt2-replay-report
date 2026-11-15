@@ -1,0 +1,17 @@
+[
+{"ref":"e0","verdict":"keep","why":"Exact frames 59.667/59.700/59.733 (fr/v1/j22.png): p2 board first shifts/tilts at 59.733 and in that same frame the T is down with drop trail, score 71772->71787. Lock on the KO frame, no clear."},
+{"ref":"e1","verdict":"keep","why":"Score 37067->42635 (+5568) around 277.4-277.87 = B2B TSD 5400 + REN1 150 + drops; a TSS would be ~3600."},
+{"ref":"e2","verdict":"keep","why":"fr/v1/ad30p2.png: L locks 500.97, the coloured (non-garbage) row above the garbage flashes 501.03, REN banner, score 30788->31238 (+450). Next TSD scores +3612 (non-B2B), consistent."},
+{"ref":"e3","verdict":"keep","why":"fr/v1/ad30p1.png: T fills hole of grey garbage bottom row 507.2, row flashes 507.3; score 52282->53668 (+1386 = 300+REN7)."},
+{"ref":"e4","verdict":"keep","why":"fr/v1/ad30p1.png: O to hold 508.0, Z locks ~508.2, coloured (non-garbage) bottom row clears 508.3, 8 REN banner; score 53668->55204 (+1536)."},
+{"ref":"e5","verdict":"keep","why":"fr/v1/ad32.png: vertical L locks 597.97 into 3 full rows, all clear, empty board, PERFECT CLEAR banner 598.04+; single jump 10813->17713."},
+{"ref":"e6","verdict":"keep","why":"fr/v1/ad32.png: next O falls onto empty board, lands ~598.5, no clear; score only drop points afterwards. 598.1 triple is a duplicate."},
+{"ref":"e7","verdict":"reject","why":"Exact frames 704.700/704.733/704.767 (fr/v1/k34.png): p2 board starts shifting/tilting at 704.733 (= end_s) while p1's T is still at the top of the well; the T lands and score goes 85963->85979 only at 704.767, one frame AFTER end_s. Same method on ad22 puts that lock in the tilt-onset frame, so the offset is real: per the brief a lock one frame after end_s does not count."},
+{"ref":"e8","verdict":"keep","why":"fr/v1/ad37.png: L locks 825.73, one coloured row flashes 825.80, REN banner, score 12823->13273 (+450)."},
+{"ref":"e9","verdict":"keep","why":"fr/v1/ad39.png: J fills right hole, grey garbage bottom row clears ~1034.6, banner 3 REN, score 163228 (+786)."},
+{"ref":"e10","verdict":"keep","why":"fr/v1/ad39.png: T (purple) locks ~1035.4, coloured bottom row clears, 4 REN, score 164164 (+936)."},
+{"ref":"e11","verdict":"keep","why":"fr/v1/ad39.png: L (orange) locks ~1036.1, bottom row clears 1036.25, 5 REN; final 165289 = 162442+2847 fits three singles REN3-5 plus drops. (score.py's '163778' at 1034.97 is a misread.)"},
+{"ref":"c0","verdict":"keep","why":"T locked in the KO frame 59.733 (fr/v1/j22.png)."},
+{"ref":"c1","verdict":"reject","why":"T locks at 704.767, one frame after the KO onset 704.733 (fr/v1/k34.png); pieces stays 119."},
+{"ref":"c2","verdict":"keep","why":"Score increments 500.57 +3600 (quad), 502.10 +3750 (TSS+REN1), then +634,+782,+932,+1084,+1236,+1386,+1536 = singles at REN2..REN8 with no break: 9 consecutive clears, REN 8."}
+]
