@@ -1,0 +1,222 @@
+{
+ "event_corrections": [
+  {
+   "n": 2,
+   "id": "an03",
+   "side": "p1",
+   "op": "retype",
+   "t": 320.27,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 4,
+   "source": "fr/g0/an03b.png: I dropped into the right well at 320.4, 4 gray garbage rows clear 320.5-320.9, banner TETRIS 321.0-321.8; score 43496->46530 (+3034 = 2400 + REN4 600 + drops), a triple would be ~2100"
+  },
+  {
+   "n": 2,
+   "id": "an03",
+   "side": "p1",
+   "op": "retype",
+   "t": 321.3,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/an03c.png: at 321.05 the coloured row (cols 0-5) has cols 6-9 empty; the I lands there 321.45 and the row clears (321.55 white); score 46566->47616 at 321.50 (+1050 = 300 + REN5 750); '5 REN' banner"
+  },
+  {
+   "n": 2,
+   "id": "an03",
+   "side": "p1",
+   "op": "retype",
+   "t": 322.17,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "fr/g0/an03a.png: Z placed vertically at cols 8-9 at 322.4 fills the hole of the last garbage row, row whitens 322.5-322.7 and collapses 322.9; score 47616->48850 (+1234 = 300 + REN6 900 + drops). This is the KO-tail jump the flag saw."
+  },
+  {
+   "n": 4,
+   "id": "an05",
+   "side": "p2",
+   "op": "retype",
+   "t": 405.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "tss",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/an05a.png: T rotated into slot, one row clears 406.6, banners 'T-SPIN Single' + 'BACK to BACK'; score 5339->9089 at 406.60 (+3750 = TSS B2B 3600 + REN1 150); plain single would be 450"
+  },
+  {
+   "n": 5,
+   "id": "an05",
+   "side": "p1",
+   "op": "retype",
+   "t": 413.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py: 16677->22227 at 413.80 (+5550 = TSD B2B 5400 + REN1 150) following the tsd at 411.93; a plain double would be 1050"
+  },
+  {
+   "n": 7,
+   "id": "an05",
+   "side": "p1",
+   "op": "retype",
+   "t": 540.53,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/an05c.png: T into slot 540.7-540.8, two-row white band 540.9-541.1, banner '...N Double' + BACK to BACK; score 220404->225954 at 540.90 (+5550 = TSD B2B 5400 + REN1 150 after the quad at 539.53); TSS would be 3750"
+  },
+  {
+   "n": 8,
+   "id": "an09",
+   "side": "p1",
+   "op": "retype",
+   "t": 846.97,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/an09b.png: S spawned 846.93, placed vertical at left 847.07, coloured bottom row flashes white 847.13; score 51667->52285 (+600 = single 300 + REN2 300), '2 REN' banner 847.3. Also explains the score_spot: the tsd at 849.27 scored only +3605 (52364->55969, not B2B since this single broke B2B), the tss at 852.8 +2415 (no REN)"
+  },
+  {
+   "n": 9,
+   "id": "an13",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1007.4,
+   "t_end": 1007.85,
+   "events": [
+    {
+     "t": 1007.47,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1007.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1007.8,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g0/an13a.png + nextcount: O spawned 1007.467, placed right, PERFECT CLEAR 1007.7-1007.77 (score 17877->22415); Z spawned 1007.80 locked ~1008.0 with no clear (22453, +38 drop). Chain merged O and Z into one event at 1007.8. csv pieces (28) already matches the NEXT-shift count (30 shifts - hold-into-empty - unlocked L), so no pieces edit."
+  },
+  {
+   "n": 11,
+   "id": "an15",
+   "side": "p1",
+   "op": "retype",
+   "t": 1100.47,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "fr/g0/an15a.png: T stem into the hole of the top garbage row, two rows clear 1100.9-1101.1 (coloured row + that garbage row), banner '...N Double' + BACK to BACK; score 34256->39806 at 1100.90 (+5550 = TSD B2B 5400 + REN1 150 after the non-B2B quad +2400)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 2,
+   "id": "an03",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 4,
+   "value": 6,
+   "source": "consecutive clears tst 315.93, tsd 317.33, single 318.5, single 319.4, quad 320.27, single 321.3, single 322.17 = 7 clears = REN 6; banners '3 REN' 320.1, '4 REN' 320.6, '5 REN' 321.5 (fr/g0/an03a.png, an03b.png)"
+  },
+  {
+   "n": 3,
+   "id": "an04",
+   "player": "p1",
+   "field": "pieces",
+   "was": 120,
+   "value": 121,
+   "source": "fr/g0/an04a.png: L spawned 389.07, locks on the KO frame 389.20 (lock glow, score 90943->90975 at 389.20 = end_s), no clear"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "an01 p2: +81 is drop points over several locks while the score was unreadable 135.8-137.3; the quad at 137.67 scores +3600 at 137.97 as expected. No missed clear."
+  },
+  {
+   "n": 1,
+   "why": "an02 p2: score 130014->137214 at 249.43 = +7200 = TST B2B (4800x1.5); chain tst is right, banner read was wrong."
+  },
+  {
+   "n": 6,
+   "why": "an05 p1 522.1: fr/g0/an05b.png shows T held and an O placed, one row clears; score 194172->195250 (+1078 = single 300 + REN5 750 + drops). Chain 'single' is right (score.py's 164xxx values are misreads)."
+  },
+  {
+   "n": 10,
+   "why": "an13 p2: the L spawned 1008.70 locks at 1008.90 (score 22525->22563 at 1008.90), one frame after the KO frame 1008.87 (fr/g0/an13b.png); does not count."
+  },
+  {
+   "n": 12,
+   "why": "an19 p2 gap: fr/g0/an19a.png, an19b.png, an19c.png: Z locks 231.2, T held at top-left for seconds and locks by 238.9 with no score change, then I (from hold) Tetris at 239.5 (+3614). Chain 231.23, 231.53, 239.43 quad = the same 3 pieces; nextcount agrees."
+  },
+  {
+   "n": 13,
+   "why": "an19 p1 gap: the I is moved slowly down the right well from 233.6 to 238.3 (fr/g0/an19a.png) and clears a Tetris (+3602 at 238.37); chain quad at 232.67 is that piece; no lock missing (nextcount shows no spawn 232.67-239.2)."
+  },
+  {
+   "n": 14,
+   "why": "an19 p2: T spawned 288.5 still at the top at 288.67, game over 288.70 (fr/g0/an19d.png); nothing locks by the KO frame."
+  }
+ ]
+}

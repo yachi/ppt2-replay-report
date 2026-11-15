@@ -379,7 +379,8 @@ def render(games, s):
 UNKNOWN = "對手未知"
 #: a dataset holding two streams of one day: the listed videos' cards come in this order, so the stream added
 #: second never takes a card filename the first one published. Any other dataset orders by start time alone.
-VIDEO_ORDER = {"stream-2026-08-16": {"n0Kbttgv3sQ": 0, "UKNJ3gWqqkU": 1}}
+VIDEO_ORDER = {"stream-2026-08-16": {"n0Kbttgv3sQ": 0, "UKNJ3gWqqkU": 1},
+               "upload-2025-06-29": {"hEnw7Uj4Jgs": 0, "SytEEEZsu8Y": 0, "K4vvl7e2Ea4": 1, "kADGVeU2Miw": 1}}
 KIND = {"stream": "直播", "upload": "上載日期（唔一定係打嘅日子）"}
 _ISO = re.compile(r"\d{4}-\d{2}-\d{2}")
 

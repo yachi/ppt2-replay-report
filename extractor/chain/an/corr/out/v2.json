@@ -1,0 +1,107 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py K4vvl7e2Ea4 23.4-26: p2 10952->17852 at 24.17 (+6900, the PC-triple value seen elsewhere), single jump, before the 24.23 spawn."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py: after the 24.17 PC jump p2 only rises by drop points (24.67 +37, 24.90 +36); the 24.23 piece clears nothing."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py 311-313: p1 15687->28887 at 311.73 (+13200), the only clear jump; before the 311.8 spawn."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py: 311.83 +36 only (drop points) for the 311.8 piece."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py: 312.23 +30 only for the 311.93 piece; no further jump."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py 305.3-308: p2 6790->11590 at 307.13 (+4800), before the 307.2 spawn; the 306.5 piece made the PC double."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score.py: 307.63 +38 only for the 307.2 piece."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v2/an05.png: 588.85 two rows left, S active with T in hold; 588.95 T swapped in; 589.05 board empty, PERFECT CLEAR banner 589.16; score 272631->273717 (+1050 = double+REN) then 277317. Double, not single; no T-SPIN banner."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "fr/v2/an05.png + score: next piece (a T, not an I as the checker wrote) spawns 589.16 and locks bottom-left by 589.46, +38 drop points only; no clear. Verdict unchanged."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score.py 823.4-824.8: p1 10971->12471->17871 at 823.90-823.93, before the 823.97 spawn."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "score.py: 823.97 piece adds only drop points (17872..17898)."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "score.py kADGVeU2Miw 752.5-754: p2 10962->12462->17862 at 752.97-753.00, before the 753.03 spawn."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score.py: 753.03 piece adds only drop points (17900 at 753.50)."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "score.py 1048.5-1049.7: p1 10818->17718 at 1048.93, before the 1049.0 spawn."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "score.py: 1049.0 piece adds only drop points (17756)."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "score.py 1082-1083.8: p1 10834->17734 at 1082.33, before the 1082.4 spawn."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "score.py: 1082.4 piece adds only drop points (17767 at 1082.80)."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "score.py: p2 10832->17732 at 1082.90, before the 1083.03 spawn."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "score.py: 1083.03 piece adds +1 only (17733)."
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "fr/v2/an34.png: after the 1334.10 double one 6-cell row remains; I (nextcount spawn 1334.833) lands flat at right ~1334.95 completing it; empty board + PERFECT CLEAR 1335.05-1335.25; score 11848->14736 at 1335.07, before the 1335.10 spawn."
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "score.py: the 1335.1 piece adds only drop points (14775, 14813); nextcount hold S 1335.233 matches."
+ }
+]

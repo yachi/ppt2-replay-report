@@ -1,0 +1,14 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 +300 at 498.80 only (206->506), the value of a zero-line Mini T-spin at level 3; a Mini Single would be ~600. No clear."},
+{"ref":"e1","verdict":"keep","why":"score.py p1 5288->10838 (+5550) at 750.93 = TSD x1.5 B2B +150 REN; fits tsd only."},
+{"ref":"e2","verdict":"keep","why":"fr/v1/an26.png: last bottom rows cleared ~752.85, PERFECT CLEAR banner over empty board from 752.90; score 16050 at 752.87."},
+{"ref":"e3","verdict":"keep","why":"fr/v1/an26.png 752.9-753.6: following pieces land on the empty board, no clear; score only +40 (753.03) and +38 (753.33) drop points. Phantom double-log."},
+{"ref":"e4","verdict":"keep","why":"fr/v1/an30.png: 3-row stack cleared by the J ~1048.9, PERFECT CLEAR banner on empty board 1049.0+; score 10818->17718 at 1048.93."},
+{"ref":"e5","verdict":"keep","why":"fr/v1/an30.png 1049.0-1049.6: next pieces lock on empty board, score only drop points (17718->17756->17796). Phantom."},
+{"ref":"e6","verdict":"keep","why":"fr/v1/an31.png left: PERFECT CLEAR on empty board from 1082.40; score 10834->17734 at 1082.33."},
+{"ref":"e7","verdict":"amend","why":"Frames/score confirm a phantom (only drop points 17734->17767->17805->17843 after the PC, fr/v1/an31.png). But 'was' is wrong: the chain event is ['triple',3,pc 0] (gc 3), not pc 3.","amended":{"was":["triple",3,0]}},
+{"ref":"e8","verdict":"keep","why":"fr/v1/an31.png right: board empty with PERFECT CLEAR banner from 1083.0; score 10832->17732 at 1082.90."},
+{"ref":"e9","verdict":"amend","why":"Phantom confirmed (17732->17733 only, empty board in fr/v1/an31.png 1083.0-1083.3), but 'was' should be ['triple',3,0] (chain pc 0, gc 3).","amended":{"was":["triple",3,0]}},
+{"ref":"e10","verdict":"keep","why":"fr/v1/an36.png: L dropped vertically into the column-0 well ~1477.0, top coloured row and one garbage row cleared, only a REN banner; score 74806->75856 (+1050 = double 900 + 150 REN; a mini double would be ~1350). Quad at 1481.83 is +2400 (76193->78593, the checker's '41593' is a typo), i.e. no B2B, consistent."},
+{"ref":"e11","verdict":"keep","why":"score.py p2 5242->10792 (+5550) at 1822.60: TSD x1.5 +150 REN only."}
+]

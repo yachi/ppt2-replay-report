@@ -281,3 +281,4 @@ am27,p1,pieces,77,75,"b1 frame check, verified: Two phantom single locks (546.17
 am27,p2,pieces,70,67,"b1 frame check, verified: Differential: the window 545.0-553.9 held one real piece (T) where the chain had three locks (545.0, 545.07, 549.67) plus the duplicate 553.9 tsmini; net -3 locks vs the chain value."
 am26,p2,pieces,191,192,"v1 skeptic, missed by b1: Z spawned 510.667, hard-dropped and locked on the KO frame 510.73 (score +20, fr/v1/a26k.png); not in the chain's 191."
 am40,p2,pieces,143,140,"b2 frame check, verified: Three phantom spawns at 1458.83 removed (/tmp/claude-0/am/corr/fr/g2/i37.png)."
+an04,p1,pieces,120,121,"b0 frame check, verified: fr/g0/an04a.png: L spawned 389.07, locks on the KO frame 389.20 (lock glow, score 90943->90975 at 389.20 = end_s), no clear"
