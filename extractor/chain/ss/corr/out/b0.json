@@ -1,0 +1,22 @@
+{"event_corrections":[
+{"n":2,"id":"ad02","side":"p1","op":"retype","t":171.67,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,"source":"fr/g0/n2.png, n2b.png: nextcount spawns S 170.90, L 171.67, J 172.17 (J held 172.33). Score +450 at 171.03 (single, REN1), nothing until +4800 at 172.10 = double 900 + PC bonus 3600 + REN2 300; PERFECT CLEAR banner over the empty p1 board 172.1-173.2 with '2 REN'. So the L (t=171.67) made the PC double."},
+{"n":2,"id":"ad02","side":"p1","op":"retype","t":172.17,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/n2.png: after the PC the J (spawn 172.17) is held and the O drops onto the empty board at ~172.4; score 16055->16059 (drop points only), no clear flash. Phantom second double."},
+{"n":4,"id":"ad03","side":"p2","op":"retype","t":289.87,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"fr/g0/n4b.png, n4c.png: S spawned 289.87 fills the hole of the grey garbage bottom row, row flashes 290.12-290.46; score 118988 (289.65) -> 120224 (290.58) = +1236 = single 300 + REN6 900 + drop."},
+{"n":4,"id":"ad03","side":"p2","op":"retype","t":290.7,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g0/n4c.png: T spawned 290.70 locks ~290.92, bottom (player) row flashes 291.04-291.38; score 120224 -> 121609 (291.60) = +1385 = single 300 + REN7 1050 + drop; '7 REN' banner visible. The 291.63 S does NOT clear (final 121683 = +74 drop only); the flagged +2695 at 292.2 is a misread under the KO overlay."},
+{"n":5,"id":"ad05","side":"p2","op":"retype","t":368.2,"was":["double",2,0],"kind":"tsd","lines":2,"source":"score.py: 5294 -> 10844 at 368.90 = +5550 = TSD 3600 x1.5 B2B (after the 366.8 TST, +4800) + REN1 150; a plain double would be ~1050. Next single +600 (REN2) consistent."},
+{"n":7,"id":"ad07","side":"p1","op":"retype","t":565.1,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/n7.png, n7b.png: the T (spawn 564.40) locks ~565.0 with a T-SPIN (mini) banner but clears no line: stack height unchanged 564.9 vs 565.4, score +300 only (zero-line mini T-spin = 100x3). The piece at 565.10 (L held, J placed) clears nothing either (+30 drop). No row clears until the single at 566.45. The +4070 at 565.97 is a misread under the garbage overlay."},
+{"n":12,"id":"ad12","side":"p2","op":"retype","t":1088.9,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"score.py: T spawned 1088.90 gives only +300 at 1089.60 (zero-line mini T-spin; a Mini TSS would be 600/900 after the B2B TST). The next quad at 1090.17 is +3600 = B2B tetris with no REN bonus, so the previous lock cleared no line."}
+],
+"cell_edits":[
+{"n":4,"id":"ad03","player":"p2","field":"max_combo","was":6,"value":7,"source":"fr/g0/n4.png, n4b.png: '7 REN' banner left of p2 board 290.9-292.4; score steps +1086 (REN5), +1236 (REN6), +1385 (REN7) at 289.65/290.58/291.60."}
+],
+"no_change":[
+{"n":0,"why":"score.py spot is a misread (84508 read as 88716 at 140.83). True steps: 79104->84508 (+5404 tsd B2B 140.7), 84524->88274 (+3750 quad B2B+REN 142.0), 88410->93810 (+5400 tsd 146.97), 93828->97578 (+3750 quad 148.0). Chain matches."},
+{"n":1,"why":"p1 score ticks +1/frame (soft drop) from 152.57 through 152.97, past KO 152.70: piece still falling at KO, no lock, no spawn."},
+{"n":3,"why":"p1 score soft-drop ticks continue to 192.00 (KO 191.97); piece spawned 191.53 not locked by KO."},
+{"n":6,"why":"fr/g0/n6.png: three rows clear at 535.2, banner '...T-SPIN Triple' at 535.3+, score +4800 (TST, no B2B after the 533.27 single). Chain tst correct; the Single banner was a lingering/misread banner."},
+{"n":8,"why":"p2 score unchanged 29301 from 581.07 to 581.53 (no hard drop or soft-drop points); piece spawned 581.10 not locked by KO 581.33."},
+{"n":10,"why":"fr/g0/n10.png: T spawned 800.93 soft-drops (score +2/frame) and reaches the floor ~801.46, after KO 801.43; no lock by KO, no next spawn."},
+{"n":11,"why":"p1 score soft-drop ticks continue through 877.57 (KO 877.50): piece still falling at KO."},
+{"n":14,"why":"fr/g0/kcmp.png, n14.png: the L spawned 1910.57 hard-drops on frame 57324 (t=1910.80, score 169810->169840); frame 57323 (1910.767 = end_s 1910.77) still shows it unlocked. Lock is one frame after end_s, so not counted. (One-frame call; if end_s were taken as 1910.80 it would be +1 piece, no clear.)"}
+]}

@@ -1,0 +1,26 @@
+{"event_corrections":[
+{"n":15,"id":"ad22","side":"p1","op":"add","t":59.5,"kind":null,"lines":0,"pc":0,"gc":0,"source":"T spawned 59.50 (nextcount shift), hard-dropped and locked at 59.73 = KO frame, no clear; score 71772->71787 (+15 drop pts) at 59.73. fr/g1/ad22.png"},
+{"n":17,"id":"ad27","side":"p1","op":"retype","t":276.47,"was":["tss",1,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"T locks at right edge 277.30, two rows flash white 277.40, T-SPIN Double + REN banner; score 37067->42635 (+5568 = TSD B2B 5400 + REN1 150 + drops). fr/g1/ad27.png"},
+{"n":18,"id":"ad30","side":"p2","op":"retype","t":500.73,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"orange L locks 501.00, one non-garbage row flashes 501.05, REN banner appears; score 30788->31238 (+450 = single+REN1 after the quad). This breaks B2B, so the TSD at 502.77 scored 3612 (non-B2B), explaining the spot. fr/g1/ad30a.png, ad30b.png"},
+{"n":19,"id":"ad30","side":"p1","op":"retype","t":507.13,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"T locks 507.20, bottom (garbage) row clears 507.25-507.40, REN banner; score 52282->53668 (+1386 = 300+REN7 1050 +36 drop). fr/g1/ad30d.png"},
+{"n":19,"id":"ad30","side":"p1","op":"retype","t":507.9,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"O held at 507.95, Z from hold locks ~508.15, bottom row clears 508.25, REN banner; score 53668->55204 (+1536 = 300+REN8 1200 +36). The +2922 KO-tail = these two singles. fr/g1/ad30c.png"},
+{"n":21,"id":"ad32","side":"p1","op":"retype","t":597.7,"was":["triple",3,0],"kind":"triple","lines":3,"pc":1,"gc":0,"source":"L (after O hold swap) locks ~597.95, 3 rows clear leaving an empty board, PERFECT CLEAR banner 598.05-598.40; single score jump 10813->17713 at 598.03. fr/g1/ad32.png"},
+{"n":21,"id":"ad32","side":"p1","op":"retype","t":598.1,"was":["triple",3,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"duplicate of the 597.7 PC triple: the piece spawned 598.10 is an O that falls onto the empty board and locks ~598.45 with no clear (score only +34/+36 drop pts 598.5-598.63). fr/g1/ad32.png"},
+{"n":22,"id":"ad34","side":"p1","op":"add","t":704.63,"kind":null,"lines":0,"pc":0,"gc":0,"source":"T spawned 704.63 locks in the same frame in which p2's board first tilts (sheet frame 704.77 shows lock + tilt + score 85963->85979), no clear. Counted as on the KO frame; tool timestamps differ from end_s by ~1 frame, so slight uncertainty. fr/g1/ad34.png"},
+{"n":26,"id":"ad37","side":"p1","op":"retype","t":825.63,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"L locks 825.77, one non-garbage row flashes 825.83, REN banner; score 12823->13273 (+450 single+REN1 after the quad). Breaks B2B so the TSD at 827.07 scored +3605 (non-B2B) instead of 5400, explaining the spot. fr/g1/ad37.png"},
+{"n":30,"id":"ad39","side":"p1","op":"retype","t":1034.2,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"J fills hole at right ~1034.45, bottom garbage row clears 1034.5, banner 2 REN->3 REN; score 162442->~163228 (+786 = 300+REN3 450+drop). fr/g1/ad39b.png"},
+{"n":30,"id":"ad39","side":"p1","op":"retype","t":1035.1,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"T locks ~1035.2, bottom row clears 1035.3, banner 4 REN; score ->164164 (+936 = 300+REN4 600+drop). fr/g1/ad39b.png"},
+{"n":30,"id":"ad39","side":"p1","op":"retype","t":1035.93,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"L locks ~1036.2, bottom row clears 1036.3, banner 5 REN; score ->165252 (+1088 = 300+REN5 750+drop). Then O/Z lock without clear, 165289 at 1037.27; the +2847 KO-tail is these three singles under a hidden score. fr/g1/ad39b.png, ad39.png"}
+],
+"cell_edits":[
+{"n":15,"id":"ad22","player":"p1","field":"pieces","was":95,"value":96,"source":"T locked on KO frame 59.73, fr/g1/ad22.png"},
+{"n":22,"id":"ad34","player":"p1","field":"pieces","was":119,"value":120,"source":"T locked in tilt frame, fr/g1/ad34.png"},
+{"n":19,"id":"ad30","player":"p1","field":"max_combo","was":6,"value":8,"source":"consecutive clears quad 500.47, tss, singles 502.73..506.13, 507.13, 507.9 = REN 8; score increments 300+150k fit k=2..8 (634,782,932,1084,1236,1386,1536)"}
+],
+"no_change":[
+{"n":16,"why":"ad25 p1: score 29002 unchanged through 189.6 (189.40 '29302' is an overlay misread); no lock by KO."},
+{"n":20,"why":"ad31 p1 557.97: score 46732 (after single at 557.05) -> 47638 (+906) = plain double; chain already 'double', not TSD. fr/g1/ad31.png, ad31b.png"},
+{"n":23,"why":"ad35 p2: +1200 at 745.17 is a zero-line T-spin (T rotated in at 745.05, no row cleared, 'T-SPIN' banner); the piece is already the chain's None lock at 744.73; next Z did not lock before KO. fr/g1/ad35.png"},
+{"n":25,"why":"ad36 p2: +60 at 806.04 is drop points ~6 frames after KO 805.83; does not count."},
+{"n":29,"why":"ad39 p1 989.43: score +450 at 990.03 = plain single + REN1 after the quad; chain already 'single'."}
+]}

@@ -1,0 +1,6 @@
+Groups overlapped at three spots. dedupe.py (run after merge_xo.py) keeps the first proposal and appends the second's source.
+- ad02 p1 171.67 PC double / 172.17 phantom: proposed by g0 and g2 (same verdicts); g2 copies dropped.
+- ad32 p1 597.7 PC triple / 598.1 phantom: proposed by g1 and g2 (same verdicts); g2 copies dropped.
+- ad05 p2 368.2 retyped to tsd: proposed by g0 and g2 (same verdict); g2 copy dropped.
+- Cells: the checkers proposed max_combo and max_b2b cells (ad02 p1, ad03 p2, ad04 p2, ad22 p2, ad25 p2, ad30 p1, ad32 p1); the chain recomputes them from the corrected events and already gives each one, so they were dropped. One cell is left: ad22 p1 pieces 95 -> 96 (the T locked on the KO frame).
+- NEXT recount (nc_compare, 82 player-games): 72 agree, 7 differ by one, 3 are lost reads. No piece count was changed from it.

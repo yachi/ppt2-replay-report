@@ -1,0 +1,72 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 9,
+   "id": "ad09",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 136775 at the last spawn (753.93 s) and still 136775 after the KO (754.03 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 13,
+   "id": "ad19",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 234506 at the last spawn (1785.14 s) and still 234506 after the KO (1785.27 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 24,
+   "id": "ad35",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 43586 at the last spawn (745.20 s) and still 43586 after the KO (745.33 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 27,
+   "id": "ad37",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 88937 at the last spawn (880.03 s) and still 88937 after the KO (880.13 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 28,
+   "id": "ad38",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 38788 at the last spawn (911.27 s) and still 38788 after the KO (911.40 s): nothing locked"
+  }
+ ],
+ "audit": [
+  {
+   "group": "g1",
+   "n": 16
+  }
+ ],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 5,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 368.87 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 20,
+   "hint": "[tsb-hint-v1] score jumps near the clear: []; undecided"
+  },
+  {
+   "group": "g1",
+   "n": 29,
+   "hint": "[tsb-hint-v1] one score jump +450 at 990.0 s: fits plain single only"
+  }
+ ],
+ "no_ocr": []
+}

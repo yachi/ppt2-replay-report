@@ -1,0 +1,142 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py t3BxXn5MwnM p1: one clear jump 11254->16054 at 172.10 (double PC), +450 single at 171.03 before; only drop points 172.17-174.0. So 171.67 is the PC and 172.17 a plain lock."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py t3BxXn5MwnM p1: one clear jump 11254->16054 at 172.10 (double PC), +450 single at 171.03 before; only drop points 172.17-174.0. So 171.67 is the PC and 172.17 a plain lock."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py p2: +600 at 308.80 (single 308.7), then 11521 flat to 309.30, 16509 at 310.10, drops only after. Sheet fr/v2/ad04.png: S held 309.6, J drops and clears 2 rows at 310.0, PERFECT CLEAR 310.10; L held after. 309.47 spawn is the PC piece, 310.13 no clear."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py p2: +600 at 308.80 (single 308.7), then 11521 flat to 309.30, 16509 at 310.10, drops only after. Sheet fr/v2/ad04.png: S held 309.6, J drops and clears 2 rows at 310.0, PERFECT CLEAR 310.10; L held after. 309.47 spawn is the PC piece, 310.13 no clear."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py p2: 11482->11487 (I drop), 16054 at 370.90 (+4567, one PC), drops only 371.0-371.7."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py p2: 11482->11487 (I drop), 16054 at 370.90 (+4567, one PC), drops only 371.0-371.7."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score.py p1: +3000 at 599.73 (single PC), drop points only 599.8-601.1."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score.py p1: +3000 at 599.73 (single PC), drop points only 599.8-601.1."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score.py p1: +8700 at 871.67 (quad PC), then drop points only 871.77-873.40 (108501..108754); no clear at 871.73 or 872.07."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score.py p1: +8700 at 871.67 (quad PC), then drop points only 871.77-873.40 (108501..108754); no clear at 871.73 or 872.07."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "score.py p2: 10790 -> 17801 across 1802.2-1803.0 = +7011, matching a triple PC (ad32's is +6900) plus drops; no room for a second triple (+1500)."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "score.py p2: 10790 -> 17801 across 1802.2-1803.0 = +7011, matching a triple PC (ad32's is +6900) plus drops; no room for a second triple (+1500)."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score.py owRKVhriypk p2: +600 at 23.73, +4986 at 24.67 (double PC), drops only 25.1-26.2."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "score.py owRKVhriypk p2: +600 at 23.73, +4986 at 24.67 (double PC), drops only 25.1-26.2."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "score.py p2: +13200 at 174.97 (tetris PC with B2B), then drop points only 175.43-176.80; no clear at 175.03 or 175.37."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "score.py p2: +13200 at 174.97 (tetris PC with B2B), then drop points only 175.43-176.80; no clear at 175.03 or 175.37."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "score.py p1: +36 drop at 597.60 (597.5 no clear), +6900 at 598.03 (triple PC), drops only 598.27-599.10."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "score.py p1: +36 drop at 597.60 (597.5 no clear), +6900 at 598.03 (triple PC), drops only 598.27-599.10."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "score.py p2: 11296 -> 12196 -> 15796 at 722.90-722.93 (one clear, two-stage display), drops only 723.37-723.73."
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "score.py p2: 11296 -> 12196 -> 15796 at 722.90-722.93 (one clear, two-stage display), drops only 723.37-723.73."
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "score.py p2: +13200 at 174.97 (tetris PC with B2B), then drop points only 175.43-176.80; no clear at 175.03 or 175.37."
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "score.py p1: +8700 at 871.67 (quad PC), then drop points only 871.77-873.40 (108501..108754); no clear at 871.73 or 872.07."
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "score.py p2: +5550 at 368.90 = TSD 3600 x1.5 B2B (after TST 366.8) +150 REN; a plain double could not give that."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Real run TSD 169.43, single 170.9, PC 171.67 = 2 REN; recomputed max over game is 2 after the 172.17 fix."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Recomputed run from 305.8 drops 4->3 once 310.13 is a plain lock; no other run reaches 4."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Recomputed run from 20.8 drops 4->3 once 24.73 is a plain lock; other runs <=2."
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "597.5 lock has no clear (+36 drop at 597.60), PC is standalone; no other consecutive clears in the game per chain events."
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "Recomputed B2B chain with the phantom quad 175.03 removed gives max 1."
+ }
+]

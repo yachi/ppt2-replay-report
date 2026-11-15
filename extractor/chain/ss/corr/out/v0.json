@@ -1,0 +1,10 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/a.png: board at 171.5-171.9 has two partial rows; the L (spawn 171.67) fills them, rows flash 172.1 and PERFECT CLEAR banner over an empty p1 board 172.1-172.9 with '2 REN'. score.py: 11254 -> 16054 at 172.10 (+4800, PC double + REN). nextcount spawns S 170.90, L 171.67, J 172.17."},
+{"ref":"e1","verdict":"keep","why":"fr/v0/a.png: after the PC the J is held (HOLD shows J at 172.33+) and the O drops onto the empty board ~172.4-172.6; score 16055 -> 16059 -> 16090 only drop points, no flash. Phantom second double."},
+{"ref":"e2","verdict":"keep","why":"fr/v0/b.png: at 289.9 the S sits over the grey garbage bottom row's hole; row flashes white 290.1-290.4 and is gone by 290.5. score.py 118988 -> 120224 (~290.57), +1236 = single + REN6."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/b.png: T spawned 290.70 locks ~290.95 at the bottom; the bottom (coloured) row flashes 291.0-291.3 and is removed. score.py 120224 -> 121609 (291.47) = +1385 single + REN7. Final 121683 (+74) at 292.0-292.2 is drop points, no clear."},
+{"ref":"e4","verdict":"keep","why":"score.py: 5294 -> 10844 at 368.90 = +5550; only TSD x1.5 B2B (after the TST +4800 at 367.50) + REN1 fits (a double would be ~1050, a triple 1650)."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/c.png: the T locks at ~564.95 with a T-SPIN banner, stack unchanged 564.95-565.25, score 4064 -> 4364 (+300 = zero-line mini). No row flash until 566.45 (the chain's single). The later 8492 reading is the score panel covered by the garbage/KO overlay (565.86+); 4422 is the last clean value."},
+{"ref":"e6","verdict":"keep","why":"score.py: +300 at 1089.60 only (zero-line mini T-spin; a Mini TSS would be 600, or 900 B2B). The quad at 1090.17 is +3600 = tetris x1.5 B2B with no REN bonus, so the T lock cleared nothing."},
+{"ref":"c0","verdict":"keep","why":"Two extra singles (e2, e3) extend the run; score REN bonuses step +150 per clear to +1385 at 291.47 (300 + 7x150 + drop), and the 7 REN banner shows in fr/v0/b.png's left edge. max_combo 7."}
+]
