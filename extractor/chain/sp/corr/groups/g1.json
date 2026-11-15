@@ -1,0 +1,205 @@
+[
+ {
+  "id": "aa14",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 718.5 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 719.13 s: fits tsd only",
+  "t_s": 718.5,
+  "n": 16
+ },
+ {
+  "id": "aa16",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tsmini) vs banner T-SPIN Double at 804.33 s",
+  "t_s": 804.33,
+  "n": 17
+ },
+ {
+  "id": "aa17",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "aa17",
+   "player": "p1",
+   "t0": 954.0,
+   "t1": 957.7,
+   "step": -3750,
+   "unexplained": -3750,
+   "near": [
+    [
+     953.73,
+     2400,
+     "quad"
+    ],
+    [
+     954.07,
+     3750,
+     "quad"
+    ],
+    [
+     956.93,
+     5400,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 954.0,
+  "n": 18
+ },
+ {
+  "id": "aa17",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 1056.1,
+  "n": 19
+ },
+ {
+  "id": "aa17",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +123 at 1056.4 s (KO 1056.1 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1056.4,
+  "n": 20
+ },
+ {
+  "id": "aa18",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1535 at 41.46 s (KO 42.77 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 41.46,
+  "n": 21
+ },
+ {
+  "id": "aa18",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 42.77,
+  "n": 22
+ },
+ {
+  "id": "aa20",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 5.27 s from 231.00 s; B events spliced (D2/D3)",
+  "t_s": 231.0,
+  "n": 23
+ },
+ {
+  "id": "aa20",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 347.43 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 348.2 s: fits tsd only",
+  "t_s": 347.43,
+  "n": 24
+ },
+ {
+  "id": "aa21",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 401.33 s typed as a plain clear [tsb-hint-v1] one score jump +3750 at 401.93 s: fits both or neither",
+  "t_s": 401.33,
+  "n": 25
+ },
+ {
+  "id": "aa22",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1205 at 473.23 s (KO 473.8 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 473.23,
+  "n": 26
+ },
+ {
+  "id": "aa24",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 54.0 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 54.63 s: fits tsd only",
+  "t_s": 54.0,
+  "n": 27
+ },
+ {
+  "id": "aa24",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +78 at 260.57 s (KO 260.3 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 260.57,
+  "n": 28
+ },
+ {
+  "id": "aa25",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "aa25",
+   "player": "p1",
+   "t0": 277.64,
+   "t1": 280.97,
+   "step": -1650,
+   "unexplained": -1650,
+   "near": [
+    [
+     277.53,
+     1500,
+     "triple"
+    ],
+    [
+     277.73,
+     1650,
+     "triple"
+    ],
+    [
+     280.27,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 277.64,
+  "n": 29
+ },
+ {
+  "id": "aa25",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +2400 at 334.27 s (KO 335.53 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 334.27,
+  "n": 30
+ },
+ {
+  "id": "aa26",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 362.07 s",
+  "t_s": 362.07,
+  "n": 31
+ },
+ {
+  "id": "aa26",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "aa26",
+   "player": "p1",
+   "t0": 447.83,
+   "t1": 450.4,
+   "step": -1014,
+   "unexplained": -1014,
+   "near": [
+    [
+     447.9,
+     1050,
+     "double"
+    ],
+    [
+     450.2,
+     900,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 447.83,
+  "n": 32
+ }
+]

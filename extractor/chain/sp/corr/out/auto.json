@@ -1,0 +1,83 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g2",
+   "n": 45,
+   "id": "aa37",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 279887 at the last spawn (507.20 s) and still 279887 after the KO (507.30 s): nothing locked"
+  },
+  {
+   "group": "g2",
+   "n": 46,
+   "id": "aa38",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 86769 at the last spawn (571.54 s) and still 86769 after the KO (571.67 s): nothing locked"
+  }
+ ],
+ "audit": [],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 10,
+   "hint": "[tsb-hint-v1] one score jump +3750 at 22.1 s: fits both or neither"
+  },
+  {
+   "group": "g0",
+   "n": 14,
+   "hint": "[tsb-hint-v1] one score jump +6937 at 656.3 s: fits tst only"
+  },
+  {
+   "group": "g0",
+   "n": 15,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 690.47 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 16,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 719.13 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 24,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 348.2 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 25,
+   "hint": "[tsb-hint-v1] one score jump +3750 at 401.93 s: fits both or neither"
+  },
+  {
+   "group": "g1",
+   "n": 27,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 54.63 s: fits tsd only"
+  },
+  {
+   "group": "g2",
+   "n": 36,
+   "hint": "[tsb-hint-v1] one score jump +774 at 230.97 s: fits plain single only"
+  },
+  {
+   "group": "g2",
+   "n": 38,
+   "hint": "[tsb-hint-v1] one score jump +470 at 675.43 s: fits plain single only"
+  },
+  {
+   "group": "g2",
+   "n": 40,
+   "hint": "[tsb-hint-v1] one score jump +325 at 843.47 s: fits plain single only"
+  },
+  {
+   "group": "g2",
+   "n": 47,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 703.67 s: fits tsd only"
+  }
+ ],
+ "no_ocr": []
+}

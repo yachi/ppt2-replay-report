@@ -32715,5 +32715,739 @@
    ]
   ],
   "source": "b2 frame check, verified: Score p2 11461->16073 (+4612, double PC) across 1568-1569.2, one clear; L spawned 1568.9 completes 2 rows at 1569.05, board empty with PERFECT CLEAR at 1569.1; T held, next piece locks 1569.6 no clear. (Separately: chain 'tss' at 1567.5 was a green S/Z lock, not checked further.) /tmp/claude-0/so/corr/fr/g2/f043.png"
+ },
+ {
+  "id": "aa00",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 60.3,
+  "t_end": 60.3,
+  "events": [],
+  "was_old": [
+   [
+    60.3,
+    null,
+    0
+   ],
+   [
+    60.3,
+    null,
+    0
+   ],
+   [
+    60.3,
+    null,
+    0
+   ]
+  ],
+  "source": "b0 frame check, verified: nextcount p1 56-67 shows spawns only at 60.100 and 60.467 between 59.1 and 60.87 (queue stream O-T-Z-J-S-L-I / S-T-Z-O-J-I-L is two clean 7-bags); the chain's three extra locks at 60.30 (the k=3 double shift at frame 1392) are phantoms. Whole-game nextcount 15.5-197.4 (corr/fr/g0/nc_aa00p1.txt) gives 347 spawns; DP alignment against the chain's 349 events leaves only these three chain-only events (plus the hold-into-empty Z at 16.333). The other double-shift spots (89.37, 93.07, 113.63, 165.43) align one-to-one with real spawns."
+ },
+ {
+  "id": "aa00",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 120.33,
+  "source": "b0 frame check, verified: p2 score +450 at 120.67 (132247->132697 = single 300 + REN 150 after the quad at 119.17); sheet corr/fr/g0/n2.png: T spawned 120.33 and was held at 120.43, the L from hold placed upright at the right edge clears one colored (non-garbage) row at ~120.6, REN banner shows. This single breaks B2B, which is why the TSD at 122.23 scored +3607 (plain 3600) not 5400.",
+  "t_end": 120.33,
+  "events": [
+   {
+    "t": 120.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    120.33,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "aa02",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 428.33,
+  "source": "b0 frame check, verified: nextcount p2: J spawned 428.333, next spawn only at 430.800; sheet corr/fr/g0/n5.png: the J sits at the top and locks ~430.1, the top colored row flashes white at 430.20, p2 score 51325->51625 (+300 single) at 430.13. The L spawned 430.80 never locked before KO 431.43 (no score change).",
+  "t_end": 428.33,
+  "events": [
+   {
+    "t": 428.33,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    428.33,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "aa04",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 487.4,
+  "t_end": 487.84,
+  "events": [
+   {
+    "t": 487.4,
+    "kind": "tst",
+    "lines": 3,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    487.4,
+    "tsmini",
+    3
+   ],
+   [
+    487.84,
+    "tst",
+    3
+   ]
+  ],
+  "source": "b0 frame check, verified: One T-spin Triple, logged twice. nextcount p1: only one spawn (T at 487.40) between 485.03 and 488.73. Sheet corr/fr/g0/n7.png: the previous piece (spawned 485.0) is a zero-line T-SPIN at ~487.33 (+300, mini zero-line, no rows clear, stays a plain lock); the T spawned 487.40 goes into the slot and clears 3 colored rows above the garbage at ~487.9 with the T-SPIN Triple banner; score +4806 at 488.27 (TST 4800, not B2B). The tsmini 3 at 487.4 and the build-added tst at 487.84 are the same clear. Chain pieces (82) already exclude the build-added event, so no piece edit. This also explains score_spot n=7 (TSS at 488.7 then scored +3750 = B2B 3600 + REN 150)."
+ },
+ {
+  "id": "aa09",
+  "side": "p1",
+  "op": "retype",
+  "t": 21.4,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tss",
+  "lines": 1,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: p1 score +3750 at 22.10 (5327->9077) = TSS B2B 3600 + REN 150 after the TST at 19.87; a plain single would be 450. Sheet corr/fr/g0/n10.png shows the T-SPIN Single banner with BACK to BACK and REN at 22.1-22.3."
+ },
+ {
+  "id": "aa14",
+  "side": "p1",
+  "op": "retype",
+  "t": 656.03,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b0 frame check, verified: Sheet corr/fr/g0/n13.png: the L (out of hold at 656.10) completes the bottom 3 rows at ~656.25 and the board is EMPTY with a PERFECT CLEAR banner 656.29-656.89. Score +6900 at 656.30 (20259->27159) = triple 1500 + PC-triple bonus 5400; it is not a T-spin (no T in that lock; the T locked at 655.93 with only +28). Plain triple breaks the B2B: the TSD at 661.5 then scored +3632 (plain) and the TSD at 663.37 +5422 (B2B)."
+ },
+ {
+  "id": "aa14",
+  "side": "p1",
+  "op": "retype",
+  "t": 656.37,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Phantom second triple. The piece spawned 656.37 is a T (nextcount shift 656.367; sheet corr/fr/g0/n13.png) dropped onto the empty board after the perfect clear; it locks at the floor ~656.76 with no clear and only drop points (27159->27197). Only one score jump (+6900) in 655.9-657.6."
+ },
+ {
+  "id": "aa14",
+  "side": "p2",
+  "op": "retype",
+  "t": 689.93,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: p2 score +5550 at 690.47 (65203->70753) = TSD B2B 5400 + REN 150 following the TSD at 688.67 (+5403); a plain double would be 900+150=1050."
+ },
+ {
+  "id": "aa14",
+  "side": "p2",
+  "op": "retype",
+  "t": 718.5,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "gc": 1,
+  "source": "b1 frame check, verified: score 106336->111886 (+5550 = B2B TSD 5400 + 1 REN) at 719.13; frames 719.2-720.0 show 'Double' + BACK to BACK banner after the T fills the slot (/tmp/claude-0/sp/corr/fr/g1/n16.png)"
+ },
+ {
+  "id": "aa16",
+  "side": "p1",
+  "op": "retype",
+  "t": 804.33,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "gc": 1,
+  "source": "b1 frame check, verified: T drops vertically into slot at 804.9, two rows (bottom garbage row + row above) flash 805.0-805.4, banner '...N Double'; score 68154->71806 (+3652 = TSD 3600, no B2B after the 803.2 double) (/tmp/claude-0/sp/corr/fr/g1/n17.png)"
+ },
+ {
+  "id": "aa17",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 953.73,
+  "t_end": 954.07,
+  "events": [
+   {
+    "t": 953.73,
+    "kind": "quad",
+    "lines": 4,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 954.07,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    953.73,
+    "quad",
+    4
+   ],
+   [
+    954.07,
+    "quad",
+    4
+   ]
+  ],
+  "source": "b1 frame check, verified: one I (from hold, ~953.8) clears 4 colored rows at 954.0 = PERFECT CLEAR + TETRIS + BACK to BACK; single score jump +13200 at 954.00; next piece S is held and O locks ~954.5 with no clear (/tmp/claude-0/sp/corr/fr/g1/n18.png). Second quad was a double-log"
+ },
+ {
+  "id": "aa18",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 40.6,
+  "source": "b1 frame check, verified: J held at 40.7, L locks ~40.8 and clears the bottom garbage row (flash 40.9), banner '8 REN' at 41.0 after '7 REN' at 40.5; score 26772->28307 (+1535 = single 300 + 8*150 REN) (/tmp/claude-0/sp/corr/fr/g1/n21.png)",
+  "t_end": 40.6,
+  "events": [
+   {
+    "t": 40.6,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    40.6,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "aa20",
+  "side": "p2",
+  "op": "retype",
+  "t": 347.43,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "gc": 1,
+  "source": "b1 frame check, verified: T spun into slot 348.0-348.2, 'Double' + BACK to BACK banner; score 285676->291226 (+5550 = B2B TSD + 1 REN) (/tmp/claude-0/sp/corr/fr/g1/n24.png)"
+ },
+ {
+  "id": "aa21",
+  "side": "p1",
+  "op": "retype",
+  "t": 401.33,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "tss",
+  "lines": 1,
+  "gc": 0,
+  "source": "b1 frame check, verified: Z held, T from hold placed vertical in slot, one colored row clears at 402.0; banner '...N Single' + BACK to BACK + 1 REN; score 5340->9090 (+3750 = B2B TSS 3600 + 150 REN; a plain single would be +450) (/tmp/claude-0/sp/corr/fr/g1/n25.png)"
+ },
+ {
+  "id": "aa24",
+  "side": "p2",
+  "op": "retype",
+  "t": 54.0,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "gc": 1,
+  "source": "b1 frame check, verified: L held at 54.2, T into slot 54.6 clears garbage row + row above, 'Double' + BACK banner, REN; score 51501->57051 (+5550 = B2B TSD + 1 REN) (/tmp/claude-0/sp/corr/fr/g1/n27.png)"
+ },
+ {
+  "id": "aa25",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 277.53,
+  "t_end": 277.73,
+  "events": [
+   {
+    "t": 277.53,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 277.73,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    277.53,
+    "triple",
+    3
+   ],
+   [
+    277.73,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b1 frame check, verified: S locks 277.43 no clear; L locks 277.57 clearing the 3-row colored stack = PERFECT CLEAR (single jump +6900 at 277.67); next L is held (hold Z->L 277.9) and Z locks ~278.15 with no clear (/tmp/claude-0/sp/corr/fr/g1/n29.png). Second triple was a double-log"
+ },
+ {
+  "id": "aa26",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 447.17,
+  "t_end": 447.9,
+  "events": [
+   {
+    "t": 447.17,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 447.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    447.17,
+    "double",
+    2
+   ],
+   [
+    447.9,
+    "double",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: I locks 447.1 no clear (+36); Z locks 447.8 clearing both colored rows = PERFECT CLEAR (only jump +4500 at 447.83); O held at 448.0, L locks ~448.3 no clear (/tmp/claude-0/sp/corr/fr/g1/n32.png). Second double was a double-log"
+ },
+ {
+  "id": "aa28",
+  "side": "p1",
+  "op": "retype",
+  "t": 613.27,
+  "was": [
+   "tsmini",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/a28a.png: at 612.87 a T locks with a T-SPIN banner and NO line clear (score +300 = zero-line Mini at level 3); the next piece (J, spawned ~613.2) clears two rows at 613.47 (white rows 613.50-613.70), score +900 = plain double. That double breaks B2B, which is why the following TSD at 615.87 scores +3647 (non-B2B) rather than the 5400 the chain assumed; the whole -1577 residual is explained."
+ },
+ {
+  "id": "aa40",
+  "side": "p2",
+  "op": "retype",
+  "t": 703.1,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: fr/g2/a40.png: T placed upright into the slot at ~703.6, two rows clear, banner 'T-SPIN Double' with BACK to BACK and REN at 703.73-703.94; score 32404 -> 37954 (+5550 = TSD 3600x1.5 + REN 150)."
+ },
+ {
+  "id": "aa02",
+  "side": "p1",
+  "op": "retype",
+  "t": 384.47,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b3 frame check, verified: score.py: 10968->17868 (+6900 = triple 1500 + PC 5400) at 384.53-384.57 right after the L spawned 384.40 locks (+36 at 384.47); sheet /tmp/claude-0/sp/corr/fr/g3/50.png shows 3-row stack cleared by the L, empty board and PERFECT CLEAR banner 384.6-385.8."
+ },
+ {
+  "id": "aa02",
+  "side": "p1",
+  "op": "retype",
+  "t": 384.6,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log of the PC triple: the S spawned 384.60 is held at 385.0 and the O from hold locks ~385.1 with +1/+2 drop points only (17873->17875), no clear (/tmp/claude-0/sp/corr/fr/g3/50.png)."
+ },
+ {
+  "id": "aa17",
+  "side": "p2",
+  "op": "retype",
+  "t": 919.73,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b3 frame check, verified: score.py p2: 10993->17893 (+6900 = triple + PC) at 920.00, after the piece spawned 919.73 locked (+36 at 919.87); banner onset 920.2."
+ },
+ {
+  "id": "aa17",
+  "side": "p2",
+  "op": "retype",
+  "t": 920.0,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log: piece spawned 920.00 locks at 920.43 with +38 only (17893->17931), no clear."
+ },
+ {
+  "id": "aa32",
+  "side": "p1",
+  "op": "retype",
+  "t": 911.17,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b3 frame check, verified: score.py: 131017->135667 (+4650 = double 900 + REN 150 + PC 3600) at 911.67-911.70 from the piece spawned 911.17 (T held 911.27); banner onset 911.9."
+ },
+ {
+  "id": "aa32",
+  "side": "p1",
+  "op": "retype",
+  "t": 911.73,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log: piece spawned 911.73 locks at 911.90 with +38 only (135667->135705), no clear."
+ },
+ {
+  "id": "aa35",
+  "side": "p1",
+  "op": "retype",
+  "t": 1321.3,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b3 frame check, verified: score.py: 655->7705 (+7050 = triple 1500 + REN 150 + PC 5400) at 1321.47 from the piece spawned 1321.30; banner onset 1321.7."
+ },
+ {
+  "id": "aa35",
+  "side": "p1",
+  "op": "retype",
+  "t": 1321.53,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log: piece spawned 1321.53 locks at 1321.70 with +36 only (7705->7741), no clear."
+ },
+ {
+  "id": "aa35",
+  "side": "p1",
+  "op": "retype",
+  "t": 1321.8,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Phantom: piece spawned 1321.80 locks at 1322.00 with +36 only (7742->7778); the board was empty after the PC, no clear until the +900 double at 1323.77 (chain 1323.5)."
+ },
+ {
+  "id": "aa37",
+  "side": "p1",
+  "op": "retype",
+  "t": 269.9,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b3 frame check, verified: Sheet /tmp/claude-0/sp/corr/fr/g3/58.png: Z spawned 269.90 is held (269.97) and the L from hold locks ~270.15 clearing the last 2 rows; board empty, PERFECT CLEAR banner 270.2-271.0. Score 11454->16064 (=+4500 double+PC plus drops) across the unreadable span."
+ },
+ {
+  "id": "aa37",
+  "side": "p1",
+  "op": "retype",
+  "t": 270.27,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log: the O spawned 270.30 is held (270.40) and the Z from hold locks at 270.6 with drop points only (16064->16100), no clear (/tmp/claude-0/sp/corr/fr/g3/58.png)."
+ },
+ {
+  "id": "aa38",
+  "side": "p1",
+  "op": "retype",
+  "t": 541.5,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 3,
+  "source": "b3 frame check, verified: Sheet /tmp/claude-0/sp/corr/fr/g3/59.png: vertical I into column 3 clears 4 rows (3 grey garbage + 1) leaving an empty board, PERFECT CLEAR banner 541.7; score 34551->43135 (+8584 = tetris 2400 + REN 150 + PC 6000 + drops) at 541.60."
+ },
+ {
+  "id": "aa38",
+  "side": "p1",
+  "op": "retype",
+  "t": 541.67,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log: next piece (spawned 541.67, S held 541.73) locks at 542.07 with +40 only (43136->43176), no clear."
+ },
+ {
+  "id": "aa38",
+  "side": "p1",
+  "op": "retype",
+  "t": 542.0,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Phantom: piece spawned ~542.10 locks at 542.20 with +36 only (43176->43212); the +5400 at 542.13 is p2's score. No p1 clear."
+ },
+ {
+  "id": "aa40",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 690.73,
+  "source": "b3 frame check, verified: Sheet /tmp/claude-0/sp/corr/fr/g3/60.png: the I spawned ~690.77 lands at 691.12-691.19 filling the last row; PERFECT CLEAR banner and REN tag from 691.26, board empty. Score 18368->21218 (+2850 = single 300 + REN 150 + PC 2400) at 691.37, REN with the 690.0 single. The chain put this clear one piece late.",
+  "t_end": 690.73,
+  "events": [
+   {
+    "t": 690.73,
+    "kind": "single",
+    "lines": 1,
+    "pc": 1,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    690.73,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "aa40",
+  "side": "p2",
+  "op": "retype",
+  "t": 691.27,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: The green S spawned 691.26 locks at 691.47 on the empty board with +38 only (21218->21256), no clear (/tmp/claude-0/sp/corr/fr/g3/60.png)."
+ },
+ {
+  "id": "aa41",
+  "side": "p1",
+  "op": "retype",
+  "t": 756.77,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b3 frame check, verified: Sheet /tmp/claude-0/sp/corr/fr/g3/61.png: after the 755.87 triple 2 rows remain; the T spawned 756.77 drops at 757.1-757.2 and clears both, empty board, PERFECT CLEAR banner from 757.2. Score 6869->11555 (+4686 = double 900 + REN 150 + PC 3600 + drops); a single would be ~2850."
+ },
+ {
+  "id": "aa41",
+  "side": "p1",
+  "op": "retype",
+  "t": 757.23,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log: the O spawned 757.23 is held (757.43) and the next lock is +24 drop points (11562->11586 at 757.77), no clear (/tmp/claude-0/sp/corr/fr/g3/61.png)."
+ },
+ {
+  "id": "aa41",
+  "side": "p1",
+  "op": "retype",
+  "t": 763.0,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 0,
+  "source": "b3 frame check, verified: score.py: 15659->28859 (+13200 = B2B tetris 3600 + B2B tetris PC 9600) at 763.30 from the piece spawned 763.00 (J held, I from hold); banner onset 763.5."
+ },
+ {
+  "id": "aa41",
+  "side": "p1",
+  "op": "retype",
+  "t": 763.37,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b3 frame check, verified: Double-log: next piece (O held 763.40) locks ~763.93 with drop points only, no clear."
  }
 ]

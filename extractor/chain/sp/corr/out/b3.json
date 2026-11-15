@@ -1,0 +1,510 @@
+{
+ "event_corrections": [
+  {
+   "n": 50,
+   "id": "aa02",
+   "side": "p1",
+   "op": "retype",
+   "t": 384.47,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 10968->17868 (+6900 = triple 1500 + PC 5400) at 384.53-384.57 right after the L spawned 384.40 locks (+36 at 384.47); sheet /tmp/claude-0/sp/corr/fr/g3/50.png shows 3-row stack cleared by the L, empty board and PERFECT CLEAR banner 384.6-385.8."
+  },
+  {
+   "n": 50,
+   "id": "aa02",
+   "side": "p1",
+   "op": "retype",
+   "t": 384.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log of the PC triple: the S spawned 384.60 is held at 385.0 and the O from hold locks ~385.1 with +1/+2 drop points only (17873->17875), no clear (/tmp/claude-0/sp/corr/fr/g3/50.png)."
+  },
+  {
+   "n": 51,
+   "id": "aa14",
+   "side": "p1",
+   "op": "retype",
+   "t": 656.03,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 20259->27159 (+6900 = triple + PC) at 656.30 from the piece spawned 656.03; /tmp/claude-0/sp/corr/fr/g3/51.png: empty board and PERFECT CLEAR banner from 656.45."
+  },
+  {
+   "n": 51,
+   "id": "aa14",
+   "side": "p1",
+   "op": "retype",
+   "t": 656.37,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: piece spawned 656.37 locks at 656.57 with +38 drop points only (27159->27197), no clear (/tmp/claude-0/sp/corr/fr/g3/51.png)."
+  },
+  {
+   "n": 52,
+   "id": "aa17",
+   "side": "p1",
+   "op": "retype",
+   "t": 953.73,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 70433->83633 (+13200 = B2B tetris 3600 + B2B tetris PC 9600) at 954.00 from the piece spawned 953.73; PERFECT CLEAR banner onset 954.2."
+  },
+  {
+   "n": 52,
+   "id": "aa17",
+   "side": "p1",
+   "op": "retype",
+   "t": 954.07,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: next piece (spawned 954.07, hold S 954.23) locks ~954.57 with +26 drop points only, no clear."
+  },
+  {
+   "n": 53,
+   "id": "aa17",
+   "side": "p2",
+   "op": "retype",
+   "t": 919.73,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py p2: 10993->17893 (+6900 = triple + PC) at 920.00, after the piece spawned 919.73 locked (+36 at 919.87); banner onset 920.2."
+  },
+  {
+   "n": 53,
+   "id": "aa17",
+   "side": "p2",
+   "op": "retype",
+   "t": 920.0,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: piece spawned 920.00 locks at 920.43 with +38 only (17893->17931), no clear."
+  },
+  {
+   "n": 54,
+   "id": "aa25",
+   "side": "p1",
+   "op": "retype",
+   "t": 277.53,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 10960->17860 (+6900 = triple + PC) at 277.67 from the piece spawned 277.53 (lock 277.60); banner onset 277.9."
+  },
+  {
+   "n": 54,
+   "id": "aa25",
+   "side": "p1",
+   "op": "retype",
+   "t": 277.73,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: next lock at 278.17 is +28 drop points only (17866->17894); no clear-sized jump until 280."
+  },
+  {
+   "n": 55,
+   "id": "aa26",
+   "side": "p1",
+   "op": "retype",
+   "t": 447.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 128899->133399 (+4500 = double 900 + PC 3600) at 447.83; piece spawned 447.17 soft-drops 447.20-447.73 and its lock clears; banner onset 448.0."
+  },
+  {
+   "n": 55,
+   "id": "aa26",
+   "side": "p1",
+   "op": "retype",
+   "t": 447.9,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: next piece locks at 448.33 with +24 drop points only (133406->133430), no clear."
+  },
+  {
+   "n": 56,
+   "id": "aa32",
+   "side": "p1",
+   "op": "retype",
+   "t": 911.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 131017->135667 (+4650 = double 900 + REN 150 + PC 3600) at 911.67-911.70 from the piece spawned 911.17 (T held 911.27); banner onset 911.9."
+  },
+  {
+   "n": 56,
+   "id": "aa32",
+   "side": "p1",
+   "op": "retype",
+   "t": 911.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: piece spawned 911.73 locks at 911.90 with +38 only (135667->135705), no clear."
+  },
+  {
+   "n": 57,
+   "id": "aa35",
+   "side": "p1",
+   "op": "retype",
+   "t": 1321.3,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 655->7705 (+7050 = triple 1500 + REN 150 + PC 5400) at 1321.47 from the piece spawned 1321.30; banner onset 1321.7."
+  },
+  {
+   "n": 57,
+   "id": "aa35",
+   "side": "p1",
+   "op": "retype",
+   "t": 1321.53,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: piece spawned 1321.53 locks at 1321.70 with +36 only (7705->7741), no clear."
+  },
+  {
+   "n": 57,
+   "id": "aa35",
+   "side": "p1",
+   "op": "retype",
+   "t": 1321.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: piece spawned 1321.80 locks at 1322.00 with +36 only (7742->7778); the board was empty after the PC, no clear until the +900 double at 1323.77 (chain 1323.5)."
+  },
+  {
+   "n": 58,
+   "id": "aa37",
+   "side": "p1",
+   "op": "retype",
+   "t": 269.9,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Sheet /tmp/claude-0/sp/corr/fr/g3/58.png: Z spawned 269.90 is held (269.97) and the L from hold locks ~270.15 clearing the last 2 rows; board empty, PERFECT CLEAR banner 270.2-271.0. Score 11454->16064 (=+4500 double+PC plus drops) across the unreadable span."
+  },
+  {
+   "n": 58,
+   "id": "aa37",
+   "side": "p1",
+   "op": "retype",
+   "t": 270.27,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: the O spawned 270.30 is held (270.40) and the Z from hold locks at 270.6 with drop points only (16064->16100), no clear (/tmp/claude-0/sp/corr/fr/g3/58.png)."
+  },
+  {
+   "n": 59,
+   "id": "aa38",
+   "side": "p1",
+   "op": "retype",
+   "t": 541.5,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 3,
+   "source": "Sheet /tmp/claude-0/sp/corr/fr/g3/59.png: vertical I into column 3 clears 4 rows (3 grey garbage + 1) leaving an empty board, PERFECT CLEAR banner 541.7; score 34551->43135 (+8584 = tetris 2400 + REN 150 + PC 6000 + drops) at 541.60."
+  },
+  {
+   "n": 59,
+   "id": "aa38",
+   "side": "p1",
+   "op": "retype",
+   "t": 541.67,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: next piece (spawned 541.67, S held 541.73) locks at 542.07 with +40 only (43136->43176), no clear."
+  },
+  {
+   "n": 59,
+   "id": "aa38",
+   "side": "p1",
+   "op": "retype",
+   "t": 542.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: piece spawned ~542.10 locks at 542.20 with +36 only (43176->43212); the +5400 at 542.13 is p2's score. No p1 clear."
+  },
+  {
+   "n": 60,
+   "id": "aa40",
+   "side": "p2",
+   "op": "retype",
+   "t": 690.73,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "Sheet /tmp/claude-0/sp/corr/fr/g3/60.png: the I spawned ~690.77 lands at 691.12-691.19 filling the last row; PERFECT CLEAR banner and REN tag from 691.26, board empty. Score 18368->21218 (+2850 = single 300 + REN 150 + PC 2400) at 691.37, REN with the 690.0 single. The chain put this clear one piece late."
+  },
+  {
+   "n": 60,
+   "id": "aa40",
+   "side": "p2",
+   "op": "retype",
+   "t": 691.27,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "The green S spawned 691.26 locks at 691.47 on the empty board with +38 only (21218->21256), no clear (/tmp/claude-0/sp/corr/fr/g3/60.png)."
+  },
+  {
+   "n": 61,
+   "id": "aa41",
+   "side": "p1",
+   "op": "retype",
+   "t": 756.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Sheet /tmp/claude-0/sp/corr/fr/g3/61.png: after the 755.87 triple 2 rows remain; the T spawned 756.77 drops at 757.1-757.2 and clears both, empty board, PERFECT CLEAR banner from 757.2. Score 6869->11555 (+4686 = double 900 + REN 150 + PC 3600 + drops); a single would be ~2850."
+  },
+  {
+   "n": 61,
+   "id": "aa41",
+   "side": "p1",
+   "op": "retype",
+   "t": 757.23,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: the O spawned 757.23 is held (757.43) and the next lock is +24 drop points (11562->11586 at 757.77), no clear (/tmp/claude-0/sp/corr/fr/g3/61.png)."
+  },
+  {
+   "n": 62,
+   "id": "aa41",
+   "side": "p1",
+   "op": "retype",
+   "t": 763.0,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py: 15659->28859 (+13200 = B2B tetris 3600 + B2B tetris PC 9600) at 763.30 from the piece spawned 763.00 (J held, I from hold); banner onset 763.5."
+  },
+  {
+   "n": 62,
+   "id": "aa41",
+   "side": "p1",
+   "op": "retype",
+   "t": 763.37,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Double-log: next piece (O held 763.40) locks ~763.93 with drop points only, no clear."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 52,
+   "id": "aa17",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 12,
+   "value": 11,
+   "source": "The longest B2B run passed through the phantom quad at 954.07 (a double-log of the 953.73 PC quad, see that correction); without it the run is 11."
+  },
+  {
+   "n": 59,
+   "id": "aa38",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 3,
+   "value": 2,
+   "source": "The REN-3 run ran through the phantom quad 541.67 and phantom single 542.0 (double-logs, see corrections); the real chain is 540.73 double (+900, no REN bonus) then the PC quad with REN 150 = REN 1; elsewhere the game max is 2."
+  },
+  {
+   "n": 62,
+   "id": "aa41",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 3,
+   "value": 2,
+   "source": "The B2B-3 run counted the phantom quad at 763.37 (double-log of the 763.00 PC quad); without it the max is 2."
+  }
+ ],
+ "no_change": []
+}
