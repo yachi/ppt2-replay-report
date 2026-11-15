@@ -1,0 +1,16 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/a1.png: T into slot at ~96.3, 2-row flash, 'Double'+BACK banner, score 51800->57200 (+5400 TSD B2B); I spawned 97.10 drops into the garbage well, 4-row flash on the white garbage rows at 97.30, score 57228->60978 (+3750). Spawns T 96.0, I 97.10, J 98.07 (nextcount): one None at 98.07, not two."},
+{"ref":"e1","verdict":"keep","why":"fr/v0/a3.png: Z locks 211.10 with no clear (score +24 only); I spawned 211.20 into the right well, 4-row flash on white garbage at 211.40; only one +3600 jump (211.33) before the TSD."},
+{"ref":"e2","verdict":"keep","why":"fr/v0/a4.png: O spawned 242.53 locks ~243.0 with no clear (79074->79098)."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/a4.png: I spawned 243.10 dropped vertically into the column-1 hole, 4-row flash at 243.40 (2 colored rows + 2 white garbage rows), TETRIS banner at 243.90, score 79098->82722 (+3624)."},
+{"ref":"e4","verdict":"keep","why":"fr/v0/a5.png: T locks 281.50 with a T-SPIN (no line word) banner; stack height unchanged 281.40 vs 281.60, no flash; score 135614->135994 over the window (+380), no clear."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/a10.png: 2-row flash at 806.50 (bottom garbage row + colored row), 'Double'+REN banner. Score is hidden 805.5-806.65 (the 59804/65258 reads are not the score, fr/v0/scores10.png); 51440 at 804.9 -> 56708 at 807.3 = triple 1500 + TSD 3600 + REN 150 + drops; a TSS would not fit."},
+{"ref":"e6","verdict":"keep","why":"fr/v0/a11.png: O locks 959.70 completing the colored row, one-row flash 959.80, REN banner, score 106167->107217; next TSD scores +3600 (107284->110884 at 962.13), so B2B was broken by this single."},
+{"ref":"e7","verdict":"keep","why":"fr/g0/k13.png and score.py: score 50218->50228 (hard drop) on frame 1558.233, the frame p2's board first tilts (end_s 1558.23); S visible in the stack, no flash. Lock on the KO frame counts."},
+{"ref":"e8","verdict":"keep","why":"fr/g0/k9.png: score 22557 at 554.003, 22589 with the red Z in the stack at 554.037, the same frame p2 first tilts (end_s 554.03 = frame 554.033). No clear. (score.py printed the change at 554.07 because 554.037 was not sampled as a change; the strip shows it.)"},
+{"ref":"e9","verdict":"keep","why":"fr/v0/a18.png: 2-row flash on colored (non-garbage) rows at 1978.50, 'Double'+REN banner, O left above; score 6895->10665 (+3770 = TSD 3600 + REN 150 + drops)."},
+{"ref":"e10","verdict":"keep","why":"fr/g0/k19.png: J placed vertically in the well at 2074.270 with p2 still upright; one-row flash on the white garbage row at 2074.303 (KO frame, p2 tilting); score 134900 -> 135976 by 2074.70. Lock precedes the KO frame."},
+{"ref":"c0","verdict":"keep","why":"Same as e7: S locked on the KO frame 1558.233; one piece more than the chain."},
+{"ref":"c1","verdict":"keep","why":"Same as e8: Z locked on the KO frame 554.037; not in cseq (last event 553.63, which locked at 553.80 per score +36)."},
+{"ref":"c2","verdict":"keep","why":"Same as e10: J locked 2074.270 before the KO; not in cseq (last event 2073.37)."}
+]

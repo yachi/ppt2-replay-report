@@ -1,0 +1,295 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "ak01",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 95.87,
+   "t_end": 98.07,
+   "events": [
+    {
+     "t": 95.87,
+     "kind": "tsd",
+     "lines": 2,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 97.1,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    },
+    {
+     "t": 98.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     95.87,
+     "tst",
+     4
+    ],
+    [
+     98.07,
+     null,
+     0
+    ],
+    [
+     98.07,
+     null,
+     0
+    ]
+   ],
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i0.png: T spawned ~95.87 locks 96.25 as TSD of 2 colored rows (banner N Double, score 51800->57200 = +5400 TSD B2B at 96.37); I spawned 97.10 (nextcount shift) drops into garbage well, TETRIS of 4 white garbage rows with 1 REN (score 57228->60978 = +3750 at 97.20). Chain had one fused 'tst 4 lines' and a duplicate None at 98.07 standing for the I; piece count unchanged."
+  },
+  {
+   "n": 3,
+   "id": "ak04",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 211.07,
+   "t_end": 211.5,
+   "events": [
+    {
+     "t": 211.07,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 211.5,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     211.07,
+     "quad",
+     4
+    ],
+    [
+     211.5,
+     "quad",
+     4
+    ]
+   ],
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i3.png: Z (spawn 211.07) locks 211.16 with no clear; I (spawn 211.20) into right well at 211.29 -> one TETRIS of 4 white garbage rows. Only one score jump (+3600 at 211.33) until the TSD +5409 at 214.27; chain had two quads."
+  },
+  {
+   "n": 4,
+   "id": "ak04",
+   "side": "p1",
+   "op": "retype",
+   "t": 242.53,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i4.png: piece spawned 242.53 is the O (nextcount OIJTL>IJTLZ), locks ~243.0 with no clear; score 79074->79098 only."
+  },
+  {
+   "n": 4,
+   "id": "ak04",
+   "side": "p1",
+   "op": "retype",
+   "t": 243.57,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i4.png,/tmp/claude-0/ak/corr/fr/g0/i4z.png: I (spawn 243.10) dropped vertically in col 2 at 243.33 fills 2 colored rows + 2 white garbage rows -> TETRIS banner, score 79098->82722 (+3624 = B2B tetris). Only one clear in 242.5-244."
+  },
+  {
+   "n": 5,
+   "id": "ak04",
+   "side": "p1",
+   "op": "retype",
+   "t": 281.57,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i5.png: T locked 281.50 with T-SPIN (mini) banner but no row cleared (stack height identical 281.40 vs 281.60); score +380 over 280.2-281.87 = zero-line mini T-spin (300) + drops, not a mini single (600/900). Piece at 281.57 (Z) also locks without a clear."
+  },
+  {
+   "n": 10,
+   "id": "ak14",
+   "side": "p1",
+   "op": "retype",
+   "t": 805.67,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i10.png: T placed at bottom 806.36, flash over 2 rows (bottom garbage row whose hole the T fills + colored row above), banner 'T-SPIN Double' + REN; score 52940 -> 56708 (807 s) = TSD 3600 (no B2B, triple before) + 150 REN + drops. Reads of 59804/65258 in between are misreads."
+  },
+  {
+   "n": 11,
+   "id": "ak16",
+   "side": "p1",
+   "op": "retype",
+   "t": 959.63,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i11.png,/tmp/claude-0/ak/corr/fr/g0/i11b.png: O spawned 959.61 locks 959.67 completing the colored row left after the 958.8 TETRIS; one-row flash at 959.74, REN banner at 959.91, score 106167->107217 at 959.77. This single breaks B2B, so the TSD at 961.57 scores +3600 (962.13) not 5400."
+  },
+  {
+   "n": 13,
+   "id": "ak24",
+   "side": "p1",
+   "op": "add",
+   "t": 1558.07,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/k13.png (one-decode strip): S spawned 1558.07, locks at 1558.233 (score 50218->50228), the same frame p2's board begins to tilt (end_s 1558.23). No clear."
+  },
+  {
+   "n": 9,
+   "id": "ak09",
+   "side": "p1",
+   "op": "add",
+   "t": 553.9,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/k9.png (one-decode strip), /tmp/claude-0/ak/corr/fr/g0/i9.png: Z spawned ~553.90 locks at 554.037 (score 22557->22589) on the same frame p2's board starts tilting (end_s 554.03). No clear."
+  },
+  {
+   "n": 18,
+   "id": "ak32",
+   "side": "p2",
+   "op": "retype",
+   "t": 1977.53,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i18.png: T dropped into slot ~1978.4 clears 2 colored rows (flash 2 rows, 'Double' + REN banner); score 6895 -> 10665 = TSD 3600 + 150 REN + drops (TSS would be ~2550)."
+  },
+  {
+   "n": 19,
+   "id": "ak32",
+   "side": "p1",
+   "op": "add",
+   "t": 2074.0,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 1,
+   "source": "/tmp/claude-0/ak/corr/fr/g0/i19.png,/tmp/claude-0/ak/corr/fr/g0/k19.png: S spawned ~2074.0 and was held, J out of hold dropped vertically into the top garbage row's hole, locked 2074.270 (before KO 2074.30; p2 tilts from 2074.303), clearing that garbage row (flash 2074.303, 5 REN banner); score 134900 -> 135976 (+1076 = single 300 + REN bonus + drop)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 13,
+   "id": "ak24",
+   "player": "p1",
+   "field": "pieces",
+   "was": 78,
+   "value": 79,
+   "source": "S locked on the KO frame 1558.23, see k13.png"
+  },
+  {
+   "n": 9,
+   "id": "ak09",
+   "player": "p1",
+   "field": "pieces",
+   "was": 25,
+   "value": 26,
+   "source": "Z locked on the KO frame 554.03 (k9.png); not in chain cseq (last event 553.63)"
+  },
+  {
+   "n": 19,
+   "id": "ak32",
+   "player": "p1",
+   "field": "pieces",
+   "was": 213,
+   "value": 214,
+   "source": "J locked 2074.27 before KO 2074.3 (k19.png); not in cseq (last event 2073.37)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "ak02 p2: Z locked 145.47; next J spawned ~145.50 still falling at KO 145.67 and after (i1.png); nothing to add"
+  },
+  {
+   "n": 2,
+   "why": "ak03 p1: chain already has 184.67 as plain single (cseq 'single'); +920 jump fits single+REN, not TSS"
+  },
+  {
+   "n": 6,
+   "why": "ak05 p1: score flat 101314 from last spawn through KO (audit); nothing locked"
+  },
+  {
+   "n": 7,
+   "why": "ak07 p2: score +7200 at 496.57 = TST with B2B (TSS B2B would be 3600); chain tst correct, banner read wrong"
+  },
+  {
+   "n": 8,
+   "why": "ak08 p1: J locks at 537.033 (k8.png), p2 tilt already at 536.967 = end_s; lock is after the KO frame"
+  },
+  {
+   "n": 14,
+   "why": "ak25 p2: score flat 16603 from last spawn to after KO (audit); nothing locked"
+  },
+  {
+   "n": 15,
+   "why": "ak27 p1: soft-drop points keep rising each frame through 1648.67 (score.py) -> piece still falling at KO 1648.6"
+  },
+  {
+   "n": 16,
+   "why": "ak28 p1: soft-drop points rising through 1666.37 -> piece airborne at KO 1666.3"
+  },
+  {
+   "n": 17,
+   "why": "ak29 p1: O (out of hold) locks at 1724.733 (score 63828->63860), p2 tilt starts 1724.700 = end_s (k17.png); lock one frame after KO"
+  }
+ ]
+}

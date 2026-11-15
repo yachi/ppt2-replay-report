@@ -262,3 +262,6 @@ ai40,p1,pieces,81,72,"v1 skeptic, missed by b1: nextcount p1 1177.3-1239.6 (73 s
 aj09,p1,pieces,198,200,"b0 frame check, verified: two opening locks (Z 508.27, O 508.43) missed by the chain; rest of the 199-spawn sequence is bag-consistent once they are restored. fr/g0/aj09s.png, nextcount p1 507.5-512."
 aj18,p2,pieces,56,53,"b1 frame check, verified: three phantom locks at 93.40 (see event correction); fr/g1/a18.png"
 aj24,p1,pieces,135,136,"b1 frame check, verified: KO-frame lock of the L at 368.03 (+22 drop points); fr/g1/a24.png"
+ak24,p1,pieces,78,79,"b0 frame check, verified: S locked on the KO frame 1558.23, see k13.png"
+ak09,p1,pieces,25,26,"b0 frame check, verified: Z locked on the KO frame 554.03 (k9.png); not in chain cseq (last event 553.63) Then a frame-by-frame count of the whole game (corr/fr/k9count) found 26 locks: the chain missed the L at ~553.80 and the Z, which locks at 554.067 with a score rise (22557 -> 22589); the NEXT recount's 24 misses the pieces that came out of a full hold (five swaps), so it is not acted on."
+ak32,p1,pieces,213,214,"b0 frame check, verified: J locked 2074.27 before KO 2074.3 (k19.png); not in cseq (last event 2073.37)"
