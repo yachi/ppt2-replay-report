@@ -1,0 +1,9 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v0/af04.png 261.50-267.10: the Z spawned 261.733 (nextcount) hovers unlocked from ~261.85 to ~266.4 and locks ~266.77 (score 17196->17214); nextcount spawns 261.233, 261.567, 261.733, 266.867 only, so 261.87 is a phantom lock"},
+ {"ref":"e1","verdict":"keep","why":"same evidence as e0: only one piece (the Z, chain 261.80) spans 261.73-266.87; 261.97 is a phantom lock"},
+ {"ref":"e2","verdict":"keep","why":"fr/v0/af15.png: at 1034.10 three rows remain; J locks and clears them, board white-flash then empty, PERFECT CLEAR banner from 1034.30; score 10963->12463->17863 at 1034.20-1034.23"},
+ {"ref":"e3","verdict":"keep","why":"fr/v0/af15.png: next piece I (spawn 1034.267) lands flat on the empty floor ~1034.7-1034.9 without clearing (it stays on the board at 1035.0-1035.1); score only +30 (17866->17896 at 1034.97); nextcount shows no extra spawn, so retype to a plain lock keeps the piece count"},
+ {"ref":"e4","verdict":"keep","why":"fr/v0/af22.png: at 224.80 the O drops into the gap clearing the last 2 rows; board empty at 224.90 with PERFECT CLEAR banner; score 10764->16082 at 224.90"},
+ {"ref":"e5","verdict":"keep","why":"fr/v0/af22.png: S (spawn 224.967) locks on the empty floor (visible at 225.20-225.40 bottom left), no clear; score +38 only (16082->16120 at 225.03)"},
+ {"ref":"c0","verdict":"keep","why":"nextcount 260.4-267.5: spawns 260.600, 260.933, 261.233, 261.567, 261.733, 266.867, 267.200 against chain events 260.60, 260.93, 261.23, 261.57, 261.80, 261.87, 261.97, 266.87, 267.20; two phantoms, so 67 -> 65"}
+]

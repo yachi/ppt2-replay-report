@@ -1,0 +1,17 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py: p2 5268->10818 (+5550) at 351.37 = TSD B2B 5400 + REN 150; a plain double (B2B broken) cannot give this"},
+ {"ref":"e1","verdict":"keep","why":"score.py p1: 67940->68540 (+600 = single + REN2) at 519.27, the third consecutive clear after tsd 516.6 and quad 517.9"},
+ {"ref":"e2","verdict":"keep","why":"fr/v1/a523.png: J out of hold drops into the grey bottom row's hole, row clears 524.1, '7 REN' banner; score 75256->76642 (+1386 ~ single + REN7)"},
+ {"ref":"e3","verdict":"keep","why":"fr/v1/a523.png: piece locks 525.0 (red Z out of hold, not a T, piece identity irrelevant), bottom row clears 525.1, '8 REN' banner; score 76642->78180 at 525.53 (+1538 = single + REN8 + drops); board not empty"},
+ {"ref":"e4","verdict":"keep","why":"nextcount p2 795.5-807.8: only one shift (796.70, O held) until 806.97; score jumps only at 796.43 (+1518) and 806.30 (+1654 = single + REN9); 796.7/796.77/805.87 are one clear"},
+ {"ref":"e5","verdict":"keep","why":"nextcount p1 795.8-807.8: spawns 796.47, 796.73, 796.97, 805.77, 806.70, 807.60; nothing at 805.53, which is a phantom lock beside the 796.93 S"},
+ {"ref":"e6","verdict":"keep","why":"score.py p1: 145593->151143 (+5550) at 1026.30 = TSD B2B + REN"},
+ {"ref":"e7","verdict":"keep","why":"score.py p2: 142294->147694 (+5400) at 1049.83 = TSD B2B, no REN (prior locks no clear); fr/v1/a1049.png shows 'Double' + BACK to BACK banners 1049.5-1050.0"},
+ {"ref":"e8","verdict":"keep","why":"score.py p1: 5305->10855 (+5550) at 1066.93 = TSD B2B + REN"},
+ {"ref":"e9","verdict":"keep","why":"nextcount p1: shift 1197.167 (O spawn); fr/v1/a1197.png: O locked on the floor in frame 1197.37 (= end_s), score 58335->58369 at 1197.37, no clear"},
+ {"ref":"c0","verdict":"keep","why":"score jumps across 519.27-525.53 fit REN 2..8 on consecutive singles (300+REN*150): +600, +1386, +1538; 9 consecutive clears from 516.6 = 8 REN"},
+ {"ref":"c1","verdict":"keep","why":"nextcount p2: one piece (J) between 796.70 and 806.97 where the chain logged three; 73-2 = 71"},
+ {"ref":"c2","verdict":"keep","why":"real run: single at 795.93 scores REN8 (+1518), next clear at 806.30 REN9 (+1654), then 806.97 no clear; 10/11 only from the duplicate singles"},
+ {"ref":"c3","verdict":"keep","why":"nextcount p1 shows 6 spawns for the chain's 7 pieces in 796.4-807.6; phantom 805.53 removed"},
+ {"ref":"c4","verdict":"keep","why":"fr/v1/a1197.png: O spawned 1197.17 is locked by 1197.37 = KO frame"}
+]
