@@ -3,7 +3,7 @@
 # (per-video seg); seg never closes a video's last game, so it is appended: start = previous end + 1.2 s,
 # end_upper = the video's end less 0.2 s. WIN counters read by eye at each segment's start + 3 s and on the video's
 # last frame (cnt/<VID>.png in the scratch tree); syakegohan is the LEFT board (p1). Each
-# part is one set: Part1's video stops at 13-5 (set not complete), Part2 ends 15-4.
+# part is one set: Part2's video (nRLujpF_i5Y, listed first) stops at 13-5 (set not complete), Part1 ends 15-4.
 import json, subprocess
 K = '/tmp/claude-0/af/'; PFX = 'af'; DS = 'upload-2025-07-26'; OPP = 'ドラえもん'
 VIDS = [  # vid, counters (syakegohan-uyeshota) at each game's start and after the last one

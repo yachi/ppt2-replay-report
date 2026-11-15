@@ -10,11 +10,12 @@ syakegohan is the LEFT board (p1) throughout; the opponent is ドラえもん.
 
 | ids | video | WIN counters at the end (syakegohan first) | length |
 |---|---|---|---|
-| af00–af17 | `nRLujpF_i5Y` (Part1) | 13-5 | 20:03 |
-| af18–af36 | `_LqGJguhTEo` (Part2) | 15-4 | 21:28 |
+| af00–af17 | `nRLujpF_i5Y` (Part2) | 13-5 | 20:03 |
+| af18–af36 | `_LqGJguhTEo` (Part1) | 15-4 | 21:28 |
 
-syakegohan 28-9 over the 37 games. Part1's replay stops at 13-5 (the set is not finished in the video); Part2 is a
-whole set.
+syakegohan 28-9 over the 37 games. Part2's replay stops at 13-5 (the set is not finished in the video); Part1 is a
+whole set. The ids run Part2 first: the parts were first labelled the wrong way round, and the ids were kept when
+the labels were corrected (the video titles say `_LqGJguhTEo` is Part1).
 
 - The videos: native 854x480, リプレイVer 3.5, the layout the coordinates expect. **No rescale.**
 - Games: `seg/` was run per video (`seg/v_<video>/`); `seg` never closes a video's last game, so `mkgames_af.py`
