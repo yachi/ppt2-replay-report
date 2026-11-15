@@ -1,0 +1,103 @@
+[
+ {
+  "id": "aj18",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "2 of 9 bags not a permutation (spawn index [49, 56]); anomalies ['double shift k=3 at frame 822', 'queue I re-read at frame 825: slot 4 I->J', 'queue I re-read at frame 825: slot 5 I->Z']",
+  "t_s": 68.27,
+  "n": 11
+ },
+ {
+  "id": "aj20",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "aj20",
+   "player": "p1",
+   "t0": 160.8,
+   "t1": 163.57,
+   "step": -3150,
+   "unexplained": -3150,
+   "near": [
+    [
+     160.5,
+     3600,
+     "quad"
+    ],
+    [
+     160.87,
+     3750,
+     "quad"
+    ],
+    [
+     161.17,
+     1200,
+     "double"
+    ],
+    [
+     162.87,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 160.8,
+  "n": 14
+ },
+ {
+  "id": "aj20",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 192.13 s typed as a plain clear [tsb-hint-v1] score jumps near the clear: []; undecided",
+  "t_s": 192.13,
+  "n": 15
+ },
+ {
+  "id": "aj24",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.27 s before the KO)",
+  "t_s": 368.03,
+  "n": 16
+ },
+ {
+  "id": "aj25",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 403.87 s",
+  "t_s": 403.87,
+  "n": 17
+ },
+ {
+  "id": "aj27",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO) [audit sample of ko-flat-v1: score 52205 at the last spawn (538.34 s) and still 52205 after the KO (538.47 s): nothing locked]",
+  "t_s": 538.47,
+  "n": 18
+ },
+ {
+  "id": "aj29",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 627.43 s",
+  "t_s": 627.43,
+  "n": 19
+ },
+ {
+  "id": "aj33",
+  "player": "p2",
+  "field_or_issue": "outlier: APP outside 0..1.5",
+  "detail": "1.5161290322580645",
+  "t_s": 766.7,
+  "n": 21
+ },
+ {
+  "id": "aj34",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 854.5,
+  "n": 22
+ }
+]

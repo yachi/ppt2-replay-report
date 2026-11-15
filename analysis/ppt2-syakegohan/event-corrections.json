@@ -38475,5 +38475,237 @@
   "pc": 0,
   "gc": 0,
   "source": "b2 frame check, verified: Phantom clear: the piece logged at t=1475.63 locks with no line clear (see previous); it was a plain lock. T dropped into the slot at ~1475.5 completes 2 rows; empty board + PERFECT CLEAR (REN shown) 1475.6; p2 score 6894 -> 11580 by 1475.57 (score digits hidden 1474.93-1475.53). Next O locks bottom-left ~1476.0 with no clear (11580 -> 11618 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai24a.png"
+ },
+ {
+  "id": "aj09",
+  "side": "p1",
+  "op": "add",
+  "t": 508.27,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: nextcount p1 507.5-512: init 508.133 ZOIJL, spawns at 508.267 (Z) and 508.433 (O) precede the chain's first event 508.73 (I). Sheet fr/g0/aj09s.png 508.1-509.8: Z locks ~508.4 (score 0->38), O locks ~508.6 (38->76), I at 508.8-509.0; no clears. R/bag.json seq starts at I; with the two missing spawns every bag is a 7-permutation (offset-5 check: 0 bad bags)."
+ },
+ {
+  "id": "aj09",
+  "side": "p1",
+  "op": "add",
+  "t": 508.43,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: second missed opening lock (O, spawned 508.433, locked ~508.6, score 38->76); same evidence as the 508.27 add, fr/g0/aj09s.png."
+ },
+ {
+  "id": "aj15",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 787.5,
+  "t_end": 788.1,
+  "events": [
+   {
+    "t": 787.67,
+    "kind": "triple",
+    "lines": 3,
+    "pc": 1,
+    "gc": 1
+   },
+   {
+    "t": 788.0,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    788.0,
+    "triple",
+    3
+   ]
+  ],
+  "source": "b0 frame check, verified: fr/g0/aj15.png 786.8-789.7 + nextcount (shift 787.667, hold O 787.7) + score: locks after 786.8 are S(+36 787.07), L(+36 787.23), I(J slot, +33 787.57), J out of hold on the O slot spawned ~787.67 (+36 787.87) completing 3 rows = PERFECT CLEAR (+6900 787.93, banner from 787.99), then O out of hold on the L slot spawned 788.0 (+36 788.23, no clear), Z (+38 788.43), O (+36 788.77). Chain lacked the 787.67 spawn slot and put the PC triple on the 788.0 slot whose lock cleared nothing. pc/gc kept from chain. The +75 flagged at 788.4 is just the two drop scores (+36,+38). Whole-game spawn count (25 spawns, 1 hold-into-empty, final active + held piece unlocked) gives 23 locks = csv pieces 23, so no pieces edit."
+ },
+ {
+  "id": "aj18",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 93.4,
+  "t_end": 93.4,
+  "events": [],
+  "was_old": [
+   [
+    93.4,
+    null,
+    0
+   ],
+   [
+    93.4,
+    null,
+    0
+   ],
+   [
+    93.4,
+    null,
+    0
+   ]
+  ],
+  "source": "b1 frame check, verified: I spawned 92.67 and made the TETRIS (flash 93.0-93.4); NEXT queue reads J Z I J Z unchanged from 92.70 to 93.70 and the next spawn is the J at 93.80 (queue -> Z I J Z O). The 'double shift k=3' at 93.30 is the clear flash covering the queue. The three None locks at 93.40 are phantoms. fr/g1/a18.png; nextcount p2 88-97.3: 18 real spawns 89.03-96.57 vs 21 chain events."
+ },
+ {
+  "id": "aj20",
+  "side": "p1",
+  "op": "retype",
+  "t": 160.5,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 0,
+  "source": "b1 frame check, verified: Piece spawned 160.50 (next spawn 160.87) is the vertical I in col 0 that clears the last 4 rows: board empty with PERFECT CLEAR banner from 160.80-161.3 (TETRIS banner under it). Score 9045 (159.90) -> 22351 (160.80), +13306. fr/g1/a20.png Also: b2 frame check, verified: Z held at ~160.55, I from hold placed vertical in col 0 ~160.75: TETRIS clearing all 4 rows, board empty, PERFECT CLEAR banner 160.8+; score 5259->22351 at 160.80 in one jump. /tmp/claude-0/aj/corr/fr/g2/aj20a.png"
+ },
+ {
+  "id": "aj20",
+  "side": "p1",
+  "op": "retype",
+  "t": 160.87,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "source": "b1 frame check, verified: Duplicate of the PC tetris: piece spawned 160.87 (T/Z with hold) locks on the empty board, score only +40 (22351->22391 at 161.07, drop points). fr/g1/a20.png Also: b2 frame check, verified: Duplicate quad: T spawned 160.9 is held, Z from hold placed bottom-left on the empty board ~161.15 (score +40 drop only, 22351->22391); TETRIS banner is the lingering one from 160.8. /tmp/claude-0/aj/corr/fr/g2/aj20a.png"
+ },
+ {
+  "id": "aj20",
+  "side": "p1",
+  "op": "retype",
+  "t": 161.17,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "source": "b1 frame check, verified: O spawned 161.17 drops onto the empty board after the PC; no clear, score rises only by drop points 22391->22617 until the TSD (+5400) at 163.57. fr/g1/a20.png Also: b2 frame check, verified: Phantom double: O placed at right on near-empty board ~161.45 (score 22393->22427->22465, drops only); no clear until 162.87. /tmp/claude-0/aj/corr/fr/g2/aj20a.png"
+ },
+ {
+  "id": "aj24",
+  "side": "p1",
+  "op": "add",
+  "t": 367.77,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: L spawned 367.77 (queue LTIJS>TIJSI) is hard-dropped and locks on the KO frame 368.03: score 95064->95086 (+22 drop points) at 368.03, piece visibly placed bottom right, no clear. fr/g1/a24.png"
+ },
+ {
+  "id": "aj09",
+  "side": "p2",
+  "op": "retype",
+  "t": 516.23,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: Real PERFECT CLEAR: board 3 rows full except col 0; vertical I (taken from hold after S held at 516.33) locks ~516.5, board empty, PC banner from 516.6; p2 score 10981->17881 (+6900 = triple 1500 + PC 5400) at 516.53, no other jump 516.0-516.5. /tmp/claude-0/aj/corr/fr/g2/aj09a.png"
+ },
+ {
+  "id": "aj09",
+  "side": "p2",
+  "op": "retype",
+  "t": 516.6,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC triple: the piece spawning 516.6 is the O, which locks on the empty board ~517.0 (score +38 drop only, 17881->17919); no clear until 518.43. /tmp/claude-0/aj/corr/fr/g2/aj09a.png"
+ },
+ {
+  "id": "aj19",
+  "side": "p1",
+  "op": "retype",
+  "t": 114.6,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: L locks at right edge ~114.85 clearing 3 rows, board empty, PERFECT CLEAR banner from 115.0; p1 score 10973->12473->17873 (+1500 triple, +5400 PC) at 114.90-114.93. /tmp/claude-0/aj/corr/fr/g2/aj19a.png"
+ },
+ {
+  "id": "aj19",
+  "side": "p1",
+  "op": "retype",
+  "t": 115.13,
+  "was": [
+   "single",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Phantom single: after the PC the S is held and the O placed on the empty floor ~115.4 (score 17873->17878->17908, drop points only); no clear 115.0-116.5. /tmp/claude-0/aj/corr/fr/g2/aj19a.png"
+ },
+ {
+  "id": "aj22",
+  "side": "p1",
+  "op": "retype",
+  "t": 257.87,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: Vertical J locks ~257.95 clearing 3 rows, board empty, PERFECT CLEAR banner from 258.0; score 10810->17710 (+6900 = triple 1500 + PC 5400) at 258.00. /tmp/claude-0/aj/corr/fr/g2/aj22a.png"
+ },
+ {
+  "id": "aj22",
+  "side": "p1",
+  "op": "retype",
+  "t": 258.07,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate triple: the O spawning 258.1 is placed on the empty floor ~258.3 (score +35 drop only, 17711->17746); next clear is the single at 259.13 (+300). /tmp/claude-0/aj/corr/fr/g2/aj22a.png"
  }
 ]

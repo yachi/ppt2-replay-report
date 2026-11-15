@@ -1,0 +1,14 @@
+{"event_corrections":[
+ {"n":3,"id":"aj09","side":"p1","op":"add","t":508.27,"kind":null,"lines":0,"pc":0,"gc":0,"source":"nextcount p1 507.5-512: init 508.133 ZOIJL, spawns at 508.267 (Z) and 508.433 (O) precede the chain's first event 508.73 (I). Sheet fr/g0/aj09s.png 508.1-509.8: Z locks ~508.4 (score 0->38), O locks ~508.6 (38->76), I at 508.8-509.0; no clears. R/bag.json seq starts at I; with the two missing spawns every bag is a 7-permutation (offset-5 check: 0 bad bags)."},
+ {"n":3,"id":"aj09","side":"p1","op":"add","t":508.43,"kind":null,"lines":0,"pc":0,"gc":0,"source":"second missed opening lock (O, spawned 508.433, locked ~508.6, score 38->76); same evidence as the 508.27 add, fr/g0/aj09s.png."},
+ {"n":8,"id":"aj15","side":"p1","op":"replace_window","t":787.5,"t_end":788.1,"events":[{"t":787.67,"kind":"triple","lines":3,"pc":1,"gc":1},{"t":788.0,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[788.0,"triple",3]],"source":"fr/g0/aj15.png 786.8-789.7 + nextcount (shift 787.667, hold O 787.7) + score: locks after 786.8 are S(+36 787.07), L(+36 787.23), I(J slot, +33 787.57), J out of hold on the O slot spawned ~787.67 (+36 787.87) completing 3 rows = PERFECT CLEAR (+6900 787.93, banner from 787.99), then O out of hold on the L slot spawned 788.0 (+36 788.23, no clear), Z (+38 788.43), O (+36 788.77). Chain lacked the 787.67 spawn slot and put the PC triple on the 788.0 slot whose lock cleared nothing. pc/gc kept from chain. The +75 flagged at 788.4 is just the two drop scores (+36,+38). Whole-game spawn count (25 spawns, 1 hold-into-empty, final active + held piece unlocked) gives 23 locks = csv pieces 23, so no pieces edit."}
+],
+"cell_edits":[
+ {"n":3,"id":"aj09","player":"p1","field":"pieces","was":198,"value":200,"source":"two opening locks (Z 508.27, O 508.43) missed by the chain; rest of the 199-spawn sequence is bag-consistent once they are restored. fr/g0/aj09s.png, nextcount p1 507.5-512."}
+],
+"no_change":[
+ {"n":4,"why":"aj09 p2: frames fr/g0/aj09p2a.png show 3 rows clearing at 610.5 with a Triple/BACK to BACK banner; score +7200 at 610.47 = TST x1.5 B2B. Chain tst is right; the 'T-SPIN Single' read was a lingering/misread banner."},
+ {"n":5,"why":"aj09 p2: the +300 at 614.97 is the chain's single at t=612.77: that L spawn was held at 614.6 and the J from hold soft-dropped and cleared one row (fr/g0/aj09p2b.png). Next piece spawned ~615.8 into a garbage-filled board and never locked before KO 616.27."},
+ {"n":7,"why":"aj12 p1: +74 (35133->35207) is drop points of the three chain locks 713.97 J, 714.17 L, 714.5 S (fr/g0/aj12.png); no clear. The O spawned at the KO frame 714.67 lands after the KO and does not count."},
+ {"n":10,"why":"aj17 p2: the T spawned 58.77 was still active at 59.267/59.300 (ghost below), resting unlocked at 59.333, and rotated/locked only at 59.367 with the win banner, after end_s 59.33 (fr/g0/aj17.png, fr/g0/aj17ko.png). Not counted."}
+]}
