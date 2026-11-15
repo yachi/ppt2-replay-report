@@ -33449,5 +33449,101 @@
   "pc": 0,
   "gc": 0,
   "source": "b3 frame check, verified: Double-log: next piece (O held 763.40) locks ~763.93 with drop points only, no clear."
+ },
+ {
+  "id": "ab00",
+  "side": "p1",
+  "op": "retype",
+  "t": 68.3,
+  "was": [
+   "tsmini",
+   1,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Banner at 68.27-68.6 reads only 'Mini T-SPIN' with no 'Single' (fr/g0/ban.png, fr/g0/ban2.png; compare a real 'T-SPIN Single' banner at 114.6, fr/g0/tss.png). Score rises +300 at 68.23 (00090980->00091280) = zero-line Mini at level 3, not 600. Board 68.13 vs 68.40 (fr/g0/ab.png): one garbage row added and the stack shifts up exactly one row, so no line cleared. A zero-line mini T-spin; the piece lock stays."
+ },
+ {
+  "id": "ab00",
+  "side": "p1",
+  "op": "retype",
+  "t": 115.1,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: Frames 116.1/116.4 (fr/g0/ban3.png) show 'T-SPIN Double', 'BACK to BACK' and '1 REN' left of p1's board; score +5562 at 116.03 (00146135->00151697) = TSD 3600 x1.5 + 150 REN + drop. The chain's 115.10 double is that TSD (previous clear 113.77 is the TSS whose banner reads 'T-SPIN Single' at 114.6)."
+ },
+ {
+  "id": "ab00",
+  "side": "p2",
+  "op": "retype",
+  "t": 139.73,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/a.png: at 139.30-139.50 p2 board holds exactly 4 full-colour rows with a 1-wide well; the I drops ~139.6, board empty at 139.70 with PERFECT CLEAR banner 139.70-141.0; score 00163472 -> 00172056 (+8584, tetris+PC bonus). fr/g1/d.png (139.55 crop): all 4 rows are coloured piece cells, no grey garbage, so gc 0 not 4."
+ },
+ {
+  "id": "ab00",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 501.53,
+  "t_end": 502.9,
+  "events": [
+   {
+    "t": 501.53,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   },
+   {
+    "t": 502.5,
+    "kind": "double",
+    "lines": 2,
+    "pc": 1,
+    "gc": 0
+   },
+   {
+    "t": 502.9,
+    "kind": null,
+    "lines": 0,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    501.53,
+    null,
+    0
+   ],
+   [
+    502.5,
+    "double",
+    2
+   ],
+   [
+    502.9,
+    "double",
+    2
+   ]
+  ],
+  "source": "b1 frame check, verified: nextcount p2 500.8-503.5: spawns 501.53 (J), 502.50 (S, held 502.60 -> L out), 502.90 (Z, held 503.00 -> S out), 503.30. fr/g1/c.png: J locks ~501.8, bottom-row flash 501.9-502.1, score 00634363 -> 00634813 (+450 = single + REN). fr/g1/b.png: board 2 rows at 502.4, S placed 502.6, L locks 502.77 clearing both rows, board empty 502.8, PERFECT CLEAR banner from 502.9; score 00634848 -> 00636048 -> 00639648. The S played from hold at ~503.1 sits on the empty floor (503.3-503.9 frames) and score only rises 00639648 -> 00639685 (drop points): no clear, so chain double at 502.90 is a phantom."
  }
 ]

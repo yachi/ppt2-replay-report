@@ -1,0 +1,13 @@
+{"event_corrections":[
+ {"n":2,"id":"ab00","side":"p1","op":"retype","t":68.30,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Banner at 68.27-68.6 reads only 'Mini T-SPIN' with no 'Single' (fr/g0/ban.png, fr/g0/ban2.png; compare a real 'T-SPIN Single' banner at 114.6, fr/g0/tss.png). Score rises +300 at 68.23 (00090980->00091280) = zero-line Mini at level 3, not 600. Board 68.13 vs 68.40 (fr/g0/ab.png): one garbage row added and the stack shifts up exactly one row, so no line cleared. A zero-line mini T-spin; the piece lock stays."},
+ {"n":4,"id":"ab00","side":"p1","op":"retype","t":115.10,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":0,
+  "source":"Frames 116.1/116.4 (fr/g0/ban3.png) show 'T-SPIN Double', 'BACK to BACK' and '1 REN' left of p1's board; score +5562 at 116.03 (00146135->00151697) = TSD 3600 x1.5 + 150 REN + drop. The chain's 115.10 double is that TSD (previous clear 113.77 is the TSS whose banner reads 'T-SPIN Single' at 114.6)."}
+],
+"cell_edits":[],
+"no_change":[
+ {"n":0,"why":"Bad-bag flags fire on nearly every bag (systematic queue-index offset, not local misreads); the pieces total cannot be re-counted reliably from frames within this check, and no specific missed or phantom spawn was shown."},
+ {"n":1,"why":"Same as n=0 for p2: pervasive bag flags, no specific spawn error shown by frames."},
+ {"n":3,"why":"At 79.3/79.6 no banner shows left of p1's board (fr/g0/ban3.png) and score rises +900 at 79.20 = plain double; the chain already has a plain double at 78.30."},
+ {"n":5,"why":"KO at 570.53. The L spawned 570.10 locks ~570.27 (score +36 at 570.30) and is the chain's 570.10 lock. The next I was held (hold O->I ~570.43); the O is still outlined/falling at 570.53-570.57 and locks at 570.60 (score +36 at 570.60), after the KO frame (fr/g0/ko.png). Nothing to add."}
+]}

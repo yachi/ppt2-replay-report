@@ -1,0 +1,4 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v1/a.png: p2 board 139.3-139.6 holds 4 full rows of coloured piece cells (no grey garbage) with a 1-wide well; I drops 139.6, board empty with PERFECT CLEAR banner from 139.7; score 00163472 -> 00172056 (+8584). PC=1, gc 0 confirmed."},
+ {"ref":"e1","verdict":"keep","why":"fr/v1/b.png + nextcount/score: J locks ~501.8 clearing the bottom row (score +450 at 501.87); S spawned 502.5 and held (L out), L locks 502.77 clearing both remaining rows, board empty, PERFECT CLEAR banner from 502.9, score 00634848 -> 00636048 -> 00639648; Z spawned 502.9 and held (S out), S placed on empty floor ~503.2 (visible at 503.3), score only drop points to 00639685: no clear. Replacement window is correct."}
+]
