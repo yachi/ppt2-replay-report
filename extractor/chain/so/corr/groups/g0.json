@@ -1,0 +1,213 @@
+[
+ {
+  "id": "f006",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f006",
+   "player": "p1",
+   "t0": 339.4,
+   "t1": 343.1,
+   "step": -1642,
+   "unexplained": -1642,
+   "near": [
+    [
+     339.27,
+     1500,
+     "triple"
+    ],
+    [
+     339.47,
+     1650,
+     "triple"
+    ],
+    [
+     342.17,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 339.4,
+  "n": 1
+ },
+ {
+  "id": "f007",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 401.6 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 402.1 s: fits tsd only",
+  "t_s": 401.6,
+  "n": 2
+ },
+ {
+  "id": "f007",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 409.53 s",
+  "t_s": 409.53,
+  "n": 3
+ },
+ {
+  "id": "f008",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 485.33 s typed as a plain clear [tsb-hint-v1] score jumps near the clear: []; undecided",
+  "t_s": 485.33,
+  "n": 4
+ },
+ {
+  "id": "f010",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.23 s before the KO)",
+  "t_s": 622.7,
+  "n": 5
+ },
+ {
+  "id": "f011",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 684.76 s, no A clear matched (added by R/build.py)",
+  "t_s": 684.76,
+  "n": 6
+ },
+ {
+  "id": "f012",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 777.07 s typed as a plain clear [tsb-hint-v1] one score jump +462 at 777.34 s: fits plain single only",
+  "t_s": 777.07,
+  "n": 7
+ },
+ {
+  "id": "f017",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f017",
+   "player": "p1",
+   "t0": 1087.14,
+   "t1": 1090.44,
+   "step": -1050,
+   "unexplained": -1050,
+   "near": [
+    [
+     1086.87,
+     900,
+     "double"
+    ],
+    [
+     1087.23,
+     1050,
+     "double"
+    ],
+    [
+     1089.63,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 1087.14,
+  "n": 10
+ },
+ {
+  "id": "f028",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f028",
+   "player": "p1",
+   "t0": 275.57,
+   "t1": 279.37,
+   "step": -1757,
+   "unexplained": -1757,
+   "near": [
+    [
+     277.03,
+     5400,
+     "tsd"
+    ],
+    [
+     279.1,
+     900,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 275.57,
+  "n": 12
+ },
+ {
+  "id": "f029",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tsmini) vs banner T-SPIN Double at 321.7 s",
+  "t_s": 321.7,
+  "n": 13
+ },
+ {
+  "id": "f032",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f032",
+   "player": "p1",
+   "t0": 586.47,
+   "t1": 589.73,
+   "step": -1350,
+   "unexplained": -1350,
+   "near": [
+    [
+     586.17,
+     1200,
+     "double"
+    ],
+    [
+     586.53,
+     1350,
+     "double"
+    ],
+    [
+     588.93,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 586.47,
+  "n": 15
+ },
+ {
+  "id": "f033",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f033",
+   "player": "p1",
+   "t0": 667.07,
+   "t1": 669.3,
+   "step": -1200,
+   "unexplained": -1200,
+   "near": [
+    [
+     666.83,
+     1050,
+     "double"
+    ],
+    [
+     667.13,
+     1200,
+     "double"
+    ],
+    [
+     668.37,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 667.07,
+  "n": 16
+ }
+]

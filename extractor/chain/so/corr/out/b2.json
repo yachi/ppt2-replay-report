@@ -1,0 +1,708 @@
+{
+ "event_corrections": [
+  {
+   "n": 34,
+   "id": "f003",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 207.0,
+   "t_end": 207.5,
+   "events": [
+    {
+     "t": 207.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 207.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     207.0,
+     "single",
+     1
+    ],
+    [
+     207.5,
+     "single",
+     1
+    ]
+   ],
+   "source": "Score p1 flat 11724 from 206.27 to 207.40, then +2888 at 207.43 (one clear, = single-PC value; p2's accepted single PC gave +2887). Board had one row; piece spawned 207.0 completes it, board empty with PERFECT CLEAR at 207.50; piece spawned 207.5 locks ~207.9 (+34 drop only). /tmp/claude-0/so/corr/fr/g2/f003.png"
+  },
+  {
+   "n": 35,
+   "id": "f006",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 339.27,
+   "t_end": 339.47,
+   "events": [
+    {
+     "t": 339.27,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 339.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     339.27,
+     "triple",
+     3
+    ],
+    [
+     339.47,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Score p1 +6900 at 339.40 (10975->17875), the only clear; board of 3 rows cleared to empty, PERFECT CLEAR banner 339.5. Next piece (green S, spawned 339.53) locks ~339.9 with drop points only. Second triple was a double-log. /tmp/claude-0/so/corr/fr/g2/f006a.png"
+  },
+  {
+   "n": 36,
+   "id": "f006",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 341.03,
+   "t_end": 341.4,
+   "events": [
+    {
+     "t": 341.03,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 341.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     341.03,
+     "double",
+     2
+    ],
+    [
+     341.4,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p2 +4500 at 341.40 (18052->22552), only clear; yellow O spawned 341.03 completes 2 rows at 341.3, board empty with new PERFECT CLEAR at 341.4 (second PC after the accepted 339.9 one). Green S spawned 341.4 locks 341.8 no clear. Item's 342.4 onset is the same banner. /tmp/claude-0/so/corr/fr/g2/f006b.png"
+  },
+  {
+   "n": 37,
+   "id": "f007",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 388.07,
+   "t_end": 388.4,
+   "events": [
+    {
+     "t": 388.07,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 388.4,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     388.07,
+     "triple",
+     3
+    ],
+    [
+     388.4,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Score p2 +6900 at 388.40 (9453->16353), one clear; vertical I spawned 388.07 completes 3 rows, board empty with PERFECT CLEAR at 388.4; red Z locks 388.9 with no clear. /tmp/claude-0/so/corr/fr/g2/f007.png"
+  },
+  {
+   "n": 38,
+   "id": "f010",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 614.73,
+   "t_end": 615.03,
+   "events": [
+    {
+     "t": 614.73,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 615.03,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     614.73,
+     "single",
+     1
+    ],
+    [
+     615.03,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p1: no single (614.63 +36 drop only); +4500 at 614.97 (88365->92865) = double PC. J (spawned 614.33) locks 614.6 no clear; O spawned 614.73 completes 2 rows, board empty with PERFECT CLEAR at 615.0; L spawned 615.03 locks 615.3 no clear. /tmp/claude-0/so/corr/fr/g2/f010.png"
+  },
+  {
+   "n": 39,
+   "id": "f013",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 801.77,
+   "t_end": 802.0,
+   "events": [
+    {
+     "t": 801.77,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 802.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     801.77,
+     null,
+     0
+    ],
+    [
+     802.0,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Score p1 +6900 at 801.97 (10961->17861); orange L spawned 801.77 locks 801.9 completing 3 rows (no garbage), board empty with PERFECT CLEAR at 802.0. Chain logged the triple one piece late at 802.0 and without PC. /tmp/claude-0/so/corr/fr/g2/f013.png"
+  },
+  {
+   "n": 40,
+   "id": "f015",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 961.1,
+   "t_end": 961.47,
+   "events": [
+    {
+     "t": 961.1,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 961.47,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     961.1,
+     "single",
+     1
+    ],
+    [
+     961.47,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p2 11494->16064 (+4570, double-PC value; single PC is ~+2887) across 961.1-961.5, a single clear; J spawned 961.1 (S held) completes the stack at 961.35, board empty with PERFECT CLEAR at 961.5. S spawned 961.47 locks 961.9, drop points only. Line count from score. /tmp/claude-0/so/corr/fr/g2/f015.png"
+  },
+  {
+   "n": 41,
+   "id": "f017",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1086.87,
+   "t_end": 1087.23,
+   "events": [
+    {
+     "t": 1086.87,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1087.23,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1086.87,
+     "double",
+     2
+    ],
+    [
+     1087.23,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p1 +4500 at 1087.17 (11262->15762), one clear; J (spawned 1086.87 via hold swap) completes 2 rows at 1087.1, board empty, PERFECT CLEAR 1087.2; L locks after with no clear. /tmp/claude-0/so/corr/fr/g2/f017.png"
+  },
+  {
+   "n": 42,
+   "id": "f026",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 23.5,
+   "t_end": 24.37,
+   "events": [
+    {
+     "t": 23.5,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 24.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     23.5,
+     "double",
+     2
+    ],
+    [
+     24.37,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p2 flat 9730-9748 (soft-drop points) then +4500 at 24.40 (one clear); J spawned 23.5 soft-dropped completes 2 rows at 24.2, board empty with PERFECT CLEAR 24.4; orange L spawned 24.37 locks 24.8 no clear. /tmp/claude-0/so/corr/fr/g2/f026.png"
+  },
+  {
+   "n": 43,
+   "id": "f027",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 85.27,
+   "t_end": 85.53,
+   "events": [
+    {
+     "t": 85.27,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 85.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     85.27,
+     "triple",
+     3
+    ],
+    [
+     85.53,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Score p1 +6936 at 85.53 (10951->17887), one clear; 3-row board cleared to empty at 85.5 with PERFECT CLEAR banner; next piece locks with no clear. /tmp/claude-0/so/corr/fr/g2/f027.png"
+  },
+  {
+   "n": 44,
+   "id": "f027",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 84.9,
+   "t_end": 85.13,
+   "events": [
+    {
+     "t": 84.9,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 85.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     84.9,
+     "triple",
+     3
+    ],
+    [
+     85.13,
+     "triple",
+     3
+    ]
+   ],
+   "source": "Score p2 +6900 at 85.13 (10995->17895), one clear; 3-row board cleared to empty at 85.1, PERFECT CLEAR; following piece (blue) locks ~85.6 no clear. /tmp/claude-0/so/corr/fr/g2/f027.png"
+  },
+  {
+   "n": 45,
+   "id": "f032",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 586.17,
+   "t_end": 586.53,
+   "events": [
+    {
+     "t": 586.17,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 586.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     586.17,
+     "double",
+     2
+    ],
+    [
+     586.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p1 +4800 at 586.47 (11254->16054, double PC with REN); J spawned 586.17 completes 2 rows, board empty with PERFECT CLEAR 586.5; T held, O locks 587.0 no clear. /tmp/claude-0/so/corr/fr/g2/f032.png"
+  },
+  {
+   "n": 46,
+   "id": "f033",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 666.83,
+   "t_end": 667.13,
+   "events": [
+    {
+     "t": 666.83,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 667.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     666.83,
+     "double",
+     2
+    ],
+    [
+     667.13,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p1 +4650 at 667.07 (11261->15911, double PC + REN); vertical J spawned 666.83 completes 2 rows, board empty with PERFECT CLEAR at 667.1; next J locks ~667.6 with no clear. /tmp/claude-0/so/corr/fr/g2/f033.png"
+  },
+  {
+   "n": 47,
+   "id": "f035",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 950.87,
+   "t_end": 952.0,
+   "events": [
+    {
+     "t": 950.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 951.7,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 952.0,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     950.87,
+     null,
+     0
+    ],
+    [
+     951.7,
+     "single",
+     1
+    ],
+    [
+     952.0,
+     "single",
+     1
+    ]
+   ],
+   "source": "Frames: J (spawned ~950.87) clears one row at 951.05 (score 11475->11838 incl. drops), leaving one row; I spawned 951.7 lies flat, completes it at 951.95 -> board empty, PERFECT CLEAR 952.0, score +2850 at 952.03. Chain had the two singles one piece late (951.7, 952.0) and no PC. S/next piece locks after with no clear. /tmp/claude-0/so/corr/fr/g2/f035.png"
+  },
+  {
+   "n": 48,
+   "id": "f036",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1015.13,
+   "t_end": 1016.33,
+   "events": [
+    {
+     "t": 1015.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1016.03,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1016.33,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1015.13,
+     null,
+     0
+    ],
+    [
+     1016.03,
+     "single",
+     1
+    ],
+    [
+     1016.33,
+     "single",
+     1
+    ]
+   ],
+   "source": "Frames: single at 1014.5 (O, chain 1014.33 ok); J spawned 1015.13 clears one row at 1015.45 (score ~12257 by 1015.75); I spawned 1016.03 lies flat completing the last row at 1016.25 -> board empty, PERFECT CLEAR 1016.35, score 15594. S spawned 1016.33 locks 1016.65 no clear. Chain had the J clear at 1016.03 and a phantom at 1016.33, no PC. /tmp/claude-0/so/corr/fr/g2/f036.png"
+  },
+  {
+   "n": 49,
+   "id": "f038",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1067.63,
+   "t_end": 1068.53,
+   "events": [
+    {
+     "t": 1067.63,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1068.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1067.63,
+     "double",
+     2
+    ],
+    [
+     1068.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p1 soft-drop points 11222-11240 then +4650 at 1068.47 (double PC + REN), one clear; Z spawned 1067.63 soft-dropped completes 2 rows, board empty with PERFECT CLEAR 1068.5; next piece locks ~1069 no clear. /tmp/claude-0/so/corr/fr/g2/f038.png"
+  },
+  {
+   "n": 50,
+   "id": "f040",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1217.53,
+   "t_end": 1218.8,
+   "events": [
+    {
+     "t": 1217.53,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1218.47,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1218.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1217.53,
+     null,
+     0
+    ],
+    [
+     1218.47,
+     "single",
+     1
+    ],
+    [
+     1218.8,
+     "single",
+     1
+    ]
+   ],
+   "source": "Frames: J (spawned 1217.53) clears one row at 1217.75 leaving one row; I spawned ~1218.4 lies flat completing it at 1218.7 -> board empty, PERFECT CLEAR 1218.8 (score 11882->14732, single PC + REN); O spawned 1218.8 locks 1219.3 no clear. Chain had the singles one piece late and no PC. /tmp/claude-0/so/corr/fr/g2/f040.png"
+  },
+  {
+   "n": 51,
+   "id": "f043",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1568.9,
+   "t_end": 1569.17,
+   "events": [
+    {
+     "t": 1568.9,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1569.17,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1568.9,
+     "double",
+     2
+    ],
+    [
+     1569.17,
+     "double",
+     2
+    ]
+   ],
+   "source": "Score p2 11461->16073 (+4612, double PC) across 1568-1569.2, one clear; L spawned 1568.9 completes 2 rows at 1569.05, board empty with PERFECT CLEAR at 1569.1; T held, next piece locks 1569.6 no clear. (Separately: chain 'tss' at 1567.5 was a green S/Z lock, not checked further.) /tmp/claude-0/so/corr/fr/g2/f043.png"
+  }
+ ],
+ "cell_edits": [],
+ "no_change": []
+}

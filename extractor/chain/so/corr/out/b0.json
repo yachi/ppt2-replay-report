@@ -1,0 +1,269 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "f006",
+   "side": "p1",
+   "op": "retype",
+   "t": 339.27,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g0/f006a.png: J spawned ~339.3 and cleared the last 3 rows; PERFECT CLEAR banner and empty board 339.4-340.1; score one jump 10975->17875 (+6900) at 339.40. No grey rows in the cleared stack (gc 0)."
+  },
+  {
+   "n": 1,
+   "id": "f006",
+   "side": "p1",
+   "op": "retype",
+   "t": 339.47,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f006a.png + nextcount: after the PC the L spawned 339.53 was held (hold L at 339.60) and the S from hold locked at ~339.9 with no clear; board empty before, no second clear, score only drop points (17875->17910). Phantom duplicate of the PC triple; the lock itself is real."
+  },
+  {
+   "n": 2,
+   "id": "f007",
+   "side": "p1",
+   "op": "retype",
+   "t": 401.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "fr/g0/f007a.png: T rotated into the slot 401.8-402.0, 2 rows clear 402.1-402.3, banner '..Double' + BACK to BACK; score 48913->54463 (+5550 = TSD B2B 5400 + REN 150) at 402.13."
+  },
+  {
+   "n": 5,
+   "id": "f010",
+   "side": "p1",
+   "op": "add",
+   "t": 622.47,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f010a.png: T (spawn 622.13) locked 622.37 (+24); L spawned ~622.47 and locked at the right on frame 622.70 = end_s (score +26 at 622.70, 100574->100600), no clear; KO 'yatta' from 622.77."
+  },
+  {
+   "n": 6,
+   "id": "f011",
+   "side": "p2",
+   "op": "retype",
+   "t": 684.0,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f011a.png: J spawned 684.0 was held, T came out and was spun in at the left ~684.3 with a T-SPIN banner but no row cleared (no flash; board unchanged below). Zero-line T-spin (mini, +300 by score), not a TSD."
+  },
+  {
+   "n": 6,
+   "id": "f011",
+   "side": "p2",
+   "op": "retype",
+   "t": 684.33,
+   "was": [
+    "tsmini",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f011a.png: the next T (spawn ~684.33) spun into the right slot 684.6-684.7 and cleared 2 coloured rows (684.8-685.0 flash), banner 'T-SPIN Double' + BACK to BACK. Score 70815->76548 over both locks (+5733 = TSD B2B 5400 + zero-line mini 300 + drops)."
+  },
+  {
+   "n": 12,
+   "id": "f028",
+   "side": "p1",
+   "op": "retype",
+   "t": 275.33,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "tsmini",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f028b.png: T dropped into the notch at 275.47 and cleared one coloured row (white flash 275.53-275.6), REN banner goes 2 REN -> 3 REN; score 24662->26012 (+1350) at 275.57. A plain single cannot give 1350 (300+450); B2B mini single 900 + REN 450 fits exactly, so typed tsmini The T-spin type rests on the score alone: the TETRIS banner covers the banner area. The TSD after it at 277 scored +3633 (26012 -> 29645), which looks like no B2B, so the mini type is uncertain. The clear itself is certain.."
+  },
+  {
+   "n": 13,
+   "id": "f029",
+   "side": "p1",
+   "op": "retype",
+   "t": 321.7,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f029a.png, f029s.png: the only piece between 321.7 and 323.3 (nextcount) is the T, spun into the right slot ~322.4, rows clear 322.6, banner '..Double' + BACK to BACK; score 27836 (321.45) -> 33404 (322.85) = +5568 = TSD B2B 5400 + REN 150 + drops (TSS would be 3750)."
+  },
+  {
+   "n": 10,
+   "id": "f017",
+   "side": "p1",
+   "op": "retype",
+   "t": 1086.87,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g0/f017a.png: S spawned 1086.9 held, J out cleared the last 2 rows at ~1087.1; PERFECT CLEAR banner, empty board; score one jump 11262->15762 (+4500) at 1087.17."
+  },
+  {
+   "n": 10,
+   "id": "f017",
+   "side": "p1",
+   "op": "retype",
+   "t": 1087.23,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f017a.png + nextcount: L spawned 1087.23 was held (hold L 1087.43), S from hold locked ~1087.6 on the empty board, no clear; score only drop points after 1087.17. Phantom duplicate of the PC double."
+  },
+  {
+   "n": 15,
+   "id": "f032",
+   "side": "p1",
+   "op": "retype",
+   "t": 586.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g0/f032a.png: J (spawn 586.17) cleared the last 2 rows ~586.45; PERFECT CLEAR banner, empty board, 2 REN; score one jump 11254->16054 at 586.47."
+  },
+  {
+   "n": 15,
+   "id": "f032",
+   "side": "p1",
+   "op": "retype",
+   "t": 586.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f032a.png + nextcount: T spawned 586.53 was held (hold T 586.70), O came out and locked at the right ~587.0 on the empty board, no clear; score only drop points after 586.47. Phantom duplicate of the PC double."
+  },
+  {
+   "n": 16,
+   "id": "f033",
+   "side": "p1",
+   "op": "retype",
+   "t": 666.83,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g0/f033a.png: J (spawn 666.83) cleared the last 2 rows ~667.05; PERFECT CLEAR banner, empty board; score one jump 11261->15911 at 667.07."
+  },
+  {
+   "n": 16,
+   "id": "f033",
+   "side": "p1",
+   "op": "retype",
+   "t": 667.13,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/f033a.png + nextcount: next piece I (spawn ~667.2) locked flat on the empty floor ~667.55, no clear (J then locks at the right, also no clear); score only drop points after 667.07. Phantom duplicate of the PC double."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "f010",
+   "player": "p1",
+   "field": "pieces",
+   "was": 136,
+   "value": 137,
+   "source": "fr/g0/f010a.png: the winner's L locked on the KO frame 622.70 (score +26 at 622.70); not in the chain.",
+   "n": 5
+  },
+  {
+   "id": "f028",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 3,
+   "source": "fr/g0/f028b.png: the missed clear at 275.6 extends the REN chain double(271.87)-single-quad-clear; banner shows '3 REN' at 275.6-275.7.",
+   "n": 12
+  }
+ ],
+ "no_change": [
+  {
+   "n": 3,
+   "why": "fr/g0/f007b.png: T spun in at 410.0 cleared 3 rows (banner 'Triple'), score 37952->42752 (+4800 = TST). Chain tst correct; the TSS banner reading is stale/misread."
+  },
+  {
+   "n": 4,
+   "why": "f008 p1 score 9472 (485.40) -> 10531 (486.83) over the singles at 485.33 and 486.27 = +1059 = REN singles 450+600 + drops; a TSS would add ~2400 more. Plain single correct."
+  },
+  {
+   "n": 7,
+   "why": "f012 p1 score +462 at 777.34 = single 300 + REN 150 + drops after the 775.87 quad; chain already has a plain single. Correct."
+  }
+ ]
+}

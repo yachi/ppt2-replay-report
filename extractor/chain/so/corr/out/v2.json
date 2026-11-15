@@ -1,0 +1,92 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "Kept. Board one row after the J double at 206.2 (11724); I clears it ~207.4, empty board + PERFECT CLEAR 207.5, score 14612 (+2888). score.py's 14581 at 206.87 is a misread while the screen zooms (score area shifted). No second clear. fr/v2/f003.png Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Kept. p1 +6900 at 339.40 only; next big jump is 343.10. Second triple is a double-log. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Kept. p2 +4500 at 341.33 (18052->22552), O completes the 2 bottom rows, board empty at 341.4; no score jump between 341.4 and 343.3, so the 342.4 onset is the same lingering banner (it stays up to ~342.7 over a re-filling board). fr/v2/f006b.png Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Kept. p2 +6900 at 388.40, one clear; next changes are drop points. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "Kept. p1 only +36/+38 drop points 614.2-614.9 (no single), +4500 at 614.97, then drop points. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Kept. Frames: orange L locks 801.9 completing 3 rows of coloured pieces (no grey garbage, so gc 0 is right, chain's gc 3 wrong), board empty with PC at 802.0; +6900 at 801.97. fr/v2/f013.png Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "Kept. Zoomed frames show TWO rows before the J: row1 missing col6, row2 missing cols4-6; the J ghost fills exactly those 4 cells -> a double PC, matching +4570 (11494->16064). The O at 960.97 locked with no score jump. fr/v2/f015z.png, f015.png Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "Kept. p1 +4500 at 1087.17, single jump; drop points after. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "Kept. p2 soft-drop points then +4500 at 24.40, single jump. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "Kept. p1 +6900 by 85.50 (12487 at 85.47 is a mid-animation read), single clear. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "Kept. p2 +6900 at 85.13, single jump. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "Kept. p1 +4800 at 586.47, single jump. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "Kept. p1 +4650 at 667.07, single jump. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "Kept. Frames: J clears one row ~951.05 (white bar), I flat completes the last row 951.9, PERFECT CLEAR 952.0, score 11875->14725. fr/v2/f035.png Piece count unchanged (3 events for 3)."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "Kept. Frames: J clears one row at 1015.4, I flat clears the last row at 1016.3 -> PERFECT CLEAR, score 15594. fr/v2/f036.png Piece count unchanged (3 events for 3)."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "Kept. p1 soft-drop points then +4650 at 1068.47, single jump. Piece count unchanged (2 events for 2)."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "Kept. Frames: J clears one row ~1217.8 leaving one row; I flat clears it ~1218.7, PERFECT CLEAR 1218.8 (11882->14732). fr/v2/f040.png Piece count unchanged (3 events for 3)."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "Kept. p2 11461 -> 16073 (+4612) is the only clear in 1568.2-1569.2. Piece count unchanged (2 events for 2)."
+ }
+]
