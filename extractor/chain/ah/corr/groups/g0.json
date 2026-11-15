@@ -1,0 +1,209 @@
+[
+ {
+  "id": "ah00",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ah00",
+   "player": "p1",
+   "t0": 25.66,
+   "t1": 28.66,
+   "step": -1650,
+   "unexplained": -1650,
+   "near": [
+    [
+     25.73,
+     1650,
+     "double"
+    ],
+    [
+     27.97,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 25.66,
+  "n": 0
+ },
+ {
+  "id": "ah02",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 231.13 s typed as a plain clear [tsb-hint-v1] one score jump +476 at 231.43 s: fits plain single only",
+  "t_s": 231.13,
+  "n": 2
+ },
+ {
+  "id": "ah04",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 346.1 s typed as a plain clear [tsb-hint-v1] one score jump +1223 at 346.47 s: fits plain single only",
+  "t_s": 346.1,
+  "n": 3
+ },
+ {
+  "id": "ah05",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 417.5,
+  "n": 4
+ },
+ {
+  "id": "ah06",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Triple at 432.67 s",
+  "t_s": 432.67,
+  "n": 5
+ },
+ {
+  "id": "ah06",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +637 at 473.44 s (KO 474.6 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 473.44,
+  "n": 6
+ },
+ {
+  "id": "ah06",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 474.6,
+  "n": 7
+ },
+ {
+  "id": "ah06",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +66 at 474.87 s (KO 474.6 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 474.87,
+  "n": 8
+ },
+ {
+  "id": "ah08",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ah08",
+   "player": "p2",
+   "t0": 555.76,
+   "t1": 570.16,
+   "step": -5810,
+   "unexplained": -5810,
+   "near": [
+    [
+     555.5,
+     2100,
+     "single"
+    ],
+    [
+     556.4,
+     2250,
+     "single"
+    ],
+    [
+     556.5,
+     2400,
+     "single"
+    ],
+    [
+     566.87,
+     2550,
+     "single"
+    ],
+    [
+     567.13,
+     2700,
+     "single"
+    ],
+    [
+     568.43,
+     3450,
+     "double"
+    ],
+    [
+     569.5,
+     3000,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 555.76,
+  "n": 9
+ },
+ {
+  "id": "ah08",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.73 s from 556.40 s; B events spliced (D2/D3)",
+  "t_s": 556.4,
+  "n": 10
+ },
+ {
+  "id": "ah08",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.53 s from 557.73 s; B events spliced (D2/D3)",
+  "t_s": 557.73,
+  "n": 11
+ },
+ {
+  "id": "ah10",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 624.7,
+  "n": 12
+ },
+ {
+  "id": "ah11",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 695.2 s typed as a plain clear [tsb-hint-v1] one score jump +775 at 695.7 s: fits plain single only",
+  "t_s": 695.2,
+  "n": 13
+ },
+ {
+  "id": "ah11",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 728.73,
+  "n": 14
+ },
+ {
+  "id": "ah15",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ah15",
+   "player": "p1",
+   "t0": 868.14,
+   "t1": 871.14,
+   "step": -1350,
+   "unexplained": -1350,
+   "near": [
+    [
+     868.0,
+     1200,
+     "double"
+    ],
+    [
+     868.3,
+     1350,
+     "double"
+    ],
+    [
+     870.43,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 868.14,
+  "n": 16
+ }
+]

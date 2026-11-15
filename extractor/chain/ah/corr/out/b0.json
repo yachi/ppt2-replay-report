@@ -1,0 +1,248 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "ah00",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 24.97,
+   "t_end": 25.73,
+   "events": [
+    {
+     "t": 24.97,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 25.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     24.97,
+     "double",
+     2
+    ],
+    [
+     25.73,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g0/i0a.png: Z spawns 24.97 (queue Z,O,T,S,I at 24.67), locks ~25.6 clearing the last 2 rows -> PERFECT CLEAR banner 25.8-26.4 with empty board, REN 3->4 only once; score jumps only at 24.67 (+784, I single) and 25.67 (+5117, PC double) until the TSD at 28.67. O spawned 25.73 lands at 26.2 with no clear. So the 24.97 double is the PC and the 25.73 double is a phantom; no grey rows were cleared."
+  },
+  {
+   "n": 4,
+   "id": "ah05",
+   "side": "p1",
+   "op": "add",
+   "t": 417.37,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/i4.png: S spawns 417.37 (nextcount shift 417.367), hard-dropped and locked by 417.47 (lock flash, score +26 at 417.57), before KO 417.50; no clear."
+  },
+  {
+   "n": 5,
+   "id": "ah06",
+   "side": "p1",
+   "op": "retype",
+   "t": 432.67,
+   "was": [
+    "tsd",
+    2,
+    0
+   ],
+   "kind": "tst",
+   "lines": 3,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/i5.png: the T dropped 432.67 locks ~433.3; white flash covers 3 rows and banner reads T-SPIN Triple (433.3-433.6)."
+  },
+  {
+   "n": 6,
+   "id": "ah06",
+   "side": "p1",
+   "op": "retype",
+   "t": 473.17,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/i6.png: L spawned 473.17 is held (hold 473.233), O from hold locks ~473.4 clearing one row; REN banner 1->2 at 473.5 and score +600 at 473.47 (single 300 + REN). gc not readable, set 0."
+  },
+  {
+   "n": 10,
+   "id": "ah08",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 556.4,
+   "t_end": 567.13,
+   "events": [
+    {
+     "t": 556.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 567.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     556.4,
+     "single",
+     1
+    ],
+    [
+     556.5,
+     "single",
+     1
+    ],
+    [
+     566.87,
+     "single",
+     1
+    ],
+    [
+     567.13,
+     "single",
+     1
+    ]
+   ],
+   "source": "fr/g0/i10a.png, i10b.png, i9.png (online lag, both boards frozen ~557.4-565): O spawned 556.4 is held (hold O at 556.57), the S from hold hovers until it locks ~566.45 clearing one row (REN 12->13, score +2252 at 566.50); Z spawned 567.13 is held and the O from hold locks ~567.8 clearing one row (REN 13->14, score +2414 at 568.13). Nothing else locks; 556.4 and 566.87 were phantom singles. Score stays 24893 from 555.77 to 566.43."
+  },
+  {
+   "n": 16,
+   "id": "ah15",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 868.0,
+   "t_end": 868.3,
+   "events": [
+    {
+     "t": 868.0,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 868.3,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     868.0,
+     "double",
+     2
+    ],
+    [
+     868.3,
+     "double",
+     2
+    ]
+   ],
+   "source": "fr/g0/i16.png: Z spawned 868.0 held, O from hold locks ~868.1 clearing the last 2 (non-grey) rows -> PERFECT CLEAR banner 868.17-868.8, REN 1->2, score +4800 at 868.17; T spawned 868.23 held, Z placed at the right ~868.6 with no clear (score +35 only). Next clear is the TSD at 870.43 (+3600 at 871.17)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 4,
+   "id": "ah05",
+   "player": "p1",
+   "field": "pieces",
+   "was": 119,
+   "value": 120,
+   "source": "S locked 417.47 before KO 417.50 (fr/g0/i4.png)"
+  },
+  {
+   "n": 10,
+   "id": "ah08",
+   "player": "p2",
+   "field": "pieces",
+   "was": 54,
+   "value": 52,
+   "source": "two phantom locks removed (556.4 held O, 566.87 no spawn); spawns per nextcount p2 554-571"
+  },
+  {
+   "n": 10,
+   "id": "ah08",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 18,
+   "value": 16,
+   "source": "clears 544.13..569.5 consecutive = 17 after removing phantoms -> 16 REN; banners 12 REN at 556.0, 13 at 566.6, 14 at 567.9 agree; no clear after 569.8 (fr/g0/i10c.png)"
+  },
+  {
+   "n": 11,
+   "id": "ah08",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 11,
+   "value": 19,
+   "source": "B's BREAK markers in the lag window are wrong: REN banner runs 10 (557.4) -> 11 (564.5) -> ... -> 18 REN (571.6) -> 19 REN at 572.13 for the I locked 572.06 before KO 572.07 (fr/g0/i9.png, i11.png, i11b.png)"
+  },
+  {
+   "n": 12,
+   "id": "ah10",
+   "player": "p1",
+   "field": "pieces",
+   "was": 24,
+   "value": 25,
+   "source": "I spawned 624.50 locks ~624.67 (score +32, 14763 by 624.70), at/before KO 624.70, no clear (fr/g0/i12.png)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 2,
+   "why": "fr/g0/i2.png: T placed vertically on the left edge clears one garbage row with no T-spin banner; score +476; chain's plain single is right"
+  },
+  {
+   "n": 3,
+   "why": "fr/g0/i3.png: T dropped flat clears one row, banner area shows only '5 REN', score +1223 = single+REN; plain single is right"
+  },
+  {
+   "n": 7,
+   "why": "fr/g0/i7.png: the L from hold locks at 474.67, after KO 474.60 (p2 tilt starts 474.60); not counted"
+  },
+  {
+   "n": 8,
+   "why": "+66 at 474.87 is that post-KO L lock (474.67) and drop points; nothing to add"
+  },
+  {
+   "n": 9,
+   "why": "score_spot explained by the two phantom singles corrected under n=10"
+  },
+  {
+   "n": 13,
+   "why": "fr/g0/i13.png: T is held, S from hold placed vertically clears one garbage row (REN 2->3), no T-spin banner; plain single is right"
+  },
+  {
+   "n": 14,
+   "why": "fr/g0/i14.png: last L still falling at 728.77, locks 728.80, after KO 728.73; not counted"
+  }
+ ]
+}

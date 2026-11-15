@@ -1,0 +1,459 @@
+{
+ "event_corrections": [
+  {
+   "n": 34,
+   "id": "ah00",
+   "side": "p1",
+   "op": "retype",
+   "t": 24.97,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames fr/g2/a00.png 24.6-27.0: Z (spawn 24.97) locks ~25.6 clearing the last 2 rows, board empty, PERFECT CLEAR banner 25.8+; score 10456->15573 at 25.67 (+5117). Next piece O (spawn 25.73) locks bottom-right with no clear (score 15573->15610 drop points only, nextcount shift 25.733). This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 34,
+   "id": "ah00",
+   "side": "p1",
+   "op": "retype",
+   "t": 25.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "frames fr/g2/a00.png 24.6-27.0: Z (spawn 24.97) locks ~25.6 clearing the last 2 rows, board empty, PERFECT CLEAR banner 25.8+; score 10456->15573 at 25.67 (+5117). Next piece O (spawn 25.73) locks bottom-right with no clear (score 15573->15610 drop points only, nextcount shift 25.733). This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 35,
+   "id": "ah04",
+   "side": "p2",
+   "op": "retype",
+   "t": 306.43,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames fr/g2/a04.png 306.4-307.6: J (spawn 306.43) clears the last 2 rows, empty board, PERFECT CLEAR banner from 306.8; score 11251->16051 at 306.70. Next spawn Z (306.77) is held, O comes out and locks bottom-left with no clear (score 16051->16089->16127 drop points only). This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 35,
+   "id": "ah04",
+   "side": "p2",
+   "op": "retype",
+   "t": 306.77,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "frames fr/g2/a04.png 306.4-307.6: J (spawn 306.43) clears the last 2 rows, empty board, PERFECT CLEAR banner from 306.8; score 11251->16051 at 306.70. Next spawn Z (306.77) is held, O comes out and locks bottom-left with no clear (score 16051->16089->16127 drop points only). This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 36,
+   "id": "ah10",
+   "side": "p1",
+   "op": "retype",
+   "t": 622.97,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames fr/g2/a10.png 621.8-623.6: one 5-cell row left after the L double; I (spawn 622.87) completes it, empty board, PERFECT CLEAR banner 623.15+, score 11697->14585 at 623.07. S (spawn 623.13) locks at bottom with no clear (14585->14623 drop points); REN banner shows 1 REN only. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 36,
+   "id": "ah10",
+   "side": "p1",
+   "op": "retype",
+   "t": 623.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "frames fr/g2/a10.png 621.8-623.6: one 5-cell row left after the L double; I (spawn 622.87) completes it, empty board, PERFECT CLEAR banner 623.15+, score 11697->14585 at 623.07. S (spawn 623.13) locks at bottom with no clear (14585->14623 drop points); REN banner shows 1 REN only. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 37,
+   "id": "ah15",
+   "side": "p1",
+   "op": "retype",
+   "t": 868.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py 867-869.5 + nextcount: Z spawned 868.00 is held, O comes out and its clear scores +4800 at 868.17 (9470->14270, same size as the other PC doubles, banner flagged at 868.4); next spawn T (868.23) held, Z comes out and locks with drop points only (14270->14305->14341), no clear. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 37,
+   "id": "ah15",
+   "side": "p1",
+   "op": "retype",
+   "t": 868.3,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 867-869.5 + nextcount: Z spawned 868.00 is held, O comes out and its clear scores +4800 at 868.17 (9470->14270, same size as the other PC doubles, banner flagged at 868.4); next spawn T (868.23) held, Z comes out and locks with drop points only (14270->14305->14341), no clear. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 38,
+   "id": "ah16",
+   "side": "p1",
+   "op": "retype",
+   "t": 923.07,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py 922.2-924.8 + nextcount: L (spawn 923.07) clears 3 lines, score 10973->12473->17873 at 923.37-923.40 (triple + PC bonus), banner flagged 923.6; J (spawn 923.43) is held and Z comes out and locks with drop points only (17874->17907), no clear. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 38,
+   "id": "ah16",
+   "side": "p1",
+   "op": "retype",
+   "t": 923.43,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 922.2-924.8 + nextcount: L (spawn 923.07) clears 3 lines, score 10973->12473->17873 at 923.37-923.40 (triple + PC bonus), banner flagged 923.6; J (spawn 923.43) is held and Z comes out and locks with drop points only (17874->17907), no clear. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 39,
+   "id": "ah18",
+   "side": "p1",
+   "op": "retype",
+   "t": 1023.5,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames fr/g2/a18.png 1023.3-1024.4: T (spawn 1023.5) held, L comes out into the 3-row stack, all 3 rows clear, empty board + PERFECT CLEAR banner from 1023.8; score 656->7556. I (spawn 1023.87) locks with drop points only (7556->7594->7632), no clear. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 39,
+   "id": "ah18",
+   "side": "p1",
+   "op": "retype",
+   "t": 1023.87,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "frames fr/g2/a18.png 1023.3-1024.4: T (spawn 1023.5) held, L comes out into the 3-row stack, all 3 rows clear, empty board + PERFECT CLEAR banner from 1023.8; score 656->7556. I (spawn 1023.87) locks with drop points only (7556->7594->7632), no clear. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 40,
+   "id": "ah23",
+   "side": "p1",
+   "op": "retype",
+   "t": 133.1,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py 132.6-135 + nextcount: L (spawn 133.10) clears 3 lines with PC: score 10805->12305->17705 at 133.40-133.43 (same +6900 as ah16/ah18 triple PCs), banner flagged 134.2; next spawns T (133.47, held) and I (133.80) only add drop points (17706->17744->17782), no clears. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 40,
+   "id": "ah23",
+   "side": "p1",
+   "op": "retype",
+   "t": 133.47,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 132.6-135 + nextcount: L (spawn 133.10) clears 3 lines with PC: score 10805->12305->17705 at 133.40-133.43 (same +6900 as ah16/ah18 triple PCs), banner flagged 134.2; next spawns T (133.47, held) and I (133.80) only add drop points (17706->17744->17782), no clears. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 41,
+   "id": "ah25",
+   "side": "p1",
+   "op": "retype",
+   "t": 230.7,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py 230.5-233.6 + nextcount: the piece spawned ~230.7 locks with score 10475->15592 at 231.37 (+5117, same as ah00's REN PC double); the next piece (spawn 231.43) adds drop points only (15593->15628), no clear. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 41,
+   "id": "ah25",
+   "side": "p1",
+   "op": "retype",
+   "t": 231.43,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 230.5-233.6 + nextcount: the piece spawned ~230.7 locks with score 10475->15592 at 231.37 (+5117, same as ah00's REN PC double); the next piece (spawn 231.43) adds drop points only (15593->15628), no clear. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 42,
+   "id": "ah25",
+   "side": "p2",
+   "op": "retype",
+   "t": 231.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py 230.5-233.6 + nextcount: the piece spawned ~231.73 locks with score 11247->15897 at 232.53 (PC double), banner flagged 232.8; S (spawn 232.60) is held, T out, only drop points follow (15897->15935->15973), no clear. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 42,
+   "id": "ah25",
+   "side": "p2",
+   "op": "retype",
+   "t": 232.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 230.5-233.6 + nextcount: the piece spawned ~231.73 locks with score 11247->15897 at 232.53 (PC double), banner flagged 232.8; S (spawn 232.60) is held, T out, only drop points follow (15897->15935->15973), no clear. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 43,
+   "id": "ah26",
+   "side": "p2",
+   "op": "retype",
+   "t": 308.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py 308.8-310.9 + nextcount: Z (spawn 308.93) held, J out, locks with score 11266->15766 at 309.77 (PC double), banner flagged 310.0; next piece (spawn 309.83) adds drop points only (15766->15842), no clear. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 43,
+   "id": "ah26",
+   "side": "p2",
+   "op": "retype",
+   "t": 309.83,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 308.8-310.9 + nextcount: Z (spawn 308.93) held, J out, locks with score 11266->15766 at 309.77 (PC double), banner flagged 310.0; next piece (spawn 309.83) adds drop points only (15766->15842), no clear. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 44,
+   "id": "ah35",
+   "side": "p1",
+   "op": "retype",
+   "t": 719.47,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "frames fr/g2/a35.png 719.4-720.4: Z (spawn 719.47) held, I out, completes the one remaining row, empty board, PERFECT CLEAR banner 719.8+, score 11687->14569 at 719.77; the next I (spawn 719.83) placed vertical at left with no clear (14570->14601), REN banner 1 only. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 44,
+   "id": "ah35",
+   "side": "p1",
+   "op": "retype",
+   "t": 719.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "frames fr/g2/a35.png 719.4-720.4: Z (spawn 719.47) held, I out, completes the one remaining row, empty board, PERFECT CLEAR banner 719.8+, score 11687->14569 at 719.77; the next I (spawn 719.83) placed vertical at left with no clear (14570->14601), REN banner 1 only. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 45,
+   "id": "ah40",
+   "side": "p1",
+   "op": "retype",
+   "t": 1025.0,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "score.py 1024.6-1026.6 + nextcount: piece spawned 1025.00 clears 1 line with PC bonus, score 11681->14568 by 1025.27 (+2887, same as ah10/ah35 single PCs), banner flagged 1026.2; next spawn Z (1025.33) adds drop points only (14568->14644), no clear. This clear is the PERFECT CLEAR."
+  },
+  {
+   "n": 45,
+   "id": "ah40",
+   "side": "p1",
+   "op": "retype",
+   "t": 1025.33,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 1024.6-1026.6 + nextcount: piece spawned 1025.00 clears 1 line with PC bonus, score 11681->14568 by 1025.27 (+2887, same as ah10/ah35 single PCs), banner flagged 1026.2; next spawn Z (1025.33) adds drop points only (14568->14644), no clear. This event is a duplicate of the PC clear; the piece locked without clearing (piece count unchanged)."
+  },
+  {
+   "n": 40,
+   "id": "ah23",
+   "side": "p1",
+   "op": "retype",
+   "t": 133.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "score.py 132.6-135 + nextcount: L (spawn 133.10) clears 3 lines with PC: score 10805->12305->17705 at 133.40-133.43 (same +6900 as ah16/ah18 triple PCs), banner flagged 134.2; next spawns T (133.47, held) and I (133.80) only add drop points (17706->17744->17782), no clears. The I spawned 133.80 locks with no clear (score +38 only)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 36,
+   "id": "ah10",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 1,
+   "source": "the longest REN run in the chain included the phantom duplicate clear at 623.13; without it the run is one shorter (recomputed over the chain events, which reproduce the csv value before the fix). frames fr/g2/a10.png 621.8-623.6: one 5-cell row left after the L double; I (spawn 622.87) completes it, empty board, PERFECT CLEAR banner 623.15+, score 11697->14585 at 623.07. S (spawn 623.13) locks at bottom with no clear (14585->14623 drop points); REN banner shows 1 REN only."
+  },
+  {
+   "n": 37,
+   "id": "ah15",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 3,
+   "value": 2,
+   "source": "the longest REN run in the chain included the phantom duplicate clear at 868.3; without it the run is one shorter (recomputed over the chain events, which reproduce the csv value before the fix). score.py 867-869.5 + nextcount: Z spawned 868.00 is held, O comes out and its clear scores +4800 at 868.17 (9470->14270, same size as the other PC doubles, banner flagged at 868.4); next spawn T (868.23) held, Z comes out and locks with drop points only (14270->14305->14341), no clear."
+  },
+  {
+   "n": 44,
+   "id": "ah35",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 1,
+   "source": "the longest REN run in the chain included the phantom duplicate clear at 719.83; without it the run is one shorter (recomputed over the chain events, which reproduce the csv value before the fix). frames fr/g2/a35.png 719.4-720.4: Z (spawn 719.47) held, I out, completes the one remaining row, empty board, PERFECT CLEAR banner 719.8+, score 11687->14569 at 719.77; the next I (spawn 719.83) placed vertical at left with no clear (14570->14601), REN banner 1 only."
+  }
+ ],
+ "no_change": []
+}

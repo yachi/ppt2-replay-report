@@ -1,0 +1,142 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py confirms: ah00 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py confirms: ah00 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py confirms: ah04 p2: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py confirms: ah04 p2: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py confirms: ah10 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py confirms: ah10 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score.py confirms: ah15 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear; sheet fr/v2/ah15.png shows empty board + PERFECT CLEAR banner from 868.2, O locks bottom-left after with no clear"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score.py confirms: ah15 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock; sheet fr/v2/ah15.png shows empty board + PERFECT CLEAR banner from 868.2, O locks bottom-left after with no clear"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score.py confirms: ah16 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score.py confirms: ah16 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "score.py confirms: ah18 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "score.py confirms: ah18 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score.py confirms: ah23 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "score.py confirms: ah23 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "score.py confirms: ah25 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "score.py confirms: ah25 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "score.py confirms: ah25 p2: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "score.py confirms: ah25 p2: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "score.py confirms: ah26 p2: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "score.py confirms: ah26 p2: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e20",
+  "verdict": "keep",
+  "why": "score.py confirms: ah35 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e21",
+  "verdict": "keep",
+  "why": "score.py confirms: ah35 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e22",
+  "verdict": "keep",
+  "why": "score.py confirms: ah40 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); this is the PC clear"
+ },
+ {
+  "ref": "e23",
+  "verdict": "keep",
+  "why": "score.py confirms: ah40 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "e24",
+  "verdict": "keep",
+  "why": "score.py confirms: ah23 p1: one big PC-sized jump at the clear, only drop points (+30..+76) after the next spawn(s); no clear at this lock"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "recomputed max REN over cseq: matches csv before fix and drops by 1 with the duplicate clear removed; ah15 sheet fr/v2/ah15.png shows 1 REN then 2 REN at the PC, consistent with 2"
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "recomputed max REN over cseq: matches csv before fix and drops by 1 with the duplicate clear removed; ah15 sheet fr/v2/ah15.png shows 1 REN then 2 REN at the PC, consistent with 2"
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "recomputed max REN over cseq: matches csv before fix and drops by 1 with the duplicate clear removed; ah15 sheet fr/v2/ah15.png shows 1 REN then 2 REN at the PC, consistent with 2"
+ }
+]

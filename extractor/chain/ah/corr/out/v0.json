@@ -1,0 +1,13 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/e0.png: Z (spawn 24.97) clears the last 2 rows ~25.6, PERFECT CLEAR banner from 25.70 with empty board; O (spawn 25.73) lands ~26.2 with no clear. score.py: jumps only at 23.87, 24.67, 25.67 (+5117) then drop points until 28.67, so 25.73 double is a phantom."},
+{"ref":"e1","verdict":"keep","why":"fr/v0/e1.png: S spawned 417.367 (nextcount) is still at the top at 417.47 and is locked with drop streaks on the 417.50 frame, i.e. on the KO frame (counts); no clear (score +26 only)."},
+{"ref":"e2","verdict":"keep","why":"fr/v0/e2.png + e2b.png: 3-row flash ~433.3, banner 'T-SPIN Triple' + BACK to BACK + 1 REN; p1 score 6410 -> 13776 (+7366 = TST B2B 7200 + REN 150 + drop)."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/e3.png: one non-grey row flashes white at 473.47, REN banner 1 -> 2; score 78521 -> 79121 (+600) at 473.47. A single, gc 0."},
+{"ref":"e4","verdict":"keep","why":"p2 score frozen 24893 from 555.77 to 566.43, then only +2250 (566.50) and +2414 (568.13) before the double at 568.77; nextcount p2: shift 556.40 (O) held 556.57, next shift 567.13 (Z) held 567.23, so only two pieces (S, O from hold) lock in the window. 556.4 and 566.87 phantoms."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/e5.png: O from hold clears the last 2 rows, PERFECT CLEAR banner 868.20-868.8 with 2 REN; score +4800 at 868.17 and then drop points only until +3600 at 871.17; nextcount: T spawned 868.233 held 868.367, Z from hold placed with no clear. 868.3 double is a phantom."},
+{"ref":"c0","verdict":"keep","why":"Same as e1: S locks on the KO frame 417.50, +1 piece."},
+{"ref":"c1","verdict":"keep","why":"nextcount p2 554-571: 2 locks in 556.4-567.2 where the chain had 4; 54 -> 52."},
+{"ref":"c2","verdict":"keep","why":"Chain clears 544.13..569.5 are 19 consecutive; less the two phantoms 17 -> REN 16. 555.5 clear is the 13th = 12 REN, matching the banner the checker cites."},
+{"ref":"c3","verdict":"keep","why":"p1 score jumps 556.10 +1650, 556.93 +1800, 564.50 +1950, 565.70 +2100, 566.57 +2250, 567.53 +2400, 568.53 +2550, 569.30 +2700, 570.23 +2850, 571.20 +3000: rising 150 per clear right through the lag window, so B's BREAKs are wrong and the REN is unbroken (REN 18 at 570.97). fr/v0/c3.png: last I locks at 572.04 (score +18), before KO 572.07; its clear flash shows at 572.10 and the chain already counts that single, so 19 is consistent."},
+{"ref":"c4","verdict":"keep","why":"fr/v0/c4.png: I spawned 624.50 locks at 624.67 (score +32, 14763 at 624.67), before KO 624.70, no clear; +1 piece."}
+]
