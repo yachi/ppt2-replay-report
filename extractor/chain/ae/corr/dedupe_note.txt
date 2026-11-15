@@ -1,0 +1,5 @@
+Groups overlapped at two spots. dedupe.py (run after merge_xo.py) keeps the first proposal and appends the second's source.
+- ae36 p1 872.9 PC quad / 873.13 and 873.47 phantoms: proposed by g3 and g4 (same verdicts); g4 copies dropped.
+- ae15 p2 1030.7, ae17 p2 1259.97 and ae18 p2 1317.13: two flagged items each in g2 named the same event (same verdicts); the second copy dropped.
+- Cells: the checkers proposed max_combo and max_b2b cells (ae21 p1, ae26 p2, ae35 p1, ae35 p2, ae36 p1, the last by g3 and g4 alike); the chain recomputes them from the corrected events and already gives each one, so they were dropped. Three pieces cells are left: ae12 p2 37 -> 38 and ae21 p1 46 -> 47 (pieces locked on the KO frame), and ae20 p2 290 -> 281 (the g2 checker proposed 289; the skeptic found the 290 held 9 pieces R/build.py spliced into two B gaps and one phantom lock, and widened the gap window to 1553.4-1561.5).
+- NEXT recount (nc_compare, 76 player-games): 67 agree, 7 differ by one, 2 are lost reads (ae12 p1, ae24 p2). No piece count was changed from it.

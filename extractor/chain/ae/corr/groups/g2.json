@@ -1,0 +1,236 @@
+[
+ {
+  "id": "ae13",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.50 s before the KO)",
+  "t_s": 926.73,
+  "n": 30
+ },
+ {
+  "id": "ae15",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ae15",
+   "player": "p2",
+   "t0": 1026.1,
+   "t1": 1034.34,
+   "step": -3181,
+   "unexplained": -3181,
+   "near": [
+    [
+     1025.8,
+     300,
+     "single"
+    ],
+    [
+     1029.4,
+     3600,
+     "tsd"
+    ],
+    [
+     1030.7,
+     3750,
+     "tss"
+    ],
+    [
+     1031.5,
+     1200,
+     "double"
+    ],
+    [
+     1032.6,
+     750,
+     "single"
+    ],
+    [
+     1033.6,
+     2100,
+     "triple"
+    ]
+   ]
+  },
+  "t_s": 1026.1,
+  "n": 32
+ },
+ {
+  "id": "ae15",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (single) vs banner T-SPIN Double at 1030.7 s",
+  "t_s": 1030.7,
+  "n": 33
+ },
+ {
+  "id": "ae17",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ae17",
+   "player": "p2",
+   "t0": 1256.56,
+   "t1": 1270.9,
+   "step": -5296,
+   "unexplained": -5296,
+   "near": [
+    [
+     1258.8,
+     5400,
+     "tsd"
+    ],
+    [
+     1259.97,
+     5550,
+     "tsd"
+    ],
+    [
+     1260.53,
+     3600,
+     "quad"
+    ],
+    [
+     1261.47,
+     450,
+     "single"
+    ],
+    [
+     1263.23,
+     900,
+     "double"
+    ],
+    [
+     1264.27,
+     1050,
+     "double"
+    ],
+    [
+     1265.13,
+     1800,
+     "triple"
+    ],
+    [
+     1268.67,
+     900,
+     "double"
+    ],
+    [
+     1270.57,
+     900,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 1256.56,
+  "n": 34
+ },
+ {
+  "id": "ae17",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "T-SPIN Double banner at 1259.46 s, no A clear matched (added by R/build.py)",
+  "t_s": 1259.46,
+  "n": 35
+ },
+ {
+  "id": "ae17",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.50 s before the KO)",
+  "t_s": 1285.9,
+  "n": 36
+ },
+ {
+  "id": "ae18",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ae18",
+   "player": "p2",
+   "t0": 1313.14,
+   "t1": 1318.1,
+   "step": -3167,
+   "unexplained": -3167,
+   "near": [
+    [
+     1312.87,
+     1050,
+     "double"
+    ],
+    [
+     1316.03,
+     3600,
+     "tsd"
+    ],
+    [
+     1317.13,
+     3750,
+     "tss"
+    ],
+    [
+     1317.93,
+     1200,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 1313.14,
+  "n": 37
+ },
+ {
+  "id": "ae18",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (single) vs banner T-SPIN Double at 1317.13 s",
+  "t_s": 1317.13,
+  "n": 38
+ },
+ {
+  "id": "ae19",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 1345.67 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 1346.43 s: fits tsd only",
+  "t_s": 1345.67,
+  "n": 39
+ },
+ {
+  "id": "ae19",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1359.9 s",
+  "t_s": 1359.9,
+  "n": 40
+ },
+ {
+  "id": "ae20",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 1420.1 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 1420.8 s: fits tsd only",
+  "t_s": 1420.1,
+  "n": 41
+ },
+ {
+  "id": "ae20",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1469.44 s, no A clear matched (added by R/build.py)",
+  "t_s": 1469.44,
+  "n": 42
+ },
+ {
+  "id": "ae20",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.30 s from 1554.53 s; B events spliced (D2/D3)",
+  "t_s": 1554.53,
+  "n": 43
+ },
+ {
+  "id": "ae20",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.43 s from 1555.00 s; B events spliced (D2/D3)",
+  "t_s": 1555.0,
+  "n": 44
+ }
+]

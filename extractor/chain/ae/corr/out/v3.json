@@ -1,0 +1,18 @@
+[
+{"ref":"e0","verdict":"keep","why":"nextcount: L spawned 1604.667; score +38 lock at 1604.73 (=KO frame) and +600 at 1604.77 (single 300 + REN2 300); row flash visible at 1604.73-1604.77 on the bottom row in fr/v3/a21.png."},
+{"ref":"e1","verdict":"keep","why":"nextcount p2: 408.633 spawn is J (queue JTSTZ>TSTZO), score only +10 (44645->44655); single TST jump 44655->51861 (+7206) at 410.03 after T spawned 409.10. No second TST."},
+{"ref":"e2","verdict":"keep","why":"nextcount p2: T spawned 525.600 is held at 525.667 and I comes out of hold; fr/v3/a28.png shows the I dropped vertical in the left column and one row clearing ~525.90-526.17 with a REN banner and no T-SPIN banner."},
+{"ref":"e3","verdict":"keep","why":"nextcount p1 shows spawns 579.300 (O) and 579.533; score +37 lock at 579.40 then +4800 at 579.47 before the 579.533 spawn, so the PC double is the 579.30 piece; 579.533 piece locks +40 at 579.70 without a clear. Chain list had 25 events vs 28 shifts incl. post-KO spawn; adding 579.30 gives 26 = CSV."},
+{"ref":"e4","verdict":"keep","why":"nextcount p2 has shifts only at 736.567, 737.867, 739.133 (none at 737.47); p2 score 503->5311 (+4808) is one TST, next jump +450 at 738.47 is the Z single."},
+{"ref":"e5","verdict":"keep","why":"fr/v3/a35.png: T placed 829.67, T-SPIN banner, no row cleared (stack identical before/after), score +300 at 829.80; piece spawned 829.833 (Z held, O out) locks 830.07-830.10 (+27) with no clear; quad at 830.67 +3600 (B2B kept)."},
+{"ref":"e6","verdict":"keep","why":"fr/v3/a36.png: L spawned 872.90 held, I from hold dropped into the well at ~873.0, board empty and PERFECT CLEAR banner at 873.10; score 18450->27186."},
+{"ref":"e7","verdict":"keep","why":"nextcount: 873.133 spawn O held at 873.233, L comes out and lands bottom-left (~873.37, +36); board stays near-empty, no clear (fr/v3/a36.png 873.30-873.60)."},
+{"ref":"e8","verdict":"keep","why":"nextcount: 873.467 spawn J held at 873.533, O out placed bottom-right (+40 at 873.70); no clear in fr/v3/a36.png 873.60-873.90."},
+{"ref":"e9","verdict":"keep","why":"fr/v3/a37.png: T locked ~975.03, two rows (a colored row and the grey garbage row) flash 975.10-975.44, banner '...N Double' and 4 REN; score 101813->106031 (+4218 = TSD 3600 + REN4 600). Before KO 975.8."},
+{"ref":"c0","verdict":"keep","why":"Same as e0: the L spawned 1604.667 locks on the KO frame (+38 at 1604.73)."},
+{"ref":"c1","verdict":"keep","why":"nextcount spawns 1602.367 (T, tsd), 1603.700 (I, quad), 1604.667 (L, single) with no lock between; 3 consecutive clears = REN 2, banner '2 REN' at 1604.80-1604.87 in fr/v3/a21.png."},
+{"ref":"c2","verdict":"keep","why":"With 408.63 not a clear, the run is 409.1 TST..414.8 quad = 6 clears = REN 5; quad +3174 = 2400 + 5x150 + drop."},
+{"ref":"c3","verdict":"keep","why":"Recomputed chain B2B rule over cseq ae26 p2 with 408.63 removed: 11 -> 10."},
+{"ref":"c4","verdict":"keep","why":"Recomputed chain B2B rule over cseq ae35 p1 with 829.83 removed: 5 -> 4 (zero-line T-spin keeps B2B, quad scored +3600)."},
+{"ref":"c5","verdict":"keep","why":"Recomputed chain B2B rule over cseq ae36 p1 with 873.13 and 873.47 removed: 4 -> 2."}
+]

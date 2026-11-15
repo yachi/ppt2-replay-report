@@ -1,0 +1,17 @@
+{"event_corrections":[
+{"n":0,"id":"ae00","side":"p1","op":"retype","t":23.67,"was":["double",2,0],"kind":"tsd","lines":2,"source":"p1 score +5550 at 24.23 s (5378->10928) = B2B TSD 5400 + 1 REN 150; banner '1 REN / T-SPIN Double / BACK to BACK' left of p1 board at 24.35 s (/tmp/claude-0/ae/corr/fr/g0/a0.png)"},
+{"n":1,"id":"ae00","side":"p2","op":"retype","t":25.23,"was":["double",2,0],"kind":"tsd","lines":2,"source":"p2 score +5550 at 25.77 s (10819->16369) = B2B TSD + 1 REN; new banner '1 REN / T-SPIN Double / BACK to BACK' left of p2 board at 25.85 s (/tmp/claude-0/ae/corr/fr/g0/a0.png)"},
+{"n":8,"id":"ae05","side":"p2","op":"retype","t":334.47,"was":["tsd",2,0],"kind":null,"lines":0,"source":"p2 board: only one clear flash 333.8-334.0 (the 332.97 TSD, score +3602 at 334.10); piece spawned 334.467 locks ~334.9 with score +4 only and no flash; next clears are flashes at 335.6 (+900 double, 335.27 event) and 336.6 (+1058 double+REN, 336.30 event). 334.47 tsd is a phantom (/tmp/claude-0/ae/corr/fr/g0/a8.png; nextcount shifts 334.467, 334.900)"},
+{"n":13,"id":"ae08","side":"p2","op":"retype","t":453.73,"was":["tss",1,0],"kind":"single","lines":1,"source":"p2 score +300 at 453.80 s (16248->16548) = plain single, not B2B TSS (3600); frames 453.7-454.0 show a Z lock clearing one row, 'T-SPIN Double/BACK to BACK' banner is the lingering one from the 452.33 TSD (/tmp/claude-0/ae/corr/fr/g0/a13.png)"}
+],
+"cell_edits":[],
+"no_change":[
+{"n":2,"why":"ae00 p1: T still falling at KO 40.73 s (frames 40.10-40.84, /tmp/claude-0/ae/corr/fr/g0/a2.png); no lock, nothing to add"},
+{"n":3,"why":"ae01 p2: +1200 at 193.63 is a zero-line T-spin on the T taken out of hold (hold L at 192.93); no rows cleared, lock already counted as the 191.57 None event (next shift 193.667); /tmp/claude-0/ae/corr/fr/g0/a3.png"},
+{"n":4,"why":"ae02 p1: banner reads T-SPIN Triple, three rows clear 207.3 s, score +4800 at 207.27; chain tst correct (/tmp/claude-0/ae/corr/fr/g0/a4.png)"},
+{"n":5,"why":"ae02 p1: T still falling at KO 223.2 s, no lock (/tmp/claude-0/ae/corr/fr/g0/a5.png)"},
+{"n":6,"why":"ae03 p1: O piece spawned 248.43 still falling at KO 248.67; NEXT queue unchanged through 249.0, no lock (/tmp/claude-0/ae/corr/fr/g0/a6.png)"},
+{"n":7,"why":"ae03 p1: +81 'jump' is the score reader regaining the digits after the overlay hid them (blank before 248.77); no clear (smaller than any clear) and after KO"},
+{"n":9,"why":"ae05 p2: T-SPIN Double banner at 333.93 belongs to the 332.97 TSD (flash 333.8, score +3602 at 334.10); the extra error was the phantom 334.47 tsd, corrected under n=8"},
+{"n":14,"why":"ae08 p2: same event as n=13; banner was the lingering 452.33 TSD banner, retype to single given under n=13"}
+]}

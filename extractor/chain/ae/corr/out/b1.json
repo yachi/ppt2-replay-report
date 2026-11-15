@@ -1,0 +1,30 @@
+{"event_corrections":[
+{"n":15,"id":"ae08","side":"p1","op":"retype","t":486.97,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"T locked into right side ~486.7-486.8 with no row cleared (crops fr/g1/c1.png 486.60 vs c2.png 486.85: stack rows unchanged, no clear flash); banner reads 'Mini T-SPIN' with no 'Single' (fr/g1/b.png 487.05); p1 score 58277->58590 (+313 = zero-line mini 300 + drops), no 600. Zero-line mini T-spin, a plain lock. Sheet fr/g1/a.png"},
+{"n":18,"id":"ae09","side":"p2","op":"remove","t":528.07,"was":["tst",3,0],
+ "source":"Only one TST: p2 score 407->5215 (+4808) by 528.07, then 5226->10776 (+5550 = B2B TSD 5400 + REN1 150) at 528.93. nextcount p2 shows no spawn between 527.133 and 528.433, so 528.07 is not a piece; banner at 528.07 is the lingering TST banner. Sheet fr/g1/d.png (TST flash 527.68-527.94, next T TSD ~528.9)"},
+{"n":21,"id":"ae11","side":"p2","op":"retype","t":631.47,"was":["tst",4,0],"kind":"quad","lines":4,"pc":0,"gc":4,
+ "source":"Vertical I into right well clears 4 garbage rows, 'TETRIS' banner at 632.2-632.3 (fr/g1/e.png); score 58654->62426 (+3772 = B2B tetris 3600 + REN1 150). The 'T-SPIN Single' banner was the previous TSS (630.2)."},
+{"n":20,"id":"ae11","side":"p2","op":"retype","t":637.0,"was":["triple",3,0],"kind":"quad","lines":4,"pc":0,"gc":4,
+ "source":"I (out of hold) dropped vertical into the well at ~638.0, 4 rows cleared, 'TETRIS' banner 638.6-638.7 (fr/g1/f.png); score 65952->69134 (+3182 = tetris 2400 + REN5 750 + drops). Last TSS at 639.9 then scores +3600 (B2B kept by this tetris), consistent."},
+{"n":22,"id":"ae12","side":"p2","op":"retype","t":742.6,"was":["tst",3,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"742.6 is a real spawn (nextcount shift 742.600 LLSOT>LSOTI) but no clear: p2 score only one TST jump (550->5358 by 742.23), then only drop points (5358..5429) until the B2B TSS +3600 at 745.70. Lingering TST banner."},
+{"n":24,"id":"ae12","side":"p2","op":"add","t":755.93,"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"L spawned 755.93 (nextcount shift LTOSI>TOSIZ) and hard-dropped, locking at 756.13 = end_s KO frame: lock flash and p2 score 24779->24813 (+34 drop) at 756.13 (fr/g1/g.png). No clear."},
+{"n":26,"id":"ae13","side":"p2","op":"retype","t":773.7,"was":["tst",3,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"Score: one TST 506->5314 (~773.3), then the TSD 5314->10724 (+5410 B2B TSD) at 774.70 made by the T spawned 773.967. 773.7 is the Z spawn (nextcount ZTLLI>TLLIT) with no clear; lingering TST banner."},
+{"n":27,"id":"ae13","side":"p2","op":"retype","t":775.07,"was":["tsd",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"Between 774.70 and 776.17 p2 score rises only by drop points (10724->10762); 775.07 is the L spawn (nextcount LLITZ>LITZS), no clear. Next clear is the B2B quad +3600 at 776.20 (776.03 event). Lingering TSD banner."},
+{"n":29,"id":"ae13","side":"p2","op":"retype","t":911.7,"was":["tss",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"911.7 spawn is L (nextcount LTZJT>TZJTO), locks with drop points only (172018->172108 at 912.13); the T spawned 912.2 makes the one TSS (+2405 at 913.27), then I out of hold (913.567) makes the B2B tetris (+3766 at 914.27). Only one TSS."}
+],
+"cell_edits":[
+{"n":24,"id":"ae12","player":"p2","field":"pieces","was":37,"value":38,
+ "source":"winner's L locks at 756.13 = KO frame (score +34, lock flash, fr/g1/g.png); spawns 755.367, 755.567, 755.933 vs chain events 755.37, 755.57 only."}
+],
+"no_change":[
+{"n":17,"why":"score_spot fully explained by n18 removal of the phantom TST at 528.07; remaining TST (+4808) and B2B TSD REN1 (+5550) match."},
+{"n":23,"why":"score_spot explained by n22 (phantom TST at 742.6); every other increment 745.7-754.63 matches the chain's clears with REN 1..10 exactly."},
+{"n":25,"why":"score_spot explained by n26 and n27 (two phantom T-spins at 773.7 and 775.07); remaining TST/TSD/quad/TSD increments (+4808,+5410,+3600,+5400) match."},
+{"n":28,"why":"score_spot explained by n29 (phantom TSS at 911.7); other increments match: quad B2B, double/triple/double/double/single REN0-4, TSS, B2B tetris REN1, double REN2, single REN3, singles/double/single after REN break. The +5000 at 921.93 is a one-frame misread (next reads 182689)."}
+]}

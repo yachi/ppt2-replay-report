@@ -1,0 +1,14 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v4/ae18.png: J dropping into the gap at 1303.2 completes the 3 coloured rows, board empty + PERFECT CLEAR 1303.4; p2 score 10992->17892 at 1303.33 (single jump)."},
+{"ref":"e1","verdict":"keep","why":"fr/v4/ae18.png: next piece O lands on the empty floor ~1303.8, score +38 only (17892->17930); no second clear."},
+{"ref":"e2","verdict":"keep","why":"nextcount: I spawns 1395.37, L 1395.63, I 1395.97 (held, Z out). fr/v4/ae19.png: 4 grey garbage rows at 1395.3, board empty + PC at 1395.6 (66491->89796); L locks bottom-left (+32 at 1395.87), Z locks (+38 at 1396.27); no other clear."},
+{"ref":"e3","verdict":"keep","why":"fr/v4/ae35a.png: I spawned 801.73 goes vertical into the right column of 4 coloured rows; board empty + PC banner 802.1; score 21976->35176 at 802.03."},
+{"ref":"e4","verdict":"keep","why":"fr/v4/ae35a.png + nextcount: Z spawned 802.10 held at 802.2 (I out), I locks flat on empty floor ~802.5, +38 only."},
+{"ref":"e5","verdict":"keep","why":"fr/v4/ae35b.png: I spawned 812.13 drops vertical into the right-column hole of 4 grey garbage rows (812.33-812.40), board empty + PC 812.48; score 49848->58432."},
+{"ref":"e6","verdict":"keep","why":"fr/v4/ae35b.png + nextcount (O spawn 812.57): O lands on empty floor, score +38 at 812.90; no clear."},
+{"ref":"e7","verdict":"keep","why":"fr/v4/ae36.png: L spawned 872.90 held (hold L 873.0), I out of hold into the col-5 hole of 4 coloured rows; board empty + PC 873.08, score 27186 at 873.07."},
+{"ref":"e8","verdict":"keep","why":"fr/v4/ae36.png + nextcount: O spawned 873.13 held at 873.23, L locks bottom-left ~873.37 (+36), no clear."},
+{"ref":"e9","verdict":"keep","why":"fr/v4/ae36.png + nextcount: J spawned 873.47 held at 873.53, O locks bottom-right ~873.67 (+40), no clear."},
+{"ref":"c0","verdict":"keep","why":"Recomputed: csv max_b2b = longest run of difficult clears minus 1 (run 798.4 tsd..809.23 tsd = 5 -> 4). With 802.1 and 812.5 as locks the longest run is 798.4,801.73,806.9,809.23 = 4 -> 3."},
+{"ref":"c1","verdict":"keep","why":"Recomputed: run 872.9..879.87 = 5 -> csv 4; with 873.13 and 873.47 as locks the longest runs are 3 (862.3-866.67 and 872.9,875.23,879.87) -> 2."}
+]
