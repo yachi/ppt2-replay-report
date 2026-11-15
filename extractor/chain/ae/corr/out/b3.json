@@ -1,0 +1,266 @@
+{
+ "event_corrections": [
+  {
+   "n": 46,
+   "id": "ae21",
+   "side": "p1",
+   "op": "add",
+   "t": 1604.67,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "L spawned 1604.667 (nextcount shift) hard-dropped onto the last colored bottom row at 1604.70 (score +38 at 1604.73 = KO frame), row flashes white and REN banner goes 1->2 at 1604.74-1604.77, score +600 at 1604.77 (single 300 + REN 2). Lock is on the KO frame. /tmp/claude-0/ae/corr/fr/g3/i46.png"
+  },
+  {
+   "n": 49,
+   "id": "ae26",
+   "side": "p2",
+   "op": "retype",
+   "t": 408.63,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Spawn 408.633 is a J (queue JTSTZ>TSTZO) placed in the right column ~408.9 with no clear (score +10 only). The only TST is the T spawned 409.10, locked ~409.6, Triple flash 409.73, score 44655->51868 (+7213 = TST B2B 7200). Second TST in chain is phantom; spot -8012 ~ one TST 7350. /tmp/claude-0/ae/corr/fr/g3/i49.png"
+  },
+  {
+   "n": 52,
+   "id": "ae28",
+   "side": "p2",
+   "op": "retype",
+   "t": 525.6,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "After the real TSS (T at 524.83, row clears 525.00, score +2424), the piece spawned 525.6 is an I swapped from hold, dropped vertical in the left column at 525.83, one row clears at 526.00 with REN (no T-SPIN). Score 53325->54995 (+1670) over this single (REN1 450) and the 526.6 double (REN2 1200). /tmp/claude-0/ae/corr/fr/g3/i52.png"
+  },
+  {
+   "n": 54,
+   "id": "ae30",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 579.3,
+   "t_end": 579.53,
+   "events": [
+    {
+     "t": 579.3,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 579.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     579.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "nextcount spawns 579.300 and 579.533; score +37 lock at 579.40 then +4800 (PC double) at 579.47, so the PC double is the 579.30 piece; the 579.533 piece locks at 579.70 (+40) with no clear. Chain had no event for spawn 579.30 and logged the double on 579.53 (events list 25 vs CSV pieces 26; after this it is 26). The KO-tail +78 at 579.96 is only drop points (+38 per lock), no clear."
+  },
+  {
+   "n": 56,
+   "id": "ae34",
+   "side": "p2",
+   "op": "remove",
+   "t": 737.47,
+   "was": [
+    "tst",
+    3,
+    0
+   ],
+   "source": "No spawn at 737.47 (nextcount shifts 736.567, 737.867, 739.133). One TST only: T spawned 736.57, Triple at ~737.3, score 503->5311 (+4808 = TST 4800). Next piece Z (737.87) clears a single at 738.63 (+450). Phantom second TST (banner-added) = the -7645 spot. /tmp/claude-0/ae/corr/fr/g3/i56.png"
+  },
+  {
+   "n": 58,
+   "id": "ae35",
+   "side": "p1",
+   "op": "retype",
+   "t": 829.83,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T (from hold, spawn 829.10) locked 829.73 with a T-SPIN banner but no line cleared: stack heights identical before/after (cyan I column top and orange blocks at same y, 829.67 vs 829.87), score +300 only (zero-line mini). The 829.83 piece (O) locks at 830.10 (+26) with no clear. Quad at 830.67 scores +3600 = B2B, consistent with no plain clear between tsd 827.03 and the quad. /tmp/claude-0/ae/corr/fr/g3/i58.png"
+  },
+  {
+   "n": 59,
+   "id": "ae36",
+   "side": "p1",
+   "op": "retype",
+   "t": 872.9,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "I dropped into the well at ~873.0 clears 4 colored rows leaving an empty board: TETRIS + PERFECT CLEAR banners 873.10, score 18450->27186 (+8736). /tmp/claude-0/ae/corr/fr/g3/i59.png"
+  },
+  {
+   "n": 59,
+   "id": "ae36",
+   "side": "p1",
+   "op": "retype",
+   "t": 873.13,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Spawn 873.133 is an L (hold O) placed bottom-left on the empty board after the PC, no clear (score +37). Phantom duplicate of the 872.9 PC quad. /tmp/claude-0/ae/corr/fr/g3/i59.png"
+  },
+  {
+   "n": 59,
+   "id": "ae36",
+   "side": "p1",
+   "op": "retype",
+   "t": 873.47,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Spawn 873.467 (O/J) placed at 873.63 on the near-empty board, no clear (score +40). Phantom duplicate quad; the two phantoms equal the spot's -8250 (4050+4200). /tmp/claude-0/ae/corr/fr/g3/i59.png"
+  },
+  {
+   "n": 60,
+   "id": "ae37",
+   "side": "p1",
+   "op": "retype",
+   "t": 974.4,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 1,
+   "source": "T spawned 974.4 stood into the slot, locked 975.10; two rows (a colored row and the bottom white garbage row) flash at 975.20-975.40 and the banner reads T-SPIN Double (REN 4); stack goes from 4 rows to 2. Lock is before KO 975.8. /tmp/claude-0/ae/corr/fr/g3/i60.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 46,
+   "id": "ae21",
+   "player": "p1",
+   "field": "pieces",
+   "was": 46,
+   "value": 47,
+   "source": "L spawned 1604.667 locks on the KO frame 1604.73 (score +38) and clears a single; chain had no event for it."
+  },
+  {
+   "n": 46,
+   "id": "ae21",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 1,
+   "value": 2,
+   "source": "tsd 1602.37, quad 1603.7 and the added single 1604.67 are consecutive clears; banner shows 2 REN at 1604.77. /tmp/claude-0/ae/corr/fr/g3/i46.png"
+  },
+  {
+   "n": 49,
+   "id": "ae26",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 6,
+   "value": 5,
+   "source": "Phantom 408.63 TST was the first link of the 7-clear run; true run 409.1..414.8 is 6 clears (quad scored +3174 = 2400+5x150, REN 5)."
+  },
+  {
+   "n": 49,
+   "id": "ae26",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 11,
+   "value": 10,
+   "source": "Phantom 408.63 TST removed from the B2B run (recomputed with the chain's own rule)."
+  },
+  {
+   "n": 58,
+   "id": "ae35",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 5,
+   "value": 4,
+   "source": "The 829.83 tsmini was not a clear; recomputed B2B run with it removed (B2B kept through, quad 830.67 scored as B2B)."
+  },
+  {
+   "n": 59,
+   "id": "ae36",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 4,
+   "value": 2,
+   "source": "Two phantom quads removed: real run quad(872.9 PC) -> tsd 875.23 -> tsd 879.87, recomputed with the chain's rule."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 45,
+   "why": "ae20 p1: J spawned 1575.37 still falling with ghost at 1575.47-1575.53 when the win screen appears; score only +1 soft-drop at 1575.43; nothing locked by KO 1575.5. /tmp/claude-0/ae/corr/fr/g3/i45.png"
+  },
+  {
+   "n": 47,
+   "why": "ae24 p1 279.57: the piece is an S (T is in hold) dropped into the garbage hole clearing one row at 5 REN; plain single is correct (chain gc 0 though the row was garbage). /tmp/claude-0/ae/corr/fr/g3/i47b.png"
+  },
+  {
+   "n": 50,
+   "why": "ae26 p2: TST banner at 410.03 belongs to the real TST of the T spawned 409.10 (Triple flash 409.73), which the chain has; fixed by n49's retype of the phantom 408.63."
+  },
+  {
+   "n": 51,
+   "why": "ae27 p1: T spawned 478.03 still at the top (ghost below) through 478.30; nothing locked by KO 478.13. /tmp/claude-0/ae/corr/fr/g3/i51.png"
+  },
+  {
+   "n": 53,
+   "why": "ae29 p1: T spawned 560.33 locks at 560.57 (score +32 at 560.60), one frame after KO 560.53; at 560.53 it is still falling. Does not count. /tmp/claude-0/ae/corr/fr/g3/i53.png"
+  },
+  {
+   "n": 55,
+   "why": "ae33 p1: J spawned 720.67 still falling at 720.90-721.00 under the win banner; score flat 51590; nothing locked by KO 720.87. /tmp/claude-0/ae/corr/fr/g3/i55.png"
+  },
+  {
+   "n": 57,
+   "why": "ae34 p2: TST banner at 737.47 is the lingering banner of the real 736.57 TST; the phantom event is removed under n56."
+  }
+ ]
+}

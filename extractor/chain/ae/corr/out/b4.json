@@ -1,0 +1,227 @@
+{
+ "event_corrections": [
+  {
+   "n": 61,
+   "id": "ae18",
+   "side": "p2",
+   "op": "retype",
+   "t": 1303.13,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "J spawned 1303.13 drops into the 3-row stack at ~1303.3, board empty and PERFECT CLEAR banner from 1303.4; score p2 10992->17892 (+6900) at 1303.33, one clear only; cleared rows are coloured pieces, not garbage. /tmp/claude-0/ae/corr/fr/g4/ae18.png"
+  },
+  {
+   "n": 61,
+   "id": "ae18",
+   "side": "p2",
+   "op": "retype",
+   "t": 1303.4,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom duplicate: the O spawned 1303.4 locks on the empty floor at ~1303.8 with no clear (score +38 drop points only, 17892->17930). /tmp/claude-0/ae/corr/fr/g4/ae18.png"
+  },
+  {
+   "n": 62,
+   "id": "ae19",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1395.37,
+   "t_end": 1395.97,
+   "events": [
+    {
+     "t": 1395.37,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 1,
+     "gc": 4
+    },
+    {
+     "t": 1395.63,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1395.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1395.37,
+     null,
+     0
+    ],
+    [
+     1395.63,
+     "quad",
+     4
+    ],
+    [
+     1395.97,
+     "quad",
+     4
+    ]
+   ],
+   "source": "nextcount p1: I spawns 1395.37, L 1395.63, I 1395.97 (held, Z out). The I goes vertically into the hole of the 4 grey garbage rows -> TETRIS + PERFECT CLEAR at ~1395.6 (score 81062->89796, banner '2 REN' after the 1394.4 double). L locks bottom-left ~1395.87 (+34 only), Z locks ~1396.27 (+38 only): no further clears. /tmp/claude-0/ae/corr/fr/g4/ae19.png"
+  },
+  {
+   "n": 63,
+   "id": "ae35",
+   "side": "p2",
+   "op": "retype",
+   "t": 801.73,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "I spawned 801.73 goes vertically into the right column of the 4 coloured rows, board empty + PERFECT CLEAR banner from 802.1; score 21976->35176 at 802.03. /tmp/claude-0/ae/corr/fr/g4/ae35a.png"
+  },
+  {
+   "n": 63,
+   "id": "ae35",
+   "side": "p2",
+   "op": "retype",
+   "t": 802.1,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: Z spawned 802.1 is held (I out of hold), the I locks flat on the empty floor ~802.5 with no clear (score +38 only, 35176->35214). /tmp/claude-0/ae/corr/fr/g4/ae35a.png"
+  },
+  {
+   "n": 64,
+   "id": "ae35",
+   "side": "p2",
+   "op": "retype",
+   "t": 812.13,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 4,
+   "source": "I spawned 812.13 drops into the right-column hole of 4 grey garbage rows, board empty + PERFECT CLEAR banner from 812.5; score 49848->58432. /tmp/claude-0/ae/corr/fr/g4/ae35b.png"
+  },
+  {
+   "n": 64,
+   "id": "ae35",
+   "side": "p2",
+   "op": "retype",
+   "t": 812.5,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: O spawned ~812.57 locks on the empty floor ~812.9, score +38 only (58432->58470). /tmp/claude-0/ae/corr/fr/g4/ae35b.png"
+  },
+  {
+   "n": 65,
+   "id": "ae36",
+   "side": "p1",
+   "op": "retype",
+   "t": 872.9,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "L spawned 872.9 is held, I comes out of hold into the column-5 hole of the 4 coloured rows -> TETRIS, board empty, PERFECT CLEAR banner 873.1 ('2 REN'); score ->27186 at 873.07. /tmp/claude-0/ae/corr/fr/g4/ae36.png"
+  },
+  {
+   "n": 65,
+   "id": "ae36",
+   "side": "p1",
+   "op": "retype",
+   "t": 873.13,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: O spawned 873.13 is held, L locks bottom-left ~873.37 with no clear (27187->27223, drop points). /tmp/claude-0/ae/corr/fr/g4/ae36.png"
+  },
+  {
+   "n": 65,
+   "id": "ae36",
+   "side": "p1",
+   "op": "retype",
+   "t": 873.47,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: J spawned 873.47 is held, O locks bottom-right ~873.67 with no clear (27224->27264). /tmp/claude-0/ae/corr/fr/g4/ae36.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 64,
+   "id": "ae35",
+   "player": "p2",
+   "field": "max_b2b",
+   "was": 4,
+   "value": 3,
+   "source": "Recomputed from the chain events with the two phantom quads (802.1, 812.5) set to plain locks; the same count method reproduces the csv's 4 before the change."
+  },
+  {
+   "n": 65,
+   "id": "ae36",
+   "player": "p1",
+   "field": "max_b2b",
+   "was": 4,
+   "value": 2,
+   "source": "Recomputed from the chain events with the phantom quads at 873.13 and 873.47 set to plain locks; the same method reproduces the csv's 4 before the change."
+  }
+ ],
+ "no_change": []
+}

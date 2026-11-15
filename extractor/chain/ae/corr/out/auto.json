@@ -1,0 +1,93 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 10,
+   "id": "ae05",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 79973 at the last spawn (337.47 s) and still 79973 after the KO (337.80 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 11,
+   "id": "ae06",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 33254 at the last spawn (375.47 s) and still 33254 after the KO (375.57 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 12,
+   "id": "ae07",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 67048 at the last spawn (433.27 s) and still 67048 after the KO (433.37 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 16,
+   "id": "ae08",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 91935 at the last spawn (511.84 s) and still 91935 after the KO (512.27 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 19,
+   "id": "ae10",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 41562 at the last spawn (574.14 s) and still 41562 after the KO (574.27 s): nothing locked"
+  },
+  {
+   "group": "g2",
+   "n": 31,
+   "id": "ae14",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 87587 at the last spawn (1014.03 s) and still 87587 after the KO (1014.13 s): nothing locked"
+  },
+  {
+   "group": "g3",
+   "n": 48,
+   "id": "ae25",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 48373 at the last spawn (369.36 s) and still 48373 after the KO (369.73 s): nothing locked"
+  }
+ ],
+ "audit": [],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 0,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 24.23 s: fits tsd only"
+  },
+  {
+   "group": "g0",
+   "n": 1,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 25.76 s: fits tsd only"
+  },
+  {
+   "group": "g2",
+   "n": 39,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1346.43 s: fits tsd only"
+  },
+  {
+   "group": "g2",
+   "n": 41,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1420.8 s: fits tsd only"
+  },
+  {
+   "group": "g3",
+   "n": 47,
+   "hint": "[tsb-hint-v1] one score jump +1074 at 279.94 s: fits plain single only"
+  }
+ ],
+ "no_ocr": []
+}

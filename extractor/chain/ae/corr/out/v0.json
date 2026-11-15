@@ -1,0 +1,6 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py: p1 5378->10928 (+5550) at 24.23 s after the 23.67 spawn; a plain double (+900/+1050 with REN) cannot give 5550, B2B TSD 5400 + 1 REN 150 does (previous clear was the 22.37 tst)."},
+{"ref":"e1","verdict":"keep","why":"score.py: p2 10819->16369 (+5550) at 25.77 s after the 25.23 spawn; only B2B TSD + 1 REN fits (previous p2 clear the 24.03 tsd)."},
+{"ref":"e2","verdict":"keep","why":"score.py p2: one T-spin-sized jump only, 45909->49511 (+3602) at 334.10, before the 334.467 spawn, so it is the 332.97 piece (T taken from hold at 333.03). Next changes +4 at 334.80 (drop points) and +900 at 335.57 (the 335.27 double). nextcount shifts 332.967, 334.467, 334.900, 335.267 match the chain's pieces, so the 334.47 event is a real lock with no clear: retype to None is right."},
+{"ref":"e3","verdict":"keep","why":"score.py p2: +18 at 453.77 (hard-drop points of the 453.73 piece) then +300 at 453.80 = plain single; not TSS (2400) nor B2B TSS (3600) nor mini (600). The following triple scores +1650 at 454.70 (1500 + 150 REN), consistent with the single at 453.73 being the previous clear."}
+]
