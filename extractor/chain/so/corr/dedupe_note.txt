@@ -1,0 +1,4 @@
+[so] after merge_xo: dropped 5 corrections that repeated another group's.
+- g2 windows for f006 p1 339.27, f017 p1 1086.87, f032 p1 586.17, f033 p1 666.83 repeat g0's two retypes event for event; g0's retypes kept.
+- g1 retype f038 p1 1068.53 (double -> PC) conflicts with g2's window (PC on the Z spawned 1067.63, 1068.53 a plain lock);
+  score.py shows one jump only (+4650 at 1068.47), so the chain's two doubles are one clear and g2's window is kept.

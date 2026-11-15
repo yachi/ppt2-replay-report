@@ -1,0 +1,187 @@
+[
+ {
+  "id": "f033",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 697.67 s",
+  "t_s": 697.67,
+  "n": 17
+ },
+ {
+  "id": "f033",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 718.03 s typed as a plain clear [tsb-hint-v1] one score jump +314 at 718.37 s: fits plain single only",
+  "t_s": 718.03,
+  "n": 18
+ },
+ {
+  "id": "f033",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 738.73 s",
+  "t_s": 738.73,
+  "n": 19
+ },
+ {
+  "id": "f034",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 931.83,
+  "n": 20
+ },
+ {
+  "id": "f038",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f038",
+   "player": "p1",
+   "t0": 1068.44,
+   "t1": 1072.4,
+   "step": -900,
+   "unexplained": -900,
+   "near": [
+    [
+     1068.53,
+     1200,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 1068.44,
+  "n": 21
+ },
+ {
+  "id": "f038",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1072.34 s, no A clear matched (added by R/build.py)",
+  "t_s": 1072.34,
+  "n": 22
+ },
+ {
+  "id": "f038",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f038",
+   "player": "p1",
+   "t0": 1072.4,
+   "t1": 1075.47,
+   "step": -2322,
+   "unexplained": -2322,
+   "near": [
+    [
+     1072.5,
+     600,
+     "tsmini"
+    ],
+    [
+     1074.87,
+     5400,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 1072.4,
+  "n": 23
+ },
+ {
+  "id": "f038",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 1153.57,
+  "n": 24
+ },
+ {
+  "id": "f039",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO) [audit sample of ko-flat-v1: score 54166 at the last spawn (1197.80 s) and still 54166 after the KO (1197.93 s): nothing locked]",
+  "t_s": 1197.93,
+  "n": 25
+ },
+ {
+  "id": "f040",
+  "player": "p2",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1265.7 s, no A clear matched (added by R/build.py)",
+  "t_s": 1265.7,
+  "n": 26
+ },
+ {
+  "id": "f040",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (double) vs banner T-SPIN Single at 1350.33 s",
+  "t_s": 1350.33,
+  "n": 27
+ },
+ {
+  "id": "f042",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (single) vs banner T-SPIN Double at 1468.27 s",
+  "t_s": 1468.27,
+  "n": 28
+ },
+ {
+  "id": "f042",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "f042",
+   "player": "p2",
+   "t0": 1513.66,
+   "t1": 1518.76,
+   "step": -1739,
+   "unexplained": -1739,
+   "near": [
+    [
+     1516.17,
+     5400,
+     "tsd"
+    ],
+    [
+     1517.27,
+     3750,
+     "quad"
+    ],
+    [
+     1518.37,
+     3900,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 1513.66,
+  "n": 29
+ },
+ {
+  "id": "f042",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 1549.73,
+  "n": 30
+ },
+ {
+  "id": "f043",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 2 lines (tsd) vs banner T-SPIN Triple at 1566.1 s",
+  "t_s": 1566.1,
+  "n": 31
+ },
+ {
+  "id": "f043",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (single) vs banner T-SPIN Double at 1567.5 s",
+  "t_s": 1567.5,
+  "n": 32
+ }
+]

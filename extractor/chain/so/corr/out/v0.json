@@ -1,0 +1,18 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/f006.png: 3 full rows at 339.35 cleared, PERFECT CLEAR banner over an empty board 339.50-340.1; score one jump 10975->17875 (+6900 = triple 1500 + PC 5400) at 339.40."},
+{"ref":"e1","verdict":"keep","why":"fr/v0/f006.png: after the PC, hold changes S->L at ~339.65 and the S locks on the empty floor at ~339.95 with no clear; score only drop points (17875->17910). Second triple is a phantom; the lock is real."},
+{"ref":"e2","verdict":"keep","why":"score.py: one jump 48913->54463 (+5550) at 402.13, fits only TSD B2B 5400 + REN 150; a plain double would be ~900-1050."},
+{"ref":"e3","verdict":"keep","why":"fr/v0/f010.png + nextcount: L spawned 622.467, locked at the right with no clear on the frame ~622.67 (score 100574->100600, read at 622.70 = end_s); 'yatta' from 622.77, no further spawn."},
+{"ref":"e4","verdict":"keep","why":"fr/v0/f011.png: first T placed at the top left ~684.1-684.25, small T-SPIN banner at 684.25, no row flash and the stack below unchanged: zero-line T-spin, not a TSD."},
+{"ref":"e5","verdict":"keep","why":"fr/v0/f011.png: second T rotated into the right slot 684.55-684.70, two rows flash 684.78-685.0, banner 'Double' + BACK; score 76548 after. TSD."},
+{"ref":"e6","verdict":"amend","why":"The clear is real but it is a DOUBLE, not a mini single. fr/v0/f028full.png (275.30/275.53/275.67/276.50): the T dropped nub-down into the gap at cols 3-5 and filled the two coloured rows directly above the garbage (both partly behind the lingering TETRIS banner); between 275.30 and 276.50 the right red stack top drops from y~200 to y~260 (2 rows, scaled x2) while the garbage top stays put, and the 276.30 lock made no score jump, so both rows went on the T. Score +1350 at 275.57 = double 900 + 3 REN 450 exactly; and a plain double breaks the quad's B2B, which explains the following TSD at 277 scoring +3628 (no B2B). A B2B mini single would have kept B2B and made that TSD ~5400. Cleared rows are coloured: gc 0.","amended":{"kind":"double","lines":2,"pc":0,"gc":0}},
+{"ref":"e7","verdict":"keep","why":"fr/v0/f029.png: board/camera shifted 321.55-323.0 hiding the score (score.py's 33840/37603 there are misreads); visible 27836 (321.40) -> 33404 (323.05) = +5568. T rotated into the right slot ~322.45, two rows clear 322.60, banner 'REN' + 'Double' + BACK. TSD, not TSS."},
+{"ref":"e8","verdict":"keep","why":"score.py: one jump 11262->15762 (+4500 = double 900 + PC 3600) at 1087.17, nothing else of clear size after."},
+{"ref":"e9","verdict":"keep","why":"score.py: after 1087.17 only drop points (15763..15799); no second double. Phantom duplicate."},
+{"ref":"e10","verdict":"keep","why":"score.py: one jump 11254->16054 (+4800 = PC double 4500 + 2 REN 300) at 586.47."},
+{"ref":"e11","verdict":"keep","why":"score.py: after 586.47 only drop points (16055..16090); no second clear."},
+{"ref":"e12","verdict":"keep","why":"score.py: one jump 11261->15911 (+4650 = PC double 4500 + REN 150) at 667.07."},
+{"ref":"e13","verdict":"keep","why":"score.py: after 667.07 only drop points (15949..15984); no second clear."},
+{"ref":"c0","verdict":"keep","why":"fr/v0/f010.png: the winner's L locked at ~622.67, on or before end_s 622.70; +1 piece."},
+{"ref":"c1","verdict":"keep","why":"REN chain double 271.87 - single 272.83 - quad 273.97 - double 275.57 (4 clears = 3 REN steps); '3 REN' shown at 275.57-275.70 in fr/v0/f028a.png."}
+]
