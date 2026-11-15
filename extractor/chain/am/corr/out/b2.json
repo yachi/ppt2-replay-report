@@ -1,0 +1,187 @@
+{
+ "event_corrections": [
+  {
+   "n": 29,
+   "id": "am34",
+   "side": "p1",
+   "op": "retype",
+   "t": 1006.37,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 1006.10-1006.70 (/tmp/claude-0/am/corr/fr/g2/i29.png): the piece spawned at ~1006.37 is a Z that locks in the right column ~1006.57 with no clear (score +12 drop points only); the I spawns 1006.70 and makes the one quad at 1006.77 (score 119434->123034, +3600 = B2B tetris, the only clear-sized jump). The chain logged the quad twice (1006.37 and 1006.9); the 1006.9 event is the real one."
+  },
+  {
+   "n": 30,
+   "id": "am34",
+   "side": "p2",
+   "op": "retype",
+   "t": 1033.33,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 1032.90-1035.03 (/tmp/claude-0/am/corr/fr/g2/i30.png): the I placed ~1033.43 clears 4 player rows with a TETRIS banner; score 139501->143117 (+3600 B2B tetris + drop). No T is involved."
+  },
+  {
+   "n": 30,
+   "id": "am34",
+   "side": "p2",
+   "op": "retype",
+   "t": 1034.27,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same sheet /tmp/claude-0/am/corr/fr/g2/i30.png: the T spawned ~1034.27 (seen falling at 1034.36) spins into the left slot and clears 2 rows at ~1034.76 with REN + Double banner; score 143125->148675 (+5550 = TSD B2B 5400 + REN 150). The T-SPIN Double banner flagged at 1033.33 belongs to this piece."
+  },
+  {
+   "n": 35,
+   "id": "am38",
+   "side": "p1",
+   "op": "retype",
+   "t": 1309.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 1309.60-1310.73 (/tmp/claude-0/am/corr/fr/g2/i35.png): the J spawned 1309.93 locks ~1310.07, the last rows flash and the board is EMPTY with a PERFECT CLEAR banner from 1310.13 to past 1310.73 (3REN banner). Score 11513->16499 (+4986 = double 900 + PC-double 3600 + 3REN 450 + drop) - a real double PC; pcmap rejected it only because the banner reading was split."
+  },
+  {
+   "n": 35,
+   "id": "am38",
+   "side": "p1",
+   "op": "retype",
+   "t": 1310.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same sheet /tmp/claude-0/am/corr/fr/g2/i35.png: the T spawned 1310.20 is swapped into HOLD (nextcount hold T at 1310.267), the O comes out and locks alone on the empty board at ~1310.5 (score +37 drop only, board shows just the O). No clear; the chain's second double is a duplicate of the PC double."
+  },
+  {
+   "n": 37,
+   "id": "am40",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1458.83,
+   "t_end": 1458.83,
+   "events": [],
+   "was_old": [
+    [
+     1458.83,
+     null,
+     0
+    ],
+    [
+     1458.83,
+     null,
+     0
+    ],
+    [
+     1458.83,
+     null,
+     0
+    ]
+   ],
+   "source": "Frames 1458.30-1459.43 (/tmp/claude-0/am/corr/fr/g2/i37.png): the Z spawned 1458.37 is held, the I comes out and clears a quad at ~1458.5 (+3600); during the long line-clear animation no piece spawns until the L at ~1459.37 (nextcount: no shift between the quad and 1459.367). The three None events at 1458.83 are phantoms; removing them realigns the 7-bags from spawn index ~105 on."
+  },
+  {
+   "n": 40,
+   "id": "am42",
+   "side": "p2",
+   "op": "retype",
+   "t": 1545.13,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 1545.10-1546.17 (/tmp/claude-0/am/corr/fr/g2/i40.png): the T soft-drops down the left wall and rotates into the slot at col 0-1, clearing 2 rows at ~1545.8 with REN/Double banners; score 32557->38107 (+5550 = TSD B2B 5400 + REN 150, previous clear was a TSD at 1543.63)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 35,
+   "id": "am38",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 4,
+   "value": 3,
+   "source": "The 4-clear run was tst 1306.3, tsd 1307.67, single 1309.13, PC double 1309.93 (3REN banner at 1310.33, /tmp/claude-0/am/corr/fr/g2/i35.png); the O at 1310.2 locks with no clear. Chain counted a phantom 5th clear. Recomputed max over the corrected event list = 3."
+  },
+  {
+   "n": 37,
+   "id": "am40",
+   "player": "p2",
+   "field": "pieces",
+   "was": 143,
+   "value": 140,
+   "source": "Three phantom spawns at 1458.83 removed (/tmp/claude-0/am/corr/fr/g2/i37.png)."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 28,
+   "why": "am33 p2: at the KO frame 914.20 the L is still in the air top-left; it hard-drops at 914.23 (score 62103->62129), one frame after end_s, so it does not count (/tmp/claude-0/am/corr/fr/g2/i28.png)."
+  },
+  {
+   "n": 31,
+   "why": "am34 p2: score.py 197663 from 1080.23 through after the KO 1080.47 (later frames covered by KO effect but digits read 663): nothing locked after the last spawn; agrees with ko-flat-v1 audit."
+  },
+  {
+   "n": 32,
+   "why": "am35 p1: the I locks 1134.30 (+14) and is in the chain (1134.1); the next S spawns ~1134.40 and is still falling at 1134.57, after KO 1134.53 (/tmp/claude-0/am/corr/fr/g2/i32.png)."
+  },
+  {
+   "n": 33,
+   "why": "am36 p2: chain event at 1189.37 is already 'single'. Frames (/tmp/claude-0/am/corr/fr/g2/i33.png): T placed upright at the left wall clearing one row, REN banner only, no T-SPIN banner; score +450 = single 300 + REN 150. Correct as is."
+  },
+  {
+   "n": 34,
+   "why": "am36 p1: last chain piece (1259.87) hard-drops at 1259.97 (+22); the next piece then soft-drops (+1 at 1260.13 and 1260.30, i.e. still falling past KO 1260.27). No lock by the KO frame."
+  },
+  {
+   "n": 38,
+   "why": "am40 p1: the chain does have the quad at 1477.10 (O spawned, swapped with held I, I clears 4 at ~1477.3; score +3600 at 1477.37) (/tmp/claude-0/am/corr/fr/g2/i38.png). The flag is a matching miss; piece count 6 in 1475.7-1477.1 equals nextcount's 6 shifts."
+  },
+  {
+   "n": 39,
+   "why": "am41 p1: locks at 1507.33 (+28) and 1507.63 (+22) match chain spawns 1507.3/1507.4; the next piece only soft-drops (+1 at 1507.77) and no hard-drop/lock score appears by KO 1507.83."
+  },
+  {
+   "n": 41,
+   "why": "am43 p1: last chain piece (1661.67) locks 1661.83 (+16); the next piece soft-drops +1 per frame through 1662.30, i.e. still falling at KO 1662.27. No lock."
+  }
+ ]
+}

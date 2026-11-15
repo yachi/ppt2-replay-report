@@ -1,0 +1,57 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am06.png: L lands 552.97 with no clear (2 rows remain at 553.10-553.24); O spawns 553.24 and is held (hold shows O at 553.30), J placed 553.37-553.44, 2-row flash 553.50, empty board + PERFECT CLEAR 553.57. nextcount: hold O at 553.30, next spawn L 553.60. Only one score jump visible (11477 -> 16050 at 553.57). No single at 553.23."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am08.png: J lands ~610.43, board still 2 partial rows at 610.57 (no clear); S spawns 610.57 and is swapped into hold (hold S at 610.70), O placed 610.77-610.84, PERFECT CLEAR 610.90-610.97. Score 11481 -> 16056 one jump."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am12.png: I and J placed 843.6-843.9 with no clear, O spawns 844.00 and is held (hold O at 844.07), L placed 844.14-844.20, PC 844.27-844.34. Score 11450 -> 16056 single jump; O placed after with drop points only."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am15.png + score: 3 coloured rows (no grey) at 1036.47-1036.74; O spawns 1036.57 and is held (hold O at 1036.63), L fills, PC 1036.80. Score 10788 -> 12324 (1036.80, triple) -> 17724 (1036.83, PC bonus): one triple PC. T then held, next O no clear (17762)."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am20.png: double 1276.0-1276.1 (11855), one partial row left 1276.6-1276.9, I placed 1276.8-1276.9, PC 1277.00-1277.10 (14743), Z placed after with drop points only (14773). nextcount: spawns 1276.80, 1277.13, 1277.57 only."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am30.png: triple flash 728.70 (score 6877 at 728.63), 2 rows remain 728.9-729.4, no NEXT shift until 729.40 (S spawns, held; T from hold placed), PC 729.70 with REN label, score 11563. Note: the '10837 at 729.17' quoted by the checker is p2's score column, not p1's; p1 goes 6877 -> 11563, same conclusion."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am38.png: Z single 1309.3 (score 11513, '2 REN'), board 2 rows unchanged 1309.4-1309.9, J spawns 1309.93 and fills, PC 1310.13-1310.20 with '3 REN' (16499). T held, O placed after, no clear."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "Sheet fr/v3/am44.png: O placed ~1680.10 (chain None at 1680.0), J spawns 1680.27, placed 1680.40, 1-row flash 1680.50 leaves one partial row; nextcount shows no shift 1680.27-1681.13; I spawns 1681.13 placed horizontal, PC 1681.50 (14737) with REN label; J held, S from hold placed with drop points only."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Recomputed max_combo over the corrected am15 p2 chain sequence: 0 (old method reproduces csv 1). The only consecutive pair was the phantom triple; frames show no clear right before or after the PC."
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "Recomputed over corrected am30 p1 sequence: 1 (triple then PC, REN label on the PC); old 2 came from the phantom single."
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "Recomputed over corrected am38 p1 sequence: 3, matching the '3 REN' banner on the PC at 1310.20."
+ }
+]

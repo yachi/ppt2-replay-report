@@ -1,0 +1,78 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 1,
+   "id": "am03",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 49370 at the last spawn (428.14 s) and still 49370 after the KO (428.27 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 26,
+   "id": "am30",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 28996 at the last spawn (737.40 s) and still 28996 after the KO (737.53 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 27,
+   "id": "am31",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 84633 at the last spawn (802.37 s) and still 84633 after the KO (802.57 s): nothing locked"
+  },
+  {
+   "group": "g2",
+   "n": 36,
+   "id": "am38",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 37924 at the last spawn (1327.70 s) and still 37924 after the KO (1328.70 s): nothing locked"
+  }
+ ],
+ "audit": [
+  {
+   "group": "g0",
+   "n": 0
+  },
+  {
+   "group": "g2",
+   "n": 31
+  }
+ ],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 5,
+   "hint": "[tsb-hint-v1] one score jump +476 at 646.8 s: fits plain single only"
+  },
+  {
+   "group": "g0",
+   "n": 13,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1115.3 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 16,
+   "hint": "[tsb-hint-v1] one score jump +1967 at 1303.0 s: fits plain single only"
+  },
+  {
+   "group": "g2",
+   "n": 33,
+   "hint": "[tsb-hint-v1] one score jump +464 at 1189.63 s: fits plain single only"
+  },
+  {
+   "group": "g2",
+   "n": 40,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1545.83 s: fits tsd only"
+  }
+ ],
+ "no_ocr": []
+}

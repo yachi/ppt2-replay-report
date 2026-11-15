@@ -1,0 +1,11 @@
+[
+ {"ref":"e0","verdict":"keep","why":"nextcount p1: Z spawns 1006.367 (ZITOJ>ITOJL), I spawns 1006.70; score.py shows only +12 at 1006.60 (Z lock, no clear) and one +3600 at 1006.80. The 1006.37 quad is a duplicate of the 1006.9 quad; retype to a plain lock keeps the piece count."},
+ {"ref":"e1","verdict":"keep","why":"/tmp/claude-0/am/corr/fr/v2/a30.png: I falls into the right well at 1033.36, 4 rows flash, TETRIS banner from 1034.01; score 139501->143117. No T involved."},
+ {"ref":"e2","verdict":"keep","why":"Same sheet: T spawned 1034.27 spins into the left slot, 2 rows clear ~1034.7 with REN/Double banners; score 143125->148675 (+5550 = B2B TSD 5400 + REN 150; a plain double would not get the B2B bonus)."},
+ {"ref":"e3","verdict":"keep","why":"/tmp/claude-0/am/corr/fr/v2/a35.png: J at 1309.94 clears the last 2 rows, board empty with PERFECT CLEAR banner from 1310.15, 3REN banner; score 11513->16499."},
+ {"ref":"e4","verdict":"keep","why":"Same sheet: T at 1310.22 goes to HOLD (O comes out), O lands alone on the empty board ~1310.45 (16501->16537, drop points only); no clear. Chain's second double is a duplicate."},
+ {"ref":"e5","verdict":"keep","why":"/tmp/claude-0/am/corr/fr/v2/a37.png: NEXT queue reads L,O,J,L,O unchanged from 1458.5 to 1459.3 and becomes O,J,L,O,Z at 1459.4 (one spawn, the L); score flat 81665 from 1458.57 to 1459.77. nextcount's 'k=3 shift' at 1458.9 is a misread during the TETRIS flash; the three None events at 1458.83 are phantoms."},
+ {"ref":"e6","verdict":"keep","why":"/tmp/claude-0/am/corr/fr/v2/a40.png: T soft-drops down the left wall, nub right, tucks under the overhang into column 0 and clears 2 rows ~1545.8; score 32557->38107 (+5550 = B2B TSD + REN 150)."},
+ {"ref":"c0","verdict":"keep","why":"Clears tst 1306.3, tsd 1307.67, single 1309.13, PC double 1309.93 consecutive (3REN banner at the PC, a35.png); the O at 1310.2 does not clear. Later runs in am38 p1 are at most 3 clears. max_combo 3."},
+ {"ref":"c1","verdict":"keep","why":"Three phantom spawns at 1458.83 confirmed by the unchanged NEXT queue and flat score in a37.png; pieces 143 -> 140."}
+]
