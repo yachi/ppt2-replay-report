@@ -1,0 +1,363 @@
+{
+ "event_corrections": [
+  {
+   "n": 30,
+   "id": "an00",
+   "side": "p2",
+   "op": "retype",
+   "t": 24.0,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 23.6-26.0 (/tmp/claude-0/an/corr/fr/g2/an00a.png): O spawned 24.0 locks ~24.15 clearing the 3-row stack; PERFECT CLEAR banner and empty board from 24.2; p2 score 10952->17852 at 24.17, only one clear jump; nextcount spawns 24.0, 24.23."
+  },
+  {
+   "n": 30,
+   "id": "an00",
+   "side": "p2",
+   "op": "retype",
+   "t": 24.23,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 23.6-26.0 (/tmp/claude-0/an/corr/fr/g2/an00a.png): O spawned 24.0 locks ~24.15 clearing the 3-row stack; PERFECT CLEAR banner and empty board from 24.2; p2 score 10952->17852 at 24.17, only one clear jump; nextcount spawns 24.0, 24.23. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 31,
+   "id": "an03",
+   "side": "p1",
+   "op": "retype",
+   "t": 311.4,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 311.0-312.8 (/tmp/claude-0/an/corr/fr/g2/an03p1.png): I (spawned 311.4, swapped from hold) locks ~311.7 vertically, TETRIS + PERFECT CLEAR banner, empty board; p1 score 15687->28887 at 311.73, the only big jump; T (spawn 311.8) and J (spawn 311.93) then lock on the empty board (+36, +30 drop points)."
+  },
+  {
+   "n": 31,
+   "id": "an03",
+   "side": "p1",
+   "op": "retype",
+   "t": 311.8,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 311.0-312.8 (/tmp/claude-0/an/corr/fr/g2/an03p1.png): I (spawned 311.4, swapped from hold) locks ~311.7 vertically, TETRIS + PERFECT CLEAR banner, empty board; p1 score 15687->28887 at 311.73, the only big jump; T (spawn 311.8) and J (spawn 311.93) then lock on the empty board (+36, +30 drop points). The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 31,
+   "id": "an03",
+   "side": "p1",
+   "op": "retype",
+   "t": 311.93,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Same sheet /tmp/claude-0/an/corr/fr/g2/an03p1.png: J spawned 311.93 locks ~312.2 on the empty board with no clear (score +30 only); third copy of the one 311.7 PC tetris."
+  },
+  {
+   "n": 32,
+   "id": "an03",
+   "side": "p2",
+   "op": "retype",
+   "t": 306.5,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 305.9-307.9 (/tmp/claude-0/an/corr/fr/g2/an03p2.png): T spawned 306.5 locks ~307.1 into the 2-row stack, both rows clear, PERFECT CLEAR banner and empty board at 307.22; p2 score 6790->11590 at 307.13; next piece (spawn 307.27, O from hold) locks ~307.65 with drop points only."
+  },
+  {
+   "n": 32,
+   "id": "an03",
+   "side": "p2",
+   "op": "retype",
+   "t": 307.2,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 305.9-307.9 (/tmp/claude-0/an/corr/fr/g2/an03p2.png): T spawned 306.5 locks ~307.1 into the 2-row stack, both rows clear, PERFECT CLEAR banner and empty board at 307.22; p2 score 6790->11590 at 307.13; next piece (spawn 307.27, O from hold) locks ~307.65 with drop points only. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 33,
+   "id": "an05",
+   "side": "p2",
+   "op": "retype",
+   "t": 588.83,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 587.6-591.0 (/tmp/claude-0/an/corr/fr/g2/an05.png, zoom /tmp/claude-0/an/corr/fr/g2/an05_z.png): after the 588.0 tetris two rows remain (T slot at col 4); T (spawn 588.83, out of hold) locks 589.03 and clears BOTH rows -> empty board, PERFECT CLEAR banner from 589.2, no T-SPIN banner; score 272667->277317 at 589.07-589.10. I spawned 589.13 locks ~589.5 at bottom right, no clear."
+  },
+  {
+   "n": 33,
+   "id": "an05",
+   "side": "p2",
+   "op": "retype",
+   "t": 589.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 587.6-591.0 (/tmp/claude-0/an/corr/fr/g2/an05.png, zoom /tmp/claude-0/an/corr/fr/g2/an05_z.png): after the 588.0 tetris two rows remain (T slot at col 4); T (spawn 588.83, out of hold) locks 589.03 and clears BOTH rows -> empty board, PERFECT CLEAR banner from 589.2, no T-SPIN banner; score 272667->277317 at 589.07-589.10. I spawned 589.13 locks ~589.5 at bottom right, no clear. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 34,
+   "id": "an09",
+   "side": "p1",
+   "op": "retype",
+   "t": 823.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 823.4-825.0 (/tmp/claude-0/an/corr/fr/g2/an09.png): J (spawn 823.6, from hold) locks ~823.87 clearing the 3-row stack; PERFECT CLEAR banner, empty board 823.9; p1 score 10971->17871 at 823.90-823.93; next piece (spawn 823.97) locks ~824.4 at left, drop points only."
+  },
+  {
+   "n": 34,
+   "id": "an09",
+   "side": "p1",
+   "op": "retype",
+   "t": 823.97,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 823.4-825.0 (/tmp/claude-0/an/corr/fr/g2/an09.png): J (spawn 823.6, from hold) locks ~823.87 clearing the 3-row stack; PERFECT CLEAR banner, empty board 823.9; p1 score 10971->17871 at 823.90-823.93; next piece (spawn 823.97) locks ~824.4 at left, drop points only. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 35,
+   "id": "an26",
+   "side": "p2",
+   "op": "retype",
+   "t": 752.73,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 752.5-754.2 (/tmp/claude-0/an/corr/fr/g2/an26.png): L spawned 752.73 locks ~752.95 clearing the 3-row stack; PERFECT CLEAR, empty board at 753.0; p2 score 10962->17862 at 752.97-753.00; O spawned 753.03 locks ~753.5 on the empty board, drop points only."
+  },
+  {
+   "n": 35,
+   "id": "an26",
+   "side": "p2",
+   "op": "retype",
+   "t": 753.03,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 752.5-754.2 (/tmp/claude-0/an/corr/fr/g2/an26.png): L spawned 752.73 locks ~752.95 clearing the 3-row stack; PERFECT CLEAR, empty board at 753.0; p2 score 10962->17862 at 752.97-753.00; O spawned 753.03 locks ~753.5 on the empty board, drop points only. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 36,
+   "id": "an30",
+   "side": "p1",
+   "op": "retype",
+   "t": 1048.63,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 1048.4-1050.1 (/tmp/claude-0/an/corr/fr/g2/an30.png): J (spawn 1048.63) locks ~1048.9 clearing the 3-row stack; PERFECT CLEAR, empty board 1049.0; p1 score 10818->17718 at 1048.93; S spawned 1049.0 locks ~1049.45 at bottom, drop points only."
+  },
+  {
+   "n": 36,
+   "id": "an30",
+   "side": "p1",
+   "op": "retype",
+   "t": 1049.0,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 1048.4-1050.1 (/tmp/claude-0/an/corr/fr/g2/an30.png): J (spawn 1048.63) locks ~1048.9 clearing the 3-row stack; PERFECT CLEAR, empty board 1049.0; p1 score 10818->17718 at 1048.93; S spawned 1049.0 locks ~1049.45 at bottom, drop points only. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 37,
+   "id": "an31",
+   "side": "p1",
+   "op": "retype",
+   "t": 1082.17,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 1081.9-1083.6 (/tmp/claude-0/an/corr/fr/g2/an31.png): L (spawn 1082.17) locks ~1082.3 clearing 3 rows; PERFECT CLEAR, empty board 1082.4; p1 score 10834->17734 at 1082.33; following pieces add drop points only."
+  },
+  {
+   "n": 37,
+   "id": "an31",
+   "side": "p1",
+   "op": "retype",
+   "t": 1082.4,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 1081.9-1083.6 (/tmp/claude-0/an/corr/fr/g2/an31.png): L (spawn 1082.17) locks ~1082.3 clearing 3 rows; PERFECT CLEAR, empty board 1082.4; p1 score 10834->17734 at 1082.33; following pieces add drop points only. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 38,
+   "id": "an31",
+   "side": "p2",
+   "op": "retype",
+   "t": 1082.63,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 1081.9-1083.6 (/tmp/claude-0/an/corr/fr/g2/an31.png): L spawned 1082.63 locks ~1082.88 clearing 3 rows; PERFECT CLEAR, empty board at 1082.9-1083.0; p2 score 10832->17732 at 1082.90; next piece locks with drop points only (17733)."
+  },
+  {
+   "n": 38,
+   "id": "an31",
+   "side": "p2",
+   "op": "retype",
+   "t": 1083.03,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 1081.9-1083.6 (/tmp/claude-0/an/corr/fr/g2/an31.png): L spawned 1082.63 locks ~1082.88 clearing 3 rows; PERFECT CLEAR, empty board at 1082.9-1083.0; p2 score 10832->17732 at 1082.90; next piece locks with drop points only (17733). The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  },
+  {
+   "n": 39,
+   "id": "an34",
+   "side": "p1",
+   "op": "retype",
+   "t": 1334.93,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "Frames 1334.8-1336.5 (/tmp/claude-0/an/corr/fr/g2/an34.png): one row left; I (spawned 1334.83, chain event 1334.93) locks flat at right ~1335.05 completing it; PERFECT CLEAR banner, empty board 1335.1; p1 score 11848->14736 by 1335.07, before the 1335.1 spawn. The 1335.1 piece (O from hold after S held) locks ~1335.5, drop points only. Chain put the clear one piece late."
+  },
+  {
+   "n": 39,
+   "id": "an34",
+   "side": "p1",
+   "op": "retype",
+   "t": 1335.1,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Frames 1334.8-1336.5 (/tmp/claude-0/an/corr/fr/g2/an34.png): one row left; I (spawned 1334.83, chain event 1334.93) locks flat at right ~1335.05 completing it; PERFECT CLEAR banner, empty board 1335.1; p1 score 11848->14736 by 1335.07, before the 1335.1 spawn. The 1335.1 piece (O from hold after S held) locks ~1335.5, drop points only. Chain put the clear one piece late. The next piece (this event) locks on the empty board with no clear (only drop points); the chain double-logged the clear here."
+  }
+ ],
+ "cell_edits": [],
+ "no_change": []
+}

@@ -1,0 +1,13 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v0/an03.png: I into the col-8 well of the grey stack at 320.3, white block 320.5-320.9, one grey row left at 321.1, TETRIS banner; score.py 43496->46530 at 320.97 (+3034 = 2400 + REN4 600 + drops; a triple would be ~2100). quad, 4 garbage rows."},
+ {"ref":"e1","verdict":"keep","why":"fr/v0/an03.png: I spawned 321.3 goes flat into the coloured row's open cols, that row whitens 321.5; score 46566->47616 at 321.50 (+1050 = 300 + REN5 750); '5 REN' banner 321.7."},
+ {"ref":"e2","verdict":"keep","why":"fr/v0/an03.png: Z stood at cols 8-9 at 322.3 fills the last grey row's hole, row flashes 322.5, gone 322.9; score 47616->48850 at 322.93 (+1234 = 300 + REN6 900 + drops). Later bumps 324.57-325.10 are drop points only."},
+ {"ref":"e3","verdict":"keep","why":"score.py p2: 486->5320 at 405.10 (tst +4800), 5339->9089 at 406.60 (+3750 = TSS B2B 3600 + REN1 150); plain single would be 450."},
+ {"ref":"e4","verdict":"keep","why":"score.py p1: +5400 at 412.47 (the B2B tsd), then 16677->22227 at 413.80 (+5550 = TSD B2B + REN1); a plain double after it would be 1050."},
+ {"ref":"e5","verdict":"keep","why":"fr/v0/an05c.png: T into the slot 540.6-540.8, two-row white band 540.9-541.1, banners 'N Double' + BACK to BACK; score 220404->225954 at 540.90 (+5550 = TSD B2B + REN1); TSS would be 3750."},
+ {"ref":"e6","verdict":"keep","why":"fr/v0/an09a.png: S spawned ~847.0, stood vertical on the left, bottom coloured row flashes white 847.2; score 51667->52285 at 847.17 (+618 = single 300 + REN2 300 + drops); '2 REN' banner 847.3."},
+ {"ref":"e7","verdict":"keep","why":"fr/v0/an13.png + nextcount p2: I (from hold) placed flat 1007.27-1007.40, O spawned 1007.47 placed at the right, board empties 1007.67-1007.73 with PERFECT CLEAR (score 17915->22415); Z spawned 1007.80 and locks with no clear ~1007.93 (22415->22453); S spawned 1008.07. Chain had merged O and Z into one event at 1007.8."},
+ {"ref":"e8","verdict":"keep","why":"fr/v0/an15.png: T stem into the hole (col 3) of the top grey row, coloured row + that grey row clear 1100.9-1101.1 (after it the top grey row's hole is at col 6), banners 'N Double' + BACK to BACK; score 34256->39806 at 1100.90 (+5550 = TSD B2B + REN1)."},
+ {"ref":"c0","verdict":"keep","why":"Seven consecutive clears 315.93-322.17 with no plain lock between (chain + e0-e2); the +1234 at 322.93 includes the REN6 bonus 900; '3 REN' and '5 REN' banners seen in fr/v0/an03.png."},
+ {"ref":"c1","verdict":"keep","why":"fr/v0/an04.png + nextcount p1: L spawned 389.067 (shift), on the floor with lock glow at 389.17-389.20, score 90943->90975 at 389.20 = end_s; no clear. Chain's last event is 388.93, so +1 piece."}
+]
