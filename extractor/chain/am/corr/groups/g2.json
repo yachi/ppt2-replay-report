@@ -1,0 +1,154 @@
+[
+ {
+  "id": "am33",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 914.2,
+  "n": 28
+ },
+ {
+  "id": "am34",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "am34",
+   "player": "p1",
+   "t0": 1006.8,
+   "t1": 1010.23,
+   "step": -3722,
+   "unexplained": -3722,
+   "near": [
+    [
+     1006.37,
+     3600,
+     "quad"
+    ],
+    [
+     1006.9,
+     3750,
+     "quad"
+    ],
+    [
+     1010.17,
+     900,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 1006.8,
+  "n": 29
+ },
+ {
+  "id": "am34",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Double at 1033.33 s",
+  "t_s": 1033.33,
+  "n": 30
+ },
+ {
+  "id": "am34",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO) [audit sample of ko-flat-v1: score 197663 at the last spawn (1080.34 s) and still 197663 after the KO (1080.47 s): nothing locked]",
+  "t_s": 1080.47,
+  "n": 31
+ },
+ {
+  "id": "am35",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 1134.53,
+  "n": 32
+ },
+ {
+  "id": "am36",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 1189.37 s typed as a plain clear [tsb-hint-v1] one score jump +464 at 1189.63 s: fits plain single only",
+  "t_s": 1189.37,
+  "n": 33
+ },
+ {
+  "id": "am36",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 1260.27,
+  "n": 34
+ },
+ {
+  "id": "am38",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "am38",
+   "player": "p1",
+   "t0": 1310.13,
+   "t1": 1314.83,
+   "step": -1476,
+   "unexplained": -1476,
+   "near": [
+    [
+     1309.93,
+     1350,
+     "double"
+    ],
+    [
+     1310.2,
+     1500,
+     "double"
+    ],
+    [
+     1314.77,
+     300,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 1310.13,
+  "n": 35
+ },
+ {
+  "id": "am40",
+  "player": "p2",
+  "field_or_issue": "bad bag",
+  "detail": "6 of 21 bags not a permutation (spawn index [105, 112, 119, 126, 133, 140]); anomalies ['double shift k=3 at frame 1555', 'queue I re-read at frame 1562: slot 4 I->L', 'queue I re-read at frame 1562: slot 5 I->O']",
+  "t_s": 1409.17,
+  "n": 37
+ },
+ {
+  "id": "am40",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +3620 at 1477.34 s (KO 1478.4 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1477.34,
+  "n": 38
+ },
+ {
+  "id": "am41",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 1507.83,
+  "n": 39
+ },
+ {
+  "id": "am42",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 1545.13 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 1545.83 s: fits tsd only",
+  "t_s": 1545.13,
+  "n": 40
+ },
+ {
+  "id": "am43",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.33 s before the KO)",
+  "t_s": 1662.27,
+  "n": 41
+ }
+]

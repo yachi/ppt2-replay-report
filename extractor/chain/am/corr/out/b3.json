@@ -1,0 +1,342 @@
+{
+ "event_corrections": [
+  {
+   "n": 42,
+   "id": "am06",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 553.2,
+   "t_end": 553.65,
+   "events": [
+    {
+     "t": 553.23,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 553.6,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     553.23,
+     "single",
+     1
+    ],
+    [
+     553.6,
+     "double",
+     2
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am06.png, /tmp/claude-0/am/corr/fr/g3/am06b.png: L locks 553.0; O spawns 553.24 and is held, J from hold placed 553.37-553.44 fills the 2 remaining rows (all coloured piece cells, no grey garbage); white flash 553.5, empty board + PERFECT CLEAR banner 553.57. Next L spawns 553.57, no clear (score 16050->16088 drop pts). Score 11477 (552.77) -> 16050 (553.57) = +4573, one double PC (900+3600+drops); an extra single would add >=300. So one 2-line PC, no separate single."
+  },
+  {
+   "n": 43,
+   "id": "am08",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 610.5,
+   "t_end": 611.0,
+   "events": [
+    {
+     "t": 610.57,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 610.97,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     610.57,
+     "single",
+     1
+    ],
+    [
+     610.97,
+     "double",
+     2
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am08.png, /tmp/claude-0/am/corr/fr/g3/am08b.png: J placed 610.43; S spawns 610.57 and is swapped into hold (hold O->S at 610.70), O from hold placed 610.84 on 2 rows; flash 610.90, empty board + PERFECT CLEAR 610.97. Next J spawns 610.97 and is held, S placed, no clear. Score 11481 (610.17) -> 16056 (610.93) = +4575, one double PC only (same value as am12's PC with no other clear)."
+  },
+  {
+   "n": 44,
+   "id": "am12",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 843.95,
+   "t_end": 844.4,
+   "events": [
+    {
+     "t": 844.0,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 844.37,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     844.0,
+     "double",
+     2
+    ],
+    [
+     844.37,
+     "double",
+     2
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am12.png: I (843.5) and J (843.8) placed with no clear (score 11450 holds to 843.90); O spawns 844.0 and is held (hold L->O at 844.10), L from hold placed 844.2 on 2 rows; empty board + PERFECT CLEAR 844.3. O then placed 844.4-844.6 with no clear (16056->16130 drop pts). Score 11450 -> 16056 = +4606: one double PC, not double+double."
+  },
+  {
+   "n": 45,
+   "id": "am15",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1036.5,
+   "t_end": 1036.9,
+   "events": [
+    {
+     "t": 1036.57,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1036.87,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1036.57,
+     "triple",
+     3
+    ],
+    [
+     1036.87,
+     "triple",
+     3
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am15.png, /tmp/claude-0/am/corr/fr/g3/am15f.png: board 1036.70 has 3 rows, all coloured piece cells (no grey garbage); O spawns and is held (hold L->O at 1036.70), L from hold fills them, 3-row flash 1036.80, empty board + PERFECT CLEAR 1036.90. T spawns 1036.90 and is held, O placed with no clear (17724->17762 drop pts). Score 10788 -> 17724 = +6936 = triple 1500 + triple PC 5400 + drops: one clear."
+  },
+  {
+   "n": 46,
+   "id": "am20",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1276.75,
+   "t_end": 1277.2,
+   "events": [
+    {
+     "t": 1276.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1277.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1276.8,
+     "single",
+     1
+    ],
+    [
+     1277.13,
+     "single",
+     1
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am20.png: after the 1276.0 double one partial row is left (blue x3, green, orange x2); I placed horizontally 1276.8-1276.9 completes it; flash 1277.0, empty board + PERFECT CLEAR 1277.10. Z then placed 1277.2-1277.5, no clear (14744->14773 drop pts). Score 11855 -> 14743 = +2888 = single 300 + single PC 2400 + REN 150 + drops: one single PC, no second single."
+  },
+  {
+   "n": 47,
+   "id": "am30",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 729.4,
+   "t_end": 729.8,
+   "events": [
+    {
+     "t": 729.43,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 729.73,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     729.43,
+     "single",
+     1
+    ],
+    [
+     729.73,
+     "double",
+     2
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am30.png, /tmp/claude-0/am/corr/fr/g3/am30f.png: after the 728.6 triple two rows remain; NEXT queue unchanged 728.6-729.2 (no lock); T from hold placed 729.4-729.6 into the 2 rows (no grey cells), empty board + PERFECT CLEAR 729.70. O spawns and is placed 729.9-730.0, no clear. Score after the triple 6877 -> 11564 = +4687 = double 900 + PC 3600 + REN 150 + drops (shown in two steps, 10837 at 729.17 then 11563); a single plus a double would be ~600 more. One 2-line PC."
+  },
+  {
+   "n": 48,
+   "id": "am38",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1309.9,
+   "t_end": 1310.25,
+   "events": [
+    {
+     "t": 1309.93,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1310.2,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1309.93,
+     "double",
+     2
+    ],
+    [
+     1310.2,
+     "double",
+     2
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am38.png: single by Z 1309.2-1309.3 ('2 REN'); NEXT queue unchanged 1309.3-1309.9 (no lock); J spawns 1310.0 and fills the 2 remaining rows, flash 1310.1, empty board + PERFECT CLEAR with '3 REN' 1310.2 (so no clear in between). T spawns 1310.2 and is held, O placed, no clear (16500->16537 drop pts). Score 11513 -> 16499 = +4986 = double 900 + PC 3600 + REN3 450 + drops: one 2-line PC."
+  },
+  {
+   "n": 49,
+   "id": "am44",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 1680.25,
+   "t_end": 1681.55,
+   "events": [
+    {
+     "t": 1680.27,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 1681.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1681.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1680.27,
+     null,
+     0
+    ],
+    [
+     1681.13,
+     "single",
+     1
+    ],
+    [
+     1681.53,
+     "single",
+     1
+    ]
+   ],
+   "source": "/tmp/claude-0/am/corr/fr/g3/am44.png: J (falling at 1680.40) locks ~1680.45 and clears the bottom row (flash 1680.5); one partial row left; NEXT queue unchanged 1680.4-1681.0; I spawns 1681.2, placed horizontally, completes the row, empty board + PERFECT CLEAR 1681.5. Then J is held and S placed 1681.6-1681.9 with no clear (14737->14775 drop pts). Score 11475 -> 14737 = +3262 = single 300 + single PC 2700 + REN 150 + drops: two singles, the second a PC, and the chain's third single is phantom."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 45,
+   "id": "am15",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 1,
+   "value": 0,
+   "source": "/tmp/claude-0/am/corr/fr/g3/am15.png: the only consecutive-clear pair in the chain was the triple+phantom triple at 1036.57/1036.87; the frames show one triple PC preceded by no-clear locks and followed by a no-clear O."
+  },
+  {
+   "n": 47,
+   "id": "am30",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 1,
+   "source": "/tmp/claude-0/am/corr/fr/g3/am30.png: triple (728.47) then the 2-line PC is the only run (REN 1, score +150 REN bonus); the chain's extra single made it 2."
+  },
+  {
+   "n": 48,
+   "id": "am38",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 4,
+   "value": 3,
+   "source": "/tmp/claude-0/am/corr/fr/g3/am38.png: PC banner shows '3 REN' at 1310.2; the chain's extra double made the run one longer."
+  }
+ ],
+ "no_change": []
+}

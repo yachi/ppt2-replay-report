@@ -1,0 +1,25 @@
+{"event_corrections":[
+{"n":3,"id":"am05","side":"p1","op":"retype","t":529.17,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"/tmp/claude-0/am/corr/fr/g0/am05a.png: T held at 529.17, O from hold dropped into the well and locked; one row flashes at 529.30 with REN label; score 75183->75633 (+450 = single 300 + REN1 150). This single breaks B2B, which is why the tss at 530.9 scored +2400 (531.53) instead of 3600."},
+{"n":9,"id":"am12","side":"p1","op":"retype","t":850.47,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,"source":"/tmp/claude-0/am/corr/fr/g0/am12a.png, /tmp/claude-0/am/corr/fr/g0/am12b.png: the S (O held at 850.65) locks on a 2-row stack and clears both rows at 851.17; board empty and PERFECT CLEAR banner 851.24-851.84; score 21021->25689."},
+{"n":9,"id":"am12","side":"p1","op":"retype","t":851.3,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"/tmp/claude-0/am/corr/fr/g0/am12b.png: the Z spawned 851.30 locks on the empty board at ~851.65 with no clear; score 25727->25766 (+39 drop points only). The chain double here is a duplicate of the PC clear."},
+{"n":10,"id":"am12","side":"p1","op":"retype","t":878.3,"was":["double",2,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"/tmp/claude-0/am/corr/fr/g0/am12c.png: Z locks at 878.40, one white row (single) with 3 REN banner; score 63676->64452 (+776 = single 300 + REN3 450 + drop)."},
+{"n":10,"id":"am12","side":"p1","op":"add","t":879.03,"kind":"double","lines":2,"pc":0,"gc":0,"source":"/tmp/claude-0/am/corr/fr/g0/am12c.png, /tmp/claude-0/am/corr/fr/g0/am12d.png: T spawns ~879.03, locks at 879.10 (KO tilt starts 879.17) clearing 2 colored rows (4 REN banner); final score 65978 (+1526 = double 900 + REN4 600 + drop). Plain double, not a T-spin by score."},
+{"n":11,"id":"am13","side":"p1","op":"retype","t":905.73,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"/tmp/claude-0/am/corr/fr/g0/am13a.png: T (chain spawn 904.93) locks at the left wall ~905.60 with no row removed (stack unchanged 905.54 vs 905.74), Mini T-SPIN banner, score +300 (=zero-line mini). The O spawned 905.73 locks at right with no clear (+29)."},
+{"n":13,"id":"am17","side":"p1","op":"retype","t":1114.87,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"/tmp/claude-0/am/corr/fr/g0/am17.png: T rotated into slot, T-SPIN Double + BACK to BACK banners at 1115.30; score 5309->10859 (+5550 = TSD b2b 5400 + REN1 150)."}
+],
+"cell_edits":[
+{"n":3,"id":"am05","player":"p1","field":"max_b2b","was":"11","value":8,"source":"single at 529.17 splits the B2B run 505.9-533.7 (12 clears) into 9 clears (505.9-528.27) and 4 (530.9-533.7)."},
+{"n":10,"id":"am12","player":"p1","field":"pieces","was":"92","value":93,"source":"T locked at 879.10, before KO 879.17 (/tmp/claude-0/am/corr/fr/g0/am12d.png)."},
+{"n":11,"id":"am13","player":"p1","field":"max_b2b","was":"16","value":15,"source":"the 905.73 tsmini was not a line clear; B2B run 899.9-944.03 has 16 clears, not 17."},
+{"n":13,"id":"am17","player":"p1","field":"max_b2b","was":"1","value":3,"source":"with 1114.87 a tsd, tst 1113.5, tsd 1114.87, tsd 1116.77, tsd 1120.23 are consecutive B2B clears (4 clears)."}
+],
+"no_change":[
+{"n":0,"why":"score 177398->177420->177440->177464 at 138.77/139.03/139.33 matches the three chain locks; the piece spawned 139.43 never moved the score by 139.77: nothing locked by KO."},
+{"n":2,"why":"score 44975->44998->45020->45042 over 469-470.87: +22-ish per lock is drop points of the chain's None locks; the quad +2400 lands at 470.90 (chain quad 470.6). No missed clear."},
+{"n":4,"why":"the last piece is still soft-dropping (score +1 per frame) through 591.40, after the KO 591.33; no spawn follows. Not locked by KO."},
+{"n":5,"why":"score +450 at 646.80 = single 300 + REN1 after the quad; the chain already has a single at 646.6. Not a T-spin."},
+{"n":6,"why":"/tmp/claude-0/am/corr/fr/g0/am09.png: the last Z (I held at 695.47) is mid-air at 695.60 (KO) and appears locked only at 695.67; does not count."},
+{"n":7,"why":"/tmp/claude-0/am/corr/fr/g0/am10b.png: last S soft-drops onto the stack at 753.53 but no spawn/next shift follows and the board freezes; no lock evidence by KO."},
+{"n":8,"why":"score 68784 (751.47) -> 68926 final: +142 is drop points of the four locks after the 751.33 double; the 52141/52812 readings are banner misreads. No missed clear."},
+{"n":12,"why":"score 87272->94472 at 944.77 (+7200 = TST b2b): chain tst correct; the T-SPIN Single banner is the lingering 941.0 tss banner (+3600 at 941.70)."}
+]}
