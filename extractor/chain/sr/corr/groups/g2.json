@@ -1,0 +1,122 @@
+[
+ {
+  "id": "ac10",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 1348.43,
+  "n": 34
+ },
+ {
+  "id": "ac11",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1390.66 s, no A clear matched (added by R/build.py)",
+  "t_s": 1390.66,
+  "n": 35
+ },
+ {
+  "id": "ac12",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1764 at 1519.24 s (KO 1518.97 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1519.24,
+  "n": 36
+ },
+ {
+  "id": "ac14",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +300 at 1609.43 s (KO 1610.1 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1609.43,
+  "n": 37
+ },
+ {
+  "id": "ac17",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 165.17 s",
+  "t_s": 165.17,
+  "n": 38
+ },
+ {
+  "id": "ac17",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 229.87,
+  "n": 39
+ },
+ {
+  "id": "ac21",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 416.07 s typed as a plain clear [tsb-hint-v1] one score jump +452 at 416.63 s: fits plain single only",
+  "t_s": 416.07,
+  "n": 41
+ },
+ {
+  "id": "ac23",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 554.2 s typed as a plain clear [tsb-hint-v1] score jumps near the clear: []; undecided",
+  "t_s": 554.2,
+  "n": 42
+ },
+ {
+  "id": "ac23",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.20 s before the KO)",
+  "t_s": 592.1,
+  "n": 43
+ },
+ {
+  "id": "ac24",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.50 s from 624.13 s; B events spliced (D2/D3)",
+  "t_s": 624.13,
+  "n": 44
+ },
+ {
+  "id": "ac24",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 724.6 s",
+  "t_s": 724.6,
+  "n": 45
+ },
+ {
+  "id": "ac24",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 15.53 s from 787.67 s; B events spliced (D2/D3)",
+  "t_s": 787.67,
+  "n": 46
+ },
+ {
+  "id": "ac24",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 11.93 s from 789.23 s; B events spliced (D2/D3)",
+  "t_s": 789.23,
+  "n": 47
+ },
+ {
+  "id": "ac24",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 15.30 s from 801.17 s; B events spliced (D2/D3)",
+  "t_s": 801.17,
+  "n": 48
+ },
+ {
+  "id": "ac24",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 16.67 s from 803.20 s; B events spliced (D2/D3)",
+  "t_s": 803.2,
+  "n": 49
+ }
+]

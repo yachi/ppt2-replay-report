@@ -1,0 +1,257 @@
+{
+ "event_corrections": [
+  {
+   "n": 50,
+   "id": "ac24",
+   "side": "p1",
+   "op": "remove",
+   "t": 825.57,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "No spawn at 825.57: NEXT queue unchanged 816.37->826.63 (J out of hold, hovering 818-826). Score clears only at 826.00 (10 REN), 826.87 (11), 827.63 (12), 828.60 (13) = 4 clears for chain singles 816.47/825.57/826.63/827.5/828.33 (816.47 = J clear at 826.00). Frames /tmp/claude-0/sr/corr/fr/g3/a24.png, a24b.png (825.8-829.2): J, Z, L, T each clear one row; nothing else locks."
+  },
+  {
+   "n": 51,
+   "id": "ac24",
+   "side": "p2",
+   "op": "remove",
+   "t": 818.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "p2 NEXT queue unchanged 803.2->819.87 (I held at 810.63, J out, J hovers and clears at 819.20); score jumps only 802.53, 819.20, 825.27, 826.20, 827.83, 829.03 vs chain singles 800.53/803.2/818.77/819.87/825.93/826.83/828.47: 818.77 has no spawn and no clear. /tmp/claude-0/sr/corr/fr/g3/a24.png"
+  },
+  {
+   "n": 53,
+   "id": "ac25",
+   "side": "p1",
+   "op": "retype",
+   "t": 996.37,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "L spawned 996.37 locks ~996.6 clearing the bottom (non-garbage) row; score 79432->80818 (+1386 = 7 REN single + drops) at 997.07; banner 7 REN. /tmp/claude-0/sr/corr/fr/g3/a25b.png, a25.png"
+  },
+  {
+   "n": 53,
+   "id": "ac25",
+   "side": "p1",
+   "op": "remove",
+   "t": 987.83,
+   "was": [
+    "BREAK",
+    3,
+    0
+   ],
+   "source": "REN not broken: banner 4 REN at 987.5, 5 REN after the 988.03 clear (a25.png first two frames), then 6 REN 995.70, 7 REN 997.07."
+  },
+  {
+   "n": 54,
+   "id": "ac25",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 996.6,
+   "t_end": 996.67,
+   "events": [],
+   "was_old": [
+    [
+     996.6,
+     null,
+     0
+    ],
+    [
+     996.67,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "Only one piece between the Z clear at 996.47 (10 REN) and the L double at 997.25 (11 REN, +2550): L spawns 997.10 (queue shift 997.10, single +24 drop). The 996.6 lock and the BREAK are phantoms. /tmp/claude-0/sr/corr/fr/g3/a25c.png (996.3-997.9 step 0.1)"
+  },
+  {
+   "n": 55,
+   "id": "ac26",
+   "side": "p1",
+   "op": "retype",
+   "t": 1116.1,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Z spawned 1116.1 locks ~1116.3 clearing the bottom coloured row, 8 REN banner, score +1538 at 1116.80 (1500 = single at 8 REN + drops). /tmp/claude-0/sr/corr/fr/g3/a26.png"
+  },
+  {
+   "n": 59,
+   "id": "ac31",
+   "side": "p1",
+   "op": "retype",
+   "t": 1354.07,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "T at 1354.6 clears the two bottom rows; banner 'T-SPIN Double' + BACK to BACK + 1 REN; score +~5567 by 1355.23 (TSD B2B 5400 + REN/drops), not TSS. /tmp/claude-0/sr/corr/fr/g3/a31.png"
+  },
+  {
+   "n": 63,
+   "id": "ac35",
+   "side": "p1",
+   "op": "retype",
+   "t": 1518.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z (hold-swap) locks 1518.7 clearing the last two rows: board empty, PERFECT CLEAR banner 1518.8-1519.5; score +4500 at 1518.73 (double 900 + PC 3600). /tmp/claude-0/sr/corr/fr/g3/a35.png"
+  },
+  {
+   "n": 63,
+   "id": "ac35",
+   "side": "p1",
+   "op": "retype",
+   "t": 1518.8,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "After the PC the board is empty; the piece spawned 1518.8 (Z held, S out) lands on the empty floor at ~1519.2 with no clear (+~30 drop only); next clear is the TSD at 1521.63. /tmp/claude-0/sr/corr/fr/g3/a35.png"
+  },
+  {
+   "n": 66,
+   "id": "ac37",
+   "side": "p1",
+   "op": "retype",
+   "t": 1650.63,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "The T-SPIN banner at 1650.5 is a zero-line mini T-spin by the T from the 1649.8 spawn (S held, T out): score +300 at 1650.57, no row clears (stack unchanged, then garbage rises 1650.8). The piece spawned 1650.6 (Z) locks ~1650.73 with +24 and no clear. /tmp/claude-0/sr/corr/fr/g3/a37.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 50,
+   "id": "ac24",
+   "player": "p1",
+   "field": "pieces",
+   "was": 590,
+   "value": 589,
+   "source": "phantom single at 825.57 removed (no spawn there; NEXT queue and board static 816.4-826.0)"
+  },
+  {
+   "n": 50,
+   "id": "ac24",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 8,
+   "value": 13,
+   "source": "13 REN banner read at 829.0 (crop /tmp/claude-0/sr/corr/fr/g3/r.png), score +2250 = 300+13*150 at 828.60; continuous REN 9..13 seen 815.73-828.60. Lower bound for the game."
+  },
+  {
+   "n": 51,
+   "id": "ac24",
+   "player": "p2",
+   "field": "pieces",
+   "was": 481,
+   "value": 480,
+   "source": "phantom single at 818.77 removed (no spawn 803.2->819.87)"
+  },
+  {
+   "n": 54,
+   "id": "ac25",
+   "player": "p2",
+   "field": "pieces",
+   "was": 216,
+   "value": 215,
+   "source": "phantom lock at 996.6 removed (one piece, L, between 996.47 and 997.25 clears)"
+  },
+  {
+   "n": 53,
+   "id": "ac25",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 5,
+   "value": 7,
+   "source": "REN banners 4 (987.5), 5 (988.03), 6 (995.70), 7 (997.07, +1386) continuous; lower bound for the game."
+  },
+  {
+   "n": 55,
+   "id": "ac26",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 8,
+   "source": "8 REN banner at 1116.3-1117.4 after the 1116.80 clear (+1538). /tmp/claude-0/sr/corr/fr/g3/a26.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 52,
+   "why": "Score +7200 at 855.23 = TST B2B; banner at 855.5 reads 'T-SPIN Tr...' + BACK to BACK. Chain tst correct."
+  },
+  {
+   "n": 56,
+   "why": "Score steps match chain events (double 1188.2 +902, two singles +1070, single+triple +2860, tsmini +606, quad +2412, double 1196.73 +1050); the quad scored 2400 with plain TETRIS banner (no B2B shown), so the shortfall is the scoring model's B2B assumption, not an event error. /tmp/claude-0/sr/corr/fr/g3/a27.png"
+  },
+  {
+   "n": 57,
+   "why": "Last O locks 1288.77 (+30, chain 1288.6); next Z held, T falling and not locked when 'yatta' appears at 1289.03. Nothing to add. /tmp/claude-0/sr/corr/fr/g3/a29.png"
+  },
+  {
+   "n": 58,
+   "why": "Score +7200 at 1353.37 = TST B2B; the lingering banner at 1354.6 reads '...N Triple'. Chain tst correct (the next clear's type was fixed under n=59)."
+  },
+  {
+   "n": 61,
+   "why": "Score +4820 at 1458.4 = TST (4800 + drops). Chain tst correct."
+  },
+  {
+   "n": 62,
+   "why": "+119 at 1498.6 is after the KO (1498.3); post-KO points do not count."
+  },
+  {
+   "n": 64,
+   "why": "Score +4800 at 1544.60 = TST. Chain tst correct."
+  },
+  {
+   "n": 65,
+   "why": "+304 at 1560.57 is a zero-line mini T-spin (300) by the T locked ~1560.5 = chain 1560.17 None lock; no line cleared (garbage pushes stack up). Next piece J does not lock before KO 1561.27. /tmp/claude-0/sr/corr/fr/g3/a35k.png"
+  }
+ ]
+}

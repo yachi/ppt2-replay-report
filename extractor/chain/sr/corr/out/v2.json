@@ -1,0 +1,22 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v2/e0.png: J (spawn 1348.30 per nextcount) drops and locks at bottom-left by 1348.40; score 109699->109735 read at 1348.43 = KO frame; no clear."},
+{"ref":"e1","verdict":"keep","why":"fr/v2/e1.png: T locks bottom-left ~1390.6, stack heights unchanged (green tower top same row before/after), no row removed; p1 score 42200->42589 (+389) over the window, no room for a Mini TSS (600)."},
+{"ref":"e2","verdict":"keep","why":"fr/v2/e2.png: vertical I in col 9 at 1517.0; clear flash covers 3 rows (two white garbage + yellow/purple row); afterwards the blue/orange/green row is the bottom row with one I cell left. Score 97873->99468 (+1595) fits triple, not double; previous chain REN broken by locks at 1516.27/1516.5."},
+{"ref":"e3","verdict":"keep","why":"fr/v2/e3.png: green S appears at top 1518.90-1518.93 and is shown locked with lock flash at cols 4-5 on the 1518.97 frame (= end_s); やった appears 1519.03; score 99637 afterwards; no clear."},
+{"ref":"e4","verdict":"reject","why":"fr/v2/e4.png, e4b.png: at 592.06 and 592.10 the J is still at the top right (score 125056); it is first shown locked with flash at 592.13 (score 125072), one frame after end_s 592.10. The in-game timer reads 01:54.75 at 592.10 and 01:54.78 at 592.13, while the frozen final timer reads 01:54.73, so the game ended before this lock. Lock after the KO frame: does not count."},
+{"ref":"e5","verdict":"keep","why":"p2 score flat 19614 from 624.00 to 627.93, then +1650 at 628.00 (single REN9), +1800 629.10, +1950 630.10, +2100 631.13, +2250 632.17, +2400 632.97, +2572 634.00 (REN15). Ten chain clears 615.8-624.13 = REN0-9, so the REN never broke; BREAK 624.1 is phantom. nextcount: spawns 623.07, 624.13, 628.63 (holds between)."},
+{"ref":"e6","verdict":"keep","why":"nextcount p2 spawns 787.67 then 803.20 only (787.73 is a duplicate of 787.67); p2 score 196301 (787.40) -> 197951 at 802.53 (+1650, REN9) is the only clear in between; fr/v2/e9.png shows one slow S falling 790-801 with score 196301 throughout."},
+{"ref":"e7","verdict":"keep","why":"same: no p2 spawn between 787.67 and 803.20, no score jump at ~800.5; the single clear 802.53 belongs to the 787.67 piece. fr/v2/e9.png."},
+{"ref":"e8","verdict":"keep","why":"p1 score steps +1218 (787.83, REN6), +1368 (788.83, REN7; '7 REN' banner fr/v2/e9.png 789.00), +1500 (800.43, '8 REN' banner at 801.00), +1650 815.73, +1800 826.00, +1950 826.87, +2100 827.63, +2250 828.60: REN unbroken, BREAK 788.87 phantom."},
+{"ref":"e9","verdict":"keep","why":"nextcount p1 spawns 789.10 (O) then 801.07; score flat 253118 from 790.57 to 800.43 (+1500 one clear); fr/v2/e9.png 791-799 shows the O hovering, no lock/clear on p1."},
+{"ref":"e10","verdict":"keep","why":"nextcount p1 spawns 801.07 then 816.37 (hold 805.07), score 254618 flat until 815.73 (+1650): one clear for one piece; 811.93 phantom."},
+{"ref":"e11","verdict":"keep","why":"nextcount p1 spawns 816.37 (held 818.0) then 826.63, 827.50, 828.27; score clears 815.73? no: 826.00, 826.87, 827.63, 828.60 = clears of pieces 816.37/826.63/827.50/828.27; chain has 5 singles 816.47/825.57/826.63/827.5/828.33, 825.57 is the extra."},
+{"ref":"e12","verdict":"keep","why":"nextcount p2 spawns 803.20 then 819.87 (hold 810.63); one p2 clear at 819.20 (+1800 REN10); REN steps 9..14 (802.53..829.03) match 6 spawns 787.67/803.2/819.87/825.93/826.83/828.47, so 818.77 is phantom."},
+{"ref":"c0","verdict":"keep","why":"J locked by 1348.40-1348.43 (KO frame), fr/v2/e0.png; chain has no event for spawn 1348.30."},
+{"ref":"c1","verdict":"keep","why":"S locked on the KO frame 1518.97, fr/v2/e3.png."},
+{"ref":"c2","verdict":"reject","why":"J locks at 592.13, after end_s 592.10 (fr/v2/e4.png); pieces stays 198."},
+{"ref":"c3","verdict":"keep","why":"nextcount over the whole game (600.9-927.8, fr/v2/nc24p2.txt) gives 479 spawns; the loser's last spawn does not lock, so ~478 (extractor A 477). 481 is too high by the 3 phantoms."},
+{"ref":"c4","verdict":"keep","why":"score steps show REN15 at 634.00 (+2572 = 300+2250+drops) and REN14 at 829.03 (+2400); recomputing the chain with the removals gives 15; extractor A also 15."},
+{"ref":"c5","verdict":"keep","why":"nextcount over the whole game (fr/v2/nc24p1.txt) gives 588 spawns including one doubtful k=3 shift at 846.27, so 586-588; 590 is too high, 587 fits."},
+{"ref":"c6","verdict":"keep","why":"REN unbroken 781.7-828.6: score +1218 at 787.83 = REN6 (7th clear from 781.7), +2250 at 828.60 = REN13; '7 REN'/'8 REN' banners in fr/v2/e9.png; extractor A also 13."}
+]

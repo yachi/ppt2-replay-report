@@ -1,0 +1,193 @@
+[
+ {
+  "id": "ac24",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 10.17 s from 816.47 s; B events spliced (D2/D3)",
+  "t_s": 816.47,
+  "n": 50
+ },
+ {
+  "id": "ac24",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 6.07 s from 819.87 s; B events spliced (D2/D3)",
+  "t_s": 819.87,
+  "n": 51
+ },
+ {
+  "id": "ac24",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 854.53 s",
+  "t_s": 854.53,
+  "n": 52
+ },
+ {
+  "id": "ac25",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 7.70 s from 988.67 s; B events spliced (D2/D3)",
+  "t_s": 988.67,
+  "n": 53
+ },
+ {
+  "id": "ac25",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 8.17 s from 988.93 s; B events spliced (D2/D3)",
+  "t_s": 988.93,
+  "n": 54
+ },
+ {
+  "id": "ac26",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +1538 at 1116.86 s (KO 1118.03 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1116.86,
+  "n": 55
+ },
+ {
+  "id": "ac27",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ac27",
+   "player": "p2",
+   "t0": 1188.16,
+   "t1": 1196.73,
+   "step": -1147,
+   "unexplained": -1147,
+   "near": [
+    [
+     1188.9,
+     450,
+     "single"
+    ],
+    [
+     1189.77,
+     600,
+     "single"
+    ],
+    [
+     1190.93,
+     750,
+     "single"
+    ],
+    [
+     1191.8,
+     2100,
+     "triple"
+    ],
+    [
+     1193.47,
+     600,
+     "tsmini"
+    ],
+    [
+     1194.87,
+     3600,
+     "quad"
+    ],
+    [
+     1196.17,
+     1050,
+     "double"
+    ]
+   ]
+  },
+  "t_s": 1188.16,
+  "n": 56
+ },
+ {
+  "id": "ac29",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 1289.0,
+  "n": 57
+ },
+ {
+  "id": "ac31",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1352.67 s",
+  "t_s": 1352.67,
+  "n": 58
+ },
+ {
+  "id": "ac31",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tsmini) vs banner T-SPIN Double at 1354.07 s",
+  "t_s": 1354.07,
+  "n": 59
+ },
+ {
+  "id": "ac34",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1456.77 s",
+  "t_s": 1456.77,
+  "n": 61
+ },
+ {
+  "id": "ac34",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +119 at 1498.6 s (KO 1498.3 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1498.6,
+  "n": 62
+ },
+ {
+  "id": "ac35",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ac35",
+   "player": "p1",
+   "t0": 1518.73,
+   "t1": 1521.63,
+   "step": -1050,
+   "unexplained": -1050,
+   "near": [
+    [
+     1518.8,
+     1050,
+     "double"
+    ],
+    [
+     1520.93,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 1518.73,
+  "n": 63
+ },
+ {
+  "id": "ac35",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1543.8 s",
+  "t_s": 1543.8,
+  "n": 64
+ },
+ {
+  "id": "ac35",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +304 at 1560.57 s (KO 1561.27 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1560.57,
+  "n": 65
+ },
+ {
+  "id": "ac37",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 1650.53 s, no A clear matched (added by R/build.py)",
+  "t_s": 1650.53,
+  "n": 66
+ }
+]

@@ -1,0 +1,445 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "ac00",
+   "side": "p2",
+   "op": "retype",
+   "t": 197.9,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g0/n0a.png 197.6-199.0: the T locks at the top-right at ~198.1 with no row cleared (board unchanged below), Mini T-SPIN banner; p2 score +300 at 198.23 (219123->219423) = zero-line mini T-spin, not a mini single (600). The following quad at 198.63 scores +2400 (no B2B) and the double at 200.57 +1050 (REN1), both consistent with no clear at 197.9."
+  },
+  {
+   "n": 4,
+   "id": "ac00",
+   "side": "p2",
+   "op": "remove",
+   "t": 218.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "nextcount p2: spawns only at 209.30 and 219.20 in 209.3-229.4 (game near-frozen, fr/g0/n2a.png, fr/g0/n4a.png). Score jumps p2: 218.57 +1800 (REN10, piece spawned 209.30), 228.77 +1950 (REN11, piece 219.20), 229.63 +2100, 230.57 +2250, 231.57 +3000 (double REN14). REN counter on screen 10/11/12/13/14. No clear for a piece at 218.77: phantom."
+  },
+  {
+   "n": 5,
+   "id": "ac00",
+   "side": "p2",
+   "op": "remove",
+   "t": 228.03,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "same as 218.77: no spawn between 219.20 and 229.40 (nextcount), so 228.03 is a phantom duplicate of the 219.20 piece's single (score +1950 at 228.77)."
+  },
+  {
+   "n": 3,
+   "id": "ac00",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 209.4,
+   "t_end": 224.4,
+   "events": [
+    {
+     "t": 209.77,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 211.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 218.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 220.13,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     209.47,
+     "BREAK",
+     3
+    ],
+    [
+     209.77,
+     "single",
+     1
+    ],
+    [
+     211.07,
+     "single",
+     1
+    ],
+    [
+     211.07,
+     "BREAK",
+     2
+    ],
+    [
+     215.53,
+     "single",
+     1
+    ],
+    [
+     218.67,
+     "single",
+     1
+    ],
+    [
+     220.13,
+     null,
+     0
+    ],
+    [
+     220.13,
+     "single",
+     1
+    ],
+    [
+     224.37,
+     null,
+     0
+    ]
+   ],
+   "source": "nextcount p1: spawns 209.77, 210.97 (hold 211.17), 218.53, 220.03, 228.10 - game stalls 211-218 and 220-228 (fr/g0/n2a.png, fr/g0/n4a.png). p1 score jumps 209.47 +1067 (REN5), 210.70 +1216 (REN6), 217.87 +1350 (REN7), 219.67 +1516 (REN8), then only drop points until 230.03 +300 (single REN0). On-screen REN 4,5,6,7,8 continuous: no breaks at 209.47/211.07. Pieces in window: 209.77 single, 211.07 single, 218.67 single, 220.13 no-clear lock; 215.53 single, 220.13 duplicate single and 224.37 lock are phantoms."
+  },
+  {
+   "n": 7,
+   "id": "ac01",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 272.0,
+   "t_end": 371.5,
+   "events": [
+    {
+     "t": 272.17,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 288.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 315.3,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 344.67,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     272.17,
+     "single",
+     1
+    ],
+    [
+     284.7,
+     "single",
+     1
+    ],
+    [
+     288.93,
+     "single",
+     1
+    ],
+    [
+     300.03,
+     null,
+     0
+    ],
+    [
+     301.17,
+     "BREAK",
+     2
+    ],
+    [
+     312.13,
+     "single",
+     1
+    ],
+    [
+     315.3,
+     "single",
+     1
+    ],
+    [
+     326.8,
+     null,
+     0
+    ],
+    [
+     327.67,
+     "BREAK",
+     2
+    ],
+    [
+     339.27,
+     "single",
+     1
+    ],
+    [
+     344.67,
+     "single",
+     1
+    ],
+    [
+     371.03,
+     "single",
+     1
+    ]
+   ],
+   "source": "ac01 is played very slowly (pieces fall under gravity ~15-30 s each, fr/g0/n7a.png 273-375). nextcount p1 270-375: spawns only 270.83, 272.17, 288.93, 315.30, 344.67, 372.13 (holds 272.27, 327.57, 357.03 are swaps). p1 score jumps 288.30 +1350, 314.63 +1500, 344.00 +1650, 371.47 +1800: one REN single per piece, REN counter 8 at ~313.8, 9 at ~345, no breaks. Covers items n7,n10,n12,n15."
+  },
+  {
+   "n": 8,
+   "id": "ac01",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 273.2,
+   "t_end": 352.5,
+   "events": [
+    {
+     "t": 273.43,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 286.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 306.4,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 323.73,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 340.1,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     273.43,
+     "single",
+     1
+    ],
+    [
+     285.0,
+     "single",
+     1
+    ],
+    [
+     286.1,
+     "single",
+     1
+    ],
+    [
+     299.8,
+     "BREAK",
+     4
+    ],
+    [
+     302.27,
+     "BREAK",
+     0
+    ],
+    [
+     304.7,
+     "BREAK",
+     1
+    ],
+    [
+     306.33,
+     "BREAK",
+     3
+    ],
+    [
+     306.4,
+     "single",
+     1
+    ],
+    [
+     318.1,
+     "single",
+     1
+    ],
+    [
+     323.73,
+     "single",
+     1
+    ],
+    [
+     336.2,
+     "single",
+     1
+    ],
+    [
+     340.1,
+     "single",
+     1
+    ],
+    [
+     351.87,
+     "single",
+     1
+    ]
+   ],
+   "source": "nextcount p2 270-360: spawns only 271.10, 272.07, 273.43, 286.10, 306.40, 323.73, 340.10, 352.93 (holds 276.33, 296.67 are swaps). p2 score jumps 285.43 +900, 305.73 +1050, 323.07 +1200, 339.43 +1350, 352.30 +1500: one REN single per piece, no break. fr/g0/n7a.png. Covers items n8,n9,n11,n13,n14."
+  }
+ ],
+ "cell_edits": [
+  {
+   "id": "ac00",
+   "player": "p2",
+   "field": "pieces",
+   "was": 364,
+   "value": 362,
+   "source": "chain events = pieces for ac00 p2 (364 events, 364 pieces); 218.77 and 228.03 are phantom pieces (nextcount shows no spawn there).",
+   "n": 4
+  },
+  {
+   "id": "ac00",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 17,
+   "value": 14,
+   "source": "on-screen REN counter peaks at 14 REN with the final double (~231.5, fr/g0/n4a.png); chain's 17 included the zero-line mini at 197.9 and the two phantom singles.",
+   "n": 4
+  },
+  {
+   "id": "ac00",
+   "player": "p1",
+   "field": "pieces",
+   "was": 437,
+   "value": 434,
+   "source": "three phantom pieces removed in 209.4-224.4 (215.53 single, 220.13 duplicate single, 224.37 lock): only 4 spawns there by nextcount. Assumes csv counted each chain event as a piece; csv 437 vs 430 non-BREAK events, so skeptic should confirm the offset basis.",
+   "n": 3
+  },
+  {
+   "id": "ac00",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 7,
+   "value": 8,
+   "source": "on-screen REN reaches 8 REN at ~219.7 (fr/g0/n4a.png 219.8 frame); score +1516 at 219.67 = single REN8.",
+   "n": 3
+  },
+  {
+   "id": "ac01",
+   "player": "p1",
+   "field": "pieces",
+   "was": 214,
+   "value": 208,
+   "source": "six phantom piece events in 272-371.5 (284.7, 300.03, 312.13, 326.8, 339.27, 371.03): nextcount shows only 4 spawns there. Assumes csv counted chain events; csv 214 vs 195 non-BREAK events, offset basis unverified.",
+   "n": 7
+  },
+  {
+   "id": "ac01",
+   "player": "p2",
+   "field": "pieces",
+   "was": 201,
+   "value": 197,
+   "source": "four phantom pieces in 273.2-352.5 (285.0, 318.1, 336.2, 351.87): nextcount shows only 5 spawns there. Same caveat on csv basis (201 vs 194 events).",
+   "n": 8
+  }
+ ],
+ "no_change": [
+  {
+   "n": 1,
+   "why": "banner is real but belongs to a zero-line mini T-spin; resolved by the retype under n0"
+  },
+  {
+   "n": 2,
+   "why": "p2 209.3-219.2: game stalled; one piece (209.30 single, scored 218.57) - chain right apart from 218.77 phantom handled under n4"
+  },
+  {
+   "n": 6,
+   "why": "p1 220.13-228.1 handled in n3 replace_window (224.37 phantom removed); 228.10 lock and later events verified"
+  },
+  {
+   "n": 9,
+   "why": "covered by n8 replace_window"
+  },
+  {
+   "n": 10,
+   "why": "covered by n7 replace_window"
+  },
+  {
+   "n": 11,
+   "why": "covered by n8 replace_window"
+  },
+  {
+   "n": 12,
+   "why": "covered by n7 replace_window"
+  },
+  {
+   "n": 13,
+   "why": "covered by n8 replace_window"
+  },
+  {
+   "n": 14,
+   "why": "covered by n8 replace_window"
+  },
+  {
+   "n": 15,
+   "why": "covered by n7 replace_window"
+  }
+ ]
+}
