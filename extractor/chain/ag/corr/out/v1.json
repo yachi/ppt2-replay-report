@@ -1,0 +1,17 @@
+[
+{"ref":"e0","verdict":"keep","why":"score.py 912-931 (nYKv827YLg8): p1 rises only at 922.13 (+900), 926.73 (+1650), 928.00 (+1230), 928.9 (+3484), 929.40 (+1500) = single, double, single, tetris, single in an unbroken REN (+150/step fits 4..8 REN); score flat 922.13-926.67 so no lock in the stall. fr/v1/a16.png: coloured-row single 922.4, O sits at top 922.9-926.4, white garbage-row flash 926.9, TETRIS banner and nearly empty board 929.4. 5 locks / 9 lines as proposed."},
+{"ref":"e1","verdict":"keep","why":"fr/v1/a19.png: L spawned 64.17, hard-dropped and shown locked on the stack at 64.33 (=end_s), score +30 at 64.33, no row full; victory overlay from 64.40."},
+{"ref":"e2","verdict":"keep","why":"score.py: p1 +5550 at 349.93 = TSD 3600 x1.5 B2B (after the tst at 347.93) + 150 REN; a plain double would be ~1050."},
+{"ref":"e3","verdict":"keep","why":"fr/v1/a25.png: 3-row stack at 449.6-449.73, cleared to an empty board, PERFECT CLEAR banner from 449.80; score +6900 at 449.77."},
+{"ref":"e4","verdict":"keep","why":"fr/v1/a25.png + score/nextcount: I spawned 449.83, held 449.93, Z from hold locked on the empty board ~450.07 (bottom-left from 450.27); only drop points (+38) follow, no second clear."},
+{"ref":"e5","verdict":"keep","why":"fr/v1/a26.png: 2-row stack, O held 585.83, J dropped vertically into col 4-5, rows cleared 585.97, PERFECT CLEAR banner 586.10+; score 11524 -> 16509 at 586.07."},
+{"ref":"e6","verdict":"keep","why":"fr/v1/a26.png: next O spawned ~586.13 and locked bottom-left ~586.37 on the empty board; score +1..+31 drop points only."},
+{"ref":"e7","verdict":"keep","why":"score.py p2: +28 hard drop at 698.07 then +600 at 698.10 (single 300 + REN 2 after tsd 695.4 and quad 696.73); nextcount: I spawned 697.867, held 697.90 (L out). fr/v1/a27.png: L locked 698.07, coloured row above garbage flashes 698.35, before KO 698.4."},
+{"ref":"e8","verdict":"keep","why":"score.py: p1 +1050 at 839.57 and +3600 at 839.60 (double+REN, PC bonus); fr/v1/a30.png: 2 rows at 839.4-839.5, empty board and PERFECT CLEAR banner 839.60+."},
+{"ref":"e9","verdict":"keep","why":"nextcount: O spawned 839.633, held 839.733 (L out); fr/v1/a30.png L locked bottom-right ~839.9-840.1 on empty board; score +40 drop points only."},
+{"ref":"e10","verdict":"keep","why":"fr/v1/a29.png: Z spawned and held ~769.04 (hold O->Z), O hard-dropped and shown locked at 769.20 with score 29107 -> 29135, no row full; KO/victory overlay 769.24. Lock is at or before end_s 769.23."},
+{"ref":"c0","verdict":"keep","why":"Same evidence as e0: 5 real locks in 921.1-929.3 against 7 chain events, so pieces 131 -> 129."},
+{"ref":"c1","verdict":"keep","why":"Same evidence as e1: L locked at 64.33."},
+{"ref":"c2","verdict":"keep","why":"Same evidence as e7: L from hold locked 698.07 before KO 698.4."},
+{"ref":"c3","verdict":"keep","why":"Same evidence as e10: O locked 769.20, before end_s."}
+]

@@ -1,0 +1,266 @@
+{
+ "event_corrections": [
+  {
+   "n": 1,
+   "id": "ag01",
+   "side": "p2",
+   "op": "retype",
+   "t": 92.27,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "p2 score 24757->30307 (+5550) at 92.70 = TSD B2B 5400 + REN1 150 (after quad 91.33); TSS B2B+REN would be 3750. Frames show T into slot 92.55 and 'T-SPIN Double' banner from 92.75 (/tmp/claude-0/ag/corr/fr/g0/n1.png). Next clear +1200 at 93.93 = double REN2, consistent."
+  },
+  {
+   "n": 3,
+   "id": "ag02",
+   "side": "p1",
+   "op": "retype",
+   "t": 122.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O held 122.13, Z locks ~122.77 clearing the last two (coloured) rows; PERFECT CLEAR banner over empty board 122.84-122.97 (/tmp/claude-0/ag/corr/fr/g0/n3.png). Score +4650 at 122.87 = double 900 + REN1 150 + PC bonus 3600."
+  },
+  {
+   "n": 3,
+   "id": "ag02",
+   "side": "p1",
+   "op": "retype",
+   "t": 123.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: after the PC at 122.87 the next piece (spawn ~122.93, T held 123.27, O played) locks at 123.50 with only +36 drop points; no clear and no score jump until the TSD +3600 at 128.17 (/tmp/claude-0/ag/corr/fr/g0/n3.png, score.py 122.87-129.8)."
+  },
+  {
+   "n": 9,
+   "id": "ag08",
+   "side": "p1",
+   "op": "retype",
+   "t": 510.63,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "J (spawn 510.63, vertical at left) locks ~510.8 and clears the coloured bottom row: white row 510.90 with REN label (/tmp/claude-0/ag/corr/fr/g0/n8.png, /tmp/claude-0/ag/corr/fr/g0/n8b.png). Score 74637 (510.33) -> 75573 (511.37) = +936 = single 300 + REN4 600 + drops."
+  },
+  {
+   "n": 8,
+   "id": "ag08",
+   "side": "p1",
+   "op": "add",
+   "t": 511.77,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Z spawned 511.77 (nextcount shift) locks at right ~512.0 and clears the bottom row (white row 512.11-512.22, burst 512.44), before KO 512.57 (/tmp/claude-0/ag/corr/fr/g0/n8.png). Score 75573 -> 75946 (512.70) = single 300 + drops (L at 511.5 locked without clearing, breaking REN)."
+  },
+  {
+   "n": 10,
+   "id": "ag09",
+   "side": "p1",
+   "op": "retype",
+   "t": 548.83,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "The T (spawn 548.03) locks 548.75 as a zero-line Mini T-spin: banner reads 'Mini T-SPIN' with no 'Single', stack heights unchanged (/tmp/claude-0/ag/corr/fr/g0/f548.70.png, /tmp/claude-0/ag/corr/fr/g0/f548.83.png, /tmp/claude-0/ag/corr/fr/g0/n10.png); score +300 at 548.80 = mini 0-line 100x3 (mini single would be 600). The 548.83 piece (Z) locks plain (+26 at 548.93)."
+  },
+  {
+   "n": 14,
+   "id": "ag16",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 913.8,
+   "t_end": 922.83,
+   "events": [
+    {
+     "t": 913.8,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 922.83,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    }
+   ],
+   "was_old": [
+    [
+     913.8,
+     "single",
+     1
+    ],
+    [
+     914.8,
+     "BREAK",
+     1
+    ],
+    [
+     921.1,
+     "single",
+     1
+    ],
+    [
+     922.57,
+     "single",
+     1
+    ],
+    [
+     922.83,
+     "double",
+     2
+    ],
+    [
+     922.83,
+     "quad",
+     4
+    ]
+   ],
+   "source": "Game stalled (in-game timer runs, pieces hang): S spawned 913.7 hovers until it locks ~921.9 and clears a single (4 REN, score 38531->39431 at 922.13); O spawned ~922.8 hovers until held at 926.6; J out of hold locks 926.65 into the garbage well clearing two garbage rows (5 REN, +1650 = double 900 + REN 750). No other piece in the window; the quad, the 921.1/922.57 singles and the 914.8 BREAK are phantoms (/tmp/claude-0/ag/corr/fr/g0/n14.png, /tmp/claude-0/ag/corr/fr/g0/n14b.png, /tmp/claude-0/ag/corr/fr/g0/n14c.png, /tmp/claude-0/ag/corr/fr/g0/n14d.png)."
+  },
+  {
+   "n": 15,
+   "id": "ag16",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 914.37,
+   "t_end": 922.0,
+   "events": [
+    {
+     "t": 914.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     914.37,
+     "single",
+     1
+    ],
+    [
+     914.47,
+     "single",
+     1
+    ],
+    [
+     921.93,
+     null,
+     0
+    ],
+    [
+     922.0,
+     "BREAK",
+     0
+    ]
+   ],
+   "source": "Z spawned 914.35 hovers through the stall and locks ~924.95, clearing a single at 925.06 (+900 = 300 + REN4 600); next piece O spawns 925.7 (chain's 925.7 single, cleared 928.0 at 5 REN). 914.47 single, 921.93 lock and 922.0 BREAK are phantoms (/tmp/claude-0/ag/corr/fr/g0/n14.png, /tmp/claude-0/ag/corr/fr/g0/n15.png, /tmp/claude-0/ag/corr/fr/g0/n15b.png, /tmp/claude-0/ag/corr/fr/g0/n15c.png)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 8,
+   "id": "ag08",
+   "player": "p1",
+   "field": "pieces",
+   "was": 103,
+   "value": 104,
+   "source": "Z spawned 511.77 locked ~512.0 (clearing a single) before KO 512.57; chain had no event for it (/tmp/claude-0/ag/corr/fr/g0/n8.png)."
+  },
+  {
+   "n": 14,
+   "id": "ag16",
+   "player": "p1",
+   "field": "pieces",
+   "was": 131,
+   "value": 128,
+   "source": "Window 913.8-922.83 held 5 chain piece events but only 2 real locks (S at ~921.9, J at 926.65); see replace_window."
+  },
+  {
+   "n": 15,
+   "id": "ag16",
+   "player": "p2",
+   "field": "pieces",
+   "was": 110,
+   "value": 108,
+   "source": "Window 914.37-922.0 held 3 chain piece events but only 1 real lock (Z ~924.95); see replace_window."
+  },
+  {
+   "n": 15,
+   "id": "ag16",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 5,
+   "value": 8,
+   "source": "With the phantom lock/BREAK removed the REN runs unbroken from the TSD 909.97 to the double at 930.83: on-screen 2 REN 913.5, 3 REN 914.1; score jumps Z +900 (REN4, 925.07), O +1062 (REN5, 928.0), +1212 (REN6, 929.33), +1354 (REN7, 930.57), double +2101 (REN8, 932.00)."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 0,
+   "why": "J hovers at top from 63.0 until the KO 63.97, hold swap at 63.03, score flat 73295 after 62.77; nothing locked (/tmp/claude-0/ag/corr/fr/g0/n0.png)."
+  },
+  {
+   "n": 2,
+   "why": "O spawned 103.47 still at the top with ghost below at 103.67 and after KO 103.6; score flat 41498 (/tmp/claude-0/ag/corr/fr/g0/n2.png)."
+  },
+  {
+   "n": 4,
+   "why": "Banner reads 'Triple' with BACK to BACK; 3-row flash 178.92; score +4800 at 179.10 = TST (TSS would be 2400). Chain tst correct (/tmp/claude-0/ag/corr/fr/g0/n4.png)."
+  },
+  {
+   "n": 6,
+   "why": "Confirms audit: J (S held 301.70) hovering at top until KO 301.77, score flat 40092 (/tmp/claude-0/ag/corr/fr/g0/n6.png)."
+  },
+  {
+   "n": 7,
+   "why": "+62 is the sum of drop points over several plain locks (score hidden by overlay 355.5-357.0); O, J, Z lock plainly 357.2-357.5, then top-out; no clear (/tmp/claude-0/ag/corr/fr/g0/n7.png)."
+  },
+  {
+   "n": 12,
+   "why": "'Triple' + BACK to BACK banner, 3-row flash 687.7; score +7225 at 688.03 = TST B2B 7200 + drops (/tmp/claude-0/ag/corr/fr/g0/n12.png)."
+  },
+  {
+   "n": 13,
+   "why": "O spawned 799.17 still at the top at the KO frame 799.33; it hard-drops at 799.37 (+38), one frame after the KO, so it does not count (/tmp/claude-0/ag/corr/fr/g0/n13.png)."
+  }
+ ]
+}

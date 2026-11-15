@@ -1,0 +1,107 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: one jump 11210->15860 at 122.87 (after the 122.0 piece soft-dropped 122.2-122.77), then only drop points after the 123.0 spawn."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py: one jump 11210->15860 at 122.87 (after the 122.0 piece soft-dropped 122.2-122.77), then only drop points after the 123.0 spawn."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py p2: one jump 6903->11589 at 580.07, between the 579.73 and 580.13 spawns; drop points only after."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py p2: one jump 6903->11589 at 580.07, between the 579.73 and 580.13 spawns; drop points only after."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "fr/v2/ag13.png: Z spawns 749.80 and is held, T from hold locks ~750.0, board empty, PERFECT CLEAR 750.10; score 6886->11572; next locks drop points only."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "fr/v2/ag13.png: Z spawns 749.80 and is held, T from hold locks ~750.0, board empty, PERFECT CLEAR 750.10; score 6886->11572; next locks drop points only."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "fr/v2/ag14.png: board before is one gray garbage row + one colored row, vertical T fills both, empty board + PERFECT CLEAR 797.70; score 24302->28952 at 797.63; S/next pieces no clear. gc=1 confirmed."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v2/ag14.png: board before is one gray garbage row + one colored row, vertical T fills both, empty board + PERFECT CLEAR 797.70; score 24302->28952 at 797.63; S/next pieces no clear. gc=1 confirmed."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "fr/v2/ag16.png: S visible from 895.64, locks ~896.16 clearing the last 2 rows, PERFECT CLEAR from 896.29; score settles at 15601; Z after it no clear (+36)."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "fr/v2/ag16.png: S visible from 895.64, locks ~896.16 clearing the last 2 rows, PERFECT CLEAR from 896.29; score settles at 15601; Z after it no clear (+36)."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "fr/v2/ag21.png: first I spawns ~24.46, locks flat ~24.70 clearing the last row, PERFECT CLEAR 24.78 (3 REN); second I spawned 24.78 locks at the bottom ~25.10, score +36 only."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "fr/v2/ag21.png: first I spawns ~24.46, locks flat ~24.70 clearing the last row, PERFECT CLEAR 24.78 (3 REN); second I spawned 24.78 locks at the bottom ~25.10, score +36 only."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score.py: one jump 10964->17864 at 449.77, between the 449.6 and 449.83 spawns; drop points only after."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "score.py: one jump 10964->17864 at 449.77, between the 449.6 and 449.83 spawns; drop points only after."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "score.py: one jump 10892->16509 at 586.07, between the 585.73 and 586.13 spawns; drop points only after."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "score.py: one jump 10892->16509 at 586.07, between the 585.73 and 586.13 spawns; drop points only after."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "score.py: soft-drop points 838.77-839.40 (one piece), jump to 26195 at 839.57-839.60 before the 839.63 spawn; drop points only after."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "score.py: soft-drop points 838.77-839.40 (one piece), jump to 26195 at 839.57-839.60 before the 839.63 spawn; drop points only after."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "score.py: one jump 10797->17697 at 1096.33, between the 1096.2 and 1096.43 spawns; 17698->17773 after (drop points)."
+ },
+ {
+  "ref": "e19",
+  "verdict": "keep",
+  "why": "score.py: one jump 10797->17697 at 1096.33, between the 1096.2 and 1096.43 spawns; 17698->17773 after (drop points)."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "cseq ag38 p1: the only consecutive clears are 1096.2/1096.43; with 1096.43 a plain lock (score 17698->17773 drop points), no clear is followed by another clear, so max REN 0."
+ }
+]

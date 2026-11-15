@@ -1,0 +1,41 @@
+{"event_corrections":[
+{"n":16,"id":"ag16","side":"p1","op":"replace_window","t":921.1,"t_end":929.3,
+ "events":[{"t":921.1,"kind":"single","lines":1,"pc":0,"gc":0},{"t":926.6,"kind":"double","lines":2,"pc":0,"gc":2},{"t":927.6,"kind":"single","lines":1,"pc":0,"gc":0},{"t":928.37,"kind":"quad","lines":4,"pc":0,"gc":4},{"t":929.3,"kind":"single","lines":1,"pc":0,"gc":1}],
+ "was_old":[[921.1,"single",1],[922.57,"single",1],[922.83,"double",2],[922.83,"quad",4],[927.47,"single",1],[928.4,"triple",3],[929.3,"single",1]],
+ "source":"Frames 913-930 (fr/g1/a16a.png, a16b.png, a16c.png, a16d.png) + score.py + nextcount.py: S spawned ~914, fell at natural gravity, locked 922.1 clearing 1 coloured row (4 REN, score +900 at 922.13). O spawned 922.77 and sat at the top untouched until 926.6 (no lock 922.2-926.6), held 926.6; J from hold dropped into the col-4 well clearing 2 white garbage rows (+1650 = 900+5 REN at 926.73). I spawned 927.47 and held, O from hold cleared the coloured row (+1230, 6 REN, ~927.7). J spawned 928.3 and held, I from hold made a TETRIS of 4 garbage rows (+3484, banner 928.9). I spawned 929.3 cleared the last garbage row (+1500, 8 REN). 5 locks/9 lines where the chain had 7 locks/12 lines (922.57 single, 922.83 double+quad and 928.4 triple are not real)."},
+{"n":19,"id":"ag21","side":"p1","op":"add","t":64.17,"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"fr/g1/a19.png: S spawned 63.97 hard-dropped 64.07; L spawned 64.17, hard-dropped and locked on the KO frame 64.33 (score 68658->68688 at 64.33, piece on the stack, no flash, no row full). Lock at end_s counts."},
+{"n":23,"id":"ag25","side":"p1","op":"retype","t":349.37,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":1,
+ "source":"fr/g1/a23.png: T spun into the left slot, 'T-SPIN Double' + BACK to BACK banner from 349.94, score +5550 at 349.93 (TSD 3600x1.5 B2B + 150 REN); a plain double would be ~1050."},
+{"n":25,"id":"ag27","side":"p1","op":"retype","t":449.6,"was":["triple",3,0],"kind":"triple","lines":3,"pc":1,"gc":0,
+ "source":"fr/g1/a25.png: L (from hold, Z held at 449.63) placed ~449.7 clears 3 rows leaving an empty board, PERFECT CLEAR banner 449.77-450.4, score +6900 at 449.77."},
+{"n":25,"id":"ag27","side":"p1","op":"retype","t":449.83,"was":["triple",3,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"fr/g1/a25.png + nextcount: I spawned 449.83 and was held (~449.97), Z from hold dropped onto the empty board ~450.1 (lies at bottom-left at 450.24), no flash, score only +38/+1 drop points. Second 'triple' is a double-log of the PC triple."},
+{"n":26,"id":"ag29","side":"p1","op":"retype","t":585.73,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,
+ "source":"fr/g1/a26.png: O spawned 585.70 and held, J from hold dropped vertically ~585.9 clearing 2 rows to an empty board, PERFECT CLEAR banner 586.04-586.64, score 11524->16509 at 586.07."},
+{"n":26,"id":"ag29","side":"p1","op":"retype","t":586.13,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"fr/g1/a26.png + score: second O spawned 586.10, soft-dropped onto the empty board and locked ~586.4 (O alone at bottom-left at 586.44+), score only +1..+30 drop points (16509->16541). Not a clear; double-log of the PC double."},
+{"n":27,"id":"ag29","side":"p2","op":"add","t":697.9,"kind":"single","lines":1,"pc":0,"gc":0,
+ "source":"fr/g1/a27.png + nextcount: I spawned 697.87 and held 697.90, L from hold hard-dropped 698.06 (score +28) and cleared the coloured row above the garbage (white row flash 698.10, score +600 = single+REN at 698.10), before the KO at 698.4. Also answers n=28 (winner KO piece)."},
+{"n":30,"id":"ag33","side":"p1","op":"retype","t":838.73,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,
+ "source":"fr/g1/a30.png: L spawned 838.73 and held, Z from hold soft-dropped and locked ~839.45 clearing 2 rows to an empty board, PERFECT CLEAR banner 839.6-840.3, score 21545->26195 at 839.57-839.60."},
+{"n":30,"id":"ag33","side":"p1","op":"retype","t":839.63,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"fr/g1/a30.png + nextcount: O spawned 839.63 and held 839.73, L from hold hard-dropped onto the empty board ~839.85 (bottom-right at 840.1), score only +40 drop points. Not a clear; double-log of the PC double."},
+{"n":29,"id":"ag31","side":"p1","op":"add","t":769.1,"kind":null,"lines":0,"pc":0,"gc":0,
+ "source":"fr/g1/a29.png: Z spawned ~769.0 and held 769.10, O from hold hard-dropped and locked on the KO frame 769.23 (score 29107->29135 at 769.23, no flash, no row full). Lock at end_s counts."}
+],
+"cell_edits":[
+{"n":16,"id":"ag16","player":"p1","field":"pieces","was":131,"value":129,"source":"window 921.1-929.3 holds 5 real locks (S,J,O,I,I; the O spawned 922.77 and the I spawned 927.47/J 928.3 were holds, not locks) against 7 chain events; see fr/g1/a16a-d.png"},
+{"n":19,"id":"ag21","player":"p1","field":"pieces","was":97,"value":98,"source":"L locked on KO frame 64.33, fr/g1/a19.png"},
+{"n":27,"id":"ag29","player":"p2","field":"pieces","was":203,"value":204,"source":"L from hold locked 698.06 (single) before KO 698.4, fr/g1/a27.png"},
+{"n":29,"id":"ag31","player":"p1","field":"pieces","was":38,"value":39,"source":"O from hold locked on KO frame 769.23, fr/g1/a29.png"}
+],
+"no_change":[
+{"n":17,"why":"ag16 p1: J spawned 962.73 was soft-dropping (score +1/frame to 963.23) and reached the floor at 963.17 without hard drop; no lock by KO 963.20 (lock delay), victory screen 963.23. fr/g1/a17.png"},
+{"n":18,"why":"ag19 p1 1133.97: banner reads '...N Triple' + BACK to BACK, 3 rows flash, score +7200 = TST x1.5 B2B. Chain tst correct. fr/g1/a18.png"},
+{"n":20,"why":"ag22 p2 111.3: chain already logs a single; T dropped in flat clearing 1 row with REN banner only, no T-SPIN banner, score +450 (single+REN). fr/g1/a20.png"},
+{"n":21,"why":"ag23 p1: O spawned 159.44 was still at the top at KO frame 159.60 (ghost below); it lands at 159.64, after end_s. T at 159.07 already counted. fr/g1/a21.png"},
+{"n":22,"why":"ag24 p2 224.77: banner '...Triple', 3-row flash, score +4810 = TST (not B2B). Chain tst correct. fr/g1/a22.png"},
+{"n":24,"why":"ag26 p1: score jumps after 432.17 are the reader regaining the digits under the victory overlay (11345->11545 read at 432.23-432.27 while '?' before). Last pieces: I lock 431.83, O hard-dropped 432.07 (both in chain); L spawned 432.17 never locked. No missed clear. fr/g1/a24.png"},
+{"n":28,"why":"ag29 p2 KO piece: covered by the add at 697.9 under n=27 (L locked 698.06 clearing a single, plus pieces 203->204); no further spawn before KO 698.4."}
+]}

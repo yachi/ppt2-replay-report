@@ -1,0 +1,189 @@
+[
+ {
+  "id": "ag16",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 4.63 s from 922.83 s; B events spliced (D2/D3)",
+  "t_s": 922.83,
+  "n": 16
+ },
+ {
+  "id": "ag16",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.47 s before the KO)",
+  "t_s": 963.2,
+  "n": 17
+ },
+ {
+  "id": "ag19",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 1133.97 s",
+  "t_s": 1133.97,
+  "n": 18
+ },
+ {
+  "id": "ag21",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 64.33,
+  "n": 19
+ },
+ {
+  "id": "ag22",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tss at 111.3 s typed as a plain clear [tsb-hint-v1] one score jump +464 at 111.7 s: fits plain single only",
+  "t_s": 111.3,
+  "n": 20
+ },
+ {
+  "id": "ag23",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 159.6,
+  "n": 21
+ },
+ {
+  "id": "ag24",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 224.77 s",
+  "t_s": 224.77,
+  "n": 22
+ },
+ {
+  "id": "ag25",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 349.37 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 349.93 s: fits tsd only",
+  "t_s": 349.37,
+  "n": 23
+ },
+ {
+  "id": "ag26",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +75 at 432.43 s (KO 432.17 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 432.43,
+  "n": 24
+ },
+ {
+  "id": "ag27",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ag27",
+   "player": "p1",
+   "t0": 449.76,
+   "t1": 453.2,
+   "step": -1650,
+   "unexplained": -1650,
+   "near": [
+    [
+     449.6,
+     1500,
+     "triple"
+    ],
+    [
+     449.83,
+     1650,
+     "triple"
+    ],
+    [
+     452.43,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 449.76,
+  "n": 25
+ },
+ {
+  "id": "ag29",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ag29",
+   "player": "p1",
+   "t0": 586.04,
+   "t1": 588.9,
+   "step": -1500,
+   "unexplained": -1500,
+   "near": [
+    [
+     585.73,
+     1350,
+     "double"
+    ],
+    [
+     586.13,
+     1500,
+     "double"
+    ],
+    [
+     588.2,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 586.04,
+  "n": 26
+ },
+ {
+  "id": "ag29",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +628 at 698.07 s (KO 698.4 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 698.07,
+  "n": 27
+ },
+ {
+  "id": "ag29",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.53 s before the KO)",
+  "t_s": 698.4,
+  "n": 28
+ },
+ {
+  "id": "ag31",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.17 s before the KO)",
+  "t_s": 769.23,
+  "n": 29
+ },
+ {
+  "id": "ag33",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ag33",
+   "player": "p1",
+   "t0": 839.57,
+   "t1": 842.64,
+   "step": -1200,
+   "unexplained": -1200,
+   "near": [
+    [
+     839.63,
+     1200,
+     "double"
+    ],
+    [
+     841.67,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 839.57,
+  "n": 30
+ }
+]
