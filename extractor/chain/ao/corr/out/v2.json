@@ -1,0 +1,97 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py p2 91167->98253 at 772.40 single jump; nextcount: L spawned 772.20 clears with PC (fr/v2/s37.png shows 2 grey rows, gc 2), Z spawned 772.47 held -> S from hold, +37 drops only."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py p2 91167->98253 at 772.40 single jump; nextcount: L spawned 772.20 clears with PC (fr/v2/s37.png shows 2 grey rows, gc 2), Z spawned 772.47 held -> S from hold, +37 drops only."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py p2: 975.00 +900 double, then 6268->6751 (single+REN), 6787->11587 at 977.37 (+4800 double PC REN2). nextcount: Z spawned 976.63 held 977.03 -> T out = the PC clear; S spawned 977.43 held -> Z out, +35 drops only."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py p2: 975.00 +900 double, then 6268->6751 (single+REN), 6787->11587 at 977.37 (+4800 double PC REN2). nextcount: Z spawned 976.63 held 977.03 -> T out = the PC clear; S spawned 977.43 held -> Z out, +35 drops only."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py p1 10973->17873 at 1304.90 only jump; nextcount J spawn 1304.63 = PC, Z spawn 1304.97 held -> O out, +37 drops. fr/v2/s39.png: coloured stack only, gc 0."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py p1 10973->17873 at 1304.90 only jump; nextcount J spawn 1304.63 = PC, Z spawn 1304.97 held -> O out, +37 drops. fr/v2/s39.png: coloured stack only, gc 0."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score.py p2 11251->15901 at 1368.37 (+4650); nextcount O spawn 1368.03 = PC clear, T spawn 1368.43 held 1368.53 -> Z out, +34 drops only."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score.py p2 11251->15901 at 1368.37 (+4650); nextcount O spawn 1368.03 = PC clear, T spawn 1368.43 held 1368.53 -> Z out, +34 drops only."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score.py p2 11130->15780 at 1963.60; nextcount Z spawn 1963.23 held -> O out = PC; T spawn 1963.67 held -> Z out, +31 drops only."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score.py p2 11130->15780 at 1963.60; nextcount Z spawn 1963.23 held -> O out = PC; T spawn 1963.67 held -> Z out, +31 drops only."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "score.py p2 19872->33072 at 1969.90 single jump; nextcount T spawn 1969.50 held -> I = PC; O spawn 1969.97 locks with drop points only."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "score.py p2 19872->33072 at 1969.90 single jump; nextcount T spawn 1969.50 held -> I = PC; O spawn 1969.97 locks with drop points only."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "fr/v2/s43.png: S spawn 127.20 held, I locks 127.40, PC 127.46 (+13200); T spawned 127.53 hard-dropped to bottom (+36), L spawned ~127.67 locked left (+28 at 128.07); both visible on board at 128.13, no clear. gc 0 (coloured stack)."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "fr/v2/s43.png: S spawn 127.20 held, I locks 127.40, PC 127.46 (+13200); T spawned 127.53 hard-dropped to bottom (+36), L spawned ~127.67 locked left (+28 at 128.07); both visible on board at 128.13, no clear. gc 0 (coloured stack)."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "fr/v2/s43.png: S spawn 127.20 held, I locks 127.40, PC 127.46 (+13200); T spawned 127.53 hard-dropped to bottom (+36), L spawned ~127.67 locked left (+28 at 128.07); both visible on board at 128.13, no clear. gc 0 (coloured stack)."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "fr/v2/s44.png: O spawn 437.52 held, I from hold locks 437.79, PC 437.85 (+8550); J spawned 437.92 locks bottom right (+35), next piece locks (+38 at 438.40), no clears; coloured stack, gc 0."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "fr/v2/s44.png: O spawn 437.52 held, I from hold locks 437.79, PC 437.85 (+8550); J spawned 437.92 locks bottom right (+35), next piece locks (+38 at 438.40), no clears; coloured stack, gc 0."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "fr/v2/s45.png: S 550.62 locks, T 550.82 held -> S from hold locks, Z 551.09 held -> T placed flat at left, board empty 551.35, PERFECT CLEAR 551.42, no T-SPIN banner; 17913->22525 fits double PC 4500 + drops, no room for a separate single. Next piece (O, not L as the checker wrote) spawned 551.42 and locked ~551.87 with drop points only; gc 0."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "fr/v2/s45.png: S 550.62 locks, T 550.82 held -> S from hold locks, Z 551.09 held -> T placed flat at left, board empty 551.35, PERFECT CLEAR 551.42, no T-SPIN banner; 17913->22525 fits double PC 4500 + drops, no room for a separate single. Next piece (O, not L as the checker wrote) spawned 551.42 and locked ~551.87 with drop points only; gc 0."
+ }
+]

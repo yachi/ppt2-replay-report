@@ -1,0 +1,12 @@
+[
+ {"ref":"e0","verdict":"keep","why":"fr/v1/a15.png: J locks 1304.83 (+34) completing 3 rows of player blocks (no garbage, gc 0); board empty with PERFECT CLEAR banner 1304.90-1305.6; one score jump +6900 at 1304.90."},
+ {"ref":"e1","verdict":"keep","why":"fr/v1/a15.png + score.py: after the PC only soft-drop points (17873->17880), Z held at 1305.33, O hard-drops at 1305.50 (+37) on the empty board, no clear and no second clear jump. Second triple is a double-log; a plain lock is right."},
+ {"ref":"e2","verdict":"keep","why":"fr/v1/a18.png: T rotated into the slot 1508.95-1509.10, 2 rows flash 1509.25; score +5400 at 1509.23 = TSD x1.5 B2B."},
+ {"ref":"e3","verdict":"keep","why":"fr/v1/a21.png: T soft-dropped and rotated into the bottom slot 1877.75-1877.80, 2 rows clear 1877.85-1877.95, banner '...Double' + BACK to BACK; +5550 at 1877.93."},
+ {"ref":"e4","verdict":"keep","why":"fr/v1/a23.png: T held for the I at 1969.63, I vertical at the right clears all 4 (colored, non-garbage) rows 1969.85-1969.90, empty board + PERFECT CLEAR banner; +13200 at 1969.90."},
+ {"ref":"e5","verdict":"keep","why":"fr/v1/a23.png + score.py: O locks ~1970.40 (+24 hard drop) on the empty board, no clear, no second clear jump; second quad is a double-log."},
+ {"ref":"e6","verdict":"keep","why":"fr/v1/a24.png (21.7-28.7): S spawned 21.77 and falls slowly at the right until it locks ~28.2; score flat 520 from 21.93 to 28.7; nextcount shifts only at 21.767 and 28.533 (T, the chain's 28.53 tst event). 22.0 and 28.03 are phantoms."},
+ {"ref":"e7","verdict":"keep","why":"fr/v1/a30.png (460.3-462.0): after the 459.77 tetris, O locks 460.83 (+24), J 460.97 (+28), L spawned 461.1 and held (T out), T locks 461.33 (+24), O 461.47 (+26), I 461.83 (+24) then tetris +3600 at 461.90; 5 pieces in place of the chain's 8. Flash covers 4 rows incl. garbage rows, gc 2 plausible."},
+ {"ref":"c0","verdict":"keep","why":"follows e6: one spawn (S) in 21.77-28.53 where the chain logged three; 65 -> 63."},
+ {"ref":"c1","verdict":"keep","why":"follows e7: 5 hard-drop score steps in 460.3-461.9 where the chain logged 8 locks; 229 -> 226."}
+]
