@@ -1,0 +1,49 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 4,
+   "id": "ai03",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 50775 at the last spawn (271.97 s) and still 50775 after the KO (272.07 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 18,
+   "id": "ai21",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 55788 at the last spawn (1383.17 s) and still 55788 after the KO (1383.50 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 19,
+   "id": "ai24",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 82959 at the last spawn (1534.20 s) and still 82959 after the KO (1534.30 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 35,
+   "id": "ai38",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 90504 at the last spawn (1106.47 s) and still 90504 after the KO (1107.30 s): nothing locked"
+  }
+ ],
+ "audit": [],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 14,
+   "hint": "[tsb-hint-v1] one score jump +1218 at 1097.66 s: fits plain single only"
+  }
+ ],
+ "no_ocr": []
+}

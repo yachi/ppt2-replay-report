@@ -1,0 +1,102 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "score.py: p1 6237 (288.03) -> 11557 at 289.80, one jump, then 11557->11593 drop points only; sheet fr/v2/ai04.png shows the T (vertical, no T-spin banner) emptying the board, PERFECT CLEAR at 289.9, then the S locking with no clear."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "score.py: p1 6237 (288.03) -> 11557 at 289.80, one jump, then 11557->11593 drop points only; sheet fr/v2/ai04.png shows the T (vertical, no T-spin banner) emptying the board, PERFECT CLEAR at 289.9, then the S locking with no clear."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "score.py: p1 22621.. -> 27194 at 629.60 single jump, then 27234/27270 drop points only; no second clear."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "score.py: p1 22621.. -> 27194 at 629.60 single jump, then 27234/27270 drop points only; no second clear."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "score.py: p2 11297 -> 12197 -> 15797 at 623.43-623.47 (double then PC bonus), then 15835 at 623.97 drop points only."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "score.py: p2 11297 -> 12197 -> 15797 at 623.43-623.47 (double then PC bonus), then 15835 at 623.97 drop points only."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "score.py: p1 10829 -> 17729 at 895.57 (+6900 = triple 1500 + PC 5400), then only drop points to 17798 by 896.23."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "score.py: p1 10829 -> 17729 at 895.57 (+6900 = triple 1500 + PC 5400), then only drop points to 17798 by 896.23."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "score.py: p1 47922 -> 54822 at 1181.93 (+6900 triple+PC, no REN bonus), then 54823 -> 54860 drop points only."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "score.py: p1 47922 -> 54822 at 1181.93 (+6900 triple+PC, no REN bonus), then 54823 -> 54860 drop points only."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "score.py: p2 10988 -> 17888 at 1401.17 (+6900 triple+PC), then 17926/17964 drop points only."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "score.py: p2 10988 -> 17888 at 1401.17 (+6900 triple+PC), then 17926/17964 drop points only."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "score.py: p2 6894 -> 11580 (digits hidden 1474.93-1475.53; +4686 = double 900 + REN 150 + PC 3600 + drops), then 11618 drop points only."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "score.py: p2 6894 -> 11580 (digits hidden 1474.93-1475.53; +4686 = double 900 + REN 150 + PC 3600 + drops), then 11618 drop points only."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "score.py: p1 11116 -> 15766 at 100.47 (+4650 = double+REN+PC), then 15804 drop points only."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "score.py: p1 11116 -> 15766 at 100.47 (+4650 = double+REN+PC), then 15804 drop points only."
+ },
+ {
+  "ref": "e16",
+  "verdict": "keep",
+  "why": "score.py: p1 48819 (239.5) -> 49223 (241.13) = +404, a single + drops only (the 240.23 single), so no double at 241.03; 49240 -> 50290 -> 53890 at 241.87-241.90 is the I's PC double; 53928 -> 53964 drop points. Sheet fr/v2/ai28.png: O held at 241.1, Z from hold vertical bottom-left at 241.7 with no row clearing, PC banner 241.94."
+ },
+ {
+  "ref": "e17",
+  "verdict": "keep",
+  "why": "score.py: p1 48819 (239.5) -> 49223 (241.13) = +404, a single + drops only (the 240.23 single), so no double at 241.03; 49240 -> 50290 -> 53890 at 241.87-241.90 is the I's PC double; 53928 -> 53964 drop points. Sheet fr/v2/ai28.png: O held at 241.1, Z from hold vertical bottom-left at 241.7 with no row clearing, PC banner 241.94."
+ },
+ {
+  "ref": "e18",
+  "verdict": "keep",
+  "why": "score.py: p1 48819 (239.5) -> 49223 (241.13) = +404, a single + drops only (the 240.23 single), so no double at 241.03; 49240 -> 50290 -> 53890 at 241.87-241.90 is the I's PC double; 53928 -> 53964 drop points. Sheet fr/v2/ai28.png: O held at 241.1, Z from hold vertical bottom-left at 241.7 with no row clearing, PC banner 241.94."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Recomputed from cseq: the only consecutive-clear pair in ai18 p1 is 1181.8 triple / 1182.0 triple; with 1182.0 a plain lock (score 54823->54860 drop only) max_combo drops 1 -> 0. +6900 at the PC carries no REN bonus. Checked the other eight player-games: removing their phantoms leaves max_combo unchanged."
+ }
+]
