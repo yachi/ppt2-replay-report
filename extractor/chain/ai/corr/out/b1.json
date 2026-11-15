@@ -1,0 +1,373 @@
+{
+ "event_corrections": [
+  {
+   "n": 21,
+   "id": "ai26",
+   "side": "p1",
+   "op": "retype",
+   "t": 100.13,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g1/n21.png: O held at 100.233, J from hold locks ~100.38 completing two rows on a 2-row board -> PERFECT CLEAR, empty board; score 11116->15766 (+4650 = PC double)."
+  },
+  {
+   "n": 21,
+   "id": "ai26",
+   "side": "p1",
+   "op": "retype",
+   "t": 100.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g1/n21.png: after the PC the board is empty; the L locks ~101.1 on the empty floor with no clear and no score step."
+  },
+  {
+   "n": 23,
+   "id": "ai28",
+   "side": "p2",
+   "op": "remove",
+   "t": 205.73,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g1/n23.png, fr/g1/n27.png: p2 after TSD 204.6: next clear is I single ~209.4 (+450 = REN1); no clear or score step near 205.7. Score sequence 204.6-226.4 matches chain only with this event removed."
+  },
+  {
+   "n": 24,
+   "id": "ai28",
+   "side": "p2",
+   "op": "remove",
+   "t": 212.63,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "fr/g1/n23.png, fr/g1/n27.png: p2 clears after 209.4 are Z double (+1200), S double (+1368), hold piece double ~222.6 (+1500), single 223.47 (+1060); no double around 212.6 (no score step, board unchanged)."
+  },
+  {
+   "n": 25,
+   "id": "ai28",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 206.33,
+   "t_end": 221.6,
+   "events": [
+    {
+     "t": 206.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 210.8,
+     "kind": "double",
+     "lines": 2,
+     "pc": 0,
+     "gc": 2
+    },
+    {
+     "t": 212.33,
+     "kind": "quad",
+     "lines": 4,
+     "pc": 0,
+     "gc": 4
+    }
+   ],
+   "was_old": [
+    [
+     206.33,
+     "single",
+     1
+    ],
+    [
+     206.5,
+     "single",
+     1
+    ],
+    [
+     210.8,
+     "double",
+     2
+    ],
+    [
+     212.3,
+     "quad",
+     4
+    ],
+    [
+     212.33,
+     "double",
+     2
+    ],
+    [
+     221.6,
+     "quad",
+     4
+    ]
+   ],
+   "source": "fr/g1/n25.png, fr/g1/n26.png, fr/g1/n27.png: long real stall; p1 locks in window: Z single ~210.15 (+1050, REN5), L double ~211.55 (+1800, REN6), I tetris ~221.8 (+3450, banner 7 REN). Only three clears; 206.33 single, 212.3 quad and the 221.6 quad duplicate are phantoms."
+  },
+  {
+   "n": 29,
+   "id": "ai28",
+   "side": "p1",
+   "op": "retype",
+   "t": 241.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "fr/g1/n29.png, fr/g1/n29b.png: Z from hold clears two rows at ~241.85 leaving an empty board, PERFECT CLEAR banner, score +4650."
+  },
+  {
+   "n": 29,
+   "id": "ai28",
+   "side": "p1",
+   "op": "retype",
+   "t": 241.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g1/n29.png, fr/g1/n29b.png: I locks flat on the empty board, no clear; score only drop points until TSD 244.07."
+  },
+  {
+   "n": 29,
+   "id": "ai28",
+   "side": "p1",
+   "op": "retype",
+   "t": 242.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "fr/g1/n29.png, fr/g1/n29b.png: Z locks on top of the I with no clear; no score step until TSD 244.07."
+  },
+  {
+   "n": 33,
+   "id": "ai31",
+   "side": "p1",
+   "op": "retype",
+   "t": 667.57,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/n33.png, fr/g1/n33s.png: two rows clear, 'T-SPIN Double' banner; score 6903 -> 10672 at 669.2 (TSD 3600 + REN1 150 + drops)."
+  },
+  {
+   "n": 36,
+   "id": "ai40",
+   "side": "p1",
+   "op": "remove",
+   "t": 1206.63,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g1/n36.png: the 1199.9 gap is a real stall (T hovers 1200.6-1206.4, queue unchanged). After it clears come one per piece: banners 1 REN ~1206.5, 2 REN ~1207.6, 3..6 REN at 1208.6-1211.0. Score steps (sc40) 450,600,750,900,1050,1200,1350,1500,1650,1800,1950,2100 = REN1..12 = 12 singles, while chain has 13 singles 1199.9-1217.67; 1206.63 (0.1 s after 1206.53) is the duplicate."
+  },
+  {
+   "n": 37,
+   "id": "ai40",
+   "side": "p2",
+   "op": "remove",
+   "t": 1217.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g1/n38.png: REN13 clear by the T ~1216.9 (score 30439); J then held, O out of hold hovers 1217.9-1230.9 with no lock or clear, score flat 30439 until the O clears ~1231.8 (+2400 = REN14). Later steps 2550,2700,2850,3600(double REN18),3150 match chain 1231.27..1236.1 one-to-one, so no clear exists at 1217.07."
+  },
+  {
+   "n": 37,
+   "id": "ai40",
+   "side": "p2",
+   "op": "remove",
+   "t": 1217.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "fr/g1/n38.png: same stall; 0.06 s after 1217.07, no clear, score flat 1216.9-1231.8."
+  },
+  {
+   "n": 39,
+   "id": "ai40",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1218.6,
+   "t_end": 1231.13,
+   "events": [
+    {
+     "t": 1218.6,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1218.6,
+     "single",
+     1
+    ],
+    [
+     1218.67,
+     "single",
+     1
+    ],
+    [
+     1223.5,
+     null,
+     0
+    ],
+    [
+     1223.67,
+     "BREAK",
+     2
+    ],
+    [
+     1230.47,
+     "single",
+     1
+    ],
+    [
+     1231.13,
+     "BREAK",
+     1
+    ]
+   ],
+   "source": "fr/g1/n39.png: I spawned 1218.5 hovers to ~1223.5, then is held and the Z from hold hovers to ~1230.3 and clears one row: score 28408->30660 (+2250 = REN13), banner '13 REN' at 1230.7; next clear 1231.17 +2400 REN14. Score flat 1217.87-1230.27: only one clear, no no-clear lock, no REN break."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 25,
+   "id": "ai28",
+   "player": "p1",
+   "field": "pieces",
+   "was": 231,
+   "value": 228,
+   "source": "phantoms removed in 206.33-221.6 window (fr/g1/n25.png, n26.png, n27.png): 3 locks fewer."
+  },
+  {
+   "n": 25,
+   "id": "ai28",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 10,
+   "value": 8,
+   "source": "REN at 221.8 tetris is 7 (banner '7 REN', +3450); longest run is 8 REN at 327.7 (fr/g1/n27ren.png)."
+  },
+  {
+   "n": 23,
+   "id": "ai28",
+   "player": "p2",
+   "field": "pieces",
+   "was": 225,
+   "value": 223,
+   "source": "phantom singles 205.73 and 212.63 removed (fr/g1/n23.png, n27.png)."
+  },
+  {
+   "n": 39,
+   "id": "ai40",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 15,
+   "value": 22,
+   "source": "Run unbroken from double ~1199.7 (REN0, +900): score steps REN1..REN20 (450..3300) then 3300,3300 at 1237.83 and 1239.4; last L locks 1239.4 before KO 1239.5, clear shows '22 REN' (fr/g1/n39end.png). The chain's BREAKs at 1223.67/1231.13 are phantoms (fr/g1/n39.png). 22 REN = 23 consecutive clears -> 22."
+  },
+  {
+   "n": 38,
+   "id": "ai40",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 21,
+   "value": 19,
+   "source": "Score steps 450..2250 = REN1..13 to 1216.9, then 2400,2550,2700,2850,3600(double, 900+2700=REN18),3150 = REN14..19 to 1236.2; no further clear before KO. Max 19; chain 21 includes phantom singles 1217.07/1217.13 (fr/g1/n38.png)."
+  },
+  {
+   "n": 38,
+   "id": "ai40",
+   "player": "p2",
+   "field": "pieces",
+   "was": 76,
+   "value": 74,
+   "source": "csv equals the chain lock count (76); the two phantom singles 1217.07/1217.13 are not locks (J held, O hovers until 1231) - fr/g1/n38.png."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 20,
+   "why": "J spawned 82.70 still falling at 82.83, would lock ~82.87, after KO 82.8 (fr/g1/n20.png); chain fine."
+  },
+  {
+   "n": 22,
+   "why": "+4800 is the TST locking ~184.97, already in chain as 184.2 tst (spawn time) (fr/g1/n22.png, n22b.png)."
+  },
+  {
+   "n": 26,
+   "why": "covered by the n25 ai28 p1 replace_window (same stall)."
+  },
+  {
+   "n": 27,
+   "why": "covered by n25/n23/n24 ai28 corrections; frames fr/g1/n27.png consistent."
+  },
+  {
+   "n": 28,
+   "why": "covered by the ai28 corrections; p2 REN run reaches 8 by 226.43 so p2 max_combo 8 stays (fr/g1/n28ren.png)."
+  },
+  {
+   "n": 30,
+   "why": "TST B2B, +7200, 'Triple BACK' banner (fr/g1/n30.png); chain correct."
+  },
+  {
+   "n": 31,
+   "why": "T reached floor 331.28 under soft drop after KO 331.27, not locked (fr/g1/n31.png); chain correct."
+  },
+  {
+   "n": 32,
+   "why": "TST B2B, +7200 (fr/g1/n32.png); chain correct."
+  },
+  {
+   "n": 34,
+   "why": "TST B2B, +7200 (fr/g1/n34.png); chain correct."
+  }
+ ]
+}

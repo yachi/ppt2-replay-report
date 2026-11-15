@@ -1,0 +1,339 @@
+{
+ "event_corrections": [
+  {
+   "n": 40,
+   "id": "ai04",
+   "side": "p1",
+   "op": "retype",
+   "t": 289.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Board empties and PERFECT CLEAR banner at 289.8-289.9 after the T fills the last 2 rows (2 REN shown); p1 score 6237 -> 11557 at 289.80 (double+REN+PC bonus). The next piece (S, spawned ~289.9) locks bottom-left at ~290.1 with no clear: score 11557 -> 11593 drop points only, board at 290.3 shows the S standing. Frames: /tmp/claude-0/ai/corr/fr/g2/ai04a.png /tmp/claude-0/ai/corr/fr/g2/ai04b.png"
+  },
+  {
+   "n": 40,
+   "id": "ai04",
+   "side": "p1",
+   "op": "retype",
+   "t": 289.87,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=289.87 locks with no line clear (see previous); it was a plain lock. Board empties and PERFECT CLEAR banner at 289.8-289.9 after the T fills the last 2 rows (2 REN shown); p1 score 6237 -> 11557 at 289.80 (double+REN+PC bonus). The next piece (S, spawned ~289.9) locks bottom-left at ~290.1 with no clear: score 11557 -> 11593 drop points only, board at 290.3 shows the S standing. Frames: /tmp/claude-0/ai/corr/fr/g2/ai04a.png /tmp/claude-0/ai/corr/fr/g2/ai04b.png"
+  },
+  {
+   "n": 41,
+   "id": "ai09",
+   "side": "p1",
+   "op": "retype",
+   "t": 629.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "L placed at 629.3-629.5 completes the 2 remaining rows; board empty and PERFECT CLEAR at 629.6-629.7; score 22621 -> 27194 at 629.60. Then O to hold, Z placed bottom at ~630.0 with no clear (score 27194 -> 27234/27270 drop points; Z visible on board at 630.1). Frames: /tmp/claude-0/ai/corr/fr/g2/ai09a.png"
+  },
+  {
+   "n": 41,
+   "id": "ai09",
+   "side": "p1",
+   "op": "retype",
+   "t": 629.67,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=629.67 locks with no line clear (see previous); it was a plain lock. L placed at 629.3-629.5 completes the 2 remaining rows; board empty and PERFECT CLEAR at 629.6-629.7; score 22621 -> 27194 at 629.60. Then O to hold, Z placed bottom at ~630.0 with no clear (score 27194 -> 27234/27270 drop points; Z visible on board at 630.1). Frames: /tmp/claude-0/ai/corr/fr/g2/ai09a.png"
+  },
+  {
+   "n": 42,
+   "id": "ai09",
+   "side": "p2",
+   "op": "retype",
+   "t": 623.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O hard-dropped at ~623.4 completes 2 rows; PERFECT CLEAR banner and empty board 623.5-623.6; p2 score 11297 -> 12197 -> 15797 at 623.43-623.47 (double + PC). Next O spawns 623.5 and locks bottom-left at ~623.8 with no clear (15797 -> 15835 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai09b.png"
+  },
+  {
+   "n": 42,
+   "id": "ai09",
+   "side": "p2",
+   "op": "retype",
+   "t": 623.5,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=623.5 locks with no line clear (see previous); it was a plain lock. O hard-dropped at ~623.4 completes 2 rows; PERFECT CLEAR banner and empty board 623.5-623.6; p2 score 11297 -> 12197 -> 15797 at 623.43-623.47 (double + PC). Next O spawns 623.5 and locks bottom-left at ~623.8 with no clear (15797 -> 15835 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai09b.png"
+  },
+  {
+   "n": 43,
+   "id": "ai14",
+   "side": "p1",
+   "op": "retype",
+   "t": 895.27,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "S held, J dropped vertical at left ~895.45 completes 3 rows; empty board + PERFECT CLEAR at 895.6-895.7; score 10829 -> 17729 at 895.57 (triple + PC). Next S locks bottom-left ~895.95 with no clear (17731 -> 17763 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai14a.png"
+  },
+  {
+   "n": 43,
+   "id": "ai14",
+   "side": "p1",
+   "op": "retype",
+   "t": 895.63,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=895.63 locks with no line clear (see previous); it was a plain lock. S held, J dropped vertical at left ~895.45 completes 3 rows; empty board + PERFECT CLEAR at 895.6-895.7; score 10829 -> 17729 at 895.57 (triple + PC). Next S locks bottom-left ~895.95 with no clear (17731 -> 17763 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai14a.png"
+  },
+  {
+   "n": 44,
+   "id": "ai18",
+   "side": "p1",
+   "op": "retype",
+   "t": 1181.8,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "J from hold completes 3 rows at ~1181.9; empty board + PERFECT CLEAR 1182.0; score 47922 -> 54822 at 1181.93 (triple + PC). Next Z goes to hold, O locks bottom-right ~1182.3 with no clear (54823 -> 54860 drop points). No REN label is shown at the PC (the piece before it at ~1181.5 cleared nothing, score unchanged 47850). Frames: /tmp/claude-0/ai/corr/fr/g2/ai18a.png"
+  },
+  {
+   "n": 44,
+   "id": "ai18",
+   "side": "p1",
+   "op": "retype",
+   "t": 1182.0,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=1182.0 locks with no line clear (see previous); it was a plain lock. J from hold completes 3 rows at ~1181.9; empty board + PERFECT CLEAR 1182.0; score 47922 -> 54822 at 1181.93 (triple + PC). Next Z goes to hold, O locks bottom-right ~1182.3 with no clear (54823 -> 54860 drop points). No REN label is shown at the PC (the piece before it at ~1181.5 cleared nothing, score unchanged 47850). Frames: /tmp/claude-0/ai/corr/fr/g2/ai18a.png"
+  },
+  {
+   "n": 45,
+   "id": "ai22",
+   "side": "p2",
+   "op": "retype",
+   "t": 1400.93,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "L placed at ~1401.1 completes 3 rows; PERFECT CLEAR and empty board from 1401.2; p2 score 10988 -> 17888 at 1401.17 (triple + PC). Then I to hold, O locks bottom-left ~1401.6 with no clear (17888 -> 17926 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai22a.png"
+  },
+  {
+   "n": 45,
+   "id": "ai22",
+   "side": "p2",
+   "op": "retype",
+   "t": 1401.23,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=1401.23 locks with no line clear (see previous); it was a plain lock. L placed at ~1401.1 completes 3 rows; PERFECT CLEAR and empty board from 1401.2; p2 score 10988 -> 17888 at 1401.17 (triple + PC). Then I to hold, O locks bottom-left ~1401.6 with no clear (17888 -> 17926 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai22a.png"
+  },
+  {
+   "n": 46,
+   "id": "ai24",
+   "side": "p2",
+   "op": "retype",
+   "t": 1475.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "T dropped into the slot at ~1475.5 completes 2 rows; empty board + PERFECT CLEAR (REN shown) 1475.6; p2 score 6894 -> 11580 by 1475.57 (score digits hidden 1474.93-1475.53). Next O locks bottom-left ~1476.0 with no clear (11580 -> 11618 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai24a.png"
+  },
+  {
+   "n": 46,
+   "id": "ai24",
+   "side": "p2",
+   "op": "retype",
+   "t": 1475.63,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=1475.63 locks with no line clear (see previous); it was a plain lock. T dropped into the slot at ~1475.5 completes 2 rows; empty board + PERFECT CLEAR (REN shown) 1475.6; p2 score 6894 -> 11580 by 1475.57 (score digits hidden 1474.93-1475.53). Next O locks bottom-left ~1476.0 with no clear (11580 -> 11618 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai24a.png"
+  },
+  {
+   "n": 47,
+   "id": "ai26",
+   "side": "p1",
+   "op": "retype",
+   "t": 100.13,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O to hold, J dropped vertical ~100.4 completes 2 rows; empty board + PERFECT CLEAR (REN) 100.5; score 11116 -> 15766 at 100.47 (double+REN+PC). Next L locks bottom ~101.0 with no clear (15766 -> 15804 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai26a.png"
+  },
+  {
+   "n": 47,
+   "id": "ai26",
+   "side": "p1",
+   "op": "retype",
+   "t": 100.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom clear: the piece logged at t=100.53 locks with no line clear (see previous); it was a plain lock. O to hold, J dropped vertical ~100.4 completes 2 rows; empty board + PERFECT CLEAR (REN) 100.5; score 11116 -> 15766 at 100.47 (double+REN+PC). Next L locks bottom ~101.0 with no clear (15766 -> 15804 drop points). Frames: /tmp/claude-0/ai/corr/fr/g2/ai26a.png"
+  },
+  {
+   "n": 48,
+   "id": "ai28",
+   "side": "p1",
+   "op": "retype",
+   "t": 241.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: the Z (from hold) locks with no clear. nextcount: O spawn 241.033 -> held, Z from hold placed vertical at bottom-left ~241.7 with no clear (score 49223 -> 49240 drop points only); I spawned 241.933 and hard-dropped completing 2 rows: PERFECT CLEAR + empty board 241.9-242.0, score 49240 -> 50290 -> 53890 at 241.87-241.90 (double+REN, PC bonus). Next Z spawned 242.067 locks bottom ~242.3 with no clear (53928 -> 53964 drop). Frames: /tmp/claude-0/ai/corr/fr/g2/ai28a.png"
+  },
+  {
+   "n": 48,
+   "id": "ai28",
+   "side": "p1",
+   "op": "retype",
+   "t": 241.93,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Real PC double by the I. nextcount: O spawn 241.033 -> held, Z from hold placed vertical at bottom-left ~241.7 with no clear (score 49223 -> 49240 drop points only); I spawned 241.933 and hard-dropped completing 2 rows: PERFECT CLEAR + empty board 241.9-242.0, score 49240 -> 50290 -> 53890 at 241.87-241.90 (double+REN, PC bonus). Next Z spawned 242.067 locks bottom ~242.3 with no clear (53928 -> 53964 drop). Frames: /tmp/claude-0/ai/corr/fr/g2/ai28a.png"
+  },
+  {
+   "n": 48,
+   "id": "ai28",
+   "side": "p1",
+   "op": "retype",
+   "t": 242.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: Z locks with no clear. nextcount: O spawn 241.033 -> held, Z from hold placed vertical at bottom-left ~241.7 with no clear (score 49223 -> 49240 drop points only); I spawned 241.933 and hard-dropped completing 2 rows: PERFECT CLEAR + empty board 241.9-242.0, score 49240 -> 50290 -> 53890 at 241.87-241.90 (double+REN, PC bonus). Next Z spawned 242.067 locks bottom ~242.3 with no clear (53928 -> 53964 drop). Frames: /tmp/claude-0/ai/corr/fr/g2/ai28a.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 44,
+   "id": "ai18",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 1,
+   "value": 0,
+   "source": "The chain's only REN step in ai18 p1 is the phantom triple at 1182.0 (O locked with no clear, score 54823->54860); the PC at 1181.8 had no clear before it (score 47850 unchanged through 1181.6, no REN label at the PC). Without the phantom the chain's events hold no consecutive clears. Frames: /tmp/claude-0/ai/corr/fr/g2/ai18a.png"
+  }
+ ],
+ "no_change": []
+}

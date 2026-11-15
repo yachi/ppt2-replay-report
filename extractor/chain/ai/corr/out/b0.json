@@ -1,0 +1,30 @@
+{"event_corrections":[
+ {"n":0,"id":"ai01","side":"p1","op":"remove","t":86.4,"was":[null,0,0],"source":"Stream stall 77.7-91.1 s (pieces fall at gravity, both idle). fr/g0/s0.png, fr/g0/s1.png: the O spawned 77.70 s slides down and locks ~86.2-86.7 s; no other piece appears until the T spawns 91.13 s (held, I from hold -> quad, +3600 at 92.07 s). nextcount p1: shifts only at 77.47, 77.70, 91.13. The 86.4 s lock is a phantom (the O is the 77.70 s event)."},
+ {"n":1,"id":"ai01","side":"p2","op":"remove","t":85.93,"was":["single",1,0],"source":"fr/g0/s0.png, fr/g0/s2.png: O spawned 78.30 s falls during the stall, locks ~86.0 s; its single scores +1050 (REN5, banner 5 REN) at 90.77 s; next spawn (L) 91.43 s -> single +1216 (REN6) at 92.80 s. nextcount p2: shifts only at 77.20, 78.30, 91.43. Score shows only one clear between 77.93 and 92.8 besides 91.43; the 85.93 s single is a phantom duplicate of the 78.30 s O."}
+,{"n":10,"id":"ai14","side":"p1","op":"replace_window","t":895.27,"t_end":895.63,"events":[{"t":895.27,"kind":null,"lines":0,"pc":0,"gc":0},{"t":895.33,"kind":"double","lines":2,"pc":1,"gc":0},{"t":895.63,"kind":null,"lines":0,"pc":0,"gc":0}],"was_old":[[895.27,null,0],[895.27,"triple",3],[895.63,"triple",3]],"source":"fr/g0/s7.png: board is 2 rows high; L (spawn 895.07) locks with no clear, S spawned 895.27 is held and the J from hold completes both rows at ~895.5 -> PERFECT CLEAR banner 895.6 s, empty board; score +6900 at 895.57 s in one step. T spawned 895.63 held, S from hold placed on empty board 895.9 with no clear. No triples."},
+ {"n":11,"id":"ai14","side":"p1","op":"retype","t":913.87,"was":["tss",1,0],"kind":"tsd","lines":2,"gc":1,"source":"fr/g0/s8.png: I spawned 913.87 held, T from hold placed upright at right wall ~914.6-914.75; T-SPIN Double + REN banner at 914.75 s, two rows (bottom garbage row and the row above) flash; score 39009 -> 42777 (+3768 = TSD 3600 + REN1 150 + drops)."},
+ {"n":13,"id":"ai15","side":"p2","op":"retype","t":988.43,"was":["tss",1,0],"kind":"tsd","lines":2,"gc":0,"source":"fr/g0/s9.png: T-SPIN Double + BACK to BACK banner ~989.0 s; score 5367 -> 10774 at 989.53 s (+5400 = TSD B2B after the 985.3 TST; TSS B2B would be 3600)."},
+ {"n":15,"id":"ai19","side":"p2","op":"replace_window","t":1242.3,"t_end":1244.43,"events":[],"was_old":[[1242.3,null,0],[1242.47,"BREAK",0],[1244.43,"BREAK",2]],"source":"Stream stall. fr/g0/s11.png; nextcount p2: no spawn between 1229.63 and 1247.00. The T played 1229.63 falls during the stall and its single scores +2550 (REN15) at 1246.33; S (1247.0) +2700 REN16 at 1249.13; I +2850 REN17 at 1250.30; O +3000 REN18 at 1250.97. No lock and no REN break in the window."},
+ {"n":16,"id":"ai19","side":"p1","op":"replace_window","t":1238.17,"t_end":1247.8,"events":[{"t":1238.47,"kind":"tsmini","lines":1,"pc":0,"gc":0}],"was_old":[[1238.17,null,0],[1238.27,"BREAK",3],[1238.53,"tsmini",1],[1245.33,null,0],[1247.8,"tsmini",1]],"source":"Stream stall. fr/g0/s11.png, fr/g0/s12.png: Z single +2550 (REN15) at 1237.83; T spawns 1238.47 (nextcount), slides down to ~1245 and is the only piece until L spawns 1248.63; Mini T-SPIN Single banner + score +3000 (600 + REN16 2400) at 1247.97. REN continues: L +2850 REN17 1248.73, O +3000 REN18 (banner 18 REN) 1249.50, +3150 1250.37, +3300 1251.13."}
+],
+"cell_edits":[
+ {"n":0,"id":"ai01","player":"p1","field":"pieces","was":119,"value":118,"source":"one phantom lock at 86.4 s removed (see event correction n0)"},
+ {"n":1,"id":"ai01","player":"p2","field":"pieces","was":109,"value":108,"source":"phantom single at 85.93 s removed (n1)"},
+ {"n":1,"id":"ai01","player":"p2","field":"max_combo","was":7,"value":6,"source":"REN banner 5 REN on the 78.30 O single, REN6 on 91.43 L single (+1216 at 92.80); recomputed chain with phantom removed gives 6"},
+ {"n":15,"id":"ai19","player":"p2","field":"pieces","was":163,"value":162,"source":"phantom lock 1242.3 removed (n15)"},
+ {"n":15,"id":"ai19","player":"p2","field":"max_combo","was":14,"value":18,"source":"scores: REN15 +2550 1246.33, +2700 1249.13, +2850 1250.30, +3000 (REN18) 1250.97, then chain breaks (1251.63 lock). BREAK markers in the stall were false."},
+ {"n":16,"id":"ai19","player":"p1","field":"pieces","was":169,"value":166,"source":"4 chain events (1238.17, 1238.53, 1245.33, 1247.8) are one T piece (n16)"},
+ {"n":16,"id":"ai19","player":"p1","field":"max_combo","was":13,"value":20,"source":"banners 13/14/15 REN, 18 REN at 1249.9; scores +3150 (REN19) 1250.37, +3300 (REN20) 1251.13, then +900 double without REN at 1252.40"}
+],
+"no_change":[
+ {"n":2,"why":"same window as n1; fixed there"},
+ {"n":3,"why":"fr/g0/s3.png: the T-SPIN Single banner at 154.6 is the lingering 152.53 TSS; T-SPIN Triple banner at 155.6 and +7200 (TST B2B) at 155.50: tst correct"},
+ {"n":5,"why":"fr/g0/s4.png: +115 is a misread; scores 77842->77864 is the S hard drop (472.67 lock) then soft-drop points of the T; no clear"},
+ {"n":6,"why":"fr/g0/s4.png: T spawned 472.90 still falling (not locked) through 473.47; nothing to add"},
+ {"n":7,"why":"fr/g0/s5.png: Z spawned 640.07 still at the top through 640.6; no lock by KO"},
+ {"n":8,"why":"score 40337 unchanged after KO; +120 is misread under the やった overlay"},
+ {"n":9,"why":"fr/g0/s6.png: p2's T (spawn 664.7) locks ~665.3 as a zero-line T-spin (partial SPIN banner), +304 = zero-line mini spin; chain None lock is right, no lines"},
+ {"n":12,"why":"TST correct: +7200 (TST B2B) at 924.73 after TSD B2B +5400 at 920.83; the TSS banner is stale"},
+ {"n":14,"why":"fr/g0/s10.png: T from hold dropped into the hole, no T-SPIN banner (only stale TETRIS + REN); chain already types it single; leave"},
+ {"n":17,"why":"same stall as n16; 1248.73 and 1249.57 singles confirmed by score (+2850, +3000); fixed in n16"}
+]}
