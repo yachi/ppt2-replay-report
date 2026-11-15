@@ -1,0 +1,6 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v2/a28.png + score.py: T locks ~612.87 with a T-SPIN banner and no row cleared (+300), S locks 613.07 (+30), the J spawned ~613.2 clears two rows at 613.47 (+900 plain double, white rows 613.50-613.70). Next TSD at 615.87 scores +3647 (non-B2B), consistent with the double breaking B2B. Retype of 613.27 to double is right."},
+{"ref":"e1","verdict":"keep","why":"fr/v2/a40.png: T upright into the slot ~703.6, two rows white at 703.70, banners Double + BACK to BACK + REN; score 32404 -> 37954 (+5550 = 3600x1.5 + 150). TSD confirmed."},
+{"ref":"e2","verdict":"keep","why":"fr/v2/a41.png + score.py: J spawned 763.00 is held, I out of hold locks 763.23, one PERFECT CLEAR TETRIS (no grey rows on the board), single jump +13200 at 763.30; the J then comes out of hold (hold -> O) and locks ~763.93 with +12, no clear. The 763.37 quad is a phantom; None is right."},
+{"ref":"c0","verdict":"keep","why":"fr/v2/a29.png + nextcount: Z spawned 112.433 locks 112.47 (chain's 112.43 event); T spawned 112.567 held at 112.633, I out of hold is solid with lock streaks in the 112.77 KO frame and score +14 (130472 -> 130486) at 112.77, no row cleared. One uncounted lock: 172 -> 173."}
+]

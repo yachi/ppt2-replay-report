@@ -1,0 +1,21 @@
+{"event_corrections":[
+{"n":33,"id":"aa28","side":"p1","op":"retype","t":613.27,"was":["tsmini",2,0],"kind":"double","lines":2,"pc":0,"gc":0,"source":"fr/g2/a28a.png: at 612.87 a T locks with a T-SPIN banner and NO line clear (score +300 = zero-line Mini at level 3); the next piece (J, spawned ~613.2) clears two rows at 613.47 (white rows 613.50-613.70), score +900 = plain double. That double breaks B2B, which is why the following TSD at 615.87 scores +3647 (non-B2B) rather than the 5400 the chain assumed; the whole -1577 residual is explained."},
+{"n":47,"id":"aa40","side":"p2","op":"retype","t":703.1,"was":["double",2,0],"kind":"tsd","lines":2,"pc":0,"gc":0,"source":"fr/g2/a40.png: T placed upright into the slot at ~703.6, two rows clear, banner 'T-SPIN Double' with BACK to BACK and REN at 703.73-703.94; score 32404 -> 37954 (+5550 = TSD 3600x1.5 + REN 150)."},
+{"n":48,"id":"aa41","side":"p1","op":"retype","t":763.37,"was":["quad",4,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g2/a41.png + score.py: only ONE four-line clear between 762.9 and 767.6 - the I (from hold) at ~763.25, a PERFECT CLEAR TETRIS (banner 763.40-764.30, empty board), single score jump +13200 at 763.30. The chain's second quad at 763.37 is a phantom: that piece (J out of hold, hold->O at 763.40) locks at ~764.0 with only +12 drop points and no clear. Note: the real quad at 763.0 is a PC (pc cluster c28) and has gc 0 (no grey rows on the board at 763.20)."}
+],
+"cell_edits":[
+{"n":35,"id":"aa29","player":"p2","field":"pieces","was":172,"value":173,"source":"fr/g2/a29.png + nextcount: T spawned 112.567 and was held (hold->T at 112.633), I from hold hard-dropped; the I is already locked in the 112.77 (KO) frame with score 130486 (+14), no line cleared. Chain's last lock is the 112.43 spawn, so this KO-frame lock is missing."}
+],
+"no_change":[
+{"n":34,"why":"aa28 p1 624.5: score +7200 at 625.17 = TST x1.5 B2B (after the non-B2B quad at 621.93); a TSS would be 3600. tst is right; banner read was wrong."},
+{"n":36,"why":"aa30 p2 230.77: chain already has a plain single; score +750 (single + REN) fits."},
+{"n":37,"why":"aa30 p2 429.67-435.43: fr/g2/a30g.png shows the player holding one T in the air for ~5 s (no lag); it locks ~434.77 clearing one row (+900 single+REN). Exactly the chain's single at 429.67, then 435.43 single; one piece in the window, counts right."},
+{"n":38,"why":"aa30 p1 675.23: chain already single; score +450 = single + REN."},
+{"n":39,"why":"aa31 p1 KO 818.70: fr/g2/a31.png - the J spawned 818.53 is still falling in the 818.70 frame and locks at 818.73 (score +32), one frame after the KO; not counted."},
+{"n":40,"why":"aa32 p1 843.27: chain already single; score +300 fits a plain single."},
+{"n":41,"why":"aa33 p1 KO 1065.07: fr/g2/a33.png - the J spawned 1065.00 is still falling at 1065.07/1065.10 and locks at 1065.13 (score +24), after the KO; not counted."},
+{"n":42,"why":"aa35 p1 1448.27: score +7200 at 1449.03 = TST with B2B; TSS would be 3600. tst correct."},
+{"n":43,"why":"aa35 p1 1512.37: fr/g2/a35k.png - this +2400 is the T-SPIN Single (banner visible) of the T that came out of hold; it is the chain's tss logged at spawn 1511.5 (lock ~1512.3, non-B2B after a double). Already counted."},
+{"n":44,"why":"aa36 p2 187.4: fr/g2/a36.png shows the T into the slot clearing one row with T-SPIN Single + BACK to BACK banners (~187.8), score 207807->211575; matches the chain's tss at 186.87."},
+{"n":49,"why":"aa41 p2 KO 782.87: the J spawned 782.47 is still soft-dropping at the KO frame (score +1 at 782.87 and 782.90), so it had not locked by end_s; not counted."}
+]}
