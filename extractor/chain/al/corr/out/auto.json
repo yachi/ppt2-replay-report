@@ -1,0 +1,85 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 0,
+   "id": "al00",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 266266 at the last spawn (226.06 s) and still 266266 after the KO (226.23 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 17,
+   "id": "al21",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 18154 at the last spawn (1080.23 s) and still 18154 after the KO (1080.33 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 24,
+   "id": "al28",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 50222 at the last spawn (193.27 s) and still 50222 after the KO (193.37 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 31,
+   "id": "al29",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 68061 at the last spawn (289.07 s) and still 68061 after the KO (289.17 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 34,
+   "id": "al34",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 38894 at the last spawn (589.36 s) and still 38894 after the KO (590.13 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 35,
+   "id": "al37",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 25700 at the last spawn (760.66 s) and still 25700 after the KO (763.13 s): nothing locked"
+  }
+ ],
+ "audit": [],
+ "hints": [
+  {
+   "group": "g1",
+   "n": 21,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1168.3 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 32,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 385.8 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 33,
+   "hint": "[tsb-hint-v1] one score jump +769 at 514.0 s: fits both or neither"
+  },
+  {
+   "group": "g2",
+   "n": 38,
+   "hint": "[tsb-hint-v1] one score jump +1207 at 997.66 s: fits plain single only"
+  },
+  {
+   "group": "g3",
+   "n": 73,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1466.0 s: fits tsd only"
+  }
+ ],
+ "no_ocr": []
+}

@@ -1,0 +1,250 @@
+{
+ "event_corrections": [
+  {
+   "n": 19,
+   "id": "al22",
+   "side": "p1",
+   "op": "add",
+   "t": 1115.87,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "L spawned 1115.87 (nextcount shift LTZSI>TZSIJ), locked on the KO frame 1115.97 (score 44176->44210 drop points, no clear flash); /tmp/claude-0/al/corr/fr/g1/a22.png /tmp/claude-0/al/corr/fr/g1/a22b.png"
+  },
+  {
+   "n": 21,
+   "id": "al24",
+   "side": "p1",
+   "op": "retype",
+   "t": 1167.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "T rotated into slot, 'T-SPIN Double' + BACK to BACK banner at 1168.4, score +5550 at 1168.33 (TSD B2B 5400+REN150); /tmp/claude-0/al/corr/fr/g1/a24.png"
+  },
+  {
+   "n": 22,
+   "id": "al25",
+   "side": "p1",
+   "op": "retype",
+   "t": 18.57,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "T spawned 18.57 was held (HOLD J->T at 18.7); J from hold filled row2 cols4-6 + row1 col6, board empty at 19.10, PERFECT CLEAR banner 19.2; score 951->5601 (+4650 = double PC + REN1); /tmp/claude-0/al/corr/fr/g1/b25.png /tmp/claude-0/al/corr/fr/g1/c25.png"
+  },
+  {
+   "n": 22,
+   "id": "al25",
+   "side": "p1",
+   "op": "retype",
+   "t": 19.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "piece spawned 19.17 (S) locked on the empty board after the PC with no clear: score only +35 drop points 19.4-19.6; /tmp/claude-0/al/corr/fr/g1/b25.png"
+  },
+  {
+   "n": 23,
+   "id": "al26",
+   "side": "p1",
+   "op": "retype",
+   "t": 78.2,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "I spawned 78.2 was held, Z from hold placed and cleared one (non-garbage) row at 78.37-78.4 (clear flash, '2 REN' banner, score 46229->46829); /tmp/claude-0/al/corr/fr/g1/a26.png"
+  },
+  {
+   "n": 37,
+   "id": "al39",
+   "side": "p1",
+   "op": "retype",
+   "t": 905.3,
+   "was": [
+    "single",
+    1,
+    1
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "the 905.0 board holds two rows; the O fills a 2x2 gap and clears both -> PERFECT CLEAR; score 148712->153362 (+4650 = double PC + REN1, same as al25's double PC); /tmp/claude-0/al/corr/fr/g1/a39.png /tmp/claude-0/al/corr/fr/g1/c39.png"
+  },
+  {
+   "n": 36,
+   "id": "al38",
+   "side": "p1",
+   "op": "add",
+   "t": 788.77,
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "T spawned 788.77 (nextcount shift TSZLI>SZLIO), soft-dropped and locked ~789.43 without a clear (score 25546->25560 drop points), before KO 789.8; not in the chain; /tmp/claude-0/al/corr/fr/g1/a38.png"
+  },
+  {
+   "n": 27,
+   "id": "al29",
+   "side": "p1",
+   "op": "remove",
+   "t": 240.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "no spawn between 239.93 and 252.80 (nextcount, HOLD unchanged); the J spawned 239.93 hovered until it cleared at 252.07 (score 21823->24073, +2250 = double REN9); 240.07 single is a phantom; /tmp/claude-0/al/corr/fr/g1/e29.png"
+  },
+  {
+   "n": 28,
+   "id": "al29",
+   "side": "p1",
+   "op": "remove",
+   "t": 251.63,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "source": "duplicate of the 239.93 J double (one score jump +2250 at 252.07, no spawn at 251.63); REN banners run 8 REN (239.27) -> 9 (252) -> ... 15 at 258.17, one clear per spawn; /tmp/claude-0/al/corr/fr/g1/e29.png"
+  },
+  {
+   "n": 26,
+   "id": "al29",
+   "side": "p2",
+   "op": "remove",
+   "t": 239.27,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "one spawn 239.17 then none until 250.17 (nextcount); the piece cleared once at 249.53 (+1650 = single REN9); 239.27 single is a duplicate; /tmp/claude-0/al/corr/fr/g1/e29.png"
+  },
+  {
+   "n": 25,
+   "id": "al29",
+   "side": "p2",
+   "op": "remove",
+   "t": 249.07,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "source": "no spawn at 249.07; the only clear 239.17-250.17 is the 249.53 +1650 belonging to the 239.17 piece; 250.17 piece cleared at 255.10 (+1800 REN10), 255.77 (+1972 REN11), 256.8 (+2100), 257.9 (+2250 REN13); /tmp/claude-0/al/corr/fr/g1/e29.png"
+  },
+  {
+   "n": 32,
+   "id": "al31",
+   "side": "p1",
+   "op": "retype",
+   "t": 385.1,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "source": "T rotated into the slot, 'T-SPIN Double' + BACK to BACK banner 385.8, score 5328->10878 (+5550 = TSD B2B + REN); /tmp/claude-0/al/corr/fr/g1/a31.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 19,
+   "id": "al22",
+   "player": "p1",
+   "field": "pieces",
+   "was": 56,
+   "value": 57,
+   "source": "L locked on KO frame 1115.97; /tmp/claude-0/al/corr/fr/g1/a22b.png"
+  },
+  {
+   "n": 36,
+   "id": "al38",
+   "player": "p1",
+   "field": "pieces",
+   "was": 41,
+   "value": 42,
+   "source": "T locked ~789.43 before KO 789.8, missing from chain; /tmp/claude-0/al/corr/fr/g1/a38.png"
+  },
+  {
+   "n": 28,
+   "id": "al29",
+   "player": "p1",
+   "field": "pieces",
+   "was": 137,
+   "value": 135,
+   "source": "two phantom events (240.07, 251.63) removed; nextcount shows no spawn 239.93-252.80"
+  },
+  {
+   "n": 28,
+   "id": "al29",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 17,
+   "value": 15,
+   "source": "REN banners/score: 15 REN at 258.17 (+2550 = 300+15*150); chain streak inflated by 2 phantoms"
+  },
+  {
+   "n": 30,
+   "id": "al29",
+   "player": "p2",
+   "field": "pieces",
+   "was": 110,
+   "value": 108,
+   "source": "two phantom singles (239.27, 249.07) removed; nextcount shows spawns only at 239.17 and 250.17"
+  },
+  {
+   "n": 30,
+   "id": "al29",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 15,
+   "value": 13,
+   "source": "score +2250 at 258.00 = 300+13*150, end of the streak; chain streak inflated by 2 phantoms"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 20,
+   "why": "the winner's last O was still in the air on the KO frame 1152.93 and locked at 1152.97, one frame after end_s; does not count (fr/g1/a23.png)"
+  },
+  {
+   "n": 33,
+   "why": "REN single in the centre well: +769 at 514.0 = 300 + REN3 450 + drops; neighbouring singles score +450/+600/+930 on the same REN ladder; a Mini would be ~1050. Plain single correct (fr/g1/a33.png)"
+  },
+  {
+   "n": 29,
+   "why": "p2 249.53-259.23: after the two removals in item 25/26 every chain clear matches a score jump (255.10 +1800, 256.53 +1972, 257.27 +2100, 258.00 +2250, 259.23 +300); covered by those corrections"
+  },
+  {
+   "n": 30,
+   "why": "gap 250.17-255.77 is one piece (spawn 250.17, hold swap 254.5, clear 255.10 +1800); chain 250.17 single correct; pieces edit given under this n"
+  }
+ ]
+}

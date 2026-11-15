@@ -1,0 +1,20 @@
+[
+{"ref":"e0","verdict":"keep","why":"L (shift 1115.867) hard-dropped and resting on the floor by 1115.93 (score 44176->44210 at 1115.93-97), before KO 1115.97; prior piece's drop was the +32 at 1115.77, matching chain 1115.47. fr/v1/a22.png"},
+{"ref":"e1","verdict":"keep","why":"T rotated into slot, T-SPIN Double + BACK to BACK banner at 1168.4, score 5291->10841 (+5550) at 1168.33. fr/v1/a24.png"},
+{"ref":"e2","verdict":"keep","why":"board two rows at 19.0, empty with PERFECT CLEAR banner at 19.10-19.2, score 951->5601 (+4650); T held (hold shows T), so the 18.57 event is the PC double. fr/v1/b25.png"},
+{"ref":"e3","verdict":"keep","why":"S spawned 19.167 lands on the empty board ~19.6 with only drop points (5603->5638); no clear. fr/v1/b25.png"},
+{"ref":"e4","verdict":"keep","why":"I spawned 78.2 held, Z from hold clears the orange stack row at 78.37 (score 46229->46829, 2 REN banner). fr/v1/a26.png"},
+{"ref":"e5","verdict":"keep","why":"905.0 board: two rows with a 2-wide gap in cols 4-5; O fills it, PERFECT CLEAR at 905.3; score 148712->153362 (+4650, same as al25 double PC). fr/v1/a39.png"},
+{"ref":"e6","verdict":"reject","why":"The T (spawn 788.77) was still active at the KO: it stands vertical 789.44-789.80 and is rotated flat into the slot one frame later (~789.83), and the NEXT queue never shifts; it did not lock at or before end_s 789.80. The score stopping at 789.43 was the end of soft drop, not a lock. fr/v1/a38.png fr/v1/a38b.png fr/v1/a38c.png"},
+{"ref":"e7","verdict":"keep","why":"replay slow-down section: one J falls from 239.93 until it clears at 252.07 (score 21823->24073, 9 REN banner); no spawn 239.93-252.80 (nextcount). 240.07 single is phantom. fr/v1/e29.png"},
+{"ref":"e8","verdict":"keep","why":"same: only one clear (252.07) for the 239.93 J; 251.63 double is a duplicate. REN 9 (252.07) ... 15 (258.17), one clear per spawn, scores 1800/1950/2100/2850/2400/2550 match. fr/v1/e29.png"},
+{"ref":"e9","verdict":"keep","why":"p2: piece spawned 236.07 cleared at 238.53 (+1500 REN8, chain 236.07 single); O spawned 239.17 falls slowly and clears once at 249.53 (+1650 REN9); next spawn 250.17. 239.27 is a duplicate. fr/v1/e29.png"},
+{"ref":"e10","verdict":"keep","why":"no spawn at 249.07 (spawns only 239.17, 250.17); the only clear in the window is the O's at 249.53, kept as 239.17. fr/v1/e29.png"},
+{"ref":"e11","verdict":"keep","why":"T into slot, T-SPIN Double + BACK to BACK banner 385.8, score 5328->10878 (+5550). fr/v1/a31.png"},
+{"ref":"c0","verdict":"keep","why":"L locked by 1115.93 (<= KO); fr/v1/a22.png"},
+{"ref":"c1","verdict":"reject","why":"the T never locked before the KO (still being rotated one frame after end_s, no queue shift); 41 stays. fr/v1/a38c.png"},
+{"ref":"c2","verdict":"keep","why":"two phantom events removed; nextcount shows no spawn 239.93-252.80."},
+{"ref":"c3","verdict":"keep","why":"REN banners/scores reach 15 at 258.17 (+2550); chain streak 228.97-258.0 was 17 steps incl. 2 phantoms."},
+{"ref":"c4","verdict":"keep","why":"spawns only at 239.17 and 250.17 in the window; two phantom singles removed."},
+{"ref":"c5","verdict":"keep","why":"chain streak 227.77-257.9 was 15 incl. 2 phantoms; scores show REN8 238.53 ... REN13 258.00 (+2250) then break (+20 at 258.90)."}
+]

@@ -1,0 +1,94 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "al02: score.py shows exactly one clear jump of the size of the stated clear+PC (level 3: double PC ~4500 plus REN/drops); rows before the lock are coloured piece cells, no garbage (/tmp/claude-0/al/corr/fr/v4/gc.png), so gc=0 is right."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "al02: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "al04: score.py shows exactly one clear jump of the size of the stated clear+PC (level 3: double PC ~4500 plus REN/drops); rows before the lock are coloured piece cells, no garbage (/tmp/claude-0/al/corr/fr/v4/gc.png), so gc=0 is right."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "al04: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ },
+ {
+  "ref": "e4",
+  "verdict": "amend",
+  "amended": {
+   "gc": 0
+  },
+  "why": "al12: one clear jump confirmed by score.py and the board empties into the PERFECT CLEAR banner, so kind/lines/pc=1 are right; but the cleared rows hold no garbage: /tmp/claude-0/al/corr/fr/v4/a12.png and al12.png (647.70: bottom two rows are green S, yellow O, blue/cyan pieces, no grey garbage). gc should be 0, not the duplicate's gc."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "al12: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "al16 856.83: score.py shows exactly one clear jump of the size of the stated clear+PC (level 3: double PC ~4500 plus REN/drops); rows before the lock are coloured piece cells, no garbage (/tmp/claude-0/al/corr/fr/v4/gc.png), so gc=0 is right."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "al16 856.83: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ },
+ {
+  "ref": "e8",
+  "verdict": "amend",
+  "amended": {
+   "gc": 0
+  },
+  "why": "al16 862.83: one clear jump confirmed by score.py and the board empties into the PERFECT CLEAR banner, so kind/lines/pc=1 are right; but the cleared rows hold no garbage: /tmp/claude-0/al/corr/fr/v4/gc.png (863.03: four rows all coloured piece cells, no grey garbage). gc should be 0, not the duplicate's gc."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "al16 862.83: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ },
+ {
+  "ref": "e10",
+  "verdict": "amend",
+  "amended": {
+   "gc": 0
+  },
+  "why": "al17: one clear jump confirmed by score.py and the board empties into the PERFECT CLEAR banner, so kind/lines/pc=1 are right; but the cleared rows hold no garbage: /tmp/claude-0/al/corr/fr/v4/al17.png and /tmp/claude-0/al/corr/fr/v4/gc.png (902.08-902.55: two rows of orange/yellow/purple/green/cyan cells, no grey garbage). gc should be 0, not the duplicate's gc."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "al17: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ },
+ {
+  "ref": "e12",
+  "verdict": "amend",
+  "amended": {
+   "gc": 0
+  },
+  "why": "al22: one clear jump confirmed by score.py and the board empties into the PERFECT CLEAR banner, so kind/lines/pc=1 are right; but the cleared rows hold no garbage: /tmp/claude-0/al/corr/fr/v4/gc.png (1097.60: three rows of coloured cells, no grey garbage). gc should be 0, not the duplicate's gc."
+ },
+ {
+  "ref": "e13",
+  "verdict": "keep",
+  "why": "al22: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ },
+ {
+  "ref": "e14",
+  "verdict": "keep",
+  "why": "al25: score.py shows exactly one clear jump of the size of the stated clear+PC (level 3: double PC ~4500 plus REN/drops); rows before the lock are coloured piece cells, no garbage (/tmp/claude-0/al/corr/fr/v4/gc.png), so gc=0 is right."
+ },
+ {
+  "ref": "e15",
+  "verdict": "keep",
+  "why": "al25: the next piece only adds drop points (score.py shows no second clear jump within ~1 s) and the board is already empty; a real lock kept as a None event."
+ }
+]

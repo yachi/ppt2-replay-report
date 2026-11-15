@@ -1,0 +1,33 @@
+{"event_corrections":[
+{"n":5,"id":"al06","side":"p1","op":"add","t":415.67,"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/al06.png: J spawns 415.67, lands and locks on the KO frame 415.83 (score 22668->22702 at 415.83, J solid on board, no clear flash); counts per KO rule"},
+{"n":6,"id":"al07","side":"p2","op":"add","t":445.27,"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g0/al07.png: Z spawns 445.27 (nextcount shift 445.233), locks ~445.40 with a one-row clear flash, well before KO 445.90; p2 score 13240->14028 (+788 = single 300 + REN3 450 + drops)"},
+{"n":11,"id":"al15","side":"p2","op":"retype","t":829.8,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/al15.png, fr/g0/b15_829.87.png: banner reads 'Mini T-SPIN' only, no rows removed at 829.6-829.9; score +300 at 829.77 (=zero-line mini 100x3, a mini single would be 600); following quad at 830.5 still scores B2B 3600 (fr/g0/al15b.png)"},
+{"n":8,"id":"al13","side":"p2","op":"replace_window","t":695.0,"t_end":698.0,"events":[{"t":697.73,"kind":"single","lines":1,"pc":0,"gc":0}],"was_old":[[695.77,"single",1],[697.7,"single",1],[697.73,"single",1],[697.77,null,0]],"source":"fr/g0/al13gap.png: stream lag/slow motion 686-696; nextcount p2 shows spawns only at 684.667 and 697.733 (then 698.533). Score: 16213 flat 687.57-697.0, 697.07 +1350 (REN7 single = the 684.67 piece), 698.23 +1526 (REN8 single = 697.73 piece), 699.10 triple REN9. Only one piece between 684.67 and 698.53"},
+{"n":9,"id":"al13","side":"p1","op":"remove","t":693.63,"was":[null,0,0],"source":"fr/g0/al13gap.png: lag 686-696, the Z spawned 686.167 hovers then is held at 696.167; nextcount p1 has no spawn between 686.167 and 696.433; p1 score flat 18122 687.57-696.33, next lock +20 at 696.33 (piece out of hold = chain 686.23)"},
+{"n":12,"id":"al16","side":"p1","op":"replace_window","t":865.1,"t_end":865.3,"events":[],"was_old":[[865.2,null,0],[865.2,null,0]],"source":"fr/g0/al16a.png, fr/g0/al16p1.png: lag freeze 866-877 (both boards static, in-game timer runs); nextcount p1 spawns 864.967 (J) then 877.3 only; J soft-dropped (score +1 at 865.17) and locks ~877.0-877.2; I spawned 877.3 held, T out -> TSD 878.00 (+5400). No pieces at 865.2"},
+{"n":13,"id":"al16","side":"p2","op":"remove","t":866.1,"was":["single",1,0],"source":"score p2: 16222 ->17576 (865.73, REN7) flat until 877.67 +1500 (REN8, 866.0 piece) and 878.43 +1650 (REN9, 878.3 piece), 880.13 +300 restart; nextcount p2 spawns 866.0 then 878.3 only; 866.1 is a duplicate of 866.0. Banner shows 8 REN ~877.8 and 9 REN ~878.6 (fr/g0/al16a.png)"},
+{"n":18,"id":"al22","side":"p1","op":"retype","t":1097.37,"was":["triple",3,0],"kind":"triple","lines":3,"pc":1,"gc":0,"source":"fr/g0/al22.png: L into right column at 1097.63 clears the last 3 rows, board empty, PERFECT CLEAR banner 1097.70-1098.03; score +6900 at 1097.70 (triple 1500 + triple PC 5400)"},
+{"n":18,"id":"al22","side":"p1","op":"retype","t":1097.77,"was":["triple",3,1],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/al22.png: board already empty after 1097.70; the piece spawned 1097.767 locks at 1097.97 with only +38 drop points and no clear; nextcount spawn 1097.767 is a plain lock"}
+],
+"cell_edits":[
+{"id":"al06","player":"p1","field":"pieces","was":28,"value":29,"source":"J lock on KO frame 415.83, fr/g0/al06.png"},
+{"id":"al07","player":"p2","field":"pieces","was":47,"value":48,"source":"Z lock+single at ~445.40 before KO, fr/g0/al07.png"},
+{"id":"al07","player":"p2","field":"max_combo","was":2,"value":3,"source":"clears 442.57 double, 443.47, 444.37, 445.27 singles consecutive; scores +900, then +1122 for two (REN1,2), +788 (REN3)"},
+{"id":"al13","player":"p2","field":"pieces","was":92,"value":89,"source":"three phantom events in lag window 695-698 (see replace_window)"},
+{"id":"al13","player":"p2","field":"max_combo","was":10,"value":11,"source":"consecutive clears 678.17..700.77 (12); scores 697.07 +1350 REN7, 698.23 +1526 REN8, 699.10 triple +2850 REN9, 700.10 +1830 REN10, 701.73 +1982 REN11"},
+{"id":"al13","player":"p1","field":"pieces","was":109,"value":108,"source":"phantom lock 693.63 in lag window"},
+{"id":"al16","player":"p1","field":"pieces","was":60,"value":58,"source":"two phantom locks at 865.2 in lag window"},
+{"id":"al16","player":"p2","field":"pieces","was":41,"value":40,"source":"duplicate single 866.1"},
+{"id":"al16","player":"p2","field":"max_combo","was":10,"value":9,"source":"REN peaks at 9 (878.43 +1650, banner 9 REN); 866.1 duplicate removed"}
+],
+"no_change":[
+{"n":1,"id":"al01","why":"p1 score 18208 from 248.00 to after KO 249.7 with no drop-point jump; next piece never locked by KO"},
+{"n":2,"id":"al02","why":"fr/g0/al02b.png: banner is T-SPIN Triple + BACK to BACK, 3 rows clear, score +7200 (TST B2B) at 282.57; chain tst correct"},
+{"n":3,"id":"al02","why":"p1 soft-dropping through KO 295.97 (score +1/frame continuing to 296.00), no lock by KO"},
+{"n":4,"id":"al04","why":"fr/g0/al04.png: L soft-dropped, touches stack on KO frame 358.83 but no lock (no NEXT shift, lock delay)"},
+{"n":7,"id":"al12","why":"fr/g0/al12.png: I spawned 656.37 still falling at KO 656.53, locks 656.57 (after KO), not counted"},
+{"n":10,"id":"al13","why":"fr/g0/al13ko.png: Z still falling at KO 732.33, no lock"},
+{"n":14,"id":"al16","why":"same window as n13; fixed there (remove duplicate 866.1)"},
+{"n":15,"id":"al17","why":"locks 925.07/925.43/925.57 match chain spawns 924.97/925.17/925.53; J spawned 925.667 not locked by KO (only +1 soft drop after KO)"},
+{"n":16,"id":"al18","why":"T spawned 962.667 soft-dropping through KO 963.0 (score +1/frame to 963.03), no lock"}
+]}
