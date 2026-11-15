@@ -284,3 +284,7 @@ am40,p2,pieces,143,140,"b2 frame check, verified: Three phantom spawns at 1458.8
 an04,p1,pieces,120,121,"b0 frame check, verified: fr/g0/an04a.png: L spawned 389.07, locks on the KO frame 389.20 (lock glow, score 90943->90975 at 389.20 = end_s), no clear"
 ao24,p1,pieces,65,63,"b1 frame check, verified: two phantom locks at 22.0 and 28.03 removed (corr/fr/g1/i27.png; nextcount shows 1 spawn in 21.77-28.53)"
 ao30,p1,pieces,229,226,"b1 frame check, verified: three surplus locks in 460.37-461.57 (corr/fr/g1/i31a.png, i31b.png; score hard-drop steps count 5 pieces there)"
+ap16,p1,pieces,57,58,"b0 frame check, verified: Z locked on the KO frame 790.067 (/tmp/claude-0/ap/corr/fr/g0/n6b.png)"
+ap27,p1,pieces,49,50,"b0 frame check, verified: I locked at 1497.23 before KO 1497.27 (/tmp/claude-0/ap/corr/fr/g0/n14.png)"
+ap30,p1,pieces,146,143,"b0 frame check, verified: three phantom locks at 252.97 (/tmp/claude-0/ap/corr/fr/g0/n17.png)"
+ap49,p1,pieces,50,51,"b1 frame check, verified: I spawned 1524.30, hard-dropped into col 9 and locked at 1524.47 (lock flash, ghost position) before KO 1524.5; no clear; chain last event 1523.9 (/tmp/claude-0/ap/corr/fr/g1/a49k.png)"

@@ -1,0 +1,77 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "p2 T rotates into the slot 21.6-21.7, two rows clear 21.8 with 'Double' + BACK to BACK banner; score +5550 at 21.80 = TSD B2B 5400 + 1 REN 150 (fr/v0/e0.png)"
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "Z locks bottom-left 208.85 (the 208.73 None); T spawned 209.0 drops into the left slot ~209.75, 2 rows clear 209.9, banner 'Double' + BACK to BACK; score 177143 -> 182598 (fr/v0/e1.png)"
+ },
+ {
+  "ref": "e2",
+  "verdict": "reject",
+  "why": "merge: the same fix as g2 n40 (229.8 triple pc=1, 230.07 a plain lock), kept from g2 there. Skeptic: One triple PC, but it is the 229.8 spawn that clears, not the 230.07 one: S locks 229.67 (+38), L (from hold) spawned 229.80 locks 229.93 (+36) and clears 3 coloured rows, PERFECT CLEAR + score +6900 at 230.00, which is before the 230.07 spawn; the 230.07 piece (S, held 230.20 for O) is the O that locks 230.47 (+37) with no clear (nextcount shifts 229.80, 230.067; fr/v0/e2.png)"
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "Z spawned 790.03 is in the stack with the clear flash on frame 790.07 (= KO frame), row clears 790.10; banner reads '3 REN' at 790.00 and '4 REN' at 790.23; score 41783 -> 42701 (+918) (fr/v0/e6.png, fr/v0/ren790.0.png, fr/v0/ren790.23.png)"
+ },
+ {
+  "ref": "e4",
+  "verdict": "reject",
+  "why": "merge: superseded by g2 n45, whose swap (L at 1143.27 is the triple PC, 1143.6 a plain lock) matches this skeptic's own frame reading. Skeptic: L spawned 1143.27 placed vertically on the right, 3 coloured rows clear, empty board + PERFECT CLEAR 1143.54-1143.87, score 10981 -> 17881; no grey rows (fr/v0/e10.png)"
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "T rotated into the slot 1141.1-1141.2, 2 rows clear 1141.3-1141.4 with 'Double' + BACK to BACK + 1 REN banners; score 5253 -> 10803 (+5550) (fr/v0/e9.png)"
+ },
+ {
+  "ref": "e6",
+  "verdict": "reject",
+  "why": "merge: the same fix as g2 n46, kept from g2 there. Skeptic: J locks 1447.17-1447.20 (+32, no clear); O (shift 1447.30) drops at 1447.37 clearing 2 rows -> empty board, PERFECT CLEAR, +4500 at 1447.43; J spawned 1447.5 is held (1447.63), Z from hold locks ~1447.97 (+24) without a clear (fr/v0/e13.png)"
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "S spawned 1497.10, held 1497.17, I out of hold drops vertically and is locked by 1497.23 (flash 1497.27 = KO frame), row cleared 1497.30, '3 REN' banner 1497.33+; score 39054 -> 39820 (fr/v0/e14.png)"
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "I dropped vertically into the col-2 well ~191.20, 4 rows clear (bottom 2 grey garbage, top 2 coloured), BACK to BACK banner; score +3600 at 191.30 = quad B2B, TST would be +7200 (fr/v0/e16.png)"
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "nextcount: one shift at 252.00 then the next at 253.167; frames 252.3-253.2 show only the 4-row clear and a garbage rise 252.8-253.1, no piece placed; the three 252.97 locks are phantoms and their removal realigns the bags that fail from index 84 (fr/v0/e17.png)"
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Z locked on the KO frame 790.07 (fr/v0/e6.png); chain has 57 events, 58 with the add"
+ },
+ {
+  "ref": "c1",
+  "verdict": "keep",
+  "why": "'4 REN' banner read at 790.23 (fr/v0/ren790.23.png)"
+ },
+ {
+  "ref": "c2",
+  "verdict": "keep",
+  "why": "I locked 1497.23 before KO 1497.27 (fr/v0/e14.png)"
+ },
+ {
+  "ref": "c3",
+  "verdict": "keep",
+  "why": "'3 REN' banner at 1497.33-1497.40 after that single, '2 REN' before it (fr/v0/e14.png)"
+ },
+ {
+  "ref": "c4",
+  "verdict": "keep",
+  "why": "three phantom locks at 252.97 (fr/v0/e17.png, nextcount 252.0-253.167 one shift)"
+ }
+]

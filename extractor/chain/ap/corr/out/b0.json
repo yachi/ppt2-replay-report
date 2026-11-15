@@ -1,0 +1,287 @@
+{
+ "event_corrections": [
+  {
+   "n": 0,
+   "id": "ap00",
+   "side": "p2",
+   "op": "retype",
+   "t": 21.1,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score p2 +5550 at 21.80 (TSD B2B 5400 + REN/drops), not ~900; frames 21.5-22.0 show T spun into the slot and 'Double' + BACK to BACK banner (/tmp/claude-0/ap/corr/fr/g0/n0.png)"
+  },
+  {
+   "n": 1,
+   "id": "ap01",
+   "side": "p1",
+   "op": "retype",
+   "t": 209.0,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "T placed bottom-left at ~209.8 clears 2 rows, banner 'T-SPIN Double' + BACK to BACK (209.9-210.2); score 177143 (208.10) -> 182598 (210.30) = +5455 = TSD B2B (/tmp/claude-0/ap/corr/fr/g0/n1.png)"
+  },
+  {
+   "n": 2,
+   "id": "ap02",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 229.8,
+   "t_end": 230.07,
+   "events": [
+    {
+     "t": 229.8,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 230.07,
+     "kind": "triple",
+     "lines": 3,
+     "pc": 1,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     229.8,
+     "triple",
+     3
+    ],
+    [
+     230.07,
+     "triple",
+     3
+    ]
+   ],
+   "source": "only one clear: O lock at ~229.9 (+36 drop at 229.93), then L clears 3 rows at 230.0 with PERFECT CLEAR banner and empty board, score +6900 once; cleared rows are coloured pieces, no grey garbage (/tmp/claude-0/ap/corr/fr/g0/n2.png)"
+  },
+  {
+   "n": 6,
+   "id": "ap16",
+   "side": "p1",
+   "op": "add",
+   "t": 790.03,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "Z spawned 790.03 and locked on frame 790.067 (KO frame 790.07) with a 1-line clear flash, '4 REN' banner at 790.17; score +918 (=300+4x150+drops) read at 790.50 (/tmp/claude-0/ap/corr/fr/g0/n6.png, /tmp/claude-0/ap/corr/fr/g0/n6b.png)"
+  },
+  {
+   "n": 10,
+   "id": "ap22",
+   "side": "p1",
+   "op": "retype",
+   "t": 1143.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "L spawned 1143.27 clears 3 rows at ~1143.5 leaving an empty board, PERFECT CLEAR banner 1143.53-1143.87, score +6900 at 1143.57; the three cleared rows are coloured pieces, no grey garbage (/tmp/claude-0/ap/corr/fr/g0/n10.png)"
+  },
+  {
+   "n": 9,
+   "id": "ap22",
+   "side": "p1",
+   "op": "retype",
+   "t": 1140.57,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "score p1 +5550 at 1141.37 (TSD B2B after the 1139.13 TST +4800), a plain double would be ~900-1050; same opener as ap00 n0"
+  },
+  {
+   "n": 13,
+   "id": "ap26",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 1447.3,
+   "t_end": 1447.5,
+   "events": [
+    {
+     "t": 1447.3,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 1447.5,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     1447.3,
+     "double",
+     2
+    ],
+    [
+     1447.5,
+     "double",
+     2
+    ]
+   ],
+   "source": "J locks 1447.2 (no clear), O spawned 1447.27 clears 2 rows at ~1447.4 -> empty board, PERFECT CLEAR banner, score +4500 once at 1447.43; next J held at 1447.67 and Z locks ~1447.97 with no clear (+24); cleared rows coloured, no garbage (/tmp/claude-0/ap/corr/fr/g0/n13.png)"
+  },
+  {
+   "n": 14,
+   "id": "ap27",
+   "side": "p1",
+   "op": "add",
+   "t": 1497.07,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "S spawned 1497.07, swapped to hold 1497.17, I dropped vertically locks at 1497.23 (KO 1497.27) clearing 1 row, '3 REN' banner at 1497.3; score 39054 -> 39820 (+766 = single 300 + 3x150 + drops) (/tmp/claude-0/ap/corr/fr/g0/n14.png)"
+  },
+  {
+   "n": 16,
+   "id": "ap29",
+   "side": "p1",
+   "op": "retype",
+   "t": 191.07,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 0,
+   "gc": 2,
+   "source": "I placed vertically into the col-1 well at ~191.25 clears 4 rows (bottom 2 grey garbage), banner TETRIS + BACK to BACK; score +3600 at 191.30 = quad B2B, not TST (/tmp/claude-0/ap/corr/fr/g0/n16.png)"
+  },
+  {
+   "n": 17,
+   "id": "ap30",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 252.97,
+   "t_end": 252.97,
+   "events": [],
+   "was_old": [
+    [
+     252.97,
+     null,
+     0
+    ],
+    [
+     252.97,
+     null,
+     0
+    ],
+    [
+     252.97,
+     null,
+     0
+    ]
+   ],
+   "source": "after the 252.0 spawn (O, held 252.07; I out of hold clears the quad at ~252.3) the next spawn is J at 253.15 (chain 253.13); no piece spawns or locks in between; the three 252.97 locks are phantoms (nextcount: no shift 252.0-253.167; chain indices 80-82 match the bag break from index 84) (/tmp/claude-0/ap/corr/fr/g0/n17.png)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 6,
+   "id": "ap16",
+   "player": "p1",
+   "field": "pieces",
+   "was": 57,
+   "value": 58,
+   "source": "Z locked on the KO frame 790.067 (/tmp/claude-0/ap/corr/fr/g0/n6b.png)"
+  },
+  {
+   "n": 6,
+   "id": "ap16",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 3,
+   "value": 4,
+   "source": "'4 REN' banner after the 790.07 single (/tmp/claude-0/ap/corr/fr/g0/n6.png)"
+  },
+  {
+   "n": 14,
+   "id": "ap27",
+   "player": "p1",
+   "field": "pieces",
+   "was": 49,
+   "value": 50,
+   "source": "I locked at 1497.23 before KO 1497.27 (/tmp/claude-0/ap/corr/fr/g0/n14.png)"
+  },
+  {
+   "n": 14,
+   "id": "ap27",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 3,
+   "source": "'3 REN' banner on that single (/tmp/claude-0/ap/corr/fr/g0/n14.png)"
+  },
+  {
+   "n": 17,
+   "id": "ap30",
+   "player": "p1",
+   "field": "pieces",
+   "was": 146,
+   "value": 143,
+   "source": "three phantom locks at 252.97 (/tmp/claude-0/ap/corr/fr/g0/n17.png)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 3,
+   "why": "L locked ~270.43 (no clear, +22); O spawned 270.53 still falling at KO 270.67, 'やった' at 270.77 (fr/g0/n3.png); chain 270.37 lock already counted"
+  },
+  {
+   "n": 4,
+   "why": "score +7200 at 565.83 = TST B2B; the TSS banner is not this clear; chain tst correct"
+  },
+  {
+   "n": 5,
+   "why": "I spawned 574.17 still falling (ghost at bottom) at KO 574.27 and never locked; score only +1 soft-drop ticks (fr/g0/n5.png)"
+  },
+  {
+   "n": 8,
+   "why": "L locked ~1126.03 (no clear, chain 1125.83); next T spawned 1126.13 and hard-dropped at 1126.16, after KO 1126.10, no clear (fr/g0/n8.png)"
+  },
+  {
+   "n": 12,
+   "why": "every jump in 1276-1286 matches a chain clear: quad B2B +3600 (1277.07), TSD B2B +5400 (1282.60, 1284.13), quad B2B +3600 (1285.23, just past t1); window-edge artefact"
+  },
+  {
+   "n": 15,
+   "why": "explained by n16: the 191.07 clear is a B2B quad (+3600), not a TST (+7200); quad 185.63 +3600 and TSD 189.40 +5400 match"
+  }
+ ]
+}
