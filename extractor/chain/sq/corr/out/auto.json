@@ -1,0 +1,21 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [],
+ "audit": [],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 3,
+   "hint": "[tsb-hint-v1] one score jump +900 at 79.2 s: fits plain double only"
+  },
+  {
+   "group": "g0",
+   "n": 4,
+   "hint": "[tsb-hint-v1] one score jump +5562 at 116.03 s: fits tsd only"
+  }
+ ],
+ "no_ocr": []
+}

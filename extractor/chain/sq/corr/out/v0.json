@@ -1,0 +1,4 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py: +300 at 68.23 (00090980->00091280), the zero-line Mini T-spin value at level 3 (a Mini Single would be 600, 900 with B2B); no other clear jump until the 69.13 quad. Sheet fr/v0/a.png (67.9-68.9) shows the T going in at ~68.2 and the stack rising with garbage rather than a row clearing. Retype to a plain lock is right."},
+ {"ref":"e1","verdict":"keep","why":"fr/v0/b.png: T dropped into the 2-wide slot at 115.6-115.9, 'T-SPIN Double', 'REN' and 'BACK to BACK' banners left of p1's board 115.75-116.65; score.py +5562 at 116.03 = TSD 3600x1.5 + 150 REN + drop, preceded by the +3600 TSS(B2B) at 114.43 and followed by +3600 B2B quad at 116.90, all consistent with a tsd."}
+]

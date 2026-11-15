@@ -1,0 +1,51 @@
+[
+ {
+  "id": "ab00",
+  "player": "p1",
+  "field_or_issue": "banner without a clear",
+  "detail": "Mini T-SPIN Single banner at 68.2 s, no A clear matched (added by R/build.py)",
+  "t_s": 68.2
+ },
+ {
+  "id": "ab00",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 78.3 s typed as a plain clear",
+  "t_s": 78.3
+ },
+ {
+  "id": "ab00",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 115.1 s typed as a plain clear",
+  "t_s": 115.1
+ },
+ {
+  "id": "ab00",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 107.1
+ },
+ {
+  "id": "ab00",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 141.1
+ },
+ {
+  "id": "ab00",
+  "player": "p2",
+  "field_or_issue": "PC banner onset",
+  "detail": "PERFECT CLEAR banner onset, 0.1 s long; pcmap: rejected (< 0.9 s: banner tail or effect?); not counted as a PC",
+  "t_s": 503.1
+ },
+ {
+  "id": "ab00",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 570.53
+ }
+]
