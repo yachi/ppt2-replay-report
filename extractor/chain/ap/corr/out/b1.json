@@ -1,0 +1,273 @@
+{
+ "event_corrections": [
+  {
+   "n": 21,
+   "id": "ap33",
+   "side": "p1",
+   "op": "retype",
+   "t": 425.23,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "PERFECT CLEAR: Z locks ~425.83 completing the last 2 rows, board empty with PERFECT CLEAR banner 425.90-426.57; score +4800 at 425.90 (6967->11767), the only clear jump in 424.6-428.6 (/tmp/claude-0/ap/corr/fr/g1/a33.png)"
+  },
+  {
+   "n": 21,
+   "id": "ap33",
+   "side": "p1",
+   "op": "retype",
+   "t": 425.97,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "I spawned 425.967 placed flat on the empty board after the PC, no clear; score only +38 drop points at 426.00 (/tmp/claude-0/ap/corr/fr/g1/a33.png, score.py)"
+  },
+  {
+   "n": 21,
+   "id": "ap33",
+   "side": "p1",
+   "op": "retype",
+   "t": 426.1,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Z spawned 426.10 locks ~426.3 on a 1-row stack, no clear; score +37 drop points at 426.37, next clear jump is the TSD at 428.70 (/tmp/claude-0/ap/corr/fr/g1/a33.png)"
+  },
+  {
+   "n": 23,
+   "id": "ap34",
+   "side": "p1",
+   "op": "retype",
+   "t": 477.97,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "S spawned 477.97 held at 478.07, J from hold locks 478.20 clearing the last 3 rows: board empty + PERFECT CLEAR banner 478.27-479.07; score +6900 at 478.30 (/tmp/claude-0/ap/corr/fr/g1/a34.png)"
+  },
+  {
+   "n": 23,
+   "id": "ap34",
+   "side": "p1",
+   "op": "retype",
+   "t": 478.37,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "L spawned 478.37 held 478.47, S from hold placed on empty board ~478.77, no clear; score only +35 at 478.77, no clear jump until the TSD at 481.90 (/tmp/claude-0/ap/corr/fr/g1/a34.png)"
+  },
+  {
+   "n": 26,
+   "id": "ap37",
+   "side": "p1",
+   "op": "retype",
+   "t": 744.07,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0,
+   "source": "T spun into slot ~744.64; two bottom rows flash and vanish (4 rows -> 2 rows); banner T-SPIN Double + BACK to BACK at 744.77-745.4 on p1 side (/tmp/claude-0/ap/corr/fr/g1/a37c.png, /tmp/claude-0/ap/corr/fr/g1/a37b.png, /tmp/claude-0/ap/corr/fr/g1/c37_744.60.png, /tmp/claude-0/ap/corr/fr/g1/c37_745.40.png)"
+  },
+  {
+   "n": 27,
+   "id": "ap41",
+   "side": "p2",
+   "op": "retype",
+   "t": 1087.6,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Only one clear here: L locks 1087.07 (no clear), T held, I from hold locks ~1087.27 -> TETRIS + BACK to BACK, score +3600 at 1087.33 (5821->9421); no spawn at 1087.6 and no second jump until 1089.8. The double gc2 is a double-log; the chain quad at 1087.0 stands for the TETRIS (/tmp/claude-0/ap/corr/fr/g1/a41.png)"
+  },
+  {
+   "n": 29,
+   "id": "ap42",
+   "side": "p1",
+   "op": "retype",
+   "t": 1128.47,
+   "was": [
+    null,
+    0,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "gc": 0,
+   "source": "S spawned 1128.47 held, T from hold locks ~1128.72 clearing 1 row; score +636 at 1128.77 (= single 300 + REN2 300 + drop); REN banner goes 1 REN -> 2 REN, no T-SPIN banner; garbage row with its hole still at the bottom at 1129.66 (/tmp/claude-0/ap/corr/fr/g1/a42.png)"
+  },
+  {
+   "n": 30,
+   "id": "ap43",
+   "side": "p1",
+   "op": "retype",
+   "t": 1148.9,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z (from hold) locks ~1149.6 clearing the last 2 rows: board empty + PERFECT CLEAR banner 1149.67-1150.5; score +4500 at 1149.67 (/tmp/claude-0/ap/corr/fr/g1/a43.png)"
+  },
+  {
+   "n": 30,
+   "id": "ap43",
+   "side": "p1",
+   "op": "retype",
+   "t": 1149.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "I spawned 1149.73 held, S from hold placed on empty board, no clear; score +40 at 1150.13; no clear jump until TSD at 1152.57 (/tmp/claude-0/ap/corr/fr/g1/a43.png)"
+  },
+  {
+   "n": 32,
+   "id": "ap44",
+   "side": "p1",
+   "op": "retype",
+   "t": 1196.87,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "gc": 0,
+   "source": "T spun ~1197.43; 2-row flash, banner T-SPIN Double + BACK to BACK + REN at 1197.54-1198.1; score +5567 (5258->10825 at 1198.00) = TSD B2B 5400 + REN 150 (/tmp/claude-0/ap/corr/fr/g1/a44.png)"
+  },
+  {
+   "n": 34,
+   "id": "ap47",
+   "side": "p2",
+   "op": "retype",
+   "t": 1301.67,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "I locks vertically ~1301.73 clearing the last 4 rows: board empty + PERFECT CLEAR banner 1301.88-1302.40, TETRIS banner; score 4103->17303 (/tmp/claude-0/ap/corr/fr/g1/a47.png)"
+  },
+  {
+   "n": 34,
+   "id": "ap47",
+   "side": "p2",
+   "op": "retype",
+   "t": 1301.93,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "source": "Z spawned 1301.87 held at 1302.03, S from hold placed on empty board ~1302.2, no clear; score +37 at 1302.27 (/tmp/claude-0/ap/corr/fr/g1/a47.png)"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 19,
+   "id": "ap31",
+   "player": "p1",
+   "field": "pieces",
+   "was": 46,
+   "value": 47,
+   "source": "S spawned 316.63 hard-dropped and locked on the KO frame 316.87 (score 30166->30184, piece on board at 316.87); no clear; not in chain (last event 316.37) (/tmp/claude-0/ap/corr/fr/g1/a31.png, /tmp/claude-0/ap/corr/fr/g1/a31b.png)"
+  },
+  {
+   "n": 29,
+   "id": "ap42",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 1,
+   "value": 3,
+   "source": "tsd 1126.23, quad 1127.53, single 1128.47 (added), double 1129.4 on consecutive pieces; banner reads 3 REN at 1129.75 (before KO 1129.8) (/tmp/claude-0/ap/corr/fr/g1/a42.png)"
+  },
+  {
+   "n": 37,
+   "id": "ap49",
+   "player": "p1",
+   "field": "pieces",
+   "was": 50,
+   "value": 51,
+   "source": "I spawned 1524.30, hard-dropped into col 9 and locked at 1524.47 (lock flash, ghost position) before KO 1524.5; no clear; chain last event 1523.9 (/tmp/claude-0/ap/corr/fr/g1/a49k.png)"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 22,
+   "why": "ap33 p1: last locks S 459.43, L 459.73, J (spawn 460.00, locks 460.17); Z spawned 460.27 still falling at KO 460.4. Chain has 3 events after the TSD (459.43, 459.73, 460.27) = 3 true locks; count correct (a33k.png)."
+  },
+  {
+   "n": 24,
+   "why": "ap34 p1: Z spawned 617.87 still falling at KO 618.03, locks 618.07 (after KO); score 198662 unchanged through 618.03 (a34k.png)."
+  },
+  {
+   "n": 25,
+   "why": "ap37 p1: the T-SPIN Single banner at 742.17 is the opponent's (left of p2 board, f37_742.png). p1's clear at ~742.87 is a real TST: banner T-SPIN Triple, score +4800 (a37a.png). Chain tst correct."
+  },
+  {
+   "n": 28,
+   "why": "ap41 p1: O spawned 1101.53 held, T from hold still soft-dropping mid-board at KO 1102.03 (score +1/frame), not locked (a41k.png)."
+  },
+  {
+   "n": 31,
+   "why": "ap44 p1: no TSS banner on p1 at 1195.5 (f44_1195.5.png); the clear is a real T-SPIN Triple (banner at 1196.9, f44_1196.9.png), score +4800 at 1196.13. Chain tst correct."
+  },
+  {
+   "n": 33,
+   "why": "ap45 p1: I spawned 1248.50 held, T from hold still falling at KO 1248.87, not locked (a45k.png)."
+  },
+  {
+   "n": 35,
+   "why": "ap47 p2: T soft-dropped vertically into a hole, plain single (no T-SPIN banner), score +300 (17659->17959 at 1305.70) (a47b.png). Chain already single."
+  },
+  {
+   "n": 38,
+   "why": "ap49 p1: the +97 is accumulated drop points (33225 at 1522.93 -> 33322 at 1524.53, intermediate reads were misreads under an effect); no clear. The I locking at 1524.47 is handled by the pieces edit under n=37."
+  }
+ ]
+}

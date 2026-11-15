@@ -1,0 +1,250 @@
+[
+ {
+  "id": "ap00",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 21.1 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 21.77 s: fits tsd only",
+  "t_s": 21.1,
+  "n": 0
+ },
+ {
+  "id": "ap01",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 1 lines (tsmini) vs banner T-SPIN Double at 209.0 s",
+  "t_s": 209.0,
+  "n": 1
+ },
+ {
+  "id": "ap02",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ap02",
+   "player": "p2",
+   "t0": 230.0,
+   "t1": 232.96,
+   "step": -1650,
+   "unexplained": -1650,
+   "near": [
+    [
+     229.8,
+     1500,
+     "triple"
+    ],
+    [
+     230.07,
+     1650,
+     "triple"
+    ],
+    [
+     232.23,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 230.0,
+  "n": 2
+ },
+ {
+  "id": "ap02",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.13 s before the KO)",
+  "t_s": 270.67,
+  "n": 3
+ },
+ {
+  "id": "ap09",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 565.0 s",
+  "t_s": 565.0,
+  "n": 4
+ },
+ {
+  "id": "ap09",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 574.27,
+  "n": 5
+ },
+ {
+  "id": "ap16",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +918 at 790.5 s (KO 790.07 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 790.5,
+  "n": 6
+ },
+ {
+  "id": "ap21",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +106 at 1126.34 s (KO 1126.1 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1126.34,
+  "n": 8
+ },
+ {
+  "id": "ap22",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 1140.57 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 1141.34 s: fits tsd only",
+  "t_s": 1140.57,
+  "n": 9
+ },
+ {
+  "id": "ap22",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ap22",
+   "player": "p1",
+   "t0": 1143.54,
+   "t1": 1146.57,
+   "step": -1500,
+   "unexplained": -1500,
+   "near": [
+    [
+     1143.6,
+     1500,
+     "triple"
+    ],
+    [
+     1145.9,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 1143.54,
+  "n": 10
+ },
+ {
+  "id": "ap24",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ap24",
+   "player": "p1",
+   "t0": 1277.04,
+   "t1": 1285.2,
+   "step": -3570,
+   "unexplained": -3570,
+   "near": [
+    [
+     1277.1,
+     3600,
+     "quad"
+    ],
+    [
+     1282.03,
+     5400,
+     "tsd"
+    ],
+    [
+     1283.5,
+     5400,
+     "tsd"
+    ],
+    [
+     1285.13,
+     3600,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 1277.04,
+  "n": 12
+ },
+ {
+  "id": "ap26",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ap26",
+   "player": "p1",
+   "t0": 1447.43,
+   "t1": 1451.0,
+   "step": -1050,
+   "unexplained": -1050,
+   "near": [
+    [
+     1447.3,
+     900,
+     "double"
+    ],
+    [
+     1447.5,
+     1050,
+     "double"
+    ],
+    [
+     1450.13,
+     3600,
+     "tsd"
+    ]
+   ]
+  },
+  "t_s": 1447.43,
+  "n": 13
+ },
+ {
+  "id": "ap27",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +766 at 1497.64 s (KO 1497.27 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 1497.64,
+  "n": 14
+ },
+ {
+  "id": "ap29",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "ap29",
+   "player": "p1",
+   "t0": 185.63,
+   "t1": 191.3,
+   "step": -3568,
+   "unexplained": -3568,
+   "near": [
+    [
+     185.33,
+     3600,
+     "quad"
+    ],
+    [
+     188.77,
+     5400,
+     "tsd"
+    ],
+    [
+     191.07,
+     7200,
+     "tst"
+    ]
+   ]
+  },
+  "t_s": 185.63,
+  "n": 15
+ },
+ {
+  "id": "ap29",
+  "player": "p1",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 4 lines (quad) vs banner T-SPIN Single at 191.07 s",
+  "t_s": 191.07,
+  "n": 16
+ },
+ {
+  "id": "ap30",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "9 of 21 bags not a permutation (spawn index [84, 91, 98, 105, 112, 119, 126, 133, 140]); anomalies ['double shift k=3 at frame 1349']",
+  "t_s": 210.23,
+  "n": 17
+ }
+]
