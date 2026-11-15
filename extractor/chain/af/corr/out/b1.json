@@ -1,0 +1,31 @@
+{"event_corrections":[
+ {"n":18,"id":"af24","side":"p2","op":"retype","t":350.67,"was":["double",2,0],"kind":"tsd","lines":2,"source":"fr/g1/i18.png: T rotated into T-slot 350.9-351.3, 2 rows cleared, banner '...Double' + BACK to BACK + REN at 351.5-351.9; score 5268->10818 (+5550 = TSD B2B 5400 + REN 150) at 351.37"},
+ {"n":21,"id":"af26","side":"p1","op":"retype","t":519.0,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g1/i21c.png: T placed 519.05, colored row above garbage cleared (white band 519.35), '2 REN' banner; score 67940->68540 (+600 = single 300 + REN 300) at 519.27"},
+ {"n":21,"id":"af26","side":"p1","op":"retype","t":523.77,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":1,"source":"fr/g1/i21b.png: Z spawned 523.8 and held, J dropped into right-side hole of the bottom grey row, clear band 524.2, '7 REN'; score 75256->76642 (+1386 = single+REN7) by 524.6"},
+ {"n":21,"id":"af26","side":"p1","op":"retype","t":524.77,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,"source":"fr/g1/i21.png: T locked 524.95 into bottom colored row, white band 525.10, '8 REN' banner 525.25; score 76642->78180 (+1538) at 525.53 = the KO-tail jump. Board not empty (no PC)"},
+ {"n":25,"id":"af29","side":"p2","op":"replace_window","t":796.7,"t_end":805.87,"events":[{"t":796.7,"kind":"single","lines":1,"pc":0,"gc":1}],"was_old":[[796.7,"single",1],[796.77,"single",1],[805.87,"single",1]],"source":"fr/g1/i25.png + nextcount p2 795.5-807.5: one spawn at 796.70 (O, held at 796.83, J out of hold), J sits ~9 s during an online stall (both players idle, game timer running), locks ~806.0 clearing a single; next spawn 806.97. Score 17878->19396 at 796.43 (8 REN single from 795.93 spawn) then only 19396->21050 (+1654 = single + 9 REN) at 806.33; banner '9 REN' at 806.4. 796.7/796.77/805.87 were three logs of one clear"},
+ {"n":27,"id":"af29","side":"p1","op":"remove","t":805.53,"was":[null,0,0],"source":"nextcount p1 795.8-807.8: spawns 796.47, 796.73, 796.97 (S), 805.77 (J held, I out), 806.70; no spawn near 805.53. fr/g1/i27.png: S (spawned 796.97) falls slowly through the stall and locks 805.7 with no clear, then I triple 805.9-806.2 (score 25434->26958). 805.53 is a phantom lock"},
+ {"n":29,"id":"af31","side":"p1","op":"retype","t":1025.7,"was":["double",2,0],"kind":"tsd","lines":2,"source":"fr/g1/i29.png: T rotated into slot 1026.0-1026.2, 2 rows cleared, banners REN + Double + BACK to BACK; score 145593->151143 (+5550 = TSD B2B + REN) at 1026.30"},
+ {"n":30,"id":"af31","side":"p2","op":"retype","t":1049.2,"was":["tss",1,0],"kind":"tsd","lines":2,"source":"fr/g1/i30.png: after garbage pushed stack to top, T placed 1049.2, clear band 1049.5, banner 'Double' + BACK to BACK 1049.5-1049.9; score 142294->147694 (+5400 = TSD B2B 3600x1.5; TSS B2B would be 3600)"},
+ {"n":32,"id":"af32","side":"p1","op":"retype","t":1066.17,"was":["double",2,0],"kind":"tsd","lines":2,"source":"fr/g1/i32.png: L held, T out and rotated into slot 1066.8, 2 rows cleared, banners REN + Double + BACK to BACK; score 5305->10855 (+5550) at 1066.93"},
+ {"n":35,"id":"af35","side":"p1","op":"add","t":1197.17,"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g1/i35.png + nextcount: O spawns 1197.17, hard-dropped, shown locked on the floor at 1197.37 (= KO frame end_s) with score 58335->58369 (drop points only, no clear)"}
+],
+"cell_edits":[
+ {"n":21,"id":"af26","player":"p1","field":"max_combo","was":6,"value":8,"source":"REN run tsd 516.6, quad 517.9, single 519.0, single 520.03, quad 521.0, double 522.0, single 522.87, single 523.77, single 524.77; banners '4 REN' 521.8, '5 REN' 522.2, '7 REN' 524.2, '8 REN' 525.25 (fr/g1/i21*.png); O at 525.7 no clear"},
+ {"n":25,"id":"af29","player":"p2","field":"pieces","was":73,"value":71,"source":"two phantom spawns in 796.7-805.87 (one J played); nextcount p2 shows a single spawn 796.70 until 806.97"},
+ {"n":25,"id":"af29","player":"p2","field":"max_combo","was":11,"value":9,"source":"real run peaks at '9 REN' banner at 806.4 (score +1654 = single + 9x150); the 10/11 came from the duplicate singles"},
+ {"n":27,"id":"af29","player":"p1","field":"pieces","was":83,"value":82,"source":"phantom lock 805.53 removed (nextcount)"},
+ {"n":35,"id":"af35","player":"p1","field":"pieces","was":82,"value":83,"source":"O spawned 1197.17 locks on KO frame 1197.37 (fr/g1/i35.png)"}
+],
+"no_change":[
+ {"n":19,"why":"fr/g1/i19.png: banner '...Triple' + BACK to BACK, 3 rows cleared at 401.1-401.3, score +7200 = TST B2B; chain tst correct, banner OCR wrong"},
+ {"n":20,"why":"fr/g1/i19.png: no clear flash 401.9-403.87; +100 over several pieces is hard-drop points (79036->79056 per lock)"},
+ {"n":22,"why":"fr/g1/i22.png: '...Triple' + BACK to BACK, 3-row band 685.2-685.4, score +7200 = TST B2B"},
+ {"n":23,"why":"fr/g1/i23.png: '...Triple' + BACK to BACK, 3-row band 757.2-757.4, score +7200 = TST B2B"},
+ {"n":24,"why":"fr/g1/i24.png: O spawned 771.84 was held (hold shows O at 771.90), T came out and was still falling at KO 772.00; nothing locked on the KO frame"},
+ {"n":26,"why":"covered by item 25's replace_window and cell edits"},
+ {"n":28,"why":"fr/g1/i28.png: banner 'Triple', 3 rows cleared 953.0-953.3, score +4810 = TST (no B2B); chain correct"},
+ {"n":31,"why":"fr/g1/i31.png: T spawned 1050.47 still falling at KO 1050.83, comes to rest ~1050.90 (after KO); no count"},
+ {"n":33,"why":"fr/g1/i33.png: I spawned 1076.47 still at the top at KO 1076.60; not locked"},
+ {"n":34,"why":"fr/g1/i34.png: I came out of hold at 1148.47 and was still at the top at KO 1148.50; not locked"}
+]}

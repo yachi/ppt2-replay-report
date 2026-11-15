@@ -1,0 +1,45 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 0,
+   "id": "af01",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 60801 at the last spawn (107.66 s) and still 60801 after the KO (107.83 s): nothing locked"
+  }
+ ],
+ "audit": [],
+ "hints": [
+  {
+   "group": "g0",
+   "n": 5,
+   "hint": "[tsb-hint-v1] score jumps near the clear: []; undecided"
+  },
+  {
+   "group": "g0",
+   "n": 17,
+   "hint": "[tsb-hint-v1] one score jump +1060 at 310.1 s: fits plain single only"
+  },
+  {
+   "group": "g1",
+   "n": 18,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 351.34 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 29,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1026.3 s: fits tsd only"
+  },
+  {
+   "group": "g1",
+   "n": 32,
+   "hint": "[tsb-hint-v1] one score jump +5550 at 1066.93 s: fits tsd only"
+  }
+ ],
+ "no_ocr": []
+}

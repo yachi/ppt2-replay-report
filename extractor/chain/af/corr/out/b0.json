@@ -1,0 +1,27 @@
+{"event_corrections":[
+ {"n":2,"id":"af04","side":"p1","op":"remove","t":261.87,"was":[null,0,0],"source":"fr/g0/i2.png (261.5-267.3): Z spawned 261.73 (nextcount shift) and hovered/moved unlocked until ~266.8; score frozen 17196 from 261.63 to 266.77; no lock between. Only one piece (the Z, chain 261.80) spans the gap; 261.87 and 261.97 are phantom locks"},
+ {"n":2,"id":"af04","side":"p1","op":"remove","t":261.97,"was":[null,0,0],"source":"same as 261.87: fr/g0/i2.png, nextcount has spawns 261.233,261.567,261.733,266.867 only"},
+ {"n":13,"id":"af15","side":"p1","op":"retype","t":1034.1,"was":["triple",3,0],"kind":"triple","lines":3,"pc":1,"gc":0,"source":"fr/g0/i13.png: J (spawn 1034.10) locks ~1034.15 clearing all 3 remaining rows (no grey garbage), board empty, PERFECT CLEAR banner 1034.22-1035.08; score 10963->12463->17863 (triple + PC bonus) at 1034.20-1034.23"},
+ {"n":13,"id":"af15","side":"p1","op":"retype","t":1034.4,"was":["triple",3,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/i13.png: next piece I (spawn 1034.27) lies flat on the empty floor at ~1034.95 with no clear; score only +30 (17866->17896) drop points. The second 'triple' is a duplicate of the PC triple"},
+ {"n":16,"id":"af22","side":"p1","op":"retype","t":224.77,"was":["double",2,0],"kind":"double","lines":2,"pc":1,"gc":0,"source":"fr/g0/i16.png: O (spawn 224.77) locks ~224.85 clearing the last 2 rows, board empty, PERFECT CLEAR banner from 224.87; score 10764->16082 at 224.90"},
+ {"n":16,"id":"af22","side":"p1","op":"retype","t":224.97,"was":["double",2,0],"kind":null,"lines":0,"pc":0,"gc":0,"source":"fr/g0/i16.png: S (spawn 224.97) locks on the empty floor ~225.03 with no clear; score +38 only (16082->16120); second 'double' is a duplicate of the PC double"}
+],
+"cell_edits":[
+ {"n":2,"id":"af04","player":"p1","field":"pieces","was":67,"value":65,"source":"two phantom locks at 261.87/261.97 in the gap window (fr/g0/i2.png, nextcount 261-267.5: 5 spawns, chain had 7 events)"}
+],
+"no_change":[
+ {"n":1,"why":"af02 p1: fr/g0/i1.png 181.2-182.6 shows no clear in the tail; score 93126->93241 is drop points only (+50,+65)"},
+ {"n":3,"why":"af04 p2: +3600 at 286.13 is the chain's TSD (T spawned 285.53, from hold); score was flat (drops only) 284.37-285.97 so no other TSD; lands before KO 286.17"},
+ {"n":4,"why":"af05 p2: fr/g0/i4.png banner '...Triple' + BACK to BACK at 364.1; score +7236 (TST B2B 7200 + drops). TST correct"},
+ {"n":5,"why":"af06 p1: fr/g0/i5.png; piece is part of REN chain; score 21346 (after triple) -> 23016 by 419.97 over single+1REN and double+2REN = 1650 + drops; a mini (600) would give >=1950. Plain single correct"},
+ {"n":6,"why":"af07 p1: fr/g0/i6.png O spawned 516.57 still falling at KO 516.67; no extra lock"},
+ {"n":7,"why":"af08 p1: score +7200 at 556.47 = TST B2B; TSS B2B would be 3600"},
+ {"n":8,"why":"af08 p1: score +7200 at 604.77 = TST B2B"},
+ {"n":9,"why":"af08 p1: score 130529 -> 130671 from 605.4 to KO, only drop points; mid readings 83109/85518 are misreads; no clear"},
+ {"n":10,"why":"af09 p1: fr/g0/i10.png T spawned 670.47 still in the air at KO 670.6; nothing locked"},
+ {"n":11,"why":"af13 p1: fr/g0/i11.png S spawned 909.83, held, T from hold soft-dropping through KO 910.2 without locking"},
+ {"n":12,"why":"af14 p1: fr/g0/i12.png S hard-dropped at 1016.74 (score +30), after KO 1016.70 (at 1016.70 still at top); not counted"},
+ {"n":14,"why":"af20 p1: fr/g0/i14.png I spawned 175.07, still falling with ghost at 175.18, locks ~175.20-175.22, after KO 175.17; not counted"},
+ {"n":15,"why":"af20 p1: the +105 is hard-drop points of that post-KO I lock (no line cleared, fr/g0/i14.png)"},
+ {"n":17,"why":"af23 p1: fr/g0/i17.png the 309.53 piece is a vertical I locking in the left column, single clear in a REN (4->5 REN); cannot be a T-spin; chain's plain single is right"}
+]}

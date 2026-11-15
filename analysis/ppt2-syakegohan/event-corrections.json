@@ -36006,5 +36006,602 @@
   "pc": 0,
   "gc": 0,
   "source": "b4 frame check, verified: Phantom: O spawned ~812.57 locks on the empty floor ~812.9, score +38 only (58432->58470). /tmp/claude-0/ae/corr/fr/g4/ae35b.png"
+ },
+ {
+  "id": "af04",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 261.87,
+  "source": "b0 frame check, verified: fr/g0/i2.png (261.5-267.3): Z spawned 261.73 (nextcount shift) and hovered/moved unlocked until ~266.8; score frozen 17196 from 261.63 to 266.77; no lock between. Only one piece (the Z, chain 261.80) spans the gap; 261.87 and 261.97 are phantom locks",
+  "t_end": 261.87,
+  "events": [],
+  "was_old": [
+   [
+    261.87,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "af04",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 261.97,
+  "source": "b0 frame check, verified: same as 261.87: fr/g0/i2.png, nextcount has spawns 261.233,261.567,261.733,266.867 only",
+  "t_end": 261.97,
+  "events": [],
+  "was_old": [
+   [
+    261.97,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "af15",
+  "side": "p1",
+  "op": "retype",
+  "t": 1034.1,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/i13.png: J (spawn 1034.10) locks ~1034.15 clearing all 3 remaining rows (no grey garbage), board empty, PERFECT CLEAR banner 1034.22-1035.08; score 10963->12463->17863 (triple + PC bonus) at 1034.20-1034.23 Also: b2 frame check, verified: n40.png, c.png: vertical I into the col-4 well clears 3 rows to an empty board at ~1034.2; score 10963->17863 (1034.20-1034.23). Next I locks ~1034.95 with no clear (+30). The 3 cleared rows are coloured pieces, no garbage (c.png). /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af15",
+  "side": "p1",
+  "op": "retype",
+  "t": 1034.4,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/i13.png: next piece I (spawn 1034.27) lies flat on the empty floor at ~1034.95 with no clear; score only +30 (17866->17896) drop points. The second 'triple' is a duplicate of the PC triple Also: b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n40.png, c.png: vertical I into the col-4 well clears 3 rows to an empty board at ~1034.2; score 10963->17863 (1034.20-1034.23). Next I locks ~1034.95 with no clear (+30). The 3 cleared rows are coloured pieces, no garbage (c.png)."
+ },
+ {
+  "id": "af22",
+  "side": "p1",
+  "op": "retype",
+  "t": 224.77,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/i16.png: O (spawn 224.77) locks ~224.85 clearing the last 2 rows, board empty, PERFECT CLEAR banner from 224.87; score 10764->16082 at 224.90 Also: b2 frame check, verified: n42.png: O spawned 224.77 locks ~224.85 clearing 2 rows to an empty board, PERFECT CLEAR 225.0; score ->16082 at 224.90. Next S (spawned 225.0) locks ~225.35 with no clear (+34). /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af22",
+  "side": "p1",
+  "op": "retype",
+  "t": 224.97,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b0 frame check, verified: fr/g0/i16.png: S (spawn 224.97) locks on the empty floor ~225.03 with no clear; score +38 only (16082->16120); second 'double' is a duplicate of the PC double Also: b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n42.png: O spawned 224.77 locks ~224.85 clearing 2 rows to an empty board, PERFECT CLEAR 225.0; score ->16082 at 224.90. Next S (spawned 225.0) locks ~225.35 with no clear (+34)."
+ },
+ {
+  "id": "af24",
+  "side": "p2",
+  "op": "retype",
+  "t": 350.67,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b1 frame check, verified: fr/g1/i18.png: T rotated into T-slot 350.9-351.3, 2 rows cleared, banner '...Double' + BACK to BACK + REN at 351.5-351.9; score 5268->10818 (+5550 = TSD B2B 5400 + REN 150) at 351.37"
+ },
+ {
+  "id": "af26",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 519.0,
+  "source": "b1 frame check, verified: fr/g1/i21c.png: T placed 519.05, colored row above garbage cleared (white band 519.35), '2 REN' banner; score 67940->68540 (+600 = single 300 + REN 300) at 519.27",
+  "t_end": 519.0,
+  "events": [
+   {
+    "t": 519.0,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    519.0,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "af26",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 523.77,
+  "source": "b1 frame check, verified: fr/g1/i21b.png: Z spawned 523.8 and held, J dropped into right-side hole of the bottom grey row, clear band 524.2, '7 REN'; score 75256->76642 (+1386 = single+REN7) by 524.6",
+  "t_end": 523.77,
+  "events": [
+   {
+    "t": 523.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    523.77,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "af26",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 524.77,
+  "source": "b1 frame check, verified: fr/g1/i21.png: T locked 524.95 into bottom colored row, white band 525.10, '8 REN' banner 525.25; score 76642->78180 (+1538) at 525.53 = the KO-tail jump. Board not empty (no PC)",
+  "t_end": 524.77,
+  "events": [
+   {
+    "t": 524.77,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 0
+   }
+  ],
+  "was_old": [
+   [
+    524.77,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "af29",
+  "side": "p2",
+  "op": "replace_window",
+  "t": 796.7,
+  "t_end": 805.87,
+  "events": [
+   {
+    "t": 796.7,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    796.7,
+    "single",
+    1
+   ],
+   [
+    796.77,
+    "single",
+    1
+   ],
+   [
+    805.87,
+    "single",
+    1
+   ]
+  ],
+  "source": "b1 frame check, verified: fr/g1/i25.png + nextcount p2 795.5-807.5: one spawn at 796.70 (O, held at 796.83, J out of hold), J sits ~9 s during an online stall (both players idle, game timer running), locks ~806.0 clearing a single; next spawn 806.97. Score 17878->19396 at 796.43 (8 REN single from 795.93 spawn) then only 19396->21050 (+1654 = single + 9 REN) at 806.33; banner '9 REN' at 806.4. 796.7/796.77/805.87 were three logs of one clear"
+ },
+ {
+  "id": "af29",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 805.53,
+  "source": "b1 frame check, verified: nextcount p1 795.8-807.8: spawns 796.47, 796.73, 796.97 (S), 805.77 (J held, I out), 806.70; no spawn near 805.53. fr/g1/i27.png: S (spawned 796.97) falls slowly through the stall and locks 805.7 with no clear, then I triple 805.9-806.2 (score 25434->26958). 805.53 is a phantom lock",
+  "t_end": 805.53,
+  "events": [],
+  "was_old": [
+   [
+    805.53,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "af31",
+  "side": "p1",
+  "op": "retype",
+  "t": 1025.7,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b1 frame check, verified: fr/g1/i29.png: T rotated into slot 1026.0-1026.2, 2 rows cleared, banners REN + Double + BACK to BACK; score 145593->151143 (+5550 = TSD B2B + REN) at 1026.30"
+ },
+ {
+  "id": "af31",
+  "side": "p2",
+  "op": "retype",
+  "t": 1049.2,
+  "was": [
+   "tss",
+   1,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b1 frame check, verified: fr/g1/i30.png: after garbage pushed stack to top, T placed 1049.2, clear band 1049.5, banner 'Double' + BACK to BACK 1049.5-1049.9; score 142294->147694 (+5400 = TSD B2B 3600x1.5; TSS B2B would be 3600)"
+ },
+ {
+  "id": "af32",
+  "side": "p1",
+  "op": "retype",
+  "t": 1066.17,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "tsd",
+  "lines": 2,
+  "source": "b1 frame check, verified: fr/g1/i32.png: L held, T out and rotated into slot 1066.8, 2 rows cleared, banners REN + Double + BACK to BACK; score 5305->10855 (+5550) at 1066.93"
+ },
+ {
+  "id": "af35",
+  "side": "p1",
+  "op": "add",
+  "t": 1197.17,
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b1 frame check, verified: fr/g1/i35.png + nextcount: O spawns 1197.17, hard-dropped, shown locked on the floor at 1197.37 (= KO frame end_s) with score 58335->58369 (drop points only, no clear)"
+ },
+ {
+  "id": "af02",
+  "side": "p2",
+  "op": "retype",
+  "t": 125.93,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, amended by skeptic: n36.png, n36b.png: J spawned ~125.93 locks ~126.10 clearing the last 2 rows, board empty, PERFECT CLEAR banner from 126.2; score 11129->15779 at 126.13 (one clear). Next piece O (spawned ~126.2, L swapped into hold at 126.3) locks ~126.6 with no clear (+38 drop only, 15779->15817). No grey garbage on the cleared rows (a.png). /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af02",
+  "side": "p2",
+  "op": "retype",
+  "t": 126.2,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, amended by skeptic: Duplicate of the PC clear one piece later; that piece locks with no clear. n36.png, n36b.png: J spawned ~125.93 locks ~126.10 clearing the last 2 rows, board empty, PERFECT CLEAR banner from 126.2; score 11129->15779 at 126.13 (one clear). Next piece O (spawned ~126.2, L swapped into hold at 126.3) locks ~126.6 with no clear (+38 drop only, 15779->15817). No grey garbage on the cleared rows (a.png)."
+ },
+ {
+  "id": "af05",
+  "side": "p1",
+  "op": "retype",
+  "t": 309.53,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n37.png: Z spawned 309.53 locks ~310.2 clearing 2 rows to an empty board, PERFECT CLEAR banner 310.4; score 20870->25370 at 310.30. Next O locks ~310.6 with no clear (+36). Cleared rows hold no garbage (b.png). /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af05",
+  "side": "p1",
+  "op": "retype",
+  "t": 310.37,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n37.png: Z spawned 309.53 locks ~310.2 clearing 2 rows to an empty board, PERFECT CLEAR banner 310.4; score 20870->25370 at 310.30. Next O locks ~310.6 with no clear (+36). Cleared rows hold no garbage (b.png)."
+ },
+ {
+  "id": "af06",
+  "side": "p2",
+  "op": "retype",
+  "t": 402.73,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n38.png: T spawned ~402.73 drops into the gap ~402.95 clearing 2 rows to an empty board, PERFECT CLEAR banner 403.1-403.2; score 6887->11568 by 403.07. Next T (spawned 403.2) locks ~403.45 with no clear (+38). Rows coloured, no garbage. /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af06",
+  "side": "p2",
+  "op": "retype",
+  "t": 403.13,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n38.png: T spawned ~402.73 drops into the gap ~402.95 clearing 2 rows to an empty board, PERFECT CLEAR banner 403.1-403.2; score 6887->11568 by 403.07. Next T (spawned 403.2) locks ~403.45 with no clear (+38). Rows coloured, no garbage."
+ },
+ {
+  "id": "af14",
+  "side": "p2",
+  "op": "retype",
+  "t": 928.8,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n39.png: S spawned 928.8 and held, O came out and locked ~929.2 clearing 2 rows to an empty board, PERFECT CLEAR 929.3; score 11294->15944 at 929.23-929.27. Next L (spawned 929.4) swapped into hold, S locks ~930.2 with no clear (+38). /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af14",
+  "side": "p2",
+  "op": "retype",
+  "t": 929.3,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n39.png: S spawned 928.8 and held, O came out and locked ~929.2 clearing 2 rows to an empty board, PERFECT CLEAR 929.3; score 11294->15944 at 929.23-929.27. Next L (spawned 929.4) swapped into hold, S locks ~930.2 with no clear (+38)."
+ },
+ {
+  "id": "af21",
+  "side": "p2",
+  "op": "retype",
+  "t": 199.73,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n41.png: I from hold (T held 199.7) placed ~199.95 completing 4 rows -> TETRIS + PERFECT CLEAR, board empty 200.0; score 18785->32019. Next L (spawned ~200.1) locks ~200.45 with no clear (+36). No garbage in the cleared rows. /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af21",
+  "side": "p2",
+  "op": "retype",
+  "t": 200.07,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n41.png: I from hold (T held 199.7) placed ~199.95 completing 4 rows -> TETRIS + PERFECT CLEAR, board empty 200.0; score 18785->32019. Next L (spawned ~200.1) locks ~200.45 with no clear (+36). No garbage in the cleared rows."
+ },
+ {
+  "id": "af31",
+  "side": "p1",
+  "op": "retype",
+  "t": 1031.7,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n44.png: T spawned 1031.7 locks ~1031.95 clearing 2 rows to an empty board, PERFECT CLEAR 1032.0; score 155457->160107 at 1031.97. Next: T held, J locks ~1032.3 with no clear (+40). /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af31",
+  "side": "p1",
+  "op": "retype",
+  "t": 1032.03,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n44.png: T spawned 1031.7 locks ~1031.95 clearing 2 rows to an empty board, PERFECT CLEAR 1032.0; score 155457->160107 at 1031.97. Next: T held, J locks ~1032.3 with no clear (+40)."
+ },
+ {
+  "id": "af32",
+  "side": "p1",
+  "op": "retype",
+  "t": 1074.23,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": "quad",
+  "lines": 4,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n45.png: vertical I locks ~1074.45 clearing 4 rows to an empty board (TETRIS, PERFECT CLEAR 1074.5); score 20156->33356 at 1074.50. Next T held, L locks ~1075.0 with no clear (+38). Cleared rows are coloured, no garbage. /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af32",
+  "side": "p1",
+  "op": "retype",
+  "t": 1074.57,
+  "was": [
+   "quad",
+   4,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n45.png: vertical I locks ~1074.45 clearing 4 rows to an empty board (TETRIS, PERFECT CLEAR 1074.5); score 20156->33356 at 1074.50. Next T held, L locks ~1075.0 with no clear (+38). Cleared rows are coloured, no garbage."
+ },
+ {
+  "id": "af34",
+  "side": "p1",
+  "op": "retype",
+  "t": 1146.43,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": "double",
+  "lines": 2,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n46.png: O spawned 1146.43 locks ~1146.65 clearing 2 rows to an empty board, PERFECT CLEAR 1146.7-1146.8; score 11112->15612 at 1146.70. Next I held, Z locks ~1147.15 with no clear (+36). /tmp/claude-0/af/corr/fr/g2/"
+ },
+ {
+  "id": "af34",
+  "side": "p1",
+  "op": "retype",
+  "t": 1146.77,
+  "was": [
+   "double",
+   2,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: Duplicate of the PC clear one piece later; that piece locks with no clear. n46.png: O spawned 1146.43 locks ~1146.65 clearing 2 rows to an empty board, PERFECT CLEAR 1146.7-1146.8; score 11112->15612 at 1146.70. Next I held, Z locks ~1147.15 with no clear (+36)."
+ },
+ {
+  "id": "af31",
+  "side": "p1",
+  "op": "replace_window",
+  "t": 968.93,
+  "source": "b2 frame check, verified: n43b.png, d.png: board at 968.85 has a grey garbage bottom row with its hole in col 4; the I (spawned 968.93, nextcount shift) drops vertically into col 4 at ~969.0 and clears only that garbage row (rows above still open in col 5); garbage row gone at 969.55. Score 59779 (967.3) -> 60214 (969.5) = single +drops; the 54073 reading at 968.9 is a misread under the overlay.",
+  "t_end": 968.93,
+  "events": [
+   {
+    "t": 968.93,
+    "kind": "single",
+    "lines": 1,
+    "pc": 0,
+    "gc": 1
+   }
+  ],
+  "was_old": [
+   [
+    968.93,
+    null,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "af31",
+  "side": "p1",
+  "op": "retype",
+  "t": 969.67,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": "triple",
+  "lines": 3,
+  "pc": 1,
+  "gc": 0,
+  "source": "b2 frame check, verified: n43.png: J spawned 969.67 fills the col-5 well ~969.75 clearing the last 3 rows to an empty board, PERFECT CLEAR 969.8-969.9; score 60250->67300 at 969.77."
+ },
+ {
+  "id": "af31",
+  "side": "p1",
+  "op": "retype",
+  "t": 969.83,
+  "was": [
+   "triple",
+   3,
+   0
+  ],
+  "kind": null,
+  "lines": 0,
+  "pc": 0,
+  "gc": 0,
+  "source": "b2 frame check, verified: n43.png: S spawned 969.83 is held at 969.9, L comes out and locks ~970.2 with no clear (+36: 67338->67374). The chain's triple here duplicates the PC."
  }
 ]
