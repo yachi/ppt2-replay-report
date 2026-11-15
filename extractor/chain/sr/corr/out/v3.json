@@ -1,0 +1,20 @@
+[
+{"ref":"e0","verdict":"keep","why":"p1 NEXT shifts only 816.37, 826.63, 827.50, 828.27 (T held at 818 -> J out, J hovers to ~825.9); score clears 826.00/826.87/827.63/828.60 (+1800/1950/2100/2250 = REN 10-13). No spawn at 825.57. /tmp/claude-0/sr/corr/fr/v3/a24.png"},
+{"ref":"e1","verdict":"keep","why":"p2 shifts 803.20 (I, held at 810.63 -> J) then 819.87; J clears at 819.20 (+1800). No spawn or clear at 818.77. See also missed n51 entries: two more phantoms in the same stall."},
+{"ref":"e2","verdict":"keep","why":"Shift 996.37 (L spawns), score +1386 at 997.07 = single at REN 7 (1350) + drops; next shift 997.30."},
+{"ref":"e3","verdict":"keep","why":"Score steps 987.50 +2132 (triple REN4), 988.03 +1050 (single REN5), 995.70 +1200 (REN6), 997.07 +1386 (REN7): REN never broken, BREAK at 987.83 is phantom."},
+{"ref":"e4","verdict":"keep","why":"p2 shifts 988.93 (Z) and 997.10 (L) only; Z clears 996.47 (+1800 REN10), L clears 997.30 (+2550 = double REN11). No piece at 996.6, no REN break."},
+{"ref":"e5","verdict":"keep","why":"Shift 1116.10 (Z spawns), next 1116.97; score +1538 at 1116.80 = single at REN 8 (1500) + drops."},
+{"ref":"e6","verdict":"keep","why":"T spawned 1354.07 clears two bottom rows; banner '...N Double' + BACK to BACK; score +5567 at 1355.23 (TSD B2B 5400 + REN 150 + drops). /tmp/claude-0/sr/corr/fr/v3/a31.png"},
+{"ref":"e7","verdict":"keep","why":"Red Z locks ~1518.6 clearing the last two rows; PERFECT CLEAR banner from 1518.79 on an empty board; score +4500 at 1518.73. This is the piece from the 1518.00 spawn (S held, Z out). /tmp/claude-0/sr/corr/fr/v3/a35.png"},
+{"ref":"e8","verdict":"keep","why":"After the PC the S drops onto the empty floor ~1519.2 (score only +drops, 15739->15807); next real clear is the TSD +3600 at 1521.63. /tmp/claude-0/sr/corr/fr/v3/a35.png"},
+{"ref":"e9","verdict":"keep","why":"Score +300 at 1650.57 = zero-line mini T-spin; stack unchanged after the T lock (frames 1650.5-1650.7), then garbage rises 1650.8; the Z from 1650.60 adds only +24. /tmp/claude-0/sr/corr/fr/v3/a37.png"},
+{"ref":"c0","verdict":"keep","why":"Follows e0: one phantom spawn removed."},
+{"ref":"c1","verdict":"keep","why":"Score +2250 at 828.60 = 300+150*13, consecutive REN 10-13 steps confirmed by score; 13 is correct."},
+{"ref":"c2","verdict":"amend","amended":{"value":478},"why":"Same p2 stall holds two further phantoms (see missed n51): NEXT queue unchanged 787.67->803.20 and the S spawned 787.67 hovers until it clears at 802.53 (/tmp/claude-0/sr/corr/fr/v3/a24p2.png); chain also logs singles at 787.73 and 800.53. 481 - 3 phantoms = 478 (if chain pieces count each logged event once)."},
+{"ref":"c3","verdict":"keep","why":"Follows e4: only the L between the 996.47 and 997.30 clears."},
+{"ref":"c4","verdict":"keep","why":"REN 4,5,6,7 continuous by score (see e3); 7 at 997.07."},
+{"ref":"c5","verdict":"keep","why":"Single at 1116.80 scores 1500 = 300+150*8: REN 8."},
+{"ref":"n51","verdict":"missed","why":"p2 NEXT shifts only 786.73 (O) and 787.67 (S) then 803.20; scores 786.47, 787.40 (+1533, O), 802.53 (+1650 REN9, the S), so 787.73 single is a duplicate of 787.67 and 800.53 single has no spawn. Frames 788.5-802.3 show the green S hovering. /tmp/claude-0/sr/corr/fr/v3/a24p2.png","proposal":{"id":"ac24","side":"p2","op":"remove","t":800.53,"was":["single",1,0],"source":"No NEXT shift 787.67->803.20; S spawned 787.67 hovers until clearing at 802.53 (+1650). /tmp/claude-0/sr/corr/fr/v3/a24p2.png"}},
+{"ref":"n51","verdict":"missed","why":"Duplicate single 0.06 s after 787.67 with no spawn; only 3 clears (786.47, 787.40, 802.53) for chain singles 785.73/786.73/787.67/787.73/800.53.","proposal":{"id":"ac24","side":"p2","op":"remove","t":787.73,"was":["single",1,0],"source":"nextcount p2 785-803.5: shifts 786.73, 787.67, 803.20 only; score clears 786.47, 787.40, 802.53. /tmp/claude-0/sr/corr/fr/v3/a24p2.png"}}
+]

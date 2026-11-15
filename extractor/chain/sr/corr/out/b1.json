@@ -1,0 +1,399 @@
+{
+ "event_corrections": [
+  {
+   "n": 16,
+   "id": "ac01",
+   "side": "p2",
+   "op": "replace_window",
+   "t": 352.5,
+   "t_end": 478.0,
+   "events": [
+    {
+     "t": 352.93,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 377.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 390.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 412.0,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 424.23,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 446.37,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 458.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     352.93,
+     "single",
+     1
+    ],
+    [
+     374.67,
+     "single",
+     1
+    ],
+    [
+     377.13,
+     "single",
+     1
+    ],
+    [
+     388.9,
+     "single",
+     1
+    ],
+    [
+     390.0,
+     "single",
+     1
+    ],
+    [
+     401.6,
+     null,
+     0
+    ],
+    [
+     401.73,
+     "BREAK",
+     2
+    ],
+    [
+     410.9,
+     "single",
+     1
+    ],
+    [
+     412.0,
+     "single",
+     1
+    ],
+    [
+     423.13,
+     "single",
+     1
+    ],
+    [
+     424.23,
+     "single",
+     1
+    ],
+    [
+     445.27,
+     "single",
+     1
+    ],
+    [
+     446.37,
+     "single",
+     1
+    ],
+    [
+     457.4,
+     "single",
+     1
+    ],
+    [
+     458.5,
+     "single",
+     1
+    ]
+   ],
+   "source": "ac01 is a slow stalling REN duel (replay; players hold a piece 11-27 s, clock real-time, frames /tmp/claude-0/sr/corr/fr/g1/s2.png 373.5-388.5 show p1 moving the same I for 14 s). score.py 345-482: each player's score rises only in single steps that grow by exactly 150 (REN continuing): p2 +1500@352.30,+1650@376.50,+1800@389.33,+1950@411.33,+2100@423.60,+2250@445.73,+2400@457.83,+2550@478.77; no drop points between. nextcount p2 320-482: spawns exactly 352.93,377.13,390.00,412.00,424.23,446.37,458.50 (holds at 364.07,401.63,435.40,469.07 are holds, not locks). So 7 pieces, each a REN single; chain's extra singles 374.67,388.9,410.9,423.13,445.27,457.4, None 401.6 (=hold) and BREAK 401.73 are B duplicates. Piece spawned 340.10 clears at 352.30 (g0's window); 458.5 piece clears 478.77."
+  },
+  {
+   "n": 17,
+   "id": "ac01",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 372.0,
+   "t_end": 477.0,
+   "events": [
+    {
+     "t": 372.13,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 387.87,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 402.2,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 418.07,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 435.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    },
+    {
+     "t": 462.5,
+     "kind": "single",
+     "lines": 1,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     372.13,
+     "single",
+     1
+    ],
+    [
+     383.73,
+     "single",
+     1
+    ],
+    [
+     387.87,
+     "single",
+     1
+    ],
+    [
+     399.27,
+     "single",
+     1
+    ],
+    [
+     402.2,
+     "single",
+     1
+    ],
+    [
+     413.4,
+     "single",
+     1
+    ],
+    [
+     418.07,
+     "single",
+     1
+    ],
+    [
+     429.77,
+     "single",
+     1
+    ],
+    [
+     435.5,
+     "single",
+     1
+    ],
+    [
+     446.6,
+     null,
+     0
+    ],
+    [
+     448.27,
+     "BREAK",
+     2
+    ],
+    [
+     461.4,
+     "single",
+     1
+    ],
+    [
+     462.5,
+     "single",
+     1
+    ],
+    [
+     473.0,
+     null,
+     0
+    ],
+    [
+     473.27,
+     "BREAK",
+     1
+    ],
+    [
+     476.37,
+     "BREAK",
+     3
+    ]
+   ],
+   "source": "ac01 is a slow stalling REN duel (replay; players hold a piece 11-27 s, clock real-time, frames /tmp/claude-0/sr/corr/fr/g1/s2.png 373.5-388.5 show p1 moving the same I for 14 s). score.py 345-482: each player's score rises only in single steps that grow by exactly 150 (REN continuing): p1 +1800@371.47,+1950@387.23,+2100@401.57,+2250@417.40,+2400@434.87,+2550@461.83,+2700@476.83; 11 REN banner at 386.5 (/tmp/claude-0/sr/corr/fr/g1/s2.png). nextcount p1 340-482: spawns 344.67,372.13,387.87,402.20,418.07,435.50,462.50,477.47 (hold 357.03 is a hold). Window pieces 372.13..462.50 = 6 REN singles; chain's 383.73,399.27,413.4,429.77,461.4 singles, None 446.6/473.0 and BREAKs 448.27/473.27/476.37 are B duplicates/false breaks. NOTE for g0: chain single 371.03 (in g0 item 15's window) is the same kind of duplicate (the 344.67 Z locks and clears at 371.35-371.47, one clear only, /tmp/claude-0/sr/corr/fr/g1/s1.png)."
+  },
+  {
+   "n": 31,
+   "id": "ac09",
+   "side": "p1",
+   "op": "retype",
+   "t": 1185.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "PERFECT CLEAR banner and empty board 1185.5-1186.0 (/tmp/claude-0/sr/corr/fr/g1/s4.png); score +4800 at 1185.47 = double 900 + double-PC bonus 3600 + REN2 300; only one lock between spawns 1185.17 and 1185.53 (nextcount)."
+  },
+  {
+   "n": 31,
+   "id": "ac09",
+   "side": "p1",
+   "op": "retype",
+   "t": 1185.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "piece spawned 1185.53 (vertical S at left, /tmp/claude-0/sr/corr/fr/g1/s4.png 1185.8-1186.0) locks on the empty board with no clear: score only +37 drop points at 1185.93; the chain's second double is a duplicate of the 1185.17 PC double (score.py 1183.5-1188.5 shows no second clear jump)."
+  },
+  {
+   "n": 32,
+   "id": "ac09",
+   "side": "p1",
+   "op": "retype",
+   "t": 1212.7,
+   "was": [
+    "tss",
+    1,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "T spawned 1212.70 inserted into slot 1213.3, two rows flash white 1213.45 and T-SPIN Double + REN banner (/tmp/claude-0/sr/corr/fr/g1/s5.png); score 55518->59286 (+3768 = TSD 3600 + REN1 150 + drops). Not B2B (triple before)."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 19,
+   "id": "ac01",
+   "player": "p1",
+   "field": "pieces",
+   "was": 214,
+   "value": 207,
+   "source": "delta -7 from the n=17 window only (13 non-BREAK chain events -> 6 real pieces, nextcount); g0's earlier windows (271-372) show the same duplicate pattern and may lower it further; apply as a delta."
+  },
+  {
+   "n": 18,
+   "id": "ac01",
+   "player": "p2",
+   "field": "pieces",
+   "was": 201,
+   "value": 194,
+   "source": "delta -7 from the n=16 window only (14 non-BREAK chain events -> 7 real pieces, nextcount); g0's earlier windows show the same duplicate pattern; apply as a delta."
+  },
+  {
+   "n": 21,
+   "id": "ac01",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 11,
+   "value": 17,
+   "source": "p1 score steps 288.30 +1350 (REN7) then +150 each through 479.40 +2850 = 300+150*17 (REN 17), uninterrupted; 11 REN banner seen at 386.5 with +1950 confirms display REN = (step-300)/150; REN breaks after (drop-only locks 480.07-480.87)."
+  },
+  {
+   "n": 20,
+   "id": "ac01",
+   "player": "p2",
+   "field": "max_combo",
+   "was": 11,
+   "value": 18,
+   "source": "p2 score steps 285.43 +900 (REN4) rising +150 each through 482.73 +3000 = 300+150*18 (REN 18); next clear 484.43 +934 = plain double, REN broken. score.py 250-500."
+  }
+ ],
+ "no_change": [
+  {
+   "n": 22,
+   "why": "covered by the replace_window of item 16 (same stalled REN stretch, one window per player)"
+  },
+  {
+   "n": 23,
+   "why": "covered by the replace_window of item 17 (same stalled REN stretch, one window per player)"
+  },
+  {
+   "n": 24,
+   "why": "covered by the replace_window of item 16 (same stalled REN stretch, one window per player)"
+  },
+  {
+   "n": 25,
+   "why": "covered by the replace_window of item 17 (same stalled REN stretch, one window per player)"
+  },
+  {
+   "n": 26,
+   "why": "covered by the replace_window of item 16 (same stalled REN stretch, one window per player)"
+  },
+  {
+   "n": 27,
+   "why": "covered by the replace_window of item 16 (same stalled REN stretch, one window per player)"
+  },
+  {
+   "n": 28,
+   "why": "covered by the replace_window of item 17 (same stalled REN stretch, one window per player)"
+  },
+  {
+   "n": 30,
+   "why": "frames 691.3-692.9 (/tmp/claude-0/sr/corr/fr/g1/s3.png) show 3 rows cleared with T-SPIN Triple + BACK to BACK banner at 692.1; score +7200 at 692.03 = TST 4800 x1.5. Chain tst is right; the TSS banner belongs to the later tss at 694.27 (+3600)."
+  }
+ ]
+}

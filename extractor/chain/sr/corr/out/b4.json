@@ -1,0 +1,257 @@
+{
+ "event_corrections": [
+  {
+   "n": 67,
+   "id": "ac00",
+   "side": "p1",
+   "op": "replace_window",
+   "t": 24.27,
+   "t_end": 24.53,
+   "events": [
+    {
+     "t": 24.27,
+     "kind": "double",
+     "lines": 2,
+     "pc": 1,
+     "gc": 0
+    },
+    {
+     "t": 24.53,
+     "kind": null,
+     "lines": 0,
+     "pc": 0,
+     "gc": 0
+    }
+   ],
+   "was_old": [
+    [
+     24.27,
+     null,
+     0
+    ],
+    [
+     24.53,
+     "double",
+     2
+    ]
+   ],
+   "source": "L spawned 24.27 (top at 24.30) locks and clears 2 rows at 24.43; score 11282->15782 (+4500 = double 900 + PC 3600); board empty and PERFECT CLEAR banner 24.56-25.73. The I spawned 24.53 is placed vertically in col 0 with no clear (score +32). /tmp/claude-0/sr/corr/fr/g4/ac00.png"
+  },
+  {
+   "n": 67,
+   "id": "ac00",
+   "side": "p1",
+   "op": "retype",
+   "t": 30.4,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "S spawned 30.4 locks ~31.05 clearing the last 2 rows: board empty, PERFECT CLEAR at 31.20, score 14066->25269 in one jump at 31.10-31.13. No grey garbage in those rows. /tmp/claude-0/sr/corr/fr/g4/ac00b.png, /tmp/claude-0/sr/corr/fr/g4/ac00c.png"
+  },
+  {
+   "n": 67,
+   "id": "ac00",
+   "side": "p1",
+   "op": "retype",
+   "t": 31.17,
+   "was": [
+    "double",
+    2,
+    1
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate of the 30.4 PC double: T spawned 31.17 is held (HOLD shows T at 31.40), L placed bottom right at ~31.6 with no clear (score 25270->25305, drop points only). Only one big score jump in 30.5-32.3. /tmp/claude-0/sr/corr/fr/g4/ac00b.png"
+  },
+  {
+   "n": 68,
+   "id": "ac05",
+   "side": "p1",
+   "op": "retype",
+   "t": 686.63,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "I spawned 686.63 placed vertical in right column at 686.78, clears 4 rows, board empty, PERFECT CLEAR banner from 686.91; score 21805->35005 (+13200) at 686.87-686.90. No grey rows. /tmp/claude-0/sr/corr/fr/g4/ac05.png"
+  },
+  {
+   "n": 68,
+   "id": "ac05",
+   "side": "p1",
+   "op": "retype",
+   "t": 686.93,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: second I spawned 686.93 locks flat on the empty floor (cyan row bottom right at 687.43), score only +35 (35005->35040); the TETRIS banner at 687.43 is the earlier PC tetris's. /tmp/claude-0/sr/corr/fr/g4/ac05.png"
+  },
+  {
+   "n": 69,
+   "id": "ac06",
+   "side": "p1",
+   "op": "retype",
+   "t": 933.17,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 1,
+   "pc": 1,
+   "gc": 0,
+   "source": "After the L double at 932.37 one row remains; I (swapped out of HOLD, top at 933.24) fills it at 933.37: board empty, PERFECT CLEAR banner from 933.50, score 11683->14570 (+2887 = single 300 + PC 2400 + REN 150). /tmp/claude-0/sr/corr/fr/g4/ac06.png"
+  },
+  {
+   "n": 69,
+   "id": "ac06",
+   "side": "p1",
+   "op": "retype",
+   "t": 933.5,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: the L spawned 933.50 is held (HOLD Z->L at 933.63) and the Z is placed on the empty floor with no clear; score 14570->14608->14646, drop points only. /tmp/claude-0/sr/corr/fr/g4/ac06.png"
+  },
+  {
+   "n": 70,
+   "id": "ac09",
+   "side": "p1",
+   "op": "retype",
+   "t": 1185.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "J spawned ~1185.2 locks at 1185.37 clearing the remaining rows: board empty, PERFECT CLEAR from 1185.50, score 11254->16054 (+4800 = double 900 + PC 3600 + 2 REN 300). /tmp/claude-0/sr/corr/fr/g4/ac09.png"
+  },
+  {
+   "n": 70,
+   "id": "ac09",
+   "side": "p1",
+   "op": "retype",
+   "t": 1185.53,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: next piece S (from HOLD at 1185.63) placed at the left wall, no clear; score 16055->16092 drop points only. /tmp/claude-0/sr/corr/fr/g4/ac09.png"
+  },
+  {
+   "n": 71,
+   "id": "ac15",
+   "side": "p1",
+   "op": "retype",
+   "t": 1623.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "L spawned 1623.6 (top at 1623.68) locks 1623.83 clearing the 3 rows: board empty, PERFECT CLEAR from 1623.94, score 655->7555 (+6900 = triple 1500 + PC 5400). /tmp/claude-0/sr/corr/fr/g4/ac15.png"
+  },
+  {
+   "n": 71,
+   "id": "ac15",
+   "side": "p1",
+   "op": "retype",
+   "t": 1623.97,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: T spawned 1623.94 locks on the empty floor at the right (purple at 1624.46), no clear; score 7555->7593->7631 drop points only. /tmp/claude-0/sr/corr/fr/g4/ac15.png"
+  },
+  {
+   "n": 72,
+   "id": "ac35",
+   "side": "p1",
+   "op": "retype",
+   "t": 1518.0,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z spawned ~1518.06 locks ~1518.65 clearing the 2 rows: board empty, PERFECT CLEAR from 1518.71, score 11238->15738 (+4500 = double 900 + PC 3600). No grey rows. /tmp/claude-0/sr/corr/fr/g4/ac35.png"
+  },
+  {
+   "n": 72,
+   "id": "ac35",
+   "side": "p1",
+   "op": "retype",
+   "t": 1518.8,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom: S spawned 1518.84 placed vertical at the left wall on the empty board, no clear; score 15739->15769 drop points only. /tmp/claude-0/sr/corr/fr/g4/ac35.png"
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 69,
+   "id": "ac06",
+   "player": "p1",
+   "field": "max_combo",
+   "was": 2,
+   "value": 1,
+   "source": "Only REN-2 run in ac06 p1 was double 932.33 + single 933.17 + phantom single 933.5; with the phantom removed the run is 2 clears = 1 REN (banner at 933.50 reads 'REN', no number). /tmp/claude-0/sr/corr/fr/g4/ac06.png"
+  }
+ ],
+ "no_change": []
+}

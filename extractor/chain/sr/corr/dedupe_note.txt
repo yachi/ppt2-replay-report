@@ -1,0 +1,10 @@
+Groups overlapped at three spots and on four cells. dedupe.py (run after merge_xo.py) keeps the first proposal and appends the second's source.
+- ac09 p1 1185.17 PC double / 1185.53 phantom: proposed by g1 and g4 (same verdicts); g4 copies dropped.
+- ac35 p1 1518.0 PC double / 1518.8 phantom: proposed by g3 and g4 (same verdicts); g4 copies dropped.
+- ac24 phantom singles p1 825.57 and p2 818.77: proposed by g2 and g3; g3 copies dropped. p2 787.73: g2 and the g3 skeptic; the skeptic's copy dropped.
+- ac01 windows: g0 (p1 268.0-371.5, p2 273.0-352.5) and g1 (p1 372.0-477.0, p2 352.5-478.0) touch but share no event.
+- Cells: ac01 p2 pieces 194, ac24 p2 pieces 478 and ac24 p1 max_combo 13 were proposed twice with the same value (merged).
+  ac01 p1 pieces 196 (g0 skeptic) vs 207 (g1): 196 taken; ac24 p1 pieces 587 (g2) vs 589 (g3): 587 taken (g2 skeptic counted 588 NEXT spawns over the game). Both are checked against the NEXT recount.
+- NEXT recount (nc_compare): ac01 p1 196 -> 182 and ac01 p2 194 -> 183 (both windows' gap pieces were phantoms), ac25 p1 257 -> 253 (clean read). Other differences are one piece or rest on a lost read (ac10 p1, ac24 p2) or a late-starting read (ac13 p2): table kept.
+ac01 p2 478.33 single: removed by dedupe. It is the nextcount unmatched event and pairs with the single at 479.43 (the ~1.1 s phantom pattern); it lies just past the g1 window (ends 478.0), and the p2 score steps run to REN 18 at 482.73.
+Cell edits the corrected events already give (max_combo is recomputed from the events): dropped, so the hand edits carry pieces only.

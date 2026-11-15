@@ -1,0 +1,72 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a00a.png: L clears 2 rows 24.43, board empty, PC banner 24.55; score 11282->15782 (+4500, double+PC, no REN); I at 24.53 placed vertical col 0, +32 only."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a00b.png: green S clears last 2 rows at ~31.05, PC banner 31.15; p1 score 20769 (31.05 frame) -> 25269 single jump. (Checker's '14066' is p2's score, but the jump is real.)"
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a00b.png: HOLD L->T at 31.35, L placed bottom right with no clear; score 25270->25305 drop points only."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a05.png: I from hold placed vertical right column 686.8, board empty, PC 686.9; score 21805->35005 one jump."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a05.png: second I lands flat on empty floor ~687.4, score 35040->35074 drop points; TETRIS banner is lingering, no jump."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a06.png: Z swapped into hold 933.3, I fills last row 933.4, PC banner 933.5; score 11683->14570 (+300+2400+150 REN +drops)."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a06.png: L held at 933.6 (HOLD L), Z placed on empty floor; score 14570->14608->14646 drops only."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a09.png: S held (HOLD J->S 1185.3), J clears 2 rows, PC 1185.5; score 11254->16054 (+4800)."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a09.png: S from hold placed at left wall 1185.8, no clear; 16055->16092 drops only."
+ },
+ {
+  "ref": "e9",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a15.png: J swapped for held L at 1623.7, L clears 3 rows, PC 1623.9; score 655->7555."
+ },
+ {
+  "ref": "e10",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a15.png: T placed on empty floor right ~1624.1-1624.4, no clear; 7555->7593->7631 drops only."
+ },
+ {
+  "ref": "e11",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a35.png: S held (HOLD Z->S), Z soft-dropped clears 2 rows ~1518.65, PC 1518.8; score 11238->15738 (+4500)."
+ },
+ {
+  "ref": "e12",
+  "verdict": "keep",
+  "why": "/tmp/claude-0/sr/corr/fr/v4/a35.png: Z held at 1518.9, S placed vertical left wall, no clear; 15739->15769 drops only."
+ },
+ {
+  "ref": "c0",
+  "verdict": "keep",
+  "why": "Chain's only multi-clear run in ac06 p1 is 932.33 double, 933.17 single, 933.5 phantom. Score: double 932.43 +900 (no REN bonus), PC single +150 REN bonus; with phantom removed the run is 2 clears = max_combo 1."
+ }
+]
