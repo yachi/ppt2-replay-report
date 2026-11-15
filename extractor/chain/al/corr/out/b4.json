@@ -1,0 +1,278 @@
+{
+ "event_corrections": [
+  {
+   "n": 77,
+   "id": "al02",
+   "side": "p1",
+   "op": "retype",
+   "t": 265.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O spawns 265.10, locks 265.2 completing the last 2 rows; score 9490->14140 at 265.23 (+4650, double PC). The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al02.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 77,
+   "id": "al02",
+   "side": "p1",
+   "op": "retype",
+   "t": 265.3,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al02.png. Piece is a real lock, so piece count unchanged."
+  },
+  {
+   "n": 78,
+   "id": "al04",
+   "side": "p1",
+   "op": "retype",
+   "t": 356.3,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "T spawned 356.3 and swapped into HOLD; the S that came out locks ~357.0 completing 2 rows; score 23756->28424 by 357.07 (one jump). Next O (357.2) locks with +36 only. The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al04.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 78,
+   "id": "al04",
+   "side": "p1",
+   "op": "retype",
+   "t": 357.13,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al04.png. Piece is a real lock, so piece count unchanged."
+  },
+  {
+   "n": 79,
+   "id": "al12",
+   "side": "p1",
+   "op": "retype",
+   "t": 647.77,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": "single",
+   "lines": 2,
+   "pc": 1,
+   "gc": 1,
+   "source": "L spawns 647.8 and locks ~647.95; board (2 rows, 12 cells + O + L = 20 cells) empties: a DOUBLE PC, not a single; score 11473->16074 at 648.00 (+4601 = double PC 4500 + drops), no other clear jump 646.3-648.9. Chain had 'single' here; retyped to double. The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al12.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 79,
+   "id": "al12",
+   "side": "p1",
+   "op": "retype",
+   "t": 648.03,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al12.png. Piece is a real lock, so piece count unchanged."
+  },
+  {
+   "n": 80,
+   "id": "al16",
+   "side": "p1",
+   "op": "retype",
+   "t": 856.83,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "O spawns ~856.9 and locks completing 2 rows; score 11270->16070 at 857.00 (one jump). Next J is held and the Z out of hold locks with no clear. The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al16a.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 80,
+   "id": "al16",
+   "side": "p1",
+   "op": "retype",
+   "t": 857.07,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al16a.png. Piece is a real lock, so piece count unchanged."
+  },
+  {
+   "n": 81,
+   "id": "al16",
+   "side": "p1",
+   "op": "retype",
+   "t": 862.83,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 4,
+   "source": "J spawned 862.83 swapped into HOLD; the I out of hold locks vertically ~863.0 clearing 4 rows; score 20119->23753->33353 at 863.10-863.13 (B2B TETRIS + PC, one clear). Next Z swapped with J, J locks ~863.6 with drop points only. The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al16b.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 81,
+   "id": "al16",
+   "side": "p1",
+   "op": "retype",
+   "t": 863.17,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al16b.png. Piece is a real lock, so piece count unchanged."
+  },
+  {
+   "n": 82,
+   "id": "al17",
+   "side": "p1",
+   "op": "retype",
+   "t": 902.37,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 2,
+   "source": "J spawns 902.4, locks ~902.6 completing 2 rows; score ->11978 at 902.67 (one jump). Next I locks ~903.1 at the bottom, +38 only. The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al17.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 82,
+   "id": "al17",
+   "side": "p1",
+   "op": "retype",
+   "t": 902.73,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al17.png. Piece is a real lock, so piece count unchanged."
+  },
+  {
+   "n": 83,
+   "id": "al22",
+   "side": "p1",
+   "op": "retype",
+   "t": 1097.37,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 1,
+   "source": "Z spawned 1097.4 swapped into HOLD; the L out of hold locks vertically ~1097.65 completing 3 rows; score 10965->17865 at 1097.70 (+6900, one jump). Next I swapped with Z; Z locks ~1098.15, drop points only. The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al22.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 83,
+   "id": "al22",
+   "side": "p1",
+   "op": "retype",
+   "t": 1097.77,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al22.png. Piece is a real lock, so piece count unchanged."
+  },
+  {
+   "n": 84,
+   "id": "al25",
+   "side": "p1",
+   "op": "retype",
+   "t": 18.57,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": "double",
+   "lines": 2,
+   "pc": 1,
+   "gc": 0,
+   "source": "T spawned 18.6 swapped into HOLD; the J out of hold locks ~19.05 completing 2 rows; score 951->5601 at 19.10 (+4650, double PC). Next S (19.2) locks ~19.4, +36 only. Video A9WD7IyT8es. The board is empty right after this lock and the PERFECT CLEAR banner follows (/tmp/claude-0/al/corr/fr/g4/al25.png). Score shows ONE clear jump for this PC. gc kept as the larger gc of the real/duplicate pair (not checked on frames)."
+  },
+  {
+   "n": 84,
+   "id": "al25",
+   "side": "p1",
+   "op": "retype",
+   "t": 19.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate log of the PC clear: this piece locks after the board is already empty and the score only rises by drop points (no second clear jump); frames /tmp/claude-0/al/corr/fr/g4/al25.png. Piece is a real lock, so piece count unchanged."
+  }
+ ],
+ "cell_edits": [],
+ "no_change": []
+}

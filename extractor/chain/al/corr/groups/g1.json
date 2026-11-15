@@ -1,0 +1,263 @@
+[
+ {
+  "id": "al22",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.10 s before the KO)",
+  "t_s": 1115.97,
+  "n": 19
+ },
+ {
+  "id": "al23",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.30 s before the KO)",
+  "t_s": 1152.93,
+  "n": 20
+ },
+ {
+  "id": "al24",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 1167.6 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 1168.3 s: fits tsd only",
+  "t_s": 1167.6,
+  "n": 21
+ },
+ {
+  "id": "al25",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "al25",
+   "player": "p1",
+   "t0": 19.07,
+   "t1": 22.8,
+   "step": -1131,
+   "unexplained": -1131,
+   "near": [
+    [
+     18.57,
+     1050,
+     "double"
+    ],
+    [
+     19.17,
+     1200,
+     "double"
+    ],
+    [
+     22.17,
+     2400,
+     "quad"
+    ]
+   ]
+  },
+  "t_s": 19.07,
+  "n": 22
+ },
+ {
+  "id": "al26",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +620 at 78.37 s (KO 79.57 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 78.37,
+  "n": 23
+ },
+ {
+  "id": "al29",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "al29",
+   "player": "p2",
+   "t0": 238.53,
+   "t1": 249.53,
+   "step": -3750,
+   "unexplained": -3750,
+   "near": [
+    [
+     239.17,
+     1650,
+     "single"
+    ],
+    [
+     239.27,
+     1800,
+     "single"
+    ],
+    [
+     249.07,
+     1950,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 238.53,
+  "n": 25
+ },
+ {
+  "id": "al29",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 11.00 s from 239.17 s; B events spliced (D2/D3)",
+  "t_s": 239.17,
+  "n": 26
+ },
+ {
+  "id": "al29",
+  "player": "p1",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "al29",
+   "player": "p1",
+   "t0": 239.26,
+   "t1": 258.16,
+   "step": -5966,
+   "unexplained": -5966,
+   "near": [
+    [
+     239.93,
+     2250,
+     "double"
+    ],
+    [
+     240.07,
+     1800,
+     "single"
+    ],
+    [
+     251.63,
+     2550,
+     "double"
+    ],
+    [
+     252.8,
+     2100,
+     "single"
+    ],
+    [
+     254.63,
+     2250,
+     "single"
+    ],
+    [
+     255.43,
+     2400,
+     "single"
+    ],
+    [
+     256.1,
+     3150,
+     "double"
+    ],
+    [
+     257.13,
+     2700,
+     "single"
+    ],
+    [
+     258.0,
+     2850,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 239.26,
+  "n": 27
+ },
+ {
+  "id": "al29",
+  "player": "p1",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 12.87 s from 239.93 s; B events spliced (D2/D3)",
+  "t_s": 239.93,
+  "n": 28
+ },
+ {
+  "id": "al29",
+  "player": "p2",
+  "field_or_issue": "score_spot",
+  "detail": {
+   "id": "al29",
+   "player": "p2",
+   "t0": 249.53,
+   "t1": 259.23,
+   "step": -1090,
+   "unexplained": -1090,
+   "near": [
+    [
+     249.07,
+     1950,
+     "single"
+    ],
+    [
+     250.17,
+     2100,
+     "single"
+    ],
+    [
+     255.77,
+     2250,
+     "single"
+    ],
+    [
+     256.8,
+     2400,
+     "single"
+    ],
+    [
+     257.9,
+     2550,
+     "single"
+    ],
+    [
+     259.0,
+     300,
+     "single"
+    ]
+   ]
+  },
+  "t_s": 249.53,
+  "n": 29
+ },
+ {
+  "id": "al29",
+  "player": "p2",
+  "field_or_issue": "gap window > 4 s",
+  "detail": "NEXT queue unread/stalled 5.60 s from 250.17 s; B events spliced (D2/D3)",
+  "t_s": 250.17,
+  "n": 30
+ },
+ {
+  "id": "al31",
+  "player": "p1",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsd at 385.1 s typed as a plain clear [tsb-hint-v1] one score jump +5550 at 385.8 s: fits tsd only",
+  "t_s": 385.1,
+  "n": 32
+ },
+ {
+  "id": "al33",
+  "player": "p2",
+  "field_or_issue": "T-spin without a banner",
+  "detail": "A tsmini at 513.1 s typed as a plain clear [tsb-hint-v1] one score jump +769 at 514.0 s: fits both or neither",
+  "t_s": 513.1,
+  "n": 33
+ },
+ {
+  "id": "al38",
+  "player": "p1",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 1.03 s before the KO)",
+  "t_s": 789.8,
+  "n": 36
+ },
+ {
+  "id": "al39",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +76 at 905.8 s (KO 907.27 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 905.8,
+  "n": 37
+ }
+]

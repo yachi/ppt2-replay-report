@@ -1,0 +1,20 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v0/al06.png: J hovering 415.70-415.80, on the stack in locked position at the KO frame 415.83 with score 22668->22702 (+34 hard drop); no clear; next shift 415.967"},
+{"ref":"e1","verdict":"keep","why":"fr/v0/al07.png: Z spawned 445.233 drops at 445.33, bottom-row clear flash from 445.40, well before KO 445.90; score 13240 -> 14028 by 445.90"},
+{"ref":"e2","verdict":"keep","why":"fr/v0/a15s.png: rows unchanged 829.67->829.80 (T at top right, O already spawned), score +300 at 829.77 = zero-line mini at level 3, not 600"},
+{"ref":"e3","verdict":"keep","why":"fr/v0/al13.png: L spawned 684.67 descends in slow motion 685.6-696.6, score flat 16213; locks/clears ~697 (+1350 REN7); nextcount p2 spawns only 684.667, 697.733, 698.533; 698.23 +1526 REN8 single = 697.73 piece; 699.10 triple REN9 matches 698.53"},
+{"ref":"e4","verdict":"keep","why":"fr/v0/al13p1.png: Z hovers 686.2-696.2 (lag), held at 696.17, I out of hold locks 696.33 (+20); no lock in between, score flat 18122; nextcount p1 no spawn 686.167-696.433"},
+{"ref":"e5","verdict":"keep","why":"fr/v0/al16p1.png: J spawned 864.967 descends slowly 866-874, locked by 877.0; next spawn 877.300 only; score flat 33567 865.17-877.40; no pieces at 865.2"},
+{"ref":"e6","verdict":"keep","why":"nextcount p2 spawns 864.367, 866.000, 878.300 only; score 865.73 +1354 (REN7 for 864.37), 877.67 +1500 (REN8 = 866.0 piece), 878.43 +1650 (REN9 = 878.3); 866.1 is a duplicate"},
+{"ref":"e7","verdict":"keep","why":"fr/v0/al22.png: L from hold placed vertical in right column, locks 1097.63 (+36), board empty and PERFECT CLEAR at 1097.70-1097.77, score +6900 at 1097.70"},
+{"ref":"e8","verdict":"keep","why":"fr/v0/al22.png: board already empty after 1097.70; next piece locks with +38 drop points at 1097.97 and no clear score; 1098.27 next +36"},
+{"ref":"c0","verdict":"keep","why":"J lock on KO frame 415.83 (fr/v0/al06.png)"},
+{"ref":"c1","verdict":"keep","why":"Z single ~445.40 before KO (fr/v0/al07.png)"},
+{"ref":"c2","verdict":"keep","why":"consecutive clearing spawns 442.567, 443.467, 444.367, 445.233 (holds between, no plain locks) = 4 clears = REN 3"},
+{"ref":"c3","verdict":"keep","why":"three phantom events 695.77/697.70/697.77 removed; one piece between spawns 684.667 and 698.533 besides 697.733"},
+{"ref":"c4","verdict":"keep","why":"clears 678.17..684.67 (8), 697.73, 698.53, 699.83, 700.77 = 12 consecutive; scores 697.07 REN7, 698.23 REN8, 699.10 REN9, 700.10 REN10 (+1830), 701.73 REN11 (+1982)"},
+{"ref":"c5","verdict":"keep","why":"phantom lock 693.63 removed (fr/v0/al13p1.png)"},
+{"ref":"c6","verdict":"keep","why":"two phantom locks at 865.2 removed (fr/v0/al16p1.png)"},
+{"ref":"c7","verdict":"keep","why":"duplicate 866.1 removed; spawns 866.0 then 878.3"},
+{"ref":"c8","verdict":"keep","why":"REN peaks at 9: 857.27..866.0, 878.3 = 10 consecutive clears; 878.43 +1650 = REN9; 879.1 piece breaks it"}
+]
