@@ -1,0 +1,10 @@
+[
+ {"ref":"e0","verdict":"keep","why":"score.py: 54037 (895.00) -> 59443 (895.80), one jump +5406 = TSD B2B 5400 + drop; a 4-line T-spin is impossible and a TST B2B would be +7200."},
+ {"ref":"e1","verdict":"keep","why":"score.py: single jump 7902->16302 at 1026.53 (+8400), then only +1/+30 drop steps through 1027.13; no second quad-sized jump for the 1026.6 event. Double-logged."},
+ {"ref":"e2","verdict":"keep","why":"score.py: 656->7556 at 1023.80 (+6900, one clear), then 7594/7632/7666 drop points only through 1024.37; the 1023.87 piece cleared nothing."},
+ {"ref":"e3","verdict":"keep","why":"fr/v1/ah18p2.png: T spins in at ~1032.75 with T-SPIN banner, no row removed (stack height and gaps identical 1032.60 vs 1033.05); score +300 at 1032.80 (zero-line mini), not 600."},
+ {"ref":"e4","verdict":"keep","why":"fr/v1/ah31p2.png: T locks ~538.25 in the left slot, row still has gaps, nothing cleared; score 32266->32566 (+300) at 538.30 = zero-line mini. Event at 538.37 is the next piece (J)."},
+ {"ref":"e5","verdict":"keep","why":"fr/v1/ah33.png: L at top 680.00, held by 680.07, S hard-dropped and shown locked at 680.13 (= end_s), clear flash and 5 REN banner at 680.17 as the opponent board tilts. Score 134069 (679.73) -> 135139 (680.57) = +1070 = single 300 + 5 REN 750 + drop. The 4 REN banner at 679.97 is the lingering one from the 679.27 single."},
+ {"ref":"e6","verdict":"keep","why":"score.py: 15918 -> 24318 at 234.67 (+8400) is the only big jump through 235.20 (then +37/+1 drops). Second quad at 234.73 is a double log."},
+ {"ref":"c0","verdict":"keep","why":"The S that locks at 680.13 is a new piece (L was held, not locked; previous piece locked ~679.7 per the score); +1 piece to 207."}
+]

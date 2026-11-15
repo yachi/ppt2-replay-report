@@ -1,0 +1,159 @@
+{
+ "event_corrections": [
+  {
+   "n": 18,
+   "id": "ah15",
+   "side": "p1",
+   "op": "retype",
+   "t": 894.97,
+   "was": [
+    "tst",
+    4,
+    0
+   ],
+   "kind": "tsd",
+   "lines": 2,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/ah15a.png: T into slot, two-row white flash at 895.6, banner 'T-SPIN Double' + BACK to BACK; score 54037->59443 (+5406 = TSD B2B 5400 + drop) at 895.07-895.80. A 4-line T-spin is impossible; the chain's tst/4 is a TSD. Also explains item 17's -1757 (7200 predicted vs 5400)."
+  },
+  {
+   "n": 20,
+   "id": "ah18",
+   "side": "p1",
+   "op": "retype",
+   "t": 1026.6,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/ah18b.png: O spawned 1026.33 was held, I came out and cleared 4 (PERFECT CLEAR) at ~1026.5, one score jump +8400 at 1026.53 (quad 2400 + tetris PC 6000). Piece spawned 1026.6 (T) was held, O came out and locked ~1026.95 with no clear (score +31 drop only). Double-logged quad. Note: the real 1026.33 quad is a PC (pc cluster c11/c12 handles PC flags; not set here)."
+  },
+  {
+   "n": 20,
+   "id": "ah18",
+   "side": "p1",
+   "op": "retype",
+   "t": 1023.87,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/ah18a.png: T spawned 1023.5 held, L came out and cleared 3 (PERFECT CLEAR) at ~1023.75, single jump +6900 at 1023.80 (triple 1500 + PC 5400). The I spawned 1023.87 locked ~1024.07 on the empty board with no clear (score +38 drop). Double-logged triple."
+  },
+  {
+   "n": 21,
+   "id": "ah18",
+   "side": "p2",
+   "op": "retype",
+   "t": 1032.87,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/ah18c.png, fr/g1/ah18d.png: the T (spawned 1032.5) spun in and locked ~1032.76 with a T-SPIN banner but NO row cleared (stack height and column 0 identical before 1032.70 and after 1032.95); score +300 at 1032.84 = zero-line Mini T-spin (100x3), not a Mini TSS (600). The piece at 1032.87 (S) locked with no clear before garbage topped p2 out."
+  },
+  {
+   "n": 29,
+   "id": "ah31",
+   "side": "p2",
+   "op": "retype",
+   "t": 538.37,
+   "was": [
+    "tsmini",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/ah31b.png: T spun into left slot and locked ~538.28 with T-SPIN banner, no row cleared (row with purple/orange still has gaps, height unchanged); score +300 at 538.30 = zero-line Mini T-spin. Piece spawned 538.37 (J) locked ~538.6 with no clear (+14 drop)."
+  },
+  {
+   "n": 30,
+   "id": "ah33",
+   "side": "p1",
+   "op": "add",
+   "t": 680.03,
+   "kind": "single",
+   "lines": 1,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/ah33a.png, fr/g1/ah33b.png: L spawned 680.03, held at 680.10, S came out and locked at 680.13 (= KO frame end_s) clearing one coloured row (flash 680.17, '5 REN' banner); opponent board tilts from 680.17. Score 134069->135139 (+1070) shown at 680.57. Lock on the KO frame counts. REN run 675.13..this = 6 clears (5 REN), csv max_combo 6 already >= 5."
+  },
+  {
+   "n": 25,
+   "id": "ah25",
+   "side": "p1",
+   "op": "retype",
+   "t": 234.73,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "fr/g1/ah25a.png: J spawned 234.47 held, I came out and cleared 4 (PERFECT CLEAR) at ~234.63, one score jump +8400 at 234.67. Piece spawned 234.73 (O) held at 234.833, J came out and locked ~235.0 with no clear (score +37 drop). Double-logged quad worth 3750 of the -3140; remaining ~+610 over 22 s is within drop-point noise. PC flag left to the pc cluster process."
+  }
+ ],
+ "cell_edits": [
+  {
+   "n": 30,
+   "id": "ah33",
+   "player": "p1",
+   "field": "pieces",
+   "was": 206,
+   "value": 207,
+   "source": "S locked at 680.13 (KO frame) with a single clear; fr/g1/ah33b.png"
+  }
+ ],
+ "no_change": [
+  {
+   "n": 17,
+   "why": "Score spot fully explained by item 18 retype (tst/4 -> tsd/2 at 894.97): +5406 at 895.07, +3750 quad REN at 896.23, +1200 double REN at 897.30 all match."
+  },
+  {
+   "n": 19,
+   "why": "ah15 p1: last lock 905.63 (S, no clear); T spawned 905.73 still falling at KO 906.03 and after (fr/g1/ah15ko.png). Nothing to add."
+  },
+  {
+   "n": 23,
+   "why": "ah20 p2 1174.0: banner reads T-SPIN Triple, three-row flash, score +4800 (fr/g1/ah20a.png). TST correct; banner reader misread."
+  },
+  {
+   "n": 27,
+   "why": "ah27 p1: T out of hold at 397.53 still falling (soft drop) at KO 397.63 and after (fr/g1/ah27ko.png). Nothing to add."
+  },
+  {
+   "n": 28,
+   "why": "ah31 p2 535.33: banner T-SPIN Triple, three-row flash, score +4815 (fr/g1/ah31a.png). TST correct."
+  },
+  {
+   "n": 32,
+   "why": "ah37 p2 844.27: banner Triple + BACK to BACK, three-row flash, score +7200 = TST B2B (fr/g1/ah37a.png). Correct."
+  },
+  {
+   "n": 33,
+   "why": "ah38 p2: S spawned 956.46 locks at 956.73 (score +16), two frames after KO 956.67 (fr/g1/ah38ko.png). Does not count."
+  }
+ ]
+}
