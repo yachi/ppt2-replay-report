@@ -1,0 +1,159 @@
+{
+ "event_corrections": [
+  {
+   "n": 23,
+   "id": "aj09",
+   "side": "p2",
+   "op": "retype",
+   "t": 516.23,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Real PERFECT CLEAR: board 3 rows full except col 0; vertical I (taken from hold after S held at 516.33) locks ~516.5, board empty, PC banner from 516.6; p2 score 10981->17881 (+6900 = triple 1500 + PC 5400) at 516.53, no other jump 516.0-516.5. /tmp/claude-0/aj/corr/fr/g2/aj09a.png"
+  },
+  {
+   "n": 23,
+   "id": "aj09",
+   "side": "p2",
+   "op": "retype",
+   "t": 516.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate of the PC triple: the piece spawning 516.6 is the O, which locks on the empty board ~517.0 (score +38 drop only, 17881->17919); no clear until 518.43. /tmp/claude-0/aj/corr/fr/g2/aj09a.png"
+  },
+  {
+   "n": 24,
+   "id": "aj19",
+   "side": "p1",
+   "op": "retype",
+   "t": 114.6,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "L locks at right edge ~114.85 clearing 3 rows, board empty, PERFECT CLEAR banner from 115.0; p1 score 10973->12473->17873 (+1500 triple, +5400 PC) at 114.90-114.93. /tmp/claude-0/aj/corr/fr/g2/aj19a.png"
+  },
+  {
+   "n": 24,
+   "id": "aj19",
+   "side": "p1",
+   "op": "retype",
+   "t": 115.13,
+   "was": [
+    "single",
+    1,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom single: after the PC the S is held and the O placed on the empty floor ~115.4 (score 17873->17878->17908, drop points only); no clear 115.0-116.5. /tmp/claude-0/aj/corr/fr/g2/aj19a.png"
+  },
+  {
+   "n": 25,
+   "id": "aj20",
+   "side": "p1",
+   "op": "retype",
+   "t": 160.5,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": "quad",
+   "lines": 4,
+   "pc": 1,
+   "gc": 0,
+   "source": "Z held at ~160.55, I from hold placed vertical in col 0 ~160.75: TETRIS clearing all 4 rows, board empty, PERFECT CLEAR banner 160.8+; score 5259->22351 at 160.80 in one jump. /tmp/claude-0/aj/corr/fr/g2/aj20a.png"
+  },
+  {
+   "n": 25,
+   "id": "aj20",
+   "side": "p1",
+   "op": "retype",
+   "t": 160.87,
+   "was": [
+    "quad",
+    4,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate quad: T spawned 160.9 is held, Z from hold placed bottom-left on the empty board ~161.15 (score +40 drop only, 22351->22391); TETRIS banner is the lingering one from 160.8. /tmp/claude-0/aj/corr/fr/g2/aj20a.png"
+  },
+  {
+   "n": 25,
+   "id": "aj20",
+   "side": "p1",
+   "op": "retype",
+   "t": 161.17,
+   "was": [
+    "double",
+    2,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Phantom double: O placed at right on near-empty board ~161.45 (score 22393->22427->22465, drops only); no clear until 162.87. /tmp/claude-0/aj/corr/fr/g2/aj20a.png"
+  },
+  {
+   "n": 26,
+   "id": "aj22",
+   "side": "p1",
+   "op": "retype",
+   "t": 257.87,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": "triple",
+   "lines": 3,
+   "pc": 1,
+   "gc": 0,
+   "source": "Vertical J locks ~257.95 clearing 3 rows, board empty, PERFECT CLEAR banner from 258.0; score 10810->17710 (+6900 = triple 1500 + PC 5400) at 258.00. /tmp/claude-0/aj/corr/fr/g2/aj22a.png"
+  },
+  {
+   "n": 26,
+   "id": "aj22",
+   "side": "p1",
+   "op": "retype",
+   "t": 258.07,
+   "was": [
+    "triple",
+    3,
+    0
+   ],
+   "kind": null,
+   "lines": 0,
+   "pc": 0,
+   "gc": 0,
+   "source": "Duplicate triple: the O spawning 258.1 is placed on the empty floor ~258.3 (score +35 drop only, 17711->17746); next clear is the single at 259.13 (+300). /tmp/claude-0/aj/corr/fr/g2/aj22a.png"
+  }
+ ],
+ "cell_edits": [],
+ "no_change": []
+}

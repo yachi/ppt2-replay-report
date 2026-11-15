@@ -1,0 +1,24 @@
+{"event_corrections":[
+ {"n":11,"id":"aj18","side":"p2","op":"replace_window","t":93.40,"t_end":93.40,"events":[],"was_old":[[93.40,null,0],[93.40,null,0],[93.40,null,0]],
+  "source":"I spawned 92.67 and made the TETRIS (flash 93.0-93.4); NEXT queue reads J Z I J Z unchanged from 92.70 to 93.70 and the next spawn is the J at 93.80 (queue -> Z I J Z O). The 'double shift k=3' at 93.30 is the clear flash covering the queue. The three None locks at 93.40 are phantoms. fr/g1/a18.png; nextcount p2 88-97.3: 18 real spawns 89.03-96.57 vs 21 chain events."},
+ {"n":14,"id":"aj20","side":"p1","op":"retype","t":160.50,"was":["quad",4,0],"kind":"quad","lines":4,"pc":1,"gc":0,
+  "source":"Piece spawned 160.50 (next spawn 160.87) is the vertical I in col 0 that clears the last 4 rows: board empty with PERFECT CLEAR banner from 160.80-161.3 (TETRIS banner under it). Score 9045 (159.90) -> 22351 (160.80), +13306. fr/g1/a20.png"},
+ {"n":14,"id":"aj20","side":"p1","op":"retype","t":160.87,"was":["quad",4,0],"kind":null,"lines":0,"pc":0,
+  "source":"Duplicate of the PC tetris: piece spawned 160.87 (T/Z with hold) locks on the empty board, score only +40 (22351->22391 at 161.07, drop points). fr/g1/a20.png"},
+ {"n":14,"id":"aj20","side":"p1","op":"retype","t":161.17,"was":["double",2,0],"kind":null,"lines":0,"pc":0,
+  "source":"O spawned 161.17 drops onto the empty board after the PC; no clear, score rises only by drop points 22391->22617 until the TSD (+5400) at 163.57. fr/g1/a20.png"},
+ {"n":16,"id":"aj24","side":"p1","op":"add","t":367.77,"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"L spawned 367.77 (queue LTIJS>TIJSI) is hard-dropped and locks on the KO frame 368.03: score 95064->95086 (+22 drop points) at 368.03, piece visibly placed bottom right, no clear. fr/g1/a24.png"}
+],
+"cell_edits":[
+ {"n":11,"id":"aj18","player":"p2","field":"pieces","was":56,"value":53,"source":"three phantom locks at 93.40 (see event correction); fr/g1/a18.png"},
+ {"n":16,"id":"aj24","player":"p1","field":"pieces","was":135,"value":136,"source":"KO-frame lock of the L at 368.03 (+22 drop points); fr/g1/a24.png"}
+],
+"no_change":[
+ {"n":15,"why":"aj20 p2 192.13: score 46022 (191.10) -> 46938 (192.63) = +916, a plain double (900 + drops), not a TSD (3600); no banner left of board. fr/g1/a20c.png"},
+ {"n":17,"why":"aj25 p2 403.87: the T spawned 403.87 is twisted in slowly (queue ZIOTJ unchanged 403.9-405.2) and clears 3 rows ~405.1 with a T-SPIN Triple banner at 405.2; score 34930->39730 (+4800 TST). Chain tst is right; the TSS banner is an older one. fr/g1/a25.png"},
+ {"n":18,"why":"aj27 p1: last chain piece (538.20) locked at 538.23 (score 52205); the 538.33 spawn has not locked by the KO at 538.47 (score flat 52205 to 538.57)."},
+ {"n":19,"why":"aj29 p1 627.43: score 50609 -> 55409 at 628.00 = +4800 = TST; the TSS banner is a lingering earlier one."},
+ {"n":21,"why":"aj33 p2 APP 1.52 is real: 31 NEXT shifts match the 31 chain events; score steps show 13 consecutive clears (TSD then singles/triple with REN +150 steps, REN 12 at 786.67 before KO 786.77, 25353->27485), so the high attack is the long REN. fr/g1/a33.png"},
+ {"n":22,"why":"aj34 p1: piece spawned 854.40 only soft-drops (+1/frame to 89502 at 854.53), no hard-drop lock by KO 854.50; score still 89502 at 854.77."}
+]}

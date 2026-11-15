@@ -1,0 +1,6 @@
+[
+ {"ref":"e0","verdict":"keep","why":"nextcount p1: init 508.133 ZOIJL, shifts 508.267 and 508.433 precede the chain's first event 508.73 (I spawn). Score 0->38 at 508.33 and 38->76 at 508.63, no clears. fr/v0/aj09.png 508.2-508.95 shows the Z then the O landing on the empty board before the I."},
+ {"ref":"e1","verdict":"keep","why":"Same evidence: the O (spawned 508.433) lands ~508.6, score 38->76 (fr/v0/aj09.png), before the I the chain logs at 508.73."},
+ {"ref":"e2","verdict":"keep","why":"nextcount p1: shift 787.667 (O slot), hold O 787.700, shift/hold L 788.100. Score +36 787.87 then +6900 787.93 (PC), then +36 788.23 (O from hold, no clear). fr/v0/aj15.png 787.5-788.3: J from hold fills the last cells of 3 rows -> board empty, PERFECT CLEAR banner 788.0; O placed at 788.2 on the empty board. So two locks map to the chain's single 788.0 event; the PC triple belongs on the 787.67 slot and 788.0 is a plain lock."},
+ {"ref":"c0","verdict":"keep","why":"Two opening locks (Z, O) confirmed on frames and score (fr/v0/aj09.png); the chain's 198 events start at the I, so 200 is right."}
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "ref": "e0",
+  "verdict": "keep",
+  "why": "fr/v2/aj09.png: 3 rows full but col 0 at 516.3, vertical I in col 0 516.4-516.5, empty board + PERFECT CLEAR banner from 516.6; score.py p2 10981->17881 (+6900) at 516.53, single jump."
+ },
+ {
+  "ref": "e1",
+  "verdict": "keep",
+  "why": "After the PC: O spawns 516.6 and lands on the empty floor (visible 517.0); p2 score 17881->17919->17957 drops only, no clear until 518.4. Duplicate."
+ },
+ {
+  "ref": "e2",
+  "verdict": "keep",
+  "why": "fr/v2/aj19.png: vertical L drops at right 114.8, board empty 114.9, PERFECT CLEAR 115.0; p1 score 10973->12473->17873 at 114.90-114.93."
+ },
+ {
+  "ref": "e3",
+  "verdict": "keep",
+  "why": "After the PC p1 score 17873->17878->17908->17946 drops only through 116.5; frames 115.0-115.8 show only an O and S/Z placed on the empty floor, no clear. Phantom single."
+ },
+ {
+  "ref": "e4",
+  "verdict": "keep",
+  "why": "fr/v2/aj20.png: 4 rows full but col 0 at 160.6, I from hold dropped vertically col 0 at 160.7, board empty + PERFECT CLEAR at 160.8; p1 score reads 22351 at 160.80 in one jump."
+ },
+ {
+  "ref": "e5",
+  "verdict": "keep",
+  "why": "160.9 T spawns and goes to hold, Z placed bottom-left on empty board ~161.3; score 22351->22392 drops only. TETRIS banner at 161.3 is the PC's lingering banner. Duplicate."
+ },
+ {
+  "ref": "e6",
+  "verdict": "keep",
+  "why": "O placed bottom-right ~161.5 on near-empty board; score 22393->22427->22465 drops only; no clear before 162.87. Phantom double."
+ },
+ {
+  "ref": "e7",
+  "verdict": "keep",
+  "why": "fr/v2/aj22.png: vertical J into the col-4 well at 257.9, board empty + PERFECT CLEAR 258.0; p1 score 10810->17710 (+6900) at 258.00."
+ },
+ {
+  "ref": "e8",
+  "verdict": "keep",
+  "why": "After the PC an O lands at right and a J at left on the empty floor (258.5); score 17711->17746->17784 drops only; next clear is the +300 single at 259.13. Duplicate."
+ }
+]

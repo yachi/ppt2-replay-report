@@ -1,0 +1,9 @@
+[
+{"ref":"e0","verdict":"keep","why":"fr/v1/a18.png 92.90-93.90: I's TETRIS flash 93.0-93.7, NEXT reads J Z I J Z throughout (the 93.30 'k=3 shift' is the flash over the queue), next piece J appears 93.80. nextcount p2 92.0-94.6: shifts 92.10, 92.47, 92.67, [spurious 93.30], 93.80, 94.13, 94.47. The three None locks at 93.40 are phantoms."},
+{"ref":"e1","verdict":"keep","why":"fr/v1/a20.png: Z swapped into hold at ~160.57, I comes out of hold and drops vertically in col 0 (160.62-160.70), clears the last 4 rows; empty board + PERFECT CLEAR banner 160.78-161.28. Score 9045 -> 22351 (+13306) at 160.80, the only big jump in 159.5-163.5."},
+{"ref":"e2","verdict":"keep","why":"T spawned 160.87 is held at 160.93 (hold Z->T), Z drops onto the empty board (red piece bottom-left at 161.28); score 22351 -> 22392 only (drop points)."},
+{"ref":"e3","verdict":"keep","why":"O spawned 161.17 (visible at 161.20-161.28 top); score rises only by 1-34 point steps 22392 -> 22617 until the +5400 TSD at 163.57; no clear."},
+{"ref":"e4","verdict":"keep","why":"fr/v1/a24.png: L spawned 367.77, falls to the right; at 368.03 (KO frame, end_s) it is placed bottom-right with lock sparkle and score 95064 -> 95086 (+22 hard drop); no clear. Counts (at the KO frame)."},
+{"ref":"c0","verdict":"keep","why":"Chain pieces = event count (56); removing the three phantom locks at 93.40 gives 53."},
+{"ref":"c1","verdict":"keep","why":"Chain pieces = event count (135); the L locked on the KO frame 368.03 adds one: 136."}
+]

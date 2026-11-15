@@ -1,0 +1,86 @@
+{
+ "rule_version": [
+  "ko-flat-v1",
+  "tsb-hint-v1"
+ ],
+ "no_change": [
+  {
+   "group": "g0",
+   "n": 0,
+   "id": "aj00",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 15916 at the last spawn (25.87 s) and still 15916 after the KO (25.97 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 1,
+   "id": "aj04",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 67966 at the last spawn (272.33 s) and still 67966 after the KO (272.43 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 2,
+   "id": "aj05",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 149327 at the last spawn (401.04 s) and still 149327 after the KO (401.47 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 6,
+   "id": "aj10",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 28441 at the last spawn (653.96 s) and still 28441 after the KO (654.13 s): nothing locked"
+  },
+  {
+   "group": "g0",
+   "n": 9,
+   "id": "aj15",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 17810 at the last spawn (788.86 s) and still 17810 after the KO (789.63 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 12,
+   "id": "aj18",
+   "player": "p2",
+   "rule": "ko-flat-v1",
+   "why": "score 42375 at the last spawn (96.90 s) and still 42375 after the KO (97.13 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 13,
+   "id": "aj19",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 62516 at the last spawn (142.80 s) and still 62516 after the KO (143.07 s): nothing locked"
+  },
+  {
+   "group": "g1",
+   "n": 20,
+   "id": "aj29",
+   "player": "p1",
+   "rule": "ko-flat-v1",
+   "why": "score 87197 at the last spawn (649.10 s) and still 87197 after the KO (649.23 s): nothing locked"
+  }
+ ],
+ "audit": [
+  {
+   "group": "g1",
+   "n": 18
+  }
+ ],
+ "hints": [
+  {
+   "group": "g1",
+   "n": 15,
+   "hint": "[tsb-hint-v1] score jumps near the clear: []; undecided"
+  }
+ ],
+ "no_ocr": []
+}

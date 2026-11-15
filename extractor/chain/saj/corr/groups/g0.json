@@ -1,0 +1,50 @@
+[
+ {
+  "id": "aj09",
+  "player": "p1",
+  "field_or_issue": "bad bag",
+  "detail": "26 of 29 bags not a permutation (spawn index [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154, 175, 182, 189, 196]); anomalies []",
+  "t_s": 508.27,
+  "n": 3
+ },
+ {
+  "id": "aj09",
+  "player": "p2",
+  "field_or_issue": "banner/type disagreement",
+  "detail": "A clear 3 lines (tst) vs banner T-SPIN Single at 609.4 s",
+  "t_s": 609.4,
+  "n": 4
+ },
+ {
+  "id": "aj09",
+  "player": "p2",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +300 at 614.94 s (KO 616.27 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 614.94,
+  "n": 5
+ },
+ {
+  "id": "aj12",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +74 at 714.96 s (KO 714.67 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 714.96,
+  "n": 7
+ },
+ {
+  "id": "aj15",
+  "player": "p1",
+  "field_or_issue": "KO-tail score jump",
+  "detail": "score +75 at 788.4 s (KO 789.63 s) with no chain clear event (tetrio/cseq.json) matched",
+  "t_s": 788.4,
+  "n": 8
+ },
+ {
+  "id": "aj17",
+  "player": "p2",
+  "field_or_issue": "winner KO piece not counted",
+  "detail": "R/kofinal.py: no clear flash and no next spawn by KO+3 frames; a piece locking on the KO frame would be missed (last spawn 0.57 s before the KO)",
+  "t_s": 59.33,
+  "n": 10
+ }
+]
