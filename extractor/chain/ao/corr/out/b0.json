@@ -1,0 +1,25 @@
+{"event_corrections":[
+ {"n":6,"id":"ao09","side":"p1","op":"retype","t":681.4,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Frames 680.9-681.9 (fr/g0/ao09.png, fr/g0/ao09cmp.png): the T spins into the slot at ~681.1, Mini T-SPIN banner shows, but no row clears (stack height and gaps identical before 681.10 and after 681.45). Score +300 at 681.27 (67115->67415) = zero-line mini T-spin (100x3), not a mini single after the quad (would be 900 B2B). Next lock (I, spawn 681.37) +28 at 681.97, no clear. Zero-line T-spin, so no clear in this window."},
+ {"n":10,"id":"ao12","side":"p1","op":"retype","t":875.63,"was":[null,0,0],"kind":"single","lines":1,"pc":0,"gc":0,
+  "source":"Frames 875.7-877.3 (fr/g0/ao12.png): the Z spawned 875.63 locks at ~876.5 and the bottom (coloured, non-garbage) row flashes and clears at 876.6-876.8 with a REN banner. Score 16632->17100 (+468 = single 300 + REN1 150 + drop) seen at 877.07, then the TSD at 878.40 is +3900 = TSD 3600 (no B2B, broken by this single) + REN2 300. The chain had no clear on this piece."},
+ {"n":13,"id":"ao13","side":"p1","op":"retype","t":1098.8,"was":["tsmini",1,0],"kind":null,"lines":0,"pc":0,"gc":0,
+  "source":"Frames 1099.00 vs 1099.50 (fr/g0/ao13m.png): the T (from hold, swapped at 1098.83) lands flat on the left with a T-SPIN banner, but no row clears; the stack is unchanged apart from the T. Score +300 at 1099.40 (196301->196601) = zero-line mini T-spin, not a mini single (would be 600/900). Zero-line T-spin, no clear."}
+],
+"cell_edits":[],
+"no_change":[
+ {"n":0,"why":"ao03 p1 328.23 is already a plain single in the chain; score climbs +925,+1076,+1226,+1376 at 326.97-329.57 (REN singles, +150 each step); a TSS would be +2400."},
+ {"n":1,"why":"ao03 p1 KO 441.93: Z (spawn 441.03) and S (out of hold after T held at 441.40) locked at 441.23/441.57, both chain events; J spawned 441.67, held 441.73, the T then soft-drops through the KO (score +1/frame to 442.23). No lock at KO."},
+ {"n":2,"why":"ao05 p2 KO 499.87: last lock +32 at 499.57 (piece spawned 499.33, chain event); next piece spawned 499.67 and was still soft-dropping at KO (+1/frame), score flat 14398 after. Nothing to add."},
+ {"n":4,"why":"ao07 p2 KO 602.5: J (601.67) and O (602.23) locked (+20 at 602.30, +16 at 602.53), both chain events; S spawned 602.40 and was held at 602.47, score flat 40540 after the KO. Nothing to add."},
+ {"n":5,"why":"ao08 p2 626.07 tst confirmed: banner reads 'Triple' + BACK to BACK (fr/g0/ao08.png), three rows clear, score +7200 at 626.80 = TST x1.5 B2B."},
+ {"n":7,"why":"ao10 p2 724.4 tst confirmed: banner 'Triple' + BACK to BACK (fr/g0/ao10.png), three rows clear, score +7200 at 725.07."},
+ {"n":8,"why":"ao11 p1: the +1561 is 59128 (848.97) -> 60512 (850.30, the chain single at 849.6, REN) -> 60689 (851.93) = five drop-only locks; the score was unreadable 850.4-851.87. No missed clear."},
+ {"n":9,"why":"ao11 p1 KO 851.97: last spawn Z at 851.87, score flat 60689 through 852.27; no lock by the KO."},
+ {"n":11,"why":"ao13 p2 986.23 single is right: score +300 at 986.53; following quad +2550 (no B2B, REN 1) confirms a plain single, not a TSS."},
+ {"n":12,"why":"ao13 p1 1076.63 already tst in the chain; score +4800 at 1077.23 = TST (non-B2B). Banner reading 'Single' is a misread."},
+ {"n":14,"why":"ao13 p2 1110.07 tst confirmed by score +7200 at 1110.73 (TST B2B)."},
+ {"n":15,"why":"ao13 p1 1114.3 tst confirmed by score +7200 at 1114.90 (TST B2B)."},
+ {"n":16,"why":"ao13 p2 KO 1244.73: L (out of hold, piece spawned 1244.27) locked +4 at 1244.53; S spawned 1244.63, score flat 349425 after KO. Nothing to add."},
+ {"n":17,"why":"ao14 p2 KO 1287.73: J spawned 1287.63 and was held on the KO frame; the I from hold hovers at the top when the game ends (fr/g0/ao14.png). No lock."}
+]}
