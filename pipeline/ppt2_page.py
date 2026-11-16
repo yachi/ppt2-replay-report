@@ -191,7 +191,35 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);font-
 .trend text{fill:var(--muted);font-size:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
 .trend text.cap{fill:var(--ink);font-size:11px;font-weight:600}
 nav.back{font-size:.9rem;margin-bottom:.4rem}
+.tw th:first-child,.tw td:first-child{position:sticky;left:0;z-index:1;background:var(--card)}
+.tw th:first-child{z-index:2}
+details.fold>summary{cursor:pointer;color:var(--accent);font-weight:600;padding:.4rem 0;
+  min-height:44px;display:flex;align-items:center;gap:.4rem}
+details.fold[open]>summary{margin-bottom:.6rem}
+.warn details.fold ul{padding-left:1.2rem}
+@media (max-width:719px){
+  .wrap{padding-top:1.5rem}
+  .warn{padding:.5rem .8rem}
+  .warn ul{padding-left:1.1rem}
+  th,td{padding:.35rem .45rem}
+  .vid{display:none}
+}
 """
+
+#: a long section on a phone: <details open> stays open with no script and on a wide screen; on a
+#: screen narrower than 720px this closes it as the page is parsed, so the page does not run to tens
+#: of thousands of pixels before the per-game table. ONE copy, put after each fold's </details>.
+FOLD_JS = "<script>_fold()</script>"
+HEAD_JS = ("<script>function _fold(){if(matchMedia('(max-width:719px)').matches)"
+           "document.currentScript.previousElementSibling.open=false}</script>")
+
+
+def _fold(summary, inner):
+    return f"<details class='fold' open><summary>{summary}</summary>{inner}</details>{FOLD_JS}"
+
+
+#: fold a section only past this many items; a short list is quicker to scroll than to open
+FOLD_MIN = {"datasets": 3, "cards": 7, "games": 31}
 
 PLAYER_COLS = [("PPS", 3), ("APM", 2), ("VS", 2), ("APP", 3), ("DSP", 3), ("LPM", 2), ("QPM", 2),
                ("TSPM", 2), ("TSDPM", 2), ("QPCT", 1), ("TSPCT", 1), ("RECV", 2)]
@@ -226,6 +254,11 @@ def _game_head(s):
             "<th class='l'>備註</th></tr>")
 
 
+def _game_table(rows, n):
+    table = f"<div class='tw'><table>{rows}</table></div>"
+    return _fold(f"{n} 局（撳開／收埋）", table) if n >= FOLD_MIN["games"] else table
+
+
 def _game_key(g):
     return (g["p1"]["dataset"], g["p1"]["video"], float(g["p1"]["start_s"]))
 
@@ -256,7 +289,7 @@ def _game_row(gid, g, s):
         f"<tr class='{'ex' if ex else ''}'><td class='l'><code>{escape(gid)}</code></td>"
         f"<td class='l'>{escape(_date(p1['dataset']))}</td>"
         f"<td class='l'><a href='{escape(_video(p1))}' target='_blank' rel='noopener'>"
-        f"{escape(p1['video'])} @ {int(float(p1['start_s']) // 60)}:{int(float(p1['start_s']) % 60):02d}</a></td>"
+        f"<span class='vid'>{escape(p1['video'])} @ </span>{int(float(p1['start_s']) // 60)}:{int(float(p1['start_s']) % 60):02d}</a></td>"
         f"<td class='l'>{escape(p2['opponent'] or '（冇讀名）')}</td><td class='l'>{escape(p1['opener'] or '—')}</td>"
         f"<td class='l'>{winner}</td><td>{_fl(t, 1)}</td>{st(p1)}{st(p2)}{pc(p1)}{pc(p2)}"
         f"<td class='l'>{escape('剔除：' + note) if ex else ''}</td></tr>")
@@ -281,8 +314,11 @@ def _warn_box(small, s, datasets):
     checked on ONE dataset is its `dataset_notes` entry, after the 'extra' slot and only on a page
     that shows that dataset, in date order."""
     n = s.note
-    per_ds = "".join(s.dataset_notes[d] for d in sorted(datasets, key=lambda d: (_date(d), d))
-                     if d in s.dataset_notes)
+    ds_notes = [s.dataset_notes[d] for d in sorted(datasets, key=lambda d: (_date(d), d))
+                if d in s.dataset_notes]
+    per_ds = "".join(ds_notes)
+    if len(ds_notes) >= FOLD_MIN["datasets"]:
+        per_ds = "<li>" + _fold(f"逐個資料集嘅備註（{len(ds_notes)} 個）", f"<ul>{per_ds}</ul>") + "</li>"
     return (
         "<div class='warn'><p><strong>點樣讀呢版：</strong></p><ul>"
         "<li><strong>唔係 TETR.IO 數字。</strong>PPT2 嘅攻擊表同 TETR.IO 唔同，APM、VS、APP 唔可以同"
@@ -349,7 +385,7 @@ def render(games, s):
         f"<title>{s.me} PPT2 數據</title>",
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
         f'<meta name="description" content="{escape(s.description)}">',
-        f"<style>{CSS}</style></head><body><div class='wrap'>",
+        f"<style>{CSS}</style>{HEAD_JS}</head><body><div class='wrap'>",
         "<p class='kicker'>PUYO PUYO TETRIS 2 · 影片抽取 · 唔喺證明鏈入面</p>",
         f"<h1>{s.display}PPT2 對戰數據</h1>",
         f"<p>由 <a href='{s.channel}' target='_blank' rel='noopener'>{s.me} 個 YouTube 頻道</a> "
@@ -365,7 +401,8 @@ def render(games, s):
         "Tetris % 同 T-spin % 係佔所有清行次數嘅百分比；T-spin 唔計 Mini。"
         + PC_PLAYER_NOTE + "</p>",
         f"<h2>{s.me} 對每個對手</h2><div class='tw'><table>", "".join(t2), "</table></div>",
-        f"<h2>逐局（{len(games)} 局，連影片）</h2><div class='tw'><table>", "".join(t3), "</table></div>",
+        f"<h2>逐局（{len(games)} 局，連影片）</h2>",
+        _game_table("".join(t3), len(games)),
         _pc_legend(s, {g["p1"]["dataset"] for g in games.values()}),
         "<h2>影片</h2><ul>", vids, "</ul>",
         _footer(s, False),
@@ -507,7 +544,8 @@ def _cards_section(cs, s):
         "<p class='muted'>一張卡 = 同一日、同一個對手打嘅局（上載嗰啲可以橫跨幾條片，逐局表按片排）。日期由資料集嚟：直播係直播當日；"
         "上載係條片上載嘅日子，唔一定係打嘅日子。局數少過 "
         f"{MIN_GAMES} 嘅卡用斜體灰色。PPS、APM、APP 一樣係總和對總和、向下取。</p>",
-        f"<div class='grid'>{grid}</div>",
+        (_fold(f"{len(cs)} 張卡", f"<div class='grid'>{grid}</div>") if len(cs) >= FOLD_MIN["cards"]
+         else f"<div class='grid'>{grid}</div>"),
         f"<h2>{s.me} 逐張卡嘅走勢</h2>",
         "<div class='trend'>", _trend_svg(cs, "APP", 3, f"{s.me} APP（每粒攻擊）"),
         _trend_svg(cs, "PPS", 3, f"{s.me} PPS（每秒粒數）"), "</div>",
@@ -555,7 +593,7 @@ def render_card(games, c, s):
         f"<title>{escape(title)} · PPT2</title>",
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
         f'<meta name="description" content="{escape(title)}：PPT2 對戰數據，由 YouTube 影片逐格抽出。">',
-        f"<style>{CSS}</style></head><body><div class='wrap'>",
+        f"<style>{CSS}</style>{HEAD_JS}</head><body><div class='wrap'>",
         f"<nav class='back'><a href='{s.page}'>← {s.me} PPT2 總覽</a></nav>",
         "<p class='kicker'>PUYO PUYO TETRIS 2 · 影片抽取 · 唔喺證明鏈入面</p>",
         f"<h1>{escape(title)}</h1>",
@@ -564,8 +602,8 @@ def render_card(games, c, s):
         f"{figures}每一局喺下面個表都有影片連結，撳落去直接跳去嗰局開始之前 {LEAD_S} 秒。</p>",
         _warn_box(small, s, {c["dataset"]}),
         table,
-        f"<h2>逐局（{len(c['gids'])} 局，連影片）</h2><div class='tw'><table>", _game_head(s),
-        "".join(_game_row(k, games[k], s) for k in c["gids"]), "</table></div>",
+        f"<h2>逐局（{len(c['gids'])} 局，連影片）</h2>",
+        _game_table(_game_head(s) + "".join(_game_row(k, games[k], s) for k in c["gids"]), len(c["gids"])),
         _pc_legend(s, {c["dataset"]}),
         _footer(s, True),
         "</div></body></html>",
